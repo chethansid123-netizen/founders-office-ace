@@ -1,5 +1,28 @@
 import { createFileRoute } from "@tanstack/react-router";
 import portrait from "@/assets/chethan.jpeg";
+import pMime from "@/assets/personal/mime.jpeg";
+import pCleanup from "@/assets/personal/cleanup.jpeg";
+import pCoats from "@/assets/personal/coats.jpeg";
+import pHomecare from "@/assets/personal/homecare.jpeg";
+import pRide from "@/assets/personal/ride.jpeg";
+import pStall from "@/assets/personal/stall.jpeg";
+import pMbs from "@/assets/personal/mbs.jpeg";
+import pHoney from "@/assets/personal/honey.jpeg";
+import pDog from "@/assets/personal/dog.jpeg";
+import pRun from "@/assets/personal/run.jpeg";
+
+const PERSONAL = [
+  { src: pMime, cap: "Two halves, one operator", note: "Strategy brain · Street-fighter execution" },
+  { src: pRun, cap: "Ran the 10K", note: "MyPragati Founder Run · LVX" },
+  { src: pHomecare, cap: "Home-care field visits", note: "Where empathy meets ops" },
+  { src: pCleanup, cap: "Community cleanup drives", note: "Skin in the game" },
+  { src: pStall, cap: "Selling Ghomedha at the stall", note: "GTM, the hard way" },
+  { src: pHoney, cap: "Forest Raw Honey — shipped", note: "Brand · packaging · sell-through" },
+  { src: pCoats, cap: "White-coat era", note: "Padmashree, Bangalore" },
+  { src: pMbs, cap: "MBS Physiotherapy", note: "Founded · scaled to 1,400+ network" },
+  { src: pRide, cap: "Long rides recharge me", note: "Ghats · Royal Enfield · solitude" },
+  { src: pDog, cap: "Best teammate at home", note: "Calm under chaos" },
+];
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -10,6 +33,7 @@ const NAV = [
   { id: "credentials", label: "Credentials" },
   { id: "skills", label: "Skills" },
   { id: "work", label: "Work" },
+  { id: "personal", label: "Off-Duty" },
   { id: "testimonials", label: "Testimonials" },
   { id: "contact", label: "Contact" },
 ];
@@ -273,10 +297,61 @@ function Index() {
         </div>
       </section>
 
+      {/* PERSONAL — OFF DUTY */}
+      <section id="personal" className="border-b border-border bg-secondary/40">
+        <div className="mx-auto max-w-7xl px-6 py-20 md:py-28">
+          <div className="grid md:grid-cols-12 gap-10 mb-14 items-end">
+            <div className="md:col-span-7">
+              <span className="tag">05 · Off-Duty</span>
+              <h2 className="font-display text-5xl md:text-7xl mt-4 leading-[0.95]">
+                The human behind <span className="italic">the executioner</span>.
+              </h2>
+            </div>
+            <p className="md:col-span-5 text-lg text-muted-foreground leading-relaxed">
+              Decks and dashboards are half the story. The other half? Field visits, founder runs, building from a stall, and the long rides that keep the head clear. This is the operator unplugged.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-5">
+            {PERSONAL.map((p, i) => (
+              <figure
+                key={p.cap}
+                className={`group relative overflow-hidden border border-foreground bg-card hover-lift ${
+                  i === 0 ? "col-span-2 row-span-2" : ""
+                } ${i === 5 ? "md:col-span-2" : ""}`}
+              >
+                <img
+                  src={p.src}
+                  alt={p.cap}
+                  loading="lazy"
+                  className={`w-full ${i === 0 ? "aspect-square" : "aspect-[4/5]"} object-cover grayscale group-hover:grayscale-0 transition-all duration-700`}
+                />
+                <figcaption className="absolute inset-x-0 bottom-0 p-3 md:p-4 bg-gradient-to-t from-foreground/95 via-foreground/70 to-transparent text-background">
+                  <div className="font-display text-lg md:text-2xl leading-tight">{p.cap}</div>
+                  <div className="font-mono text-[10px] md:text-xs uppercase tracking-widest opacity-80 mt-1">{p.note}</div>
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+
+          <div className="mt-14 border-2 border-foreground bg-foreground text-background p-8 md:p-10 flex flex-wrap items-center justify-between gap-6">
+            <div>
+              <div className="font-mono text-xs uppercase tracking-widest opacity-70">The hook</div>
+              <div className="font-display text-3xl md:text-4xl mt-2 max-w-2xl">
+                I don't just <em>plan</em> the work — I show up, get hands dirty, and ship.
+              </div>
+            </div>
+            <a href="#contact" className="px-6 py-4 bg-accent-lime text-foreground font-mono text-xs uppercase tracking-widest hover-lift inline-block whitespace-nowrap">
+              Bring me in →
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* TESTIMONIALS */}
       <section id="testimonials" className="border-b border-border">
         <div className="mx-auto max-w-7xl px-6 py-20 md:py-28">
-          <span className="tag">05 · Testimonials</span>
+          <span className="tag">06 · Testimonials</span>
           <h2 className="font-display text-5xl md:text-6xl mt-4 mb-14">In their words.</h2>
           <div className="grid md:grid-cols-2 gap-6">
             {[
@@ -296,7 +371,7 @@ function Index() {
       {/* CONTACT */}
       <section id="contact" className="grain bg-accent-lime">
         <div className="mx-auto max-w-7xl px-6 py-24 md:py-32 text-center">
-          <span className="tag">06 · Let's build</span>
+          <span className="tag">07 · Let's build</span>
           <h2 className="font-display text-6xl md:text-[10rem] leading-[0.9] mt-6">
             Need an<br/><span className="italic">executioner</span>?
           </h2>
