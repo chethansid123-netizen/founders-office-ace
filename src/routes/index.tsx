@@ -11,6 +11,100 @@ import pHoney from "@/assets/personal/honey.jpeg";
 import pDog from "@/assets/personal/dog.jpeg";
 import pRun from "@/assets/personal/run.jpeg";
 
+import prBrigadier from "@/assets/professional/brigadier.jpeg";
+import prSync from "@/assets/professional/sync.jpeg";
+import prMnnit from "@/assets/professional/mnnit.jpeg";
+import prContent from "@/assets/professional/content.jpeg";
+import prField from "@/assets/professional/field.jpeg";
+import prPitch from "@/assets/professional/pitch.jpeg";
+import prBuild from "@/assets/professional/build.jpeg";
+import prWhiteboard from "@/assets/professional/whiteboard.jpeg";
+import prMentor from "@/assets/professional/mentor.jpeg";
+import prInterview from "@/assets/professional/interview.jpeg";
+
+const ARENA = [
+  {
+    src: prWhiteboard,
+    tag: "First Principles",
+    hook: "Strategy starts on a yellow wall, not a slide.",
+    play: "Decompose the problem → fail-fast loops → MVP from the bottom-up. Carbon credits, comp balance, CEO emotion vs execution — mapped before a single line of code.",
+    proof: "0 → 1 product blueprints in <72 hrs.",
+    cta: "Bring me your messiest problem",
+  },
+  {
+    src: prPitch,
+    tag: "Insight → Narrative",
+    hook: "I don't pitch decks. I pitch behaviour.",
+    play: "207 Gen-Z respondents · 4 buyer-mood segments · qual + quant fused into one slide. 'Coffee = Personality = Vibe' became the wedge — not 'premium beans'.",
+    proof: "Rank 1 / 350+ teams · MNNIT GTM Challenge.",
+    cta: "Need a deck that actually converts?",
+  },
+  {
+    src: prMnnit,
+    tag: "Compete & Win",
+    hook: "Show up. Out-think. Walk out with the certificate.",
+    play: "Renaissance · Risk to Riches — Fish Tank, Game of Stocks, IPL Auction. Different formats, same operating system: study the rules, find the asymmetric bet, double-down.",
+    proof: "Winner — Masters' Union × MNNIT.",
+    cta: "Put me on your hardest sprint",
+  },
+  {
+    src: prMentor,
+    tag: "Founder Access",
+    hook: "Closest to the founder is where execution compounds.",
+    play: "Direct line to founders & operators at Masters' Union. I translate the napkin into the Notion doc, the Notion doc into shipped sprints, the sprint into investor-grade reporting.",
+    proof: "0 → CEO bandwidth restored, week one.",
+    cta: "Free up your CEO's calendar",
+  },
+  {
+    src: prInterview,
+    tag: "Voice of the Operator",
+    hook: "On camera or off — same answer: ship.",
+    play: "Founder interviews, podcast prep, content scripting. I extract the playbook from the founder's head, structure it for an audience, and turn it into a distribution asset.",
+    proof: "10+ long-form sessions produced & distributed.",
+    cta: "Let's productise your founder story",
+  },
+  {
+    src: prContent,
+    tag: "Distribution",
+    hook: "Reach is a metric. So I doubled down.",
+    play: "30+ Reels in 6 months · scripting → shooting → captioning → hooks → CTAs. Iterated on top performers (3.2K, 2.9K views) — killed the dead weight.",
+    proof: "60K+ aggregate views · zero ad spend.",
+    cta: "Scale your founder-led content",
+  },
+  {
+    src: prField,
+    tag: "Primary Research",
+    hook: "Real customers, real malls, real awkward questions.",
+    play: "Street-intercept interviews to validate hypotheses before the deck. The data founders skip — because it's hard — is the data investors trust most.",
+    proof: "200+ field conversations across BLR · GGN.",
+    cta: "Want signal, not survey noise?",
+  },
+  {
+    src: prBuild,
+    tag: "Build Mode",
+    hook: "I don't outsource the prototype. I sit beside it.",
+    play: "Backend auth flows, JWT, SQL schemas — I read the code, debug with the engineer, and make sure the spec ships intact. PM ≠ post-it wrangler.",
+    proof: "3 internal tools shipped end-to-end.",
+    cta: "Need a PM who reads the PRs?",
+  },
+  {
+    src: prSync,
+    tag: "Async Ops",
+    hook: "Bangalore ↔ Gurugram ↔ Dubai. The sun never sets on the workflow.",
+    play: "Daily founder sync, status dashboards, decision logs. Time-zones are an excuse — operating cadence isn't.",
+    proof: "40% faster escalation cycle.",
+    cta: "Install an operating cadence",
+  },
+  {
+    src: prBrigadier,
+    tag: "Stakeholder Range",
+    hook: "From a Brigadier to a 22-yr-old founder — same posture: listen, deliver, follow up.",
+    play: "Defence leaders, hospital chiefs, GPs, fund managers. Different vocabulary, same operating principle: be the most prepared person in the room.",
+    proof: "25+ stakeholder networks built.",
+    cta: "Open the door — I'll close the loop",
+  },
+];
+
 const PERSONAL = [
   { src: pRun, cap: "Ran the 10K", note: "MyPragati Founder Run · LVX", featured: true },
   { src: pHomecare, cap: "Home-care field visits", note: "Where empathy meets ops" },
@@ -32,6 +126,7 @@ const NAV = [
   { id: "credentials", label: "Credentials" },
   { id: "skills", label: "Skills" },
   { id: "work", label: "Work" },
+  { id: "arena", label: "In the Arena" },
   { id: "personal", label: "Off-Duty" },
   { id: "testimonials", label: "Testimonials" },
   { id: "contact", label: "Contact" },
@@ -301,7 +396,7 @@ function Index() {
         <div className="mx-auto max-w-7xl px-6 py-20 md:py-28">
           <div className="grid md:grid-cols-12 gap-10 mb-14 items-end">
             <div className="md:col-span-7">
-              <span className="tag">05 · Off-Duty</span>
+              <span className="tag">06 · Off-Duty</span>
               <h2 className="font-display text-5xl md:text-7xl mt-4 leading-[0.95]">
                 The human behind <span className="italic">the executioner</span>.
               </h2>
@@ -355,7 +450,7 @@ function Index() {
       {/* TESTIMONIALS */}
       <section id="testimonials" className="border-b border-border">
         <div className="mx-auto max-w-7xl px-6 py-20 md:py-28">
-          <span className="tag">06 · Testimonials</span>
+          <span className="tag">07 · Testimonials</span>
           <h2 className="font-display text-5xl md:text-6xl mt-4 mb-14">In their words.</h2>
           <div className="grid md:grid-cols-2 gap-6">
             {[
@@ -375,7 +470,7 @@ function Index() {
       {/* CONTACT */}
       <section id="contact" className="grain bg-accent-lime">
         <div className="mx-auto max-w-7xl px-6 py-24 md:py-32 text-center">
-          <span className="tag">07 · Let's build</span>
+          <span className="tag">08 · Let's build</span>
           <h2 className="font-display text-6xl md:text-[10rem] leading-[0.9] mt-6">
             Need an<br/><span className="italic">executioner</span>?
           </h2>
@@ -396,6 +491,73 @@ function Index() {
           </div>
         </footer>
       </section>
+      {/* ARENA — PROFESSIONAL HOOKS */}
+      <section id="arena" className="border-b border-border">
+        <div className="mx-auto max-w-7xl px-6 py-20 md:py-28">
+          <div className="grid md:grid-cols-12 gap-10 mb-14 items-end">
+            <div className="md:col-span-7">
+              <span className="tag">05 · In the Arena</span>
+              <h2 className="font-display text-5xl md:text-7xl mt-4 leading-[0.95]">
+                How an <span className="italic">executioner</span> actually operates.
+              </h2>
+            </div>
+            <p className="md:col-span-5 text-lg text-muted-foreground leading-relaxed">
+              Each frame is a different room — strategy whiteboard, pitch stage, field intercept, founder sync. Same operator. Same playbook: <em>first principles → bias to ship → double-down on what moves the metric.</em>
+            </p>
+          </div>
+
+          <div className="space-y-6">
+            {ARENA.map((a, i) => (
+              <article
+                key={a.tag}
+                className={`grid md:grid-cols-12 gap-0 border-2 border-foreground bg-card hover-lift overflow-hidden ${
+                  i % 2 === 1 ? "md:[&>figure]:order-2" : ""
+                }`}
+              >
+                <figure className="md:col-span-5 relative bg-foreground">
+                  <img src={a.src} alt={a.hook} loading="lazy" className="w-full h-full aspect-[4/3] md:aspect-auto object-cover" />
+                  <span className="absolute top-4 left-4 bg-accent-lime text-foreground font-mono text-[10px] uppercase tracking-widest px-3 py-1.5 border border-foreground">
+                    0{i + 1} · {a.tag}
+                  </span>
+                </figure>
+                <div className="md:col-span-7 p-7 md:p-10 flex flex-col justify-between gap-6">
+                  <div>
+                    <div className="font-mono text-xs uppercase tracking-widest text-muted-foreground">The hook</div>
+                    <h3 className="font-display text-3xl md:text-4xl leading-[1.05] mt-2">{a.hook}</h3>
+                  </div>
+                  <div className="border-l-4 border-accent-lime pl-5">
+                    <div className="font-mono text-xs uppercase tracking-widest text-muted-foreground">The play</div>
+                    <p className="text-base md:text-lg mt-1 leading-relaxed">{a.play}</p>
+                  </div>
+                  <div className="flex flex-wrap items-center justify-between gap-4 pt-2 border-t border-border">
+                    <div>
+                      <div className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">Proof</div>
+                      <div className="font-display text-xl mt-1">{a.proof}</div>
+                    </div>
+                    <a href="#contact" className="px-5 py-3 bg-foreground text-background font-mono text-xs uppercase tracking-widest hover:bg-accent-lime hover:text-foreground transition-colors whitespace-nowrap">
+                      {a.cta} →
+                    </a>
+                  </div>
+                </div>
+              </article>
+            ))}
+          </div>
+
+          <div className="mt-14 grid md:grid-cols-3 gap-5">
+            {[
+              { k: "First Principles", v: "Strip the problem to atoms. Rebuild from constraints, not opinions." },
+              { k: "Bias to Ship", v: "Working draft on Day 1. Iterate in public. Perfect is the enemy of paid." },
+              { k: "Double-Down", v: "Find the metric that moves. Kill the rest. Compound the winner." },
+            ].map((p) => (
+              <div key={p.k} className="border-2 border-foreground p-6 bg-secondary/40">
+                <div className="font-display text-2xl">{p.k}</div>
+                <p className="text-sm text-muted-foreground mt-2 leading-relaxed">{p.v}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
     </main>
   );
 }
