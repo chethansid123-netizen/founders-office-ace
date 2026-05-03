@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import portrait from "@/assets/chethan.jpeg";
-import pMime from "@/assets/personal/mime.jpeg";
+
 import pCleanup from "@/assets/personal/cleanup.jpeg";
 import pCoats from "@/assets/personal/coats.jpeg";
 import pHomecare from "@/assets/personal/homecare.jpeg";
