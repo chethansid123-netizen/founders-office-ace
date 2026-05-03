@@ -297,6 +297,57 @@ function Index() {
         </div>
       </section>
 
+      {/* PERSONAL — OFF DUTY */}
+      <section id="personal" className="border-b border-border bg-secondary/40">
+        <div className="mx-auto max-w-7xl px-6 py-20 md:py-28">
+          <div className="grid md:grid-cols-12 gap-10 mb-14 items-end">
+            <div className="md:col-span-7">
+              <span className="tag">05 · Off-Duty</span>
+              <h2 className="font-display text-5xl md:text-7xl mt-4 leading-[0.95]">
+                The human behind <span className="italic">the executioner</span>.
+              </h2>
+            </div>
+            <p className="md:col-span-5 text-lg text-muted-foreground leading-relaxed">
+              Decks and dashboards are half the story. The other half? Field visits, founder runs, building from a stall, and the long rides that keep the head clear. This is the operator unplugged.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-5">
+            {PERSONAL.map((p, i) => (
+              <figure
+                key={p.cap}
+                className={`group relative overflow-hidden border border-foreground bg-card hover-lift ${
+                  i === 0 ? "col-span-2 row-span-2" : ""
+                } ${i === 5 ? "md:col-span-2" : ""}`}
+              >
+                <img
+                  src={p.src}
+                  alt={p.cap}
+                  loading="lazy"
+                  className={`w-full ${i === 0 ? "aspect-square" : "aspect-[4/5]"} object-cover grayscale group-hover:grayscale-0 transition-all duration-700`}
+                />
+                <figcaption className="absolute inset-x-0 bottom-0 p-3 md:p-4 bg-gradient-to-t from-foreground/95 via-foreground/70 to-transparent text-background">
+                  <div className="font-display text-lg md:text-2xl leading-tight">{p.cap}</div>
+                  <div className="font-mono text-[10px] md:text-xs uppercase tracking-widest opacity-80 mt-1">{p.note}</div>
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+
+          <div className="mt-14 border-2 border-foreground bg-foreground text-background p-8 md:p-10 flex flex-wrap items-center justify-between gap-6">
+            <div>
+              <div className="font-mono text-xs uppercase tracking-widest opacity-70">The hook</div>
+              <div className="font-display text-3xl md:text-4xl mt-2 max-w-2xl">
+                I don't just <em>plan</em> the work — I show up, get hands dirty, and ship.
+              </div>
+            </div>
+            <a href="#contact" className="px-6 py-4 bg-accent-lime text-foreground font-mono text-xs uppercase tracking-widest hover-lift inline-block whitespace-nowrap">
+              Bring me in →
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* TESTIMONIALS */}
       <section id="testimonials" className="border-b border-border">
         <div className="mx-auto max-w-7xl px-6 py-20 md:py-28">
