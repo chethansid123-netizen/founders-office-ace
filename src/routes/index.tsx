@@ -396,7 +396,7 @@ function Index() {
         <div className="mx-auto max-w-7xl px-6 py-20 md:py-28">
           <div className="grid md:grid-cols-12 gap-10 mb-14 items-end">
             <div className="md:col-span-7">
-              <span className="tag">05 · Off-Duty</span>
+              <span className="tag">06 · Off-Duty</span>
               <h2 className="font-display text-5xl md:text-7xl mt-4 leading-[0.95]">
                 The human behind <span className="italic">the executioner</span>.
               </h2>
@@ -450,7 +450,7 @@ function Index() {
       {/* TESTIMONIALS */}
       <section id="testimonials" className="border-b border-border">
         <div className="mx-auto max-w-7xl px-6 py-20 md:py-28">
-          <span className="tag">06 · Testimonials</span>
+          <span className="tag">07 · Testimonials</span>
           <h2 className="font-display text-5xl md:text-6xl mt-4 mb-14">In their words.</h2>
           <div className="grid md:grid-cols-2 gap-6">
             {[
@@ -470,7 +470,7 @@ function Index() {
       {/* CONTACT */}
       <section id="contact" className="grain bg-accent-lime">
         <div className="mx-auto max-w-7xl px-6 py-24 md:py-32 text-center">
-          <span className="tag">07 · Let's build</span>
+          <span className="tag">08 · Let's build</span>
           <h2 className="font-display text-6xl md:text-[10rem] leading-[0.9] mt-6">
             Need an<br/><span className="italic">executioner</span>?
           </h2>
