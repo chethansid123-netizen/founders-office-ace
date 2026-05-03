@@ -12,8 +12,7 @@ import pDog from "@/assets/personal/dog.jpeg";
 import pRun from "@/assets/personal/run.jpeg";
 
 const PERSONAL = [
-  { src: pMime, cap: "Two halves, one operator", note: "Strategy brain · Street-fighter execution" },
-  { src: pRun, cap: "Ran the 10K", note: "MyPragati Founder Run · LVX" },
+  { src: pRun, cap: "Ran the 10K", note: "MyPragati Founder Run · LVX", featured: true },
   { src: pHomecare, cap: "Home-care field visits", note: "Where empathy meets ops" },
   { src: pCleanup, cap: "Community cleanup drives", note: "Skin in the game" },
   { src: pStall, cap: "Selling Ghomedha at the stall", note: "GTM, the hard way" },
