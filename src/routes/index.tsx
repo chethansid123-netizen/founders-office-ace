@@ -491,6 +491,73 @@ function Index() {
           </div>
         </footer>
       </section>
+      {/* ARENA — PROFESSIONAL HOOKS */}
+      <section id="arena" className="border-b border-border">
+        <div className="mx-auto max-w-7xl px-6 py-20 md:py-28">
+          <div className="grid md:grid-cols-12 gap-10 mb-14 items-end">
+            <div className="md:col-span-7">
+              <span className="tag">05 · In the Arena</span>
+              <h2 className="font-display text-5xl md:text-7xl mt-4 leading-[0.95]">
+                How an <span className="italic">executioner</span> actually operates.
+              </h2>
+            </div>
+            <p className="md:col-span-5 text-lg text-muted-foreground leading-relaxed">
+              Each frame is a different room — strategy whiteboard, pitch stage, field intercept, founder sync. Same operator. Same playbook: <em>first principles → bias to ship → double-down on what moves the metric.</em>
+            </p>
+          </div>
+
+          <div className="space-y-6">
+            {ARENA.map((a, i) => (
+              <article
+                key={a.tag}
+                className={`grid md:grid-cols-12 gap-0 border-2 border-foreground bg-card hover-lift overflow-hidden ${
+                  i % 2 === 1 ? "md:[&>figure]:order-2" : ""
+                }`}
+              >
+                <figure className="md:col-span-5 relative bg-foreground">
+                  <img src={a.src} alt={a.hook} loading="lazy" className="w-full h-full aspect-[4/3] md:aspect-auto object-cover" />
+                  <span className="absolute top-4 left-4 bg-accent-lime text-foreground font-mono text-[10px] uppercase tracking-widest px-3 py-1.5 border border-foreground">
+                    0{i + 1} · {a.tag}
+                  </span>
+                </figure>
+                <div className="md:col-span-7 p-7 md:p-10 flex flex-col justify-between gap-6">
+                  <div>
+                    <div className="font-mono text-xs uppercase tracking-widest text-muted-foreground">The hook</div>
+                    <h3 className="font-display text-3xl md:text-4xl leading-[1.05] mt-2">{a.hook}</h3>
+                  </div>
+                  <div className="border-l-4 border-accent-lime pl-5">
+                    <div className="font-mono text-xs uppercase tracking-widest text-muted-foreground">The play</div>
+                    <p className="text-base md:text-lg mt-1 leading-relaxed">{a.play}</p>
+                  </div>
+                  <div className="flex flex-wrap items-center justify-between gap-4 pt-2 border-t border-border">
+                    <div>
+                      <div className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">Proof</div>
+                      <div className="font-display text-xl mt-1">{a.proof}</div>
+                    </div>
+                    <a href="#contact" className="px-5 py-3 bg-foreground text-background font-mono text-xs uppercase tracking-widest hover:bg-accent-lime hover:text-foreground transition-colors whitespace-nowrap">
+                      {a.cta} →
+                    </a>
+                  </div>
+                </div>
+              </article>
+            ))}
+          </div>
+
+          <div className="mt-14 grid md:grid-cols-3 gap-5">
+            {[
+              { k: "First Principles", v: "Strip the problem to atoms. Rebuild from constraints, not opinions." },
+              { k: "Bias to Ship", v: "Working draft on Day 1. Iterate in public. Perfect is the enemy of paid." },
+              { k: "Double-Down", v: "Find the metric that moves. Kill the rest. Compound the winner." },
+            ].map((p) => (
+              <div key={p.k} className="border-2 border-foreground p-6 bg-secondary/40">
+                <div className="font-display text-2xl">{p.k}</div>
+                <p className="text-sm text-muted-foreground mt-2 leading-relaxed">{p.v}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
     </main>
   );
 }
