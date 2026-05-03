@@ -126,6 +126,7 @@ const NAV = [
   { id: "credentials", label: "Credentials" },
   { id: "skills", label: "Skills" },
   { id: "work", label: "Work" },
+  { id: "arena", label: "In the Arena" },
   { id: "personal", label: "Off-Duty" },
   { id: "testimonials", label: "Testimonials" },
   { id: "contact", label: "Contact" },
