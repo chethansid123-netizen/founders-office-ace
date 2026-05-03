@@ -315,15 +315,20 @@ function Index() {
             {PERSONAL.map((p, i) => (
               <figure
                 key={p.cap}
-                className={`group relative overflow-hidden border border-foreground bg-card hover-lift ${
-                  i === 0 ? "col-span-2 row-span-2" : ""
+                className={`group relative overflow-hidden border bg-card hover-lift ${
+                  p.featured ? "col-span-2 row-span-2 border-4 border-accent-lime ring-2 ring-foreground" : "border-foreground"
                 } ${i === 5 ? "md:col-span-2" : ""}`}
               >
+                {p.featured && (
+                  <div className="absolute top-3 left-3 z-10 bg-accent-lime text-foreground font-mono text-[10px] uppercase tracking-widest px-2 py-1 border border-foreground">
+                    ★ Featured
+                  </div>
+                )}
                 <img
                   src={p.src}
                   alt={p.cap}
                   loading="lazy"
-                  className={`w-full ${i === 0 ? "aspect-square" : "aspect-[4/5]"} object-cover grayscale group-hover:grayscale-0 transition-all duration-700`}
+                  className={`w-full ${p.featured ? "aspect-square" : "aspect-[4/5]"} object-cover transition-transform duration-700 group-hover:scale-105`}
                 />
                 <figcaption className="absolute inset-x-0 bottom-0 p-3 md:p-4 bg-gradient-to-t from-foreground/95 via-foreground/70 to-transparent text-background">
                   <div className="font-display text-lg md:text-2xl leading-tight">{p.cap}</div>
