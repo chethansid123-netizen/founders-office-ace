@@ -11,6 +11,100 @@ import pHoney from "@/assets/personal/honey.jpeg";
 import pDog from "@/assets/personal/dog.jpeg";
 import pRun from "@/assets/personal/run.jpeg";
 
+import prBrigadier from "@/assets/professional/brigadier.jpeg";
+import prSync from "@/assets/professional/sync.jpeg";
+import prMnnit from "@/assets/professional/mnnit.jpeg";
+import prContent from "@/assets/professional/content.jpeg";
+import prField from "@/assets/professional/field.jpeg";
+import prPitch from "@/assets/professional/pitch.jpeg";
+import prBuild from "@/assets/professional/build.jpeg";
+import prWhiteboard from "@/assets/professional/whiteboard.jpeg";
+import prMentor from "@/assets/professional/mentor.jpeg";
+import prInterview from "@/assets/professional/interview.jpeg";
+
+const ARENA = [
+  {
+    src: prWhiteboard,
+    tag: "First Principles",
+    hook: "Strategy starts on a yellow wall, not a slide.",
+    play: "Decompose the problem → fail-fast loops → MVP from the bottom-up. Carbon credits, comp balance, CEO emotion vs execution — mapped before a single line of code.",
+    proof: "0 → 1 product blueprints in <72 hrs.",
+    cta: "Bring me your messiest problem",
+  },
+  {
+    src: prPitch,
+    tag: "Insight → Narrative",
+    hook: "I don't pitch decks. I pitch behaviour.",
+    play: "207 Gen-Z respondents · 4 buyer-mood segments · qual + quant fused into one slide. 'Coffee = Personality = Vibe' became the wedge — not 'premium beans'.",
+    proof: "Rank 1 / 350+ teams · MNNIT GTM Challenge.",
+    cta: "Need a deck that actually converts?",
+  },
+  {
+    src: prMnnit,
+    tag: "Compete & Win",
+    hook: "Show up. Out-think. Walk out with the certificate.",
+    play: "Renaissance · Risk to Riches — Fish Tank, Game of Stocks, IPL Auction. Different formats, same operating system: study the rules, find the asymmetric bet, double-down.",
+    proof: "Winner — Masters' Union × MNNIT.",
+    cta: "Put me on your hardest sprint",
+  },
+  {
+    src: prMentor,
+    tag: "Founder Access",
+    hook: "Closest to the founder is where execution compounds.",
+    play: "Direct line to founders & operators at Masters' Union. I translate the napkin into the Notion doc, the Notion doc into shipped sprints, the sprint into investor-grade reporting.",
+    proof: "0 → CEO bandwidth restored, week one.",
+    cta: "Free up your CEO's calendar",
+  },
+  {
+    src: prInterview,
+    tag: "Voice of the Operator",
+    hook: "On camera or off — same answer: ship.",
+    play: "Founder interviews, podcast prep, content scripting. I extract the playbook from the founder's head, structure it for an audience, and turn it into a distribution asset.",
+    proof: "10+ long-form sessions produced & distributed.",
+    cta: "Let's productise your founder story",
+  },
+  {
+    src: prContent,
+    tag: "Distribution",
+    hook: "Reach is a metric. So I doubled down.",
+    play: "30+ Reels in 6 months · scripting → shooting → captioning → hooks → CTAs. Iterated on top performers (3.2K, 2.9K views) — killed the dead weight.",
+    proof: "60K+ aggregate views · zero ad spend.",
+    cta: "Scale your founder-led content",
+  },
+  {
+    src: prField,
+    tag: "Primary Research",
+    hook: "Real customers, real malls, real awkward questions.",
+    play: "Street-intercept interviews to validate hypotheses before the deck. The data founders skip — because it's hard — is the data investors trust most.",
+    proof: "200+ field conversations across BLR · GGN.",
+    cta: "Want signal, not survey noise?",
+  },
+  {
+    src: prBuild,
+    tag: "Build Mode",
+    hook: "I don't outsource the prototype. I sit beside it.",
+    play: "Backend auth flows, JWT, SQL schemas — I read the code, debug with the engineer, and make sure the spec ships intact. PM ≠ post-it wrangler.",
+    proof: "3 internal tools shipped end-to-end.",
+    cta: "Need a PM who reads the PRs?",
+  },
+  {
+    src: prSync,
+    tag: "Async Ops",
+    hook: "Bangalore ↔ Gurugram ↔ Dubai. The sun never sets on the workflow.",
+    play: "Daily founder sync, status dashboards, decision logs. Time-zones are an excuse — operating cadence isn't.",
+    proof: "40% faster escalation cycle.",
+    cta: "Install an operating cadence",
+  },
+  {
+    src: prBrigadier,
+    tag: "Stakeholder Range",
+    hook: "From a Brigadier to a 22-yr-old founder — same posture: listen, deliver, follow up.",
+    play: "Defence leaders, hospital chiefs, GPs, fund managers. Different vocabulary, same operating principle: be the most prepared person in the room.",
+    proof: "25+ stakeholder networks built.",
+    cta: "Open the door — I'll close the loop",
+  },
+];
+
 const PERSONAL = [
   { src: pRun, cap: "Ran the 10K", note: "MyPragati Founder Run · LVX", featured: true },
   { src: pHomecare, cap: "Home-care field visits", note: "Where empathy meets ops" },
