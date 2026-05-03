@@ -165,7 +165,7 @@ function Index() {
           <div className="md:col-span-5">
             <div className="relative">
               <div className="absolute -inset-3 bg-accent-lime translate-x-3 translate-y-3" />
-              <img src={portrait} alt="Chethan N" className="relative w-full aspect-[4/5] object-cover grayscale hover:grayscale-0 transition-all duration-700" />
+              <img src={portrait} alt="Chethan N" className="relative w-full aspect-[4/5] object-cover" />
               <div className="absolute -bottom-4 -left-4 bg-foreground text-background px-4 py-2 font-mono text-xs uppercase tracking-widest">Chethan N · est. Bangalore</div>
             </div>
           </div>
