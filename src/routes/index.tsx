@@ -1,5 +1,28 @@
 import { createFileRoute } from "@tanstack/react-router";
 import portrait from "@/assets/chethan.jpeg";
+import pMime from "@/assets/personal/mime.jpeg";
+import pCleanup from "@/assets/personal/cleanup.jpeg";
+import pCoats from "@/assets/personal/coats.jpeg";
+import pHomecare from "@/assets/personal/homecare.jpeg";
+import pRide from "@/assets/personal/ride.jpeg";
+import pStall from "@/assets/personal/stall.jpeg";
+import pMbs from "@/assets/personal/mbs.jpeg";
+import pHoney from "@/assets/personal/honey.jpeg";
+import pDog from "@/assets/personal/dog.jpeg";
+import pRun from "@/assets/personal/run.jpeg";
+
+const PERSONAL = [
+  { src: pMime, cap: "Two halves, one operator", note: "Strategy brain · Street-fighter execution" },
+  { src: pRun, cap: "Ran the 10K", note: "MyPragati Founder Run · LVX" },
+  { src: pHomecare, cap: "Home-care field visits", note: "Where empathy meets ops" },
+  { src: pCleanup, cap: "Community cleanup drives", note: "Skin in the game" },
+  { src: pStall, cap: "Selling Ghomedha at the stall", note: "GTM, the hard way" },
+  { src: pHoney, cap: "Forest Raw Honey — shipped", note: "Brand · packaging · sell-through" },
+  { src: pCoats, cap: "White-coat era", note: "Padmashree, Bangalore" },
+  { src: pMbs, cap: "MBS Physiotherapy", note: "Founded · scaled to 1,400+ network" },
+  { src: pRide, cap: "Long rides recharge me", note: "Ghats · Royal Enfield · solitude" },
+  { src: pDog, cap: "Best teammate at home", note: "Calm under chaos" },
+];
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -10,6 +33,7 @@ const NAV = [
   { id: "credentials", label: "Credentials" },
   { id: "skills", label: "Skills" },
   { id: "work", label: "Work" },
+  { id: "personal", label: "Off-Duty" },
   { id: "testimonials", label: "Testimonials" },
   { id: "contact", label: "Contact" },
 ];
