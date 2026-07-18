@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import portrait from "@/assets/chethan.jpeg";
 
 import pCleanup from "@/assets/personal/cleanup.jpeg";
@@ -227,10 +227,17 @@ function Index() {
       <header className="sticky top-0 z-50 backdrop-blur-md bg-background/80 border-b border-border">
         <div className="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
           <a href="#top" className="font-display text-xl">Chethan<span className="text-muted-foreground">.N</span></a>
-          <nav className="hidden md:flex gap-7 text-sm font-mono uppercase tracking-wider">
+          <nav className="hidden md:flex gap-7 text-sm font-mono uppercase tracking-wider items-center">
             {NAV.map((n) => (
               <a key={n.id} href={`#${n.id}`} className="hover:opacity-60 transition-opacity">{n.label}</a>
             ))}
+            <Link to="/dashboard" className="flex items-center gap-1.5 hover:opacity-60 transition-opacity">
+              <span className="relative flex h-1.5 w-1.5">
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[var(--accent-lime)] opacity-75" />
+                <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-[var(--accent-lime)] ring-1 ring-foreground" />
+              </span>
+              Dashboard
+            </Link>
           </nav>
           <a href="mailto:chethansid123@gmail.com" className="tag bg-foreground text-background border-foreground">Hire me →</a>
         </div>
