@@ -21,6 +21,9 @@ compiled to WebAssembly ([PGlite](https://github.com/electric-sql/pglite)), the 
 | `build.cjs` | Assembles everything into one standalone HTML file. |
 | `runner.cjs` | Terminal REPL — same engine, same data, for practising without a browser. |
 | `verify.cjs` | Test suite: data properties, all 60 drill solutions, all 100 reference examples. |
+| `pdf/entries.cjs` | 337 syntax entries — each with a one-line definition and a runnable example. |
+| `pdf/build_pdf.cjs` | Runs every example against real Postgres, then renders the printable PDF. |
+| `pdf/sql-syntax-reference.pdf` | The built 29-page reference. |
 
 ## The database
 
@@ -58,6 +61,18 @@ node build.cjs                 # → dist/sandbox.html
 
 Open `dist/sandbox.html` in any browser. It needs no network connection at runtime
 (the only external request is Google Fonts, which degrades to system fonts).
+
+## Build the printable PDF reference
+
+```bash
+npm i @electric-sql/pglite playwright
+node pdf/build_pdf.cjs        # → pdf/sql-syntax-reference.pdf
+```
+
+A 29-page A4 reference: 337 entries across 28 sections, each one giving the syntax, a
+one-line definition, an example, and **the output that example actually produced**. The
+build executes all 300 examples against the seeded database and fails loudly if any of
+them errors, so the printed results can never drift from reality.
 
 ## Practise in the terminal instead
 

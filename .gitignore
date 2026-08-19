@@ -36,3 +36,4 @@ sql-prep/node_modules/
 sql-prep/dist/
 sql-prep/.build/
 sql-prep/package-lock.json
+sql-prep/pdf/dist/
