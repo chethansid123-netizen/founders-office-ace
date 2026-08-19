@@ -1,0 +1,2781 @@
+<title>Postgres Interview Sandbox</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap">
+
+<style>
+/* ========================= TOKENS: light is the base ========================= */
+:root{
+  --ground:#FBFCFD; --surface:#F2F5F8; --surface-2:#E8EEF4; --raised:#FFFFFF;
+  --ink:#10192A; --ink-2:#3B4760; --muted:#55627A; --faint:#8593AA;
+  --border:#DCE3EC; --border-2:#C6D1DF;
+  --accent:#2A5D8F; --accent-ink:#1D4570; --accent-wash:#E4EDF6;
+  --exec:#B4690E; --exec-wash:#FBF0DC;
+  --ok:#1F6F4A; --ok-wash:#E2F1E9;
+  --bad:#A3282B; --bad-wash:#F8E5E5;
+  --warn:#8A6114; --warn-wash:#FAF0D9;
+  --shadow:0 1px 2px rgba(16,25,42,.06),0 8px 24px rgba(16,25,42,.07);
+  /* SQL syntax colours */
+  --s-kw:#1D4570; --s-fn:#7A3E9D; --s-str:#1F6F4A; --s-num:#A3502B; --s-com:#8593AA; --s-op:#55627A;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ground:#0C1119; --surface:#141B26; --surface-2:#1B2431; --raised:#161E2A;
+    --ink:#DEE6F0; --ink-2:#B7C3D4; --muted:#8C9AB2; --faint:#66748C;
+    --border:#232E3E; --border-2:#31404F;
+    --accent:#6FA8DC; --accent-ink:#9AC5EC; --accent-wash:#16273A;
+    --exec:#E0A33E; --exec-wash:#2E2412;
+    --ok:#4FBF87; --ok-wash:#122A20;
+    --bad:#E4736F; --bad-wash:#2E1718;
+    --warn:#D7AC52; --warn-wash:#2A2313;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
+    --s-kw:#7FB4E8; --s-fn:#C79BE8; --s-str:#6FCF9C; --s-num:#E8A87C; --s-com:#66748C; --s-op:#9AA8BF;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#0C1119; --surface:#141B26; --surface-2:#1B2431; --raised:#161E2A;
+  --ink:#DEE6F0; --ink-2:#B7C3D4; --muted:#8C9AB2; --faint:#66748C;
+  --border:#232E3E; --border-2:#31404F;
+  --accent:#6FA8DC; --accent-ink:#9AC5EC; --accent-wash:#16273A;
+  --exec:#E0A33E; --exec-wash:#2E2412;
+  --ok:#4FBF87; --ok-wash:#122A20;
+  --bad:#E4736F; --bad-wash:#2E1718;
+  --warn:#D7AC52; --warn-wash:#2A2313;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
+  --s-kw:#7FB4E8; --s-fn:#C79BE8; --s-str:#6FCF9C; --s-num:#E8A87C; --s-com:#66748C; --s-op:#9AA8BF;
+}
+
+*{box-sizing:border-box;}
+body{
+  margin:0; background:var(--ground); color:var(--ink);
+  font-family:"Source Sans 3",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-size:16.5px; line-height:1.65; -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,h4{font-family:"Zilla Slab",Georgia,serif; text-wrap:balance; margin:0; line-height:1.2;}
+code,pre,.mono{font-family:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;}
+
+/* ========================= APP SHELL ========================= */
+.shell{display:grid; grid-template-columns:288px minmax(0,1fr); min-height:100vh;}
+.sidebar{
+  grid-column:1; border-right:1px solid var(--border); background:var(--surface);
+  position:sticky; top:0; height:100vh; overflow-y:auto; padding:20px 0 40px;
+}
+.main{grid-column:2; min-width:0; padding:0 0 var(--console-h,320px);}
+.wrap{max-width:960px; margin:0 auto; padding:0 32px;}
+.prose{max-width:68ch;}
+
+/* ---- sidebar ---- */
+.brand{padding:0 20px 16px; border-bottom:1px solid var(--border); margin-bottom:14px;}
+.brand h1{font-size:19px; font-weight:700; letter-spacing:-.01em;}
+.brand .sub{font-size:12.5px; color:var(--muted); margin-top:3px; font-variant-numeric:tabular-nums;}
+.navsec{padding:0 12px;}
+.navsec > .navlabel{
+  font-size:10.5px; letter-spacing:.13em; text-transform:uppercase; color:var(--faint);
+  padding:14px 8px 6px; font-weight:700;
+}
+.nav a{
+  display:flex; gap:9px; align-items:baseline; padding:5px 8px; border-radius:6px;
+  color:var(--ink-2); text-decoration:none; font-size:14.2px; line-height:1.35;
+}
+.nav a:hover{background:var(--surface-2); color:var(--ink);}
+.nav a.on{background:var(--accent-wash); color:var(--accent-ink); font-weight:600;}
+.nav a .n{
+  font-family:"JetBrains Mono",monospace; font-size:11px; color:var(--faint);
+  font-variant-numeric:tabular-nums; flex:none; padding-top:1px;
+}
+.nav a.on .n{color:var(--accent);}
+
+/* ---- schema browser ---- */
+.schema{padding:6px 20px 0; font-size:13px;}
+.schema details{margin-bottom:2px;}
+.schema summary{
+  cursor:pointer; padding:3px 0; color:var(--ink-2); font-weight:600;
+  font-family:"JetBrains Mono",monospace; font-size:12.5px; list-style:none;
+}
+.schema summary::-webkit-details-marker{display:none;}
+.schema summary::before{content:"▸ "; color:var(--faint);}
+.schema details[open] > summary::before{content:"▾ ";}
+.schema .cols{padding:2px 0 6px 14px; color:var(--muted); font-size:11.8px; line-height:1.55;}
+.schema .cols div{white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.schema .cols .t{color:var(--faint);}
+.schema .pk{color:var(--exec); font-weight:700;}
+
+/* ========================= HEADER / HERO ========================= */
+.hero{border-bottom:1px solid var(--border); background:var(--surface); padding:38px 0 30px; margin-bottom:8px;}
+.hero h2{font-size:clamp(28px,3.6vw,40px); font-weight:700; letter-spacing:-.02em;}
+.hero p{color:var(--muted); max-width:64ch; margin:10px 0 0;}
+.hero .meta{display:flex; flex-wrap:wrap; gap:8px; margin-top:18px;}
+.chip{
+  font-size:12px; padding:4px 10px; border-radius:99px; border:1px solid var(--border-2);
+  background:var(--raised); color:var(--ink-2); font-weight:600;
+}
+.chip.live{border-color:var(--ok); color:var(--ok); background:var(--ok-wash);}
+
+/* ========================= SECTIONS ========================= */
+.part{padding:44px 0 8px; scroll-margin-top:12px;}
+.part-head{display:flex; gap:14px; align-items:baseline; border-bottom:2px solid var(--ink); padding-bottom:8px; margin-bottom:6px;}
+.part-head .num{
+  font-family:"JetBrains Mono",monospace; font-size:13px; font-weight:700; color:var(--exec);
+  font-variant-numeric:tabular-nums; flex:none;
+}
+.part-head h2{font-size:26px; font-weight:700; letter-spacing:-.015em;}
+.part-intro{color:var(--muted); margin:12px 0 0; max-width:68ch;}
+
+.topic{padding:26px 0 6px; border-bottom:1px solid var(--border); scroll-margin-top:12px;}
+.topic:last-child{border-bottom:none;}
+.topic > h3{font-size:19.5px; font-weight:600; margin-bottom:8px; letter-spacing:-.01em;}
+.topic p{margin:9px 0; max-width:68ch;}
+.topic ul,.topic ol{max-width:68ch; padding-left:22px; margin:9px 0;}
+.topic li{margin:5px 0;}
+
+/* ---- the four-part anatomy ---- */
+.lab{
+  font-size:10.5px; letter-spacing:.13em; text-transform:uppercase; font-weight:700;
+  color:var(--faint); margin:16px 0 6px; display:flex; align-items:center; gap:8px;
+}
+.lab::after{content:""; flex:1; height:1px; background:var(--border);}
+.lab.syn{color:var(--accent);} .lab.ex{color:var(--exec);} .lab.trap{color:var(--bad);}
+
+.trap{
+  border-left:3px solid var(--bad); background:var(--bad-wash); padding:11px 15px;
+  border-radius:0 7px 7px 0; margin:12px 0; font-size:15.3px;
+}
+.trap b{color:var(--bad);}
+.note{
+  border-left:3px solid var(--accent); background:var(--accent-wash); padding:11px 15px;
+  border-radius:0 7px 7px 0; margin:12px 0; font-size:15.3px;
+}
+.note b{color:var(--accent-ink);}
+.win{
+  border-left:3px solid var(--ok); background:var(--ok-wash); padding:11px 15px;
+  border-radius:0 7px 7px 0; margin:12px 0; font-size:15.3px;
+}
+.win b{color:var(--ok);}
+
+/* ---- code ---- */
+.code{position:relative; margin:10px 0; border:1px solid var(--border); border-radius:9px; background:var(--raised); overflow:hidden;}
+.code pre{
+  margin:0; padding:13px 15px; overflow-x:auto; font-size:13.4px; line-height:1.62;
+  color:var(--ink); tab-size:2;
+}
+.code.syntax{background:var(--surface); border-style:dashed; border-color:var(--border-2);}
+.code .runbar{
+  display:flex; justify-content:flex-end; gap:6px; padding:6px 8px;
+  border-top:1px solid var(--border); background:var(--surface);
+}
+button.run{
+  font-family:"Source Sans 3",sans-serif; font-size:12.4px; font-weight:700; cursor:pointer;
+  border:1px solid var(--exec); color:var(--exec); background:var(--exec-wash);
+  padding:4px 12px; border-radius:6px; letter-spacing:.01em;
+}
+button.run:hover{background:var(--exec); color:var(--ground);}
+button.run:focus-visible,button:focus-visible,a:focus-visible,summary:focus-visible,textarea:focus-visible{
+  outline:2px solid var(--accent); outline-offset:2px;
+}
+.tok-kw{color:var(--s-kw); font-weight:700;} .tok-fn{color:var(--s-fn);}
+.tok-str{color:var(--s-str);} .tok-num{color:var(--s-num);}
+.tok-com{color:var(--s-com); font-style:italic;} .tok-op{color:var(--s-op);}
+
+/* ---- inline code ---- */
+p code,li code,td code,.trap code,.note code,.win code,summary code{
+  background:var(--surface-2); padding:1px 5px; border-radius:4px; font-size:.87em; color:var(--accent-ink);
+}
+:root[data-theme="dark"] p code,:root[data-theme="dark"] li code{color:var(--accent-ink);}
+
+/* ---- tables ---- */
+.tbl{overflow-x:auto; margin:12px 0; border:1px solid var(--border); border-radius:9px;}
+table{border-collapse:collapse; width:100%; font-size:14px;}
+th,td{text-align:left; padding:7px 12px; border-bottom:1px solid var(--border); vertical-align:top;}
+th{background:var(--surface); font-weight:700; font-size:12.4px; letter-spacing:.03em; text-transform:uppercase; color:var(--ink-2); white-space:nowrap;}
+tbody tr:last-child td{border-bottom:none;}
+td.mono,th.mono{font-family:"JetBrains Mono",monospace; font-size:13px; font-variant-numeric:tabular-nums;}
+
+/* ========================= CONSOLE (docked) ========================= */
+.console{
+  position:fixed; left:288px; right:0; bottom:0; height:320px; z-index:60;
+  background:var(--raised); border-top:1px solid var(--border-2); box-shadow:var(--shadow);
+  display:flex; flex-direction:column;
+}
+.console.min{height:42px;}
+.chead{
+  display:flex; align-items:center; gap:10px; padding:0 12px; height:42px; flex:none;
+  border-bottom:1px solid var(--border); background:var(--surface); cursor:ns-resize; user-select:none;
+}
+.chead .ttl{font-family:"Zilla Slab",serif; font-weight:600; font-size:14.5px;}
+.chead .stat{font-size:12px; color:var(--muted); font-family:"JetBrains Mono",monospace; font-variant-numeric:tabular-nums;}
+.chead .sp{flex:1;}
+.cbtn{
+  font-family:"Source Sans 3",sans-serif; font-size:12.3px; font-weight:600; cursor:pointer;
+  border:1px solid var(--border-2); background:var(--raised); color:var(--ink-2);
+  padding:4px 10px; border-radius:6px;
+}
+.cbtn:hover{border-color:var(--accent); color:var(--accent);}
+.cbtn.primary{background:var(--accent); border-color:var(--accent); color:#fff; font-weight:700;}
+:root[data-theme="dark"] .cbtn.primary{color:#0C1119;}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .cbtn.primary{color:#0C1119;}}
+.cbody{flex:1; display:grid; grid-template-columns:minmax(0,42%) minmax(0,58%); min-height:0;}
+.console.min .cbody{display:none;}
+#editor{
+  border:none; resize:none; outline:none; padding:11px 13px; width:100%; height:100%;
+  font-family:"JetBrains Mono",monospace; font-size:13.3px; line-height:1.6;
+  background:var(--raised); color:var(--ink); border-right:1px solid var(--border);
+}
+.cout{overflow:auto; padding:0; min-width:0; background:var(--ground);}
+.cout .msg{padding:11px 14px; font-size:13.4px; font-family:"JetBrains Mono",monospace;}
+.cout .msg.err{color:var(--bad); background:var(--bad-wash); white-space:pre-wrap;}
+.cout .msg.ok{color:var(--ok);}
+.cout .msg.hint{color:var(--muted);}
+.grid{width:100%; border-collapse:collapse; font-family:"JetBrains Mono",monospace; font-size:12.6px;}
+.grid th{position:sticky; top:0; background:var(--surface); z-index:1; text-transform:none; letter-spacing:0; font-size:12px; border-bottom:1px solid var(--border-2);}
+.grid td{border-bottom:1px solid var(--border); white-space:nowrap; font-variant-numeric:tabular-nums;}
+.grid td.null{color:var(--faint); font-style:italic;}
+.grid tbody tr:hover{background:var(--surface);}
+
+/* ========================= PRACTICE ========================= */
+.drill{border:1px solid var(--border); border-radius:10px; margin:14px 0; background:var(--raised); overflow:hidden;}
+.dhead{display:flex; gap:11px; align-items:baseline; padding:12px 15px; cursor:pointer; list-style:none;}
+.dhead::-webkit-details-marker{display:none;}
+.drill summary:hover{background:var(--surface);}
+.dhead .id{font-family:"JetBrains Mono",monospace; font-size:11.5px; font-weight:700; color:var(--faint); flex:none;}
+.dhead .q{flex:1; font-weight:600; font-size:15.6px;}
+.lvl{font-size:10.5px; font-weight:700; padding:2px 8px; border-radius:99px; letter-spacing:.06em; text-transform:uppercase; flex:none;}
+.lvl.e{background:var(--ok-wash); color:var(--ok);}
+.lvl.m{background:var(--warn-wash); color:var(--warn);}
+.lvl.h{background:var(--bad-wash); color:var(--bad);}
+.dbody{padding:0 15px 14px; border-top:1px solid var(--border);}
+
+/* ========================= MOBILE ========================= */
+.mobar{display:none;}
+@media (max-width:1000px){
+  .shell{grid-template-columns:1fr;}
+  .sidebar{
+    position:fixed; left:0; top:0; width:280px; z-index:80; transform:translateX(-100%);
+    transition:transform .22s ease; box-shadow:var(--shadow);
+  }
+  .sidebar.open{transform:none;}
+  .main{grid-column:1;}
+  .console{left:0;}
+  .mobar{
+    display:flex; align-items:center; gap:10px; position:sticky; top:0; z-index:70;
+    background:var(--surface); border-bottom:1px solid var(--border); padding:8px 14px;
+  }
+  .mobar .t{font-family:"Zilla Slab",serif; font-weight:700; font-size:15px; flex:1;}
+  .scrim{position:fixed; inset:0; background:rgba(8,12,20,.5); z-index:79; display:none;}
+  .scrim.on{display:block;}
+  .wrap{padding:0 18px;}
+  .cbody{grid-template-columns:1fr; grid-template-rows:minmax(0,44%) minmax(0,56%);}
+  #editor{border-right:none; border-bottom:1px solid var(--border);}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important; animation:none!important;}}
+</style>
+
+<div class="scrim" id="scrim"></div>
+
+<div class="shell">
+<!-- ============================ SIDEBAR ============================ -->
+<aside class="sidebar" id="sidebar">
+  <div class="brand">
+    <h1>Postgres Interview Sandbox</h1>
+    <div class="sub" id="brandsub">real PostgreSQL, in this page</div>
+  </div>
+
+  <div class="navsec">
+    <div class="navlabel">Foundations</div>
+    <nav class="nav">
+      <a href="#p00"><span class="n">00</span><span>How SQL thinks</span></a>
+      <a href="#p01"><span class="n">01</span><span>Syntax anatomy &amp; punctuation</span></a>
+      <a href="#p02"><span class="n">02</span><span>Data types</span></a>
+    </nav>
+    <div class="navlabel">Building &amp; changing</div>
+    <nav class="nav">
+      <a href="#p03"><span class="n">03</span><span>DDL — CREATE, ALTER, DROP</span></a>
+      <a href="#p04"><span class="n">04</span><span>DML — INSERT, UPDATE, DELETE</span></a>
+    </nav>
+    <div class="navlabel">Querying</div>
+    <nav class="nav">
+      <a href="#p05"><span class="n">05</span><span>SELECT &amp; FROM</span></a>
+      <a href="#p06"><span class="n">06</span><span>WHERE — filtering</span></a>
+      <a href="#p07"><span class="n">07</span><span>NULL &amp; three-valued logic</span></a>
+      <a href="#p08"><span class="n">08</span><span>Expressions, CASE &amp; functions</span></a>
+      <a href="#p09"><span class="n">09</span><span>GROUP BY &amp; aggregates</span></a>
+      <a href="#p10"><span class="n">10</span><span>HAVING</span></a>
+      <a href="#p11"><span class="n">11</span><span>ORDER BY, LIMIT, OFFSET</span></a>
+      <a href="#p12"><span class="n">12</span><span>JOINs</span></a>
+      <a href="#p13"><span class="n">13</span><span>Set operations</span></a>
+      <a href="#p14"><span class="n">14</span><span>Subqueries &amp; correlated</span></a>
+      <a href="#p15"><span class="n">15</span><span>CTEs &amp; recursive CTEs</span></a>
+      <a href="#p16"><span class="n">16</span><span>Window functions</span></a>
+    </nav>
+    <div class="navlabel">Beyond the query</div>
+    <nav class="nav">
+      <a href="#p17"><span class="n">17</span><span>Interview patterns</span></a>
+      <a href="#p18"><span class="n">18</span><span>Design &amp; normalization</span></a>
+      <a href="#p19"><span class="n">19</span><span>Indexes &amp; performance</span></a>
+      <a href="#p20"><span class="n">20</span><span>Transactions &amp; isolation</span></a>
+      <a href="#p21"><span class="n">21</span><span>Views, procedures, triggers</span></a>
+      <a href="#p22"><span class="n">22</span><span>Dialect cheat sheet</span></a>
+    </nav>
+    <div class="navlabel">Practice</div>
+    <nav class="nav">
+      <a href="#p23"><span class="n">23</span><span>Practice drills</span></a>
+      <a href="#p24"><span class="n">24</span><span>Interview playbook</span></a>
+    </nav>
+    <div class="navlabel">Tables in this database</div>
+    <div class="schema" id="schema"></div>
+  </div>
+</aside>
+
+<!-- ============================ MAIN ============================ -->
+<main class="main">
+<div class="mobar">
+  <button class="cbtn" id="menubtn" aria-label="Open contents">☰ Contents</button>
+  <span class="t">Postgres Sandbox</span>
+</div>
+
+<header class="hero">
+  <div class="wrap">
+    <h2>Everything you need for a SQL interview, in one page</h2>
+    <p>A complete PostgreSQL reference — logic, syntax, worked example and the trap for every clause —
+       wired to a <strong>real PostgreSQL database running inside this page</strong>. Every example below has a
+       <b>Run</b> button. Nothing is simulated, nothing is installed, and it keeps working offline.</p>
+    <div class="meta">
+      <span class="chip live" id="enginechip">● starting PostgreSQL…</span>
+      <span class="chip">7 tables · 48 orders · 119 line items</span>
+      <span class="chip">25 parts</span>
+      <span class="chip">60 graded drills</span>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+<!-- ==================== PART 00 ==================== -->
+<section class="part" id="p00">
+  <div class="part-head"><span class="num">00</span><h2>How SQL thinks</h2></div>
+  <p class="part-intro">If you learn only one thing before the interview, learn this part. Almost every
+  "why doesn't this work?" question has its answer here.</p>
+
+  <div class="topic">
+    <h3>SQL is a description, not a set of steps</h3>
+    <p>In Python or Java you tell the machine <em>how</em> to get the answer: loop over rows, keep a counter,
+    append to a list. In SQL you describe <em>what</em> the answer looks like, and the database decides how to get it.</p>
+    <p>So stop thinking "for each row…". Start thinking <strong>"I have a table. I filter it. I fold it into groups.
+    I filter the groups. I sort. I take the top N."</strong> Every query is that pipeline, in some combination.</p>
+    <p>The unit you work with is the <strong>result set</strong>: a table in, a table out. That is why a query can be
+    nested inside another query — the inside one produces a table, and tables are what SQL consumes.</p>
+  </div>
+
+  <div class="topic" id="exec-order">
+    <h3>The logical order of execution — the single most useful thing you know</h3>
+    <p>You <em>write</em> a query in one order. The database <em>evaluates</em> it in a different order.
+    Nearly every beginner error comes from confusing the two.</p>
+
+    <div class="lab">You write it in this order</div>
+    <div class="code syntax"><pre>SELECT   ...
+FROM     ...
+WHERE    ...
+GROUP BY ...
+HAVING   ...
+ORDER BY ...
+LIMIT    ...</pre></div>
+
+    <div class="lab syn">It runs in this order</div>
+    <div class="code syntax"><pre>1.  FROM         pick the starting table
+2.  JOIN / ON    attach other tables, build the combined row set
+3.  WHERE        throw away individual ROWS you don't want
+4.  GROUP BY     fold the surviving rows into one row per group
+5.  HAVING       throw away whole GROUPS you don't want
+6.  SELECT       compute the output columns (and window functions)
+7.  DISTINCT     remove duplicate output rows
+8.  ORDER BY     sort the final rows
+9.  LIMIT/OFFSET keep only a slice</pre></div>
+
+    <p>Read that list top to bottom and three notorious interview questions answer themselves:</p>
+
+    <div class="note"><b>Why can't I use a SELECT alias in WHERE?</b><br>
+    Because <code>WHERE</code> runs at step 3 and <code>SELECT</code> at step 6. When <code>WHERE</code> is evaluated
+    the alias does not exist yet. But <code>ORDER BY</code> (step 8) runs <em>after</em> <code>SELECT</code>, which is
+    exactly why <code>ORDER BY my_alias</code> <em>is</em> allowed.</div>
+
+    <div class="note"><b>Why is <code>WHERE</code> different from <code>HAVING</code>?</b><br>
+    <code>WHERE</code> filters rows <em>before</em> grouping (step 3). <code>HAVING</code> filters groups
+    <em>after</em> grouping (step 5). That is the whole difference. See <a href="#p10">Part 10</a>.</div>
+
+    <div class="note"><b>Why can't I put a window function in <code>WHERE</code>?</b><br>
+    Window functions are computed at step 6, inside <code>SELECT</code>. <code>WHERE</code> at step 3 runs earlier,
+    so the value doesn't exist yet. Wrap the query in a CTE and filter outside. See <a href="#p16">Part 16</a>.</div>
+
+    <p>Run this to see the pipeline in one query — each clause is labelled with the step it belongs to:</p>
+    <div class="code"><pre>SELECT   c.country,                                  -- 6. computed last
+         COUNT(*)        AS order_count,              -- 6.
+         SUM(oi.line_total) AS revenue                -- 6.
+FROM     orders o                                    -- 1. start here
+JOIN     customers   c  ON c.cust_id  = o.cust_id    -- 2. attach
+JOIN     order_items oi ON oi.order_id = o.order_id  -- 2. attach
+WHERE    o.status = 'completed'                      -- 3. drop rows
+GROUP BY c.country                                   -- 4. fold into groups
+HAVING   SUM(oi.line_total) > 20000                  -- 5. drop groups
+ORDER BY revenue DESC                                -- 8. alias IS allowed here
+LIMIT    5;                                          -- 9. slice</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>Rows, columns, and "grain" — the word that saves you</h3>
+    <p><strong>Grain</strong> means: what does one row of this result represent? Say it out loud before you write anything.</p>
+    <div class="tbl"><table>
+      <thead><tr><th>Table / result</th><th>One row means…</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">customers</td><td>one customer</td></tr>
+        <tr><td class="mono">orders</td><td>one order</td></tr>
+        <tr><td class="mono">order_items</td><td>one <em>product line</em> within one order</td></tr>
+        <tr><td class="mono">orders JOIN order_items</td><td>one product line (the order columns now <em>repeat</em>)</td></tr>
+        <tr><td class="mono">GROUP BY country</td><td>one country</td></tr>
+      </tbody>
+    </table></div>
+    <p>Interviewers listen for this. "This join takes me from order grain to line grain, so I need
+    <code>COUNT(DISTINCT o.order_id)</code>, not <code>COUNT(*)</code>" is the sentence that gets you hired.</p>
+    <div class="trap"><b>The fan-out trap.</b> Joining <code>orders</code> (48 rows) to <code>order_items</code>
+    (119 rows) gives 119 rows. Any <code>SUM</code> of an order-level column is now counted once per line item —
+    silently wrong. Run the query below and watch <code>COUNT(*)</code> disagree with <code>COUNT(DISTINCT order_id)</code>.</div>
+    <div class="code"><pre>SELECT COUNT(*)                    AS rows_after_join,   -- 119: line grain
+       COUNT(DISTINCT o.order_id)  AS actual_orders      -- 48:  order grain
+FROM   orders o
+JOIN   order_items oi ON oi.order_id = o.order_id;</pre></div>
+  </div>
+</section>
+
+<!-- ==================== PART 01 ==================== -->
+<section class="part" id="p01">
+  <div class="part-head"><span class="num">01</span><h2>Syntax anatomy &amp; punctuation</h2></div>
+  <p class="part-intro">Where the commas go, when brackets are required, which quote means what.
+  This is the part nobody teaches and everybody gets wrong under pressure.</p>
+
+  <div class="topic">
+    <h3>The parts of a statement</h3>
+    <div class="code syntax"><pre>SELECT   first_name, salary * 1.1 AS new_salary
+--       └─────┬────┘ └──────┬─────┘    └────┬────┘
+--          column        expression        alias
+FROM     employees e
+--       └───┬────┘ ┬
+--          table   table alias
+WHERE    salary &gt; 100000 AND dept_id = 1;
+--       └──────┬───────┘ └┬┘ └─────┬────┘
+--           predicate    operator  predicate</pre></div>
+    <ul>
+      <li><strong>Keyword</strong> — <code>SELECT</code>, <code>FROM</code>. Case-insensitive. Convention: UPPERCASE.</li>
+      <li><strong>Identifier</strong> — a table or column name. Case-insensitive <em>unless</em> you double-quote it.</li>
+      <li><strong>Literal</strong> — a fixed value: <code>'text'</code>, <code>42</code>, <code>TRUE</code>, <code>DATE '2024-01-01'</code>.</li>
+      <li><strong>Operator</strong> — <code>=</code>, <code>&lt;</code>, <code>+</code>, <code>||</code>, <code>AND</code>.</li>
+      <li><strong>Expression</strong> — anything that computes to a value: <code>salary * 1.1</code>.</li>
+      <li><strong>Predicate</strong> — an expression that evaluates to TRUE / FALSE / UNKNOWN.</li>
+      <li><strong>Clause</strong> — a keyword and what follows it: the whole <code>WHERE …</code> chunk.</li>
+    </ul>
+  </div>
+
+  <div class="topic">
+    <h3>Commas: the rule that prevents half your syntax errors</h3>
+    <p><strong>Commas separate items in a list. Nothing else.</strong> They go between columns, between tables,
+    between values, between GROUP BY / ORDER BY keys.</p>
+    <div class="win"><b>Never</b> put a comma before the word that ends the list —
+    no comma before <code>FROM</code>, before <code>WHERE</code>, before <code>)</code>.
+    "Trailing comma before FROM" is the #1 typo in live interviews.</div>
+    <div class="code syntax"><pre>-- ✅ correct
+SELECT a, b, c FROM t;
+--       ↑  ↑ commas BETWEEN items, none before FROM
+
+-- ❌ trailing comma
+SELECT a, b, c, FROM t;          -- syntax error at or near "FROM"
+
+-- ❌ missing comma  →  SQL reads "b c" as "column b aliased c"
+SELECT a, b c FROM t;            -- no error! silently gives you 2 columns, not 3</pre></div>
+    <div class="trap"><b>The silent one.</b> A <em>missing</em> comma usually does not error — SQL treats the next
+    word as an alias. <code>SELECT first_name last_name FROM employees</code> returns one column called
+    <code>last_name</code> holding first names. Run it and see.</div>
+    <div class="code"><pre>SELECT emp_name  title   FROM employees LIMIT 3;   -- 1 column, aliased "title"</pre></div>
+    <p>Never use a comma to join tables in modern SQL — write <code>JOIN … ON …</code> instead (see <a href="#p12">Part 12</a>).</p>
+  </div>
+
+  <div class="topic">
+    <h3>Quotes: three kinds, three meanings</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>Mark</th><th>Means</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">'single'</td><td>a <strong>string literal</strong> — a piece of data</td><td class="mono">WHERE city = 'Mumbai'</td></tr>
+        <tr><td class="mono">"double"</td><td>an <strong>identifier</strong> — a table/column name, made case-sensitive</td><td class="mono">SELECT "myColumn"</td></tr>
+        <tr><td class="mono">`backtick`</td><td><strong>MySQL only.</strong> Not valid PostgreSQL</td><td class="mono">SELECT `col`</td></tr>
+      </tbody>
+    </table></div>
+    <div class="trap"><b>The classic.</b> <code>WHERE city = "Mumbai"</code> fails in Postgres with
+    <em>column "Mumbai" does not exist</em> — double quotes made it an identifier. Data goes in single quotes. Always.</div>
+    <p>To put an apostrophe inside a string, double it: <code>'O''Brien'</code>. Postgres also allows
+    dollar quoting for messy text: <code>$$O'Brien$$</code>.</p>
+    <div class="code"><pre>SELECT 'O''Brien' AS doubled, $$O'Brien$$ AS dollar_quoted;</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>Brackets: when they are required, when they are optional</h3>
+    <p><strong>Required:</strong></p>
+    <ul>
+      <li>Function calls — always, even with no arguments: <code>NOW()</code>, <code>COUNT(*)</code>.</li>
+      <li>Around an <code>IN</code> list: <code>WHERE status IN ('completed','refunded')</code>.</li>
+      <li>Around <em>every</em> subquery: <code>WHERE id IN (SELECT …)</code>.</li>
+      <li>Around the column list in <code>INSERT</code> and <code>CREATE TABLE</code>.</li>
+      <li>Around the <code>OVER (…)</code> spec of a window function — even when empty: <code>SUM(x) OVER ()</code>.</li>
+    </ul>
+    <p><strong>Optional but strongly advised:</strong> around mixed <code>AND</code>/<code>OR</code>, because
+    <code>AND</code> binds tighter than <code>OR</code>:</p>
+    <div class="code"><pre>-- These two return DIFFERENT results. Run it.
+SELECT COUNT(*) AS without_brackets
+FROM   orders
+WHERE  status = 'completed' OR status = 'pending' AND channel = 'web';
+
+SELECT COUNT(*) AS with_brackets
+FROM   orders
+WHERE (status = 'completed' OR status = 'pending') AND channel = 'web';</pre></div>
+    <div class="win"><b>Habit worth building:</b> whenever a <code>WHERE</code> mixes <code>AND</code> and
+    <code>OR</code>, bracket the <code>OR</code> group. It costs two keystrokes and removes a whole class of bug.</div>
+  </div>
+
+  <div class="topic">
+    <h3>Semicolons, comments, casing, whitespace</h3>
+    <ul>
+      <li><strong>Semicolon</strong> ends a statement. Required when you send several statements at once.</li>
+      <li><strong>Line comment:</strong> <code>-- to end of line</code>. <strong>Block comment:</strong> <code>/* … */</code>, and it nests.</li>
+      <li><strong>Keywords are case-insensitive.</strong> <code>select</code> = <code>SELECT</code>.</li>
+      <li><strong>Unquoted identifiers are folded to lower case in Postgres.</strong> <code>MyTable</code> becomes <code>mytable</code>.
+      Only <code>"MyTable"</code> keeps its capitals — and then you must quote it everywhere, forever. Don't start.</li>
+      <li><strong>String comparison IS case-sensitive:</strong> <code>'Mumbai' &lt;&gt; 'mumbai'</code>. Use <code>ILIKE</code>
+      or <code>LOWER()</code> to compare loosely.</li>
+      <li><strong>Whitespace and newlines are free.</strong> Use them — indented SQL reads better and interviewers notice.</li>
+    </ul>
+    <div class="code"><pre>SELECT 'Mumbai' = 'mumbai'         AS exact_match,      -- false
+       'Mumbai' ILIKE 'mumbai'     AS case_insensitive,  -- true
+       LOWER('Mumbai') = 'mumbai'  AS lowered;           -- true</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>Operator precedence, highest to lowest</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>Rank</th><th>Operators</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td class="mono">:: (cast)</td></tr>
+        <tr><td>2</td><td class="mono">- (unary minus)</td></tr>
+        <tr><td>3</td><td class="mono">* / %</td></tr>
+        <tr><td>4</td><td class="mono">+ -</td></tr>
+        <tr><td>5</td><td class="mono">|| (concatenate)</td></tr>
+        <tr><td>6</td><td class="mono">BETWEEN, IN, LIKE, ILIKE</td></tr>
+        <tr><td>7</td><td class="mono">&lt; &gt; = &lt;= &gt;= &lt;&gt;</td></tr>
+        <tr><td>8</td><td class="mono">IS NULL, IS NOT NULL</td></tr>
+        <tr><td>9</td><td class="mono">NOT</td></tr>
+        <tr><td>10</td><td class="mono">AND</td></tr>
+        <tr><td>11</td><td class="mono">OR   ← binds loosest</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
+
+<!-- ==================== PART 02 ==================== -->
+<section class="part" id="p02">
+  <div class="part-head"><span class="num">02</span><h2>Data types</h2></div>
+  <p class="part-intro">You need these to answer "what type would you make that column?" — a near-certain
+  question if any schema design comes up.</p>
+
+  <div class="topic">
+    <h3>The types that matter</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>Type</th><th>Holds</th><th>Use it for</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">integer / int4</td><td>±2.1 billion</td><td>counts, most IDs</td></tr>
+        <tr><td class="mono">bigint / int8</td><td>±9.2 quintillion</td><td>IDs on big tables, epoch millis</td></tr>
+        <tr><td class="mono">smallint</td><td>±32,767</td><td>tiny enums, ages</td></tr>
+        <tr><td class="mono">numeric(p,s)</td><td>exact decimal</td><td><strong>money, always</strong></td></tr>
+        <tr><td class="mono">real / double precision</td><td>approximate float</td><td>science, never money</td></tr>
+        <tr><td class="mono">text</td><td>unlimited string</td><td>the Postgres default choice</td></tr>
+        <tr><td class="mono">varchar(n)</td><td>string, max n</td><td>when a length limit is a real rule</td></tr>
+        <tr><td class="mono">char(n)</td><td>blank-padded</td><td>essentially never</td></tr>
+        <tr><td class="mono">boolean</td><td>TRUE / FALSE / NULL</td><td>flags</td></tr>
+        <tr><td class="mono">date</td><td>calendar day</td><td>birthdays, order dates</td></tr>
+        <tr><td class="mono">timestamp</td><td>date + time, no zone</td><td>local wall-clock events</td></tr>
+        <tr><td class="mono">timestamptz</td><td>date + time, zone-aware</td><td><strong>anything real-world</strong></td></tr>
+        <tr><td class="mono">interval</td><td>a duration</td><td><code>+ INTERVAL '1 month'</code></td></tr>
+        <tr><td class="mono">uuid</td><td>128-bit id</td><td>distributed keys</td></tr>
+        <tr><td class="mono">jsonb</td><td>binary JSON</td><td>semi-structured payloads</td></tr>
+        <tr><td class="mono">text[]</td><td>array</td><td>tags (Postgres-specific)</td></tr>
+        <tr><td class="mono">serial / bigserial</td><td>auto-increment int</td><td>legacy auto keys</td></tr>
+        <tr><td class="mono">GENERATED … AS IDENTITY</td><td>auto-increment</td><td><strong>the modern standard way</strong></td></tr>
+      </tbody>
+    </table></div>
+    <div class="trap"><b>Money in <code>float</code> is a real bug.</b> <code>0.1 + 0.2</code> is not
+    <code>0.3</code> in binary floating point. Use <code>numeric</code>. Run this — the first line is the wrong answer.</div>
+    <div class="code"><pre>SELECT 0.1::float8 + 0.2::float8      AS float_money,    -- 0.30000000000000004
+       0.1::numeric + 0.2::numeric   AS numeric_money,  -- 0.3
+       0.1::float8 + 0.2::float8 = 0.3::float8 AS equal_to_point_three;  -- false!</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>Casting between types</h3>
+    <div class="lab syn">Syntax</div>
+    <div class="code syntax"><pre>CAST(expression AS type)     -- ANSI standard, works everywhere
+expression::type             -- PostgreSQL shorthand</pre></div>
+    <div class="code"><pre>SELECT CAST('42' AS integer)          AS ansi_cast,
+       '42'::integer                 AS pg_cast,
+       '2024-03-15'::date            AS to_date,
+       123.789::numeric(6,1)         AS rounded,
+       7 / 2                         AS integer_division,   -- 3  ← the trap
+       7 / 2.0                       AS decimal_division,   -- 3.5
+       7::numeric / 2                AS cast_then_divide;   -- 3.5</pre></div>
+    <div class="trap"><b>Integer division truncates.</b> <code>7 / 2</code> is <code>3</code>, not <code>3.5</code>,
+    because both sides are integers. This silently destroys percentages and averages. Cast one side to
+    <code>numeric</code> first. Interviewers absolutely test this.</div>
+  </div>
+</section>
+
+<!-- ==================== PART 03 ==================== -->
+<section class="part" id="p03">
+  <div class="part-head"><span class="num">03</span><h2>DDL — creating and changing tables</h2></div>
+  <p class="part-intro">DDL = Data <em>Definition</em> Language. It defines the shape of the data.
+  Everything here is runnable; the demo tables are named <code>demo_*</code> so they never disturb the practice data.
+  Hit <b>Reset database</b> in the console any time.</p>
+
+  <div class="topic">
+    <h3>CREATE TABLE</h3>
+    <div class="lab syn">Syntax</div>
+    <div class="code syntax"><pre>CREATE TABLE [IF NOT EXISTS] table_name (
+    column_name  data_type  [column_constraints…],
+    column_name  data_type  [column_constraints…],
+    …                                              -- ← no comma after the LAST column
+    [, CONSTRAINT name  table_level_constraint ]
+);</pre></div>
+    <p>Two ways to write a constraint. <strong>Column-level</strong> sits on one column.
+    <strong>Table-level</strong> sits at the end and can span several columns — that is the only way to
+    write a composite key.</p>
+    <div class="lab ex">Example — every constraint type, once</div>
+    <div class="code"><pre>DROP TABLE IF EXISTS demo_enrolments;
+DROP TABLE IF EXISTS demo_students;
+
+CREATE TABLE demo_students (
+    student_id  integer      GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    full_name   text         NOT NULL,
+    email       text         NOT NULL UNIQUE,
+    age         integer      CHECK (age >= 16),
+    country     text         NOT NULL DEFAULT 'India',
+    created_at  timestamptz  NOT NULL DEFAULT now()
+);
+
+CREATE TABLE demo_enrolments (
+    student_id  integer NOT NULL REFERENCES demo_students(student_id) ON DELETE CASCADE,
+    course_code text    NOT NULL,
+    grade       numeric(4,1) CHECK (grade BETWEEN 0 AND 100),
+    PRIMARY KEY (student_id, course_code)        -- COMPOSITE key: table-level only
+);
+
+SELECT 'created' AS status;</pre></div>
+
+    <div class="lab">What each constraint actually does</div>
+    <div class="tbl"><table>
+      <thead><tr><th>Constraint</th><th>Guarantees</th><th>Allows NULL?</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">PRIMARY KEY</td><td>unique <em>and</em> not null — the row's identity</td><td>No</td></tr>
+        <tr><td class="mono">UNIQUE</td><td>no two rows share a value</td><td>Yes — and many NULLs are allowed</td></tr>
+        <tr><td class="mono">NOT NULL</td><td>a value must be supplied</td><td>No</td></tr>
+        <tr><td class="mono">CHECK (…)</td><td>an arbitrary rule per row</td><td>Passes if it evaluates to NULL</td></tr>
+        <tr><td class="mono">DEFAULT v</td><td>value used when none is given</td><td>—</td></tr>
+        <tr><td class="mono">REFERENCES t(c)</td><td>value must exist in the parent table</td><td>Yes</td></tr>
+        <tr><td class="mono">GENERATED … STORED</td><td>computed by the DB, never written by you</td><td>—</td></tr>
+      </tbody>
+    </table></div>
+    <div class="note"><b>PRIMARY KEY vs UNIQUE — a guaranteed interview question.</b>
+    A primary key is <code>UNIQUE + NOT NULL</code>, and a table has at most one.
+    A <code>UNIQUE</code> constraint permits NULLs (and in Postgres, <em>many</em> NULLs, because
+    <code>NULL &lt;&gt; NULL</code>), and you can have as many as you like.</div>
+    <p>Prove the NULL half of that claim:</p>
+    <div class="code"><pre>DROP TABLE IF EXISTS demo_uniq;
+CREATE TABLE demo_uniq (code text UNIQUE);
+INSERT INTO demo_uniq VALUES (NULL), (NULL), (NULL);   -- three NULLs, no error
+SELECT COUNT(*) AS null_rows_allowed FROM demo_uniq;</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>Foreign keys and referential actions</h3>
+    <p>A foreign key says "this value must exist over there". The <em>referential action</em> says what happens
+    when the parent row is deleted or updated.</p>
+    <div class="code syntax"><pre>FOREIGN KEY (child_col) REFERENCES parent_table(parent_col)
+    ON DELETE { NO ACTION | RESTRICT | CASCADE | SET NULL | SET DEFAULT }
+    ON UPDATE { … same options … }</pre></div>
+    <div class="tbl"><table>
+      <thead><tr><th>Action</th><th>When the parent row is deleted…</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">NO ACTION</td><td>error (checked at end of statement) — the default</td></tr>
+        <tr><td class="mono">RESTRICT</td><td>error immediately</td></tr>
+        <tr><td class="mono">CASCADE</td><td>delete the children too</td></tr>
+        <tr><td class="mono">SET NULL</td><td>set the child's FK column to NULL</td></tr>
+        <tr><td class="mono">SET DEFAULT</td><td>set the child's FK column to its DEFAULT</td></tr>
+      </tbody>
+    </table></div>
+    <div class="win"><b>Say this out loud in the interview:</b> "I'd use <code>ON DELETE CASCADE</code> for
+    order_items, because a line item has no meaning without its order. I'd use <code>ON DELETE RESTRICT</code>
+    for products, because deleting a product that has been sold would destroy history."</div>
+  </div>
+
+  <div class="topic">
+    <h3>ALTER TABLE</h3>
+    <div class="code syntax"><pre>ALTER TABLE t ADD    COLUMN c type [constraints];
+ALTER TABLE t DROP   COLUMN c [CASCADE];
+ALTER TABLE t RENAME COLUMN old TO new;
+ALTER TABLE t RENAME TO new_table_name;
+ALTER TABLE t ALTER  COLUMN c TYPE new_type [USING expression];
+ALTER TABLE t ALTER  COLUMN c SET NOT NULL;
+ALTER TABLE t ALTER  COLUMN c DROP NOT NULL;
+ALTER TABLE t ALTER  COLUMN c SET DEFAULT v;
+ALTER TABLE t ADD    CONSTRAINT name CHECK (…);
+ALTER TABLE t DROP   CONSTRAINT name;</pre></div>
+    <div class="code"><pre>ALTER TABLE demo_students ADD COLUMN city text;
+ALTER TABLE demo_students ADD CONSTRAINT age_sane CHECK (age &lt; 120);
+ALTER TABLE demo_students RENAME COLUMN full_name TO student_name;
+SELECT column_name, data_type, is_nullable
+FROM   information_schema.columns
+WHERE  table_name = 'demo_students'
+ORDER BY ordinal_position;</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>DROP, TRUNCATE, and CREATE TABLE AS</h3>
+    <div class="code syntax"><pre>DROP TABLE [IF EXISTS] t [CASCADE];    -- removes the TABLE ITSELF
+TRUNCATE TABLE t [RESTART IDENTITY] [CASCADE];  -- removes all ROWS, keeps the table
+CREATE TABLE new_t AS SELECT … ;       -- "CTAS": build a table from a query
+CREATE TEMP TABLE tmp AS SELECT … ;    -- vanishes at end of session
+CREATE VIEW v AS SELECT … ;            -- a saved query, stores no data</pre></div>
+    <div class="tbl"><table>
+      <thead><tr><th></th><th class="mono">DELETE</th><th class="mono">TRUNCATE</th><th class="mono">DROP</th></tr></thead>
+      <tbody>
+        <tr><td>Removes</td><td>chosen rows</td><td>all rows</td><td>the whole table</td></tr>
+        <tr><td>Has WHERE</td><td>Yes</td><td>No</td><td>No</td></tr>
+        <tr><td>Speed on big tables</td><td>Slow</td><td>Very fast</td><td>Very fast</td></tr>
+        <tr><td>Fires triggers</td><td>Yes</td><td>No</td><td>n/a</td></tr>
+        <tr><td>Rollback-able in Postgres</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+        <tr><td>Language</td><td>DML</td><td>DDL</td><td>DDL</td></tr>
+      </tbody>
+    </table></div>
+    <div class="note"><b>Careful with the classic answer.</b> Many sources say "TRUNCATE cannot be rolled back."
+    That is true in Oracle and MySQL. In <strong>PostgreSQL, TRUNCATE is transactional</strong> — inside a
+    <code>BEGIN … ROLLBACK</code> it is undone. Say which engine you mean and you'll sound senior.</div>
+    <div class="code"><pre>CREATE TABLE demo_top_customers AS
+SELECT c.cust_id, c.cust_name, SUM(oi.line_total) AS revenue
+FROM   customers c
+JOIN   orders o       ON o.cust_id  = c.cust_id
+JOIN   order_items oi ON oi.order_id = o.order_id
+WHERE  o.status = 'completed'
+GROUP  BY c.cust_id, c.cust_name;
+
+SELECT * FROM demo_top_customers ORDER BY revenue DESC LIMIT 5;</pre></div>
+  </div>
+</section>
+
+<!-- ==================== PART 04 ==================== -->
+<section class="part" id="p04">
+  <div class="part-head"><span class="num">04</span><h2>DML — inserting and changing data</h2></div>
+  <p class="part-intro">DML = Data <em>Manipulation</em> Language. It changes the rows, not the shape.</p>
+
+  <div class="topic">
+    <h3>INSERT</h3>
+    <div class="lab syn">Syntax</div>
+    <div class="code syntax"><pre>-- one row
+INSERT INTO t (col1, col2) VALUES (v1, v2);
+
+-- many rows in ONE statement (far faster than many statements)
+INSERT INTO t (col1, col2) VALUES (v1, v2), (v3, v4), (v5, v6);
+
+-- from a query
+INSERT INTO t (col1, col2) SELECT a, b FROM other WHERE …;
+
+-- get back what was actually written (PostgreSQL)
+INSERT INTO t (col1) VALUES (v1) RETURNING *;</pre></div>
+    <div class="win"><b>Always name the columns.</b> <code>INSERT INTO t VALUES (…)</code> relies on column
+    order, so it breaks silently the day someone adds a column. Naming them is the professional habit.</div>
+    <div class="code"><pre>INSERT INTO demo_students (student_name, email, age, country)
+VALUES ('Aarav Singh',  'aarav@ex.com',  22, 'India'),
+       ('Bianca Rossi', 'bianca@ex.com', 25, 'Italy'),
+       ('Chen Wei',     'chen@ex.com',   19, 'China')
+RETURNING student_id, student_name, created_at;</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>UPDATE</h3>
+    <div class="code syntax"><pre>UPDATE t
+SET    col1 = expr1,
+       col2 = expr2          -- ← commas BETWEEN assignments
+WHERE  condition             -- ← omit this and you update EVERY ROW
+RETURNING *;
+
+-- update using another table (PostgreSQL)
+UPDATE t
+SET    col = o.val
+FROM   other o
+WHERE  o.id = t.id;</pre></div>
+    <div class="trap"><b>The career-limiting mistake.</b> <code>UPDATE t SET x = 1;</code> with no
+    <code>WHERE</code> updates every row in the table. Write the <code>WHERE</code> first, then go back and
+    write the <code>SET</code>. Better: run it as a <code>SELECT</code> first to see what you'd hit.</div>
+    <div class="code"><pre>-- Step 1: SEE what you are about to change
+SELECT student_id, student_name, age FROM demo_students WHERE country = 'India';
+
+-- Step 2: change it
+UPDATE demo_students
+SET    age = age + 1
+WHERE  country = 'India'
+RETURNING student_id, student_name, age;</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>DELETE</h3>
+    <div class="code syntax"><pre>DELETE FROM t WHERE condition RETURNING *;
+
+-- delete using another table (PostgreSQL)
+DELETE FROM t USING other o WHERE o.id = t.id AND o.flag;</pre></div>
+    <div class="code"><pre>DELETE FROM demo_students WHERE age &lt; 20 RETURNING student_name, age;</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>UPSERT — <code>INSERT … ON CONFLICT</code></h3>
+    <p>"Insert it; if it already exists, update it instead." Postgres spells this <code>ON CONFLICT</code>.</p>
+    <div class="code syntax"><pre>INSERT INTO t (key, val) VALUES (…)
+ON CONFLICT (key) DO NOTHING;
+
+INSERT INTO t (key, val) VALUES (…)
+ON CONFLICT (key) DO UPDATE
+SET   val = EXCLUDED.val          -- EXCLUDED = the row you TRIED to insert
+WHERE t.val IS DISTINCT FROM EXCLUDED.val;</pre></div>
+    <div class="note"><b><code>EXCLUDED</code></b> is a special alias for the row that failed to insert.
+    Remembering that name is the whole trick to this question.</div>
+    <div class="code"><pre>DROP TABLE IF EXISTS demo_stock;
+CREATE TABLE demo_stock (sku text PRIMARY KEY, qty integer NOT NULL);
+INSERT INTO demo_stock VALUES ('A1', 10), ('B2', 5);
+
+-- A1 exists → its qty is ADDED to. C3 does not exist → inserted.
+INSERT INTO demo_stock (sku, qty) VALUES ('A1', 4), ('C3', 7)
+ON CONFLICT (sku) DO UPDATE SET qty = demo_stock.qty + EXCLUDED.qty
+RETURNING sku, qty;</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>MERGE — the ANSI standard version</h3>
+    <p>Postgres 15+ supports <code>MERGE</code>. It is what SQL Server and Oracle have always used, and it is
+    the standard answer for "how do you do an upsert?" outside Postgres.</p>
+    <div class="code syntax"><pre>MERGE INTO target t
+USING source s ON t.key = s.key
+WHEN MATCHED  AND condition THEN UPDATE SET col = s.col
+WHEN MATCHED  THEN DELETE
+WHEN NOT MATCHED THEN INSERT (key, col) VALUES (s.key, s.col);</pre></div>
+    <div class="code"><pre>MERGE INTO demo_stock t
+USING (VALUES ('B2', 100), ('D4', 42)) AS s(sku, qty)
+ON t.sku = s.sku
+WHEN MATCHED     THEN UPDATE SET qty = s.qty
+WHEN NOT MATCHED THEN INSERT (sku, qty) VALUES (s.sku, s.qty);
+
+SELECT * FROM demo_stock ORDER BY sku;</pre></div>
+  </div>
+</section>
+
+<!-- ==================== PART 05 ==================== -->
+<section class="part" id="p05">
+  <div class="part-head"><span class="num">05</span><h2>SELECT &amp; FROM</h2></div>
+
+  <div class="topic">
+    <h3>The complete SELECT skeleton</h3>
+    <p>Every clause is optional except <code>SELECT</code>. When present, they must appear in <em>this written order</em>:</p>
+    <div class="code syntax"><pre>WITH     cte_name AS ( … )              -- Part 15
+SELECT   [DISTINCT | DISTINCT ON (…)]
+         expression [AS alias], …
+FROM     table [alias]
+         [JOIN other ON …]              -- Part 12
+WHERE    row_condition                  -- Part 06
+GROUP BY grouping_columns               -- Part 09
+HAVING   group_condition                -- Part 10
+WINDOW   w AS ( … )                     -- Part 16
+ORDER BY sort_columns [ASC|DESC] [NULLS FIRST|LAST]   -- Part 11
+LIMIT    n  OFFSET m;                   -- Part 11</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>The SELECT list</h3>
+    <div class="code"><pre>SELECT emp_name,                          -- a column
+       salary,                            -- another column
+       salary * 12          AS annual,    -- an expression, aliased
+       'INR'                AS currency,  -- a constant
+       UPPER(title)         AS title_caps,-- a function call
+       salary / 12.0        AS monthly    -- note the .0 → decimal division
+FROM   employees
+LIMIT  5;</pre></div>
+    <p><strong>Aliases.</strong> <code>AS</code> is optional but write it — <code>salary*12 annual</code> works
+    and reads like a mistake. Use double quotes only if the alias needs spaces or capitals:
+    <code>AS "Annual Salary"</code>.</p>
+    <div class="trap"><b><code>SELECT *</code> in an interview.</b> Fine while exploring. In a final answer it
+    signals carelessness: it breaks when columns change, ships data you don't need, and prevents index-only
+    scans. Name your columns.</div>
+  </div>
+
+  <div class="topic">
+    <h3>DISTINCT — and Postgres's DISTINCT ON</h3>
+    <p><code>DISTINCT</code> de-duplicates <strong>the whole output row</strong>, not one column. It runs at
+    step 7, after <code>SELECT</code>.</p>
+    <div class="code"><pre>SELECT DISTINCT country            FROM customers ORDER BY country;
+SELECT DISTINCT country, segment   FROM customers ORDER BY 1,2;  -- distinct PAIRS
+SELECT COUNT(DISTINCT country) AS n_countries FROM customers;</pre></div>
+    <div class="note"><b><code>DISTINCT ON</code> is Postgres-only and extremely useful.</b>
+    It keeps the <em>first row per group</em> given an <code>ORDER BY</code>. It is the shortest possible
+    "most recent record per customer" — no window function needed. The leading <code>ORDER BY</code> columns
+    must match the <code>DISTINCT ON</code> columns.</div>
+    <div class="code"><pre>-- Most recent order per customer, in 4 lines
+SELECT DISTINCT ON (cust_id)
+       cust_id, order_id, order_date, status
+FROM   orders
+ORDER  BY cust_id, order_date DESC, order_id DESC;</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>FROM — where rows come from</h3>
+    <p>A <code>FROM</code> source can be a table, a view, a subquery, a CTE, a function, or a literal list of values.</p>
+    <div class="code"><pre>-- 1. a table, with an alias
+SELECT e.emp_name FROM employees e LIMIT 3;
+
+-- 2. a derived table (subquery) — the alias is MANDATORY
+SELECT t.dept_id, t.headcount
+FROM  (SELECT dept_id, COUNT(*) AS headcount FROM employees GROUP BY dept_id) AS t
+ORDER BY t.headcount DESC;
+
+-- 3. a literal VALUES list, used like a table
+SELECT * FROM (VALUES ('a', 1), ('b', 2)) AS v(letter, num);
+
+-- 4. a set-returning function
+SELECT * FROM generate_series(1, 5) AS n;</pre></div>
+    <div class="trap"><b>"subquery in FROM must have an alias"</b> is one of the most common Postgres errors.
+    Every derived table needs a name. Add <code>AS t</code>.</div>
+  </div>
+</section>
+
+<!-- ==================== PART 06 ==================== -->
+<section class="part" id="p06">
+  <div class="part-head"><span class="num">06</span><h2>WHERE — filtering rows</h2></div>
+  <p class="part-intro"><code>WHERE</code> keeps a row only when the condition evaluates to <strong>TRUE</strong>.
+  Not FALSE, and — critically — <strong>not UNKNOWN</strong>. See <a href="#p07">Part 07</a>.</p>
+
+  <div class="topic">
+    <h3>Comparison operators</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>Operator</th><th>Means</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">=</td><td>equal</td><td class="mono">status = 'completed'</td></tr>
+        <tr><td class="mono">&lt;&gt; or !=</td><td>not equal</td><td class="mono">status &lt;&gt; 'cancelled'</td></tr>
+        <tr><td class="mono">&lt; &gt; &lt;= &gt;=</td><td>ordering</td><td class="mono">salary &gt;= 100000</td></tr>
+        <tr><td class="mono">BETWEEN a AND b</td><td><strong>inclusive</strong> range</td><td class="mono">age BETWEEN 20 AND 30</td></tr>
+        <tr><td class="mono">IN (…)</td><td>matches any in a list</td><td class="mono">country IN ('India','UK')</td></tr>
+        <tr><td class="mono">LIKE / ILIKE</td><td>pattern match / case-insensitive</td><td class="mono">name LIKE 'A%'</td></tr>
+        <tr><td class="mono">IS NULL</td><td>is it missing?</td><td class="mono">city IS NULL</td></tr>
+        <tr><td class="mono">IS DISTINCT FROM</td><td>≠ but NULL-safe</td><td class="mono">a IS DISTINCT FROM b</td></tr>
+      </tbody>
+    </table></div>
+    <div class="code"><pre>SELECT emp_name, salary, hire_date
+FROM   employees
+WHERE  salary BETWEEN 100000 AND 150000     -- inclusive at BOTH ends
+  AND  hire_date &gt;= DATE '2019-01-01'
+  AND  title IN ('Engineer','Senior Engineer','Staff Engineer')
+ORDER  BY salary DESC;</pre></div>
+    <div class="trap"><b><code>BETWEEN</code> and timestamps.</b> <code>BETWEEN '2024-01-01' AND '2024-01-31'</code>
+    on a <code>timestamp</code> column silently drops everything after midnight on the 31st.
+    For date ranges over timestamps always use <code>&gt;= start AND &lt; next_start</code>.</div>
+  </div>
+
+  <div class="topic">
+    <h3>Pattern matching with LIKE</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>Pattern</th><th>Matches</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">'A%'</td><td>starts with A</td></tr>
+        <tr><td class="mono">'%ing'</td><td>ends with "ing"</td></tr>
+        <tr><td class="mono">'%data%'</td><td>contains "data"</td></tr>
+        <tr><td class="mono">'_a%'</td><td>second character is "a" (<code>_</code> = exactly one char)</td></tr>
+        <tr><td class="mono">'100\%' ESCAPE '\'</td><td>a literal percent sign</td></tr>
+      </tbody>
+    </table></div>
+    <div class="code"><pre>SELECT cust_name, country
+FROM   customers
+WHERE  cust_name ILIKE '%o%'          -- ILIKE = case-insensitive (Postgres)
+  AND  cust_name NOT LIKE 'Z%'
+ORDER  BY cust_name;</pre></div>
+    <div class="trap"><b>A leading <code>%</code> kills your index.</b> <code>LIKE '%thing'</code> cannot use a
+    normal B-tree index, so it scans the whole table. <code>LIKE 'thing%'</code> can. If asked to optimise a
+    "contains" search, the answer is a trigram (<code>pg_trgm</code>) or full-text index. See <a href="#p19">Part 19</a>.</div>
+  </div>
+
+  <div class="topic">
+    <h3>AND / OR / NOT and precedence</h3>
+    <p><code>AND</code> is evaluated before <code>OR</code>. Always bracket a mixed condition.</p>
+    <div class="code"><pre>-- "Enterprise customers, plus anyone at all from Germany"
+SELECT cust_name, segment, country
+FROM   customers
+WHERE  segment = 'Enterprise' OR country = 'Germany'
+ORDER  BY country;
+
+-- "Customers who are Enterprise AND from either India or the UK"
+SELECT cust_name, segment, country
+FROM   customers
+WHERE  segment = 'Enterprise'
+  AND (country = 'India' OR country = 'UK')
+ORDER  BY country;</pre></div>
+  </div>
+</section>
+
+<!-- ==================== PART 07 ==================== -->
+<section class="part" id="p07">
+  <div class="part-head"><span class="num">07</span><h2>NULL &amp; three-valued logic</h2></div>
+  <p class="part-intro">NULL is where confident candidates fall over. It is not zero and not an empty string —
+  it means <strong>unknown</strong>. Once you accept that, every rule below follows.</p>
+
+  <div class="topic">
+    <h3>Any comparison with NULL yields UNKNOWN</h3>
+    <div class="code"><pre>SELECT NULL = NULL      AS eq,        -- NULL (not true!)
+       NULL &lt;&gt; NULL     AS neq,       -- NULL
+       NULL &gt; 5         AS gt,        -- NULL
+       NULL + 10        AS arithmetic,-- NULL
+       'abc' || NULL    AS concat,    -- NULL — one NULL poisons the string
+       NULL IS NULL     AS is_null;   -- TRUE  ← the ONLY way to test</pre></div>
+    <div class="win"><b>The rule:</b> use <code>IS NULL</code> / <code>IS NOT NULL</code>.
+    <code>= NULL</code> is never true and is always a bug.</div>
+  </div>
+
+  <div class="topic">
+    <h3>The truth tables</h3>
+    <div class="tbl"><table>
+      <thead><tr><th class="mono">AND</th><th>TRUE</th><th>FALSE</th><th>NULL</th></tr></thead>
+      <tbody>
+        <tr><th>TRUE</th><td>TRUE</td><td>FALSE</td><td>NULL</td></tr>
+        <tr><th>FALSE</th><td>FALSE</td><td>FALSE</td><td><strong>FALSE</strong></td></tr>
+        <tr><th>NULL</th><td>NULL</td><td><strong>FALSE</strong></td><td>NULL</td></tr>
+      </tbody>
+    </table></div>
+    <div class="tbl"><table>
+      <thead><tr><th class="mono">OR</th><th>TRUE</th><th>FALSE</th><th>NULL</th></tr></thead>
+      <tbody>
+        <tr><th>TRUE</th><td>TRUE</td><td>TRUE</td><td><strong>TRUE</strong></td></tr>
+        <tr><th>FALSE</th><td>TRUE</td><td>FALSE</td><td>NULL</td></tr>
+        <tr><th>NULL</th><td><strong>TRUE</strong></td><td>NULL</td><td>NULL</td></tr>
+      </tbody>
+    </table></div>
+    <p>The bold cells are the interesting ones: <code>FALSE AND NULL</code> is <code>FALSE</code> (already doomed),
+    and <code>TRUE OR NULL</code> is <code>TRUE</code> (already satisfied).</p>
+  </div>
+
+  <div class="topic">
+    <h3>The <code>NOT IN</code> + NULL trap — the most famous one of all</h3>
+    <p>If the list inside <code>NOT IN</code> contains a single NULL, the whole predicate becomes UNKNOWN for
+    every row, and you get <strong>zero rows back</strong>.</p>
+    <div class="code"><pre>-- employees.dept_id contains one NULL (the CEO), so this returns NOTHING:
+SELECT COUNT(*) AS with_not_in
+FROM   departments
+WHERE  dept_id NOT IN (SELECT dept_id FROM employees);
+
+-- NOT EXISTS is NULL-safe and gives the right answer (2 empty departments):
+SELECT COUNT(*) AS with_not_exists
+FROM   departments d
+WHERE  NOT EXISTS (SELECT 1 FROM employees e WHERE e.dept_id = d.dept_id);</pre></div>
+    <div class="trap"><b>Why.</b> <code>x NOT IN (1, 2, NULL)</code> expands to
+    <code>x&lt;&gt;1 AND x&lt;&gt;2 AND x&lt;&gt;NULL</code>. That last term is UNKNOWN, and
+    <code>TRUE AND UNKNOWN</code> = UNKNOWN, which <code>WHERE</code> discards.
+    <b>Fix:</b> use <code>NOT EXISTS</code>, or add <code>WHERE dept_id IS NOT NULL</code> to the subquery.</div>
+  </div>
+
+  <div class="topic">
+    <h3>NULL in aggregates, GROUP BY, ORDER BY and DISTINCT</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>Context</th><th>How NULL behaves</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">COUNT(*)</td><td>counts rows, NULLs included</td></tr>
+        <tr><td class="mono">COUNT(col)</td><td><strong>skips</strong> NULLs</td></tr>
+        <tr><td class="mono">SUM / AVG / MIN / MAX</td><td>ignore NULLs. <code>AVG</code> divides by the non-NULL count</td></tr>
+        <tr><td>All-NULL group</td><td><code>SUM</code> returns NULL, not 0. <code>COUNT</code> returns 0</td></tr>
+        <tr><td class="mono">GROUP BY</td><td>all NULLs form <strong>one single group</strong></td></tr>
+        <tr><td class="mono">ORDER BY</td><td>Postgres sorts NULLs <strong>last</strong> ascending. Override with <code>NULLS FIRST</code></td></tr>
+        <tr><td class="mono">DISTINCT</td><td>treats all NULLs as <strong>one</strong> value</td></tr>
+        <tr><td class="mono">UNIQUE constraint</td><td>allows <strong>many</strong> NULLs</td></tr>
+        <tr><td class="mono">JOIN … ON a = b</td><td>NULL never matches, not even another NULL</td></tr>
+      </tbody>
+    </table></div>
+    <p>See every one of those at once — <code>customers.city</code> has 2 NULLs out of 14:</p>
+    <div class="code"><pre>SELECT COUNT(*)               AS count_star,       -- 14  every row
+       COUNT(city)            AS count_city,       -- 12  skips the 2 NULLs
+       COUNT(DISTINCT city)   AS distinct_cities,  -- 12  distinct non-NULL cities
+       COUNT(*) - COUNT(city) AS missing_cities    --  2  the difference IS the NULL count
+FROM   customers;</pre></div>
+    <div class="code"><pre>-- GROUP BY folds all NULL cities into ONE group (shown last)
+SELECT city, COUNT(*) AS customers
+FROM   customers
+GROUP  BY city
+ORDER  BY customers DESC, city NULLS LAST;</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>The NULL toolkit</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>Function</th><th>Does</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">COALESCE(a,b,c)</td><td>first non-NULL argument</td></tr>
+        <tr><td class="mono">NULLIF(a,b)</td><td>NULL if a=b, else a — the divide-by-zero guard</td></tr>
+        <tr><td class="mono">a IS DISTINCT FROM b</td><td>like <code>&lt;&gt;</code> but treats NULL as a comparable value</td></tr>
+        <tr><td class="mono">GREATEST / LEAST</td><td>max/min across columns, ignoring NULLs</td></tr>
+      </tbody>
+    </table></div>
+    <div class="code"><pre>SELECT cust_name,
+       COALESCE(city, '(unknown)')       AS city_filled,
+       10 / NULLIF(0, 0)                 AS safe_divide,      -- NULL, not an error
+       NULL IS DISTINCT FROM NULL        AS null_safe_neq,    -- false  (they ARE the same)
+       1    IS DISTINCT FROM NULL        AS one_vs_null       -- true
+FROM   customers
+WHERE  city IS NULL;</pre></div>
+    <div class="win"><b>Divide-by-zero, solved.</b> <code>a / NULLIF(b, 0)</code> returns NULL instead of
+    throwing. Wrap in <code>COALESCE(…, 0)</code> if you want a zero. This exact pattern appears constantly in
+    conversion-rate questions.</div>
+  </div>
+</section>
+
+<!-- ==================== PART 08 ==================== -->
+<section class="part" id="p08">
+  <div class="part-head"><span class="num">08</span><h2>Expressions, CASE &amp; functions</h2></div>
+
+  <div class="topic">
+    <h3>CASE — SQL's if/else</h3>
+    <p>Two forms. <strong>Searched</strong> (any condition) and <strong>simple</strong> (equality against one expression).</p>
+    <div class="lab syn">Syntax</div>
+    <div class="code syntax"><pre>-- searched: use this one, it does everything
+CASE WHEN condition1 THEN result1
+     WHEN condition2 THEN result2
+     ELSE fallback                  -- omit ELSE and unmatched rows get NULL
+END
+
+-- simple: shorthand for equality only
+CASE expression
+     WHEN value1 THEN result1
+     WHEN value2 THEN result2
+     ELSE fallback
+END</pre></div>
+    <p><code>CASE</code> works anywhere an expression works: <code>SELECT</code>, <code>WHERE</code>,
+    <code>ORDER BY</code>, <code>GROUP BY</code>, and inside an aggregate.</p>
+    <div class="code"><pre>SELECT emp_name, salary,
+       CASE WHEN salary &gt;= 175000 THEN 'executive'
+            WHEN salary &gt;= 130000 THEN 'senior'
+            WHEN salary &gt;= 100000 THEN 'mid'
+            ELSE 'junior'
+       END AS band,
+       CASE title WHEN 'CEO' THEN 'founder' ELSE 'staff' END AS kind
+FROM   employees
+ORDER  BY salary DESC;</pre></div>
+    <div class="win"><b>Conditional aggregation</b> — <code>CASE</code> inside <code>SUM</code>/<code>COUNT</code>
+    is how you pivot rows into columns. This single pattern answers a huge share of analyst interview
+    questions. See <a href="#p17">Part 17</a>.</div>
+    <div class="code"><pre>SELECT c.country,
+       COUNT(*)                                                AS all_orders,
+       COUNT(*) FILTER (WHERE o.status = 'completed')           AS completed,   -- Postgres
+       SUM(CASE WHEN o.status = 'cancelled' THEN 1 ELSE 0 END)  AS cancelled,   -- portable
+       ROUND(100.0 * COUNT(*) FILTER (WHERE o.status='completed') / COUNT(*), 1) AS pct_completed
+FROM   orders o
+JOIN   customers c ON c.cust_id = o.cust_id
+GROUP  BY c.country
+ORDER  BY all_orders DESC;</pre></div>
+    <div class="note"><b><code>FILTER (WHERE …)</code> vs <code>CASE</code>.</b> They do the same job.
+    <code>FILTER</code> is cleaner and is standard SQL, but MySQL and SQL Server don't have it — so know the
+    <code>CASE</code> form too, and say so: "I'd use FILTER in Postgres, CASE if this has to be portable."</div>
+  </div>
+
+  <div class="topic">
+    <h3>String functions</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>Function</th><th>Result</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">a || b</td><td>concatenate (NULL if either is NULL)</td></tr>
+        <tr><td class="mono">CONCAT(a,b,…)</td><td>concatenate, treating NULL as ''</td></tr>
+        <tr><td class="mono">CONCAT_WS('-',a,b)</td><td>concatenate with a separator, skipping NULLs</td></tr>
+        <tr><td class="mono">LENGTH(s)</td><td>characters</td></tr>
+        <tr><td class="mono">UPPER / LOWER / INITCAP</td><td>case conversion</td></tr>
+        <tr><td class="mono">SUBSTRING(s FROM 2 FOR 3)</td><td>3 chars starting at position 2</td></tr>
+        <tr><td class="mono">LEFT(s,n) / RIGHT(s,n)</td><td>ends of a string</td></tr>
+        <tr><td class="mono">TRIM / LTRIM / RTRIM</td><td>strip whitespace or given chars</td></tr>
+        <tr><td class="mono">REPLACE(s,from,to)</td><td>substitute</td></tr>
+        <tr><td class="mono">POSITION(sub IN s)</td><td>index of substring, 0 if absent</td></tr>
+        <tr><td class="mono">SPLIT_PART(s,delim,n)</td><td>nth field — great for emails and paths</td></tr>
+        <tr><td class="mono">LPAD / RPAD</td><td>pad to a width</td></tr>
+        <tr><td class="mono">REGEXP_REPLACE(s,pat,repl)</td><td>regex substitution</td></tr>
+      </tbody>
+    </table></div>
+    <div class="code"><pre>SELECT email,
+       SPLIT_PART(email, '@', 1)          AS local_part,
+       SPLIT_PART(email, '@', 2)          AS domain,
+       INITCAP(cust_name)                 AS titled,
+       LENGTH(cust_name)                  AS name_len,
+       LEFT(country, 2)                   AS iso_ish,
+       CONCAT_WS(', ', city, country)     AS location   -- skips the NULL cities cleanly
+FROM   customers
+ORDER  BY domain;</pre></div>
+    <div class="trap"><b><code>||</code> vs <code>CONCAT</code>.</b> <code>'a' || NULL</code> is NULL —
+    it wipes out the whole string. <code>CONCAT('a', NULL)</code> is <code>'a'</code>.
+    When building an address from nullable parts, <code>CONCAT_WS</code> is the right tool.</div>
+  </div>
+
+  <div class="topic">
+    <h3>Numeric functions</h3>
+    <div class="code"><pre>SELECT ROUND(1234.5678, 2)   AS round_2dp,     -- 1234.57
+       ROUND(1234.5678)      AS round_int,     -- 1235
+       CEIL(4.1)             AS ceiling,       -- 5
+       FLOOR(4.9)            AS floor,         -- 4
+       TRUNC(4.99, 1)        AS truncate,      -- 4.9  (chops, no rounding)
+       ABS(-17)              AS absolute,
+       MOD(17, 5)            AS modulo,        -- 2
+       17 % 5                AS modulo_op,     -- 2
+       POWER(2, 10)          AS power,
+       SQRT(144)             AS square_root,
+       GREATEST(3, 9, 2)     AS largest,
+       LEAST(3, 9, 2)        AS smallest;</pre></div>
+    <div class="trap"><b><code>ROUND(numeric, n)</code> exists; <code>ROUND(double precision, n)</code> does not.</b>
+    In Postgres, <code>ROUND(AVG(x), 2)</code> can fail because <code>AVG</code> of a float returns a float.
+    Fix by casting: <code>ROUND(AVG(x)::numeric, 2)</code>. This exact error bites people constantly.</div>
+  </div>
+
+  <div class="topic">
+    <h3>Date and time functions</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>Function</th><th>Purpose</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">CURRENT_DATE / NOW()</td><td>today / this instant</td></tr>
+        <tr><td class="mono">DATE_TRUNC('month', d)</td><td>round down to month/day/week/year — <strong>the workhorse</strong></td></tr>
+        <tr><td class="mono">EXTRACT(YEAR FROM d)</td><td>pull out a field as a number</td></tr>
+        <tr><td class="mono">TO_CHAR(d,'YYYY-MM')</td><td>format as text — for labels</td></tr>
+        <tr><td class="mono">d + INTERVAL '1 month'</td><td>date arithmetic</td></tr>
+        <tr><td class="mono">AGE(a, b)</td><td>human-readable difference</td></tr>
+        <tr><td class="mono">b - a</td><td>difference in days (for <code>date</code>)</td></tr>
+        <tr><td class="mono">generate_series(a,b,step)</td><td>build a date spine to fill gaps</td></tr>
+      </tbody>
+    </table></div>
+    <div class="code"><pre>SELECT order_date,
+       DATE_TRUNC('month', order_date)::date  AS month_start,
+       TO_CHAR(order_date, 'YYYY-MM')         AS month_label,
+       TO_CHAR(order_date, 'Mon DD, YYYY')    AS pretty,
+       EXTRACT(YEAR    FROM order_date)       AS yr,
+       EXTRACT(QUARTER FROM order_date)       AS qtr,
+       EXTRACT(DOW     FROM order_date)       AS day_of_week,  -- 0 = Sunday
+       order_date + INTERVAL '30 days'        AS due,
+       shipped_date - order_date              AS days_to_ship
+FROM   orders
+WHERE  shipped_date IS NOT NULL
+ORDER  BY order_date
+LIMIT  10;</pre></div>
+    <div class="win"><b><code>DATE_TRUNC</code> vs <code>TO_CHAR</code> for monthly grouping.</b>
+    <code>DATE_TRUNC</code> returns a real date, so it sorts correctly and works across year boundaries.
+    <code>TO_CHAR</code> returns text — fine for display, dangerous for sorting. Group by
+    <code>DATE_TRUNC</code>, label with <code>TO_CHAR</code>.</div>
+    <div class="code"><pre>-- A date spine: every month in H1 2024, even months with no orders
+SELECT g::date AS month
+FROM   generate_series(DATE '2024-01-01', DATE '2024-06-01', INTERVAL '1 month') AS g;</pre></div>
+  </div>
+</section>
+
+<!-- ==================== PART 09 ==================== -->
+<section class="part" id="p09">
+  <div class="part-head"><span class="num">09</span><h2>GROUP BY &amp; aggregate functions</h2></div>
+  <p class="part-intro">An aggregate takes many rows and returns one value. <code>GROUP BY</code> says
+  <em>which</em> rows get folded together.</p>
+
+  <div class="topic">
+    <h3>The rule that answers your question directly</h3>
+    <div class="win"><b>THE RULE.</b> The moment you use <code>SUM</code>, <code>COUNT</code>, <code>AVG</code>,
+    <code>MIN</code> or <code>MAX</code> alongside any ordinary column, <strong>every ordinary column in your
+    <code>SELECT</code> must also appear in <code>GROUP BY</code></strong>.<br><br>
+    Put plainly: <em>every column in the SELECT list is either aggregated, or it is in the GROUP BY.
+    There is no third option.</em></div>
+    <div class="code syntax"><pre>SELECT   dept_id,        -- ordinary column  → MUST be in GROUP BY
+         COUNT(*),       -- aggregated       → must NOT be in GROUP BY
+         AVG(salary)     -- aggregated       → must NOT be in GROUP BY
+FROM     employees
+GROUP BY dept_id;        -- ← exactly the ordinary columns, nothing else</pre></div>
+    <p>Break the rule and Postgres tells you precisely what is wrong. Run this to see the error text — learn to
+    recognise it, because you <em>will</em> trigger it live:</p>
+    <div class="code"><pre>-- ERROR: column "employees.emp_name" must appear in the GROUP BY clause
+--        or be used in an aggregate function
+SELECT dept_id, emp_name, COUNT(*)
+FROM   employees
+GROUP  BY dept_id;</pre></div>
+    <div class="note"><b>Why the rule exists.</b> A group of 6 engineers folds into one row. If you ask for
+    <code>emp_name</code>, which of the 6 names should the database print? There is no defensible answer, so it
+    refuses. <strong>MySQL historically guessed</strong> (returning an arbitrary name) — which is exactly why
+    that behaviour is now off by default. If asked, say: "Postgres rejects it; older MySQL silently picked one,
+    which hides bugs."</div>
+    <p>Aggregating with <strong>no</strong> <code>GROUP BY</code> collapses the entire table to a single row:</p>
+    <div class="code"><pre>SELECT COUNT(*) AS employees, AVG(salary)::numeric(10,2) AS avg_salary
+FROM   employees;   -- one row, whole table</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>The aggregate functions</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>Function</th><th>Returns</th><th>NULL handling</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">COUNT(*)</td><td>number of rows</td><td>counts everything</td></tr>
+        <tr><td class="mono">COUNT(col)</td><td>non-NULL values</td><td><strong>skips NULLs</strong></td></tr>
+        <tr><td class="mono">COUNT(DISTINCT col)</td><td>distinct non-NULL values</td><td>skips NULLs</td></tr>
+        <tr><td class="mono">SUM(col)</td><td>total</td><td>skips NULLs; <strong>NULL if all NULL</strong></td></tr>
+        <tr><td class="mono">AVG(col)</td><td>mean</td><td>skips NULLs in <em>both</em> parts of the fraction</td></tr>
+        <tr><td class="mono">MIN / MAX</td><td>extremes</td><td>skip NULLs; work on text and dates too</td></tr>
+        <tr><td class="mono">STRING_AGG(col, ', ')</td><td>values glued into one string</td><td>skips NULLs</td></tr>
+        <tr><td class="mono">ARRAY_AGG(col)</td><td>values as an array</td><td>keeps NULLs</td></tr>
+        <tr><td class="mono">BOOL_AND / BOOL_OR</td><td>all / any true</td><td>skips NULLs</td></tr>
+        <tr><td class="mono">STDDEV / VARIANCE</td><td>spread</td><td>skips NULLs</td></tr>
+        <tr><td class="mono">PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY x)</td><td><strong>median</strong></td><td>skips NULLs</td></tr>
+      </tbody>
+    </table></div>
+    <div class="code"><pre>SELECT d.dept_name,
+       COUNT(*)                                   AS headcount,
+       COUNT(e.email)                             AS have_email,     -- skips the NULL
+       ROUND(AVG(e.salary), 0)                    AS avg_salary,
+       MIN(e.salary)                              AS lowest,
+       MAX(e.salary)                              AS highest,
+       SUM(e.salary)                              AS payroll,
+       ROUND(STDDEV(e.salary), 0)                 AS spread,
+       PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY e.salary) AS median_salary,
+       STRING_AGG(e.emp_name, ', ' ORDER BY e.emp_name)      AS team
+FROM   employees e
+JOIN   departments d ON d.dept_id = e.dept_id
+GROUP  BY d.dept_name
+ORDER  BY payroll DESC;</pre></div>
+    <div class="trap"><b><code>AVG</code> ignores NULLs — which is often not what "average" means to the business.</b>
+    If 3 of 10 customers have no rating, <code>AVG(rating)</code> divides by 7, not 10.
+    If the business wants "NULL counts as zero", write <code>AVG(COALESCE(rating,0))</code> or
+    <code>SUM(rating)/COUNT(*)</code>. <strong>Ask which one they mean</strong> — that question alone scores points.</div>
+    <div class="code"><pre>-- The same column, three defensible "averages". They disagree.
+SELECT AVG(discount_pct)                          AS avg_ignoring_nulls,   -- ÷ 44
+       AVG(COALESCE(discount_pct, 0))             AS avg_nulls_as_zero,    -- ÷ 119
+       SUM(discount_pct) / COUNT(*)               AS sum_over_all_rows
+FROM   order_items;</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>Grouping by several columns, expressions, and ordinals</h3>
+    <div class="code"><pre>SELECT c.country,
+       o.status,
+       COUNT(*) AS orders
+FROM   orders o
+JOIN   customers c ON c.cust_id = o.cust_id
+GROUP  BY c.country, o.status      -- one row per (country, status) PAIR
+ORDER  BY c.country, orders DESC;</pre></div>
+    <div class="code"><pre>-- group by a computed expression (repeat the expression, or use the ordinal)
+SELECT DATE_TRUNC('month', order_date)::date AS month,
+       COUNT(*) AS orders
+FROM   orders
+GROUP  BY 1        -- "1" = the first SELECT column. Handy, but name it in production code.
+ORDER  BY 1;</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>GROUPING SETS, ROLLUP and CUBE — subtotals in one pass</h3>
+    <p>These produce several grouping levels in a single query. <code>ROLLUP</code> gives a hierarchy of
+    subtotals plus a grand total; <code>CUBE</code> gives every combination.</p>
+    <div class="code syntax"><pre>GROUP BY ROLLUP(a, b)        ≡ GROUPING SETS ((a,b), (a), ())
+GROUP BY CUBE(a, b)          ≡ GROUPING SETS ((a,b), (a), (b), ())
+GROUP BY GROUPING SETS (…)   -- you list exactly the levels you want
+GROUPING(col)                -- 1 when this row is a subtotal for that column, else 0</pre></div>
+    <div class="code"><pre>SELECT COALESCE(c.country, '— ALL COUNTRIES —') AS country,
+       COALESCE(o.status,  '— all statuses —')  AS status,
+       COUNT(*)        AS orders,
+       GROUPING(c.country) AS is_country_total,
+       GROUPING(o.status)  AS is_status_total
+FROM   orders o
+JOIN   customers c ON c.cust_id = o.cust_id
+GROUP  BY ROLLUP(c.country, o.status)
+ORDER  BY is_country_total, c.country, is_status_total, o.status;</pre></div>
+    <div class="note"><b>Why <code>GROUPING()</code> matters.</b> A subtotal row has NULL in the rolled-up
+    column — but so does a genuine NULL in the data. <code>GROUPING()</code> is the only way to tell them apart.</div>
+  </div>
+</section>
+
+<!-- ==================== PART 10 ==================== -->
+<section class="part" id="p10">
+  <div class="part-head"><span class="num">10</span><h2>HAVING</h2></div>
+
+  <div class="topic">
+    <h3>WHERE filters rows. HAVING filters groups.</h3>
+    <div class="code syntax"><pre>SELECT   group_cols, AGG(x)
+FROM     t
+WHERE    row_level_condition        -- runs BEFORE grouping, cannot see aggregates
+GROUP BY group_cols
+HAVING   AGG(x) &gt; threshold         -- runs AFTER grouping, CAN see aggregates
+ORDER BY …</pre></div>
+    <div class="tbl"><table>
+      <thead><tr><th></th><th class="mono">WHERE</th><th class="mono">HAVING</th></tr></thead>
+      <tbody>
+        <tr><td>Runs at step</td><td>3 (before GROUP BY)</td><td>5 (after GROUP BY)</td></tr>
+        <tr><td>Filters</td><td>individual rows</td><td>whole groups</td></tr>
+        <tr><td>Can use aggregates</td><td><strong>No</strong></td><td><strong>Yes</strong></td></tr>
+        <tr><td>Can use SELECT aliases</td><td>No</td><td>No (Postgres) / Yes (MySQL)</td></tr>
+        <tr><td>Needs GROUP BY</td><td>No</td><td>No — without it the whole table is one group</td></tr>
+      </tbody>
+    </table></div>
+    <p>Both in one query — this is the shape interviewers want to see:</p>
+    <div class="code"><pre>SELECT   c.country,
+         COUNT(DISTINCT o.order_id)   AS orders,
+         SUM(oi.line_total)           AS revenue
+FROM     orders o
+JOIN     customers   c  ON c.cust_id  = o.cust_id
+JOIN     order_items oi ON oi.order_id = o.order_id
+WHERE    o.status = 'completed'        -- ROW filter: drop non-completed orders first
+GROUP BY c.country
+HAVING   COUNT(DISTINCT o.order_id) &gt;= 3   -- GROUP filter: keep busy countries
+     AND SUM(oi.line_total) &gt; 10000
+ORDER BY revenue DESC;</pre></div>
+    <div class="trap"><b>Don't put a row condition in HAVING.</b>
+    <code>HAVING o.status = 'completed'</code> may run, but it filters <em>after</em> the database has already
+    grouped every row — slower, and it only works if <code>status</code> is in the <code>GROUP BY</code>.
+    <b>Rule: if the condition mentions no aggregate, it belongs in <code>WHERE</code>.</b></div>
+    <div class="win"><b>The one-line answer to "WHERE vs HAVING?"</b><br>
+    "WHERE filters rows before they're grouped; HAVING filters groups after. So aggregates can only be used in
+    HAVING. If my condition has no aggregate in it, I put it in WHERE, because filtering earlier is cheaper."</div>
+  </div>
+</section>
+
+<!-- ==================== PART 11 ==================== -->
+<section class="part" id="p11">
+  <div class="part-head"><span class="num">11</span><h2>ORDER BY, LIMIT &amp; OFFSET</h2></div>
+
+  <div class="topic">
+    <h3>ORDER BY</h3>
+    <div class="code syntax"><pre>ORDER BY expr [ASC | DESC] [NULLS FIRST | NULLS LAST],
+         expr2 [ASC | DESC], …</pre></div>
+    <ul>
+      <li><code>ASC</code> is the default; you rarely write it.</li>
+      <li>Postgres default: <code>ASC</code> → NULLs <strong>last</strong>; <code>DESC</code> → NULLs <strong>first</strong>.</li>
+      <li>You may sort by a SELECT alias, a column not in the SELECT list, an expression, or an ordinal.</li>
+      <li>Sorting is the last thing that happens (step 8) — so aliases work here and nowhere earlier.</li>
+    </ul>
+    <div class="code"><pre>SELECT cust_name, city, segment
+FROM   customers
+ORDER  BY segment ASC,
+          city DESC NULLS LAST,     -- push the unknown cities to the bottom
+          cust_name;</pre></div>
+    <div class="code"><pre>-- custom ordering with CASE: put statuses in business order, not alphabetical
+SELECT order_id, status
+FROM   orders
+ORDER  BY CASE status WHEN 'pending'   THEN 1
+                      WHEN 'completed' THEN 2
+                      WHEN 'refunded'  THEN 3
+                      WHEN 'cancelled' THEN 4 END,
+          order_id
+LIMIT  12;</pre></div>
+    <div class="trap"><b>Without <code>ORDER BY</code> there is no order.</b> A result that "looks sorted"
+    is a coincidence of the current plan and will change. If order matters, say so explicitly.</div>
+  </div>
+
+  <div class="topic">
+    <h3>LIMIT and OFFSET</h3>
+    <div class="code syntax"><pre>LIMIT  n            -- at most n rows          (Postgres, MySQL, SQLite)
+OFFSET m            -- skip the first m rows
+FETCH FIRST n ROWS ONLY   -- the ANSI spelling; Postgres supports both</pre></div>
+    <div class="code"><pre>-- page 3, 5 rows per page  →  skip 10, take 5
+SELECT emp_name, salary
+FROM   employees
+ORDER  BY salary DESC, emp_id      -- tie-break makes paging STABLE
+LIMIT  5 OFFSET 10;</pre></div>
+    <div class="trap"><b>Paging without a unique tie-break is broken.</b> With ties in <code>salary</code>,
+    two pages can show the same person, or miss one. Always append a unique column to <code>ORDER BY</code>.</div>
+    <div class="note"><b>"How would you paginate a million rows?"</b> <code>OFFSET</code> gets slower the deeper
+    you go — the database still walks every skipped row. The senior answer is <strong>keyset (cursor)
+    pagination</strong>: remember the last row you saw and use <code>WHERE (salary, emp_id) &lt; (:last_salary, :last_id)</code>.</div>
+    <div class="code"><pre>-- keyset pagination: no OFFSET, uses the index, constant speed at any depth
+SELECT emp_name, salary, emp_id
+FROM   employees
+WHERE  (salary, emp_id) &lt; (150000, 6)     -- row-value comparison
+ORDER  BY salary DESC, emp_id DESC
+LIMIT  5;</pre></div>
+  </div>
+</section>
+
+<!-- ==================== PART 12 ==================== -->
+<section class="part" id="p12">
+  <div class="part-head"><span class="num">12</span><h2>JOINs</h2></div>
+  <p class="part-intro">A join combines rows from two tables. Mentally: take every possible pairing, then keep
+  the pairs where <code>ON</code> is true. (The database is far cleverer than that, but the mental model is exact.)</p>
+
+  <div class="topic">
+    <h3>The syntax</h3>
+    <div class="code syntax"><pre>FROM left_table  L
+[INNER | LEFT [OUTER] | RIGHT [OUTER] | FULL [OUTER] | CROSS] JOIN right_table R
+     ON  L.key = R.key          -- any boolean condition, not just equality
+   | USING (key)                -- shorthand when the column name is identical
+   | (CROSS JOIN takes no ON)</pre></div>
+    <p><code>OUTER</code> is optional noise: <code>LEFT JOIN</code> ≡ <code>LEFT OUTER JOIN</code>.</p>
+  </div>
+
+  <div class="topic">
+    <h3>The five kinds</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>Join</th><th>Keeps</th><th>Use it when</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">INNER JOIN</td><td>only rows matching on both sides</td><td>you want confirmed pairs</td></tr>
+        <tr><td class="mono">LEFT JOIN</td><td>all left rows + matches; NULLs where none</td><td>"all customers, with their orders if any"</td></tr>
+        <tr><td class="mono">RIGHT JOIN</td><td>all right rows + matches</td><td>rare — flip the tables and use LEFT</td></tr>
+        <tr><td class="mono">FULL OUTER JOIN</td><td>everything from both sides</td><td>reconciling two systems</td></tr>
+        <tr><td class="mono">CROSS JOIN</td><td>every combination (Cartesian product)</td><td>date spines, generating grids</td></tr>
+      </tbody>
+    </table></div>
+    <p>See all of them on the same data. 14 customers, 11 of whom have orders:</p>
+    <div class="code"><pre>SELECT 'INNER'  AS join_type, COUNT(*) AS rows, COUNT(DISTINCT c.cust_id) AS customers
+FROM   customers c INNER JOIN orders o ON o.cust_id = c.cust_id
+UNION ALL
+SELECT 'LEFT',  COUNT(*), COUNT(DISTINCT c.cust_id)
+FROM   customers c LEFT  JOIN orders o ON o.cust_id = c.cust_id
+UNION ALL
+SELECT 'FULL',  COUNT(*), COUNT(DISTINCT c.cust_id)
+FROM   customers c FULL  JOIN orders o ON o.cust_id = c.cust_id;
+-- LEFT keeps the 3 order-less customers (as NULL rows); INNER drops them.</pre></div>
+    <div class="code"><pre>-- LEFT JOIN showing the NULLs explicitly
+SELECT c.cust_name, c.segment, o.order_id, o.order_date
+FROM   customers c
+LEFT   JOIN orders o ON o.cust_id = c.cust_id
+WHERE  o.order_id IS NULL;        -- ← the 3 customers who never ordered</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>The single biggest JOIN trap: <code>ON</code> vs <code>WHERE</code></h3>
+    <p>On an <strong>outer</strong> join these are completely different. A condition in <code>ON</code> decides
+    <em>what counts as a match</em>. The same condition in <code>WHERE</code> runs <em>after</em> the join and
+    throws away the NULL-filled rows — silently converting your <code>LEFT JOIN</code> back into an
+    <code>INNER JOIN</code>.</p>
+    <div class="code"><pre>-- ✅ condition in ON: keeps all 14 customers; non-completed orders just become NULL
+SELECT COUNT(*) AS rows_condition_in_on
+FROM   customers c
+LEFT   JOIN orders o ON o.cust_id = c.cust_id AND o.status = 'completed';
+
+-- ❌ condition in WHERE: customers with no completed order VANISH. Now it's an INNER JOIN.
+SELECT COUNT(*) AS rows_condition_in_where
+FROM   customers c
+LEFT   JOIN orders o ON o.cust_id = c.cust_id
+WHERE  o.status = 'completed';</pre></div>
+    <div class="win"><b>The rule.</b> On an outer join, put conditions about the <em>optional</em> table in
+    <code>ON</code>. Put conditions about the <em>preserved</em> table in <code>WHERE</code>.
+    The only <code>WHERE</code> condition on the optional table that is safe is <code>IS NULL</code> — and that
+    is deliberate, because it is how you write an anti-join.</div>
+  </div>
+
+  <div class="topic">
+    <h3>Anti-joins and semi-joins</h3>
+    <p><strong>Anti-join</strong> = "rows in A with no match in B". <strong>Semi-join</strong> = "rows in A that
+    have at least one match in B, without duplicating A". Three ways each; know all of them.</p>
+    <div class="code"><pre>-- ANTI-JOIN, three ways. All return the 2 never-ordered products.
+SELECT product_name FROM products p                       -- 1. NOT EXISTS  (best: NULL-safe, fast)
+WHERE  NOT EXISTS (SELECT 1 FROM order_items i WHERE i.product_id = p.product_id);
+
+SELECT p.product_name FROM products p                     -- 2. LEFT JOIN … IS NULL
+LEFT   JOIN order_items i ON i.product_id = p.product_id
+WHERE  i.product_id IS NULL;
+
+SELECT product_name FROM products                         -- 3. NOT IN  ⚠ breaks on NULLs
+WHERE  product_id NOT IN (SELECT product_id FROM order_items);</pre></div>
+    <div class="code"><pre>-- SEMI-JOIN: customers who ordered at least once — WITHOUT row multiplication
+SELECT c.cust_name
+FROM   customers c
+WHERE  EXISTS (SELECT 1 FROM orders o WHERE o.cust_id = c.cust_id)
+ORDER  BY c.cust_name;
+-- Compare: an INNER JOIN would return one row PER ORDER, needing DISTINCT to fix.</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>Self-joins</h3>
+    <p>Join a table to itself with two aliases. The standard hierarchy question.</p>
+    <div class="code"><pre>-- every employee next to their manager  (LEFT JOIN keeps the CEO, who has none)
+SELECT e.emp_name    AS employee,
+       e.salary      AS emp_salary,
+       m.emp_name    AS manager,
+       m.salary      AS mgr_salary
+FROM   employees e
+LEFT   JOIN employees m ON m.emp_id = e.manager_id
+ORDER  BY m.emp_name NULLS FIRST, e.emp_name;</pre></div>
+    <div class="code"><pre>-- classic: employees who earn MORE than their manager
+SELECT e.emp_name AS employee, e.salary, m.emp_name AS manager, m.salary AS manager_salary
+FROM   employees e
+JOIN   employees m ON m.emp_id = e.manager_id
+WHERE  e.salary &gt; m.salary;</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>USING, NATURAL, and why to avoid one of them</h3>
+    <div class="code"><pre>SELECT o.order_id, c.cust_name          -- USING: column must be named identically in both
+FROM   orders o JOIN customers c USING (cust_id)
+LIMIT  5;</pre></div>
+    <div class="trap"><b>Never use <code>NATURAL JOIN</code>.</b> It joins on <em>every</em> column that shares a
+    name — including <code>created_at</code> or <code>id</code> columns you forgot about. Add a column to either
+    table later and the query silently changes meaning. Say this in an interview and you sound experienced.</div>
+    <p><code>USING</code> also merges the joined column into one, which matters for <code>SELECT *</code>.</p>
+  </div>
+
+  <div class="topic">
+    <h3>Non-equi joins</h3>
+    <p><code>ON</code> takes any boolean condition, not just <code>=</code>. Range joins are common in
+    interviews (banding, effective-dated records).</p>
+    <div class="code"><pre>-- band every employee by joining on a RANGE
+WITH bands(label, lo, hi) AS (
+    VALUES ('junior', 0, 99999), ('mid', 100000, 129999),
+           ('senior', 130000, 174999), ('executive', 175000, 999999)
+)
+SELECT e.emp_name, e.salary, b.label
+FROM   employees e
+JOIN   bands b ON e.salary BETWEEN b.lo AND b.hi
+ORDER  BY e.salary DESC;</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>Joining three or more tables, and the double-count trap</h3>
+    <div class="code"><pre>-- ⚠ WRONG: joining two independent child tables multiplies their rows together
+SELECT COUNT(*) AS inflated
+FROM   orders o
+JOIN   order_items oi ON oi.order_id = o.order_id
+JOIN   web_events  w  ON w.cust_id   = o.cust_id;    -- rows = items × events
+
+-- ✅ RIGHT: aggregate each child SEPARATELY, then join the summaries
+SELECT c.cust_name,
+       COALESCE(i.revenue, 0)  AS revenue,
+       COALESCE(e.events, 0)   AS events
+FROM   customers c
+LEFT   JOIN (SELECT o.cust_id, SUM(oi.line_total) AS revenue
+             FROM   orders o JOIN order_items oi ON oi.order_id = o.order_id
+             WHERE  o.status = 'completed'
+             GROUP  BY o.cust_id) i ON i.cust_id = c.cust_id
+LEFT   JOIN (SELECT cust_id, COUNT(*) AS events
+             FROM   web_events GROUP BY cust_id) e ON e.cust_id = c.cust_id
+ORDER  BY revenue DESC NULLS LAST;</pre></div>
+    <div class="win"><b>Remember the shape:</b> "aggregate first, then join" — never "join everything, then
+    aggregate" — whenever two child tables hang off the same parent.</div>
+  </div>
+</section>
+
+<!-- ==================== PART 13 ==================== -->
+<section class="part" id="p13">
+  <div class="part-head"><span class="num">13</span><h2>Set operations</h2></div>
+  <p class="part-intro">Joins combine tables <em>side by side</em> (more columns). Set operations stack them
+  <em>on top of each other</em> (more rows).</p>
+
+  <div class="topic">
+    <h3>UNION, INTERSECT, EXCEPT</h3>
+    <div class="code syntax"><pre>query1 UNION     query2    -- all rows from both, DUPLICATES REMOVED
+query1 UNION ALL query2    -- all rows from both, duplicates KEPT   ← faster
+query1 INTERSECT query2    -- rows in both
+query1 EXCEPT    query2    -- rows in query1 that are not in query2</pre></div>
+    <p><strong>Three rules:</strong> both sides need the same number of columns; matching columns need
+    compatible types; column names come from the <em>first</em> query. A single <code>ORDER BY</code> at the
+    very end sorts the combined result.</p>
+    <div class="code"><pre>SELECT cust_name AS name, 'customer' AS kind FROM customers WHERE country = 'India'
+UNION ALL
+SELECT emp_name,          'employee'         FROM employees WHERE dept_id = 2
+ORDER  BY kind, name;      -- ORDER BY belongs to the WHOLE result, once, at the end</pre></div>
+    <div class="code"><pre>-- UNION removes duplicates; UNION ALL does not. Count the difference.
+SELECT COUNT(*) AS with_union     FROM (SELECT country FROM customers UNION     SELECT country FROM customers) u;
+SELECT COUNT(*) AS with_union_all FROM (SELECT country FROM customers UNION ALL SELECT country FROM customers) u;</pre></div>
+    <div class="win"><b>Default to <code>UNION ALL</code>.</b> <code>UNION</code> must sort or hash everything to
+    find duplicates, which costs real time on big tables. Use plain <code>UNION</code> only when you actually
+    need de-duplication. Interviewers ask this specifically.</div>
+    <div class="code"><pre>-- INTERSECT / EXCEPT: which cities have customers but no employees, and vice versa
+SELECT city FROM customers WHERE city IS NOT NULL
+EXCEPT
+SELECT location FROM departments
+ORDER  BY city;</pre></div>
+    <div class="note"><b>Set operations compare whole rows and treat NULLs as equal</b> — unlike <code>=</code>.
+    That makes <code>EXCEPT</code> a neat way to diff two tables, including their NULLs.</div>
+  </div>
+</section>
+
+<!-- ==================== PART 14 ==================== -->
+<section class="part" id="p14">
+  <div class="part-head"><span class="num">14</span><h2>Subqueries &amp; correlated subqueries</h2></div>
+
+  <div class="topic">
+    <h3>Where a subquery can live</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>Position</th><th>Must return</th><th>Called</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">SELECT (…)</td><td>exactly 1 row, 1 column</td><td>scalar subquery</td></tr>
+        <tr><td class="mono">FROM (…) AS t</td><td>any table (alias required)</td><td>derived table</td></tr>
+        <tr><td class="mono">WHERE x = (…)</td><td>1 row, 1 column</td><td>scalar</td></tr>
+        <tr><td class="mono">WHERE x IN (…)</td><td>1 column, any rows</td><td>list subquery</td></tr>
+        <tr><td class="mono">WHERE EXISTS (…)</td><td>anything — only presence matters</td><td>existence test</td></tr>
+        <tr><td class="mono">JOIN (…) AS t ON …</td><td>any table</td><td>inline view</td></tr>
+      </tbody>
+    </table></div>
+    <div class="code"><pre>-- scalar in SELECT: company average repeated on every row
+SELECT emp_name, salary,
+       (SELECT ROUND(AVG(salary)) FROM employees)               AS company_avg,
+       salary - (SELECT ROUND(AVG(salary)) FROM employees)      AS diff_from_avg
+FROM   employees
+ORDER  BY diff_from_avg DESC;</pre></div>
+    <div class="code"><pre>-- scalar in WHERE: everyone paid above the company average
+SELECT emp_name, salary
+FROM   employees
+WHERE  salary &gt; (SELECT AVG(salary) FROM employees)
+ORDER  BY salary DESC;</pre></div>
+    <div class="trap"><b>"more than one row returned by a subquery used as an expression"</b> means a scalar
+    subquery returned 2+ rows. Either it needs an aggregate, or you meant <code>IN</code> instead of <code>=</code>.</div>
+  </div>
+
+  <div class="topic">
+    <h3>IN, ANY, ALL</h3>
+    <div class="code syntax"><pre>x IN  (subquery)          ≡  x = ANY (subquery)
+x NOT IN (subquery)       ≡  x &lt;&gt; ALL (subquery)
+x &gt; ANY (subquery)        -- greater than AT LEAST ONE  (i.e. &gt; the minimum)
+x &gt; ALL (subquery)        -- greater than EVERY ONE     (i.e. &gt; the maximum)</pre></div>
+    <div class="code"><pre>SELECT emp_name, salary FROM employees
+WHERE  salary &gt; ALL (SELECT salary FROM employees WHERE dept_id = 3)   -- beats all of Marketing
+ORDER  BY salary;</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>Correlated subqueries — the concept interviewers probe</h3>
+    <p>A subquery is <strong>correlated</strong> when it references a column from the outer query. That means it
+    cannot be evaluated once; conceptually it re-runs <em>for every outer row</em>.</p>
+    <div class="code syntax"><pre>SELECT …
+FROM   outer_table o
+WHERE  … (SELECT … FROM inner_table i WHERE i.key = o.key) …
+--                                              ↑ reference to the OUTER row
+--                                                = correlated</pre></div>
+    <div class="code"><pre>-- each employee vs their OWN department's average — the inner query depends on e.dept_id
+SELECT e.emp_name, e.dept_id, e.salary,
+       (SELECT ROUND(AVG(e2.salary))
+        FROM   employees e2
+        WHERE  e2.dept_id = e.dept_id) AS dept_avg      -- ← correlated
+FROM   employees e
+WHERE  e.salary &gt; (SELECT AVG(e2.salary)
+                   FROM   employees e2
+                   WHERE  e2.dept_id = e.dept_id)       -- ← correlated
+ORDER  BY e.dept_id, e.salary DESC;</pre></div>
+    <div class="win"><b>Say this:</b> "That's a correlated subquery — it references the outer row, so logically
+    it runs per row. A window function (<code>AVG(salary) OVER (PARTITION BY dept_id)</code>) does the same job
+    in one pass and is usually faster." That comparison is exactly what they're listening for.</div>
+    <div class="code"><pre>-- the SAME answer with a window function: one pass, no correlation
+SELECT emp_name, dept_id, salary, dept_avg
+FROM  (SELECT emp_name, dept_id, salary,
+              ROUND(AVG(salary) OVER (PARTITION BY dept_id)) AS dept_avg
+       FROM   employees) t
+WHERE  salary &gt; dept_avg
+ORDER  BY dept_id, salary DESC;</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>EXISTS vs IN vs JOIN — which to reach for</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>Goal</th><th>Use</th><th>Why</th></tr></thead>
+      <tbody>
+        <tr><td>"has at least one related row"</td><td class="mono">EXISTS</td><td>stops at the first match; never duplicates rows; NULL-safe</td></tr>
+        <tr><td>"has none"</td><td class="mono">NOT EXISTS</td><td>NULL-safe, unlike <code>NOT IN</code></td></tr>
+        <tr><td>"value is in this short fixed list"</td><td class="mono">IN</td><td>readable</td></tr>
+        <tr><td>"I need columns from the other table"</td><td class="mono">JOIN</td><td>only a join can return them</td></tr>
+      </tbody>
+    </table></div>
+    <div class="note"><b>On performance:</b> in modern PostgreSQL the planner rewrites <code>IN</code>,
+    <code>EXISTS</code> and semi-joins into the same plan most of the time, so pick for
+    <em>correctness and readability</em>. The one real difference that never goes away is
+    <code>NOT IN</code>'s NULL behaviour — that's a correctness issue, not a speed one.</div>
+  </div>
+
+  <div class="topic">
+    <h3>LATERAL — a subquery that can see the row beside it</h3>
+    <p>A normal subquery in <code>FROM</code> cannot reference other <code>FROM</code> items.
+    <code>LATERAL</code> lets it — which makes "top N per group" trivial.
+    (SQL Server spells this <code>CROSS APPLY</code> / <code>OUTER APPLY</code>.)</p>
+    <div class="code"><pre>-- the 2 largest line items for each of the top customers
+SELECT c.cust_name, t.product_id, t.line_total
+FROM   customers c
+CROSS  JOIN LATERAL (
+         SELECT oi.product_id, oi.line_total
+         FROM   orders o
+         JOIN   order_items oi ON oi.order_id = o.order_id
+         WHERE  o.cust_id = c.cust_id           -- ← sees c, only possible with LATERAL
+         ORDER  BY oi.line_total DESC
+         LIMIT  2
+       ) t
+ORDER  BY c.cust_name, t.line_total DESC;</pre></div>
+  </div>
+</section>
+
+<!-- ==================== PART 15 ==================== -->
+<section class="part" id="p15">
+  <div class="part-head"><span class="num">15</span><h2>CTEs &amp; recursive CTEs</h2></div>
+  <p class="part-intro">A CTE ("Common Table Expression", the <code>WITH</code> clause) is a named temporary
+  result you define at the top and use below. It is the single biggest readability upgrade available to you.</p>
+
+  <div class="topic">
+    <h3>Syntax and why it beats nesting</h3>
+    <div class="code syntax"><pre>WITH name1 AS (
+    SELECT …
+), name2 AS (               -- ← comma between CTEs, none after the last
+    SELECT … FROM name1     -- a CTE may use any CTE defined ABOVE it
+)
+SELECT … FROM name2;        -- the main query MUST follow</pre></div>
+    <div class="code"><pre>WITH completed AS (
+    SELECT o.order_id, o.cust_id, o.order_date
+    FROM   orders o
+    WHERE  o.status = 'completed'
+), revenue AS (
+    SELECT c.cust_id, SUM(oi.line_total) AS revenue, COUNT(DISTINCT c.order_id) AS orders
+    FROM   completed c
+    JOIN   order_items oi ON oi.order_id = c.order_id
+    GROUP  BY c.cust_id
+)
+SELECT cu.cust_name, cu.country, r.orders, ROUND(r.revenue, 2) AS revenue
+FROM   revenue r
+JOIN   customers cu ON cu.cust_id = r.cust_id
+ORDER  BY r.revenue DESC
+LIMIT  10;</pre></div>
+    <div class="win"><b>Use CTEs to narrate your answer.</b> Naming each step (<code>completed</code>,
+    <code>revenue</code>) lets you talk the interviewer through your logic one block at a time. It reads far
+    better than three levels of nested brackets, and it is much easier to debug — run each CTE on its own.</div>
+    <div class="note"><b>CTE vs subquery vs temp table.</b> A CTE is scoped to one statement and stores nothing.
+    A derived table is the same thing without a name. A temp table persists for the session and can be indexed —
+    reach for it when the same intermediate result is needed by several statements or is very large.</div>
+  </div>
+
+  <div class="topic">
+    <h3>MATERIALIZED / NOT MATERIALIZED</h3>
+    <p>Since PG 12 the planner may inline a CTE into the outer query. Occasionally you want to force it.</p>
+    <div class="code syntax"><pre>WITH x AS MATERIALIZED     ( … )   -- compute once, store it
+WITH x AS NOT MATERIALIZED ( … )   -- always inline, let the planner optimise through it</pre></div>
+    <div class="note">Before PG 12 a CTE was <em>always</em> an optimisation fence. If someone says "CTEs are
+    slow in Postgres", they are remembering pre-12 behaviour — worth knowing, and worth correcting politely.</div>
+  </div>
+
+  <div class="topic">
+    <h3>Recursive CTEs</h3>
+    <p>For hierarchies (org charts, categories, graphs) and for generating series. A recursive CTE has exactly
+    two parts joined by <code>UNION ALL</code>.</p>
+    <div class="code syntax"><pre>WITH RECURSIVE cte AS (
+    SELECT …                    -- ANCHOR: the starting rows, runs once
+    UNION ALL
+    SELECT …                    -- RECURSIVE TERM: refers to `cte`, runs again and again
+    FROM   source JOIN cte ON …
+    WHERE  stop_condition       -- MUST eventually return no rows, or it never ends
+)
+SELECT * FROM cte;</pre></div>
+    <div class="code"><pre>-- the org chart, with depth and a readable path
+WITH RECURSIVE org AS (
+    SELECT emp_id, emp_name, manager_id,
+           1                     AS level,
+           emp_name::text        AS path
+    FROM   employees
+    WHERE  manager_id IS NULL                     -- ANCHOR: the CEO
+    UNION ALL
+    SELECT e.emp_id, e.emp_name, e.manager_id,
+           o.level + 1,
+           o.path || ' > ' || e.emp_name
+    FROM   employees e
+    JOIN   org o ON e.manager_id = o.emp_id        -- RECURSIVE: join back to the CTE
+)
+SELECT level, REPEAT('    ', level - 1) || emp_name AS org_chart, path
+FROM   org
+ORDER  BY path;</pre></div>
+    <div class="code"><pre>-- generate a series without generate_series()  (the portable trick)
+WITH RECURSIVE n(x) AS (
+    SELECT 1
+    UNION ALL
+    SELECT x + 1 FROM n WHERE x &lt; 12        -- ← the stop condition
+)
+SELECT x, TO_CHAR(DATE '2024-01-01' + (x-1) * INTERVAL '1 month', 'YYYY-MM') AS month
+FROM   n;</pre></div>
+    <div class="trap"><b>Infinite recursion.</b> Forget the <code>WHERE</code> stop condition, or have a cycle in
+    your data, and it runs forever. For graphs that may contain cycles, carry an array of visited ids and add
+    <code>WHERE NOT e.id = ANY(o.visited)</code>. Postgres 14+ also has a <code>CYCLE</code> clause.</div>
+    <div class="note"><b>Why <code>UNION ALL</code> and not <code>UNION</code>?</b> <code>UNION</code> would
+    de-duplicate at every step, which is slower and can mask legitimate repeated values. Use
+    <code>UNION</code> only as a crude cycle guard.</div>
+  </div>
+
+  <div class="topic">
+    <h3>Data-modifying CTEs</h3>
+    <p>Postgres lets <code>INSERT</code>/<code>UPDATE</code>/<code>DELETE … RETURNING</code> act as a CTE —
+    how you move rows between tables atomically.</p>
+    <div class="code"><pre>DROP TABLE IF EXISTS demo_archive;
+CREATE TABLE demo_archive (order_id integer, status text, archived_at timestamptz DEFAULT now());
+
+WITH moved AS (
+    DELETE FROM orders
+    WHERE  status = 'cancelled'
+    RETURNING order_id, status
+)
+INSERT INTO demo_archive (order_id, status)
+SELECT order_id, status FROM moved
+RETURNING order_id, status;
+-- Reset the database afterwards to restore the cancelled orders.</pre></div>
+  </div>
+</section>
+
+<!-- ==================== PART 16 ==================== -->
+<section class="part" id="p16">
+  <div class="part-head"><span class="num">16</span><h2>Window functions</h2></div>
+  <p class="part-intro">The highest-leverage topic on this page for an analyst role. If you are shaky anywhere,
+  be shaky somewhere else.</p>
+
+  <div class="topic">
+    <h3>The core idea</h3>
+    <p><code>GROUP BY</code> <strong>collapses</strong> rows: 16 employees become 3 department rows.
+    A window function <strong>keeps every row</strong> and adds a value computed from a set of
+    <em>related</em> rows — its "window".</p>
+    <div class="code"><pre>-- GROUP BY: 3 rows out
+SELECT dept_id, ROUND(AVG(salary)) AS dept_avg FROM employees WHERE dept_id IS NOT NULL GROUP BY dept_id;
+
+-- WINDOW: all 16 rows out, each carrying its department average
+SELECT emp_name, dept_id, salary,
+       ROUND(AVG(salary) OVER (PARTITION BY dept_id)) AS dept_avg,
+       salary - ROUND(AVG(salary) OVER (PARTITION BY dept_id)) AS vs_dept
+FROM   employees
+ORDER  BY dept_id NULLS LAST, salary DESC;</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>The full syntax</h3>
+    <div class="code syntax"><pre>function(args) OVER (
+    [PARTITION BY col, …]      -- split rows into independent groups. No PARTITION = one big group
+    [ORDER BY col, …]          -- order rows WITHIN each partition
+    [frame_clause]             -- which rows around the current one to include
+)
+
+frame_clause :=
+    { ROWS | RANGE | GROUPS } BETWEEN frame_start AND frame_end [EXCLUDE …]
+
+frame_start / frame_end :=
+    UNBOUNDED PRECEDING     -- first row of the partition
+  | n PRECEDING             -- n rows (ROWS) or n units of value (RANGE) back
+  | CURRENT ROW
+  | n FOLLOWING
+  | UNBOUNDED FOLLOWING     -- last row of the partition</pre></div>
+    <div class="trap"><b>The default frame is the #1 window-function trap.</b><br>
+    • With <strong>no</strong> <code>ORDER BY</code> → the frame is the <em>whole partition</em>.<br>
+    • With an <code>ORDER BY</code> → the frame silently becomes
+    <code>RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW</code>.<br>
+    So <code>SUM(x) OVER (ORDER BY d)</code> is a <em>running</em> total, not a grand total — and
+    <code>LAST_VALUE(x) OVER (ORDER BY d)</code> returns the <em>current</em> row, not the last one.</div>
+    <div class="code"><pre>-- watch the default frame bite, and the fix
+SELECT order_id, order_date,
+       SUM(1)          OVER (ORDER BY order_date)                       AS running_count,
+       SUM(1)          OVER ()                                          AS grand_total,
+       LAST_VALUE(order_id) OVER (ORDER BY order_date)                  AS last_value_WRONG,
+       LAST_VALUE(order_id) OVER (ORDER BY order_date
+                                  ROWS BETWEEN UNBOUNDED PRECEDING
+                                           AND UNBOUNDED FOLLOWING)     AS last_value_RIGHT
+FROM   orders
+ORDER  BY order_date
+LIMIT  10;</pre></div>
+    <div class="note"><b><code>ROWS</code> vs <code>RANGE</code>.</b> <code>ROWS</code> counts physical rows.
+    <code>RANGE</code> counts <em>values</em> — all rows with the same <code>ORDER BY</code> value (peers) are
+    included together. With duplicate dates, <code>ROWS</code> and <code>RANGE</code> give different running
+    totals. When in doubt, write <code>ROWS</code> — it's what people usually mean.</div>
+  </div>
+
+  <div class="topic">
+    <h3>The three ranking functions</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>Function</th><th>On a tie</th><th>Gaps after ties</th><th>Use for</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">ROW_NUMBER()</td><td>arbitrary distinct numbers</td><td>n/a</td><td>de-duplication, exact top-N</td></tr>
+        <tr><td class="mono">RANK()</td><td>same rank</td><td><strong>yes</strong> (1,1,3)</td><td>competition ranking</td></tr>
+        <tr><td class="mono">DENSE_RANK()</td><td>same rank</td><td>no (1,1,2)</td><td>"top 3 distinct salaries"</td></tr>
+      </tbody>
+    </table></div>
+    <p>The employee salaries contain deliberate ties, so all three differ. This is a guaranteed interview question:</p>
+    <div class="code"><pre>SELECT emp_name, salary,
+       ROW_NUMBER() OVER (ORDER BY salary DESC) AS row_number,
+       RANK()       OVER (ORDER BY salary DESC) AS rank,
+       DENSE_RANK() OVER (ORDER BY salary DESC) AS dense_rank
+FROM   employees
+ORDER  BY salary DESC;</pre></div>
+    <div class="code"><pre>-- ranking WITHIN each department
+SELECT dept_id, emp_name, salary,
+       RANK() OVER (PARTITION BY dept_id ORDER BY salary DESC) AS rank_in_dept
+FROM   employees
+WHERE  dept_id IS NOT NULL
+ORDER  BY dept_id, rank_in_dept;</pre></div>
+    <div class="tbl"><table>
+      <thead><tr><th>Also available</th><th>Gives</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">PERCENT_RANK()</td><td>(rank-1)/(rows-1), from 0 to 1</td></tr>
+        <tr><td class="mono">CUME_DIST()</td><td>cumulative distribution, from &gt;0 to 1</td></tr>
+        <tr><td class="mono">NTILE(n)</td><td>splits rows into n buckets — quartiles, deciles</td></tr>
+      </tbody>
+    </table></div>
+    <div class="code"><pre>SELECT emp_name, salary,
+       ROUND(PERCENT_RANK() OVER (ORDER BY salary)::numeric, 3) AS pct_rank,
+       ROUND(CUME_DIST()    OVER (ORDER BY salary)::numeric, 3) AS cume_dist,
+       NTILE(4)             OVER (ORDER BY salary)              AS salary_quartile
+FROM   employees
+ORDER  BY salary;</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>LAG and LEAD — comparing to the previous or next row</h3>
+    <div class="code syntax"><pre>LAG (col [, offset [, default]]) OVER (PARTITION BY … ORDER BY …)   -- look BACK
+LEAD(col [, offset [, default]]) OVER (PARTITION BY … ORDER BY …)   -- look FORWARD
+-- offset defaults to 1; default is what to return when there is no such row (else NULL)</pre></div>
+    <div class="code"><pre>-- month-over-month revenue growth: the single most common analyst question
+WITH monthly AS (
+    SELECT DATE_TRUNC('month', o.order_date)::date AS month,
+           SUM(oi.line_total)                      AS revenue
+    FROM   orders o
+    JOIN   order_items oi ON oi.order_id = o.order_id
+    WHERE  o.status = 'completed'
+    GROUP  BY 1
+)
+SELECT month,
+       ROUND(revenue, 2)                                        AS revenue,
+       ROUND(LAG(revenue) OVER (ORDER BY month), 2)             AS prev_month,
+       ROUND(revenue - LAG(revenue) OVER (ORDER BY month), 2)   AS change,
+       ROUND(100.0 * (revenue - LAG(revenue) OVER (ORDER BY month))
+             / NULLIF(LAG(revenue) OVER (ORDER BY month), 0), 1) AS pct_growth
+FROM   monthly
+ORDER  BY month;</pre></div>
+    <div class="win">Note <code>NULLIF(…, 0)</code> guarding the division, and that the first month's
+    <code>pct_growth</code> is correctly NULL rather than an error. Both details get noticed.</div>
+  </div>
+
+  <div class="topic">
+    <h3>FIRST_VALUE, LAST_VALUE, NTH_VALUE</h3>
+    <div class="code"><pre>SELECT dept_id, emp_name, salary,
+       FIRST_VALUE(emp_name) OVER w AS highest_paid_in_dept,
+       LAST_VALUE(emp_name)  OVER w AS lowest_paid_in_dept,
+       NTH_VALUE(emp_name,2) OVER w AS second_highest
+FROM   employees
+WHERE  dept_id IS NOT NULL
+WINDOW w AS (PARTITION BY dept_id ORDER BY salary DESC
+             ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING)
+ORDER  BY dept_id, salary DESC;</pre></div>
+    <div class="note"><b>The named <code>WINDOW</code> clause</b> lets you define the spec once and reuse it.
+    It sits between <code>HAVING</code> and <code>ORDER BY</code>. Using it shows fluency — and here it is
+    load-bearing, because all three functions need the same explicit full frame.</div>
+  </div>
+
+  <div class="topic">
+    <h3>Running totals, moving averages, share of total</h3>
+    <div class="code"><pre>WITH daily AS (
+    SELECT o.order_date, SUM(oi.line_total) AS revenue
+    FROM   orders o JOIN order_items oi ON oi.order_id = o.order_id
+    WHERE  o.status = 'completed'
+    GROUP  BY o.order_date
+)
+SELECT order_date,
+       ROUND(revenue, 2) AS revenue,
+       ROUND(SUM(revenue) OVER (ORDER BY order_date), 2)                  AS running_total,
+       ROUND(AVG(revenue) OVER (ORDER BY order_date
+                                ROWS BETWEEN 2 PRECEDING AND CURRENT ROW), 2) AS moving_avg_3,
+       ROUND(100.0 * revenue / SUM(revenue) OVER (), 2)                   AS pct_of_total
+FROM   daily
+ORDER  BY order_date;</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>Where window functions are and are not allowed</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>Clause</th><th>Allowed?</th><th>Because</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">SELECT</td><td>✅ yes</td><td>this is where they are computed (step 6)</td></tr>
+        <tr><td class="mono">ORDER BY</td><td>✅ yes</td><td>runs after SELECT (step 8)</td></tr>
+        <tr><td class="mono">WHERE</td><td>❌ no</td><td>runs at step 3, before they exist</td></tr>
+        <tr><td class="mono">GROUP BY</td><td>❌ no</td><td>step 4</td></tr>
+        <tr><td class="mono">HAVING</td><td>❌ no</td><td>step 5</td></tr>
+      </tbody>
+    </table></div>
+    <div class="win"><b>The universal workaround:</b> compute the window value in a CTE or subquery, then filter
+    it in the outer query. This is <em>the</em> shape for every "top N per group" question.</div>
+    <div class="code"><pre>-- ❌ ERROR: window functions are not allowed in WHERE
+SELECT emp_name, RANK() OVER (PARTITION BY dept_id ORDER BY salary DESC) AS r
+FROM   employees
+WHERE  RANK() OVER (PARTITION BY dept_id ORDER BY salary DESC) &lt;= 2;</pre></div>
+    <div class="code"><pre>-- ✅ the fix: rank inside, filter outside. Top 2 earners per department.
+WITH ranked AS (
+    SELECT emp_name, dept_id, salary,
+           RANK() OVER (PARTITION BY dept_id ORDER BY salary DESC) AS r
+    FROM   employees
+    WHERE  dept_id IS NOT NULL
+)
+SELECT dept_id, emp_name, salary, r
+FROM   ranked
+WHERE  r &lt;= 2
+ORDER  BY dept_id, r;</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>Windows run <em>after</em> GROUP BY — so you can combine them</h3>
+    <p>A window function sees the <em>grouped</em> rows, which lets you aggregate and then rank in one query.</p>
+    <div class="code"><pre>SELECT c.country,
+       COUNT(DISTINCT o.order_id)                                  AS orders,
+       ROUND(SUM(oi.line_total), 2)                                AS revenue,
+       RANK() OVER (ORDER BY SUM(oi.line_total) DESC)              AS revenue_rank,
+       ROUND(100.0 * SUM(oi.line_total) / SUM(SUM(oi.line_total)) OVER (), 1) AS pct_of_total
+FROM   orders o
+JOIN   customers   c  ON c.cust_id  = o.cust_id
+JOIN   order_items oi ON oi.order_id = o.order_id
+WHERE  o.status = 'completed'
+GROUP  BY c.country
+ORDER  BY revenue DESC;</pre></div>
+    <div class="note">That <code>SUM(SUM(...)) OVER ()</code> looks strange but is exactly right: the inner
+    <code>SUM</code> aggregates within each country, the outer windowed <code>SUM</code> totals across all the
+    grouped rows. Being comfortable with this marks you out.</div>
+  </div>
+</section>
+
+<!-- ==================== PART 17 ==================== -->
+<section class="part" id="p17">
+  <div class="part-head"><span class="num">17</span><h2>Interview patterns</h2></div>
+  <p class="part-intro">Twelve shapes that cover most of what actually gets asked. Learn the <em>shape</em>,
+  not the query — the table names change, the shape doesn't.</p>
+
+  <div class="topic">
+    <h3>1 · Nth highest value — three ways</h3>
+    <div class="code"><pre>-- (a) DENSE_RANK: handles ties the way "3rd highest SALARY" usually means
+WITH r AS (SELECT emp_name, salary, DENSE_RANK() OVER (ORDER BY salary DESC) AS rk FROM employees)
+SELECT * FROM r WHERE rk = 3;
+
+-- (b) OFFSET on distinct values: short, but silently wrong if you forget DISTINCT
+SELECT DISTINCT salary FROM employees ORDER BY salary DESC OFFSET 2 LIMIT 1;
+
+-- (c) correlated subquery: the classic no-window-functions answer
+SELECT DISTINCT e.salary FROM employees e
+WHERE  2 = (SELECT COUNT(DISTINCT e2.salary) FROM employees e2 WHERE e2.salary &gt; e.salary);</pre></div>
+    <div class="win"><b>Ask before you answer:</b> "with ties, should two people on the same salary both count
+    as 2nd, and is 3rd-highest by <em>person</em> or by <em>distinct salary</em>?" That question is the point of
+    this problem — <code>ROW_NUMBER</code>, <code>RANK</code> and <code>DENSE_RANK</code> each answer a
+    different version of it.</div>
+  </div>
+
+  <div class="topic">
+    <h3>2 · Top N per group</h3>
+    <div class="code"><pre>WITH ranked AS (
+    SELECT p.category, p.product_name, SUM(oi.line_total) AS revenue,
+           ROW_NUMBER() OVER (PARTITION BY p.category ORDER BY SUM(oi.line_total) DESC) AS rn
+    FROM   products p
+    JOIN   order_items oi ON oi.product_id = p.product_id
+    JOIN   orders o ON o.order_id = oi.order_id AND o.status = 'completed'
+    GROUP  BY p.category, p.product_name
+)
+SELECT category, product_name, ROUND(revenue,2) AS revenue, rn
+FROM   ranked WHERE rn &lt;= 2
+ORDER  BY category, rn;</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>3 · Finding duplicates</h3>
+    <div class="code"><pre>-- which rows appear more than once, and how many times
+SELECT raw_email, raw_name, source, loaded_at, COUNT(*) AS copies
+FROM   staging_signups
+GROUP  BY raw_email, raw_name, source, loaded_at
+HAVING COUNT(*) &gt; 1;</pre></div>
+    <div class="code"><pre>-- duplicates by BUSINESS key only (same email, any spelling/case)
+SELECT LOWER(raw_email) AS email, COUNT(*) AS rows, COUNT(DISTINCT raw_name) AS name_variants
+FROM   staging_signups
+GROUP  BY LOWER(raw_email)
+HAVING COUNT(*) &gt; 1
+ORDER  BY rows DESC;</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>4 · De-duplication — keep one row per key</h3>
+    <div class="code"><pre>-- keep the MOST RECENT record per email, case-insensitively
+WITH ranked AS (
+    SELECT raw_email, raw_name, source, loaded_at,
+           ROW_NUMBER() OVER (PARTITION BY LOWER(raw_email)
+                              ORDER BY loaded_at DESC) AS rn
+    FROM   staging_signups
+)
+SELECT raw_email, raw_name, source, loaded_at
+FROM   ranked WHERE rn = 1
+ORDER  BY raw_email;</pre></div>
+    <div class="win"><b>Why <code>ROW_NUMBER</code> and not <code>RANK</code> here?</b> Because you need
+    <em>exactly one</em> survivor. <code>RANK</code> would keep every tied row and you'd still have duplicates.</div>
+  </div>
+
+  <div class="topic">
+    <h3>5 · Running total &amp; cumulative share</h3>
+    <div class="code"><pre>WITH m AS (
+    SELECT DATE_TRUNC('month', o.order_date)::date AS month, SUM(oi.line_total) AS rev
+    FROM   orders o JOIN order_items oi ON oi.order_id = o.order_id
+    WHERE  o.status = 'completed' GROUP BY 1
+)
+SELECT month, ROUND(rev,2) AS revenue,
+       ROUND(SUM(rev) OVER (ORDER BY month), 2)                        AS cumulative,
+       ROUND(100.0 * SUM(rev) OVER (ORDER BY month) / SUM(rev) OVER (), 1) AS cum_pct
+FROM   m ORDER BY month;</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>6 · Pivot — rows into columns</h3>
+    <p>Postgres has no <code>PIVOT</code> keyword. Conditional aggregation <em>is</em> the pivot.</p>
+    <div class="code"><pre>SELECT c.country,
+       COUNT(*) FILTER (WHERE o.status = 'completed') AS completed,
+       COUNT(*) FILTER (WHERE o.status = 'pending')   AS pending,
+       COUNT(*) FILTER (WHERE o.status = 'cancelled') AS cancelled,
+       COUNT(*) FILTER (WHERE o.status = 'refunded')  AS refunded,
+       COUNT(*)                                       AS total
+FROM   orders o JOIN customers c ON c.cust_id = o.cust_id
+GROUP  BY c.country
+ORDER  BY total DESC;</pre></div>
+    <div class="code"><pre>-- UNPIVOT: columns back into rows, using a VALUES list + CROSS JOIN LATERAL
+SELECT d.dept_name, m.metric, m.value
+FROM   departments d
+CROSS  JOIN LATERAL (VALUES ('budget', d.budget), ('budget_in_lakhs', d.budget/100000)) AS m(metric, value)
+ORDER  BY d.dept_name, m.metric;</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>7 · Gaps and islands — consecutive runs</h3>
+    <p>The trick: <code>date − ROW_NUMBER()</code> is <strong>constant</strong> within a consecutive run.
+    Group by that constant.</p>
+    <div class="code"><pre>WITH d AS (
+    SELECT DISTINCT event_at::date AS dt
+    FROM   web_events WHERE cust_id = 1 AND event_type = 'page_view'
+), grouped AS (
+    SELECT dt, dt - (ROW_NUMBER() OVER (ORDER BY dt))::int AS island   -- ← the trick
+    FROM   d
+)
+SELECT MIN(dt) AS run_start, MAX(dt) AS run_end, COUNT(*) AS consecutive_days
+FROM   grouped
+GROUP  BY island
+ORDER  BY run_start;</pre></div>
+    <div class="note">Expect three runs: 1–5 March (5 days), 9–11 March (3 days), and 20 March (1 day).
+    The same shape answers "longest login streak" and "consecutive winning days".</div>
+  </div>
+
+  <div class="topic">
+    <h3>8 · Funnel conversion</h3>
+    <div class="code"><pre>WITH f AS (
+    SELECT COUNT(DISTINCT session_id) FILTER (WHERE event_type='page_view')   AS viewed,
+           COUNT(DISTINCT session_id) FILTER (WHERE event_type='add_to_cart') AS carted,
+           COUNT(DISTINCT session_id) FILTER (WHERE event_type='checkout')    AS checked_out,
+           COUNT(DISTINCT session_id) FILTER (WHERE event_type='purchase')    AS purchased
+    FROM   web_events
+)
+SELECT viewed, carted, checked_out, purchased,
+       ROUND(100.0*carted      /NULLIF(viewed,0),     1) AS view_to_cart_pct,
+       ROUND(100.0*checked_out /NULLIF(carted,0),     1) AS cart_to_checkout_pct,
+       ROUND(100.0*purchased   /NULLIF(checked_out,0),1) AS checkout_to_purchase_pct,
+       ROUND(100.0*purchased   /NULLIF(viewed,0),     1) AS overall_pct
+FROM   f;</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>9 · Cohort retention</h3>
+    <div class="code"><pre>WITH cohort AS (          -- each customer's first completed order month
+    SELECT o.cust_id, MIN(DATE_TRUNC('month', o.order_date))::date AS cohort_month
+    FROM   orders o WHERE o.status='completed' GROUP BY o.cust_id
+), activity AS (          -- every month each customer was active
+    SELECT DISTINCT o.cust_id, DATE_TRUNC('month', o.order_date)::date AS active_month
+    FROM   orders o WHERE o.status='completed'
+)
+SELECT c.cohort_month,
+       (EXTRACT(YEAR FROM a.active_month)*12 + EXTRACT(MONTH FROM a.active_month))
+     - (EXTRACT(YEAR FROM c.cohort_month)*12 + EXTRACT(MONTH FROM c.cohort_month)) AS months_since,
+       COUNT(DISTINCT a.cust_id) AS customers
+FROM   cohort c JOIN activity a ON a.cust_id = c.cust_id
+GROUP  BY 1, 2
+ORDER  BY 1, 2;</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>10 · Median and percentiles</h3>
+    <div class="code"><pre>SELECT PERCENTILE_CONT(0.5)  WITHIN GROUP (ORDER BY salary) AS median_interpolated,
+       PERCENTILE_DISC(0.5)  WITHIN GROUP (ORDER BY salary) AS median_actual_value,
+       PERCENTILE_CONT(0.25) WITHIN GROUP (ORDER BY salary) AS p25,
+       PERCENTILE_CONT(0.90) WITHIN GROUP (ORDER BY salary) AS p90,
+       MODE() WITHIN GROUP (ORDER BY salary)                AS most_common
+FROM   employees;</pre></div>
+    <div class="note"><code>PERCENTILE_CONT</code> interpolates between the two middle values (a real median);
+    <code>PERCENTILE_DISC</code> returns an actual value from the data. If asked for median without these
+    functions, the fallback is <code>ROW_NUMBER</code> from both ends and average the middle one or two.</div>
+  </div>
+
+  <div class="topic">
+    <h3>11 · Filling date gaps with a spine</h3>
+    <div class="code"><pre>WITH spine AS (
+    SELECT g::date AS month
+    FROM   generate_series(DATE '2024-01-01', DATE '2024-06-01', INTERVAL '1 month') g
+), actual AS (
+    SELECT DATE_TRUNC('month', o.order_date)::date AS month, SUM(oi.line_total) AS rev
+    FROM   orders o JOIN order_items oi ON oi.order_id=o.order_id
+    WHERE  o.status='completed' AND o.channel='partner'
+    GROUP  BY 1
+)
+SELECT s.month, COALESCE(ROUND(a.rev,2), 0) AS partner_revenue
+FROM   spine s LEFT JOIN actual a ON a.month = s.month     -- LEFT JOIN from the SPINE
+ORDER  BY s.month;</pre></div>
+    <div class="win"><b>Why this matters:</b> a plain <code>GROUP BY month</code> simply omits months with no
+    sales, so a chart shows a straight line instead of a hole. Always <code>LEFT JOIN</code> from the spine.</div>
+  </div>
+
+  <div class="topic">
+    <h3>12 · Year-over-year / period comparison without a self-join</h3>
+    <div class="code"><pre>WITH m AS (
+    SELECT DATE_TRUNC('month', o.order_date)::date AS month,
+           COUNT(DISTINCT o.order_id) AS orders
+    FROM   orders o WHERE o.status='completed' GROUP BY 1
+)
+SELECT month, orders,
+       LAG(orders, 1)  OVER (ORDER BY month) AS prev_month,
+       LAG(orders, 3)  OVER (ORDER BY month) AS three_months_ago,
+       orders - LAG(orders,1) OVER (ORDER BY month) AS mom_change,
+       ROUND(AVG(orders) OVER (ORDER BY month ROWS BETWEEN 2 PRECEDING AND CURRENT ROW),2) AS ma3
+FROM   m ORDER BY month;</pre></div>
+  </div>
+</section>
+
+<!-- ==================== PART 18 ==================== -->
+<section class="part" id="p18">
+  <div class="part-head"><span class="num">18</span><h2>Schema design &amp; normalization</h2></div>
+
+  <div class="topic">
+    <h3>Keys</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>Key</th><th>Definition</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Super key</strong></td><td>any column set that uniquely identifies a row</td></tr>
+        <tr><td><strong>Candidate key</strong></td><td>a minimal super key — remove any column and uniqueness breaks</td></tr>
+        <tr><td><strong>Primary key</strong></td><td>the candidate key you chose. Unique + NOT NULL, one per table</td></tr>
+        <tr><td><strong>Alternate key</strong></td><td>the candidate keys you didn't choose (enforce with UNIQUE)</td></tr>
+        <tr><td><strong>Composite key</strong></td><td>a key made of 2+ columns</td></tr>
+        <tr><td><strong>Foreign key</strong></td><td>a column referencing a key in another table</td></tr>
+        <tr><td><strong>Surrogate key</strong></td><td>a meaningless generated id (<code>emp_id</code>)</td></tr>
+        <tr><td><strong>Natural key</strong></td><td>a real-world identifier (email, ISBN)</td></tr>
+      </tbody>
+    </table></div>
+    <div class="win"><b>"Surrogate or natural?"</b> Surrogate, usually: real-world identifiers change (people
+    change email and surname), and a changing PK cascades everywhere. Keep the natural key too, as a
+    <code>UNIQUE</code> constraint — you get stability and the business rule.</div>
+  </div>
+
+  <div class="topic">
+    <h3>Normal forms — with the one-line version of each</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>Form</th><th>Rule</th><th>Violation looks like</th></tr></thead>
+      <tbody>
+        <tr><td><strong>1NF</strong></td><td>Atomic values; no repeating groups or lists in a cell</td><td><code>phones = '555-1, 555-2'</code> or columns <code>phone1, phone2, phone3</code></td></tr>
+        <tr><td><strong>2NF</strong></td><td>1NF + no partial dependency on part of a composite key</td><td>In <code>(order_id, product_id)</code>, storing <code>product_name</code> — it depends on <code>product_id</code> alone</td></tr>
+        <tr><td><strong>3NF</strong></td><td>2NF + no transitive dependency (non-key → non-key)</td><td>Storing <code>dept_name</code> in <code>employees</code>: it depends on <code>dept_id</code>, not on <code>emp_id</code></td></tr>
+        <tr><td><strong>BCNF</strong></td><td>3NF + every determinant is a candidate key</td><td>Rare overlapping-candidate-key cases</td></tr>
+        <tr><td><strong>4NF</strong></td><td>BCNF + no multi-valued dependencies</td><td>Independent lists (skills, languages) crammed into one table</td></tr>
+      </tbody>
+    </table></div>
+    <div class="win"><b>The memory hook:</b> "the key, the whole key, and nothing but the key, so help me Codd."
+    1NF = atomic. 2NF = <em>the whole key</em>. 3NF = <em>nothing but the key</em>.</div>
+    <div class="note"><b>Why denormalize?</b> Normalization removes update anomalies and redundancy — ideal for
+    OLTP writes. Analytics reads pay for it in joins. So warehouses deliberately denormalize into
+    <strong>star schemas</strong>: a central <em>fact</em> table (one row per event, e.g. <code>order_items</code>)
+    surrounded by <em>dimension</em> tables (<code>customers</code>, <code>products</code>, dates).
+    A <strong>snowflake</strong> schema normalizes the dimensions further. Say "it's a trade-off between write
+    integrity and read speed" and you've answered the question.</div>
+  </div>
+
+  <div class="topic">
+    <h3>Relationships</h3>
+    <ul>
+      <li><strong>One-to-one</strong> — FK plus a <code>UNIQUE</code> on it. Usually a sign the tables should be merged.</li>
+      <li><strong>One-to-many</strong> — FK on the "many" side. (<code>orders.cust_id</code>.) The common case.</li>
+      <li><strong>Many-to-many</strong> — needs a <strong>junction table</strong> holding two FKs, with a composite
+      PK across them. <code>order_items</code> is exactly this between <code>orders</code> and <code>products</code>.</li>
+    </ul>
+    <div class="note"><b>Slowly Changing Dimensions</b> — how a warehouse tracks history.
+    <strong>Type 1</strong>: overwrite, no history. <strong>Type 2</strong>: new row per change with
+    <code>valid_from</code>/<code>valid_to</code> and an <code>is_current</code> flag — the one worth knowing.
+    <strong>Type 3</strong>: keep a "previous value" column.</div>
+  </div>
+</section>
+
+<!-- ==================== PART 19 ==================== -->
+<section class="part" id="p19">
+  <div class="part-head"><span class="num">19</span><h2>Indexes &amp; performance</h2></div>
+
+  <div class="topic">
+    <h3>What an index is</h3>
+    <p>A sorted side structure (usually a B-tree) mapping values to row locations. It turns "read all 10 million
+    rows" into "walk down a few levels of a tree". The cost: every <code>INSERT</code>/<code>UPDATE</code>/
+    <code>DELETE</code> must also maintain it, and it takes disk. <strong>Indexes make reads faster and writes
+    slower.</strong> That sentence answers a lot of questions.</p>
+    <div class="code syntax"><pre>CREATE INDEX        idx_name ON t (col);                    -- plain B-tree
+CREATE INDEX        idx_name ON t (a, b);                   -- composite: ORDER MATTERS
+CREATE UNIQUE INDEX idx_name ON t (col);                    -- also enforces uniqueness
+CREATE INDEX        idx_name ON t (col) WHERE status='open';-- partial: smaller, targeted
+CREATE INDEX        idx_name ON t (LOWER(email));           -- expression index
+CREATE INDEX        idx_name ON t USING GIN (tags);         -- for arrays / jsonb / full-text
+DROP INDEX idx_name;</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>Index the right things</h3>
+    <ul>
+      <li>Columns in <code>WHERE</code>, <code>JOIN … ON</code>, <code>ORDER BY</code>, <code>GROUP BY</code>.</li>
+      <li><strong>Every foreign key</strong> — Postgres does <em>not</em> index FKs automatically, and unindexed
+      FKs make parent deletes crawl.</li>
+      <li>High-selectivity columns (many distinct values). An index on a boolean rarely helps — unless it's
+      <em>partial</em>.</li>
+    </ul>
+    <p><strong>Don't</strong> index tiny tables, low-selectivity columns, or write-heavy columns that are never
+    filtered. And don't add an index the query can't use:</p>
+  </div>
+
+  <div class="topic">
+    <h3>Sargability — what silently disables your index</h3>
+    <p>"Sargable" = <em>Search-ARGument-able</em>. If you wrap the <strong>column</strong> in a function or
+    arithmetic, the index on that column becomes unusable.</p>
+    <div class="tbl"><table>
+      <thead><tr><th>❌ Not sargable</th><th>✅ Sargable rewrite</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">WHERE EXTRACT(YEAR FROM d)=2024</td><td class="mono">WHERE d &gt;= '2024-01-01' AND d &lt; '2025-01-01'</td></tr>
+        <tr><td class="mono">WHERE UPPER(email)='A@B.C'</td><td class="mono">index on <code>LOWER(email)</code>, query <code>LOWER(email)='a@b.c'</code></td></tr>
+        <tr><td class="mono">WHERE salary*12 &gt; 120000</td><td class="mono">WHERE salary &gt; 10000</td></tr>
+        <tr><td class="mono">WHERE name LIKE '%son'</td><td class="mono">trigram (pg_trgm) or full-text index</td></tr>
+        <tr><td class="mono">WHERE col::text = '5'</td><td class="mono">WHERE col = 5 (avoid casting the column)</td></tr>
+      </tbody>
+    </table></div>
+    <div class="win"><b>The rule in one line:</b> keep the indexed column bare on one side of the operator, and
+    do the maths on the <em>other</em> side.</div>
+  </div>
+
+  <div class="topic">
+    <h3>Composite indexes and the leftmost-prefix rule</h3>
+    <p>An index on <code>(cust_id, order_date)</code> can serve queries filtering on
+    <code>cust_id</code>, or on <code>cust_id AND order_date</code> — <strong>but not <code>order_date</code>
+    alone</strong>. Think of a phone book sorted by (surname, first name): useless for finding all the Rahuls.</p>
+    <div class="win"><b>Ordering heuristic:</b> equality columns first, range columns last. For
+    <code>WHERE cust_id = 7 AND order_date &gt; …</code> the right index is
+    <code>(cust_id, order_date)</code>, not the reverse.</div>
+  </div>
+
+  <div class="topic">
+    <h3>Reading a query plan</h3>
+    <div class="code syntax"><pre>EXPLAIN            SELECT …;   -- the plan, estimated costs, no execution
+EXPLAIN ANALYZE    SELECT …;   -- ACTUALLY runs it and shows real times and row counts
+EXPLAIN (ANALYZE, BUFFERS) …;  -- adds I/O detail</pre></div>
+    <div class="code"><pre>EXPLAIN ANALYZE
+SELECT o.order_id, c.cust_name
+FROM   orders o JOIN customers c ON c.cust_id = o.cust_id
+WHERE  o.order_date &gt;= DATE '2024-04-01';</pre></div>
+    <div class="tbl"><table>
+      <thead><tr><th>Node</th><th>Means</th><th>Concerning when</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">Seq Scan</td><td>reads the whole table</td><td>on a big table with a selective filter</td></tr>
+        <tr><td class="mono">Index Scan</td><td>walks the index, fetches rows</td><td>usually good</td></tr>
+        <tr><td class="mono">Index Only Scan</td><td>answered from the index alone</td><td>best case</td></tr>
+        <tr><td class="mono">Bitmap Heap Scan</td><td>index → sorted row fetch</td><td>fine for medium selectivity</td></tr>
+        <tr><td class="mono">Nested Loop</td><td>for each left row, probe right</td><td>bad if the left side is large</td></tr>
+        <tr><td class="mono">Hash Join</td><td>builds a hash of one side</td><td>good for big unsorted joins</td></tr>
+        <tr><td class="mono">Merge Join</td><td>both sides sorted, zipped</td><td>good when already sorted</td></tr>
+        <tr><td class="mono">Sort</td><td>an explicit sort</td><td>watch for <code>external merge Disk</code></td></tr>
+      </tbody>
+    </table></div>
+    <div class="win"><b>The number to look at first</b> is estimated vs actual rows
+    (<code>rows=1000 … actual rows=2000000</code>). A large gap means the planner's statistics are stale —
+    <code>ANALYZE</code> the table. Saying that out loud sounds genuinely senior.</div>
+  </div>
+
+  <div class="topic">
+    <h3>Why is this query slow? — a checklist to say out loud</h3>
+    <ol>
+      <li>Run <code>EXPLAIN ANALYZE</code> — never guess.</li>
+      <li>Is there a <code>Seq Scan</code> on a large table with a selective <code>WHERE</code>? Missing index.</li>
+      <li>Is the <code>WHERE</code> sargable? A function on the column disables the index.</li>
+      <li>Are estimates far from actuals? Stale statistics — run <code>ANALYZE</code>.</li>
+      <li>Is the join fanning out? Check the grain; aggregate before joining.</li>
+      <li>Is <code>SELECT *</code> dragging back columns nobody uses, preventing an index-only scan?</li>
+      <li>Is <code>DISTINCT</code> or <code>UNION</code> hiding a join bug? De-duplication is often a symptom.</li>
+      <li>Deep <code>OFFSET</code>? Switch to keyset pagination.</li>
+      <li><code>OR</code> across different columns? Sometimes two <code>UNION ALL</code> branches index better.</li>
+      <li>Could this be precomputed — a materialized view or a summary table?</li>
+    </ol>
+  </div>
+</section>
+
+<!-- ==================== PART 20 ==================== -->
+<section class="part" id="p20">
+  <div class="part-head"><span class="num">20</span><h2>Transactions &amp; isolation</h2></div>
+
+  <div class="topic">
+    <h3>ACID</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>Property</th><th>Guarantees</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Atomicity</strong></td><td>all statements commit, or none do</td></tr>
+        <tr><td><strong>Consistency</strong></td><td>constraints hold before and after</td></tr>
+        <tr><td><strong>Isolation</strong></td><td>concurrent transactions don't corrupt each other</td></tr>
+        <tr><td><strong>Durability</strong></td><td>once committed, it survives a crash</td></tr>
+      </tbody>
+    </table></div>
+    <div class="code syntax"><pre>BEGIN;
+    UPDATE accounts SET balance = balance - 100 WHERE id = 1;
+    SAVEPOINT before_credit;
+    UPDATE accounts SET balance = balance + 100 WHERE id = 2;
+    -- ROLLBACK TO SAVEPOINT before_credit;   -- undo part of it
+COMMIT;   -- or ROLLBACK; to undo everything</pre></div>
+    <div class="code"><pre>BEGIN;
+DELETE FROM demo_stock;
+SELECT COUNT(*) AS inside_transaction FROM demo_stock;   -- 0
+ROLLBACK;
+SELECT COUNT(*) AS after_rollback FROM demo_stock;       -- back to normal</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>The four anomalies and the four isolation levels</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>Anomaly</th><th>What happens</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Dirty read</strong></td><td>you read another transaction's uncommitted change</td></tr>
+        <tr><td><strong>Non-repeatable read</strong></td><td>you read a row twice and it changed in between</td></tr>
+        <tr><td><strong>Phantom read</strong></td><td>you re-run a range query and new rows appeared</td></tr>
+        <tr><td><strong>Lost update</strong></td><td>two transactions read-modify-write; one overwrites the other</td></tr>
+      </tbody>
+    </table></div>
+    <div class="tbl"><table>
+      <thead><tr><th>Isolation level</th><th>Dirty</th><th>Non-repeatable</th><th>Phantom</th></tr></thead>
+      <tbody>
+        <tr><td>READ UNCOMMITTED</td><td>possible*</td><td>possible</td><td>possible</td></tr>
+        <tr><td>READ COMMITTED <em>(Postgres default)</em></td><td>no</td><td>possible</td><td>possible</td></tr>
+        <tr><td>REPEATABLE READ <em>(MySQL default)</em></td><td>no</td><td>no</td><td>possible*</td></tr>
+        <tr><td>SERIALIZABLE</td><td>no</td><td>no</td><td>no</td></tr>
+      </tbody>
+    </table></div>
+    <div class="note"><b>Two Postgres specifics worth saying.</b> Postgres has no true READ UNCOMMITTED —
+    ask for it and you get READ COMMITTED, so dirty reads <em>cannot happen at all</em>. And Postgres's
+    REPEATABLE READ (snapshot isolation) already prevents phantoms, which is stronger than the standard requires.</div>
+    <div class="code syntax"><pre>BEGIN ISOLATION LEVEL SERIALIZABLE;  …  COMMIT;
+SELECT … FOR UPDATE;        -- lock these rows; others wait  (prevents lost update)
+SELECT … FOR UPDATE SKIP LOCKED;   -- queue-worker pattern: take what nobody else holds</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>Locks, deadlocks, and MVCC</h3>
+    <p><strong>MVCC</strong> (Multi-Version Concurrency Control) is how Postgres avoids read locks: every writer
+    creates a new row version, so <strong>readers never block writers and writers never block readers</strong>.
+    That single sentence answers "how does Postgres handle concurrency?".</p>
+    <p>A <strong>deadlock</strong> is two transactions each holding what the other needs. Postgres detects it and
+    kills one. Prevention: <strong>always acquire locks in the same order</strong> across your application, keep
+    transactions short, and don't hold one open while waiting on a human.</p>
+  </div>
+</section>
+
+<!-- ==================== PART 21 ==================== -->
+<section class="part" id="p21">
+  <div class="part-head"><span class="num">21</span><h2>Views, procedures &amp; triggers</h2></div>
+
+  <div class="topic">
+    <h3>Views and materialized views</h3>
+    <div class="code syntax"><pre>CREATE VIEW v AS SELECT … ;                  -- a saved query. Stores NO data. Always current.
+CREATE MATERIALIZED VIEW mv AS SELECT … ;    -- stores the RESULT. Fast to read, can go stale.
+REFRESH MATERIALIZED VIEW [CONCURRENTLY] mv; -- recompute it
+DROP VIEW v;  DROP MATERIALIZED VIEW mv;</pre></div>
+    <div class="code"><pre>CREATE OR REPLACE VIEW v_customer_revenue AS
+SELECT c.cust_id, c.cust_name, c.country, c.segment,
+       COUNT(DISTINCT o.order_id)      AS orders,
+       COALESCE(SUM(oi.line_total), 0) AS revenue
+FROM   customers c
+LEFT   JOIN orders o       ON o.cust_id = c.cust_id AND o.status = 'completed'
+LEFT   JOIN order_items oi ON oi.order_id = o.order_id
+GROUP  BY c.cust_id, c.cust_name, c.country, c.segment;
+
+SELECT * FROM v_customer_revenue ORDER BY revenue DESC LIMIT 8;</pre></div>
+    <div class="tbl"><table>
+      <thead><tr><th></th><th>View</th><th>Materialized view</th></tr></thead>
+      <tbody>
+        <tr><td>Stores data</td><td>No</td><td>Yes</td></tr>
+        <tr><td>Always fresh</td><td>Yes</td><td>No — until refreshed</td></tr>
+        <tr><td>Read speed</td><td>as slow as the query</td><td>fast</td></tr>
+        <tr><td>Can be indexed</td><td>No</td><td>Yes</td></tr>
+      </tbody>
+    </table></div>
+    <p><strong>Why views at all?</strong> To hide complexity, to present a stable interface while the tables
+    beneath change, and to restrict access — grant on the view, not the base table.</p>
+  </div>
+
+  <div class="topic">
+    <h3>Functions vs procedures</h3>
+    <div class="tbl"><table>
+      <thead><tr><th></th><th>Function</th><th>Procedure</th></tr></thead>
+      <tbody>
+        <tr><td>Called by</td><td><code>SELECT f(…)</code></td><td><code>CALL p(…)</code></td></tr>
+        <tr><td>Returns</td><td>a value or a table</td><td>nothing (uses OUT params)</td></tr>
+        <tr><td>Usable inside a query</td><td>Yes</td><td>No</td></tr>
+        <tr><td>Can COMMIT internally</td><td>No</td><td><strong>Yes</strong> — the main reason to use one</td></tr>
+      </tbody>
+    </table></div>
+    <div class="code"><pre>CREATE OR REPLACE FUNCTION customer_revenue(p_cust_id integer)
+RETURNS numeric
+LANGUAGE sql STABLE
+AS $$
+    SELECT COALESCE(SUM(oi.line_total), 0)
+    FROM   orders o JOIN order_items oi ON oi.order_id = o.order_id
+    WHERE  o.cust_id = p_cust_id AND o.status = 'completed';
+$$;
+
+SELECT cust_id, cust_name, customer_revenue(cust_id) AS revenue
+FROM   customers ORDER BY revenue DESC LIMIT 5;</pre></div>
+  </div>
+
+  <div class="topic">
+    <h3>Triggers</h3>
+    <p>Code that fires automatically on <code>INSERT</code>/<code>UPDATE</code>/<code>DELETE</code>.
+    In Postgres a trigger calls a function returning <code>trigger</code>.</p>
+    <div class="code"><pre>CREATE TABLE IF NOT EXISTS demo_audit (
+    audit_id  integer GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    sku       text, old_qty integer, new_qty integer, changed_at timestamptz DEFAULT now()
+);
+
+CREATE OR REPLACE FUNCTION log_stock_change() RETURNS trigger
+LANGUAGE plpgsql AS $$
+BEGIN
+    INSERT INTO demo_audit (sku, old_qty, new_qty) VALUES (OLD.sku, OLD.qty, NEW.qty);
+    RETURN NEW;                       -- BEFORE triggers must return a row
+END; $$;
+
+DROP TRIGGER IF EXISTS trg_stock ON demo_stock;
+CREATE TRIGGER trg_stock AFTER UPDATE ON demo_stock
+FOR EACH ROW EXECUTE FUNCTION log_stock_change();
+
+UPDATE demo_stock SET qty = qty + 1 WHERE sku = 'A1';
+SELECT * FROM demo_audit;</pre></div>
+    <div class="note"><b><code>OLD</code> and <code>NEW</code></b> are the row before and after.
+    <code>BEFORE</code> triggers can modify <code>NEW</code>; <code>AFTER</code> triggers cannot.
+    Use triggers sparingly — they are invisible from the application and make debugging hard.</div>
+  </div>
+</section>
+
+<!-- ==================== PART 22 ==================== -->
+<section class="part" id="p22">
+  <div class="part-head"><span class="num">22</span><h2>Dialect cheat sheet</h2></div>
+  <p class="part-intro">If the interviewer switches engines mid-question, this is the table you want in your head.</p>
+  <div class="topic">
+    <div class="tbl"><table>
+      <thead><tr><th>Task</th><th>PostgreSQL</th><th>MySQL</th><th>SQL Server</th></tr></thead>
+      <tbody>
+        <tr><td>Limit rows</td><td class="mono">LIMIT 10 OFFSET 5</td><td class="mono">LIMIT 5, 10</td><td class="mono">OFFSET 5 ROWS FETCH NEXT 10 ROWS ONLY</td></tr>
+        <tr><td>Top N</td><td class="mono">LIMIT 10</td><td class="mono">LIMIT 10</td><td class="mono">SELECT TOP 10</td></tr>
+        <tr><td>Concatenate</td><td class="mono">a || b</td><td class="mono">CONCAT(a,b)</td><td class="mono">a + b</td></tr>
+        <tr><td>NULL fallback</td><td class="mono">COALESCE(a,b)</td><td class="mono">IFNULL / COALESCE</td><td class="mono">ISNULL / COALESCE</td></tr>
+        <tr><td>Current time</td><td class="mono">NOW()</td><td class="mono">NOW()</td><td class="mono">GETDATE()</td></tr>
+        <tr><td>Month bucket</td><td class="mono">DATE_TRUNC('month',d)</td><td class="mono">DATE_FORMAT(d,'%Y-%m-01')</td><td class="mono">DATEFROMPARTS(YEAR(d),MONTH(d),1)</td></tr>
+        <tr><td>Extract year</td><td class="mono">EXTRACT(YEAR FROM d)</td><td class="mono">YEAR(d)</td><td class="mono">YEAR(d)</td></tr>
+        <tr><td>Date add</td><td class="mono">d + INTERVAL '1 day'</td><td class="mono">DATE_ADD(d,INTERVAL 1 DAY)</td><td class="mono">DATEADD(day,1,d)</td></tr>
+        <tr><td>Date diff</td><td class="mono">a - b</td><td class="mono">DATEDIFF(a,b)</td><td class="mono">DATEDIFF(day,b,a)</td></tr>
+        <tr><td>Cast</td><td class="mono">x::int or CAST</td><td class="mono">CAST(x AS SIGNED)</td><td class="mono">CAST / CONVERT</td></tr>
+        <tr><td>Case-insensitive LIKE</td><td class="mono">ILIKE</td><td>LIKE (default collation)</td><td>LIKE (default collation)</td></tr>
+        <tr><td>String agg</td><td class="mono">STRING_AGG(x,',')</td><td class="mono">GROUP_CONCAT(x)</td><td class="mono">STRING_AGG(x,',')</td></tr>
+        <tr><td>Upsert</td><td class="mono">ON CONFLICT DO UPDATE</td><td class="mono">ON DUPLICATE KEY UPDATE</td><td class="mono">MERGE</td></tr>
+        <tr><td>Auto id</td><td class="mono">GENERATED … AS IDENTITY</td><td class="mono">AUTO_INCREMENT</td><td class="mono">IDENTITY(1,1)</td></tr>
+        <tr><td>Identifier quoting</td><td class="mono">"col"</td><td class="mono">`col`</td><td class="mono">[col]</td></tr>
+        <tr><td>FULL OUTER JOIN</td><td>✅</td><td>❌ emulate with UNION</td><td>✅</td></tr>
+        <tr><td>Window functions</td><td>✅</td><td>✅ 8.0+</td><td>✅ 2012+</td></tr>
+        <tr><td>FILTER (WHERE …)</td><td>✅</td><td>❌ use CASE</td><td>❌ use CASE</td></tr>
+        <tr><td>Aggregate FILTER alt.</td><td class="mono">COUNT(*) FILTER (WHERE c)</td><td class="mono">SUM(c)</td><td class="mono">SUM(CASE WHEN c THEN 1 ELSE 0 END)</td></tr>
+        <tr><td>Row limit in UPDATE</td><td>❌</td><td class="mono">LIMIT</td><td class="mono">TOP</td></tr>
+        <tr><td>Default isolation</td><td>READ COMMITTED</td><td>REPEATABLE READ</td><td>READ COMMITTED</td></tr>
+      </tbody>
+    </table></div>
+    <div class="trap"><b>MySQL's <code>LIMIT 5, 10</code> is <code>OFFSET 5 LIMIT 10</code></b> — the offset comes
+    first. It is backwards from how it reads. This is a favourite trick question.</div>
+  </div>
+</section>
+
+<!-- ==================== PART 23 ==================== -->
+<section class="part" id="p23">
+  <div class="part-head"><span class="num">23</span><h2>Practice drills</h2></div>
+  <p class="part-intro">Sixty problems, easiest first. Write your answer in the console, then press
+  <b>Check my answer</b> — it runs your query <em>and</em> the model solution against the real database and
+  compares the result sets. Read the solution only after you've been stuck for five minutes.</p>
+  <div id="drills"></div>
+</section>
+
+<!-- ==================== PART 24 ==================== -->
+<section class="part" id="p24">
+  <div class="part-head"><span class="num">24</span><h2>Interview playbook</h2></div>
+
+  <div class="topic">
+    <h3>How to answer a query question out loud</h3>
+    <ol>
+      <li><strong>Restate it.</strong> "So you want one row per customer, with their total completed revenue,
+      including customers who have never ordered — is that right?" This catches half of all misunderstandings.</li>
+      <li><strong>Ask the clarifying questions</strong> (list below). Interviewers score this explicitly.</li>
+      <li><strong>Say the grain.</strong> "One row per customer per month."</li>
+      <li><strong>Name your steps before writing.</strong> "Filter to completed, aggregate to customer level,
+      then left join back so I keep the zero-revenue customers."</li>
+      <li><strong>Write it in CTEs</strong>, one named step at a time. Easy to follow, easy to fix.</li>
+      <li><strong>Check the edges yourself</strong>: NULLs, ties, divide-by-zero, empty groups, duplicates.</li>
+      <li><strong>Offer the trade-off.</strong> "This works; on a big table I'd add an index on
+      <code>orders(cust_id, order_date)</code>."</li>
+    </ol>
+  </div>
+
+  <div class="topic">
+    <h3>The clarifying questions that earn marks</h3>
+    <ul>
+      <li>Should customers with <strong>no</strong> orders appear, with zero — or be excluded?</li>
+      <li>Do <strong>cancelled and refunded</strong> orders count toward revenue?</li>
+      <li>On a tie, do both rows rank the same — and is "3rd highest" by person or by distinct value?</li>
+      <li>Is revenue before or after <strong>discount</strong>? Gross or net of refunds?</li>
+      <li>Is the date column a <code>date</code> or a <code>timestamp</code>? Which <strong>time zone</strong>?</li>
+      <li>Should months with <strong>no activity</strong> appear as zero rows?</li>
+      <li>Can this table contain <strong>duplicates</strong>? What is the real business key?</li>
+      <li>How big is the table — do I need to care about performance?</li>
+    </ul>
+  </div>
+
+  <div class="topic">
+    <h3>The mistakes that cost people offers</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>Mistake</th><th>Fix</th></tr></thead>
+      <tbody>
+        <tr><td>Fan-out double counting after a join</td><td>state the grain; <code>COUNT(DISTINCT …)</code>; aggregate before joining</td></tr>
+        <tr><td>Filtering the optional table in <code>WHERE</code> after a <code>LEFT JOIN</code></td><td>move the condition into <code>ON</code></td></tr>
+        <tr><td><code>NOT IN</code> against a nullable column</td><td>use <code>NOT EXISTS</code></td></tr>
+        <tr><td><code>COUNT(col)</code> when you meant <code>COUNT(*)</code></td><td>know that <code>COUNT(col)</code> skips NULLs</td></tr>
+        <tr><td>Integer division giving 0%</td><td><code>100.0 *</code> or cast to <code>numeric</code></td></tr>
+        <tr><td>Divide by zero on a conversion rate</td><td><code>NULLIF(denominator, 0)</code></td></tr>
+        <tr><td>Window function in <code>WHERE</code></td><td>compute in a CTE, filter outside</td></tr>
+        <tr><td><code>LAST_VALUE</code> returning the current row</td><td>add the explicit full <code>ROWS BETWEEN</code> frame</td></tr>
+        <tr><td>Row condition in <code>HAVING</code></td><td>if it has no aggregate, it belongs in <code>WHERE</code></td></tr>
+        <tr><td>Paginating without a unique tie-break</td><td>append a unique column to <code>ORDER BY</code></td></tr>
+        <tr><td>Going silent while thinking</td><td>narrate. They are assessing reasoning, not typing speed</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+
+  <div class="topic">
+    <h3>Your two-day plan</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>When</th><th>Do this</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Day 1 morning</strong></td><td>Parts 00–11. Run every example. Do drills 1–20.</td></tr>
+        <tr><td><strong>Day 1 afternoon</strong></td><td>Part 12 (JOINs) and Part 14 (subqueries) — slowly. Drills 21–35.</td></tr>
+        <tr><td><strong>Day 1 evening</strong></td><td>Part 16 (windows) twice. Drills 36–48.</td></tr>
+        <tr><td><strong>Day 2 morning</strong></td><td>Part 17 (patterns). Write each from a blank console, no peeking. Drills 49–60.</td></tr>
+        <tr><td><strong>Day 2 afternoon</strong></td><td>Parts 18–22 — read, don't memorise. These are discussion questions.</td></tr>
+        <tr><td><strong>Day 2 evening</strong></td><td>Re-read Part 00 execution order and the mistakes table above. Stop. Sleep.</td></tr>
+        <tr><td><strong>Interview morning</strong></td><td>Skim Part 00, the WHERE-vs-HAVING box, and the dialect table. Nothing new.</td></tr>
+      </tbody>
+    </table></div>
+    <div class="win"><b>If you remember only five things:</b> the logical execution order · WHERE filters rows and
+    HAVING filters groups · every non-aggregated SELECT column must be in GROUP BY · outer-join conditions go in
+    ON, not WHERE · window functions can't go in WHERE, so wrap them in a CTE.</div>
+  </div>
+</section>
+
+</div><!-- /.wrap -->
+</main>
+</div><!-- /.shell -->
+
+<!-- ==================== CONSOLE ==================== -->
+<section class="console" id="console" aria-label="SQL console">
+  <div class="chead" id="chead">
+    <span class="ttl">SQL console</span>
+    <span class="stat" id="cstat">starting…</span>
+    <span class="sp"></span>
+    <button class="cbtn primary" id="btnrun">Run ▶</button>
+    <button class="cbtn" id="btncheck" hidden>Check my answer</button>
+    <button class="cbtn" id="btnreset">Reset database</button>
+    <button class="cbtn" id="btntheme" title="Toggle light / dark theme">Theme</button>
+    <button class="cbtn" id="btnmin">▾</button>
+  </div>
+  <div class="cbody">
+    <textarea id="editor" spellcheck="false" placeholder="-- Write SQL here, then press Run (or Ctrl/Cmd + Enter)
+SELECT * FROM customers LIMIT 5;"></textarea>
+    <div class="cout" id="cout"><div class="msg hint">PostgreSQL is starting up…</div></div>
+  </div>
+</section>
