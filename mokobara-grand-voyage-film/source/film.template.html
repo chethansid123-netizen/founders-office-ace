@@ -1,0 +1,474 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Mokobara · The Grand Voyage 40L · 45s film</title>
+<style>
+@font-face{font-family:Outfit;src:url(fonts/outfit-latin-400-normal.woff2);font-weight:400}
+@font-face{font-family:Outfit;src:url(fonts/outfit-latin-500-normal.woff2);font-weight:500}
+@font-face{font-family:Outfit;src:url(fonts/outfit-latin-600-normal.woff2);font-weight:600}
+@font-face{font-family:Outfit;src:url(fonts/outfit-latin-700-normal.woff2);font-weight:700}
+@font-face{font-family:Outfit;src:url(fonts/outfit-latin-800-normal.woff2);font-weight:800}
+@font-face{font-family:Plex;src:url(fonts/ibm-plex-mono-latin-500-normal.woff2);font-weight:500}
+@font-face{font-family:Plex;src:url(fonts/ibm-plex-mono-latin-600-normal.woff2);font-weight:600}
+:root{--y:#FFD400;--k:#0A0A0A;--paper:#F4F3EF;--ink:#111111;--mute:#6B6B66;--grey:#8C8C8C;--navy:#22385F;--rust:#B4552F;--line:#DAD8D0}
+*{box-sizing:border-box}
+html,body{margin:0;background:#000}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--k);font-family:Outfit,sans-serif;color:var(--ink)}
+.fill{position:absolute;inset:0}
+.a{position:absolute;left:0;top:0;will-change:transform,opacity}
+.mono{font-family:Plex,monospace;letter-spacing:2px;text-transform:uppercase}
+.bg{position:absolute;inset:0}
+#bgK{background:radial-gradient(90% 60% at 50% 40%,#1A1A1A 0%,#0A0A0A 70%)}
+#bgY{background:var(--y)}
+#bgP{background:var(--paper)}
+#grain{position:absolute;inset:-64px;opacity:.07;mix-blend-mode:overlay;pointer-events:none}
+#vign{background:radial-gradient(120% 80% at 50% 45%,rgba(0,0,0,0) 55%,rgba(0,0,0,.35) 100%);pointer-events:none}
+
+/* split-flap */
+.board{display:flex;flex-direction:column;gap:22px}
+.brow{display:flex;align-items:center;gap:26px}
+.blab{width:150px;color:#8C8C8C;font-size:26px}
+.cells{display:flex;gap:8px}
+.cell{width:70px;height:96px;border-radius:10px;background:linear-gradient(180deg,#1E1E1E 0 49%,#141414 51% 100%);position:relative;
+  display:flex;align-items:center;justify-content:center;font-family:Plex;font-weight:600;font-size:60px;color:#F4F3EF;box-shadow:inset 0 0 0 1.5px #2A2A2A}
+.cell:after{content:"";position:absolute;left:0;right:0;top:50%;height:2px;background:#050505}
+.cell.yl{color:var(--y)}
+.cell span{display:block}
+
+/* type */
+.h1{font-weight:800;letter-spacing:-3px;line-height:.98;white-space:nowrap}
+.lbl{font-family:Plex;font-weight:500;letter-spacing:3px;text-transform:uppercase;white-space:nowrap}
+
+/* round logo */
+.rlogo{width:100%;height:100%;display:block}
+
+/* anatomy */
+#featIdx{left:84px;top:236px;font-size:26px;color:var(--mute)}
+#featT{left:84px;top:284px;width:930px}
+.ft{position:absolute;left:0;top:0;font-weight:800;font-size:76px;letter-spacing:-2.5px;line-height:1;white-space:nowrap;color:var(--ink)}
+.ft b{color:#B08F00;font-weight:800}
+.fs{position:absolute;left:0;top:96px;font-weight:500;font-size:36px;line-height:1.28;color:#44443F;width:920px}
+#diagram{left:120px;top:560px;width:840px;height:520px}
+#meter{left:84px;top:1150px;width:912px}
+#meter .top{display:flex;justify-content:space-between;align-items:baseline}
+#meter .lab{font-size:22px;color:var(--mute)}
+#meter .val{font-weight:800;font-size:40px;letter-spacing:-1px}
+#meter .bar{position:relative;margin-top:12px;height:34px;border-radius:8px;background:#E6E4DC;overflow:hidden;display:flex}
+#meter .seg{height:100%;width:0}
+#meter .keys{display:flex;gap:22px;margin-top:12px;font-size:19px;color:var(--mute)}
+#meter .keys i{display:inline-block;width:14px;height:14px;border-radius:3px;margin-right:8px;vertical-align:-1px}
+#specCard{left:84px;top:1290px;width:912px;height:250px;background:#fff;border-radius:28px;box-shadow:0 20px 50px rgba(0,0,0,.08);overflow:hidden;display:flex}
+#specCard .ph{width:250px;height:250px;flex:none;background:#eee center/cover no-repeat}
+#specCard .tx{padding:34px 36px;display:flex;flex-direction:column;justify-content:center;gap:18px}
+.kv{display:flex;flex-direction:column;gap:4px}
+.kv .k{font-size:19px;color:var(--mute)}
+.kv .v{font-weight:700;font-size:34px;letter-spacing:-.5px;color:var(--ink);white-space:nowrap}
+
+/* spec rush */
+.rush{left:84px;top:0;width:912px}
+.rush .n{font-size:26px;color:var(--y)}
+.rush .t{font-weight:800;font-size:112px;letter-spacing:-4px;line-height:1;color:#F4F3EF;margin-top:18px}
+.rush .t em{font-style:normal;color:var(--y)}
+.rush .s{font-weight:500;font-size:40px;color:#A7A7A0;margin-top:22px;line-height:1.25}
+
+/* lifestyle */
+#couple{left:0;top:0;width:1440px;height:1920px;background:url(img/couple.jpg) center/cover no-repeat;margin-left:-180px}
+#grade{background:linear-gradient(180deg,rgba(10,10,10,.35) 0%,rgba(10,10,10,0) 22%,rgba(10,10,10,0) 55%,rgba(10,10,10,.85) 88%)}
+#warm{background:rgba(255,190,90,.10);mix-blend-mode:soft-light}
+.swRow{display:flex;gap:30px}
+.sw{display:flex;flex-direction:column;align-items:flex-start;gap:14px}
+.sw .c{width:246px;height:110px;border-radius:18px}
+.sw .n{font-weight:700;font-size:32px;color:#F4F3EF;white-space:nowrap}
+
+/* zip */
+#zip{left:0;top:0;width:1080px;height:40px}
+.pill{display:inline-flex;align-items:center;gap:12px;background:var(--k);color:var(--y);border-radius:999px;padding:12px 26px;font-family:Plex;font-weight:600;letter-spacing:2px;font-size:24px;white-space:nowrap}
+</style>
+</head>
+<body>
+<div id="stage">
+  <div class="bg" id="bgK"></div>
+  <div class="bg" id="bgP"></div>
+  <div class="bg" id="bgY"></div>
+
+  <!-- A · cold open -->
+  <div id="sA" class="fill">
+    <div class="a lbl" id="aLbl" style="left:110px;top:240px;font-size:28px;color:var(--y)">T1 Departures · Fri 06:10</div>
+    <div class="a board" id="board" style="left:110px;top:320px">
+      <div class="brow"><div class="blab mono">To</div><div class="cells" id="r0"></div></div>
+      <div class="brow"><div class="blab mono">For</div><div class="cells" id="r1"></div></div>
+      <div class="brow"><div class="blab mono">Bags</div><div class="cells" id="r2"></div></div>
+    </div>
+    <div class="a h1" id="aH1" style="left:106px;top:840px;font-size:112px;color:#F4F3EF">Three days away.</div>
+    <div class="a h1" id="aH2" style="left:106px;top:970px;font-size:112px;color:var(--y)">Two bags?</div>
+    <svg class="a" id="icoTrolley" style="left:150px;top:1170px" width="240" height="330" viewBox="0 0 240 330" fill="none" stroke="#F4F3EF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M92 60 V14 H148 V60"/><rect x="30" y="60" width="180" height="230" rx="26"/><path d="M80 96 V254 M120 96 V254 M160 96 V254"/><circle cx="70" cy="310" r="13"/><circle cx="170" cy="310" r="13"/></svg>
+    <svg class="a" id="icoBack" style="left:470px;top:1180px" width="230" height="320" viewBox="0 0 230 320" fill="none" stroke="#F4F3EF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M85 40 C85 12 145 12 145 40"/><rect x="30" y="40" width="170" height="260" rx="56"/><rect x="62" y="170" width="106" height="92" rx="20"/><path d="M62 206 H168"/></svg>
+    <div class="a" id="aPlus" style="left:398px;top:1270px;font-weight:300;font-size:120px;color:#6B6B66">+</div>
+    <div class="a lbl" id="aCap" style="left:110px;top:1560px;font-size:26px;color:#A7A7A0">One for clothes. One for everything else.</div>
+  </div>
+
+  <!-- B · range gap -->
+  <div id="sB" class="fill">
+    <div class="a lbl" id="bLbl" style="left:84px;top:240px;font-size:26px;color:var(--mute)">The Mokobara duffel range</div>
+    <img class="a" id="bNavy" src="img/bag_navy24.png" style="left:40px;top:330px;width:480px">
+    <img class="a" id="bGrey" src="img/bag_grey28.png" style="left:560px;top:322px;width:480px">
+    <div class="a" id="bN1" style="left:84px;top:680px"><div class="h1" style="font-size:150px">24 L</div><div class="lbl" style="font-size:24px;color:var(--mute);margin-top:10px">A weekend.</div></div>
+    <div class="a" id="bN2" style="left:590px;top:680px"><div class="h1" style="font-size:150px">28 L</div><div class="lbl" style="font-size:24px;color:var(--mute);margin-top:10px">A gym bag.</div></div>
+    <svg class="a" id="bSlot" style="left:140px;top:1000px" width="800" height="420" viewBox="0 0 800 420">
+      <rect x="6" y="90" width="788" height="320" rx="120" fill="none" stroke="#BDBAB0" stroke-width="5" stroke-dasharray="18 16"/>
+      <path d="M270 90 C270 -10 530 -10 530 90" fill="none" stroke="#BDBAB0" stroke-width="5" stroke-dasharray="18 16"/>
+      <text x="400" y="290" text-anchor="middle" font-family="Outfit" font-weight="800" font-size="150" fill="#D6D3C9">?? L</text></svg>
+    <div class="a h1" id="bL1" style="left:84px;top:1470px;font-size:64px;letter-spacing:-2px">Three days had nothing.</div>
+    <div class="a h1" id="bL2" style="left:84px;top:1560px;font-size:64px;letter-spacing:-2px;color:#B08F00">Until now.</div>
+  </div>
+
+  <!-- C · hero -->
+  <div id="sC" class="fill">
+    <div class="a h1" id="c40" style="left:0;top:330px;width:1080px;text-align:center;font-size:520px;letter-spacing:-20px;color:transparent;-webkit-text-stroke:4px rgba(10,10,10,.9)">40L</div>
+    <div class="a" id="cShadow" style="left:190px;top:1290px;width:700px;height:70px;border-radius:50%;background:radial-gradient(closest-side,rgba(0,0,0,.35),rgba(0,0,0,0))"></div>
+    <img class="a" id="cBag" src="img/bag_black.png" style="left:76px;top:660px;width:928px">
+    <div class="a lbl" id="cLbl" style="left:84px;top:244px;font-size:26px">Introducing</div>
+    <div class="a" id="cLogo" style="left:846px;top:196px;width:150px;height:150px">%%RLOGO%%</div>
+    <div class="a h1" id="cT" style="left:84px;top:1400px;font-size:108px">The Grand Voyage</div>
+    <div class="a h1" id="cG1" style="left:84px;top:1535px;font-size:56px;letter-spacing:-1.5px">Three days.</div>
+    <div class="a h1" id="cG2" style="left:404px;top:1535px;font-size:56px;letter-spacing:-1.5px">One bag.</div>
+    <div class="a h1" id="cG3" style="left:84px;top:1610px;font-size:56px;letter-spacing:-1.5px">Zero planning.</div>
+  </div>
+
+  <!-- D · anatomy -->
+  <div id="sD" class="fill">
+    <div class="a lbl" id="featIdx">01 / 06 · Where the 40 litres go</div>
+    <div class="a" id="featT"></div>
+    <svg class="a" id="diagram" viewBox="0 0 840 520">
+      <defs>
+        <pattern id="hatch" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="14" height="14" fill="#1C1C1C"/><rect width="5" height="14" fill="#2E2E2E"/></pattern>
+        <clipPath id="bodyClip"><rect x="30" y="150" width="780" height="330" rx="110"/></clipPath>
+      </defs>
+      <!-- handles -->
+      <path d="M290 158 C290 20 410 20 410 158" fill="none" stroke="#141414" stroke-width="22" stroke-linecap="round"/>
+      <path d="M430 158 C430 20 550 20 550 158" fill="none" stroke="#141414" stroke-width="22" stroke-linecap="round"/>
+      <g id="dBody">
+        <rect x="30" y="150" width="780" height="330" rx="110" fill="#161616"/>
+        <g clip-path="url(#bodyClip)">
+          <rect id="zShoe" x="30" y="150" width="170" height="330" fill="#FFD400" opacity="0"/>
+          <rect id="zEnd" x="640" y="150" width="170" height="330" fill="#8C8C8C" opacity="0"/>
+          <rect id="zWet" x="660" y="190" width="120" height="140" rx="16" fill="#B4552F" opacity="0"/>
+          <rect id="zBase" x="30" y="420" width="780" height="60" fill="url(#hatch)"/>
+          <rect id="zBaseHi" x="30" y="420" width="780" height="60" fill="#FFD400" opacity="0"/>
+          <rect id="zMain" x="200" y="150" width="440" height="270" fill="#FFD400" opacity="0"/>
+        </g>
+        <!-- straps -->
+        <rect x="270" y="150" width="40" height="330" fill="#0C0C0C"/><rect x="530" y="150" width="40" height="330" fill="#0C0C0C"/>
+        <!-- zip line -->
+        <path d="M150 172 H690" stroke="#3A3A3A" stroke-width="6" stroke-dasharray="4 6"/>
+        <text x="420" y="300" text-anchor="middle" font-family="Outfit" font-weight="600" font-size="26" fill="#EDEDED">mokobara</text>
+        <!-- vents -->
+        <g id="vents" fill="#2F2F2F"><circle cx="80" cy="260" r="7"/><circle cx="110" cy="260" r="7"/><circle cx="140" cy="260" r="7"/><circle cx="80" cy="292" r="7"/><circle cx="110" cy="292" r="7"/><circle cx="140" cy="292" r="7"/></g>
+        <!-- feet -->
+        <rect x="120" y="478" width="46" height="16" rx="5" fill="#0C0C0C"/><rect x="674" y="478" width="46" height="16" rx="5" fill="#0C0C0C"/>
+        <rect x="360" y="478" width="46" height="16" rx="5" fill="#0C0C0C"/><rect x="434" y="478" width="46" height="16" rx="5" fill="#0C0C0C"/>
+      </g>
+      <!-- zip opening (yellow lining) -->
+      <path id="zipOpen" d="M150 172 Q420 250 690 172 Q420 196 150 172Z" fill="#FFD400"/>
+      <!-- zip pull + lock -->
+      <g id="pull"><rect x="0" y="-12" width="20" height="40" rx="6" fill="#C9C9C9"/><circle cx="10" cy="34" r="6" fill="none" stroke="#C9C9C9" stroke-width="4"/></g>
+      <g id="lock" opacity="0"><rect x="-22" y="0" width="44" height="36" rx="8" fill="#FFD400"/><path d="M-12 0 V-10 A12 12 0 0 1 12 -10 V0" fill="none" stroke="#FFD400" stroke-width="6"/></g>
+      <!-- clothes -->
+      <g id="shirt" fill="none" stroke="#111" stroke-width="6" stroke-linejoin="round"><path d="M-40 -30 L-18 -44 Q0 -34 18 -44 L40 -30 L30 -8 L20 -14 V40 H-20 V-14 L-30 -8Z" fill="#F4F3EF"/></g>
+      <g id="trouser" fill="none" stroke="#111" stroke-width="6" stroke-linejoin="round"><path d="M-26 -44 H26 L32 44 H8 L0 -10 L-8 44 H-32Z" fill="#F4F3EF"/></g>
+      <g id="jacket" fill="none" stroke="#111" stroke-width="6" stroke-linejoin="round"><path d="M-44 -34 L-16 -46 L0 -20 L16 -46 L44 -34 L40 44 H-40Z" fill="#F4F3EF"/><path d="M0 -20 V44"/></g>
+      <g id="shoe" fill="#F4F3EF" stroke="#111" stroke-width="6" stroke-linejoin="round"><path d="M-50 10 V-26 H-16 Q0 -6 26 -2 Q50 2 50 22 V30 H-50Z"/></g>
+      <g id="laptop"><rect x="-120" y="-80" width="240" height="160" rx="10" fill="#9A9A9A" stroke="#111" stroke-width="6"/><rect x="-104" y="-64" width="208" height="128" rx="4" fill="#C8C8C8"/></g>
+      <g id="gap" opacity="0" stroke="#111" stroke-width="4" fill="#111"><path d="M420 402 V466"/><path d="M412 410 L420 398 L428 410Z"/><path d="M412 458 L420 470 L428 458Z"/></g>
+      <g id="drop"><path d="M0 -26 C10 -8 18 2 18 12 A18 18 0 0 1 -18 12 C-18 2 -10 -8 0 -26Z" fill="#B4552F"/></g>
+      <g id="rain" stroke="#6E8FB8" stroke-width="5" stroke-linecap="round"></g>
+    </svg>
+    <div class="a" id="meter">
+      <div class="top"><span class="lbl lab">Where the 40 litres go</span><span class="val" id="mVal">0 / 40 L</span></div>
+      <div class="bar"><div class="seg" id="m0" style="background:#111"></div><div class="seg" id="m1" style="background:#FFD400"></div><div class="seg" id="m2" style="background:#555"></div><div class="seg" id="m3" style="background:#8C8C8C"></div><div class="seg" id="m4" style="background:#B4552F"></div></div>
+      <div class="keys lbl"><span><i style="background:#111"></i>Main 26</span><span><i style="background:#FFD400"></i>Shoes 6</span><span><i style="background:#555"></i>Laptop 3</span><span><i style="background:#8C8C8C"></i>Ends 3</span><span><i style="background:#B4552F"></i>Wet 2</span></div>
+    </div>
+    <div class="a" id="specCard"><div class="ph" id="scPh"></div><div class="tx" id="scTx"></div></div>
+  </div>
+
+  <!-- E · spec rush -->
+  <div id="sE" class="fill">
+    <div class="fill" style="background:radial-gradient(60% 28% at 50% 72%,rgba(255,212,0,.16),rgba(255,212,0,0) 70%)"></div>
+    <img class="a" id="eHero" src="img/bag_black_dark.png" style="filter:drop-shadow(0 0 22px rgba(255,255,255,.08)) brightness(1.18);left:76px;top:1000px;width:928px">
+    <div class="a" id="eImg" style="left:560px;top:1090px;width:430px;height:478px;border-radius:26px;background:url(img/tile_trolley.jpg) center/cover;box-shadow:0 30px 60px rgba(0,0,0,.5)"></div>
+    <svg class="a" id="eBox" style="left:84px;top:1060px" width="900" height="520" viewBox="0 0 900 520">
+      <rect x="120" y="60" width="660" height="420" rx="18" fill="none" stroke="#FFD400" stroke-width="5" stroke-dasharray="16 12"/>
+      <text x="450" y="40" text-anchor="middle" font-family="Plex" font-size="26" letter-spacing="3" fill="#FFD400">CABIN BOX · 55 × 35 × 25 CM</text>
+    </svg>
+    <img class="a" id="eBag" src="img/bag_black_dark.png" style="filter:drop-shadow(0 0 20px rgba(255,255,255,.08));left:170px;top:1150px;width:740px">
+    <div class="a rush" id="eCard"></div>
+  </div>
+
+  <!-- F · lifestyle -->
+  <div id="sF" class="fill">
+    <div class="a" id="couple"></div>
+    <div class="fill" id="warm"></div>
+    <div class="fill" id="grade"></div>
+    <div class="a h1" id="fL1" style="left:84px;top:1180px;font-size:92px;color:#F4F3EF;letter-spacing:-3px">Anywhere-but-here</div>
+    <div class="a h1" id="fL2" style="left:84px;top:1280px;font-size:92px;color:var(--y);letter-spacing:-3px">places.</div>
+    <div class="a" id="fBoard" style="left:60px;top:1406px;padding:24px;border-radius:28px;background:rgba(10,10,10,.55);backdrop-filter:blur(14px)"><div class="lbl" style="font-size:24px;color:#D8D6CE;margin-bottom:14px">Three days in</div><div class="cells" id="r3"></div></div>
+    <div class="a" id="fSw" style="left:60px;top:1376px;padding:24px 24px 26px;border-radius:28px;background:rgba(10,10,10,.55);backdrop-filter:blur(14px)">
+      <div class="lbl" style="font-size:24px;color:#D8D6CE;margin-bottom:16px">Three colours</div>
+      <div class="swRow">
+        <div class="sw" id="sw0"><div class="c" style="background:#0E0E0E;box-shadow:inset 0 0 0 2px #3A3A3A"></div><div class="n">Black Box</div></div>
+        <div class="sw" id="sw1"><div class="c" style="background:#8C8C8C"></div><div class="n">Grey Area</div></div>
+        <div class="sw" id="sw2"><div class="c" style="background:#22385F"></div><div class="n">Out of the Blue</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- G · price / zip / end -->
+  <div id="sG" class="fill">
+    <img class="a" id="gBag" src="img/bag_black.png" style="left:176px;top:330px;width:728px">
+    <div class="a lbl" id="gLbl" style="left:84px;top:900px;font-size:26px">The Grand Voyage · 40L</div>
+    <div class="a h1" id="gPrice" style="left:78px;top:950px;font-size:250px;letter-spacing:-10px">₹9,499</div>
+    <div class="a" id="gFacts" style="left:84px;top:1240px;display:flex;gap:14px;flex-wrap:wrap;width:920px">
+      <span class="pill">3-year warranty</span><span class="pill">840D · YKK · 1,500 mm</span><span class="pill">Launching Jan 2027</span></div>
+  </div>
+  <div id="sH" class="fill">
+    <div class="a h1" id="hL1" style="left:84px;top:720px;font-size:84px;letter-spacing:-3px;color:var(--ink)">The bag you stop</div>
+    <div class="a h1" id="hL2" style="left:84px;top:810px;font-size:84px;letter-spacing:-3px;color:var(--ink)">thinking about</div>
+    <div class="a h1" id="hL3" style="left:84px;top:900px;font-size:84px;letter-spacing:-3px;color:#B08F00">the moment you</div>
+    <div class="a h1" id="hL4" style="left:84px;top:990px;font-size:84px;letter-spacing:-3px;color:#B08F00">zip it shut.</div>
+    <svg class="a" id="zip" viewBox="0 0 1080 60" style="top:1180px;height:60px">
+      <g id="teethL"></g>
+      <rect id="zipTape" x="0" y="22" width="0" height="16" fill="#111"/>
+      <g id="zipPull"><rect x="-26" y="10" width="52" height="40" rx="10" fill="#FFD400" stroke="#111" stroke-width="4"/><rect x="-8" y="50" width="16" height="44" rx="6" fill="#111"/></g>
+    </svg>
+  </div>
+  <div id="sI" class="fill">
+    <div class="a" id="iLogo" style="left:340px;top:560px;width:400px;height:400px">%%RLOGO%%</div>
+    <div class="a h1" id="iT" style="left:0;top:1030px;width:1080px;text-align:center;font-size:84px;color:#F4F3EF;letter-spacing:-2.5px">The Grand Voyage · 40L</div>
+    <div class="a h1" id="iS" style="left:0;top:1140px;width:1080px;text-align:center;font-size:46px;font-weight:600;letter-spacing:-1px;color:#A7A7A0">Three days. One bag. Zero planning.</div>
+    <div class="a lbl" id="iHug" style="left:0;top:1270px;width:1080px;text-align:center;font-size:30px;color:var(--y)">Warm hugs, Mokobara</div>
+    <div class="a lbl" id="iUrl" style="left:0;top:1340px;width:1080px;text-align:center;font-size:26px;color:#F4F3EF">mokobara.com</div>
+    <div class="a lbl" id="iSpec" style="left:0;top:1740px;width:1080px;text-align:center;font-size:20px;color:#6B6B66">Spec ad concept · Grand Voyage proposal</div>
+  </div>
+
+  <canvas id="grain" width="600" height="1100"></canvas>
+  <div class="fill" id="vign"></div>
+  <div class="bg" id="wipe" style="background:var(--y);transform:translateY(100%)"></div>
+  <div class="fill" id="flash" style="background:#fff;opacity:0;pointer-events:none"></div>
+</div>
+
+<script>
+const $=id=>document.getElementById(id);
+const clamp=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const P=(t,t0,d)=>clamp((t-t0)/d);
+const lerp=(a,b,k)=>a+(b-a)*k;
+const E={oc:x=>1-Math.pow(1-x,3),ic:x=>x*x*x,oq:x=>1-Math.pow(1-x,5),io:x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2,
+  ob:x=>{const c1=1.4,c3=c1+1;return 1+c3*Math.pow(x-1,3)+c1*Math.pow(x-1,2)},ex:x=>x>=1?1:1-Math.pow(2,-10*x)};
+function T(el,o){const {x=0,y=0,s=1,sx=null,sy=null,r=0,o:op=1}=o;el.style.transform=`translate(${x}px,${y}px) rotate(${r}deg) scale(${sx??s},${sy??s})`;el.style.opacity=op;}
+const vis=(el,on)=>{el.style.display=on?'':'none'};
+function rise(el,t,t0,d=0.5,dy=60){const k=P(t,t0,d);T(el,{y:lerp(dy,0,E.oq(k)),o:t<t0?0:clamp(k*2.2)});}
+function hash(n){n=Math.sin(n*127.1)*43758.5453;return n-Math.floor(n);}
+
+// ===== timeline: 106.667 BPM, beat 0.5625 s, bar 2.25 s, 20 bars = 45 s =====
+const BT=0.5625, BAR=2.25; const bar=k=>k*BAR;
+
+// ---- split-flap
+const CH='ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+function mkCells(id,n,cls=''){const r=$(id);const a=[];for(let i=0;i<n;i++){const c=document.createElement('div');c.className='cell '+cls;c.innerHTML='<span></span>';r.appendChild(c);a.push(c);}return a;}
+function flap(cells,text,t0,t,step=0.045,stagger=0.07,spin=0.3){
+  cells.forEach((c,j)=>{const target=(text[j]||' ');const settle=t0+spin+j*stagger;let ch=' ',sq=1;
+    if(t>=t0&&t<settle){const k=Math.floor((t-t0)/step);ch=target===' '?' ':CH[Math.floor(hash(k*31+j*7+t0*13)*CH.length)];sq=0.82+0.18*(((t-t0)/step)%1);}
+    else if(t>=settle){ch=target;const kk=P(t,settle,0.08);sq=lerp(0.8,1,kk);}
+    const sp=c.firstChild; if(sp.textContent!==ch)sp.textContent=ch; sp.style.transform=`scaleY(${sq})`;});
+}
+const R0=mkCells('r0',6),R1=mkCells('r1',6),R2=mkCells('r2',6,'yl'),R3=mkCells('r3',8,'yl');
+const DEST=[['GOA',33.75],['COORG',34.3125],['HAMPI',34.875],['JAIPUR',35.4375]];
+
+// ---- anatomy data
+const FEATS=[
+  {t:bar(6), n:'01', title:'<b>26 L</b> · Main compartment', sub:'Three shirts. Two trousers. One jacket.<br>Nothing rolled, nothing squashed.', ph:'img/tile_open1.jpg',
+   kv:[['Lining','210T polyester, PU-backed'],['Holds','3 shirts · 2 trousers · 1 jacket']]},
+  {t:bar(7), n:'02', title:'<b>6 L</b> · Vented shoe bay', sub:'Shoes live at the end, apart from your clothes.<br>A removable sack doubles as the dust bag.', ph:'img/tile_front.jpg',
+   kv:[['Shoes','Own vented compartment'],['Sack','Removable · doubles as dust bag']]},
+  {t:bar(8), n:'03', title:'<b>3 L</b> · Laptop sleeve', sub:'Takes a 16-inch laptop, suspended<br>off the base instead of sitting on it.', ph:'img/tile_open2.jpg',
+   kv:[['Laptop','Up to 16 inch'],['Sleeve','Suspended']]},
+  {t:bar(9), n:'04', title:'<b>2 L + 3 L</b> · Wet & end pockets', sub:'Swimwear into the TPU wet pocket.<br>Toiletries into the two end pockets.', ph:'img/tile_top.jpg',
+   kv:[['Wet pocket','TPU-lined, 2 L'],['End pockets','Two, 3 L together']]},
+  {t:bar(10),n:'05', title:'We built the bottom.', sub:'Bags die at the bottom, so the base is<br>reinforced 1000D Cordura, on feet.', ph:'img/tile_base.jpg',
+   kv:[['Base','1000D Cordura, reinforced'],['Feet','Keep it off the floor']]},
+  {t:bar(11),n:'06', title:'Rain? Zipped.', sub:'YKK #8 AquaGuard zips that lock.<br>1,500 mm water resistance.', ph:'img/tile_detail.jpg',
+   kv:[['Closure','YKK #8 AquaGuard, lockable'],['Water','1,500 mm hydrostatic head']]},
+];
+const ftEls=FEATS.map(f=>{const d=document.createElement('div');d.className='a';d.innerHTML=`<div class="ft">${f.title}</div><div class="fs">${f.sub}</div>`;$('featT').appendChild(d);return d;});
+const RAIN=Array.from({length:26},(_,i)=>{const l=document.createElementNS('http://www.w3.org/2000/svg','line');$('rain').appendChild(l);return {el:l,x:40+hash(i+3)*760,ph:hash(i+9),sp:0.7+hash(i+5)*0.5};});
+const SEGS=[26,6,3,3,2], SEG_T=[bar(6),bar(7),bar(8),bar(9)+0.1,bar(9)+0.6];
+
+// ---- spec rush
+const RUSH=[
+  ['01','<em>840D</em> ballistic nylon','Face fabric, PU-coated.'],
+  ['02','Vegan leather trims','Microfibre, not plastic shine.'],
+  ['03','Neoprene handles','They forgive a long corridor.'],
+  ['04','Detachable strap','Shoulder when you want it.'],
+  ['05','Trolley sleeve','Rides on your cabin case.'],
+  ['06','<em>54 × 31 × 26</em> cm','Soft sides give where a hard case can’t.'],
+  ['07','<em>1.90</em> kg','Before you pack a thing.'],
+  ['08','<em>3</em>-year warranty','We’ll be here.'],
+];
+const rushEls=RUSH.map(([n,t,s])=>{const d=document.createElement('div');d.className='a rush';d.style.top='330px';d.innerHTML=`<div class="n lbl">${n} / 08</div><div class="t">${t}</div><div class="s">${s}</div>`;$('sE').appendChild(d);return d;});
+
+// ---- zip teeth
+(function(){const g=$('teethL');for(let x=0;x<1080;x+=14){const r=document.createElementNS('http://www.w3.org/2000/svg','rect');r.setAttribute('x',x);r.setAttribute('y',18);r.setAttribute('width',8);r.setAttribute('height',24);r.setAttribute('rx',2);r.setAttribute('fill','#8A8A84');g.appendChild(r);}})();
+
+// ---- grain
+const gctx=$('grain').getContext('2d');const GI=gctx.createImageData(600,1100);
+function grain(seed){let s=seed*9973+1;for(let i=0;i<GI.data.length;i+=4){s=(s*16807)%2147483647;const v=(s/2147483647)*255;GI.data[i]=GI.data[i+1]=GI.data[i+2]=v;GI.data[i+3]=255;}gctx.putImageData(GI,0,0);}
+$('grain').style.width='1208px';$('grain').style.height='2048px';
+
+const IMP=[[bar(4),10],[bar(10),9],[bar(12),6],[bar(17),8]];
+
+function render(t){
+  // grain changes every 2 frames at 60fps
+  grain(Math.floor(t*30));
+  let cx=0,cy=0;for(const [ti,a] of IMP){if(t>=ti&&t<ti+.5){const k=t-ti,e=a*Math.exp(-k*12);cx+=e*Math.sin(k*60);cy+=e*Math.cos(k*47);}}
+  $('stage').style.transform=`translate(${cx}px,${cy}px)`;
+
+  const A=t<bar(2), B=t>=bar(2)&&t<bar(4), C=t>=bar(4)&&t<bar(6), D=t>=bar(6)&&t<bar(12), Ex=t>=bar(12)&&t<bar(14), F=t>=bar(14)&&t<bar(17), G=t>=bar(17)&&t<bar(18), H=t>=bar(18)&&t<bar(19), I=t>=bar(19);
+  vis($('bgK'),A||Ex||I); vis($('bgP'),B||D||H); vis($('bgY'),C||G);
+  vis($('sA'),A);vis($('sB'),B);vis($('sC'),C);vis($('sD'),D);vis($('sE'),Ex);vis($('sF'),F);vis($('sG'),G);vis($('sH'),H);vis($('sI'),I);
+  $('vign').style.opacity=(A||Ex||F||I)?1:0.35;
+
+  // yellow wipe into the hero and into the price card
+  let wy=100; const w1=P(t,bar(4)-0.42,0.42), w2=P(t,bar(17)-0.42,0.42);
+  if(t>=bar(4)-0.42&&t<bar(4))wy=lerp(100,0,E.ic(w1)); if(t>=bar(17)-0.42&&t<bar(17))wy=lerp(100,0,E.ic(w2));
+  $('wipe').style.transform=`translateY(${wy}%)`; $('wipe').style.display=wy<100?'':'none';
+  const fl=(t>=bar(14)&&t<bar(14)+0.35?1-P(t,bar(14),0.35):0)*0.8; $('flash').style.opacity=fl;
+
+  // ===== A · cold open
+  if(A){
+    rise($('aLbl'),t,0.05,0.5,20);
+    T($('board'),{o:1});
+    flap(R0,'GOA',0.15,t); flap(R1,'3 DAYS',0.55,t); flap(R2,'2',1.05,t,0.045,0.07,0.45);
+    rise($('aH1'),t,1.35,0.55,50); rise($('aH2'),t,bar(1),0.45,50);
+    const k1=P(t,2.9,0.45),k2=P(t,3.2,0.45),k3=P(t,3.05,0.3);
+    T($('icoTrolley'),{y:lerp(80,0,E.oq(k1)),o:t<2.9?0:k1});T($('icoBack'),{y:lerp(80,0,E.oq(k2)),o:t<3.2?0:k2});T($('aPlus'),{s:lerp(.4,1,E.ob(k3)),o:t<3.05?0:k3});
+    rise($('aCap'),t,3.6,0.5,24);
+  }
+  // ===== B · range gap
+  if(B){
+    const b0=bar(2);
+    rise($('bLbl'),t,b0,0.4,20);
+    const n1=P(t,b0,0.55),n2=P(t,b0+2*BT,0.55);
+    T($('bNavy'),{x:lerp(-120,0,E.oq(n1)),o:clamp(n1*2)}); rise($('bN1'),t,b0+0.12,0.5,40);
+    T($('bGrey'),{x:lerp(120,0,E.oq(n2)),o:t<b0+2*BT?0:clamp(n2*2)}); rise($('bN2'),t,b0+2*BT+0.12,0.5,40);
+    const sk=P(t,bar(3),0.5); T($('bSlot'),{s:lerp(.9,1,E.oq(sk)),o:t<bar(3)?0:sk*(0.6+0.4*Math.abs(Math.sin((t-bar(3))*4)))});
+    rise($('bL1'),t,bar(3)+0.1,0.5,30); rise($('bL2'),t,bar(3)+2*BT,0.45,30);
+  }
+  // ===== C · hero
+  if(C){
+    const c0=bar(4), bk=P(t,c0,0.9);
+    T($('c40'),{y:lerp(-60,20,P(t,c0,4.5)),s:lerp(1.08,1,E.oq(P(t,c0,1.2))),o:clamp(P(t,c0,0.4))});
+    const bob=Math.sin((t-c0)*2.2)*8;
+    T($('cBag'),{y:lerp(-900,0,E.oq(bk))+bob*(t>c0+0.9?1:E.oq(bk)),s:lerp(1.1,1,E.oq(bk))*lerp(1,1.04,P(t,c0,4.5)),r:lerp(-6,0,E.oq(bk)),o:1});
+    T($('cShadow'),{sx:lerp(.3,1,E.oq(bk))-bob*0.004,o:E.oq(bk)*0.9});
+    rise($('cLbl'),t,c0+0.05,0.4,20);
+    T($('cLogo'),{r:(t-c0)*40,s:lerp(.4,1,E.ob(P(t,c0+0.2,0.5))),o:clamp(P(t,c0+0.2,0.3))});
+    rise($('cT'),t,c0+0.45,0.55,50);
+    rise($('cG1'),t,bar(5),0.4,30); rise($('cG2'),t,bar(5)+BT,0.4,30); rise($('cG3'),t,bar(5)+2*BT,0.4,30);
+  }
+  // ===== D · anatomy
+  if(D){
+    let fi=0; FEATS.forEach((f,i)=>{if(t>=f.t)fi=i;});
+    $('featIdx').textContent=`${FEATS[fi].n} / 06 · Where the 40 litres go`;
+    ftEls.forEach((el,i)=>{const f=FEATS[i];const k=P(t,f.t,0.45),o=i<5?P(t,FEATS[i+1].t-0.16,0.16):0;
+      T(el,{y:lerp(50,0,E.oq(k))-o*40,o:(t<f.t?0:clamp(k*2.2))*(1-o)});});
+    // spec card swaps per feature
+    const f=FEATS[fi]; if($('scPh').dataset.u!==f.ph){$('scPh').dataset.u=f.ph;$('scPh').style.backgroundImage=`url(${f.ph})`;
+      $('scTx').innerHTML=f.kv.map(([k,v])=>`<div class="kv"><span class="k lbl">${k}</span><span class="v">${v}</span></div>`).join('');}
+    const ck=P(t,f.t+0.12,0.45); T($('specCard'),{y:lerp(40,0,E.oq(ck)),o:clamp(ck*2)*(1-(fi<5?P(t,FEATS[fi+1].t-0.12,0.12):0))});
+    T($('diagram'),{o:clamp(P(t,bar(6),0.3)),y:lerp(40,0,E.oq(P(t,bar(6),0.5)))});
+    T($('meter'),{o:clamp(P(t,bar(6)+0.2,0.3))});
+    // litre meter
+    let L=0; SEGS.forEach((v,i)=>{const k=E.io(P(t,SEG_T[i],0.5));$('m'+i).style.width=(v/40*100*k)+'%';L+=v*k;});
+    $('mVal').textContent=`${Math.round(L)} / 40 L`+(L>39.5?'  ✓':'');
+    // diagram states
+    const z=E.io(P(t,bar(6),0.55)); // zip opens
+    $('zipOpen').setAttribute('d',`M150 172 Q420 ${172+78*z} 690 172 Q420 ${172+24*z} 150 172Z`);
+    const zc=E.io(P(t,bar(11)+0.2,0.5)); // zip closes for the rain beat
+    $('zipOpen').style.opacity=1-zc;
+    const px=lerp(150,690,z)-lerp(0,540,zc); $('pull').setAttribute('transform',`translate(${px-10},160)`);
+    $('zMain').style.opacity=0.9*(P(t,bar(6)+0.4,0.3))*(1-P(t,bar(7),0.3));
+    $('zShoe').style.opacity=0.95*P(t,bar(7),0.3)*(1-P(t,bar(8),0.3));
+    $('zEnd').style.opacity=0.9*P(t,bar(9),0.3)*(1-P(t,bar(10),0.3));
+    $('zWet').style.opacity=P(t,bar(9)+0.5,0.3)*(1-P(t,bar(10),0.3));
+    $('zBaseHi').style.opacity=0.9*P(t,bar(10)+0.1,0.3)*(1-P(t,bar(11),0.3));
+    // clothes fall into the opening
+    [['shirt',0.35],['trouser',0.9],['jacket',1.45]].forEach(([id,o],i)=>{const k=P(t,bar(6)+o,0.55);const x=330+i*90;
+      const y=lerp(-80,240,E.ic(k)); $(id).setAttribute('transform',`translate(${x},${y}) rotate(${lerp(-18,6,k)}) scale(${lerp(1,.7,E.ic(k))})`);
+      $(id).style.opacity=(t<bar(6)+o||k>=1||t>=bar(7))?0:1;});
+    const sk=P(t,bar(7)+0.3,0.55); $('shoe').setAttribute('transform',`translate(${lerp(-80,115,E.oq(sk))},340) scale(0.9)`); $('shoe').style.opacity=(t>=bar(7)+0.3&&t<bar(8))?1:0;
+    $('vents').style.opacity=t>=bar(7)&&t<bar(8)?0.6+0.4*Math.sin(t*8):1;
+    const lk=P(t,bar(8)+0.2,0.7); $('laptop').setAttribute('transform',`translate(420,${lerp(-120,290,E.oq(lk))}) scale(0.9)`); $('laptop').style.opacity=(t>=bar(8)+0.2&&t<bar(9))?1:0;
+    $('gap').style.opacity=P(t,bar(8)+1.0,0.3)*(1-P(t,bar(9),0.2));
+    const dk=P(t,bar(9)+0.5,0.5); $('drop').setAttribute('transform',`translate(720,${lerp(40,250,E.oq(dk))})`); $('drop').style.opacity=(t>=bar(9)+0.5&&t<bar(10))?1:0;
+    // base: bag lands with a thud
+    const bd=P(t,bar(10),0.35); $('dBody').setAttribute('transform',`translate(0,${t>=bar(10)&&t<bar(10)+0.35?-50*(1-E.ic(bd)):0})`);
+    // rain
+    const rn=t>=bar(11); RAIN.forEach(r=>{const cyc=((t*r.sp*1.6)+r.ph)%1;const y=lerp(-40,160,cyc);r.el.setAttribute('x1',r.x);r.el.setAttribute('x2',r.x-8);r.el.setAttribute('y1',y);r.el.setAttribute('y2',y+34);r.el.style.opacity=rn?0.8*P(t,bar(11),0.3):0;});
+    const lo=P(t,bar(11)+0.75,0.25); $('lock').setAttribute('transform',`translate(${150-10+10},${150}) scale(${lerp(.3,1,E.ob(lo))})`); $('lock').style.opacity=lo;
+  }
+  // ===== E · spec rush
+  if(Ex){
+    const e0=bar(12); let ci=Math.min(7,Math.floor((t-e0)/BT));
+    rushEls.forEach((el,i)=>{const t0=e0+i*BT;const k=P(t,t0,0.22);T(el,{x:lerp(-40,0,E.oq(k)),o:i===ci?clamp(k*3):0});});
+    const HP=[[0,40,1.0,0],[60,10,1.35,-2],[-160,-30,1.7,0],[40,30,1.1,3],[0,0,0,0],[0,0,0,0],[0,60,0.8,0],[0,20,1.0,-2]];
+    const hp=HP[ci], hk=E.oq(P(t,e0+ci*BT,0.5));
+    T($('eHero'),{x:hp[0]+lerp(30,0,hk),y:hp[1]+lerp(40,0,hk),s:hp[2]*lerp(1.06,1,hk),r:hp[3],o:(ci===4||ci===5)?0:clamp(P(t,e0+ci*BT,0.15)*3)});
+    T($('eImg'),{s:lerp(.9,1,E.oq(P(t,e0+4*BT,0.3))),o:ci===4?clamp(P(t,e0+4*BT,0.2)*3):0});
+    const bx=ci===5; const sq=P(t,e0+5*BT+0.1,0.35);
+    T($('eBox'),{o:bx?1:0}); T($('eBag'),{sx:lerp(1.05,0.93,E.io(sq)),sy:lerp(1,0.97,E.io(sq)),y:lerp(-40,0,E.oq(sq)),o:bx?1:0});
+  }
+  // ===== F · lifestyle
+  if(F){
+    const f0=bar(14),k=P(t,f0,bar(3));
+    T($('couple'),{s:lerp(1.12,1.0,E.io(k)),y:lerp(-40,20,k)});
+    rise($('fL1'),t,f0+0.15,0.6,50); rise($('fL2'),t,f0+0.35,0.6,50);
+    const bIn=t>=bar(15)&&t<bar(16); T($('fBoard'),{o:bIn?clamp(P(t,bar(15),0.2)*3)*(1-P(t,bar(16)-0.15,0.15)):0});
+    let cur='GOA',ct=DEST[0][1]; DEST.forEach(([d,tt])=>{if(t>=tt){cur=d;ct=tt;}}); flap(R3,cur,ct,t,0.035,0.035,0.18);
+    const sOn=t>=bar(16); T($('fSw'),{o:sOn?1:0});
+    [0,1,2].forEach(i=>{const k=P(t,bar(16)+i*BT,0.4);T($('sw'+i),{y:lerp(50,0,E.oq(k)),o:t<bar(16)+i*BT?0:clamp(k*2.5)});});
+    const up=E.oq(P(t,bar(15)-0.2,0.5)); T($('fL1'),{y:-up*120,o:1}); T($('fL2'),{y:-up*120,o:1});
+    if(t<bar(15)-0.2){rise($('fL1'),t,f0+0.15,0.6,50); rise($('fL2'),t,f0+0.35,0.6,50);}
+  }
+  // ===== G · price
+  if(G){
+    const g0=bar(17); const bk=P(t,g0,0.6);
+    T($('gBag'),{y:lerp(-80,0,E.oq(bk))+Math.sin((t-g0)*2.4)*6,s:lerp(1.08,1,E.oq(bk)),o:1});
+    rise($('gLbl'),t,g0+0.1,0.4,20);
+    const pk=P(t,g0+BT,0.45); T($('gPrice'),{y:lerp(80,0,E.oq(pk)),o:t<g0+BT?0:clamp(pk*2.5)});
+    rise($('gFacts'),t,g0+2*BT,0.45,30);
+  }
+  // ===== H · zip it shut
+  if(H){
+    const h0=bar(18);
+    rise($('hL1'),t,h0,0.45,40); rise($('hL2'),t,h0+0.18,0.45,40); rise($('hL3'),t,h0+BT,0.45,40); rise($('hL4'),t,h0+BT+0.18,0.45,40);
+    const zk=E.io(P(t,h0+2*BT,0.9)); const zx=lerp(-40,1120,zk);
+    $('zipTape').setAttribute('width',Math.max(0,zx)); $('zipPull').setAttribute('transform',`translate(${zx},0)`);
+    T($('zip'),{o:clamp(P(t,h0+2*BT-0.1,0.2))});
+  }
+  // ===== I · end card
+  if(I){
+    const i0=bar(19);
+    T($('iLogo'),{r:lerp(-120,0,E.oq(P(t,i0,1.0)))+(t-i0)*12,s:lerp(.6,1,E.ob(P(t,i0,0.6))),o:clamp(P(t,i0,0.3))});
+    rise($('iT'),t,i0+0.3,0.5,40); rise($('iS'),t,i0+0.5,0.5,30); rise($('iHug'),t,i0+0.8,0.5,20); rise($('iUrl'),t,i0+1.0,0.5,20);
+    T($('iSpec'),{o:0.9*P(t,i0+1.1,0.4)});
+  }
+}
+window.render=render; window.DURATION=45;
+window.ready=document.fonts.ready.then(()=>Promise.all([...document.images].map(im=>im.complete?1:new Promise(r=>{im.onload=r;im.onerror=r;})))).then(()=>{render(0);return true;});
+if(location.search.includes('play')){const st=performance.now();(function loop(){render(((performance.now()-st)/1000)%45);requestAnimationFrame(loop)})();}
+else if(location.search.includes('t=')){window.ready.then(()=>render(parseFloat(location.search.split('t=')[1])));}
+</script>
+</body>
+</html>
