@@ -1,14 +1,18 @@
-# Swish Team Orders: 15-second launch ad (spec concept)
+# Swish Team Orders: launch ad, 15 s and 30 s cuts (spec concept)
 
-**Deliverable:** `swish_team_orders_15s_9x16.mp4`: 1080×1920, 60 fps, 15.0 s, H.264 + AAC stereo. It's built for Instagram Reels, LinkedIn mobile, WhatsApp Status and office lift screens.
+**Deliverables:** two vertical cuts, both 1080×1920, 60 fps, H.264 + AAC stereo. They're built for Instagram Reels, LinkedIn mobile, WhatsApp Status and office lift screens.
+- **30-second cut:** `swish_team_orders_30s_9x16.mp4` (16 bars). This is the full story, for LinkedIn, lift screens and anything that plays with sound. See section 5b.
+- **15-second cut:** `swish_team_orders_15s_9x16.mp4` (8 bars). This is the short version for Reels and Stories.
+
 **Companion to:** *Should Swish introduce TEAM Orders?* (market research deck: 169 survey responses, 80 interviews, 25 depth interviews).
 **Status:** Spec ad concept for the founders. Team Orders is a proposed feature, and the end card says so.
 
 | File | What it is |
 |---|---|
-| `swish_team_orders_15s_9x16.mp4` | The ad |
-| `storyboard.jpg` | 12 keyframes with timestamps, for reading without playing |
-| `poster.jpg` | End-card frame to use as a thumbnail or cover |
+| `swish_team_orders_30s_9x16.mp4` | The 30-second ad |
+| `swish_team_orders_15s_9x16.mp4` | The 15-second ad |
+| `storyboard_30s.jpg` / `storyboard.jpg` | 12 keyframes with timestamps for each cut, for reading without playing |
+| `poster_30s.jpg` / `poster.jpg` | End-card frame for each cut, to use as a thumbnail or cover |
 | `source/` | Everything needed to change a word and re-render (see the last section) |
 
 ---
@@ -85,6 +89,28 @@ The ad talks to the **host**, the one person in every team who ends up collectin
 
 ---
 
+## 5b. The 30-second cut: what the extra 15 seconds add
+
+The 30-second cut is not the 15-second cut slowed down. It is 16 bars on the same 128 BPM grid, so every beat still lands on the music. The extra bars do two jobs: they give each message time to be read, and they add the proof a longer ad can afford.
+
+| Time | Bars | Scene | What's new compared with the 15 s cut |
+|---|---|---|---|
+| 0.0–3.75 | 1–2 | **Hook** | The chat has 16 bubbles, ending in *"ok I'll just order myself"*. The headline stays on screen for about 2 seconds. |
+| 3.75–7.5 | 3–4 | **Pain** | The cards land every other beat, so each one can be read. A new line, **"Sound familiar?"**, lets the viewer recognise the situation. |
+| 7.5–9.4 | 5 | **Reveal** | The sparkle wipe opens on **Team Orders** and the team gathers into a row. |
+| 9.4–13.1 | 6–7 | **① Share one link** | **A live spend-cap slider** (₹150 → ₹300) and a "Company pays" chip. The link lands in the chat, gets *Seen by 8*, and picks up 👍 🙌 🔥 reactions. |
+| 13.1–16.9 | 8–9 | **② Everyone adds their own** | The 8 items arrive one per 8th note. Then the phone slides aside for three **feature cards**: *Veg packed separately*, *A name on every box*, *Cart locks before dispatch*. The host taps and the order is placed. |
+| 16.9–20.6 | 10–11 | **③ One rider. One bill.** | The ETA counts down from 9 min to **Delivered ✅ · on time**, reflecting the deck's finding that arriving on time matters more than raw speed. Then the **₹0 on your card** stamp. |
+| 20.6–22.5 | 12 | **Why only Swish?** *(new scene)* | **"Every dish. One kitchen. One rider."** Five dishes drop into a **Swish bag** drawn after the real one ("FRESH QUICK DELICIOUS · 10-MINUTE FOOD DELIVERY"). It hops onto one scooter and rides off. This is the deck's structural advantage: aggregators can't do it, because their food comes from many restaurants. |
+| 22.5–26.25 | 13–14 | **Slam** | One link. One delivery. One bill. *And the best part?* **₹0 on your card.** A new line follows: *No chasing. No expense claims.* |
+| 26.25–30.0 | 15–16 | **End card** | The sonic logo plays over the CTA, and the team's avatars reappear under the button as a bookend to the reveal. It closes on a warm B♭ → F cadence with a final sparkle chime. |
+
+**Music arc:** tension under the hook and cards → sparkle drop at 7.5 s → a groove that gets a 16th-note arpeggio for the second half of the demo → a stripped-back breakdown for "Why only Swish?" → slams → the sonic logo and closing cadence.
+
+**Why run both cuts:** the 15-second cut is for placements where people skip (Reels, Stories). The 30-second cut is for placements with a captive viewer (LinkedIn feed, lift screens, pitch meetings), where the **reason to believe** ("Why only Swish?") is what turns interest into trust.
+
+---
+
 ## 6. Where office buyers would see it (distribution plan)
 
 The deck's go-to-market is two geofenced tech parks first, so media should cover the host's working day inside those parks.
@@ -128,12 +154,21 @@ The ad is an HTML page whose `render(t)` function draws any moment of the 15 sec
 
 ```bash
 cd source
-python3 build.py      # injects the vector logo into ad.template.html → ad.html
-python3 audio.py      # regenerates soundtrack.wav (all hits are placed on the same timeline as the visuals)
-FFMPEG=$(python3 -c "import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())") \
-  node render.js ../swish_team_orders_15s_9x16.mp4 60   # needs playwright + chromium
+export FFMPEG=$(python3 -c "import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())")   # needs playwright + chromium
+
+# 15-second cut
+python3 build.py                      # injects the vector logo into ad.template.html → ad.html
+python3 audio.py                      # → soundtrack.wav (every hit sits on the same timeline as the visuals)
+node render.js ../swish_team_orders_15s_9x16.mp4 60
+
+# 30-second cut (shares the CSS of ad.template.html; its scenes and script live in ad30.body.html)
+python3 build30.py                    # → ad30.template.html → ad30.html
+python3 audio30.py soundtrack30.wav
+DUR=30 AUDIO=soundtrack30.wav node render.js ../swish_team_orders_30s_9x16.mp4 60 ad30.html
+
+python3 storyboard.py ../swish_team_orders_30s_9x16.mp4 .. 30   # storyboard_30s.jpg + poster_30s.jpg
 ```
 
-- **Change the copy:** edit the text in `ad.template.html`. The hook is `#hook`, the pain cards are `#c1`–`#c3`, the captions are `#cap1`–`#cap3`, the slams are `#s7`, the end card is `#s8`.
-- **Preview in a browser:** open `ad.html?play` to loop it live, or `ad.html?t=12.8` to jump to one moment.
-- **Change timing:** all times are in seconds on a 128 BPM grid (1 beat = 0.46875 s). If you move a visual beat, move the matching hit in `audio.py`.
+- **Change the copy:** edit the text in `ad.template.html` (15 s) or `ad30.body.html` (30 s). The hook is `#hook`, the pain cards are `#c1`–`#c3`, the captions are `#cap1`–`#cap3`, the slams are `#s7`, the end card is `#s8`. The 30 s "Why only Swish?" scene is `#s9`.
+- **Preview in a browser:** open `ad.html?play` (or `ad30.html?play`) to loop it live, or `ad.html?t=12.8` to jump to one moment.
+- **Change timing:** all times are in seconds on a 128 BPM grid (1 beat = 0.46875 s). The 30 s cut keeps them in one `TM` table at the top of its script. If you move a visual beat, move the matching hit in `audio.py` / `audio30.py`.

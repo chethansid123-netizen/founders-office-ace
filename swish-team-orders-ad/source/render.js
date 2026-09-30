@@ -1,4 +1,4 @@
-// node render.js out.mp4 [fps] [html]
+// node render.js out.mp4 [fps] [html]   env: DUR (seconds, default 15), AUDIO (wav, default soundtrack.wav)
 const { chromium } = require('playwright');
 const { spawn } = require('child_process');
 const FFMPEG = process.env.FFMPEG;
@@ -10,10 +10,10 @@ const FFMPEG = process.env.FFMPEG;
   p.on('pageerror',e=>console.log('pageerror:',e.message));
   await p.goto('file://'+__dirname+'/'+html); await p.evaluate(()=>window.ready);
   const ff=spawn(FFMPEG,['-y','-loglevel','error','-framerate',String(fps),'-f','image2pipe','-c:v','png','-i','-',
-    '-i','soundtrack.wav','-map','0:v','-map','1:a',
+    '-i',(process.env.AUDIO||'soundtrack.wav'),'-map','0:v','-map','1:a',
     '-c:v','libx264','-preset','slow','-crf','15','-pix_fmt','yuv420p','-profile:v','high','-level','4.2',
     '-r',String(fps),'-c:a','aac','-b:a','192k','-movflags','+faststart','-shortest',out],{stdio:['pipe','inherit','inherit']});
-  const total=Math.round(15*fps); const t0=Date.now();
+  const total=Math.round(parseFloat(process.env.DUR||'15')*fps); const t0=Date.now();
   for(let i=0;i<total;i++){
     const t=i/fps; await p.evaluate(t=>render(t),t);
     const buf=await p.screenshot({type:'png',clip:{x:0,y:0,width:W,height:H}});

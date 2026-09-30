@@ -24,11 +24,14 @@ def logo(cls):
 def sparkicon(color,size):
     return (f'<svg width="{size}" height="{size}" viewBox="-5 36 192 200" xmlns="http://www.w3.org/2000/svg" style="display:block">'
             f'<path fill="{"#fff" if color=="white" else color}" d="{spark}"/></svg>')
-h=open('ad.template.html').read()
-h=h.replace('%%LOGO:s3%%',logo('s3')).replace('%%LOGO:end%%',logo('end'))
+import sys
+src=sys.argv[1] if len(sys.argv)>1 else 'ad.template.html'
+out=sys.argv[2] if len(sys.argv)>2 else 'ad.html'
+h=open(src).read()
+h=re.sub(r'%%LOGO:(\w+)%%',lambda m:logo(m.group(1)),h)
 h=re.sub(r'%%SPARK:(\w+):(\d+)%%',lambda m:sparkicon(m.group(1),m.group(2)),h)
 h=h.replace('%%STAR%%',star)
 h=h.replace('%%BAGS%%',''.join('<span class="emoji">🛍️</span>' for _ in range(5)))
 h=h.replace('%%SCOOTERS%%',''.join('<span class="emoji">🛵</span>' for _ in range(5)))
 h=h.replace('%%TITLECHARS%%',''.join(f'<span class="ch">{"&nbsp;" if c==" " else c}</span>' for c in 'Team Orders'))
-open('ad.html','w').write(h); print('built', len(h))
+open(out,'w').write(h); print('built', out, len(h))
