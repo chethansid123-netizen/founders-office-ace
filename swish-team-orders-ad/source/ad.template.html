@@ -1,0 +1,726 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Swish Team Orders · 15s ad</title>
+<style>
+@font-face{font-family:Outfit;src:url(fonts/outfit-latin-400-normal.woff2);font-weight:400}
+@font-face{font-family:Outfit;src:url(fonts/outfit-latin-500-normal.woff2);font-weight:500}
+@font-face{font-family:Outfit;src:url(fonts/outfit-latin-600-normal.woff2);font-weight:600}
+@font-face{font-family:Outfit;src:url(fonts/outfit-latin-700-normal.woff2);font-weight:700}
+@font-face{font-family:Outfit;src:url(fonts/outfit-latin-800-normal.woff2);font-weight:800}
+@font-face{font-family:Outfit;src:url(fonts/outfit-latin-900-normal.woff2);font-weight:900}
+@font-face{font-family:Plex;src:url(fonts/ibm-plex-mono-latin-500-normal.woff2);font-weight:500}
+@font-face{font-family:Plex;src:url(fonts/ibm-plex-mono-latin-600-normal.woff2);font-weight:600}
+:root{
+  --g:#22B24C; --g2:#1C9A43; --gd:#17803A; --forest:#0B2E17; --ink:#101512;
+  --mint:#F0FAF3; --mint2:#DDF3E4; --y:#FFD84D; --muted:#55605A; --line:#E1E8E3;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#000}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;
+  font-family:Outfit,'Noto Color Emoji',sans-serif;color:var(--ink);background:#0F1411}
+.fill{position:absolute;inset:0}
+.a{position:absolute;will-change:transform,opacity}
+.emoji{font-family:'Noto Color Emoji';line-height:1}
+.mono{font-family:Plex,monospace}
+
+/* ---------- backgrounds ---------- */
+#bgInk{background:radial-gradient(120% 70% at 50% 45%,#1B241E 0%,#0F1411 55%,#090C0A 100%)}
+#bgGreen{background:radial-gradient(90% 60% at 50% 38%,#3CCB68 0%,#22B24C 45%,#17983F 100%);opacity:0}
+#bgMint{background:radial-gradient(90% 55% at 50% 60%,#FFFFFF 0%,#F0FAF3 55%,#DDF3E4 100%);opacity:0}
+#bgMint .blob{position:absolute;border-radius:50%;filter:blur(40px);opacity:.55}
+
+/* ---------- scene 1: chat chaos ---------- */
+#chatHdr{left:540px;top:236px;display:flex;align-items:center;gap:18px;
+  background:rgba(255,255,255,.08);border:1.5px solid rgba(255,255,255,.14);padding:16px 26px 16px 18px;border-radius:999px;
+  color:#fff;white-space:nowrap}
+#chatHdr .gi{width:64px;height:64px;border-radius:50%;background:#2A3A2F;display:flex;align-items:center;justify-content:center;font-size:36px}
+#chatHdr .gt{font-weight:700;font-size:34px;line-height:1.05}
+#chatHdr .gs{font-size:22px;color:rgba(255,255,255,.6);font-weight:500}
+#chatHdr .badge{margin-left:10px;background:#FF4D4F;color:#fff;font-weight:800;font-size:26px;min-width:56px;height:48px;border-radius:24px;
+  display:flex;align-items:center;justify-content:center;padding:0 14px}
+.bub{display:flex;align-items:flex-end;gap:14px;transform-origin:0% 100%}
+.bub .av{width:58px;height:58px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;
+  font-weight:800;font-size:26px;color:#fff}
+.bub .bb{background:#fff;border-radius:28px 28px 28px 8px;padding:14px 24px 16px;box-shadow:0 18px 40px rgba(0,0,0,.35);max-width:560px}
+.bub .nm{font-weight:700;font-size:22px;line-height:1.1;margin-bottom:4px}
+.bub .tx{font-weight:500;font-size:34px;line-height:1.15;color:#101512;white-space:nowrap}
+#scrim{background:radial-gradient(75% 30% at 40% 52%,rgba(9,12,10,.92) 0%,rgba(9,12,10,.72) 50%,rgba(9,12,10,0) 100%);opacity:0}
+#hook{left:84px;top:760px;width:920px;color:#fff;font-weight:800;font-size:116px;line-height:1.0;letter-spacing:-2.5px}
+#hook .ln{display:block;white-space:nowrap}
+#hook .w{display:inline-block;margin-right:26px}
+#hook .hl{color:var(--y)}
+
+/* ---------- scene 2: pain cards ---------- */
+.card{left:84px;width:912px;border-radius:40px;padding:34px 44px 34px;background:rgba(255,255,255,.07);
+  border:2px solid rgba(255,255,255,.14);color:#fff;box-shadow:0 30px 60px rgba(0,0,0,.4);transform-origin:50% 50%}
+.card .big{font-weight:800;font-size:96px;line-height:1;letter-spacing:-2px;white-space:nowrap}
+.card .big .y{color:var(--y)}
+.card .sub{font-weight:500;font-size:36px;color:rgba(255,255,255,.66);margin-top:12px;white-space:nowrap}
+.card .icons{position:absolute;right:40px;top:34px;display:flex;gap:0}
+.card .icons .emoji{font-size:54px;margin-left:-14px;filter:drop-shadow(0 4px 6px rgba(0,0,0,.4))}
+
+/* ---------- sparkle wipes ---------- */
+.wipe{left:0;top:0;width:100px;height:100px;margin:-50px 0 0 -50px;opacity:0}
+
+/* ---------- scene 3: reveal ---------- */
+#s3logo{left:50%;top:430px;width:500px;margin-left:-250px}
+#s3logo svg{width:100%;height:auto;overflow:visible;display:block}
+#s3title{left:0;width:1080px;top:650px;text-align:center;color:#fff;font-weight:800;font-size:150px;letter-spacing:-4px;line-height:1}
+#s3title .ch{display:inline-block}
+#s3new{left:50%;top:588px;margin-left:330px;background:var(--y);color:var(--forest);font-weight:800;font-size:40px;
+  padding:8px 22px;border-radius:16px;transform-origin:0% 100%}
+#s3sub{left:0;width:1080px;top:872px;text-align:center;color:#fff;font-weight:600;font-size:56px;line-height:1.15}
+#s3sub b{font-weight:800;color:var(--forest)}
+.tav{width:112px;height:112px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  font-weight:800;font-size:44px;color:#fff;border:6px solid #fff;box-shadow:0 14px 28px rgba(0,0,0,.18)}
+
+/* ---------- phone ---------- */
+#phone{left:260px;top:500px;width:560px;height:1120px;border-radius:84px;background:#0B0E0C;padding:16px;
+  box-shadow:0 60px 120px rgba(11,46,23,.35),0 20px 40px rgba(11,46,23,.25),inset 0 0 0 3px #2B332E}
+#screen{position:relative;width:528px;height:1088px;border-radius:68px;overflow:hidden;background:#fff}
+#island{position:absolute;left:50%;top:30px;width:150px;height:42px;margin-left:-75px;background:#0B0E0C;border-radius:21px;z-index:50}
+.scr{position:absolute;left:0;top:0;width:528px;height:1088px;overflow:hidden;background:#fff}
+.sb{height:92px;display:flex;align-items:flex-start;justify-content:space-between;padding:34px 44px 0 52px;font-weight:700;font-size:24px}
+.sb .ic{display:flex;gap:10px;align-items:center}
+.sb .bars{display:flex;gap:3px;align-items:flex-end;height:18px}
+.sb .bars i{display:block;width:5px;background:currentColor;border-radius:2px}
+.sb .bat{width:36px;height:18px;border:2.5px solid currentColor;border-radius:5px;position:relative;opacity:.95}
+.sb .bat:after{content:"";position:absolute;left:2px;top:2px;bottom:2px;width:65%;background:currentColor;border-radius:2px}
+
+/* home */
+#scrHome .hdr{background:linear-gradient(180deg,#2BBE57 0%,#22B24C 100%);color:#fff;padding:0 0 26px;border-radius:0 0 34px 34px}
+#scrHome .hdr .sb{color:#fff}
+.hrow1{padding:0 32px;font-weight:800;font-size:40px;display:flex;align-items:center;gap:8px;margin-top:-6px}
+.hrow2{padding:2px 32px 0;font-weight:500;font-size:22px;opacity:.9}
+.search{margin:18px 26px 0;background:#fff;border-radius:20px;height:66px;display:flex;align-items:center;gap:12px;padding:0 20px;
+  color:#8A968F;font-size:24px;font-weight:500}
+.cats{display:flex;justify-content:space-between;padding:24px 30px 6px}
+.cat{display:flex;flex-direction:column;align-items:center;gap:8px;font-size:20px;font-weight:600;color:#33403A}
+.cat .ci{width:84px;height:84px;border-radius:50%;background:var(--mint);display:flex;align-items:center;justify-content:center;font-size:44px}
+.toCard{margin:18px 22px 0;background:linear-gradient(160deg,#F0FAF3,#DDF3E4);border:2.5px solid #9EDDB2;border-radius:30px;padding:22px 22px 22px;position:relative}
+.toTop{display:flex;gap:16px;align-items:center}
+.toIcon{display:flex}
+.toIcon span{width:50px;height:50px;border-radius:50%;border:3px solid #fff;margin-left:-16px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:20px}
+.toIcon span:first-child{margin-left:0}
+.toTitle{font-weight:800;font-size:34px;display:flex;align-items:center;gap:10px}
+.toTitle .new{background:var(--y);color:var(--forest);font-size:18px;padding:3px 10px;border-radius:8px;font-weight:800}
+.toDesc{font-size:22px;color:var(--muted);font-weight:500;margin-top:2px}
+.btn{margin-top:18px;height:78px;border-radius:22px;background:var(--g);color:#fff;font-weight:800;font-size:30px;
+  display:flex;align-items:center;justify-content:center;gap:10px;box-shadow:0 10px 20px rgba(34,178,76,.35);position:relative;overflow:hidden}
+.secT{padding:26px 30px 12px;font-weight:800;font-size:28px}
+.tiles{display:flex;gap:16px;padding:0 22px}
+.tile{flex:1;border-radius:24px;border:2px solid var(--line);padding:14px;position:relative}
+.tile .ti{height:118px;border-radius:18px;background:var(--mint);display:flex;align-items:center;justify-content:center;font-size:74px}
+.tile .tn{font-weight:700;font-size:22px;margin-top:10px}
+.tile .tp{font-weight:800;font-size:24px;margin-top:2px}
+.tile .add{position:absolute;right:14px;bottom:14px;border:2px solid var(--g);color:var(--g);font-weight:800;font-size:18px;padding:5px 12px;border-radius:10px;background:#fff}
+#dim{background:rgba(10,20,14,.45);opacity:0}
+#sheet{left:0;top:0;width:528px;height:600px;background:#fff;border-radius:40px 40px 0 0;padding:16px 30px 0;box-shadow:0 -20px 50px rgba(0,0,0,.25)}
+#sheet .hd{width:70px;height:8px;border-radius:4px;background:#D5DDD8;margin:0 auto 22px}
+#sheet .ok{display:flex;gap:14px;align-items:center;font-weight:800;font-size:34px}
+#sheet .ok .ck{width:52px;height:52px;border-radius:50%;background:var(--g);color:#fff;display:flex;align-items:center;justify-content:center;font-size:30px}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.chip{background:var(--mint);border:2px solid #BFE8CB;color:var(--forest);font-weight:700;font-size:21px;padding:8px 14px;border-radius:14px;white-space:nowrap}
+.link{margin-top:22px;height:78px;border-radius:20px;background:#F6F8F6;border:2px dashed #9EDDB2;display:flex;align-items:center;justify-content:space-between;padding:0 20px}
+.link .mono{font-size:25px;font-weight:600;color:var(--forest)}
+.link .cp{font-weight:800;color:var(--g);font-size:22px}
+.share{display:flex;justify-content:space-around;margin-top:24px}
+.sh{display:flex;flex-direction:column;align-items:center;gap:8px;font-size:19px;font-weight:600;color:#33403A}
+.sh .c{width:78px;height:78px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:900;font-size:34px}
+#tap{left:0;top:0;width:96px;height:96px;margin:-48px 0 0 -48px;border-radius:50%;background:rgba(255,255,255,.55);border:4px solid rgba(255,255,255,.95);
+  box-shadow:0 6px 18px rgba(0,0,0,.25);opacity:0;z-index:60}
+#ripple{left:0;top:0;width:60px;height:60px;margin:-30px 0 0 -30px;border-radius:50%;background:rgba(255,255,255,.55);opacity:0}
+
+/* cart */
+.dark{color:var(--ink)}
+.cHdr{display:flex;gap:16px;align-items:center;padding:0 28px}
+.cHdr .bk{font-size:34px;font-weight:700}
+.cT{font-weight:800;font-size:32px;line-height:1.1}
+.cS{font-size:21px;color:var(--muted);font-weight:500;margin-top:2px}
+.cS .mono{color:var(--g);font-weight:600}
+.members{display:flex;align-items:center;justify-content:space-between;margin:20px 26px 0;background:var(--mint);border-radius:22px;padding:14px 18px;height:84px}
+.cavs{position:relative;height:56px;width:320px}
+.cav{position:absolute;top:0;width:56px;height:56px;border-radius:50%;border:3px solid #fff;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:22px}
+.mcount{font-weight:600;font-size:22px;color:var(--forest);white-space:nowrap}
+.mcount b{font-weight:800;font-size:28px}
+.capRow{display:flex;gap:10px;padding:16px 26px 0}
+.capRow .chip{font-size:19px;padding:6px 12px}
+#list{position:relative;margin:16px 0 0;height:640px;overflow:hidden}
+.row{position:absolute;left:18px;right:18px;top:0;height:100px;border-radius:22px;display:flex;align-items:center;gap:16px;padding:0 14px}
+.row .rt{width:76px;height:76px;border-radius:18px;background:var(--mint);display:flex;align-items:center;justify-content:center;font-size:44px;flex:none}
+.row .rn{font-weight:700;font-size:25px;line-height:1.1;display:flex;align-items:center;gap:8px;white-space:nowrap}
+.row .rb{font-size:19px;color:var(--muted);font-weight:500;margin-top:4px;display:flex;align-items:center;gap:8px}
+.row .rb .mini{width:26px;height:26px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:12px}
+.row .rp{margin-left:auto;font-weight:800;font-size:26px}
+.vm{width:22px;height:22px;border:2.5px solid #1E9E45;border-radius:4px;display:inline-flex;align-items:center;justify-content:center;flex:none}
+.vm:after{content:"";width:10px;height:10px;border-radius:50%;background:#1E9E45}
+.nv{width:22px;height:22px;border:2.5px solid #C0392B;border-radius:4px;display:inline-flex;align-items:center;justify-content:center;flex:none}
+.nv:after{content:"";width:0;height:0;border-left:6px solid transparent;border-right:6px solid transparent;border-bottom:10px solid #C0392B}
+.cBar{position:absolute;left:18px;right:18px;bottom:26px;height:92px;border-radius:26px;background:var(--g);color:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 28px;
+  box-shadow:0 12px 24px rgba(34,178,76,.35)}
+.cBar .l{font-size:22px;font-weight:600;line-height:1.15}
+.cBar .l b{font-size:26px;font-weight:800}
+.cBar .tot{font-weight:800;font-size:34px}
+
+/* track */
+#map{position:relative;height:430px;background:#E8F2EA;overflow:hidden}
+#map svg{position:absolute;left:0;top:0}
+.eta{margin:-44px 22px 0;position:relative;background:#fff;border-radius:28px;padding:20px 24px;box-shadow:0 14px 34px rgba(11,46,23,.14);z-index:2}
+.etaBig{font-weight:600;font-size:26px;color:var(--muted);display:flex;align-items:center;gap:10px}
+.etaBig b{color:var(--ink);font-weight:800;font-size:40px}
+.etaBig .live{width:14px;height:14px;border-radius:50%;background:var(--g)}
+.etaSub{font-weight:700;font-size:23px;color:var(--forest);margin-top:6px}
+.bill{margin:18px 22px 0;border:2px solid var(--line);border-radius:28px;padding:20px 24px;position:relative}
+.bill .bt{font-weight:800;font-size:28px;margin-bottom:8px}
+.br{display:flex;justify-content:space-between;font-size:24px;font-weight:500;color:#33403A;padding:7px 0}
+.br.g{color:var(--gd);font-weight:700}
+.br.tot{border-top:2px dashed var(--line);margin-top:6px;padding-top:12px;font-weight:800;font-size:30px;color:var(--ink)}
+.bto{margin-top:12px;background:var(--mint);border-radius:18px;padding:14px 16px;display:flex;align-items:center;gap:12px}
+.bto .bi{font-size:34px}
+.bto .bl{font-size:18px;color:var(--muted);font-weight:600}
+.bto .bn{font-size:21px;font-weight:800;color:var(--forest);white-space:nowrap}
+.bto .gst{margin-left:auto;font-size:18px;font-weight:800;color:#fff;background:var(--g);padding:6px 10px;border-radius:10px;white-space:nowrap}
+#stamp{left:50%;top:0;margin-left:-235px;width:470px;border:7px solid var(--gd);color:var(--gd);border-radius:22px;text-align:center;
+  font-weight:900;font-size:44px;line-height:1.02;padding:12px 10px;letter-spacing:1px;background:rgba(255,255,255,.88);opacity:0;z-index:10}
+#stamp small{display:block;font-size:24px;letter-spacing:3px;font-weight:800}
+
+/* step captions */
+.cap{left:84px;top:236px;width:930px;display:flex;gap:24px;align-items:flex-start}
+.cap .n{width:88px;height:88px;border-radius:50%;background:var(--g);color:#fff;font-weight:900;font-size:50px;display:flex;align-items:center;justify-content:center;flex:none;
+  box-shadow:0 10px 20px rgba(34,178,76,.3)}
+.cap .t{font-weight:800;font-size:70px;line-height:1.02;letter-spacing:-1.5px;color:var(--ink);white-space:nowrap}
+.cap .s{font-weight:600;font-size:34px;color:var(--gd);margin-top:10px;white-space:nowrap}
+
+/* outside-the-phone elements */
+#chatOut{left:40px;top:1210px;width:640px;background:#fff;border-radius:34px;padding:22px 26px;box-shadow:0 30px 60px rgba(11,46,23,.28);opacity:0;transform-origin:10% 100%}
+#chatOut .h{display:flex;align-items:center;gap:12px;font-weight:800;font-size:24px;color:var(--muted)}
+#chatOut .m{margin-top:12px;background:#DCF8C6;border-radius:22px 22px 6px 22px;padding:16px 20px;font-size:30px;font-weight:600;color:#101512}
+#chatOut .lk{display:inline-block;margin-top:10px;background:#fff;border-radius:14px;padding:8px 14px;font-family:Plex;font-weight:600;font-size:24px;color:var(--gd);border:2px solid #9EDDB2}
+#chatOut .sn{text-align:right;margin-top:10px;font-size:20px;font-weight:700;color:#34B7F1}
+#flyLink{left:0;top:0;background:#fff;border:3px solid var(--g);border-radius:18px;padding:12px 18px;font-family:Plex;font-weight:600;font-size:26px;color:var(--gd);
+  box-shadow:0 16px 30px rgba(11,46,23,.3);opacity:0;white-space:nowrap}
+.addChip{left:0;top:0;display:flex;align-items:center;gap:12px;background:#fff;border-radius:999px;padding:10px 22px 10px 10px;box-shadow:0 18px 36px rgba(11,46,23,.25);
+  opacity:0;white-space:nowrap}
+.addChip .av{width:62px;height:62px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:26px}
+.addChip .tx{font-weight:800;font-size:30px;color:var(--ink)}
+.addChip .tx span{color:var(--g)}
+
+/* ---------- scene 7: slam ---------- */
+.slam{left:84px;color:#fff;font-weight:800;font-size:132px;letter-spacing:-4px;line-height:1;white-space:nowrap;transform-origin:0% 50%}
+#slam4{left:84px;top:1150px;background:var(--forest);color:var(--y);font-weight:800;font-size:92px;letter-spacing:-2px;padding:22px 40px 28px;border-radius:30px;white-space:nowrap;transform-origin:0% 50%}
+
+/* ---------- scene 8: end card ---------- */
+#endLogo{left:50%;top:520px;width:600px;margin-left:-300px}
+#endLogo svg{width:100%;height:auto;overflow:visible;display:block}
+#endTitle{left:0;width:1080px;top:760px;text-align:center;color:#fff;font-weight:800;font-size:120px;letter-spacing:-3px;line-height:1}
+#endTag{left:0;width:1080px;top:910px;text-align:center;color:#fff;font-weight:600;font-size:52px;line-height:1.2}
+#endTag b{color:var(--forest);font-weight:800}
+#cta{left:50%;top:1110px;width:720px;margin-left:-360px;height:140px;border-radius:70px;background:#fff;color:var(--gd);
+  font-weight:800;font-size:54px;display:flex;align-items:center;justify-content:center;gap:16px;box-shadow:0 26px 50px rgba(11,46,23,.35);overflow:hidden}
+#cta .shine{position:absolute;top:-20px;bottom:-20px;width:120px;background:linear-gradient(90deg,rgba(255,255,255,0),rgba(34,178,76,.18),rgba(255,255,255,0));transform:skewX(-20deg)}
+#endSub{left:0;width:1080px;top:1290px;text-align:center;color:rgba(255,255,255,.92);font-weight:600;font-size:36px}
+#concept{left:0;width:1080px;top:1720px;text-align:center;color:rgba(255,255,255,.62);font-family:Plex;font-weight:500;font-size:22px;letter-spacing:2px}
+
+.spk{left:0;top:0;width:40px;height:40px;margin:-20px 0 0 -20px}
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="bgInk" class="fill"></div>
+  <div id="bgGreen" class="fill"></div>
+  <div id="bgMint" class="fill">
+    <div class="blob" style="left:-160px;top:1080px;width:620px;height:620px;background:#BDEBCB"></div>
+    <div class="blob" style="left:700px;top:380px;width:520px;height:520px;background:#CFF2D9"></div>
+  </div>
+  <div id="cam" class="fill">
+
+    <!-- scene 1 -->
+    <div id="s1" class="fill">
+      <div id="bubbles" class="fill"></div>
+      <div id="scrim" class="fill"></div>
+      <div id="chatHdr" class="a">
+        <div class="gi emoji">🍱</div>
+        <div><div class="gt">Team Lunch</div><div class="gs">9 members · Rahul is typing…</div></div>
+        <div class="badge" id="unread">1</div>
+      </div>
+      <div id="hook" class="a">
+        <span class="ln"><span class="w">You</span><span class="w">didn't</span><span class="w">become</span></span>
+        <span class="ln"><span class="w">a</span><span class="w">team</span><span class="w">lead</span></span>
+        <span class="ln"><span class="w">to</span><span class="w">take</span></span>
+        <span class="ln"><span class="w hl">lunch</span><span class="w hl">orders.</span></span>
+      </div>
+    </div>
+
+    <!-- scene 2 -->
+    <div id="s2" class="fill">
+      <div class="card a" id="c1" style="top:400px">
+        <div class="big">8 people.</div>
+        <div class="sub">8 separate orders.</div>
+        <div class="icons">%%BAGS%%</div>
+      </div>
+      <div class="card a" id="c2" style="top:730px">
+        <div class="big">8 riders.</div>
+        <div class="sub">8 delivery fees at one gate.</div>
+        <div class="icons">%%SCOOTERS%%</div>
+      </div>
+      <div class="card a" id="c3" style="top:1060px">
+        <div class="big" style="font-size:80px"><span class="y">₹4,000</span> on your card.</div>
+        <div class="sub">Expense claim? 30 days. <span class="emoji" style="font-size:34px">⏳</span></div>
+      </div>
+    </div>
+
+    <!-- scene 3 -->
+    <div id="s3" class="fill">
+      <div id="s3logo" class="a">%%LOGO:s3%%</div>
+      <div id="s3title" class="a">%%TITLECHARS%%</div>
+      <div id="s3new" class="a">NEW</div>
+      <div id="s3sub" class="a">Lunch for teams of <b>2–10</b>.<br>One order. Everyone picks.</div>
+      <div id="s3avs" class="fill"></div>
+    </div>
+
+    <!-- scene 4-6: phone -->
+    <div id="s4" class="fill">
+      <div class="cap a" id="cap1"><div class="n">1</div><div><div class="t">Share one link.</div><div class="s">Set a ₹300 cap · open 30 min</div></div></div>
+      <div class="cap a" id="cap2"><div class="n">2</div><div><div class="t">Everyone adds<br>their own.</div><div class="s">Veg packed apart · names on every box</div></div></div>
+      <div class="cap a" id="cap3"><div class="n">3</div><div><div class="t">One rider.<br>One bill.</div><div class="s">Billed straight to your company</div></div></div>
+
+      <div id="phone" class="a">
+        <div id="screen">
+          <!-- HOME -->
+          <div class="scr" id="scrHome">
+            <div class="hdr">
+              <div class="sb"><span>12:52</span><span class="ic"><span class="bars"><i style="height:6px"></i><i style="height:10px"></i><i style="height:14px"></i><i style="height:18px"></i></span><span style="font-size:18px">5G</span><span class="bat"></span></span></div>
+              <div class="hrow1"><span class="emoji" style="font-size:34px">⚡</span>10 minutes <span style="font-size:26px">▾</span></div>
+              <div class="hrow2">Office · Koramangala, Bengaluru</div>
+              <div class="search"><span class="emoji" style="font-size:24px">🔍</span>Search “biryani”</div>
+            </div>
+            <div class="cats">
+              <div class="cat"><div class="ci emoji">🍛</div>Meals</div>
+              <div class="cat"><div class="ci emoji">🌯</div>Rolls</div>
+              <div class="cat"><div class="ci emoji">🧋</div>Drinks</div>
+              <div class="cat"><div class="ci emoji">🍰</div>Desserts</div>
+            </div>
+            <div class="toCard">
+              <div class="toTop">
+                <div class="toIcon"><span style="background:#F2994A">R</span><span style="background:#EB5757">P</span><span style="background:#2D9CDB">K</span></div>
+                <div><div class="toTitle">Team Orders <span class="new">NEW</span></div><div class="toDesc">One link. One delivery. One bill.</div></div>
+              </div>
+              <div class="btn" id="createBtn">Create Team Order <span>→</span></div>
+            </div>
+            <div class="secT">Popular near you</div>
+            <div class="tiles">
+              <div class="tile"><div class="ti emoji">🍛</div><div class="tn">Chicken Biryani</div><div class="tp">₹249</div><div class="add">ADD +</div></div>
+              <div class="tile"><div class="ti emoji">🍲</div><div class="tn">Rajma Rice Bowl</div><div class="tp">₹179</div><div class="add">ADD +</div></div>
+            </div>
+            <div id="dim" class="fill"></div>
+            <div id="sheet" class="a">
+              <div class="hd"></div>
+              <div class="ok"><div class="ck">✓</div>Team Order created</div>
+              <div class="chips"><span class="chip">👥 Up to 10 people</span><span class="chip">₹300 cap / person</span><span class="chip">⏱ Open 30 min</span></div>
+              <div class="link"><span class="mono" id="linkTxt">swish.in/t/lunch-8K2</span><span class="cp">COPY</span></div>
+              <div class="share">
+                <div class="sh"><div class="c" style="background:#25D366">W</div>WhatsApp</div>
+                <div class="sh"><div class="c" style="background:#4A154B">#</div>Slack</div>
+                <div class="sh"><div class="c" style="background:#5B6BF0">T</div>Teams</div>
+                <div class="sh"><div class="c" style="background:#101512;font-size:30px">⧉</div>Copy</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CART -->
+          <div class="scr" id="scrCart">
+            <div class="sb dark"><span>12:53</span><span class="ic"><span class="bars"><i style="height:6px"></i><i style="height:10px"></i><i style="height:14px"></i><i style="height:18px"></i></span><span style="font-size:18px">5G</span><span class="bat"></span></span></div>
+            <div class="cHdr"><div class="bk">←</div><div><div class="cT">Friday team lunch</div><div class="cS">Hosted by you · cart locks in <span class="mono" id="lockT">24:59</span></div></div></div>
+            <div class="members"><div class="cavs" id="cavs"></div><div class="mcount"><b id="joinN">0</b>/10 joined</div></div>
+            <div class="capRow"><span class="chip">₹300 cap each</span><span class="chip">One kitchen · one rider</span></div>
+            <div id="list"></div>
+            <div class="cBar"><div class="l"><b id="itN">0 items</b><br><span id="ppN">0 people</span></div><div class="tot" id="totN">₹0</div></div>
+          </div>
+
+          <!-- TRACK -->
+          <div class="scr" id="scrTrack">
+            <div id="map">
+              <svg width="528" height="430" viewBox="0 0 528 430">
+                <g stroke="#FFFFFF" stroke-linecap="round" fill="none">
+                  <path d="M-20 300 L560 250" stroke-width="26"/>
+                  <path d="M-20 150 L560 110" stroke-width="18"/>
+                  <path d="M120 -20 L150 460" stroke-width="22"/>
+                  <path d="M330 -20 L350 460" stroke-width="18"/>
+                  <path d="M-20 400 L560 380" stroke-width="14"/>
+                  <path d="M470 -20 L480 460" stroke-width="12"/>
+                </g>
+                <rect x="170" y="140" width="140" height="90" rx="14" fill="#CFEBD6"/>
+                <rect x="370" y="290" width="90" height="70" rx="12" fill="#DDE9E0"/>
+                <rect x="20" y="170" width="80" height="100" rx="12" fill="#DDE9E0"/>
+                <path id="routeBase" d="M92 360 L132 352 L148 296 L336 276 L345 122 L452 116" stroke="#B9D8C2" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                <path id="routeDone" d="M92 360 L132 352 L148 296 L336 276 L345 122 L452 116" stroke="#22B24C" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <div class="a" style="left:52px;top:318px;width:80px;height:80px;border-radius:50%;background:#22B24C;border:5px solid #fff;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 16px rgba(0,0,0,.18)">%%SPARK:white:44%%</div>
+              <div class="a" style="left:40px;top:250px;font-weight:800;font-size:18px;color:var(--forest);background:#fff;padding:4px 10px;border-radius:10px">swish kitchen</div>
+              <div class="a" style="left:410px;top:74px;width:84px;height:84px;border-radius:50%;background:#fff;border:5px solid var(--forest);display:flex;align-items:center;justify-content:center;box-shadow:0 8px 16px rgba(0,0,0,.18)"><span class="emoji" style="font-size:44px">🏢</span></div>
+              <div class="a" style="left:360px;top:166px;font-weight:800;font-size:18px;color:#fff;background:var(--forest);padding:4px 10px;border-radius:10px">Your office</div>
+              <div id="rider" class="a" style="left:0;top:0;width:78px;height:78px;margin:-39px 0 0 -39px;border-radius:50%;background:#fff;border:5px solid #22B24C;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 20px rgba(0,0,0,.25)"><span class="emoji" style="font-size:42px">🛵</span></div>
+            </div>
+            <div class="eta">
+              <div class="etaBig"><span class="live" id="live"></span>Arriving in <b>9 min</b></div>
+              <div class="etaSub">1 rider · 8 meals · one handover</div>
+            </div>
+            <div class="bill" id="bill">
+              <div class="bt">Team bill</div>
+              <div class="br" id="b1"><span>8 items</span><span>₹1,302</span></div>
+              <div class="br g" id="b2"><span>Team discount</span><span>−₹112</span></div>
+              <div class="br" id="b3"><span>GST (5%)</span><span>₹60</span></div>
+              <div class="br tot" id="b4"><span>Total</span><span>₹1,250</span></div>
+              <div class="bto" id="b5"><span class="bi emoji">🏢</span><div><div class="bl">Billed to</div><div class="bn">Your Company Pvt Ltd</div></div><span class="gst">GST invoice ✓</span></div>
+            </div>
+            <div id="stamp" class="a">₹0 ON YOUR CARD<small>BILLED TO COMPANY</small></div>
+          </div>
+          <div id="ripple" class="a"></div>
+        </div>
+        <div id="island"></div>
+        <div id="tap" class="a"></div>
+      </div>
+
+      <div id="chatOut" class="a">
+        <div class="h"><span class="emoji" style="font-size:28px">🍱</span>Team Lunch · 9 members</div>
+        <div class="m">Lunch? Add yours before 1 👇<br><span class="lk">swish.in/t/lunch-8K2</span></div>
+        <div class="sn">✓✓ Seen by 8</div>
+      </div>
+      <div id="flyLink" class="a">🔗 swish.in/t/lunch-8K2</div>
+      <div id="addChips" class="fill" style="pointer-events:none"></div>
+    </div>
+
+    <!-- scene 7 -->
+    <div id="s7" class="fill">
+      <div class="slam a" id="sl1" style="top:430px">One link.</div>
+      <div class="slam a" id="sl2" style="top:600px">One delivery.</div>
+      <div class="slam a" id="sl3" style="top:770px">One bill.</div>
+      <div class="a" id="sl3b" style="left:84px;top:960px;color:rgba(255,255,255,.92);font-weight:600;font-size:46px;white-space:nowrap">And the best part?</div>
+      <div id="slam4" class="a">₹0 on your card.</div>
+    </div>
+
+    <!-- scene 8 -->
+    <div id="s8" class="fill">
+      <div id="endLogo" class="a">%%LOGO:end%%</div>
+      <div id="endTitle" class="a">Team Orders</div>
+      <div id="endTag" class="a">Lunch for the whole team.<br><b>In 10 minutes.</b></div>
+      <div id="cta" class="a"><div class="shine a" id="shine"></div>Start a Team Order <span>→</span></div>
+      <div id="endSub" class="a">For teams of 2–10 · on the swish app</div>
+      <div id="concept" class="a">SPEC AD CONCEPT · TEAM ORDERS PROPOSAL</div>
+    </div>
+
+    <div id="sparks" class="fill" style="pointer-events:none"></div>
+    <svg class="a wipe" id="wipe1" viewBox="-1 -1 2 2"><path d="%%STAR%%" fill="#22B24C"/></svg>
+    <svg class="a wipe" id="wipe2" viewBox="-1 -1 2 2"><path d="%%STAR%%" fill="#22B24C"/></svg>
+    <div id="flash" class="fill" style="background:#fff;opacity:0"></div>
+  </div>
+</div>
+
+<script>
+// ============ helpers ============
+const $=id=>document.getElementById(id);
+const clamp=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const P=(t,t0,d)=>clamp((t-t0)/d);
+const lerp=(a,b,k)=>a+(b-a)*k;
+const E={
+  lin:x=>x,
+  oc:x=>1-Math.pow(1-x,3),
+  ic:x=>x*x*x,
+  oq:x=>1-Math.pow(1-x,5),
+  ex:x=>x>=1?1:1-Math.pow(2,-10*x),
+  iex:x=>x<=0?0:Math.pow(2,10*x-10),
+  io:x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2,
+  ob:x=>{const c1=1.9,c3=c1+1;return 1+c3*Math.pow(x-1,3)+c1*Math.pow(x-1,2)},
+  ob2:x=>{const c1=1.3,c3=c1+1;return 1+c3*Math.pow(x-1,3)+c1*Math.pow(x-1,2)},
+};
+function T(el,o){ // transform + opacity setter
+  const {x=0,y=0,s=1,sx=null,sy=null,r=0,o:op=1,blur=0}=o;
+  el.style.transform=`translate(${x}px,${y}px) rotate(${r}deg) scale(${sx??s},${sy??s})`;
+  el.style.opacity=op;
+  if(o.blur!==undefined) el.style.filter=blur>0.05?`blur(${blur}px)`:'none';
+}
+const vis=(el,on)=>{el.style.display=on?'':'none'};
+// deterministic rng
+function rng(seed){return ()=>{seed=(seed*16807)%2147483647;return (seed-1)/2147483646}}
+
+// ============ timing (128 BPM, beat = 0.46875s, bar = 1.875s) ============
+const B=0.46875, BAR=1.875;
+const PEOPLE={
+  Rahul:'#F2994A', Priya:'#EB5757', Karan:'#2D9CDB', Neha:'#9B51E0', Arjun:'#E2B93B', Sneha:'#EF6CA0', Vikram:'#16A2A0', You:'#0B2E17'
+};
+// ---- scene 1 bubbles
+const BUBS=[
+  ['Rahul','what are we ordering??',60,360,-3],
+  ['Priya','veg only pls 🙏',620,430,4],
+  ['Karan','1 chicken biryani',90,1320,2],
+  ['Neha','Jain option hai?',600,1440,-4],
+  ['Arjun','+1 cold coffee',330,535,-2],
+  ['Sneha','no onion no garlic',60,1505,3],
+  ['Vikram',"I'll pay you later 😅",440,1605,-2],
+  ['Rahul','@you order kar diya?',60,640,2],
+  ['Priya','also 2 fries',680,630,-3],
+  ['Karan',"bro it's 1:15 😭",60,1700,4],
+  ['Neha',"who's collecting money?",430,1785,2],
+  ['Arjun','same as last time',560,1290,-3],
+];
+const BUB_T=[-.5,-.25,.15,.40,.60,.78,.94,1.08,1.20,1.32,1.44,1.56];
+const bubEls=BUBS.map(([n,txt,x,y,r],i)=>{
+  const d=document.createElement('div');d.className='bub a';d.style.left=x+'px';d.style.top=y+'px';
+  d.innerHTML=`<div class="av" style="background:${PEOPLE[n]}">${n[0]}</div><div class="bb"><div class="nm" style="color:${PEOPLE[n]}">${n}</div><div class="tx">${txt}</div></div>`;
+  $('bubbles').appendChild(d);return d;
+});
+const hookWords=[...document.querySelectorAll('#hook .w')];
+const HOOK_T=[-.6,-.5,-.4, .22,.30,.38, .58,.66, .84,.94];
+
+// ---- scene 3 avatars
+const TEAM=['Rahul','Priya','Karan','You','Neha','Arjun','Sneha','Vikram'];
+const s3av=TEAM.map((n,i)=>{
+  const d=document.createElement('div');d.className='tav a';d.style.background=PEOPLE[n];
+  d.textContent=n==='You'?'You':n[0]; if(n==='You'){d.style.fontSize='34px';}
+  d.style.left=(540-56+(i-3.5)*96)+'px';d.style.top='1130px';$('s3avs').appendChild(d);return d;
+});
+const r3=rng(7); const s3from=TEAM.map(()=>({x:(r3()-.5)*1600,y:(r3()>.5?1:-1)*(700+r3()*400),r:(r3()-.5)*120}));
+
+// ---- scene 5 items
+const ITEMS=[
+  ['Rahul','Chicken Biryani',249,0,'🍛'],
+  ['Priya','Rajma Rice Bowl',179,1,'🍲'],
+  ['Karan','Chicken Seekh Roll',169,0,'🌯'],
+  ['Neha','Dal Tadka Bowl',159,1,'🥣'],
+  ['Arjun','Cold Coffee',149,1,'🧋'],
+  ['Sneha','Vada Pav',69,1,'🍔'],
+  ['Vikram','Masala Fries',129,1,'🍟'],
+  ['You','Paneer Tikka Bowl',199,1,'🥗'],
+];
+const ITEM_T=ITEMS.map((_,i)=>7.5+i*0.234375);
+const ROWH=106;
+const rowEls=ITEMS.map(([n,name,p,veg,em])=>{
+  const d=document.createElement('div');d.className='row a';
+  d.innerHTML=`<div class="rt emoji">${em}</div><div><div class="rn">${veg?'<span class="vm"></span>':'<span class="nv"></span>'}${name}</div>
+  <div class="rb"><span class="mini" style="background:${PEOPLE[n]}">${n==='You'?'Y':n[0]}</span>Added by ${n==='You'?'you':n}</div></div><div class="rp">₹${p}</div>`;
+  $('list').appendChild(d);return d;
+});
+const cavEls=ITEMS.map(([n],i)=>{
+  const d=document.createElement('div');d.className='cav';d.style.background=PEOPLE[n];d.style.left=(i*38)+'px';d.style.zIndex=20-i;
+  d.textContent=n==='You'?'Y':n[0];$('cavs').appendChild(d);return d;
+});
+const chipEls=ITEMS.map(([n,name,p,veg,em],i)=>{
+  const d=document.createElement('div');d.className='addChip a';
+  d.innerHTML=`<div class="av" style="background:${PEOPLE[n]}">${n==='You'?'Y':n[0]}</div><div class="tx"><span>+</span> ${name}</div>`;
+  $('addChips').appendChild(d);return d;
+});
+// chip start positions (outside phone): alternate left / right
+const CHIP_POS=ITEMS.map((_,i)=>{
+  const left=i%2===0; const y=720+ (i%4)*190 + (i>=4?95:0);
+  return {left,y};
+});
+
+// ---- sparkles (particles)
+const r4=rng(42);
+const SPK=Array.from({length:22},()=>({x:60+r4()*960,y:300+r4()*1450,s:.5+r4()*1.2,ph:r4()*6.28,sp:.6+r4()*1.2}));
+const spkEls=SPK.map(()=>{const d=document.createElement('div');d.className='spk a';d.innerHTML='%%SPARK:white:40%%';$('sparks').appendChild(d);return d;});
+
+// ---- route geometry
+const ROUTE=[[92,360],[132,352],[148,296],[336,276],[345,122],[452,116]];
+let RLEN=0;const SEG=[];for(let i=1;i<ROUTE.length;i++){const dx=ROUTE[i][0]-ROUTE[i-1][0],dy=ROUTE[i][1]-ROUTE[i-1][1];const l=Math.hypot(dx,dy);SEG.push(l);RLEN+=l;}
+function routeAt(k){let d=k*RLEN;for(let i=0;i<SEG.length;i++){if(d<=SEG[i]){const f=d/SEG[i];return [lerp(ROUTE[i][0],ROUTE[i+1][0],f),lerp(ROUTE[i][1],ROUTE[i+1][1],f)]}d-=SEG[i];}return ROUTE[ROUTE.length-1];}
+$('routeDone').style.strokeDasharray=RLEN+' '+RLEN;
+
+// camera impacts
+const IMPACTS=[[1.875,16],[2.344,16],[2.8125,18],[3.75,10],[10.55,12],[11.25,14],[11.72,12],[12.19,12],[12.66,16]];
+
+// ============ render ============
+function render(t){
+  // ---- camera shake
+  let cx=0,cy=0;
+  for(const [ti,a] of IMPACTS){ if(t>=ti&&t<ti+0.5){const k=t-ti;const env=a*Math.exp(-k*14);cx+=env*Math.sin(k*70);cy+=env*Math.cos(k*55);} }
+  $('cam').style.transform=`translate(${cx}px,${cy}px)`;
+
+  // ---- backgrounds
+  const onInk=t<3.8, onGreenA=t>=3.74&&t<5.7, onMint=t>=5.3&&t<11.3, onGreenB=t>=11.2;
+  vis($('bgInk'),onInk);
+  $('bgGreen').style.opacity=(t>=3.74&&t<5.62)||t>=11.24?1:0;
+  // mint circle reveal from bottom center
+  {
+    const k=E.ic(P(t,5.30,0.34));
+    const m=$('bgMint'); m.style.opacity=(t>=5.30&&t<11.26)?1:0;
+    m.style.clipPath=k<1?`circle(${k*2300}px at 540px 1700px)`:'none';
+  }
+
+  // ---- scene 1
+  const s1on=t<3.8; vis($('s1'),s1on);
+  if(s1on){
+    let shown=0;
+    bubEls.forEach((el,i)=>{
+      const k=P(t,BUB_T[i],0.26); if(t>=BUB_T[i])shown++;
+      const dim=P(t,1.80,0.4);
+      const base=BUBS[i][4];
+      T(el,{s:lerp(.35,1,E.ob(k)),y:lerp(40,0,E.oc(k)),r:base,o:(t<BUB_T[i]?0:clamp(k*3))*lerp(1,.22,dim),blur:dim*5});
+    });
+    $('unread').textContent=Math.max(1,shown*4-1);
+    $('chatHdr').style.left='540px';T($('chatHdr'),{x:-$('chatHdr').offsetWidth/2,y:0,o:1-P(t,1.8,0.3)});
+    $('scrim').style.opacity=clamp(P(t,0.0,0.5)*0.9+P(t,1.8,.3)*.1);
+    // hook words
+    hookWords.forEach((w,i)=>{const k=P(t,HOOK_T[i],0.22);const out=E.ic(P(t,1.74+i*0.012,0.2));
+      T(w,{y:lerp(70,0,E.oc(k))-out*140,o:clamp(k*1.6)*(1-out)});});
+    const hs=lerp(1.035,1,E.oc(P(t,0,0.9)));
+    T($('hook'),{s:hs});
+    $('hook').style.transformOrigin='0% 50%';
+  }
+
+  // ---- scene 2
+  const s2on=t>=1.8&&t<3.8; vis($('s2'),s2on);
+  if(s2on){
+    [['c1',1.875],['c2',2.344],['c3',2.8125]].forEach(([id,t0],i)=>{
+      const k=P(t,t0,0.14); const pre=P(t,3.25,0.22);
+      T($(id),{s:lerp(1.35,1,E.oc(k))*lerp(1,.94,E.io(pre)),r:lerp(i%2?3:-3,0,E.oc(k)),o:t<t0?0:clamp(k*2.5),y:lerp(-30,0,E.oc(k))});
+    });
+  }
+
+  // ---- sparkle wipe 1 (3.42 -> 3.78)
+  {
+    const k=P(t,3.40,0.36); const el=$('wipe1');
+    if(t>=3.40&&t<3.80){const s=E.iex(k)*60+0.02;T(el,{x:540,y:980,s:s,r:lerp(0,50,k),o:1});}else T(el,{o:0});
+  }
+
+  // ---- scene 3 reveal
+  const s3on=t>=3.74&&t<5.62; vis($('s3'),s3on);
+  if(s3on){
+    const out=E.ic(P(t,5.28,0.3));
+    const lk=P(t,3.76,0.34);
+    T($('s3logo'),{s:lerp(.5,1,E.ob(lk))*(1-out*.2),o:clamp(lk*3)*(1-out),y:-out*160});
+    const sp=document.querySelector('#s3logo .spark');
+    if(sp) sp.style.transform=`rotate(${lerp(-200,0,E.oc(P(t,3.76,0.5)))}deg) scale(${lerp(0,1,E.ob(P(t,3.76,0.4)))})`;
+    document.querySelectorAll('#s3title .ch').forEach((c,i)=>{const k=P(t,3.92+i*0.03,0.3);T(c,{y:lerp(120,0,E.oc(k))-out*160,o:clamp(k*2)*(1-out),r:lerp(8,0,E.oc(k))});});
+    const nk=P(t,4.36,0.25);T($('s3new'),{s:E.ob(nk)*(1-out),r:lerp(-30,-6,E.ob(nk)),o:clamp(nk*3)*(1-out),y:-out*160});
+    const sk=P(t,4.46,0.3);T($('s3sub'),{y:lerp(40,0,E.oc(sk))-out*160,o:clamp(sk*2)*(1-out)});
+    s3av.forEach((el,i)=>{const k=P(t,4.60+i*0.045,0.42);const f=s3from[i];
+      T(el,{x:lerp(f.x,0,E.oc(k)),y:lerp(f.y,0,E.oc(k))-out*160,r:lerp(f.r,0,E.oc(k)),s:lerp(.6,1,E.ob2(k))*(1-out*.3),o:clamp(k*3)*(1-out)});});
+  }
+
+  // ---- scene 4-6 phone
+  const s4on=t>=5.30&&t<11.3; vis($('s4'),s4on);
+  if(s4on){
+    // phone entrance / exit
+    const pk=P(t,5.40,0.55); const pout=E.ic(P(t,10.98,0.3));
+    T($('phone'),{y:lerp(1300,0,E.ob2(pk))+pout*80,r:lerp(8,0,E.oc(pk)),s:1-pout*.08,o:1});
+    // captions
+    const caps=[['cap1',5.62,7.22],['cap2',7.36,9.20],['cap3',9.38,11.0]];
+    caps.forEach(([id,a,b])=>{const ki=P(t,a,0.3),ko=P(t,b,0.14);
+      T($(id),{y:lerp(50,0,E.oc(ki))-E.ic(ko)*60,o:(t<a?0:clamp(ki*2.2))*(1-ko)});});
+    // screens slide
+    const k1=E.io(P(t,7.28,0.22)), k2=E.io(P(t,9.34,0.22));
+    T($('scrHome'),{x:-528*k1}); T($('scrCart'),{x:528*(1-k1)-528*k2}); T($('scrTrack'),{x:528*(1-k2)});
+    vis($('scrHome'),t<7.56);vis($('scrCart'),t>7.26&&t<9.6);vis($('scrTrack'),t>9.32);
+
+    // --- step 1: tap + sheet + link
+    const tapIn=P(t,5.84,0.14), tapPress=P(t,6.00,0.08), tapOut=P(t,6.12,0.14);
+    // button center in phone coords: approx
+    const bx=16+264, by=16+ 560;
+    T($('tap'),{x:bx+lerp(120,0,E.oc(tapIn)),y:by+lerp(160,0,E.oc(tapIn)),s:1-tapPress*.18+tapOut*.1,o:clamp(tapIn*2)*(1-tapOut)});
+    const rk=P(t,6.0,0.35); T($('ripple'),{x:264,y:560,s:1+E.oc(rk)*9,o:(t>=6.0?1:0)*(1-rk)*0.9});
+    $('createBtn').style.transform=`scale(${1-0.05*Math.sin(Math.PI*P(t,6.0,0.14))})`;
+    const shk=P(t,6.12,0.32); T($('sheet'),{y:1088-lerp(0,600,E.ob2(shk))});
+    $('dim').style.opacity=E.oc(shk);
+    // copy highlight
+    const cpk=P(t,6.62,0.12); $('linkTxt').parentElement.style.background=cpk>0&&t<7.2?'#DDF3E4':'#F6F8F6';
+    // fly link: from link box (phone coords 260+16, 1088-600+ ~ 250) -> chat bubble
+    const fk=P(t,6.66,0.34);
+    const fx0=260+40, fy0=500+16+ (1088-600)+196; const fx1=70, fy1=1300;
+    T($('flyLink'),{x:lerp(fx0,fx1,E.io(fk)),y:lerp(fy0,fy1,E.io(fk))-Math.sin(Math.PI*fk)*160,s:lerp(1,1.1,Math.sin(Math.PI*fk)),r:lerp(0,-4,fk),o:(t>=6.66&&t<7.02)?1:0});
+    const ck=P(t,6.96,0.28), cko=P(t,7.22,0.1);
+    T($('chatOut'),{s:lerp(.4,1,E.ob(ck))*(1-cko*.1),o:clamp(ck*3)*(1-cko),y:-cko*30});
+
+    // --- step 2: items
+    let n=0,tot=0;
+    ITEMS.forEach((it,i)=>{ if(t>=ITEM_T[i]){n++;tot+=it[2];} });
+    rowEls.forEach((el,i)=>{
+      const ti=ITEM_T[i]; if(t<ti){T(el,{o:0});return;}
+      let y=0; for(let j=i+1;j<ITEMS.length;j++){ y+=ROWH*E.oc(P(t,ITEM_T[j],0.18)); }
+      const k=P(t,ti,0.2);
+      T(el,{y:y+lerp(-30,0,E.oc(k)),s:lerp(.9,1,E.ob(k)),o:clamp(k*3)});
+      const fl=1-P(t,ti+0.08,0.4); el.style.background=`rgba(221,243,228,${0.9*fl})`;
+    });
+    cavEls.forEach((el,i)=>{const k=P(t,ITEM_T[i],0.2);el.style.opacity=t<ITEM_T[i]?0:1;el.style.transform=`scale(${lerp(.3,1,E.ob(k))})`;});
+    $('joinN').textContent=n;
+    $('itN').textContent=n+(n===1?' item':' items');
+    $('ppN').textContent=n+(n===1?' person':' people')+' · 1 order';
+    $('totN').textContent='₹'+tot.toLocaleString('en-IN');
+    const lock=24*60+59-Math.floor(Math.max(0,t-7.3)*14); $('lockT').textContent=`${Math.floor(lock/60)}:${String(lock%60).padStart(2,'0')}`;
+    chipEls.forEach((el,i)=>{
+      const ti=ITEM_T[i]; const a=ti-0.16; const k=P(t,a,0.16), f=P(t,ti,0.14);
+      const pos=CHIP_POS[i]; const w=el.offsetWidth||360;
+      const xIn=pos.left?40:1080-40-w; const xTarget=540-w/2;
+      const x=lerp(xIn+(pos.left?-80:80),xIn,E.oc(k)); const xx=lerp(x,xTarget,E.ic(f));
+      const y=lerp(pos.y,875,E.ic(f));
+      T(el,{x:xx,y:y,s:lerp(.6,1,E.ob(k))*lerp(1,.5,f),o:(t<a||t>ti+0.14)?0:clamp(k*3)*(1-f*.8)});
+    });
+
+    // --- step 3: tracking + bill
+    const rkk=E.io(P(t,9.46,1.1)); const [rx,ry]=routeAt(rkk);
+    T($('rider'),{x:rx,y:ry,s:1+0.06*Math.sin(t*14)});
+    $('routeDone').style.strokeDashoffset=RLEN*(1-rkk);
+    $('live').style.opacity=0.4+0.6*Math.abs(Math.sin(t*5));
+    ['b1','b2','b3','b4','b5'].forEach((id,i)=>{const k=P(t,9.62+i*0.09,0.22);T($(id),{x:lerp(40,0,E.oc(k)),o:clamp(k*2)});});
+    const stk=P(t,10.50,0.12);
+    T($('stamp'),{y:925,s:lerp(2.4,1,E.ic(stk)),r:-9,o:t<10.5?0:clamp(stk*2)});
+  }
+
+  // ---- sparkle wipe 2 (10.98 -> 11.26)
+  {
+    const k=P(t,10.96,0.30); const el=$('wipe2');
+    if(t>=10.96&&t<11.28){const s=E.iex(k)*60+0.02;T(el,{x:540,y:1250,s:s,r:lerp(0,-50,k),o:1});}else T(el,{o:0});
+  }
+
+  // ---- scene 7 slam
+  const s7on=t>=11.2&&t<13.4; vis($('s7'),s7on);
+  if(s7on){
+    const out=P(t,13.02,0.2);
+    [['sl1',11.25],['sl2',11.72],['sl3',12.19]].forEach(([id,t0],i)=>{
+      const k=P(t,t0,0.12);
+      T($(id),{x:lerp(-60,0,E.oc(k))-E.ic(out)*0,y:-E.ic(out)*220,s:lerp(1.45,1,E.oc(k)),o:(t<t0?0:clamp(k*3))*(1-out)});
+    });
+    const qk=P(t,12.40,0.2); T($('sl3b'),{y:lerp(20,0,E.oc(qk))-E.ic(out)*220,o:clamp(qk*2)*(1-out)});
+    const k4=P(t,12.66,0.14);
+    T($('slam4'),{s:lerp(1.6,1,E.oc(k4)),r:lerp(-6,-2,E.oc(k4)),y:-E.ic(out)*220,o:(t<12.66?0:clamp(k4*3))*(1-out)});
+  }
+
+  // ---- scene 8 end card
+  const s8on=t>=13.1; vis($('s8'),s8on);
+  if(s8on){
+    const lk=P(t,13.14,0.4);
+    T($('endLogo'),{s:lerp(.55,1,E.ob(lk)),o:clamp(lk*3)});
+    const sp=document.querySelector('#endLogo .spark');
+    if(sp) sp.style.transform=`rotate(${lerp(-270,0,E.oc(P(t,13.14,0.7)))}deg) scale(${lerp(0,1,E.ob(P(t,13.14,0.5)))+0.12*Math.max(0,Math.sin((t-14.2)*3))*(t>14.2?1:0)})`;
+    const tk=P(t,13.34,0.32); T($('endTitle'),{y:lerp(60,0,E.oc(tk)),o:clamp(tk*2)});
+    const gk=P(t,13.50,0.32); T($('endTag'),{y:lerp(50,0,E.oc(gk)),o:clamp(gk*2)});
+    const ck=P(t,13.72,0.38); const press=Math.sin(Math.PI*P(t,14.42,0.16));
+    T($('cta'),{s:lerp(.6,1,E.ob(ck))*(1-press*.05),o:clamp(ck*3)});
+    const shk=P(t,14.05,0.5); $('shine').style.left=lerp(-160,760,E.io(shk))+'px';
+    const sk=P(t,13.90,0.3); T($('endSub'),{y:lerp(30,0,E.oc(sk)),o:clamp(sk*2)});
+    T($('concept'),{o:0.9*P(t,14.0,0.4)});
+  }
+
+  // ---- sparkle particles on green scenes
+  const greenA=t>=3.8&&t<5.4, greenB=t>=11.3;
+  spkEls.forEach((el,i)=>{
+    const p=SPK[i]; const tw=0.5+0.5*Math.sin(t*p.sp*4+p.ph);
+    let o=0; if(greenA)o=P(t,3.8,.3)*(1-P(t,5.2,.2)); if(greenB)o=P(t,11.3,.3);
+    // keep sparkles out of the text column on the end card
+    T(el,{x:p.x,y:p.y-((t*30*p.sp)%80),s:p.s*(0.6+0.5*tw),r:t*40*p.sp,o:o*tw*0.55});
+  });
+
+  // flash on the drops
+  const fl=Math.max(0,1-P(t,3.76,0.18))*(t>=3.76?0.55:0) + Math.max(0,1-P(t,11.26,0.16))*(t>=11.26?0.35:0);
+  $('flash').style.opacity=fl;
+}
+window.render=render;
+window.ready=document.fonts.ready.then(()=>{render(0);return true;});
+// preview mode: ?play
+if(location.search.includes('play')){const st=performance.now();(function loop(){const t=((performance.now()-st)/1000)%15;render(t);requestAnimationFrame(loop)})();}
+else if(location.search.includes('t=')){document.fonts.ready.then(()=>render(parseFloat(location.search.split('t=')[1])));}
+</script>
+</body>
+</html>
