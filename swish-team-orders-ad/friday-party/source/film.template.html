@@ -1,0 +1,405 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Swish Team Orders · Friday Party · 45s</title>
+<style>
+@font-face{font-family:Outfit;src:url(fonts/outfit-latin-500-normal.woff2);font-weight:500}
+@font-face{font-family:Outfit;src:url(fonts/outfit-latin-600-normal.woff2);font-weight:600}
+@font-face{font-family:Outfit;src:url(fonts/outfit-latin-700-normal.woff2);font-weight:700}
+@font-face{font-family:Outfit;src:url(fonts/outfit-latin-800-normal.woff2);font-weight:800}
+@font-face{font-family:Plex;src:url(fonts/ibm-plex-mono-latin-600-normal.woff2);font-weight:600}
+:root{--g:#22B24C;--gd:#17803A;--forest:#0B2E17;--mint:#F0FAF3;--ink:#101512;--y:#FFD84D}
+*{box-sizing:border-box}
+html,body{margin:0;background:#000}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;background:#EEF3F0;font-family:Outfit,'Noto Color Emoji',sans-serif;color:var(--ink)}
+.fill{position:absolute;inset:0}
+.a{position:absolute;left:0;top:0;will-change:transform,opacity}
+svg.world{position:absolute;left:0;top:0;width:1080px;height:1920px}
+.emoji{font-family:'Noto Color Emoji'}
+/* captions */
+#cap{left:60px;width:960px;top:1500px;display:flex;justify-content:center}
+#cap .box{background:rgba(12,16,14,.78);color:#fff;border-radius:22px;padding:16px 26px 18px;font-weight:600;font-size:40px;line-height:1.2;text-align:center;max-width:960px}
+#cap .who{display:block;font-family:Plex;font-weight:600;font-size:22px;letter-spacing:2px;text-transform:uppercase;margin-bottom:6px}
+/* time chip + scene labels */
+.chipT{left:60px;top:220px;background:rgba(255,255,255,.92);border-radius:999px;padding:10px 22px;font-family:Plex;font-weight:600;font-size:24px;letter-spacing:2px;color:var(--forest);box-shadow:0 8px 20px rgba(0,0,0,.08);white-space:nowrap}
+/* HUD */
+#hud{left:60px;top:220px;width:960px;background:#fff;border-radius:26px;box-shadow:0 16px 40px rgba(11,46,23,.15);padding:18px 24px;display:flex;align-items:center;gap:18px}
+#hud .l{font-weight:800;font-size:30px}
+#hud .s{font-size:22px;color:#55605A;font-weight:600}
+#hud .tot{margin-left:auto;font-weight:800;font-size:36px;color:var(--gd)}
+#hud .dot{width:54px;height:54px;border-radius:14px;background:var(--g);display:flex;align-items:center;justify-content:center}
+/* phone scenes */
+#phoneScene{background:radial-gradient(90% 60% at 50% 45%,#F4FBF6,#DDEFE3)}
+#ph{left:210px;top:260px;width:660px;height:1320px;border-radius:90px;background:#0B0E0C;padding:18px;box-shadow:0 60px 120px rgba(11,46,23,.35)}
+#scr{position:relative;width:624px;height:1284px;border-radius:74px;overflow:hidden;background:#fff}
+.sc{position:absolute;inset:0;background:#fff}
+.sb{height:96px;display:flex;justify-content:space-between;padding:36px 56px 0;font-weight:700;font-size:26px}
+.hdr{background:linear-gradient(180deg,#2BBE57,#22B24C);color:#fff;padding-bottom:26px;border-radius:0 0 36px 36px}
+.hdr .sb{color:#fff}
+.r1{padding:0 34px;font-weight:800;font-size:44px}
+.r2{padding:2px 34px;font-size:24px;opacity:.9;font-weight:500}
+.card{margin:26px 26px 0;border-radius:32px;padding:26px;background:linear-gradient(160deg,#F0FAF3,#DDF3E4);border:3px solid #9EDDB2}
+.btn{height:92px;border-radius:26px;background:var(--g);color:#fff;font-weight:800;font-size:34px;display:flex;align-items:center;justify-content:center;margin-top:20px}
+.new{background:var(--y);color:var(--forest);font-size:20px;padding:4px 12px;border-radius:9px;font-weight:800;margin-left:10px}
+.chip{display:inline-block;background:var(--mint);border:2px solid #BFE8CB;color:var(--forest);font-weight:700;font-size:24px;padding:8px 16px;border-radius:14px;margin:6px 6px 0 0}
+.wa{background:#EFE7DE}
+.wah{background:#075E54;color:#fff;padding:44px 34px 22px;display:flex;align-items:center;gap:18px;font-weight:700;font-size:32px}
+.wah .av{width:66px;height:66px;border-radius:50%;background:#DCF8C6;display:flex;align-items:center;justify-content:center;font-size:36px}
+.msg{margin:18px 26px 0;max-width:470px;background:#fff;border-radius:22px;padding:16px 20px;font-size:28px;box-shadow:0 2px 3px rgba(0,0,0,.08)}
+.msg.me{margin-left:auto;background:#DCF8C6}
+.msg .nm{font-weight:800;font-size:22px;margin-bottom:4px}
+.lk{margin-top:10px;border-radius:14px;background:#fff;border:2px solid #9EDDB2;padding:12px;display:flex;gap:12px;align-items:center}
+.lk .ic{width:64px;height:64px;border-radius:14px;background:var(--g);flex:none}
+.row{display:flex;justify-content:space-between;font-size:28px;padding:10px 0;color:#33403A}
+.opt{margin-top:14px;border:3px solid #E1E8E3;border-radius:20px;padding:18px 20px;display:flex;align-items:center;gap:16px;font-weight:700;font-size:28px}
+.opt.on{border-color:var(--g);background:var(--mint)}
+.opt .rd{width:30px;height:30px;border-radius:50%;border:4px solid #B8C4BD;flex:none}
+.opt.on .rd{border-color:var(--g);background:radial-gradient(circle,var(--g) 45%,transparent 50%)}
+#tap{left:0;top:0;width:110px;height:110px;margin:-55px 0 0 -55px;border-radius:50%;background:rgba(255,255,255,.5);border:5px solid #fff;box-shadow:0 6px 18px rgba(0,0,0,.25);opacity:0}
+/* end card */
+#endS{background:radial-gradient(90% 60% at 50% 38%,#3CCB68 0%,#22B24C 45%,#17983F 100%)}
+#endS svg.logo{width:560px;height:auto;overflow:visible}
+</style>
+</head>
+<body>
+<div id="stage">
+  <!-- office / lobby / kitchen are drawn into this SVG each frame -->
+  <svg class="world" id="W" viewBox="0 0 1080 1920"></svg>
+  <div class="a chipT" id="clock">12:44 PM · FRIDAY</div>
+  <div class="a" id="hud"><div class="dot"><span class="emoji" style="font-size:30px">👥</span></div><div><div class="l">Team order · Q3 party</div><div class="s" id="hudS">0/9 joined</div></div><div class="tot" id="hudT">₹0</div></div>
+
+  <!-- phone close-ups -->
+  <div id="phoneScene" class="fill">
+    <div class="a" id="ph"><div id="scr">
+      <div class="sc" id="p1">
+        <div class="hdr"><div class="sb"><span>12:45</span><span>5G ▮▮▮</span></div><div class="r1"><span class="emoji" style="font-size:38px">⚡</span> 10 minutes ▾</div><div class="r2">Office · HSR Layout, Bengaluru</div></div>
+        <div class="card"><div style="font-weight:800;font-size:40px;display:flex;align-items:center">Team Orders<span class="new">NEW</span></div>
+          <div style="font-size:26px;color:#55605A;margin-top:4px">One link. One delivery. One bill.</div>
+          <div class="btn" id="bCreate">Create Team Order →</div></div>
+        <div style="padding:30px 34px 0;font-weight:800;font-size:32px">Popular near you</div>
+        <div style="display:flex;gap:18px;padding:16px 26px"><div style="flex:1;border:2px solid #E1E8E3;border-radius:26px;padding:16px"><div class="emoji" style="height:130px;border-radius:18px;background:#F0FAF3;display:flex;align-items:center;justify-content:center;font-size:84px">🍛</div><div style="font-weight:700;font-size:26px;margin-top:10px">Chicken Biryani</div><div style="font-weight:800;font-size:28px">₹249</div></div>
+        <div style="flex:1;border:2px solid #E1E8E3;border-radius:26px;padding:16px"><div class="emoji" style="height:130px;border-radius:18px;background:#F0FAF3;display:flex;align-items:center;justify-content:center;font-size:84px">🥗</div><div style="font-weight:700;font-size:26px;margin-top:10px">Paneer Tikka Bowl</div><div style="font-weight:800;font-size:28px">₹199</div></div></div>
+      </div>
+      <div class="sc" id="p2">
+        <div class="sb"><span>12:45</span><span>5G ▮▮▮</span></div>
+        <div style="padding:10px 34px 0;font-weight:800;font-size:44px">Q3 party 🎉</div>
+        <div style="padding:6px 34px;font-size:24px;color:#55605A">Team order · hosted by you</div>
+        <div style="padding:14px 28px"><span class="chip">👥 Up to 10 people</span><span class="chip">⏱ Open 30 min</span><span class="chip">🟢 Veg packed apart</span></div>
+        <div style="margin:18px 26px;border:3px dashed #9EDDB2;border-radius:22px;padding:22px;font-family:Plex;font-weight:600;font-size:28px;color:var(--forest)">swish.in/t/q3-party</div>
+        <div style="padding:10px 34px;font-weight:800;font-size:30px">Share link</div>
+        <div style="display:flex;justify-content:space-around;padding:16px 20px">
+          <div style="text-align:center;font-weight:700;font-size:22px"><div id="waBtn" style="width:110px;height:110px;border-radius:50%;background:#25D366;color:#fff;display:flex;align-items:center;justify-content:center;font-size:52px;font-weight:900;margin:0 auto 10px">W</div>WhatsApp</div>
+          <div style="text-align:center;font-weight:700;font-size:22px"><div style="width:110px;height:110px;border-radius:50%;background:#4A154B;color:#fff;display:flex;align-items:center;justify-content:center;font-size:52px;font-weight:900;margin:0 auto 10px">#</div>Slack</div>
+          <div style="text-align:center;font-weight:700;font-size:22px"><div style="width:110px;height:110px;border-radius:50%;background:#101512;color:#fff;display:flex;align-items:center;justify-content:center;font-size:44px;margin:0 auto 10px">⧉</div>Copy</div>
+        </div>
+      </div>
+      <div class="sc wa" id="p3">
+        <div class="wah"><div class="av emoji">🎉</div><div>Q3 Party Squad<div style="font-weight:500;font-size:22px;opacity:.85">Arjun, Priya, Neha, Rahul +5</div></div></div>
+        <div class="msg"><div class="nm" style="color:#E36B5C">Priya</div>so what are we eating 👀</div>
+        <div class="msg me" id="m1">Lunch on me 🎉 add yours here:<div class="lk"><div class="ic"></div><div><div style="font-weight:800;font-size:26px">swish Team Order</div><div style="font-family:Plex;font-size:22px;color:#17803A">swish.in/t/q3-party</div></div></div><div style="text-align:right;font-size:20px;color:#34B7F1;margin-top:6px" id="m1s">✓✓</div></div>
+        <div class="msg" id="m2"><div class="nm" style="color:#2E9E6A">Rahul</div>biryani added 🔥</div>
+        <div class="msg" id="m3"><div class="nm" style="color:#8E6CCF">Kavya</div>omg one link?? love</div>
+      </div>
+      <div class="sc" id="p4">
+        <div class="sb"><span>12:48</span><span>5G ▮▮▮</span></div>
+        <div style="padding:10px 34px 0;font-weight:800;font-size:44px">Team cart</div>
+        <div style="padding:4px 34px;font-size:24px;color:#55605A">9 people · 9 items · one kitchen · one rider</div>
+        <div style="margin:18px 26px;border:2px solid #E1E8E3;border-radius:26px;padding:18px 24px">
+          <div class="row"><span>9 items</span><span>₹1,641</span></div>
+          <div class="row" style="color:#17803A;font-weight:700"><span>Team discount</span><span>−₹126</span></div>
+          <div class="row"><span>GST (5%)</span><span>₹76</span></div>
+          <div class="row" style="border-top:2px dashed #E1E8E3;margin-top:6px;padding-top:14px;font-weight:800;font-size:34px;color:#101512"><span>Total</span><span>₹1,591</span></div>
+        </div>
+        <div style="padding:6px 34px;font-weight:800;font-size:28px">Who pays?</div>
+        <div style="padding:0 26px"><div class="opt on" id="o1"><span class="rd"></span>I'll pay for everyone</div><div class="opt" id="o2"><span class="rd"></span>Split via UPI · ₹177 each</div></div>
+        <div class="btn" id="bPay" style="margin:26px">Place team order · ₹1,591</div>
+      </div>
+    </div></div>
+    <div class="a" id="tap"></div>
+  </div>
+
+  <!-- end card -->
+  <div id="endS" class="fill">
+    <div class="a" id="eLogo" style="left:260px;top:560px">%%LOGO%%</div>
+    <div class="a" id="eT" style="left:0;width:1080px;top:800px;text-align:center;color:#fff;font-weight:800;font-size:124px;letter-spacing:-3px">Team Orders</div>
+    <div class="a" id="eS" style="left:0;width:1080px;top:960px;text-align:center;color:#fff;font-weight:700;font-size:54px;line-height:1.25">One link. One delivery.<br><span style="color:#0B2E17">One bill.</span></div>
+    <div class="a" id="eC" style="left:180px;top:1160px;width:720px;height:132px;border-radius:66px;background:#fff;color:#17803A;font-weight:800;font-size:50px;display:flex;align-items:center;justify-content:center;box-shadow:0 24px 50px rgba(11,46,23,.3)">Start a Team Order →</div>
+    <div class="a" id="eF" style="left:0;width:1080px;top:1330px;text-align:center;color:rgba(255,255,255,.95);font-weight:600;font-size:36px">For teams of 2–10 · lunch in 10 minutes</div>
+    <div class="a" id="eX" style="left:0;width:1080px;top:1740px;text-align:center;color:rgba(255,255,255,.65);font-family:Plex;font-size:22px;letter-spacing:2px">SPEC AD CONCEPT · TEAM ORDERS PROPOSAL</div>
+  </div>
+
+  <div class="a" id="cap"><div class="box" id="capBox"></div></div>
+  <div class="fill" id="flash" style="background:#fff;opacity:0;pointer-events:none"></div>
+</div>
+<script>
+const DLG=%%DIALOGUE%%;
+const $=id=>document.getElementById(id);
+const clamp=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const P=(t,t0,d)=>clamp((t-t0)/d);
+const lerp=(a,b,k)=>a+(b-a)*k;
+const E={oc:x=>1-Math.pow(1-x,3),io:x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2,ob:x=>{const c1=1.6,c3=c1+1;return 1+c3*Math.pow(x-1,3)+c1*Math.pow(x-1,2)}};
+function T(el,o){const {x=0,y=0,s=1,r=0,o:op=1}=o;el.style.transform=`translate(${x}px,${y}px) rotate(${r}deg) scale(${s})`;el.style.opacity=op;}
+const vis=(el,on)=>{el.style.display=on?'':'none'};
+const hash=n=>{n=Math.sin(n*127.1)*43758.5453;return n-Math.floor(n);};
+const mouth=(who,t)=>{const m=DLG.mouth[who];if(!m)return 0;const f=t*DLG.fps,i=Math.floor(f);return lerp(m[i]||0,m[i+1]||0,f-i);};
+
+// ================= cast =================
+const C={
+  Arjun: {skin:'#C68863',hair:'side', hc:'#1d1411',top:'#1F3A5F',beard:1,name:'#1F3A5F'},
+  Priya: {f:1,skin:'#B97A56',hair:'long', hc:'#24160f',top:'#E36B5C',ear:1},
+  Neha:  {f:1,skin:'#D9A07B',hair:'bun',  hc:'#3a2418',top:'#F2C14E',glasses:1},
+  Rahul: {skin:'#A86B48',hair:'short',hc:'#15100d',top:'#2E9E6A'},
+  Kavya: {f:1,skin:'#C98D66',hair:'pony', hc:'#20140f',top:'#8E6CCF',ear:1},
+  Karan: {skin:'#B57752',hair:'curly',hc:'#140f0c',top:'#3A3F47',beard:1},
+  Sneha: {f:1,skin:'#E0AE8A',hair:'bob',  hc:'#4a2c1c',top:'#4FA3D9',ear:1},
+  Vikram:{skin:'#9C6242',hair:'short',hc:'#0f0b09',top:'#D98A3D',glasses:1},
+  Aditi: {f:1,skin:'#D19870',hair:'wavy', hc:'#2f1d14',top:'#EFE6D8',ear:1,blazer:1},
+  Rider: {skin:'#A56A45',hair:'helmet',hc:'#22B24C',top:'#22B24C',rider:1},
+};
+const NAMEC={Arjun:'#9EC1FF',Priya:'#FF9C8F',Neha:'#FFD36B',Rahul:'#7FE0AE',Kavya:'#C9B2FF',Karan:'#C9D1DB',Sneha:'#9BD6FF',Vikram:'#FFBE82',Aditi:'#FFE6C4',Rider:'#7FE0AE',VO:'#7FE0AE'};
+const FOOD={Arjun:['🌯','Seekh Roll',169],Priya:['🍲','Rajma Bowl',179],Neha:['🥣','Dal Tadka Bowl',159],Rahul:['🍛','Chicken Biryani',249],Kavya:['🥗','Paneer Tikka Bowl',199],
+  Karan:['🧋','Cold Coffee',149],Sneha:['🍟','Masala Fries',129],Vikram:['🍛','Chicken Biryani',249],Aditi:['🥣','Dal Tadka Bowl',159]};
+// seats in the office (head centre, scale)
+const SEAT={Neha:[175,770,.8],Aditi:[415,770,.8],Vikram:[665,770,.8],Sneha:[905,770,.8],Priya:[160,1150,1],Rahul:[410,1150,1],Kavya:[670,1150,1],Karan:[920,1150,1]};
+const ARJ=[540,700,.92];
+// who adds what, when (the link lands at 13.95)
+const ADD={Rahul:14.35,Neha:14.9,Kavya:16.2,Aditi:17.1,Priya:17.7,Karan:19.0,Vikram:19.6,Sneha:20.3,Arjun:20.9};
+
+// ================= drawing =================
+function hairBack(c,R){const h=c.hc;switch(c.hair){
+  case 'long': return `<path d="M${-R*1.05} ${-R*.2} Q${-R*1.25} ${R*1.6} ${-R*.7} ${R*2.1} L${R*.7} ${R*2.1} Q${R*1.25} ${R*1.6} ${R*1.05} ${-R*.2}Z" fill="${h}"/>`;
+  case 'wavy': return `<path d="M${-R*1.1} ${-R*.1} C${-R*1.5} ${R*.8} ${-R*.9} ${R*1.2} ${-R*1.2} ${R*1.9} L${R*1.2} ${R*1.9} C${R*.9} ${R*1.2} ${R*1.5} ${R*.8} ${R*1.1} ${-R*.1}Z" fill="${h}"/>`;
+  case 'pony': return `<path d="M${R*.8} ${-R*.3} Q${R*1.7} ${R*.2} ${R*1.2} ${R*1.5} Q${R*1.05} ${R*.6} ${R*.6} ${R*.1}Z" fill="${h}"/>`;
+  case 'bob': return `<path d="M${-R*1.08} ${-R*.2} L${-R*1.1} ${R*.95} Q0 ${R*1.2} ${R*1.1} ${R*.95} L${R*1.08} ${-R*.2}Z" fill="${h}"/>`;
+  default: return '';}}
+function hairFront(c,R){const h=c.hc;switch(c.hair){
+  case 'short': return `<path d="M${-R*.98} ${-R*.1} Q${-R*1.05} ${-R*1.15} 0 ${-R*1.12} Q${R*1.05} ${-R*1.15} ${R*.98} ${-R*.1} Q${R*.8} ${-R*.62} ${R*.1} ${-R*.6} Q${-R*.7} ${-R*.62} ${-R*.98} ${-R*.1}Z" fill="${h}"/>`;
+  case 'side': return `<path d="M${-R*1.0} ${-R*.05} Q${-R*1.1} ${-R*1.2} ${R*.1} ${-R*1.15} Q${R*1.1} ${-R*1.05} ${R*1.0} ${-R*.1} Q${R*.5} ${-R*.75} ${-R*.3} ${-R*.55} Q${-R*.8} ${-R*.45} ${-R*1.0} ${-R*.05}Z" fill="${h}"/>`;
+  case 'curly': return [[-.7,-.75],[-.35,-.98],[.05,-1.05],[.45,-.95],[.78,-.7],[-.9,-.35],[.92,-.35]].map(([x,y])=>`<circle cx="${x*R}" cy="${y*R}" r="${R*.34}" fill="${h}"/>`).join('');
+  case 'bun': return `<circle cx="0" cy="${-R*1.2}" r="${R*.38}" fill="${h}"/><path d="M${-R} ${-R*.05} Q${-R*1.02} ${-R*1.12} 0 ${-R*1.08} Q${R*1.02} ${-R*1.12} ${R} ${-R*.05} Q${R*.6} ${-R*.7} 0 ${-R*.68} Q${-R*.6} ${-R*.7} ${-R} ${-R*.05}Z" fill="${h}"/>`;
+  case 'helmet': return `<path d="M${-R*1.12} ${R*.05} Q${-R*1.2} ${-R*1.3} 0 ${-R*1.28} Q${R*1.2} ${-R*1.3} ${R*1.12} ${R*.05} L${R*.9} ${R*.05} Q${R*.8} ${-R*.55} 0 ${-R*.58} Q${-R*.8} ${-R*.55} ${-R*.9} ${R*.05}Z" fill="#22B24C"/><path d="M${-R*.35} ${-R*1.05} Q0 ${-R*1.25} ${R*.35} ${-R*1.05}" stroke="#fff" stroke-width="${R*.12}" fill="none" stroke-linecap="round"/>`;
+  default: return `<path d="M${-R*1.02} ${R*.1} Q${-R*1.1} ${-R*1.15} 0 ${-R*1.12} Q${R*1.1} ${-R*1.15} ${R*1.02} ${R*.1} Q${R*.9} ${-R*.5} ${R*.2} ${-R*.62} Q${-R*.3} ${-R*.4} ${-R*.75} ${-R*.55} Q${-R*.95} ${-R*.35} ${-R*1.02} ${R*.1}Z" fill="${h}"/>`;}}
+
+// a person: x,y = head centre; s = scale; st = {pose, talk, look, blink, stand, carry, chew, lift}
+function person(name,x,y,s,st){
+  const c=C[name],R=46; const talk=st.talk||0; const bob=talk>0.05?Math.sin(st.t*18)*1.5:0;
+  const eyeY=st.look==='down'?6:0, blink=st.blink?0.12:1;
+  let g=`<g transform="translate(${x},${y+bob}) scale(${s})">`;
+  // body
+  const top=c.top, dark=shade(top,-0.18);
+  if(st.stand){ // legs
+    const wk=st.walk?Math.sin(st.t*9):0;
+    g+=`<path d="M-34 200 L${-30+wk*14} 390 M34 200 L${30-wk*14} 390" stroke="${c.rider?'#1E2622':'#2C3440'}" stroke-width="40" stroke-linecap="round"/>`;
+    g+=`<ellipse cx="${-30+wk*14}" cy="398" rx="26" ry="12" fill="#1a1a1a"/><ellipse cx="${30-wk*14}" cy="398" rx="26" ry="12" fill="#1a1a1a"/>`;
+  }
+  g+=hairBack(c,R);
+  g+=`<rect x="-13" y="30" width="26" height="34" rx="8" fill="${shade(c.skin,-0.12)}"/>`;
+  g+=`<path d="M-80 ${st.stand?215:210} L-76 92 Q-72 60 -40 56 L40 56 Q72 60 76 92 L80 ${st.stand?215:210}Z" fill="${top}"/>`;
+  if(c.blazer) g+=`<path d="M-40 56 L-8 130 L-20 210 L-80 210 L-76 92 Q-72 60 -40 56Z M40 56 L8 130 L20 210 L80 210 L76 92 Q72 60 40 56Z" fill="#8B6F57"/>`;
+  g+=`<path d="M-18 56 L0 78 L18 56" fill="none" stroke="${dark}" stroke-width="5"/>`;
+  if(c.rider) g+=`<text x="0" y="150" text-anchor="middle" font-family="Outfit" font-weight="700" font-size="30" fill="#fff">swish</text>`;
+  // head
+  g+=`<circle cx="-45" cy="6" r="9" fill="${shade(c.skin,-0.06)}"/><circle cx="45" cy="6" r="9" fill="${shade(c.skin,-0.06)}"/>`;
+  if(c.ear) g+=`<circle cx="-46" cy="20" r="4.5" fill="#E8C66A"/><circle cx="46" cy="20" r="4.5" fill="#E8C66A"/>`;
+  g+=`<ellipse cx="0" cy="0" rx="${R*.96}" ry="${R*1.06}" fill="${c.skin}"/>`;
+  if(c.beard) g+=`<path d="M-40 8 Q-38 48 0 54 Q38 48 40 8 Q30 34 0 36 Q-30 34 -40 8Z" fill="${c.hc}" opacity=".55"/>`;
+  g+=`<ellipse cx="-24" cy="16" rx="8" ry="5" fill="#E88B7A" opacity=".25"/><ellipse cx="24" cy="16" rx="8" ry="5" fill="#E88B7A" opacity=".25"/>`;
+  // eyes & brows
+  g+=`<g transform="translate(0,${eyeY})"><ellipse cx="-16" cy="-2" rx="4.6" ry="${5.8*blink}" fill="#1b1411"/><ellipse cx="16" cy="-2" rx="4.6" ry="${5.8*blink}" fill="#1b1411"/></g>`;
+  if(c.f) g+=`<path d="M-22 ${-7+eyeY} L-26 ${-11+eyeY} M22 ${-7+eyeY} L26 ${-11+eyeY} M-18 ${-8+eyeY} L-20 ${-13+eyeY} M18 ${-8+eyeY} L20 ${-13+eyeY}" stroke="#1b1411" stroke-width="2.4" stroke-linecap="round"/>`;
+  const brow=st.happy?-3:0;
+  g+=`<path d="M-24 ${-15+brow} Q-16 ${-20+brow} -8 ${-15+brow} M8 ${-15+brow} Q16 ${-20+brow} 24 ${-15+brow}" stroke="${c.hc==='#22B24C'?'#2a1a14':c.hc}" stroke-width="3.6" fill="none" stroke-linecap="round"/>`;
+  if(c.glasses) g+=`<g fill="none" stroke="#1d1d1d" stroke-width="3"><circle cx="-16" cy="-1" r="12"/><circle cx="16" cy="-1" r="12"/><path d="M-4 -2 L4 -2"/></g>`;
+  g+=`<path d="M0 2 Q-3 12 2 13" stroke="${shade(c.skin,-0.25)}" stroke-width="2.6" fill="none" stroke-linecap="round"/>`;
+  // mouth: open with speech, chew when eating, smile otherwise
+  const chew=st.chew?(0.25+0.25*Math.sin(st.t*10)):0; const open=Math.max(talk,chew);
+  if(open>0.06){const h=3+15*open,w=11+5*open;g+=`<ellipse cx="0" cy="${25+h*.2}" rx="${w}" ry="${h*.6}" fill="#5A1E1E"/><ellipse cx="0" cy="${25+h*.45}" rx="${w*.6}" ry="${h*.22}" fill="#D9676B"/>`;}
+  else g+=`<path d="M-11 23 Q0 ${st.happy?35:31} 11 23" stroke="${c.f?'#B5485A':'#6B2A22'}" stroke-width="3.6" fill="none" stroke-linecap="round"/>`;
+  g+=hairFront(c,R);
+  g+=`</g>`;
+  return g;
+}
+// arms are drawn after desks/laptops so they sit on top
+function arms(name,x,y,s,pose,t){
+  const c=C[name]; let L,Rr; const sh=[-64,78],sh2=[64,78];
+  switch(pose){
+    case 'phone': L=[-18,118];Rr=[22,112];break;
+    case 'up': {const w=Math.sin(t*10)*8;L=[-110+w,-60];Rr=[110-w,-60];break;}
+    case 'eat': {const k=(Math.sin(t*3.2)+1)/2;L=[-70,150];Rr=[lerp(60,18,k),lerp(150,40,k)];break;}
+    case 'point': L=[-70,150];Rr=[120,40];break;
+    case 'carry': L=[-86,190];Rr=[86,190];break;
+    case 'give': L=[-60,150];Rr=[130,110];break;
+    default: L=[-78,150];Rr=[78,150];
+  }
+  const seg=(a,b,flip)=>{const mx=(a[0]+b[0])/2,my=(a[1]+b[1])/2;const dx=b[0]-a[0],dy=b[1]-a[1];const l=Math.hypot(dx,dy)||1;const bend=Math.max(0,70-l*.35)*(flip?-1:1);
+    const ex=mx-dy/l*bend,ey=my+dx/l*bend;return `M${a[0]} ${a[1]} Q${ex} ${ey} ${b[0]} ${b[1]}`;};
+  let g=`<g transform="translate(${x},${y}) scale(${s})" fill="none" stroke-linecap="round">`;
+  g+=`<path d="${seg(sh,L,0)}" stroke="${c.blazer?'#8B6F57':c.top}" stroke-width="28"/><path d="${seg(sh2,Rr,1)}" stroke="${c.blazer?'#8B6F57':c.top}" stroke-width="28"/>`;
+  g+=`<circle cx="${L[0]}" cy="${L[1]}" r="13" fill="${c.skin}" stroke="none"/><circle cx="${Rr[0]}" cy="${Rr[1]}" r="13" fill="${c.skin}" stroke="none"/>`;
+  if(pose==='phone'){g+=`<rect x="-8" y="62" width="44" height="78" rx="9" fill="#111" stroke="none" transform="rotate(-8 14 100)"/><rect x="-3" y="68" width="34" height="62" rx="5" fill="${t%1<.5?'#2BBE57':'#34C85F'}" stroke="none" transform="rotate(-8 14 100)"/>`;}
+  if(pose==='carry'||pose==='give'){const p=pose==='give'?Rr:[0,200];g+=bag(p[0]-40,p[1]-20,1);}
+  g+=`</g>`;return g;
+}
+function bag(x,y,s){return `<g transform="translate(${x},${y}) scale(${s})"><path d="M20 0 Q40 -34 60 0" stroke="#E7E4DA" stroke-width="6" fill="none"/><rect x="0" y="0" width="80" height="92" rx="6" fill="#4DB23F"/><text x="40" y="58" text-anchor="middle" font-family="Outfit" font-weight="700" font-size="22" fill="#fff">swish</text></g>`;}
+function shade(hex,k){const n=parseInt(hex.slice(1),16);let r=n>>16,g=(n>>8)&255,b=n&255;const f=v=>Math.round(clamp(k<0?v*(1+k):v+(255-v)*k,0,255));return `rgb(${f(r)},${f(g)},${f(b)})`;}
+function laptop(x,y,s,glow){return `<g transform="translate(${x},${y}) scale(${s})"><rect x="-66" y="-78" width="132" height="84" rx="8" fill="#C9CDD2"/><rect x="-66" y="-78" width="132" height="84" rx="8" fill="url(#alu)"/><circle cx="0" cy="-36" r="7" fill="#fff" opacity="${glow?0.9:0.5}"/><rect x="-78" y="4" width="156" height="8" rx="4" fill="#AEB3B9"/></g>`;}
+function foodBox(x,y,s,em){return `<g transform="translate(${x},${y}) scale(${s})"><rect x="-54" y="-40" width="108" height="46" rx="8" fill="#D7B98C"/><rect x="-54" y="-40" width="108" height="10" fill="#22B24C"/><text x="0" y="-28" text-anchor="middle" font-size="46" font-family="Noto Color Emoji">${em}</text></g>`;}
+
+function office(t,mode){
+  // mode: 'work' | 'order' | 'eat'
+  let s=`<defs><linearGradient id="alu" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E4E7EA"/><stop offset="1" stop-color="#B8BDC3"/></linearGradient>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#CFE8F7"/><stop offset="1" stop-color="#EAF5FB"/></linearGradient></defs>`;
+  s+=`<rect x="-900" y="-400" width="2900" height="2800" fill="#F3F1EC"/>`;
+  // windows with skyline
+  s+=`<rect x="-900" y="180" width="2900" height="520" fill="url(#sky)"/>`;
+  const bl=[[-400,420,120],[-240,380,150],[-60,470,110],[80,360,140],[240,440,120],[380,330,160],[560,420,130],[700,380,150],[860,460,120],[1000,350,150],[1160,430,140],[1320,390,160]];
+  bl.forEach(([bx,by,bw])=>{s+=`<rect x="${bx}" y="${by}" width="${bw}" height="${700-by}" fill="#B9D3E3"/>`;for(let wy=by+20;wy<690;wy+=34)for(let wx=bx+14;wx<bx+bw-14;wx+=30)s+=`<rect x="${wx}" y="${wy}" width="12" height="16" fill="#D6E7F1"/>`;});
+  for(let mx=-900;mx<2000;mx+=260)s+=`<rect x="${mx}" y="180" width="14" height="520" fill="#DAD6CD"/>`;
+  s+=`<rect x="-900" y="690" width="2900" height="20" fill="#DAD6CD"/>`;
+  // pendant lamps
+  [260,540,820].forEach(lx=>{s+=`<path d="M${lx} 0 V120" stroke="#333" stroke-width="3"/><path d="M${lx-46} 160 Q${lx} 100 ${lx+46} 160Z" fill="#1F2A24"/><ellipse cx="${lx}" cy="162" rx="20" ry="6" fill="#FFE9A8"/>`;});
+  // plants
+  [[-10,650],[1060,650]].forEach(([px,py])=>{s+=`<rect x="${px-40}" y="${py}" width="80" height="90" rx="10" fill="#D6CFC2"/>`;for(let i=0;i<7;i++){const a=-1.2+i*.4;s+=`<ellipse cx="${px+Math.sin(a)*60}" cy="${py-60-Math.cos(a)*40}" rx="22" ry="54" fill="${i%2?'#3E9A5A':'#2F7F48'}" transform="rotate(${a*57} ${px+Math.sin(a)*60} ${py-60-Math.cos(a)*40})"/>`;}});
+  // wall text
+  s+=`<text x="820" y="150" font-family="Outfit" font-weight="800" font-size="42" fill="#C9C3B7">Q3 ✓</text>`;
+  const pose=(n)=>{
+    if(mode==='eat') return (t>38.95&&t<40.2)?'up':(n==='Rahul'&&t<35.5)?'give':'eat';
+    if(mode==='order'){const a=ADD[n];return (t>13.95&&t<a+1.3)?'phone':'desk';}
+    if(t>2.85&&t<3.9&&n!=='Priya') return 'up';
+    if(n==='Neha'&&t>6&&t<10.1) return 'phone';
+    return 'desk';};
+  const st=(n)=>{const sp=mouth(n,t);const bl=((t+hash(n.length*7)*4)%3.7)<.12;const pz=pose(n);
+    return {t,talk:sp,blink:bl,look:(pz==='phone'?'down':''),happy:(pz==='up'||mode==='eat'||(t>2.8&&t<4)),chew:(pz==='eat'&&sp<.05)};};
+  const away=['Vikram','Priya','Rahul']; const gone=n=>away.includes(n)&&t>26.3&&t<33.3;
+  // back row
+  ['Neha','Aditi','Vikram','Sneha'].forEach(n=>{if(gone(n))return;const [x,y,sc]=SEAT[n];let yy=y;if(away.includes(n)&&t>25.7&&t<26.3)yy-=60*P(t,25.7,.4);s+=person(n,x,yy,sc,st(n));});
+  s+=`<rect x="-900" y="850" width="2900" height="26" fill="#E9DCC6"/><rect x="-900" y="876" width="2900" height="70" fill="#CDBB9E"/>`;
+  ['Neha','Aditi','Vikram','Sneha'].forEach(n=>{const [x,y,sc]=SEAT[n];s+=mode==='eat'?foodBox(x,850,sc,FOOD[n][0]):laptop(x,852,sc,true);});
+  ['Neha','Aditi','Vikram','Sneha'].forEach(n=>{if(gone(n))return;const [x,y,sc]=SEAT[n];s+=arms(n,x,y,sc,pose(n),t);});
+  // Arjun standing between rows
+  const [ax,ay,as]=ARJ; const aPose=(t>10.1&&t<11.0)?'point':(t>2.85&&t<3.9)?'up':(mode==='order'&&t>13.95&&t<22)?'phone':(mode==='eat'?((t>38.95&&t<40.2)?'up':'eat'):'desk');
+  s+=person('Arjun',ax,ay,as,{...st('Arjun'),stand:1,look:aPose==='phone'?'down':''}); s+=arms('Arjun',ax,ay,as,aPose==='desk'?'rest':aPose,t);
+  // front row
+  ['Priya','Rahul','Kavya','Karan'].forEach(n=>{if(gone(n))return;const [x,y,sc]=SEAT[n];let yy=y;if(away.includes(n)&&t>25.7&&t<26.3)yy-=70*P(t,25.7,.4);s+=person(n,x,yy,sc,st(n));});
+  s+=`<rect x="-900" y="1238" width="2900" height="30" fill="#EFE3CF"/><rect x="-900" y="1268" width="2900" height="700" fill="#D2C0A2"/>`;
+  ['Priya','Rahul','Kavya','Karan'].forEach(n=>{const [x,y,sc]=SEAT[n];s+=mode==='eat'?foodBox(x,1238,sc,FOOD[n][0]):laptop(x,1240,sc,true);});
+  ['Priya','Rahul','Kavya','Karan'].forEach(n=>{if(gone(n))return;const [x,y,sc]=SEAT[n];s+=arms(n,x,y,sc,pose(n),t);});
+  // ordering overlays: link notification, then the item each person adds
+  if(mode==='order'){
+    const all=[...Object.keys(SEAT),'Arjun'];
+    all.forEach(n=>{const [x,y,sc]=n==='Arjun'?ARJ:SEAT[n];const a=ADD[n];
+      const nk=P(t,13.95+hash(n.length)*.3,.25), ak=P(t,a,.3);
+      if(t<a&&n!=='Arjun'){s+=`<g transform="translate(${x},${y-92*sc}) scale(${E.ob(nk)*sc})" opacity="${nk}"><rect x="-86" y="-26" width="172" height="46" rx="23" fill="#25D366"/><text x="0" y="6" text-anchor="middle" font-family="Outfit" font-weight="700" font-size="22" fill="#fff">🔗 swish link</text></g>`;}
+      if(t>=a){const [em,it]=FOOD[n];s+=`<g transform="translate(${x},${y-96*sc}) scale(${E.ob(ak)*sc})"><rect x="-110" y="-30" width="220" height="56" rx="28" fill="#fff" stroke="#22B24C" stroke-width="4"/><text x="-80" y="10" font-size="30" font-family="Noto Color Emoji">${em}</text><text x="-40" y="8" font-family="Outfit" font-weight="700" font-size="22" fill="#101512">${it.length>13?it.slice(0,13)+'…':it}</text></g>`;}
+    });
+  }
+  return s;
+}
+
+function lobby(t){
+  let s=`<rect x="-900" y="-400" width="2900" height="2800" fill="#E9E6E0"/>`;
+  s+=`<rect x="-900" y="1320" width="2900" height="700" fill="#CFC9BE"/>`;
+  for(let fx=-900;fx<2000;fx+=180)s+=`<path d="M${fx} 1320 L${fx-200} 2000" stroke="#C2BCB0" stroke-width="3"/>`;
+  // lift on the left
+  const open=P(t,27.0,.5)*(1-P(t,32.6,.4));
+  s+=`<rect x="-40" y="560" width="420" height="760" fill="#8E9499"/><rect x="${-10-150*open}" y="590" width="180" height="730" fill="#B7BDC2"/><rect x="${170+150*open}" y="590" width="180" height="730" fill="#B7BDC2"/><rect x="100" y="500" width="140" height="44" rx="10" fill="#222"/><text x="170" y="532" text-anchor="middle" font-family="Plex" font-size="26" fill="#FFB547">G</text>`;
+  // glass doors on the right, street + scooter outside
+  s+=`<rect x="640" y="520" width="520" height="800" fill="#D7ECF6"/><rect x="640" y="1120" width="520" height="200" fill="#B9B2A5"/>`;
+  s+=`<g transform="translate(930,1160) scale(1.1)"><rect x="-120" y="-30" width="220" height="70" rx="30" fill="#FFD84D"/><circle cx="-90" cy="50" r="34" fill="#222"/><circle cx="90" cy="50" r="34" fill="#222"/><rect x="60" y="-110" width="14" height="90" fill="#555"/><rect x="-140" y="-95" width="110" height="80" rx="12" fill="#22B24C"/><text x="-85" y="-45" text-anchor="middle" font-family="Outfit" font-weight="800" font-size="30" fill="#fff">swish</text></g>`;
+  s+=`<rect x="630" y="520" width="16" height="800" fill="#6F7479"/><rect x="890" y="520" width="12" height="800" fill="#6F7479"/><rect x="1150" y="520" width="16" height="800" fill="#6F7479"/>`;
+  s+=`<text x="540" y="430" text-anchor="middle" font-family="Outfit" font-weight="800" font-size="54" fill="#B9B3A8">LOBBY</text>`;
+  // three teammates walk out of the lift, collect, walk back
+  const walkIn=E.io(P(t,27.2,1.2)), walkOut=E.io(P(t,31.9,1.0));
+  const team=[['Vikram',-40],['Priya',150],['Rahul',340]];
+  const handed=t>29.6;
+  team.forEach(([n,dx],i)=>{const x=lerp(170+dx*0.4,300+dx*0.55,walkIn)-lerp(0,420,walkOut); const walking=(t>27.2&&t<28.4)||(t>31.9&&t<32.9);
+    s+=person(n,x,980,.95,{t,talk:mouth(n,t),stand:1,walk:walking,blink:((t+i)%3.3)<.12,happy:handed});
+    s+=arms(n,x,980,.95,handed?'carry':'rest',t);});
+  // rider with three bags
+  const rk=P(t,26.8,.8);
+  s+=person('Rider',lerp(1160,860,E.oc(rk)),960,1.0,{t,talk:mouth('Rider',t),stand:1,blink:(t%3.1)<.12,happy:1,walk:t<27.6});
+  s+=arms('Rider',lerp(1160,860,E.oc(rk)),960,1.0,handed?'rest':'give',t);
+  if(!handed){[0,1].forEach(k=>{s+=bag(lerp(1160,860,E.oc(rk))-40-k*90,1020+k*6,1.05);});}
+  return s;
+}
+
+function kitchen(t){
+  let s=`<rect x="-900" y="-400" width="2900" height="2800" fill="#DDE3E0"/>`;
+  s+=`<rect x="-900" y="300" width="2900" height="40" fill="#B7C0BC"/>`;
+  for(let tx=-900;tx<2000;tx+=90)for(let ty=340;ty<900;ty+=60)s+=`<rect x="${tx+2}" y="${ty+2}" width="86" height="56" fill="#E9EEEC"/>`;
+  s+=`<rect x="-900" y="1050" width="2900" height="40" fill="#C7CED2"/><rect x="-900" y="1090" width="2900" height="900" fill="#A9B2B7"/>`;
+  s+=`<rect x="360" y="380" width="360" height="200" rx="16" fill="#1F2A24"/><text x="540" y="450" text-anchor="middle" font-family="Plex" font-size="28" fill="#7FE0AE">TEAM ORDER · Q3 PARTY</text><text x="540" y="510" text-anchor="middle" font-family="Outfit" font-weight="800" font-size="46" fill="#fff">9 meals · 1 batch</text><text x="540" y="556" text-anchor="middle" font-family="Plex" font-size="24" fill="#FFD84D">09:58 to door</text>`;
+  s+=person('Rider',300,780,.9,{t,stand:0,blink:(t%2.9)<.1,happy:1}).replace('#22B24C"/><path','#22B24C"/><path');
+  // 9 labelled boxes slide into 3 bags
+  const names=['Arjun','Priya','Neha','Rahul','Kavya','Karan','Sneha','Vikram','Aditi'];
+  names.forEach((n,i)=>{const b=Math.floor(i/3),k=P(t,23.75+i*.1,.35);const x0=260+i*80,y0=1000;const bx=380+b*170,by=1010;
+    const x=lerp(x0,bx+40,E.io(k)),y=lerp(y0,by-10,E.io(k))-Math.sin(Math.PI*k)*80;
+    s+=`<g transform="translate(${x},${y}) scale(${lerp(1,.6,k)})" opacity="${1-P(t,23.75+i*.1+.3,.1)}"><rect x="-36" y="-26" width="72" height="44" rx="6" fill="#D7B98C"/><rect x="-36" y="-26" width="72" height="8" fill="#22B24C"/><rect x="-30" y="-2" width="60" height="16" rx="3" fill="#fff"/><text x="0" y="11" text-anchor="middle" font-family="Outfit" font-weight="700" font-size="12" fill="#101512">${n}</text></g>`;});
+  [0,1,2].forEach(b=>{s+=bag(380+b*170,960,1.3);});
+  return s;
+}
+
+// ================= camera =================
+// shots: [start, scene, target x, target y, zoom]
+const SHOTS=[
+  [0,'office',540,960,1.0],[1.6,'office',540,860,1.35],
+  [3.45,'office',160,1150,2.3],[6.05,'office',175,770,2.6],[10.15,'office',540,760,1.9],
+  [11.0,'phone'],[14.15,'office',540,960,1.0],[14.35,'office',410,1110,2.0],[16.05,'office',670,1110,2.0],[17.4,'office',540,960,1.0],
+  [18.9,'office',920,1110,2.0],[20.15,'office',905,760,2.4],[21.65,'phone2'],[23.6,'kitchen',540,880,1.45],
+  [25.15,'office',665,760,2.2],[26.35,'lobby',560,980,1.0],[27.3,'lobby',760,960,1.45],[29.95,'lobby',400,980,1.6],[31.0,'lobby',860,960,1.6],[32.1,'lobby',540,960,1.0],
+  [33.2,'office_eat',540,960,1.0],[33.35,'office_eat',410,1110,1.8],[35.65,'office_eat',415,770,2.4],[36.9,'office_eat',540,960,1.05],[37.5,'office_eat',540,760,1.9],[38.85,'office_eat',540,960,1.0],
+  [40.3,'end'],
+];
+function shotAt(t){let i=0;for(let k=0;k<SHOTS.length;k++)if(t>=SHOTS[k][0])i=k;return [SHOTS[i],t-SHOTS[i][0]];}
+
+function render(t){
+  const [sh,dt]=shotAt(t); const scene=sh[1];
+  const worldOn=['office','office_eat','lobby','kitchen'].includes(scene);
+  vis($('W'),worldOn); vis($('phoneScene'),scene==='phone'||scene==='phone2'); vis($('endS'),scene==='end');
+  if(worldOn){
+    let body = scene==='lobby'?lobby(t):scene==='kitchen'?kitchen(t):office(t,scene==='office_eat'?'eat':(t>13.9&&t<22?'order':'work'));
+    // gentle push-in within each shot = cinematic camera
+    const z=sh[4]*(1+0.04*Math.min(dt,4)/4), cx=sh[2], cy=sh[3];
+    $('W').innerHTML=`<g transform="translate(${540-cx*z} ${900-cy*z}) scale(${z})">${body}</g>`;
+  }
+  // clock / HUD
+  const clk= t<11?'12:44 PM · FRIDAY':t<22?'12:45 PM · LINK SENT':t<26.3?'12:48 PM · ORDER PLACED':t<33.2?'12:58 PM · 10 MIN LATER':'1:00 PM · LUNCH';
+  $('clock').textContent=clk; vis($('clock'),worldOn&&scene!=='kitchen'&&!(t>14&&t<21.6));
+  const hudOn=t>14.1&&t<21.6&&worldOn; vis($('hud'),hudOn);
+  if(hudOn){let n=0,tot=0;for(const [k,a] of Object.entries(ADD))if(t>=a){n++;tot+=FOOD[k][2];}$('hudS').textContent=`${n}/9 joined · one link on WhatsApp`;$('hudT').textContent='₹'+tot.toLocaleString('en-IN');}
+  // phone scenes
+  if(scene==='phone'){
+    const p=t-11.0;
+    vis($('p1'),p<1.35);vis($('p2'),p>=1.35&&p<2.35);vis($('p3'),p>=2.35);vis($('p4'),false);
+    T($('ph'),{y:lerp(120,0,E.oc(P(p,0,.4))),s:1});
+    const taps=[[0.95,540,812],[2.1,330,1120]];let ts={o:0};for(const [tt,x,y] of taps){if(p>tt-.2&&p<tt+.25){const k=P(p,tt-.2,.2);ts={x,y,s:1-.15*P(p,tt,.08),o:k*(1-P(p,tt+.12,.12))};}}T($('tap'),ts);
+    T($('m1'),{y:lerp(40,0,E.oc(P(p,2.45,.3))),o:clamp(P(p,2.45,.2)*3)});$('m1s').textContent=p>2.9?'✓✓ Seen by 8':'✓';
+    T($('m2'),{o:p>3.1?1:0});T($('m3'),{o:p>3.35?1:0});
+  }
+  if(scene==='phone2'){
+    const p=t-21.65; vis($('p1'),0);vis($('p2'),0);vis($('p3'),0);vis($('p4'),1);
+    T($('ph'),{y:lerp(120,0,E.oc(P(p,0,.35))),s:1});
+    $('o1').className='opt'+(p<0.7||p>1.1?' on':''); $('o2').className='opt'+(p>=0.7&&p<=1.1?' on':'');
+    let ts={o:0};if(p>1.3&&p<1.9){ts={x:540,y:1330,s:1-.15*P(p,1.55,.08),o:clamp(P(p,1.3,.15)*3)*(1-P(p,1.7,.15))};}T($('tap'),ts);
+    $('bPay').textContent=p>1.6?'✓ Team order placed':'Place team order · ₹1,591'; $('bPay').style.background=p>1.6?'#0B2E17':'#22B24C';
+  }
+  // end card
+  if(scene==='end'){const e=t-40.3;
+    T($('eLogo'),{s:lerp(.6,1,E.ob(P(e,0,.5))),o:clamp(P(e,0,.3)*3)});
+    const sp=document.querySelector('#eLogo .spark'); if(sp)sp.style.transform=`rotate(${lerp(-220,0,E.oc(P(e,0,.8)))}deg)`;
+    [['eT',.25],['eS',.5],['eC',.9],['eF',1.2],['eX',1.5]].forEach(([id,d])=>{const k=P(e,d,.45);T($(id),{y:lerp(50,0,E.oc(k)),o:clamp(k*2)*(id==='eX'?.9:1)});});
+  }
+  // captions (the current spoken line)
+  let cur=null; for(const l of DLG.lines){ if(l.who!=='crowd'&&t>=l.t0-0.05&&t<l.t1+0.25) cur=l; }
+  if(cur&&scene!=='end'){ $('capBox').innerHTML=`<span class="who" style="color:${NAMEC[cur.who]}">${cur.who==='VO'?'':cur.who}</span>${cur.text}`; vis($('cap'),1);} else vis($('cap'),0);
+  // quick white flash on scene changes
+  let fl=0; for(const s of SHOTS){ if(s[1]!=='office'&&t>=s[0]&&t<s[0]+.12) fl=Math.max(fl,.35*(1-(t-s[0])/.12)); } $('flash').style.opacity=fl;
+}
+window.render=render; window.DURATION=45;
+window.ready=document.fonts.ready.then(()=>{render(0);return true;});
+if(location.search.includes('play')){const st=performance.now();(function loop(){render(((performance.now()-st)/1000)%45);requestAnimationFrame(loop)})();}
+else if(location.search.includes('t=')){window.ready.then(()=>render(parseFloat(location.search.split('t=')[1])));}
+</script>
+</body>
+</html>
