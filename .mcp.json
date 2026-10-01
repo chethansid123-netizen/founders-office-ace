@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "bolna": {
+      "type": "http",
+      "url": "https://mcp.bolna.ai/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${BOLNA_API_KEY}"
+      }
+    }
+  }
+}
