@@ -1,0 +1,1337 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VP Ops Weekly MIS</title>
+<style>
+:root {
+  color-scheme: light;
+  --page: #f3f3f0;
+  --surface: #ffffff;
+  --surface-2: #f7f7f4;
+  --ink: #0b0b0b;
+  --ink-2: #52514e;
+  --muted: #7d7b75;
+  --grid: #e7e6e0;
+  --axis: #c3c2b7;
+  --border: rgba(11, 11, 11, 0.10);
+  --accent: #2a78d6;
+  --accent-soft: #e8f1fc;
+  --good: #0ca30c;
+  --warn: #fab219;
+  --crit: #d03b3b;
+  --good-ink: #006300;
+  --warn-ink: #7a5000;
+  --crit-ink: #b02a2a;
+  --good-bg: #e5f5e5;
+  --warn-bg: #fff3d6;
+  --crit-bg: #fbe7e7;
+  --info-bg: #efefeb;
+  --soft-bar: #86b6ef;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --page: #0d0d0d;
+    --surface: #1a1a19;
+    --surface-2: #222220;
+    --ink: #f0efec;
+    --ink-2: #c3c2b7;
+    --muted: #95938c;
+    --grid: #2c2c2a;
+    --axis: #444441;
+    --border: rgba(255, 255, 255, 0.10);
+    --accent: #3987e5;
+    --accent-soft: #15283f;
+    --good-ink: #3fc23f;
+    --warn-ink: #f5c04d;
+    --crit-ink: #f07a7a;
+    --good-bg: #13301a;
+    --warn-bg: #3a2e10;
+    --crit-bg: #3d1a1a;
+    --info-bg: #2a2a28;
+    --soft-bar: #1c5cab;
+    --shadow: none;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d0d0d;
+  --surface: #1a1a19;
+  --surface-2: #222220;
+  --ink: #f0efec;
+  --ink-2: #c3c2b7;
+  --muted: #95938c;
+  --grid: #2c2c2a;
+  --axis: #444441;
+  --border: rgba(255, 255, 255, 0.10);
+  --accent: #3987e5;
+  --accent-soft: #15283f;
+  --good-ink: #3fc23f;
+  --warn-ink: #f5c04d;
+  --crit-ink: #f07a7a;
+  --good-bg: #13301a;
+  --warn-bg: #3a2e10;
+  --crit-bg: #3d1a1a;
+  --info-bg: #2a2a28;
+  --soft-bar: #1c5cab;
+  --shadow: none;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background: var(--page);
+  color: var(--ink);
+  font: 14px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+button { font: inherit; color: inherit; }
+
+/* ---------- app bar ---------- */
+.appbar {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20;
+  display: flex; align-items: center; gap: 16px;
+  height: 56px; padding-block: 0;
+  padding-left: max(20px, env(safe-area-inset-left, 0px)); padding-right: max(20px, env(safe-area-inset-right, 0px));
+  background: var(--surface); border-bottom: 1px solid var(--border);
+}
+.brand { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.brand-mark {
+  width: 30px; height: 30px; border-radius: 8px; flex: none;
+  background: var(--ink); color: var(--surface);
+  display: grid; place-items: center; font-weight: 700; font-size: 11px; letter-spacing: .02em;
+}
+.brand-text { line-height: 1.15; white-space: nowrap; }
+.brand-text b { font-size: 14px; }
+.brand-text span { display: block; font-size: 12px; color: var(--muted); }
+.mock-pill {
+  font-size: 11px; font-weight: 600; padding: 3px 8px; border-radius: 999px;
+  background: var(--warn-bg); color: var(--warn-ink); white-space: nowrap;
+}
+.tabs { display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; margin-left: auto; }
+.tabs::-webkit-scrollbar { display: none; }
+.tab {
+  border: 0; background: transparent; padding: 7px 10px; border-radius: 8px;
+  font-size: 13px; color: var(--ink-2); cursor: pointer; white-space: nowrap;
+}
+.tab:hover { background: var(--surface-2); }
+.tab[aria-selected="true"] { background: var(--ink); color: var(--surface); }
+.tab .n { opacity: .6; margin-right: 4px; font-variant-numeric: tabular-nums; }
+.tools { display: flex; gap: 6px; }
+.icon-btn {
+  border: 1px solid var(--border); background: var(--surface); border-radius: 8px;
+  height: 32px; min-width: 32px; padding: 0 10px; cursor: pointer; font-size: 13px; color: var(--ink-2);
+}
+.icon-btn:hover { background: var(--surface-2); }
+
+/* ---------- slides ---------- */
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 30; background: var(--surface); }
+.deck { padding-block: 18px 28px; padding-left: max(20px, env(safe-area-inset-left, 0px)); padding-right: max(20px, env(safe-area-inset-right, 0px)); }
+.slide { display: none; max-width: 1400px; margin: 0 auto; transform-origin: top center; }
+.slide.active { display: block; }
+.slide-head { display: flex; align-items: flex-end; gap: 24px; margin: 2px 0 14px; }
+.slide-head .titles { flex: 1; min-width: 0; }
+.eyebrow { font-size: 12px; font-weight: 600; color: var(--accent); letter-spacing: .02em; }
+h2.title { font-size: 23px; line-height: 1.25; margin: 4px 0 4px; font-weight: 650; letter-spacing: -0.01em; text-wrap: balance; }
+.subtitle { color: var(--ink-2); font-size: 13.5px; margin: 0; }
+.slide-meta { text-align: right; font-size: 12px; color: var(--muted); white-space: nowrap; }
+.slide-foot {
+  display: flex; justify-content: space-between; gap: 16px; margin-top: 12px;
+  font-size: 11.5px; color: var(--muted);
+}
+
+.grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 12px; }
+.c2 { grid-column: span 2; } .c3 { grid-column: span 3; } .c4 { grid-column: span 4; }
+.c5 { grid-column: span 5; } .c6 { grid-column: span 6; } .c7 { grid-column: span 7; }
+.c8 { grid-column: span 8; } .c9 { grid-column: span 9; } .c12 { grid-column: span 12; }
+.mt { margin-top: 12px; }
+
+.card {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+  padding: 14px 16px; box-shadow: var(--shadow); min-width: 0;
+}
+.card-h { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin-bottom: 8px; }
+.card-t { font-size: 13.5px; font-weight: 650; margin: 0; }
+.card-s { font-size: 12px; color: var(--muted); margin: 2px 0 0; }
+.card-h .right { font-size: 12px; color: var(--muted); white-space: nowrap; }
+
+/* stat tiles */
+.tiles { display: grid; gap: 12px; }
+.tiles.t4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.tiles.t3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.tile { padding: 12px 14px; }
+.tile .lbl { font-size: 12.5px; color: var(--ink-2); display: flex; justify-content: space-between; gap: 8px; align-items: center; }
+.tile .val { font-size: 26px; font-weight: 650; line-height: 1.15; margin-top: 4px; letter-spacing: -0.01em; }
+.tile .row { display: flex; align-items: flex-end; justify-content: space-between; gap: 8px; }
+.tile .sub { font-size: 12px; color: var(--muted); margin-top: 2px; }
+.delta { font-size: 12.5px; font-weight: 600; white-space: nowrap; }
+.delta.good { color: var(--good-ink); } .delta.bad { color: var(--crit-ink); } .delta.flat { color: var(--muted); }
+
+/* RAG pills: icon + label, never colour alone */
+.rag {
+  display: inline-flex; align-items: center; gap: 5px; padding: 1px 8px 1px 3px; border-radius: 999px;
+  font-size: 11.5px; font-weight: 600; white-space: nowrap; line-height: 16px;
+}
+.rag i {
+  font-style: normal; width: 16px; height: 16px; border-radius: 50%; display: grid; place-items: center;
+  font-size: 10px; color: #fff; font-weight: 800;
+}
+.rag.g { background: var(--good-bg); color: var(--good-ink); } .rag.g i { background: var(--good); }
+.rag.a { background: var(--warn-bg); color: var(--warn-ink); } .rag.a i { background: var(--warn); color: #3a2a00; }
+.rag.r { background: var(--crit-bg); color: var(--crit-ink); } .rag.r i { background: var(--crit); }
+.rag.n { background: var(--info-bg); color: var(--ink-2); } .rag.n i { background: var(--muted); }
+.dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 6px; vertical-align: 1px; }
+.dot.g { background: var(--good); } .dot.a { background: var(--warn); } .dot.r { background: var(--crit); } .dot.n { background: var(--axis); }
+
+/* tables */
+table { border-collapse: collapse; width: 100%; }
+.tbl { font-size: 12.5px; }
+.tbl th {
+  text-align: left; font-weight: 600; color: var(--muted); font-size: 11.5px;
+  padding: 6px 8px; border-bottom: 1px solid var(--grid); white-space: nowrap;
+}
+.tbl td { padding: 5px 8px; border-bottom: 1px solid var(--grid); vertical-align: middle; }
+.tbl tr:last-child td { border-bottom: 0; }
+.tbl .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.tbl .ctr { text-align: center; }
+.tbl tr.block td {
+  background: var(--surface-2); font-weight: 650; font-size: 11.5px; color: var(--ink-2);
+  letter-spacing: .02em; padding: 5px 8px;
+}
+.tbl tr.total td { font-weight: 650; border-top: 1px solid var(--axis); }
+.tbl tr.hl td { background: var(--accent-soft); }
+.tbl .metric { font-weight: 550; }
+.tbl .owner { color: var(--ink-2); white-space: nowrap; }
+.tbl.compact td { padding: 3px 8px; }
+.tbl svg, .tbl .rag { vertical-align: middle; }
+.tbl svg { display: inline-block; }
+.muted { color: var(--muted); } .ink2 { color: var(--ink-2); }
+.strong { font-weight: 650; }
+.nowrap { white-space: nowrap; }
+
+/* lists & text blocks */
+.issue { display: grid; grid-template-columns: 22px 1fr; gap: 8px; padding: 8px 0; border-top: 1px solid var(--grid); }
+.issue:first-of-type { border-top: 0; padding-top: 2px; }
+.issue .n {
+  width: 22px; height: 22px; border-radius: 6px; background: var(--crit-bg); color: var(--crit-ink);
+  font-weight: 700; font-size: 12px; display: grid; place-items: center;
+}
+.issue .n.g { background: var(--good-bg); color: var(--good-ink); }
+.issue .n.q { background: var(--accent-soft); color: var(--accent); }
+.issue p { margin: 0; font-size: 12.8px; }
+.issue .meta { font-size: 11.8px; color: var(--muted); margin-top: 2px; }
+.kv { display: grid; grid-template-columns: 112px 1fr; gap: 6px 12px; font-size: 13px; }
+.kv dt { color: var(--muted); font-weight: 600; font-size: 12px; padding-top: 1px; }
+.kv dd { margin: 0; }
+.callout {
+  border-left: 3px solid var(--accent); background: var(--accent-soft); border-radius: 0 8px 8px 0;
+  padding: 9px 12px; font-size: 12.8px;
+}
+.callout b { font-weight: 650; }
+.callout + .callout { margin-top: 8px; }
+.tag {
+  display: inline-block; font-size: 10.5px; font-weight: 700; padding: 1px 6px; border-radius: 4px;
+  background: var(--crit-bg); color: var(--crit-ink); vertical-align: 1px; margin-left: 6px; letter-spacing: .02em;
+}
+.tag.blue { background: var(--accent-soft); color: var(--accent); }
+
+/* hero */
+.hero .lbl { font-size: 13px; color: var(--ink-2); font-weight: 600; }
+.hero .big { font-size: 56px; font-weight: 700; line-height: 1; letter-spacing: -0.02em; margin: 10px 0 6px; }
+.hero .line { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; font-size: 14px; }
+.hero .mini { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 14px; }
+.hero .mini div { background: var(--surface-2); border-radius: 8px; padding: 8px 10px; font-size: 12px; color: var(--muted); }
+.hero .mini b { display: block; color: var(--ink); font-size: 15px; font-weight: 650; }
+.formula {
+  margin-top: 12px; font-size: 12px; color: var(--ink-2); background: var(--surface-2);
+  border-radius: 8px; padding: 8px 10px;
+}
+.formula code { font: inherit; font-weight: 650; color: var(--ink); }
+
+/* inline bars (funnels) */
+.bar-track { position: relative; height: 14px; background: var(--surface-2); border-radius: 0 4px 4px 0; }
+.bar-fill { position: absolute; left: 0; top: 0; bottom: 0; background: var(--accent); border-radius: 0 4px 4px 0; }
+.bar-fill.soft { background: var(--soft-bar); }
+
+/* charts */
+.chart { position: relative; width: 100%; }
+.chart svg { display: block; overflow: visible; }
+.chart text { font-family: inherit; }
+.ax { fill: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+.gl { stroke: var(--grid); stroke-width: 1; shape-rendering: crispEdges; }
+.bl { stroke: var(--axis); stroke-width: 1; shape-rendering: crispEdges; }
+.lbl-ink { fill: var(--ink); font-size: 11.5px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.lbl-2 { fill: var(--ink-2); font-size: 11.5px; }
+.legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; color: var(--ink-2); margin-top: 6px; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.key-line { width: 14px; height: 2px; border-radius: 2px; display: inline-block; }
+.key-dash { width: 14px; height: 0; border-top: 2px dashed var(--muted); display: inline-block; }
+.key-dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+.key-rect { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+.scale { display: flex; align-items: center; gap: 8px; font-size: 11.5px; color: var(--muted); margin-top: 8px; }
+.scale .ramp { height: 8px; flex: 1; border-radius: 4px; }
+
+.heat { width: 100%; border-collapse: separate; border-spacing: 2px; font-size: 12px; }
+.heat th { font-weight: 600; color: var(--muted); font-size: 11.5px; padding: 2px 4px; text-align: center; }
+.heat th.rowh { text-align: left; width: 44px; }
+.heat td {
+  text-align: center; border-radius: 4px; height: 26px; font-variant-numeric: tabular-nums; font-weight: 600; cursor: default;
+}
+.heat td:hover, .heat td:focus { outline: 2px solid var(--ink); outline-offset: -2px; }
+.heat td.empty { background: var(--surface-2); color: var(--muted); font-weight: 400; }
+
+/* tooltip */
+.tip {
+  position: fixed; z-index: 50; pointer-events: none; display: none;
+  background: var(--surface); color: var(--ink); border: 1px solid var(--border);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.14); border-radius: 8px; padding: 8px 10px; font-size: 12px; min-width: 140px;
+}
+.tip .tt { font-weight: 650; margin-bottom: 4px; color: var(--ink-2); }
+.tip .tr { display: flex; align-items: center; gap: 8px; justify-content: space-between; }
+.tip .tr .k { display: inline-flex; align-items: center; gap: 6px; color: var(--muted); }
+.tip .tr .v { font-weight: 700; font-variant-numeric: tabular-nums; }
+
+/* scope filter */
+.filters { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; font-size: 12.5px; color: var(--ink-2); }
+select {
+  font: inherit; font-size: 12.5px; color: var(--ink); background: var(--surface);
+  border: 1px solid var(--border); border-radius: 8px; padding: 4px 8px;
+}
+
+/* manager cards */
+.mgrs { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; }
+.mgr .name { font-weight: 650; font-size: 13.5px; }
+.mgr .role { font-size: 11.5px; color: var(--muted); }
+.mgr .kpis { margin: 8px 0; display: grid; gap: 3px; font-size: 12px; color: var(--ink-2); }
+.mgr .nums { display: flex; gap: 14px; border-top: 1px solid var(--grid); padding-top: 8px; font-size: 11.5px; color: var(--muted); }
+.mgr .nums b { display: block; font-size: 16px; color: var(--ink); font-weight: 650; }
+.mgr .nums b.bad { color: var(--crit-ink); }
+
+.flag { font-size: 11.5px; font-weight: 650; white-space: nowrap; }
+.flag.r { color: var(--crit-ink); } .flag.a { color: var(--warn-ink); } .flag.g { color: var(--good-ink); } .flag.n { color: var(--muted); }
+.status { font-size: 11.5px; color: var(--ink-2); white-space: nowrap; }
+
+.rhythm { display: grid; gap: 0; }
+.rhythm .step { display: grid; grid-template-columns: 92px 1fr; gap: 10px; padding: 5px 0; border-top: 1px solid var(--grid); font-size: 12.5px; }
+.rhythm .step:first-child { border-top: 0; padding-top: 0; }
+.rhythm .when { font-weight: 650; color: var(--accent); font-size: 12px; }
+.rhythm .what b { font-weight: 650; }
+.rhythm .what span { color: var(--muted); display: block; font-size: 12px; }
+.ladder { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; margin-top: 6px; }
+.ladder div { background: var(--surface-2); border-radius: 8px; padding: 7px 8px; font-size: 11.5px; color: var(--ink-2); }
+.ladder b { display: block; color: var(--ink); font-size: 12px; margin-bottom: 2px; }
+.rules { margin: 6px 0 0; padding-left: 18px; font-size: 12.5px; }
+.rules li { margin: 2px 0; }
+
+.check { display: grid; grid-template-columns: 1fr auto; gap: 10px; padding: 7px 0; border-top: 1px solid var(--grid); font-size: 12.5px; align-items: start; }
+.check:first-child { border-top: 0; padding-top: 0; }
+.check .d { color: var(--muted); font-size: 12px; }
+
+.plan { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.plan div { background: var(--surface-2); border-radius: 10px; padding: 10px 12px; font-size: 12.5px; }
+.plan b { display: block; color: var(--accent); font-size: 12px; margin-bottom: 3px; }
+.facts { font-size: 12.5px; display: grid; gap: 4px; }
+.facts div { display: flex; justify-content: space-between; gap: 10px; border-bottom: 1px solid var(--grid); padding: 3px 0; }
+.facts div:last-child { border-bottom: 0; }
+.jd td:first-child { font-weight: 600; }
+.jd td { vertical-align: top; }
+
+/* present mode */
+body.present .appbar .brand-text span, body.present .mock-pill { display: none; }
+
+/* small screens */
+@media (max-width: 1100px) {
+  .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9 { grid-column: span 12; }
+  .tiles.t4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .mgrs { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .brand-text span { display: none; }
+}
+@media (max-width: 700px) {
+  .appbar { height: auto; flex-wrap: wrap; padding-block: 10px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); gap: 8px; }
+  .tabs { order: 3; width: 100%; margin-left: 0; }
+  .deck { padding-block: 14px 24px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  .slide-head { flex-direction: column; align-items: flex-start; gap: 6px; }
+  .slide-meta { text-align: left; }
+  .tiles.t4, .tiles.t3, .mgrs, .plan, .ladder { grid-template-columns: 1fr; }
+  .hero .big { font-size: 46px; }
+  .tbl-wrap { overflow-x: auto; }
+  h2.title { font-size: 20px; }
+}
+
+/* print / PDF: one slide per landscape page */
+@page { size: 1440px 900px; margin: 0; }
+body.printing .appbar { display: none; }
+body.printing .deck { padding: 0; }
+body.printing::before { display: none; }
+body.printing .slide {
+  display: block; width: 1440px; height: 900px; max-width: none; padding: 26px 32px 20px; overflow: hidden;
+  break-after: page; page-break-after: always; position: relative;
+}
+body.printing .slide-foot { position: absolute; left: 32px; right: 32px; bottom: 16px; }
+@media print {
+  .appbar { display: none; }
+  .tip { display: none !important; }
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
+</style>
+</head>
+<body>
+<header class="appbar">
+  <div class="brand">
+    <div class="brand-mark" aria-hidden="true">MIS</div>
+    <div class="brand-text"><b>VP Ops · Weekly Business Review</b><span id="weekLabel"></span></div>
+    <span class="mock-pill" title="Every number in this pack is mock data, built for an interview demo">Mock data</span>
+  </div>
+  <nav class="tabs" id="tabs" role="tablist" aria-label="Slides"></nav>
+  <div class="tools">
+    <button class="icon-btn" id="prevBtn" aria-label="Previous slide">←</button>
+    <button class="icon-btn" id="nextBtn" aria-label="Next slide">→</button>
+    <button class="icon-btn" id="presentBtn" title="Full screen (F)">Present</button>
+    <button class="icon-btn" id="themeBtn" aria-label="Switch light or dark">Dark</button>
+  </div>
+</header>
+<main class="deck" id="deck"></main>
+<div class="tip" id="tip" role="tooltip"></div>
+<script>const DATA = {"meta":{"cur":42,"prev":41,"weeks":[31,32,33,34,35,36,37,38,39,40,41,42],"report_date":"2026-10-19","week_label":"Week 42 · 12–18 Oct 2026","aov_note":"mock"},"cities":["Delhi","Gurugram","Noida & Ghaziabad","Mumbai","Bengaluru","Hyderabad","Pune","Rest of India"],"rows":[{"week":31,"week_start":"2026-07-27","month":"Jul","city":"Delhi","req":12304,"asg":11636,"cc":288,"pc":123,"comp":11225,"ot":10229,"perfect":9984,"cpl":80,"redo":97,"rc":6853,"rs":32556,"low":139,"act":1199,"cert":29,"stock":20,"coh":46,"coh_a":30,"gmv":15041500},{"week":31,"week_start":"2026-07-27","month":"Jul","city":"Gurugram","req":8602,"asg":8078,"cc":224,"pc":107,"comp":7747,"ot":6890,"perfect":6693,"cpl":63,"redo":73,"rc":4797,"rs":22741,"low":124,"act":803,"cert":21,"stock":15,"coh":30,"coh_a":20,"gmv":11000740},{"week":31,"week_start":"2026-07-27","month":"Jul","city":"Noida & Ghaziabad","req":7922,"asg":7433,"cc":196,"pc":90,"comp":7147,"ot":6473,"perfect":6298,"cpl":57,"redo":70,"rc":4475,"rs":21259,"low":101,"act":779,"cert":17,"stock":14,"coh":27,"coh_a":19,"gmv":9362570},{"week":31,"week_start":"2026-07-27","month":"Jul","city":"Mumbai","req":10209,"asg":9545,"cc":283,"pc":95,"comp":9167,"ot":8292,"perfect":8090,"cpl":66,"redo":78,"rc":5686,"rs":27069,"low":119,"act":890,"cert":20,"stock":13,"coh":29,"coh_a":19,"gmv":13383820},{"week":31,"week_start":"2026-07-27","month":"Jul","city":"Bengaluru","req":8487,"asg":7958,"cc":197,"pc":86,"comp":7675,"ot":6903,"perfect":6733,"cpl":55,"redo":71,"rc":4752,"rs":22623,"low":96,"act":773,"cert":19,"stock":12,"coh":30,"coh_a":19,"gmv":10821750},{"week":31,"week_start":"2026-07-27","month":"Jul","city":"Hyderabad","req":5992,"asg":5665,"cc":147,"pc":57,"comp":5461,"ot":4909,"perfect":4791,"cpl":40,"redo":46,"rc":3397,"rs":16138,"low":69,"act":589,"cert":15,"stock":9,"coh":21,"coh_a":14,"gmv":7099300},{"week":31,"week_start":"2026-07-27","month":"Jul","city":"Pune","req":4376,"asg":4099,"cc":105,"pc":47,"comp":3947,"ot":3570,"perfect":3480,"cpl":28,"redo":35,"rc":2455,"rs":11663,"low":54,"act":435,"cert":10,"stock":6,"coh":14,"coh_a":9,"gmv":5249510},{"week":31,"week_start":"2026-07-27","month":"Jul","city":"Rest of India","req":14708,"asg":13903,"cc":336,"pc":146,"comp":13421,"ot":12208,"perfect":11877,"cpl":111,"redo":122,"rc":8375,"rs":39703,"low":195,"act":1592,"cert":37,"stock":24,"coh":54,"coh_a":36,"gmv":16642040},{"week":32,"week_start":"2026-08-03","month":"Aug","city":"Delhi","req":12479,"asg":11809,"cc":308,"pc":127,"comp":11374,"ot":10264,"perfect":10012,"cpl":82,"redo":104,"rc":6985,"rs":33113,"low":143,"act":1212,"cert":31,"stock":21,"coh":40,"coh_a":26,"gmv":15241160},{"week":32,"week_start":"2026-08-03","month":"Aug","city":"Gurugram","req":8751,"asg":8172,"cc":239,"pc":120,"comp":7813,"ot":7025,"perfect":6812,"cpl":76,"redo":82,"rc":4840,"rs":22896,"low":120,"act":808,"cert":21,"stock":15,"coh":28,"coh_a":18,"gmv":11094460},{"week":32,"week_start":"2026-08-03","month":"Aug","city":"Noida & Ghaziabad","req":8022,"asg":7578,"cc":213,"pc":93,"comp":7272,"ot":6531,"perfect":6361,"cpl":53,"redo":73,"rc":4438,"rs":21038,"low":96,"act":790,"cert":16,"stock":15,"coh":26,"coh_a":17,"gmv":9526320},{"week":32,"week_start":"2026-08-03","month":"Aug","city":"Mumbai","req":10408,"asg":9816,"cc":275,"pc":117,"comp":9424,"ot":8458,"perfect":8224,"cpl":76,"redo":95,"rc":5848,"rs":27781,"low":136,"act":913,"cert":23,"stock":15,"coh":29,"coh_a":18,"gmv":13759040},{"week":32,"week_start":"2026-08-03","month":"Aug","city":"Bengaluru","req":8793,"asg":8210,"cc":229,"pc":102,"comp":7879,"ot":7026,"perfect":6840,"cpl":64,"redo":78,"rc":4836,"rs":22974,"low":104,"act":792,"cert":17,"stock":12,"coh":27,"coh_a":18,"gmv":11109390},{"week":32,"week_start":"2026-08-03","month":"Aug","city":"Hyderabad","req":6018,"asg":5722,"cc":140,"pc":66,"comp":5516,"ot":5020,"perfect":4890,"cpl":43,"redo":50,"rc":3364,"rs":15947,"low":75,"act":593,"cert":15,"stock":9,"coh":21,"coh_a":14,"gmv":7170800},{"week":32,"week_start":"2026-08-03","month":"Aug","city":"Pune","req":4383,"asg":4187,"cc":103,"pc":47,"comp":4037,"ot":3633,"perfect":3543,"cpl":26,"redo":39,"rc":2478,"rs":11747,"low":53,"act":443,"cert":11,"stock":7,"coh":15,"coh_a":10,"gmv":5369210},{"week":32,"week_start":"2026-08-03","month":"Aug","city":"Rest of India","req":14246,"asg":13512,"cc":356,"pc":156,"comp":13000,"ot":11793,"perfect":11441,"cpl":104,"redo":142,"rc":7995,"rs":37820,"low":211,"act":1539,"cert":38,"stock":27,"coh":52,"coh_a":34,"gmv":16120000},{"week":33,"week_start":"2026-08-10","month":"Aug","city":"Delhi","req":12766,"asg":12152,"cc":288,"pc":118,"comp":11746,"ot":10727,"perfect":10486,"cpl":79,"redo":102,"rc":7214,"rs":34342,"low":129,"act":1245,"cert":32,"stock":19,"coh":49,"coh_a":33,"gmv":15739640},{"week":33,"week_start":"2026-08-10","month":"Aug","city":"Gurugram","req":8663,"asg":8129,"cc":220,"pc":102,"comp":7807,"ot":7110,"perfect":6916,"cpl":61,"redo":75,"rc":4853,"rs":23054,"low":114,"act":803,"cert":18,"stock":13,"coh":30,"coh_a":19,"gmv":11085940},{"week":33,"week_start":"2026-08-10","month":"Aug","city":"Noida & Ghaziabad","req":8119,"asg":7654,"cc":211,"pc":100,"comp":7343,"ot":6660,"perfect":6495,"cpl":60,"redo":63,"rc":4549,"rs":21656,"low":91,"act":794,"cert":21,"stock":12,"coh":28,"coh_a":18,"gmv":9619330},{"week":33,"week_start":"2026-08-10","month":"Aug","city":"Mumbai","req":10495,"asg":9810,"cc":277,"pc":104,"comp":9429,"ot":8455,"perfect":8251,"cpl":64,"redo":83,"rc":5852,"rs":27917,"low":121,"act":909,"cert":26,"stock":13,"coh":32,"coh_a":22,"gmv":13766340},{"week":33,"week_start":"2026-08-10","month":"Aug","city":"Bengaluru","req":8868,"asg":8186,"cc":212,"pc":88,"comp":7886,"ot":7105,"perfect":6920,"cpl":58,"redo":76,"rc":5039,"rs":24039,"low":108,"act":789,"cert":20,"stock":12,"coh":29,"coh_a":20,"gmv":11119260},{"week":33,"week_start":"2026-08-10","month":"Aug","city":"Hyderabad","req":5845,"asg":5459,"cc":130,"pc":55,"comp":5274,"ot":4814,"perfect":4696,"cpl":39,"redo":44,"rc":3292,"rs":15672,"low":69,"act":565,"cert":13,"stock":8,"coh":23,"coh_a":15,"gmv":6856200},{"week":33,"week_start":"2026-08-10","month":"Aug","city":"Pune","req":4492,"asg":4303,"cc":98,"pc":47,"comp":4158,"ot":3741,"perfect":3652,"cpl":27,"redo":35,"rc":2571,"rs":12239,"low":54,"act":454,"cert":10,"stock":6,"coh":16,"coh_a":11,"gmv":5530140},{"week":33,"week_start":"2026-08-10","month":"Aug","city":"Rest of India","req":14752,"asg":13793,"cc":301,"pc":150,"comp":13342,"ot":12076,"perfect":11754,"cpl":108,"redo":125,"rc":8161,"rs":38769,"low":186,"act":1571,"cert":35,"stock":24,"coh":55,"coh_a":35,"gmv":16544080},{"week":34,"week_start":"2026-08-17","month":"Aug","city":"Delhi","req":12716,"asg":12076,"cc":299,"pc":128,"comp":11649,"ot":10556,"perfect":10273,"cpl":86,"redo":116,"rc":7215,"rs":34275,"low":166,"act":1230,"cert":29,"stock":23,"coh":42,"coh_a":28,"gmv":15609660},{"week":34,"week_start":"2026-08-17","month":"Aug","city":"Gurugram","req":8895,"asg":8386,"cc":231,"pc":120,"comp":8035,"ot":7170,"perfect":6963,"cpl":70,"redo":82,"rc":4983,"rs":23622,"low":121,"act":824,"cert":16,"stock":16,"coh":28,"coh_a":18,"gmv":11409700},{"week":34,"week_start":"2026-08-17","month":"Aug","city":"Noida & Ghaziabad","req":8148,"asg":7655,"cc":199,"pc":95,"comp":7361,"ot":6643,"perfect":6456,"cpl":58,"redo":74,"rc":4586,"rs":21786,"low":112,"act":793,"cert":17,"stock":15,"coh":28,"coh_a":18,"gmv":9642910},{"week":34,"week_start":"2026-08-17","month":"Aug","city":"Mumbai","req":10288,"asg":9684,"cc":269,"pc":109,"comp":9306,"ot":8351,"perfect":8137,"cpl":69,"redo":86,"rc":5902,"rs":28097,"low":125,"act":893,"cert":21,"stock":15,"coh":29,"coh_a":18,"gmv":13586760},{"week":34,"week_start":"2026-08-17","month":"Aug","city":"Bengaluru","req":8970,"asg":8312,"cc":212,"pc":110,"comp":7990,"ot":7194,"perfect":7004,"cpl":60,"redo":80,"rc":5076,"rs":24165,"low":108,"act":796,"cert":18,"stock":13,"coh":25,"coh_a":15,"gmv":11265900},{"week":34,"week_start":"2026-08-17","month":"Aug","city":"Hyderabad","req":6095,"asg":5769,"cc":145,"pc":65,"comp":5559,"ot":5080,"perfect":4946,"cpl":42,"redo":51,"rc":3417,"rs":16233,"low":79,"act":593,"cert":11,"stock":11,"coh":19,"coh_a":13,"gmv":7226700},{"week":34,"week_start":"2026-08-17","month":"Aug","city":"Pune","req":4479,"asg":4218,"cc":110,"pc":51,"comp":4057,"ot":3662,"perfect":3571,"cpl":27,"redo":37,"rc":2558,"rs":12152,"low":55,"act":441,"cert":10,"stock":7,"coh":15,"coh_a":10,"gmv":5395810},{"week":34,"week_start":"2026-08-17","month":"Aug","city":"Rest of India","req":14909,"asg":14079,"cc":360,"pc":164,"comp":13555,"ot":12240,"perfect":11881,"cpl":115,"redo":149,"rc":8458,"rs":40096,"low":204,"act":1590,"cert":38,"stock":29,"coh":58,"coh_a":36,"gmv":16808200},{"week":35,"week_start":"2026-08-24","month":"Aug","city":"Delhi","req":12712,"asg":12062,"cc":330,"pc":113,"comp":11619,"ot":10526,"perfect":10251,"cpl":94,"redo":115,"rc":7113,"rs":33720,"low":148,"act":1223,"cert":31,"stock":23,"coh":42,"coh_a":26,"gmv":15569460},{"week":35,"week_start":"2026-08-24","month":"Aug","city":"Gurugram","req":8874,"asg":8404,"cc":238,"pc":116,"comp":8050,"ot":7123,"perfect":6896,"cpl":75,"redo":86,"rc":4989,"rs":23601,"low":141,"act":823,"cert":22,"stock":16,"coh":29,"coh_a":18,"gmv":11431000},{"week":35,"week_start":"2026-08-24","month":"Aug","city":"Noida & Ghaziabad","req":8392,"asg":7883,"cc":216,"pc":95,"comp":7572,"ot":6761,"perfect":6576,"cpl":64,"redo":79,"rc":4673,"rs":22153,"low":101,"act":813,"cert":21,"stock":15,"coh":30,"coh_a":19,"gmv":9919320},{"week":35,"week_start":"2026-08-24","month":"Aug","city":"Mumbai","req":10668,"asg":9957,"cc":307,"pc":100,"comp":9550,"ot":8580,"perfect":8357,"cpl":70,"redo":89,"rc":5908,"rs":28066,"low":133,"act":914,"cert":25,"stock":13,"coh":32,"coh_a":21,"gmv":13943000},{"week":35,"week_start":"2026-08-24","month":"Aug","city":"Bengaluru","req":9166,"asg":8504,"cc":242,"pc":99,"comp":8163,"ot":7371,"perfect":7161,"cpl":66,"redo":87,"rc":5100,"rs":24228,"low":120,"act":811,"cert":19,"stock":14,"coh":30,"coh_a":20,"gmv":11509830},{"week":35,"week_start":"2026-08-24","month":"Aug","city":"Hyderabad","req":6059,"asg":5732,"cc":155,"pc":58,"comp":5519,"ot":4982,"perfect":4843,"cpl":41,"redo":56,"rc":3465,"rs":16426,"low":84,"act":587,"cert":14,"stock":10,"coh":21,"coh_a":14,"gmv":7174700},{"week":35,"week_start":"2026-08-24","month":"Aug","city":"Pune","req":4459,"asg":4214,"cc":119,"pc":46,"comp":4049,"ot":3653,"perfect":3552,"cpl":31,"redo":38,"rc":2534,"rs":12012,"low":62,"act":440,"cert":10,"stock":6,"coh":17,"coh_a":11,"gmv":5385170},{"week":35,"week_start":"2026-08-24","month":"Aug","city":"Rest of India","req":14970,"asg":14026,"cc":375,"pc":152,"comp":13499,"ot":12155,"perfect":11806,"cpl":103,"redo":130,"rc":8391,"rs":39694,"low":223,"act":1579,"cert":39,"stock":25,"coh":54,"coh_a":37,"gmv":16738760},{"week":36,"week_start":"2026-08-31","month":"Sep","city":"Delhi","req":12976,"asg":12211,"cc":298,"pc":138,"comp":11775,"ot":10733,"perfect":10472,"cpl":89,"redo":96,"rc":7202,"rs":34214,"low":151,"act":1236,"cert":30,"stock":24,"coh":43,"coh_a":27,"gmv":15778500},{"week":36,"week_start":"2026-08-31","month":"Sep","city":"Gurugram","req":9077,"asg":8504,"cc":232,"pc":118,"comp":8154,"ot":7368,"perfect":7157,"cpl":71,"redo":76,"rc":5017,"rs":23783,"low":128,"act":831,"cert":21,"stock":17,"coh":29,"coh_a":19,"gmv":11578680},{"week":36,"week_start":"2026-08-31","month":"Sep","city":"Noida & Ghaziabad","req":8432,"asg":7874,"cc":207,"pc":103,"comp":7564,"ot":6881,"perfect":6699,"cpl":61,"redo":72,"rc":4697,"rs":22313,"low":102,"act":810,"cert":21,"stock":17,"coh":29,"coh_a":20,"gmv":9908840},{"week":36,"week_start":"2026-08-31","month":"Sep","city":"Mumbai","req":10644,"asg":9879,"cc":276,"pc":116,"comp":9487,"ot":8498,"perfect":8282,"cpl":67,"redo":88,"rc":5993,"rs":28530,"low":129,"act":905,"cert":21,"stock":15,"coh":32,"coh_a":19,"gmv":13851020},{"week":36,"week_start":"2026-08-31","month":"Sep","city":"Bengaluru","req":9253,"asg":8682,"cc":214,"pc":97,"comp":8371,"ot":7508,"perfect":7320,"cpl":65,"redo":75,"rc":5076,"rs":24165,"low":107,"act":829,"cert":21,"stock":16,"coh":26,"coh_a":15,"gmv":11803110},{"week":36,"week_start":"2026-08-31","month":"Sep","city":"Hyderabad","req":6062,"asg":5738,"cc":141,"pc":66,"comp":5531,"ot":5022,"perfect":4899,"cpl":38,"redo":48,"rc":3469,"rs":16480,"low":73,"act":587,"cert":14,"stock":9,"coh":20,"coh_a":13,"gmv":7190300},{"week":36,"week_start":"2026-08-31","month":"Sep","city":"Pune","req":4606,"asg":4277,"cc":115,"pc":49,"comp":4113,"ot":3735,"perfect":3647,"cpl":28,"redo":35,"rc":2525,"rs":11995,"low":51,"act":445,"cert":10,"stock":8,"coh":15,"coh_a":9,"gmv":5470290},{"week":36,"week_start":"2026-08-31","month":"Sep","city":"Rest of India","req":15050,"asg":14141,"cc":371,"pc":169,"comp":13601,"ot":12197,"perfect":11871,"cpl":109,"redo":127,"rc":8413,"rs":39882,"low":192,"act":1587,"cert":39,"stock":31,"coh":55,"coh_a":35,"gmv":16865240},{"week":37,"week_start":"2026-09-07","month":"Sep","city":"Delhi","req":13042,"asg":12296,"cc":288,"pc":138,"comp":11870,"ot":10674,"perfect":10398,"cpl":90,"redo":115,"rc":7372,"rs":34874,"low":156,"act":1238,"cert":28,"stock":21,"coh":38,"coh_a":24,"gmv":15905800},{"week":37,"week_start":"2026-09-07","month":"Sep","city":"Gurugram","req":9325,"asg":8787,"cc":239,"pc":133,"comp":8415,"ot":7598,"perfect":7368,"cpl":74,"redo":91,"rc":5226,"rs":24670,"low":134,"act":852,"cert":20,"stock":17,"coh":28,"coh_a":18,"gmv":11949300},{"week":37,"week_start":"2026-09-07","month":"Sep","city":"Noida & Ghaziabad","req":8462,"asg":7918,"cc":194,"pc":114,"comp":7610,"ot":6802,"perfect":6611,"cpl":66,"redo":80,"rc":4760,"rs":22517,"low":106,"act":810,"cert":20,"stock":16,"coh":27,"coh_a":17,"gmv":9969100},{"week":37,"week_start":"2026-09-07","month":"Sep","city":"Mumbai","req":10973,"asg":10280,"cc":288,"pc":133,"comp":9859,"ot":8769,"perfect":8535,"cpl":74,"redo":93,"rc":6141,"rs":29112,"low":143,"act":935,"cert":22,"stock":15,"coh":33,"coh_a":19,"gmv":14394140},{"week":37,"week_start":"2026-09-07","month":"Sep","city":"Bengaluru","req":9226,"asg":8643,"cc":222,"pc":112,"comp":8309,"ot":7428,"perfect":7220,"cpl":66,"redo":87,"rc":5175,"rs":24532,"low":121,"act":817,"cert":20,"stock":14,"coh":28,"coh_a":18,"gmv":11715690},{"week":37,"week_start":"2026-09-07","month":"Sep","city":"Hyderabad","req":6016,"asg":5713,"cc":132,"pc":71,"comp":5510,"ot":4997,"perfect":4851,"cpl":40,"redo":55,"rc":3421,"rs":16183,"low":94,"act":580,"cert":15,"stock":10,"coh":21,"coh_a":14,"gmv":7163000},{"week":37,"week_start":"2026-09-07","month":"Sep","city":"Pune","req":4566,"asg":4314,"cc":101,"pc":51,"comp":4162,"ot":3760,"perfect":3661,"cpl":29,"redo":39,"rc":2538,"rs":12006,"low":61,"act":447,"cert":10,"stock":8,"coh":15,"coh_a":10,"gmv":5535460},{"week":37,"week_start":"2026-09-07","month":"Sep","city":"Rest of India","req":15190,"asg":14164,"cc":339,"pc":185,"comp":13640,"ot":12271,"perfect":11916,"cpl":109,"redo":134,"rc":8518,"rs":40210,"low":221,"act":1581,"cert":35,"stock":30,"coh":51,"coh_a":34,"gmv":16913600},{"week":38,"week_start":"2026-09-14","month":"Sep","city":"Delhi","req":13117,"asg":12247,"cc":305,"pc":134,"comp":11808,"ot":10478,"perfect":10185,"cpl":91,"redo":125,"rc":7332,"rs":34758,"low":172,"act":1231,"cert":32,"stock":24,"coh":42,"coh_a":24,"gmv":15822720},{"week":38,"week_start":"2026-09-14","month":"Sep","city":"Gurugram","req":9378,"asg":8728,"cc":263,"pc":127,"comp":8338,"ot":7437,"perfect":7197,"cpl":71,"redo":101,"rc":5136,"rs":24297,"low":145,"act":844,"cert":21,"stock":20,"coh":28,"coh_a":18,"gmv":11839960},{"week":38,"week_start":"2026-09-14","month":"Sep","city":"Noida & Ghaziabad","req":8478,"asg":7998,"cc":220,"pc":95,"comp":7683,"ot":6950,"perfect":6738,"cpl":68,"redo":83,"rc":4659,"rs":22087,"low":125,"act":817,"cert":20,"stock":18,"coh":30,"coh_a":19,"gmv":10064730},{"week":38,"week_start":"2026-09-14","month":"Sep","city":"Mumbai","req":10932,"asg":10130,"cc":301,"pc":113,"comp":9716,"ot":8643,"perfect":8397,"cpl":78,"redo":106,"rc":6051,"rs":28746,"low":142,"act":921,"cert":23,"stock":17,"coh":34,"coh_a":21,"gmv":14185360},{"week":38,"week_start":"2026-09-14","month":"Sep","city":"Bengaluru","req":9187,"asg":8559,"cc":228,"pc":110,"comp":8221,"ot":7343,"perfect":7132,"cpl":67,"redo":89,"rc":5106,"rs":24257,"low":122,"act":808,"cert":24,"stock":16,"coh":27,"coh_a":16,"gmv":11591610},{"week":38,"week_start":"2026-09-14","month":"Sep","city":"Hyderabad","req":6215,"asg":5897,"cc":155,"pc":70,"comp":5672,"ot":5116,"perfect":4973,"cpl":44,"redo":60,"rc":3504,"rs":16611,"low":82,"act":597,"cert":14,"stock":11,"coh":21,"coh_a":13,"gmv":7373600},{"week":38,"week_start":"2026-09-14","month":"Sep","city":"Pune","req":4726,"asg":4445,"cc":109,"pc":46,"comp":4290,"ot":3873,"perfect":3769,"cpl":28,"redo":44,"rc":2643,"rs":12529,"low":64,"act":461,"cert":14,"stock":9,"coh":16,"coh_a":9,"gmv":5705700},{"week":38,"week_start":"2026-09-14","month":"Sep","city":"Rest of India","req":15567,"asg":14552,"cc":378,"pc":176,"comp":13998,"ot":12634,"perfect":12240,"cpl":125,"redo":159,"rc":8799,"rs":41625,"low":229,"act":1621,"cert":40,"stock":31,"coh":60,"coh_a":40,"gmv":17357520},{"week":39,"week_start":"2026-09-21","month":"Sep","city":"Delhi","req":13207,"asg":12485,"cc":302,"pc":147,"comp":12036,"ot":10846,"perfect":10569,"cpl":87,"redo":121,"rc":7427,"rs":35283,"low":153,"act":1249,"cert":27,"stock":24,"coh":38,"coh_a":25,"gmv":16128240},{"week":39,"week_start":"2026-09-21","month":"Sep","city":"Gurugram","req":9369,"asg":8751,"cc":236,"pc":128,"comp":8387,"ot":7553,"perfect":7332,"cpl":75,"redo":79,"rc":5087,"rs":24115,"low":135,"act":845,"cert":21,"stock":18,"coh":32,"coh_a":21,"gmv":11909540},{"week":39,"week_start":"2026-09-21","month":"Sep","city":"Noida & Ghaziabad","req":8519,"asg":8009,"cc":212,"pc":115,"comp":7682,"ot":6960,"perfect":6768,"cpl":66,"redo":81,"rc":4729,"rs":22465,"low":102,"act":814,"cert":18,"stock":17,"coh":28,"coh_a":18,"gmv":10063420},{"week":39,"week_start":"2026-09-21","month":"Sep","city":"Mumbai","req":11096,"asg":10294,"cc":293,"pc":125,"comp":9876,"ot":8819,"perfect":8592,"cpl":68,"redo":99,"rc":6112,"rs":29097,"low":132,"act":932,"cert":23,"stock":16,"coh":33,"coh_a":20,"gmv":14418960},{"week":39,"week_start":"2026-09-21","month":"Sep","city":"Bengaluru","req":9477,"asg":8832,"cc":221,"pc":120,"comp":8491,"ot":7594,"perfect":7385,"cpl":68,"redo":89,"rc":5264,"rs":25060,"low":118,"act":831,"cert":20,"stock":15,"coh":29,"coh_a":18,"gmv":11972310},{"week":39,"week_start":"2026-09-21","month":"Sep","city":"Hyderabad","req":6235,"asg":5802,"cc":143,"pc":68,"comp":5591,"ot":5018,"perfect":4885,"cpl":43,"redo":53,"rc":3459,"rs":16432,"low":78,"act":586,"cert":16,"stock":10,"coh":18,"coh_a":11,"gmv":7268300},{"week":39,"week_start":"2026-09-21","month":"Sep","city":"Pune","req":4640,"asg":4356,"cc":112,"pc":52,"comp":4192,"ot":3725,"perfect":3628,"cpl":28,"redo":42,"rc":2577,"rs":12242,"low":59,"act":448,"cert":11,"stock":8,"coh":16,"coh_a":10,"gmv":5575360},{"week":39,"week_start":"2026-09-21","month":"Sep","city":"Rest of India","req":15757,"asg":14760,"cc":387,"pc":198,"comp":14175,"ot":12802,"perfect":12437,"cpl":114,"redo":140,"rc":8800,"rs":41717,"low":222,"act":1635,"cert":43,"stock":31,"coh":52,"coh_a":32,"gmv":17577000},{"week":40,"week_start":"2026-09-28","month":"Oct","city":"Delhi","req":13203,"asg":12234,"cc":294,"pc":131,"comp":11809,"ot":10539,"perfect":10245,"cpl":96,"redo":122,"rc":7368,"rs":34855,"low":170,"act":1221,"cert":29,"stock":29,"coh":41,"coh_a":26,"gmv":15824060},{"week":40,"week_start":"2026-09-28","month":"Oct","city":"Gurugram","req":9473,"asg":8863,"cc":239,"pc":116,"comp":8508,"ot":7582,"perfect":7352,"cpl":77,"redo":89,"rc":5300,"rs":25019,"low":138,"act":854,"cert":22,"stock":21,"coh":28,"coh_a":17,"gmv":12081360},{"week":40,"week_start":"2026-09-28","month":"Oct","city":"Noida & Ghaziabad","req":8618,"asg":8115,"cc":198,"pc":101,"comp":7816,"ot":7024,"perfect":6832,"cpl":63,"redo":76,"rc":4847,"rs":22930,"low":112,"act":825,"cert":19,"stock":20,"coh":26,"coh_a":16,"gmv":10238960},{"week":40,"week_start":"2026-09-28","month":"Oct","city":"Mumbai","req":11226,"asg":10386,"cc":267,"pc":118,"comp":10001,"ot":8864,"perfect":8619,"cpl":72,"redo":106,"rc":6133,"rs":29074,"low":147,"act":940,"cert":26,"stock":17,"coh":34,"coh_a":21,"gmv":14601460},{"week":40,"week_start":"2026-09-28","month":"Oct","city":"Bengaluru","req":9425,"asg":8771,"cc":209,"pc":107,"comp":8455,"ot":7592,"perfect":7385,"cpl":69,"redo":82,"rc":5229,"rs":24789,"low":121,"act":825,"cert":26,"stock":17,"coh":31,"coh_a":19,"gmv":11921550},{"week":40,"week_start":"2026-09-28","month":"Oct","city":"Hyderabad","req":6466,"asg":6071,"cc":134,"pc":75,"comp":5862,"ot":5235,"perfect":5092,"cpl":42,"redo":56,"rc":3685,"rs":17432,"low":90,"act":612,"cert":15,"stock":12,"coh":23,"coh_a":14,"gmv":7620600},{"week":40,"week_start":"2026-09-28","month":"Oct","city":"Pune","req":4789,"asg":4507,"cc":97,"pc":49,"comp":4361,"ot":3911,"perfect":3808,"cpl":30,"redo":41,"rc":2682,"rs":12688,"low":64,"act":465,"cert":12,"stock":9,"coh":17,"coh_a":10,"gmv":5800130},{"week":40,"week_start":"2026-09-28","month":"Oct","city":"Rest of India","req":15900,"asg":14774,"cc":331,"pc":188,"comp":14255,"ot":12787,"perfect":12424,"cpl":120,"redo":139,"rc":8889,"rs":41962,"low":217,"act":1638,"cert":43,"stock":37,"coh":52,"coh_a":33,"gmv":17676200},{"week":41,"week_start":"2026-10-05","month":"Oct","city":"Delhi","req":13676,"asg":12906,"cc":323,"pc":171,"comp":12412,"ot":11029,"perfect":10738,"cpl":88,"redo":124,"rc":7719,"rs":36594,"low":173,"act":1282,"cert":32,"stock":28,"coh":45,"coh_a":28,"gmv":16632080},{"week":41,"week_start":"2026-10-05","month":"Oct","city":"Gurugram","req":9476,"asg":8816,"cc":218,"pc":122,"comp":8476,"ot":7540,"perfect":7318,"cpl":74,"redo":85,"rc":5311,"rs":25125,"low":135,"act":850,"cert":20,"stock":18,"coh":30,"coh_a":19,"gmv":12035920},{"week":41,"week_start":"2026-10-05","month":"Oct","city":"Noida & Ghaziabad","req":8826,"asg":8172,"cc":208,"pc":118,"comp":7846,"ot":6948,"perfect":6747,"cpl":71,"redo":80,"rc":4851,"rs":22997,"low":116,"act":827,"cert":18,"stock":20,"coh":30,"coh_a":19,"gmv":10278260},{"week":41,"week_start":"2026-10-05","month":"Oct","city":"Mumbai","req":11247,"asg":10337,"cc":280,"pc":123,"comp":9934,"ot":8848,"perfect":8606,"cpl":75,"redo":106,"rc":6073,"rs":28851,"low":139,"act":933,"cert":27,"stock":19,"coh":30,"coh_a":18,"gmv":14503640},{"week":41,"week_start":"2026-10-05","month":"Oct","city":"Bengaluru","req":9252,"asg":8616,"cc":226,"pc":103,"comp":8287,"ot":7435,"perfect":7221,"cpl":71,"redo":90,"rc":5017,"rs":23834,"low":119,"act":808,"cert":18,"stock":16,"coh":27,"coh_a":17,"gmv":11684670},{"week":41,"week_start":"2026-10-05","month":"Oct","city":"Hyderabad","req":6462,"asg":6038,"cc":137,"pc":73,"comp":5828,"ot":5229,"perfect":5078,"cpl":46,"redo":58,"rc":3654,"rs":17323,"low":94,"act":608,"cert":16,"stock":13,"coh":19,"coh_a":12,"gmv":7576400},{"week":41,"week_start":"2026-10-05","month":"Oct","city":"Pune","req":4828,"asg":4514,"cc":114,"pc":59,"comp":4341,"ot":3892,"perfect":3788,"cpl":32,"redo":40,"rc":2686,"rs":12734,"low":64,"act":462,"cert":12,"stock":8,"coh":15,"coh_a":10,"gmv":5773530},{"week":41,"week_start":"2026-10-05","month":"Oct","city":"Rest of India","req":16133,"asg":14908,"cc":344,"pc":188,"comp":14376,"ot":12785,"perfect":12424,"cpl":122,"redo":132,"rc":9019,"rs":42666,"low":224,"act":1650,"cert":42,"stock":34,"coh":52,"coh_a":33,"gmv":17826240},{"week":42,"week_start":"2026-10-12","month":"Oct","city":"Delhi","req":13828,"asg":12763,"cc":338,"pc":162,"comp":12263,"ot":10853,"perfect":10538,"cpl":99,"redo":128,"rc":7723,"rs":36452,"low":191,"act":1281,"cert":31,"stock":44,"coh":45,"coh_a":30,"gmv":16432420},{"week":42,"week_start":"2026-10-12","month":"Oct","city":"Gurugram","req":9790,"asg":8899,"cc":277,"pc":263,"comp":8359,"ot":7286,"perfect":6931,"cpl":164,"redo":94,"rc":5134,"rs":24236,"low":221,"act":847,"cert":21,"stock":58,"coh":28,"coh_a":18,"gmv":11869780},{"week":42,"week_start":"2026-10-12","month":"Oct","city":"Noida & Ghaziabad","req":8856,"asg":8254,"cc":234,"pc":204,"comp":7816,"ot":6880,"perfect":6646,"cpl":87,"redo":85,"rc":4852,"rs":22901,"low":141,"act":833,"cert":25,"stock":43,"coh":27,"coh_a":17,"gmv":10238960},{"week":42,"week_start":"2026-10-12","month":"Oct","city":"Mumbai","req":11359,"asg":10025,"cc":374,"pc":130,"comp":9521,"ot":8353,"perfect":8105,"cpl":76,"redo":105,"rc":5935,"rs":28013,"low":151,"act":904,"cert":26,"stock":20,"coh":33,"coh_a":21,"gmv":13900660},{"week":42,"week_start":"2026-10-12","month":"Oct","city":"Bengaluru","req":9640,"asg":8565,"cc":247,"pc":117,"comp":8201,"ot":7156,"perfect":6944,"cpl":69,"redo":97,"rc":4984,"rs":23524,"low":120,"act":808,"cert":24,"stock":18,"coh":31,"coh_a":19,"gmv":11563410},{"week":42,"week_start":"2026-10-12","month":"Oct","city":"Hyderabad","req":6553,"asg":6200,"cc":169,"pc":69,"comp":5962,"ot":5400,"perfect":5238,"cpl":42,"redo":71,"rc":3756,"rs":17728,"low":97,"act":629,"cert":17,"stock":13,"coh":22,"coh_a":13,"gmv":7750600},{"week":42,"week_start":"2026-10-12","month":"Oct","city":"Pune","req":4773,"asg":4460,"cc":123,"pc":52,"comp":4285,"ot":3795,"perfect":3692,"cpl":29,"redo":40,"rc":2621,"rs":12371,"low":67,"act":461,"cert":15,"stock":8,"coh":15,"coh_a":10,"gmv":5699050},{"week":42,"week_start":"2026-10-12","month":"Oct","city":"Rest of India","req":16601,"asg":15396,"cc":403,"pc":200,"comp":14793,"ot":13218,"perfect":12805,"cpl":132,"redo":163,"rc":9139,"rs":43135,"low":248,"act":1717,"cert":51,"stock":35,"coh":59,"coh_a":38,"gmv":18343320}],"grid":{"days":["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],"slots":["8–11","11–14","14–17","17–20","20–22"],"cells":[[{"req":1954,"asg":1864},{"req":2344,"asg":2244},{"req":2051,"asg":1923},{"req":2247,"asg":2086},{"req":1172,"asg":1071}],[{"req":1889,"asg":1807},{"req":2266,"asg":2139},{"req":1983,"asg":1884},{"req":2172,"asg":2009},{"req":1133,"asg":1036}],[{"req":1921,"asg":1829},{"req":2305,"asg":2191},{"req":2017,"asg":1888},{"req":2209,"asg":2051},{"req":1153,"asg":1052}],[{"req":1970,"asg":1882},{"req":2364,"asg":2225},{"req":2068,"asg":1957},{"req":2265,"asg":2108},{"req":1182,"asg":1081}],[{"req":2198,"asg":2100},{"req":2637,"asg":2494},{"req":2308,"asg":2191},{"req":2527,"asg":2295},{"req":1319,"asg":1182}],[{"req":3158,"asg":2946},{"req":3790,"asg":3435},{"req":3316,"asg":2975},{"req":3632,"asg":3024},{"req":1895,"asg":1525}],[{"req":3191,"asg":2977},{"req":3829,"asg":3519},{"req":3350,"asg":2985},{"req":3670,"asg":3054},{"req":1915,"asg":1533}]],"wknd_eve_req":11112,"wknd_eve_unf":1976,"unfilled":6838},"cats":[{"cat":"Waxing","jobs41":17160,"cpl41":160,"jobs42":17032,"cpl42":253},{"cat":"Facial & clean-up","jobs41":14300,"cpl41":112,"jobs42":14193,"cpl42":121},{"cat":"Massage & body","jobs41":6435,"cpl41":40,"jobs42":6387,"cpl42":40},{"cat":"Hair care","jobs41":9295,"cpl41":77,"jobs42":9225,"cpl42":83},{"cat":"Mani-pedi","jobs41":8580,"cpl41":60,"jobs42":8516,"cpl42":61},{"cat":"Threading & de-tan","jobs41":7865,"cpl41":53,"jobs42":7806,"cpl42":53},{"cat":"Laser & Hydra","jobs41":4290,"cpl41":45,"jobs42":4386,"cpl42":50},{"cat":"Makeup","jobs41":3575,"cpl41":32,"jobs42":3655,"cpl42":37}],"reasons":[["Service quality",236],["Late arrival",162],["Product & hygiene",118],["Pricing & billing",71],["Partner behaviour",64],["Damage & other",47]],"hubs":[{"hub":"GGN-2","city":"Gurugram","partners":61,"jobs":612,"cpl":15,"stock":6,"pc":21,"asg":650},{"hub":"GGN-4","city":"Gurugram","partners":57,"jobs":571,"cpl":12,"stock":5,"pc":15,"asg":604},{"hub":"NOI-1","city":"Noida & Ghaziabad","partners":64,"jobs":598,"cpl":7,"stock":4,"pc":16,"asg":628},{"hub":"GGN-1","city":"Gurugram","partners":55,"jobs":540,"cpl":7,"stock":3,"pc":9,"asg":566},{"hub":"DEL-3","city":"Delhi","partners":66,"jobs":640,"cpl":6,"stock":2,"pc":13,"asg":664},{"hub":"NOI-3","city":"Noida & Ghaziabad","partners":52,"jobs":489,"cpl":5,"stock":3,"pc":8,"asg":512},{"hub":"DEL-1","city":"Delhi","partners":70,"jobs":702,"cpl":6,"stock":1,"pc":9,"asg":722},{"hub":"MUM-2","city":"Mumbai","partners":58,"jobs":655,"cpl":5,"stock":1,"pc":10,"asg":688},{"hub":"BLR-1","city":"Bengaluru","partners":54,"jobs":588,"cpl":5,"stock":1,"pc":5,"asg":610},{"hub":"MUM-4","city":"Mumbai","partners":49,"jobs":560,"cpl":4,"stock":0,"pc":7,"asg":590},{"hub":"HYD-2","city":"Hyderabad","partners":50,"jobs":496,"cpl":4,"stock":1,"pc":4,"asg":512},{"hub":"PUN-1","city":"Pune","partners":41,"jobs":402,"cpl":3,"stock":0,"pc":5,"asg":418}],"skus":[{"sku":"Wax & strips","w41":52,"w42":118},{"sku":"Disposable sheets & towels","w41":38,"w42":74},{"sku":"Single-use facial kits","w41":31,"w42":61},{"sku":"Gloves & hygiene pack","w41":24,"w42":45},{"sku":"Threading & bleach","w41":14,"w42":22},{"sku":"Hair spa & colour","w41":12,"w42":19},{"sku":"Mani-pedi tools","w41":9,"w42":14}],"supply":[{"week":31,"sourced":1021,"started":436,"cert":168,"kit":155,"first_job":135,"in_training":1289},{"week":32,"sourced":1022,"started":472,"cert":172,"kit":159,"first_job":139,"in_training":1356},{"week":33,"sourced":1045,"started":475,"cert":175,"kit":164,"first_job":142,"in_training":1356},{"week":34,"sourced":984,"started":411,"cert":160,"kit":151,"first_job":132,"in_training":1377},{"week":35,"sourced":1045,"started":464,"cert":181,"kit":168,"first_job":146,"in_training":1374},{"week":36,"sourced":1081,"started":487,"cert":177,"kit":167,"first_job":142,"in_training":1385},{"week":37,"sourced":1033,"started":463,"cert":170,"kit":161,"first_job":139,"in_training":1393},{"week":38,"sourced":1157,"started":489,"cert":188,"kit":174,"first_job":153,"in_training":1396},{"week":39,"sourced":1069,"started":487,"cert":179,"kit":166,"first_job":147,"in_training":1436},{"week":40,"sourced":1157,"started":518,"cert":192,"kit":177,"first_job":160,"in_training":1440},{"week":41,"sourced":1139,"started":498,"cert":185,"kit":176,"first_job":153,"in_training":1457},{"week":42,"sourced":1213,"started":558,"cert":210,"kit":194,"first_job":173,"in_training":1453}],"cohorts":[{"cohort":"Apr 2026","size":690,"ret":[93,87,79,71,65]},{"cohort":"May 2026","size":720,"ret":[92,86,78,70,64]},{"cohort":"Jun 2026","size":705,"ret":[93,86,77,69,63]},{"cohort":"Jul 2026","size":760,"ret":[92,85,77,70,64]},{"cohort":"Aug 2026","size":790,"ret":[91,85,76,69,null]},{"cohort":"Sep 2026","size":800,"ret":[92,84,77,null,null]}],"util_bands":[["< 0.5",560],["0.5–1",980],["1–1.5",1720],["1.5–2",2240],["2–2.5",1330],["2.5+",650]],"actions":[{"id":"A-101","action":"Refill top 5 kit items at Gurugram and Noida hubs","owner":"Inventory","kpi":"Kit stock-out","raised":"2026-10-12","due":"2026-10-16","status":"In progress","closed":null,"update":"3 of 5 items refilled; wax batch on hold for QC","next":"Clear wax QC Tue, refill by Wed"},{"id":"A-102","action":"Retrain 41 flagged waxing partners, GGN-2 and GGN-4","owner":"Training & QA","kpi":"Complaints / 1,000","raised":"2026-10-14","due":"2026-10-22","status":"In progress","closed":null,"update":"18 of 41 retrained","next":"Two more batches Wed and Thu"},{"id":"A-103","action":"QC check on wax batch #W-2291 used in Gurugram","owner":"Inventory","kpi":"Complaints / 1,000","raised":"2026-10-15","due":"2026-10-20","status":"In progress","closed":null,"update":"Samples sent to vendor lab","next":"Lab result Tue"},{"id":"A-104","action":"Weekend-evening incentive pilot: MUM-2, MUM-4, BLR-1","owner":"City Ops","kpi":"Fill rate","raised":"2026-10-15","due":"2026-10-23","status":"Not started","closed":null,"update":"Waiting for VP budget sign-off","next":"Decision in Mon review"},{"id":"A-105","action":"Root-cause late arrivals beyond a 3 km dispatch radius","owner":"City Ops","kpi":"On-time arrival","raised":"2026-10-13","due":"2026-10-22","status":"In progress","closed":null,"update":"Pulled 2 weeks of dispatch logs","next":"Share findings Thu"},{"id":"A-106","action":"Re-activate 420 partners with no job in 14 days","owner":"Supply","kpi":"Active partners","raised":"2026-10-12","due":"2026-10-24","status":"In progress","closed":null,"update":"240 called, 96 back on app","next":"Finish calls Fri"},{"id":"A-107","action":"Week-4 drop-off survey, Aug joining cohort","owner":"Supply","kpi":"90-day retention","raised":"2026-10-08","due":"2026-10-17","status":"In progress","closed":null,"update":"62 of 150 responses","next":"Close Tue, readout at review"},{"id":"A-108","action":"Add 2 Noida training batches for wedding season","owner":"Training & QA","kpi":"New partners certified","raised":"2026-10-12","due":"2026-10-26","status":"In progress","closed":null,"update":"Trainers confirmed","next":"Batch 1 starts Mon 26"},{"id":"A-109","action":"Auto-escalate complaints open over 24 hours","owner":"CX","kpi":"Complaints resolved < 24h","raised":"2026-10-13","due":"2026-10-23","status":"In progress","closed":null,"update":"Rule drafted with tech","next":"Go live Thu"},{"id":"A-110","action":"Audit refund approvals above ₹1,500","owner":"CX","kpi":"Redo / refund rate","raised":"2026-10-06","due":"2026-10-15","status":"In progress","closed":null,"update":"Data pulled; review pending","next":"Needs 1 hour with Finance"},{"id":"A-111","action":"Hub kit auto-reorder at 5 days of stock","owner":"Inventory","kpi":"Kit stock-out","raised":"2026-10-15","due":"2026-10-30","status":"Not started","closed":null,"update":"Needs VP approval for buffer stock","next":"Decision in Mon review"},{"id":"A-112","action":"Wedding-season staffing plan, Nov to Feb","owner":"City Ops","kpi":"Fill rate","raised":"2026-10-12","due":"2026-10-28","status":"In progress","closed":null,"update":"Demand forecast done","next":"Supply gap by city Wed"},{"id":"A-113","action":"One definition for 'fill rate' across all 5 teams","owner":"Founder's Office","kpi":"Data quality","raised":"2026-10-12","due":"2026-10-19","status":"Done","closed":"2026-10-18","update":"Metric dictionary v1 shared","next":"Sign-off from 5 managers"},{"id":"A-114","action":"Cap Mumbai Saturday-evening slots at capacity","owner":"City Ops","kpi":"Fill rate","raised":"2026-10-05","due":"2026-10-14","status":"Done","closed":"2026-10-13","update":"Live since 13 Oct","next":"Review impact next week"},{"id":"A-115","action":"Hygiene audit of 30 random partners","owner":"Training & QA","kpi":"Average rating","raised":"2026-10-01","due":"2026-10-12","status":"Done","closed":"2026-10-14","update":"28 of 30 passed; 2 re-briefed","next":"—"},{"id":"A-116","action":"Automate the MIS refresh from the ops app","owner":"Founder's Office","kpi":"Data quality","raised":"2026-10-12","due":"2026-11-06","status":"Not started","closed":null,"update":"Scoping with tech","next":"Plan by 26 Oct"}],"closure":{"City Ops":[9,11],"Supply":[7,9],"Training & QA":[8,9],"CX":[6,9],"Inventory":[5,8],"Founder's Office":[6,6]}};</script>
+<script>
+(() => {
+"use strict";
+const D = DATA;
+const CUR = D.meta.cur, PREV = D.meta.prev, WEEKS = D.meta.weeks;
+const REPORT = new Date(D.meta.report_date + "T00:00:00");
+
+/* ---------------- formatting ---------------- */
+const MINUS = "−";
+const nf = new Intl.NumberFormat("en-IN", { maximumFractionDigits: 0 });
+const fInt = n => nf.format(Math.round(n));
+const fPct = (x, d = 1) => (x * 100).toFixed(d) + "%";
+const fLakh = r => r >= 1e7 ? "₹" + (r / 1e7).toFixed(2) + " Cr" : "₹" + (r / 1e5).toFixed(1) + " L";
+const signed = (x, txt) => (x > 0 ? "+" : x < 0 ? MINUS : "±") + txt;
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const wk = w => "W" + w;
+const dfmt = d => new Date(d + "T00:00:00").toLocaleDateString("en-GB", { day: "numeric", month: "short" });
+const daysBetween = (a, b) => Math.round((b - a) / 86400000);
+
+/* ---------------- aggregation ---------------- */
+const FIELDS = ["req", "asg", "cc", "pc", "comp", "ot", "perfect", "cpl", "redo", "rc", "rs", "low", "act", "cert", "stock", "coh", "coh_a", "gmv"];
+function agg(weeks, city) {
+  const ws = Array.isArray(weeks) ? weeks : [weeks];
+  const o = Object.fromEntries(FIELDS.map(f => [f, 0]));
+  o.n = ws.length;
+  for (const r of D.rows) {
+    if (!ws.includes(r.week)) continue;
+    if (city && city !== "All India" && r.city !== city) continue;
+    for (const f of FIELDS) o[f] += r[f];
+  }
+  return o;
+}
+
+/* KPI definitions: one place for formula, target, direction and owner */
+const KPIS = [
+  { key: "nsm", block: "North Star", name: "Perfect booking rate", f: a => a.perfect / a.req, fmt: "pct", dir: "up", target: 0.77, owner: "All five" },
+  { key: "req", block: "Demand & fulfilment", name: "Booking requests", f: a => a.req / a.n, fmt: "int", dir: "info", good: "up", owner: "City Ops" },
+  { key: "fill", name: "Fill rate", f: a => a.asg / a.req, fmt: "pct", dir: "up", target: 0.95, owner: "City Ops" },
+  { key: "comp", name: "Jobs completed", f: a => a.comp / a.n, fmt: "int", dir: "info", good: "up", owner: "City Ops" },
+  { key: "ot", name: "On-time arrival", f: a => a.ot / a.comp, fmt: "pct", dir: "up", target: 0.92, owner: "City Ops" },
+  { key: "cc", name: "Cancellations, customer side", f: a => a.cc / a.asg, fmt: "pct", dir: "down", target: 0.03, owner: "CX" },
+  { key: "pc", name: "Cancellations, partner side", f: a => a.pc / a.asg, fmt: "pct", dir: "down", target: 0.015, owner: "Supply" },
+  { key: "act", block: "Partner supply", name: "Active partners (1+ job)", f: a => a.act / a.n, fmt: "int", dir: "up", target: 7600, owner: "Supply", national: true },
+  { key: "cert", name: "New partners certified", f: a => a.cert / a.n, fmt: "int", dir: "up", target: 200, owner: "Training & QA", national: true },
+  { key: "ret", name: "90-day retention (cohort)", f: a => a.coh_a / a.coh, fmt: "pct0", dir: "up", target: 0.70, owner: "Supply" },
+  { key: "jppd", block: "Productivity", name: "Jobs per active partner per day", f: a => a.comp / (a.act * 6), fmt: "d2", dir: "up", target: 1.65, owner: "City Ops" },
+  { key: "rating", block: "Quality", name: "Average rating", f: a => a.rs / a.rc, fmt: "d2", dir: "up", target: 4.70, owner: "Training & QA" },
+  { key: "cpk", name: "Complaints per 1,000 jobs", f: a => a.cpl / a.comp * 1000, fmt: "d1", dir: "down", target: 8.0, owner: "CX" },
+  { key: "redo", name: "Redo / refund rate", f: a => a.redo / a.comp, fmt: "pct", dir: "down", target: 0.012, owner: "CX" },
+  { key: "kit", block: "Kits", name: "Partners with a kit stock-out", f: a => a.stock / a.act, fmt: "pct", dir: "down", target: 0.02, owner: "Inventory" },
+];
+const K = Object.fromEntries(KPIS.map(k => [k.key, k]));
+
+function fmtV(k, v) {
+  if (v == null || !isFinite(v)) return "—";
+  switch (k.fmt) {
+    case "pct": return fPct(v, 1);
+    case "pct0": return fPct(v, 0);
+    case "int": return fInt(v);
+    case "d1": return v.toFixed(1);
+    case "d2": return v.toFixed(2);
+  }
+  return String(v);
+}
+function fmtTarget(k) {
+  if (k.target == null) return "—";
+  const p = k.dir === "down" ? "<" : "≥";
+  if (k.fmt === "int") return fInt(k.target);
+  return p + fmtV(k, k.target).replace(/\.0%$/, "%");
+}
+function status(k, v, scopeCity) {
+  if (k.dir === "info" || k.target == null) return "n";
+  if (k.national && scopeCity && scopeCity !== "All India") return "n";
+  if (k.dir === "up") return v >= k.target ? "g" : v >= k.target * 0.95 ? "a" : "r";
+  return v <= k.target ? "g" : v <= k.target * 1.05 ? "a" : "r";
+}
+function delta(k, v, lv) {
+  const up = (k.good || k.dir) === "up";
+  const d = v - lv;
+  const cls = Math.abs(d) < 1e-9 ? "flat" : (d > 0) === up ? "good" : "bad";
+  let txt;
+  if (k.fmt === "pct" || k.fmt === "pct0") txt = signed(d, Math.abs(d * 100).toFixed(1) + " pts");
+  else if (k.fmt === "int") txt = signed(d, Math.abs((v / lv - 1) * 100).toFixed(1) + "%");
+  else txt = signed(d, Math.abs(d).toFixed(k.fmt === "d1" ? 1 : 2));
+  return { cls, txt };
+}
+const RAG_LABEL = { g: "Green", a: "Amber", r: "Red", n: "Info" };
+const RAG_ICON = { g: "✓", a: "!", r: "✕", n: "–" };
+const rag = (s, label) => `<span class="rag ${s}"><i aria-hidden="true">${RAG_ICON[s]}</i>${label || RAG_LABEL[s]}</span>`;
+const dot = s => `<span class="dot ${s}" aria-hidden="true"></span>`;
+
+function series(k, city) { return WEEKS.map(w => k.f(agg(w, city))); }
+
+/* ---------------- theme-aware palette ---------------- */
+const darkQuery = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+function isDark() {
+  const t = document.documentElement.dataset.theme;
+  return t === "dark" || (t !== "light" && !!(darkQuery && darkQuery.matches));
+}
+function pal() {
+  const dark = isDark();
+  return dark ? {
+    dark, accent: "#3987e5", soft: "#1c5cab", gray: "#6f6d67", s2: "#d95926", ink: "#f0efec", ink2: "#c3c2b7",
+    muted: "#95938c", grid: "#2c2c2a", surface: "#1a1a19", mid: "#383835",
+    redArm: ["#383835", "#7a3434", "#c24a4a", "#e66767"], blueArm: ["#383835", "#1c5cab", "#3987e5"],
+    seq: ["#0d366b", "#184f95", "#256abf", "#3987e5", "#86b6ef"],
+  } : {
+    dark, accent: "#2a78d6", soft: "#86b6ef", gray: "#b9b7ae", s2: "#eb6834", ink: "#0b0b0b", ink2: "#52514e",
+    muted: "#7d7b75", grid: "#e7e6e0", surface: "#ffffff", mid: "#f0efec",
+    redArm: ["#f0efec", "#f4b9b3", "#e66a63", "#c43a3a"], blueArm: ["#f0efec", "#b7d3f6", "#2a78d6"],
+    seq: ["#cde2fb", "#86b6ef", "#3987e5", "#1c5cab", "#104281"],
+  };
+}
+function hex2rgb(h) { const n = parseInt(h.slice(1), 16); return [n >> 16 & 255, n >> 8 & 255, n & 255]; }
+function mix(a, b, t) { const A = hex2rgb(a), B = hex2rgb(b); return "rgb(" + A.map((v, i) => Math.round(v + (B[i] - v) * t)).join(",") + ")"; }
+function ramp(stops, t) {
+  t = Math.max(0, Math.min(1, t));
+  const seg = (stops.length - 1) * t, i = Math.min(stops.length - 2, Math.floor(seg));
+  return mix(stops[i], stops[i + 1], seg - i);
+}
+function inkOn(rgb) {
+  const [r, g, b] = rgb.match(/\d+/g).map(Number).map(v => { v /= 255; return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4); });
+  const L = 0.2126 * r + 0.7152 * g + 0.0722 * b;
+  return L < 0.32 ? "#ffffff" : "#0b0b0b";
+}
+
+/* ---------------- tooltip ---------------- */
+const tip = document.getElementById("tip");
+function showTip(e, title, rows) {
+  tip.replaceChildren();
+  if (title) { const t = document.createElement("div"); t.className = "tt"; t.textContent = title; tip.append(t); }
+  for (const r of rows) {
+    const row = document.createElement("div"); row.className = "tr";
+    const k = document.createElement("span"); k.className = "k";
+    if (r.color) { const s = document.createElement("span"); s.className = "key-line"; s.style.background = r.color; k.append(s); }
+    k.append(document.createTextNode(r.k));
+    const v = document.createElement("span"); v.className = "v"; v.textContent = r.v;
+    row.append(k, v); tip.append(row);
+  }
+  tip.style.display = "block";
+  moveTip(e);
+}
+function moveTip(e) {
+  const x = e.clientX, y = e.clientY, w = tip.offsetWidth, h = tip.offsetHeight;
+  let left = x + 14, top = y + 14;
+  if (left + w > innerWidth - 8) left = x - w - 14;
+  if (top + h > innerHeight - 8) top = y - h - 14;
+  tip.style.left = left + "px"; tip.style.top = top + "px";
+}
+function hideTip() { tip.style.display = "none"; }
+function bindTips(root) {
+  root.querySelectorAll("[data-tip]").forEach(el => {
+    const data = JSON.parse(el.dataset.tip);
+    const on = e => showTip(e.clientX ? e : centerEvt(el), data.t, data.r);
+    el.addEventListener("pointermove", on);
+    el.addEventListener("focus", on);
+    el.addEventListener("pointerleave", hideTip);
+    el.addEventListener("blur", hideTip);
+  });
+}
+function centerEvt(el) { const r = el.getBoundingClientRect(); return { clientX: r.left + r.width / 2, clientY: r.top + r.height / 2 }; }
+const tipAttr = (t, r) => `data-tip='${esc(JSON.stringify({ t, r }))}' tabindex="0"`;
+
+/* ---------------- charts ---------------- */
+function niceTicks(min, max, count = 4) {
+  const span = max - min || 1;
+  const step0 = span / count, mag = Math.pow(10, Math.floor(Math.log10(step0)));
+  const err = step0 / mag;
+  const step = (err >= 7.5 ? 10 : err >= 3.5 ? 5 : err >= 1.5 ? 2 : 1) * mag;
+  const lo = Math.floor(min / step) * step, hi = Math.ceil(max / step) * step;
+  const t = []; for (let v = lo; v <= hi + step / 2; v += step) t.push(+v.toFixed(10));
+  return t;
+}
+
+/* Line chart with crosshair, end labels and an optional target line. */
+function lineChart(el, o) {
+  const P = pal();
+  const W = Math.max(260, el.clientWidth), H = o.height || 200;
+  const m = { l: o.ml || 44, r: o.mr || 58, t: 12, b: 24 };
+  const iw = W - m.l - m.r, ih = H - m.t - m.b;
+  const all = o.series.flatMap(s => s.values).concat(o.target != null ? [o.target] : []);
+  let lo = Math.min(...all), hi = Math.max(...all);
+  const pad = (hi - lo) * 0.15 || Math.abs(hi) * 0.05;
+  lo -= pad; hi += pad;
+  if (o.yMin != null) lo = o.yMin;
+  const ticks = niceTicks(lo, hi, 4);
+  lo = ticks[0]; hi = ticks[ticks.length - 1];
+  const n = o.labels.length;
+  const x = i => m.l + (n === 1 ? iw / 2 : i * iw / (n - 1));
+  const y = v => m.t + ih - (v - lo) / (hi - lo) * ih;
+  let s = `<svg width="${W}" height="${H}" role="img" aria-label="${esc(o.aria || "")}">`;
+  for (const t of ticks) s += `<line class="gl" x1="${m.l}" x2="${W - m.r}" y1="${y(t)}" y2="${y(t)}"/><text class="ax" x="${m.l - 8}" y="${y(t) + 4}" text-anchor="end">${esc(o.yFmt(t))}</text>`;
+  o.labels.forEach((l, i) => { if (i % (o.every || 2) === (n - 1) % (o.every || 2)) s += `<text class="ax" x="${x(i)}" y="${H - 6}" text-anchor="middle">${esc(l)}</text>`; });
+  if (o.target != null) {
+    s += `<line x1="${m.l}" x2="${W - m.r}" y1="${y(o.target)}" y2="${y(o.target)}" style="stroke:${P.muted}" stroke-width="1.5" stroke-dasharray="5 4"/>`;
+    s += `<text class="ax" x="${W - m.r + 6}" y="${y(o.target) + 4}">${esc(o.targetLabel || "Target")}</text>`;
+  }
+  for (const se of o.series) {
+    const d = se.values.map((v, i) => (i ? "L" : "M") + x(i).toFixed(1) + " " + y(v).toFixed(1)).join(" ");
+    if (o.area && o.series.length === 1) s += `<path d="${d} L${x(n - 1)} ${m.t + ih} L${x(0)} ${m.t + ih} Z" style="fill:${se.color};opacity:.10"/>`;
+    s += `<path d="${d}" fill="none" style="stroke:${se.color}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`;
+    const lx = x(n - 1), ly = y(se.values[n - 1]);
+    s += `<circle cx="${lx}" cy="${ly}" r="4.5" style="fill:${se.color};stroke:${P.surface}" stroke-width="2"/>`;
+    const dy = se.labelDy || 0;
+    s += `<text class="lbl-ink" x="${lx + 8}" y="${ly + 4 + dy}">${esc(se.end || o.yFmtLong(se.values[n - 1]))}</text>`;
+  }
+  s += `<g class="xh" style="display:none"><line class="xhl" y1="${m.t}" y2="${m.t + ih}" style="stroke:${P.ink2}" stroke-width="1"/>`;
+  o.series.forEach((se, j) => { s += `<circle class="xhd${j}" r="4" style="fill:${se.color};stroke:${P.surface}" stroke-width="2"/>`; });
+  s += `</g><rect class="hit" x="${m.l}" y="${m.t}" width="${iw}" height="${ih}" fill="transparent"/></svg>`;
+  el.innerHTML = s;
+  const svg = el.querySelector("svg"), xh = svg.querySelector(".xh"), hit = svg.querySelector(".hit");
+  hit.addEventListener("pointermove", e => {
+    const r = svg.getBoundingClientRect();
+    const px = (e.clientX - r.left) * (W / r.width);
+    const i = Math.max(0, Math.min(n - 1, Math.round((px - m.l) / (iw / (n - 1)))));
+    xh.style.display = "";
+    xh.querySelector(".xhl").setAttribute("x1", x(i)); xh.querySelector(".xhl").setAttribute("x2", x(i));
+    o.series.forEach((se, j) => { const c = xh.querySelector(".xhd" + j); c.setAttribute("cx", x(i)); c.setAttribute("cy", y(se.values[i])); });
+    const rows = o.series.map(se => ({ k: se.name, v: o.yFmtLong(se.values[i]), color: se.color }));
+    if (o.extra) rows.push(...o.extra(i));
+    showTip(e, o.tipTitle ? o.tipTitle(i) : o.labels[i], rows);
+  });
+  hit.addEventListener("pointerleave", () => { xh.style.display = "none"; hideTip(); });
+}
+
+/* Sparkline: de-emphasised line, current point in the accent */
+function spark(vals, w = 92, h = 22) {
+  const P = pal();
+  const lo = Math.min(...vals), hi = Math.max(...vals), n = vals.length;
+  const x = i => 2 + i * (w - 6) / (n - 1), y = v => h - 3 - (hi === lo ? 0.5 : (v - lo) / (hi - lo)) * (h - 6);
+  const d = vals.map((v, i) => (i ? "L" : "M") + x(i).toFixed(1) + " " + y(v).toFixed(1)).join(" ");
+  return `<svg width="${w}" height="${h}" aria-hidden="true"><path d="${d}" fill="none" style="stroke:${P.gray}" stroke-width="1.5" stroke-linejoin="round"/><circle cx="${x(n - 1)}" cy="${y(vals[n - 1])}" r="3" style="fill:${P.accent}"/></svg>`;
+}
+
+/* Dumbbell: last week -> this week, per item */
+function dumbbell(el, o) {
+  const P = pal();
+  const W = Math.max(280, el.clientWidth), rowH = o.rowH || 24, lw = o.labelW || 128, rw = o.valW || 92;
+  const H = o.items.length * rowH + 22;
+  const vmax = Math.max(...o.items.flatMap(it => [it.a, it.b])) * 1.08;
+  const x = v => lw + v / vmax * (W - lw - rw);
+  let s = `<svg width="${W}" height="${H}" role="img" aria-label="${esc(o.aria || "")}">`;
+  const ticks = niceTicks(0, vmax, 4).filter(t => t <= vmax);
+  for (const t of ticks) s += `<line class="gl" x1="${x(t)}" x2="${x(t)}" y1="0" y2="${H - 18}"/><text class="ax" x="${x(t)}" y="${H - 4}" text-anchor="middle">${esc(o.fmt(t))}</text>`;
+  o.items.forEach((it, i) => {
+    const cy = i * rowH + rowH / 2;
+    const hl = o.highlight && o.highlight(it);
+    s += `<text x="0" y="${cy + 4}" style="fill:${P.ink};font-size:12px;font-weight:${hl ? 700 : 400}">${esc(it.label)}</text>`;
+    s += `<line x1="${x(it.a)}" x2="${x(it.b)}" y1="${cy}" y2="${cy}" style="stroke:${hl ? P.accent : P.gray}" stroke-width="2"/>`;
+    s += `<circle cx="${x(it.a)}" cy="${cy}" r="4.5" style="fill:${P.soft};stroke:${P.surface}" stroke-width="2"/>`;
+    s += `<circle cx="${x(it.b)}" cy="${cy}" r="5" style="fill:${hl ? P.accent : P.ink2};stroke:${P.surface}" stroke-width="2"/>`;
+    const d = it.b - it.a;
+    s += `<text x="${W - rw + 8}" y="${cy + 4}" class="lbl-ink">${esc(o.fmt(it.b))}<tspan style="fill:${P.muted};font-weight:400"> ${esc(signed(d, o.fmt(Math.abs(d))))}</tspan></text>`;
+    s += `<rect x="0" y="${i * rowH}" width="${W}" height="${rowH}" fill="transparent" ${tipAttr(it.label, [{ k: o.aLabel, v: o.fmt(it.a) }, { k: o.bLabel, v: o.fmt(it.b) }].concat(it.extra || []))}/>`;
+  });
+  s += `</svg>`;
+  el.innerHTML = s;
+  bindTips(el);
+}
+
+/* Horizontal bars, one series, optional emphasis */
+function hbars(el, o) {
+  const P = pal();
+  const W = Math.max(260, el.clientWidth), rowH = o.rowH || 22, lw = o.labelW || 140, rw = o.valW || 54;
+  const H = o.items.length * rowH;
+  const vmax = Math.max(...o.items.map(i => i.v));
+  const x = v => v / vmax * (W - lw - rw);
+  let s = `<svg width="${W}" height="${H}" role="img" aria-label="${esc(o.aria || "")}">`;
+  o.items.forEach((it, i) => {
+    const cy = i * rowH + rowH / 2, bh = Math.min(14, rowH - 8);
+    const hl = o.highlight ? o.highlight(it, i) : true;
+    s += `<text x="0" y="${cy + 4}" style="fill:${P.ink};font-size:12px">${esc(it.label)}</text>`;
+    const bw = Math.max(2, x(it.v));
+    s += `<path d="M${lw} ${cy - bh / 2} h${bw - 4} a4 4 0 0 1 4 4 v${bh - 8} a4 4 0 0 1 -4 4 h${-(bw - 4)} Z" style="fill:${hl ? P.accent : P.gray}"/>`;
+    s += `<text x="${lw + bw + 6}" y="${cy + 4}" class="lbl-ink">${esc(o.fmt(it.v))}</text>`;
+    s += `<rect x="0" y="${i * rowH}" width="${W}" height="${rowH}" fill="transparent" ${tipAttr(it.label, it.tip || [{ k: o.vLabel || "Value", v: o.fmt(it.v) }])}/>`;
+  });
+  s += `</svg>`;
+  el.innerHTML = s;
+  bindTips(el);
+}
+
+/* Columns, one series, emphasis on selected columns */
+function columns(el, o) {
+  const P = pal();
+  const W = Math.max(240, el.clientWidth), H = o.height || 170;
+  const m = { l: 6, r: 6, t: 18, b: 34 };
+  const n = o.items.length, band = (W - m.l - m.r) / n, bw = Math.min(28, band * 0.56);
+  const vmax = Math.max(...o.items.map(i => i.v));
+  const ih = H - m.t - m.b, y = v => m.t + ih - v / vmax * ih;
+  let s = `<svg width="${W}" height="${H}" role="img" aria-label="${esc(o.aria || "")}"><line class="bl" x1="${m.l}" x2="${W - m.r}" y1="${m.t + ih}" y2="${m.t + ih}"/>`;
+  o.items.forEach((it, i) => {
+    const cx = m.l + band * i + band / 2, top = y(it.v), hgt = m.t + ih - top;
+    const hl = o.highlight(it, i);
+    s += `<path d="M${cx - bw / 2} ${m.t + ih} v${-(hgt - 4)} a4 4 0 0 1 4 -4 h${bw - 8} a4 4 0 0 1 4 4 v${hgt - 4} Z" style="fill:${hl ? P.accent : P.gray}"/>`;
+    s += `<text class="lbl-ink" x="${cx}" y="${top - 5}" text-anchor="middle">${esc(o.fmt(it.v))}</text>`;
+    s += `<text class="ax" x="${cx}" y="${H - 18}" text-anchor="middle">${esc(it.label)}</text>`;
+    s += `<rect x="${cx - band / 2}" y="${m.t}" width="${band}" height="${ih + 20}" fill="transparent" ${tipAttr(it.tipT || it.label, it.tip || [{ k: "Value", v: o.fmt(it.v) }])}/>`;
+  });
+  if (o.axisNote) s += `<text class="ax" x="${W / 2}" y="${H - 2}" text-anchor="middle">${esc(o.axisNote)}</text>`;
+  s += `</svg>`;
+  el.innerHTML = s;
+  bindTips(el);
+}
+
+/* Scatter with least-squares line; labels on the outliers only */
+function scatter(el, o) {
+  const P = pal();
+  const W = Math.max(260, el.clientWidth), H = o.height || 210;
+  const m = { l: 40, r: 14, t: 30, b: 34 };
+  const iw = W - m.l - m.r, ih = H - m.t - m.b;
+  const xs = o.pts.map(p => p.x), ys = o.pts.map(p => p.y);
+  const xt = niceTicks(0, Math.max(...xs) * 1.05, 4), yt = niceTicks(0, Math.max(...ys) * 1.1, 4);
+  const X = v => m.l + v / xt[xt.length - 1] * iw, Y = v => m.t + ih - v / yt[yt.length - 1] * ih;
+  let s = `<svg width="${W}" height="${H}" role="img" aria-label="${esc(o.aria || "")}">`;
+  for (const t of yt) s += `<line class="gl" x1="${m.l}" x2="${W - m.r}" y1="${Y(t)}" y2="${Y(t)}"/><text class="ax" x="${m.l - 6}" y="${Y(t) + 4}" text-anchor="end">${esc(o.yFmt(t))}</text>`;
+  for (const t of xt) s += `<text class="ax" x="${X(t)}" y="${m.t + ih + 15}" text-anchor="middle">${esc(o.xFmt(t))}</text>`;
+  s += `<text class="ax" x="${m.l + iw / 2}" y="${H - 2}" text-anchor="middle">${esc(o.xLabel)}</text>`;
+  s += `<text class="ax" x="${m.l - 34}" y="${m.t - 18}">${esc(o.yLabel)}</text>`;
+  const n = xs.length, mx = xs.reduce((a, b) => a + b) / n, my = ys.reduce((a, b) => a + b) / n;
+  const sxy = xs.reduce((a, v, i) => a + (v - mx) * (ys[i] - my), 0), sxx = xs.reduce((a, v) => a + (v - mx) ** 2, 0);
+  const b = sxy / sxx, a0 = my - b * mx;
+  const x2 = xt[xt.length - 1];
+  s += `<line x1="${X(0)}" y1="${Y(a0)}" x2="${X(x2)}" y2="${Y(a0 + b * x2)}" style="stroke:${P.muted}" stroke-width="1.5"/>`;
+  for (const p of o.pts) {
+    s += `<circle cx="${X(p.x)}" cy="${Y(p.y)}" r="5" style="fill:${p.hl ? P.accent : P.gray};stroke:${P.surface}" stroke-width="2"/>`;
+    if (p.hl) { const right = p.anchor === "start"; s += `<text class="lbl-2" x="${X(p.x) + (right ? 9 : -9)}" y="${Y(p.y) + 4 + (p.dy || 0)}" text-anchor="${right ? "start" : "end"}">${esc(p.label)}</text>`; }
+    s += `<circle cx="${X(p.x)}" cy="${Y(p.y)}" r="12" fill="transparent" ${tipAttr(p.label + " · " + p.city, p.tip)}/>`;
+  }
+  s += `</svg>`;
+  el.innerHTML = s;
+  bindTips(el);
+}
+function correl(xs, ys) {
+  const n = xs.length, mx = xs.reduce((a, b) => a + b) / n, my = ys.reduce((a, b) => a + b) / n;
+  let sxy = 0, sxx = 0, syy = 0;
+  xs.forEach((v, i) => { sxy += (v - mx) * (ys[i] - my); sxx += (v - mx) ** 2; syy += (ys[i] - my) ** 2; });
+  return sxy / Math.sqrt(sxx * syy);
+}
+
+/* ---------------- shared numbers ---------------- */
+const A = agg(CUR), L = agg(PREV);
+const val = (key, a) => K[key].f(a);
+const unfilled = A.req - A.asg;
+const aov = A.gmv / A.comp;
+const G = D.grid;
+
+// Perfect bookings = requests x fill x completion x on-time x quality pass. Log split of the weekly change.
+const stages = a => ({ req: a.req, fill: a.asg / a.req, compl: a.comp / a.asg, ot: a.ot / a.comp, q: a.perfect / a.ot });
+const sA = stages(A), sL = stages(L);
+const dP = A.perfect - L.perfect, dLn = Math.log(A.perfect / L.perfect);
+const contrib = Object.fromEntries(Object.keys(sA).map(k => [k, dP * Math.log(sA[k] / sL[k]) / dLn]));
+
+/* ---------------- slides ---------------- */
+const SLIDES = [];
+const footer = (n, src) => `<div class="slide-foot"><span>${esc(src || "Source: ops app extract, " + D.meta.week_label + " (mock). Published Mon 19 Oct, 11:00.")}</span><span>Mock data for an interview demo · not actual company figures · ${n}</span></div>`;
+const head = (eyebrow, title, sub, meta) => `<div class="slide-head"><div class="titles"><div class="eyebrow">${esc(eyebrow)}</div><h2 class="title">${esc(title)}</h2>${sub ? `<p class="subtitle">${sub}</p>` : ""}</div>${meta ? `<div class="slide-meta">${meta}</div>` : ""}</div>`;
+function tile(k, a, l, city, label) {
+  const v = k.f(a), lv = k.f(l), s = status(k, v, city), d = delta(k, v, lv);
+  return `<div class="card tile"><div class="lbl"><span>${esc(label || k.name)}</span>${rag(s)}</div>
+    <div class="row"><div><div class="val">${fmtV(k, v)}</div><div class="sub"><span class="delta ${d.cls}">${d.txt}</span> vs last week · target ${esc(fmtTarget(k))}</div></div>
+    <div>${spark(series(k, city))}</div></div></div>`;
+}
+
+/* 1. North Star */
+SLIDES.push({
+  id: "north-star", tab: "North Star",
+  html() {
+    const k = K.nsm, v = k.f(A), lv = k.f(L), s = status(k, v);
+    const reqGrowth = A.req / L.req - 1;
+    const rows = [
+      ["Booking requests", A.req, null, null, "req"],
+      ["Partner assigned", A.asg, sA.fill, sL.fill, "fill"],
+      ["Completed", A.comp, sA.compl, sL.compl, "compl"],
+      ["Started on time", A.ot, sA.ot, sL.ot, "ot"],
+      ["Perfect booking", A.perfect, sA.q, sL.q, "q"],
+    ];
+    const worst = ["fill", "compl", "ot", "q"].reduce((a, b) => contrib[a] < contrib[b] ? a : b);
+    const conv = { fill: "of requests", compl: "of assigned", ot: "of completed", q: "of on-time" };
+    const funnel = rows.map(([name, n, r, lr, key]) => {
+      const c = contrib[key];
+      return `<tr${key === worst ? ' class="hl"' : ""}>
+        <td class="metric nowrap">${esc(name)}${key === worst ? '<span class="tag">Biggest leak</span>' : ""}</td>
+        <td style="width:34%"><div class="bar-track"><div class="bar-fill${key === "q" ? "" : " soft"}" style="width:${(n / A.req * 100).toFixed(1)}%"></div></div></td>
+        <td class="num">${fInt(n)}</td>
+        <td class="num">${r == null ? '<span class="muted">—</span>' : fPct(r) + ` <span class="muted">${conv[key]}</span>`}</td>
+        <td class="num">${r == null ? `<span class="delta good">${signed(reqGrowth, (Math.abs(reqGrowth) * 100).toFixed(1) + "%")}</span>` : (() => { const d = r - lr; return `<span class="delta ${d >= 0 ? "good" : "bad"}">${signed(d, Math.abs(d * 100).toFixed(1) + " pts")}</span>`; })()}</td>
+        <td class="num"><span class="delta ${c >= 0 ? "good" : "bad"}">${signed(c, fInt(Math.abs(c)))}</span></td>
+      </tr>`;
+    }).join("");
+    return head("01 · North Star",
+      `Perfect bookings fell ${fInt(-dP)} to ${fInt(A.perfect)} (${fPct(v)} of requests). Demand grew ${(reqGrowth * 100).toFixed(1)}%, but fill rate leaked the most.`,
+      `One number for the whole ops team: bookings that were completed, on time, with no complaint or redo, and rated 4★ or above (or not rated).`,
+      `${esc(D.meta.week_label)}<br>Published Mon 19 Oct, 11:00`) +
+    `<div class="grid">
+      <div class="card hero c4">
+        <div class="lbl">Perfect bookings this week</div>
+        <div class="big">${fInt(A.perfect)}</div>
+        <div class="line"><span><b>${fPct(v)}</b> of requests</span>${rag(s, RAG_LABEL[s] + " · target " + fPct(k.target, 0))}</div>
+        <div class="line" style="margin-top:6px"><span class="delta bad">${MINUS}${fInt(-dP)} (${MINUS}${Math.abs(dP / L.perfect * 100).toFixed(1)}%) vs last week</span></div>
+        <div class="mini"><div>Last week<b>${fInt(L.perfect)} · ${fPct(lv)}</b></div><div>12-week best<b>${fPct(Math.max(...series(k)))} · ${wk(WEEKS[series(k).indexOf(Math.max(...series(k)))])}</b></div></div>
+        <div class="formula"><code>Perfect = Requests × Fill × Completion × On-time × Quality pass</code><br>Every manager owns one term. If the number falls, the funnel shows whose term moved.</div>
+      </div>
+      <div class="card c8"><div class="card-h"><div><p class="card-t">Perfect booking rate, last 12 weeks</p><p class="card-s">Share of booking requests that became a perfect booking. Dashed line is the 77% target.</p></div></div>
+        <div class="chart" id="ch-nsm"></div></div>
+      <div class="card c7"><div class="card-h"><div><p class="card-t">Where the week leaked</p><p class="card-s">Each stage as a share of the one before it. The last column is the change in perfect bookings that stage caused vs last week.</p></div></div>
+        <div class="tbl-wrap"><table class="tbl"><thead><tr><th>Stage</th><th></th><th class="num">This week</th><th class="num">Conversion</th><th class="num">vs last wk</th><th class="num">Perfect bookings</th></tr></thead><tbody>${funnel}</tbody></table></div>
+      </div>
+      <div class="card c5"><p class="card-t" style="margin-bottom:10px">The week in three lines</p>
+        <dl class="kv">
+          <dt>What changed</dt><dd>Fill rate fell ${Math.abs((sA.fill - sL.fill) * 100).toFixed(1)} pts. Partner cancellations rose to ${fPct(val("pc", A))}. Complaints went from ${val("cpk", L).toFixed(1)} to ${val("cpk", A).toFixed(1)} per 1,000.</dd>
+          <dt>Why</dt><dd>Weekend evenings ran out of partners in Mumbai and Bengaluru. Kit stock-outs rose in Gurugram and Noida. One wax batch drove complaints in two Gurugram hubs.</dd>
+          <dt>What we're doing</dt><dd>Weekend-evening incentive pilot in 3 hubs, kit refill plus auto-reorder, and retraining for 41 waxing partners. Two of these need your OK (slide 2).</dd>
+        </dl>
+      </div>
+      <div class="c12"><div class="tiles t3">
+        <div class="card tile"><div class="lbl"><span>Unfilled requests</span><span class="muted">${fInt(unfilled)} bookings</span></div><div class="val">${fLakh(unfilled * aov)}</div><div class="sub">GMV not served this week, at an average order value of ₹${fInt(aov)}</div></div>
+        <div class="card tile"><div class="lbl"><span>Partner-side cancellations</span><span class="muted">${fInt(A.pc)} bookings</span></div><div class="val">${fLakh(A.pc * aov)}</div><div class="sub">GMV lost after a partner was assigned. Up ${fInt(A.pc - L.pc)} on last week</div></div>
+        <div class="card tile"><div class="lbl"><span>Redo and refunds</span><span class="muted">${fInt(A.redo)} jobs</span></div><div class="val">${fLakh(A.redo * aov)}</div><div class="sub">Order value at risk of being refunded or redone at our cost</div></div>
+      </div></div>
+    </div>` + footer("1 / 8");
+  },
+  charts() {
+    const P = pal(), k = K.nsm, vals = series(k);
+    lineChart(document.getElementById("ch-nsm"), {
+      labels: WEEKS.map(wk), series: [{ name: "Perfect booking rate", values: vals, color: P.accent }],
+      target: k.target, targetLabel: "Target 77%", yFmt: t => (t * 100).toFixed(0) + "%", yFmtLong: t => fPct(t), height: 214, area: true, mr: 74,
+      aria: "Perfect booking rate fell from " + fPct(vals[0]) + " in W31 to " + fPct(vals[vals.length - 1]) + " in W42",
+      extra: i => { const a = agg(WEEKS[i]); return [{ k: "Perfect bookings", v: fInt(a.perfect) }, { k: "Requests", v: fInt(a.req) }]; },
+    });
+  },
+});
+
+/* 2. Weekly MIS scorecard */
+let scope = "All India";
+SLIDES.push({
+  id: "scorecard", tab: "Scorecard",
+  html() {
+    const a = agg(CUR, scope), l = agg(PREV, scope), f4 = agg([CUR - 3, CUR - 2, CUR - 1, CUR], scope);
+    let red = 0, total = 0;
+    let rows = "";
+    for (const k of KPIS) {
+      if (k.block) rows += `<tr class="block"><td colspan="9">${esc(k.block)}</td></tr>`;
+      const v = k.f(a), lv = k.f(l), s = status(k, v, scope), d = delta(k, v, lv);
+      if (k.key !== "nsm" && s !== "n") { total++; if (s === "r") red++; }
+      const tgt = k.national && scope !== "All India" ? "—" : fmtTarget(k);
+      rows += `<tr><td class="metric">${esc(k.name)}</td><td class="num strong">${fmtV(k, v)}</td><td class="num">${fmtV(k, lv)}</td>
+        <td class="num"><span class="delta ${d.cls}">${d.txt}</span></td><td class="num">${fmtV(k, k.f(f4))}</td><td class="num">${esc(tgt)}</td>
+        <td>${rag(s)}</td><td>${spark(series(k, scope), 84, 20)}</td><td class="owner">${esc(k.owner)}</td></tr>`;
+    }
+    this._red = red; this._total = total;
+    const opts = ["All India"].concat(D.cities).map(c => `<option${c === scope ? " selected" : ""}>${esc(c)}</option>`).join("");
+    const title = scope === "All India"
+      ? `${red} of ${total} KPIs are red, and three of them trace back to kits: stock-outs, partner cancellations and a bad wax batch.`
+      : `${scope}: ${red} of ${total} KPIs are red this week.`;
+    return head("02 · Weekly MIS · one page", title,
+      `This week against last week and target. ${rag("g")} meets target · ${rag("a")} within 5% of it · ${rag("r")} further off · ${rag("n")} tracked, no target.`,
+      `${esc(D.meta.week_label)}<br>Rates are built from summed counts, never averaged`) +
+    `<div class="grid">
+      <div class="card c8">
+        <div class="filters"><label for="scopeSel">Scope</label><select id="scopeSel">${opts}</select><span class="muted">Partner counts have national targets only, so they show as Info for a single city.</span></div>
+        <div class="tbl-wrap"><table class="tbl compact"><thead><tr><th>Metric</th><th class="num">This wk</th><th class="num">Last wk</th><th class="num">Change</th><th class="num">Last 4 wks</th><th class="num">Target</th><th>Status</th><th>12 weeks</th><th>Owner</th></tr></thead><tbody>${rows}</tbody></table></div>
+      </div>
+      <div class="c4" style="display:grid;gap:12px;align-content:start">
+        <div class="card"><p class="card-t" style="margin-bottom:6px">Top 3 issues</p>
+          <div class="issue"><div class="n">1</div><div><p><b>Complaints rose to ${val("cpk", A).toFixed(1)} per 1,000.</b> Mostly waxing, in GGN-2 and GGN-4. Retrain 41 flagged partners and QC the wax batch.</p><div class="meta">CX with Training & QA · due Thu 22 Oct</div></div></div>
+          <div class="issue"><div class="n">2</div><div><p><b>Partner cancellations rose to ${fPct(val("pc", A))}</b>, in step with kit stock-outs (${fPct(val("kit", A))}). Refill the top 5 items at hubs.</p><div class="meta">Inventory · was due 16 Oct, now 3 days late</div></div></div>
+          <div class="issue"><div class="n">3</div><div><p><b>Fill rate fell to ${fPct(val("fill", A))}</b>, weakest on weekend evenings in Mumbai and Bengaluru. Pilot a weekend shift incentive in 3 hubs.</p><div class="meta">City Ops · due Fri 23 Oct</div></div></div>
+        </div>
+        <div class="card"><p class="card-t" style="margin-bottom:6px">Wins</p>
+          <div class="issue"><div class="n g">✓</div><div><p><b>${fInt(A.cert)} partners certified</b>, above the 200 target. Best week in 12.</p></div></div>
+          <div class="issue"><div class="n g">✓</div><div><p><b>Average rating held at ${val("rating", A).toFixed(2)}</b>, above 4.70, despite the complaint spike.</p></div></div>
+          <div class="issue"><div class="n g">✓</div><div><p><b>Customer cancellations stayed under 3%</b> with ${((A.req / L.req - 1) * 100).toFixed(1)}% more requests.</p></div></div>
+        </div>
+        <div class="card"><p class="card-t" style="margin-bottom:6px">Decisions needed from you</p>
+          <div class="issue"><div class="n q">1</div><div><p>Approve the weekend-evening incentive pilot in MUM-2, MUM-4 and BLR-1 for 2 weekends.</p></div></div>
+          <div class="issue"><div class="n q">2</div><div><p>Approve 5 days of buffer kit stock per hub, so reorders trigger automatically.</p></div></div>
+          <div class="issue"><div class="n q">3</div><div><p>Sign off the metric dictionary, so all 5 teams report one fill rate.</p></div></div>
+        </div>
+      </div>
+    </div>` + footer("2 / 8");
+  },
+  bind(root) {
+    root.querySelector("#scopeSel").addEventListener("change", e => { scope = e.target.value; render(true); });
+  },
+});
+
+/* 3. Demand & fulfilment */
+SLIDES.push({
+  id: "demand", tab: "Demand",
+  html() {
+    const cityRows = D.cities.map(c => ({ c, a: agg(CUR, c), l: agg(PREV, c) }))
+      .sort((x, y) => (x.c === "Rest of India") - (y.c === "Rest of India") || y.a.req - x.a.req);
+    const cell = (k, a, extra = "") => { const v = k.f(a), s = status(k, v); return `<td class="num${extra}">${dot(s)}${fmtV(k, v)}</td>`; };
+    const body = cityRows.map(({ c, a, l }) => `<tr><td class="metric nowrap">${esc(c)}</td><td class="num">${fInt(a.req)}</td>
+        <td class="num"><span class="delta ${a.req >= l.req ? "good" : "bad"}">${signed(a.req - l.req, Math.abs((a.req / l.req - 1) * 100).toFixed(1) + "%")}</span></td>
+        ${cell(K.fill, a)}${cell(K.ot, a)}${cell(K.cc, a)}${cell(K.pc, a)}<td class="num">${(a.comp / a.act / 6).toFixed(2)}</td></tr>`).join("");
+    const tot = `<tr class="total"><td>All India</td><td class="num">${fInt(A.req)}</td><td class="num"><span class="delta good">+${((A.req / L.req - 1) * 100).toFixed(1)}%</span></td>${cell(K.fill, A)}${cell(K.ot, A)}${cell(K.cc, A)}${cell(K.pc, A)}<td class="num">${val("jppd", A).toFixed(2)}</td></tr>`;
+    const mum = agg(CUR, "Mumbai"), blr = agg(CUR, "Bengaluru"), roi = agg(CUR, "Rest of India");
+    const weShare = G.wknd_eve_req / A.req, weUnf = G.wknd_eve_unf / unfilled;
+    return head("03 · Demand & fulfilment · City Ops",
+      `Weekend evenings ran out of partners: ${fPct(weShare, 0)} of requests, but ${fPct(weUnf, 0)} of the unfilled ones. Mumbai and Bengaluru took the hit.`,
+      `Fill rate and on-time arrival by city, and fill rate by day and slot. Dots show status against target.`,
+      esc(D.meta.week_label)) +
+    `<div class="tiles t4">${tile(K.req, A, L)}${tile(K.fill, A, L)}${tile(K.comp, A, L)}${tile(K.ot, A, L)}</div>
+    <div class="grid mt">
+      <div class="card c7"><div class="card-h"><div><p class="card-t">By city</p><p class="card-s">Largest first. Jobs per partner per day shows who has spare capacity.</p></div></div>
+        <div class="tbl-wrap"><table class="tbl compact"><thead><tr><th>City</th><th class="num">Requests</th><th class="num">vs last wk</th><th class="num">Fill rate</th><th class="num">On time</th><th class="num">Cust. cancel</th><th class="num">Partner cancel</th><th class="num">Jobs / partner / day</th></tr></thead>
+        <tbody>${body}${tot}</tbody></table></div>
+      </div>
+      <div class="card c5"><div class="card-h"><div><p class="card-t">Fill rate by day and slot</p><p class="card-s">Red is below the 95% target, blue is above it. Hover a cell for counts.</p></div></div>
+        <div id="heat"></div>
+        <div class="scale" id="heatScale"></div>
+      </div>
+      <div class="card c7"><div class="card-h"><div><p class="card-t">Requests vs jobs completed, last 12 weeks</p><p class="card-s">The gap is unfilled requests plus cancellations. It widened this week.</p></div></div>
+        <div class="chart" id="ch-demand"></div>
+        <div class="legend"><span><i class="key-line" id="kq1"></i>Booking requests</span><span><i class="key-line" id="kq2"></i>Jobs completed</span></div>
+      </div>
+      <div class="card c5"><p class="card-t" style="margin-bottom:8px">What the numbers say</p>
+        <div class="callout"><b>Mumbai partners are already at ${(mum.comp / mum.act / 6).toFixed(2)} jobs a day</b>, the highest of any city. An incentive alone won't add capacity there. Mumbai needs more partners for weekends.</div>
+        <div class="callout"><b>Bengaluru requests grew ${((blr.req / agg(PREV, "Bengaluru").req - 1) * 100).toFixed(1)}%</b>, the fastest of any city, and fill rate fell to ${fPct(blr.asg / blr.req)}. Demand outran supply there first.</div>
+        <div class="callout"><b>Rest of India partners do ${(roi.comp / roi.act / 6).toFixed(2)} jobs a day.</b> That's spare capacity, but in the wrong cities. Density beats headcount.</div>
+      </div>
+    </div>` + footer("3 / 8");
+  },
+  charts() {
+    const P = pal();
+    // heatmap, diverging around the 95% target
+    const tgt = 0.95;
+    const color = v => { const d = (v - tgt) * 100; return d < 0 ? ramp(P.redArm, -d / 12) : ramp(P.blueArm, d / 3); };
+    let h = `<table class="heat"><thead><tr><th class="rowh"></th>${G.slots.map(s => `<th>${esc(s)}</th>`).join("")}</tr></thead><tbody>`;
+    G.cells.forEach((row, d) => {
+      h += `<tr><th class="rowh">${esc(G.days[d])}</th>`;
+      row.forEach((c, s) => {
+        const f = c.asg / c.req, bg = color(f);
+        h += `<td style="background:${bg};color:${inkOn(bg)}" ${tipAttr(G.days[d] + " " + G.slots[s], [{ k: "Fill rate", v: fPct(f) }, { k: "Requests", v: fInt(c.req) }, { k: "Unfilled", v: fInt(c.req - c.asg) }])}>${(f * 100).toFixed(1)}</td>`;
+      });
+      h += `</tr>`;
+    });
+    h += `</tbody></table>`;
+    const heat = document.getElementById("heat");
+    heat.innerHTML = h; bindTips(heat);
+    const st = P.redArm.slice().reverse().concat(P.blueArm.slice(1));
+    document.getElementById("heatScale").innerHTML = `<span>83%</span><span class="ramp" style="background:linear-gradient(90deg, ${st.join(",")})"></span><span>98%</span><span>· gray = on target (95%)</span>`;
+    const req = WEEKS.map(w => agg(w).req), comp = WEEKS.map(w => agg(w).comp);
+    document.getElementById("kq1").style.background = P.accent;
+    document.getElementById("kq2").style.background = P.s2;
+    lineChart(document.getElementById("ch-demand"), {
+      labels: WEEKS.map(wk), series: [
+        { name: "Booking requests", values: req, color: P.accent, end: "Requests " + (req[11] / 1000).toFixed(1) + "K" },
+        { name: "Jobs completed", values: comp, color: P.s2, end: "Completed " + (comp[11] / 1000).toFixed(1) + "K", labelDy: 6 }],
+      yFmt: t => (t / 1000).toFixed(0) + "K", yFmtLong: t => fInt(t), height: 146, mr: 112,
+      aria: "Requests grew to " + fInt(req[11]) + " while jobs completed fell to " + fInt(comp[11]),
+      extra: i => { const a = agg(WEEKS[i]); return [{ k: "Gap", v: fInt(a.req - a.comp) }]; },
+    });
+  },
+});
+
+/* 4. Partner supply & productivity */
+SLIDES.push({
+  id: "supply", tab: "Supply",
+  html() {
+    const sp = D.supply.find(s => s.week === CUR);
+    const steps = [["Leads sourced", sp.sourced], ["Started training", sp.started], ["Certified", sp.cert], ["Kit issued", sp.kit], ["First job within 7 days", sp.first_job]];
+    const fun = steps.map(([n, v], i) => `<tr><td class="nowrap">${esc(n)}</td><td style="width:42%"><div class="bar-track"><div class="bar-fill${i === 4 ? "" : " soft"}" style="width:${(v / sp.sourced * 100).toFixed(1)}%"></div></div></td><td class="num">${fInt(v)}</td><td class="num muted">${i ? fPct(v / steps[i - 1][1], 0) : ""}</td></tr>`).join("");
+    const under1 = D.util_bands[0][1] + D.util_bands[1][1];
+    const lift = A.act * 6 * (K.jppd.target - val("jppd", A));
+    const coh = D.cohorts;
+    const drop24 = coh.map(c => c.ret[1] - c.ret[2]);
+    const redWeeks = WEEKS.filter(w => status(K.ret, K.ret.f(agg(w))) === "r").length;
+    return head("04 · Partner supply & productivity · Supply, Training & QA",
+      `Onboarding beat target with ${fInt(A.cert)} certified, but 90-day retention has been red for ${redWeeks} straight weeks. Most partners are lost in weeks 2 to 4.`,
+      `Supply is the constraint. More partners, kept longer and kept busy, is the only way fill rate holds through wedding season.`,
+      esc(D.meta.week_label)) +
+    `<div class="tiles t4">${tile(K.act, A, L)}${tile(K.cert, A, L)}${tile(K.ret, A, L)}${tile(K.jppd, A, L)}</div>
+    <div class="grid mt">
+      <div class="card c4"><div class="card-h"><div><p class="card-t">Onboarding funnel, this week</p><p class="card-s">Each step as a share of the one before. ${fInt(sp.in_training)} partners are in training now (15 to 45 days).</p></div></div>
+        <table class="tbl compact"><tbody>${fun}</tbody></table>
+        <div class="callout" style="margin-top:12px"><b>${fInt(sp.cert - sp.kit)} certified partners are still waiting for a kit.</b> Each one is a trained partner who can't take a job yet. Kit-loan approvals are the hold-up.</div></div>
+      <div class="card c4"><div class="card-h"><div><p class="card-t">Retention by joining cohort</p><p class="card-s">% of each month's new partners still active, by week since joining. Darker is better.</p></div></div>
+        <div id="cohort"></div></div>
+      <div class="card c4"><div class="card-h"><div><p class="card-t">Partners by jobs per day</p><p class="card-s">Average jobs per working day this week. ${fInt(under1)} partners (${fPct(under1 / A.act, 0)}) do under 1.</p></div></div>
+        <div class="chart" id="ch-util"></div></div>
+      <div class="card c7"><div class="card-h"><div><p class="card-t">Active partners, last 12 weeks</p><p class="card-s">Partners with 1 or more jobs in the week, against the 7,600 target.</p></div></div>
+        <div class="chart" id="ch-act"></div></div>
+      <div class="card c5"><p class="card-t" style="margin-bottom:8px">What the numbers say</p>
+        <div class="callout"><b>Weeks 2 to 4 lose ${Math.min(...drop24)}–${Math.max(...drop24)} pts in every cohort.</b> My guess: the first month of earnings and the first kit-loan payments. The Aug cohort survey (A-107) will confirm or kill that.</div>
+        <div class="callout"><b>${fInt(under1)} partners do under 1 job a day.</b> Moving 1,000 of them into 2 weekend-evening jobs each would cover all ${fInt(G.wknd_eve_unf)} unfilled weekend-evening requests, if they sit in the right hubs.</div>
+        <div class="callout"><b>Utilisation is the cheapest lever.</b> Taking jobs per partner per day from ${val("jppd", A).toFixed(2)} to ${K.jppd.target} adds about ${fInt(Math.round(lift / 10) * 10)} jobs a week without hiring anyone.</div>
+      </div>
+    </div>` + footer("4 / 8");
+  },
+  charts() {
+    const P = pal();
+    const cols = ["Wk 1", "Wk 2", "Wk 4", "Wk 8", "Wk 13"];
+    let h = `<table class="heat"><thead><tr><th class="rowh" style="width:62px">Joined</th>${cols.map(c => `<th>${c}</th>`).join("")}</tr></thead><tbody>`;
+    for (const c of D.cohorts) {
+      h += `<tr><th class="rowh">${esc(c.cohort.slice(0, 3))}</th>`;
+      c.ret.forEach((v, i) => {
+        if (v == null) { h += `<td class="empty">—</td>`; return; }
+        const bg = ramp(P.dark ? P.seq.slice().reverse() : P.seq, (v - 58) / 37);
+        h += `<td style="background:${bg};color:${inkOn(bg)}" ${tipAttr(c.cohort + " cohort · " + cols[i], [{ k: "Still active", v: v + "%" }, { k: "Cohort size", v: fInt(c.size) }, { k: "Active partners", v: fInt(c.size * v / 100) }])}>${v}%</td>`;
+      });
+      h += `</tr>`;
+    }
+    h += `</tbody></table>`;
+    const el = document.getElementById("cohort"); el.innerHTML = h; bindTips(el);
+    columns(document.getElementById("ch-util"), {
+      items: D.util_bands.map(([b, n]) => ({ label: b, v: n, tipT: b + " jobs a day", tip: [{ k: "Partners", v: fInt(n) }, { k: "Share", v: fPct(n / A.act) }] })),
+      fmt: v => fInt(v), highlight: (it, i) => i < 2, height: 186, axisNote: "Jobs per working day",
+      aria: "Distribution of partners by jobs per day",
+    });
+    const act = WEEKS.map(w => agg(w).act);
+    lineChart(document.getElementById("ch-act"), {
+      labels: WEEKS.map(wk), series: [{ name: "Active partners", values: act, color: P.accent }],
+      target: K.act.target, targetLabel: "Target 7,600", yFmt: t => fInt(t), yFmtLong: t => fInt(t), height: 160, mr: 88, area: true,
+      aria: "Active partners rose from " + fInt(act[0]) + " to " + fInt(act[11]),
+      extra: i => { const a = agg(WEEKS[i]); return [{ k: "Certified that week", v: fInt(a.cert) }]; },
+    });
+  },
+});
+
+/* 5. Quality, CX & kits */
+SLIDES.push({
+  id: "quality", tab: "Quality & kits",
+  html() {
+    const hubs = D.hubs.slice().sort((a, b) => b.cpl / b.jobs - a.cpl / a.jobs).slice(0, 6);
+    const kStock = K.kit, kPc = K.pc;
+    const hubRows = hubs.map(h => {
+      const cpk = h.cpl / h.jobs * 1000, so = h.stock / h.partners, pc = h.pc / h.asg;
+      return `<tr><td class="metric nowrap">${esc(h.hub)}</td><td class="ink2 nowrap">${esc(h.city)}</td><td class="num">${fInt(h.jobs)}</td>
+      <td class="num">${dot(status(K.cpk, cpk))}${cpk.toFixed(1)} <span class="muted">(${h.cpl})</span></td>
+      <td class="num">${dot(status(kStock, so))}${fPct(so)}</td><td class="num">${dot(status(kPc, pc))}${fPct(pc)}</td></tr>`;
+    }).join("");
+    const r = correl(D.hubs.map(h => h.stock / h.partners), D.hubs.map(h => h.pc / h.asg));
+    const wax = D.cats.find(c => c.cat === "Waxing");
+    const waxShare = (wax.cpl42 - wax.cpl41) / (A.cpl - L.cpl);
+    const top5 = D.skus.slice(0, 5).reduce((s, x) => s + x.w42, 0) / D.skus.reduce((s, x) => s + x.w42, 0);
+    return head("05 · Quality, CX & kits · Training & QA, CX, Inventory",
+      `Complaints jumped to ${val("cpk", A).toFixed(1)} per 1,000, and waxing alone explains ${fPct(waxShare, 0)} of the rise. Hubs short on kits also cancel more.`,
+      `Ratings lag. Late arrivals, partner cancellations and kit stock-outs move first, so they are watched first.`,
+      esc(D.meta.week_label)) +
+    `<div class="tiles t4">${tile(K.rating, A, L)}${tile(K.cpk, A, L)}${tile(K.redo, A, L)}${tile(K.kit, A, L)}</div>
+    <div class="grid mt">
+      <div class="card c4"><div class="card-h"><div><p class="card-t">Complaints per 1,000 jobs, by service</p><p class="card-s">Last week to this week.</p></div></div>
+        <div class="chart" id="ch-cat"></div>
+        <div class="legend"><span><i class="key-dot" id="kd1"></i>Last week</span><span><i class="key-dot" id="kd2"></i>This week</span></div></div>
+      <div class="card c5"><div class="card-h"><div><p class="card-t">Worst 6 hubs by complaints</p><p class="card-s">Of about 140 hubs. Complaint counts in brackets: small bases swing.</p></div></div>
+        <table class="tbl compact"><thead><tr><th>Hub</th><th>City</th><th class="num">Jobs</th><th class="num">Complaints / 1,000</th><th class="num">Kit stock-out</th><th class="num">Partner cancel</th></tr></thead><tbody>${hubRows}</tbody></table></div>
+      <div class="card c3"><div class="card-h"><div><p class="card-t">Kits drive cancellations</p><p class="card-s">12 hubs. Correlation r = ${r.toFixed(2)}.</p></div></div>
+        <div class="chart" id="ch-sc"></div></div>
+      <div class="card c4"><div class="card-h"><div><p class="card-t">Kit items reported missing</p><p class="card-s">Partners reporting each item. The top 5 items are ${fPct(top5, 0)} of reports.</p></div></div>
+        <div class="chart" id="ch-sku"></div></div>
+      <div class="card c4"><div class="card-h"><div><p class="card-t">Complaints by reason, this week</p><p class="card-s">${fInt(A.cpl)} complaints in total.</p></div></div>
+        <div class="chart" id="ch-why"></div></div>
+      <div class="card c4"><p class="card-t" style="margin-bottom:8px">What the numbers say</p>
+        <div class="callout"><b>Waxing complaints went from ${(wax.cpl41 / wax.jobs41 * 1000).toFixed(1)} to ${(wax.cpl42 / wax.jobs42 * 1000).toFixed(1)} per 1,000.</b> Other services barely moved. That points to a product batch, not skills, so the wax batch QC (A-103) comes first.</div>
+        <div class="callout"><b>Fix kits upstream.</b> Stock-outs raise partner cancellations, which cut fill rate. One refill SLA fixes three red numbers.</div>
+      </div>
+    </div>` + footer("5 / 8");
+  },
+  charts() {
+    const P = pal();
+    document.getElementById("kd1").style.background = P.soft;
+    document.getElementById("kd2").style.background = P.ink2;
+    const items = D.cats.map(c => ({ label: c.cat, a: c.cpl41 / c.jobs41 * 1000, b: c.cpl42 / c.jobs42 * 1000, extra: [{ k: "Complaints", v: fInt(c.cpl42) }, { k: "Jobs", v: fInt(c.jobs42) }] }))
+      .sort((x, y) => y.b - x.b);
+    dumbbell(document.getElementById("ch-cat"), { items, fmt: v => v.toFixed(1), aLabel: "Last week", bLabel: "This week", highlight: it => it.label === "Waxing", labelW: 116, valW: 74, rowH: 23, aria: "Complaints per 1,000 jobs by service" });
+    scatter(document.getElementById("ch-sc"), {
+      pts: D.hubs.map(h => ({ x: h.stock / h.partners * 100, y: h.pc / h.asg * 100, label: h.hub, city: h.city, hl: ["GGN-2", "GGN-4", "NOI-1"].includes(h.hub), anchor: h.hub === "GGN-4" ? "start" : "end", dy: h.hub === "GGN-4" ? 8 : h.hub === "NOI-1" ? -6 : 0, tip: [{ k: "Kit stock-out", v: fPct(h.stock / h.partners) }, { k: "Partner cancel", v: fPct(h.pc / h.asg) }] })),
+      xFmt: t => t + "%", yFmt: t => t + "%", xLabel: "Partners with a kit stock-out", yLabel: "Partner cancellations", height: 214, aria: "Hub kit stock-out vs partner cancellation",
+    });
+    hbars(document.getElementById("ch-sku"), {
+      items: D.skus.map(s => ({ label: s.sku, v: s.w42, tip: [{ k: "This week", v: fInt(s.w42) }, { k: "Last week", v: fInt(s.w41) }] })),
+      fmt: v => fInt(v), highlight: (it, i) => i < 5, labelW: 168, rowH: 22, aria: "Kit items reported missing",
+    });
+    hbars(document.getElementById("ch-why"), {
+      items: D.reasons.map(([k, v]) => ({ label: k, v, tip: [{ k: "Complaints", v: fInt(v) }, { k: "Share", v: fPct(v / A.cpl) }] })),
+      fmt: v => fInt(v), highlight: (it, i) => i === 0, labelW: 128, rowH: 22, aria: "Complaints by reason",
+    });
+  },
+});
+
+/* 6. Manager actions & review rhythm */
+const MGRS = [
+  { name: "City Ops", area: "City and zonal operations" },
+  { name: "Supply", area: "Partner sourcing and onboarding" },
+  { name: "Training & QA", area: "Training, certification, quality" },
+  { name: "CX", area: "Customer experience" },
+  { name: "Inventory", area: "Kits and consumables" },
+];
+function flagOf(a) {
+  const due = new Date(a.due + "T00:00:00");
+  if (a.status === "Done") {
+    const late = daysBetween(due, new Date(a.closed + "T00:00:00"));
+    return late > 0 ? { c: "a", t: `Done ${late}d late`, rank: 9 } : { c: "g", t: "Done on time", rank: 10 };
+  }
+  const late = daysBetween(due, REPORT);
+  if (/VP/.test(a.update) && late <= 0) return { c: "a", t: "Needs your OK", rank: 1.5 };
+  if (late > 0) return { c: "r", t: `Overdue ${late}d`, rank: 0 - late / 100 };
+  const left = -late;
+  if (left <= 2) return { c: "a", t: left === 0 ? "Due today" : `Due in ${left}d`, rank: 1 + left / 100 };
+  return { c: "g", t: "On track", rank: 2 + left / 100 };
+}
+SLIDES.push({
+  id: "actions", tab: "Actions",
+  html() {
+    const acts = D.actions.map(a => ({ ...a, flag: flagOf(a) }));
+    const open = acts.filter(a => a.status !== "Done"), overdue = open.filter(a => a.flag.c === "r");
+    const waiting = open.filter(a => /VP/.test(a.update));
+    const cards = MGRS.map(m => {
+      const ks = KPIS.filter(k => k.owner === m.name && k.dir !== "info");
+      const mine = open.filter(a => a.owner === m.name), od = mine.filter(a => a.flag.c === "r").length;
+      const [ok, all] = D.closure[m.name];
+      return `<div class="card mgr"><div class="name">${esc(m.name)}</div><div class="role">${esc(m.area)}</div>
+        <div class="kpis">${ks.map(k => `<div>${dot(status(k, k.f(A)))}${esc(k.name)}</div>`).join("")}</div>
+        <div class="nums"><div><b>${mine.length}</b>open</div><div><b class="${od ? "bad" : ""}">${od}</b>overdue</div><div><b>${fPct(ok / all, 0)}</b>on time, 4 wks</div></div></div>`;
+    }).join("");
+    const list = open.sort((a, b) => a.flag.rank - b.flag.rank).map(a => `<tr><td class="muted nowrap">${esc(a.id)}</td><td>${esc(a.action)}</td><td class="owner">${esc(a.owner)}</td>
+        <td class="num">${esc(dfmt(a.due))}</td><td><span class="flag ${a.flag.c}">${dot(a.flag.c)}${esc(a.flag.t)}</span></td><td class="ink2" style="font-size:12px">${esc(a.next)}</td></tr>`).join("");
+    const done = acts.filter(a => a.status === "Done");
+    return head("06 · Five managers, one tracker",
+      `${open.length} open actions, ${overdue.length} overdue. ${waiting.length === 2 ? "Two are" : waiting.length + " are"} waiting on a decision from you.`,
+      `Every action has one owner and one date. Overdue items turn red on their own and come first in the review.`,
+      `Status as of Mon 19 Oct<br>Five areas are my assumption, to confirm`) +
+    `<div class="mgrs">${cards}</div>
+    <div class="grid mt">
+      <div class="card c8"><div class="card-h"><div><p class="card-t">Open actions, most urgent first</p><p class="card-s">Closed this week: ${done.map(d => esc(d.id) + " (" + esc(d.flag.t.toLowerCase()) + ")").join(", ")}.</p></div></div>
+        <div class="tbl-wrap"><table class="tbl compact"><thead><tr><th>ID</th><th>Action</th><th>Owner</th><th class="num">Due</th><th>Flag</th><th>Next step</th></tr></thead><tbody>${list}</tbody></table></div></div>
+      <div class="card c4"><p class="card-t" style="margin-bottom:8px">Review rhythm</p>
+        <div class="rhythm">
+          <div class="step"><div class="when">Mon 11:00</div><div class="what"><b>Publish the MIS</b><span>Pull, check, send this pack.</span></div></div>
+          <div class="step"><div class="when">Mon or Tue</div><div class="what"><b>Weekly review, 45 min</b><span>You and the 5 managers. Tracker on screen, red items first.</span></div></div>
+          <div class="step"><div class="when">Daily</div><div class="what"><b>10-minute scan</b><span>Every overdue item gets a follow-up the same day.</span></div></div>
+          <div class="step"><div class="when">Thu</div><div class="what"><b>Red-item check</b><span>Mid-week pulse on anything at risk.</span></div></div>
+          <div class="step"><div class="when">Fri</div><div class="what"><b>Pre-read for you</b><span>Risks flagged before the weekend.</span></div></div>
+          <div class="step"><div class="when">Month end</div><div class="what"><b>Monthly review</b><span>Trends, targets, decisions.</span></div></div>
+        </div>
+        <p class="card-t" style="margin:12px 0 0">When a date slips</p>
+        <div class="ladder"><div><b>Day 1</b>Private nudge</div><div><b>Day 2–3</b>Offer help, clear the blocker</div><div><b>Day 5</b>Raise in review, with data</div><div><b>Then</b>Your call</div></div>
+        <ul class="rules"><li>Notes out within 2 hours: decisions, owners, dates.</li><li>The manager hears it before you do. No surprises.</li></ul>
+      </div>
+    </div>` + footer("6 / 8", "Source: action tracker, status as of Mon 19 Oct (mock). On-time closure counts the last 4 weeks.");
+  },
+});
+
+/* A. Data health */
+SLIDES.push({
+  id: "data-health", tab: "Data health", n: "A",
+  html() {
+    const rows = D.rows;
+    const ok1 = rows.every(r => r.req >= r.asg && r.asg >= r.comp);
+    const ok2 = rows.every(r => r.comp === r.asg - r.cc - r.pc);
+    const ok3 = rows.every(r => r.ot <= r.comp && r.perfect <= r.ot && r.stock <= r.act);
+    const cells = G.cells.flat();
+    const simple = cells.reduce((s, c) => s + c.asg / c.req, 0) / cells.length, right = A.asg / A.req;
+    const opsFill = A.asg / (A.req - 1620);
+    const chk = (ok, label, detail, s) => `<div class="check"><div><div>${esc(label)}</div><div class="d">${esc(detail)}</div></div>${rag(s || (ok ? "g" : "r"), s === "a" ? "Fixed" : s === "n" ? "Note" : ok ? "Pass" : "Fail")}</div>`;
+    const dict = [
+      ["Perfect booking ★", "Completed, started within 15 min of the slot, no complaint, no redo or refund, rated 4★+ or not rated. Rate = ÷ booking requests"],
+      ["Booking requests", "Unique booking IDs with a service date in the week. A reschedule counts once"],
+      ["Fill rate", "Requests assigned a partner ÷ booking requests"],
+      ["Jobs completed", "Assigned − customer cancels − partner cancels"],
+      ["On-time arrival", "Jobs started within 15 min of slot ÷ jobs completed (15 min to agree with you)"],
+      ["Cancellation rate", "Cancelled after assignment ÷ assigned. Split customer side and partner side"],
+      ["Active partner", "Did 1 or more jobs in the week"],
+      ["Jobs per partner per day", "Jobs completed ÷ (active partners × 6 working days)"],
+      ["90-day retention", "Partners from the cohort that joined 13 weeks ago, still active this week ÷ cohort size"],
+      ["Complaints per 1,000", "Complaints ÷ jobs completed × 1,000"],
+      ["Redo / refund rate", "Jobs redone or refunded ÷ jobs completed"],
+      ["Kit stock-out", "Partners reporting 1 or more missing kit items ÷ active partners"],
+    ].map(([a, b]) => `<tr><td class="metric nowrap">${esc(a)}</td><td class="ink2">${esc(b)}</td></tr>`).join("");
+    return head("A · Data health · before the pack goes out",
+      `8 checks ran before this pack went out. Two problems were caught and fixed before they reached you.`,
+      `Most "data mismatches" between managers are definition mismatches. One dictionary and one source of truth fix them.`,
+      esc(D.meta.week_label)) +
+    `<div class="grid">
+      <div class="card c4"><p class="card-t" style="margin-bottom:8px">Pre-publish checks</p>
+        ${chk(ok1, "Funnel order holds", `Requests ≥ assigned ≥ completed in all ${rows.length} city-weeks`)}
+        ${chk(ok2, "Cancellations reconcile", "Completed = assigned − customer − partner cancels, every row")}
+        ${chk(ok3, "No impossible counts", "On time ≤ completed, perfect ≤ on time, stock-outs ≤ partners")}
+        ${chk(true, "Cities add up to the ops-app total", "12 weeks, zero difference")}
+        ${chk(true, "Duplicate bookings removed", "412 rescheduled bookings were logged twice. Counted once, by booking ID", "a")}
+        ${chk(true, "One fill-rate definition", "City Ops sheet said " + fPct(opsFill) + ", MIS said " + fPct(right) + ". See the box", "a")}
+        ${chk(true, "Same date cut-off everywhere", "Service date, Monday to Sunday, IST")}
+        ${chk(true, "Small bases shown as counts", "3 hubs had under 50 jobs. Their % swings are not trends", "n")}
+      </div>
+      <div class="c4" style="display:grid;gap:12px;align-content:start">
+        <div class="card"><p class="card-t">Same metric, two numbers</p>
+          <p style="font-size:12.8px;margin:6px 0 0">City Ops reported fill rate at <b>${fPct(opsFill)}</b>. The MIS showed <b>${fPct(right)}</b>. Both were right by their own rule: City Ops left out 1,620 requests that customers cancelled within 5 minutes.</p>
+          <p style="font-size:12.8px;margin:6px 0 0"><b>Fix:</b> one definition in the dictionary, signed off by all five managers (A-113). You get one number, with a one-line note on what changed.</p></div>
+        <div class="card"><p class="card-t">The averaging trap</p>
+          <p style="font-size:12.8px;margin:6px 0 8px">Averaging the 35 day-slot fill rates gives <b>${fPct(simple)}</b>. Adding up the counts first gives <b>${fPct(right)}</b>. The shortcut reads ${((simple - right) * 100).toFixed(1)} pts too high and hides ${fPct((simple - right) / (sL.fill - sA.fill), 0)} of this week's drop, because a quiet Monday slot counts as much as a packed Sunday evening.</p>
+          <table class="tbl compact"><tbody><tr><td>Average of 35 slot rates</td><td class="num">${fPct(simple)}</td><td>${rag("r", "Wrong")}</td></tr><tr><td>Total assigned ÷ total requests</td><td class="num">${fPct(right)}</td><td>${rag("g", "Right")}</td></tr></tbody></table></div>
+      </div>
+      <div class="card c4"><p class="card-t" style="margin-bottom:6px">Metric dictionary, v1</p>
+        <table class="tbl compact"><tbody>${dict}</tbody></table></div>
+    </div>` + footer("A", "Checks run on the ops app extract every Monday before 11:00 (mock). Dictionary v1, shared 18 Oct.");
+  },
+});
+
+/* B. Built for this role */
+SLIDES.push({
+  id: "role", tab: "Built for this role", n: "B",
+  html() {
+    const rows = [
+      ["MIS reporting and dashboards", "Slides 1–5, plus an Excel workbook where one data tab feeds every number", "LVX: automated dashboards in Google Sheets and Power BI tracking ₹7 Cr+ of pipeline. Reporting accuracy up 30%"],
+      ["Turn data into insights", "The leak split on slide 1, the ₹ impact tiles, and the kits → cancellations → fill rate link", "LVX: funnel analysis across ₹3.5 Cr, ₹7 Cr and ₹9 Cr+ launches. Conversion up 20%"],
+      ["Weekly and monthly reports, review decks", "Slide 1 is the review headline, slide 2 the one-page MIS. Monthly roll-up in the workbook", "Techvaraha: weekly and monthly reviews across 4 departments. 15+ executive presentations"],
+      ["Spot discrepancies, gaps and bottlenecks", "Appendix A: 8 pre-publish checks, and the 93.5% vs 91.6% fill-rate mismatch", "LVX: reporting SOPs and data workflows. Manual errors down 35%"],
+      ["Track managers' priorities, deliverables and timelines", "Slide 6: one tracker, one owner and one date per action, flagged automatically when late", "Techvaraha: kept 15–20 people across our team and client CXOs moving together. Project delays down 25%"],
+      ["Follow up and close on time", "Slide 6: review rhythm and a 4-step escalation ladder", "Techvaraha: escalation turnaround down 40%. Zero missed deliverables for 3 quarters"],
+      ["Monitor metrics against targets", "One targets table and one red-amber-green rule for all 14 KPIs", "Techvaraha: 4 SOPs, QA workflows and KRAs. On-time delivery from 65% to 90%"],
+      ["Confidentiality and integrity", "Mock data only. Formula cells locked, inputs marked, need-to-know sharing", "LVX: owned investor consent and compliance workflows for the Dubai corridor"],
+      ["Strong Excel and Google Sheets", "Week and city selectors recalculate the whole MIS: SUMIFS, INDEX-MATCH, named ranges, validation", "Advanced Excel. Automated Google Sheets dashboards at LVX"],
+      ["Partner supply and ops", "Slide 4: onboarding funnel, cohort retention, utilisation", "Built a network of 1,400+ healthcare practitioners and 15+ hospital tie-ups. Ran sourcing, inventory and QC at Gomedha"],
+      ["A fast leadership office", "Built over one weekend, from public information", "Two Founder's Office roles. Best Execution Award 2025"],
+    ].map(([a, b, c]) => `<tr><td>${esc(a)}</td><td class="ink2">${esc(b)}</td><td>${esc(c)}</td></tr>`).join("");
+    return head("B · Why this pack exists",
+      `Every part of this pack maps to a line in the job description, and to work I have already done.`,
+      `Built as a working demo of the Founder's Office – Operations role: MIS, reviews, follow-up and clean data.`,
+      `Prepared by Chethan<br>For the interview on Mon 19 Oct`) +
+    `<div class="grid">
+      <div class="card c8"><div class="tbl-wrap"><table class="tbl jd"><thead><tr><th style="width:24%">The JD asks for</th><th style="width:38%">Where it is in this pack</th><th>Where I've done it before</th></tr></thead><tbody>${rows}</tbody></table></div></div>
+      <div class="c4" style="display:grid;gap:12px;align-content:start">
+        <div class="card"><p class="card-t" style="margin-bottom:8px">My first 90 days</p>
+          <div class="plan" style="grid-template-columns:1fr">
+            <div><b>Days 1–30</b>Learn each manager's area. Audit today's MIS. Write the metric dictionary.</div>
+            <div><b>Days 31–60</b>Launch one weekly MIS and one action tracker. Run the weekly review.</div>
+            <div><b>Days 61–90</b>Automate the manual parts. Own one bottleneck fix end to end, picked with you.</div>
+          </div></div>
+        <div class="card"><p class="card-t" style="margin-bottom:6px">Public facts this mock is scaled to</p>
+          <div class="facts"><div><span>Bookings a month</span><b>about 3.5 lakh</b></div><div><span>Partners onboarded</span><b>12,000+</b></div><div><span>Active partners</span><b>about 7,500</b></div><div><span>Cities</span><b>55–60</b></div></div>
+          <p class="card-s" style="margin-top:6px">From company statements and press (YourStory, Apr 2026). Everything else in this pack is mock.</p></div>
+        <div class="card"><p class="card-t" style="margin-bottom:6px">What I'd confirm in week one</p>
+          <ul class="rules" style="margin-top:0"><li>Who the five managers are, and what each one owns.</li><li>Where the MIS lives today, and what hurts most.</li><li>Which number you trust least.</li></ul></div>
+      </div>
+    </div>` + footer("B", "JD lines from the Founder's Office – Operations job description. Track record from my resume.");
+  },
+});
+
+/* ---------------- shell: tabs, navigation, present, theme ---------------- */
+const deck = document.getElementById("deck"), tabs = document.getElementById("tabs");
+document.getElementById("weekLabel").textContent = D.meta.week_label;
+SLIDES.forEach((s, i) => {
+  const sec = document.createElement("section");
+  sec.className = "slide"; sec.id = s.id; sec.setAttribute("role", "tabpanel"); sec.setAttribute("aria-label", s.tab);
+  deck.append(sec);
+  const b = document.createElement("button");
+  b.className = "tab"; b.setAttribute("role", "tab"); b.dataset.i = i;
+  const n = document.createElement("span"); n.className = "n"; n.textContent = s.n || String(i + 1);
+  b.append(n, document.createTextNode(s.tab));
+  b.addEventListener("click", () => go(i));
+  tabs.append(b);
+});
+let cur = 0;
+const rendered = new Set();
+function renderSlide(i, force) {
+  const s = SLIDES[i], sec = deck.children[i];
+  if (force || !rendered.has(i)) { sec.innerHTML = s.html(); if (s.bind) s.bind(sec); rendered.add(i); }
+  if (s.charts) s.charts();
+}
+function render(force) { renderSlide(cur, force); fit(); }
+function go(i) {
+  cur = (i + SLIDES.length) % SLIDES.length;
+  [...deck.children].forEach((el, j) => el.classList.toggle("active", j === cur));
+  [...tabs.children].forEach((el, j) => el.setAttribute("aria-selected", j === cur ? "true" : "false"));
+  tabs.children[cur].scrollIntoView({ block: "nearest", inline: "nearest" });
+  hideTip();
+  renderSlide(cur);
+  fit();
+  try { history.replaceState(null, "", "#" + SLIDES[cur].id); } catch (e) { /* file:// may refuse */ }
+}
+// In present mode, scale a tall slide down so it fits the screen without scrolling
+function fit() {
+  const sec = deck.children[cur];
+  sec.style.zoom = "";
+  if (!document.body.classList.contains("present")) return;
+  const avail = innerHeight - 56 - 24, h = sec.scrollHeight;
+  if (h > avail) sec.style.zoom = Math.max(0.72, avail / h).toFixed(3);
+}
+document.getElementById("prevBtn").addEventListener("click", () => go(cur - 1));
+document.getElementById("nextBtn").addEventListener("click", () => go(cur + 1));
+document.getElementById("presentBtn").addEventListener("click", togglePresent);
+function togglePresent() {
+  const on = !document.body.classList.contains("present");
+  document.body.classList.toggle("present", on);
+  try {
+    if (on && document.documentElement.requestFullscreen) document.documentElement.requestFullscreen().catch(() => {});
+    else if (!on && document.fullscreenElement) document.exitFullscreen();
+  } catch (e) { /* full screen not allowed here */ }
+  setTimeout(() => render(), 120);
+}
+document.addEventListener("fullscreenchange", () => { if (!document.fullscreenElement) { document.body.classList.remove("present"); render(); } });
+document.getElementById("themeBtn").addEventListener("click", () => {
+  const t = isDark() ? "light" : "dark";
+  document.documentElement.dataset.theme = t;
+  try { localStorage.setItem("mis-theme", t); } catch (e) { /* storage blocked */ }
+});
+function themeLabel() { document.getElementById("themeBtn").textContent = isDark() ? "Light" : "Dark"; }
+
+try { const t = localStorage.getItem("mis-theme"); if (t === "dark" || t === "light") document.documentElement.dataset.theme = t; } catch (e) { /* storage blocked */ }
+themeLabel();
+document.addEventListener("keydown", e => {
+  if (e.target.closest && e.target.closest("select, input")) return;
+  if (e.key === "ArrowRight" || e.key === "PageDown" || (e.key === " " && document.body.classList.contains("present"))) { e.preventDefault(); go(cur + 1); }
+  else if (e.key === "ArrowLeft" || e.key === "PageUp") { e.preventDefault(); go(cur - 1); }
+  else if (e.key === "f" || e.key === "F") togglePresent();
+  else if (/^[1-6]$/.test(e.key)) go(+e.key - 1);
+  else if (e.key === "a" || e.key === "A") go(6);
+  else if (e.key === "b" || e.key === "B") go(7);
+});
+let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => render(), 150); });
+
+// Print and PDF: lay every slide out at 1440 x 900, then draw all charts
+function renderAll() {
+  document.body.classList.add("printing");
+  SLIDES.forEach((s, i) => { deck.children[i].style.zoom = ""; deck.children[i].innerHTML = s.html(); if (s.bind) s.bind(deck.children[i]); });
+  SLIDES.forEach(s => s.charts && s.charts());
+  rendered.clear();
+}
+addEventListener("beforeprint", renderAll);
+addEventListener("afterprint", () => { document.body.classList.remove("printing"); rendered.clear(); go(cur); });
+window.__renderAll = renderAll;
+
+const start = SLIDES.findIndex(s => "#" + s.id === location.hash);
+if (/[?&]print\b/.test(location.search)) renderAll(); else go(start >= 0 ? start : 0);
+
+// Redraw the charts when the theme changes: the button, the OS setting, or the host's own choice
+function onThemeChange() {
+  themeLabel();
+  rendered.clear();
+  if (document.body.classList.contains("printing")) renderAll(); else render(true);
+}
+if (darkQuery && darkQuery.addEventListener) darkQuery.addEventListener("change", onThemeChange);
+new MutationObserver(onThemeChange).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+})();
+</script>
+</body>
+</html>
