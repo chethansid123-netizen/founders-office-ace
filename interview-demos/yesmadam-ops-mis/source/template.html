@@ -28,7 +28,33 @@
   --warn-bg: #fff3d6;
   --crit-bg: #fbe7e7;
   --info-bg: #efefeb;
+  --soft-bar: #86b6ef;
   --shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --page: #0d0d0d;
+    --surface: #1a1a19;
+    --surface-2: #222220;
+    --ink: #f0efec;
+    --ink-2: #c3c2b7;
+    --muted: #95938c;
+    --grid: #2c2c2a;
+    --axis: #444441;
+    --border: rgba(255, 255, 255, 0.10);
+    --accent: #3987e5;
+    --accent-soft: #15283f;
+    --good-ink: #3fc23f;
+    --warn-ink: #f5c04d;
+    --crit-ink: #f07a7a;
+    --good-bg: #13301a;
+    --warn-bg: #3a2e10;
+    --crit-bg: #3d1a1a;
+    --info-bg: #2a2a28;
+    --soft-bar: #1c5cab;
+    --shadow: none;
+  }
 }
 :root[data-theme="dark"] {
   color-scheme: dark;
@@ -50,6 +76,7 @@
   --warn-bg: #3a2e10;
   --crit-bg: #3d1a1a;
   --info-bg: #2a2a28;
+  --soft-bar: #1c5cab;
   --shadow: none;
 }
 * { box-sizing: border-box; }
@@ -64,9 +91,10 @@ button { font: inherit; color: inherit; }
 
 /* ---------- app bar ---------- */
 .appbar {
-  position: sticky; top: 0; z-index: 20;
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20;
   display: flex; align-items: center; gap: 16px;
-  height: 56px; padding: 0 20px;
+  height: 56px; padding-block: 0;
+  padding-left: max(20px, env(safe-area-inset-left, 0px)); padding-right: max(20px, env(safe-area-inset-right, 0px));
   background: var(--surface); border-bottom: 1px solid var(--border);
 }
 .brand { display: flex; align-items: center; gap: 10px; min-width: 0; }
@@ -99,7 +127,8 @@ button { font: inherit; color: inherit; }
 .icon-btn:hover { background: var(--surface-2); }
 
 /* ---------- slides ---------- */
-.deck { padding: 18px 20px 28px; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 30; background: var(--surface); }
+.deck { padding-block: 18px 28px; padding-left: max(20px, env(safe-area-inset-left, 0px)); padding-right: max(20px, env(safe-area-inset-right, 0px)); }
 .slide { display: none; max-width: 1400px; margin: 0 auto; transform-origin: top center; }
 .slide.active { display: block; }
 .slide-head { display: flex; align-items: flex-end; gap: 24px; margin: 2px 0 14px; }
@@ -224,8 +253,7 @@ table { border-collapse: collapse; width: 100%; }
 /* inline bars (funnels) */
 .bar-track { position: relative; height: 14px; background: var(--surface-2); border-radius: 0 4px 4px 0; }
 .bar-fill { position: absolute; left: 0; top: 0; bottom: 0; background: var(--accent); border-radius: 0 4px 4px 0; }
-.bar-fill.soft { background: #86b6ef; }
-:root[data-theme="dark"] .bar-fill.soft { background: #1c5cab; }
+.bar-fill.soft { background: var(--soft-bar); }
 
 /* charts */
 .chart { position: relative; width: 100%; }
@@ -321,9 +349,9 @@ body.present .appbar .brand-text span, body.present .mock-pill { display: none; 
   .brand-text span { display: none; }
 }
 @media (max-width: 700px) {
-  .appbar { height: auto; flex-wrap: wrap; padding: 10px 16px; gap: 8px; }
+  .appbar { height: auto; flex-wrap: wrap; padding-block: 10px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); gap: 8px; }
   .tabs { order: 3; width: 100%; margin-left: 0; }
-  .deck { padding: 14px 16px 24px; }
+  .deck { padding-block: 14px 24px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
   .slide-head { flex-direction: column; align-items: flex-start; gap: 6px; }
   .slide-meta { text-align: left; }
   .tiles.t4, .tiles.t3, .mgrs, .plan, .ladder { grid-template-columns: 1fr; }
@@ -336,6 +364,7 @@ body.present .appbar .brand-text span, body.present .mock-pill { display: none; 
 @page { size: 1440px 900px; margin: 0; }
 body.printing .appbar { display: none; }
 body.printing .deck { padding: 0; }
+body.printing::before { display: none; }
 body.printing .slide {
   display: block; width: 1440px; height: 900px; max-width: none; padding: 26px 32px 20px; overflow: hidden;
   break-after: page; page-break-after: always; position: relative;
@@ -460,8 +489,13 @@ const dot = s => `<span class="dot ${s}" aria-hidden="true"></span>`;
 function series(k, city) { return WEEKS.map(w => k.f(agg(w, city))); }
 
 /* ---------------- theme-aware palette ---------------- */
+const darkQuery = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+function isDark() {
+  const t = document.documentElement.dataset.theme;
+  return t === "dark" || (t !== "light" && !!(darkQuery && darkQuery.matches));
+}
 function pal() {
-  const dark = document.documentElement.dataset.theme === "dark";
+  const dark = isDark();
   return dark ? {
     dark, accent: "#3987e5", soft: "#1c5cab", gray: "#6f6d67", s2: "#d95926", ink: "#f0efec", ink2: "#c3c2b7",
     muted: "#95938c", grid: "#2c2c2a", surface: "#1a1a19", mid: "#383835",
@@ -1256,13 +1290,12 @@ function togglePresent() {
 }
 document.addEventListener("fullscreenchange", () => { if (!document.fullscreenElement) { document.body.classList.remove("present"); render(); } });
 document.getElementById("themeBtn").addEventListener("click", () => {
-  const t = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+  const t = isDark() ? "light" : "dark";
   document.documentElement.dataset.theme = t;
   try { localStorage.setItem("mis-theme", t); } catch (e) { /* storage blocked */ }
-  themeLabel();
-  rendered.clear(); render(true);
 });
-function themeLabel() { document.getElementById("themeBtn").textContent = document.documentElement.dataset.theme === "dark" ? "Light" : "Dark"; }
+function themeLabel() { document.getElementById("themeBtn").textContent = isDark() ? "Light" : "Dark"; }
+
 try { const t = localStorage.getItem("mis-theme"); if (t === "dark" || t === "light") document.documentElement.dataset.theme = t; } catch (e) { /* storage blocked */ }
 themeLabel();
 document.addEventListener("keydown", e => {
@@ -1289,6 +1322,15 @@ window.__renderAll = renderAll;
 
 const start = SLIDES.findIndex(s => "#" + s.id === location.hash);
 if (/[?&]print\b/.test(location.search)) renderAll(); else go(start >= 0 ? start : 0);
+
+// Redraw the charts when the theme changes: the button, the OS setting, or the host's own choice
+function onThemeChange() {
+  themeLabel();
+  rendered.clear();
+  if (document.body.classList.contains("printing")) renderAll(); else render(true);
+}
+if (darkQuery && darkQuery.addEventListener) darkQuery.addEventListener("change", onThemeChange);
+new MutationObserver(onThemeChange).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
 })();
 </script>
 </body>
