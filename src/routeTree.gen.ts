@@ -9,17 +9,17 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as ChtrboxRouteImport } from './routes/chtrbox'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as ChtrboxRouteImport } from './routes/chtrbox'
 
-const ChtrboxRoute = ChtrboxRouteImport.update({
-  id: '/chtrbox',
-  path: '/chtrbox',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ChtrboxRoute = ChtrboxRouteImport.update({
+  id: '/chtrbox',
+  path: '/chtrbox',
   getParentRoute: () => rootRouteImport,
 } as any)
 
@@ -51,18 +51,18 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/chtrbox': {
-      id: '/chtrbox'
-      path: '/chtrbox'
-      fullPath: '/chtrbox'
-      preLoaderRoute: typeof ChtrboxRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/': {
       id: '/'
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/chtrbox': {
+      id: '/chtrbox'
+      path: '/chtrbox'
+      fullPath: '/chtrbox'
+      preLoaderRoute: typeof ChtrboxRouteImport
       parentRoute: typeof rootRouteImport
     }
   }
