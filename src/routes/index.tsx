@@ -232,7 +232,6 @@ function Index() {
               <a key={n.id} href={`#${n.id}`} className="hover:opacity-60 transition-opacity">{n.label}</a>
             ))}
           </nav>
-          <a href="/chtrbox" className="tag">Chtrbox demo</a>
           <a href="mailto:chethansid123@gmail.com" className="tag bg-foreground text-background border-foreground">Hire me →</a>
         </div>
       </header>
