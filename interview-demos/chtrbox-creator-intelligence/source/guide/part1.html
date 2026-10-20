@@ -1,0 +1,360 @@
+<section class="part">
+<div class="part-k">Part 1</div>
+<h1>Understand it first</h1>
+<p class="lede">This part explains what the Creator Intelligence Engine is, the problem it solves, how it works stage by stage, and how it was built. It walks one Amazon festive brief through the whole engine using the platform's own numbers. Every chapter ends with the words to say out loud.</p>
+
+<h2>(a) What it is</h2>
+
+<h3>In one sentence</h3>
+<p>The Creator Intelligence Engine is software that picks the right creators for a brand brief, forecasts what they will deliver, and then proves what they actually delivered, using data instead of follower counts.</p>
+
+<h3>In one paragraph</h3>
+<p>Every brand that hires Chtrbox asks three questions: who should we work with, what will it deliver, and did it work? Today a strategist answers the first by hand, the second by experience, and the third with a wrap-up deck full of reported views. The engine answers all three with data. It holds 76 data points per creator in eight families (identity, audience, content, performance, authenticity, safety, commercials, outcomes). For each brief it removes creators who fail hard checks (fake audience, brand-safety risk, a recent competitor post, regulatory eligibility), ranks the rest with a seven-part fit score that shows its reasons, builds a plan under the budget, and forecasts views, clicks, orders and recall with a confidence band. After the campaign it plugs into the tracking Chtrbox already runs and reports every number on a six-level ladder from "reported" (L0) to "incremental" (L5). Each campaign's forecast error then retrains the model.</p>
+
+<h3>In one page</h3>
+<p>The prototype is one offline HTML file with seven screens. It runs on a sample of 420 synthetic creators, 35 brands (30 publicly reported Chtrbox clients and 5 labelled prospects) across 9 verticals, and 6 simulated campaigns.</p>
+<table class="t small">
+<thead><tr><th>Screen (key)</th><th>What it does</th><th>Who uses it</th></tr></thead>
+<tbody>
+<tr><td><b>Overview</b> (1)</td><td>The thesis, Chtrbox's public numbers, reported-versus-real views, claimed-versus-verified ROI, the six stages</td><td>Leadership, pitches</td></tr>
+<tr><td><b>Brand Match</b> (2)</td><td>Brand DNA, hard gates, ranked creators with reasons, the plan under budget, engine plan versus follower-count plan, efficiency map</td><td>Strategists</td></tr>
+<tr><td><b>Discovery</b> (3)</td><td>Plain-language search ("Hindi beauty creators under 25k with ER above 3%") turned into filters</td><td>Strategists, sales</td></tr>
+<tr><td><b>Vertical Lens</b> (4)</td><td>Playbooks for 9 verticals, a talent heatmap, top creators, tier benchmarks</td><td>Sales, planners</td></tr>
+<tr><td><b>Campaigns &amp; ROI</b> (5)</td><td>Live tracking, the reported-to-real ladder, revenue waterfall, brand lift, holdout, alerts</td><td>Account teams, brands</td></tr>
+<tr><td><b>How it works</b> (6)</td><td>The 76 data points, the formula, the gates, the ROI ladder, how the model improves</td><td>Everyone</td></tr>
+<tr><td><b>Rollout plan</b> (7)</td><td>30/60/90 days, the pod, the budget, KPIs and guardrails</td><td>Leadership</td></tr>
+</tbody>
+</table>
+<p>The headline numbers on the Overview, all simulated: a median of 14% of creators are gated out per brief before any ranking; ₹1.13 Cr incremental revenue across the 6 campaigns (₹11,299,955, the sum of each campaign's incremental revenue); 1.33× incremental ROAS on the five non-awareness campaigns (1.95× on 12-month customer value); and a mean ad-recall lift of +9.8 points across the 6 lift studies.</p>
+<div class="def"><b>ROAS and iROAS</b><p>ROAS is return on ad spend: revenue divided by spend. iROAS (incremental ROAS) keeps only the revenue a holdout test shows would not have happened anyway. <span class="f">Formula: iROAS = incremental revenue ÷ spend.</span> Example: the Amazon campaign has ₹38.9L incremental revenue on ₹22.4L spend, so iROAS = 1.74×.</p></div>
+
+<h3>The analogy: a selection committee with ball-by-ball data</h3>
+<p>Think of a cricket selection committee picking an XI for a Test in Chennai. A lazy committee picks the eleven most famous names. A good one asks what this pitch needs (spin or pace), checks fitness before anyone is considered, compares each player's form against others in the same role, estimates what each will score, and after the match reads the scorecard to decide the next selection.</p>
+<p>The engine does the same thing for creators. The brief is the pitch: awareness, consideration and conversion need different players, which is why the fit weights change by objective. The hard gates are the fitness test. Comparing performance within tier is comparing form within role, so a nano creator is judged against nano creators. The forecast is the expected score. The verified-ROI report is the scorecard, and the learning loop is the next selection meeting. A follower-count plan is the committee that picks the eleven most famous names.</p>
+<p>It fits because every leader in the room already understands why fame alone picks bad teams, and because it carries the full loop of select, predict, verify and learn in one picture.</p>
+
+<div class="say"><b>Say it like this</b><p>"The Creator Intelligence Engine answers the three questions every brand asks us: who should we work with, what will it deliver, and did it work. Think of it as a selection committee with ball-by-ball data. It checks fitness first, picks for the pitch, predicts the score, and reads the scorecard afterwards so the next selection is better. What you'll see is a working prototype on synthetic creators, built on the tracking Chtrbox already runs."</p></div>
+
+<section class="brk">
+<h2>(b) The problem from first principles</h2>
+<p>What a brand pays for is a change in what people think or do: remembering the brand, considering it, or buying it. Views, likes and follower counts are proxies for that change. Influencer marketing still runs on the weakest proxies because they are the easiest to collect.</p>
+
+<h3>Why vanity metrics survive</h3>
+<div class="steps">
+<div class="step"><b>Information asymmetry</b><p>Creators report their own numbers, often as screenshots. A brand cannot check how many followers are real. Example: in the Amazon campaign, creators reported 3.51M views; the API confirmed 2.90M.</p></div>
+<div class="step"><b>No counterfactual</b><p>A counterfactual is what would have happened without the campaign. Few campaigns run a holdout, so nobody knows which sales would have come anyway during a festive sale. Example: of Amazon's ₹62.7L verified revenue, the model treats 62% as incremental, so about ₹23.8L would have happened anyway (₹62.7L × 0.38).</p></div>
+<div class="step"><b>Fragmented data</b><p>Reach lives on Instagram, clicks in link tools, orders in the brand's systems, returns in the warehouse. Nobody joins them, so nobody can say "this creator caused these orders, net of returns".</p></div>
+<div class="step"><b>Incentives</b><p>Bigger reported numbers make the creator, the agency and the brand manager all look good in the wrap-up deck. Nobody in the chain is paid to report the smaller, honest number.</p></div>
+</div>
+
+<h3>Where value leaks</h3>
+<table class="t small">
+<thead><tr><th>Leak</th><th>Plain example</th><th>What the engine does</th><th>Measured by</th></tr></thead>
+<tbody>
+<tr><td><b>Fake audiences</b></td><td>You pay a mega creator for 5M followers; 28% of the audience in Amazon's follower-count plan looks fake or inactive</td><td>Gate at 72% real followers; authenticity is 14% of the score</td><td>Spend on gated creators = ₹0</td></tr>
+<tr><td><b>Competitor conflicts</b></td><td>A creator who posted for Myntra 16 days ago now posts for Amazon; the audience ignores both</td><td>60-day exclusivity check against named competitors before ranking</td><td>Conflicts caught before contract</td></tr>
+<tr><td><b>Regulatory exposure</b></td><td>A finance creator without SEBI registration promotes Groww; a lifestyle creator makes a medical claim</td><td>SEBI and ASCI credential gates in regulated categories</td><td>Compliance incidents = 0</td></tr>
+<tr><td><b>Strategist hours</b></td><td>A strategist searches thousands of profiles by hand for every brief (about 3 days today, to confirm)</td><td>Ranked shortlist with reasons in minutes</td><td>Brief-to-shortlist time</td></tr>
+<tr><td><b>Overpaying for reach</b></td><td>Big accounts cost less per follower but deliver less per rupee: 0.4% median ER for mega against 4.9% for nano</td><td>Plan builder optimises outcome per rupee</td><td>Cost per verified target-group view</td></tr>
+<tr><td><b>Weak renewals</b></td><td>The deck says 3.36× ROI; the CFO's own data says otherwise, and the budget moves</td><td>Verified-ROI report with holdouts and lift</td><td>Repeat-brand rate</td></tr>
+</tbody>
+</table>
+<div class="call accent"><b>The core bet</b><p>The agency that can say "these creators will deliver this, with this confidence", and later "here is what actually happened, net of what would have happened anyway", will win the accountable budgets. That needs three assets Chtrbox already has: a large creator network, years of campaign outcomes, and live tracking. The engine connects them.</p></div>
+
+<div class="say"><b>Say it like this</b><p>"What a brand pays for is a change in behaviour. Posts are only the vehicle. Vanity metrics survive for four reasons: creators self-report, nobody runs a control group, the data sits in four different systems, and everyone looks good when the number is big. The cost shows up in six places: fake audiences, competitor conflicts, regulatory risk, strategist hours, overpaying for reach, and renewals we can't defend. Each one has a measurable fix."</p></div>
+</section>
+
+<section class="brk">
+<h2>(c) The three questions every brand asks</h2>
+<p>Everything in the platform hangs off three questions. Learn this table and you can place any screen in context.</p>
+<table class="t">
+<thead><tr><th>Question</th><th>Module that answers it</th><th>What you show</th></tr></thead>
+<tbody>
+<tr><td><b>1. Who should we work with?</b></td><td>Brand Match, supported by Discovery and Vertical Lens</td><td>Gated creators with reasons; the ranked list with the seven-part fit bar; the "why" lines on each creator</td></tr>
+<tr><td><b>2. What will it deliver?</b></td><td>Forecast, inside Brand Match and the creator profile</td><td>Per-creator views, target-group views, clicks, orders, revenue and recall with a ±12%, ±22% or ±35% band; the plan totals; engine plan versus follower-count plan; the efficiency map</td></tr>
+<tr><td><b>3. Did it work?</b></td><td>Campaigns &amp; ROI</td><td>Reported-to-real ladder; revenue waterfall from attributed to incremental; brand lift; holdout; forecast versus actual; alerts</td></tr>
+</tbody>
+</table>
+<div class="click">Overview → click "01 · Brand Match" (who) → "02 · Forecast" (what) → "03 · Verified ROI" (did it work)</div>
+<p>The Overview has three buttons that match these questions, so you can open the demo by reading them and clicking through.</p>
+
+<div class="say"><b>Say it like this</b><p>"Every brand asks us three things: who should we work with, what will it deliver, and did it work. Brand Match answers the first, the forecast answers the second, and Campaigns and ROI answers the third. Today we answer them with judgement, experience and a deck. The engine answers them with data, and the third answer feeds back into the first."</p></div>
+</section>
+
+<section class="brk">
+<h2>(d) The four Rs: reach, relevance, resonance, return</h2>
+<p>Chtrbox already describes its matching as reach, relevance and resonance (YourStory, May 2026). The engine keeps that language, adds a fourth R for return, and puts a number on each. Using the company's own words matters, because you are extending a framework they already own.</p>
+<table class="t small">
+<thead><tr><th>R</th><th>Plain meaning</th><th>Where it lives in the engine</th><th>Metrics to track</th><th>Amazon example (simulated)</th></tr></thead>
+<tbody>
+<tr><td><b>Reach</b></td><td>Real people in the target group, deduplicated and bot-filtered. Followers do not count.</td><td>Authenticity part; target-group views in the forecast; the ladder</td><td>API-verified views, unique reach, real-follower share, cost per thousand target-group people</td><td>3.51M reported views became 1.65M real people in the target group (46.8%), at ₹1,361 per thousand</td></tr>
+<tr><td><b>Relevance</b></td><td>Does this creator's audience, category and culture fit the brief?</td><td>Audience fit, content affinity, culture &amp; language (40% of the conversion score: 18 + 14 + 8)</td><td>Gender, age and city-tier overlap; category affinity; language match; shared cultural codes</td><td>Kunal K.: 50% women against a 52% target, 95% age overlap, 96% city-tier overlap</td></tr>
+<tr><td><b>Resonance</b></td><td>Do people pay attention and trust the creator?</td><td>Performance part, measured as a percentile within tier</td><td>View-through, 3-second hold, ER, saves and shares, sentiment, link CTR, trust index, recall lift</td><td>Ad recall rose from 21% (control) to 31.5% (exposed), +10.5 points</td></tr>
+<tr><td><b>Return</b></td><td>Outcomes that are verified and incremental, net of returns and organic sales</td><td>Forecast orders and revenue; the verified-ROI ladder L4 and L5</td><td>Orders, revenue net of returns, iROAS, 12-month value ROAS, CAC</td><td>Attributed 3.08× fell to 1.74× incremental after 9% returns and the organic baseline</td></tr>
+</tbody>
+</table>
+<div class="def"><b>Engagement rate (ER) and CTR</b><p>ER is interactions divided by followers. CTR (click-through rate) is link clicks divided by views. <span class="f">Formula: ER = (likes + comments + saves + shares) ÷ followers; CTR = clicks ÷ views.</span> Example: Kunal K. has ER 3.45% and link CTR 1.58%, top 1% of micro creators.</p></div>
+
+<div class="say"><b>Say it like this</b><p>"Chtrbox already talks about reach, relevance and resonance. I kept those words and added the fourth R, return, because that's what the CFO on the brand side asks about. The engine puts a number on each: reach is real people in the target group, relevance is the audience and cultural fit, resonance is attention and trust measured against creators of the same size, and return is incremental revenue after returns."</p></div>
+</section>
+
+<section class="brk">
+<h2>(e) How the engine works: six stages</h2>
+<p>The Overview shows six stages. Each takes something in and hands something on. In the prototype, stages 1 and 2 are simulated by the data generator; stages 3 and 4 are real code running in the browser; stages 5 and 6 are shown on simulated campaigns.</p>
+<div class="steps">
+<div class="step"><b>Ingest</b><p><b>In:</b> creator platform data through consent (Instagram Graph, YouTube Analytics), Chtrbox's campaign history, the Represent roster, brand outcome feeds (pixels, UTMs, codes, marketplace data), and the brand brief. <b>Out:</b> one record per creator with 76 fields, each with a source and a timestamp.</p></div>
+<div class="step"><b>Understand</b><p><b>In:</b> captions, audio and video frames, comments, and the brief. <b>What happens:</b> vision and language models tag niche, cultural codes (such as "Festive &amp; occasions" or "Value-seeker"), language (12 languages, Hinglish-aware), comment sentiment and brand-safety risk. The brief becomes a Brand DNA: target gender, age, city tier, affluence, languages, codes, competitors and compliance class. <b>Out:</b> tagged creators and a structured brief.</p></div>
+<div class="step"><b>Match</b><p><b>In:</b> Brand DNA and creator records. <b>What happens:</b> six hard gates first (real followers below 72%, safety below 55, a competitor post in the last 60 days, SEBI or health-credential eligibility, wrong market), then a seven-part fit score weighted by objective. <b>Out:</b> a ranked list where every score shows its parts and its reasons, plus a gated list with the reason for each exclusion.</p></div>
+<div class="step"><b>Forecast</b><p><b>In:</b> each eligible creator's views, story reach, CTR, trust, rate card, plus the brand's conversion rate and order value. <b>What happens:</b> the per-creator forecast formulas below, then a plan builder that fills the budget. <b>Out:</b> views, target-group views, clicks, orders, revenue, recall and cost per outcome, each with a confidence band; a plan; and a follower-count plan at the same spend for comparison.</p></div>
+<div class="step"><b>Verify</b><p><b>In:</b> live data from Chtrbox's existing tracking and attribution (links, codes, affiliate), API-pulled views, brand order and returns data, holdout cities and lift surveys. <b>What happens:</b> deduplicate, bot-filter, keep the target group, net out returns, subtract the organic baseline. <b>Out:</b> a report where every number carries its level, L0 to L5.</p></div>
+<div class="step"><b>Learn</b><p><b>In:</b> forecast-versus-actual pairs for every creator, and every strategist override with a reason. <b>What happens:</b> forecasts are recalibrated and the ranking is retrained. <b>Out:</b> a better model for the next brief. On the 6 sample campaigns the views forecast error (MAPE) is 16.0% to 19.4%.</p></div>
+</div>
+
+<h3>The fit score</h3>
+<div class="formula">Fit = w1·Audience fit + w2·Content affinity + w3·Culture &amp; language + w4·Performance + w5·Authenticity + w6·Safety &amp; compliance + w7·Cost efficiency (+ Represent boost ≤ 5)</div>
+<table class="t small">
+<thead><tr><th>Part</th><th>How it is measured (from app.js)</th><th class="r">Awareness</th><th class="r">Consideration</th><th class="r">Conversion</th></tr></thead>
+<tbody>
+<tr><td>Audience fit</td><td>0.3 × gender match + 0.3 × age overlap + 0.25 × city-tier overlap + 0.15 × affluence match</td><td class="r">22</td><td class="r">20</td><td class="r">18</td></tr>
+<tr><td>Content affinity</td><td>Brand's affinity to the creator's primary category (75%) and secondary (25%)</td><td class="r">15</td><td class="r">18</td><td class="r">14</td></tr>
+<tr><td>Culture &amp; language</td><td>0.55 × best language match + 0.45 × shared cultural codes (two codes = full marks)</td><td class="r">14</td><td class="r">10</td><td class="r">8</td></tr>
+<tr><td>Performance</td><td>Percentiles within tier. Awareness: view-through, hook, recall. Consideration: ER, saves + shares, sentiment. Conversion: 0.55 CTR + 0.25 trust + 0.2 ER</td><td class="r">15</td><td class="r">20</td><td class="r">26</td></tr>
+<tr><td>Authenticity</td><td>Real-follower share (60%), content quality (20%), sponsored saturation (20%); minus 25 points for fraud signals</td><td class="r">14</td><td class="r">14</td><td class="r">14</td></tr>
+<tr><td>Safety &amp; compliance</td><td>0.6 × brand-safety score + 0.4 × #ad disclosure rate</td><td class="r">10</td><td class="r">8</td><td class="r">8</td></tr>
+<tr><td>Cost efficiency</td><td>Percentile of outcome per rupee among creators who pass the gates</td><td class="r">10</td><td class="r">10</td><td class="r">12</td></tr>
+</tbody>
+</table>
+<p>Each part is scored 0 to 100. Its contribution is part score × weight ÷ 100, because the weights add up to 100. The Represent boost is off by default, capped at 5 points, and shown on the score when used.</p>
+
+<h3>The forecast, per creator</h3>
+<div class="formula">Views = average reel views + story views (followers × tier story-view rate × 2 stories)</div>
+<div class="formula">Target-group views = views × real-follower share × target-group share</div>
+<div class="formula">Clicks = (reel views × CTR × 0.3 + story views × CTR × 1.3) × (0.55 + 0.9 × category affinity)</div>
+<div class="formula">Orders = clicks × brand conversion rate × creator trust × (0.7 + 0.6 × affinity) × 2.8 assist factor</div>
+<p>The assist factor of 2.8 counts orders that come through codes, affiliate links and later searches for every order that comes from a direct click. It is a modelling assumption to be calibrated in days 31 to 45. The confidence band is ±12% for creators with 5+ tracked campaigns and a lift study, ±22% for 2+ campaigns, and ±35% otherwise.</p>
+
+<h3>The plan builder</h3>
+<p>The plan builder considers creators with fit of 50 or more. It ranks them by fit<sup>2.2</sup> × (real-follower share)<sup>6</sup> × outcome ÷ (cost + ₹3,000 operating cost per creator), then fills the budget with caps of one mega and three macro creators, no creator above 25% of the budget, and at most 80 creators. The steep power on real-follower share means a creator with 70% real followers scores far below one with 90%. The follower-count plan for comparison simply buys the biggest accounts in the market until the same budget runs out.</p>
+
+<div class="say"><b>Say it like this</b><p>"The engine has six stages: ingest, understand, match, forecast, verify, learn. The important design choice is that the hard checks come before any score, so a creator with fake followers or a competitor post from last month never even gets ranked. The score itself is seven parts with weights that change by objective, and every creator shows why they ranked where they did. Nothing is a black box; a strategist can see the parts and override them."</p></div>
+</section>
+
+<section class="brk">
+<h2>(f) One end-to-end story: Amazon's Great Indian Festival</h2>
+<p>This is the story to tell if someone says "show me one brief from start to finish". All numbers are simulated. Amazon is a publicly reported Chtrbox client; nothing here is Amazon's real data.</p>
+
+<h3>Stage 1 · Ingest: the brief</h3>
+<p>The brief: "Turn creator storefronts into the first stop for festive shopping lists." Moment: Great Indian Festival, September to October. Objective: conversion. Budget: ₹45L. KPIs: verified orders, iROAS, new-to-Amazon customers. Markets: India and UAE. The model assumes an average order value of ₹1,900 and a 4% click-to-order rate before assists.</p>
+
+<h3>Stage 2 · Understand: the Brand DNA</h3>
+<table class="t small">
+<thead><tr><th>Field</th><th>Value</th></tr></thead>
+<tbody>
+<tr><td>Target audience</td><td>52% women; age 13–17: 4%, 18–24: 32%, 25–34: 40%, 35–44: 17%, 45+: 7%; city tiers 1/2/3: 42% / 36% / 22%; affluence index 0.5</td></tr>
+<tr><td>Languages (weight)</td><td>Hinglish 1.0; Hindi and English 0.9; Tamil, Telugu, Kannada, Bengali, Marathi 0.6; Malayalam, Gujarati 0.55</td></tr>
+<tr><td>Cultural codes</td><td>Festive &amp; occasions, Value-seeker, Working professional, Family-first</td></tr>
+<tr><td>Category affinity</td><td>Tech and Home 0.9; Lifestyle 0.85; Fashion and Beauty 0.8; Parenting 0.75; Food and Fitness 0.6; Comedy 0.5</td></tr>
+<tr><td>Competitors (60-day exclusivity)</td><td>Flipkart, Meesho, Myntra, Ajio</td></tr>
+<tr><td>Conversion weights</td><td>Audience 18, Content 14, Culture 8, Performance 26, Authenticity 14, Safety 8, Cost 12</td></tr>
+</tbody>
+</table>
+
+<h3>Stage 3 · Match: gates, then ranking</h3>
+<div class="kpis">
+<div class="kpi"><b>420</b><span>creators in the sample</span></div>
+<div class="kpi"><b>54</b><span>gated before ranking (12.9%)</span></div>
+<div class="kpi"><b>366</b><span>eligible and ranked</span></div>
+</div>
+<p>Gate reasons: 32 for fake or inactive audience, 20 for a competitor conflict, 4 for brand-safety risk. These add to 56 because some creators fail more than one gate. Examples on screen: Nikita D. posted for Myntra 16 days ago; Ishita Y. posted for Ajio 42 days ago. Each gated creator is listed with the reason, so a strategist can challenge a gate.</p>
+<p>The top-ranked creator is <b>Kunal K.</b> (CIE-1332), a Delhi NCR micro creator in Fitness &amp; Wellness with Food &amp; Cooking as a second pillar, 32,206 Instagram followers, creating in Hinglish. Fit 83.1.</p>
+<table class="t small">
+<thead><tr><th>Part</th><th class="r">Score</th><th class="r">Weight</th><th class="r">Contribution</th><th>Why</th></tr></thead>
+<tbody>
+<tr><td>Performance</td><td class="r">89</td><td class="r">26</td><td class="r">23.0</td><td>Link CTR 1.58%, top 1% of micro creators; trust index 1.16</td></tr>
+<tr><td>Audience fit</td><td class="r">100</td><td class="r">18</td><td class="r">18.0</td><td>50% women (target 52%), 95% age overlap, 96% city-tier overlap</td></tr>
+<tr><td>Cost efficiency</td><td class="r">98</td><td class="r">12</td><td class="r">11.8</td><td>Forecast 4.0× ROAS on ₹11K</td></tr>
+<tr><td>Authenticity</td><td class="r">74</td><td class="r">14</td><td class="r">10.4</td><td>91% of followers look real; 44% of recent posts sponsored</td></tr>
+<tr><td>Content affinity</td><td class="r">60</td><td class="r">14</td><td class="r">8.4</td><td>Fitness and food are 0.6-affinity categories for Amazon</td></tr>
+<tr><td>Safety</td><td class="r">90</td><td class="r">8</td><td class="r">7.2</td><td>Safety score 88; #ad on 92% of paid posts</td></tr>
+<tr><td>Culture &amp; language</td><td class="r">55</td><td class="r">8</td><td class="r">4.4</td><td>Hinglish is Amazon's lead language (0.55 × 1.0); no shared codes</td></tr>
+</tbody>
+</table>
+<p>Contributions add to 83.2; the screen shows 83.1 because the parts are rounded. The risk line says "Few tracked campaigns, so the forecast band is wide": Kunal has no tracked Chtrbox campaigns, so his confidence is Low (±35%). This is a good moment in the demo. The engine ranks him first and tells you honestly that it is less sure about him.</p>
+<p>Switch the objective to Awareness and the top three change to Kritika D., Lakshmi D. and Aarya M.; switch to Consideration and they become Rehan G., Subhankar B. and Ishani V. Same creators, different brief, different team.</p>
+
+<h3>Stage 4 · Forecast: one creator, then the plan</h3>
+<div class="example"><b>Worked example: Kunal K. for Amazon</b><p>Cost: one reel ₹7,000 + two stories at ₹2,000 = ₹11,000. Views: 7,038 average reel views + story views (32,206 × 0.09 micro story rate × 2 = 5,797) = 12,835. Target-group views: 12,835 × 90.9% real × 92% target-group share ≈ 10,741. Clicks: (7,038 × 1.58% × 0.3 + 5,797 × 1.58% × 1.3) × (0.55 + 0.9 × 0.6) ≈ 166. Orders: 166 × 4% × 1.16 trust × (0.7 + 0.6 × 0.6) × 2.8 ≈ 22.9. Revenue: 22.9 × ₹1,900 ≈ ₹43,475. ROAS: ₹43,475 ÷ ₹11,000 = 3.95×.</p></div>
+<p>The plan builder then fills the brief:</p>
+<table class="t small">
+<thead><tr><th>Same spend: ₹42.2L</th><th class="r">Engine plan</th><th class="r">Follower-count plan</th><th class="r">Ratio</th></tr></thead>
+<tbody>
+<tr><td>Creators</td><td class="r">80</td><td class="r">4</td><td class="r"></td></tr>
+<tr><td>Forecast views</td><td class="r">5.20M</td><td class="r">3.69M</td><td class="r">1.41×</td></tr>
+<tr><td>Verified target-group views</td><td class="r">3.39M</td><td class="r">2.19M</td><td class="r">1.55×</td></tr>
+<tr><td>Clicks</td><td class="r">45,693</td><td class="r">20,103</td><td class="r">2.27×</td></tr>
+<tr><td>Orders</td><td class="r">6,045</td><td class="r">2,305</td><td class="r">2.62×</td></tr>
+<tr><td>Revenue</td><td class="r">₹1.15 Cr</td><td class="r">₹43.8L</td><td class="r">2.62×</td></tr>
+<tr><td>ROAS</td><td class="r">2.72×</td><td class="r">1.04×</td><td class="r"></td></tr>
+<tr><td>Fake or inactive audience</td><td class="r">15%</td><td class="r">28%</td><td class="r"></td></tr>
+<tr><td>Gated creators included</td><td class="r">0</td><td class="r">1</td><td class="r"></td></tr>
+<tr><td>Forecast band</td><td class="r">±23%</td><td class="r">±19%</td><td class="r"></td></tr>
+</tbody>
+</table>
+<p>Ratios are engine ÷ follower-count. The engine plan spends ₹23.95L on mid-tier creators, ₹6.46L on macro, ₹5.82L on micro, ₹5.73L on one mega and ₹0.21L on nano; 5 Represent creators take ₹8.4L. The follower-count plan puts ₹41.23L of its ₹42.2L into mega creators, and one of its four creators would have failed a gate.</p>
+
+<h3>Stage 5 · Verify: the live campaign</h3>
+<p>The live Amazon campaign on the Campaigns screen is a separate simulated flight: 72 creators, a ₹29.9L budget, 21 days, on day 14 with 52 creators posted and ₹22.4L spent. Its numbers do not tie one-to-one to the plan above. Use it to show what verification looks like.</p>
+<table class="t small">
+<thead><tr><th>The ladder</th><th class="r">Count</th><th class="r">Share of reported</th><th>Level</th></tr></thead>
+<tbody>
+<tr><td>Creator-reported views</td><td class="r">3,513,707</td><td class="r">100%</td><td>L0</td></tr>
+<tr><td>API-verified views</td><td class="r">2,902,932</td><td class="r">82.6%</td><td>L1</td></tr>
+<tr><td>Unique views</td><td class="r">2,148,169</td><td class="r">61.1%</td><td>L1</td></tr>
+<tr><td>Real people</td><td class="r">1,838,219</td><td class="r">52.3%</td><td>L2</td></tr>
+<tr><td>Real people in the target group</td><td class="r">1,646,022</td><td class="r">46.8%</td><td>L2</td></tr>
+<tr><td>Clicks · orders</td><td class="r">26,348 · 3,604</td><td class="r"></td><td>L3 · L4</td></tr>
+</tbody>
+</table>
+<table class="t small">
+<thead><tr><th>Revenue waterfall</th><th class="r">₹</th><th class="r">Return on ₹22.4L</th></tr></thead>
+<tbody>
+<tr><td>Claimed value (EMV = reported views × ₹1.4 + engagements × ₹28)</td><td class="r">₹75.3L</td><td class="r">3.36×</td></tr>
+<tr><td>Attributed revenue (links 46%, codes 22%, affiliate 21%, view-through 11%)</td><td class="r">₹68.9L</td><td class="r">3.08×</td></tr>
+<tr><td>Less 9% returns = verified revenue</td><td class="r">₹62.7L</td><td class="r">2.80×</td></tr>
+<tr><td>Less organic baseline (38%) = incremental revenue</td><td class="r">₹38.9L</td><td class="r">1.74×</td></tr>
+</tbody>
+</table>
+<p>The holdout: 6 test cities and 6 control cities. Conversion was 2.98% in test cities against 1.87% in control, a 59.4% lift. Brand lift: ad recall 21% to 31.5%, consideration 48% to 53.4%, purchase intent 36% to 41.8%. Cost per click ₹85.02; cost per thousand real target-group people ₹1,361.</p>
+
+<h3>Stage 6 · Learn: what changed mid-flight and after</h3>
+<ul>
+<li><b>Alert, serious:</b> CIE-1231's CTR ran 41% below forecast on day 3. Action: swap the story frame to a price-drop sticker.</li>
+<li><b>Alert, good:</b> tier-2 Hindi creators beat forecast by 28%. Action: ₹6.5L of remaining budget moved to them.</li>
+<li><b>Alert, warning:</b> 2 posts went live without #ad in the first line; fixed within 2 hours. Spend pacing at 92% of plan with 7 days left.</li>
+<li><b>Forecast versus actual:</b> Gayathri Y. delivered 193,997 views against a 146,868 forecast (+32%); Rasika M. delivered 277,966 against 378,871 (−27%). Views MAPE for the campaign is 19.4%. Those pairs are what v1 calibration fits to.</li>
+</ul>
+<div class="click">Brand Match → pick Amazon → Conversion → open Kunal K. → Campaigns &amp; ROI → Amazon (live)</div>
+
+<div class="say"><b>Say it like this</b><p>"Here's one brief end to end. Amazon, Great Indian Festival, conversion, ₹45 lakh. The engine removes 54 of 420 creators before ranking: 32 for fake audiences, 20 for posting for Flipkart, Meesho, Myntra or Ajio in the last 60 days. The top pick is a micro fitness creator in Delhi with a top-1% link CTR, and the engine tells us its confidence is low because he has no tracked history. At the same spend, the engine's plan forecasts 6,045 orders against 2,305 for a plan that just buys the four biggest accounts. Then on the live campaign, 3.5 million reported views become 1.6 million real people in the target group, and a claimed 3.4× becomes a defensible 1.74× incremental. All simulated, but that's exactly the report I'd want to hand a brand."</p></div>
+</section>
+
+<section class="brk">
+<h2>(g) What is real and what is simulated</h2>
+<p>Leadership will ask this in the first five minutes. Know the split cold.</p>
+<div class="cols2">
+<div>
+<h3>Real</h3>
+<ul>
+<li>The engine logic: gates, the seven-part score, the forecast formulas, the plan builder, the ROI ladder. It runs live in the browser.</li>
+<li>Brand names: 30 publicly reported Chtrbox clients. The other 5 (Tata 1mg, Cult, Groww, PolicyBazaar, CRED) are labelled prospects.</li>
+<li>Market benchmarks the data is calibrated to: tier ER medians and published rate ranges for India.</li>
+<li>Rules: ASCI disclosure and Addendum II credentials, SEBI finfluencer rules, the DPDP Rules.</li>
+<li>Chtrbox's public company figures, per public coverage of the filings.</li>
+</ul>
+</div>
+<div>
+<h3>Simulated</h3>
+<ul>
+<li>All 420 creators: synthetic personas with generated names and IDs (CIE-1001 onwards).</li>
+<li>Every creator metric: followers, views, ER, CTR, audience, rate card, collaborations.</li>
+<li>Every brand metric: order values, conversion rates, targets, budgets.</li>
+<li>The 6 campaigns and their results, including incrementality shares (45–66%) and return rates (2–17%), which are typical-of-category assumptions.</li>
+<li>The assist factor of 2.8.</li>
+</ul>
+</div>
+</div>
+
+<h3>Why the creators are synthetic</h3>
+<p>Two reasons. First, putting invented metrics on real creators would be wrong: it attaches false numbers to real people's names, and a fake-follower score on a real creator is a serious claim. Second, Chtrbox's team knows real creator numbers. If you showed a real creator with a made-up ER, someone in the room would know it is wrong and stop trusting everything else on the screen. Synthetic personas keep the conversation on the logic, which is what you want them to judge.</p>
+<p>The data is calibrated so it looks like the market. The sample's own medians match the targets: nano 4.39% ER, micro 2.82%, mid 1.35%, macro 0.81%, mega 0.33%.</p>
+<div class="call warn"><b>Never say "Amazon got 1.74×"</b><p>Say "the simulated Amazon campaign shows 1.74×". The brand name is real; the number is not. Say it once clearly at the start and once more when you show Campaigns &amp; ROI.</p></div>
+
+<div class="say"><b>Say it like this</b><p>"Before I start: the engine logic is real and runs live, but the creators are synthetic personas and every metric is simulated. The brand names are your publicly reported clients, but none of their numbers are real. I did that on purpose. Putting invented numbers on real creators would be wrong, and you know real creator numbers better than any dataset, so you'd spot it immediately. I calibrated it to India's 2025–26 benchmarks so it behaves like the market. With your campaign history, the same logic runs on real data."</p></div>
+</section>
+
+<section class="brk">
+<h2>(h) Why this matters to Chtrbox now</h2>
+<p>All figures below are per public coverage of the filings and press; cite them that way.</p>
+<div class="kpis">
+<div class="kpi"><b>₹84.22 Cr</b><span>FY26 revenue, +42.5%</span></div>
+<div class="kpi"><b>17.0%</b><span>FY26 EBITDA margin, from 20.5% in FY25</span></div>
+<div class="kpi"><b>75%</b><span>of revenue from Represent (39%) and Brand Solutions (36%)</span></div>
+<div class="kpi"><b>₹42.86 Cr</b><span>IPO at ₹115, 52× subscribed, BSE SME, Oct 2025</span></div>
+</div>
+<table class="t small">
+<thead><tr><th>Public number</th><th>What it implies</th><th>How the engine responds</th></tr></thead>
+<tbody>
+<tr><td><b>Revenue +42.5% to ₹84.22 Cr, but EBITDA margin 20.5% → 17.0%</b> (FY24 21.8%); PAT ₹9.2 Cr, margin 10.9% from 14.9%</td><td>Growth is being bought with people. Each new brief needs strategists to search, shortlist, negotiate and report by hand, so cost grows with revenue.</td><td>Cuts strategist hours per campaign and fees lost to bad picks, which goes straight to margin</td></tr>
+<tr><td><b>Represent 39% + Brand Solutions 36% = 75%</b> (about ₹63.6 Cr of ₹84.22 Cr)</td><td>Both businesses depend on the same input: knowing which creator fits which brief</td><td>Strategists get shortlists; talent managers see demand for their roster</td></tr>
+<tr><td><b>About 60% of revenue in Oct–Mar</b>; H2 FY26 revenue ₹48.23 Cr, +50%, PAT down 12%</td><td>The peak is where the margin pressure shows (H2 was 57% of FY26 revenue: 48.23 ÷ 84.22). Delivery must not be disrupted then.</td><td>Shadow mode first: the engine runs beside strategists until it beats their picks</td></tr>
+<tr><td><b>Top-5 customers 22.6% (FY25), from 48.8% (FY24)</b></td><td>Concentration has fallen, so growth depends on many mid-size brands renewing</td><td>A verified-ROI report is a renewal argument that a screenshot deck cannot make</td></tr>
+<tr><td><b>IPO proceeds: capex ₹11.07 Cr</b>, which management has said covers technology and creator intelligence; evaluating tech acquisitions (Jun 2026)</td><td>The money and the intent already exist</td><td>The plan asks for ₹81L for the first 90 days, released in tranches against gates</td></tr>
+<tr><td><b>CEO Raj Mishra (ex-TikTok India) has framed the goal as verified ROI with live tracking</b> (Social Samosa interview)</td><td>The plan executes a strategy the company has already stated</td><td>The ROI ladder makes "verified" a defined standard: only L4 and L5 count</td></tr>
+<tr><td><b>3L+ creators; about 104 exclusive</b>; Dubai hub since Jan 2026</td><td>The network is the asset, and matching 3L+ creators by hand does not scale</td><td>Represent's ~104 creators are the first to connect data; a 300-creator UAE graph is in the day 61–90 plan</td></tr>
+</tbody>
+</table>
+<div class="call accent"><b>The one-line why-now</b><p>The problem to solve is margin. Revenue is growing faster than the market, but each rupee costs more to deliver. The engine is how growth stops costing margin.</p></div>
+
+<div class="say"><b>Say it like this</b><p>"Per public coverage of the filings, revenue grew 42.5% to ₹84 crore, but EBITDA margin fell from 20.5% to 17%. To me that says growth is being bought with strategist hours. Represent and Brand Solutions are three-quarters of revenue, and both run on the same question: which creator fits which brief. Raj has already said publicly that the goal is verified ROI with live tracking, and the IPO money is earmarked for creator intelligence. What I'm proposing is how to execute the strategy you've already announced, without touching delivery during the October-to-March peak."</p></div>
+</section>
+
+<section class="brk">
+<h2>(i) How it was built</h2>
+
+<h3>The prototype</h3>
+<div class="steps">
+<div class="step"><b>gen_data.py makes the data</b><p>A Python script with a fixed random seed (20261021), so the data is the same every time. It creates 420 synthetic creators, 35 brands and 6 campaigns, and writes <span class="mono">data.json</span>.</p></div>
+<div class="step"><b>build_html.py bundles one file</b><p>It merges the HTML template, the stylesheet, <span class="mono">app.js</span>, the data and three fonts (Bricolage Grotesque, Geist, Geist Mono, embedded as base64) into one HTML file that runs offline in any browser. No server, no internet, no install.</p></div>
+<div class="step"><b>app.js is the engine and the screens</b><p>Everything runs in the browser: the scoring functions (audFit, affOf, cultFit, perfOf, authOf, safeOf), predict, the gates, scoreBrand, buildPlan, vanityPlan, and all seven screens. Charts (line, scatter, sparkline, waterfall, ROI dots) are drawn as SVG by hand with no chart library.</p></div>
+<div class="step"><b>The PDF is generated from the engine</b><p>export_engine.mjs opens the built page in headless Chromium, calls scoreBrand, buildPlan and vanityPlan for every brand, and saves the results. build_pdf.py builds the 36-page GTM plan from that export, and render_pdf.mjs prints it to A4. The numbers in the PDF and on screen come from the same code.</p></div>
+</div>
+
+<h3>How the synthetic data is calibrated</h3>
+<table class="t small">
+<thead><tr><th>Tier</th><th class="r">Followers</th><th class="r">Count</th><th class="r">ER target</th><th class="r">Sample median ER</th><th class="r">₹ per follower per reel</th><th class="r">Fraud rate</th><th class="r">Mean real followers</th></tr></thead>
+<tbody>
+<tr><td>Nano</td><td class="r">3K–10K</td><td class="r">41</td><td class="r">4.9%</td><td class="r">4.39%</td><td class="r">0.26</td><td class="r">6%</td><td class="r">86.4%</td></tr>
+<tr><td>Micro</td><td class="r">10K–100K</td><td class="r">168</td><td class="r">2.8%</td><td class="r">2.82%</td><td class="r">0.21</td><td class="r">7%</td><td class="r">86.1%</td></tr>
+<tr><td>Mid-tier</td><td class="r">100K–500K</td><td class="r">130</td><td class="r">1.4%</td><td class="r">1.35%</td><td class="r">0.20</td><td class="r">10%</td><td class="r">82.5%</td></tr>
+<tr><td>Macro</td><td class="r">500K–1M</td><td class="r">56</td><td class="r">0.9%</td><td class="r">0.81%</td><td class="r">0.19</td><td class="r">14%</td><td class="r">79.3%</td></tr>
+<tr><td>Mega</td><td class="r">1M–8M</td><td class="r">25</td><td class="r">0.4%</td><td class="r">0.33%</td><td class="r">0.15</td><td class="r">16%</td><td class="r">75.3%</td></tr>
+</tbody>
+</table>
+<ul>
+<li><b>Rate cards</b> scale with followers, tier, engagement and category (finance ×1.35, tech ×1.25, health ×1.2), landing in published India ranges (micro ₹5K–50K, mid ₹50K–2L, macro ₹2–5L a reel). A story costs 30% of a reel, a YouTube video 1.6× a reel, and UAE creators 1.6× more.</li>
+<li><b>Larger accounts carry more fake followers.</b> The fraud rate rises from 6% (nano) to 16% (mega). A fraud-flagged creator gets 52–71% real followers, 38% lower engagement, and a one-month follower spike of 22–48%, which is what the authenticity checks look for. 32 of 420 creators are flagged.</li>
+<li><b>Culture is modelled.</b> 16 categories, 32 cities including Dubai, 18 cultural codes, credentials, and past brand collaborations with day counts that drive the competitor gate.</li>
+</ul>
+
+<h3>The production version</h3>
+<table class="t small">
+<thead><tr><th>Layer</th><th>What it does</th></tr></thead>
+<tbody>
+<tr><td><b>Data ingestion</b></td><td>Creator OAuth for Instagram and YouTube insights (first-party audience data that scraping cannot give and platform terms do not allow), starting with the Represent roster; 24 months of Chtrbox campaign history; existing tracking and attribution feeds (links, codes, affiliate); brand outcome data (pixels, conversion APIs, marketplace attribution, app MMPs, returns) under contract; licensed creator data to fill gaps, flagged as lower confidence</td></tr>
+<tr><td><b>Storage and feature store</b></td><td>The 76 fields per creator, each with source, timestamp and confidence; stale fields decay in the score; audience data older than 30 days is refreshed before shortlisting; distributions only, no personal data on followers</td></tr>
+<tr><td><b>AI layer</b></td><td>Vision and language models over frames, audio and captions to tag niche, cultural codes and brand-safety risk; Hinglish and regional-language comment sentiment; human QA on a 5% weekly sample, retraining tags below 90% precision</td></tr>
+<tr><td><b>Models</b></td><td>v0 rules and gates; v1 calibrated forecasts; v2 learning-to-rank trained on strategist picks and outcomes; v3 incrementality from holdouts and brand lift; v4 creator–brand graph and fair-rate pricing</td></tr>
+<tr><td><b>Apps</b></td><td>Strategist tool (Brand Match, Discovery, Vertical Lens); brand-facing ROI report and dashboard; Represent utilisation view for talent managers</td></tr>
+<tr><td><b>Consent and security</b></td><td>DPDP-compliant consent notices and records, purpose limitation and deletion; role-based access; brand outcome data used for training only in aggregate under a contract clause; incident response with DPDP breach duties</td></tr>
+</tbody>
+</table>
+
+<div class="call"><b>Suggested stack (a recommendation, to confirm with the tech lead)</b><p>Ingestion: Python workers on a scheduler (Airflow or Dagster) calling the Instagram Graph and YouTube Analytics APIs, plus connectors for tracking and brand feeds. Storage: Postgres for the app; a warehouse (BigQuery or Snowflake) with dbt for the 76-field creator tables, hosted in an India region for data residency; object storage for media. AI layer: a hosted vision-language model for tagging and safety review, speech-to-text for audio, and a multilingual model fine-tuned on Hinglish comments for sentiment. Models: gradient-boosted trees (LightGBM) for forecasts with calibrated intervals, LightGBM's ranking mode for learning-to-rank, open-source geo-experiment tools (such as GeoLift) for holdouts, and MLflow to version models. Apps: React front end, FastAPI back end, and a BI tool for brand dashboards. Build what is defensible (the model, the ROI pipeline, the tool); buy commodity creator data and survey panels at first.</p></div>
+
+<h3>Mapping the build to 30/60/90</h3>
+<table class="t small">
+<thead><tr><th>Window</th><th>What gets built</th><th>Exit criteria</th></tr></thead>
+<tbody>
+<tr><td><b>Days 0–15 · Foundation</b></td><td>Data inventory; freeze the 76-point schema and Brand DNA template; v0 rules and gates; consent flow for the ~104 Represent creators; 3 pilot brands</td><td>Inventory signed off, baselines measured, 3 pilots agreed</td></tr>
+<tr><td><b>Days 16–30 · Shadow mode</b></td><td>Internal strategist tool on 6–8 live briefs; tracking QA as a go-live gate; first holdout and lift design</td><td>Engine picks ≥ 30% of final rosters; zero untracked campaigns</td></tr>
+<tr><td><b>Days 31–45 · Calibrate</b></td><td>v1 forecasts fitted to first outcomes; fraud and safety thresholds tuned; first verified-ROI report</td><td>Views MAPE &lt; 30%; first L4 report delivered</td></tr>
+<tr><td><b>Days 46–60 · Productise</b></td><td>Brand-facing report and dashboard; Verified ROI packaged and priced; Fashion and FMCG added</td><td>25% of campaigns at L4+; 2 packages priced</td></tr>
+<tr><td><b>Days 61–90 · Scale</b></td><td>v2 learning-to-rank; Represent utilisation view; Dubai pilot (300-creator UAE graph)</td><td>50% of campaigns at L4+; win rate +5 pts</td></tr>
+<tr><td><b>Months 4–6</b></td><td>v3 incrementality; regulated verticals behind gates; read-only dashboards for top 10 clients</td><td>iROAS on 80% of conversion spend</td></tr>
+</tbody>
+</table>
+<p>The pod: a programme owner, a data engineer, an ML scientist, two full-stack engineers, a measurement analyst, two data-ops associates, a half-time designer and compliance counsel on retainer, at ₹13.9L a month. The first 90 days cost ₹81.1L in total, with year one at about ₹4.0 Cr released in three tranches.</p>
+
+<div class="say"><b>Say it like this</b><p>"The prototype is one offline HTML file. A Python script generates 420 synthetic creators calibrated to Indian benchmarks, and the whole engine runs in the browser: the scoring, the forecast, the plan builder, even the charts. The PDF plan is generated by running that same engine, so every number in the document matches the screen. For production, the four things to build are consented data ingestion starting with Represent, an AI layer that reads Hinglish and regional content, models that get calibrated on your real campaigns, and the brand-facing report. It maps onto 90 days: a ranked list by day 15, the first verified-ROI report by day 45, and half of campaigns at L4 or above by day 90."</p></div>
+</section>
+</section>

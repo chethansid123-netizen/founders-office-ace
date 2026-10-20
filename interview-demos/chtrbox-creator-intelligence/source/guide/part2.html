@@ -1,0 +1,396 @@
+<section class="part">
+<div class="part-k">Part 2</div>
+<h1>Every metric, term and formula</h1>
+<p class="lede">This is the reference you study. It defines every number the platform shows, gives the exact formula the engine uses, works each one through with real values from the data files, and gives you the sentence to say when someone asks about it.</p>
+
+<div class="call"><b>How to read this part</b><p>Each metric has a definition box (plain meaning, formula, example), then three short lines: why it matters, what good looks like, and how to say it. The "good" benchmarks come from two places. The tier medians in <span class="mono">data/core.json</span> (creatorStats), and medians computed across the 420 creators in <span class="mono">data.json</span>. Every number on the platform is simulated. The creators are synthetic personas, and the brand names are real Chtrbox clients or labelled prospects with modelled metrics. When you quote a number in the room, say "in the simulation" or "in this prototype" once at the start, and repeat it whenever someone looks like they are taking a number as a real result.</p></div>
+
+<h2>2.1 Creator metrics</h2>
+<p>A creator is one person who posts content (a Reel, a Story, a YouTube video) to an audience. Everything Chtrbox sells rests on choosing the right creators. The engine describes each creator with about twenty numbers. Here they are in the order you will meet them on the creator profile (the drawer that opens when you click a name).</p>
+
+<h3>Followers and tiers</h3>
+<div class="def"><b>Followers and tier</b><p>Followers is the number of accounts that follow the creator on their main platform. Tier is a size band based on followers. The industry uses tiers because creators of different sizes behave differently: small creators get more engagement per follower and charge less, large ones reach more people per post. <span class="f">Formula: tier = the band the follower count falls in (Nano 3K–10K, Micro 10K–100K, Mid-tier 100K–500K, Macro 500K–1M, Mega 1M+).</span> Example: Kunal K. (CIE-1332) has 32,206 Instagram followers, so he is Micro.</p></div>
+
+<table class="t small">
+<thead><tr><th>Tier</th><th>Followers</th><th class="r">Creators in sample</th><th class="r">Median ER</th><th class="r">Median reel price</th><th class="r">Mean real followers</th><th class="r">Fraud-flagged</th><th class="r">Story view rate</th></tr></thead>
+<tbody>
+<tr><td>Nano</td><td>3K–10K</td><td class="r">41</td><td class="r">4.39%</td><td class="r">₹2,000</td><td class="r">86.4%</td><td class="r">3</td><td class="r">12%</td></tr>
+<tr><td>Micro</td><td>10K–100K</td><td class="r">168</td><td class="r">2.82%</td><td class="r">₹6,000</td><td class="r">86.1%</td><td class="r">6</td><td class="r">9%</td></tr>
+<tr><td>Mid-tier</td><td>100K–500K</td><td class="r">130</td><td class="r">1.35%</td><td class="r">₹50,000</td><td class="r">82.5%</td><td class="r">11</td><td class="r">7%</td></tr>
+<tr><td>Macro</td><td>500K–1M</td><td class="r">56</td><td class="r">0.81%</td><td class="r">₹1,37,750</td><td class="r">79.3%</td><td class="r">6</td><td class="r">5.5%</td></tr>
+<tr><td>Mega</td><td>1M+ (sample tops out at 8M)</td><td class="r">25</td><td class="r">0.33%</td><td class="r">₹5,69,000</td><td class="r">75.3%</td><td class="r">6</td><td class="r">4%</td></tr>
+</tbody></table>
+<p><b>Why it matters.</b> Tier sets the price and the expected behaviour. The engine never compares a nano creator with a mega creator directly; it ranks each one against its own tier (see 2.5). <b>What good looks like.</b> There is no "good" tier. The table shows the trade. Engagement falls from 4.39% to 0.33% as you move up, and the share of real followers falls from 86.4% to 75.3%. <b>Say it.</b> "Tier tells us the price band and what to expect. It doesn't tell us who is good. That's what the other numbers are for."</p>
+
+<h3>Engagement rate (ER)</h3>
+<div class="def"><b>Engagement rate</b><p>The share of a creator's followers who interact with a typical post (like, comment, save, share). It is the most quoted creator metric in India. <span class="f">Formula: ER = engagements per post ÷ followers × 100.</span> Example: Kunal K. has ER 3.45%, so a post gets about 32,206 × 3.45% ≈ 1,111 engagements.</p></div>
+<p><b>Why it matters.</b> ER shows whether the audience is paying attention. In the engine it counts toward Performance for consideration (45% of that part) and conversion (20%). <b>Good.</b> Above the tier median. Kunal's 3.45% beats the Micro median of 2.82%. The generator's tier medians are 4.9%, 2.8%, 1.4%, 0.9% and 0.4%. <b>Say it.</b> "A 1% ER is weak for a micro creator and strong for a mega creator, so we only ever compare ER inside a tier."</p>
+
+<h3>Average views</h3>
+<div class="def"><b>Average views</b><p>How many times a typical Reel (or video) is watched. <span class="f">Formula: mean views over recent posts.</span> Example: Kunal K. averages 7,038 views per Reel, about 22% of his followers.</p></div>
+<p><b>Why it matters.</b> Views are the raw reach the forecast starts from. <b>Good.</b> Median views per follower in the sample are 0.33 (Nano), 0.25 (Micro), 0.19 (Mid-tier), 0.18 (Macro) and 0.12 (Mega). Median Reel views are 1,922, 6,152, 46,852, 1,13,548 and 4,95,069 by tier. <b>Say it.</b> "We start from what a creator's Reels actually get, not from follower count."</p>
+
+<h3>View-through rate (VTR)</h3>
+<div class="def"><b>View-through rate</b><p>The share of each video that the average viewer watches. 44% means people watch 44% of the video's length on average. <span class="f">Formula: VTR = average watch time ÷ video length × 100.</span> Example: Kunal K. has VTR 27.7%.</p></div>
+<p><b>Why it matters.</b> A brand message that sits in the middle of a video is only seen if people stay. VTR is 35% of the Performance part for awareness. <b>Good.</b> The sample median is 44.2% (range 22–72%). Kunal at 27.7% is weak here, which is why he ranks high for conversion and not for awareness. <b>Say it.</b> "View-through is how much of the video people actually watch. For awareness, that's where the brand is seen."</p>
+
+<h3>3-second hold (hook strength)</h3>
+<div class="def"><b>Hold at 3 seconds</b><p>The share of viewers still watching three seconds in. It measures how strong the opening is. <span class="f">Formula: viewers at 3 s ÷ viewers who started × 100.</span> Example: Kunal K. holds 40.9%.</p></div>
+<p><b>Why it matters.</b> Most scrolling decisions happen in the first three seconds. It is 25% of awareness Performance. <b>Good.</b> Sample median 63.5% (range 38–88%). <b>Say it.</b> "The hook number tells us if people stop scrolling. If they don't, nothing after second three matters."</p>
+
+<h3>Saves and shares per view</h3>
+<div class="def"><b>Saves and shares per view</b><p>The share of viewers who save a post (to come back to it) or send it to someone. <span class="f">Formula: saves ÷ views × 100, shares ÷ views × 100. The engine adds the two.</span> Example: Kunal K. saves 2.27% + shares 0.64% = 2.91%.</p></div>
+<p><b>Why it matters.</b> A save is a strong signal of intent ("I want to buy this later"). A share spreads the post for free. Together they are 35% of consideration Performance. <b>Good.</b> Sample medians are 1.42% saves and 0.75% shares. Finance and education creators save most (category base rates 2.4% and 2.2%). <b>Say it.</b> "A like is cheap. A save means someone wants to come back. That's why saves weigh more for consideration."</p>
+
+<h3>Link CTR</h3>
+<div class="def"><b>Link click-through rate</b><p>The share of viewers who tap the link (a Story link sticker, a bio link or a YouTube description link). <span class="f">Formula: CTR = link clicks ÷ views × 100.</span> Example: Kunal K. has CTR 1.58%, top 1% of Micro creators.</p></div>
+<p><b>Why it matters.</b> Clicks are the first step toward an order. CTR is 55% of conversion Performance, the single largest input to a conversion ranking. <b>Good.</b> Sample median 0.78% (range 0.12–2.6%). Above 1.2% is strong in any tier. <b>Say it.</b> "For a sale, the one behaviour that matters most is whether people tap the link. That's CTR."</p>
+
+<h3>Comment sentiment</h3>
+<div class="def"><b>Comment sentiment</b><p>The share of comments that are positive, scored by a language model that reads Hinglish and regional languages. <span class="f">Formula: positive comments ÷ all scored comments × 100.</span> Example: Kunal K. scores 90.3.</p></div>
+<p><b>Why it matters.</b> It shows whether the audience likes and trusts the creator. It is 20% of consideration Performance and also feeds the trust index. <b>Good.</b> Sample median 80 (range 58–95). <b>Say it.</b> "We read the comments, not just count them. Positive sentiment means the audience is on the creator's side."</p>
+
+<h3>Content quality</h3>
+<div class="def"><b>Content quality score</b><p>A 0–100 score for production quality (framing, lighting, sound, editing), scored by a vision model over frames. <span class="f">Formula: model score, 0–100.</span> Example: Kunal K. scores 60.</p></div>
+<p><b>Why it matters.</b> Low-effort content is a common sign of a bought account, so in the simulation fraud accounts lose 22 points. It is 20% of the Authenticity part. <b>Good.</b> Sample median 68. <b>Say it.</b> "Quality matters for the brand, and very poor quality is often a fraud signal too."</p>
+
+<h3>Real-followers share (authenticity)</h3>
+<div class="def"><b>Real and active followers</b><p>The share of followers who are real people and active, after removing bots, bought followers and dormant accounts. <span class="f">Formula: (followers − bots − inactive) ÷ followers × 100.</span> Example: Kunal K. is at 90.9%, so about 2,900 of his 32,206 followers are not real or active.</p></div>
+<p><b>Why it matters.</b> Every fake follower is money spent on nobody. It is the hard gate at 72% and 60% of the Authenticity part. <b>Good.</b> Tier means run from 86.4% (Nano) to 75.3% (Mega). The generator gives larger accounts more fraud: 6% of nano, 7% micro, 10% mid, 14% macro and 16% mega creators are fraud accounts. In the sample, 32 of 420 creators fall below 72%. <b>Say it.</b> "Before we look at anything else, we ask how many of these followers are real. Below 72%, the creator is out."</p>
+
+<h3>Sponsored-post saturation</h3>
+<div class="def"><b>Sponsored-post share</b><p>The share of a creator's recent posts that are paid brand posts. <span class="f">Formula: sponsored posts ÷ recent posts × 100.</span> Example: Kunal K. is at 44%.</p></div>
+<p><b>Why it matters.</b> When almost every post is an ad, followers tune out (ad fatigue) and trust drops. It is 20% of the Authenticity part, scored as 1 − share ÷ 80, so 80% or more scores zero. Above 45% the engine raises an "Ad fatigue" flag. <b>Good.</b> Sample median 28%; 24 creators are above 45%. Kunal's 44% sits just under the flag line, which is why his authenticity part is 74 and not higher. <b>Say it.</b> "If half a creator's feed is ads, the next ad works less. We price that in."</p>
+
+<h3>#ad disclosure rate</h3>
+<div class="def"><b>ASCI disclosure rate</b><p>The share of the creator's paid posts that carry a clear disclosure such as #ad or "Paid partnership", as required by ASCI (the Advertising Standards Council of India) guidelines for influencers. <span class="f">Formula: disclosed paid posts ÷ paid posts × 100.</span> Example: Kunal K. discloses on 92%.</p></div>
+<p><b>Why it matters.</b> Non-disclosure exposes the brand to an ASCI complaint. It is 40% of the Safety part. Below 75% the engine raises a flag telling the team to brief disclosure in the first line. <b>Good.</b> Sample median 87%; 28 creators are below 75%. <b>Say it.</b> "Disclosure is a compliance number for the brand. We track it per creator and brief anyone below 75%."</p>
+
+<h3>Brand-safety score</h3>
+<div class="def"><b>Brand-safety score</b><p>A 0–100 score for how safe the creator's recent content is for a brand, from AI review plus human checks. Content flags pull it down. <span class="f">Formula (simulation): base score around 88, minus 12–22 for profanity, 10–18 for political commentary, 18–28 for a past controversy, 14–22 for promoting betting or real-money gaming, 10–18 for unverified health claims. Floor 35, cap 99.</span> Example: Kunal K. scores 88 with no flags.</p></div>
+<p><b>Why it matters.</b> One bad creator can become a brand's crisis. Below 55 is a hard gate; it is 60% of the Safety part. <b>Good.</b> Sample median 86. Only 4 creators fall under 55. <b>Say it.</b> "Safety is scored from the content itself, and anything under 55 never reaches the shortlist."</p>
+
+<h3>On-time delivery</h3>
+<div class="def"><b>On-time delivery</b><p>The share of past deliverables the creator posted on the agreed date. It comes from Chtrbox's own operations data. <span class="f">Formula: posts live on agreed date ÷ posts contracted × 100.</span> Example: Kunal K. is at 92%.</p></div>
+<p><b>Why it matters.</b> A festive-sale post that goes live after the sale earns nothing. It is shown on the profile and sits in the Commercials family. In this prototype it does not enter the fit score. <b>Good.</b> Sample median 90% (range 68–100%). <b>Say it.</b> "This is our own ops data. Today it's on the profile for the strategist; it's an obvious next input to the score."</p>
+
+<h3>Recall lift from past studies</h3>
+<div class="def"><b>Past recall lift</b><p>How many percentage points the creator raised ad recall in past brand-lift studies (people who saw the post minus people who didn't, asked "do you remember seeing an ad for this brand?"). <span class="f">Formula: recall % in exposed group − recall % in control group, averaged over past studies.</span> Example: Kunal K. has +2.4 pts. Sample range 2–17.</p></div>
+<p><b>Why it matters.</b> It is the best evidence that a creator makes people remember a brand. It is 40% of awareness Performance, the largest share. <b>Good.</b> Sample median +5.5 pts. <b>Say it.</b> "Recall lift is measured, not guessed. It comes from control-versus-exposed surveys on past campaigns."</p>
+
+<h3>Trust index</h3>
+<div class="def"><b>Trust index</b><p>A multiplier for how likely the creator's audience is to buy on their word. 1.00 is average; 1.16 means 16% more orders per click than average. <span class="f">Formula (simulation): trust = category base × (0.85 + sentiment ÷ 400 + (ER ÷ tier median ER − 1) × 0.06) × noise − sponsored share ÷ 400, kept between 0.6 and 1.6.</span> Category bases run from 1.30 for doctors and dietitians and 1.20 for finance and parenting down to 0.85 for comedy and music. Example: Kunal K. is 1.16.</p></div>
+<p><b>Why it matters.</b> It multiplies straight into the order forecast and is 25% of conversion Performance. <b>Good.</b> Sample median 1.02. <b>Say it.</b> "Two creators can get the same clicks and very different sales. Trust is what separates them, and doctors and finance creators carry the most."</p>
+
+<h3>Confidence (High, Medium, Low)</h3>
+<div class="def"><b>Confidence and forecast band</b><p>How sure the engine is about a creator's forecast, based on how much tracked history it has. <span class="f">Formula: High if 5 or more tracked campaigns and at least 1 brand-lift study (band ±12%); Medium if 2 or more tracked campaigns (±22%); otherwise Low (±35%).</span> Example: Kunal K. has 0 tracked campaigns, so he is Low. His forecast of about 23 orders reads as roughly 15 to 31 (22.9 × 0.65 = 14.9; 22.9 × 1.35 = 30.9).</p></div>
+<p><b>Why it matters.</b> It stops you from promising a point number. A plan's band is the spend-weighted average of its creators' bands. <b>Good.</b> In the sample, 95 creators are High, 179 Medium and 146 Low. The Amazon conversion plan carries ±23%. <b>Say it.</b> "Every forecast has a range. A creator we've tracked five times gets ±12%; one we've never tracked gets ±35%, and the profile says so."</p>
+
+<div class="say"><b>Say it like this</b><p>"Each creator carries about twenty numbers. We compare them only within the same tier, because a 1% engagement rate means something different at 30,000 followers and at 3 million. Three questions come first: are the followers real, is the content safe, and do we have the history to trust the forecast. Everything else decides the rank."</p></div>
+
+<section class="brk">
+<h2>2.2 Audience metrics</h2>
+<p>Creator metrics describe the creator. Audience metrics describe the people who follow them. These are what the engine matches against a brand's target group (TG), the people the brand wants to reach. In production they come from Instagram Graph and YouTube Analytics with the creator's consent (OAuth). Each value below is a share between 0 and 1 in the data and shown as a percentage on screen.</p>
+
+<table class="t small">
+<thead><tr><th>Metric</th><th>Plain meaning</th><th>Example: Kunal K.</th><th>Amazon target</th><th>How the engine uses it</th></tr></thead>
+<tbody>
+<tr><td>Gender split</td><td>Share of the audience that is women</td><td>49.7% women</td><td>52%</td><td>Gender match g = 1 − |49.7% − 52%| = 0.977. 30% of audience fit</td></tr>
+<tr><td>Age buckets</td><td>Share in 13–17, 18–24, 25–34, 35–44, 45+</td><td>3.2 / 29.4 / 43.5 / 18.4 / 5.5%</td><td>4 / 32 / 40 / 17 / 7%</td><td>Overlap = sum of the smaller share in each bucket = 0.951. 30% of audience fit</td></tr>
+<tr><td>City tiers</td><td>Share in Tier 1 (metros), Tier 2, Tier 3 and smaller towns</td><td>42.8 / 39.6 / 17.7%</td><td>42 / 36 / 22%</td><td>Overlap = 0.42 + 0.36 + 0.177 = 0.957. 25% of audience fit</td></tr>
+<tr><td>Affluence index</td><td>0–100 estimate of spending power, from category, language and city tier</td><td>62</td><td>50</td><td>Match = 1 − |0.62 − 0.50| = 0.88. 15% of audience fit</td></tr>
+<tr><td>Top cities</td><td>Up to five places with the share of audience in each</td><td>Delhi NCR 19.8%, Thrissur 9.2%, Jaipur 8.3%, Chennai 4.6%</td><td>n/a</td><td>Shown on the profile; used for geo planning and holdout city selection</td></tr>
+<tr><td>Audience languages</td><td>Share of the audience consuming in each language</td><td>Hinglish 76%</td><td>Hinglish 1.0, Hindi and English 0.9, regional 0.55–0.6</td><td>The creator's content languages are scored against the brand's language weights in Culture &amp; language</td></tr>
+<tr><td>Interests</td><td>Affinity of the audience to each category, 0–1</td><td>Fitness 0.84, Food 0.43, Lifestyle 0.18</td><td>n/a</td><td>Stored for search and future overlap models; the score uses the creator's two categories instead</td></tr>
+<tr><td>Market</td><td>Where the audience mainly lives: India or UAE</td><td>India</td><td>India &amp; UAE</td><td>Hard gate if the creator's market is outside the brief. UAE creators are Dubai-based, with 48–64% of their audience in the UAE</td></tr>
+</tbody></table>
+
+<div class="example"><b>Worked example: Kunal K.'s audience fit for Amazon</b><p>Raw audience fit = 0.30 × gender + 0.30 × age + 0.25 × city tier + 0.15 × affluence = 0.30 × 0.977 + 0.30 × 0.951 + 0.25 × 0.957 + 0.15 × 0.88 = 0.2931 + 0.2853 + 0.2393 + 0.1320 = <b>0.950</b>. The score stretches the useful range: (0.950 − 0.50) ÷ 0.45 = 0.999, shown as <b>100</b>. A raw value of 0.50 or below scores 0; 0.95 or above scores 100. If the creator's market were outside the brief, raw fit would be multiplied by 0.35 first.</p></div>
+
+<div class="call"><b>Why stretch the scale?</b><p>Almost every creator overlaps a broad brief by at least half, simply because most Indian Instagram audiences are 18–34. Without the stretch, a near-perfect match (0.95) and a poor one (0.60) would look close. The stretch makes 0.60 score 22 and 0.95 score 100, so the difference shows.</p></div>
+
+<div class="say"><b>Say it like this</b><p>"We don't match on the creator. We match on the creator's audience. For Kunal and Amazon, the audience is 50% women against a 52% target, 95% age overlap and 96% city-tier overlap, so audience fit is 100. All of it comes from platform insights the creator consents to share."</p></div>
+</section>
+
+<section class="brk">
+<h2>2.3 Campaign and ROI metrics</h2>
+<p>Once a campaign runs, a different set of numbers takes over. The worked figures in this chapter all come from the simulated Amazon campaign (core.json campaigns[0]): "Great Indian Festival · creator storefronts", a conversion campaign live on day 14 of 21, with 72 creators planned, 52 posted and ₹22.4L spent.</p>
+
+<h3>From reported views to real people in the target group</h3>
+<table class="t small">
+<thead><tr><th>Step</th><th>What it means</th><th class="r">Amazon</th><th class="r">Kept from step before</th></tr></thead>
+<tbody>
+<tr><td>Reported views</td><td>What creators claim in screenshots and dashboards</td><td class="r">3,513,707</td><td class="r">n/a</td></tr>
+<tr><td>API-verified views</td><td>Views pulled straight from the platform with the creator's consent</td><td class="r">2,902,932</td><td class="r">82.6%</td></tr>
+<tr><td>Unique reach (unique viewers)</td><td>Verified views with repeat viewers across creators removed</td><td class="r">2,148,169</td><td class="r">74.0%</td></tr>
+<tr><td>Real people</td><td>Unique viewers minus bots and inactive accounts</td><td class="r">1,838,219</td><td class="r">85.6%</td></tr>
+<tr><td>In target group (TG views)</td><td>Real people who match the brief on age, gender and city tier</td><td class="r">1,646,022</td><td class="r">89.5%</td></tr>
+</tbody></table>
+<div class="def"><b>TG share</b><p>The share of views that land on the brand's target group. <span class="f">Formula: TG views ÷ reported views.</span> Example: 1,646,022 ÷ 3,513,707 = 46.8%. Fewer than half the views a creator reports reach a real person the brand wanted. In the forecast, a creator's expected TG share is (raw audience fit)<sup>1.6</sup>, kept between 5% and 95%; for Kunal K. that is 0.950<sup>1.6</sup> = 0.92.</p></div>
+
+<h3>Cost metrics</h3>
+<table class="t small">
+<thead><tr><th>Metric</th><th>Formula</th><th>Amazon campaign</th><th>Used for</th></tr></thead>
+<tbody>
+<tr><td>CPV (cost per verified view)</td><td>Spend ÷ API-verified views</td><td>₹22,40,000 ÷ 2,902,932 = ₹0.77</td><td>Basic delivery cost</td></tr>
+<tr><td>Cost per TG view</td><td>Spend ÷ TG views</td><td>₹22,40,000 ÷ 1,646,022 = ₹1.36</td><td>Awareness cost efficiency; shown per creator as "per verified TG view"</td></tr>
+<tr><td>CPM (TG)</td><td>Spend ÷ TG views × 1,000</td><td>₹1,361</td><td>Comparing with paid media, which is bought per 1,000 impressions</td></tr>
+<tr><td>CPE (cost per engagement)</td><td>Spend ÷ engagements</td><td>₹22,40,000 ÷ 93,206 = ₹24.0</td><td>Consideration cost efficiency</td></tr>
+<tr><td>CPC (cost per click)</td><td>Spend ÷ tracked clicks</td><td>₹22,40,000 ÷ 26,348 = ₹85.02</td><td>Traffic cost</td></tr>
+<tr><td>CPA (cost per acquisition)</td><td>Spend ÷ orders</td><td>₹22,40,000 ÷ 3,604 = ₹621.5</td><td>Cost of one order</td></tr>
+</tbody></table>
+
+<h3>Conversion, orders and revenue</h3>
+<div class="def"><b>Conversion rate</b><p>The share of clicks that become orders. <span class="f">Formula: orders ÷ tracked clicks.</span> Example: 3,604 ÷ 26,348 = 13.7%. This is higher than Amazon's base click-to-order rate of 4% because tracked orders include promo-code, affiliate and search-assisted orders, not just orders from the click itself (the assist factor, see 2.7).</p></div>
+<div class="def"><b>Orders and attributed revenue</b><p>Orders traced to the campaign through tracked links, promo codes, affiliate or marketplace attribution, and a modelled view-through share. Attributed revenue is the value of those orders. <span class="f">Formula: attributed revenue = Σ order value.</span> Example: 3,604 orders and ₹68.9L (₹68,89,322), an average of ₹1,912 per order against the ₹1,900 AOV (average order value) in the brief. The split by source is links 46%, codes 22%, affiliate 21%, view-through 11%.</p></div>
+<div class="def"><b>Returns and verified revenue</b><p>Some orders come back. Verified revenue is revenue matched to brand data and net of returns. <span class="f">Formula: verified revenue = attributed revenue × (1 − returns rate).</span> Example: ₹68,89,322 × (1 − 9%) = ₹62,69,283, so <b>₹62.7L</b>. Returns rates in the six simulated campaigns run from 2% (Dabur) to 17% (Meesho).</p></div>
+<div class="def"><b>Organic baseline and incrementality share</b><p>Some buyers would have bought anyway, campaign or not. That is the organic baseline. The incrementality share is the part of verified revenue the campaign actually caused, measured with a holdout. <span class="f">Formula: incremental revenue = verified revenue × incrementality share; organic baseline = verified − incremental.</span> Example: ₹62,69,283 × 62% = <b>₹38.9L</b> incremental (₹38,86,955); baseline ₹23.8L (₹23,82,328). The shares used (45–66% across campaigns) are category-typical assumptions in the simulation; in practice the holdout replaces them.</p></div>
+
+<h3>Four ways to state return</h3>
+<table class="t small">
+<thead><tr><th>Measure</th><th>Formula</th><th>Amazon</th><th>What it honestly means</th></tr></thead>
+<tbody>
+<tr><td>Claimed ROI (EMV)</td><td>EMV ÷ spend</td><td class="r">3.36×</td><td>A rate card applied to views and likes. No sales involved</td></tr>
+<tr><td>Attributed ROAS</td><td>Attributed revenue ÷ spend</td><td class="r">3.08×</td><td>Sales traced to the campaign, before returns and before asking what would have happened anyway</td></tr>
+<tr><td>Incremental ROAS (iROAS)</td><td>Incremental revenue ÷ spend</td><td class="r">1.74×</td><td>Sales the campaign caused, net of returns. The number to defend</td></tr>
+<tr><td>LTV ROAS (12-month value)</td><td>Incremental revenue × 12-month multiplier ÷ spend</td><td class="r">1.74×</td><td>Adds repeat purchases by new customers over a year</td></tr>
+</tbody></table>
+<div class="def"><b>EMV and claimed ROI</b><p>EMV (earned media value) puts a rupee price on every view and engagement, as if the brand had bought them as ads. It is how vanity ROI is usually quoted in the industry. <span class="f">Formula in this prototype: EMV = ₹1.4 × reported views + ₹28 × engagements.</span> Example: 3,513,707 × ₹1.4 = ₹49,19,190, plus 93,206 × ₹28 = ₹26,09,768, gives EMV ₹75,28,958 (<b>₹75.3L</b>). Claimed ROI = ₹75.3L ÷ ₹22.4L = <b>3.36×</b>. Note that EMV uses reported views, the inflated top of the funnel.</p></div>
+<div class="def"><b>LTV and 12-month value</b><p>LTV (lifetime value) is what a customer is worth over time. The platform uses a 12-month multiplier per brand: how much a new customer buys over a year relative to the first order. <span class="f">Formula: LTV ROAS = iROAS × 12-month multiplier.</span> Example: Amazon's multiplier is 1.0 (festive marketplace orders are not credited with repeat buying), so LTV ROAS stays 1.74×. Olay's is 1.5, so its 0.98× iROAS becomes 0.98 × 1.5 ≈ 1.46× (the export shows 1.46 from unrounded inputs). Meesho's is 2.2 and HK Vitals' 2.1.</p></div>
+
+<div class="kpis"><div class="kpi"><b>3.36×</b><span>Claimed ROI (EMV), Amazon</span></div><div class="kpi"><b>3.08×</b><span>Attributed ROAS</span></div><div class="kpi"><b>1.74×</b><span>Incremental ROAS</span></div></div>
+
+<h3>Brand lift, ad recall lift and the geo holdout</h3>
+<div class="def"><b>Brand lift (control vs exposed)</b><p>A survey of two matched groups. The exposed group saw the campaign, the control group did not. The gap is the lift. <span class="f">Formula: lift = exposed % − control %, in percentage points.</span> Example (n = 1,200 per cell): ad recall 21.0% → 31.5%, brand consideration 48.0% → 53.4%, purchase intent 36.0% → 41.8%.</p></div>
+<div class="def"><b>Ad recall lift</b><p>The brand-lift line that asks "do you remember an ad for this brand?". <span class="f">Formula: exposed recall − control recall.</span> Example: 31.5 − 21.0 = <b>+10.5 pts</b>. Across the six simulated campaigns the mean is +9.8 pts.</p></div>
+<div class="def"><b>Geo holdout</b><p>A test that holds the campaign back in some cities. Six test cities get the campaign, six matched control cities do not, and you compare conversion. <span class="f">Formula: lift = test rate ÷ control rate − 1.</span> Example: 2.98 vs 1.87 conversions per 1,000 TG users, so 2.98 ÷ 1.87 − 1 = <b>+59.4%</b>. From this the share of attributed orders that are incremental is set at 62%.</p></div>
+
+<h3>MAPE (forecast error)</h3>
+<div class="def"><b>MAPE</b><p>Mean absolute percentage error: on average, how far the forecast missed, ignoring direction. <span class="f">Formula: MAPE = average over posted creators of |actual views − forecast views| ÷ forecast views × 100.</span> Example: Avni T. forecast 236,055 views and got 213,420, an error of 9.6%. Keerthi B. forecast 382,331 and got 441,129 (+15.4%). Across all posted Amazon creators, MAPE is <b>19.4%</b>.</p></div>
+<p><b>Good.</b> The GTM plan sets views MAPE under 30% at v1 (days 30–45), under 25% at the day-90 scale check, and under 20% as the KPI target. A MAPE above 35% at day 45 is a named risk trigger. The six simulated campaigns run from 16.0% to 19.4%.</p>
+
+<div class="say"><b>Say it like this</b><p>"On Amazon, the industry's usual number would be a 3.36× ROI. That's EMV: a rate card applied to views creators reported. We walk it down. Reported views to real people in the target group, attributed sales to verified sales net of 9% returns, then the holdout tells us 62% of that was caused by the campaign. What's left is 1.74× incremental ROAS. It's a smaller number, and it's the one a CFO will accept."</p></div>
+</section>
+
+<section class="brk">
+<h2>2.4 The verified-ROI ladder, L0 to L5</h2>
+<p>The ladder is a label that goes on every number in a client report. It says how much proof stands behind the number. Higher levels need more data from the creator and the brand.</p>
+<table class="t small">
+<thead><tr><th>Level</th><th>Name</th><th>What counts</th><th>Amazon example</th><th>Data needed</th></tr></thead>
+<tbody>
+<tr><td>L0</td><td>Reported</td><td>Follower counts and creator screenshots</td><td>3,513,707 reported views</td><td>Nothing beyond the creator's word</td></tr>
+<tr><td>L1</td><td>Verified delivery</td><td>Views pulled by API with creator consent, deduped</td><td>2,902,932 verified views</td><td>Creator OAuth</td></tr>
+<tr><td>L2</td><td>Quality</td><td>Bot-filtered, in target group, watch time</td><td>1,646,022 real people in TG</td><td>Audience insights, authenticity model</td></tr>
+<tr><td>L3</td><td>Action</td><td>Tracked clicks, codes, installs, add-to-cart</td><td>26,348 tracked clicks</td><td>Chtrbox's existing tracking and attribution</td></tr>
+<tr><td>L4</td><td>Outcome</td><td>Orders and revenue matched to brand data, net of returns</td><td>₹62.7L verified revenue</td><td>Brand pixels, conversion APIs, marketplace attribution, returns data</td></tr>
+<tr><td>L5</td><td>Incremental</td><td>Holdouts, brand lift, MMM-calibrated iROAS</td><td>₹38.9L incremental; 1.74× iROAS; +10.5 pts recall</td><td>Geo holdout, lift survey; MMM (marketing-mix modelling) when available</td></tr>
+</tbody></table>
+<div class="call accent"><b>What "verified" means</b><p>Only L4 and L5 numbers are called verified. L0 to L3 are useful, and they are reported with their level, but the word "verified" is reserved for outcomes matched to the brand's own data. The GTM plan's guardrail says the same: forecasts carry bands, and "verified" is used only for L4 and L5.</p></div>
+<div class="call warn"><b>Be realistic about reach</b><p>Holdouts and lift studies don't fit every brief. Small campaigns will stay at L3–L4. The Year 1 goal in the plan is 90% of revenue at L4 or above, and the month-6 check is L4+ covering at least 60% of revenue.</p></div>
+<div class="say"><b>Say it like this</b><p>"Every number we put in front of a client says which level it is. L0 is a screenshot. L5 is a holdout. We only use the word 'verified' for L4 and L5, so when a brand sees it, they know it's tied to their own sales data."</p></div>
+</section>
+
+<section class="brk">
+<h2>2.5 The fit score</h2>
+<p>The fit score is a 0–100 number for how well one creator suits one brand brief under one objective. It only ranks creators who pass the hard gates (2.6).</p>
+<div class="formula">Fit = Σ (part score × weight ÷ 100) + Represent boost (≤ 5)</div>
+<p>Each of the seven parts is scored 0–100. The weights for each objective add up to 100, so a weight of 26 means that part supplies up to 26 points of the total.</p>
+
+<h3>The seven parts and exactly how each is computed</h3>
+<table class="t small">
+<thead><tr><th>Part</th><th>Code</th><th>Exact computation</th><th>Kunal K. for Amazon</th></tr></thead>
+<tbody>
+<tr><td>Audience fit</td><td><span class="mono">audFit</span></td><td>raw = 0.30 × gender match + 0.30 × age overlap + 0.25 × city-tier overlap + 0.15 × affluence match; × 0.35 if wrong market; score = (raw − 0.50) ÷ 0.45, kept 0–1</td><td>raw 0.950 → 100</td></tr>
+<tr><td>Content affinity</td><td><span class="mono">affOf</span></td><td>0.75 × brand's affinity to the creator's main category + 0.25 × affinity to the second category; any category the brand doesn't list counts 0.05</td><td>0.75 × 0.6 (fitness) + 0.25 × 0.6 (food) = 0.60 → 60</td></tr>
+<tr><td>Culture &amp; language</td><td><span class="mono">cultFit</span></td><td>0.55 × the brand's weight for the creator's best language + 0.45 × min(1, shared cultural codes ÷ 2)</td><td>0.55 × 1.0 (Hinglish) + 0.45 × 0 (no shared codes) = 0.55 → 55</td></tr>
+<tr><td>Performance</td><td><span class="mono">perfOf</span></td><td>Awareness: 0.35 VTR + 0.25 3-s hold + 0.40 past recall. Consideration: 0.45 ER + 0.35 saves+shares + 0.20 sentiment. Conversion: 0.55 CTR + 0.25 trust + 0.20 ER. Every input is a percentile within the creator's tier</td><td>0.55 × 0.988 + 0.25 × 0.798 + 0.20 × 0.714 = 0.886 → 89</td></tr>
+<tr><td>Authenticity</td><td><span class="mono">authOf</span></td><td>0.6 × ((real followers − 60) ÷ 35, kept 0–1) + 0.2 × content quality ÷ 100 + 0.2 × (1 − sponsored share ÷ 80, kept 0–1); minus 0.25 if a fraud account, or if 90-day growth is above 25% while ER is in the bottom 30% of the tier</td><td>0.6 × 0.883 + 0.2 × 0.60 + 0.2 × 0.45 = 0.740 → 74</td></tr>
+<tr><td>Safety &amp; compliance</td><td><span class="mono">safeOf</span></td><td>0.6 × brand-safety ÷ 100 + 0.4 × #ad disclosure ÷ 100</td><td>0.6 × 0.88 + 0.4 × 0.92 = 0.896 → 90</td></tr>
+<tr><td>Cost efficiency</td><td><span class="mono">scoreBrand</span></td><td>Outcome per rupee, as a percentile among all creators who pass the gates for this brand. Outcome: awareness = TG views × (1 + forecast recall ÷ 25); consideration = engagements; conversion = forecast revenue (or clicks × 40 if the brand has no AOV)</td><td>₹43,475 ÷ ₹11,000 = 3.95; beats 98% of 366 eligible creators → 98</td></tr>
+</tbody></table>
+
+<div class="example"><b>Worked example: Kunal K.'s total, conversion objective</b><p>Audience 99.9 × 18% = 18.0. Content 60 × 14% = 8.4. Culture 55 × 8% = 4.4. Performance 88.6 × 26% = 23.0. Authenticity 74.0 × 14% = 10.4. Safety 89.6 × 8% = 7.2. Cost 98.1 × 12% = 11.8. Total = <b>83.1</b>, rank 1 of 366 eligible creators for Amazon. His weakest parts, culture (55) and content (60), are the ones conversion weights least.</p></div>
+
+<h3>Within-tier percentiles</h3>
+<div class="def"><b>Percentile within tier</b><p>The share of creators in the same tier with a value at or below this creator's. <span class="f">Formula: percentile = (number of same-tier creators with value ≤ this value) ÷ (creators in the tier). "Top X%" = (1 − percentile) × 100, at least 1.</span> Example: Kunal's CTR of 1.58% is at or above 98.8% of the 168 Micro creators, so the profile says "top 1% of micro creators".</p></div>
+<p>All Performance inputs use within-tier percentiles. This is what lets a nano creator with 4.4% ER and a mega creator with 0.4% ER compete fairly. Each is judged against its peers.</p>
+
+<h3>The weights per objective, and why</h3>
+<table class="t small">
+<thead><tr><th>Part</th><th class="r">Awareness</th><th class="r">Consideration</th><th class="r">Conversion</th></tr></thead>
+<tbody>
+<tr><td>Audience fit</td><td class="r">22</td><td class="r">20</td><td class="r">18</td></tr>
+<tr><td>Content affinity</td><td class="r">15</td><td class="r">18</td><td class="r">14</td></tr>
+<tr><td>Culture &amp; language</td><td class="r">14</td><td class="r">10</td><td class="r">8</td></tr>
+<tr><td>Performance</td><td class="r">15</td><td class="r">20</td><td class="r">26</td></tr>
+<tr><td>Authenticity</td><td class="r">14</td><td class="r">14</td><td class="r">14</td></tr>
+<tr><td>Safety &amp; compliance</td><td class="r">10</td><td class="r">8</td><td class="r">8</td></tr>
+<tr><td>Cost efficiency</td><td class="r">10</td><td class="r">10</td><td class="r">12</td></tr>
+<tr><td><b>Unit of outcome</b></td><td class="r">verified TG views</td><td class="r">engagements</td><td class="r">orders</td></tr>
+</tbody></table>
+<ul>
+<li><b>Awareness (22/15/14/15/14/10/10).</b> The goal is to be seen and remembered by the right people. So audience fit is highest (22): a view outside the TG is wasted. Culture &amp; language is at its highest (14) because recall depends on the message landing in the viewer's own language and cultural codes, which matters most for mass and regional reach. Safety is at its highest (10) because awareness puts the brand in front of the most people, so a safety slip is most visible. Performance (15) uses watch-time and recall signals.</li>
+<li><b>Consideration (20/18/10/20/14/8/10).</b> The goal is to make people think seriously about the product. Content affinity peaks (18): people take advice from a creator who is credible in that category. Performance rises to 20 and switches to ER, saves and shares, and sentiment, the signals of someone weighing a purchase.</li>
+<li><b>Conversion (18/14/8/26/14/8/12).</b> The goal is orders. Performance peaks (26) and switches to CTR, trust and ER, because clicks and trust drive sales directly. Cost efficiency peaks (12) because the brand is buying orders, and orders per rupee is the test. Culture drops to 8: once intent and a link exist, language matters less than it does for recall.</li>
+<li><b>Authenticity stays at 14 in all three.</b> Fake followers break every objective equally. They don't see, don't consider and don't buy.</li>
+</ul>
+<div class="call"><b>The weights are a starting point</b><p>These are expert weights for v0, set by hand. The strategist can move the sliders on the Brand Match screen and the ranking recomputes. The roadmap replaces them with learned weights: v2 (days 60–90) uses learning-to-rank on strategist picks plus outcomes, and v3 (months 4–6) recalibrates on holdout and brand-lift results.</p></div>
+
+<h3>The Represent boost</h3>
+<div class="def"><b>Represent boost</b><p>Represent is Chtrbox's talent-management arm, which manages an exclusive roster of creators (39 creators carry the roster flag in the sample). The strategist can add a boost so roster creators rank a little higher. <span class="f">Formula: boost = min(slider value, 5), added to the total only for Represent creators.</span> Example: a 5-point boost lifts a roster creator at 78 to 83.</p></div>
+<p>The cap at +5 is deliberate. It can break a tie between two good creators. It cannot lift a weak creator over a much better one, and it never overrides a gate. In the Amazon conversion plan, 5 of the 80 creators are on the roster, taking ₹8.4L of spend, with no boost applied.</p>
+
+<div class="say"><b>Say it like this</b><p>"The fit score has seven parts. The weights change with the objective. For awareness, audience and language matter most. For conversion, click-through and trust matter most. Authenticity stays at 14% every time, because fake followers break every brief. Performance is always compared within the creator's tier. The Represent boost is capped at five points, so it settles ties and never overrides quality."</p></div>
+</section>
+
+<section class="brk">
+<h2>2.6 Hard gates and softer flags</h2>
+<p>A gate removes a creator from the ranking entirely, whatever their score. A flag keeps them in the ranking but warns the strategist. Gates run first (<span class="mono">gatesOf</span>), flags after (<span class="mono">flagsOf</span>).</p>
+<h3>The six hard gates</h3>
+<table class="t small">
+<thead><tr><th>Gate</th><th>Exact rule</th><th>Why</th><th class="r">Amazon (conversion)</th></tr></thead>
+<tbody>
+<tr><td>Fake or inactive audience</td><td>Real followers &lt; 72%</td><td>More than about a quarter of the audience is nobody</td><td class="r">32</td></tr>
+<tr><td>Brand-safety risk</td><td>Brand-safety score &lt; 55</td><td>Recent content puts the brand at risk</td><td class="r">4</td></tr>
+<tr><td>Competitor conflict</td><td>Posted for a named competitor within the last 60 days</td><td>Standard 60-day category exclusivity; the audience just saw the rival</td><td class="r">20</td></tr>
+<tr><td>Regulatory: finance</td><td>Finance brief, finance creator, no SEBI registration</td><td>SEBI-regulated brands can't work with unregistered finfluencers giving investing content</td><td class="r">n/a</td></tr>
+<tr><td>Regulatory: health</td><td>Health brief, doctor/dietitian category creator with no medical or nutrition credential</td><td>ASCI Addendum II: health claims need a qualification</td><td class="r">n/a</td></tr>
+<tr><td>Wrong market</td><td>Creator's market (India or UAE) is outside the brief's markets</td><td>The audience can't buy</td><td class="r">0 (Amazon runs India &amp; UAE)</td></tr>
+</tbody></table>
+<p>For Amazon, 54 of 420 creators are gated and 366 are eligible. The reason counts add to 56 because some creators fail two gates. For Olay, which runs India only, 18 UAE creators are also gated on market (66 gated, 354 eligible). Across all 35 brands the median brief gates 14% of creators. The examples on screen read like "Posted for Myntra 16 days ago (60-day category exclusivity)".</p>
+<div class="call warn"><b>A detail to know, not to volunteer</b><p>In the synthetic data, the generator gives every non-fraud creator between 72% and 97% real followers and every fraud creator between 52% and 71%. So the 72% gate catches exactly the 32 accounts generated as fraud. Real data will be messier, and the threshold will need tuning on Chtrbox's own audits. If asked, say so plainly.</p></div>
+
+<h3>The softer flags</h3>
+<table class="t small">
+<thead><tr><th>Flag</th><th>Exact rule</th><th>What the strategist does</th></tr></thead>
+<tbody>
+<tr><td>Ad fatigue</td><td>Sponsored share &gt; 45%</td><td>Expect weaker response; negotiate or pick an alternative</td></tr>
+<tr><td>Weak disclosure</td><td>#ad disclosure &lt; 75%</td><td>Brief disclosure in the first line</td></tr>
+<tr><td>Recent competitor (outside window)</td><td>Competitor post 61–120 days ago</td><td>Allowed, but check the client is comfortable</td></tr>
+<tr><td>Finance brief, non-finance creator</td><td>Finance compliance and creator is not in finance</td><td>Brand-scripted only; no return or advice claims (SEBI, ASCI)</td></tr>
+<tr><td>Health brief, uncredentialed creator</td><td>Health compliance, creator not in health and no credential</td><td>Lifestyle use only; no efficacy or medical claims</td></tr>
+<tr><td>Growth spike</td><td>Followers grew &gt; 25% in 90 days (and not a fraud account)</td><td>Check where the growth came from</td></tr>
+<tr><td>Content flags</td><td>Any safety flag on a creator who still scores ≥ 55 (profanity, political commentary, past controversy, betting, unverified health claims)</td><td>Review recent posts before contracting</td></tr>
+<tr><td>Wide forecast band</td><td>Confidence is Low</td><td>Treat the forecast as a range; start small</td></tr>
+</tbody></table>
+<p>Kunal K. carries one flag: "Few tracked campaigns, so the forecast band is wide." His 44% sponsored share is one point under the ad-fatigue line.</p>
+<div class="say"><b>Say it like this</b><p>"Before anyone is ranked, six gates run. Under 72% real followers, safety under 55, a competitor post in the last 60 days, finance content without SEBI registration, health claims without credentials, or the wrong market. For Amazon that removes 54 of 420 creators. Softer issues like ad fatigue or weak disclosure stay as flags, so the strategist decides with the facts in front of them."</p></div>
+</section>
+
+<section class="brk">
+<h2>2.7 The forecast, step by step</h2>
+<p>For every creator and every brief, <span class="mono">predict()</span> forecasts what one standard bundle will deliver: <b>1 Reel + 2 Stories</b> on Instagram, or one integration on YouTube. The steps below are the exact arithmetic.</p>
+<div class="steps">
+<div class="step"><b>Cost</b><p>Instagram: Reel rate + 2 × Story rate. YouTube: the YouTube integration rate.</p></div>
+<div class="step"><b>Views</b><p>Reel views = average views. Story views = followers × tier story rate × 2 (two stories). Story rates: Nano 12%, Micro 9%, Mid-tier 7%, Macro 5.5%, Mega 4%. YouTube has no stories.</p></div>
+<div class="step"><b>Clicks</b><p>Instagram: (Reel views × CTR × 0.3 + Story views × CTR × 1.3) ÷ 100. Story link stickers click at 1.3× the creator's CTR, Reels (link in bio) at 0.3×. YouTube: views × CTR × 0.55 ÷ 100. Then multiply by (0.55 + 0.9 × content affinity) and by the market factor (1 in market, 0.2 outside).</p></div>
+<div class="step"><b>Orders</b><p>Clicks × brand conversion rate × creator trust × (0.7 + 0.6 × affinity) × ASSIST. ASSIST = 2.8, the promo-code, affiliate and search-assisted orders that come with each clicked order.</p></div>
+<div class="step"><b>Revenue and ROAS</b><p>Revenue = orders × brand AOV. ROAS = revenue ÷ cost.</p></div>
+<div class="step"><b>TG views</b><p>Views × real-follower share × TG share × market factor, where TG share = (raw audience fit)<sup>1.6</sup>, kept between 5% and 95%.</p></div>
+<div class="step"><b>Engagements and recall</b><p>Engagements = followers × ER + story views × 3%. Recall lift = past recall × (0.55 + 0.6 × affinity) × (0.7 + 0.3 × TG share).</p></div>
+</div>
+
+<h3>Worked example: Amazon's #1 creator for conversion</h3>
+<p>Kunal K. (CIE-1332), Micro, Fitness &amp; Wellness with Food &amp; Cooking as second category, Delhi NCR, Hinglish, Instagram. Raw record: 32,206 followers, 7,038 average views, ER 3.45%, CTR 1.58%, trust 1.16, real followers 90.9%, past recall 2.4 pts, Reel ₹7,000, Story ₹2,000. Amazon brief: conversion rate 4%, AOV ₹1,900, affinity to fitness 0.6 and to food 0.6, so content affinity = 0.60.</p>
+<table class="t small">
+<thead><tr><th>Line</th><th>Arithmetic</th><th class="r">Result</th><th class="r">Exported</th></tr></thead>
+<tbody>
+<tr><td>Cost</td><td>₹7,000 + 2 × ₹2,000</td><td class="r">₹11,000</td><td class="r">₹11,000</td></tr>
+<tr><td>Reel views</td><td>average views</td><td class="r">7,038</td><td class="r">n/a</td></tr>
+<tr><td>Story views</td><td>32,206 × 0.09 × 2</td><td class="r">5,797</td><td class="r">n/a</td></tr>
+<tr><td>Total views</td><td>7,038 + 5,797</td><td class="r">12,835</td><td class="r">12,835</td></tr>
+<tr><td>Raw clicks</td><td>(7,038 × 1.58 × 0.3 + 5,797 × 1.58 × 1.3) ÷ 100 = (3,336 + 11,907) ÷ 100</td><td class="r">152.4</td><td class="r">n/a</td></tr>
+<tr><td>Clicks</td><td>152.4 × (0.55 + 0.9 × 0.6) × 1 = 152.4 × 1.09</td><td class="r">166.2</td><td class="r">166</td></tr>
+<tr><td>Orders</td><td>166.2 × 0.04 × 1.16 × (0.7 + 0.6 × 0.6) × 2.8 = 166.2 × 0.04 × 1.16 × 1.06 × 2.8</td><td class="r">22.9</td><td class="r">22.9</td></tr>
+<tr><td>Revenue</td><td>22.88 × ₹1,900</td><td class="r">₹43,475</td><td class="r">₹43,475</td></tr>
+<tr><td>ROAS</td><td>₹43,475 ÷ ₹11,000</td><td class="r">3.95×</td><td class="r">3.95</td></tr>
+<tr><td>TG share</td><td>0.950<sup>1.6</sup></td><td class="r">0.92</td><td class="r">0.92</td></tr>
+<tr><td>TG views</td><td>12,835 × 0.909 × 0.9207 × 1</td><td class="r">10,741</td><td class="r">10,741</td></tr>
+<tr><td>Engagements</td><td>32,206 × 3.45% + 5,797 × 3% = 1,111 + 174</td><td class="r">1,285</td><td class="r">1,285</td></tr>
+<tr><td>Recall lift</td><td>2.4 × (0.55 + 0.6 × 0.6) × (0.7 + 0.3 × 0.9207) = 2.4 × 0.91 × 0.976</td><td class="r">+2.1 pts</td><td class="r">2.1</td></tr>
+<tr><td>Cost per TG view</td><td>₹11,000 ÷ 10,741</td><td class="r">₹1.02</td><td class="r">1.02</td></tr>
+<tr><td>Cost per engagement</td><td>₹11,000 ÷ 1,285</td><td class="r">₹8.56</td><td class="r">8.56</td></tr>
+<tr><td>Cost per click</td><td>₹11,000 ÷ 166.2</td><td class="r">₹66.2</td><td class="r">66.2</td></tr>
+</tbody></table>
+<p>Every line matches the export. With Low confidence (±35%), the honest statement is "about 23 orders, somewhere between 15 and 31, for ₹11,000". Views read as 8,343 to 17,327.</p>
+<div class="call"><b>Why this creator wins</b><p>Kunal is not a famous creator and Amazon does not list fitness among its top categories (0.6 against 0.9 for tech and home). He ranks first because his link CTR is top 1% of Micro creators, his trust is above average, his audience matches the brief almost exactly, and he costs ₹11,000. His forecast ROAS of 3.95× is better than 98% of the eligible pool. This is the engine's main idea in one creator: performance per rupee in the right audience beats reach.</p></div>
+<div class="say"><b>Say it like this</b><p>"Here's the forecast for our top Amazon creator, line by line. ₹11,000 buys a Reel and two Stories, about 12,800 views. His link CTR gives about 166 clicks. At Amazon's 4% conversion, his trust index and the assist factor for codes and affiliate orders, that's about 23 orders and ₹43,000 in revenue, close to 4× ROAS. He has no tracked history with us, so the band is ±35%, and the screen says that. After his first campaign, the band tightens."</p></div>
+</section>
+
+<section class="brk">
+<h2>2.8 The plan builder</h2>
+<p>The plan builder turns a ranked list into a set of creators that fits the budget (<span class="mono">buildPlan</span>). It picks in order of a selection key, which is different from the fit score on purpose.</p>
+<div class="formula">Selection key = (fit ÷ 100)<sup>2.2</sup> × (real followers ÷ 100)<sup>6</sup> × outcome ÷ (cost + ₹3,000 ops)</div>
+<ul>
+<li><b>Only creators with fit ≥ 50</b> who passed every gate are candidates.</li>
+<li><b>Fit<sup>2.2</sup></b> rewards strong matches more than proportionally. A fit of 83 has (83 ÷ 60)<sup>2.2</sup> = 2.04× the weight of a fit of 60.</li>
+<li><b>Real followers<sup>6</sup></b> punishes fake audiences hard, even above the gate. A creator at 78% real followers needs (90.9 ÷ 78)<sup>6</sup> = 2.5× the outcome per rupee to tie with one at 90.9%.</li>
+<li><b>Outcome</b> is the objective's unit: TG views × (1 + recall ÷ 25) for awareness, engagements for consideration, revenue for conversion.</li>
+<li><b>₹3,000 ops</b> is the cost to contract, brief, check and pay each creator. It stops the plan from filling up on tiny deals. A ₹3,000 nano bundle (₹2,000 Reel + 2 × ₹500 Stories) costs ₹6,000 once handled.</li>
+</ul>
+<div class="example"><b>Worked example: Kunal K.'s selection key</b><p>(0.831)<sup>2.2</sup> × (0.909)<sup>6</sup> × ₹43,475 ÷ (₹11,000 + ₹3,000) = 0.665 × 0.564 × 43,475 ÷ 14,000 = <b>1.17</b>, about 1.17 rupees of forecast revenue per rupee of all-in cost, after quality adjustments.</p></div>
+<h3>Caps</h3>
+<table class="t small">
+<thead><tr><th>Rule</th><th>Value</th><th>Why</th></tr></thead>
+<tbody>
+<tr><td>Mega creators</td><td>at most 1</td><td>Megas are expensive and carry the most fake followers (75.3% real on average)</td></tr>
+<tr><td>Macro creators</td><td>at most 3</td><td>Limits concentration in large, lower-ER accounts</td></tr>
+<tr><td>Any one creator</td><td>≤ 25% of budget</td><td>No single creator can sink the campaign</td></tr>
+<tr><td>Total budget</td><td>spend never exceeds it</td><td>A creator who would overshoot is skipped and the next one tried</td></tr>
+<tr><td>Plan size</td><td>≤ 80 creators</td><td>What an ops team can brief and track</td></tr>
+</tbody></table>
+<p>The Amazon brief has ₹45L. The conversion plan hits the 80-creator cap at ₹42.2L, with spend spread across Mid-tier ₹23.95L, Macro ₹6.46L, Micro ₹5.82L, Mega ₹5.73L and Nano ₹0.21L.</p>
+
+<h3>How unique reach is estimated</h3>
+<div class="def"><b>Unique TG reach</b><p>The number of different TG people the plan reaches, after allowing for people who see several creators. <span class="f">Formula: for each creator, the chance a TG person is reached = min(0.9, TG views × 0.62 ÷ TG pool). Unique reach = TG pool × (1 − Π(1 − that chance)).</span> 0.62 is the assumed share of a creator's TG views that are distinct people; the pool is the brand's addressable TG (Amazon 330M, Olay 48M). Example: Amazon's plan has 3,390,942 TG views; × 0.62 = 2,102,384; the overlap correction across 80 creators brings it to 2,095,948. Olay's smaller pool means more overlap: 1,342,998 × 0.62 = 832,659 becomes 825,762.</p></div>
+
+<h3>Why the engine beats the follower-count plan at the same spend</h3>
+<p>The comparison plan (<span class="mono">vanityPlan</span>) does what many teams do by default: sort creators in the brand's market by follower count and buy from the top until the money runs out. It is run on the same spend as the engine plan, and it does not apply the gates.</p>
+<table class="t small">
+<thead><tr><th>Metric</th><th class="r">Amazon engine</th><th class="r">Amazon by followers</th><th class="r">Olay engine</th><th class="r">Olay by followers</th></tr></thead>
+<tbody>
+<tr><td>Objective</td><td class="r">conversion</td><td class="r">conversion</td><td class="r">consideration</td><td class="r">consideration</td></tr>
+<tr><td>Spend</td><td class="r">₹42.2L</td><td class="r">₹42.2L</td><td class="r">₹18.0L</td><td class="r">₹17.8L</td></tr>
+<tr><td>Creators</td><td class="r">80</td><td class="r">4</td><td class="r">80</td><td class="r">1 (a mega)</td></tr>
+<tr><td>TG views</td><td class="r">3,390,942</td><td class="r">2,188,333</td><td class="r">1,342,998</td><td class="r">492,672</td></tr>
+<tr><td>Unique TG reach</td><td class="r">2,095,948</td><td class="r">1,354,892</td><td class="r">825,762</td><td class="r">305,457</td></tr>
+<tr><td>Engagements</td><td class="r">228,396</td><td class="r">118,657</td><td class="r">159,880</td><td class="r">35,822</td></tr>
+<tr><td>Clicks</td><td class="r">45,693</td><td class="r">20,103</td><td class="r">11,310</td><td class="r">4,232</td></tr>
+<tr><td>Orders</td><td class="r">6,045</td><td class="r">2,305</td><td class="r">1,395</td><td class="r">357</td></tr>
+<tr><td>Forecast revenue</td><td class="r">₹1.15 Cr</td><td class="r">₹43.8L</td><td class="r">₹16.0L</td><td class="r">₹4.1L</td></tr>
+<tr><td>Forecast ROAS</td><td class="r">2.72×</td><td class="r">1.04×</td><td class="r">0.89×</td><td class="r">0.23×</td></tr>
+<tr><td>Fake-audience share</td><td class="r">15%</td><td class="r">28%</td><td class="r">11%</td><td class="r">45%</td></tr>
+<tr><td>Gated creators included</td><td class="r">0</td><td class="r">1</td><td class="r">0</td><td class="r">1</td></tr>
+<tr><td>Forecast band</td><td class="r">±23%</td><td class="r">±19%</td><td class="r">±21%</td><td class="r">±12%</td></tr>
+</tbody></table>
+<div class="kpis"><div class="kpi"><b>2.62×</b><span>Amazon orders and revenue vs follower-count plan (6,045 ÷ 2,305)</span></div><div class="kpi"><b>4.46×</b><span>Olay engagements vs follower-count plan (159,880 ÷ 35,822)</span></div><div class="kpi"><b>2.70×</b><span>Olay unique TG reach (825,762 ÷ 305,457)</span></div></div>
+<p>Three things drive the gap, and you can name them all from the table.</p>
+<ol>
+<li><b>Engagement and clicks per rupee fall with size.</b> Mega ER median is 0.33% against 2.82% for Micro, while the reel price per follower falls only from about ₹0.23 to ₹0.15. Big accounts are cheaper per follower but much more expensive per action.</li>
+<li><b>Fake followers concentrate at the top.</b> The follower plan's audience is 28% (Amazon) and 45% (Olay) fake, against 15% and 11% for the engine. Each follower plan also includes one creator the gates would have removed.</li>
+<li><b>Spreading spend reaches more distinct people.</b> 80 well-matched creators in the right audience reach more unique TG people than 1 to 4 large accounts.</li>
+</ol>
+<div class="call warn"><b>Be straight about two things</b><p>First, these are forecasts on simulated data, and both plans use the same forecast model. Second, the follower plan's band is narrower (±12% for Olay) because its single mega creator has more tracked history. The engine plan is better on outcomes and slightly less certain, and that trade is shown on screen. Note also that Olay's engine plan forecasts 0.89× ROAS on consideration; consideration is judged on engagements and reach, and Olay's conversion plan forecasts 1.75×.</p></div>
+<div class="say"><b>Say it like this</b><p>"Same money, two plans. One buys the biggest accounts. The other uses the engine. For Amazon, the engine forecasts 6,045 orders against 2,305, with 15% fake audience instead of 28%. For Olay, it's four and a half times the engagements and 2.7 times the unique reach. The reason is simple. Engagement per rupee falls as accounts grow, and fake followers rise. The engine buys attention from real people in the target group, and the follower count doesn't measure that."</p></div>
+</section>
+
+<section class="brk">
+<h2>2.9 The 76 data points in 8 families</h2>
+<p>The "How it works" screen lists every signal the engine is designed to use, grouped into eight families. Each point has a source, a refresh rate and an owner, and nothing is scraped beyond platform terms. Some are live in the prototype's score; others (such as device mix or negotiated-rate history) are part of the production design.</p>
+<table class="t tiny">
+<thead><tr><th>Family</th><th class="r">Points</th><th>The data points</th><th>Source</th><th>Why the family matters</th></tr></thead>
+<tbody>
+<tr><td>Identity &amp; profile</td><td class="r">12</td><td>Platforms and handles; followers by platform; tier; city and state; content languages; primary category; secondary category; content pillars; credentials (verified); Represent roster status; market (India / UAE); creator gender</td><td>Creator OAuth, Chtrbox CRM</td><td>Who the creator is. Drives tier, category affinity, language fit, the regulatory gates and the market gate</td></tr>
+<tr><td>Audience</td><td class="r">14</td><td>Gender split; age buckets; city-tier split; top cities; audience languages; affluence index; interest affinities; audience overlap between creators; follower growth, 12 months; growth in last 90 days; country split; active-follower share; device / OS mix; peak activity hours</td><td>Instagram Graph, YouTube Analytics (with consent)</td><td>Who is watching. Audience fit is the largest single weight for awareness (22) and consideration (20)</td></tr>
+<tr><td>Content &amp; culture</td><td class="r">9</td><td>Cultural codes; hook strength (first 3 sec); production quality score; format mix (Reel, Story, long-form); posting cadence; brand-integration style; comment sentiment; topics and entities; visual brand-safety tags</td><td>Vision + language models over frames, audio, captions</td><td>How the creator speaks. Feeds culture fit, the hook and sentiment inputs, and safety tagging</td></tr>
+<tr><td>Performance</td><td class="r">12</td><td>Engagement rate; average views; view-through rate; hold at 3 seconds; saves per view; shares per view; comment quality; story link CTR; reel / bio link CTR; past conversion rate; recall lift from past studies; forecast error history</td><td>APIs + Chtrbox campaign history</td><td>What the creator delivers. The Performance part (15–26) and every line of the forecast</td></tr>
+<tr><td>Authenticity</td><td class="r">7</td><td>Real and active follower share; suspicious growth spikes; engagement-pod signal; bot share of comments; engagement vs follower consistency; sponsored-post saturation; overlap with bot clusters</td><td>Graph analysis, anomaly detection</td><td>Whether the audience is real. The 72% gate, the Authenticity part (14) and the sixth-power term in the plan builder</td></tr>
+<tr><td>Safety &amp; compliance</td><td class="r">8</td><td>Brand-safety score; flag categories; ASCI disclosure rate; credential verification; competitor posts, 120 days; exclusivity windows; past controversies; regulated-category eligibility</td><td>AI review + human QA, ASCI and SEBI rules</td><td>Whether the brand is protected. Four of the six gates and the Safety part (8–10)</td></tr>
+<tr><td>Commercials</td><td class="r">6</td><td>Rate card (Reel, Story, YouTube); negotiated-rate history; on-time delivery; response time; payment terms; TDS (194R / 194J) and GST status</td><td>Chtrbox ops data</td><td>What it costs and how reliably it ships. Cost in every forecast and the cost-efficiency part (10–12)</td></tr>
+<tr><td>Outcomes</td><td class="r">8</td><td>API-verified views; unique reach; tracked clicks; orders and revenue, net of returns; incrementality from holdouts; brand lift; 12-month customer value; content reuse in paid ads</td><td>Existing tracking &amp; attribution, brand data, lift studies</td><td>What actually happened. The ladder levels L1–L5, MAPE, and the labels the model learns from</td></tr>
+</tbody></table>
+<p>The count: 12 + 14 + 9 + 12 + 7 + 8 + 6 + 8 = 76.</p>
+<div class="call accent"><b>The family that compounds</b><p>Outcomes is the family competitors can't buy. Every campaign adds a forecast-versus-actual pair for each creator, and from L4 an outcome tied to a brand's sales. That is what moves a creator from Low to High confidence and what the v1 to v3 models train on.</p></div>
+<div class="say"><b>Say it like this</b><p>"The engine reads 76 data points per creator in eight families: who they are, who watches, how they create, what they deliver, whether the audience is real, whether the brand is safe, what it costs, and what actually happened. The first seven help us choose. The eighth, outcomes, is what makes the next choice better, and it builds up only inside Chtrbox's own campaigns."</p></div>
+</section>
+</section>
