@@ -1,0 +1,533 @@
+<section class="part">
+<div class="part-k">Part 3</div>
+<h1>Screen by screen</h1>
+<p class="lede">This part walks every screen in the order you will show it: what it is for, how to get there, every element on it with the number it shows and where that number comes from, what to click, and what to say. Default values are the ones the platform opens with: Olay for Brand Match (consideration, ₹18L), Beauty for Vertical Lens, and the live Amazon campaign for Campaigns &amp; ROI.</p>
+
+<div class="call warn"><b>Before you start: the app remembers</b><p>The prototype saves your last brand, vertical, campaign, theme and whether "Tune the model" was open in the browser's local storage. If you rehearsed on Amazon tonight, Brand Match will open on Amazon tomorrow. Before the meeting, open Brand Match and pick the brand you want to lead with. All numbers in this part assume a fresh start on Olay.</p></div>
+
+<h2>The frame around every screen</h2>
+<p>Every view sits inside the same frame. Learn it once and you can move without looking.</p>
+
+<table class="t small">
+<thead><tr><th>Element</th><th>What it shows</th><th>What it does</th></tr></thead>
+<tbody>
+<tr><td><b>Mark</b> (top left)</td><td>"CI · Creator Intelligence · Prototype for Chtrbox"</td><td>Branding only</td></tr>
+<tr><td><b>Rail navigation</b></td><td>Seven views under the label "Engine": Overview, Brand Match, Discovery, Vertical Lens, Campaigns &amp; ROI, How it works, Rollout plan. Each has its shortcut key 1 to 7 on the right.</td><td>Click to switch. The active view is highlighted. The URL changes to <span class="mono">#match</span>, <span class="mono">#campaigns</span> and so on, so you can bookmark a view.</td></tr>
+<tr><td><b>Rail footer</b></td><td>"Simulated data. 420 synthetic creators, 35 brands, 6 campaigns. Built by Chethan N for the Founder's Office conversation." and "Keys 1–7 switch views · / searches · Esc closes a profile"</td><td>The honesty line is permanent on screen</td></tr>
+<tr><td><b>Top bar title</b></td><td>The view name and its one-line subtitle, for example "Brand Match · Rank creators for a brand brief"</td><td>Tells the room where you are</td></tr>
+<tr><td><b>Live pill</b></td><td>An amber dot and "Live · Amazon · day 14 of 21"</td><td>Click it from anywhere to jump to Campaigns &amp; ROI with the Amazon campaign open</td></tr>
+<tr><td><b>Simulated data pill</b></td><td>A dashed outline reading "Simulated data"</td><td>No action. It stays on every screen.</td></tr>
+<tr><td><b>Full-screen button</b></td><td>Four-corner icon</td><td>Toggles browser full screen. Use it at the start of the demo.</td></tr>
+<tr><td><b>Theme button</b></td><td>Moon (in light mode) or sun (in dark mode)</td><td>Switches light and dark. All charts redraw in the new colours. Use light mode on a projector.</td></tr>
+</tbody>
+</table>
+
+<div class="def"><b>Keyboard shortcuts</b><p>Keys <b>1</b> to <b>7</b> jump to the seven views. <b>/</b> jumps to Discovery and puts the cursor in the search box. <b>Esc</b> closes a creator profile. Number keys are ignored while the cursor is inside a text box or dropdown, so after typing a search, click on empty space before pressing a number.</p></div>
+
+<div class="say"><b>Say it like this</b><p>"Everything you'll see runs in one file, offline. The pill at the top says simulated data and it stays there on every screen: the creators are synthetic, the brands are real Chtrbox clients or labelled prospects, and every metric for them is modelled. The live pill is a running Amazon festive campaign that I'll come back to."</p></div>
+
+<section class="brk">
+<h2>1 · Overview</h2>
+<p><b>What it is for:</b> the thesis and the proof on one page. It shows the three questions the engine answers, why Chtrbox should care now, and two charts that show the gap between what brands are told and what is true.</p>
+<div class="click">Press 1, or click Overview in the rail</div>
+
+<h3>Hero panel (left)</h3>
+<ul>
+<li><b>Eyebrow:</b> "Prototype for Chtrbox · simulated data".</li>
+<li><b>Headline:</b> "Pick creators on proof, not on <i>follower counts</i>." The lede says the engine answers three questions "using 76 data points per creator and the tracking Chtrbox already runs".</li>
+<li><b>Three question cards.</b> Each is a button.
+<ul>
+<li><b>01 · Brand Match, "Who should we work with?"</b> Ranks 420 creators for 35 brands. Click: opens Brand Match.</li>
+<li><b>02 · Forecast, "What will it deliver?"</b> Views, clicks, orders and recall per creator with a confidence band. Click: opens Brand Match directly on the Efficiency map.</li>
+<li><b>03 · Verified ROI, "Did it work?"</b> Shows <b>₹1.13 Cr</b> incremental revenue across 6 campaigns. Source: the sum of incremental revenue for all six campaigns in <span class="mono">core.json</span> (₹1,12,99,955). Click: opens Campaigns &amp; ROI.</li>
+</ul></li>
+</ul>
+
+<h3>"Why now, from Chtrbox's public numbers" (right)</h3>
+<p>Four facts, each with a citation line. These are the only real company numbers on the screen.</p>
+<table class="t small">
+<thead><tr><th>Big number</th><th>Text on screen</th><th>Why it is there</th></tr></thead>
+<tbody>
+<tr><td>₹84.2 Cr</td><td>FY26 revenue up 42.5%, EBITDA margin down from 20.5% to 17.0%. "Services are scaling linearly."</td><td>Growth is costing margin. Software that saves strategist hours protects margin.</td></tr>
+<tr><td>39/36/25</td><td>Revenue mix: Represent, Brand Solutions, ChtrSocial (%). "The engine feeds the first two directly."</td><td>Shows you know where the money comes from</td></tr>
+<tr><td>3L+</td><td>Creators in the network. "Matching that pool by hand is what eats strategist hours."</td><td>The scale problem</td></tr>
+<tr><td>₹42.9 Cr</td><td>Raised at the Oct 2025 SME IPO, 52× subscribed. Proceeds go to tech, creator intelligence and new geographies.</td><td>Management has already said this is where money goes</td></tr>
+</tbody>
+</table>
+
+<h3>Six tiles</h3>
+<table class="t small">
+<thead><tr><th>Tile</th><th class="r">Value</th><th>Note on tile</th><th>Where it comes from and how to read it</th></tr></thead>
+<tbody>
+<tr><td>Creators indexed</td><td class="r">420 sample</td><td>The production graph covers 3L+</td><td>Count of synthetic creators in <span class="mono">data.json</span></td></tr>
+<tr><td>Data points per creator</td><td class="r">76</td><td>8 families, see How it works</td><td>12 + 14 + 9 + 12 + 7 + 8 + 6 + 8 items in the eight families</td></tr>
+<tr><td>Brands profiled</td><td class="r">35</td><td>30 reported clients · 5 prospects · 9 verticals</td><td>Brand list in the data</td></tr>
+<tr><td>Gated before ranking</td><td class="r">14%</td><td>Median per brief: fraud, safety, conflicts, regulation</td><td>For each of the 35 brands, gated creators ÷ 420 on its default objective, then the median. A higher number means more of the pool is unsafe or ineligible for that brief.</td></tr>
+<tr><td>Incremental ROAS</td><td class="r">1.33×</td><td>1.95× on 12-month value · 5 conversion campaigns</td><td>Sum of incremental revenue ÷ sum of spend for the five campaigns whose brand objective is not awareness (Amazon, Olay, Meesho, HK Vitals, Puma): ₹1.06 Cr ÷ ₹79.6L. Above 1× means each rupee returned more than a rupee of sales that would not have happened anyway.</td></tr>
+<tr><td>Ad recall lift</td><td class="r">+9.8 pts</td><td>Exposed vs control, mean of 6 studies</td><td>Mean of the six campaigns' ad-recall lift (10.5, 11.6, 9.1, 8.3, 8.4, 10.8)</td></tr>
+</tbody>
+</table>
+
+<h3>Chart: "What brands are told vs what is true"</h3>
+<p>One row per campaign. Each row has four thin bars, all scaled to the creator-reported views (the top bar is always full width). Legend: <b>Creator-reported</b> (grey), <b>API-verified</b> (light pink), <b>Unique and real</b> (mid pink), <b>In target group</b> (deep pink). Hover any bar for the count and its share. The right column is the share of reported views that were real people in the brand's target group.</p>
+<table class="t small">
+<thead><tr><th>Campaign</th><th class="r">Reported views</th><th class="r">In target group</th><th class="r">Right column</th></tr></thead>
+<tbody>
+<tr><td>Amazon · Great Indian Festival</td><td class="r">3.51M</td><td class="r">1.65M</td><td class="r">47%</td></tr>
+<tr><td>Olay · Regenerist 28-day glow challenge</td><td class="r">1.15M</td><td class="r">555K</td><td class="r">48%</td></tr>
+<tr><td>Dabur · Chyawanprash</td><td class="r">4.72M</td><td class="r">2.17M</td><td class="r">46%</td></tr>
+<tr><td>Meesho · Mega Blockbuster Sale</td><td class="r">4.11M</td><td class="r">1.92M</td><td class="r">47%</td></tr>
+<tr><td>HK Vitals · Biotin 90-day habit</td><td class="r">1.50M</td><td class="r">693K</td><td class="r">46%</td></tr>
+<tr><td>Puma · Run Your City</td><td class="r">2.02M</td><td class="r">911K</td><td class="r">45%</td></tr>
+</tbody>
+</table>
+<p><b>How to read it:</b> roughly half of what creators report reaches a real person in the target group. The note under the chart says bot filtering uses each creator's audience-authenticity score.</p>
+
+<h3>Chart: "Claimed ROI vs verified ROI"</h3>
+<p>A dot chart for the five conversion campaigns, return per ₹1 spent. Three dots per row: <b>Claimed (EMV)</b> as a hollow circle, <b>Attributed ROAS</b> in blue, <b>Incremental ROAS</b> in pink with its value printed above. A dashed vertical line marks <b>1× break-even</b>.</p>
+<div class="def"><b>EMV (earned media value)</b><p>A vanity metric that prices every view and like at an industry rate card. <span class="f">Formula used here: EMV = reported views × ₹1.4 + engagements × ₹28.</span> Example: Amazon = 35,13,707 × ₹1.4 + 93,206 × ₹28 = ₹75.3L, which on ₹22.4L spend claims 3.36×.</p></div>
+<table class="t small">
+<thead><tr><th>Campaign</th><th class="r">Claimed (EMV)</th><th class="r">Attributed</th><th class="r">Incremental</th><th class="r">12-month value (hover)</th></tr></thead>
+<tbody>
+<tr><td>Amazon</td><td class="r">3.36×</td><td class="r">3.08×</td><td class="r">1.74×</td><td class="r">1.74×</td></tr>
+<tr><td>Olay</td><td class="r">2.83×</td><td class="r">1.82×</td><td class="r">0.98×</td><td class="r">1.46×</td></tr>
+<tr><td>Meesho</td><td class="r">3.50×</td><td class="r">1.64×</td><td class="r">0.90×</td><td class="r">1.97×</td></tr>
+<tr><td>HK Vitals</td><td class="r">4.02×</td><td class="r">2.07×</td><td class="r">1.26×</td><td class="r">2.65×</td></tr>
+<tr><td>Puma</td><td class="r">3.77×</td><td class="r">4.03×</td><td class="r">1.94×</td><td class="r">2.23×</td></tr>
+</tbody>
+</table>
+<p><b>How to read it:</b> the distance between the hollow dot and the pink dot is the gap between what is usually quoted and what is provable. Olay and Meesho sit just under break-even on incremental ROAS in the campaign window, and both clear it on 12-month value. Puma is the one row where attributed revenue beats EMV, because running shoes have a high order value.</p>
+
+<h3>"How the engine works" pipeline</h3>
+<p>Six numbered stages: <b>Ingest</b> (creator APIs with consent, campaign history, Represent roster, brand feeds), <b>Understand</b> (AI reads captions, audio and frames in 12 languages), <b>Match</b> (seven-part fit score after hard gates), <b>Forecast</b> (views, TG reach, clicks, orders, recall, cost per outcome, with a band), <b>Verify</b> (plugs into Chtrbox's real-time tracking, dedupes, bot-filters, nets out returns, runs holdouts), <b>Learn</b> (forecast error retrains the model; "MAPE 16–20% on the sample"). The footer repeats the simulated-data disclosure.</p>
+
+<div class="say"><b>Say it like this</b><p>"Every brand asks three things: who should we work with, what will it deliver, and did it work. This screen is the answer in one page. Look at the left chart: across six campaigns, only about 45 to 48% of the views creators report were real people in the brand's target group. On the right, the hollow dot is the ROI an agency usually quotes using EMV. The pink dot is what a holdout test proves. For Amazon that's 3.36× claimed against 1.74× proven. I'd rather walk into a CMO's office with 1.74× I can defend."</p></div>
+</section>
+
+<section class="brk">
+<h2>2 · Brand Match</h2>
+<p><b>What it is for:</b> turning a brand brief into a ranked, explained creator shortlist and a budgeted plan, and showing what that plan delivers against picking the biggest accounts.</p>
+<div class="click">Press 2 → Brand brief dropdown → Olay (default) → Consideration (default) → ₹18L (default)</div>
+<p>The screen has a left column (the Brand DNA) and a main column (controls, plan, funnel, ranked list, tuning).</p>
+
+<h3>Left column: the Brand DNA</h3>
+<table class="t small">
+<thead><tr><th>Element</th><th>Olay value</th><th>What it means</th></tr></thead>
+<tbody>
+<tr><td>Brand brief dropdown</td><td>Olay</td><td>All 35 brands grouped by the 9 verticals. Prospects carry "(prospect)". Changing it resets objective, weights and budget to that brand's defaults.</td></tr>
+<tr><td>Brand header</td><td>"O" logo, Olay, P&amp;G · Premium skincare</td><td>Parent and sub-category</td></tr>
+<tr><td>Tags</td><td>Reported client · Beauty &amp; Personal Care · Festive glow · Oct–Nov</td><td>Status (pink for client, outline for prospect), vertical, seasonal moment</td></tr>
+<tr><td>Brief</td><td>"Win the 25–40 working woman who is moving from basics to actives."</td><td>The one-line job to be done</td></tr>
+<tr><td>Target audience bars</td><td>Women 86%; ages 13–17 2%, 18–24 26%, 25–34 44%, 35–44 21%, 45+ 7%; Tier 1 62%, Tier 2 30%, Tier 3 8%</td><td>The audience each creator is compared with in Audience fit</td></tr>
+<tr><td>Languages, by priority</td><td>English, Hinglish, Hindi</td><td>Weights 1.0, 0.9, 0.55 drive Culture &amp; language</td></tr>
+<tr><td>Cultural codes</td><td>Science-backed, Aspirational luxury, Working professional</td><td>Creators who share two or more codes get full credit on the codes half of Culture &amp; language</td></tr>
+<tr><td>KPIs that matter</td><td>Consideration lift, Saves per view, PDP clicks</td><td>What the brand will judge</td></tr>
+<tr><td>Exclusivity · 60 days</td><td>L'Oréal Paris, Neutrogena, Pond's, Minimalist, The Derma Co</td><td>A post for any of these in the last 60 days is a hard gate</td></tr>
+<tr><td>Compliance</td><td>"Standard ASCI disclosure: #ad or #collab in the first line of every paid post."</td><td>Finance brands show the SEBI rule; health brands show ASCI Addendum II</td></tr>
+</tbody>
+</table>
+
+<h3>Controls row</h3>
+<ul>
+<li><b>Objective switch: Awareness · Consideration · Conversion.</b> Each objective has its own weight preset and its own Performance recipe (awareness uses view-through, 3-second hold and recall; consideration uses engagement, saves and shares, sentiment; conversion uses link CTR, trust and engagement). Switching re-scores all 420 creators, re-ranks, rebuilds the plan and changes the fourth plan number.</li>
+<li><b>Tier chips: Nano, Micro, Mid-tier, Macro, Mega.</b> Filter the ranked list only. Several can be on at once. For Olay the 354 eligible creators split 35 nano, 147 micro, 110 mid-tier, 46 macro, 16 mega.</li>
+<li><b>Platform chips: Instagram, YouTube, Moj, LinkedIn.</b> Same behaviour. Olay's eligible pool: 259 Instagram, 78 YouTube, 12 Moj, 5 LinkedIn.</li>
+</ul>
+<div class="call"><b>What the chips do not change</b><p>Tier and platform chips filter the ranked list. The plan, the funnel strip and the comparison panel are built from the full eligible pool, so their numbers stay the same when you click a chip.</p></div>
+
+<h3>Engine plan panel</h3>
+<table class="t small">
+<thead><tr><th>Element</th><th>Olay value</th><th>Source and meaning</th></tr></thead>
+<tbody>
+<tr><td>Budget slider</td><td>₹18L</td><td>Range ₹5L to ₹200L in ₹1L steps. Starts at the brand's <span class="mono">budgetLakh</span>.</td></tr>
+<tr><td>Creators · used</td><td>80 · ₹18L used, "+ ₹2.4L ops cost"</td><td>Ops cost = 80 creators × ₹3,000 for contracting, briefing, QA and payments</td></tr>
+<tr><td>Unique TG reach</td><td>826K</td><td>Estimated distinct people in the 48M target pool reached at least once, allowing for overlap between creators</td></tr>
+<tr><td>Verified TG views</td><td>1.34M, band 1.06M–1.63M</td><td>Views × real-follower share × target-group share. Band is the spend-weighted confidence, ±21% here.</td></tr>
+<tr><td>Fourth number</td><td>160K engagements, ₹11.26 each</td><td>Consideration shows engagements and cost per engagement. Awareness shows ad-recall lift. Conversion (for brands with an order value) shows forecast ROAS and orders.</td></tr>
+<tr><td>Spend by tier bar</td><td>Nano 1% · Micro 55% · Mid-tier 44%</td><td>Hover a segment for rupees. No macro or mega made the cut at this budget.</td></tr>
+<tr><td>Represent line</td><td>"1 Represent roster creators earned a place on fit (₹1.74L)"</td><td>Roster creators in the plan with no boost applied</td></tr>
+<tr><td>Copy shortlist</td><td>Button</td><td>Copies "Olay · Consideration · ₹18L" and a numbered list with name, ID, category, tier, fit and cost. The button reads "Copied 80 creators".</td></tr>
+</tbody>
+</table>
+<div class="def"><b>How the plan picks creators</b><p>Only eligible creators with fit 50 or above qualify. Each is scored on fit, authenticity and outcome per rupee (including the ₹3,000 ops cost), then added greedily until the budget runs out. Rules: no creator above 25% of budget, at most 1 mega and 3 macro creators, at most 80 creators.</p></div>
+
+<h3>"Engine vs follower count" panel</h3>
+<p>The control group. "Biggest accounts first" fills the same spend with the largest in-market accounts, ignoring gates. Each row shows engine vs follower plan and the multiple, with a pink bar (engine) and a grey bar.</p>
+<table class="t small">
+<thead><tr><th>Row</th><th class="r">Engine</th><th class="r">Follower count</th><th class="r">Multiple</th></tr></thead>
+<tbody>
+<tr><td>Verified TG views</td><td class="r">1.34M</td><td class="r">493K</td><td class="r">2.7×</td></tr>
+<tr><td>Engagements</td><td class="r">160K</td><td class="r">36K</td><td class="r">4.5×</td></tr>
+<tr><td>Link clicks</td><td class="r">11K</td><td class="r">4.2K</td><td class="r">2.7×</td></tr>
+<tr><td>Orders</td><td class="r">1.4K</td><td class="r">357</td><td class="r">3.9×</td></tr>
+<tr><td>Revenue</td><td class="r">₹16L</td><td class="r">₹4.1L</td><td class="r">3.9×</td></tr>
+<tr><td>Ad recall lift (pts)</td><td class="r">4.4</td><td class="r">3.1</td><td class="r">1.4×</td></tr>
+</tbody>
+</table>
+<p>Below the bars: <b>Fake or inactive audience bought</b> 11.0% vs <b>44.9%</b>; <b>Gated creators included</b> 0 vs <b>1</b> (in red); <b>Creators in plan</b> 80 vs 1. The follower plan spends ₹17.79L on one mega creator, Rutuja N. (CIE-1411), with 7.6M followers of whom only 55.1% look real. The engine gates her for fraud. Orders and Revenue rows appear only for brands with an order value and conversion rate.</p>
+
+<h3>Funnel strip</h3>
+<p>Four boxes: <b>420</b> Creators indexed → <b>66</b> Gated before ranking → <b>354</b> Eligible and ranked → <b>80</b> In the ₹18L plan. Hover the gated box for the breakdown: 32 fake or inactive audience, 18 wrong market, 16 competitor conflict, 4 brand-safety risk. These add to 70 because some creators fail two gates.</p>
+
+<h3>Centre panel, tab 1: Ranked list (default)</h3>
+<p>A legend of the seven parts by colour (Audience fit, Content affinity, Culture &amp; language, Performance, Authenticity, Safety &amp; compliance, Cost efficiency) plus a pink stripe meaning "In the plan". Columns:</p>
+<ul>
+<li><b>#</b>: rank among eligible creators after filters.</li>
+<li><b>Creator</b>: initials avatar (a ring marks Represent roster), name, ID, category, tier and followers, city, platform, and credential if any.</li>
+<li><b>Fit score</b>: total out of 100, a confidence tag, and a stacked bar where each segment's width is that part's contribution in points. Hover a segment: for Dhwani K., "Audience fit: 94/100 × weight 20 → 18.7 pts".</li>
+<li><b>Why</b>: the two reasons that contribute most, in plain English.</li>
+<li><b>Bundle · Engagements</b>: cost of 1 reel + 2 stories (or one YouTube integration) and the forecast outcome for the objective.</li>
+</ul>
+<p>The list shows the top 40, then "Top 40 of 354 eligible creators. Open Discovery to search the rest." Click any row to open the profile drawer.</p>
+<table class="t small">
+<thead><tr><th class="r">#</th><th>Creator</th><th class="r">Fit</th><th>Confidence</th><th class="r">Bundle</th><th class="r">Engagements</th></tr></thead>
+<tbody>
+<tr><td class="r">1</td><td>Dhwani K. · Micro 19K · Mumbai</td><td class="r">84</td><td>Medium</td><td class="r">₹9K</td><td class="r">1.1K</td></tr>
+<tr><td class="r">2</td><td>Priyanka T. · Micro 45K · Kolkata</td><td class="r">82</td><td>High</td><td class="r">₹23K</td><td class="r">1.9K</td></tr>
+<tr><td class="r">3</td><td>Rasika D. · Micro 91K · Mumbai</td><td class="r">81</td><td>Medium</td><td class="r">₹37.5K</td><td class="r">4.5K</td></tr>
+</tbody>
+</table>
+<div class="def"><b>Confidence tag</b><p>How wide the forecast band is, set by tracked history. <b>High</b> (green, ±12%): 5+ tracked campaigns and at least one lift study. <b>Medium</b> (±22%): 2 to 4 campaigns. <b>Low</b> (amber, ±35%): fewer. Hover the tag to see the counts.</p></div>
+
+<h3>Centre panel, tab 2: Efficiency map</h3>
+<p>A scatter of every eligible creator. X axis: cost of 1 reel + 2 stories. Y axis: the forecast outcome for the objective (engagements for consideration; recall-weighted TG views for awareness; revenue in ₹ for conversion with an order value). Both axes are log scale. Legend: <b>pink</b> = in the engine plan, <b>hollow</b> = follower-count plan at the same budget, <b>grey</b> = other eligible creators. The dashed line is the median outcome per rupee across eligible creators; for Olay that is about 6.3 engagements per ₹100. Dots above it beat the median. 76 of Olay's 80 plan creators sit above the line. The single hollow dot on the far right is the gated mega creator. Hover any dot for name, tier, cost, fit, forecast and gate reason.</p>
+
+<h3>Centre panel, tab 3: Gated (66)</h3>
+<p>Every gated creator (up to 60 shown) with a red status for each gate and the exact reason. The first four for Olay are competitor conflicts, for example Meher A. (CIE-1090): "Posted for Neutrogena 19 days ago (60-day category exclusivity)", and Mitali S. (CIE-1109), who fails two gates: brand-safety score 51 and a Minimalist post 35 days ago.</p>
+<div class="def"><b>The six hard gates</b><p>Real and active followers below 72%; brand-safety score below 55; a post for a named competitor in the last 60 days; audience outside the campaign market; finance content without SEBI registration (for SEBI-regulated brands); health claims without a medical or nutrition qualification (for health brands). Gated creators are never ranked.</p></div>
+
+<h3>"Tune the model" (collapsed panel)</h3>
+<p>Click the chevron to open. It shows seven sliders, one per part, range 0 to 40, starting from the objective's preset. Olay consideration: Audience 20, Content 18, Culture 10, Performance 20, Authenticity 14, Safety 8, Cost 10. Weights are relative. The text explains that strategist changes are logged and become training labels. On the right:</p>
+<ul>
+<li><b>Represent roster boost</b>, 0 to +5. Adds up to 5 points to roster creators only, shown as an extra pink segment on their fit bar. "Capped at 5 points and shown on the score, so roster creators win on fit, never by default."</li>
+<li><b>Reset to consideration preset</b>: restores weights and sets the boost to 0.</li>
+</ul>
+
+<h3>What to click in the demo, and what changes</h3>
+<table class="t small">
+<thead><tr><th>Click</th><th>What changes on screen (Olay)</th></tr></thead>
+<tbody>
+<tr><td>Objective → Awareness</td><td>Rasika D. moves to #1 (83). Plan becomes 43 creators, unique TG reach 1.08M, verified TG views 1.75M, fourth number +5.6 recall pts. Spend shifts toward mid-tier and one macro.</td></tr>
+<tr><td>Objective → Conversion</td><td>Kavya S. moves to #1 (83). Plan becomes 32 creators, fourth number forecast ROAS 1.75× on 2.7K orders.</td></tr>
+<tr><td>Budget slider down to ₹10L</td><td>Plan shrinks to 53 creators; engagements 105K vs 25K for the follower plan</td></tr>
+<tr><td>Tier chip "Mega"</td><td>Ranked list shows only the 16 eligible mega creators, with lower fit scores</td></tr>
+<tr><td>Tab → Efficiency map</td><td>Scatter appears; plan dots cluster above the dashed line</td></tr>
+<tr><td>Tab → Gated (66)</td><td>List of rejected creators with reasons</td></tr>
+<tr><td>Tune → Performance to 40</td><td>Saloni N. overtakes Dhwani K. (82.5 vs 82.2)</td></tr>
+<tr><td>Tune → Represent boost +5</td><td>Pooja N., the top roster creator, rises from #20 (71.8) to #9 (76.8). Roster creators in the top 40 go from 2 to 6. The plan now holds 2 roster creators.</td></tr>
+<tr><td>Brand dropdown → Amazon</td><td>Conversion objective, ₹45L budget, India and UAE markets. Part 4 covers this screen for Amazon in full.</td></tr>
+</tbody>
+</table>
+<div class="call warn"><b>Do not drag the Olay budget upward</b><p>The plan holds at most 80 creators. Olay already fills 80 at ₹18L, so at ₹30L or ₹200L the plan stays at 80 creators and about ₹18.3L used while the funnel box says "In the ₹30L plan". Drag down to show the plan shrinking, or switch to Amazon (₹45L) to show a bigger budget.</p></div>
+
+<div class="say"><b>Say it like this</b><p>"This is the brief as data. Olay wants the 25 to 40 working woman moving to actives, in English and Hinglish, and these five competitors are off limits for 60 days. Before ranking anything, the engine removes 66 of 420 creators: fake audiences, wrong market, competitor posts, safety. The other 354 get a seven-part score, and every score shows its reasons. Then it builds a plan for ₹18L. Same money, biggest accounts first, buys one mega creator with 7.6 million followers, 45% fake, whom we would have gated. The engine plan buys 80 micro and mid creators and delivers 4.5 times the engagements. And if a strategist disagrees, they move a slider. The engine shortlists; people decide."</p></div>
+<div class="say"><b>Say it like this (on the Represent boost)</b><p>"Represent is 39% of revenue, so the obvious worry is that we'd tilt the engine toward our own roster. The boost is capped at five points and printed on the score. At zero, one roster creator earns a place on fit alone. At five, Pooja moves from 20th to 9th. A brand can see exactly how much of her score is the boost."</p></div>
+</section>
+
+<section class="brk">
+<h2>The creator profile drawer</h2>
+<p><b>What it is for:</b> the full case for or against one creator, for the brand and objective currently selected.</p>
+<div class="click">Brand Match → click Dhwani K. (row 1). Also opens from any row in Discovery, Vertical Lens or the campaign leaderboard. Close with ×, Esc or a click on the dimmed page.</div>
+
+<h3>Header</h3>
+<p>Large avatar, name, "CIE-1201 · Beauty &amp; Skincare + Lifestyle &amp; Vlogs · Mumbai, Maharashtra", and tags: Micro · 19K, Instagram, Hinglish. Roster creators get a pink "Represent roster" tag; credentialed creators get a green shield tag with the credential.</p>
+
+<h3>Section 1: Fit for Olay · consideration</h3>
+<p>Big score <b>84/100</b>, a green "Rank 1 of 354 eligible" status (red "Gated: not ranked" for a gated creator), the fit bar, and seven rows. Each row shows the part score, the weight and the points it contributes.</p>
+<table class="t small">
+<thead><tr><th>Part</th><th class="r">Score</th><th class="r">× weight</th><th class="r">→ points</th></tr></thead>
+<tbody>
+<tr><td>Audience fit</td><td class="r">94</td><td class="r">20</td><td class="r">18.7</td></tr>
+<tr><td>Content affinity</td><td class="r">94</td><td class="r">18</td><td class="r">16.9</td></tr>
+<tr><td>Culture &amp; language</td><td class="r">72</td><td class="r">10</td><td class="r">7.2</td></tr>
+<tr><td>Performance</td><td class="r">73</td><td class="r">20</td><td class="r">14.6</td></tr>
+<tr><td>Authenticity</td><td class="r">77</td><td class="r">14</td><td class="r">10.8</td></tr>
+<tr><td>Safety &amp; compliance</td><td class="r">81</td><td class="r">8</td><td class="r">6.5</td></tr>
+<tr><td>Cost efficiency</td><td class="r">94</td><td class="r">10</td><td class="r">9.4</td></tr>
+</tbody>
+</table>
+<div class="formula">Points = part score × weight ÷ sum of weights (100). Fit = sum of points = 84.1</div>
+
+<h3>Section 2: Why, and what to watch</h3>
+<p>Red block icons list any gates. Green ticks list up to four strong reasons (parts scoring 60+), ordered by contribution: "Audience matches the brief: 85% women (target 86%), 87% age overlap, 87% city-tier overlap"; Beauty &amp; Skincare is a core category for Olay; "Engagement rate 5.5%, top 4% of micro creators"; "89% of followers look real". Amber warnings list risks: here "Profanity in recent content". Other warnings the engine can raise: ad fatigue (over 45% sponsored), #ad disclosure under 75%, a competitor post 61 to 120 days ago, follower growth over 25% in 90 days, and "few tracked campaigns, so the forecast band is wide".</p>
+
+<h3>Section 3: Forecast · 1 reel + 2 stories</h3>
+<table class="t small">
+<thead><tr><th>Tile</th><th>Dhwani K. for Olay</th><th>How it is built</th></tr></thead>
+<tbody>
+<tr><td>Cost</td><td>₹9K</td><td>Reel ₹5.5K + 2 × story ₹1.75K</td></tr>
+<tr><td>Views</td><td>6.9K (5.4K–8.4K)</td><td>Average reel views 3,495 + story views (18,750 followers × 9% micro story rate × 2) = 6,870, ±22%</td></tr>
+<tr><td>Verified TG views</td><td>5.4K, 88% in target</td><td>Views × 89.1% real × target share</td></tr>
+<tr><td>Link clicks</td><td>52, ₹172.16 per click</td><td>Views × CTR, scaled by category affinity</td></tr>
+<tr><td>Orders</td><td>8, ₹9.5K revenue</td><td>Clicks × Olay's 4% conversion × trust 1.12 × affinity × assist factor 2.8; revenue at ₹1,150 order value</td></tr>
+<tr><td>Forecast ROAS</td><td>1.06×</td><td>Revenue ÷ cost</td></tr>
+<tr><td>Recall lift</td><td>+4.9 pts</td><td>Past recall lift adjusted for affinity and TG share</td></tr>
+<tr><td>Confidence</td><td>Medium, ±22% · 3 campaigns</td><td>3 tracked campaigns, 0 lift studies</td></tr>
+</tbody>
+</table>
+<p>For brands without an order value the Orders and ROAS tiles become Engagements and ₹ per TG view.</p>
+
+<h3>Section 4: Audience vs Olay target</h3>
+<p>Mirrored bars, creator's audience (blue) against the brand target (grey), for women share, five age bands and three city tiers. Hover for percentages. Below: top places (Mumbai 16.5%, Pune 10.6%, Bengaluru 7.1%, Kota 5.3%, Patna 6.1%), audience languages (Hinglish 76%), affluence index 68.</p>
+
+<h3>Section 5: Performance &amp; quality</h3>
+<p>Twelve tiles: engagement rate 5.45% (top 4% of tier), avg views 3.5K, view-through 43%, hold at 3 sec 69%, link CTR 0.69%, save + share 2.5%, positive comments 78%, content quality 69, real followers 89% (turns red below 72%), sponsored posts 25%, #ad disclosure 85%, on-time delivery 87%. Then a 12-month follower sparkline with "+5.2% in the last 90 days". For a fraud-flagged creator the line turns red with "A one-month spike without matching engagement suggests bought followers."</p>
+
+<h3>Section 6: Commercials &amp; history</h3>
+<p>Reel ₹5.5K, Story ₹1.8K (YouTube integration if any), tracked campaigns with Chtrbox 3, brand-lift studies 0, recent brand work "Beauty of Joseon (121d)" (a competitor's name would show in red), content codes Aspirational luxury, K-culture.</p>
+
+<div class="say"><b>Say it like this</b><p>"This is what a strategist sees before saying yes. Dhwani has 19,000 followers, so she'd never make a follower-count shortlist. Her audience is 85% women against Olay's 86% target, 89% of her followers are real, her engagement is in the top 4% of micro creators, and a reel plus two stories costs ₹9,000. Every part of the score shows its working. The engine also tells you what to watch: profanity in recent content, so brief her on that. And the band is ±22% because we've only tracked three of her campaigns."</p></div>
+</section>
+
+<section class="brk">
+<h2>3 · Discovery</h2>
+<p><b>What it is for:</b> searching the whole creator graph by typing the way a strategist briefs, with results ranked for a chosen brand.</p>
+<div class="click">Press 3, or press / from anywhere to jump here with the cursor in the search box</div>
+
+<h3>Elements in order</h3>
+<ul>
+<li><b>Title:</b> "Search the creator graph in plain language", with "ranks the results for Olay" (the current brand).</li>
+<li><b>Search box</b> with placeholder "e.g. Hinglish beauty micro creators in Delhi". Results update as you type.</li>
+<li><b>Brand dropdown</b> inside the search bar. Changes the brand the results are ranked and gated for. It is the same brand setting Brand Match uses.</li>
+<li><b>"Try:" chips</b>: the nine example prompts. One click fills the box and runs it.</li>
+<li><b>"Understood:" tags</b>: one pink tag per filter the engine extracted. With an empty box: "No filters yet. Showing every creator, ranked for Olay."</li>
+<li><b>Five tiles</b>: Matches (with "N eligible for Olay"), Median engagement, Median reel rate, Combined followers, Median real followers. Empty search: 420 matches, 354 eligible, 1.82%, ₹22K, 180.3M, 85%.</li>
+<li><b>Results table</b>: Creator, Languages, Followers, ER, Link CTR, Real (red below 72%), Reel rate, Fit · Olay. A gated creator shows a red gate label instead of a score; hover it for the reason. Click a header to sort (fit, followers, ER and CTR sort high to low first; name and reel rate low to high). 25 rows per page with Previous and Next.</li>
+<li><b>Empty state</b>: "No creators match. Remove a filter, for example the price cap or the city."</li>
+</ul>
+
+<h3>The search grammar: every phrase it understands</h3>
+<p>The parser reads keywords; it is not a language model. Filters of different types combine with AND. Several values of the same type (two categories, two languages, two cities) combine with OR.</p>
+<table class="t tiny">
+<thead><tr><th>Phrase type</th><th>Words it recognises</th><th>Example → Understood tags</th><th class="r">Matches (Olay)</th></tr></thead>
+<tbody>
+<tr><td>Category (16)</td><td>beauty, skin care, makeup, cosmetic · fashion, style, stylist, outfit, ootd · food, cook, recipe, chef · fitness, gym, workout, yoga · finance, invest, money, stock, finfluencer, mutual fund · tech, gadget, phone, laptop · comedy, funny, meme, comic · parent, mom, mother, dad, family · travel · lifestyle, vlog · gaming, gamer · doctor, dietitian, health, nutrition, dermatolog · music, dance, singer · education, career, student, exam · home, decor, interior · auto, car, bike. Matches primary or secondary category.</td><td>"finance creators" → Personal Finance</td><td class="r">37</td></tr>
+<tr><td>Language (14)</td><td>Arabic, Assamese, Bengali, English, Gujarati, Hindi, Hinglish, Kannada, Malayalam, Marathi, Odia, Punjabi, Tamil, Telugu (whole word)</td><td>"Kannada comedy" → Comedy &amp; Entertainment, Kannada</td><td class="r">2</td></tr>
+<tr><td>"regional"</td><td>Adds Tamil, Telugu, Kannada, Malayalam, Marathi, Bengali, Gujarati, Punjabi, Odia, Assamese</td><td>"regional language food creators" → Food &amp; Cooking, Regional languages</td><td class="r">28</td></tr>
+<tr><td>City (32) and aliases</td><td>First word of any city name (Mumbai, Delhi, Bengaluru, Pune, Patna, Dubai...). Aliases: bangalore → Bengaluru; delhi, ncr, gurgaon → Delhi NCR; vizag → Visakhapatnam; bombay → Mumbai</td><td>"Bombay creators" → Mumbai</td><td class="r">68</td></tr>
+<tr><td>City tier</td><td>tier 1, tier 2, tier 3, tier-2, tier ii; "metro" means tier 1. Filters the creator's own city tier.</td><td>"metro fashion creators" → Fashion &amp; Style, Metros</td><td class="r">48</td></tr>
+<tr><td>Creator tier</td><td>nano, micro, mid (also "mid-tier"), macro, mega</td><td>"macro beauty" → Beauty &amp; Skincare, Macro</td><td class="r">9</td></tr>
+<tr><td>Platform</td><td>youtube, yt · instagram, ig, reel, reels · moj, sharechat · linkedin</td><td>"Moj creators" → Moj</td><td class="r">14</td></tr>
+<tr><td>Price cap</td><td>under, below, less than, max, &lt;, upto, up to + a number + k, l, lakh, lac or cr. Caps the reel rate.</td><td>"YouTube tech under 1.5 lakh" → Tech &amp; Gadgets, YouTube, Reel ≤ ₹1.5L</td><td class="r">19</td></tr>
+<tr><td>Engagement floor</td><td>"ER" or "engagement" / "engagement rate", then a number within a few words</td><td>"nano creators engagement 5" → Nano, ER ≥ 5%</td><td class="r">13</td></tr>
+<tr><td>Women audience</td><td>women, female, girls → audience at least 60% women</td><td>"ER above 3% women" → ER ≥ 3%, Audience ≥ 60% women</td><td class="r">56</td></tr>
+<tr><td>Men audience</td><td>men, male, boys → audience at least 60% men</td><td>"gaming creators with men audience" → Gaming, Audience ≥ 60% men</td><td class="r">23</td></tr>
+<tr><td>Gen Z</td><td>gen z, genz, college, campus → 18–24 share at least 45%</td><td>"college creators" → Audience 18–24 ≥ 45%</td><td class="r">58</td></tr>
+<tr><td>Represent</td><td>represent, exclusive, roster</td><td>"Represent roster" → Represent roster</td><td class="r">39</td></tr>
+<tr><td>SEBI</td><td>sebi, registered → credential starts with SEBI</td><td>"SEBI-registered finance creators" → Personal Finance, SEBI-registered</td><td class="r">10</td></tr>
+<tr><td>Credentialed</td><td>doctor, dermatolog, dietitian, credential, qualified, certified → any verified credential</td><td>"doctors and dietitians" → Doctors &amp; Dietitians, Credentialed</td><td class="r">11</td></tr>
+<tr><td>Authentic</td><td>authentic, real, no fake, clean → at least 85% real followers</td><td>"real creators" → ≥ 85% real followers</td><td class="r">204</td></tr>
+<tr><td>Dubai / UAE</td><td>uae, gulf, mena, dubai, gcc → audience market UAE ("Dubai" also adds the city)</td><td>"UAE travel" → Travel, UAE audience</td><td class="r">5</td></tr>
+</tbody>
+</table>
+
+<h3>The nine example prompts</h3>
+<table class="t small">
+<thead><tr><th>Prompt</th><th>Understood</th><th class="r">Matches</th><th class="r">Eligible for Olay</th></tr></thead>
+<tbody>
+<tr><td>Hindi beauty creators under 25k with ER above 3%</td><td>Beauty &amp; Skincare · Hindi · Reel ≤ ₹25K · ER ≥ 3%</td><td class="r">9</td><td class="r">5</td></tr>
+<tr><td>SEBI-registered finance creators</td><td>Personal Finance · SEBI-registered</td><td class="r">10</td><td class="r">8</td></tr>
+<tr><td>Gen Z fashion micro creators in Mumbai</td><td>Fashion &amp; Style · Mumbai · Micro · Audience 18–24 ≥ 45%</td><td class="r">3</td><td class="r">3</td></tr>
+<tr><td>doctors and dietitians</td><td>Doctors &amp; Dietitians · Credentialed</td><td class="r">11</td><td class="r">10</td></tr>
+<tr><td>regional language food creators</td><td>Food &amp; Cooking · Regional languages</td><td class="r">28</td><td class="r">25</td></tr>
+<tr><td>tier 2 creators with women audience</td><td>Tier-2 cities · Audience ≥ 60% women</td><td class="r">56</td><td class="r">44</td></tr>
+<tr><td>Dubai lifestyle creators</td><td>Lifestyle &amp; Vlogs · Dubai · UAE audience</td><td class="r">7</td><td class="r">0</td></tr>
+<tr><td>authentic mid-tier tech creators</td><td>Tech &amp; Gadgets · Mid-tier · ≥ 85% real followers</td><td class="r">10</td><td class="r">9</td></tr>
+<tr><td>Represent roster</td><td>Represent roster</td><td class="r">39</td><td class="r">32</td></tr>
+</tbody>
+</table>
+<p>The first prompt returns Priyanka T. (82), Ananya B. (81), Lakshmi G. (79) and Ishani V. (76) at the top, with median ER 3.87%, median reel ₹5.5K, combined followers 247K and median real followers 89%. Two results show a red "Competitor conflict" instead of a score.</p>
+
+<div class="call accent"><b>The Dubai demo moment</b><p>"Dubai lifestyle creators" finds 7 creators, and all 7 are gated for Olay because Olay runs this brief in India only. Switch the brand dropdown in the search bar to IndiGo or Amazon (both run in India and the UAE) and they become eligible and ranked. That one switch shows the engine knows the brief's market, and it sets up the Dubai hub story.</p></div>
+<div class="call warn"><b>Phrases to avoid on stage</b><p>"Skincare" also triggers Auto &amp; Bikes, because the word contains "car"; type "beauty" instead. "Real" anywhere in the sentence adds the 85% real-followers filter. "Tamil creators in Bangalore" returns zero, which is correct for this sample but looks bad live. Stick to the nine chips if you are unsure.</p></div>
+
+<div class="say"><b>Say it like this</b><p>"Strategists brief in sentences, so the search takes sentences. 'Hindi beauty creators under 25k with ER above 3%' becomes four filters you can see, and the nine results come back ranked for Olay, with two flagged for a competitor conflict before anyone wastes a call on them. In production this sits on the 3 lakh-creator graph, and the parser would be a language model; here it is a keyword parser so it runs offline."</p></div>
+</section>
+
+<section class="brk">
+<h2>4 · Vertical Lens</h2>
+<p><b>What it is for:</b> the category view for sales and planners: what matters in each vertical, how to staff it, where the talent is, and what it costs.</p>
+<div class="click">Press 4 → vertical chips at top (Beauty &amp; Personal Care is the default)</div>
+
+<h3>Elements in order (Beauty)</h3>
+<ul>
+<li><b>Nine vertical chips</b>: FMCG, E-commerce, Beauty &amp; Personal Care, Fashion &amp; Footwear, Healthcare &amp; Wellness, BFSI &amp; Fintech, Consumer Tech, Food, Travel &amp; Services, Entertainment &amp; Music. Click to switch everything below.</li>
+<li><b>"Beauty &amp; Personal Care: what actually matters"</b>: the thesis ("Beauty is bought on proof. Saves, tutorial completion and credible voices predict sales better than likes."), a four-item <b>KPI stack in order of priority</b> (saves per view and tutorial completion; consideration lift; PDP click-through and sampling to repeat; comment sentiment on efficacy), and <b>brand cards</b> for Olay, Bioderma, d'Alba, Celimax and Forever52. Clicking a brand card opens Brand Match for that brand.</li>
+<li><b>Playbook panel</b>: Tier mix, Formats, Languages, Moments and a Compliance gate. These are written playbooks from the code, not computed.</li>
+<li><b>Heatmap "Where the talent is: vertical × creator category"</b>: 9 rows by 16 creator categories. Each cell is the mean fit of the top 5 creators in that category, scored against every brand in the vertical and kept only if eligible for all of them. Darker means higher; the colour scale runs from the lowest cell on the whole map (40, Beauty × Gaming) to the highest (83, Entertainment × Comedy). The selected vertical's row label is pink. Click any row label to switch vertical.</li>
+<li><b>Top creators across Beauty</b>: the 10 best by mean fit among the 336 creators eligible for all five beauty brands. Columns: Mean fit, Top-20 for (how many of the five brands rank them top 20), Reel rate.</li>
+<li><b>Archetypes that win</b>: the most common category · tier · first language among the top 60, with count and mean fit.</li>
+<li><b>Benchmarks by tier</b>: medians for creators eligible across the vertical, costs priced for the first brand in the vertical (Olay for Beauty).</li>
+</ul>
+
+<table class="t small">
+<thead><tr><th>Top creators (Beauty)</th><th class="r">Mean fit</th><th class="r">Top-20 for</th><th class="r">Reel</th></tr></thead>
+<tbody>
+<tr><td>Lakshmi G. · Micro</td><td class="r">82</td><td class="r">5 of 5</td><td class="r">₹2.5K</td></tr>
+<tr><td>Rasika D. · Micro</td><td class="r">81</td><td class="r">5 of 5</td><td class="r">₹23.5K</td></tr>
+<tr><td>Aditi B. · Micro</td><td class="r">81</td><td class="r">5 of 5</td><td class="r">₹5K</td></tr>
+<tr><td>Dhwani K. · Micro</td><td class="r">80</td><td class="r">4 of 5</td><td class="r">₹5.5K</td></tr>
+<tr><td>Priyanka T. · Micro</td><td class="r">80</td><td class="r">5 of 5</td><td class="r">₹14.5K</td></tr>
+</tbody>
+</table>
+<p><b>Archetypes (Beauty):</b> 01 Beauty &amp; Skincare · Micro · Hinglish (10 creators, mean fit 78); 02 Fashion &amp; Style · Mid-tier · Hinglish (5, 70); 03 Beauty &amp; Skincare · Micro · Hindi (4, 73); 04 Beauty &amp; Skincare · Mid-tier · Hinglish (3, 75); 05 Fashion &amp; Style · Micro · Hinglish (3, 69); 06 Lifestyle &amp; Vlogs · Micro · English (3, 67).</p>
+
+<table class="t small">
+<thead><tr><th>Tier (Beauty, priced for Olay)</th><th class="r">Creators</th><th class="r">ER</th><th class="r">Link CTR</th><th class="r">Reel</th><th class="r">₹/TG view</th><th class="r">₹/engagement</th><th class="r">₹/click</th></tr></thead>
+<tbody>
+<tr><td>Nano (3K–10K)</td><td class="r">33</td><td class="r">4.41%</td><td class="r">0.85%</td><td class="r">₹2K</td><td class="r">₹1.71</td><td class="r">₹9.82</td><td class="r">₹242.74</td></tr>
+<tr><td>Micro (10K–100K)</td><td class="r">139</td><td class="r">2.81%</td><td class="r">0.75%</td><td class="r">₹6K</td><td class="r">₹1.44</td><td class="r">₹11.02</td><td class="r">₹220.26</td></tr>
+<tr><td>Mid-tier (100K–500K)</td><td class="r">103</td><td class="r">1.39%</td><td class="r">0.79%</td><td class="r">₹48K</td><td class="r">₹1.80</td><td class="r">₹19.64</td><td class="r">₹264.76</td></tr>
+<tr><td>Macro (500K–1M)</td><td class="r">46</td><td class="r">0.85%</td><td class="r">0.79%</td><td class="r">₹1.39L</td><td class="r">₹2.20</td><td class="r">₹27.00</td><td class="r">₹327.44</td></tr>
+<tr><td>Mega (1M+)</td><td class="r">15</td><td class="r">0.33%</td><td class="r">0.81%</td><td class="r">₹5.69L</td><td class="r">₹2.06</td><td class="r">₹38.40</td><td class="r">₹300.12</td></tr>
+</tbody>
+</table>
+<p><b>How to read it:</b> engagement falls from 4.41% to 0.33% as tiers grow, and cost per engagement rises from about ₹10 to about ₹38. Micro is the cheapest tier per verified TG view. This is the table that answers "why so many small creators?"</p>
+
+<h3>What to click</h3>
+<ul>
+<li>Click the <b>E-commerce</b> row in the heatmap: Beauty &amp; Skincare (81) and Fashion &amp; Style (80) light up. Beauty creators sell on Amazon and Flipkart too.</li>
+<li>Click <b>BFSI &amp; Fintech</b>: the compliance gate reads the SEBI finfluencer rule; Personal Finance and Tech &amp; Gadgets lead at 71.</li>
+<li>Click the <b>Olay brand card</b> to jump to Brand Match for Olay.</li>
+</ul>
+
+<div class="say"><b>Say it like this</b><p>"This is the screen for a sales pitch. Pick a category and you get what the category is judged on, how to staff it, the compliance gate, and who actually fits. In beauty, the winning archetype is a micro creator in Hinglish: ten of the top sixty. And the tier table shows why: a micro creator costs about ₹11 per engagement against ₹38 for a mega. The heatmap tells a planner where to look when a category is thin: e-commerce brands should be fishing in beauty and fashion."</p></div>
+</section>
+
+<section class="brk">
+<h2>5 · Campaigns &amp; ROI</h2>
+<p><b>What it is for:</b> answering "did it work?" with verified numbers, live during a campaign and as a defendable report after it.</p>
+<div class="click">Press 5, or click the Live pill → Amazon is selected by default</div>
+
+<h3>Campaign picker and header</h3>
+<p>Six buttons: Amazon (with an amber live dot) Great Indian Festival; Olay Regenerist 28-day glow challenge; Dabur Chyawanprash; Meesho Mega Blockbuster Sale; HK Vitals Biotin 90-day habit; Puma Run Your City. The header shows the brand logo, "E-commerce · Conversion", the title "Amazon: Great Indian Festival · creator storefronts", the status "Live · day 14 of 21" (completed campaigns show "Completed · N days" in green), spend "₹22.4L of ₹29.9L" and a pacing bar. The pink fill is spend as a share of budget (75%). A grey segment appears only when time elapsed runs ahead of spend; at day 14 of 21 (67% of time) spend is ahead, so there is none.</p>
+
+<h3>Tiles (Amazon)</h3>
+<table class="t small">
+<thead><tr><th>Tile</th><th>Value</th><th>Note</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>Verified views</td><td>2.9M</td><td>83% of the 3.51M creators reported</td><td>API-verified ÷ reported = 29,02,932 ÷ 35,13,707</td></tr>
+<tr><td>Real people in target group</td><td>1.65M</td><td>Deduped, bot-filtered, in TG</td><td>Bottom rung of the ladder</td></tr>
+<tr><td>Tracked clicks</td><td>26K</td><td>₹85.02 per click</td><td>₹22.4L ÷ 26,348</td></tr>
+<tr><td>Verified revenue</td><td>₹62.7L</td><td>3.6K orders, net of 9% returns</td><td>Attributed ₹68.9L × (1 − 9%)</td></tr>
+<tr><td>Incremental ROAS</td><td>1.74×</td><td>1.74× on 12-month value</td><td>Verified × 62% incremental share ÷ spend. Amazon's 12-month multiplier is 1.</td></tr>
+<tr><td>Ad recall lift</td><td>+10.5 pts</td><td>n = 1.2K per cell</td><td>Exposed 31.5% minus control 21%</td></tr>
+</tbody>
+</table>
+<div class="call"><b>The numbers move</b><p>Every 2.6 seconds the live campaign adds a few views and clicks, and now and then an order. The Verified views, Tracked clicks and Verified revenue tiles flash when they change. Expect slightly higher numbers on screen than the static values here (the screenshot shows ₹84.99 per click). Say it is a simulated feed standing in for Chtrbox's real-time tracking.</p></div>
+<p>For an awareness campaign (Dabur), the revenue and incremental ROAS tiles are replaced by <b>Cost per 1,000 TG views</b> (verified CPM, ₹1.4K for Dabur) and the waterfall disappears.</p>
+
+<h3>Daily chart</h3>
+<p>Title "Daily verified views". For a live campaign the line is solid up to "Today" (a vertical marker at day 14) and dashed for the forecast to day 21. The last tracked point has a dot. Hover anywhere for the day's value, marked "(forecast)" after today. Amazon's daily views peak near 372K just before today. The <b>metric toggle</b> (Views · Clicks · Orders) redraws the same chart; Orders appears only for brands with a conversion rate.</p>
+
+<h3>Alerts and actions</h3>
+<p>What the engine flagged and what the team did, each with a severity: <b>Act now</b>: "CIE-1231 CTR running 41% below forecast on Day 3. Swap the story frame to a price-drop sticker." <b>Watch</b>: "2 posts went live without #ad in the first line. Flagged to creators and fixed within 2 hours." <b>Opportunity</b>: "Tier-2 Hindi creators are beating forecast by 28%. Moved ₹6.5L of remaining budget to them." <b>Watch</b>: "Spend pacing at 92% of plan with 7 days left."</p>
+
+<h3>From reported to real (ladder)</h3>
+<table class="t small">
+<thead><tr><th>Rung</th><th>Meaning</th><th class="r">Amazon</th></tr></thead>
+<tbody>
+<tr><td>Creator-reported</td><td>Screenshots and dashboards</td><td class="r">3.51M</td></tr>
+<tr><td>API-verified</td><td>Pulled with creator consent</td><td class="r">2.9M</td></tr>
+<tr><td>Unique viewers</td><td>Deduped across creators</td><td class="r">2.15M</td></tr>
+<tr><td>Real people</td><td>Bot and inactive removed</td><td class="r">1.84M</td></tr>
+<tr><td>In target group</td><td>Age, gender, city tier</td><td class="r">1.65M</td></tr>
+</tbody>
+</table>
+
+<h3>Revenue you can defend (waterfall)</h3>
+<p>Five bars in rupees: <b>Attributed</b> ₹68.9L → <b>Returns</b> −₹6.2L (9%) → <b>Organic baseline</b> −₹23.8L (the 38% of verified revenue the holdout says would have happened anyway) → <b>Incremental</b> ₹38.9L → <b>Spend</b> ₹22.4L. Footnote: "Incremental ₹38.9L on ₹22.4L spend = 1.74×. Attributed alone would claim 3.08×." Good: incremental bar taller than spend. Bad: incremental bar shorter than spend (Olay at 0.98×, Meesho at 0.90×).</p>
+
+<h3>Brand lift</h3>
+<p>A dumbbell per question, control (grey) to exposed (pink), percent of respondents, scale 0 to 60%: Ad recall 21 → 31.5 (+10.5 pts), Brand consideration 48 → 53.4 (+5.4), Purchase intent 36 → 41.8 (+5.8). Hover each dot for the exact value.</p>
+
+<h3>Attribution and holdout</h3>
+<ul>
+<li><b>Where tracked orders came from</b>: Links 46%, Codes 22%, Affiliate 21%, View-through 11% (modelled).</li>
+<li><b>Geo holdout · 6 test vs 6 control cities</b>: conversion per 1,000 TG users 2.98 in test, 1.87 in control, lift <b>+59.4%</b>; share of attributed orders that are incremental 62%.</li>
+<li><b>Forecast accuracy</b>: views MAPE 19.4% across posted creators. "Each creator's error feeds the next model version."</li>
+</ul>
+<div class="def"><b>Geo holdout</b><p>Run the campaign in some cities and hold it back in matched cities. The difference in conversion rate is the part the creators caused. <span class="f">Lift = (2.98 − 1.87) ÷ 1.87 = 59.4%.</span></p></div>
+<div class="def"><b>MAPE (mean absolute percentage error)</b><p>The average size of the forecast miss, ignoring direction. 19.4% means forecasts of views were off by about a fifth on average. The rollout targets below 30% by day 45 and below 15% by month 12.</p></div>
+
+<h3>Creator leaderboard</h3>
+<p>Top 12 creators sorted by revenue (by views for awareness). Columns: Creator, Status (Posted in green, Scheduled in amber), Fit, Cost, Views with the difference against forecast (green if above, red if below), Clicks, Orders, Revenue, ROAS. 52 of 72 creators have posted and 20 are scheduled. Top row: Avni T. (Macro, Home &amp; Decor), fit 70, cost ₹1.41L, 213K views (−10% vs forecast), ₹9.27L revenue, 6.57× ROAS. Gayathri Y. beat her view forecast by 32%. Click any row to open the profile.</p>
+<p>The footer: "Simulated campaign... Claimed ROI elsewhere uses EMV at ₹1.4 per reported view and ₹28 per engagement."</p>
+
+<h3>What to click</h3>
+<ul>
+<li><b>Metric toggle → Orders</b> to show the conversion curve.</li>
+<li><b>Campaign picker → Olay</b>: the honest case. Incremental ROAS 0.98× in the window, 1.46× on 12-month value. The alert says derm-credentialed creators drove 2.1× the saves per view.</li>
+<li><b>Campaign picker → Dabur</b>: the awareness layout, with verified CPM and a nine-language story ("Regional-language creators delivered 64% of TG reach at 41% of spend").</li>
+<li><b>Campaign picker → Meesho</b>: returns at 17% and 38% first-time buyers.</li>
+</ul>
+
+<div class="say"><b>Say it like this</b><p>"This is day 14 of Amazon's festive campaign. Creators reported 3.5 million views; we can verify 2.9 million by API, and 1.65 million were real people in Amazon's target group. Attributed revenue is ₹68.9 lakh. Take out 9% returns, take out what the six control cities say would have sold anyway, and we can defend ₹38.9 lakh on ₹22.4 lakh spend: 1.74 times. That's lower than the 3.08 an attribution dashboard would show, and it's the number a CFO will believe. The alerts panel is the part strategists use daily: we moved ₹6.5 lakh to tier-2 Hindi creators mid-flight because they were beating forecast by 28%."</p></div>
+<div class="say"><b>Say it like this (if they push on Olay at 0.98×)</b><p>"I left that in on purpose. A consideration campaign won't always pay back inside 28 days, and the engine says so. On 12-month customer value it's 1.46×. Being the agency that reports 0.98 honestly is what earns the next brief."</p></div>
+</section>
+
+<section class="brk">
+<h2>6 · How it works</h2>
+<p><b>What it is for:</b> the method on one page, for the technical or sceptical listener.</p>
+<div class="click">Press 6</div>
+<ul>
+<li><b>"76 data points, eight families"</b>: eight cards with item counts and sources. Identity &amp; profile (12, creator OAuth and Chtrbox CRM); Audience (14, Instagram Graph and YouTube Analytics with consent); Content &amp; culture (9, vision and language models); Performance (12, APIs and campaign history); Authenticity (7, graph analysis and anomaly detection); Safety &amp; compliance (8, AI review plus human QA); Commercials (6, Chtrbox ops data, including TDS 194R/194J and GST status); Outcomes (8, existing tracking, brand data, lift studies). The subtitle: "Nothing is scraped beyond platform terms."</li>
+<li><b>"The fit score"</b> with an objective toggle (opens on <b>Conversion</b>). The formula line shows normalised weights: Fit = 0.18 × Audience fit + 0.14 × Content affinity + 0.08 × Culture &amp; language + 0.26 × Performance + 0.14 × Authenticity + 0.08 × Safety &amp; compliance + 0.12 × Cost efficiency (+ Represent boost ≤ 5). Click Awareness or Consideration to watch the weights change; the Performance description changes too.</li>
+<li><b>Three columns</b>: how each part is measured (with the note that performance is a percentile within the creator's tier, "so a nano creator is compared with nano creators"); the six hard gates; and the forecast formulas (views, TG views, clicks, orders, and the ±12/22/35% bands).</li>
+<li><b>"The verified-ROI ladder"</b>: L0 Reported, L1 Verified delivery, L2 Quality, L3 Action, L4 Outcome, L5 Incremental. L4 and L5 are highlighted: "Only L4 and L5 count as verified."</li>
+<li><b>"How the model gets better"</b>: v0 rules (days 0–15), v1 calibrated forecasts with MAPE under 30% (days 30–45), v2 learning-to-rank on strategist picks (days 60–90), v3 incrementality-calibrated (months 4–6), v4 pricing model and creator–brand graph (year 1–2).</li>
+<li><b>"What it plugs into"</b>: In place: Chtrbox's real-time tracking and attribution. Add: OAuth consent starting with the Represent roster, brand pixels and returns data, lift studies, and the AI layer for tagging and Hinglish sentiment.</li>
+</ul>
+<div class="say"><b>Say it like this</b><p>"Seventy-six data points, each with a source. The score is a weighted sum you can read, and the weights depend on the objective: for conversion, performance carries 26%. Gates run before ranking, so a fake audience can't be outweighed by a good engagement rate. And every number in a client report carries a level. We call only L4 and L5 verified: orders matched to brand data, and incrementality from holdouts."</p></div>
+</section>
+
+<section class="brk">
+<h2>7 · Rollout plan</h2>
+<p><b>What it is for:</b> how this goes from prototype to standard practice without risking the festive peak.</p>
+<div class="click">Press 7</div>
+<ul>
+<li><b>Intro</b>: days 0–60 overlap the October–March peak, when about 60% of annual revenue lands, so the engine runs in shadow mode until it beats strategist picks.</li>
+<li><b>Timeline</b>: eight phases, each with tasks and exit criteria. Days 0–15 Foundation (3 pilots agreed); 16–30 Shadow mode (engine picks ≥ 30% of final rosters, zero untracked campaigns); 31–45 Calibrate (views MAPE &lt; 30%, first L4 report); 46–60 Productise (25% of campaigns at L4+); 61–90 Scale (50% at L4+, pitch win rate +5 pts, Dubai 300-creator pilot); Months 4–6 Prove incrementality (iROAS on 80% of conversion spend); Year 1 Standard of proof (90% of revenue at L4+, margin +3 pts); Year 2 Platform (intelligence revenue ≥ ₹2 Cr, payback reached).</li>
+<li><b>The 90-day pod</b>: 8.7 FTE costing ₹13.9L a month (programme owner, data engineer, ML scientist, two full-stack engineers, analyst, two data-ops associates, half a designer, compliance retainer).</li>
+<li><b>Budget</b>: people for 3 months ₹41.7L (₹13.9L × 3); data, cloud, AI and lift panels ₹24.0L; free measurement for 8 pilot brands ₹8.0L; contingency ₹7.4L; first 90 days <b>₹81.1L</b>; Year 1 about <b>₹4.0 Cr</b>. Base-case value by Year 2 about <b>₹5.5 Cr</b> a year (₹1.8 Cr + ₹1.0 Cr + ₹1.4 Cr + ₹1.3 Cr), payback about 24 months, money released in three tranches. The panel subtitle reads "Claude's estimate, to validate with the CFO": be ready to own every assumption.</li>
+<li><b>KPIs and targets</b>: nine rows, baseline to month 12. The North Star is "Campaigns with a verified ROI report (L4+)": ~0% → 3 pilots → 25% → 50% → 90%. Others: brief to shortlist ~3 days → 2 hrs; views MAPE &lt; 35% → &lt; 15%; consented creators 0 → 25,000; spend on gated creators ₹0 from day 30; #ad disclosure ~85% → 99%.</li>
+<li><b>Guardrails</b>: consent first (DPDP Rules), humans decide, explainable scores, gates before ranking, roster boost capped, no ROI promises early, regulated categories, protect the peak.</li>
+</ul>
+<div class="say"><b>Say it like this</b><p>"Nothing changes for clients during the festive peak. For the first month the engine runs beside the strategists and we compare picks. It earns its way in: 30% of rosters by day 30, the first verified ROI report by day 45, half of campaigns by day 90. The ask is ₹81 lakh for 90 days, released against gates. The one number I'd hold myself to is the North Star: the share of campaigns that ship with a verified L4 report."</p></div>
+</section>
+
+<section class="brk">
+<h2>Where each question is answered</h2>
+<p>When a question comes, go to the screen, point, and answer from what is on it.</p>
+<table class="t small">
+<thead><tr><th>Likely question</th><th>Go to</th><th>Point at</th></tr></thead>
+<tbody>
+<tr><td>What is this, in one line?</td><td>Overview</td><td>Headline and three question cards</td></tr>
+<tr><td>Why should Chtrbox build this now?</td><td>Overview</td><td>"Why now" panel: margin from 20.5% to 17.0%, IPO proceeds earmarked for tech</td></tr>
+<tr><td>How much of reported reach is real?</td><td>Overview → Campaigns</td><td>Told-vs-true chart (45–48%), then the Amazon ladder</td></tr>
+<tr><td>How is this different from EMV reports?</td><td>Overview</td><td>Claimed vs verified dots: Amazon 3.36× vs 1.74×</td></tr>
+<tr><td>How do you pick creators?</td><td>Brand Match</td><td>Funnel strip, ranked list, fit bar hover</td></tr>
+<tr><td>Why this creator and not that one?</td><td>Drawer</td><td>Seven parts with weights and points; Why list</td></tr>
+<tr><td>What about fake followers?</td><td>Brand Match → Gated tab; Drawer</td><td>32 fraud gates for Olay; 11.0% vs 44.9% fake audience; red sparkline</td></tr>
+<tr><td>Does it beat a strategist or a big-name roster?</td><td>Brand Match</td><td>Engine vs follower count: 4.5× engagements at the same spend; Rollout shadow-mode exit criteria</td></tr>
+<tr><td>Can a strategist overrule it?</td><td>Brand Match → Tune the model</td><td>Weight sliders, reset button, "overrides become labels"</td></tr>
+<tr><td>Won't you favour your own Represent roster?</td><td>Brand Match → Tune the model</td><td>Boost capped at +5 and shown on the score; 1 roster creator on fit alone</td></tr>
+<tr><td>How accurate are the forecasts?</td><td>Campaigns; Drawer</td><td>MAPE 19.4% for Amazon; confidence bands ±12/22/35%</td></tr>
+<tr><td>How do you prove incrementality?</td><td>Campaigns</td><td>Geo holdout +59.4%; waterfall to ₹38.9L</td></tr>
+<tr><td>What about returns?</td><td>Campaigns</td><td>Waterfall returns bar; Meesho at 17% returns</td></tr>
+<tr><td>Does it handle awareness, not just sales?</td><td>Campaigns → Dabur; Brand Match → Awareness</td><td>Verified CPM, brand-lift dumbbells, recall in the plan</td></tr>
+<tr><td>What about SEBI and ASCI rules?</td><td>Discovery; Vertical Lens → BFSI; How it works</td><td>"SEBI-registered finance creators"; compliance gate; regulatory gates</td></tr>
+<tr><td>Can I find creators quickly?</td><td>Discovery</td><td>The nine example prompts and Understood tags</td></tr>
+<tr><td>What about Dubai and the UAE?</td><td>Discovery</td><td>"Dubai lifestyle creators": 0 eligible for Olay, eligible for IndiGo or Amazon</td></tr>
+<tr><td>Which creators work in my category?</td><td>Vertical Lens</td><td>Heatmap, archetypes, top creators</td></tr>
+<tr><td>Why so many micro creators?</td><td>Vertical Lens</td><td>Benchmarks by tier: ₹11 vs ₹38 per engagement</td></tr>
+<tr><td>Where does the data come from?</td><td>How it works</td><td>Eight families with sources; "what it plugs into"</td></tr>
+<tr><td>Is this real data?</td><td>Any screen</td><td>Simulated data pill and rail footer</td></tr>
+<tr><td>What will it cost and when does it pay back?</td><td>Rollout plan</td><td>₹81.1L for 90 days, ≈ ₹4.0 Cr Year 1, ≈ ₹5.5 Cr a year by Year 2, ~24-month payback</td></tr>
+<tr><td>How will you measure success?</td><td>Rollout plan</td><td>KPI table; North Star L4+ share</td></tr>
+<tr><td>What if it goes wrong during the festive peak?</td><td>Rollout plan</td><td>Shadow mode and "Protect the peak" guardrail</td></tr>
+</tbody>
+</table>
+<div class="say"><b>Say it like this (when you don't know)</b><p>"Let me show you where that lives." Then press the number key. If the screen doesn't answer it: "The prototype doesn't model that yet. Here's how I'd measure it in the first 30 days."</p></div>
+</section>
+</section>
