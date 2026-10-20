@@ -1,0 +1,1770 @@
+{
+ "id": "livon",
+ "name": "Livon",
+ "parent": "Marico",
+ "vertical": "fmcg",
+ "sub": "Hair serum",
+ "status": "Reported client",
+ "defaultObjective": "consideration",
+ "brief": "Swap the salon visit for a serum, for students on a budget.",
+ "moment": "Monsoon frizz · Jun–Sep",
+ "budgetLakh": 8,
+ "target": {
+  "fem": 0.76,
+  "age": [
+   0.12,
+   0.54,
+   0.26,
+   0.06,
+   0.02
+  ],
+  "tiers": [
+   0.42,
+   0.38,
+   0.2
+  ],
+  "affl": 0.45
+ },
+ "languages": {
+  "Hinglish": 1,
+  "Hindi": 0.85,
+  "English": 0.75,
+  "Tamil": 0.55,
+  "Telugu": 0.55
+ },
+ "codes": [
+  "Campus life",
+  "Gen-Z humour",
+  "Desi-modern"
+ ],
+ "affinity": {
+  "beauty": 0.95,
+  "fashion": 0.8,
+  "lifestyle": 0.75,
+  "comedy": 0.45
+ },
+ "competitors": [
+  "L'Oréal Paris",
+  "Streax",
+  "Tresemmé"
+ ],
+ "compliance": null,
+ "aov": 250,
+ "conversionRate": 0.05,
+ "kpis": [
+  "Saves per view",
+  "Trial redemptions",
+  "CTR"
+ ],
+ "markets": [
+  "India"
+ ],
+ "tgPoolMillions": 70,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 366,
+   "gated": 54,
+   "gatesByReason": {
+    "safety": 4,
+    "fraud": 32,
+    "conflict": 1,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Pavithra K.",
+     "id": "CIE-1318",
+     "reasons": [
+      "Brand-safety score 44: past controversy (2025), promotes betting / real-money gaming"
+     ]
+    },
+    {
+     "name": "Mitali P.",
+     "id": "CIE-1207",
+     "reasons": [
+      "Only 55.6% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Hetal D.",
+     "id": "CIE-1212",
+     "reasons": [
+      "Only 65.5% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Riya R.",
+     "id": "CIE-1116",
+     "reasons": [
+      "Posted for L'Oréal Paris 13 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1083",
+     "name": "Mitali B.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Micro",
+     "followers": 30216,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 87.5,
+     "parts": {
+      "aud": 86,
+      "cont": 84,
+      "cult": 100,
+      "perf": 76,
+      "auth": 85,
+      "safe": 92,
+      "cost": 96
+     },
+     "contributions": {
+      "aud": 18.9,
+      "cont": 12.6,
+      "cult": 14,
+      "perf": 11.3,
+      "auth": 12,
+      "safe": 9.2,
+      "cost": 9.6
+     },
+     "confidence": "Low",
+     "er": 2.34,
+     "linkCtr": 0.51,
+     "realFollowers": 90,
+     "viewThrough": 55.3,
+     "hold3s": 55.1,
+     "sponsoredShare": 4,
+     "adDisclosure": 94,
+     "safety": 90,
+     "audienceWomen": 0.705,
+     "forecast": {
+      "cost": 9500,
+      "views": 13910,
+      "tgViews": 10331,
+      "tgShare": 0.83,
+      "engagements": 870,
+      "clicks": 64,
+      "orders": 11.6,
+      "revenue": 2905,
+      "roas": 0.31,
+      "recallLiftPts": 9.6,
+      "costPerTgView": 0.92,
+      "costPerEngagement": 10.92,
+      "costPerClick": 148.65
+     },
+     "why": [
+      "Audience matches the brief: 71% women (target 76%), 76% age overlap, 99% city-tier overlap",
+      "Creates in Hinglish, Livon's lead language; shares the Desi-modern and Gen-Z humour codes",
+      "Fashion &amp; Style is a strong category for Livon, with beauty &amp; skincare as a second pillar",
+      "90% of followers look real and active; 4% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1062",
+     "name": "Aravind B.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 21659,
+     "city": "Coimbatore",
+     "languages": [
+      "Tamil"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.1,
+     "parts": {
+      "aud": 86,
+      "cont": 91,
+      "cult": 75,
+      "perf": 86,
+      "auth": 75,
+      "safe": 87,
+      "cost": 90
+     },
+     "contributions": {
+      "aud": 19,
+      "cont": 13.7,
+      "cult": 10.5,
+      "perf": 12.8,
+      "auth": 10.4,
+      "safe": 8.7,
+      "cost": 9
+     },
+     "confidence": "High",
+     "er": 1.8,
+     "linkCtr": 0.75,
+     "realFollowers": 85.8,
+     "viewThrough": 56.5,
+     "hold3s": 83,
+     "sponsoredShare": 24,
+     "adDisclosure": 86,
+     "safety": 87,
+     "audienceWomen": 0.763,
+     "forecast": {
+      "cost": 8000,
+      "views": 10857,
+      "tgViews": 7705,
+      "tgShare": 0.83,
+      "engagements": 507,
+      "clicks": 74,
+      "orders": 11.6,
+      "revenue": 2892,
+      "roas": 0.36,
+      "recallLiftPts": 6.9,
+      "costPerTgView": 1.04,
+      "costPerEngagement": 15.78,
+      "costPerClick": 108.71
+     },
+     "why": [
+      "Audience matches the brief: 76% women (target 76%), 84% age overlap, 79% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Livon, with fashion &amp; style as a second pillar",
+      "Viewers watch 57% of each video, top 5% of micro creators; past recall lift +6.6 pts",
+      "Creates in Tamil; shares the Desi-modern and Gen-Z humour codes"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1231",
+     "name": "Riya D.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 30854,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.4,
+     "parts": {
+      "aud": 90,
+      "cont": 90,
+      "cult": 55,
+      "perf": 66,
+      "auth": 83,
+      "safe": 91,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 19.8,
+      "cont": 13.5,
+      "cult": 7.7,
+      "perf": 9.9,
+      "auth": 11.7,
+      "safe": 9.1,
+      "cost": 9.8
+     },
+     "confidence": "Low",
+     "er": 1.88,
+     "linkCtr": 0.85,
+     "realFollowers": 90.5,
+     "viewThrough": 44.7,
+     "hold3s": 59,
+     "sponsoredShare": 13,
+     "adDisclosure": 100,
+     "safety": 85,
+     "audienceWomen": 0.856,
+     "forecast": {
+      "cost": 8000,
+      "views": 12413,
+      "tgViews": 9563,
+      "tgShare": 0.85,
+      "engagements": 747,
+      "clicks": 107,
+      "orders": 22.7,
+      "revenue": 5679,
+      "roas": 0.71,
+      "recallLiftPts": 10.3,
+      "costPerTgView": 0.84,
+      "costPerEngagement": 10.71,
+      "costPerClick": 74.59
+     },
+     "why": [
+      "Audience matches the brief: 86% women (target 76%), 88% age overlap, 98% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Livon, with lifestyle &amp; vlogs as a second pillar",
+      "91% of followers look real and active; 13% of recent posts are sponsored",
+      "Viewers watch 45% of each video, top 46% of micro creators; past recall lift +9.9 pts"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1216",
+     "name": "Dhwani M.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Micro",
+     "followers": 11990,
+     "city": "Mumbai",
+     "languages": [
+      "Marathi",
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81,
+     "parts": {
+      "aud": 87,
+      "cont": 84,
+      "cult": 64,
+      "perf": 83,
+      "auth": 74,
+      "safe": 87,
+      "cost": 91
+     },
+     "contributions": {
+      "aud": 19,
+      "cont": 12.6,
+      "cult": 8.9,
+      "perf": 12.4,
+      "auth": 10.3,
+      "safe": 8.7,
+      "cost": 9.1
+     },
+     "confidence": "Medium",
+     "er": 3.79,
+     "linkCtr": 0.9,
+     "realFollowers": 86.2,
+     "viewThrough": 54.2,
+     "hold3s": 68.6,
+     "sponsoredShare": 29,
+     "adDisclosure": 92,
+     "safety": 83,
+     "audienceWomen": 0.736,
+     "forecast": {
+      "cost": 5000,
+      "views": 6695,
+      "tgViews": 4787,
+      "tgShare": 0.83,
+      "engagements": 519,
+      "clicks": 49,
+      "orders": 7.4,
+      "revenue": 1852,
+      "roas": 0.37,
+      "recallLiftPts": 7.7,
+      "costPerTgView": 1.04,
+      "costPerEngagement": 9.63,
+      "costPerClick": 102.27
+     },
+     "why": [
+      "Audience matches the brief: 74% women (target 76%), 92% age overlap, 82% city-tier overlap",
+      "Fashion &amp; Style is a strong category for Livon, with beauty &amp; skincare as a second pillar",
+      "Viewers watch 54% of each video, top 8% of micro creators; past recall lift +7.7 pts",
+      "86% of followers look real and active; 29% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1357",
+     "name": "Rasika M.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Macro",
+     "followers": 904194,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.5,
+     "parts": {
+      "aud": 84,
+      "cont": 79,
+      "cult": 78,
+      "perf": 90,
+      "auth": 66,
+      "safe": 84,
+      "cost": 82
+     },
+     "contributions": {
+      "aud": 18.5,
+      "cont": 11.8,
+      "cult": 10.9,
+      "perf": 13.6,
+      "auth": 9.2,
+      "safe": 8.4,
+      "cost": 8.2
+     },
+     "confidence": "Medium",
+     "er": 0.96,
+     "linkCtr": 1.21,
+     "realFollowers": 82.3,
+     "viewThrough": 57.1,
+     "hold3s": 72,
+     "sponsoredShare": 25,
+     "adDisclosure": 80,
+     "safety": 86,
+     "audienceWomen": 0.834,
+     "forecast": {
+      "cost": 313000,
+      "views": 378871,
+      "tgViews": 253188,
+      "tgShare": 0.81,
+      "engagements": 11664,
+      "clicks": 3246,
+      "orders": 639.4,
+      "revenue": 159852,
+      "roas": 0.51,
+      "recallLiftPts": 8.6,
+      "costPerTgView": 1.24,
+      "costPerEngagement": 26.83,
+      "costPerClick": 96.43
+     },
+     "why": [
+      "Audience matches the brief: 83% women (target 76%), 80% age overlap, 96% city-tier overlap",
+      "Viewers watch 57% of each video, top 9% of macro creators; past recall lift +8.9 pts",
+      "Fashion &amp; Style is a strong category for Livon, with lifestyle &amp; vlogs as a second pillar",
+      "Creates in Hinglish + Hindi, Livon's lead language; shares the Desi-modern codes"
+     ],
+     "risks": []
+    }
+   ],
+   "plan": {
+    "creators": 23,
+    "spend": 799500,
+    "views": 1355968,
+    "tgViews": 985495,
+    "uniqueTgReach": 608718,
+    "engagements": 47429,
+    "clicks": 7195,
+    "orders": 1107,
+    "revenue": 276679,
+    "roas": 0.35,
+    "recallLiftPts": 5.6,
+    "fakeAudienceShare": 0.1,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 49000,
+    "forecastBandPct": 27,
+    "spendByTier": {
+     "micro": 280000,
+     "macro": 177500,
+     "mid": 338000,
+     "nano": 4000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 799000,
+    "views": 1391817,
+    "tgViews": 767249,
+    "uniqueTgReach": 475605,
+    "engagements": 23605,
+    "clicks": 3765,
+    "orders": 487,
+    "revenue": 121670,
+    "roas": 0.15,
+    "recallLiftPts": 4.3,
+    "fakeAudienceShare": 0.2,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 22,
+    "spendByTier": {
+     "mega": 776000,
+     "micro": 23000
+    }
+   },
+   "planCreators": [
+    "Varsha B. (Micro, Food & Cooking)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Keerthi B. (Macro, Beauty & Skincare)",
+    "Mitali B. (Micro, Fashion & Style)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Riya D. (Micro, Beauty & Skincare)",
+    "Ananya J. (Micro, Music & Dance)",
+    "Kritika P. (Micro, Lifestyle & Vlogs)",
+    "Keerthi J. (Mid-tier, Fashion & Style)",
+    "Rasika D. (Micro, Beauty & Skincare)",
+    "Tanvi C. (Micro, Food & Cooking)",
+    "Sakshi A. (Micro, Comedy & Entertainment)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 366,
+   "gated": 54,
+   "gatesByReason": {
+    "safety": 4,
+    "conflict": 1,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Mitali S.",
+     "id": "CIE-1109",
+     "reasons": [
+      "Brand-safety score 51: political commentary, unverified health claims"
+     ]
+    },
+    {
+     "name": "Riya R.",
+     "id": "CIE-1116",
+     "reasons": [
+      "Posted for L'Oréal Paris 13 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Aarya D.",
+     "id": "CIE-1139",
+     "reasons": [
+      "Only 54.2% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Rehan G.",
+     "id": "CIE-1162",
+     "reasons": [
+      "Audience is mostly in the UAE; Livon runs this brief in India"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1221",
+     "name": "Shreya G.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 16818,
+     "city": "Chandigarh",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 83.5,
+     "parts": {
+      "aud": 88,
+      "cont": 79,
+      "cult": 92,
+      "perf": 83,
+      "auth": 73,
+      "safe": 88,
+      "cost": 87
+     },
+     "contributions": {
+      "aud": 17.6,
+      "cont": 14.2,
+      "cult": 9.2,
+      "perf": 16.7,
+      "auth": 10.2,
+      "safe": 7,
+      "cost": 8.7
+     },
+     "confidence": "Low",
+     "er": 3.98,
+     "linkCtr": 0.59,
+     "realFollowers": 85.9,
+     "viewThrough": 51.4,
+     "hold3s": 61.1,
+     "sponsoredShare": 37,
+     "adDisclosure": 90,
+     "safety": 86,
+     "audienceWomen": 0.641,
+     "forecast": {
+      "cost": 6000,
+      "views": 3486,
+      "tgViews": 2509,
+      "tgShare": 0.84,
+      "engagements": 669,
+      "clicks": 14,
+      "orders": 2.4,
+      "revenue": 602,
+      "roas": 0.1,
+      "recallLiftPts": 8.1,
+      "costPerTgView": 2.39,
+      "costPerEngagement": 8.96,
+      "costPerClick": 421.38
+     },
+     "why": [
+      "Audience matches the brief: 64% women (target 76%), 93% age overlap, 91% city-tier overlap",
+      "Engagement rate 4.0%, top 17% of micro creators; 3.0% of viewers save or share",
+      "Fashion &amp; Style is a strong category for Livon, with lifestyle &amp; vlogs as a second pillar",
+      "86% of followers look real and active; 37% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1345",
+     "name": "Aanya R.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Nano",
+     "followers": 8388,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80,
+     "parts": {
+      "aud": 92,
+      "cont": 84,
+      "cult": 78,
+      "perf": 50,
+      "auth": 92,
+      "safe": 85,
+      "cost": 90
+     },
+     "contributions": {
+      "aud": 18.4,
+      "cont": 15.1,
+      "cult": 7.8,
+      "perf": 10,
+      "auth": 12.9,
+      "safe": 6.8,
+      "cost": 9
+     },
+     "confidence": "Low",
+     "er": 4.96,
+     "linkCtr": 1.11,
+     "realFollowers": 95.7,
+     "viewThrough": 38.3,
+     "hold3s": 77.2,
+     "sponsoredShare": 21,
+     "adDisclosure": 87,
+     "safety": 83,
+     "audienceWomen": 0.731,
+     "forecast": {
+      "cost": 4000,
+      "views": 4633,
+      "tgViews": 3846,
+      "tgShare": 0.87,
+      "engagements": 476,
+      "clicks": 49,
+      "orders": 8.5,
+      "revenue": 2135,
+      "roas": 0.53,
+      "recallLiftPts": 3.4,
+      "costPerTgView": 1.04,
+      "costPerEngagement": 8.4,
+      "costPerClick": 81.22
+     },
+     "why": [
+      "Audience matches the brief: 73% women (target 76%), 86% age overlap, 96% city-tier overlap",
+      "Fashion &amp; Style is a strong category for Livon, with beauty &amp; skincare as a second pillar",
+      "96% of followers look real and active; 21% of recent posts are sponsored",
+      "Engagement rate 5.0%, top 32% of nano creators; 1.6% of viewers save or share"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1296",
+     "name": "Subhankar B.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 45223,
+     "city": "Kolkata",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.2,
+     "parts": {
+      "aud": 80,
+      "cont": 90,
+      "cult": 55,
+      "perf": 78,
+      "auth": 76,
+      "safe": 90,
+      "cost": 83
+     },
+     "contributions": {
+      "aud": 15.9,
+      "cont": 16.2,
+      "cult": 5.5,
+      "perf": 15.5,
+      "auth": 10.6,
+      "safe": 7.2,
+      "cost": 8.3
+     },
+     "confidence": "Medium",
+     "er": 3.76,
+     "linkCtr": 0.59,
+     "realFollowers": 83.4,
+     "viewThrough": 41.2,
+     "hold3s": 55.4,
+     "sponsoredShare": 11,
+     "adDisclosure": 89,
+     "safety": 91,
+     "audienceWomen": 0.838,
+     "forecast": {
+      "cost": 18500,
+      "views": 23148,
+      "tgViews": 15128,
+      "tgShare": 0.78,
+      "engagements": 1945,
+      "clicks": 121,
+      "orders": 19.8,
+      "revenue": 4938,
+      "roas": 0.27,
+      "recallLiftPts": 5.9,
+      "costPerTgView": 1.22,
+      "costPerEngagement": 9.51,
+      "costPerClick": 152.84
+     },
+     "why": [
+      "Beauty &amp; Skincare is a core category for Livon, with lifestyle &amp; vlogs as a second pillar",
+      "Audience matches the brief: 84% women (target 76%), 78% age overlap, 94% city-tier overlap",
+      "Engagement rate 3.8%, top 20% of micro creators; 2.6% of viewers save or share",
+      "83% of followers look real and active; 11% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1146",
+     "name": "Ishani V.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 69981,
+     "city": "Patna",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 78.5,
+     "parts": {
+      "aud": 81,
+      "cont": 90,
+      "cult": 47,
+      "perf": 77,
+      "auth": 70,
+      "safe": 95,
+      "cost": 84
+     },
+     "contributions": {
+      "aud": 16.3,
+      "cont": 16.2,
+      "cult": 4.7,
+      "perf": 15.4,
+      "auth": 9.9,
+      "safe": 7.6,
+      "cost": 8.4
+     },
+     "confidence": "Low",
+     "er": 5.7,
+     "linkCtr": 0.76,
+     "realFollowers": 85.8,
+     "viewThrough": 39.6,
+     "hold3s": 62.7,
+     "sponsoredShare": 28,
+     "adDisclosure": 99,
+     "safety": 92,
+     "audienceWomen": 0.921,
+     "forecast": {
+      "cost": 37000,
+      "views": 15201,
+      "tgViews": 10373,
+      "tgShare": 0.8,
+      "engagements": 3989,
+      "clicks": 86,
+      "orders": 14.1,
+      "revenue": 3525,
+      "roas": 0.1,
+      "recallLiftPts": 8.1,
+      "costPerTgView": 3.57,
+      "costPerEngagement": 9.28,
+      "costPerClick": 428.17
+     },
+     "why": [
+      "Audience matches the brief: 92% women (target 76%), 79% age overlap, 95% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Livon, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 5.7%, top 2% of micro creators; 2.6% of viewers save or share",
+      "86% of followers look real and active; 28% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1201",
+     "name": "Dhwani K.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 18750,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.4,
+     "parts": {
+      "aud": 77,
+      "cont": 90,
+      "cult": 55,
+      "perf": 73,
+      "auth": 77,
+      "safe": 81,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 15.4,
+      "cont": 16.2,
+      "cult": 5.5,
+      "perf": 14.6,
+      "auth": 10.8,
+      "safe": 6.5,
+      "cost": 9.4
+     },
+     "confidence": "Medium",
+     "er": 5.45,
+     "linkCtr": 0.69,
+     "realFollowers": 89.1,
+     "viewThrough": 43,
+     "hold3s": 68.8,
+     "sponsoredShare": 25,
+     "adDisclosure": 85,
+     "safety": 78,
+     "audienceWomen": 0.853,
+     "forecast": {
+      "cost": 9000,
+      "views": 6870,
+      "tgViews": 4694,
+      "tgShare": 0.77,
+      "engagements": 1123,
+      "clicks": 51,
+      "orders": 9.9,
+      "revenue": 2480,
+      "roas": 0.28,
+      "recallLiftPts": 4.7,
+      "costPerTgView": 1.92,
+      "costPerEngagement": 8.01,
+      "costPerClick": 176.43
+     },
+     "why": [
+      "Beauty &amp; Skincare is a core category for Livon, with lifestyle &amp; vlogs as a second pillar",
+      "Audience matches the brief: 85% women (target 76%), 76% age overlap, 93% city-tier overlap",
+      "Engagement rate 5.5%, top 4% of micro creators; 2.5% of viewers save or share",
+      "89% of followers look real and active; 25% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1271",
+     "name": "Rasika D.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 91472,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.3,
+     "parts": {
+      "aud": 78,
+      "cont": 90,
+      "cult": 78,
+      "perf": 58,
+      "auth": 82,
+      "safe": 85,
+      "cost": 90
+     },
+     "contributions": {
+      "aud": 15.5,
+      "cont": 16.2,
+      "cult": 7.8,
+      "perf": 11.6,
+      "auth": 11.4,
+      "safe": 6.8,
+      "cost": 9
+     },
+     "confidence": "Medium",
+     "er": 4.34,
+     "linkCtr": 0.7,
+     "realFollowers": 90.6,
+     "viewThrough": 54,
+     "hold3s": 66.7,
+     "sponsoredShare": 27,
+     "adDisclosure": 92,
+     "safety": 81,
+     "audienceWomen": 0.886,
+     "forecast": {
+      "cost": 37500,
+      "views": 51100,
+      "tgViews": 35669,
+      "tgShare": 0.77,
+      "engagements": 4464,
+      "clicks": 303,
+      "orders": 56.2,
+      "revenue": 14056,
+      "roas": 0.37,
+      "recallLiftPts": 5.5,
+      "costPerTgView": 1.05,
+      "costPerEngagement": 8.4,
+      "costPerClick": 123.89
+     },
+     "why": [
+      "Beauty &amp; Skincare is a core category for Livon, with lifestyle &amp; vlogs as a second pillar",
+      "Audience matches the brief: 89% women (target 76%), 79% age overlap, 94% city-tier overlap",
+      "Engagement rate 4.3%, top 10% of micro creators; 1.8% of viewers save or share",
+      "91% of followers look real and active; 27% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1157",
+     "name": "Saloni N.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Mid-tier",
+     "followers": 312036,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 78.1,
+     "parts": {
+      "aud": 78,
+      "cont": 91,
+      "cult": 78,
+      "perf": 95,
+      "auth": 61,
+      "safe": 88,
+      "cost": 38
+     },
+     "contributions": {
+      "aud": 15.6,
+      "cont": 16.4,
+      "cult": 7.8,
+      "perf": 18.9,
+      "auth": 8.6,
+      "safe": 7,
+      "cost": 3.8
+     },
+     "confidence": "Low",
+     "er": 2.43,
+     "linkCtr": 0.7,
+     "realFollowers": 81.9,
+     "viewThrough": 41.3,
+     "hold3s": 59.7,
+     "sponsoredShare": 32,
+     "adDisclosure": 79,
+     "safety": 94,
+     "audienceWomen": 0.816,
+     "forecast": {
+      "cost": 142000,
+      "views": 37477,
+      "tgViews": 23672,
+      "tgShare": 0.77,
+      "engagements": 7582,
+      "clicks": 198,
+      "orders": 36.6,
+      "revenue": 9157,
+      "roas": 0.06,
+      "recallLiftPts": 4.7,
+      "costPerTgView": 6,
+      "costPerEngagement": 18.73,
+      "costPerClick": 717.71
+     },
+     "why": [
+      "Engagement rate 2.4%, top 4% of mid-tier creators; 3.3% of viewers save or share",
+      "Beauty &amp; Skincare is a core category for Livon, with fashion &amp; style as a second pillar",
+      "Audience matches the brief: 82% women (target 76%), 74% age overlap, 91% city-tier overlap",
+      "82% of followers look real and active; 32% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1083",
+     "name": "Mitali B.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Micro",
+     "followers": 30216,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.9,
+     "parts": {
+      "aud": 86,
+      "cont": 84,
+      "cult": 100,
+      "perf": 45,
+      "auth": 85,
+      "safe": 92,
+      "cost": 73
+     },
+     "contributions": {
+      "aud": 17.2,
+      "cont": 15.1,
+      "cult": 10,
+      "perf": 9.1,
+      "auth": 12,
+      "safe": 7.3,
+      "cost": 7.3
+     },
+     "confidence": "Low",
+     "er": 2.34,
+     "linkCtr": 0.51,
+     "realFollowers": 90,
+     "viewThrough": 55.3,
+     "hold3s": 55.1,
+     "sponsoredShare": 4,
+     "adDisclosure": 94,
+     "safety": 90,
+     "audienceWomen": 0.705,
+     "forecast": {
+      "cost": 9500,
+      "views": 13910,
+      "tgViews": 10331,
+      "tgShare": 0.83,
+      "engagements": 870,
+      "clicks": 64,
+      "orders": 11.6,
+      "revenue": 2905,
+      "roas": 0.31,
+      "recallLiftPts": 9.6,
+      "costPerTgView": 0.92,
+      "costPerEngagement": 10.92,
+      "costPerClick": 148.65
+     },
+     "why": [
+      "Audience matches the brief: 71% women (target 76%), 76% age overlap, 99% city-tier overlap",
+      "Fashion &amp; Style is a strong category for Livon, with beauty &amp; skincare as a second pillar",
+      "90% of followers look real and active; 4% of recent posts are sponsored",
+      "Creates in Hinglish, Livon's lead language; shares the Desi-modern and Gen-Z humour codes"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1140",
+     "name": "Lakshmi G.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 11900,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.5,
+     "parts": {
+      "aud": 74,
+      "cont": 91,
+      "cult": 55,
+      "perf": 70,
+      "auth": 78,
+      "safe": 78,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 14.8,
+      "cont": 16.4,
+      "cult": 5.5,
+      "perf": 14,
+      "auth": 10.9,
+      "safe": 6.2,
+      "cost": 9.7
+     },
+     "confidence": "Medium",
+     "er": 4.12,
+     "linkCtr": 1.02,
+     "realFollowers": 89,
+     "viewThrough": 42.9,
+     "hold3s": 63.8,
+     "sponsoredShare": 20,
+     "adDisclosure": 92,
+     "safety": 68,
+     "audienceWomen": 0.954,
+     "forecast": {
+      "cost": 4000,
+      "views": 4857,
+      "tgViews": 3222,
+      "tgShare": 0.75,
+      "engagements": 555,
+      "clicks": 50,
+      "orders": 11.2,
+      "revenue": 2791,
+      "roas": 0.7,
+      "recallLiftPts": 5.8,
+      "costPerTgView": 1.24,
+      "costPerEngagement": 7.21,
+      "costPerClick": 79.46
+     },
+     "why": [
+      "Beauty &amp; Skincare is a core category for Livon, with fashion &amp; style as a second pillar",
+      "Audience matches the brief: 95% women (target 76%), 76% age overlap, 94% city-tier overlap",
+      "Engagement rate 4.1%, top 14% of micro creators; 2.4% of viewers save or share",
+      "89% of followers look real and active; 20% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Unverified health claims"
+     ]
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1216",
+     "name": "Dhwani M.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Micro",
+     "followers": 11990,
+     "city": "Mumbai",
+     "languages": [
+      "Marathi",
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.3,
+     "parts": {
+      "aud": 87,
+      "cont": 84,
+      "cult": 64,
+      "perf": 66,
+      "auth": 74,
+      "safe": 87,
+      "cost": 81
+     },
+     "contributions": {
+      "aud": 17.3,
+      "cont": 15.1,
+      "cult": 6.4,
+      "perf": 13.1,
+      "auth": 10.3,
+      "safe": 6.9,
+      "cost": 8.1
+     },
+     "confidence": "Medium",
+     "er": 3.79,
+     "linkCtr": 0.9,
+     "realFollowers": 86.2,
+     "viewThrough": 54.2,
+     "hold3s": 68.6,
+     "sponsoredShare": 29,
+     "adDisclosure": 92,
+     "safety": 83,
+     "audienceWomen": 0.736,
+     "forecast": {
+      "cost": 5000,
+      "views": 6695,
+      "tgViews": 4787,
+      "tgShare": 0.83,
+      "engagements": 519,
+      "clicks": 49,
+      "orders": 7.4,
+      "revenue": 1852,
+      "roas": 0.37,
+      "recallLiftPts": 7.7,
+      "costPerTgView": 1.04,
+      "costPerEngagement": 9.63,
+      "costPerClick": 102.27
+     },
+     "why": [
+      "Audience matches the brief: 74% women (target 76%), 92% age overlap, 82% city-tier overlap",
+      "Fashion &amp; Style is a strong category for Livon, with beauty &amp; skincare as a second pillar",
+      "Engagement rate 3.8%, top 18% of micro creators; 1.8% of viewers save or share",
+      "86% of followers look real and active; 29% of recent posts are sponsored"
+     ],
+     "risks": []
+    }
+   ],
+   "plan": {
+    "creators": 49,
+    "spend": 799500,
+    "views": 868981,
+    "tgViews": 580688,
+    "uniqueTgReach": 359131,
+    "engagements": 89648,
+    "clicks": 4496,
+    "orders": 719,
+    "revenue": 179673,
+    "roas": 0.22,
+    "recallLiftPts": 4.9,
+    "fakeAudienceShare": 0.11,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 24,
+    "spendByTier": {
+     "micro": 745000,
+     "nano": 17000,
+     "mid": 37500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 799000,
+    "views": 1391817,
+    "tgViews": 767249,
+    "uniqueTgReach": 475605,
+    "engagements": 23605,
+    "clicks": 3765,
+    "orders": 487,
+    "revenue": 121670,
+    "roas": 0.15,
+    "recallLiftPts": 4.3,
+    "fakeAudienceShare": 0.2,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 22,
+    "spendByTier": {
+     "mega": 776000,
+     "micro": 23000
+    }
+   },
+   "planCreators": [
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Rasika D. (Micro, Beauty & Skincare)",
+    "Ananya B. (Micro, Beauty & Skincare)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Anjali V. (Micro, Comedy & Entertainment)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Dhwani K. (Micro, Beauty & Skincare)",
+    "Aditi B. (Micro, Beauty & Skincare)",
+    "Moumita N. (Micro, Parenting & Family)",
+    "Karan V. (Micro, Beauty & Skincare)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 366,
+   "gated": 54,
+   "gatesByReason": {
+    "fraud": 32,
+    "safety": 4,
+    "conflict": 1,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Hetal D.",
+     "id": "CIE-1212",
+     "reasons": [
+      "Only 65.5% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Mitali S.",
+     "id": "CIE-1109",
+     "reasons": [
+      "Brand-safety score 51: political commentary, unverified health claims"
+     ]
+    },
+    {
+     "name": "Aarya D.",
+     "id": "CIE-1139",
+     "reasons": [
+      "Only 54.2% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Lakshmi S.",
+     "id": "CIE-1068",
+     "reasons": [
+      "Only 68.2% of followers look real and active (gate is 72%)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1345",
+     "name": "Aanya R.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Nano",
+     "followers": 8388,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 85.1,
+     "parts": {
+      "aud": 92,
+      "cont": 84,
+      "cult": 78,
+      "perf": 75,
+      "auth": 92,
+      "safe": 85,
+      "cost": 96
+     },
+     "contributions": {
+      "aud": 16.6,
+      "cont": 11.7,
+      "cult": 6.2,
+      "perf": 19.4,
+      "auth": 12.9,
+      "safe": 6.8,
+      "cost": 11.5
+     },
+     "confidence": "Low",
+     "er": 4.96,
+     "linkCtr": 1.11,
+     "realFollowers": 95.7,
+     "viewThrough": 38.3,
+     "hold3s": 77.2,
+     "sponsoredShare": 21,
+     "adDisclosure": 87,
+     "safety": 83,
+     "audienceWomen": 0.731,
+     "forecast": {
+      "cost": 4000,
+      "views": 4633,
+      "tgViews": 3846,
+      "tgShare": 0.87,
+      "engagements": 476,
+      "clicks": 49,
+      "orders": 8.5,
+      "revenue": 2135,
+      "roas": 0.53,
+      "recallLiftPts": 3.4,
+      "costPerTgView": 1.04,
+      "costPerEngagement": 8.4,
+      "costPerClick": 81.22
+     },
+     "why": [
+      "Link CTR 1.11%, top 17% of nano creators; trust index 1.03",
+      "Audience matches the brief: 73% women (target 76%), 86% age overlap, 96% city-tier overlap",
+      "96% of followers look real and active; 21% of recent posts are sponsored",
+      "Fashion &amp; Style is a strong category for Livon, with beauty &amp; skincare as a second pillar"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1334",
+     "name": "Mansi T.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 125386,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": true,
+     "credential": null,
+     "fit": 84.9,
+     "parts": {
+      "aud": 89,
+      "cont": 90,
+      "cult": 78,
+      "perf": 76,
+      "auth": 80,
+      "safe": 91,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 16.1,
+      "cont": 12.6,
+      "cult": 6.2,
+      "perf": 19.8,
+      "auth": 11.1,
+      "safe": 7.2,
+      "cost": 11.8
+     },
+     "confidence": "Low",
+     "er": 1.45,
+     "linkCtr": 1.68,
+     "realFollowers": 89,
+     "viewThrough": 49.8,
+     "hold3s": 64.1,
+     "sponsoredShare": 27,
+     "adDisclosure": 96,
+     "safety": 87,
+     "audienceWomen": 0.802,
+     "forecast": {
+      "cost": 49000,
+      "views": 52197,
+      "tgViews": 39437,
+      "tgShare": 0.85,
+      "engagements": 2345,
+      "clicks": 759,
+      "orders": 130.4,
+      "revenue": 32605,
+      "roas": 0.67,
+      "recallLiftPts": 5.4,
+      "costPerTgView": 1.24,
+      "costPerEngagement": 20.9,
+      "costPerClick": 64.57
+     },
+     "why": [
+      "Link CTR 1.68%, top 1% of mid-tier creators; trust index 0.99",
+      "Audience matches the brief: 80% women (target 76%), 79% age overlap, 98% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Livon, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 0.7× ROAS on ₹49K, about 130 orders"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1246",
+     "name": "Gayathri Y.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Mid-tier",
+     "followers": 484648,
+     "city": "Madurai",
+     "languages": [
+      "Tamil"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.6,
+     "parts": {
+      "aud": 81,
+      "cont": 91,
+      "cult": 53,
+      "perf": 94,
+      "auth": 73,
+      "safe": 87,
+      "cost": 95
+     },
+     "contributions": {
+      "aud": 14.6,
+      "cont": 12.8,
+      "cult": 4.2,
+      "perf": 24.4,
+      "auth": 10.3,
+      "safe": 6.9,
+      "cost": 11.4
+     },
+     "confidence": "Medium",
+     "er": 2.47,
+     "linkCtr": 1.27,
+     "realFollowers": 85,
+     "viewThrough": 54.5,
+     "hold3s": 71.5,
+     "sponsoredShare": 23,
+     "adDisclosure": 100,
+     "safety": 78,
+     "audienceWomen": 0.831,
+     "forecast": {
+      "cost": 225000,
+      "views": 146869,
+      "tgViews": 98876,
+      "tgShare": 0.79,
+      "engagements": 14006,
+      "clicks": 1949,
+      "orders": 449.3,
+      "revenue": 112325,
+      "roas": 0.5,
+      "recallLiftPts": 10.1,
+      "costPerTgView": 2.28,
+      "costPerEngagement": 16.06,
+      "costPerClick": 115.45
+     },
+     "why": [
+      "Link CTR 1.27%, top 8% of mid-tier creators; trust index 1.32",
+      "Audience matches the brief: 83% women (target 76%), 83% age overlap, 77% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Livon, with fashion &amp; style as a second pillar",
+      "Forecast 0.5× ROAS on ₹2.25L, about 449 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1357",
+     "name": "Rasika M.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Macro",
+     "followers": 904194,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.2,
+     "parts": {
+      "aud": 84,
+      "cont": 79,
+      "cult": 78,
+      "perf": 87,
+      "auth": 66,
+      "safe": 84,
+      "cost": 95
+     },
+     "contributions": {
+      "aud": 15.1,
+      "cont": 11,
+      "cult": 6.2,
+      "perf": 22.6,
+      "auth": 9.2,
+      "safe": 6.7,
+      "cost": 11.4
+     },
+     "confidence": "Medium",
+     "er": 0.96,
+     "linkCtr": 1.21,
+     "realFollowers": 82.3,
+     "viewThrough": 57.1,
+     "hold3s": 72,
+     "sponsoredShare": 25,
+     "adDisclosure": 80,
+     "safety": 86,
+     "audienceWomen": 0.834,
+     "forecast": {
+      "cost": 313000,
+      "views": 378871,
+      "tgViews": 253188,
+      "tgShare": 0.81,
+      "engagements": 11664,
+      "clicks": 3246,
+      "orders": 639.4,
+      "revenue": 159852,
+      "roas": 0.51,
+      "recallLiftPts": 8.6,
+      "costPerTgView": 1.24,
+      "costPerEngagement": 26.83,
+      "costPerClick": 96.43
+     },
+     "why": [
+      "Link CTR 1.21%, top 7% of macro creators; trust index 1.20",
+      "Audience matches the brief: 83% women (target 76%), 80% age overlap, 96% city-tier overlap",
+      "Forecast 0.5× ROAS on ₹3.13L, about 639 orders",
+      "Fashion &amp; Style is a strong category for Livon, with lifestyle &amp; vlogs as a second pillar"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1140",
+     "name": "Lakshmi G.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 11900,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.6,
+     "parts": {
+      "aud": 74,
+      "cont": 91,
+      "cult": 55,
+      "perf": 85,
+      "auth": 78,
+      "safe": 78,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 13.3,
+      "cont": 12.8,
+      "cult": 4.4,
+      "perf": 22.2,
+      "auth": 10.9,
+      "safe": 6.2,
+      "cost": 11.9
+     },
+     "confidence": "Medium",
+     "er": 4.12,
+     "linkCtr": 1.02,
+     "realFollowers": 89,
+     "viewThrough": 42.9,
+     "hold3s": 63.8,
+     "sponsoredShare": 20,
+     "adDisclosure": 92,
+     "safety": 68,
+     "audienceWomen": 0.954,
+     "forecast": {
+      "cost": 4000,
+      "views": 4857,
+      "tgViews": 3222,
+      "tgShare": 0.75,
+      "engagements": 555,
+      "clicks": 50,
+      "orders": 11.2,
+      "revenue": 2791,
+      "roas": 0.7,
+      "recallLiftPts": 5.8,
+      "costPerTgView": 1.24,
+      "costPerEngagement": 7.21,
+      "costPerClick": 79.46
+     },
+     "why": [
+      "Link CTR 1.02%, top 18% of micro creators; trust index 1.27",
+      "Audience matches the brief: 95% women (target 76%), 76% age overlap, 94% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Livon, with fashion &amp; style as a second pillar",
+      "Forecast 0.7× ROAS on ₹4K, about 11 orders"
+     ],
+     "risks": [
+      "Unverified health claims"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 24,
+    "spend": 798500,
+    "views": 1016694,
+    "tgViews": 696971,
+    "uniqueTgReach": 430915,
+    "engagements": 49275,
+    "clicks": 10657,
+    "orders": 1781,
+    "revenue": 445332,
+    "roas": 0.56,
+    "recallLiftPts": 5.8,
+    "fakeAudienceShare": 0.13,
+    "gatedIncluded": 0,
+    "representCreators": 2,
+    "representSpend": 193000,
+    "forecastBandPct": 25,
+    "spendByTier": {
+     "micro": 208000,
+     "mid": 583500,
+     "nano": 7000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 794500,
+    "views": 1398506,
+    "tgViews": 757659,
+    "uniqueTgReach": 469698,
+    "engagements": 23292,
+    "clicks": 3797,
+    "orders": 492,
+    "revenue": 122888,
+    "roas": 0.15,
+    "recallLiftPts": 4.3,
+    "fakeAudienceShare": 0.2,
+    "gatedIncluded": 1,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 22,
+    "spendByTier": {
+     "mega": 776000,
+     "micro": 18500
+    }
+   },
+   "planCreators": [
+    "Aditi B. (Micro, Beauty & Skincare)",
+    "Mansi T. (Mid-tier, Beauty & Skincare)",
+    "Riya D. (Micro, Beauty & Skincare)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Rahul M. (Micro, Beauty & Skincare)",
+    "Parth K. (Mid-tier, Fashion & Style)",
+    "Meher A. (Micro, Beauty & Skincare)",
+    "Lakshmi G. (Micro, Beauty & Skincare)",
+    "Sruthi A. (Mid-tier, Fashion & Style)",
+    "Debolina M. (Micro, Beauty & Skincare)",
+    "Tanvi P. (Micro, Beauty & Skincare)"
+   ]
+  }
+ }
+}

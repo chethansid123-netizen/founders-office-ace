@@ -1,0 +1,1776 @@
+{
+ "id": "meesho",
+ "name": "Meesho",
+ "parent": "Meesho",
+ "vertical": "ecom",
+ "sub": "Value marketplace",
+ "status": "Reported client",
+ "defaultObjective": "conversion",
+ "brief": "Reach first-time online shoppers in their own language, at ₹300–₹600 price points.",
+ "moment": "Mega Blockbuster Sale · Sep–Oct",
+ "budgetLakh": 24,
+ "target": {
+  "fem": 0.66,
+  "age": [
+   0.04,
+   0.36,
+   0.38,
+   0.16,
+   0.06
+  ],
+  "tiers": [
+   0.18,
+   0.4,
+   0.42
+  ],
+  "affl": 0.28
+ },
+ "languages": {
+  "Hindi": 1,
+  "Tamil": 0.85,
+  "Telugu": 0.85,
+  "Marathi": 0.8,
+  "Bengali": 0.8,
+  "Kannada": 0.8,
+  "Gujarati": 0.8,
+  "Odia": 0.75,
+  "Hinglish": 0.7,
+  "Malayalam": 0.7,
+  "Punjabi": 0.7,
+  "Assamese": 0.7
+ },
+ "codes": [
+  "Value-seeker",
+  "Small-town dreams",
+  "Regional pride",
+  "Family-first",
+  "Festive & occasions"
+ ],
+ "affinity": {
+  "fashion": 0.95,
+  "home": 0.85,
+  "lifestyle": 0.85,
+  "beauty": 0.8,
+  "parenting": 0.75,
+  "comedy": 0.6,
+  "food": 0.5
+ },
+ "competitors": [
+  "Flipkart",
+  "Shopsy",
+  "Amazon"
+ ],
+ "compliance": null,
+ "aov": 560,
+ "conversionRate": 0.07,
+ "kpis": [
+  "Verified orders",
+  "First-order rate",
+  "CAC"
+ ],
+ "markets": [
+  "India"
+ ],
+ "tgPoolMillions": 300,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 367,
+   "gated": 53,
+   "gatesByReason": {
+    "fraud": 32,
+    "safety": 4,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Aparna M.",
+     "id": "CIE-1350",
+     "reasons": [
+      "Only 63.3% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Sneha S.",
+     "id": "CIE-1088",
+     "reasons": [
+      "Only 69.3% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Pavithra K.",
+     "id": "CIE-1318",
+     "reasons": [
+      "Brand-safety score 44: past controversy (2025), promotes betting / real-money gaming"
+     ]
+    },
+    {
+     "name": "Lakshmi S.",
+     "id": "CIE-1068",
+     "reasons": [
+      "Only 68.2% of followers look real and active (gate is 72%)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1024",
+     "name": "Hetal C.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 173129,
+     "city": "Surat",
+     "languages": [
+      "Gujarati",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.1,
+     "parts": {
+      "aud": 88,
+      "cont": 93,
+      "cult": 67,
+      "perf": 88,
+      "auth": 69,
+      "safe": 91,
+      "cost": 86
+     },
+     "contributions": {
+      "aud": 19.4,
+      "cont": 13.9,
+      "cult": 9.3,
+      "perf": 13.2,
+      "auth": 9.6,
+      "safe": 9.1,
+      "cost": 8.6
+     },
+     "confidence": "Low",
+     "er": 1.19,
+     "linkCtr": 1.38,
+     "realFollowers": 83,
+     "viewThrough": 53.9,
+     "hold3s": 73.3,
+     "sponsoredShare": 20,
+     "adDisclosure": 92,
+     "safety": 90,
+     "audienceWomen": 0.728,
+     "forecast": {
+      "cost": 58500,
+      "views": 73249,
+      "tgViews": 51132,
+      "tgShare": 0.84,
+      "engagements": 2787,
+      "clicks": 882,
+      "orders": 208.2,
+      "revenue": 116591,
+      "roas": 1.99,
+      "recallLiftPts": 9,
+      "costPerTgView": 1.14,
+      "costPerEngagement": 20.99,
+      "costPerClick": 66.35
+     },
+     "why": [
+      "Audience matches the brief: 73% women (target 66%), 91% age overlap, 90% city-tier overlap",
+      "Fashion &amp; Style is a core category for Meesho, with lifestyle &amp; vlogs as a second pillar",
+      "Viewers watch 54% of each video, top 12% of mid-tier creators; past recall lift +8.6 pts",
+      "83% of followers look real and active; 20% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1191",
+     "name": "Karan V.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 13872,
+     "city": "Jaipur",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.6,
+     "parts": {
+      "aud": 92,
+      "cont": 81,
+      "cult": 78,
+      "perf": 69,
+      "auth": 83,
+      "safe": 80,
+      "cost": 93
+     },
+     "contributions": {
+      "aud": 20.2,
+      "cont": 12.2,
+      "cult": 10.9,
+      "perf": 10.4,
+      "auth": 11.6,
+      "safe": 8,
+      "cost": 9.3
+     },
+     "confidence": "Medium",
+     "er": 3.68,
+     "linkCtr": 0.72,
+     "realFollowers": 92.4,
+     "viewThrough": 44.2,
+     "hold3s": 69,
+     "sponsoredShare": 36,
+     "adDisclosure": 83,
+     "safety": 78,
+     "audienceWomen": 0.624,
+     "forecast": {
+      "cost": 5000,
+      "views": 6617,
+      "tgViews": 5292,
+      "tgShare": 0.87,
+      "engagements": 585,
+      "clicks": 41,
+      "orders": 9.7,
+      "revenue": 5443,
+      "roas": 1.09,
+      "recallLiftPts": 7.8,
+      "costPerTgView": 0.94,
+      "costPerEngagement": 8.54,
+      "costPerClick": 120.93
+     },
+     "why": [
+      "Audience matches the brief: 62% women (target 66%), 94% age overlap, 83% city-tier overlap",
+      "Beauty &amp; Skincare is a strong category for Meesho, with lifestyle &amp; vlogs as a second pillar",
+      "92% of followers look real and active; 36% of recent posts are sponsored",
+      "Creates in Hindi, Meesho's lead language; shares the Small-town dreams codes"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1150",
+     "name": "Kritika D.",
+     "niche": "Home & Decor",
+     "niche2": "Parenting & Family",
+     "tier": "Micro",
+     "followers": 37214,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.1,
+     "parts": {
+      "aud": 68,
+      "cont": 83,
+      "cult": 100,
+      "perf": 78,
+      "auth": 79,
+      "safe": 83,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 14.9,
+      "cont": 12.4,
+      "cult": 14,
+      "perf": 11.6,
+      "auth": 11.1,
+      "safe": 8.3,
+      "cost": 9.8
+     },
+     "confidence": "High",
+     "er": 2.7,
+     "linkCtr": 0.47,
+     "realFollowers": 89.1,
+     "viewThrough": 52.1,
+     "hold3s": 62,
+     "sponsoredShare": 19,
+     "adDisclosure": 100,
+     "safety": 71,
+     "audienceWomen": 0.744,
+     "forecast": {
+      "cost": 11000,
+      "views": 21625,
+      "tgViews": 13601,
+      "tgShare": 0.71,
+      "engagements": 1206,
+      "clicks": 80,
+      "orders": 19.9,
+      "revenue": 11137,
+      "roas": 1.01,
+      "recallLiftPts": 8.8,
+      "costPerTgView": 0.81,
+      "costPerEngagement": 9.12,
+      "costPerClick": 137.33
+     },
+     "why": [
+      "Audience matches the brief: 74% women (target 66%), 85% age overlap, 74% city-tier overlap",
+      "Creates in Hindi, Meesho's lead language; shares the Family-first and Festive &amp; occasions codes",
+      "Home &amp; Decor is a strong category for Meesho, with parenting &amp; family as a second pillar",
+      "Viewers watch 52% of each video, top 15% of micro creators; past recall lift +9.2 pts"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1055",
+     "name": "Varsha B.",
+     "niche": "Food & Cooking",
+     "niche2": "Parenting & Family",
+     "tier": "Micro",
+     "followers": 67015,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.8,
+     "parts": {
+      "aud": 80,
+      "cont": 56,
+      "cult": 78,
+      "perf": 94,
+      "auth": 80,
+      "safe": 85,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 17.7,
+      "cont": 8.4,
+      "cult": 10.9,
+      "perf": 14.1,
+      "auth": 11.2,
+      "safe": 8.5,
+      "cost": 10
+     },
+     "confidence": "High",
+     "er": 1.76,
+     "linkCtr": 1.27,
+     "realFollowers": 89.5,
+     "viewThrough": 53.6,
+     "hold3s": 76.4,
+     "sponsoredShare": 22,
+     "adDisclosure": 80,
+     "safety": 89,
+     "audienceWomen": 0.66,
+     "forecast": {
+      "cost": 13500,
+      "views": 48022,
+      "tgViews": 33896,
+      "tgShare": 0.79,
+      "engagements": 1541,
+      "clicks": 355,
+      "orders": 74.4,
+      "revenue": 41647,
+      "roas": 3.08,
+      "recallLiftPts": 8.1,
+      "costPerTgView": 0.4,
+      "costPerEngagement": 8.76,
+      "costPerClick": 38.02
+     },
+     "why": [
+      "Audience matches the brief: 66% women (target 66%), 84% age overlap, 73% city-tier overlap",
+      "Viewers watch 54% of each video, top 11% of micro creators; past recall lift +9.8 pts",
+      "90% of followers look real and active; 22% of recent posts are sponsored",
+      "Creates in Hinglish + Hindi, Meesho's lead language; shares the Regional pride codes"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1222",
+     "name": "Aditi D.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 226976,
+     "city": "Kota",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.7,
+     "parts": {
+      "aud": 87,
+      "cont": 93,
+      "cult": 78,
+      "perf": 61,
+      "auth": 67,
+      "safe": 94,
+      "cost": 89
+     },
+     "contributions": {
+      "aud": 19.1,
+      "cont": 13.9,
+      "cult": 10.9,
+      "perf": 9.1,
+      "auth": 9.4,
+      "safe": 9.4,
+      "cost": 8.9
+     },
+     "confidence": "Medium",
+     "er": 1.24,
+     "linkCtr": 0.99,
+     "realFollowers": 84.9,
+     "viewThrough": 55.2,
+     "hold3s": 60.8,
+     "sponsoredShare": 35,
+     "adDisclosure": 95,
+     "safety": 93,
+     "audienceWomen": 0.726,
+     "forecast": {
+      "cost": 93000,
+      "views": 136631,
+      "tgViews": 96527,
+      "tgShare": 0.83,
+      "engagements": 3768,
+      "clicks": 996,
+      "orders": 240.1,
+      "revenue": 134444,
+      "roas": 1.45,
+      "recallLiftPts": 5.7,
+      "costPerTgView": 0.96,
+      "costPerEngagement": 24.68,
+      "costPerClick": 93.38
+     },
+     "why": [
+      "Audience matches the brief: 73% women (target 66%), 86% age overlap, 95% city-tier overlap",
+      "Fashion &amp; Style is a core category for Meesho, with lifestyle &amp; vlogs as a second pillar",
+      "Creates in Hindi, Meesho's lead language; shares the Festive &amp; occasions codes",
+      "Safety score 93; discloses #ad on 95% of paid posts"
+     ],
+     "risks": []
+    }
+   ],
+   "plan": {
+    "creators": 52,
+    "spend": 2400000,
+    "views": 3554033,
+    "tgViews": 2417411,
+    "uniqueTgReach": 1495232,
+    "engagements": 143638,
+    "clicks": 19855,
+    "orders": 4368,
+    "revenue": 2445806,
+    "roas": 1.02,
+    "recallLiftPts": 5.9,
+    "fakeAudienceShare": 0.12,
+    "gatedIncluded": 0,
+    "representCreators": 2,
+    "representSpend": 182500,
+    "forecastBandPct": 23,
+    "spendByTier": {
+     "micro": 453000,
+     "macro": 439000,
+     "mid": 1501000,
+     "nano": 7000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 2383000,
+    "views": 2046161,
+    "tgViews": 914682,
+    "uniqueTgReach": 566843,
+    "engagements": 49396,
+    "clicks": 8125,
+    "orders": 1222,
+    "revenue": 684048,
+    "roas": 0.29,
+    "recallLiftPts": 2.7,
+    "fakeAudienceShare": 0.43,
+    "gatedIncluded": 2,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 18,
+    "spendByTier": {
+     "mega": 2383000
+    }
+   },
+   "planCreators": [
+    "Varsha B. (Micro, Food & Cooking)",
+    "Keerthi B. (Macro, Beauty & Skincare)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Kritika D. (Micro, Home & Decor)",
+    "Tanvi C. (Micro, Food & Cooking)",
+    "Keerthi J. (Mid-tier, Fashion & Style)",
+    "Kritika P. (Micro, Lifestyle & Vlogs)",
+    "Ananya J. (Micro, Music & Dance)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Priyanka M. (Mid-tier, Food & Cooking)",
+    "Karan V. (Micro, Beauty & Skincare)",
+    "Mitali B. (Micro, Fashion & Style)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 367,
+   "gated": 53,
+   "gatesByReason": {
+    "safety": 4,
+    "market": 18,
+    "fraud": 32
+   },
+   "gatedExamples": [
+    {
+     "name": "Mitali S.",
+     "id": "CIE-1109",
+     "reasons": [
+      "Brand-safety score 51: political commentary, unverified health claims"
+     ]
+    },
+    {
+     "name": "Rehan G.",
+     "id": "CIE-1162",
+     "reasons": [
+      "Audience is mostly in the UAE; Meesho runs this brief in India"
+     ]
+    },
+    {
+     "name": "Lakshmi S.",
+     "id": "CIE-1068",
+     "reasons": [
+      "Only 68.2% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Mitali D.",
+     "id": "CIE-1352",
+     "reasons": [
+      "Only 62.6% of followers look real and active (gate is 72%)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1221",
+     "name": "Shreya G.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 16818,
+     "city": "Chandigarh",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 81.9,
+     "parts": {
+      "aud": 75,
+      "cont": 93,
+      "cult": 78,
+      "perf": 83,
+      "auth": 73,
+      "safe": 88,
+      "cost": 87
+     },
+     "contributions": {
+      "aud": 14.9,
+      "cont": 16.7,
+      "cult": 7.8,
+      "perf": 16.7,
+      "auth": 10.2,
+      "safe": 7,
+      "cost": 8.7
+     },
+     "confidence": "Low",
+     "er": 3.98,
+     "linkCtr": 0.59,
+     "realFollowers": 85.9,
+     "viewThrough": 51.4,
+     "hold3s": 61.1,
+     "sponsoredShare": 37,
+     "adDisclosure": 90,
+     "safety": 86,
+     "audienceWomen": 0.641,
+     "forecast": {
+      "cost": 6000,
+      "views": 3486,
+      "tgViews": 2246,
+      "tgShare": 0.75,
+      "engagements": 669,
+      "clicks": 16,
+      "orders": 4,
+      "revenue": 2219,
+      "roas": 0.37,
+      "recallLiftPts": 8.5,
+      "costPerTgView": 2.67,
+      "costPerEngagement": 8.96,
+      "costPerClick": 383.66
+     },
+     "why": [
+      "Engagement rate 4.0%, top 17% of micro creators; 3.0% of viewers save or share",
+      "Fashion &amp; Style is a core category for Meesho, with lifestyle &amp; vlogs as a second pillar",
+      "Audience matches the brief: 64% women (target 66%), 77% age overlap, 84% city-tier overlap",
+      "86% of followers look real and active; 37% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1146",
+     "name": "Ishani V.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 69981,
+     "city": "Patna",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 80.2,
+     "parts": {
+      "aud": 71,
+      "cont": 81,
+      "cult": 100,
+      "perf": 77,
+      "auth": 70,
+      "safe": 95,
+      "cost": 84
+     },
+     "contributions": {
+      "aud": 14.3,
+      "cont": 14.6,
+      "cult": 10,
+      "perf": 15.4,
+      "auth": 9.9,
+      "safe": 7.6,
+      "cost": 8.4
+     },
+     "confidence": "Low",
+     "er": 5.7,
+     "linkCtr": 0.76,
+     "realFollowers": 85.8,
+     "viewThrough": 39.6,
+     "hold3s": 62.7,
+     "sponsoredShare": 28,
+     "adDisclosure": 99,
+     "safety": 92,
+     "audienceWomen": 0.921,
+     "forecast": {
+      "cost": 37000,
+      "views": 15201,
+      "tgViews": 9520,
+      "tgShare": 0.73,
+      "engagements": 3989,
+      "clicks": 81,
+      "orders": 17.8,
+      "revenue": 9974,
+      "roas": 0.27,
+      "recallLiftPts": 7.5,
+      "costPerTgView": 3.89,
+      "costPerEngagement": 9.28,
+      "costPerClick": 454.48
+     },
+     "why": [
+      "Engagement rate 5.7%, top 2% of micro creators; 2.6% of viewers save or share",
+      "Beauty &amp; Skincare is a strong category for Meesho, with lifestyle &amp; vlogs as a second pillar",
+      "Audience matches the brief: 92% women (target 66%), 94% age overlap, 80% city-tier overlap",
+      "Creates in Hindi, Meesho's lead language; shares the Festive &amp; occasions and Value-seeker codes"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1191",
+     "name": "Karan V.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 13872,
+     "city": "Jaipur",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.4,
+     "parts": {
+      "aud": 92,
+      "cont": 81,
+      "cult": 78,
+      "perf": 59,
+      "auth": 83,
+      "safe": 80,
+      "cost": 88
+     },
+     "contributions": {
+      "aud": 18.4,
+      "cont": 14.6,
+      "cult": 7.8,
+      "perf": 11.8,
+      "auth": 11.6,
+      "safe": 6.4,
+      "cost": 8.8
+     },
+     "confidence": "Medium",
+     "er": 3.68,
+     "linkCtr": 0.72,
+     "realFollowers": 92.4,
+     "viewThrough": 44.2,
+     "hold3s": 69,
+     "sponsoredShare": 36,
+     "adDisclosure": 83,
+     "safety": 78,
+     "audienceWomen": 0.624,
+     "forecast": {
+      "cost": 5000,
+      "views": 6617,
+      "tgViews": 5292,
+      "tgShare": 0.87,
+      "engagements": 585,
+      "clicks": 41,
+      "orders": 9.7,
+      "revenue": 5443,
+      "roas": 1.09,
+      "recallLiftPts": 7.8,
+      "costPerTgView": 0.94,
+      "costPerEngagement": 8.54,
+      "costPerClick": 120.93
+     },
+     "why": [
+      "Audience matches the brief: 62% women (target 66%), 94% age overlap, 83% city-tier overlap",
+      "Beauty &amp; Skincare is a strong category for Meesho, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 3.7%, top 21% of micro creators; 1.6% of viewers save or share",
+      "92% of followers look real and active; 36% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1184",
+     "name": "Dhruv K.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 21779,
+     "city": "Lucknow",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79,
+     "parts": {
+      "aud": 81,
+      "cont": 81,
+      "cult": 100,
+      "perf": 69,
+      "auth": 64,
+      "safe": 91,
+      "cost": 80
+     },
+     "contributions": {
+      "aud": 16.3,
+      "cont": 14.6,
+      "cult": 10,
+      "perf": 13.8,
+      "auth": 9,
+      "safe": 7.3,
+      "cost": 8
+     },
+     "confidence": "Low",
+     "er": 3.87,
+     "linkCtr": 0.65,
+     "realFollowers": 79.1,
+     "viewThrough": 49.1,
+     "hold3s": 50.1,
+     "sponsoredShare": 17,
+     "adDisclosure": 93,
+     "safety": 90,
+     "audienceWomen": 0.842,
+     "forecast": {
+      "cost": 9500,
+      "views": 10055,
+      "tgViews": 6318,
+      "tgShare": 0.79,
+      "engagements": 960,
+      "clicks": 58,
+      "orders": 13.8,
+      "revenue": 7756,
+      "roas": 0.82,
+      "recallLiftPts": 6.4,
+      "costPerTgView": 1.5,
+      "costPerEngagement": 9.89,
+      "costPerClick": 164.44
+     },
+     "why": [
+      "Audience matches the brief: 84% women (target 66%), 95% age overlap, 84% city-tier overlap",
+      "Beauty &amp; Skincare is a strong category for Meesho, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 3.9%, top 18% of micro creators; 2.3% of viewers save or share",
+      "Creates in Hinglish + Hindi, Meesho's lead language; shares the Festive &amp; occasions and Value-seeker codes"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1296",
+     "name": "Subhankar B.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 45223,
+     "city": "Kolkata",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.9,
+     "parts": {
+      "aud": 72,
+      "cont": 81,
+      "cult": 84,
+      "perf": 78,
+      "auth": 76,
+      "safe": 90,
+      "cost": 83
+     },
+     "contributions": {
+      "aud": 14.3,
+      "cont": 14.6,
+      "cult": 8.4,
+      "perf": 15.5,
+      "auth": 10.6,
+      "safe": 7.2,
+      "cost": 8.3
+     },
+     "confidence": "Medium",
+     "er": 3.76,
+     "linkCtr": 0.59,
+     "realFollowers": 83.4,
+     "viewThrough": 41.2,
+     "hold3s": 55.4,
+     "sponsoredShare": 11,
+     "adDisclosure": 89,
+     "safety": 91,
+     "audienceWomen": 0.838,
+     "forecast": {
+      "cost": 18500,
+      "views": 23148,
+      "tgViews": 14132,
+      "tgShare": 0.73,
+      "engagements": 1945,
+      "clicks": 114,
+      "orders": 24.9,
+      "revenue": 13971,
+      "roas": 0.76,
+      "recallLiftPts": 5.5,
+      "costPerTgView": 1.31,
+      "costPerEngagement": 9.51,
+      "costPerClick": 162.24
+     },
+     "why": [
+      "Engagement rate 3.8%, top 20% of micro creators; 2.6% of viewers save or share",
+      "Beauty &amp; Skincare is a strong category for Meesho, with lifestyle &amp; vlogs as a second pillar",
+      "Audience matches the brief: 84% women (target 66%), 95% age overlap, 81% city-tier overlap",
+      "83% of followers look real and active; 11% of recent posts are sponsored"
+     ],
+     "risks": []
+    }
+   ],
+   "plan": {
+    "creators": 80,
+    "spend": 2139000,
+    "views": 2400646,
+    "tgViews": 1578600,
+    "uniqueTgReach": 977197,
+    "engagements": 188388,
+    "clicks": 12912,
+    "orders": 2878,
+    "revenue": 1611534,
+    "roas": 0.75,
+    "recallLiftPts": 4.8,
+    "fakeAudienceShare": 0.11,
+    "gatedIncluded": 0,
+    "representCreators": 2,
+    "representSpend": 431000,
+    "forecastBandPct": 22,
+    "spendByTier": {
+     "micro": 1017500,
+     "nano": 16500,
+     "mid": 847500,
+     "macro": 257500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 3,
+    "spend": 2136500,
+    "views": 1708829,
+    "tgViews": 813000,
+    "uniqueTgReach": 503858,
+    "engagements": 47637,
+    "clicks": 7201,
+    "orders": 1240,
+    "revenue": 694333,
+    "roas": 0.32,
+    "recallLiftPts": 3.2,
+    "fakeAudienceShare": 0.41,
+    "gatedIncluded": 2,
+    "representCreators": 1,
+    "representSpend": 300000,
+    "forecastBandPct": 15,
+    "spendByTier": {
+     "mega": 2079000,
+     "mid": 57500
+    }
+   },
+   "planCreators": [
+    "Moumita N. (Micro, Parenting & Family)",
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Anjali V. (Micro, Comedy & Entertainment)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Ananya B. (Micro, Beauty & Skincare)",
+    "Devang M. (Nano, Lifestyle & Vlogs)",
+    "Rasika D. (Micro, Beauty & Skincare)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Karan V. (Micro, Beauty & Skincare)",
+    "Aditi B. (Micro, Beauty & Skincare)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Ishani V. (Micro, Beauty & Skincare)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 367,
+   "gated": 53,
+   "gatesByReason": {
+    "fraud": 32,
+    "safety": 4,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Lakshmi S.",
+     "id": "CIE-1068",
+     "reasons": [
+      "Only 68.2% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Hetal D.",
+     "id": "CIE-1212",
+     "reasons": [
+      "Only 65.5% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Rutuja G.",
+     "id": "CIE-1156",
+     "reasons": [
+      "Only 57.4% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Debayan M.",
+     "id": "CIE-1016",
+     "reasons": [
+      "Only 56% of followers look real and active (gate is 72%)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1246",
+     "name": "Gayathri Y.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Mid-tier",
+     "followers": 484648,
+     "city": "Madurai",
+     "languages": [
+      "Tamil"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.1,
+     "parts": {
+      "aud": 78,
+      "cont": 84,
+      "cult": 47,
+      "perf": 94,
+      "auth": 73,
+      "safe": 87,
+      "cost": 92
+     },
+     "contributions": {
+      "aud": 14,
+      "cont": 11.7,
+      "cult": 3.7,
+      "perf": 24.4,
+      "auth": 10.3,
+      "safe": 6.9,
+      "cost": 11.1
+     },
+     "confidence": "Medium",
+     "er": 2.47,
+     "linkCtr": 1.27,
+     "realFollowers": 85,
+     "viewThrough": 54.5,
+     "hold3s": 71.5,
+     "sponsoredShare": 23,
+     "adDisclosure": 100,
+     "safety": 78,
+     "audienceWomen": 0.831,
+     "forecast": {
+      "cost": 225000,
+      "views": 146869,
+      "tgViews": 96082,
+      "tgShare": 0.77,
+      "engagements": 14006,
+      "clicks": 1853,
+      "orders": 576.5,
+      "revenue": 322831,
+      "roas": 1.43,
+      "recallLiftPts": 9.6,
+      "costPerTgView": 2.34,
+      "costPerEngagement": 16.06,
+      "costPerClick": 121.43
+     },
+     "why": [
+      "Link CTR 1.27%, top 8% of mid-tier creators; trust index 1.32",
+      "Audience matches the brief: 83% women (target 66%), 89% age overlap, 86% city-tier overlap",
+      "Beauty &amp; Skincare is a strong category for Meesho, with fashion &amp; style as a second pillar",
+      "Forecast 1.4× ROAS on ₹2.25L, about 576 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1357",
+     "name": "Rasika M.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Macro",
+     "followers": 904194,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.4,
+     "parts": {
+      "aud": 68,
+      "cont": 93,
+      "cult": 78,
+      "perf": 87,
+      "auth": 66,
+      "safe": 84,
+      "cost": 95
+     },
+     "contributions": {
+      "aud": 12.3,
+      "cont": 13,
+      "cult": 6.2,
+      "perf": 22.6,
+      "auth": 9.2,
+      "safe": 6.7,
+      "cost": 11.4
+     },
+     "confidence": "Medium",
+     "er": 0.96,
+     "linkCtr": 1.21,
+     "realFollowers": 82.3,
+     "viewThrough": 57.1,
+     "hold3s": 72,
+     "sponsoredShare": 25,
+     "adDisclosure": 80,
+     "safety": 86,
+     "audienceWomen": 0.834,
+     "forecast": {
+      "cost": 313000,
+      "views": 378871,
+      "tgViews": 221538,
+      "tgShare": 0.71,
+      "engagements": 11664,
+      "clicks": 3565,
+      "orders": 1052.4,
+      "revenue": 589318,
+      "roas": 1.88,
+      "recallLiftPts": 9,
+      "costPerTgView": 1.41,
+      "costPerEngagement": 26.83,
+      "costPerClick": 87.79
+     },
+     "why": [
+      "Link CTR 1.21%, top 7% of macro creators; trust index 1.20",
+      "Fashion &amp; Style is a core category for Meesho, with lifestyle &amp; vlogs as a second pillar",
+      "Audience matches the brief: 83% women (target 66%), 94% age overlap, 74% city-tier overlap",
+      "Forecast 1.9× ROAS on ₹3.13L, about 1.1K orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1361",
+     "name": "Hetal M.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 30105,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.2,
+     "parts": {
+      "aud": 76,
+      "cont": 93,
+      "cult": 84,
+      "perf": 76,
+      "auth": 64,
+      "safe": 90,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 13.7,
+      "cont": 13,
+      "cult": 6.7,
+      "perf": 19.9,
+      "auth": 8.9,
+      "safe": 7.2,
+      "cost": 11.8
+     },
+     "confidence": "High",
+     "er": 2.41,
+     "linkCtr": 1.15,
+     "realFollowers": 80.4,
+     "viewThrough": 26.9,
+     "hold3s": 45.7,
+     "sponsoredShare": 14,
+     "adDisclosure": 83,
+     "safety": 95,
+     "audienceWomen": 0.658,
+     "forecast": {
+      "cost": 11000,
+      "views": 13079,
+      "tgViews": 7999,
+      "tgShare": 0.76,
+      "engagements": 888,
+      "clicks": 149,
+      "orders": 43.1,
+      "revenue": 24143,
+      "roas": 2.19,
+      "recallLiftPts": 5.8,
+      "costPerTgView": 1.38,
+      "costPerEngagement": 12.39,
+      "costPerClick": 74.06
+     },
+     "why": [
+      "Link CTR 1.15%, top 13% of micro creators; trust index 1.18",
+      "Audience matches the brief: 66% women (target 66%), 92% age overlap, 66% city-tier overlap",
+      "Fashion &amp; Style is a core category for Meesho, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 2.2× ROAS on ₹11K, about 43 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1220",
+     "name": "Aditi B.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 24805,
+     "city": "Jaipur",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.2,
+     "parts": {
+      "aud": 65,
+      "cont": 81,
+      "cult": 78,
+      "perf": 83,
+      "auth": 87,
+      "safe": 79,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 11.6,
+      "cont": 11.4,
+      "cult": 6.2,
+      "perf": 21.5,
+      "auth": 12.2,
+      "safe": 6.3,
+      "cost": 11.9
+     },
+     "confidence": "Medium",
+     "er": 2.9,
+     "linkCtr": 1.64,
+     "realFollowers": 93.5,
+     "viewThrough": 30.8,
+     "hold3s": 59.7,
+     "sponsoredShare": 11,
+     "adDisclosure": 85,
+     "safety": 75,
+     "audienceWomen": 0.97,
+     "forecast": {
+      "cost": 8000,
+      "views": 7925,
+      "tgViews": 5084,
+      "tgShare": 0.69,
+      "engagements": 853,
+      "clicks": 144,
+      "orders": 37.5,
+      "revenue": 20988,
+      "roas": 2.62,
+      "recallLiftPts": 3.4,
+      "costPerTgView": 1.57,
+      "costPerEngagement": 9.38,
+      "costPerClick": 55.64
+     },
+     "why": [
+      "Link CTR 1.64%, top 1% of micro creators; trust index 1.12",
+      "94% of followers look real and active; 11% of recent posts are sponsored",
+      "Forecast 2.6× ROAS on ₹8K, about 37 orders",
+      "Audience matches the brief: 97% women (target 66%), 94% age overlap, 86% city-tier overlap"
+     ],
+     "risks": [
+      "Unverified health claims"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1334",
+     "name": "Mansi T.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 125386,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": true,
+     "credential": null,
+     "fit": 80.6,
+     "parts": {
+      "aud": 75,
+      "cont": 81,
+      "cult": 78,
+      "perf": 76,
+      "auth": 80,
+      "safe": 91,
+      "cost": 95
+     },
+     "contributions": {
+      "aud": 13.4,
+      "cont": 11.4,
+      "cult": 6.2,
+      "perf": 19.8,
+      "auth": 11.1,
+      "safe": 7.2,
+      "cost": 11.4
+     },
+     "confidence": "Low",
+     "er": 1.45,
+     "linkCtr": 1.68,
+     "realFollowers": 89,
+     "viewThrough": 49.8,
+     "hold3s": 64.1,
+     "sponsoredShare": 27,
+     "adDisclosure": 96,
+     "safety": 87,
+     "audienceWomen": 0.802,
+     "forecast": {
+      "cost": 49000,
+      "views": 52197,
+      "tgViews": 34856,
+      "tgShare": 0.75,
+      "engagements": 2345,
+      "clicks": 715,
+      "orders": 164.7,
+      "revenue": 92250,
+      "roas": 1.88,
+      "recallLiftPts": 5,
+      "costPerTgView": 1.41,
+      "costPerEngagement": 20.9,
+      "costPerClick": 68.54
+     },
+     "why": [
+      "Link CTR 1.68%, top 1% of mid-tier creators; trust index 0.99",
+      "Audience matches the brief: 80% women (target 66%), 95% age overlap, 75% city-tier overlap",
+      "Forecast 1.9× ROAS on ₹49K, about 165 orders",
+      "Beauty &amp; Skincare is a strong category for Meesho, with lifestyle &amp; vlogs as a second pillar"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1024",
+     "name": "Hetal C.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 173129,
+     "city": "Surat",
+     "languages": [
+      "Gujarati",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.2,
+     "parts": {
+      "aud": 88,
+      "cont": 93,
+      "cult": 67,
+      "perf": 67,
+      "auth": 69,
+      "safe": 91,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 15.9,
+      "cont": 13,
+      "cult": 5.3,
+      "perf": 17.5,
+      "auth": 9.6,
+      "safe": 7.3,
+      "cost": 11.6
+     },
+     "confidence": "Low",
+     "er": 1.19,
+     "linkCtr": 1.38,
+     "realFollowers": 83,
+     "viewThrough": 53.9,
+     "hold3s": 73.3,
+     "sponsoredShare": 20,
+     "adDisclosure": 92,
+     "safety": 90,
+     "audienceWomen": 0.728,
+     "forecast": {
+      "cost": 58500,
+      "views": 73249,
+      "tgViews": 51132,
+      "tgShare": 0.84,
+      "engagements": 2787,
+      "clicks": 882,
+      "orders": 208.2,
+      "revenue": 116591,
+      "roas": 1.99,
+      "recallLiftPts": 9,
+      "costPerTgView": 1.14,
+      "costPerEngagement": 20.99,
+      "costPerClick": 66.35
+     },
+     "why": [
+      "Link CTR 1.38%, top 6% of mid-tier creators; trust index 0.96",
+      "Audience matches the brief: 73% women (target 66%), 91% age overlap, 90% city-tier overlap",
+      "Fashion &amp; Style is a core category for Meesho, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 2.0× ROAS on ₹59K, about 208 orders"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1140",
+     "name": "Lakshmi G.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 11900,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.8,
+     "parts": {
+      "aud": 61,
+      "cont": 84,
+      "cult": 78,
+      "perf": 85,
+      "auth": 78,
+      "safe": 78,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 11,
+      "cont": 11.7,
+      "cult": 6.2,
+      "perf": 22.2,
+      "auth": 10.9,
+      "safe": 6.2,
+      "cost": 11.7
+     },
+     "confidence": "Medium",
+     "er": 4.12,
+     "linkCtr": 1.02,
+     "realFollowers": 89,
+     "viewThrough": 42.9,
+     "hold3s": 63.8,
+     "sponsoredShare": 20,
+     "adDisclosure": 92,
+     "safety": 68,
+     "audienceWomen": 0.954,
+     "forecast": {
+      "cost": 4000,
+      "views": 4857,
+      "tgViews": 2868,
+      "tgShare": 0.66,
+      "engagements": 555,
+      "clicks": 48,
+      "orders": 14.3,
+      "revenue": 8023,
+      "roas": 2.01,
+      "recallLiftPts": 5.4,
+      "costPerTgView": 1.39,
+      "costPerEngagement": 7.21,
+      "costPerClick": 83.57
+     },
+     "why": [
+      "Link CTR 1.02%, top 18% of micro creators; trust index 1.27",
+      "Beauty &amp; Skincare is a strong category for Meesho, with fashion &amp; style as a second pillar",
+      "Forecast 2.0× ROAS on ₹4K, about 14 orders",
+      "Audience matches the brief: 95% women (target 66%), 93% age overlap, 72% city-tier overlap"
+     ],
+     "risks": [
+      "Unverified health claims"
+     ]
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1345",
+     "name": "Aanya R.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Nano",
+     "followers": 8388,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79,
+     "parts": {
+      "aud": 71,
+      "cont": 91,
+      "cult": 39,
+      "perf": 75,
+      "auth": 92,
+      "safe": 85,
+      "cost": 95
+     },
+     "contributions": {
+      "aud": 12.8,
+      "cont": 12.8,
+      "cult": 3.1,
+      "perf": 19.4,
+      "auth": 12.9,
+      "safe": 6.8,
+      "cost": 11.3
+     },
+     "confidence": "Low",
+     "er": 4.96,
+     "linkCtr": 1.11,
+     "realFollowers": 95.7,
+     "viewThrough": 38.3,
+     "hold3s": 77.2,
+     "sponsoredShare": 21,
+     "adDisclosure": 87,
+     "safety": 83,
+     "audienceWomen": 0.731,
+     "forecast": {
+      "cost": 4000,
+      "views": 4633,
+      "tgViews": 3220,
+      "tgShare": 0.73,
+      "engagements": 476,
+      "clicks": 52,
+      "orders": 13,
+      "revenue": 7305,
+      "roas": 1.83,
+      "recallLiftPts": 3.4,
+      "costPerTgView": 1.24,
+      "costPerEngagement": 8.4,
+      "costPerClick": 77.22
+     },
+     "why": [
+      "Link CTR 1.11%, top 17% of nano creators; trust index 1.03",
+      "96% of followers look real and active; 21% of recent posts are sponsored",
+      "Fashion &amp; Style is a core category for Meesho, with beauty &amp; skincare as a second pillar",
+      "Audience matches the brief: 73% women (target 66%), 86% age overlap, 73% city-tier overlap"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1214",
+     "name": "Ananya R.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Macro",
+     "followers": 525026,
+     "city": "Hyderabad",
+     "languages": [
+      "Telugu",
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.6,
+     "parts": {
+      "aud": 77,
+      "cont": 91,
+      "cult": 47,
+      "perf": 82,
+      "auth": 70,
+      "safe": 78,
+      "cost": 92
+     },
+     "contributions": {
+      "aud": 13.8,
+      "cont": 12.8,
+      "cult": 3.7,
+      "perf": 21.2,
+      "auth": 9.8,
+      "safe": 6.3,
+      "cost": 11
+     },
+     "confidence": "Low",
+     "er": 1.13,
+     "linkCtr": 1.04,
+     "realFollowers": 84.3,
+     "viewThrough": 43.7,
+     "hold3s": 63.5,
+     "sponsoredShare": 31,
+     "adDisclosure": 94,
+     "safety": 68,
+     "audienceWomen": 0.755,
+     "forecast": {
+      "cost": 155000,
+      "views": 170945,
+      "tgViews": 110212,
+      "tgShare": 0.76,
+      "engagements": 7665,
+      "clicks": 1555,
+      "orders": 395.4,
+      "revenue": 221431,
+      "roas": 1.43,
+      "recallLiftPts": 3.4,
+      "costPerTgView": 1.41,
+      "costPerEngagement": 20.22,
+      "costPerClick": 99.68
+     },
+     "why": [
+      "Link CTR 1.04%, top 13% of macro creators; trust index 1.04",
+      "Audience matches the brief: 76% women (target 66%), 84% age overlap, 92% city-tier overlap",
+      "Fashion &amp; Style is a core category for Meesho, with beauty &amp; skincare as a second pillar",
+      "Forecast 1.4× ROAS on ₹1.55L, about 395 orders"
+     ],
+     "risks": [
+      "Political commentary",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1132",
+     "name": "Tanushree T.",
+     "niche": "Home & Decor",
+     "niche2": "Parenting & Family",
+     "tier": "Mid-tier",
+     "followers": 110782,
+     "city": "Kolkata",
+     "languages": [
+      "Bengali"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78,
+     "parts": {
+      "aud": 80,
+      "cont": 83,
+      "cult": 67,
+      "perf": 74,
+      "auth": 64,
+      "safe": 92,
+      "cost": 93
+     },
+     "contributions": {
+      "aud": 14.4,
+      "cont": 11.6,
+      "cult": 5.3,
+      "perf": 19.3,
+      "auth": 9,
+      "safe": 7.3,
+      "cost": 11.1
+     },
+     "confidence": "High",
+     "er": 1.51,
+     "linkCtr": 1.26,
+     "realFollowers": 80.5,
+     "viewThrough": 47.4,
+     "hold3s": 61.1,
+     "sponsoredShare": 25,
+     "adDisclosure": 91,
+     "safety": 92,
+     "audienceWomen": 0.745,
+     "forecast": {
+      "cost": 42500,
+      "views": 51669,
+      "tgViews": 32700,
+      "tgShare": 0.79,
+      "engagements": 2138,
+      "clicks": 505,
+      "orders": 119.5,
+      "revenue": 66902,
+      "roas": 1.57,
+      "recallLiftPts": 4.8,
+      "costPerTgView": 1.3,
+      "costPerEngagement": 19.88,
+      "costPerClick": 84.16
+     },
+     "why": [
+      "Link CTR 1.26%, top 9% of mid-tier creators; trust index 1.01",
+      "Audience matches the brief: 75% women (target 66%), 86% age overlap, 92% city-tier overlap",
+      "Home &amp; Decor is a strong category for Meesho, with parenting &amp; family as a second pillar",
+      "Forecast 1.6× ROAS on ₹43K, about 119 orders"
+     ],
+     "risks": []
+    }
+   ],
+   "plan": {
+    "creators": 37,
+    "spend": 2398500,
+    "views": 3175657,
+    "tgViews": 2059339,
+    "uniqueTgReach": 1274244,
+    "engagements": 129216,
+    "clicks": 27862,
+    "orders": 6845,
+    "revenue": 3833024,
+    "roas": 1.6,
+    "recallLiftPts": 6,
+    "fakeAudienceShare": 0.13,
+    "gatedIncluded": 0,
+    "representCreators": 2,
+    "representSpend": 193000,
+    "forecastBandPct": 24,
+    "spendByTier": {
+     "micro": 276000,
+     "mid": 1473000,
+     "nano": 4000,
+     "macro": 645500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 2383000,
+    "views": 2046161,
+    "tgViews": 914682,
+    "uniqueTgReach": 566843,
+    "engagements": 49396,
+    "clicks": 8125,
+    "orders": 1222,
+    "revenue": 684048,
+    "roas": 0.29,
+    "recallLiftPts": 2.7,
+    "fakeAudienceShare": 0.43,
+    "gatedIncluded": 2,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 18,
+    "spendByTier": {
+     "mega": 2383000
+    }
+   },
+   "planCreators": [
+    "Aditi B. (Micro, Beauty & Skincare)",
+    "Varsha B. (Micro, Food & Cooking)",
+    "Kavya T. (Mid-tier, Parenting & Family)",
+    "Sruthi A. (Mid-tier, Fashion & Style)",
+    "Tanvi C. (Micro, Food & Cooking)",
+    "Mansi T. (Mid-tier, Beauty & Skincare)",
+    "Parth K. (Mid-tier, Fashion & Style)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Riya D. (Micro, Beauty & Skincare)",
+    "Hetal C. (Mid-tier, Fashion & Style)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Rasika M. (Macro, Fashion & Style)"
+   ]
+  }
+ }
+}

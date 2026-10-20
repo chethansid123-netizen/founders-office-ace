@@ -1,0 +1,1767 @@
+{
+ "id": "rayban",
+ "name": "Ray-Ban",
+ "parent": "EssilorLuxottica",
+ "vertical": "fashion",
+ "sub": "Premium eyewear",
+ "status": "Reported client",
+ "defaultObjective": "consideration",
+ "brief": "Keep Ray-Ban aspirational as Lenskart pushes premium downmarket.",
+ "moment": "Summer · Mar–May",
+ "budgetLakh": 14,
+ "target": {
+  "fem": 0.48,
+  "age": [
+   0.04,
+   0.38,
+   0.4,
+   0.13,
+   0.05
+  ],
+  "tiers": [
+   0.68,
+   0.26,
+   0.06
+  ],
+  "affl": 0.78
+ },
+ "languages": {
+  "English": 1,
+  "Hinglish": 0.85,
+  "Hindi": 0.35
+ },
+ "codes": [
+  "Aspirational luxury",
+  "Desi-modern",
+  "Bollywood pop"
+ ],
+ "affinity": {
+  "fashion": 1,
+  "travel": 0.85,
+  "lifestyle": 0.85,
+  "music": 0.55,
+  "auto": 0.5
+ },
+ "competitors": [
+  "Lenskart",
+  "Fastrack",
+  "Oakley"
+ ],
+ "compliance": null,
+ "aov": 7000,
+ "conversionRate": 0.012,
+ "kpis": [
+  "Consideration lift",
+  "Store visits",
+  "Saves per view"
+ ],
+ "markets": [
+  "India",
+  "UAE"
+ ],
+ "tgPoolMillions": 28,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 379,
+   "gated": 41,
+   "gatesByReason": {
+    "safety": 4,
+    "conflict": 5,
+    "fraud": 32
+   },
+   "gatedExamples": [
+    {
+     "name": "Nithya C.",
+     "id": "CIE-1306",
+     "reasons": [
+      "Brand-safety score 47: profanity in recent content, past controversy (2025)"
+     ]
+    },
+    {
+     "name": "Aditi Y.",
+     "id": "CIE-1193",
+     "reasons": [
+      "Posted for Lenskart 51 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Hetal M.",
+     "id": "CIE-1361",
+     "reasons": [
+      "Posted for Lenskart 48 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Ananya A.",
+     "id": "CIE-1375",
+     "reasons": [
+      "Posted for Lenskart 53 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1208",
+     "name": "Sahil Y.",
+     "niche": "Lifestyle & Vlogs",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 42312,
+     "city": "Mumbai",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Moj",
+     "represent": false,
+     "credential": null,
+     "fit": 83.3,
+     "parts": {
+      "aud": 97,
+      "cont": 89,
+      "cult": 78,
+      "perf": 55,
+      "auth": 91,
+      "safe": 91,
+      "cost": 77
+     },
+     "contributions": {
+      "aud": 21.3,
+      "cont": 13.3,
+      "cult": 10.9,
+      "perf": 8.3,
+      "auth": 12.7,
+      "safe": 9.1,
+      "cost": 7.7
+     },
+     "confidence": "Medium",
+     "er": 3.58,
+     "linkCtr": 0.75,
+     "realFollowers": 95.5,
+     "viewThrough": 46.3,
+     "hold3s": 66.8,
+     "sponsoredShare": 13,
+     "adDisclosure": 78,
+     "safety": 99,
+     "audienceWomen": 0.453,
+     "forecast": {
+      "cost": 17000,
+      "views": 14833,
+      "tgViews": 12754,
+      "tgShare": 0.9,
+      "engagements": 1743,
+      "clicks": 122,
+      "orders": 5.1,
+      "revenue": 35736,
+      "roas": 2.1,
+      "recallLiftPts": 5.8,
+      "costPerTgView": 1.33,
+      "costPerEngagement": 9.75,
+      "costPerClick": 139.28
+     },
+     "why": [
+      "Audience matches the brief: 45% women (target 48%), 91% age overlap, 97% city-tier overlap",
+      "Lifestyle &amp; Vlogs is a core category for Ray-Ban, with fashion &amp; style as a second pillar",
+      "96% of followers look real and active; 13% of recent posts are sponsored",
+      "Creates in English + Hinglish, Ray-Ban's lead language; shares the Desi-modern codes"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1104",
+     "name": "Karan Y.",
+     "niche": "Fashion & Style",
+     "niche2": "Travel",
+     "tier": "Micro",
+     "followers": 39673,
+     "city": "Delhi NCR",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.2,
+     "parts": {
+      "aud": 84,
+      "cont": 96,
+      "cult": 78,
+      "perf": 70,
+      "auth": 73,
+      "safe": 79,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 18.5,
+      "cont": 14.4,
+      "cult": 10.9,
+      "perf": 10.6,
+      "auth": 10.2,
+      "safe": 7.9,
+      "cost": 9.8
+     },
+     "confidence": "Low",
+     "er": 3.18,
+     "linkCtr": 1.04,
+     "realFollowers": 86.2,
+     "viewThrough": 50.2,
+     "hold3s": 67.5,
+     "sponsoredShare": 28,
+     "adDisclosure": 90,
+     "safety": 71,
+     "audienceWomen": 0.644,
+     "forecast": {
+      "cost": 13500,
+      "views": 23658,
+      "tgViews": 16549,
+      "tgShare": 0.81,
+      "engagements": 1476,
+      "clicks": 210,
+      "orders": 10.2,
+      "revenue": 71206,
+      "roas": 5.27,
+      "recallLiftPts": 6.8,
+      "costPerTgView": 0.82,
+      "costPerEngagement": 9.15,
+      "costPerClick": 64.37
+     },
+     "why": [
+      "Audience matches the brief: 64% women (target 48%), 89% age overlap, 93% city-tier overlap",
+      "Fashion &amp; Style is a core category for Ray-Ban, with travel as a second pillar",
+      "Creates in English, Ray-Ban's lead language; shares the Aspirational luxury codes",
+      "Viewers watch 50% of each video, top 21% of micro creators; past recall lift +6.4 pts"
+     ],
+     "risks": [
+      "Past controversy (2025)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1100",
+     "name": "Parth N.",
+     "niche": "Lifestyle & Vlogs",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 27621,
+     "city": "Mumbai",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.7,
+     "parts": {
+      "aud": 87,
+      "cont": 89,
+      "cult": 100,
+      "perf": 39,
+      "auth": 75,
+      "safe": 86,
+      "cost": 83
+     },
+     "contributions": {
+      "aud": 19.2,
+      "cont": 13.3,
+      "cult": 14,
+      "perf": 5.8,
+      "auth": 10.5,
+      "safe": 8.6,
+      "cost": 8.3
+     },
+     "confidence": "Medium",
+     "er": 2.13,
+     "linkCtr": 0.67,
+     "realFollowers": 87.7,
+     "viewThrough": 39.7,
+     "hold3s": 73.7,
+     "sponsoredShare": 19,
+     "adDisclosure": 85,
+     "safety": 87,
+     "audienceWomen": 0.641,
+     "forecast": {
+      "cost": 9000,
+      "views": 11055,
+      "tgViews": 8087,
+      "tgShare": 0.83,
+      "engagements": 737,
+      "clicks": 75,
+      "orders": 3,
+      "revenue": 21060,
+      "roas": 2.34,
+      "recallLiftPts": 3.1,
+      "costPerTgView": 1.11,
+      "costPerEngagement": 12.2,
+      "costPerClick": 120.16
+     },
+     "why": [
+      "Audience matches the brief: 64% women (target 48%), 94% age overlap, 86% city-tier overlap",
+      "Creates in English, Ray-Ban's lead language; shares the Aspirational luxury and Desi-modern codes",
+      "Lifestyle &amp; Vlogs is a core category for Ray-Ban, with fashion &amp; style as a second pillar",
+      "88% of followers look real and active; 19% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1162",
+     "name": "Rehan G.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 3861,
+     "city": "Dubai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.3,
+     "parts": {
+      "aud": 86,
+      "cont": 96,
+      "cult": 69,
+      "perf": 47,
+      "auth": 87,
+      "safe": 83,
+      "cost": 87
+     },
+     "contributions": {
+      "aud": 18.9,
+      "cont": 14.4,
+      "cult": 9.7,
+      "perf": 7.1,
+      "auth": 12.2,
+      "safe": 8.3,
+      "cost": 8.7
+     },
+     "confidence": "Low",
+     "er": 5.16,
+     "linkCtr": 1,
+     "realFollowers": 97,
+     "viewThrough": 41.7,
+     "hold3s": 68.5,
+     "sponsoredShare": 34,
+     "adDisclosure": 85,
+     "safety": 82,
+     "audienceWomen": 0.617,
+     "forecast": {
+      "cost": 2500,
+      "views": 2935,
+      "tgViews": 2350,
+      "tgShare": 0.83,
+      "engagements": 227,
+      "clicks": 26,
+      "orders": 1.1,
+      "revenue": 7536,
+      "roas": 3.01,
+      "recallLiftPts": 3.6,
+      "costPerTgView": 1.06,
+      "costPerEngagement": 11.01,
+      "costPerClick": 97.69
+     },
+     "why": [
+      "Audience matches the brief: 62% women (target 48%), 93% age overlap, 88% city-tier overlap",
+      "Fashion &amp; Style is a core category for Ray-Ban, with lifestyle &amp; vlogs as a second pillar",
+      "97% of followers look real and active; 34% of recent posts are sponsored",
+      "Creates in Hinglish; shares the Aspirational luxury codes"
+     ],
+     "risks": [
+      "Posted for Lenskart 101 days ago (outside the 60-day window)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1083",
+     "name": "Mitali B.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Micro",
+     "followers": 30216,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.3,
+     "parts": {
+      "aud": 74,
+      "cont": 76,
+      "cult": 69,
+      "perf": 76,
+      "auth": 85,
+      "safe": 92,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 16.2,
+      "cont": 11.4,
+      "cult": 9.7,
+      "perf": 11.3,
+      "auth": 12,
+      "safe": 9.2,
+      "cost": 9.4
+     },
+     "confidence": "Low",
+     "er": 2.34,
+     "linkCtr": 0.51,
+     "realFollowers": 90,
+     "viewThrough": 55.3,
+     "hold3s": 55.1,
+     "sponsoredShare": 4,
+     "adDisclosure": 94,
+     "safety": 90,
+     "audienceWomen": 0.705,
+     "forecast": {
+      "cost": 9500,
+      "views": 13910,
+      "tgViews": 9328,
+      "tgShare": 0.75,
+      "engagements": 870,
+      "clicks": 61,
+      "orders": 2.5,
+      "revenue": 17818,
+      "roas": 1.88,
+      "recallLiftPts": 8.9,
+      "costPerTgView": 1.02,
+      "costPerEngagement": 10.92,
+      "costPerClick": 156.76
+     },
+     "why": [
+      "Audience matches the brief: 71% women (target 48%), 97% age overlap, 74% city-tier overlap",
+      "90% of followers look real and active; 4% of recent posts are sponsored",
+      "Fashion &amp; Style is a strong category for Ray-Ban, with beauty &amp; skincare as a second pillar",
+      "Viewers watch 55% of each video, top 6% of micro creators; past recall lift +9.6 pts"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 36,
+    "spend": 1400000,
+    "views": 2219781,
+    "tgViews": 1381387,
+    "uniqueTgReach": 844431,
+    "engagements": 88273,
+    "clicks": 13197,
+    "orders": 494,
+    "revenue": 3458640,
+    "roas": 2.47,
+    "recallLiftPts": 5,
+    "fakeAudienceShare": 0.11,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 23,
+    "spendByTier": {
+     "micro": 354500,
+     "mid": 854000,
+     "macro": 177500,
+     "nano": 14000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 1395500,
+    "views": 1518805,
+    "tgViews": 872899,
+    "uniqueTgReach": 539840,
+    "engagements": 52040,
+    "clicks": 5897,
+    "orders": 167,
+    "revenue": 1167422,
+    "roas": 0.84,
+    "recallLiftPts": 2.8,
+    "fakeAudienceShare": 0.13,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 33,
+    "spendByTier": {
+     "mega": 1266500,
+     "mid": 129000
+    }
+   },
+   "planCreators": [
+    "Varsha B. (Micro, Food & Cooking)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Ananya J. (Micro, Music & Dance)",
+    "Keerthi J. (Mid-tier, Fashion & Style)",
+    "Karan Y. (Micro, Fashion & Style)",
+    "Mitali B. (Micro, Fashion & Style)",
+    "Keerthi B. (Macro, Beauty & Skincare)",
+    "Nikita B. (Mid-tier, Fashion & Style)",
+    "Rehan G. (Nano, Fashion & Style)",
+    "Hetal A. (Mid-tier, Food & Cooking)",
+    "Meher J. (Nano, Travel)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 379,
+   "gated": 41,
+   "gatesByReason": {
+    "safety": 4,
+    "conflict": 5,
+    "fraud": 32
+   },
+   "gatedExamples": [
+    {
+     "name": "Nithya C.",
+     "id": "CIE-1306",
+     "reasons": [
+      "Brand-safety score 47: profanity in recent content, past controversy (2025)"
+     ]
+    },
+    {
+     "name": "Aditi Y.",
+     "id": "CIE-1193",
+     "reasons": [
+      "Posted for Lenskart 51 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Ananya A.",
+     "id": "CIE-1375",
+     "reasons": [
+      "Posted for Lenskart 53 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Hetal M.",
+     "id": "CIE-1361",
+     "reasons": [
+      "Posted for Lenskart 48 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1162",
+     "name": "Rehan G.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 3861,
+     "city": "Dubai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.7,
+     "parts": {
+      "aud": 86,
+      "cont": 96,
+      "cult": 69,
+      "perf": 80,
+      "auth": 87,
+      "safe": 83,
+      "cost": 73
+     },
+     "contributions": {
+      "aud": 17.2,
+      "cont": 17.3,
+      "cult": 6.9,
+      "perf": 16,
+      "auth": 12.2,
+      "safe": 6.7,
+      "cost": 7.3
+     },
+     "confidence": "Low",
+     "er": 5.16,
+     "linkCtr": 1,
+     "realFollowers": 97,
+     "viewThrough": 41.7,
+     "hold3s": 68.5,
+     "sponsoredShare": 34,
+     "adDisclosure": 85,
+     "safety": 82,
+     "audienceWomen": 0.617,
+     "forecast": {
+      "cost": 2500,
+      "views": 2935,
+      "tgViews": 2350,
+      "tgShare": 0.83,
+      "engagements": 227,
+      "clicks": 26,
+      "orders": 1.1,
+      "revenue": 7536,
+      "roas": 3.01,
+      "recallLiftPts": 3.6,
+      "costPerTgView": 1.06,
+      "costPerEngagement": 11.01,
+      "costPerClick": 97.69
+     },
+     "why": [
+      "Fashion &amp; Style is a core category for Ray-Ban, with lifestyle &amp; vlogs as a second pillar",
+      "Audience matches the brief: 62% women (target 48%), 93% age overlap, 88% city-tier overlap",
+      "Engagement rate 5.2%, top 29% of nano creators; 3.7% of viewers save or share",
+      "97% of followers look real and active; 34% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Posted for Lenskart 101 days ago (outside the 60-day window)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1104",
+     "name": "Karan Y.",
+     "niche": "Fashion & Style",
+     "niche2": "Travel",
+     "tier": "Micro",
+     "followers": 39673,
+     "city": "Delhi NCR",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.7,
+     "parts": {
+      "aud": 84,
+      "cont": 96,
+      "cult": 78,
+      "perf": 79,
+      "auth": 73,
+      "safe": 79,
+      "cost": 85
+     },
+     "contributions": {
+      "aud": 16.8,
+      "cont": 17.3,
+      "cult": 7.8,
+      "perf": 15.8,
+      "auth": 10.2,
+      "safe": 6.3,
+      "cost": 8.5
+     },
+     "confidence": "Low",
+     "er": 3.18,
+     "linkCtr": 1.04,
+     "realFollowers": 86.2,
+     "viewThrough": 50.2,
+     "hold3s": 67.5,
+     "sponsoredShare": 28,
+     "adDisclosure": 90,
+     "safety": 71,
+     "audienceWomen": 0.644,
+     "forecast": {
+      "cost": 13500,
+      "views": 23658,
+      "tgViews": 16549,
+      "tgShare": 0.81,
+      "engagements": 1476,
+      "clicks": 210,
+      "orders": 10.2,
+      "revenue": 71206,
+      "roas": 5.27,
+      "recallLiftPts": 6.8,
+      "costPerTgView": 0.82,
+      "costPerEngagement": 9.15,
+      "costPerClick": 64.37
+     },
+     "why": [
+      "Fashion &amp; Style is a core category for Ray-Ban, with travel as a second pillar",
+      "Audience matches the brief: 64% women (target 48%), 89% age overlap, 93% city-tier overlap",
+      "Engagement rate 3.2%, top 36% of micro creators; 3.5% of viewers save or share",
+      "86% of followers look real and active; 28% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Past controversy (2025)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1208",
+     "name": "Sahil Y.",
+     "niche": "Lifestyle & Vlogs",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 42312,
+     "city": "Mumbai",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Moj",
+     "represent": false,
+     "credential": null,
+     "fit": 79.7,
+     "parts": {
+      "aud": 97,
+      "cont": 89,
+      "cult": 78,
+      "perf": 42,
+      "auth": 91,
+      "safe": 91,
+      "cost": 82
+     },
+     "contributions": {
+      "aud": 19.4,
+      "cont": 16,
+      "cult": 7.8,
+      "perf": 8.4,
+      "auth": 12.7,
+      "safe": 7.2,
+      "cost": 8.2
+     },
+     "confidence": "Medium",
+     "er": 3.58,
+     "linkCtr": 0.75,
+     "realFollowers": 95.5,
+     "viewThrough": 46.3,
+     "hold3s": 66.8,
+     "sponsoredShare": 13,
+     "adDisclosure": 78,
+     "safety": 99,
+     "audienceWomen": 0.453,
+     "forecast": {
+      "cost": 17000,
+      "views": 14833,
+      "tgViews": 12754,
+      "tgShare": 0.9,
+      "engagements": 1743,
+      "clicks": 122,
+      "orders": 5.1,
+      "revenue": 35736,
+      "roas": 2.1,
+      "recallLiftPts": 5.8,
+      "costPerTgView": 1.33,
+      "costPerEngagement": 9.75,
+      "costPerClick": 139.28
+     },
+     "why": [
+      "Audience matches the brief: 45% women (target 48%), 91% age overlap, 97% city-tier overlap",
+      "Lifestyle &amp; Vlogs is a core category for Ray-Ban, with fashion &amp; style as a second pillar",
+      "96% of followers look real and active; 13% of recent posts are sponsored",
+      "Engagement rate 3.6%, top 26% of micro creators; 1.0% of viewers save or share"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1098",
+     "name": "Sneha D.",
+     "niche": "Lifestyle & Vlogs",
+     "niche2": "Travel",
+     "tier": "Micro",
+     "followers": 68335,
+     "city": "Bengaluru",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.6,
+     "parts": {
+      "aud": 86,
+      "cont": 85,
+      "cult": 78,
+      "perf": 59,
+      "auth": 67,
+      "safe": 83,
+      "cost": 96
+     },
+     "contributions": {
+      "aud": 17.2,
+      "cont": 15.3,
+      "cult": 7.8,
+      "perf": 11.9,
+      "auth": 9.3,
+      "safe": 6.6,
+      "cost": 9.6
+     },
+     "confidence": "Low",
+     "er": 6.14,
+     "linkCtr": 0.55,
+     "realFollowers": 86.4,
+     "viewThrough": 57.2,
+     "hold3s": 67.1,
+     "sponsoredShare": 35,
+     "adDisclosure": 78,
+     "safety": 86,
+     "audienceWomen": 0.719,
+     "forecast": {
+      "cost": 35000,
+      "views": 24862,
+      "tgViews": 17707,
+      "tgShare": 0.82,
+      "engagements": 4565,
+      "clicks": 143,
+      "orders": 6.5,
+      "revenue": 45551,
+      "roas": 1.3,
+      "recallLiftPts": 9.1,
+      "costPerTgView": 1.98,
+      "costPerEngagement": 7.67,
+      "costPerClick": 244.91
+     },
+     "why": [
+      "Audience matches the brief: 72% women (target 48%), 90% age overlap, 97% city-tier overlap",
+      "Lifestyle &amp; Vlogs is a core category for Ray-Ban, with travel as a second pillar",
+      "Engagement rate 6.1%, top 2% of micro creators; 1.1% of viewers save or share",
+      "₹7.67 per engagement (₹35K for the bundle)"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1236",
+     "name": "Meera M.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Macro",
+     "followers": 562849,
+     "city": "Bengaluru",
+     "languages": [
+      "English"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 77.5,
+     "parts": {
+      "aud": 90,
+      "cont": 76,
+      "cult": 78,
+      "perf": 87,
+      "auth": 69,
+      "safe": 86,
+      "cost": 41
+     },
+     "contributions": {
+      "aud": 18,
+      "cont": 13.7,
+      "cult": 7.8,
+      "perf": 17.4,
+      "auth": 9.7,
+      "safe": 6.9,
+      "cost": 4.1
+     },
+     "confidence": "High",
+     "er": 1.54,
+     "linkCtr": 0.81,
+     "realFollowers": 84.3,
+     "viewThrough": 43.9,
+     "hold3s": 73.9,
+     "sponsoredShare": 32,
+     "adDisclosure": 81,
+     "safety": 90,
+     "audienceWomen": 0.605,
+     "forecast": {
+      "cost": 161000,
+      "views": 88554,
+      "tgViews": 63722,
+      "tgShare": 0.85,
+      "engagements": 8668,
+      "clicks": 488,
+      "orders": 19,
+      "revenue": 132776,
+      "roas": 0.82,
+      "recallLiftPts": 3.9,
+      "costPerTgView": 2.53,
+      "costPerEngagement": 18.57,
+      "costPerClick": 330.11
+     },
+     "why": [
+      "Audience matches the brief: 61% women (target 48%), 91% age overlap, 93% city-tier overlap",
+      "Engagement rate 1.5%, top 4% of macro creators; 2.7% of viewers save or share",
+      "Fashion &amp; Style is a strong category for Ray-Ban, with beauty &amp; skincare as a second pillar",
+      "84% of followers look real and active; 32% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1234",
+     "name": "Rasika S.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 200382,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 76.9,
+     "parts": {
+      "aud": 72,
+      "cont": 96,
+      "cult": 92,
+      "perf": 73,
+      "auth": 70,
+      "safe": 89,
+      "cost": 44
+     },
+     "contributions": {
+      "aud": 14.4,
+      "cont": 17.3,
+      "cult": 9.2,
+      "perf": 14.7,
+      "auth": 9.7,
+      "safe": 7.1,
+      "cost": 4.4
+     },
+     "confidence": "Medium",
+     "er": 2.05,
+     "linkCtr": 1.14,
+     "realFollowers": 82.7,
+     "viewThrough": 45.3,
+     "hold3s": 68.3,
+     "sponsoredShare": 12,
+     "adDisclosure": 94,
+     "safety": 86,
+     "audienceWomen": 0.682,
+     "forecast": {
+      "cost": 74000,
+      "views": 15962,
+      "tgViews": 9704,
+      "tgShare": 0.74,
+      "engagements": 4108,
+      "clicks": 142,
+      "orders": 7.1,
+      "revenue": 49829,
+      "roas": 0.67,
+      "recallLiftPts": 5.4,
+      "costPerTgView": 7.63,
+      "costPerEngagement": 18.01,
+      "costPerClick": 522.08
+     },
+     "why": [
+      "Fashion &amp; Style is a core category for Ray-Ban, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 2.0%, top 8% of mid-tier creators; 3.1% of viewers save or share",
+      "Audience matches the brief: 68% women (target 48%), 87% age overlap, 82% city-tier overlap",
+      "83% of followers look real and active; 12% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1221",
+     "name": "Shreya G.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 16818,
+     "city": "Chandigarh",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 76.3,
+     "parts": {
+      "aud": 61,
+      "cont": 96,
+      "cult": 42,
+      "perf": 83,
+      "auth": 73,
+      "safe": 88,
+      "cost": 87
+     },
+     "contributions": {
+      "aud": 12.2,
+      "cont": 17.3,
+      "cult": 4.2,
+      "perf": 16.7,
+      "auth": 10.2,
+      "safe": 7,
+      "cost": 8.7
+     },
+     "confidence": "Low",
+     "er": 3.98,
+     "linkCtr": 0.59,
+     "realFollowers": 85.9,
+     "viewThrough": 51.4,
+     "hold3s": 61.1,
+     "sponsoredShare": 37,
+     "adDisclosure": 90,
+     "safety": 86,
+     "audienceWomen": 0.641,
+     "forecast": {
+      "cost": 6000,
+      "views": 3486,
+      "tgViews": 1993,
+      "tgShare": 0.67,
+      "engagements": 669,
+      "clicks": 16,
+      "orders": 0.7,
+      "revenue": 4958,
+      "roas": 0.83,
+      "recallLiftPts": 8.4,
+      "costPerTgView": 3.01,
+      "costPerEngagement": 8.96,
+      "costPerClick": 374.52
+     },
+     "why": [
+      "Fashion &amp; Style is a core category for Ray-Ban, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 4.0%, top 17% of micro creators; 3.0% of viewers save or share",
+      "Audience matches the brief: 64% women (target 48%), 79% age overlap, 65% city-tier overlap",
+      "86% of followers look real and active; 37% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1006",
+     "name": "Rutuja T.",
+     "niche": "Travel",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 9678,
+     "city": "Mumbai",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 75.8,
+     "parts": {
+      "aud": 86,
+      "cont": 85,
+      "cult": 78,
+      "perf": 49,
+      "auth": 79,
+      "safe": 86,
+      "cost": 78
+     },
+     "contributions": {
+      "aud": 17.2,
+      "cont": 15.3,
+      "cult": 7.8,
+      "perf": 9.8,
+      "auth": 11,
+      "safe": 6.9,
+      "cost": 7.8
+     },
+     "confidence": "Medium",
+     "er": 4.34,
+     "linkCtr": 0.68,
+     "realFollowers": 86.7,
+     "viewThrough": 38.2,
+     "hold3s": 51.2,
+     "sponsoredShare": 14,
+     "adDisclosure": 87,
+     "safety": 85,
+     "audienceWomen": 0.633,
+     "forecast": {
+      "cost": 5000,
+      "views": 4183,
+      "tgViews": 2996,
+      "tgShare": 0.83,
+      "engagements": 490,
+      "clicks": 32,
+      "orders": 1.1,
+      "revenue": 7921,
+      "roas": 1.58,
+      "recallLiftPts": 2.8,
+      "costPerTgView": 1.67,
+      "costPerEngagement": 10.21,
+      "costPerClick": 156.3
+     },
+     "why": [
+      "Audience matches the brief: 63% women (target 48%), 83% age overlap, 97% city-tier overlap",
+      "Travel is a core category for Ray-Ban, with lifestyle &amp; vlogs as a second pillar",
+      "87% of followers look real and active; 14% of recent posts are sponsored",
+      "Engagement rate 4.3%, top 51% of nano creators; 2.5% of viewers save or share"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1078",
+     "name": "Varsha Y.",
+     "niche": "Fashion & Style",
+     "niche2": "Travel",
+     "tier": "Micro",
+     "followers": 17793,
+     "city": "Chennai",
+     "languages": [
+      "English"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 74.9,
+     "parts": {
+      "aud": 77,
+      "cont": 96,
+      "cult": 100,
+      "perf": 48,
+      "auth": 73,
+      "safe": 81,
+      "cost": 58
+     },
+     "contributions": {
+      "aud": 15.4,
+      "cont": 17.3,
+      "cult": 10,
+      "perf": 9.7,
+      "auth": 10.3,
+      "safe": 6.5,
+      "cost": 5.8
+     },
+     "confidence": "Medium",
+     "er": 2.01,
+     "linkCtr": 0.8,
+     "realFollowers": 87.5,
+     "viewThrough": 42.6,
+     "hold3s": 60.3,
+     "sponsoredShare": 34,
+     "adDisclosure": 87,
+     "safety": 77,
+     "audienceWomen": 0.714,
+     "forecast": {
+      "cost": 5000,
+      "views": 1081,
+      "tgViews": 723,
+      "tgShare": 0.76,
+      "engagements": 358,
+      "clicks": 7,
+      "orders": 0.3,
+      "revenue": 2065,
+      "roas": 0.41,
+      "recallLiftPts": 6,
+      "costPerTgView": 6.91,
+      "costPerEngagement": 13.98,
+      "costPerClick": 742.25
+     },
+     "why": [
+      "Fashion &amp; Style is a core category for Ray-Ban, with travel as a second pillar",
+      "Audience matches the brief: 71% women (target 48%), 85% age overlap, 90% city-tier overlap",
+      "88% of followers look real and active; 34% of recent posts are sponsored",
+      "Creates in English, Ray-Ban's lead language; shares the Aspirational luxury and Desi-modern codes"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1158",
+     "name": "Mitali J.",
+     "niche": "Travel",
+     "niche2": "Food & Cooking",
+     "tier": "Micro",
+     "followers": 10486,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 74,
+     "parts": {
+      "aud": 82,
+      "cont": 65,
+      "cult": 69,
+      "perf": 75,
+      "auth": 77,
+      "safe": 78,
+      "cost": 69
+     },
+     "contributions": {
+      "aud": 16.4,
+      "cont": 11.7,
+      "cult": 6.9,
+      "perf": 15,
+      "auth": 10.8,
+      "safe": 6.3,
+      "cost": 6.9
+     },
+     "confidence": "Low",
+     "er": 3.64,
+     "linkCtr": 0.38,
+     "realFollowers": 86.3,
+     "viewThrough": 43.2,
+     "hold3s": 54.3,
+     "sponsoredShare": 8,
+     "adDisclosure": 76,
+     "safety": 80,
+     "audienceWomen": 0.506,
+     "forecast": {
+      "cost": 5000,
+      "views": 4316,
+      "tgViews": 2973,
+      "tgShare": 0.8,
+      "engagements": 438,
+      "clicks": 14,
+      "orders": 0.5,
+      "revenue": 3519,
+      "roas": 0.7,
+      "recallLiftPts": 4.9,
+      "costPerTgView": 1.68,
+      "costPerEngagement": 11.41,
+      "costPerClick": 364.28
+     },
+     "why": [
+      "Audience matches the brief: 51% women (target 48%), 84% age overlap, 77% city-tier overlap",
+      "Engagement rate 3.6%, top 23% of micro creators; 3.3% of viewers save or share",
+      "Travel is a strong category for Ray-Ban, with food &amp; cooking as a second pillar",
+      "86% of followers look real and active; 8% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 71,
+    "spend": 1400000,
+    "views": 1568466,
+    "tgViews": 992866,
+    "uniqueTgReach": 609137,
+    "engagements": 134248,
+    "clicks": 9121,
+    "orders": 332,
+    "revenue": 2325469,
+    "roas": 1.66,
+    "recallLiftPts": 4.3,
+    "fakeAudienceShare": 0.12,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 20,
+    "spendByTier": {
+     "micro": 858500,
+     "nano": 29500,
+     "mid": 276000,
+     "macro": 236000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 1395500,
+    "views": 1518805,
+    "tgViews": 872899,
+    "uniqueTgReach": 539840,
+    "engagements": 52040,
+    "clicks": 5897,
+    "orders": 167,
+    "revenue": 1167422,
+    "roas": 0.84,
+    "recallLiftPts": 2.8,
+    "fakeAudienceShare": 0.13,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 33,
+    "spendByTier": {
+     "mega": 1266500,
+     "mid": 129000
+    }
+   },
+   "planCreators": [
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Sneha D. (Micro, Lifestyle & Vlogs)",
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Moumita N. (Micro, Parenting & Family)",
+    "Rasika D. (Micro, Beauty & Skincare)",
+    "Karan Y. (Micro, Fashion & Style)",
+    "Ananya B. (Micro, Beauty & Skincare)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Rehan G. (Nano, Fashion & Style)",
+    "Devang M. (Nano, Lifestyle & Vlogs)",
+    "Dhwani R. (Micro, Fitness & Wellness)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 379,
+   "gated": 41,
+   "gatesByReason": {
+    "conflict": 5,
+    "safety": 4,
+    "fraud": 32
+   },
+   "gatedExamples": [
+    {
+     "name": "Hetal M.",
+     "id": "CIE-1361",
+     "reasons": [
+      "Posted for Lenskart 48 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Aditi Y.",
+     "id": "CIE-1193",
+     "reasons": [
+      "Posted for Lenskart 51 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Arun N.",
+     "id": "CIE-1252",
+     "reasons": [
+      "Posted for Fastrack 36 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Nithya C.",
+     "id": "CIE-1306",
+     "reasons": [
+      "Brand-safety score 47: profanity in recent content, past controversy (2025)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1104",
+     "name": "Karan Y.",
+     "niche": "Fashion & Style",
+     "niche2": "Travel",
+     "tier": "Micro",
+     "followers": 39673,
+     "city": "Delhi NCR",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83,
+     "parts": {
+      "aud": 84,
+      "cont": 96,
+      "cult": 78,
+      "perf": 76,
+      "auth": 73,
+      "safe": 79,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 15.1,
+      "cont": 13.5,
+      "cult": 6.2,
+      "perf": 19.7,
+      "auth": 10.2,
+      "safe": 6.3,
+      "cost": 12
+     },
+     "confidence": "Low",
+     "er": 3.18,
+     "linkCtr": 1.04,
+     "realFollowers": 86.2,
+     "viewThrough": 50.2,
+     "hold3s": 67.5,
+     "sponsoredShare": 28,
+     "adDisclosure": 90,
+     "safety": 71,
+     "audienceWomen": 0.644,
+     "forecast": {
+      "cost": 13500,
+      "views": 23658,
+      "tgViews": 16549,
+      "tgShare": 0.81,
+      "engagements": 1476,
+      "clicks": 210,
+      "orders": 10.2,
+      "revenue": 71206,
+      "roas": 5.27,
+      "recallLiftPts": 6.8,
+      "costPerTgView": 0.82,
+      "costPerEngagement": 9.15,
+      "costPerClick": 64.37
+     },
+     "why": [
+      "Link CTR 1.04%, top 17% of micro creators; trust index 1.13",
+      "Audience matches the brief: 64% women (target 48%), 89% age overlap, 93% city-tier overlap",
+      "Fashion &amp; Style is a core category for Ray-Ban, with travel as a second pillar",
+      "Forecast 5.3× ROAS on ₹14K, about 10 orders"
+     ],
+     "risks": [
+      "Past controversy (2025)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1162",
+     "name": "Rehan G.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 3861,
+     "city": "Dubai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.3,
+     "parts": {
+      "aud": 86,
+      "cont": 96,
+      "cult": 69,
+      "perf": 67,
+      "auth": 87,
+      "safe": 83,
+      "cost": 96
+     },
+     "contributions": {
+      "aud": 15.5,
+      "cont": 13.5,
+      "cult": 5.5,
+      "perf": 17.5,
+      "auth": 12.2,
+      "safe": 6.7,
+      "cost": 11.5
+     },
+     "confidence": "Low",
+     "er": 5.16,
+     "linkCtr": 1,
+     "realFollowers": 97,
+     "viewThrough": 41.7,
+     "hold3s": 68.5,
+     "sponsoredShare": 34,
+     "adDisclosure": 85,
+     "safety": 82,
+     "audienceWomen": 0.617,
+     "forecast": {
+      "cost": 2500,
+      "views": 2935,
+      "tgViews": 2350,
+      "tgShare": 0.83,
+      "engagements": 227,
+      "clicks": 26,
+      "orders": 1.1,
+      "revenue": 7536,
+      "roas": 3.01,
+      "recallLiftPts": 3.6,
+      "costPerTgView": 1.06,
+      "costPerEngagement": 11.01,
+      "costPerClick": 97.69
+     },
+     "why": [
+      "Link CTR 1.00%, top 27% of nano creators; trust index 0.98",
+      "Audience matches the brief: 62% women (target 48%), 93% age overlap, 88% city-tier overlap",
+      "Fashion &amp; Style is a core category for Ray-Ban, with lifestyle &amp; vlogs as a second pillar",
+      "97% of followers look real and active; 34% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Posted for Lenskart 101 days ago (outside the 60-day window)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1262",
+     "name": "Sneha K.",
+     "niche": "Fashion & Style",
+     "niche2": "Travel",
+     "tier": "Mega",
+     "followers": 5381836,
+     "city": "Chennai",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.6,
+     "parts": {
+      "aud": 76,
+      "cont": 96,
+      "cult": 78,
+      "perf": 79,
+      "auth": 66,
+      "safe": 84,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 13.6,
+      "cont": 13.5,
+      "cult": 6.2,
+      "perf": 20.6,
+      "auth": 9.2,
+      "safe": 6.7,
+      "cost": 11.8
+     },
+     "confidence": "High",
+     "er": 0.27,
+     "linkCtr": 1.2,
+     "realFollowers": 83.3,
+     "viewThrough": 27.6,
+     "hold3s": 61.8,
+     "sponsoredShare": 30,
+     "adDisclosure": 85,
+     "safety": 83,
+     "audienceWomen": 0.818,
+     "forecast": {
+      "cost": 1301000,
+      "views": 1300172,
+      "tgViews": 820487,
+      "tgShare": 0.76,
+      "engagements": 27447,
+      "clicks": 13946,
+      "orders": 730.3,
+      "revenue": 5112224,
+      "roas": 3.93,
+      "recallLiftPts": 2.1,
+      "costPerTgView": 1.59,
+      "costPerEngagement": 47.4,
+      "costPerClick": 93.29
+     },
+     "why": [
+      "Link CTR 1.20%, top 8% of mega creators; trust index 1.22",
+      "Audience matches the brief: 82% women (target 48%), 93% age overlap, 88% city-tier overlap",
+      "Fashion &amp; Style is a core category for Ray-Ban, with travel as a second pillar",
+      "Forecast 3.9× ROAS on ₹13L, about 730 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1357",
+     "name": "Rasika M.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Macro",
+     "followers": 904194,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.3,
+     "parts": {
+      "aud": 66,
+      "cont": 96,
+      "cult": 69,
+      "perf": 87,
+      "auth": 66,
+      "safe": 84,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 12,
+      "cont": 13.5,
+      "cult": 5.5,
+      "perf": 22.6,
+      "auth": 9.2,
+      "safe": 6.7,
+      "cost": 11.8
+     },
+     "confidence": "Medium",
+     "er": 0.96,
+     "linkCtr": 1.21,
+     "realFollowers": 82.3,
+     "viewThrough": 57.1,
+     "hold3s": 72,
+     "sponsoredShare": 25,
+     "adDisclosure": 80,
+     "safety": 86,
+     "audienceWomen": 0.834,
+     "forecast": {
+      "cost": 313000,
+      "views": 378871,
+      "tgViews": 217820,
+      "tgShare": 0.7,
+      "engagements": 11664,
+      "clicks": 3652,
+      "orders": 188.1,
+      "revenue": 1316845,
+      "roas": 4.21,
+      "recallLiftPts": 9.1,
+      "costPerTgView": 1.44,
+      "costPerEngagement": 26.83,
+      "costPerClick": 85.7
+     },
+     "why": [
+      "Link CTR 1.21%, top 7% of macro creators; trust index 1.20",
+      "Fashion &amp; Style is a core category for Ray-Ban, with lifestyle &amp; vlogs as a second pillar",
+      "Audience matches the brief: 83% women (target 48%), 96% age overlap, 75% city-tier overlap",
+      "Forecast 4.2× ROAS on ₹3.13L, about 188 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1208",
+     "name": "Sahil Y.",
+     "niche": "Lifestyle & Vlogs",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 42312,
+     "city": "Mumbai",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Moj",
+     "represent": false,
+     "credential": null,
+     "fit": 80.2,
+     "parts": {
+      "aud": 97,
+      "cont": 89,
+      "cult": 78,
+      "perf": 51,
+      "auth": 91,
+      "safe": 91,
+      "cost": 90
+     },
+     "contributions": {
+      "aud": 17.5,
+      "cont": 12.4,
+      "cult": 6.2,
+      "perf": 13.3,
+      "auth": 12.7,
+      "safe": 7.2,
+      "cost": 10.8
+     },
+     "confidence": "Medium",
+     "er": 3.58,
+     "linkCtr": 0.75,
+     "realFollowers": 95.5,
+     "viewThrough": 46.3,
+     "hold3s": 66.8,
+     "sponsoredShare": 13,
+     "adDisclosure": 78,
+     "safety": 99,
+     "audienceWomen": 0.453,
+     "forecast": {
+      "cost": 17000,
+      "views": 14833,
+      "tgViews": 12754,
+      "tgShare": 0.9,
+      "engagements": 1743,
+      "clicks": 122,
+      "orders": 5.1,
+      "revenue": 35736,
+      "roas": 2.1,
+      "recallLiftPts": 5.8,
+      "costPerTgView": 1.33,
+      "costPerEngagement": 9.75,
+      "costPerClick": 139.28
+     },
+     "why": [
+      "Audience matches the brief: 45% women (target 48%), 91% age overlap, 97% city-tier overlap",
+      "Link CTR 0.75%, top 51% of micro creators; trust index 1.01",
+      "96% of followers look real and active; 13% of recent posts are sponsored",
+      "Lifestyle &amp; Vlogs is a core category for Ray-Ban, with fashion &amp; style as a second pillar"
+     ],
+     "risks": []
+    }
+   ],
+   "plan": {
+    "creators": 23,
+    "spend": 1399500,
+    "views": 1841801,
+    "tgViews": 1101597,
+    "uniqueTgReach": 675524,
+    "engagements": 74078,
+    "clicks": 17875,
+    "orders": 752,
+    "revenue": 5264468,
+    "roas": 3.76,
+    "recallLiftPts": 6.2,
+    "fakeAudienceShare": 0.14,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 21,
+    "spendByTier": {
+     "mid": 958000,
+     "micro": 122000,
+     "nano": 6500,
+     "macro": 313000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 1395500,
+    "views": 1518805,
+    "tgViews": 872899,
+    "uniqueTgReach": 539840,
+    "engagements": 52040,
+    "clicks": 5897,
+    "orders": 167,
+    "revenue": 1167422,
+    "roas": 0.84,
+    "recallLiftPts": 2.8,
+    "fakeAudienceShare": 0.13,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 33,
+    "spendByTier": {
+     "mega": 1266500,
+     "mid": 129000
+    }
+   },
+   "planCreators": [
+    "Parth K. (Mid-tier, Fashion & Style)",
+    "Karan Y. (Micro, Fashion & Style)",
+    "Abhinav C. (Mid-tier, Fashion & Style)",
+    "Sruthi A. (Mid-tier, Fashion & Style)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Rasika M. (Macro, Fashion & Style)",
+    "Nikita B. (Mid-tier, Fashion & Style)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Debolina R. (Mid-tier, Fashion & Style)",
+    "Hetal C. (Mid-tier, Fashion & Style)",
+    "Rehan G. (Nano, Fashion & Style)"
+   ]
+  }
+ }
+}

@@ -1,0 +1,1767 @@
+{
+ "id": "neemans",
+ "name": "Neeman's",
+ "parent": "Neeman's",
+ "vertical": "fashion",
+ "sub": "Sustainable footwear (D2C)",
+ "status": "Reported client",
+ "defaultObjective": "conversion",
+ "brief": "Own the 'one shoe for office, travel and walks' position for 28–40s.",
+ "moment": "Office return · Jan–Mar",
+ "budgetLakh": 6,
+ "target": {
+  "fem": 0.4,
+  "age": [
+   0.02,
+   0.26,
+   0.46,
+   0.19,
+   0.07
+  ],
+  "tiers": [
+   0.62,
+   0.3,
+   0.08
+  ],
+  "affl": 0.64
+ },
+ "languages": {
+  "English": 1,
+  "Hinglish": 0.85,
+  "Hindi": 0.45
+ },
+ "codes": [
+  "Sustainability",
+  "Working professional",
+  "Fitness-first"
+ ],
+ "affinity": {
+  "fashion": 0.9,
+  "lifestyle": 0.85,
+  "fitness": 0.7,
+  "travel": 0.75,
+  "tech": 0.5
+ },
+ "competitors": [
+  "Bata",
+  "Skechers",
+  "Allbirds"
+ ],
+ "compliance": null,
+ "aov": 3000,
+ "conversionRate": 0.03,
+ "kpis": [
+  "Verified orders",
+  "iROAS",
+  "CAC"
+ ],
+ "markets": [
+  "India"
+ ],
+ "tgPoolMillions": 35,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 364,
+   "gated": 56,
+   "gatesByReason": {
+    "safety": 4,
+    "conflict": 4,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Nithya C.",
+     "id": "CIE-1306",
+     "reasons": [
+      "Brand-safety score 47: profanity in recent content, past controversy (2025)"
+     ]
+    },
+    {
+     "name": "Hetal C.",
+     "id": "CIE-1024",
+     "reasons": [
+      "Posted for Skechers 50 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Ananya Y.",
+     "id": "CIE-1256",
+     "reasons": [
+      "Only 70% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Avni P.",
+     "id": "CIE-1082",
+     "reasons": [
+      "Brand-safety score 43: profanity in recent content, political commentary"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1400",
+     "name": "Gayathri A.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 15153,
+     "city": "Bengaluru",
+     "languages": [
+      "English"
+     ],
+     "platform": "Moj",
+     "represent": false,
+     "credential": null,
+     "fit": 83.9,
+     "parts": {
+      "aud": 93,
+      "cont": 74,
+      "cult": 100,
+      "perf": 61,
+      "auth": 81,
+      "safe": 89,
+      "cost": 90
+     },
+     "contributions": {
+      "aud": 20.5,
+      "cont": 11.1,
+      "cult": 14,
+      "perf": 9.2,
+      "auth": 11.3,
+      "safe": 8.9,
+      "cost": 9
+     },
+     "confidence": "High",
+     "er": 2.66,
+     "linkCtr": 1.11,
+     "realFollowers": 92.9,
+     "viewThrough": 49.4,
+     "hold3s": 64.5,
+     "sponsoredShare": 40,
+     "adDisclosure": 99,
+     "safety": 82,
+     "audienceWomen": 0.519,
+     "forecast": {
+      "cost": 5500,
+      "views": 6502,
+      "tgViews": 5276,
+      "tgShare": 0.87,
+      "engagements": 485,
+      "clicks": 63,
+      "orders": 5.9,
+      "revenue": 17783,
+      "roas": 3.23,
+      "recallLiftPts": 5.7,
+      "costPerTgView": 1.04,
+      "costPerEngagement": 11.34,
+      "costPerClick": 87.27
+     },
+     "why": [
+      "Audience matches the brief: 52% women (target 40%), 92% age overlap, 95% city-tier overlap",
+      "Creates in English, Neeman&#39;s's lead language; shares the Fitness-first and Working professional codes",
+      "93% of followers look real and active; 40% of recent posts are sponsored",
+      "Fitness &amp; Wellness is a strong category for Neeman&#39;s, with lifestyle &amp; vlogs as a second pillar"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1208",
+     "name": "Sahil Y.",
+     "niche": "Lifestyle & Vlogs",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 42312,
+     "city": "Mumbai",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Moj",
+     "represent": false,
+     "credential": null,
+     "fit": 82.2,
+     "parts": {
+      "aud": 95,
+      "cont": 86,
+      "cult": 78,
+      "perf": 55,
+      "auth": 91,
+      "safe": 91,
+      "cost": 74
+     },
+     "contributions": {
+      "aud": 20.9,
+      "cont": 12.9,
+      "cult": 10.9,
+      "perf": 8.3,
+      "auth": 12.7,
+      "safe": 9.1,
+      "cost": 7.4
+     },
+     "confidence": "Medium",
+     "er": 3.58,
+     "linkCtr": 0.75,
+     "realFollowers": 95.5,
+     "viewThrough": 46.3,
+     "hold3s": 66.8,
+     "sponsoredShare": 13,
+     "adDisclosure": 78,
+     "safety": 99,
+     "audienceWomen": 0.453,
+     "forecast": {
+      "cost": 17000,
+      "views": 14833,
+      "tgViews": 12554,
+      "tgShare": 0.89,
+      "engagements": 1743,
+      "clicks": 120,
+      "orders": 12.4,
+      "revenue": 37192,
+      "roas": 2.19,
+      "recallLiftPts": 5.7,
+      "costPerTgView": 1.35,
+      "costPerEngagement": 9.75,
+      "costPerClick": 141.64
+     },
+     "why": [
+      "Audience matches the brief: 45% women (target 40%), 84% age overlap, 96% city-tier overlap",
+      "Lifestyle &amp; Vlogs is a core category for Neeman&#39;s, with fashion &amp; style as a second pillar",
+      "96% of followers look real and active; 13% of recent posts are sponsored",
+      "Creates in English + Hinglish, Neeman&#39;s's lead language; shares the Working professional codes"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1213",
+     "name": "Chirag T.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 317916,
+     "city": "Mumbai",
+     "languages": [
+      "Marathi",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "Certified trainer",
+     "fit": 80.1,
+     "parts": {
+      "aud": 88,
+      "cont": 74,
+      "cult": 69,
+      "perf": 87,
+      "auth": 59,
+      "safe": 89,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 19.4,
+      "cont": 11.1,
+      "cult": 9.7,
+      "perf": 13,
+      "auth": 8.3,
+      "safe": 8.9,
+      "cost": 9.7
+     },
+     "confidence": "Medium",
+     "er": 0.93,
+     "linkCtr": 1.23,
+     "realFollowers": 80.3,
+     "viewThrough": 59.8,
+     "hold3s": 81.5,
+     "sponsoredShare": 31,
+     "adDisclosure": 93,
+     "safety": 87,
+     "audienceWomen": 0.381,
+     "forecast": {
+      "cost": 76000,
+      "views": 142263,
+      "tgViews": 96130,
+      "tgShare": 0.84,
+      "engagements": 4292,
+      "clicks": 1302,
+      "orders": 142.4,
+      "revenue": 427217,
+      "roas": 5.62,
+      "recallLiftPts": 6.3,
+      "costPerTgView": 0.79,
+      "costPerEngagement": 17.71,
+      "costPerClick": 58.39
+     },
+     "why": [
+      "Audience matches the brief: 38% women (target 40%), 98% age overlap, 67% city-tier overlap",
+      "Viewers watch 60% of each video, top 1% of mid-tier creators; past recall lift +6.7 pts",
+      "Fitness &amp; Wellness is a strong category for Neeman&#39;s, with lifestyle &amp; vlogs as a second pillar",
+      "₹0.79 per verified TG view for 1 reel and 2 stories (₹76K)"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1192",
+     "name": "Vivaan Y.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 73368,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.6,
+     "parts": {
+      "aud": 92,
+      "cont": 74,
+      "cult": 69,
+      "perf": 61,
+      "auth": 72,
+      "safe": 89,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 20.3,
+      "cont": 11.1,
+      "cult": 9.7,
+      "perf": 9.2,
+      "auth": 10.1,
+      "safe": 8.9,
+      "cost": 9.4
+     },
+     "confidence": "Low",
+     "er": 4.2,
+     "linkCtr": 0.67,
+     "realFollowers": 85.4,
+     "viewThrough": 34.9,
+     "hold3s": 68,
+     "sponsoredShare": 21,
+     "adDisclosure": 90,
+     "safety": 88,
+     "audienceWomen": 0.502,
+     "forecast": {
+      "cost": 25000,
+      "views": 34034,
+      "tgViews": 25199,
+      "tgShare": 0.87,
+      "engagements": 3478,
+      "clicks": 190,
+      "orders": 25.2,
+      "revenue": 75659,
+      "roas": 3.03,
+      "recallLiftPts": 9.3,
+      "costPerTgView": 0.99,
+      "costPerEngagement": 7.19,
+      "costPerClick": 131.28
+     },
+     "why": [
+      "Audience matches the brief: 50% women (target 40%), 96% age overlap, 88% city-tier overlap",
+      "Fitness &amp; Wellness is a strong category for Neeman&#39;s, with lifestyle &amp; vlogs as a second pillar",
+      "85% of followers look real and active; 21% of recent posts are sponsored",
+      "Creates in Hinglish + Hindi; shares the Fitness-first codes"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1181",
+     "name": "Lakshmi A.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mega",
+     "followers": 3582791,
+     "city": "Chennai",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "Certified trainer",
+     "fit": 78.1,
+     "parts": {
+      "aud": 99,
+      "cont": 74,
+      "cult": 78,
+      "perf": 80,
+      "auth": 47,
+      "safe": 87,
+      "cost": 69
+     },
+     "contributions": {
+      "aud": 21.8,
+      "cont": 11.1,
+      "cult": 10.9,
+      "perf": 12.1,
+      "auth": 6.6,
+      "safe": 8.7,
+      "cost": 6.9
+     },
+     "confidence": "Medium",
+     "er": 0.42,
+     "linkCtr": 0.86,
+     "realFollowers": 75.9,
+     "viewThrough": 44.4,
+     "hold3s": 70.8,
+     "sponsoredShare": 45,
+     "adDisclosure": 91,
+     "safety": 85,
+     "audienceWomen": 0.517,
+     "forecast": {
+      "cost": 908000,
+      "views": 842917,
+      "tgViews": 584905,
+      "tgShare": 0.91,
+      "engagements": 23646,
+      "clicks": 5631,
+      "orders": 518.8,
+      "revenue": 1556488,
+      "roas": 1.71,
+      "recallLiftPts": 8.7,
+      "costPerTgView": 1.55,
+      "costPerEngagement": 38.4,
+      "costPerClick": 161.24
+     },
+     "why": [
+      "Audience matches the brief: 52% women (target 40%), 96% age overlap, 97% city-tier overlap",
+      "Viewers watch 44% of each video, top 40% of mega creators; past recall lift +9 pts",
+      "Fitness &amp; Wellness is a strong category for Neeman&#39;s, with lifestyle &amp; vlogs as a second pillar",
+      "Creates in English + Hinglish, Neeman&#39;s's lead language; shares the Fitness-first codes"
+     ],
+     "risks": []
+    }
+   ],
+   "plan": {
+    "creators": 18,
+    "spend": 598500,
+    "views": 1051789,
+    "tgViews": 669897,
+    "uniqueTgReach": 413176,
+    "engagements": 44175,
+    "clicks": 6030,
+    "orders": 581,
+    "revenue": 1744136,
+    "roas": 2.91,
+    "recallLiftPts": 5.7,
+    "fakeAudienceShare": 0.13,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 25,
+    "spendByTier": {
+     "micro": 180500,
+     "mid": 415500,
+     "nano": 2500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 598000,
+    "views": 557700,
+    "tgViews": 314089,
+    "uniqueTgReach": 194687,
+    "engagements": 20792,
+    "clicks": 3749,
+    "orders": 211,
+    "revenue": 633956,
+    "roas": 1.06,
+    "recallLiftPts": 2.7,
+    "fakeAudienceShare": 0.2,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 573000,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 573000,
+     "mid": 25000
+    }
+   },
+   "planCreators": [
+    "Varsha B. (Micro, Food & Cooking)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Gayathri A. (Micro, Fitness & Wellness)",
+    "Vivaan Y. (Micro, Fitness & Wellness)",
+    "Vivaan M. (Micro, Fitness & Wellness)",
+    "Keerthi J. (Mid-tier, Fashion & Style)",
+    "Mitali B. (Micro, Fashion & Style)",
+    "Karan Y. (Micro, Fashion & Style)",
+    "Hetal A. (Mid-tier, Food & Cooking)",
+    "Chirag T. (Mid-tier, Fitness & Wellness)",
+    "Ananya J. (Micro, Music & Dance)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 364,
+   "gated": 56,
+   "gatesByReason": {
+    "safety": 4,
+    "market": 18,
+    "conflict": 4,
+    "fraud": 32
+   },
+   "gatedExamples": [
+    {
+     "name": "Nithya C.",
+     "id": "CIE-1306",
+     "reasons": [
+      "Brand-safety score 47: profanity in recent content, past controversy (2025)"
+     ]
+    },
+    {
+     "name": "Avni P.",
+     "id": "CIE-1082",
+     "reasons": [
+      "Brand-safety score 43: profanity in recent content, political commentary"
+     ]
+    },
+    {
+     "name": "Rehan G.",
+     "id": "CIE-1162",
+     "reasons": [
+      "Audience is mostly in the UAE; Neeman's runs this brief in India"
+     ]
+    },
+    {
+     "name": "Hetal C.",
+     "id": "CIE-1024",
+     "reasons": [
+      "Posted for Skechers 50 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1208",
+     "name": "Sahil Y.",
+     "niche": "Lifestyle & Vlogs",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 42312,
+     "city": "Mumbai",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Moj",
+     "represent": false,
+     "credential": null,
+     "fit": 78.7,
+     "parts": {
+      "aud": 95,
+      "cont": 86,
+      "cult": 78,
+      "perf": 42,
+      "auth": 91,
+      "safe": 91,
+      "cost": 81
+     },
+     "contributions": {
+      "aud": 19,
+      "cont": 15.5,
+      "cult": 7.8,
+      "perf": 8.4,
+      "auth": 12.7,
+      "safe": 7.2,
+      "cost": 8.1
+     },
+     "confidence": "Medium",
+     "er": 3.58,
+     "linkCtr": 0.75,
+     "realFollowers": 95.5,
+     "viewThrough": 46.3,
+     "hold3s": 66.8,
+     "sponsoredShare": 13,
+     "adDisclosure": 78,
+     "safety": 99,
+     "audienceWomen": 0.453,
+     "forecast": {
+      "cost": 17000,
+      "views": 14833,
+      "tgViews": 12554,
+      "tgShare": 0.89,
+      "engagements": 1743,
+      "clicks": 120,
+      "orders": 12.4,
+      "revenue": 37192,
+      "roas": 2.19,
+      "recallLiftPts": 5.7,
+      "costPerTgView": 1.35,
+      "costPerEngagement": 9.75,
+      "costPerClick": 141.64
+     },
+     "why": [
+      "Audience matches the brief: 45% women (target 40%), 84% age overlap, 96% city-tier overlap",
+      "Lifestyle &amp; Vlogs is a core category for Neeman&#39;s, with fashion &amp; style as a second pillar",
+      "96% of followers look real and active; 13% of recent posts are sponsored",
+      "Engagement rate 3.6%, top 26% of micro creators; 1.0% of viewers save or share"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1192",
+     "name": "Vivaan Y.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 73368,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.5,
+     "parts": {
+      "aud": 92,
+      "cont": 74,
+      "cult": 69,
+      "perf": 64,
+      "auth": 72,
+      "safe": 89,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 18.4,
+      "cont": 13.3,
+      "cult": 6.9,
+      "perf": 12.9,
+      "auth": 10.1,
+      "safe": 7.1,
+      "cost": 9.8
+     },
+     "confidence": "Low",
+     "er": 4.2,
+     "linkCtr": 0.67,
+     "realFollowers": 85.4,
+     "viewThrough": 34.9,
+     "hold3s": 68,
+     "sponsoredShare": 21,
+     "adDisclosure": 90,
+     "safety": 88,
+     "audienceWomen": 0.502,
+     "forecast": {
+      "cost": 25000,
+      "views": 34034,
+      "tgViews": 25199,
+      "tgShare": 0.87,
+      "engagements": 3478,
+      "clicks": 190,
+      "orders": 25.2,
+      "revenue": 75659,
+      "roas": 3.03,
+      "recallLiftPts": 9.3,
+      "costPerTgView": 0.99,
+      "costPerEngagement": 7.19,
+      "costPerClick": 131.28
+     },
+     "why": [
+      "Audience matches the brief: 50% women (target 40%), 96% age overlap, 88% city-tier overlap",
+      "Fitness &amp; Wellness is a strong category for Neeman&#39;s, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 4.2%, top 12% of micro creators; 1.5% of viewers save or share",
+      "85% of followers look real and active; 21% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1337",
+     "name": "Aditya G.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 28048,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 78,
+     "parts": {
+      "aud": 87,
+      "cont": 74,
+      "cult": 92,
+      "perf": 66,
+      "auth": 73,
+      "safe": 91,
+      "cost": 75
+     },
+     "contributions": {
+      "aud": 17.4,
+      "cont": 13.3,
+      "cult": 9.2,
+      "perf": 13.2,
+      "auth": 10.2,
+      "safe": 7.3,
+      "cost": 7.5
+     },
+     "confidence": "Low",
+     "er": 4.72,
+     "linkCtr": 0.47,
+     "realFollowers": 84,
+     "viewThrough": 46,
+     "hold3s": 63.5,
+     "sponsoredShare": 28,
+     "adDisclosure": 91,
+     "safety": 91,
+     "audienceWomen": 0.386,
+     "forecast": {
+      "cost": 14000,
+      "views": 3959,
+      "tgViews": 2762,
+      "tgShare": 0.83,
+      "engagements": 1324,
+      "clicks": 12,
+      "orders": 1.4,
+      "revenue": 4327,
+      "roas": 0.31,
+      "recallLiftPts": 6.9,
+      "costPerTgView": 5.07,
+      "costPerEngagement": 10.58,
+      "costPerClick": 1127.07
+     },
+     "why": [
+      "Audience matches the brief: 39% women (target 40%), 88% age overlap, 73% city-tier overlap",
+      "Fitness &amp; Wellness is a strong category for Neeman&#39;s, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 4.7%, top 9% of micro creators; 1.8% of viewers save or share",
+      "84% of followers look real and active; 28% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1056",
+     "name": "Neel B.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 15258,
+     "city": "Ahmedabad",
+     "languages": [
+      "Gujarati",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "Certified trainer",
+     "fit": 77.7,
+     "parts": {
+      "aud": 72,
+      "cont": 74,
+      "cult": 92,
+      "perf": 72,
+      "auth": 71,
+      "safe": 90,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 14.3,
+      "cont": 13.3,
+      "cult": 9.2,
+      "perf": 14.5,
+      "auth": 9.9,
+      "safe": 7.2,
+      "cost": 9.4
+     },
+     "confidence": "Low",
+     "er": 4,
+     "linkCtr": 0.75,
+     "realFollowers": 85,
+     "viewThrough": 42.7,
+     "hold3s": 59,
+     "sponsoredShare": 21,
+     "adDisclosure": 89,
+     "safety": 91,
+     "audienceWomen": 0.576,
+     "forecast": {
+      "cost": 5500,
+      "views": 6380,
+      "tgViews": 3962,
+      "tgShare": 0.73,
+      "engagements": 693,
+      "clicks": 42,
+      "orders": 5.5,
+      "revenue": 16490,
+      "roas": 3,
+      "recallLiftPts": 6,
+      "costPerTgView": 1.39,
+      "costPerEngagement": 7.94,
+      "costPerClick": 129.64
+     },
+     "why": [
+      "Engagement rate 4.0%, top 16% of micro creators; 2.5% of viewers save or share",
+      "Audience matches the brief: 58% women (target 40%), 96% age overlap, 59% city-tier overlap",
+      "Fitness &amp; Wellness is a strong category for Neeman&#39;s, with lifestyle &amp; vlogs as a second pillar",
+      "85% of followers look real and active; 21% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1104",
+     "name": "Karan Y.",
+     "niche": "Fashion & Style",
+     "niche2": "Travel",
+     "tier": "Micro",
+     "followers": 39673,
+     "city": "Delhi NCR",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 76.8,
+     "parts": {
+      "aud": 75,
+      "cont": 86,
+      "cult": 55,
+      "perf": 79,
+      "auth": 73,
+      "safe": 79,
+      "cost": 85
+     },
+     "contributions": {
+      "aud": 15,
+      "cont": 15.5,
+      "cult": 5.5,
+      "perf": 15.8,
+      "auth": 10.2,
+      "safe": 6.3,
+      "cost": 8.5
+     },
+     "confidence": "Low",
+     "er": 3.18,
+     "linkCtr": 1.04,
+     "realFollowers": 86.2,
+     "viewThrough": 50.2,
+     "hold3s": 67.5,
+     "sponsoredShare": 28,
+     "adDisclosure": 90,
+     "safety": 71,
+     "audienceWomen": 0.644,
+     "forecast": {
+      "cost": 13500,
+      "views": 23658,
+      "tgViews": 15376,
+      "tgShare": 0.75,
+      "engagements": 1476,
+      "clicks": 196,
+      "orders": 22.7,
+      "revenue": 68088,
+      "roas": 5.04,
+      "recallLiftPts": 6.3,
+      "costPerTgView": 0.88,
+      "costPerEngagement": 9.15,
+      "costPerClick": 68.74
+     },
+     "why": [
+      "Engagement rate 3.2%, top 36% of micro creators; 3.5% of viewers save or share",
+      "Fashion &amp; Style is a core category for Neeman&#39;s, with travel as a second pillar",
+      "Audience matches the brief: 64% women (target 40%), 75% age overlap, 95% city-tier overlap",
+      "86% of followers look real and active; 28% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Past controversy (2025)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 40,
+    "spend": 598500,
+    "views": 686706,
+    "tgViews": 444772,
+    "uniqueTgReach": 274718,
+    "engagements": 69512,
+    "clicks": 3063,
+    "orders": 291,
+    "revenue": 871828,
+    "roas": 1.46,
+    "recallLiftPts": 4.5,
+    "fakeAudienceShare": 0.11,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 22,
+    "spendByTier": {
+     "micro": 501500,
+     "nano": 19500,
+     "mid": 77500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 598000,
+    "views": 557700,
+    "tgViews": 314089,
+    "uniqueTgReach": 194687,
+    "engagements": 20792,
+    "clicks": 3749,
+    "orders": 211,
+    "revenue": 633956,
+    "roas": 1.06,
+    "recallLiftPts": 2.7,
+    "fakeAudienceShare": 0.2,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 573000,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 573000,
+     "mid": 25000
+    }
+   },
+   "planCreators": [
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Dhwani R. (Micro, Fitness & Wellness)",
+    "Kunal K. (Micro, Fitness & Wellness)",
+    "Vivaan Y. (Micro, Fitness & Wellness)",
+    "Moumita N. (Micro, Parenting & Family)",
+    "Sneha D. (Micro, Lifestyle & Vlogs)",
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Vivaan M. (Micro, Fitness & Wellness)",
+    "Ananya B. (Micro, Beauty & Skincare)",
+    "Yash S. (Micro, Education & Careers)",
+    "Karan Y. (Micro, Fashion & Style)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 364,
+   "gated": 56,
+   "gatesByReason": {
+    "conflict": 4,
+    "safety": 4,
+    "market": 18,
+    "fraud": 32
+   },
+   "gatedExamples": [
+    {
+     "name": "Hetal C.",
+     "id": "CIE-1024",
+     "reasons": [
+      "Posted for Skechers 50 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Ananya R.",
+     "id": "CIE-1214",
+     "reasons": [
+      "Posted for Skechers 35 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Avni P.",
+     "id": "CIE-1082",
+     "reasons": [
+      "Brand-safety score 43: profanity in recent content, political commentary"
+     ]
+    },
+    {
+     "name": "Nithya C.",
+     "id": "CIE-1306",
+     "reasons": [
+      "Brand-safety score 47: profanity in recent content, past controversy (2025)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1332",
+     "name": "Kunal K.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Food & Cooking",
+     "tier": "Micro",
+     "followers": 32206,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.6,
+     "parts": {
+      "aud": 90,
+      "cont": 54,
+      "cult": 69,
+      "perf": 89,
+      "auth": 74,
+      "safe": 90,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 16.2,
+      "cont": 7.5,
+      "cult": 5.5,
+      "perf": 23,
+      "auth": 10.4,
+      "safe": 7.2,
+      "cost": 11.7
+     },
+     "confidence": "Low",
+     "er": 3.45,
+     "linkCtr": 1.58,
+     "realFollowers": 90.9,
+     "viewThrough": 27.7,
+     "hold3s": 40.9,
+     "sponsoredShare": 44,
+     "adDisclosure": 92,
+     "safety": 88,
+     "audienceWomen": 0.497,
+     "forecast": {
+      "cost": 11000,
+      "views": 12835,
+      "tgViews": 9964,
+      "tgShare": 0.85,
+      "engagements": 1285,
+      "clicks": 158,
+      "orders": 15.7,
+      "revenue": 47099,
+      "roas": 4.28,
+      "recallLiftPts": 2,
+      "costPerTgView": 1.1,
+      "costPerEngagement": 8.56,
+      "costPerClick": 69.81
+     },
+     "why": [
+      "Link CTR 1.58%, top 1% of micro creators; trust index 1.16",
+      "Audience matches the brief: 50% women (target 40%), 95% age overlap, 81% city-tier overlap",
+      "Forecast 4.3× ROAS on ₹11K, about 16 orders",
+      "91% of followers look real and active; 44% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1400",
+     "name": "Gayathri A.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 15153,
+     "city": "Bengaluru",
+     "languages": [
+      "English"
+     ],
+     "platform": "Moj",
+     "represent": false,
+     "credential": null,
+     "fit": 81.3,
+     "parts": {
+      "aud": 93,
+      "cont": 74,
+      "cult": 100,
+      "perf": 63,
+      "auth": 81,
+      "safe": 89,
+      "cost": 95
+     },
+     "contributions": {
+      "aud": 16.8,
+      "cont": 10.3,
+      "cult": 8,
+      "perf": 16.4,
+      "auth": 11.3,
+      "safe": 7.1,
+      "cost": 11.4
+     },
+     "confidence": "High",
+     "er": 2.66,
+     "linkCtr": 1.11,
+     "realFollowers": 92.9,
+     "viewThrough": 49.4,
+     "hold3s": 64.5,
+     "sponsoredShare": 40,
+     "adDisclosure": 99,
+     "safety": 82,
+     "audienceWomen": 0.519,
+     "forecast": {
+      "cost": 5500,
+      "views": 6502,
+      "tgViews": 5276,
+      "tgShare": 0.87,
+      "engagements": 485,
+      "clicks": 63,
+      "orders": 5.9,
+      "revenue": 17783,
+      "roas": 3.23,
+      "recallLiftPts": 5.7,
+      "costPerTgView": 1.04,
+      "costPerEngagement": 11.34,
+      "costPerClick": 87.27
+     },
+     "why": [
+      "Audience matches the brief: 52% women (target 40%), 92% age overlap, 95% city-tier overlap",
+      "Link CTR 1.11%, top 15% of micro creators; trust index 0.98",
+      "Forecast 3.2× ROAS on ₹5.5K, about 6 orders",
+      "93% of followers look real and active; 40% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1361",
+     "name": "Hetal M.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 30105,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.8,
+     "parts": {
+      "aud": 78,
+      "cont": 89,
+      "cult": 69,
+      "perf": 76,
+      "auth": 64,
+      "safe": 90,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 14,
+      "cont": 12.4,
+      "cult": 5.5,
+      "perf": 19.9,
+      "auth": 8.9,
+      "safe": 7.2,
+      "cost": 11.8
+     },
+     "confidence": "High",
+     "er": 2.41,
+     "linkCtr": 1.15,
+     "realFollowers": 80.4,
+     "viewThrough": 26.9,
+     "hold3s": 45.7,
+     "sponsoredShare": 14,
+     "adDisclosure": 83,
+     "safety": 95,
+     "audienceWomen": 0.658,
+     "forecast": {
+      "cost": 11000,
+      "views": 13079,
+      "tgViews": 8112,
+      "tgShare": 0.77,
+      "engagements": 888,
+      "clicks": 145,
+      "orders": 17.7,
+      "revenue": 53109,
+      "roas": 4.83,
+      "recallLiftPts": 5.7,
+      "costPerTgView": 1.36,
+      "costPerEngagement": 12.39,
+      "costPerClick": 75.91
+     },
+     "why": [
+      "Link CTR 1.15%, top 13% of micro creators; trust index 1.18",
+      "Audience matches the brief: 66% women (target 40%), 87% age overlap, 89% city-tier overlap",
+      "Fashion &amp; Style is a core category for Neeman&#39;s, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 4.8× ROAS on ₹11K, about 18 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1208",
+     "name": "Sahil Y.",
+     "niche": "Lifestyle & Vlogs",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 42312,
+     "city": "Mumbai",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Moj",
+     "represent": false,
+     "credential": null,
+     "fit": 79,
+     "parts": {
+      "aud": 95,
+      "cont": 86,
+      "cult": 78,
+      "perf": 51,
+      "auth": 91,
+      "safe": 91,
+      "cost": 87
+     },
+     "contributions": {
+      "aud": 17.1,
+      "cont": 12.1,
+      "cult": 6.2,
+      "perf": 13.3,
+      "auth": 12.7,
+      "safe": 7.2,
+      "cost": 10.4
+     },
+     "confidence": "Medium",
+     "er": 3.58,
+     "linkCtr": 0.75,
+     "realFollowers": 95.5,
+     "viewThrough": 46.3,
+     "hold3s": 66.8,
+     "sponsoredShare": 13,
+     "adDisclosure": 78,
+     "safety": 99,
+     "audienceWomen": 0.453,
+     "forecast": {
+      "cost": 17000,
+      "views": 14833,
+      "tgViews": 12554,
+      "tgShare": 0.89,
+      "engagements": 1743,
+      "clicks": 120,
+      "orders": 12.4,
+      "revenue": 37192,
+      "roas": 2.19,
+      "recallLiftPts": 5.7,
+      "costPerTgView": 1.35,
+      "costPerEngagement": 9.75,
+      "costPerClick": 141.64
+     },
+     "why": [
+      "Audience matches the brief: 45% women (target 40%), 84% age overlap, 96% city-tier overlap",
+      "Link CTR 0.75%, top 51% of micro creators; trust index 1.01",
+      "96% of followers look real and active; 13% of recent posts are sponsored",
+      "Lifestyle &amp; Vlogs is a core category for Neeman&#39;s, with fashion &amp; style as a second pillar"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1213",
+     "name": "Chirag T.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 317916,
+     "city": "Mumbai",
+     "languages": [
+      "Marathi",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "Certified trainer",
+     "fit": 78.3,
+     "parts": {
+      "aud": 88,
+      "cont": 74,
+      "cult": 69,
+      "perf": 74,
+      "auth": 59,
+      "safe": 89,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 15.9,
+      "cont": 10.3,
+      "cult": 5.5,
+      "perf": 19.1,
+      "auth": 8.3,
+      "safe": 7.2,
+      "cost": 12
+     },
+     "confidence": "Medium",
+     "er": 0.93,
+     "linkCtr": 1.23,
+     "realFollowers": 80.3,
+     "viewThrough": 59.8,
+     "hold3s": 81.5,
+     "sponsoredShare": 31,
+     "adDisclosure": 93,
+     "safety": 87,
+     "audienceWomen": 0.381,
+     "forecast": {
+      "cost": 76000,
+      "views": 142263,
+      "tgViews": 96130,
+      "tgShare": 0.84,
+      "engagements": 4292,
+      "clicks": 1302,
+      "orders": 142.4,
+      "revenue": 427217,
+      "roas": 5.62,
+      "recallLiftPts": 6.3,
+      "costPerTgView": 0.79,
+      "costPerEngagement": 17.71,
+      "costPerClick": 58.39
+     },
+     "why": [
+      "Link CTR 1.23%, top 11% of mid-tier creators; trust index 1.14",
+      "Audience matches the brief: 38% women (target 40%), 98% age overlap, 67% city-tier overlap",
+      "Forecast 5.6× ROAS on ₹76K, about 142 orders",
+      "Fitness &amp; Wellness is a strong category for Neeman&#39;s, with lifestyle &amp; vlogs as a second pillar"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1104",
+     "name": "Karan Y.",
+     "niche": "Fashion & Style",
+     "niche2": "Travel",
+     "tier": "Micro",
+     "followers": 39673,
+     "city": "Delhi NCR",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.2,
+     "parts": {
+      "aud": 75,
+      "cont": 86,
+      "cult": 55,
+      "perf": 76,
+      "auth": 73,
+      "safe": 79,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 13.5,
+      "cont": 12.1,
+      "cult": 4.4,
+      "perf": 19.7,
+      "auth": 10.2,
+      "safe": 6.3,
+      "cost": 11.9
+     },
+     "confidence": "Low",
+     "er": 3.18,
+     "linkCtr": 1.04,
+     "realFollowers": 86.2,
+     "viewThrough": 50.2,
+     "hold3s": 67.5,
+     "sponsoredShare": 28,
+     "adDisclosure": 90,
+     "safety": 71,
+     "audienceWomen": 0.644,
+     "forecast": {
+      "cost": 13500,
+      "views": 23658,
+      "tgViews": 15376,
+      "tgShare": 0.75,
+      "engagements": 1476,
+      "clicks": 196,
+      "orders": 22.7,
+      "revenue": 68088,
+      "roas": 5.04,
+      "recallLiftPts": 6.3,
+      "costPerTgView": 0.88,
+      "costPerEngagement": 9.15,
+      "costPerClick": 68.74
+     },
+     "why": [
+      "Link CTR 1.04%, top 17% of micro creators; trust index 1.13",
+      "Audience matches the brief: 64% women (target 40%), 75% age overlap, 95% city-tier overlap",
+      "Fashion &amp; Style is a core category for Neeman&#39;s, with travel as a second pillar",
+      "Forecast 5.0× ROAS on ₹14K, about 23 orders"
+     ],
+     "risks": [
+      "Past controversy (2025)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1167",
+     "name": "Chirag K.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 31825,
+     "city": "Mumbai",
+     "languages": [
+      "English"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 77.7,
+     "parts": {
+      "aud": 97,
+      "cont": 74,
+      "cult": 100,
+      "perf": 66,
+      "auth": 79,
+      "safe": 81,
+      "cost": 60
+     },
+     "contributions": {
+      "aud": 17.4,
+      "cont": 10.3,
+      "cult": 8,
+      "perf": 17.2,
+      "auth": 11,
+      "safe": 6.4,
+      "cost": 7.3
+     },
+     "confidence": "High",
+     "er": 1.92,
+     "linkCtr": 1.25,
+     "realFollowers": 91,
+     "viewThrough": 29.5,
+     "hold3s": 50.8,
+     "sponsoredShare": 37,
+     "adDisclosure": 80,
+     "safety": 81,
+     "audienceWomen": 0.53,
+     "forecast": {
+      "cost": 10000,
+      "views": 4630,
+      "tgViews": 3788,
+      "tgShare": 0.9,
+      "engagements": 611,
+      "clicks": 39,
+      "orders": 3.9,
+      "revenue": 11568,
+      "roas": 1.16,
+      "recallLiftPts": 1.9,
+      "costPerTgView": 2.64,
+      "costPerEngagement": 16.37,
+      "costPerClick": 258.83
+     },
+     "why": [
+      "Audience matches the brief: 53% women (target 40%), 94% age overlap, 99% city-tier overlap",
+      "Link CTR 1.25%, top 7% of micro creators; trust index 1.04",
+      "91% of followers look real and active; 37% of recent posts are sponsored",
+      "Fitness &amp; Wellness is a strong category for Neeman&#39;s, with lifestyle &amp; vlogs as a second pillar"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1192",
+     "name": "Vivaan Y.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 73368,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.1,
+     "parts": {
+      "aud": 92,
+      "cont": 74,
+      "cult": 69,
+      "perf": 62,
+      "auth": 72,
+      "safe": 89,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 16.6,
+      "cont": 10.3,
+      "cult": 5.5,
+      "perf": 16.1,
+      "auth": 10.1,
+      "safe": 7.1,
+      "cost": 11.3
+     },
+     "confidence": "Low",
+     "er": 4.2,
+     "linkCtr": 0.67,
+     "realFollowers": 85.4,
+     "viewThrough": 34.9,
+     "hold3s": 68,
+     "sponsoredShare": 21,
+     "adDisclosure": 90,
+     "safety": 88,
+     "audienceWomen": 0.502,
+     "forecast": {
+      "cost": 25000,
+      "views": 34034,
+      "tgViews": 25199,
+      "tgShare": 0.87,
+      "engagements": 3478,
+      "clicks": 190,
+      "orders": 25.2,
+      "revenue": 75659,
+      "roas": 3.03,
+      "recallLiftPts": 9.3,
+      "costPerTgView": 0.99,
+      "costPerEngagement": 7.19,
+      "costPerClick": 131.28
+     },
+     "why": [
+      "Audience matches the brief: 50% women (target 40%), 96% age overlap, 88% city-tier overlap",
+      "Link CTR 0.67%, top 63% of micro creators; trust index 1.38",
+      "Forecast 3.0× ROAS on ₹25K, about 25 orders",
+      "Fitness &amp; Wellness is a strong category for Neeman&#39;s, with lifestyle &amp; vlogs as a second pillar"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1357",
+     "name": "Rasika M.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Macro",
+     "followers": 904194,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77,
+     "parts": {
+      "aud": 59,
+      "cont": 89,
+      "cult": 47,
+      "perf": 87,
+      "auth": 66,
+      "safe": 84,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 10.6,
+      "cont": 12.4,
+      "cult": 3.7,
+      "perf": 22.6,
+      "auth": 9.2,
+      "safe": 6.7,
+      "cost": 11.7
+     },
+     "confidence": "Medium",
+     "er": 0.96,
+     "linkCtr": 1.21,
+     "realFollowers": 82.3,
+     "viewThrough": 57.1,
+     "hold3s": 72,
+     "sponsoredShare": 25,
+     "adDisclosure": 80,
+     "safety": 86,
+     "audienceWomen": 0.834,
+     "forecast": {
+      "cost": 313000,
+      "views": 378871,
+      "tgViews": 203607,
+      "tgShare": 0.65,
+      "engagements": 11664,
+      "clicks": 3478,
+      "orders": 432.1,
+      "revenue": 1296329,
+      "roas": 4.14,
+      "recallLiftPts": 8.6,
+      "costPerTgView": 1.54,
+      "costPerEngagement": 26.83,
+      "costPerClick": 89.99
+     },
+     "why": [
+      "Link CTR 1.21%, top 7% of macro creators; trust index 1.20",
+      "Fashion &amp; Style is a core category for Neeman&#39;s, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 4.1× ROAS on ₹3.13L, about 432 orders",
+      "Audience matches the brief: 83% women (target 40%), 82% age overlap, 81% city-tier overlap"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1056",
+     "name": "Neel B.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 15258,
+     "city": "Ahmedabad",
+     "languages": [
+      "Gujarati",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "Certified trainer",
+     "fit": 76.4,
+     "parts": {
+      "aud": 72,
+      "cont": 74,
+      "cult": 92,
+      "perf": 68,
+      "auth": 71,
+      "safe": 90,
+      "cost": 93
+     },
+     "contributions": {
+      "aud": 12.9,
+      "cont": 10.3,
+      "cult": 7.3,
+      "perf": 17.6,
+      "auth": 9.9,
+      "safe": 7.2,
+      "cost": 11.2
+     },
+     "confidence": "Low",
+     "er": 4,
+     "linkCtr": 0.75,
+     "realFollowers": 85,
+     "viewThrough": 42.7,
+     "hold3s": 59,
+     "sponsoredShare": 21,
+     "adDisclosure": 89,
+     "safety": 91,
+     "audienceWomen": 0.576,
+     "forecast": {
+      "cost": 5500,
+      "views": 6380,
+      "tgViews": 3962,
+      "tgShare": 0.73,
+      "engagements": 693,
+      "clicks": 42,
+      "orders": 5.5,
+      "revenue": 16490,
+      "roas": 3,
+      "recallLiftPts": 6,
+      "costPerTgView": 1.39,
+      "costPerEngagement": 7.94,
+      "costPerClick": 129.64
+     },
+     "why": [
+      "Link CTR 0.75%, top 51% of micro creators; trust index 1.35",
+      "Audience matches the brief: 58% women (target 40%), 96% age overlap, 59% city-tier overlap",
+      "Forecast 3.0× ROAS on ₹5.5K, about 5 orders",
+      "Fitness &amp; Wellness is a strong category for Neeman&#39;s, with lifestyle &amp; vlogs as a second pillar"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 19,
+    "spend": 599500,
+    "views": 910744,
+    "tgViews": 566709,
+    "uniqueTgReach": 349816,
+    "engagements": 46693,
+    "clicks": 8873,
+    "orders": 889,
+    "revenue": 2666898,
+    "roas": 4.45,
+    "recallLiftPts": 5.3,
+    "fakeAudienceShare": 0.14,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 20,
+    "spendByTier": {
+     "micro": 170500,
+     "mid": 425000,
+     "nano": 4000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 598000,
+    "views": 557700,
+    "tgViews": 314089,
+    "uniqueTgReach": 194687,
+    "engagements": 20792,
+    "clicks": 3749,
+    "orders": 211,
+    "revenue": 633956,
+    "roas": 1.06,
+    "recallLiftPts": 2.7,
+    "fakeAudienceShare": 0.2,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 573000,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 573000,
+     "mid": 25000
+    }
+   },
+   "planCreators": [
+    "Kunal K. (Micro, Fitness & Wellness)",
+    "Parth K. (Mid-tier, Fashion & Style)",
+    "Karan Y. (Micro, Fashion & Style)",
+    "Mansi B. (Micro, Tech & Gadgets)",
+    "Sruthi A. (Mid-tier, Fashion & Style)",
+    "Gayathri A. (Micro, Fitness & Wellness)",
+    "Chirag T. (Mid-tier, Fitness & Wellness)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Abhinav C. (Mid-tier, Fashion & Style)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Nikita B. (Mid-tier, Fashion & Style)"
+   ]
+  }
+ }
+}

@@ -1,0 +1,1775 @@
+{
+ "id": "dalba",
+ "name": "d'Alba",
+ "parent": "d'Alba (Korea)",
+ "vertical": "beauty",
+ "sub": "K-beauty",
+ "status": "Reported client",
+ "defaultObjective": "conversion",
+ "brief": "Make the white-truffle mist the first K-beauty buy for Indian Gen Z.",
+ "moment": "Launch window · Q3",
+ "budgetLakh": 9,
+ "target": {
+  "fem": 0.86,
+  "age": [
+   0.08,
+   0.52,
+   0.32,
+   0.06,
+   0.02
+  ],
+  "tiers": [
+   0.55,
+   0.35,
+   0.1
+  ],
+  "affl": 0.6
+ },
+ "languages": {
+  "English": 1,
+  "Hinglish": 0.95,
+  "Hindi": 0.5
+ },
+ "codes": [
+  "K-culture",
+  "Gen-Z humour",
+  "Aspirational luxury"
+ ],
+ "affinity": {
+  "beauty": 1,
+  "fashion": 0.75,
+  "lifestyle": 0.8
+ },
+ "competitors": [
+  "COSRX",
+  "Innisfree",
+  "Laneige",
+  "Beauty of Joseon"
+ ],
+ "compliance": null,
+ "aov": 1600,
+ "conversionRate": 0.04,
+ "kpis": [
+  "Verified orders",
+  "Saves per view",
+  "Search lift"
+ ],
+ "markets": [
+  "India"
+ ],
+ "tgPoolMillions": 30,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 365,
+   "gated": 55,
+   "gatesByReason": {
+    "conflict": 4,
+    "safety": 4,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Kavya S.",
+     "id": "CIE-1404",
+     "reasons": [
+      "Posted for Innisfree 18 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Mitali S.",
+     "id": "CIE-1109",
+     "reasons": [
+      "Brand-safety score 51: political commentary, unverified health claims"
+     ]
+    },
+    {
+     "name": "Nithya C.",
+     "id": "CIE-1306",
+     "reasons": [
+      "Brand-safety score 47: profanity in recent content, past controversy (2025)"
+     ]
+    },
+    {
+     "name": "Hetal D.",
+     "id": "CIE-1212",
+     "reasons": [
+      "Only 65.5% of followers look real and active (gate is 72%)",
+      "Posted for COSRX 22 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1271",
+     "name": "Rasika D.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 91472,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 87.3,
+     "parts": {
+      "aud": 93,
+      "cont": 95,
+      "cult": 97,
+      "perf": 65,
+      "auth": 82,
+      "safe": 85,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 20.4,
+      "cont": 14.3,
+      "cult": 13.6,
+      "perf": 9.7,
+      "auth": 11.4,
+      "safe": 8.5,
+      "cost": 9.4
+     },
+     "confidence": "Medium",
+     "er": 4.34,
+     "linkCtr": 0.7,
+     "realFollowers": 90.6,
+     "viewThrough": 54,
+     "hold3s": 66.7,
+     "sponsoredShare": 27,
+     "adDisclosure": 92,
+     "safety": 81,
+     "audienceWomen": 0.886,
+     "forecast": {
+      "cost": 37500,
+      "views": 51100,
+      "tgViews": 40275,
+      "tgShare": 0.87,
+      "engagements": 4464,
+      "clicks": 313,
+      "orders": 47.6,
+      "revenue": 76148,
+      "roas": 2.03,
+      "recallLiftPts": 5.8,
+      "costPerTgView": 0.93,
+      "costPerEngagement": 8.4,
+      "costPerClick": 119.92
+     },
+     "why": [
+      "Audience matches the brief: 89% women (target 86%), 85% age overlap, 93% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for d&#39;Alba, with lifestyle &amp; vlogs as a second pillar",
+      "Creates in Hinglish, d&#39;Alba's lead language; shares the Aspirational luxury and K-culture codes",
+      "91% of followers look real and active; 27% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1231",
+     "name": "Riya D.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 30854,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 86.5,
+     "parts": {
+      "aud": 97,
+      "cont": 95,
+      "cult": 75,
+      "perf": 66,
+      "auth": 83,
+      "safe": 91,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 21.3,
+      "cont": 14.3,
+      "cult": 10.5,
+      "perf": 9.9,
+      "auth": 11.7,
+      "safe": 9.1,
+      "cost": 9.9
+     },
+     "confidence": "Low",
+     "er": 1.88,
+     "linkCtr": 0.85,
+     "realFollowers": 90.5,
+     "viewThrough": 44.7,
+     "hold3s": 59,
+     "sponsoredShare": 13,
+     "adDisclosure": 100,
+     "safety": 85,
+     "audienceWomen": 0.856,
+     "forecast": {
+      "cost": 8000,
+      "views": 12413,
+      "tgViews": 10109,
+      "tgShare": 0.9,
+      "engagements": 747,
+      "clicks": 111,
+      "orders": 19.2,
+      "revenue": 30763,
+      "roas": 3.85,
+      "recallLiftPts": 10.8,
+      "costPerTgView": 0.79,
+      "costPerEngagement": 10.71,
+      "costPerClick": 72.2
+     },
+     "why": [
+      "Audience matches the brief: 86% women (target 86%), 89% age overlap, 89% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for d&#39;Alba, with lifestyle &amp; vlogs as a second pillar",
+      "91% of followers look real and active; 13% of recent posts are sponsored",
+      "Creates in Hinglish + Hindi, d&#39;Alba's lead language; shares the K-culture codes"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1216",
+     "name": "Dhwani M.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Micro",
+     "followers": 11990,
+     "city": "Mumbai",
+     "languages": [
+      "Marathi",
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.5,
+     "parts": {
+      "aud": 81,
+      "cont": 81,
+      "cult": 100,
+      "perf": 83,
+      "auth": 74,
+      "safe": 87,
+      "cost": 90
+     },
+     "contributions": {
+      "aud": 17.9,
+      "cont": 12.2,
+      "cult": 14,
+      "perf": 12.4,
+      "auth": 10.3,
+      "safe": 8.7,
+      "cost": 9
+     },
+     "confidence": "Medium",
+     "er": 3.79,
+     "linkCtr": 0.9,
+     "realFollowers": 86.2,
+     "viewThrough": 54.2,
+     "hold3s": 68.6,
+     "sponsoredShare": 29,
+     "adDisclosure": 92,
+     "safety": 83,
+     "audienceWomen": 0.736,
+     "forecast": {
+      "cost": 5000,
+      "views": 6695,
+      "tgViews": 4583,
+      "tgShare": 0.79,
+      "engagements": 519,
+      "clicks": 48,
+      "orders": 5.8,
+      "revenue": 9202,
+      "roas": 1.84,
+      "recallLiftPts": 7.5,
+      "costPerTgView": 1.09,
+      "costPerEngagement": 9.63,
+      "costPerClick": 104.06
+     },
+     "why": [
+      "Audience matches the brief: 74% women (target 86%), 97% age overlap, 69% city-tier overlap",
+      "Creates in Marathi + English, d&#39;Alba's lead language; shares the Aspirational luxury and Gen-Z humour codes",
+      "Viewers watch 54% of each video, top 8% of micro creators; past recall lift +7.7 pts",
+      "Fashion &amp; Style is a strong category for d&#39;Alba, with beauty &amp; skincare as a second pillar"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1316",
+     "name": "Gayathri J.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 14204,
+     "city": "Hyderabad",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.7,
+     "parts": {
+      "aud": 90,
+      "cont": 76,
+      "cult": 78,
+      "perf": 85,
+      "auth": 73,
+      "safe": 79,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 19.8,
+      "cont": 11.4,
+      "cult": 10.9,
+      "perf": 12.8,
+      "auth": 10.2,
+      "safe": 7.9,
+      "cost": 9.8
+     },
+     "confidence": "Medium",
+     "er": 2.01,
+     "linkCtr": 0.77,
+     "realFollowers": 86.8,
+     "viewThrough": 55.3,
+     "hold3s": 68.1,
+     "sponsoredShare": 28,
+     "adDisclosure": 69,
+     "safety": 86,
+     "audienceWomen": 0.788,
+     "forecast": {
+      "cost": 3000,
+      "views": 5522,
+      "tgViews": 4084,
+      "tgShare": 0.85,
+      "engagements": 362,
+      "clicks": 40,
+      "orders": 4.8,
+      "revenue": 7737,
+      "roas": 2.58,
+      "recallLiftPts": 7.7,
+      "costPerTgView": 0.73,
+      "costPerEngagement": 8.28,
+      "costPerClick": 74.8
+     },
+     "why": [
+      "Audience matches the brief: 79% women (target 86%), 90% age overlap, 95% city-tier overlap",
+      "Viewers watch 55% of each video, top 6% of micro creators; past recall lift +8 pts",
+      "Beauty &amp; Skincare is a strong category for d&#39;Alba, with doctors &amp; dietitians as a second pillar",
+      "Creates in English, d&#39;Alba's lead language; shares the K-culture codes"
+     ],
+     "risks": [
+      "Discloses #ad on only 69% of paid posts. Brief on disclosure in the first line"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1083",
+     "name": "Mitali B.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Micro",
+     "followers": 30216,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.5,
+     "parts": {
+      "aud": 81,
+      "cont": 81,
+      "cult": 75,
+      "perf": 76,
+      "auth": 85,
+      "safe": 92,
+      "cost": 96
+     },
+     "contributions": {
+      "aud": 17.8,
+      "cont": 12.2,
+      "cult": 10.5,
+      "perf": 11.3,
+      "auth": 12,
+      "safe": 9.2,
+      "cost": 9.6
+     },
+     "confidence": "Low",
+     "er": 2.34,
+     "linkCtr": 0.51,
+     "realFollowers": 90,
+     "viewThrough": 55.3,
+     "hold3s": 55.1,
+     "sponsoredShare": 4,
+     "adDisclosure": 94,
+     "safety": 90,
+     "audienceWomen": 0.705,
+     "forecast": {
+      "cost": 9500,
+      "views": 13910,
+      "tgViews": 9924,
+      "tgShare": 0.79,
+      "engagements": 870,
+      "clicks": 63,
+      "orders": 9,
+      "revenue": 14435,
+      "roas": 1.52,
+      "recallLiftPts": 9.3,
+      "costPerTgView": 0.96,
+      "costPerEngagement": 10.92,
+      "costPerClick": 151.26
+     },
+     "why": [
+      "Audience matches the brief: 71% women (target 86%), 82% age overlap, 86% city-tier overlap",
+      "Fashion &amp; Style is a strong category for d&#39;Alba, with beauty &amp; skincare as a second pillar",
+      "90% of followers look real and active; 4% of recent posts are sponsored",
+      "Viewers watch 55% of each video, top 6% of micro creators; past recall lift +9.6 pts"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 25,
+    "spend": 898000,
+    "views": 1518429,
+    "tgViews": 1085785,
+    "uniqueTgReach": 666647,
+    "engagements": 53511,
+    "clicks": 8928,
+    "orders": 1095,
+    "revenue": 1752047,
+    "roas": 1.95,
+    "recallLiftPts": 5.5,
+    "fakeAudienceShare": 0.11,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 49000,
+    "forecastBandPct": 26,
+    "spendByTier": {
+     "macro": 177500,
+     "micro": 249500,
+     "mid": 467000,
+     "nano": 4000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 888000,
+    "views": 1499422,
+    "tgViews": 664323,
+    "uniqueTgReach": 411498,
+    "engagements": 27348,
+    "clicks": 3319,
+    "orders": 286,
+    "revenue": 456962,
+    "roas": 0.51,
+    "recallLiftPts": 3.3,
+    "fakeAudienceShare": 0.22,
+    "gatedIncluded": 1,
+    "representCreators": 1,
+    "representSpend": 112000,
+    "forecastBandPct": 21,
+    "spendByTier": {
+     "mega": 776000,
+     "mid": 112000
+    }
+   },
+   "planCreators": [
+    "Keerthi B. (Macro, Beauty & Skincare)",
+    "Riya D. (Micro, Beauty & Skincare)",
+    "Rasika D. (Micro, Beauty & Skincare)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Varsha B. (Micro, Food & Cooking)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Ananya J. (Micro, Music & Dance)",
+    "Mitali B. (Micro, Fashion & Style)",
+    "Keerthi J. (Mid-tier, Fashion & Style)",
+    "Nikita B. (Mid-tier, Fashion & Style)",
+    "Tanvi P. (Micro, Beauty & Skincare)",
+    "Debolina R. (Mid-tier, Fashion & Style)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 365,
+   "gated": 55,
+   "gatesByReason": {
+    "safety": 4,
+    "fraud": 32,
+    "conflict": 4,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Mitali S.",
+     "id": "CIE-1109",
+     "reasons": [
+      "Brand-safety score 51: political commentary, unverified health claims"
+     ]
+    },
+    {
+     "name": "Aarya D.",
+     "id": "CIE-1139",
+     "reasons": [
+      "Only 54.2% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Kavya S.",
+     "id": "CIE-1404",
+     "reasons": [
+      "Posted for Innisfree 18 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Lakshmi S.",
+     "id": "CIE-1068",
+     "reasons": [
+      "Only 68.2% of followers look real and active (gate is 72%)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1201",
+     "name": "Dhwani K.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 18750,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 86.5,
+     "parts": {
+      "aud": 92,
+      "cont": 95,
+      "cult": 97,
+      "perf": 73,
+      "auth": 77,
+      "safe": 81,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 18.4,
+      "cont": 17.1,
+      "cult": 9.7,
+      "perf": 14.6,
+      "auth": 10.8,
+      "safe": 6.5,
+      "cost": 9.4
+     },
+     "confidence": "Medium",
+     "er": 5.45,
+     "linkCtr": 0.69,
+     "realFollowers": 89.1,
+     "viewThrough": 43,
+     "hold3s": 68.8,
+     "sponsoredShare": 25,
+     "adDisclosure": 85,
+     "safety": 78,
+     "audienceWomen": 0.853,
+     "forecast": {
+      "cost": 9000,
+      "views": 6870,
+      "tgViews": 5309,
+      "tgShare": 0.87,
+      "engagements": 1123,
+      "clicks": 53,
+      "orders": 8.4,
+      "revenue": 13433,
+      "roas": 1.49,
+      "recallLiftPts": 4.9,
+      "costPerTgView": 1.7,
+      "costPerEngagement": 8.01,
+      "costPerClick": 170.78
+     },
+     "why": [
+      "Audience matches the brief: 85% women (target 86%), 82% age overlap, 94% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for d&#39;Alba, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 5.5%, top 4% of micro creators; 2.5% of viewers save or share",
+      "89% of followers look real and active; 25% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1271",
+     "name": "Rasika D.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 91472,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.2,
+     "parts": {
+      "aud": 93,
+      "cont": 95,
+      "cult": 97,
+      "perf": 58,
+      "auth": 82,
+      "safe": 85,
+      "cost": 90
+     },
+     "contributions": {
+      "aud": 18.5,
+      "cont": 17.1,
+      "cult": 9.7,
+      "perf": 11.6,
+      "auth": 11.4,
+      "safe": 6.8,
+      "cost": 9
+     },
+     "confidence": "Medium",
+     "er": 4.34,
+     "linkCtr": 0.7,
+     "realFollowers": 90.6,
+     "viewThrough": 54,
+     "hold3s": 66.7,
+     "sponsoredShare": 27,
+     "adDisclosure": 92,
+     "safety": 81,
+     "audienceWomen": 0.886,
+     "forecast": {
+      "cost": 37500,
+      "views": 51100,
+      "tgViews": 40275,
+      "tgShare": 0.87,
+      "engagements": 4464,
+      "clicks": 313,
+      "orders": 47.6,
+      "revenue": 76148,
+      "roas": 2.03,
+      "recallLiftPts": 5.8,
+      "costPerTgView": 0.93,
+      "costPerEngagement": 8.4,
+      "costPerClick": 119.92
+     },
+     "why": [
+      "Audience matches the brief: 89% women (target 86%), 85% age overlap, 93% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for d&#39;Alba, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 4.3%, top 10% of micro creators; 1.8% of viewers save or share",
+      "91% of followers look real and active; 27% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1296",
+     "name": "Subhankar B.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 45223,
+     "city": "Kolkata",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.9,
+     "parts": {
+      "aud": 85,
+      "cont": 95,
+      "cult": 52,
+      "perf": 78,
+      "auth": 76,
+      "safe": 90,
+      "cost": 82
+     },
+     "contributions": {
+      "aud": 17,
+      "cont": 17.1,
+      "cult": 5.2,
+      "perf": 15.5,
+      "auth": 10.6,
+      "safe": 7.2,
+      "cost": 8.2
+     },
+     "confidence": "Medium",
+     "er": 3.76,
+     "linkCtr": 0.59,
+     "realFollowers": 83.4,
+     "viewThrough": 41.2,
+     "hold3s": 55.4,
+     "sponsoredShare": 11,
+     "adDisclosure": 89,
+     "safety": 91,
+     "audienceWomen": 0.838,
+     "forecast": {
+      "cost": 18500,
+      "views": 23148,
+      "tgViews": 15833,
+      "tgShare": 0.82,
+      "engagements": 1945,
+      "clicks": 125,
+      "orders": 16.7,
+      "revenue": 26750,
+      "roas": 1.45,
+      "recallLiftPts": 6.1,
+      "costPerTgView": 1.17,
+      "costPerEngagement": 9.51,
+      "costPerClick": 147.95
+     },
+     "why": [
+      "Beauty &amp; Skincare is a core category for d&#39;Alba, with lifestyle &amp; vlogs as a second pillar",
+      "Audience matches the brief: 84% women (target 86%), 84% age overlap, 81% city-tier overlap",
+      "Engagement rate 3.8%, top 20% of micro creators; 2.6% of viewers save or share",
+      "83% of followers look real and active; 11% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1141",
+     "name": "Ananya B.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 28452,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.1,
+     "parts": {
+      "aud": 89,
+      "cont": 95,
+      "cult": 75,
+      "perf": 51,
+      "auth": 76,
+      "safe": 86,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 17.7,
+      "cont": 17.1,
+      "cult": 7.5,
+      "perf": 10.2,
+      "auth": 10.7,
+      "safe": 6.9,
+      "cost": 10
+     },
+     "confidence": "Medium",
+     "er": 6.77,
+     "linkCtr": 0.5,
+     "realFollowers": 88.5,
+     "viewThrough": 52.3,
+     "hold3s": 65.3,
+     "sponsoredShare": 21,
+     "adDisclosure": 90,
+     "safety": 84,
+     "audienceWomen": 0.869,
+     "forecast": {
+      "cost": 12000,
+      "views": 10219,
+      "tgViews": 7627,
+      "tgShare": 0.84,
+      "engagements": 2080,
+      "clicks": 58,
+      "orders": 10.3,
+      "revenue": 16493,
+      "roas": 1.37,
+      "recallLiftPts": 4.4,
+      "costPerTgView": 1.57,
+      "costPerEngagement": 5.77,
+      "costPerClick": 208.64
+     },
+     "why": [
+      "Audience matches the brief: 87% women (target 86%), 80% age overlap, 90% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for d&#39;Alba, with lifestyle &amp; vlogs as a second pillar",
+      "89% of followers look real and active; 21% of recent posts are sponsored",
+      "Engagement rate 6.8%, top 1% of micro creators; 1.3% of viewers save or share"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1140",
+     "name": "Lakshmi G.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 11900,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80,
+     "parts": {
+      "aud": 85,
+      "cont": 94,
+      "cult": 52,
+      "perf": 70,
+      "auth": 78,
+      "safe": 78,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 17,
+      "cont": 16.9,
+      "cult": 5.2,
+      "perf": 14,
+      "auth": 10.9,
+      "safe": 6.2,
+      "cost": 9.7
+     },
+     "confidence": "Medium",
+     "er": 4.12,
+     "linkCtr": 1.02,
+     "realFollowers": 89,
+     "viewThrough": 42.9,
+     "hold3s": 63.8,
+     "sponsoredShare": 20,
+     "adDisclosure": 92,
+     "safety": 68,
+     "audienceWomen": 0.954,
+     "forecast": {
+      "cost": 4000,
+      "views": 4857,
+      "tgViews": 3545,
+      "tgShare": 0.82,
+      "engagements": 555,
+      "clicks": 51,
+      "orders": 9.2,
+      "revenue": 14701,
+      "roas": 3.68,
+      "recallLiftPts": 6,
+      "costPerTgView": 1.13,
+      "costPerEngagement": 7.21,
+      "costPerClick": 78.18
+     },
+     "why": [
+      "Audience matches the brief: 95% women (target 86%), 81% age overlap, 87% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for d&#39;Alba, with fashion &amp; style as a second pillar",
+      "Engagement rate 4.1%, top 14% of micro creators; 2.4% of viewers save or share",
+      "89% of followers look real and active; 20% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Unverified health claims"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 47,
+    "spend": 900000,
+    "views": 1039823,
+    "tgViews": 716488,
+    "uniqueTgReach": 441196,
+    "engagements": 94479,
+    "clicks": 5778,
+    "orders": 737,
+    "revenue": 1179868,
+    "roas": 1.31,
+    "recallLiftPts": 4.7,
+    "fakeAudienceShare": 0.12,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 22,
+    "spendByTier": {
+     "micro": 719500,
+     "nano": 14000,
+     "mid": 166500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 888000,
+    "views": 1499422,
+    "tgViews": 664323,
+    "uniqueTgReach": 411498,
+    "engagements": 27348,
+    "clicks": 3319,
+    "orders": 286,
+    "revenue": 456962,
+    "roas": 0.51,
+    "recallLiftPts": 3.3,
+    "fakeAudienceShare": 0.22,
+    "gatedIncluded": 1,
+    "representCreators": 1,
+    "representSpend": 112000,
+    "forecastBandPct": 21,
+    "spendByTier": {
+     "mega": 776000,
+     "mid": 112000
+    }
+   },
+   "planCreators": [
+    "Rasika D. (Micro, Beauty & Skincare)",
+    "Ananya B. (Micro, Beauty & Skincare)",
+    "Dhwani K. (Micro, Beauty & Skincare)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Aditi B. (Micro, Beauty & Skincare)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Moumita N. (Micro, Parenting & Family)",
+    "Karan V. (Micro, Beauty & Skincare)",
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Lakshmi G. (Micro, Beauty & Skincare)",
+    "Meher A. (Micro, Beauty & Skincare)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 365,
+   "gated": 55,
+   "gatesByReason": {
+    "conflict": 4,
+    "safety": 4,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Kavya S.",
+     "id": "CIE-1404",
+     "reasons": [
+      "Posted for Innisfree 18 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Mitali S.",
+     "id": "CIE-1109",
+     "reasons": [
+      "Brand-safety score 51: political commentary, unverified health claims"
+     ]
+    },
+    {
+     "name": "Aarya D.",
+     "id": "CIE-1139",
+     "reasons": [
+      "Only 54.2% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Hetal D.",
+     "id": "CIE-1212",
+     "reasons": [
+      "Only 65.5% of followers look real and active (gate is 72%)",
+      "Posted for COSRX 22 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1334",
+     "name": "Mansi T.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 125386,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": true,
+     "credential": null,
+     "fit": 85.5,
+     "parts": {
+      "aud": 90,
+      "cont": 95,
+      "cult": 75,
+      "perf": 76,
+      "auth": 80,
+      "safe": 91,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 16.2,
+      "cont": 13.3,
+      "cult": 6,
+      "perf": 19.8,
+      "auth": 11.1,
+      "safe": 7.2,
+      "cost": 11.8
+     },
+     "confidence": "Low",
+     "er": 1.45,
+     "linkCtr": 1.68,
+     "realFollowers": 89,
+     "viewThrough": 49.8,
+     "hold3s": 64.1,
+     "sponsoredShare": 27,
+     "adDisclosure": 96,
+     "safety": 87,
+     "audienceWomen": 0.802,
+     "forecast": {
+      "cost": 49000,
+      "views": 52197,
+      "tgViews": 39539,
+      "tgShare": 0.85,
+      "engagements": 2345,
+      "clicks": 784,
+      "orders": 110.4,
+      "revenue": 176633,
+      "roas": 3.6,
+      "recallLiftPts": 5.6,
+      "costPerTgView": 1.24,
+      "costPerEngagement": 20.9,
+      "costPerClick": 62.5
+     },
+     "why": [
+      "Link CTR 1.68%, top 1% of mid-tier creators; trust index 0.99",
+      "Audience matches the brief: 80% women (target 86%), 85% age overlap, 88% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for d&#39;Alba, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 3.6× ROAS on ₹49K, about 110 orders"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1220",
+     "name": "Aditi B.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 24805,
+     "city": "Jaipur",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.8,
+     "parts": {
+      "aud": 76,
+      "cont": 95,
+      "cult": 73,
+      "perf": 83,
+      "auth": 87,
+      "safe": 79,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 13.6,
+      "cont": 13.3,
+      "cult": 5.8,
+      "perf": 21.5,
+      "auth": 12.2,
+      "safe": 6.3,
+      "cost": 12
+     },
+     "confidence": "Medium",
+     "er": 2.9,
+     "linkCtr": 1.64,
+     "realFollowers": 93.5,
+     "viewThrough": 30.8,
+     "hold3s": 59.7,
+     "sponsoredShare": 11,
+     "adDisclosure": 85,
+     "safety": 75,
+     "audienceWomen": 0.97,
+     "forecast": {
+      "cost": 8000,
+      "views": 7925,
+      "tgViews": 5611,
+      "tgShare": 0.76,
+      "engagements": 853,
+      "clicks": 158,
+      "orders": 25.1,
+      "revenue": 40187,
+      "roas": 5.02,
+      "recallLiftPts": 3.7,
+      "costPerTgView": 1.43,
+      "costPerEngagement": 9.38,
+      "costPerClick": 50.74
+     },
+     "why": [
+      "Link CTR 1.64%, top 1% of micro creators; trust index 1.12",
+      "Audience matches the brief: 97% women (target 86%), 86% age overlap, 72% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for d&#39;Alba, with lifestyle &amp; vlogs as a second pillar",
+      "94% of followers look real and active; 11% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Unverified health claims"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1090",
+     "name": "Meher A.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 19027,
+     "city": "Delhi NCR",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.4,
+     "parts": {
+      "aud": 84,
+      "cont": 94,
+      "cult": 100,
+      "perf": 73,
+      "auth": 78,
+      "safe": 82,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 15.1,
+      "cont": 13.1,
+      "cult": 8,
+      "perf": 18.9,
+      "auth": 10.9,
+      "safe": 6.6,
+      "cost": 11.8
+     },
+     "confidence": "Low",
+     "er": 3.2,
+     "linkCtr": 1.29,
+     "realFollowers": 89.4,
+     "viewThrough": 42.2,
+     "hold3s": 51.2,
+     "sponsoredShare": 28,
+     "adDisclosure": 79,
+     "safety": 84,
+     "audienceWomen": 0.883,
+     "forecast": {
+      "cost": 6500,
+      "views": 8339,
+      "tgViews": 6061,
+      "tgShare": 0.81,
+      "engagements": 712,
+      "clicks": 107,
+      "orders": 14.6,
+      "revenue": 23384,
+      "roas": 3.6,
+      "recallLiftPts": 6.5,
+      "costPerTgView": 1.07,
+      "costPerEngagement": 9.13,
+      "costPerClick": 61
+     },
+     "why": [
+      "Link CTR 1.29%, top 4% of micro creators; trust index 0.97",
+      "Audience matches the brief: 88% women (target 86%), 75% age overlap, 93% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for d&#39;Alba, with fashion &amp; style as a second pillar",
+      "Forecast 3.6× ROAS on ₹6.5K, about 15 orders"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1246",
+     "name": "Gayathri Y.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Mid-tier",
+     "followers": 484648,
+     "city": "Madurai",
+     "languages": [
+      "Tamil"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.9,
+     "parts": {
+      "aud": 79,
+      "cont": 94,
+      "cult": 45,
+      "perf": 94,
+      "auth": 73,
+      "safe": 87,
+      "cost": 95
+     },
+     "contributions": {
+      "aud": 14.2,
+      "cont": 13.1,
+      "cult": 3.6,
+      "perf": 24.4,
+      "auth": 10.3,
+      "safe": 6.9,
+      "cost": 11.4
+     },
+     "confidence": "Medium",
+     "er": 2.47,
+     "linkCtr": 1.27,
+     "realFollowers": 85,
+     "viewThrough": 54.5,
+     "hold3s": 71.5,
+     "sponsoredShare": 23,
+     "adDisclosure": 100,
+     "safety": 78,
+     "audienceWomen": 0.831,
+     "forecast": {
+      "cost": 225000,
+      "views": 146869,
+      "tgViews": 97052,
+      "tgShare": 0.78,
+      "engagements": 14006,
+      "clicks": 1981,
+      "orders": 369.7,
+      "revenue": 591570,
+      "roas": 2.63,
+      "recallLiftPts": 10.2,
+      "costPerTgView": 2.32,
+      "costPerEngagement": 16.06,
+      "costPerClick": 113.58
+     },
+     "why": [
+      "Link CTR 1.27%, top 8% of mid-tier creators; trust index 1.32",
+      "Audience matches the brief: 83% women (target 86%), 89% age overlap, 64% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for d&#39;Alba, with fashion &amp; style as a second pillar",
+      "Forecast 2.6× ROAS on ₹2.25L, about 370 orders"
+     ],
+     "risks": [
+      "Posted for Beauty of Joseon 92 days ago (outside the 60-day window)"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1140",
+     "name": "Lakshmi G.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 11900,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.8,
+     "parts": {
+      "aud": 85,
+      "cont": 94,
+      "cult": 52,
+      "perf": 85,
+      "auth": 78,
+      "safe": 78,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 15.3,
+      "cont": 13.1,
+      "cult": 4.2,
+      "perf": 22.2,
+      "auth": 10.9,
+      "safe": 6.2,
+      "cost": 11.9
+     },
+     "confidence": "Medium",
+     "er": 4.12,
+     "linkCtr": 1.02,
+     "realFollowers": 89,
+     "viewThrough": 42.9,
+     "hold3s": 63.8,
+     "sponsoredShare": 20,
+     "adDisclosure": 92,
+     "safety": 68,
+     "audienceWomen": 0.954,
+     "forecast": {
+      "cost": 4000,
+      "views": 4857,
+      "tgViews": 3545,
+      "tgShare": 0.82,
+      "engagements": 555,
+      "clicks": 51,
+      "orders": 9.2,
+      "revenue": 14701,
+      "roas": 3.68,
+      "recallLiftPts": 6,
+      "costPerTgView": 1.13,
+      "costPerEngagement": 7.21,
+      "costPerClick": 78.18
+     },
+     "why": [
+      "Link CTR 1.02%, top 18% of micro creators; trust index 1.27",
+      "Audience matches the brief: 95% women (target 86%), 81% age overlap, 87% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for d&#39;Alba, with fashion &amp; style as a second pillar",
+      "Forecast 3.7× ROAS on ₹4K, about 9 orders"
+     ],
+     "risks": [
+      "Unverified health claims"
+     ]
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1345",
+     "name": "Aanya R.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Nano",
+     "followers": 8388,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.7,
+     "parts": {
+      "aud": 88,
+      "cont": 81,
+      "cult": 75,
+      "perf": 75,
+      "auth": 92,
+      "safe": 85,
+      "cost": 95
+     },
+     "contributions": {
+      "aud": 15.8,
+      "cont": 11.4,
+      "cult": 6,
+      "perf": 19.4,
+      "auth": 12.9,
+      "safe": 6.8,
+      "cost": 11.4
+     },
+     "confidence": "Low",
+     "er": 4.96,
+     "linkCtr": 1.11,
+     "realFollowers": 95.7,
+     "viewThrough": 38.3,
+     "hold3s": 77.2,
+     "sponsoredShare": 21,
+     "adDisclosure": 87,
+     "safety": 83,
+     "audienceWomen": 0.731,
+     "forecast": {
+      "cost": 4000,
+      "views": 4633,
+      "tgViews": 3710,
+      "tgShare": 0.84,
+      "engagements": 476,
+      "clicks": 48,
+      "orders": 6.6,
+      "revenue": 10608,
+      "roas": 2.65,
+      "recallLiftPts": 3.4,
+      "costPerTgView": 1.08,
+      "costPerEngagement": 8.4,
+      "costPerClick": 82.65
+     },
+     "why": [
+      "Link CTR 1.11%, top 17% of nano creators; trust index 1.03",
+      "Audience matches the brief: 73% women (target 86%), 86% age overlap, 91% city-tier overlap",
+      "96% of followers look real and active; 21% of recent posts are sponsored",
+      "Forecast 2.7× ROAS on ₹4K, about 7 orders"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1231",
+     "name": "Riya D.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 30854,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83,
+     "parts": {
+      "aud": 97,
+      "cont": 95,
+      "cult": 75,
+      "perf": 59,
+      "auth": 83,
+      "safe": 91,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 17.4,
+      "cont": 13.3,
+      "cult": 6,
+      "perf": 15.3,
+      "auth": 11.7,
+      "safe": 7.3,
+      "cost": 12
+     },
+     "confidence": "Low",
+     "er": 1.88,
+     "linkCtr": 0.85,
+     "realFollowers": 90.5,
+     "viewThrough": 44.7,
+     "hold3s": 59,
+     "sponsoredShare": 13,
+     "adDisclosure": 100,
+     "safety": 85,
+     "audienceWomen": 0.856,
+     "forecast": {
+      "cost": 8000,
+      "views": 12413,
+      "tgViews": 10109,
+      "tgShare": 0.9,
+      "engagements": 747,
+      "clicks": 111,
+      "orders": 19.2,
+      "revenue": 30763,
+      "roas": 3.85,
+      "recallLiftPts": 10.8,
+      "costPerTgView": 0.79,
+      "costPerEngagement": 10.71,
+      "costPerClick": 72.2
+     },
+     "why": [
+      "Audience matches the brief: 86% women (target 86%), 89% age overlap, 89% city-tier overlap",
+      "Link CTR 0.85%, top 38% of micro creators; trust index 1.22",
+      "Beauty &amp; Skincare is a core category for d&#39;Alba, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 3.8× ROAS on ₹8K, about 19 orders"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1271",
+     "name": "Rasika D.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 91472,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.5,
+     "parts": {
+      "aud": 93,
+      "cont": 95,
+      "cult": 97,
+      "perf": 56,
+      "auth": 82,
+      "safe": 85,
+      "cost": 91
+     },
+     "contributions": {
+      "aud": 16.7,
+      "cont": 13.3,
+      "cult": 7.8,
+      "perf": 14.5,
+      "auth": 11.4,
+      "safe": 6.8,
+      "cost": 10.9
+     },
+     "confidence": "Medium",
+     "er": 4.34,
+     "linkCtr": 0.7,
+     "realFollowers": 90.6,
+     "viewThrough": 54,
+     "hold3s": 66.7,
+     "sponsoredShare": 27,
+     "adDisclosure": 92,
+     "safety": 81,
+     "audienceWomen": 0.886,
+     "forecast": {
+      "cost": 37500,
+      "views": 51100,
+      "tgViews": 40275,
+      "tgShare": 0.87,
+      "engagements": 4464,
+      "clicks": 313,
+      "orders": 47.6,
+      "revenue": 76148,
+      "roas": 2.03,
+      "recallLiftPts": 5.8,
+      "costPerTgView": 0.93,
+      "costPerEngagement": 8.4,
+      "costPerClick": 119.92
+     },
+     "why": [
+      "Audience matches the brief: 89% women (target 86%), 85% age overlap, 93% city-tier overlap",
+      "Link CTR 0.70%, top 57% of micro creators; trust index 1.07",
+      "Beauty &amp; Skincare is a core category for d&#39;Alba, with lifestyle &amp; vlogs as a second pillar",
+      "91% of followers look real and active; 27% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1357",
+     "name": "Rasika M.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Macro",
+     "followers": 904194,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.2,
+     "parts": {
+      "aud": 92,
+      "cont": 76,
+      "cult": 52,
+      "perf": 87,
+      "auth": 66,
+      "safe": 84,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 16.6,
+      "cont": 10.7,
+      "cult": 4.2,
+      "perf": 22.6,
+      "auth": 9.2,
+      "safe": 6.7,
+      "cost": 11.3
+     },
+     "confidence": "Medium",
+     "er": 0.96,
+     "linkCtr": 1.21,
+     "realFollowers": 82.3,
+     "viewThrough": 57.1,
+     "hold3s": 72,
+     "sponsoredShare": 25,
+     "adDisclosure": 80,
+     "safety": 86,
+     "audienceWomen": 0.834,
+     "forecast": {
+      "cost": 313000,
+      "views": 378871,
+      "tgViews": 269955,
+      "tgShare": 0.87,
+      "engagements": 11664,
+      "clicks": 3188,
+      "orders": 496,
+      "revenue": 793527,
+      "roas": 2.54,
+      "recallLiftPts": 8.6,
+      "costPerTgView": 1.16,
+      "costPerEngagement": 26.83,
+      "costPerClick": 98.18
+     },
+     "why": [
+      "Link CTR 1.21%, top 7% of macro creators; trust index 1.20",
+      "Audience matches the brief: 83% women (target 86%), 86% age overlap, 88% city-tier overlap",
+      "Forecast 2.5× ROAS on ₹3.13L, about 496 orders",
+      "Fashion &amp; Style is a strong category for d&#39;Alba, with lifestyle &amp; vlogs as a second pillar"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1418",
+     "name": "Rahul M.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 68998,
+     "city": "Delhi NCR",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.1,
+     "parts": {
+      "aud": 84,
+      "cont": 95,
+      "cult": 55,
+      "perf": 72,
+      "auth": 79,
+      "safe": 91,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 15.2,
+      "cont": 13.3,
+      "cult": 4.4,
+      "perf": 18.7,
+      "auth": 11,
+      "safe": 7.3,
+      "cost": 11.3
+     },
+     "confidence": "Medium",
+     "er": 3.07,
+     "linkCtr": 1.39,
+     "realFollowers": 89.2,
+     "viewThrough": 43.6,
+     "hold3s": 59.1,
+     "sponsoredShare": 25,
+     "adDisclosure": 95,
+     "safety": 88,
+     "audienceWomen": 0.714,
+     "forecast": {
+      "cost": 34500,
+      "views": 28230,
+      "tgViews": 20493,
+      "tgShare": 0.81,
+      "engagements": 2491,
+      "clicks": 408,
+      "orders": 54.5,
+      "revenue": 87271,
+      "roas": 2.53,
+      "recallLiftPts": 3.3,
+      "costPerTgView": 1.68,
+      "costPerEngagement": 13.85,
+      "costPerClick": 84.57
+     },
+     "why": [
+      "Link CTR 1.39%, top 2% of micro creators; trust index 0.94",
+      "Audience matches the brief: 71% women (target 86%), 84% age overlap, 93% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for d&#39;Alba, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 2.5× ROAS on ₹35K, about 55 orders"
+     ],
+     "risks": []
+    }
+   ],
+   "plan": {
+    "creators": 25,
+    "spend": 900000,
+    "views": 967629,
+    "tgViews": 688662,
+    "uniqueTgReach": 424244,
+    "engagements": 56683,
+    "clicks": 10721,
+    "orders": 1574,
+    "revenue": 2517600,
+    "roas": 2.8,
+    "recallLiftPts": 6.5,
+    "fakeAudienceShare": 0.13,
+    "gatedIncluded": 0,
+    "representCreators": 2,
+    "representSpend": 193000,
+    "forecastBandPct": 24,
+    "spendByTier": {
+     "micro": 236000,
+     "mid": 657000,
+     "nano": 7000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 888000,
+    "views": 1499422,
+    "tgViews": 664323,
+    "uniqueTgReach": 411498,
+    "engagements": 27348,
+    "clicks": 3319,
+    "orders": 286,
+    "revenue": 456962,
+    "roas": 0.51,
+    "recallLiftPts": 3.3,
+    "fakeAudienceShare": 0.22,
+    "gatedIncluded": 1,
+    "representCreators": 1,
+    "representSpend": 112000,
+    "forecastBandPct": 21,
+    "spendByTier": {
+     "mega": 776000,
+     "mid": 112000
+    }
+   },
+   "planCreators": [
+    "Aditi B. (Micro, Beauty & Skincare)",
+    "Mansi T. (Mid-tier, Beauty & Skincare)",
+    "Riya D. (Micro, Beauty & Skincare)",
+    "Meher A. (Micro, Beauty & Skincare)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Tanvi P. (Micro, Beauty & Skincare)",
+    "Rahul M. (Micro, Beauty & Skincare)",
+    "Lakshmi G. (Micro, Beauty & Skincare)",
+    "Aanya M. (Mid-tier, Beauty & Skincare)",
+    "Parth K. (Mid-tier, Fashion & Style)",
+    "Gayathri Y. (Mid-tier, Beauty & Skincare)"
+   ]
+  }
+ }
+}

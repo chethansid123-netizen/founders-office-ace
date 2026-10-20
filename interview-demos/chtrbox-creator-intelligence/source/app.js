@@ -1235,7 +1235,7 @@ function tickLive() {
 }
 setInterval(tickLive, 2600);
 
-window.__cie = { scoreBrand, buildPlan, vanityPlan, BBY, OBJ, C };
+window.__cie = { scoreBrand, buildPlan, vanityPlan, whyOf, flagsOf, gatesOf, campStats, vertStats, predict, audFit, affOf, pctl, topPct, confOf, BBY, OBJ, DIMS, TIER, NICHE, PLAY, FAMILIES, PHASES, OPS, ASSIST, C };
 
 /* boot */
 function boot() {

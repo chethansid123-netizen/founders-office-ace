@@ -1,0 +1,1780 @@
+{
+ "id": "coke",
+ "name": "Coca-Cola",
+ "parent": "Coca-Cola India",
+ "vertical": "fmcg",
+ "sub": "Beverages",
+ "status": "Reported client",
+ "defaultObjective": "awareness",
+ "brief": "Be the drink of the shared meal, in every language India eats in.",
+ "moment": "Summer & IPL · Mar–May",
+ "budgetLakh": 36,
+ "target": {
+  "fem": 0.46,
+  "age": [
+   0.12,
+   0.42,
+   0.3,
+   0.11,
+   0.05
+  ],
+  "tiers": [
+   0.4,
+   0.36,
+   0.24
+  ],
+  "affl": 0.42
+ },
+ "languages": {
+  "Hinglish": 1,
+  "Hindi": 0.9,
+  "English": 0.7,
+  "Tamil": 0.6,
+  "Telugu": 0.6,
+  "Bengali": 0.55,
+  "Marathi": 0.55,
+  "Kannada": 0.5,
+  "Punjabi": 0.6
+ },
+ "codes": [
+  "Festive & occasions",
+  "Cricket & IPL",
+  "Bollywood pop",
+  "Gen-Z humour",
+  "Family-first"
+ ],
+ "affinity": {
+  "comedy": 0.9,
+  "music": 0.9,
+  "food": 0.8,
+  "lifestyle": 0.7,
+  "travel": 0.5,
+  "gaming": 0.55
+ },
+ "competitors": [
+  "PepsiCo",
+  "Campa Cola"
+ ],
+ "compliance": null,
+ "aov": 40,
+ "conversionRate": 0.04,
+ "kpis": [
+  "TG reach",
+  "Ad recall lift",
+  "Frequency in TG"
+ ],
+ "markets": [
+  "India"
+ ],
+ "tgPoolMillions": 260,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 360,
+   "gated": 60,
+   "gatesByReason": {
+    "conflict": 8,
+    "safety": 4,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Karthik B.",
+     "id": "CIE-1111",
+     "reasons": [
+      "Posted for PepsiCo 46 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Rimjhim P.",
+     "id": "CIE-1137",
+     "reasons": [
+      "Posted for PepsiCo 55 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Ananya J.",
+     "id": "CIE-1168",
+     "reasons": [
+      "Posted for PepsiCo 48 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Pavithra K.",
+     "id": "CIE-1318",
+     "reasons": [
+      "Brand-safety score 44: past controversy (2025), promotes betting / real-money gaming"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1279",
+     "name": "Sakshi A.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 83493,
+     "city": "Chandigarh",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 87.1,
+     "parts": {
+      "aud": 93,
+      "cont": 90,
+      "cult": 100,
+      "perf": 67,
+      "auth": 77,
+      "safe": 84,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 20.5,
+      "cont": 13.5,
+      "cult": 14,
+      "perf": 10.1,
+      "auth": 10.8,
+      "safe": 8.4,
+      "cost": 9.9
+     },
+     "confidence": "Medium",
+     "er": 3.59,
+     "linkCtr": 0.57,
+     "realFollowers": 89.9,
+     "viewThrough": 48.1,
+     "hold3s": 74.2,
+     "sponsoredShare": 34,
+     "adDisclosure": 86,
+     "safety": 82,
+     "audienceWomen": 0.507,
+     "forecast": {
+      "cost": 25000,
+      "views": 44679,
+      "tgViews": 35137,
+      "tgShare": 0.87,
+      "engagements": 3448,
+      "clicks": 220,
+      "orders": 24.5,
+      "revenue": 980,
+      "roas": 0.04,
+      "recallLiftPts": 6.2,
+      "costPerTgView": 0.71,
+      "costPerEngagement": 7.25,
+      "costPerClick": 113.43
+     },
+     "why": [
+      "Audience matches the brief: 51% women (target 46%), 87% age overlap, 89% city-tier overlap",
+      "Creates in Hinglish + Hindi, Coca-Cola's lead language; shares the Bollywood pop and Family-first and Gen-Z humour codes",
+      "Comedy &amp; Entertainment is a core category for Coca-Cola, with music &amp; dance as a second pillar",
+      "90% of followers look real and active; 34% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1294",
+     "name": "Akhil Y.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 48916,
+     "city": "Bengaluru",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 85.7,
+     "parts": {
+      "aud": 92,
+      "cont": 90,
+      "cult": 84,
+      "perf": 94,
+      "auth": 72,
+      "safe": 76,
+      "cost": 87
+     },
+     "contributions": {
+      "aud": 20.1,
+      "cont": 13.5,
+      "cult": 11.7,
+      "perf": 14,
+      "auth": 10.1,
+      "safe": 7.6,
+      "cost": 8.7
+     },
+     "confidence": "High",
+     "er": 5.46,
+     "linkCtr": 0.46,
+     "realFollowers": 86.6,
+     "viewThrough": 61.8,
+     "hold3s": 80,
+     "sponsoredShare": 23,
+     "adDisclosure": 89,
+     "safety": 67,
+     "audienceWomen": 0.408,
+     "forecast": {
+      "cost": 25000,
+      "views": 29888,
+      "tgViews": 22332,
+      "tgShare": 0.86,
+      "engagements": 2935,
+      "clicks": 111,
+      "orders": 16.2,
+      "revenue": 648,
+      "roas": 0.03,
+      "recallLiftPts": 8.3,
+      "costPerTgView": 1.12,
+      "costPerEngagement": 8.52,
+      "costPerClick": 224.87
+     },
+     "why": [
+      "Audience matches the brief: 41% women (target 46%), 98% age overlap, 80% city-tier overlap",
+      "Viewers watch 62% of each video, top 1% of micro creators; past recall lift +7.9 pts",
+      "Comedy &amp; Entertainment is a core category for Coca-Cola, with music &amp; dance as a second pillar",
+      "Creates in English; shares the Cricket &amp; IPL and Gen-Z humour codes"
+     ],
+     "risks": [
+      "Promotes betting / real-money gaming"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1391",
+     "name": "Parth B.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 8323,
+     "city": "Mumbai",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.4,
+     "parts": {
+      "aud": 87,
+      "cont": 85,
+      "cult": 84,
+      "perf": 92,
+      "auth": 71,
+      "safe": 73,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 19.1,
+      "cont": 12.8,
+      "cult": 11.7,
+      "perf": 13.8,
+      "auth": 9.9,
+      "safe": 7.3,
+      "cost": 9.8
+     },
+     "confidence": "Low",
+     "er": 7.87,
+     "linkCtr": 0.29,
+     "realFollowers": 84.8,
+     "viewThrough": 64.4,
+     "hold3s": 68,
+     "sponsoredShare": 28,
+     "adDisclosure": 83,
+     "safety": 67,
+     "audienceWomen": 0.519,
+     "forecast": {
+      "cost": 4000,
+      "views": 6666,
+      "tgViews": 4696,
+      "tgShare": 0.83,
+      "engagements": 715,
+      "clicks": 15,
+      "orders": 1.6,
+      "revenue": 64,
+      "roas": 0.02,
+      "recallLiftPts": 10.1,
+      "costPerTgView": 0.85,
+      "costPerEngagement": 5.59,
+      "costPerClick": 262.41
+     },
+     "why": [
+      "Audience matches the brief: 52% women (target 46%), 98% age overlap, 75% city-tier overlap",
+      "Viewers watch 64% of each video, top 1% of nano creators; past recall lift +10 pts",
+      "Comedy &amp; Entertainment is a core category for Coca-Cola, with lifestyle &amp; vlogs as a second pillar",
+      "Creates in English; shares the Family-first and Gen-Z humour codes"
+     ],
+     "risks": [
+      "Promotes betting / real-money gaming",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1374",
+     "name": "Anirban A.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 10695,
+     "city": "Kolkata",
+     "languages": [
+      "Bengali",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.3,
+     "parts": {
+      "aud": 96,
+      "cont": 90,
+      "cult": 78,
+      "perf": 67,
+      "auth": 79,
+      "safe": 78,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 21.1,
+      "cont": 13.5,
+      "cult": 10.9,
+      "perf": 10.1,
+      "auth": 11,
+      "safe": 7.8,
+      "cost": 9.9
+     },
+     "confidence": "Medium",
+     "er": 3.15,
+     "linkCtr": 0.36,
+     "realFollowers": 91.1,
+     "viewThrough": 53.8,
+     "hold3s": 63.4,
+     "sponsoredShare": 32,
+     "adDisclosure": 100,
+     "safety": 64,
+     "audienceWomen": 0.497,
+     "forecast": {
+      "cost": 4000,
+      "views": 7453,
+      "tgViews": 6056,
+      "tgShare": 0.89,
+      "engagements": 395,
+      "clicks": 20,
+      "orders": 2.7,
+      "revenue": 110,
+      "roas": 0.03,
+      "recallLiftPts": 6.5,
+      "costPerTgView": 0.66,
+      "costPerEngagement": 10.14,
+      "costPerClick": 196.34
+     },
+     "why": [
+      "Audience matches the brief: 50% women (target 46%), 96% age overlap, 82% city-tier overlap",
+      "Comedy &amp; Entertainment is a core category for Coca-Cola, with music &amp; dance as a second pillar",
+      "91% of followers look real and active; 32% of recent posts are sponsored",
+      "Creates in Bengali + Hinglish, Coca-Cola's lead language; shares the Gen-Z humour codes"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1131",
+     "name": "Pranav M.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Macro",
+     "followers": 669872,
+     "city": "Chennai",
+     "languages": [
+      "Tamil"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.3,
+     "parts": {
+      "aud": 91,
+      "cont": 85,
+      "cult": 78,
+      "perf": 89,
+      "auth": 65,
+      "safe": 86,
+      "cost": 86
+     },
+     "contributions": {
+      "aud": 20.1,
+      "cont": 12.8,
+      "cult": 10.9,
+      "perf": 13.3,
+      "auth": 9.1,
+      "safe": 8.6,
+      "cost": 8.6
+     },
+     "confidence": "High",
+     "er": 1.24,
+     "linkCtr": 0.47,
+     "realFollowers": 83.8,
+     "viewThrough": 62.6,
+     "hold3s": 64,
+     "sponsoredShare": 32,
+     "adDisclosure": 91,
+     "safety": 82,
+     "audienceWomen": 0.438,
+     "forecast": {
+      "cost": 261500,
+      "views": 302028,
+      "tgViews": 217707,
+      "tgShare": 0.86,
+      "engagements": 10517,
+      "clicks": 1015,
+      "orders": 115.6,
+      "revenue": 4624,
+      "roas": 0.02,
+      "recallLiftPts": 10.2,
+      "costPerTgView": 1.2,
+      "costPerEngagement": 24.86,
+      "costPerClick": 257.53
+     },
+     "why": [
+      "Audience matches the brief: 44% women (target 46%), 93% age overlap, 81% city-tier overlap",
+      "Viewers watch 63% of each video, top 2% of macro creators; past recall lift +10 pts",
+      "Comedy &amp; Entertainment is a core category for Coca-Cola, with lifestyle &amp; vlogs as a second pillar",
+      "Creates in Tamil; shares the Cricket &amp; IPL and Family-first codes"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1199",
+     "name": "Dhwani N.",
+     "niche": "Music & Dance",
+     "niche2": "Comedy & Entertainment",
+     "tier": "Macro",
+     "followers": 678708,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.4,
+     "parts": {
+      "aud": 90,
+      "cont": 90,
+      "cult": 78,
+      "perf": 94,
+      "auth": 50,
+      "safe": 81,
+      "cost": 91
+     },
+     "contributions": {
+      "aud": 19.9,
+      "cont": 13.5,
+      "cult": 10.9,
+      "perf": 14,
+      "auth": 7,
+      "safe": 8.1,
+      "cost": 9.1
+     },
+     "confidence": "High",
+     "er": 0.75,
+     "linkCtr": 0.18,
+     "realFollowers": 77,
+     "viewThrough": 59.6,
+     "hold3s": 70.9,
+     "sponsoredShare": 57,
+     "adDisclosure": 80,
+     "safety": 81,
+     "audienceWomen": 0.588,
+     "forecast": {
+      "cost": 201500,
+      "views": 283027,
+      "tgViews": 186123,
+      "tgShare": 0.85,
+      "engagements": 7330,
+      "clicks": 391,
+      "orders": 53.2,
+      "revenue": 2127,
+      "roas": 0.01,
+      "recallLiftPts": 9.7,
+      "costPerTgView": 1.08,
+      "costPerEngagement": 27.49,
+      "costPerClick": 515.85
+     },
+     "why": [
+      "Audience matches the brief: 59% women (target 46%), 92% age overlap, 93% city-tier overlap",
+      "Viewers watch 60% of each video, top 4% of macro creators; past recall lift +9.3 pts",
+      "Music &amp; Dance is a core category for Coca-Cola, with comedy &amp; entertainment as a second pillar",
+      "Creates in Hinglish + Hindi, Coca-Cola's lead language; shares the Gen-Z humour codes"
+     ],
+     "risks": [
+      "Ad fatigue: 57% of recent posts are sponsored"
+     ]
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1354",
+     "name": "Krupa T.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Mid-tier",
+     "followers": 383915,
+     "city": "Pune",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.2,
+     "parts": {
+      "aud": 94,
+      "cont": 90,
+      "cult": 100,
+      "perf": 48,
+      "auth": 66,
+      "safe": 85,
+      "cost": 91
+     },
+     "contributions": {
+      "aud": 20.8,
+      "cont": 13.5,
+      "cult": 14,
+      "perf": 7.2,
+      "auth": 9.2,
+      "safe": 8.5,
+      "cost": 9.1
+     },
+     "confidence": "Medium",
+     "er": 1.33,
+     "linkCtr": 0.42,
+     "realFollowers": 84.7,
+     "viewThrough": 41.2,
+     "hold3s": 62.9,
+     "sponsoredShare": 36,
+     "adDisclosure": 90,
+     "safety": 81,
+     "audienceWomen": 0.55,
+     "forecast": {
+      "cost": 136000,
+      "views": 185740,
+      "tgViews": 138752,
+      "tgShare": 0.88,
+      "engagements": 6719,
+      "clicks": 625,
+      "orders": 68.6,
+      "revenue": 2744,
+      "roas": 0.02,
+      "recallLiftPts": 6.6,
+      "costPerTgView": 0.98,
+      "costPerEngagement": 20.24,
+      "costPerClick": 217.5
+     },
+     "why": [
+      "Audience matches the brief: 55% women (target 46%), 93% age overlap, 96% city-tier overlap",
+      "Creates in Hinglish, Coca-Cola's lead language; shares the Cricket &amp; IPL and Gen-Z humour codes",
+      "Comedy &amp; Entertainment is a core category for Coca-Cola, with music &amp; dance as a second pillar",
+      "85% of followers look real and active; 36% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1348",
+     "name": "Lakshmi D.",
+     "niche": "Food & Cooking",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 98010,
+     "city": "Hyderabad",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82,
+     "parts": {
+      "aud": 73,
+      "cont": 78,
+      "cult": 100,
+      "perf": 89,
+      "auth": 73,
+      "safe": 80,
+      "cost": 87
+     },
+     "contributions": {
+      "aud": 16.1,
+      "cont": 11.6,
+      "cult": 14,
+      "perf": 13.4,
+      "auth": 10.3,
+      "safe": 8,
+      "cost": 8.7
+     },
+     "confidence": "Medium",
+     "er": 2.4,
+     "linkCtr": 0.77,
+     "realFollowers": 84,
+     "viewThrough": 50.8,
+     "hold3s": 83.4,
+     "sponsoredShare": 18,
+     "adDisclosure": 85,
+     "safety": 76,
+     "audienceWomen": 0.627,
+     "forecast": {
+      "cost": 27000,
+      "views": 39234,
+      "tgViews": 24446,
+      "tgShare": 0.74,
+      "engagements": 2881,
+      "clicks": 283,
+      "orders": 43.5,
+      "revenue": 1740,
+      "roas": 0.06,
+      "recallLiftPts": 7.8,
+      "costPerTgView": 1.1,
+      "costPerEngagement": 9.37,
+      "costPerClick": 95.57
+     },
+     "why": [
+      "Audience matches the brief: 63% women (target 46%), 77% age overlap, 84% city-tier overlap",
+      "Creates in English + Hinglish, Coca-Cola's lead language; shares the Family-first and Festive &amp; occasions codes",
+      "Viewers watch 51% of each video, top 18% of micro creators; past recall lift +8.3 pts",
+      "Food &amp; Cooking is a strong category for Coca-Cola, with lifestyle &amp; vlogs as a second pillar"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1282",
+     "name": "Priyanka M.",
+     "niche": "Food & Cooking",
+     "niche2": "Parenting & Family",
+     "tier": "Mid-tier",
+     "followers": 135099,
+     "city": "Guwahati",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.4,
+     "parts": {
+      "aud": 78,
+      "cont": 61,
+      "cult": 95,
+      "perf": 77,
+      "auth": 73,
+      "safe": 86,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 17.2,
+      "cont": 9.2,
+      "cult": 13.2,
+      "perf": 11.5,
+      "auth": 10.2,
+      "safe": 8.6,
+      "cost": 9.4
+     },
+     "confidence": "High",
+     "er": 0.78,
+     "linkCtr": 0.58,
+     "realFollowers": 87.5,
+     "viewThrough": 52.4,
+     "hold3s": 65.3,
+     "sponsoredShare": 38,
+     "adDisclosure": 84,
+     "safety": 88,
+     "audienceWomen": 0.581,
+     "forecast": {
+      "cost": 41500,
+      "views": 67460,
+      "tgViews": 45739,
+      "tgShare": 0.77,
+      "engagements": 1621,
+      "clicks": 250,
+      "orders": 33.5,
+      "revenue": 1339,
+      "roas": 0.03,
+      "recallLiftPts": 6.8,
+      "costPerTgView": 0.91,
+      "costPerEngagement": 25.6,
+      "costPerClick": 165.95
+     },
+     "why": [
+      "Audience matches the brief: 58% women (target 46%), 73% age overlap, 89% city-tier overlap",
+      "Creates in Hindi, Coca-Cola's lead language; shares the Family-first and Festive &amp; occasions codes",
+      "Viewers watch 52% of each video, top 15% of mid-tier creators; past recall lift +7.9 pts",
+      "88% of followers look real and active; 38% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1324",
+     "name": "Manav G.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Food & Cooking",
+     "tier": "Micro",
+     "followers": 11313,
+     "city": "Udaipur",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 79.4,
+     "parts": {
+      "aud": 91,
+      "cont": 88,
+      "cult": 72,
+      "perf": 86,
+      "auth": 71,
+      "safe": 95,
+      "cost": 38
+     },
+     "contributions": {
+      "aud": 20,
+      "cont": 13.1,
+      "cult": 10.1,
+      "perf": 13,
+      "auth": 10,
+      "safe": 9.5,
+      "cost": 3.8
+     },
+     "confidence": "Low",
+     "er": 1.31,
+     "linkCtr": 0.49,
+     "realFollowers": 86.5,
+     "viewThrough": 59.8,
+     "hold3s": 74.9,
+     "sponsoredShare": 24,
+     "adDisclosure": 100,
+     "safety": 91,
+     "audienceWomen": 0.489,
+     "forecast": {
+      "cost": 3000,
+      "views": 1854,
+      "tgViews": 1376,
+      "tgShare": 0.86,
+      "engagements": 148,
+      "clicks": 7,
+      "orders": 0.7,
+      "revenue": 29,
+      "roas": 0.01,
+      "recallLiftPts": 7.1,
+      "costPerTgView": 2.18,
+      "costPerEngagement": 20.24,
+      "costPerClick": 448.91
+     },
+     "why": [
+      "Audience matches the brief: 49% women (target 46%), 96% age overlap, 80% city-tier overlap",
+      "Comedy &amp; Entertainment is a core category for Coca-Cola, with food &amp; cooking as a second pillar",
+      "Viewers watch 60% of each video, top 2% of micro creators; past recall lift +6.9 pts",
+      "Creates in Hindi, Coca-Cola's lead language; shares the Cricket &amp; IPL codes"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 59,
+    "spend": 3600000,
+    "views": 5444657,
+    "tgViews": 3661999,
+    "uniqueTgReach": 2261378,
+    "engagements": 192245,
+    "clicks": 20950,
+    "orders": 2327,
+    "revenue": 93081,
+    "roas": 0.03,
+    "recallLiftPts": 5.4,
+    "fakeAudienceShare": 0.15,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 257500,
+    "forecastBandPct": 22,
+    "spendByTier": {
+     "micro": 472500,
+     "mid": 1639000,
+     "macro": 696500,
+     "nano": 16000,
+     "mega": 776000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 4,
+    "spend": 3551000,
+    "views": 3134400,
+    "tgViews": 1721068,
+    "uniqueTgReach": 1065638,
+    "engagements": 96355,
+    "clicks": 11825,
+    "orders": 1032,
+    "revenue": 41287,
+    "roas": 0.01,
+    "recallLiftPts": 2.8,
+    "fakeAudienceShare": 0.29,
+    "gatedIncluded": 2,
+    "representCreators": 2,
+    "representSpend": 505500,
+    "forecastBandPct": 23,
+    "spendByTier": {
+     "mega": 3345500,
+     "macro": 205500
+    }
+   },
+   "planCreators": [
+    "Varsha B. (Micro, Food & Cooking)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Tanvi C. (Micro, Food & Cooking)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Anirban A. (Micro, Comedy & Entertainment)",
+    "Janhvi K. (Mid-tier, Music & Dance)",
+    "Kritika P. (Micro, Lifestyle & Vlogs)",
+    "Priyanka M. (Mid-tier, Food & Cooking)",
+    "Gauri N. (Micro, Music & Dance)",
+    "Bornali P. (Mid-tier, Music & Dance)",
+    "Akhil Y. (Micro, Comedy & Entertainment)",
+    "Krupa T. (Mid-tier, Comedy & Entertainment)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 360,
+   "gated": 60,
+   "gatesByReason": {
+    "conflict": 8,
+    "safety": 4,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Karthik B.",
+     "id": "CIE-1111",
+     "reasons": [
+      "Posted for PepsiCo 46 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Rimjhim P.",
+     "id": "CIE-1137",
+     "reasons": [
+      "Posted for PepsiCo 55 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Akhil J.",
+     "id": "CIE-1266",
+     "reasons": [
+      "Posted for PepsiCo 22 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Ananya J.",
+     "id": "CIE-1168",
+     "reasons": [
+      "Posted for PepsiCo 48 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1279",
+     "name": "Sakshi A.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 83493,
+     "city": "Chandigarh",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 85.7,
+     "parts": {
+      "aud": 93,
+      "cont": 90,
+      "cult": 100,
+      "perf": 68,
+      "auth": 77,
+      "safe": 84,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 18.7,
+      "cont": 16.2,
+      "cult": 10,
+      "perf": 13.6,
+      "auth": 10.8,
+      "safe": 6.7,
+      "cost": 9.7
+     },
+     "confidence": "Medium",
+     "er": 3.59,
+     "linkCtr": 0.57,
+     "realFollowers": 89.9,
+     "viewThrough": 48.1,
+     "hold3s": 74.2,
+     "sponsoredShare": 34,
+     "adDisclosure": 86,
+     "safety": 82,
+     "audienceWomen": 0.507,
+     "forecast": {
+      "cost": 25000,
+      "views": 44679,
+      "tgViews": 35137,
+      "tgShare": 0.87,
+      "engagements": 3448,
+      "clicks": 220,
+      "orders": 24.5,
+      "revenue": 980,
+      "roas": 0.04,
+      "recallLiftPts": 6.2,
+      "costPerTgView": 0.71,
+      "costPerEngagement": 7.25,
+      "costPerClick": 113.43
+     },
+     "why": [
+      "Audience matches the brief: 51% women (target 46%), 87% age overlap, 89% city-tier overlap",
+      "Comedy &amp; Entertainment is a core category for Coca-Cola, with music &amp; dance as a second pillar",
+      "Engagement rate 3.6%, top 25% of micro creators; 2.2% of viewers save or share",
+      "90% of followers look real and active; 34% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1294",
+     "name": "Akhil Y.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 48916,
+     "city": "Bengaluru",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.4,
+     "parts": {
+      "aud": 92,
+      "cont": 90,
+      "cult": 84,
+      "perf": 83,
+      "auth": 72,
+      "safe": 76,
+      "cost": 89
+     },
+     "contributions": {
+      "aud": 18.3,
+      "cont": 16.2,
+      "cult": 8.4,
+      "perf": 16.5,
+      "auth": 10.1,
+      "safe": 6.1,
+      "cost": 8.9
+     },
+     "confidence": "High",
+     "er": 5.46,
+     "linkCtr": 0.46,
+     "realFollowers": 86.6,
+     "viewThrough": 61.8,
+     "hold3s": 80,
+     "sponsoredShare": 23,
+     "adDisclosure": 89,
+     "safety": 67,
+     "audienceWomen": 0.408,
+     "forecast": {
+      "cost": 25000,
+      "views": 29888,
+      "tgViews": 22332,
+      "tgShare": 0.86,
+      "engagements": 2935,
+      "clicks": 111,
+      "orders": 16.2,
+      "revenue": 648,
+      "roas": 0.03,
+      "recallLiftPts": 8.3,
+      "costPerTgView": 1.12,
+      "costPerEngagement": 8.52,
+      "costPerClick": 224.87
+     },
+     "why": [
+      "Audience matches the brief: 41% women (target 46%), 98% age overlap, 80% city-tier overlap",
+      "Engagement rate 5.5%, top 4% of micro creators; 3.3% of viewers save or share",
+      "Comedy &amp; Entertainment is a core category for Coca-Cola, with music &amp; dance as a second pillar",
+      "87% of followers look real and active; 23% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Promotes betting / real-money gaming"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1391",
+     "name": "Parth B.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 8323,
+     "city": "Mumbai",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.8,
+     "parts": {
+      "aud": 87,
+      "cont": 85,
+      "cult": 84,
+      "perf": 80,
+      "auth": 71,
+      "safe": 73,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 17.4,
+      "cont": 15.3,
+      "cult": 8.4,
+      "perf": 16,
+      "auth": 9.9,
+      "safe": 5.9,
+      "cost": 10
+     },
+     "confidence": "Low",
+     "er": 7.87,
+     "linkCtr": 0.29,
+     "realFollowers": 84.8,
+     "viewThrough": 64.4,
+     "hold3s": 68,
+     "sponsoredShare": 28,
+     "adDisclosure": 83,
+     "safety": 67,
+     "audienceWomen": 0.519,
+     "forecast": {
+      "cost": 4000,
+      "views": 6666,
+      "tgViews": 4696,
+      "tgShare": 0.83,
+      "engagements": 715,
+      "clicks": 15,
+      "orders": 1.6,
+      "revenue": 64,
+      "roas": 0.02,
+      "recallLiftPts": 10.1,
+      "costPerTgView": 0.85,
+      "costPerEngagement": 5.59,
+      "costPerClick": 262.41
+     },
+     "why": [
+      "Audience matches the brief: 52% women (target 46%), 98% age overlap, 75% city-tier overlap",
+      "Engagement rate 7.9%, top 1% of nano creators; 2.5% of viewers save or share",
+      "Comedy &amp; Entertainment is a core category for Coca-Cola, with lifestyle &amp; vlogs as a second pillar",
+      "₹5.59 per engagement (₹4K for the bundle)"
+     ],
+     "risks": [
+      "Promotes betting / real-money gaming",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1374",
+     "name": "Anirban A.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 10695,
+     "city": "Kolkata",
+     "languages": [
+      "Bengali",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.6,
+     "parts": {
+      "aud": 96,
+      "cont": 90,
+      "cult": 78,
+      "perf": 72,
+      "auth": 79,
+      "safe": 78,
+      "cost": 78
+     },
+     "contributions": {
+      "aud": 19.2,
+      "cont": 16.2,
+      "cult": 7.8,
+      "perf": 14.4,
+      "auth": 11,
+      "safe": 6.3,
+      "cost": 7.8
+     },
+     "confidence": "Medium",
+     "er": 3.15,
+     "linkCtr": 0.36,
+     "realFollowers": 91.1,
+     "viewThrough": 53.8,
+     "hold3s": 63.4,
+     "sponsoredShare": 32,
+     "adDisclosure": 100,
+     "safety": 64,
+     "audienceWomen": 0.497,
+     "forecast": {
+      "cost": 4000,
+      "views": 7453,
+      "tgViews": 6056,
+      "tgShare": 0.89,
+      "engagements": 395,
+      "clicks": 20,
+      "orders": 2.7,
+      "revenue": 110,
+      "roas": 0.03,
+      "recallLiftPts": 6.5,
+      "costPerTgView": 0.66,
+      "costPerEngagement": 10.14,
+      "costPerClick": 196.34
+     },
+     "why": [
+      "Audience matches the brief: 50% women (target 46%), 96% age overlap, 82% city-tier overlap",
+      "Comedy &amp; Entertainment is a core category for Coca-Cola, with music &amp; dance as a second pillar",
+      "Engagement rate 3.1%, top 38% of micro creators; 3.0% of viewers save or share",
+      "91% of followers look real and active; 32% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1136",
+     "name": "Ankita C.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Food & Cooking",
+     "tier": "Nano",
+     "followers": 5452,
+     "city": "Kolkata",
+     "languages": [
+      "Bengali"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.2,
+     "parts": {
+      "aud": 95,
+      "cont": 88,
+      "cult": 53,
+      "perf": 76,
+      "auth": 70,
+      "safe": 89,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 19.1,
+      "cont": 15.8,
+      "cult": 5.3,
+      "perf": 15.2,
+      "auth": 9.8,
+      "safe": 7.2,
+      "cost": 9.9
+     },
+     "confidence": "Low",
+     "er": 6.2,
+     "linkCtr": 0.31,
+     "realFollowers": 85.7,
+     "viewThrough": 49.5,
+     "hold3s": 59.3,
+     "sponsoredShare": 42,
+     "adDisclosure": 96,
+     "safety": 85,
+     "audienceWomen": 0.54,
+     "forecast": {
+      "cost": 2500,
+      "views": 3528,
+      "tgViews": 2690,
+      "tgShare": 0.89,
+      "engagements": 377,
+      "clicks": 10,
+      "orders": 1,
+      "revenue": 40,
+      "roas": 0.02,
+      "recallLiftPts": 4.8,
+      "costPerTgView": 0.93,
+      "costPerEngagement": 6.63,
+      "costPerClick": 254.73
+     },
+     "why": [
+      "Audience matches the brief: 54% women (target 46%), 99% age overlap, 83% city-tier overlap",
+      "Comedy &amp; Entertainment is a core category for Coca-Cola, with food &amp; cooking as a second pillar",
+      "Engagement rate 6.2%, top 12% of nano creators; 2.8% of viewers save or share",
+      "₹6.63 per engagement (₹2.5K for the bundle)"
+     ],
+     "risks": [
+      "Posted for PepsiCo 82 days ago (outside the 60-day window)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 80,
+    "spend": 1689500,
+    "views": 1838352,
+    "tgViews": 1275598,
+    "uniqueTgReach": 789716,
+    "engagements": 153596,
+    "clicks": 7489,
+    "orders": 857,
+    "revenue": 34297,
+    "roas": 0.02,
+    "recallLiftPts": 4.7,
+    "fakeAudienceShare": 0.11,
+    "gatedIncluded": 0,
+    "representCreators": 3,
+    "representSpend": 435000,
+    "forecastBandPct": 23,
+    "spendByTier": {
+     "micro": 941500,
+     "nano": 32500,
+     "macro": 257500,
+     "mid": 458000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 3,
+    "spend": 1678500,
+    "views": 1876422,
+    "tgViews": 1131843,
+    "uniqueTgReach": 701357,
+    "engagements": 56332,
+    "clicks": 5779,
+    "orders": 454,
+    "revenue": 18176,
+    "roas": 0.01,
+    "recallLiftPts": 2.3,
+    "fakeAudienceShare": 0.18,
+    "gatedIncluded": 2,
+    "representCreators": 2,
+    "representSpend": 412000,
+    "forecastBandPct": 33,
+    "spendByTier": {
+     "mega": 1566500,
+     "mid": 112000
+    }
+   },
+   "planCreators": [
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Anjali V. (Micro, Comedy & Entertainment)",
+    "Akhil Y. (Micro, Comedy & Entertainment)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Gauri N. (Micro, Music & Dance)",
+    "Devang M. (Nano, Lifestyle & Vlogs)",
+    "Parth B. (Nano, Comedy & Entertainment)",
+    "Moumita N. (Micro, Parenting & Family)",
+    "Kunal K. (Micro, Fitness & Wellness)",
+    "Abhinav Y. (Micro, Gaming)",
+    "Yash S. (Micro, Education & Careers)",
+    "Karthik G. (Micro, Food & Cooking)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 360,
+   "gated": 60,
+   "gatesByReason": {
+    "conflict": 8,
+    "fraud": 32,
+    "safety": 4,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Rohan R.",
+     "id": "CIE-1362",
+     "reasons": [
+      "Posted for PepsiCo 14 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Ananya J.",
+     "id": "CIE-1168",
+     "reasons": [
+      "Posted for PepsiCo 48 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Akhil J.",
+     "id": "CIE-1266",
+     "reasons": [
+      "Posted for PepsiCo 22 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Karthik B.",
+     "id": "CIE-1111",
+     "reasons": [
+      "Posted for PepsiCo 46 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1320",
+     "name": "Tanvi C.",
+     "niche": "Food & Cooking",
+     "niche2": "Parenting & Family",
+     "tier": "Micro",
+     "followers": 59236,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.1,
+     "parts": {
+      "aud": 72,
+      "cont": 61,
+      "cult": 100,
+      "perf": 64,
+      "auth": 87,
+      "safe": 87,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 12.9,
+      "cont": 8.6,
+      "cult": 8,
+      "perf": 16.6,
+      "auth": 12.1,
+      "safe": 6.9,
+      "cost": 12
+     },
+     "confidence": "Medium",
+     "er": 1.55,
+     "linkCtr": 0.93,
+     "realFollowers": 93.7,
+     "viewThrough": 39.6,
+     "hold3s": 60.8,
+     "sponsoredShare": 6,
+     "adDisclosure": 88,
+     "safety": 86,
+     "audienceWomen": 0.758,
+     "forecast": {
+      "cost": 16000,
+      "views": 34340,
+      "tgViews": 23529,
+      "tgShare": 0.73,
+      "engagements": 1238,
+      "clicks": 215,
+      "orders": 31.8,
+      "revenue": 1273,
+      "roas": 0.08,
+      "recallLiftPts": 1.7,
+      "costPerTgView": 0.68,
+      "costPerEngagement": 12.92,
+      "costPerClick": 74.52
+     },
+     "why": [
+      "Link CTR 0.93%, top 27% of micro creators; trust index 1.24",
+      "Audience matches the brief: 76% women (target 46%), 78% age overlap, 93% city-tier overlap",
+      "94% of followers look real and active; 6% of recent posts are sponsored",
+      "Forecast 0.1× ROAS on ₹16K, about 32 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1332",
+     "name": "Kunal K.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Food & Cooking",
+     "tier": "Micro",
+     "followers": 32206,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 76.8,
+     "parts": {
+      "aud": 84,
+      "cont": 24,
+      "cult": 78,
+      "perf": 89,
+      "auth": 74,
+      "safe": 90,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 15.2,
+      "cont": 3.3,
+      "cult": 6.2,
+      "perf": 23,
+      "auth": 10.4,
+      "safe": 7.2,
+      "cost": 11.6
+     },
+     "confidence": "Low",
+     "er": 3.45,
+     "linkCtr": 1.58,
+     "realFollowers": 90.9,
+     "viewThrough": 27.7,
+     "hold3s": 40.9,
+     "sponsoredShare": 44,
+     "adDisclosure": 92,
+     "safety": 88,
+     "audienceWomen": 0.497,
+     "forecast": {
+      "cost": 11000,
+      "views": 12835,
+      "tgViews": 9491,
+      "tgShare": 0.81,
+      "engagements": 1285,
+      "clicks": 116,
+      "orders": 12.7,
+      "revenue": 510,
+      "roas": 0.05,
+      "recallLiftPts": 1.6,
+      "costPerTgView": 1.16,
+      "costPerEngagement": 8.56,
+      "costPerClick": 94.49
+     },
+     "why": [
+      "Link CTR 1.58%, top 1% of micro creators; trust index 1.16",
+      "Audience matches the brief: 50% women (target 46%), 79% age overlap, 94% city-tier overlap",
+      "Forecast 0.0× ROAS on ₹11K, about 13 orders",
+      "91% of followers look real and active; 44% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1348",
+     "name": "Lakshmi D.",
+     "niche": "Food & Cooking",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 98010,
+     "city": "Hyderabad",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 75.4,
+     "parts": {
+      "aud": 73,
+      "cont": 78,
+      "cult": 100,
+      "perf": 57,
+      "auth": 73,
+      "safe": 80,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 13.2,
+      "cont": 10.9,
+      "cult": 8,
+      "perf": 14.9,
+      "auth": 10.3,
+      "safe": 6.4,
+      "cost": 11.9
+     },
+     "confidence": "Medium",
+     "er": 2.4,
+     "linkCtr": 0.77,
+     "realFollowers": 84,
+     "viewThrough": 50.8,
+     "hold3s": 83.4,
+     "sponsoredShare": 18,
+     "adDisclosure": 85,
+     "safety": 76,
+     "audienceWomen": 0.627,
+     "forecast": {
+      "cost": 27000,
+      "views": 39234,
+      "tgViews": 24446,
+      "tgShare": 0.74,
+      "engagements": 2881,
+      "clicks": 283,
+      "orders": 43.5,
+      "revenue": 1740,
+      "roas": 0.06,
+      "recallLiftPts": 7.8,
+      "costPerTgView": 1.1,
+      "costPerEngagement": 9.37,
+      "costPerClick": 95.57
+     },
+     "why": [
+      "Link CTR 0.77%, top 47% of micro creators; trust index 1.18",
+      "Audience matches the brief: 63% women (target 46%), 77% age overlap, 84% city-tier overlap",
+      "Forecast 0.1× ROAS on ₹27K, about 43 orders",
+      "Food &amp; Cooking is a strong category for Coca-Cola, with lifestyle &amp; vlogs as a second pillar"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1223",
+     "name": "Arjun J.",
+     "niche": "Food & Cooking",
+     "niche2": "Travel",
+     "tier": "Macro",
+     "followers": 864508,
+     "city": "Delhi NCR",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": true,
+     "credential": null,
+     "fit": 75,
+     "parts": {
+      "aud": 67,
+      "cont": 73,
+      "cult": 78,
+      "perf": 77,
+      "auth": 61,
+      "safe": 88,
+      "cost": 92
+     },
+     "contributions": {
+      "aud": 12,
+      "cont": 10.2,
+      "cult": 6.2,
+      "perf": 19.9,
+      "auth": 8.6,
+      "safe": 7.1,
+      "cost": 11
+     },
+     "confidence": "Low",
+     "er": 1.32,
+     "linkCtr": 0.89,
+     "realFollowers": 81,
+     "viewThrough": 50.6,
+     "hold3s": 78.7,
+     "sponsoredShare": 30,
+     "adDisclosure": 89,
+     "safety": 88,
+     "audienceWomen": 0.63,
+     "forecast": {
+      "cost": 309000,
+      "views": 289695,
+      "tgViews": 164527,
+      "tgShare": 0.7,
+      "engagements": 14264,
+      "clicks": 1948,
+      "orders": 277.3,
+      "revenue": 11093,
+      "roas": 0.04,
+      "recallLiftPts": 6.7,
+      "costPerTgView": 1.88,
+      "costPerEngagement": 21.66,
+      "costPerClick": 158.64
+     },
+     "why": [
+      "Link CTR 0.89%, top 30% of macro creators; trust index 1.12",
+      "Audience matches the brief: 63% women (target 46%), 69% age overlap, 80% city-tier overlap",
+      "Forecast 0.0× ROAS on ₹3.09L, about 277 orders",
+      "Food &amp; Cooking is a strong category for Coca-Cola, with travel as a second pillar"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1028",
+     "name": "Kritika P.",
+     "niche": "Lifestyle & Vlogs",
+     "niche2": "Food & Cooking",
+     "tier": "Micro",
+     "followers": 36783,
+     "city": "Jaipur",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Moj",
+     "represent": false,
+     "credential": null,
+     "fit": 74.2,
+     "parts": {
+      "aud": 80,
+      "cont": 72,
+      "cult": 78,
+      "perf": 51,
+      "auth": 79,
+      "safe": 92,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 14.4,
+      "cont": 10.1,
+      "cult": 6.2,
+      "perf": 13.3,
+      "auth": 11.1,
+      "safe": 7.3,
+      "cost": 11.8
+     },
+     "confidence": "High",
+     "er": 2.76,
+     "linkCtr": 0.69,
+     "realFollowers": 88.3,
+     "viewThrough": 46.5,
+     "hold3s": 62.9,
+     "sponsoredShare": 18,
+     "adDisclosure": 91,
+     "safety": 92,
+     "audienceWomen": 0.724,
+     "forecast": {
+      "cost": 11000,
+      "views": 19785,
+      "tgViews": 13709,
+      "tgShare": 0.78,
+      "engagements": 1214,
+      "clicks": 104,
+      "orders": 15.2,
+      "revenue": 609,
+      "roas": 0.06,
+      "recallLiftPts": 7,
+      "costPerTgView": 0.8,
+      "costPerEngagement": 9.06,
+      "costPerClick": 105.58
+     },
+     "why": [
+      "Audience matches the brief: 72% women (target 46%), 91% age overlap, 88% city-tier overlap",
+      "Link CTR 0.69%, top 58% of micro creators; trust index 1.15",
+      "Forecast 0.1× ROAS on ₹11K, about 15 orders",
+      "88% of followers look real and active; 18% of recent posts are sponsored"
+     ],
+     "risks": []
+    }
+   ],
+   "plan": {
+    "creators": 80,
+    "spend": 3474000,
+    "views": 4511028,
+    "tgViews": 2861442,
+    "uniqueTgReach": 1768233,
+    "engagements": 208963,
+    "clicks": 25675,
+    "orders": 2865,
+    "revenue": 114593,
+    "roas": 0.03,
+    "recallLiftPts": 4.6,
+    "fakeAudienceShare": 0.14,
+    "gatedIncluded": 0,
+    "representCreators": 4,
+    "representSpend": 566000,
+    "forecastBandPct": 25,
+    "spendByTier": {
+     "micro": 603500,
+     "nano": 23000,
+     "mid": 2156000,
+     "macro": 691500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 4,
+    "spend": 3470500,
+    "views": 3103210,
+    "tgViews": 1681468,
+    "uniqueTgReach": 1041179,
+    "engagements": 93459,
+    "clicks": 10625,
+    "orders": 908,
+    "revenue": 36332,
+    "roas": 0.01,
+    "recallLiftPts": 2.8,
+    "fakeAudienceShare": 0.29,
+    "gatedIncluded": 2,
+    "representCreators": 1,
+    "representSpend": 300000,
+    "forecastBandPct": 22,
+    "spendByTier": {
+     "mega": 3345500,
+     "mid": 125000
+    }
+   },
+   "planCreators": [
+    "Varsha B. (Micro, Food & Cooking)",
+    "Tanvi C. (Micro, Food & Cooking)",
+    "Kunal K. (Micro, Fitness & Wellness)",
+    "Lakshmi D. (Micro, Food & Cooking)",
+    "Kritika P. (Micro, Lifestyle & Vlogs)",
+    "Mansi B. (Micro, Tech & Gadgets)",
+    "Yash S. (Micro, Education & Careers)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Aditi B. (Micro, Beauty & Skincare)",
+    "Gauri N. (Micro, Music & Dance)",
+    "Devang M. (Nano, Lifestyle & Vlogs)"
+   ]
+  }
+ }
+}

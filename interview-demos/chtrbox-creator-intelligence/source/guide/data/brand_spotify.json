@@ -1,0 +1,1787 @@
+{
+ "id": "spotify",
+ "name": "Spotify",
+ "parent": "Spotify India",
+ "vertical": "ent",
+ "sub": "Music streaming",
+ "status": "Reported client",
+ "defaultObjective": "awareness",
+ "brief": "Make Wrapped a regional-language moment, not just an English one.",
+ "moment": "Wrapped · Dec",
+ "budgetLakh": 15,
+ "target": {
+  "fem": 0.5,
+  "age": [
+   0.16,
+   0.5,
+   0.26,
+   0.06,
+   0.02
+  ],
+  "tiers": [
+   0.54,
+   0.34,
+   0.12
+  ],
+  "affl": 0.52
+ },
+ "languages": {
+  "Hinglish": 1,
+  "English": 0.95,
+  "Hindi": 0.8,
+  "Tamil": 0.7,
+  "Telugu": 0.7,
+  "Punjabi": 0.75,
+  "Bengali": 0.6,
+  "Malayalam": 0.6,
+  "Marathi": 0.6
+ },
+ "codes": [
+  "Gen-Z humour",
+  "Bollywood pop",
+  "Regional pride",
+  "Campus life"
+ ],
+ "affinity": {
+  "music": 1,
+  "comedy": 0.85,
+  "lifestyle": 0.75,
+  "gaming": 0.6,
+  "travel": 0.5
+ },
+ "competitors": [
+  "JioSaavn",
+  "YouTube Music",
+  "Gaana"
+ ],
+ "compliance": null,
+ "aov": 1400,
+ "conversionRate": 0.02,
+ "kpis": [
+  "TG reach",
+  "Ad recall lift",
+  "Premium trials"
+ ],
+ "markets": [
+  "India"
+ ],
+ "tgPoolMillions": 160,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 363,
+   "gated": 57,
+   "gatesByReason": {
+    "conflict": 5,
+    "safety": 4,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Dhwani N.",
+     "id": "CIE-1199",
+     "reasons": [
+      "Posted for JioSaavn 20 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Krupa T.",
+     "id": "CIE-1354",
+     "reasons": [
+      "Posted for YouTube Music 8 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Pavithra K.",
+     "id": "CIE-1318",
+     "reasons": [
+      "Brand-safety score 44: past controversy (2025), promotes betting / real-money gaming"
+     ]
+    },
+    {
+     "name": "Karthik B.",
+     "id": "CIE-1111",
+     "reasons": [
+      "Posted for JioSaavn 28 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1294",
+     "name": "Akhil Y.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 48916,
+     "city": "Bengaluru",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 88.2,
+     "parts": {
+      "aud": 93,
+      "cont": 89,
+      "cult": 97,
+      "perf": 94,
+      "auth": 72,
+      "safe": 76,
+      "cost": 91
+     },
+     "contributions": {
+      "aud": 20.5,
+      "cont": 13.3,
+      "cult": 13.6,
+      "perf": 14,
+      "auth": 10.1,
+      "safe": 7.6,
+      "cost": 9.1
+     },
+     "confidence": "High",
+     "er": 5.46,
+     "linkCtr": 0.46,
+     "realFollowers": 86.6,
+     "viewThrough": 61.8,
+     "hold3s": 80,
+     "sponsoredShare": 23,
+     "adDisclosure": 89,
+     "safety": 67,
+     "audienceWomen": 0.408,
+     "forecast": {
+      "cost": 25000,
+      "views": 29888,
+      "tgViews": 22642,
+      "tgShare": 0.87,
+      "engagements": 2935,
+      "clicks": 110,
+      "orders": 8,
+      "revenue": 11187,
+      "roas": 0.45,
+      "recallLiftPts": 8.2,
+      "costPerTgView": 1.1,
+      "costPerEngagement": 8.52,
+      "costPerClick": 226.74
+     },
+     "why": [
+      "Audience matches the brief: 41% women (target 50%), 88% age overlap, 94% city-tier overlap",
+      "Viewers watch 62% of each video, top 1% of micro creators; past recall lift +7.9 pts",
+      "Creates in English, Spotify's lead language; shares the Campus life and Gen-Z humour codes",
+      "Comedy &amp; Entertainment is a core category for Spotify, with music &amp; dance as a second pillar"
+     ],
+     "risks": [
+      "Posted for YouTube Music 82 days ago (outside the 60-day window)",
+      "Promotes betting / real-money gaming"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1279",
+     "name": "Sakshi A.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 83493,
+     "city": "Chandigarh",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 85,
+     "parts": {
+      "aud": 85,
+      "cont": 89,
+      "cult": 100,
+      "perf": 67,
+      "auth": 77,
+      "safe": 84,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 18.7,
+      "cont": 13.3,
+      "cult": 14,
+      "perf": 10.1,
+      "auth": 10.8,
+      "safe": 8.4,
+      "cost": 9.8
+     },
+     "confidence": "Medium",
+     "er": 3.59,
+     "linkCtr": 0.57,
+     "realFollowers": 89.9,
+     "viewThrough": 48.1,
+     "hold3s": 74.2,
+     "sponsoredShare": 34,
+     "adDisclosure": 86,
+     "safety": 82,
+     "audienceWomen": 0.507,
+     "forecast": {
+      "cost": 25000,
+      "views": 44679,
+      "tgViews": 32844,
+      "tgShare": 0.82,
+      "engagements": 3448,
+      "clicks": 219,
+      "orders": 12.1,
+      "revenue": 16897,
+      "roas": 0.68,
+      "recallLiftPts": 6,
+      "costPerTgView": 0.76,
+      "costPerEngagement": 7.25,
+      "costPerClick": 114.37
+     },
+     "why": [
+      "Audience matches the brief: 51% women (target 50%), 87% age overlap, 75% city-tier overlap",
+      "Creates in Hinglish + Hindi, Spotify's lead language; shares the Bollywood pop and Gen-Z humour codes",
+      "Comedy &amp; Entertainment is a core category for Spotify, with music &amp; dance as a second pillar",
+      "90% of followers look real and active; 34% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1391",
+     "name": "Parth B.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 8323,
+     "city": "Mumbai",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.4,
+     "parts": {
+      "aud": 94,
+      "cont": 83,
+      "cult": 75,
+      "perf": 92,
+      "auth": 71,
+      "safe": 73,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 20.7,
+      "cont": 12.4,
+      "cult": 10.5,
+      "perf": 13.8,
+      "auth": 9.9,
+      "safe": 7.3,
+      "cost": 9.9
+     },
+     "confidence": "Low",
+     "er": 7.87,
+     "linkCtr": 0.29,
+     "realFollowers": 84.8,
+     "viewThrough": 64.4,
+     "hold3s": 68,
+     "sponsoredShare": 28,
+     "adDisclosure": 83,
+     "safety": 67,
+     "audienceWomen": 0.519,
+     "forecast": {
+      "cost": 4000,
+      "views": 6666,
+      "tgViews": 4974,
+      "tgShare": 0.88,
+      "engagements": 715,
+      "clicks": 15,
+      "orders": 0.8,
+      "revenue": 1081,
+      "roas": 0.27,
+      "recallLiftPts": 10.1,
+      "costPerTgView": 0.8,
+      "costPerEngagement": 5.59,
+      "costPerClick": 266.98
+     },
+     "why": [
+      "Audience matches the brief: 52% women (target 50%), 88% age overlap, 89% city-tier overlap",
+      "Viewers watch 64% of each video, top 1% of nano creators; past recall lift +10 pts",
+      "Comedy &amp; Entertainment is a strong category for Spotify, with lifestyle &amp; vlogs as a second pillar",
+      "Creates in English, Spotify's lead language; shares the Gen-Z humour codes"
+     ],
+     "risks": [
+      "Promotes betting / real-money gaming",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1137",
+     "name": "Rimjhim P.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 138070,
+     "city": "Kolkata",
+     "languages": [
+      "Bengali",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81,
+     "parts": {
+      "aud": 88,
+      "cont": 83,
+      "cult": 100,
+      "perf": 52,
+      "auth": 75,
+      "safe": 96,
+      "cost": 75
+     },
+     "contributions": {
+      "aud": 19.4,
+      "cont": 12.4,
+      "cult": 14,
+      "perf": 7.7,
+      "auth": 10.5,
+      "safe": 9.6,
+      "cost": 7.5
+     },
+     "confidence": "Low",
+     "er": 2.5,
+     "linkCtr": 0.24,
+     "realFollowers": 86.1,
+     "viewThrough": 52,
+     "hold3s": 58.3,
+     "sponsoredShare": 20,
+     "adDisclosure": 100,
+     "safety": 93,
+     "audienceWomen": 0.546,
+     "forecast": {
+      "cost": 55000,
+      "views": 57432,
+      "tgViews": 41503,
+      "tgShare": 0.84,
+      "engagements": 4032,
+      "clicks": 113,
+      "orders": 6.4,
+      "revenue": 8925,
+      "roas": 0.16,
+      "recallLiftPts": 5.3,
+      "costPerTgView": 1.33,
+      "costPerEngagement": 13.64,
+      "costPerClick": 484.98
+     },
+     "why": [
+      "Audience matches the brief: 55% women (target 50%), 91% age overlap, 78% city-tier overlap",
+      "Creates in Bengali + Hinglish, Spotify's lead language; shares the Gen-Z humour and Regional pride codes",
+      "Comedy &amp; Entertainment is a strong category for Spotify, with lifestyle &amp; vlogs as a second pillar",
+      "86% of followers look real and active; 20% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1374",
+     "name": "Anirban A.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 10695,
+     "city": "Kolkata",
+     "languages": [
+      "Bengali",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.7,
+     "parts": {
+      "aud": 81,
+      "cont": 89,
+      "cult": 78,
+      "perf": 67,
+      "auth": 79,
+      "safe": 78,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 17.8,
+      "cont": 13.3,
+      "cult": 10.9,
+      "perf": 10.1,
+      "auth": 11,
+      "safe": 7.8,
+      "cost": 9.8
+     },
+     "confidence": "Medium",
+     "er": 3.15,
+     "linkCtr": 0.36,
+     "realFollowers": 91.1,
+     "viewThrough": 53.8,
+     "hold3s": 63.4,
+     "sponsoredShare": 32,
+     "adDisclosure": 100,
+     "safety": 64,
+     "audienceWomen": 0.497,
+     "forecast": {
+      "cost": 4000,
+      "views": 7453,
+      "tgViews": 5373,
+      "tgShare": 0.79,
+      "engagements": 395,
+      "clicks": 20,
+      "orders": 1.4,
+      "revenue": 1894,
+      "roas": 0.47,
+      "recallLiftPts": 6.3,
+      "costPerTgView": 0.74,
+      "costPerEngagement": 10.14,
+      "costPerClick": 197.98
+     },
+     "why": [
+      "Audience matches the brief: 50% women (target 50%), 87% age overlap, 68% city-tier overlap",
+      "Comedy &amp; Entertainment is a core category for Spotify, with music &amp; dance as a second pillar",
+      "91% of followers look real and active; 32% of recent posts are sponsored",
+      "Creates in Bengali + Hinglish, Spotify's lead language; shares the Gen-Z humour codes"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1131",
+     "name": "Pranav M.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Macro",
+     "followers": 669872,
+     "city": "Chennai",
+     "languages": [
+      "Tamil"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.2,
+     "parts": {
+      "aud": 77,
+      "cont": 83,
+      "cult": 84,
+      "perf": 89,
+      "auth": 65,
+      "safe": 86,
+      "cost": 82
+     },
+     "contributions": {
+      "aud": 17,
+      "cont": 12.4,
+      "cult": 11.7,
+      "perf": 13.3,
+      "auth": 9.1,
+      "safe": 8.6,
+      "cost": 8.2
+     },
+     "confidence": "High",
+     "er": 1.24,
+     "linkCtr": 0.47,
+     "realFollowers": 83.8,
+     "viewThrough": 62.6,
+     "hold3s": 64,
+     "sponsoredShare": 32,
+     "adDisclosure": 91,
+     "safety": 82,
+     "audienceWomen": 0.438,
+     "forecast": {
+      "cost": 261500,
+      "views": 302028,
+      "tgViews": 194101,
+      "tgShare": 0.77,
+      "engagements": 10517,
+      "clicks": 998,
+      "orders": 56.1,
+      "revenue": 78544,
+      "roas": 0.3,
+      "recallLiftPts": 9.7,
+      "costPerTgView": 1.35,
+      "costPerEngagement": 24.86,
+      "costPerClick": 262.01
+     },
+     "why": [
+      "Audience matches the brief: 44% women (target 50%), 81% age overlap, 69% city-tier overlap",
+      "Viewers watch 63% of each video, top 2% of macro creators; past recall lift +10 pts",
+      "Comedy &amp; Entertainment is a strong category for Spotify, with lifestyle &amp; vlogs as a second pillar",
+      "Creates in Tamil; shares the Campus life and Regional pride codes"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1168",
+     "name": "Ananya J.",
+     "niche": "Music & Dance",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 41635,
+     "city": "Bengaluru",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.1,
+     "parts": {
+      "aud": 81,
+      "cont": 94,
+      "cult": 100,
+      "perf": 25,
+      "auth": 85,
+      "safe": 85,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 17.9,
+      "cont": 14.1,
+      "cult": 14,
+      "perf": 3.8,
+      "auth": 11.9,
+      "safe": 8.5,
+      "cost": 10
+     },
+     "confidence": "Medium",
+     "er": 2.49,
+     "linkCtr": 0.48,
+     "realFollowers": 91.8,
+     "viewThrough": 41.5,
+     "hold3s": 58.3,
+     "sponsoredShare": 7,
+     "adDisclosure": 74,
+     "safety": 93,
+     "audienceWomen": 0.743,
+     "forecast": {
+      "cost": 15000,
+      "views": 36201,
+      "tgViews": 26402,
+      "tgShare": 0.79,
+      "engagements": 1262,
+      "clicks": 123,
+      "orders": 7.6,
+      "revenue": 10574,
+      "roas": 0.7,
+      "recallLiftPts": 3.2,
+      "costPerTgView": 0.57,
+      "costPerEngagement": 11.89,
+      "costPerClick": 122.16
+     },
+     "why": [
+      "Audience matches the brief: 74% women (target 50%), 84% age overlap, 95% city-tier overlap",
+      "Music &amp; Dance is a core category for Spotify, with lifestyle &amp; vlogs as a second pillar",
+      "Creates in Hinglish + Hindi, Spotify's lead language; shares the Bollywood pop and Regional pride codes",
+      "92% of followers look real and active; 7% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Discloses #ad on only 74% of paid posts. Brief on disclosure in the first line"
+     ]
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1346",
+     "name": "Janhvi K.",
+     "niche": "Music & Dance",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 250656,
+     "city": "Nashik",
+     "languages": [
+      "Marathi",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.4,
+     "parts": {
+      "aud": 81,
+      "cont": 94,
+      "cult": 100,
+      "perf": 27,
+      "auth": 79,
+      "safe": 91,
+      "cost": 93
+     },
+     "contributions": {
+      "aud": 17.9,
+      "cont": 14.1,
+      "cult": 14,
+      "perf": 4.1,
+      "auth": 11,
+      "safe": 9.1,
+      "cost": 9.3
+     },
+     "confidence": "Low",
+     "er": 1.39,
+     "linkCtr": 0.46,
+     "realFollowers": 88.4,
+     "viewThrough": 40.9,
+     "hold3s": 41.8,
+     "sponsoredShare": 14,
+     "adDisclosure": 92,
+     "safety": 90,
+     "audienceWomen": 0.475,
+     "forecast": {
+      "cost": 77000,
+      "views": 115011,
+      "tgViews": 80638,
+      "tgShare": 0.79,
+      "engagements": 4537,
+      "clicks": 446,
+      "orders": 28.1,
+      "revenue": 39306,
+      "roas": 0.51,
+      "recallLiftPts": 5.5,
+      "costPerTgView": 0.95,
+      "costPerEngagement": 16.97,
+      "costPerClick": 172.57
+     },
+     "why": [
+      "Audience matches the brief: 48% women (target 50%), 91% age overlap, 74% city-tier overlap",
+      "Music &amp; Dance is a core category for Spotify, with lifestyle &amp; vlogs as a second pillar",
+      "Creates in Marathi + Hinglish, Spotify's lead language; shares the Campus life and Regional pride codes",
+      "88% of followers look real and active; 14% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1063",
+     "name": "Shreya N.",
+     "niche": "Lifestyle & Vlogs",
+     "niche2": "Travel",
+     "tier": "Micro",
+     "followers": 31260,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.9,
+     "parts": {
+      "aud": 87,
+      "cont": 69,
+      "cult": 78,
+      "perf": 69,
+      "auth": 71,
+      "safe": 89,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 19.2,
+      "cont": 10.3,
+      "cult": 10.9,
+      "perf": 10.3,
+      "auth": 10,
+      "safe": 8.9,
+      "cost": 9.4
+     },
+     "confidence": "Medium",
+     "er": 3.22,
+     "linkCtr": 0.67,
+     "realFollowers": 84.3,
+     "viewThrough": 56.9,
+     "hold3s": 55.2,
+     "sponsoredShare": 26,
+     "adDisclosure": 78,
+     "safety": 96,
+     "audienceWomen": 0.542,
+     "forecast": {
+      "cost": 11000,
+      "views": 15911,
+      "tgViews": 11204,
+      "tgShare": 0.84,
+      "engagements": 1175,
+      "clicks": 81,
+      "orders": 5.3,
+      "revenue": 7387,
+      "roas": 0.67,
+      "recallLiftPts": 6.9,
+      "costPerTgView": 0.98,
+      "costPerEngagement": 9.36,
+      "costPerClick": 135.07
+     },
+     "why": [
+      "Audience matches the brief: 54% women (target 50%), 81% age overlap, 92% city-tier overlap",
+      "Creates in Hinglish, Spotify's lead language; shares the Gen-Z humour codes",
+      "Lifestyle &amp; Vlogs is a strong category for Spotify, with travel as a second pillar",
+      "Viewers watch 57% of each video, top 4% of micro creators; past recall lift +7.5 pts"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1356",
+     "name": "Bornali P.",
+     "niche": "Music & Dance",
+     "niche2": "Comedy & Entertainment",
+     "tier": "Mid-tier",
+     "followers": 138262,
+     "city": "Ranchi",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.5,
+     "parts": {
+      "aud": 70,
+      "cont": 96,
+      "cult": 89,
+      "perf": 59,
+      "auth": 75,
+      "safe": 85,
+      "cost": 81
+     },
+     "contributions": {
+      "aud": 15.5,
+      "cont": 14.4,
+      "cult": 12.5,
+      "perf": 8.9,
+      "auth": 10.6,
+      "safe": 8.5,
+      "cost": 8.1
+     },
+     "confidence": "Low",
+     "er": 1.66,
+     "linkCtr": 0.26,
+     "realFollowers": 90.2,
+     "viewThrough": 54.6,
+     "hold3s": 62.4,
+     "sponsoredShare": 40,
+     "adDisclosure": 70,
+     "safety": 95,
+     "audienceWomen": 0.649,
+     "forecast": {
+      "cost": 37000,
+      "views": 48029,
+      "tgViews": 31343,
+      "tgShare": 0.72,
+      "engagements": 2876,
+      "clicks": 124,
+      "orders": 7.7,
+      "revenue": 10834,
+      "roas": 0.29,
+      "recallLiftPts": 5.4,
+      "costPerTgView": 1.18,
+      "costPerEngagement": 12.87,
+      "costPerClick": 297.59
+     },
+     "why": [
+      "Audience matches the brief: 65% women (target 50%), 89% age overlap, 69% city-tier overlap",
+      "Music &amp; Dance is a core category for Spotify, with comedy &amp; entertainment as a second pillar",
+      "Creates in Hindi; shares the Campus life and Gen-Z humour and Regional pride codes",
+      "90% of followers look real and active; 40% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Discloses #ad on only 70% of paid posts. Brief on disclosure in the first line",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 36,
+    "spend": 1500000,
+    "views": 2057817,
+    "tgViews": 1410660,
+    "uniqueTgReach": 872401,
+    "engagements": 94978,
+    "clicks": 7033,
+    "orders": 380,
+    "revenue": 531356,
+    "roas": 0.35,
+    "recallLiftPts": 5.3,
+    "fakeAudienceShare": 0.13,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 257500,
+    "forecastBandPct": 24,
+    "spendByTier": {
+     "micro": 291000,
+     "mid": 507000,
+     "nano": 16000,
+     "macro": 686000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 3,
+    "spend": 1497000,
+    "views": 1536780,
+    "tgViews": 888246,
+    "uniqueTgReach": 550465,
+    "engagements": 53612,
+    "clicks": 5878,
+    "orders": 243,
+    "revenue": 339697,
+    "roas": 0.23,
+    "recallLiftPts": 2.7,
+    "fakeAudienceShare": 0.14,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 205500,
+    "forecastBandPct": 33,
+    "spendByTier": {
+     "mega": 1266500,
+     "macro": 205500,
+     "mid": 25000
+    }
+   },
+   "planCreators": [
+    "Ananya J. (Micro, Music & Dance)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Varsha B. (Micro, Food & Cooking)",
+    "Akhil J. (Micro, Comedy & Entertainment)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Janhvi K. (Mid-tier, Music & Dance)",
+    "Akhil Y. (Micro, Comedy & Entertainment)",
+    "Gauri N. (Micro, Music & Dance)",
+    "Anirban A. (Micro, Comedy & Entertainment)",
+    "Bornali P. (Mid-tier, Music & Dance)",
+    "Hetal A. (Mid-tier, Food & Cooking)",
+    "Keerthi J. (Mid-tier, Fashion & Style)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 363,
+   "gated": 57,
+   "gatesByReason": {
+    "conflict": 5,
+    "safety": 4,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Karthik B.",
+     "id": "CIE-1111",
+     "reasons": [
+      "Posted for JioSaavn 28 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Krupa T.",
+     "id": "CIE-1354",
+     "reasons": [
+      "Posted for YouTube Music 8 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Krupa R.",
+     "id": "CIE-1073",
+     "reasons": [
+      "Posted for JioSaavn 12 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Dhwani N.",
+     "id": "CIE-1199",
+     "reasons": [
+      "Posted for JioSaavn 20 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1294",
+     "name": "Akhil Y.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 48916,
+     "city": "Bengaluru",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 85.9,
+     "parts": {
+      "aud": 93,
+      "cont": 89,
+      "cult": 97,
+      "perf": 83,
+      "auth": 72,
+      "safe": 76,
+      "cost": 89
+     },
+     "contributions": {
+      "aud": 18.7,
+      "cont": 16,
+      "cult": 9.7,
+      "perf": 16.5,
+      "auth": 10.1,
+      "safe": 6.1,
+      "cost": 8.9
+     },
+     "confidence": "High",
+     "er": 5.46,
+     "linkCtr": 0.46,
+     "realFollowers": 86.6,
+     "viewThrough": 61.8,
+     "hold3s": 80,
+     "sponsoredShare": 23,
+     "adDisclosure": 89,
+     "safety": 67,
+     "audienceWomen": 0.408,
+     "forecast": {
+      "cost": 25000,
+      "views": 29888,
+      "tgViews": 22642,
+      "tgShare": 0.87,
+      "engagements": 2935,
+      "clicks": 110,
+      "orders": 8,
+      "revenue": 11187,
+      "roas": 0.45,
+      "recallLiftPts": 8.2,
+      "costPerTgView": 1.1,
+      "costPerEngagement": 8.52,
+      "costPerClick": 226.74
+     },
+     "why": [
+      "Audience matches the brief: 41% women (target 50%), 88% age overlap, 94% city-tier overlap",
+      "Engagement rate 5.5%, top 4% of micro creators; 3.3% of viewers save or share",
+      "Comedy &amp; Entertainment is a core category for Spotify, with music &amp; dance as a second pillar",
+      "87% of followers look real and active; 23% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Posted for YouTube Music 82 days ago (outside the 60-day window)",
+      "Promotes betting / real-money gaming"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1279",
+     "name": "Sakshi A.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 83493,
+     "city": "Chandigarh",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.8,
+     "parts": {
+      "aud": 85,
+      "cont": 89,
+      "cult": 100,
+      "perf": 68,
+      "auth": 77,
+      "safe": 84,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 17,
+      "cont": 16,
+      "cult": 10,
+      "perf": 13.6,
+      "auth": 10.8,
+      "safe": 6.7,
+      "cost": 9.7
+     },
+     "confidence": "Medium",
+     "er": 3.59,
+     "linkCtr": 0.57,
+     "realFollowers": 89.9,
+     "viewThrough": 48.1,
+     "hold3s": 74.2,
+     "sponsoredShare": 34,
+     "adDisclosure": 86,
+     "safety": 82,
+     "audienceWomen": 0.507,
+     "forecast": {
+      "cost": 25000,
+      "views": 44679,
+      "tgViews": 32844,
+      "tgShare": 0.82,
+      "engagements": 3448,
+      "clicks": 219,
+      "orders": 12.1,
+      "revenue": 16897,
+      "roas": 0.68,
+      "recallLiftPts": 6,
+      "costPerTgView": 0.76,
+      "costPerEngagement": 7.25,
+      "costPerClick": 114.37
+     },
+     "why": [
+      "Audience matches the brief: 51% women (target 50%), 87% age overlap, 75% city-tier overlap",
+      "Comedy &amp; Entertainment is a core category for Spotify, with music &amp; dance as a second pillar",
+      "Engagement rate 3.6%, top 25% of micro creators; 2.2% of viewers save or share",
+      "90% of followers look real and active; 34% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1391",
+     "name": "Parth B.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 8323,
+     "city": "Mumbai",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.9,
+     "parts": {
+      "aud": 94,
+      "cont": 83,
+      "cult": 75,
+      "perf": 80,
+      "auth": 71,
+      "safe": 73,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 18.8,
+      "cont": 14.9,
+      "cult": 7.5,
+      "perf": 16,
+      "auth": 9.9,
+      "safe": 5.9,
+      "cost": 10
+     },
+     "confidence": "Low",
+     "er": 7.87,
+     "linkCtr": 0.29,
+     "realFollowers": 84.8,
+     "viewThrough": 64.4,
+     "hold3s": 68,
+     "sponsoredShare": 28,
+     "adDisclosure": 83,
+     "safety": 67,
+     "audienceWomen": 0.519,
+     "forecast": {
+      "cost": 4000,
+      "views": 6666,
+      "tgViews": 4974,
+      "tgShare": 0.88,
+      "engagements": 715,
+      "clicks": 15,
+      "orders": 0.8,
+      "revenue": 1081,
+      "roas": 0.27,
+      "recallLiftPts": 10.1,
+      "costPerTgView": 0.8,
+      "costPerEngagement": 5.59,
+      "costPerClick": 266.98
+     },
+     "why": [
+      "Audience matches the brief: 52% women (target 50%), 88% age overlap, 89% city-tier overlap",
+      "Engagement rate 7.9%, top 1% of nano creators; 2.5% of viewers save or share",
+      "Comedy &amp; Entertainment is a strong category for Spotify, with lifestyle &amp; vlogs as a second pillar",
+      "₹5.59 per engagement (₹4K for the bundle)"
+     ],
+     "risks": [
+      "Promotes betting / real-money gaming",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1137",
+     "name": "Rimjhim P.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 138070,
+     "city": "Kolkata",
+     "languages": [
+      "Bengali",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.9,
+     "parts": {
+      "aud": 88,
+      "cont": 83,
+      "cult": 100,
+      "perf": 82,
+      "auth": 75,
+      "safe": 96,
+      "cost": 58
+     },
+     "contributions": {
+      "aud": 17.6,
+      "cont": 14.9,
+      "cult": 10,
+      "perf": 16.4,
+      "auth": 10.5,
+      "safe": 7.7,
+      "cost": 5.8
+     },
+     "confidence": "Low",
+     "er": 2.5,
+     "linkCtr": 0.24,
+     "realFollowers": 86.1,
+     "viewThrough": 52,
+     "hold3s": 58.3,
+     "sponsoredShare": 20,
+     "adDisclosure": 100,
+     "safety": 93,
+     "audienceWomen": 0.546,
+     "forecast": {
+      "cost": 55000,
+      "views": 57432,
+      "tgViews": 41503,
+      "tgShare": 0.84,
+      "engagements": 4032,
+      "clicks": 113,
+      "orders": 6.4,
+      "revenue": 8925,
+      "roas": 0.16,
+      "recallLiftPts": 5.3,
+      "costPerTgView": 1.33,
+      "costPerEngagement": 13.64,
+      "costPerClick": 484.98
+     },
+     "why": [
+      "Audience matches the brief: 55% women (target 50%), 91% age overlap, 78% city-tier overlap",
+      "Engagement rate 2.5%, top 2% of mid-tier creators; 3.2% of viewers save or share",
+      "Comedy &amp; Entertainment is a strong category for Spotify, with lifestyle &amp; vlogs as a second pillar",
+      "86% of followers look real and active; 20% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1374",
+     "name": "Anirban A.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 10695,
+     "city": "Kolkata",
+     "languages": [
+      "Bengali",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.4,
+     "parts": {
+      "aud": 81,
+      "cont": 89,
+      "cult": 78,
+      "perf": 72,
+      "auth": 79,
+      "safe": 78,
+      "cost": 78
+     },
+     "contributions": {
+      "aud": 16.2,
+      "cont": 16,
+      "cult": 7.8,
+      "perf": 14.4,
+      "auth": 11,
+      "safe": 6.3,
+      "cost": 7.8
+     },
+     "confidence": "Medium",
+     "er": 3.15,
+     "linkCtr": 0.36,
+     "realFollowers": 91.1,
+     "viewThrough": 53.8,
+     "hold3s": 63.4,
+     "sponsoredShare": 32,
+     "adDisclosure": 100,
+     "safety": 64,
+     "audienceWomen": 0.497,
+     "forecast": {
+      "cost": 4000,
+      "views": 7453,
+      "tgViews": 5373,
+      "tgShare": 0.79,
+      "engagements": 395,
+      "clicks": 20,
+      "orders": 1.4,
+      "revenue": 1894,
+      "roas": 0.47,
+      "recallLiftPts": 6.3,
+      "costPerTgView": 0.74,
+      "costPerEngagement": 10.14,
+      "costPerClick": 197.98
+     },
+     "why": [
+      "Audience matches the brief: 50% women (target 50%), 87% age overlap, 68% city-tier overlap",
+      "Comedy &amp; Entertainment is a core category for Spotify, with music &amp; dance as a second pillar",
+      "Engagement rate 3.1%, top 38% of micro creators; 3.0% of viewers save or share",
+      "91% of followers look real and active; 32% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 71,
+    "spend": 1500000,
+    "views": 1660731,
+    "tgViews": 1099029,
+    "uniqueTgReach": 680011,
+    "engagements": 138248,
+    "clicks": 5976,
+    "orders": 328,
+    "revenue": 459874,
+    "roas": 0.31,
+    "recallLiftPts": 4.4,
+    "fakeAudienceShare": 0.11,
+    "gatedIncluded": 0,
+    "representCreators": 3,
+    "representSpend": 435000,
+    "forecastBandPct": 23,
+    "spendByTier": {
+     "micro": 831000,
+     "nano": 31500,
+     "macro": 257500,
+     "mid": 380000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 3,
+    "spend": 1497000,
+    "views": 1536780,
+    "tgViews": 888246,
+    "uniqueTgReach": 550465,
+    "engagements": 53612,
+    "clicks": 5878,
+    "orders": 243,
+    "revenue": 339697,
+    "roas": 0.23,
+    "recallLiftPts": 2.7,
+    "fakeAudienceShare": 0.14,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 205500,
+    "forecastBandPct": 33,
+    "spendByTier": {
+     "mega": 1266500,
+     "macro": 205500,
+     "mid": 25000
+    }
+   },
+   "planCreators": [
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Akhil Y. (Micro, Comedy & Entertainment)",
+    "Anjali V. (Micro, Comedy & Entertainment)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Gauri N. (Micro, Music & Dance)",
+    "Parth B. (Nano, Comedy & Entertainment)",
+    "Yash S. (Micro, Education & Careers)",
+    "Abhinav Y. (Micro, Gaming)",
+    "Moumita N. (Micro, Parenting & Family)",
+    "Akhil J. (Micro, Comedy & Entertainment)",
+    "Ananya J. (Micro, Music & Dance)",
+    "Sneha D. (Micro, Lifestyle & Vlogs)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 363,
+   "gated": 57,
+   "gatesByReason": {
+    "fraud": 32,
+    "conflict": 5,
+    "safety": 4,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Krupa B.",
+     "id": "CIE-1052",
+     "reasons": [
+      "Only 60.5% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Krupa T.",
+     "id": "CIE-1354",
+     "reasons": [
+      "Posted for YouTube Music 8 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Karthik B.",
+     "id": "CIE-1111",
+     "reasons": [
+      "Posted for JioSaavn 28 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Pavithra K.",
+     "id": "CIE-1318",
+     "reasons": [
+      "Brand-safety score 44: past controversy (2025), promotes betting / real-money gaming"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1008",
+     "name": "Yash S.",
+     "niche": "Education & Careers",
+     "niche2": "Personal Finance",
+     "tier": "Micro",
+     "followers": 42640,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 74.9,
+     "parts": {
+      "aud": 96,
+      "cont": 5,
+      "cult": 67,
+      "perf": 85,
+      "auth": 82,
+      "safe": 79,
+      "cost": 96
+     },
+     "contributions": {
+      "aud": 17.3,
+      "cont": 0.7,
+      "cult": 5.3,
+      "perf": 22.2,
+      "auth": 11.5,
+      "safe": 6.3,
+      "cost": 11.6
+     },
+     "confidence": "Medium",
+     "er": 2.49,
+     "linkCtr": 1.29,
+     "realFollowers": 92.4,
+     "viewThrough": 35,
+     "hold3s": 45,
+     "sponsoredShare": 25,
+     "adDisclosure": 78,
+     "safety": 79,
+     "audienceWomen": 0.415,
+     "forecast": {
+      "cost": 10500,
+      "views": 12861,
+      "tgViews": 10626,
+      "tgShare": 0.89,
+      "engagements": 1292,
+      "clicks": 89,
+      "orders": 5.3,
+      "revenue": 7397,
+      "roas": 0.7,
+      "recallLiftPts": 3,
+      "costPerTgView": 0.99,
+      "costPerEngagement": 8.13,
+      "costPerClick": 118.61
+     },
+     "why": [
+      "Link CTR 1.29%, top 4% of micro creators; trust index 1.46",
+      "Audience matches the brief: 42% women (target 50%), 90% age overlap, 97% city-tier overlap",
+      "Forecast 0.7× ROAS on ₹11K, about 5 orders",
+      "92% of followers look real and active; 25% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1380",
+     "name": "Mansi B.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Gaming",
+     "tier": "Micro",
+     "followers": 49187,
+     "city": "Delhi NCR",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 73,
+     "parts": {
+      "aud": 80,
+      "cont": 19,
+      "cult": 75,
+      "perf": 76,
+      "auth": 80,
+      "safe": 88,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 14.3,
+      "cont": 2.6,
+      "cult": 6,
+      "perf": 19.8,
+      "auth": 11.1,
+      "safe": 7.1,
+      "cost": 12
+     },
+     "confidence": "Medium",
+     "er": 1.39,
+     "linkCtr": 2.13,
+     "realFollowers": 87.7,
+     "viewThrough": 42.3,
+     "hold3s": 71,
+     "sponsoredShare": 15,
+     "adDisclosure": 95,
+     "safety": 84,
+     "audienceWomen": 0.326,
+     "forecast": {
+      "cost": 17000,
+      "views": 23329,
+      "tgViews": 16028,
+      "tgShare": 0.78,
+      "engagements": 949,
+      "clicks": 243,
+      "orders": 12.9,
+      "revenue": 18087,
+      "roas": 1.06,
+      "recallLiftPts": 2.7,
+      "costPerTgView": 1.06,
+      "costPerEngagement": 17.91,
+      "costPerClick": 70.05
+     },
+     "why": [
+      "Link CTR 2.13%, top 1% of micro creators; trust index 1.17",
+      "Audience matches the brief: 33% women (target 50%), 92% age overlap, 92% city-tier overlap",
+      "Forecast 1.1× ROAS on ₹17K, about 13 orders",
+      "88% of followers look real and active; 15% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1349",
+     "name": "Gauri N.",
+     "niche": "Music & Dance",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 79527,
+     "city": "Mumbai",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 72.7,
+     "parts": {
+      "aud": 92,
+      "cont": 94,
+      "cult": 89,
+      "perf": 29,
+      "auth": 79,
+      "safe": 71,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 16.6,
+      "cont": 13.1,
+      "cult": 7.1,
+      "perf": 7.5,
+      "auth": 11,
+      "safe": 5.6,
+      "cost": 11.6
+     },
+     "confidence": "High",
+     "er": 2.35,
+     "linkCtr": 0.68,
+     "realFollowers": 91.6,
+     "viewThrough": 36.5,
+     "hold3s": 60.6,
+     "sponsoredShare": 37,
+     "adDisclosure": 85,
+     "safety": 61,
+     "audienceWomen": 0.479,
+     "forecast": {
+      "cost": 23000,
+      "views": 31425,
+      "tgViews": 24965,
+      "tgShare": 0.87,
+      "engagements": 2298,
+      "clicks": 225,
+      "orders": 11.6,
+      "revenue": 16259,
+      "roas": 0.71,
+      "recallLiftPts": 2.1,
+      "costPerTgView": 0.92,
+      "costPerEngagement": 10.01,
+      "costPerClick": 102.21
+     },
+     "why": [
+      "Audience matches the brief: 48% women (target 50%), 82% age overlap, 92% city-tier overlap",
+      "Music &amp; Dance is a core category for Spotify, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 0.7× ROAS on ₹23K, about 12 orders",
+      "92% of followers look real and active; 37% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Past controversy (2025)"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1294",
+     "name": "Akhil Y.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 48916,
+     "city": "Bengaluru",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 72.6,
+     "parts": {
+      "aud": 93,
+      "cont": 89,
+      "cult": 97,
+      "perf": 37,
+      "auth": 72,
+      "safe": 76,
+      "cost": 82
+     },
+     "contributions": {
+      "aud": 16.8,
+      "cont": 12.4,
+      "cult": 7.8,
+      "perf": 9.7,
+      "auth": 10.1,
+      "safe": 6.1,
+      "cost": 9.8
+     },
+     "confidence": "High",
+     "er": 5.46,
+     "linkCtr": 0.46,
+     "realFollowers": 86.6,
+     "viewThrough": 61.8,
+     "hold3s": 80,
+     "sponsoredShare": 23,
+     "adDisclosure": 89,
+     "safety": 67,
+     "audienceWomen": 0.408,
+     "forecast": {
+      "cost": 25000,
+      "views": 29888,
+      "tgViews": 22642,
+      "tgShare": 0.87,
+      "engagements": 2935,
+      "clicks": 110,
+      "orders": 8,
+      "revenue": 11187,
+      "roas": 0.45,
+      "recallLiftPts": 8.2,
+      "costPerTgView": 1.1,
+      "costPerEngagement": 8.52,
+      "costPerClick": 226.74
+     },
+     "why": [
+      "Audience matches the brief: 41% women (target 50%), 88% age overlap, 94% city-tier overlap",
+      "Comedy &amp; Entertainment is a core category for Spotify, with music &amp; dance as a second pillar",
+      "87% of followers look real and active; 23% of recent posts are sponsored",
+      "Forecast 0.4× ROAS on ₹25K, about 8 orders"
+     ],
+     "risks": [
+      "Posted for YouTube Music 82 days ago (outside the 60-day window)",
+      "Promotes betting / real-money gaming"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1279",
+     "name": "Sakshi A.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 83493,
+     "city": "Chandigarh",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 72.3,
+     "parts": {
+      "aud": 85,
+      "cont": 89,
+      "cult": 100,
+      "perf": 29,
+      "auth": 77,
+      "safe": 84,
+      "cost": 96
+     },
+     "contributions": {
+      "aud": 15.3,
+      "cont": 12.4,
+      "cult": 8,
+      "perf": 7.5,
+      "auth": 10.8,
+      "safe": 6.7,
+      "cost": 11.5
+     },
+     "confidence": "Medium",
+     "er": 3.59,
+     "linkCtr": 0.57,
+     "realFollowers": 89.9,
+     "viewThrough": 48.1,
+     "hold3s": 74.2,
+     "sponsoredShare": 34,
+     "adDisclosure": 86,
+     "safety": 82,
+     "audienceWomen": 0.507,
+     "forecast": {
+      "cost": 25000,
+      "views": 44679,
+      "tgViews": 32844,
+      "tgShare": 0.82,
+      "engagements": 3448,
+      "clicks": 219,
+      "orders": 12.1,
+      "revenue": 16897,
+      "roas": 0.68,
+      "recallLiftPts": 6,
+      "costPerTgView": 0.76,
+      "costPerEngagement": 7.25,
+      "costPerClick": 114.37
+     },
+     "why": [
+      "Audience matches the brief: 51% women (target 50%), 87% age overlap, 75% city-tier overlap",
+      "Comedy &amp; Entertainment is a core category for Spotify, with music &amp; dance as a second pillar",
+      "Forecast 0.7× ROAS on ₹25K, about 12 orders",
+      "90% of followers look real and active; 34% of recent posts are sponsored"
+     ],
+     "risks": []
+    }
+   ],
+   "plan": {
+    "creators": 50,
+    "spend": 1499000,
+    "views": 2074681,
+    "tgViews": 1301738,
+    "uniqueTgReach": 805129,
+    "engagements": 101338,
+    "clicks": 11937,
+    "orders": 626,
+    "revenue": 876316,
+    "roas": 0.58,
+    "recallLiftPts": 4.1,
+    "fakeAudienceShare": 0.13,
+    "gatedIncluded": 0,
+    "representCreators": 2,
+    "representSpend": 51500,
+    "forecastBandPct": 25,
+    "spendByTier": {
+     "micro": 436000,
+     "mid": 1042500,
+     "nano": 20500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 3,
+    "spend": 1497000,
+    "views": 1536780,
+    "tgViews": 888246,
+    "uniqueTgReach": 550465,
+    "engagements": 53612,
+    "clicks": 5878,
+    "orders": 243,
+    "revenue": 339697,
+    "roas": 0.23,
+    "recallLiftPts": 2.7,
+    "fakeAudienceShare": 0.14,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 205500,
+    "forecastBandPct": 33,
+    "spendByTier": {
+     "mega": 1266500,
+     "macro": 205500,
+     "mid": 25000
+    }
+   },
+   "planCreators": [
+    "Mansi B. (Micro, Tech & Gadgets)",
+    "Gauri N. (Micro, Music & Dance)",
+    "Yash S. (Micro, Education & Careers)",
+    "Ananya J. (Micro, Music & Dance)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Aditi B. (Micro, Beauty & Skincare)",
+    "Varsha B. (Micro, Food & Cooking)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Kritika P. (Micro, Lifestyle & Vlogs)",
+    "Debolina C. (Mid-tier, Lifestyle & Vlogs)",
+    "Mansi T. (Mid-tier, Beauty & Skincare)"
+   ]
+  }
+ }
+}

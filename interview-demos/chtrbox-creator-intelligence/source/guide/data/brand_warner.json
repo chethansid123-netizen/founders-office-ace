@@ -1,0 +1,1777 @@
+{
+ "id": "warner",
+ "name": "Warner Music India",
+ "parent": "Warner Music Group",
+ "vertical": "ent",
+ "sub": "Music label",
+ "status": "Reported client",
+ "defaultObjective": "awareness",
+ "brief": "Seed new tracks into 10,000 Reels in the first 72 hours.",
+ "moment": "Release weeks",
+ "budgetLakh": 6,
+ "target": {
+  "fem": 0.52,
+  "age": [
+   0.2,
+   0.5,
+   0.22,
+   0.06,
+   0.02
+  ],
+  "tiers": [
+   0.42,
+   0.38,
+   0.2
+  ],
+  "affl": 0.42
+ },
+ "languages": {
+  "Hindi": 1,
+  "Hinglish": 0.95,
+  "Punjabi": 0.9,
+  "Tamil": 0.6,
+  "Telugu": 0.6,
+  "English": 0.6
+ },
+ "codes": [
+  "Bollywood pop",
+  "Gen-Z humour",
+  "Wedding season",
+  "Regional pride"
+ ],
+ "affinity": {
+  "music": 1,
+  "comedy": 0.85,
+  "lifestyle": 0.65,
+  "fashion": 0.5
+ },
+ "competitors": [
+  "T-Series",
+  "Saregama",
+  "Sony Music"
+ ],
+ "compliance": null,
+ "aov": 0,
+ "conversionRate": 0,
+ "kpis": [
+  "Audio uses",
+  "Stream lift",
+  "Shares per view"
+ ],
+ "markets": [
+  "India"
+ ],
+ "tgPoolMillions": 220,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 367,
+   "gated": 53,
+   "gatesByReason": {
+    "safety": 4,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Pavithra K.",
+     "id": "CIE-1318",
+     "reasons": [
+      "Brand-safety score 44: past controversy (2025), promotes betting / real-money gaming"
+     ]
+    },
+    {
+     "name": "Krupa B.",
+     "id": "CIE-1052",
+     "reasons": [
+      "Only 60.5% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Sourav C.",
+     "id": "CIE-1097",
+     "reasons": [
+      "Only 57.2% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Mitali P.",
+     "id": "CIE-1207",
+     "reasons": [
+      "Only 55.6% of followers look real and active (gate is 72%)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1279",
+     "name": "Sakshi A.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 83493,
+     "city": "Chandigarh",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 87.2,
+     "parts": {
+      "aud": 94,
+      "cont": 89,
+      "cult": 100,
+      "perf": 67,
+      "auth": 77,
+      "safe": 84,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 20.8,
+      "cont": 13.3,
+      "cult": 14,
+      "perf": 10.1,
+      "auth": 10.8,
+      "safe": 8.4,
+      "cost": 9.9
+     },
+     "confidence": "Medium",
+     "er": 3.59,
+     "linkCtr": 0.57,
+     "realFollowers": 89.9,
+     "viewThrough": 48.1,
+     "hold3s": 74.2,
+     "sponsoredShare": 34,
+     "adDisclosure": 86,
+     "safety": 82,
+     "audienceWomen": 0.507,
+     "forecast": {
+      "cost": 25000,
+      "views": 44679,
+      "tgViews": 35456,
+      "tgShare": 0.88,
+      "engagements": 3448,
+      "clicks": 219,
+      "orders": 0,
+      "revenue": 0,
+      "roas": 0,
+      "recallLiftPts": 6.2,
+      "costPerTgView": 0.71,
+      "costPerEngagement": 7.25,
+      "costPerClick": 114.37
+     },
+     "why": [
+      "Audience matches the brief: 51% women (target 52%), 87% age overlap, 87% city-tier overlap",
+      "Creates in Hinglish + Hindi, Warner Music India's lead language; shares the Bollywood pop and Gen-Z humour codes",
+      "Comedy &amp; Entertainment is a core category for Warner Music India, with music &amp; dance as a second pillar",
+      "90% of followers look real and active; 34% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1199",
+     "name": "Dhwani N.",
+     "niche": "Music & Dance",
+     "niche2": "Comedy & Entertainment",
+     "tier": "Macro",
+     "followers": 678708,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.3,
+     "parts": {
+      "aud": 93,
+      "cont": 96,
+      "cult": 78,
+      "perf": 94,
+      "auth": 50,
+      "safe": 81,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 20.5,
+      "cont": 14.4,
+      "cult": 10.9,
+      "perf": 14,
+      "auth": 7,
+      "safe": 8.1,
+      "cost": 9.4
+     },
+     "confidence": "High",
+     "er": 0.75,
+     "linkCtr": 0.18,
+     "realFollowers": 77,
+     "viewThrough": 59.6,
+     "hold3s": 70.9,
+     "sponsoredShare": 57,
+     "adDisclosure": 80,
+     "safety": 81,
+     "audienceWomen": 0.588,
+     "forecast": {
+      "cost": 201500,
+      "views": 283027,
+      "tgViews": 190513,
+      "tgShare": 0.87,
+      "engagements": 7330,
+      "clicks": 407,
+      "orders": 0,
+      "revenue": 0,
+      "roas": 0,
+      "recallLiftPts": 10.1,
+      "costPerTgView": 1.06,
+      "costPerEngagement": 27.49,
+      "costPerClick": 495.36
+     },
+     "why": [
+      "Audience matches the brief: 59% women (target 52%), 87% age overlap, 97% city-tier overlap",
+      "Music &amp; Dance is a core category for Warner Music India, with comedy &amp; entertainment as a second pillar",
+      "Viewers watch 60% of each video, top 4% of macro creators; past recall lift +9.3 pts",
+      "Creates in Hinglish + Hindi, Warner Music India's lead language; shares the Gen-Z humour codes"
+     ],
+     "risks": [
+      "Ad fatigue: 57% of recent posts are sponsored"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1356",
+     "name": "Bornali P.",
+     "niche": "Music & Dance",
+     "niche2": "Comedy & Entertainment",
+     "tier": "Mid-tier",
+     "followers": 138262,
+     "city": "Ranchi",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.9,
+     "parts": {
+      "aud": 81,
+      "cont": 96,
+      "cult": 100,
+      "perf": 59,
+      "auth": 75,
+      "safe": 85,
+      "cost": 86
+     },
+     "contributions": {
+      "aud": 17.8,
+      "cont": 14.4,
+      "cult": 14,
+      "perf": 8.9,
+      "auth": 10.6,
+      "safe": 8.5,
+      "cost": 8.6
+     },
+     "confidence": "Low",
+     "er": 1.66,
+     "linkCtr": 0.26,
+     "realFollowers": 90.2,
+     "viewThrough": 54.6,
+     "hold3s": 62.4,
+     "sponsoredShare": 40,
+     "adDisclosure": 70,
+     "safety": 95,
+     "audienceWomen": 0.649,
+     "forecast": {
+      "cost": 37000,
+      "views": 48029,
+      "tgViews": 34350,
+      "tgShare": 0.79,
+      "engagements": 2876,
+      "clicks": 124,
+      "orders": 0,
+      "revenue": 0,
+      "roas": 0,
+      "recallLiftPts": 5.5,
+      "costPerTgView": 1.08,
+      "costPerEngagement": 12.87,
+      "costPerClick": 297.59
+     },
+     "why": [
+      "Audience matches the brief: 65% women (target 52%), 89% age overlap, 80% city-tier overlap",
+      "Music &amp; Dance is a core category for Warner Music India, with comedy &amp; entertainment as a second pillar",
+      "Creates in Hindi, Warner Music India's lead language; shares the Gen-Z humour and Regional pride and Wedding season codes",
+      "90% of followers look real and active; 40% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Discloses #ad on only 70% of paid posts. Brief on disclosure in the first line",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1137",
+     "name": "Rimjhim P.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 138070,
+     "city": "Kolkata",
+     "languages": [
+      "Bengali",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.2,
+     "parts": {
+      "aud": 95,
+      "cont": 80,
+      "cult": 97,
+      "perf": 52,
+      "auth": 75,
+      "safe": 96,
+      "cost": 78
+     },
+     "contributions": {
+      "aud": 21,
+      "cont": 12,
+      "cult": 13.6,
+      "perf": 7.7,
+      "auth": 10.5,
+      "safe": 9.6,
+      "cost": 7.8
+     },
+     "confidence": "Low",
+     "er": 2.5,
+     "linkCtr": 0.24,
+     "realFollowers": 86.1,
+     "viewThrough": 52,
+     "hold3s": 58.3,
+     "sponsoredShare": 20,
+     "adDisclosure": 100,
+     "safety": 93,
+     "audienceWomen": 0.546,
+     "forecast": {
+      "cost": 55000,
+      "views": 57432,
+      "tgViews": 43971,
+      "tgShare": 0.89,
+      "engagements": 4032,
+      "clicks": 111,
+      "orders": 0,
+      "revenue": 0,
+      "roas": 0,
+      "recallLiftPts": 5.3,
+      "costPerTgView": 1.25,
+      "costPerEngagement": 13.64,
+      "costPerClick": 493.57
+     },
+     "why": [
+      "Audience matches the brief: 55% women (target 52%), 90% age overlap, 89% city-tier overlap",
+      "Creates in Bengali + Hinglish, Warner Music India's lead language; shares the Gen-Z humour and Regional pride codes",
+      "Comedy &amp; Entertainment is a strong category for Warner Music India, with lifestyle &amp; vlogs as a second pillar",
+      "86% of followers look real and active; 20% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1374",
+     "name": "Anirban A.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 10695,
+     "city": "Kolkata",
+     "languages": [
+      "Bengali",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.7,
+     "parts": {
+      "aud": 87,
+      "cont": 89,
+      "cult": 75,
+      "perf": 67,
+      "auth": 79,
+      "safe": 78,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 19.1,
+      "cont": 13.3,
+      "cult": 10.5,
+      "perf": 10.1,
+      "auth": 11,
+      "safe": 7.8,
+      "cost": 9.9
+     },
+     "confidence": "Medium",
+     "er": 3.15,
+     "linkCtr": 0.36,
+     "realFollowers": 91.1,
+     "viewThrough": 53.8,
+     "hold3s": 63.4,
+     "sponsoredShare": 32,
+     "adDisclosure": 100,
+     "safety": 64,
+     "audienceWomen": 0.497,
+     "forecast": {
+      "cost": 4000,
+      "views": 7453,
+      "tgViews": 5644,
+      "tgShare": 0.83,
+      "engagements": 395,
+      "clicks": 20,
+      "orders": 0,
+      "revenue": 0,
+      "roas": 0,
+      "recallLiftPts": 6.4,
+      "costPerTgView": 0.71,
+      "costPerEngagement": 10.14,
+      "costPerClick": 197.98
+     },
+     "why": [
+      "Audience matches the brief: 50% women (target 52%), 83% age overlap, 80% city-tier overlap",
+      "Comedy &amp; Entertainment is a core category for Warner Music India, with music &amp; dance as a second pillar",
+      "91% of followers look real and active; 32% of recent posts are sponsored",
+      "Creates in Bengali + Hinglish, Warner Music India's lead language; shares the Gen-Z humour codes"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1354",
+     "name": "Krupa T.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Mid-tier",
+     "followers": 383915,
+     "city": "Pune",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79,
+     "parts": {
+      "aud": 96,
+      "cont": 89,
+      "cult": 75,
+      "perf": 48,
+      "auth": 66,
+      "safe": 85,
+      "cost": 93
+     },
+     "contributions": {
+      "aud": 21,
+      "cont": 13.3,
+      "cult": 10.5,
+      "perf": 7.2,
+      "auth": 9.2,
+      "safe": 8.5,
+      "cost": 9.3
+     },
+     "confidence": "Medium",
+     "er": 1.33,
+     "linkCtr": 0.42,
+     "realFollowers": 84.7,
+     "viewThrough": 41.2,
+     "hold3s": 62.9,
+     "sponsoredShare": 36,
+     "adDisclosure": 90,
+     "safety": 81,
+     "audienceWomen": 0.55,
+     "forecast": {
+      "cost": 136000,
+      "views": 185740,
+      "tgViews": 140160,
+      "tgShare": 0.89,
+      "engagements": 6719,
+      "clicks": 620,
+      "orders": 0,
+      "revenue": 0,
+      "roas": 0,
+      "recallLiftPts": 6.6,
+      "costPerTgView": 0.97,
+      "costPerEngagement": 20.24,
+      "costPerClick": 219.31
+     },
+     "why": [
+      "Audience matches the brief: 55% women (target 52%), 87% age overlap, 98% city-tier overlap",
+      "Comedy &amp; Entertainment is a core category for Warner Music India, with music &amp; dance as a second pillar",
+      "Creates in Hinglish, Warner Music India's lead language; shares the Gen-Z humour codes",
+      "₹0.97 per verified TG view for 1 reel and 2 stories (₹1.36L)"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1391",
+     "name": "Parth B.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 8323,
+     "city": "Mumbai",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.7,
+     "parts": {
+      "aud": 83,
+      "cont": 80,
+      "cult": 56,
+      "perf": 92,
+      "auth": 71,
+      "safe": 73,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 18.2,
+      "cont": 12,
+      "cult": 7.8,
+      "perf": 13.8,
+      "auth": 9.9,
+      "safe": 7.3,
+      "cost": 9.8
+     },
+     "confidence": "Low",
+     "er": 7.87,
+     "linkCtr": 0.29,
+     "realFollowers": 84.8,
+     "viewThrough": 64.4,
+     "hold3s": 68,
+     "sponsoredShare": 28,
+     "adDisclosure": 83,
+     "safety": 67,
+     "audienceWomen": 0.519,
+     "forecast": {
+      "cost": 4000,
+      "views": 6666,
+      "tgViews": 4536,
+      "tgShare": 0.8,
+      "engagements": 715,
+      "clicks": 15,
+      "orders": 0,
+      "revenue": 0,
+      "roas": 0,
+      "recallLiftPts": 9.7,
+      "costPerTgView": 0.88,
+      "costPerEngagement": 5.59,
+      "costPerClick": 271.71
+     },
+     "why": [
+      "Audience matches the brief: 52% women (target 52%), 84% age overlap, 77% city-tier overlap",
+      "Viewers watch 64% of each video, top 1% of nano creators; past recall lift +10 pts",
+      "Comedy &amp; Entertainment is a strong category for Warner Music India, with lifestyle &amp; vlogs as a second pillar",
+      "85% of followers look real and active; 28% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Promotes betting / real-money gaming",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1294",
+     "name": "Akhil Y.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 48916,
+     "city": "Bengaluru",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.7,
+     "parts": {
+      "aud": 80,
+      "cont": 89,
+      "cult": 56,
+      "perf": 94,
+      "auth": 72,
+      "safe": 76,
+      "cost": 84
+     },
+     "contributions": {
+      "aud": 17.5,
+      "cont": 13.3,
+      "cult": 7.8,
+      "perf": 14,
+      "auth": 10.1,
+      "safe": 7.6,
+      "cost": 8.4
+     },
+     "confidence": "High",
+     "er": 5.46,
+     "linkCtr": 0.46,
+     "realFollowers": 86.6,
+     "viewThrough": 61.8,
+     "hold3s": 80,
+     "sponsoredShare": 23,
+     "adDisclosure": 89,
+     "safety": 67,
+     "audienceWomen": 0.408,
+     "forecast": {
+      "cost": 25000,
+      "views": 29888,
+      "tgViews": 20250,
+      "tgShare": 0.78,
+      "engagements": 2935,
+      "clicks": 110,
+      "orders": 0,
+      "revenue": 0,
+      "roas": 0,
+      "recallLiftPts": 8,
+      "costPerTgView": 1.23,
+      "costPerEngagement": 8.52,
+      "costPerClick": 226.74
+     },
+     "why": [
+      "Audience matches the brief: 41% women (target 52%), 84% age overlap, 82% city-tier overlap",
+      "Viewers watch 62% of each video, top 1% of micro creators; past recall lift +7.9 pts",
+      "Comedy &amp; Entertainment is a core category for Warner Music India, with music &amp; dance as a second pillar",
+      "87% of followers look real and active; 23% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Promotes betting / real-money gaming"
+     ]
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1168",
+     "name": "Ananya J.",
+     "niche": "Music & Dance",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 41635,
+     "city": "Bengaluru",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.5,
+     "parts": {
+      "aud": 76,
+      "cont": 91,
+      "cult": 100,
+      "perf": 25,
+      "auth": 85,
+      "safe": 85,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 16.6,
+      "cont": 13.7,
+      "cult": 14,
+      "perf": 3.8,
+      "auth": 11.9,
+      "safe": 8.5,
+      "cost": 9.9
+     },
+     "confidence": "Medium",
+     "er": 2.49,
+     "linkCtr": 0.48,
+     "realFollowers": 91.8,
+     "viewThrough": 41.5,
+     "hold3s": 58.3,
+     "sponsoredShare": 7,
+     "adDisclosure": 74,
+     "safety": 93,
+     "audienceWomen": 0.743,
+     "forecast": {
+      "cost": 15000,
+      "views": 36201,
+      "tgViews": 25157,
+      "tgShare": 0.76,
+      "engagements": 1262,
+      "clicks": 121,
+      "orders": 0,
+      "revenue": 0,
+      "roas": 0,
+      "recallLiftPts": 3.2,
+      "costPerTgView": 0.6,
+      "costPerEngagement": 11.89,
+      "costPerClick": 124.16
+     },
+     "why": [
+      "Audience matches the brief: 74% women (target 52%), 80% age overlap, 93% city-tier overlap",
+      "Creates in Hinglish + Hindi, Warner Music India's lead language; shares the Bollywood pop and Regional pride codes",
+      "Music &amp; Dance is a core category for Warner Music India, with lifestyle &amp; vlogs as a second pillar",
+      "92% of followers look real and active; 7% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Discloses #ad on only 74% of paid posts. Brief on disclosure in the first line"
+     ]
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1342",
+     "name": "Aman T.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Macro",
+     "followers": 625678,
+     "city": "Chandigarh",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": true,
+     "credential": null,
+     "fit": 78.5,
+     "parts": {
+      "aud": 90,
+      "cont": 89,
+      "cult": 78,
+      "perf": 58,
+      "auth": 76,
+      "safe": 87,
+      "cost": 63
+     },
+     "contributions": {
+      "aud": 19.9,
+      "cont": 13.3,
+      "cult": 10.9,
+      "perf": 8.8,
+      "auth": 10.7,
+      "safe": 8.7,
+      "cost": 6.3
+     },
+     "confidence": "Medium",
+     "er": 1.95,
+     "linkCtr": 0.3,
+     "realFollowers": 92.3,
+     "viewThrough": 58.6,
+     "hold3s": 52,
+     "sponsoredShare": 46,
+     "adDisclosure": 92,
+     "safety": 84,
+     "audienceWomen": 0.576,
+     "forecast": {
+      "cost": 257500,
+      "views": 203196,
+      "tgViews": 160275,
+      "tgShare": 0.85,
+      "engagements": 14265,
+      "clicks": 525,
+      "orders": 0,
+      "revenue": 0,
+      "roas": 0,
+      "recallLiftPts": 6,
+      "costPerTgView": 1.61,
+      "costPerEngagement": 18.05,
+      "costPerClick": 490.35
+     },
+     "why": [
+      "Audience matches the brief: 58% women (target 52%), 84% age overlap, 90% city-tier overlap",
+      "Comedy &amp; Entertainment is a core category for Warner Music India, with music &amp; dance as a second pillar",
+      "Creates in Hindi, Warner Music India's lead language; shares the Bollywood pop codes",
+      "92% of followers look real and active; 46% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Ad fatigue: 46% of recent posts are sponsored",
+      "Political commentary"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 18,
+    "spend": 599500,
+    "views": 916245,
+    "tgViews": 664214,
+    "uniqueTgReach": 411470,
+    "engagements": 43721,
+    "clicks": 3409,
+    "orders": 0,
+    "revenue": 0,
+    "roas": 0,
+    "recallLiftPts": 5.5,
+    "fakeAudienceShare": 0.11,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 26,
+    "spendByTier": {
+     "micro": 217500,
+     "mid": 378000,
+     "nano": 4000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 598000,
+    "views": 557700,
+    "tgViews": 293735,
+    "uniqueTgReach": 182105,
+    "engagements": 20792,
+    "clicks": 3762,
+    "orders": 0,
+    "revenue": 0,
+    "roas": 0,
+    "recallLiftPts": 2.7,
+    "fakeAudienceShare": 0.2,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 573000,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 573000,
+     "mid": 25000
+    }
+   },
+   "planCreators": [
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Ananya J. (Micro, Music & Dance)",
+    "Varsha B. (Micro, Food & Cooking)",
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Akhil J. (Micro, Comedy & Entertainment)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Bornali P. (Mid-tier, Music & Dance)",
+    "Anirban A. (Micro, Comedy & Entertainment)",
+    "Janhvi K. (Mid-tier, Music & Dance)",
+    "Keerthi J. (Mid-tier, Fashion & Style)",
+    "Gauri N. (Micro, Music & Dance)",
+    "Krupa T. (Mid-tier, Comedy & Entertainment)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 367,
+   "gated": 53,
+   "gatesByReason": {
+    "safety": 4,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Pavithra K.",
+     "id": "CIE-1318",
+     "reasons": [
+      "Brand-safety score 44: past controversy (2025), promotes betting / real-money gaming"
+     ]
+    },
+    {
+     "name": "Sourav C.",
+     "id": "CIE-1097",
+     "reasons": [
+      "Only 57.2% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Mitali S.",
+     "id": "CIE-1109",
+     "reasons": [
+      "Brand-safety score 51: political commentary, unverified health claims"
+     ]
+    },
+    {
+     "name": "Rehan G.",
+     "id": "CIE-1162",
+     "reasons": [
+      "Audience is mostly in the UAE; Warner Music India runs this brief in India"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1279",
+     "name": "Sakshi A.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 83493,
+     "city": "Chandigarh",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 85.7,
+     "parts": {
+      "aud": 94,
+      "cont": 89,
+      "cult": 100,
+      "perf": 68,
+      "auth": 77,
+      "safe": 84,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 18.9,
+      "cont": 16,
+      "cult": 10,
+      "perf": 13.6,
+      "auth": 10.8,
+      "safe": 6.7,
+      "cost": 9.7
+     },
+     "confidence": "Medium",
+     "er": 3.59,
+     "linkCtr": 0.57,
+     "realFollowers": 89.9,
+     "viewThrough": 48.1,
+     "hold3s": 74.2,
+     "sponsoredShare": 34,
+     "adDisclosure": 86,
+     "safety": 82,
+     "audienceWomen": 0.507,
+     "forecast": {
+      "cost": 25000,
+      "views": 44679,
+      "tgViews": 35456,
+      "tgShare": 0.88,
+      "engagements": 3448,
+      "clicks": 219,
+      "orders": 0,
+      "revenue": 0,
+      "roas": 0,
+      "recallLiftPts": 6.2,
+      "costPerTgView": 0.71,
+      "costPerEngagement": 7.25,
+      "costPerClick": 114.37
+     },
+     "why": [
+      "Audience matches the brief: 51% women (target 52%), 87% age overlap, 87% city-tier overlap",
+      "Comedy &amp; Entertainment is a core category for Warner Music India, with music &amp; dance as a second pillar",
+      "Engagement rate 3.6%, top 25% of micro creators; 2.2% of viewers save or share",
+      "90% of followers look real and active; 34% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1137",
+     "name": "Rimjhim P.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 138070,
+     "city": "Kolkata",
+     "languages": [
+      "Bengali",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.6,
+     "parts": {
+      "aud": 95,
+      "cont": 80,
+      "cult": 97,
+      "perf": 82,
+      "auth": 75,
+      "safe": 96,
+      "cost": 59
+     },
+     "contributions": {
+      "aud": 19.1,
+      "cont": 14.4,
+      "cult": 9.7,
+      "perf": 16.4,
+      "auth": 10.5,
+      "safe": 7.7,
+      "cost": 5.9
+     },
+     "confidence": "Low",
+     "er": 2.5,
+     "linkCtr": 0.24,
+     "realFollowers": 86.1,
+     "viewThrough": 52,
+     "hold3s": 58.3,
+     "sponsoredShare": 20,
+     "adDisclosure": 100,
+     "safety": 93,
+     "audienceWomen": 0.546,
+     "forecast": {
+      "cost": 55000,
+      "views": 57432,
+      "tgViews": 43971,
+      "tgShare": 0.89,
+      "engagements": 4032,
+      "clicks": 111,
+      "orders": 0,
+      "revenue": 0,
+      "roas": 0,
+      "recallLiftPts": 5.3,
+      "costPerTgView": 1.25,
+      "costPerEngagement": 13.64,
+      "costPerClick": 493.57
+     },
+     "why": [
+      "Audience matches the brief: 55% women (target 52%), 90% age overlap, 89% city-tier overlap",
+      "Engagement rate 2.5%, top 2% of mid-tier creators; 3.2% of viewers save or share",
+      "Comedy &amp; Entertainment is a strong category for Warner Music India, with lifestyle &amp; vlogs as a second pillar",
+      "86% of followers look real and active; 20% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1342",
+     "name": "Aman T.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Macro",
+     "followers": 625678,
+     "city": "Chandigarh",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": true,
+     "credential": null,
+     "fit": 80.7,
+     "parts": {
+      "aud": 90,
+      "cont": 89,
+      "cult": 78,
+      "perf": 85,
+      "auth": 76,
+      "safe": 87,
+      "cost": 42
+     },
+     "contributions": {
+      "aud": 18.1,
+      "cont": 16,
+      "cult": 7.8,
+      "perf": 17.1,
+      "auth": 10.7,
+      "safe": 7,
+      "cost": 4.2
+     },
+     "confidence": "Medium",
+     "er": 1.95,
+     "linkCtr": 0.3,
+     "realFollowers": 92.3,
+     "viewThrough": 58.6,
+     "hold3s": 52,
+     "sponsoredShare": 46,
+     "adDisclosure": 92,
+     "safety": 84,
+     "audienceWomen": 0.576,
+     "forecast": {
+      "cost": 257500,
+      "views": 203196,
+      "tgViews": 160275,
+      "tgShare": 0.85,
+      "engagements": 14265,
+      "clicks": 525,
+      "orders": 0,
+      "revenue": 0,
+      "roas": 0,
+      "recallLiftPts": 6,
+      "costPerTgView": 1.61,
+      "costPerEngagement": 18.05,
+      "costPerClick": 490.35
+     },
+     "why": [
+      "Audience matches the brief: 58% women (target 52%), 84% age overlap, 90% city-tier overlap",
+      "Engagement rate 1.9%, top 1% of macro creators; 2.8% of viewers save or share",
+      "Comedy &amp; Entertainment is a core category for Warner Music India, with music &amp; dance as a second pillar",
+      "92% of followers look real and active; 46% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Ad fatigue: 46% of recent posts are sponsored",
+      "Political commentary"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1374",
+     "name": "Anirban A.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 10695,
+     "city": "Kolkata",
+     "languages": [
+      "Bengali",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.3,
+     "parts": {
+      "aud": 87,
+      "cont": 89,
+      "cult": 75,
+      "perf": 72,
+      "auth": 79,
+      "safe": 78,
+      "cost": 78
+     },
+     "contributions": {
+      "aud": 17.4,
+      "cont": 16,
+      "cult": 7.5,
+      "perf": 14.4,
+      "auth": 11,
+      "safe": 6.3,
+      "cost": 7.8
+     },
+     "confidence": "Medium",
+     "er": 3.15,
+     "linkCtr": 0.36,
+     "realFollowers": 91.1,
+     "viewThrough": 53.8,
+     "hold3s": 63.4,
+     "sponsoredShare": 32,
+     "adDisclosure": 100,
+     "safety": 64,
+     "audienceWomen": 0.497,
+     "forecast": {
+      "cost": 4000,
+      "views": 7453,
+      "tgViews": 5644,
+      "tgShare": 0.83,
+      "engagements": 395,
+      "clicks": 20,
+      "orders": 0,
+      "revenue": 0,
+      "roas": 0,
+      "recallLiftPts": 6.4,
+      "costPerTgView": 0.71,
+      "costPerEngagement": 10.14,
+      "costPerClick": 197.98
+     },
+     "why": [
+      "Audience matches the brief: 50% women (target 52%), 83% age overlap, 80% city-tier overlap",
+      "Comedy &amp; Entertainment is a core category for Warner Music India, with music &amp; dance as a second pillar",
+      "Engagement rate 3.1%, top 38% of micro creators; 3.0% of viewers save or share",
+      "91% of followers look real and active; 32% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1111",
+     "name": "Karthik B.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 71521,
+     "city": "Bengaluru",
+     "languages": [
+      "Kannada"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79,
+     "parts": {
+      "aud": 88,
+      "cont": 89,
+      "cult": 23,
+      "perf": 73,
+      "auth": 85,
+      "safe": 93,
+      "cost": 92
+     },
+     "contributions": {
+      "aud": 17.7,
+      "cont": 16,
+      "cult": 2.3,
+      "perf": 14.6,
+      "auth": 11.9,
+      "safe": 7.4,
+      "cost": 9.2
+     },
+     "confidence": "High",
+     "er": 4.84,
+     "linkCtr": 0.26,
+     "realFollowers": 95.6,
+     "viewThrough": 48.8,
+     "hold3s": 74.5,
+     "sponsoredShare": 21,
+     "adDisclosure": 95,
+     "safety": 91,
+     "audienceWomen": 0.443,
+     "forecast": {
+      "cost": 32000,
+      "views": 44383,
+      "tgViews": 35669,
+      "tgShare": 0.84,
+      "engagements": 3848,
+      "clicks": 92,
+      "orders": 0,
+      "revenue": 0,
+      "roas": 0,
+      "recallLiftPts": 3.6,
+      "costPerTgView": 0.9,
+      "costPerEngagement": 8.32,
+      "costPerClick": 348.44
+     },
+     "why": [
+      "Audience matches the brief: 44% women (target 52%), 87% age overlap, 85% city-tier overlap",
+      "Comedy &amp; Entertainment is a core category for Warner Music India, with music &amp; dance as a second pillar",
+      "Engagement rate 4.8%, top 8% of micro creators; 2.8% of viewers save or share",
+      "96% of followers look real and active; 21% of recent posts are sponsored"
+     ],
+     "risks": []
+    }
+   ],
+   "plan": {
+    "creators": 33,
+    "spend": 599500,
+    "views": 734785,
+    "tgViews": 505206,
+    "uniqueTgReach": 313016,
+    "engagements": 68106,
+    "clicks": 2651,
+    "orders": 0,
+    "revenue": 0,
+    "roas": 0,
+    "recallLiftPts": 4.3,
+    "fakeAudienceShare": 0.1,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 24,
+    "spendByTier": {
+     "micro": 456000,
+     "nano": 14000,
+     "mid": 129500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 598000,
+    "views": 557700,
+    "tgViews": 293735,
+    "uniqueTgReach": 182105,
+    "engagements": 20792,
+    "clicks": 3762,
+    "orders": 0,
+    "revenue": 0,
+    "roas": 0,
+    "recallLiftPts": 2.7,
+    "fakeAudienceShare": 0.2,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 573000,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 573000,
+     "mid": 25000
+    }
+   },
+   "planCreators": [
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Anjali V. (Micro, Comedy & Entertainment)",
+    "Gauri N. (Micro, Music & Dance)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Akhil Y. (Micro, Comedy & Entertainment)",
+    "Akhil J. (Micro, Comedy & Entertainment)",
+    "Yash S. (Micro, Education & Careers)",
+    "Moumita N. (Micro, Parenting & Family)",
+    "Parth B. (Nano, Comedy & Entertainment)",
+    "Ananya B. (Micro, Beauty & Skincare)",
+    "Bornali P. (Mid-tier, Music & Dance)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 367,
+   "gated": 53,
+   "gatesByReason": {
+    "fraud": 32,
+    "safety": 4,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Krupa B.",
+     "id": "CIE-1052",
+     "reasons": [
+      "Only 60.5% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Pavithra K.",
+     "id": "CIE-1318",
+     "reasons": [
+      "Brand-safety score 44: past controversy (2025), promotes betting / real-money gaming"
+     ]
+    },
+    {
+     "name": "Hetal D.",
+     "id": "CIE-1212",
+     "reasons": [
+      "Only 65.5% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Sourav C.",
+     "id": "CIE-1097",
+     "reasons": [
+      "Only 57.2% of followers look real and active (gate is 72%)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1345",
+     "name": "Aanya R.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Nano",
+     "followers": 8388,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 73.9,
+     "parts": {
+      "aud": 77,
+      "cont": 39,
+      "cult": 52,
+      "perf": 75,
+      "auth": 92,
+      "safe": 85,
+      "cost": 95
+     },
+     "contributions": {
+      "aud": 13.9,
+      "cont": 5.4,
+      "cult": 4.2,
+      "perf": 19.4,
+      "auth": 12.9,
+      "safe": 6.8,
+      "cost": 11.3
+     },
+     "confidence": "Low",
+     "er": 4.96,
+     "linkCtr": 1.11,
+     "realFollowers": 95.7,
+     "viewThrough": 38.3,
+     "hold3s": 77.2,
+     "sponsoredShare": 21,
+     "adDisclosure": 87,
+     "safety": 83,
+     "audienceWomen": 0.731,
+     "forecast": {
+      "cost": 4000,
+      "views": 4633,
+      "tgViews": 3402,
+      "tgShare": 0.77,
+      "engagements": 476,
+      "clicks": 34,
+      "orders": 0,
+      "revenue": 0,
+      "roas": 0,
+      "recallLiftPts": 2.5,
+      "costPerTgView": 1.18,
+      "costPerEngagement": 8.4,
+      "costPerClick": 117.82
+     },
+     "why": [
+      "Link CTR 1.11%, top 17% of nano creators; trust index 1.03",
+      "Audience matches the brief: 73% women (target 52%), 84% age overlap, 96% city-tier overlap",
+      "96% of followers look real and active; 21% of recent posts are sponsored",
+      "₹117.82 per click"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1279",
+     "name": "Sakshi A.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 83493,
+     "city": "Chandigarh",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 73.9,
+     "parts": {
+      "aud": 94,
+      "cont": 89,
+      "cult": 100,
+      "perf": 29,
+      "auth": 77,
+      "safe": 84,
+      "cost": 96
+     },
+     "contributions": {
+      "aud": 17,
+      "cont": 12.4,
+      "cult": 8,
+      "perf": 7.5,
+      "auth": 10.8,
+      "safe": 6.7,
+      "cost": 11.5
+     },
+     "confidence": "Medium",
+     "er": 3.59,
+     "linkCtr": 0.57,
+     "realFollowers": 89.9,
+     "viewThrough": 48.1,
+     "hold3s": 74.2,
+     "sponsoredShare": 34,
+     "adDisclosure": 86,
+     "safety": 82,
+     "audienceWomen": 0.507,
+     "forecast": {
+      "cost": 25000,
+      "views": 44679,
+      "tgViews": 35456,
+      "tgShare": 0.88,
+      "engagements": 3448,
+      "clicks": 219,
+      "orders": 0,
+      "revenue": 0,
+      "roas": 0,
+      "recallLiftPts": 6.2,
+      "costPerTgView": 0.71,
+      "costPerEngagement": 7.25,
+      "costPerClick": 114.37
+     },
+     "why": [
+      "Audience matches the brief: 51% women (target 52%), 87% age overlap, 87% city-tier overlap",
+      "Comedy &amp; Entertainment is a core category for Warner Music India, with music &amp; dance as a second pillar",
+      "₹114.37 per click",
+      "90% of followers look real and active; 34% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1357",
+     "name": "Rasika M.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Macro",
+     "followers": 904194,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 73.3,
+     "parts": {
+      "aud": 64,
+      "cont": 54,
+      "cult": 55,
+      "perf": 87,
+      "auth": 66,
+      "safe": 84,
+      "cost": 95
+     },
+     "contributions": {
+      "aud": 11.6,
+      "cont": 7.5,
+      "cult": 4.4,
+      "perf": 22.6,
+      "auth": 9.2,
+      "safe": 6.7,
+      "cost": 11.4
+     },
+     "confidence": "Medium",
+     "er": 0.96,
+     "linkCtr": 1.21,
+     "realFollowers": 82.3,
+     "viewThrough": 57.1,
+     "hold3s": 72,
+     "sponsoredShare": 25,
+     "adDisclosure": 80,
+     "safety": 86,
+     "audienceWomen": 0.834,
+     "forecast": {
+      "cost": 313000,
+      "views": 378871,
+      "tgViews": 213605,
+      "tgShare": 0.69,
+      "engagements": 11664,
+      "clicks": 2666,
+      "orders": 0,
+      "revenue": 0,
+      "roas": 0,
+      "recallLiftPts": 7,
+      "costPerTgView": 1.47,
+      "costPerEngagement": 26.83,
+      "costPerClick": 117.41
+     },
+     "why": [
+      "Link CTR 1.21%, top 7% of macro creators; trust index 1.20",
+      "Audience matches the brief: 83% women (target 52%), 76% age overlap, 96% city-tier overlap",
+      "₹117.41 per click",
+      "82% of followers look real and active; 25% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1024",
+     "name": "Hetal C.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 173129,
+     "city": "Surat",
+     "languages": [
+      "Gujarati",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 72.6,
+     "parts": {
+      "aud": 72,
+      "cont": 54,
+      "cult": 75,
+      "perf": 67,
+      "auth": 69,
+      "safe": 91,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 12.9,
+      "cont": 7.5,
+      "cult": 6,
+      "perf": 17.5,
+      "auth": 9.6,
+      "safe": 7.3,
+      "cost": 11.8
+     },
+     "confidence": "Low",
+     "er": 1.19,
+     "linkCtr": 1.38,
+     "realFollowers": 83,
+     "viewThrough": 53.9,
+     "hold3s": 73.3,
+     "sponsoredShare": 20,
+     "adDisclosure": 92,
+     "safety": 90,
+     "audienceWomen": 0.728,
+     "forecast": {
+      "cost": 58500,
+      "views": 73249,
+      "tgViews": 44525,
+      "tgShare": 0.73,
+      "engagements": 2787,
+      "clicks": 659,
+      "orders": 0,
+      "revenue": 0,
+      "roas": 0,
+      "recallLiftPts": 6.9,
+      "costPerTgView": 1.31,
+      "costPerEngagement": 20.99,
+      "costPerClick": 88.74
+     },
+     "why": [
+      "Link CTR 1.38%, top 6% of mid-tier creators; trust index 0.96",
+      "Audience matches the brief: 73% women (target 52%), 77% age overlap, 85% city-tier overlap",
+      "₹88.74 per click",
+      "83% of followers look real and active; 20% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1349",
+     "name": "Gauri N.",
+     "niche": "Music & Dance",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 79527,
+     "city": "Mumbai",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 72.5,
+     "parts": {
+      "aud": 89,
+      "cont": 91,
+      "cult": 100,
+      "perf": 29,
+      "auth": 79,
+      "safe": 71,
+      "cost": 96
+     },
+     "contributions": {
+      "aud": 16,
+      "cont": 12.8,
+      "cult": 8,
+      "perf": 7.5,
+      "auth": 11,
+      "safe": 5.6,
+      "cost": 11.6
+     },
+     "confidence": "High",
+     "er": 2.35,
+     "linkCtr": 0.68,
+     "realFollowers": 91.6,
+     "viewThrough": 36.5,
+     "hold3s": 60.6,
+     "sponsoredShare": 37,
+     "adDisclosure": 85,
+     "safety": 61,
+     "audienceWomen": 0.479,
+     "forecast": {
+      "cost": 23000,
+      "views": 31425,
+      "tgViews": 24324,
+      "tgShare": 0.85,
+      "engagements": 2298,
+      "clicks": 221,
+      "orders": 0,
+      "revenue": 0,
+      "roas": 0,
+      "recallLiftPts": 2.1,
+      "costPerTgView": 0.95,
+      "costPerEngagement": 10.01,
+      "costPerClick": 103.89
+     },
+     "why": [
+      "Audience matches the brief: 48% women (target 52%), 78% age overlap, 96% city-tier overlap",
+      "Music &amp; Dance is a core category for Warner Music India, with lifestyle &amp; vlogs as a second pillar",
+      "₹103.89 per click",
+      "92% of followers look real and active; 37% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Past controversy (2025)"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 21,
+    "spend": 599000,
+    "views": 881635,
+    "tgViews": 559213,
+    "uniqueTgReach": 346461,
+    "engagements": 45340,
+    "clicks": 6594,
+    "orders": 0,
+    "revenue": 0,
+    "roas": 0,
+    "recallLiftPts": 4.1,
+    "fakeAudienceShare": 0.12,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 49000,
+    "forecastBandPct": 25,
+    "spendByTier": {
+     "mid": 399500,
+     "micro": 192500,
+     "nano": 7000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 598000,
+    "views": 557700,
+    "tgViews": 293735,
+    "uniqueTgReach": 182105,
+    "engagements": 20792,
+    "clicks": 3762,
+    "orders": 0,
+    "revenue": 0,
+    "roas": 0,
+    "recallLiftPts": 2.7,
+    "fakeAudienceShare": 0.2,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 573000,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 573000,
+     "mid": 25000
+    }
+   },
+   "planCreators": [
+    "Parth K. (Mid-tier, Fashion & Style)",
+    "Varsha B. (Micro, Food & Cooking)",
+    "Gauri N. (Micro, Music & Dance)",
+    "Sruthi A. (Mid-tier, Fashion & Style)",
+    "Aditi B. (Micro, Beauty & Skincare)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Yash S. (Micro, Education & Careers)",
+    "Abhinav C. (Mid-tier, Fashion & Style)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Mansi B. (Micro, Tech & Gadgets)",
+    "Ananya J. (Micro, Music & Dance)"
+   ]
+  }
+ }
+}

@@ -1,0 +1,1775 @@
+{
+ "id": "flipkart",
+ "name": "Flipkart",
+ "parent": "Walmart",
+ "vertical": "ecom",
+ "sub": "Marketplace",
+ "status": "Reported client",
+ "defaultObjective": "conversion",
+ "brief": "Win Bharat's first smartphone and first appliance purchase in local languages.",
+ "moment": "Big Billion Days · Sep–Oct",
+ "budgetLakh": 45,
+ "target": {
+  "fem": 0.48,
+  "age": [
+   0.06,
+   0.4,
+   0.36,
+   0.13,
+   0.05
+  ],
+  "tiers": [
+   0.3,
+   0.4,
+   0.3
+  ],
+  "affl": 0.4
+ },
+ "languages": {
+  "Hindi": 1,
+  "Hinglish": 0.95,
+  "Tamil": 0.75,
+  "Telugu": 0.75,
+  "Kannada": 0.7,
+  "Bengali": 0.7,
+  "Marathi": 0.7,
+  "English": 0.6,
+  "Malayalam": 0.65,
+  "Gujarati": 0.6,
+  "Odia": 0.6,
+  "Punjabi": 0.6
+ },
+ "codes": [
+  "Value-seeker",
+  "Festive & occasions",
+  "Small-town dreams",
+  "Regional pride"
+ ],
+ "affinity": {
+  "tech": 0.9,
+  "fashion": 0.8,
+  "lifestyle": 0.8,
+  "home": 0.8,
+  "beauty": 0.7,
+  "comedy": 0.6,
+  "gaming": 0.55,
+  "education": 0.5
+ },
+ "competitors": [
+  "Amazon",
+  "Meesho",
+  "Shopsy"
+ ],
+ "compliance": null,
+ "aov": 1600,
+ "conversionRate": 0.038,
+ "kpis": [
+  "Verified orders",
+  "iROAS",
+  "Tier-2/3 share of orders"
+ ],
+ "markets": [
+  "India"
+ ],
+ "tgPoolMillions": 360,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 367,
+   "gated": 53,
+   "gatesByReason": {
+    "fraud": 32,
+    "safety": 4,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Aparna M.",
+     "id": "CIE-1350",
+     "reasons": [
+      "Only 63.3% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Sneha S.",
+     "id": "CIE-1088",
+     "reasons": [
+      "Only 69.3% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Pavithra K.",
+     "id": "CIE-1318",
+     "reasons": [
+      "Brand-safety score 44: past controversy (2025), promotes betting / real-money gaming"
+     ]
+    },
+    {
+     "name": "Arun S.",
+     "id": "CIE-1335",
+     "reasons": [
+      "Only 58.5% of followers look real and active (gate is 72%)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1191",
+     "name": "Karan V.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 13872,
+     "city": "Jaipur",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.9,
+     "parts": {
+      "aud": 95,
+      "cont": 72,
+      "cult": 78,
+      "perf": 69,
+      "auth": 83,
+      "safe": 80,
+      "cost": 93
+     },
+     "contributions": {
+      "aud": 20.9,
+      "cont": 10.9,
+      "cult": 10.9,
+      "perf": 10.4,
+      "auth": 11.6,
+      "safe": 8,
+      "cost": 9.3
+     },
+     "confidence": "Medium",
+     "er": 3.68,
+     "linkCtr": 0.72,
+     "realFollowers": 92.4,
+     "viewThrough": 44.2,
+     "hold3s": 69,
+     "sponsoredShare": 36,
+     "adDisclosure": 83,
+     "safety": 78,
+     "audienceWomen": 0.624,
+     "forecast": {
+      "cost": 5000,
+      "views": 6617,
+      "tgViews": 5421,
+      "tgShare": 0.89,
+      "engagements": 585,
+      "clicks": 39,
+      "orders": 4.7,
+      "revenue": 7573,
+      "roas": 1.51,
+      "recallLiftPts": 7.4,
+      "costPerTgView": 0.92,
+      "costPerEngagement": 8.54,
+      "costPerClick": 128.85
+     },
+     "why": [
+      "Audience matches the brief: 62% women (target 48%), 96% age overlap, 95% city-tier overlap",
+      "92% of followers look real and active; 36% of recent posts are sponsored",
+      "Beauty &amp; Skincare is a strong category for Flipkart, with lifestyle &amp; vlogs as a second pillar",
+      "Creates in Hindi, Flipkart's lead language; shares the Small-town dreams codes"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1024",
+     "name": "Hetal C.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 173129,
+     "city": "Surat",
+     "languages": [
+      "Gujarati",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.5,
+     "parts": {
+      "aud": 86,
+      "cont": 80,
+      "cult": 75,
+      "perf": 88,
+      "auth": 69,
+      "safe": 91,
+      "cost": 82
+     },
+     "contributions": {
+      "aud": 18.9,
+      "cont": 12,
+      "cult": 10.5,
+      "perf": 13.2,
+      "auth": 9.6,
+      "safe": 9.1,
+      "cost": 8.2
+     },
+     "confidence": "Low",
+     "er": 1.19,
+     "linkCtr": 1.38,
+     "realFollowers": 83,
+     "viewThrough": 53.9,
+     "hold3s": 73.3,
+     "sponsoredShare": 20,
+     "adDisclosure": 92,
+     "safety": 90,
+     "audienceWomen": 0.728,
+     "forecast": {
+      "cost": 58500,
+      "views": 73249,
+      "tgViews": 50165,
+      "tgShare": 0.83,
+      "engagements": 2787,
+      "clicks": 810,
+      "orders": 97.6,
+      "revenue": 156192,
+      "roas": 2.67,
+      "recallLiftPts": 8.4,
+      "costPerTgView": 1.17,
+      "costPerEngagement": 20.99,
+      "costPerClick": 72.23
+     },
+     "why": [
+      "Audience matches the brief: 73% women (target 48%), 95% age overlap, 95% city-tier overlap",
+      "Viewers watch 54% of each video, top 12% of mid-tier creators; past recall lift +8.6 pts",
+      "Fashion &amp; Style is a strong category for Flipkart, with lifestyle &amp; vlogs as a second pillar",
+      "Creates in Gujarati + Hinglish, Flipkart's lead language; shares the Regional pride codes"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1131",
+     "name": "Pranav M.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Macro",
+     "followers": 669872,
+     "city": "Chennai",
+     "languages": [
+      "Tamil"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.9,
+     "parts": {
+      "aud": 95,
+      "cont": 65,
+      "cult": 64,
+      "perf": 89,
+      "auth": 65,
+      "safe": 86,
+      "cost": 84
+     },
+     "contributions": {
+      "aud": 20.8,
+      "cont": 9.7,
+      "cult": 8.9,
+      "perf": 13.3,
+      "auth": 9.1,
+      "safe": 8.6,
+      "cost": 8.4
+     },
+     "confidence": "High",
+     "er": 1.24,
+     "linkCtr": 0.47,
+     "realFollowers": 83.8,
+     "viewThrough": 62.6,
+     "hold3s": 64,
+     "sponsoredShare": 32,
+     "adDisclosure": 91,
+     "safety": 82,
+     "audienceWomen": 0.438,
+     "forecast": {
+      "cost": 261500,
+      "views": 302028,
+      "tgViews": 223940,
+      "tgShare": 0.88,
+      "engagements": 10517,
+      "clicks": 876,
+      "orders": 85.4,
+      "revenue": 136610,
+      "roas": 0.52,
+      "recallLiftPts": 9.1,
+      "costPerTgView": 1.17,
+      "costPerEngagement": 24.86,
+      "costPerClick": 298.37
+     },
+     "why": [
+      "Audience matches the brief: 44% women (target 48%), 96% age overlap, 87% city-tier overlap",
+      "Viewers watch 63% of each video, top 2% of macro creators; past recall lift +10 pts",
+      "Comedy &amp; Entertainment is a strong category for Flipkart, with lifestyle &amp; vlogs as a second pillar",
+      "84% of followers look real and active; 32% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1185",
+     "name": "Manav R.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Education & Careers",
+     "tier": "Mid-tier",
+     "followers": 155314,
+     "city": "Chandigarh",
+     "languages": [
+      "Punjabi",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.8,
+     "parts": {
+      "aud": 75,
+      "cont": 80,
+      "cult": 97,
+      "perf": 66,
+      "auth": 77,
+      "safe": 80,
+      "cost": 80
+     },
+     "contributions": {
+      "aud": 16.6,
+      "cont": 12,
+      "cult": 13.6,
+      "perf": 9.9,
+      "auth": 10.8,
+      "safe": 8,
+      "cost": 8
+     },
+     "confidence": "Medium",
+     "er": 0.89,
+     "linkCtr": 1.09,
+     "realFollowers": 89.6,
+     "viewThrough": 45,
+     "hold3s": 66,
+     "sponsoredShare": 26,
+     "adDisclosure": 81,
+     "safety": 79,
+     "audienceWomen": 0.15,
+     "forecast": {
+      "cost": 40000,
+      "views": 49526,
+      "tgViews": 33544,
+      "tgShare": 0.76,
+      "engagements": 2035,
+      "clicks": 507,
+      "orders": 69.3,
+      "revenue": 110944,
+      "roas": 2.77,
+      "recallLiftPts": 7.8,
+      "costPerTgView": 1.19,
+      "costPerEngagement": 19.66,
+      "costPerClick": 78.95
+     },
+     "why": [
+      "Audience matches the brief: 15% women (target 48%), 96% age overlap, 93% city-tier overlap",
+      "Creates in Punjabi + Hinglish, Flipkart's lead language; shares the Regional pride and Value-seeker codes",
+      "Tech &amp; Gadgets is a strong category for Flipkart, with education &amp; careers as a second pillar",
+      "90% of followers look real and active; 26% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1083",
+     "name": "Mitali B.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Micro",
+     "followers": 30216,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.3,
+     "parts": {
+      "aud": 80,
+      "cont": 78,
+      "cult": 52,
+      "perf": 76,
+      "auth": 85,
+      "safe": 92,
+      "cost": 93
+     },
+     "contributions": {
+      "aud": 17.6,
+      "cont": 11.6,
+      "cult": 7.3,
+      "perf": 11.3,
+      "auth": 12,
+      "safe": 9.2,
+      "cost": 9.3
+     },
+     "confidence": "Low",
+     "er": 2.34,
+     "linkCtr": 0.51,
+     "realFollowers": 90,
+     "viewThrough": 55.3,
+     "hold3s": 55.1,
+     "sponsoredShare": 4,
+     "adDisclosure": 94,
+     "safety": 90,
+     "audienceWomen": 0.705,
+     "forecast": {
+      "cost": 9500,
+      "views": 13910,
+      "tgViews": 9833,
+      "tgShare": 0.79,
+      "engagements": 870,
+      "clicks": 61,
+      "orders": 8.2,
+      "revenue": 13099,
+      "roas": 1.38,
+      "recallLiftPts": 9.1,
+      "costPerTgView": 0.97,
+      "costPerEngagement": 10.92,
+      "costPerClick": 155.35
+     },
+     "why": [
+      "Audience matches the brief: 71% women (target 48%), 96% age overlap, 89% city-tier overlap",
+      "90% of followers look real and active; 4% of recent posts are sponsored",
+      "Fashion &amp; Style is a strong category for Flipkart, with beauty &amp; skincare as a second pillar",
+      "Viewers watch 55% of each video, top 6% of micro creators; past recall lift +9.6 pts"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 80,
+    "spend": 4424500,
+    "views": 6470412,
+    "tgViews": 4427755,
+    "uniqueTgReach": 2735406,
+    "engagements": 244962,
+    "clicks": 30386,
+    "orders": 3403,
+    "revenue": 5444450,
+    "roas": 1.23,
+    "recallLiftPts": 5.2,
+    "fakeAudienceShare": 0.14,
+    "gatedIncluded": 0,
+    "representCreators": 3,
+    "representSpend": 440000,
+    "forecastBandPct": 23,
+    "spendByTier": {
+     "micro": 661000,
+     "macro": 696500,
+     "mid": 2274500,
+     "mega": 776000,
+     "nano": 16500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 4,
+    "spend": 4423000,
+    "views": 3985639,
+    "tgViews": 2231289,
+    "uniqueTgReach": 1381521,
+    "engagements": 120521,
+    "clicks": 15516,
+    "orders": 1428,
+    "revenue": 2284518,
+    "roas": 0.52,
+    "recallLiftPts": 3.1,
+    "fakeAudienceShare": 0.28,
+    "gatedIncluded": 2,
+    "representCreators": 1,
+    "representSpend": 300000,
+    "forecastBandPct": 20,
+    "spendByTier": {
+     "mega": 4423000
+    }
+   },
+   "planCreators": [
+    "Varsha B. (Micro, Food & Cooking)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Akhil J. (Micro, Comedy & Entertainment)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Keerthi B. (Macro, Beauty & Skincare)",
+    "Keerthi J. (Mid-tier, Fashion & Style)",
+    "Ananya J. (Micro, Music & Dance)",
+    "Kritika P. (Micro, Lifestyle & Vlogs)",
+    "Karan V. (Micro, Beauty & Skincare)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Mitali B. (Micro, Fashion & Style)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 367,
+   "gated": 53,
+   "gatesByReason": {
+    "safety": 4,
+    "market": 18,
+    "fraud": 32
+   },
+   "gatedExamples": [
+    {
+     "name": "Mitali S.",
+     "id": "CIE-1109",
+     "reasons": [
+      "Brand-safety score 51: political commentary, unverified health claims"
+     ]
+    },
+    {
+     "name": "Rehan G.",
+     "id": "CIE-1162",
+     "reasons": [
+      "Audience is mostly in the UAE; Flipkart runs this brief in India"
+     ]
+    },
+    {
+     "name": "Lakshmi S.",
+     "id": "CIE-1068",
+     "reasons": [
+      "Only 68.2% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Nithya C.",
+     "id": "CIE-1306",
+     "reasons": [
+      "Brand-safety score 47: profanity in recent content, past controversy (2025)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1221",
+     "name": "Shreya G.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 16818,
+     "city": "Chandigarh",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 80.7,
+     "parts": {
+      "aud": 80,
+      "cont": 80,
+      "cult": 78,
+      "perf": 83,
+      "auth": 73,
+      "safe": 88,
+      "cost": 87
+     },
+     "contributions": {
+      "aud": 16,
+      "cont": 14.4,
+      "cult": 7.8,
+      "perf": 16.7,
+      "auth": 10.2,
+      "safe": 7,
+      "cost": 8.7
+     },
+     "confidence": "Low",
+     "er": 3.98,
+     "linkCtr": 0.59,
+     "realFollowers": 85.9,
+     "viewThrough": 51.4,
+     "hold3s": 61.1,
+     "sponsoredShare": 37,
+     "adDisclosure": 90,
+     "safety": 86,
+     "audienceWomen": 0.641,
+     "forecast": {
+      "cost": 6000,
+      "views": 3486,
+      "tgViews": 2348,
+      "tgShare": 0.78,
+      "engagements": 669,
+      "clicks": 14,
+      "orders": 1.9,
+      "revenue": 2973,
+      "roas": 0.5,
+      "recallLiftPts": 8,
+      "costPerTgView": 2.56,
+      "costPerEngagement": 8.96,
+      "costPerClick": 417.64
+     },
+     "why": [
+      "Engagement rate 4.0%, top 17% of micro creators; 3.0% of viewers save or share",
+      "Audience matches the brief: 64% women (target 48%), 83% age overlap, 96% city-tier overlap",
+      "Fashion &amp; Style is a strong category for Flipkart, with lifestyle &amp; vlogs as a second pillar",
+      "86% of followers look real and active; 37% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1146",
+     "name": "Ishani V.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 69981,
+     "city": "Patna",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 78.8,
+     "parts": {
+      "aud": 72,
+      "cont": 72,
+      "cult": 100,
+      "perf": 77,
+      "auth": 70,
+      "safe": 95,
+      "cost": 84
+     },
+     "contributions": {
+      "aud": 14.4,
+      "cont": 13,
+      "cult": 10,
+      "perf": 15.4,
+      "auth": 9.9,
+      "safe": 7.6,
+      "cost": 8.4
+     },
+     "confidence": "Low",
+     "er": 5.7,
+     "linkCtr": 0.76,
+     "realFollowers": 85.8,
+     "viewThrough": 39.6,
+     "hold3s": 62.7,
+     "sponsoredShare": 28,
+     "adDisclosure": 99,
+     "safety": 92,
+     "audienceWomen": 0.921,
+     "forecast": {
+      "cost": 37000,
+      "views": 15201,
+      "tgViews": 9570,
+      "tgShare": 0.73,
+      "engagements": 3989,
+      "clicks": 76,
+      "orders": 8.7,
+      "revenue": 13878,
+      "roas": 0.38,
+      "recallLiftPts": 7.2,
+      "costPerTgView": 3.87,
+      "costPerEngagement": 9.28,
+      "costPerClick": 484.25
+     },
+     "why": [
+      "Engagement rate 5.7%, top 2% of micro creators; 2.6% of viewers save or share",
+      "Audience matches the brief: 92% women (target 48%), 97% age overlap, 92% city-tier overlap",
+      "Beauty &amp; Skincare is a strong category for Flipkart, with lifestyle &amp; vlogs as a second pillar",
+      "Creates in Hindi, Flipkart's lead language; shares the Festive &amp; occasions and Value-seeker codes"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1079",
+     "name": "Janhvi D.",
+     "niche": "Education & Careers",
+     "niche2": "Tech & Gadgets",
+     "tier": "Micro",
+     "followers": 25128,
+     "city": "Pune",
+     "languages": [
+      "Marathi",
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.5,
+     "parts": {
+      "aud": 92,
+      "cont": 60,
+      "cult": 84,
+      "perf": 75,
+      "auth": 75,
+      "safe": 86,
+      "cost": 87
+     },
+     "contributions": {
+      "aud": 18.4,
+      "cont": 10.8,
+      "cult": 8.4,
+      "perf": 15,
+      "auth": 10.5,
+      "safe": 6.9,
+      "cost": 8.7
+     },
+     "confidence": "High",
+     "er": 3.01,
+     "linkCtr": 1.27,
+     "realFollowers": 88.7,
+     "viewThrough": 47.3,
+     "hold3s": 72.1,
+     "sponsoredShare": 36,
+     "adDisclosure": 86,
+     "safety": 86,
+     "audienceWomen": 0.41,
+     "forecast": {
+      "cost": 8000,
+      "views": 11683,
+      "tgViews": 8982,
+      "tgShare": 0.87,
+      "engagements": 892,
+      "clicks": 111,
+      "orders": 13,
+      "revenue": 20856,
+      "roas": 2.61,
+      "recallLiftPts": 2.9,
+      "costPerTgView": 0.89,
+      "costPerEngagement": 8.97,
+      "costPerClick": 71.99
+     },
+     "why": [
+      "Audience matches the brief: 41% women (target 48%), 84% age overlap, 96% city-tier overlap",
+      "Engagement rate 3.0%, top 42% of micro creators; 4.5% of viewers save or share",
+      "Education &amp; Careers is a strong category for Flipkart, with tech &amp; gadgets as a second pillar",
+      "89% of followers look real and active; 36% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1191",
+     "name": "Karan V.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 13872,
+     "city": "Jaipur",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.4,
+     "parts": {
+      "aud": 95,
+      "cont": 72,
+      "cult": 78,
+      "perf": 59,
+      "auth": 83,
+      "safe": 80,
+      "cost": 88
+     },
+     "contributions": {
+      "aud": 19,
+      "cont": 13,
+      "cult": 7.8,
+      "perf": 11.8,
+      "auth": 11.6,
+      "safe": 6.4,
+      "cost": 8.8
+     },
+     "confidence": "Medium",
+     "er": 3.68,
+     "linkCtr": 0.72,
+     "realFollowers": 92.4,
+     "viewThrough": 44.2,
+     "hold3s": 69,
+     "sponsoredShare": 36,
+     "adDisclosure": 83,
+     "safety": 78,
+     "audienceWomen": 0.624,
+     "forecast": {
+      "cost": 5000,
+      "views": 6617,
+      "tgViews": 5421,
+      "tgShare": 0.89,
+      "engagements": 585,
+      "clicks": 39,
+      "orders": 4.7,
+      "revenue": 7573,
+      "roas": 1.51,
+      "recallLiftPts": 7.4,
+      "costPerTgView": 0.92,
+      "costPerEngagement": 8.54,
+      "costPerClick": 128.85
+     },
+     "why": [
+      "Audience matches the brief: 62% women (target 48%), 96% age overlap, 95% city-tier overlap",
+      "Beauty &amp; Skincare is a strong category for Flipkart, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 3.7%, top 21% of micro creators; 1.6% of viewers save or share",
+      "92% of followers look real and active; 36% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1296",
+     "name": "Subhankar B.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 45223,
+     "city": "Kolkata",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.3,
+     "parts": {
+      "aud": 70,
+      "cont": 72,
+      "cult": 97,
+      "perf": 78,
+      "auth": 76,
+      "safe": 90,
+      "cost": 83
+     },
+     "contributions": {
+      "aud": 14,
+      "cont": 13,
+      "cult": 9.7,
+      "perf": 15.5,
+      "auth": 10.6,
+      "safe": 7.2,
+      "cost": 8.3
+     },
+     "confidence": "Medium",
+     "er": 3.76,
+     "linkCtr": 0.59,
+     "realFollowers": 83.4,
+     "viewThrough": 41.2,
+     "hold3s": 55.4,
+     "sponsoredShare": 11,
+     "adDisclosure": 89,
+     "safety": 91,
+     "audienceWomen": 0.838,
+     "forecast": {
+      "cost": 18500,
+      "views": 23148,
+      "tgViews": 13918,
+      "tgShare": 0.72,
+      "engagements": 1945,
+      "clicks": 107,
+      "orders": 12.1,
+      "revenue": 19438,
+      "roas": 1.05,
+      "recallLiftPts": 5.2,
+      "costPerTgView": 1.33,
+      "costPerEngagement": 9.51,
+      "costPerClick": 172.86
+     },
+     "why": [
+      "Engagement rate 3.8%, top 20% of micro creators; 2.6% of viewers save or share",
+      "Audience matches the brief: 84% women (target 48%), 95% age overlap, 93% city-tier overlap",
+      "Beauty &amp; Skincare is a strong category for Flipkart, with lifestyle &amp; vlogs as a second pillar",
+      "83% of followers look real and active; 11% of recent posts are sponsored"
+     ],
+     "risks": []
+    }
+   ],
+   "plan": {
+    "creators": 80,
+    "spend": 1714000,
+    "views": 1957824,
+    "tgViews": 1343223,
+    "uniqueTgReach": 831873,
+    "engagements": 161069,
+    "clicks": 8509,
+    "orders": 946,
+    "revenue": 1514176,
+    "roas": 0.88,
+    "recallLiftPts": 4.4,
+    "fakeAudienceShare": 0.11,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 257500,
+    "forecastBandPct": 22,
+    "spendByTier": {
+     "micro": 1013500,
+     "nano": 26000,
+     "mid": 417000,
+     "macro": 257500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 3,
+    "spend": 1707500,
+    "views": 1973448,
+    "tgViews": 1310725,
+    "uniqueTgReach": 812231,
+    "engagements": 55031,
+    "clicks": 11310,
+    "orders": 1151,
+    "revenue": 1842169,
+    "roas": 1.08,
+    "recallLiftPts": 3.5,
+    "fakeAudienceShare": 0.17,
+    "gatedIncluded": 1,
+    "representCreators": 1,
+    "representSpend": 300000,
+    "forecastBandPct": 34,
+    "spendByTier": {
+     "mega": 1566500,
+     "macro": 141000
+    }
+   },
+   "planCreators": [
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Moumita N. (Micro, Parenting & Family)",
+    "Anjali V. (Micro, Comedy & Entertainment)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Ananya B. (Micro, Beauty & Skincare)",
+    "Rasika D. (Micro, Beauty & Skincare)",
+    "Yash S. (Micro, Education & Careers)",
+    "Karan V. (Micro, Beauty & Skincare)",
+    "Devang M. (Nano, Lifestyle & Vlogs)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Aditi B. (Micro, Beauty & Skincare)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 367,
+   "gated": 53,
+   "gatesByReason": {
+    "fraud": 32,
+    "safety": 4,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Hetal D.",
+     "id": "CIE-1212",
+     "reasons": [
+      "Only 65.5% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Lakshmi S.",
+     "id": "CIE-1068",
+     "reasons": [
+      "Only 68.2% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Mitali S.",
+     "id": "CIE-1109",
+     "reasons": [
+      "Brand-safety score 51: political commentary, unverified health claims"
+     ]
+    },
+    {
+     "name": "Aarya D.",
+     "id": "CIE-1139",
+     "reasons": [
+      "Only 54.2% of followers look real and active (gate is 72%)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1361",
+     "name": "Hetal M.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 30105,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.1,
+     "parts": {
+      "aud": 75,
+      "cont": 80,
+      "cult": 97,
+      "perf": 76,
+      "auth": 64,
+      "safe": 90,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 13.4,
+      "cont": 11.2,
+      "cult": 7.8,
+      "perf": 19.9,
+      "auth": 8.9,
+      "safe": 7.2,
+      "cost": 11.7
+     },
+     "confidence": "High",
+     "er": 2.41,
+     "linkCtr": 1.15,
+     "realFollowers": 80.4,
+     "viewThrough": 26.9,
+     "hold3s": 45.7,
+     "sponsoredShare": 14,
+     "adDisclosure": 83,
+     "safety": 95,
+     "audienceWomen": 0.658,
+     "forecast": {
+      "cost": 11000,
+      "views": 13079,
+      "tgViews": 7885,
+      "tgShare": 0.75,
+      "engagements": 888,
+      "clicks": 136,
+      "orders": 20.2,
+      "revenue": 32344,
+      "roas": 2.94,
+      "recallLiftPts": 5.4,
+      "costPerTgView": 1.4,
+      "costPerEngagement": 12.39,
+      "costPerClick": 80.62
+     },
+     "why": [
+      "Link CTR 1.15%, top 13% of micro creators; trust index 1.18",
+      "Audience matches the brief: 66% women (target 48%), 91% age overlap, 78% city-tier overlap",
+      "Forecast 2.9× ROAS on ₹11K, about 20 orders",
+      "Fashion &amp; Style is a strong category for Flipkart, with lifestyle &amp; vlogs as a second pillar"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1079",
+     "name": "Janhvi D.",
+     "niche": "Education & Careers",
+     "niche2": "Tech & Gadgets",
+     "tier": "Micro",
+     "followers": 25128,
+     "city": "Pune",
+     "languages": [
+      "Marathi",
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.9,
+     "parts": {
+      "aud": 92,
+      "cont": 60,
+      "cult": 84,
+      "perf": 75,
+      "auth": 75,
+      "safe": 86,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 16.6,
+      "cont": 8.4,
+      "cult": 6.7,
+      "perf": 19.6,
+      "auth": 10.5,
+      "safe": 6.9,
+      "cost": 11.3
+     },
+     "confidence": "High",
+     "er": 3.01,
+     "linkCtr": 1.27,
+     "realFollowers": 88.7,
+     "viewThrough": 47.3,
+     "hold3s": 72.1,
+     "sponsoredShare": 36,
+     "adDisclosure": 86,
+     "safety": 86,
+     "audienceWomen": 0.41,
+     "forecast": {
+      "cost": 8000,
+      "views": 11683,
+      "tgViews": 8982,
+      "tgShare": 0.87,
+      "engagements": 892,
+      "clicks": 111,
+      "orders": 13,
+      "revenue": 20856,
+      "roas": 2.61,
+      "recallLiftPts": 2.9,
+      "costPerTgView": 0.89,
+      "costPerEngagement": 8.97,
+      "costPerClick": 71.99
+     },
+     "why": [
+      "Link CTR 1.27%, top 5% of micro creators; trust index 1.04",
+      "Audience matches the brief: 41% women (target 48%), 84% age overlap, 96% city-tier overlap",
+      "Forecast 2.6× ROAS on ₹8K, about 13 orders",
+      "89% of followers look real and active; 36% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1357",
+     "name": "Rasika M.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Macro",
+     "followers": 904194,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.7,
+     "parts": {
+      "aud": 70,
+      "cont": 80,
+      "cult": 78,
+      "perf": 87,
+      "auth": 66,
+      "safe": 84,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 12.6,
+      "cont": 11.2,
+      "cult": 6.2,
+      "perf": 22.6,
+      "auth": 9.2,
+      "safe": 6.7,
+      "cost": 11.2
+     },
+     "confidence": "Medium",
+     "er": 0.96,
+     "linkCtr": 1.21,
+     "realFollowers": 82.3,
+     "viewThrough": 57.1,
+     "hold3s": 72,
+     "sponsoredShare": 25,
+     "adDisclosure": 80,
+     "safety": 86,
+     "audienceWomen": 0.834,
+     "forecast": {
+      "cost": 313000,
+      "views": 378871,
+      "tgViews": 224574,
+      "tgShare": 0.72,
+      "engagements": 11664,
+      "clicks": 3275,
+      "orders": 493.4,
+      "revenue": 789485,
+      "roas": 2.52,
+      "recallLiftPts": 8.4,
+      "costPerTgView": 1.39,
+      "costPerEngagement": 26.83,
+      "costPerClick": 95.57
+     },
+     "why": [
+      "Link CTR 1.21%, top 7% of macro creators; trust index 1.20",
+      "Audience matches the brief: 83% women (target 48%), 98% age overlap, 86% city-tier overlap",
+      "Forecast 2.5× ROAS on ₹3.13L, about 493 orders",
+      "Fashion &amp; Style is a strong category for Flipkart, with lifestyle &amp; vlogs as a second pillar"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1220",
+     "name": "Aditi B.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 24805,
+     "city": "Jaipur",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.6,
+     "parts": {
+      "aud": 63,
+      "cont": 72,
+      "cult": 78,
+      "perf": 83,
+      "auth": 87,
+      "safe": 79,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 11.3,
+      "cont": 10.1,
+      "cult": 6.2,
+      "perf": 21.5,
+      "auth": 12.2,
+      "safe": 6.3,
+      "cost": 11.9
+     },
+     "confidence": "Medium",
+     "er": 2.9,
+     "linkCtr": 1.64,
+     "realFollowers": 93.5,
+     "viewThrough": 30.8,
+     "hold3s": 59.7,
+     "sponsoredShare": 11,
+     "adDisclosure": 85,
+     "safety": 75,
+     "audienceWomen": 0.97,
+     "forecast": {
+      "cost": 8000,
+      "views": 7925,
+      "tgViews": 5006,
+      "tgShare": 0.68,
+      "engagements": 853,
+      "clicks": 135,
+      "orders": 18.3,
+      "revenue": 29202,
+      "roas": 3.65,
+      "recallLiftPts": 3.2,
+      "costPerTgView": 1.6,
+      "costPerEngagement": 9.38,
+      "costPerClick": 59.29
+     },
+     "why": [
+      "Link CTR 1.64%, top 1% of micro creators; trust index 1.12",
+      "94% of followers look real and active; 11% of recent posts are sponsored",
+      "Forecast 3.7× ROAS on ₹8K, about 18 orders",
+      "Audience matches the brief: 97% women (target 48%), 96% age overlap, 95% city-tier overlap"
+     ],
+     "risks": [
+      "Unverified health claims"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1334",
+     "name": "Mansi T.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 125386,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": true,
+     "credential": null,
+     "fit": 79.3,
+     "parts": {
+      "aud": 75,
+      "cont": 72,
+      "cult": 78,
+      "perf": 76,
+      "auth": 80,
+      "safe": 91,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 13.5,
+      "cont": 10.1,
+      "cult": 6.2,
+      "perf": 19.8,
+      "auth": 11.1,
+      "safe": 7.2,
+      "cost": 11.3
+     },
+     "confidence": "Low",
+     "er": 1.45,
+     "linkCtr": 1.68,
+     "realFollowers": 89,
+     "viewThrough": 49.8,
+     "hold3s": 64.1,
+     "sponsoredShare": 27,
+     "adDisclosure": 96,
+     "safety": 87,
+     "audienceWomen": 0.802,
+     "forecast": {
+      "cost": 49000,
+      "views": 52197,
+      "tgViews": 34916,
+      "tgShare": 0.75,
+      "engagements": 2345,
+      "clicks": 671,
+      "orders": 80.2,
+      "revenue": 128350,
+      "roas": 2.62,
+      "recallLiftPts": 4.7,
+      "costPerTgView": 1.4,
+      "costPerEngagement": 20.9,
+      "costPerClick": 73.03
+     },
+     "why": [
+      "Link CTR 1.68%, top 1% of mid-tier creators; trust index 0.99",
+      "Audience matches the brief: 80% women (target 48%), 97% age overlap, 87% city-tier overlap",
+      "Forecast 2.6× ROAS on ₹49K, about 80 orders",
+      "89% of followers look real and active; 27% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1246",
+     "name": "Gayathri Y.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Mid-tier",
+     "followers": 484648,
+     "city": "Madurai",
+     "languages": [
+      "Tamil"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.1,
+     "parts": {
+      "aud": 74,
+      "cont": 72,
+      "cult": 41,
+      "perf": 94,
+      "auth": 73,
+      "safe": 87,
+      "cost": 90
+     },
+     "contributions": {
+      "aud": 13.2,
+      "cont": 10.1,
+      "cult": 3.3,
+      "perf": 24.4,
+      "auth": 10.3,
+      "safe": 6.9,
+      "cost": 10.8
+     },
+     "confidence": "Medium",
+     "er": 2.47,
+     "linkCtr": 1.27,
+     "realFollowers": 85,
+     "viewThrough": 54.5,
+     "hold3s": 71.5,
+     "sponsoredShare": 23,
+     "adDisclosure": 100,
+     "safety": 78,
+     "audienceWomen": 0.831,
+     "forecast": {
+      "cost": 225000,
+      "views": 146869,
+      "tgViews": 92844,
+      "tgShare": 0.74,
+      "engagements": 14006,
+      "clicks": 1709,
+      "orders": 272.4,
+      "revenue": 435907,
+      "roas": 1.94,
+      "recallLiftPts": 8.9,
+      "costPerTgView": 2.42,
+      "costPerEngagement": 16.06,
+      "costPerClick": 131.65
+     },
+     "why": [
+      "Link CTR 1.27%, top 8% of mid-tier creators; trust index 1.32",
+      "Audience matches the brief: 83% women (target 48%), 94% age overlap, 88% city-tier overlap",
+      "Forecast 1.9× ROAS on ₹2.25L, about 272 orders",
+      "85% of followers look real and active; 23% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1114",
+     "name": "Tanvi R.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Education & Careers",
+     "tier": "Mid-tier",
+     "followers": 254770,
+     "city": "Jaipur",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.8,
+     "parts": {
+      "aud": 74,
+      "cont": 80,
+      "cult": 78,
+      "perf": 72,
+      "auth": 78,
+      "safe": 84,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 13.4,
+      "cont": 11.2,
+      "cult": 6.2,
+      "perf": 18.6,
+      "auth": 11,
+      "safe": 6.7,
+      "cost": 11.7
+     },
+     "confidence": "Low",
+     "er": 0.85,
+     "linkCtr": 1.23,
+     "realFollowers": 88.3,
+     "viewThrough": 34.7,
+     "hold3s": 64.4,
+     "sponsoredShare": 18,
+     "adDisclosure": 69,
+     "safety": 94,
+     "audienceWomen": 0.252,
+     "forecast": {
+      "cost": 77000,
+      "views": 94705,
+      "tgViews": 62528,
+      "tgShare": 0.75,
+      "engagements": 3236,
+      "clicks": 1001,
+      "orders": 142,
+      "revenue": 227221,
+      "roas": 2.95,
+      "recallLiftPts": 5.1,
+      "costPerTgView": 1.23,
+      "costPerEngagement": 23.8,
+      "costPerClick": 76.92
+     },
+     "why": [
+      "Link CTR 1.23%, top 11% of mid-tier creators; trust index 1.13",
+      "Audience matches the brief: 25% women (target 48%), 93% age overlap, 86% city-tier overlap",
+      "Forecast 3.0× ROAS on ₹77K, about 142 orders",
+      "Tech &amp; Gadgets is a strong category for Flipkart, with education &amp; careers as a second pillar"
+     ],
+     "risks": [
+      "Discloses #ad on only 69% of paid posts. Brief on disclosure in the first line",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1024",
+     "name": "Hetal C.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 173129,
+     "city": "Surat",
+     "languages": [
+      "Gujarati",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.4,
+     "parts": {
+      "aud": 86,
+      "cont": 80,
+      "cult": 75,
+      "perf": 67,
+      "auth": 69,
+      "safe": 91,
+      "cost": 95
+     },
+     "contributions": {
+      "aud": 15.5,
+      "cont": 11.2,
+      "cult": 6,
+      "perf": 17.5,
+      "auth": 9.6,
+      "safe": 7.3,
+      "cost": 11.4
+     },
+     "confidence": "Low",
+     "er": 1.19,
+     "linkCtr": 1.38,
+     "realFollowers": 83,
+     "viewThrough": 53.9,
+     "hold3s": 73.3,
+     "sponsoredShare": 20,
+     "adDisclosure": 92,
+     "safety": 90,
+     "audienceWomen": 0.728,
+     "forecast": {
+      "cost": 58500,
+      "views": 73249,
+      "tgViews": 50165,
+      "tgShare": 0.83,
+      "engagements": 2787,
+      "clicks": 810,
+      "orders": 97.6,
+      "revenue": 156192,
+      "roas": 2.67,
+      "recallLiftPts": 8.4,
+      "costPerTgView": 1.17,
+      "costPerEngagement": 20.99,
+      "costPerClick": 72.23
+     },
+     "why": [
+      "Link CTR 1.38%, top 6% of mid-tier creators; trust index 0.96",
+      "Audience matches the brief: 73% women (target 48%), 95% age overlap, 95% city-tier overlap",
+      "Forecast 2.7× ROAS on ₹59K, about 98 orders",
+      "Fashion &amp; Style is a strong category for Flipkart, with lifestyle &amp; vlogs as a second pillar"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1345",
+     "name": "Aanya R.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Nano",
+     "followers": 8388,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.1,
+     "parts": {
+      "aud": 71,
+      "cont": 78,
+      "cult": 52,
+      "perf": 75,
+      "auth": 92,
+      "safe": 85,
+      "cost": 93
+     },
+     "contributions": {
+      "aud": 12.8,
+      "cont": 10.9,
+      "cult": 4.2,
+      "perf": 19.4,
+      "auth": 12.9,
+      "safe": 6.8,
+      "cost": 11.2
+     },
+     "confidence": "Low",
+     "er": 4.96,
+     "linkCtr": 1.11,
+     "realFollowers": 95.7,
+     "viewThrough": 38.3,
+     "hold3s": 77.2,
+     "sponsoredShare": 21,
+     "adDisclosure": 87,
+     "safety": 83,
+     "audienceWomen": 0.731,
+     "forecast": {
+      "cost": 4000,
+      "views": 4633,
+      "tgViews": 3233,
+      "tgShare": 0.73,
+      "engagements": 476,
+      "clicks": 47,
+      "orders": 6,
+      "revenue": 9626,
+      "roas": 2.41,
+      "recallLiftPts": 3.2,
+      "costPerTgView": 1.24,
+      "costPerEngagement": 8.4,
+      "costPerClick": 84.88
+     },
+     "why": [
+      "Link CTR 1.11%, top 17% of nano creators; trust index 1.03",
+      "96% of followers look real and active; 21% of recent posts are sponsored",
+      "Audience matches the brief: 73% women (target 48%), 89% age overlap, 85% city-tier overlap",
+      "Forecast 2.4× ROAS on ₹4K, about 6 orders"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1099",
+     "name": "Arnab B.",
+     "niche": "Home & Decor",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 43559,
+     "city": "Kolkata",
+     "languages": [
+      "Bengali",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.8,
+     "parts": {
+      "aud": 72,
+      "cont": 80,
+      "cult": 75,
+      "perf": 77,
+      "auth": 66,
+      "safe": 83,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 13,
+      "cont": 11.2,
+      "cult": 6,
+      "perf": 19.9,
+      "auth": 9.3,
+      "safe": 6.6,
+      "cost": 11.8
+     },
+     "confidence": "High",
+     "er": 4.13,
+     "linkCtr": 1,
+     "realFollowers": 84.7,
+     "viewThrough": 51.9,
+     "hold3s": 73,
+     "sponsoredShare": 29,
+     "adDisclosure": 89,
+     "safety": 79,
+     "audienceWomen": 0.594,
+     "forecast": {
+      "cost": 15000,
+      "views": 26907,
+      "tgViews": 16726,
+      "tgShare": 0.73,
+      "engagements": 2034,
+      "clicks": 202,
+      "orders": 27.9,
+      "revenue": 44656,
+      "roas": 2.98,
+      "recallLiftPts": 5.2,
+      "costPerTgView": 0.9,
+      "costPerEngagement": 7.37,
+      "costPerClick": 74.22
+     },
+     "why": [
+      "Link CTR 1.00%, top 21% of micro creators; trust index 1.10",
+      "Audience matches the brief: 59% women (target 48%), 72% age overlap, 92% city-tier overlap",
+      "Forecast 3.0× ROAS on ₹15K, about 28 orders",
+      "Home &amp; Decor is a strong category for Flipkart, with lifestyle &amp; vlogs as a second pillar"
+     ],
+     "risks": []
+    }
+   ],
+   "plan": {
+    "creators": 80,
+    "spend": 4374500,
+    "views": 5231790,
+    "tgViews": 3337965,
+    "uniqueTgReach": 2063813,
+    "engagements": 226442,
+    "clicks": 43553,
+    "orders": 5267,
+    "revenue": 8427497,
+    "roas": 1.93,
+    "recallLiftPts": 5.5,
+    "fakeAudienceShare": 0.15,
+    "gatedIncluded": 0,
+    "representCreators": 5,
+    "representSpend": 839500,
+    "forecastBandPct": 23,
+    "spendByTier": {
+     "micro": 525500,
+     "mid": 2604000,
+     "nano": 26500,
+     "macro": 645500,
+     "mega": 573000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 4,
+    "spend": 4328500,
+    "views": 3749982,
+    "tgViews": 2092413,
+    "uniqueTgReach": 1295709,
+    "engagements": 122458,
+    "clicks": 16184,
+    "orders": 1504,
+    "revenue": 2406401,
+    "roas": 0.56,
+    "recallLiftPts": 3.4,
+    "fakeAudienceShare": 0.28,
+    "gatedIncluded": 1,
+    "representCreators": 1,
+    "representSpend": 205500,
+    "forecastBandPct": 19,
+    "spendByTier": {
+     "mega": 4123000,
+     "macro": 205500
+    }
+   },
+   "planCreators": [
+    "Mansi B. (Micro, Tech & Gadgets)",
+    "Aditi B. (Micro, Beauty & Skincare)",
+    "Yash S. (Micro, Education & Careers)",
+    "Tanvi R. (Mid-tier, Tech & Gadgets)",
+    "Manav R. (Mid-tier, Tech & Gadgets)",
+    "Mansi T. (Mid-tier, Beauty & Skincare)",
+    "Sruthi A. (Mid-tier, Fashion & Style)",
+    "Parth K. (Mid-tier, Fashion & Style)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Janhvi D. (Micro, Education & Careers)",
+    "Riya D. (Micro, Beauty & Skincare)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)"
+   ]
+  }
+ }
+}

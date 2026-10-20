@@ -1,0 +1,1778 @@
+{
+ "id": "hp",
+ "name": "HP",
+ "parent": "HP India",
+ "vertical": "tech",
+ "sub": "Laptops & printers",
+ "status": "Reported client",
+ "defaultObjective": "consideration",
+ "brief": "Be the first laptop for students heading to college and coding bootcamps.",
+ "moment": "Back to college · Jun–Aug",
+ "budgetLakh": 24,
+ "target": {
+  "fem": 0.42,
+  "age": [
+   0.1,
+   0.5,
+   0.28,
+   0.09,
+   0.03
+  ],
+  "tiers": [
+   0.44,
+   0.38,
+   0.18
+  ],
+  "affl": 0.52
+ },
+ "languages": {
+  "English": 1,
+  "Hinglish": 0.95,
+  "Hindi": 0.7,
+  "Tamil": 0.5,
+  "Telugu": 0.5,
+  "Kannada": 0.5
+ },
+ "codes": [
+  "Campus life",
+  "Working professional",
+  "Gen-Z humour"
+ ],
+ "affinity": {
+  "tech": 1,
+  "education": 0.95,
+  "gaming": 0.8,
+  "lifestyle": 0.55,
+  "comedy": 0.45
+ },
+ "competitors": [
+  "Dell",
+  "Lenovo",
+  "Asus",
+  "Apple"
+ ],
+ "compliance": null,
+ "aov": 55000,
+ "conversionRate": 0.006,
+ "kpis": [
+  "Consideration lift",
+  "Store and PDP visits",
+  "Saves per view"
+ ],
+ "markets": [
+  "India"
+ ],
+ "tgPoolMillions": 120,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 348,
+   "gated": 72,
+   "gatesByReason": {
+    "conflict": 20,
+    "fraud": 32,
+    "safety": 4,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Manav R.",
+     "id": "CIE-1185",
+     "reasons": [
+      "Posted for Apple 20 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Rakesh G.",
+     "id": "CIE-1299",
+     "reasons": [
+      "Posted for Asus 12 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Abhinav J.",
+     "id": "CIE-1039",
+     "reasons": [
+      "Posted for Asus 58 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Kabir J.",
+     "id": "CIE-1124",
+     "reasons": [
+      "Posted for Lenovo 7 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1363",
+     "name": "Tanvi S.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Education & Careers",
+     "tier": "Micro",
+     "followers": 26357,
+     "city": "Lucknow",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.1,
+     "parts": {
+      "aud": 83,
+      "cont": 99,
+      "cult": 84,
+      "perf": 74,
+      "auth": 78,
+      "safe": 86,
+      "cost": 77
+     },
+     "contributions": {
+      "aud": 18.2,
+      "cont": 14.8,
+      "cult": 11.7,
+      "perf": 11.1,
+      "auth": 10.9,
+      "safe": 8.6,
+      "cost": 7.7
+     },
+     "confidence": "High",
+     "er": 3.89,
+     "linkCtr": 0.94,
+     "realFollowers": 88.6,
+     "viewThrough": 51.6,
+     "hold3s": 73.7,
+     "sponsoredShare": 24,
+     "adDisclosure": 86,
+     "safety": 86,
+     "audienceWomen": 0.256,
+     "forecast": {
+      "cost": 9500,
+      "views": 10382,
+      "tgViews": 7399,
+      "tgShare": 0.8,
+      "engagements": 1168,
+      "clicks": 106,
+      "orders": 2.4,
+      "revenue": 134551,
+      "roas": 14.16,
+      "recallLiftPts": 6.6,
+      "costPerTgView": 1.28,
+      "costPerEngagement": 8.14,
+      "costPerClick": 89.38
+     },
+     "why": [
+      "Audience matches the brief: 26% women (target 42%), 95% age overlap, 83% city-tier overlap",
+      "Tech &amp; Gadgets is a core category for HP, with education &amp; careers as a second pillar",
+      "Creates in Hindi; shares the Campus life and Gen-Z humour codes",
+      "Viewers watch 52% of each video, top 16% of micro creators; past recall lift +6.1 pts"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1169",
+     "name": "Anjali C.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Education & Careers",
+     "tier": "Nano",
+     "followers": 6774,
+     "city": "Bengaluru",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.3,
+     "parts": {
+      "aud": 71,
+      "cont": 99,
+      "cult": 100,
+      "perf": 74,
+      "auth": 82,
+      "safe": 93,
+      "cost": 61
+     },
+     "contributions": {
+      "aud": 15.5,
+      "cont": 14.8,
+      "cult": 14,
+      "perf": 11.2,
+      "auth": 11.4,
+      "safe": 9.3,
+      "cost": 6.1
+     },
+     "confidence": "Low",
+     "er": 4.41,
+     "linkCtr": 1,
+     "realFollowers": 88.4,
+     "viewThrough": 51.4,
+     "hold3s": 60.7,
+     "sponsoredShare": 16,
+     "adDisclosure": 83,
+     "safety": 99,
+     "audienceWomen": 0.206,
+     "forecast": {
+      "cost": 4000,
+      "views": 3766,
+      "tgViews": 2411,
+      "tgShare": 0.72,
+      "engagements": 348,
+      "clicks": 40,
+      "orders": 0.9,
+      "revenue": 46873,
+      "roas": 11.72,
+      "recallLiftPts": 7.2,
+      "costPerTgView": 1.66,
+      "costPerEngagement": 11.51,
+      "costPerClick": 100.9
+     },
+     "why": [
+      "Audience matches the brief: 21% women (target 42%), 84% age overlap, 78% city-tier overlap",
+      "Tech &amp; Gadgets is a core category for HP, with education &amp; careers as a second pillar",
+      "Creates in English + Hinglish, HP's lead language; shares the Campus life and Gen-Z humour and Working professional codes",
+      "88% of followers look real and active; 16% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1333",
+     "name": "Pavithra T.",
+     "niche": "Education & Careers",
+     "niche2": "Tech & Gadgets",
+     "tier": "Nano",
+     "followers": 9853,
+     "city": "Kochi",
+     "languages": [
+      "Malayalam",
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81,
+     "parts": {
+      "aud": 93,
+      "cont": 96,
+      "cult": 78,
+      "perf": 47,
+      "auth": 70,
+      "safe": 94,
+      "cost": 89
+     },
+     "contributions": {
+      "aud": 20.4,
+      "cont": 14.4,
+      "cult": 10.9,
+      "perf": 7.1,
+      "auth": 9.8,
+      "safe": 9.4,
+      "cost": 8.9
+     },
+     "confidence": "Medium",
+     "er": 4.15,
+     "linkCtr": 1.05,
+     "realFollowers": 85.5,
+     "viewThrough": 38.6,
+     "hold3s": 46.4,
+     "sponsoredShare": 28,
+     "adDisclosure": 93,
+     "safety": 95,
+     "audienceWomen": 0.455,
+     "forecast": {
+      "cost": 4000,
+      "views": 4943,
+      "tgViews": 3684,
+      "tgShare": 0.87,
+      "engagements": 480,
+      "clicks": 57,
+      "orders": 1.4,
+      "revenue": 74967,
+      "roas": 18.74,
+      "recallLiftPts": 7.8,
+      "costPerTgView": 1.09,
+      "costPerEngagement": 8.34,
+      "costPerClick": 69.91
+     },
+     "why": [
+      "Audience matches the brief: 46% women (target 42%), 98% age overlap, 84% city-tier overlap",
+      "Education &amp; Careers is a core category for HP, with tech &amp; gadgets as a second pillar",
+      "Creates in Malayalam + English, HP's lead language; shares the Gen-Z humour codes",
+      "86% of followers look real and active; 28% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Posted for Dell 73 days ago (outside the 60-day window)"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1294",
+     "name": "Akhil Y.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 48916,
+     "city": "Bengaluru",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.8,
+     "parts": {
+      "aud": 97,
+      "cont": 35,
+      "cult": 100,
+      "perf": 94,
+      "auth": 72,
+      "safe": 76,
+      "cost": 86
+     },
+     "contributions": {
+      "aud": 21.3,
+      "cont": 5.3,
+      "cult": 14,
+      "perf": 14,
+      "auth": 10.1,
+      "safe": 7.6,
+      "cost": 8.6
+     },
+     "confidence": "High",
+     "er": 5.46,
+     "linkCtr": 0.46,
+     "realFollowers": 86.6,
+     "viewThrough": 61.8,
+     "hold3s": 80,
+     "sponsoredShare": 23,
+     "adDisclosure": 89,
+     "safety": 67,
+     "audienceWomen": 0.408,
+     "forecast": {
+      "cost": 25000,
+      "views": 29888,
+      "tgViews": 23260,
+      "tgShare": 0.9,
+      "engagements": 2935,
+      "clicks": 71,
+      "orders": 1.1,
+      "revenue": 62430,
+      "roas": 2.5,
+      "recallLiftPts": 5.8,
+      "costPerTgView": 1.07,
+      "costPerEngagement": 8.52,
+      "costPerClick": 353.55
+     },
+     "why": [
+      "Audience matches the brief: 41% women (target 42%), 94% age overlap, 84% city-tier overlap",
+      "Viewers watch 62% of each video, top 1% of micro creators; past recall lift +7.9 pts",
+      "Creates in English, HP's lead language; shares the Campus life and Gen-Z humour codes",
+      "87% of followers look real and active; 23% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Promotes betting / real-money gaming"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1079",
+     "name": "Janhvi D.",
+     "niche": "Education & Careers",
+     "niche2": "Tech & Gadgets",
+     "tier": "Micro",
+     "followers": 25128,
+     "city": "Pune",
+     "languages": [
+      "Marathi",
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.8,
+     "parts": {
+      "aud": 95,
+      "cont": 96,
+      "cult": 55,
+      "perf": 49,
+      "auth": 75,
+      "safe": 86,
+      "cost": 93
+     },
+     "contributions": {
+      "aud": 21,
+      "cont": 14.4,
+      "cult": 7.7,
+      "perf": 7.3,
+      "auth": 10.5,
+      "safe": 8.6,
+      "cost": 9.3
+     },
+     "confidence": "High",
+     "er": 3.01,
+     "linkCtr": 1.27,
+     "realFollowers": 88.7,
+     "viewThrough": 47.3,
+     "hold3s": 72.1,
+     "sponsoredShare": 36,
+     "adDisclosure": 86,
+     "safety": 86,
+     "audienceWomen": 0.41,
+     "forecast": {
+      "cost": 8000,
+      "views": 11683,
+      "tgViews": 9206,
+      "tgShare": 0.89,
+      "engagements": 892,
+      "clicks": 144,
+      "orders": 3.2,
+      "revenue": 177262,
+      "roas": 22.16,
+      "recallLiftPts": 3.6,
+      "costPerTgView": 0.87,
+      "costPerEngagement": 8.97,
+      "costPerClick": 55.4
+     },
+     "why": [
+      "Audience matches the brief: 41% women (target 42%), 96% age overlap, 82% city-tier overlap",
+      "Education &amp; Careers is a core category for HP, with tech &amp; gadgets as a second pillar",
+      "89% of followers look real and active; 36% of recent posts are sponsored",
+      "₹0.87 per verified TG view for 1 reel and 2 stories (₹8K)"
+     ],
+     "risks": [
+      "Posted for Asus 76 days ago (outside the 60-day window)"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 55,
+    "spend": 2399500,
+    "views": 3287017,
+    "tgViews": 2251072,
+    "uniqueTgReach": 1387969,
+    "engagements": 142024,
+    "clicks": 11673,
+    "orders": 189,
+    "revenue": 10408671,
+    "roas": 4.34,
+    "recallLiftPts": 4.5,
+    "fakeAudienceShare": 0.12,
+    "gatedIncluded": 0,
+    "representCreators": 2,
+    "representSpend": 307500,
+    "forecastBandPct": 23,
+    "spendByTier": {
+     "micro": 520500,
+     "mid": 1165000,
+     "nano": 17500,
+     "macro": 696500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 2383000,
+    "views": 2046161,
+    "tgViews": 937411,
+    "uniqueTgReach": 580495,
+    "engagements": 49396,
+    "clicks": 6769,
+    "orders": 76,
+    "revenue": 4187748,
+    "roas": 1.76,
+    "recallLiftPts": 2.2,
+    "fakeAudienceShare": 0.43,
+    "gatedIncluded": 2,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 18,
+    "spendByTier": {
+     "mega": 2383000
+    }
+   },
+   "planCreators": [
+    "Varsha B. (Micro, Food & Cooking)",
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Akhil J. (Micro, Comedy & Entertainment)",
+    "Yash S. (Micro, Education & Careers)",
+    "Ananya J. (Micro, Music & Dance)",
+    "Tanvi R. (Mid-tier, Tech & Gadgets)",
+    "Janhvi D. (Micro, Education & Careers)",
+    "Kritika P. (Micro, Lifestyle & Vlogs)",
+    "Akhil Y. (Micro, Comedy & Entertainment)",
+    "Mansi B. (Micro, Tech & Gadgets)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 348,
+   "gated": 72,
+   "gatesByReason": {
+    "conflict": 20,
+    "safety": 4,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Gautham V.",
+     "id": "CIE-1381",
+     "reasons": [
+      "Posted for Dell 39 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Pritam M.",
+     "id": "CIE-1101",
+     "reasons": [
+      "Posted for Lenovo 52 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Ishaan K.",
+     "id": "CIE-1327",
+     "reasons": [
+      "Posted for Lenovo 60 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Karan M.",
+     "id": "CIE-1084",
+     "reasons": [
+      "Posted for Asus 16 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1333",
+     "name": "Pavithra T.",
+     "niche": "Education & Careers",
+     "niche2": "Tech & Gadgets",
+     "tier": "Nano",
+     "followers": 9853,
+     "city": "Kochi",
+     "languages": [
+      "Malayalam",
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.1,
+     "parts": {
+      "aud": 93,
+      "cont": 96,
+      "cult": 78,
+      "perf": 64,
+      "auth": 70,
+      "safe": 94,
+      "cost": 92
+     },
+     "contributions": {
+      "aud": 18.6,
+      "cont": 17.3,
+      "cult": 7.8,
+      "perf": 12.9,
+      "auth": 9.8,
+      "safe": 7.5,
+      "cost": 9.2
+     },
+     "confidence": "Medium",
+     "er": 4.15,
+     "linkCtr": 1.05,
+     "realFollowers": 85.5,
+     "viewThrough": 38.6,
+     "hold3s": 46.4,
+     "sponsoredShare": 28,
+     "adDisclosure": 93,
+     "safety": 95,
+     "audienceWomen": 0.455,
+     "forecast": {
+      "cost": 4000,
+      "views": 4943,
+      "tgViews": 3684,
+      "tgShare": 0.87,
+      "engagements": 480,
+      "clicks": 57,
+      "orders": 1.4,
+      "revenue": 74967,
+      "roas": 18.74,
+      "recallLiftPts": 7.8,
+      "costPerTgView": 1.09,
+      "costPerEngagement": 8.34,
+      "costPerClick": 69.91
+     },
+     "why": [
+      "Audience matches the brief: 46% women (target 42%), 98% age overlap, 84% city-tier overlap",
+      "Education &amp; Careers is a core category for HP, with tech &amp; gadgets as a second pillar",
+      "Engagement rate 4.2%, top 59% of nano creators; 5.5% of viewers save or share",
+      "86% of followers look real and active; 28% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Posted for Dell 73 days ago (outside the 60-day window)"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1079",
+     "name": "Janhvi D.",
+     "niche": "Education & Careers",
+     "niche2": "Tech & Gadgets",
+     "tier": "Micro",
+     "followers": 25128,
+     "city": "Pune",
+     "languages": [
+      "Marathi",
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.9,
+     "parts": {
+      "aud": 95,
+      "cont": 96,
+      "cult": 55,
+      "perf": 75,
+      "auth": 75,
+      "safe": 86,
+      "cost": 87
+     },
+     "contributions": {
+      "aud": 19.1,
+      "cont": 17.3,
+      "cult": 5.5,
+      "perf": 15,
+      "auth": 10.5,
+      "safe": 6.9,
+      "cost": 8.7
+     },
+     "confidence": "High",
+     "er": 3.01,
+     "linkCtr": 1.27,
+     "realFollowers": 88.7,
+     "viewThrough": 47.3,
+     "hold3s": 72.1,
+     "sponsoredShare": 36,
+     "adDisclosure": 86,
+     "safety": 86,
+     "audienceWomen": 0.41,
+     "forecast": {
+      "cost": 8000,
+      "views": 11683,
+      "tgViews": 9206,
+      "tgShare": 0.89,
+      "engagements": 892,
+      "clicks": 144,
+      "orders": 3.2,
+      "revenue": 177262,
+      "roas": 22.16,
+      "recallLiftPts": 3.6,
+      "costPerTgView": 0.87,
+      "costPerEngagement": 8.97,
+      "costPerClick": 55.4
+     },
+     "why": [
+      "Audience matches the brief: 41% women (target 42%), 96% age overlap, 82% city-tier overlap",
+      "Education &amp; Careers is a core category for HP, with tech &amp; gadgets as a second pillar",
+      "Engagement rate 3.0%, top 42% of micro creators; 4.5% of viewers save or share",
+      "89% of followers look real and active; 36% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Posted for Asus 76 days ago (outside the 60-day window)"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1363",
+     "name": "Tanvi S.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Education & Careers",
+     "tier": "Micro",
+     "followers": 26357,
+     "city": "Lucknow",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.8,
+     "parts": {
+      "aud": 83,
+      "cont": 99,
+      "cult": 84,
+      "perf": 65,
+      "auth": 78,
+      "safe": 86,
+      "cost": 93
+     },
+     "contributions": {
+      "aud": 16.6,
+      "cont": 17.8,
+      "cult": 8.4,
+      "perf": 13,
+      "auth": 10.9,
+      "safe": 6.9,
+      "cost": 9.3
+     },
+     "confidence": "High",
+     "er": 3.89,
+     "linkCtr": 0.94,
+     "realFollowers": 88.6,
+     "viewThrough": 51.6,
+     "hold3s": 73.7,
+     "sponsoredShare": 24,
+     "adDisclosure": 86,
+     "safety": 86,
+     "audienceWomen": 0.256,
+     "forecast": {
+      "cost": 9500,
+      "views": 10382,
+      "tgViews": 7399,
+      "tgShare": 0.8,
+      "engagements": 1168,
+      "clicks": 106,
+      "orders": 2.4,
+      "revenue": 134551,
+      "roas": 14.16,
+      "recallLiftPts": 6.6,
+      "costPerTgView": 1.28,
+      "costPerEngagement": 8.14,
+      "costPerClick": 89.38
+     },
+     "why": [
+      "Tech &amp; Gadgets is a core category for HP, with education &amp; careers as a second pillar",
+      "Audience matches the brief: 26% women (target 42%), 95% age overlap, 83% city-tier overlap",
+      "Engagement rate 3.9%, top 17% of micro creators; 2.2% of viewers save or share",
+      "89% of followers look real and active; 24% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1008",
+     "name": "Yash S.",
+     "niche": "Education & Careers",
+     "niche2": "Personal Finance",
+     "tier": "Micro",
+     "followers": 42640,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.8,
+     "parts": {
+      "aud": 100,
+      "cont": 72,
+      "cult": 84,
+      "perf": 66,
+      "auth": 82,
+      "safe": 79,
+      "cost": 93
+     },
+     "contributions": {
+      "aud": 20,
+      "cont": 13,
+      "cult": 8.4,
+      "perf": 13.3,
+      "auth": 11.5,
+      "safe": 6.3,
+      "cost": 9.3
+     },
+     "confidence": "Medium",
+     "er": 2.49,
+     "linkCtr": 1.29,
+     "realFollowers": 92.4,
+     "viewThrough": 35,
+     "hold3s": 45,
+     "sponsoredShare": 25,
+     "adDisclosure": 78,
+     "safety": 79,
+     "audienceWomen": 0.415,
+     "forecast": {
+      "cost": 10500,
+      "views": 12861,
+      "tgViews": 10955,
+      "tgShare": 0.92,
+      "engagements": 1292,
+      "clicks": 179,
+      "orders": 5,
+      "revenue": 273942,
+      "roas": 26.09,
+      "recallLiftPts": 5.2,
+      "costPerTgView": 0.96,
+      "costPerEngagement": 8.13,
+      "costPerClick": 58.69
+     },
+     "why": [
+      "Audience matches the brief: 42% women (target 42%), 93% age overlap, 91% city-tier overlap",
+      "Engagement rate 2.5%, top 61% of micro creators; 3.1% of viewers save or share",
+      "Education &amp; Careers is a strong category for HP, with personal finance as a second pillar",
+      "92% of followers look real and active; 25% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1294",
+     "name": "Akhil Y.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 48916,
+     "city": "Bengaluru",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.2,
+     "parts": {
+      "aud": 97,
+      "cont": 35,
+      "cult": 100,
+      "perf": 83,
+      "auth": 72,
+      "safe": 76,
+      "cost": 89
+     },
+     "contributions": {
+      "aud": 19.4,
+      "cont": 6.3,
+      "cult": 10,
+      "perf": 16.5,
+      "auth": 10.1,
+      "safe": 6.1,
+      "cost": 8.9
+     },
+     "confidence": "High",
+     "er": 5.46,
+     "linkCtr": 0.46,
+     "realFollowers": 86.6,
+     "viewThrough": 61.8,
+     "hold3s": 80,
+     "sponsoredShare": 23,
+     "adDisclosure": 89,
+     "safety": 67,
+     "audienceWomen": 0.408,
+     "forecast": {
+      "cost": 25000,
+      "views": 29888,
+      "tgViews": 23260,
+      "tgShare": 0.9,
+      "engagements": 2935,
+      "clicks": 71,
+      "orders": 1.1,
+      "revenue": 62430,
+      "roas": 2.5,
+      "recallLiftPts": 5.8,
+      "costPerTgView": 1.07,
+      "costPerEngagement": 8.52,
+      "costPerClick": 353.55
+     },
+     "why": [
+      "Audience matches the brief: 41% women (target 42%), 94% age overlap, 84% city-tier overlap",
+      "Engagement rate 5.5%, top 4% of micro creators; 3.3% of viewers save or share",
+      "87% of followers look real and active; 23% of recent posts are sponsored",
+      "Creates in English, HP's lead language; shares the Campus life and Gen-Z humour codes"
+     ],
+     "risks": [
+      "Promotes betting / real-money gaming"
+     ]
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1373",
+     "name": "Omkar S.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Gaming",
+     "tier": "Micro",
+     "followers": 83886,
+     "city": "Ahmedabad",
+     "languages": [
+      "Gujarati",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 75.5,
+     "parts": {
+      "aud": 74,
+      "cont": 95,
+      "cult": 75,
+      "perf": 56,
+      "auth": 78,
+      "safe": 89,
+      "cost": 70
+     },
+     "contributions": {
+      "aud": 14.7,
+      "cont": 17.1,
+      "cult": 7.5,
+      "perf": 11.2,
+      "auth": 10.9,
+      "safe": 7.1,
+      "cost": 7
+     },
+     "confidence": "Low",
+     "er": 3.2,
+     "linkCtr": 0.67,
+     "realFollowers": 88,
+     "viewThrough": 35.8,
+     "hold3s": 56.7,
+     "sponsoredShare": 9,
+     "adDisclosure": 100,
+     "safety": 82,
+     "audienceWomen": 0.162,
+     "forecast": {
+      "cost": 35000,
+      "views": 34778,
+      "tgViews": 22748,
+      "tgShare": 0.74,
+      "engagements": 3137,
+      "clicks": 240,
+      "orders": 5.9,
+      "revenue": 327180,
+      "roas": 9.35,
+      "recallLiftPts": 5.4,
+      "costPerTgView": 1.54,
+      "costPerEngagement": 11.16,
+      "costPerClick": 145.62
+     },
+     "why": [
+      "Tech &amp; Gadgets is a core category for HP, with gaming as a second pillar",
+      "Audience matches the brief: 16% women (target 42%), 94% age overlap, 82% city-tier overlap",
+      "Engagement rate 3.2%, top 35% of micro creators; 2.2% of viewers save or share",
+      "88% of followers look real and active; 9% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Posted for Apple 62 days ago (outside the 60-day window)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1111",
+     "name": "Karthik B.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 71521,
+     "city": "Bengaluru",
+     "languages": [
+      "Kannada"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 75.5,
+     "parts": {
+      "aud": 94,
+      "cont": 35,
+      "cult": 73,
+      "perf": 73,
+      "auth": 85,
+      "safe": 93,
+      "cost": 92
+     },
+     "contributions": {
+      "aud": 18.8,
+      "cont": 6.3,
+      "cult": 7.3,
+      "perf": 14.6,
+      "auth": 11.9,
+      "safe": 7.4,
+      "cost": 9.2
+     },
+     "confidence": "High",
+     "er": 4.84,
+     "linkCtr": 0.26,
+     "realFollowers": 95.6,
+     "viewThrough": 48.8,
+     "hold3s": 74.5,
+     "sponsoredShare": 21,
+     "adDisclosure": 95,
+     "safety": 91,
+     "audienceWomen": 0.443,
+     "forecast": {
+      "cost": 32000,
+      "views": 44383,
+      "tgViews": 37350,
+      "tgShare": 0.88,
+      "engagements": 3848,
+      "clicks": 59,
+      "orders": 0.8,
+      "revenue": 41600,
+      "roas": 1.3,
+      "recallLiftPts": 2.6,
+      "costPerTgView": 0.86,
+      "costPerEngagement": 8.32,
+      "costPerClick": 543.31
+     },
+     "why": [
+      "Audience matches the brief: 44% women (target 42%), 97% age overlap, 83% city-tier overlap",
+      "Engagement rate 4.8%, top 8% of micro creators; 2.8% of viewers save or share",
+      "96% of followers look real and active; 21% of recent posts are sponsored",
+      "₹8.32 per engagement (₹32K for the bundle)"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1391",
+     "name": "Parth B.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 8323,
+     "city": "Mumbai",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 75.3,
+     "parts": {
+      "aud": 86,
+      "cont": 48,
+      "cult": 78,
+      "perf": 80,
+      "auth": 71,
+      "safe": 73,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 17.2,
+      "cont": 8.6,
+      "cult": 7.8,
+      "perf": 16,
+      "auth": 9.9,
+      "safe": 5.9,
+      "cost": 10
+     },
+     "confidence": "Low",
+     "er": 7.87,
+     "linkCtr": 0.29,
+     "realFollowers": 84.8,
+     "viewThrough": 64.4,
+     "hold3s": 68,
+     "sponsoredShare": 28,
+     "adDisclosure": 83,
+     "safety": 67,
+     "audienceWomen": 0.519,
+     "forecast": {
+      "cost": 4000,
+      "views": 6666,
+      "tgViews": 4661,
+      "tgShare": 0.82,
+      "engagements": 715,
+      "clicks": 11,
+      "orders": 0.1,
+      "revenue": 7941,
+      "roas": 1.99,
+      "recallLiftPts": 7.9,
+      "costPerTgView": 0.86,
+      "costPerEngagement": 5.59,
+      "costPerClick": 353.01
+     },
+     "why": [
+      "Audience matches the brief: 52% women (target 42%), 92% age overlap, 79% city-tier overlap",
+      "Engagement rate 7.9%, top 1% of nano creators; 2.5% of viewers save or share",
+      "₹5.59 per engagement (₹4K for the bundle)",
+      "85% of followers look real and active; 28% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Promotes betting / real-money gaming",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1410",
+     "name": "Anirban G.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Gaming",
+     "tier": "Nano",
+     "followers": 7902,
+     "city": "Kolkata",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 75,
+     "parts": {
+      "aud": 72,
+      "cont": 95,
+      "cult": 78,
+      "perf": 46,
+      "auth": 84,
+      "safe": 73,
+      "cost": 89
+     },
+     "contributions": {
+      "aud": 14.3,
+      "cont": 17.1,
+      "cult": 7.8,
+      "perf": 9.2,
+      "auth": 11.8,
+      "safe": 5.9,
+      "cost": 8.9
+     },
+     "confidence": "Medium",
+     "er": 3.74,
+     "linkCtr": 1.1,
+     "realFollowers": 94.2,
+     "viewThrough": 35.6,
+     "hold3s": 59,
+     "sponsoredShare": 32,
+     "adDisclosure": 87,
+     "safety": 64,
+     "audienceWomen": 0.206,
+     "forecast": {
+      "cost": 3000,
+      "views": 5837,
+      "tgViews": 4022,
+      "tgShare": 0.73,
+      "engagements": 352,
+      "clicks": 56,
+      "orders": 1.1,
+      "revenue": 58878,
+      "roas": 19.63,
+      "recallLiftPts": 2.5,
+      "costPerTgView": 0.75,
+      "costPerEngagement": 8.51,
+      "costPerClick": 53.21
+     },
+     "why": [
+      "Tech &amp; Gadgets is a core category for HP, with gaming as a second pillar",
+      "Audience matches the brief: 21% women (target 42%), 91% age overlap, 76% city-tier overlap",
+      "94% of followers look real and active; 32% of recent posts are sponsored",
+      "Engagement rate 3.7%, top 71% of nano creators; 2.8% of viewers save or share"
+     ],
+     "risks": [
+      "Posted for Dell 99 days ago (outside the 60-day window)",
+      "Past controversy (2025)"
+     ]
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1137",
+     "name": "Rimjhim P.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 138070,
+     "city": "Kolkata",
+     "languages": [
+      "Bengali",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 74.2,
+     "parts": {
+      "aud": 89,
+      "cont": 48,
+      "cult": 75,
+      "perf": 82,
+      "auth": 75,
+      "safe": 96,
+      "cost": 58
+     },
+     "contributions": {
+      "aud": 17.8,
+      "cont": 8.6,
+      "cult": 7.5,
+      "perf": 16.4,
+      "auth": 10.5,
+      "safe": 7.7,
+      "cost": 5.8
+     },
+     "confidence": "Low",
+     "er": 2.5,
+     "linkCtr": 0.24,
+     "realFollowers": 86.1,
+     "viewThrough": 52,
+     "hold3s": 58.3,
+     "sponsoredShare": 20,
+     "adDisclosure": 100,
+     "safety": 93,
+     "audienceWomen": 0.546,
+     "forecast": {
+      "cost": 55000,
+      "views": 57432,
+      "tgViews": 41863,
+      "tgShare": 0.85,
+      "engagements": 4032,
+      "clicks": 86,
+      "orders": 1.2,
+      "revenue": 65571,
+      "roas": 1.19,
+      "recallLiftPts": 4.2,
+      "costPerTgView": 1.31,
+      "costPerEngagement": 13.64,
+      "costPerClick": 641.26
+     },
+     "why": [
+      "Audience matches the brief: 55% women (target 42%), 93% age overlap, 87% city-tier overlap",
+      "Engagement rate 2.5%, top 2% of mid-tier creators; 3.2% of viewers save or share",
+      "86% of followers look real and active; 20% of recent posts are sponsored",
+      "Comedy &amp; Entertainment is a adjacent category for HP, with lifestyle &amp; vlogs as a second pillar"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 80,
+    "spend": 1727000,
+    "views": 1919183,
+    "tgViews": 1306022,
+    "uniqueTgReach": 807102,
+    "engagements": 157084,
+    "clicks": 6250,
+    "orders": 100,
+    "revenue": 5511008,
+    "roas": 3.19,
+    "recallLiftPts": 3.8,
+    "fakeAudienceShare": 0.11,
+    "gatedIncluded": 0,
+    "representCreators": 4,
+    "representSpend": 485000,
+    "forecastBandPct": 23,
+    "spendByTier": {
+     "micro": 960500,
+     "nano": 39000,
+     "mid": 470000,
+     "macro": 257500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 3,
+    "spend": 1720000,
+    "views": 1941612,
+    "tgViews": 1121071,
+    "uniqueTgReach": 694143,
+    "engagements": 56089,
+    "clicks": 5849,
+    "orders": 68,
+    "revenue": 3746863,
+    "roas": 2.18,
+    "recallLiftPts": 2.2,
+    "fakeAudienceShare": 0.18,
+    "gatedIncluded": 2,
+    "representCreators": 1,
+    "representSpend": 300000,
+    "forecastBandPct": 34,
+    "spendByTier": {
+     "mega": 1566500,
+     "macro": 153500
+    }
+   },
+   "planCreators": [
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Yash S. (Micro, Education & Careers)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Tanvi S. (Micro, Tech & Gadgets)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Anjali V. (Micro, Comedy & Entertainment)",
+    "Abhinav Y. (Micro, Gaming)",
+    "Janhvi D. (Micro, Education & Careers)",
+    "Akhil Y. (Micro, Comedy & Entertainment)",
+    "Moumita N. (Micro, Parenting & Family)",
+    "Bornali Y. (Micro, Education & Careers)",
+    "Anirban G. (Nano, Tech & Gadgets)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 348,
+   "gated": 72,
+   "gatesByReason": {
+    "conflict": 20,
+    "fraud": 32,
+    "safety": 4,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Rakesh G.",
+     "id": "CIE-1299",
+     "reasons": [
+      "Posted for Asus 12 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Kabir J.",
+     "id": "CIE-1124",
+     "reasons": [
+      "Posted for Lenovo 7 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Ishaan K.",
+     "id": "CIE-1327",
+     "reasons": [
+      "Posted for Lenovo 60 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Manav R.",
+     "id": "CIE-1185",
+     "reasons": [
+      "Posted for Apple 20 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1008",
+     "name": "Yash S.",
+     "niche": "Education & Careers",
+     "niche2": "Personal Finance",
+     "tier": "Micro",
+     "followers": 42640,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 86.8,
+     "parts": {
+      "aud": 100,
+      "cont": 72,
+      "cult": 84,
+      "perf": 85,
+      "auth": 82,
+      "safe": 79,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 18,
+      "cont": 10.1,
+      "cult": 6.7,
+      "perf": 22.2,
+      "auth": 11.5,
+      "safe": 6.3,
+      "cost": 12
+     },
+     "confidence": "Medium",
+     "er": 2.49,
+     "linkCtr": 1.29,
+     "realFollowers": 92.4,
+     "viewThrough": 35,
+     "hold3s": 45,
+     "sponsoredShare": 25,
+     "adDisclosure": 78,
+     "safety": 79,
+     "audienceWomen": 0.415,
+     "forecast": {
+      "cost": 10500,
+      "views": 12861,
+      "tgViews": 10955,
+      "tgShare": 0.92,
+      "engagements": 1292,
+      "clicks": 179,
+      "orders": 5,
+      "revenue": 273942,
+      "roas": 26.09,
+      "recallLiftPts": 5.2,
+      "costPerTgView": 0.96,
+      "costPerEngagement": 8.13,
+      "costPerClick": 58.69
+     },
+     "why": [
+      "Link CTR 1.29%, top 4% of micro creators; trust index 1.46",
+      "Audience matches the brief: 42% women (target 42%), 93% age overlap, 91% city-tier overlap",
+      "Forecast 26.1× ROAS on ₹11K, about 5 orders",
+      "92% of followers look real and active; 25% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1380",
+     "name": "Mansi B.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Gaming",
+     "tier": "Micro",
+     "followers": 49187,
+     "city": "Delhi NCR",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.4,
+     "parts": {
+      "aud": 83,
+      "cont": 95,
+      "cult": 78,
+      "perf": 76,
+      "auth": 80,
+      "safe": 88,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 14.9,
+      "cont": 13.3,
+      "cult": 6.2,
+      "perf": 19.8,
+      "auth": 11.1,
+      "safe": 7.1,
+      "cost": 12
+     },
+     "confidence": "Medium",
+     "er": 1.39,
+     "linkCtr": 2.13,
+     "realFollowers": 87.7,
+     "viewThrough": 42.3,
+     "hold3s": 71,
+     "sponsoredShare": 15,
+     "adDisclosure": 95,
+     "safety": 84,
+     "audienceWomen": 0.326,
+     "forecast": {
+      "cost": 17000,
+      "views": 23329,
+      "tgViews": 16439,
+      "tgShare": 0.8,
+      "engagements": 949,
+      "clicks": 474,
+      "orders": 11.8,
+      "revenue": 651341,
+      "roas": 38.31,
+      "recallLiftPts": 4.6,
+      "costPerTgView": 1.03,
+      "costPerEngagement": 17.91,
+      "costPerClick": 35.83
+     },
+     "why": [
+      "Link CTR 2.13%, top 1% of micro creators; trust index 1.17",
+      "Audience matches the brief: 33% women (target 42%), 97% age overlap, 82% city-tier overlap",
+      "Tech &amp; Gadgets is a core category for HP, with gaming as a second pillar",
+      "Forecast 38.3× ROAS on ₹17K, about 12 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1114",
+     "name": "Tanvi R.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Education & Careers",
+     "tier": "Mid-tier",
+     "followers": 254770,
+     "city": "Jaipur",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.4,
+     "parts": {
+      "aud": 87,
+      "cont": 99,
+      "cult": 84,
+      "perf": 72,
+      "auth": 78,
+      "safe": 84,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 15.7,
+      "cont": 13.8,
+      "cult": 6.7,
+      "perf": 18.6,
+      "auth": 11,
+      "safe": 6.7,
+      "cost": 11.9
+     },
+     "confidence": "Low",
+     "er": 0.85,
+     "linkCtr": 1.23,
+     "realFollowers": 88.3,
+     "viewThrough": 34.7,
+     "hold3s": 64.4,
+     "sponsoredShare": 18,
+     "adDisclosure": 69,
+     "safety": 94,
+     "audienceWomen": 0.252,
+     "forecast": {
+      "cost": 77000,
+      "views": 94705,
+      "tgViews": 69762,
+      "tgShare": 0.83,
+      "engagements": 3236,
+      "clicks": 1134,
+      "orders": 27.8,
+      "revenue": 1530343,
+      "roas": 19.87,
+      "recallLiftPts": 5.9,
+      "costPerTgView": 1.1,
+      "costPerEngagement": 23.8,
+      "costPerClick": 67.9
+     },
+     "why": [
+      "Link CTR 1.23%, top 11% of mid-tier creators; trust index 1.13",
+      "Audience matches the brief: 25% women (target 42%), 91% age overlap, 97% city-tier overlap",
+      "Tech &amp; Gadgets is a core category for HP, with education &amp; careers as a second pillar",
+      "Forecast 19.9× ROAS on ₹77K, about 28 orders"
+     ],
+     "risks": [
+      "Discloses #ad on only 69% of paid posts. Brief on disclosure in the first line",
+      "Posted for Apple 77 days ago (outside the 60-day window)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1079",
+     "name": "Janhvi D.",
+     "niche": "Education & Careers",
+     "niche2": "Tech & Gadgets",
+     "tier": "Micro",
+     "followers": 25128,
+     "city": "Pune",
+     "languages": [
+      "Marathi",
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.9,
+     "parts": {
+      "aud": 95,
+      "cont": 96,
+      "cult": 55,
+      "perf": 75,
+      "auth": 75,
+      "safe": 86,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 17.1,
+      "cont": 13.5,
+      "cult": 4.4,
+      "perf": 19.6,
+      "auth": 10.5,
+      "safe": 6.9,
+      "cost": 11.9
+     },
+     "confidence": "High",
+     "er": 3.01,
+     "linkCtr": 1.27,
+     "realFollowers": 88.7,
+     "viewThrough": 47.3,
+     "hold3s": 72.1,
+     "sponsoredShare": 36,
+     "adDisclosure": 86,
+     "safety": 86,
+     "audienceWomen": 0.41,
+     "forecast": {
+      "cost": 8000,
+      "views": 11683,
+      "tgViews": 9206,
+      "tgShare": 0.89,
+      "engagements": 892,
+      "clicks": 144,
+      "orders": 3.2,
+      "revenue": 177262,
+      "roas": 22.16,
+      "recallLiftPts": 3.6,
+      "costPerTgView": 0.87,
+      "costPerEngagement": 8.97,
+      "costPerClick": 55.4
+     },
+     "why": [
+      "Link CTR 1.27%, top 5% of micro creators; trust index 1.04",
+      "Audience matches the brief: 41% women (target 42%), 96% age overlap, 82% city-tier overlap",
+      "Education &amp; Careers is a core category for HP, with tech &amp; gadgets as a second pillar",
+      "Forecast 22.2× ROAS on ₹8K, about 3 orders"
+     ],
+     "risks": [
+      "Posted for Asus 76 days ago (outside the 60-day window)"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1363",
+     "name": "Tanvi S.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Education & Careers",
+     "tier": "Micro",
+     "followers": 26357,
+     "city": "Lucknow",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.3,
+     "parts": {
+      "aud": 83,
+      "cont": 99,
+      "cult": 84,
+      "perf": 71,
+      "auth": 78,
+      "safe": 86,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 14.9,
+      "cont": 13.8,
+      "cult": 6.7,
+      "perf": 18.4,
+      "auth": 10.9,
+      "safe": 6.9,
+      "cost": 11.7
+     },
+     "confidence": "High",
+     "er": 3.89,
+     "linkCtr": 0.94,
+     "realFollowers": 88.6,
+     "viewThrough": 51.6,
+     "hold3s": 73.7,
+     "sponsoredShare": 24,
+     "adDisclosure": 86,
+     "safety": 86,
+     "audienceWomen": 0.256,
+     "forecast": {
+      "cost": 9500,
+      "views": 10382,
+      "tgViews": 7399,
+      "tgShare": 0.8,
+      "engagements": 1168,
+      "clicks": 106,
+      "orders": 2.4,
+      "revenue": 134551,
+      "roas": 14.16,
+      "recallLiftPts": 6.6,
+      "costPerTgView": 1.28,
+      "costPerEngagement": 8.14,
+      "costPerClick": 89.38
+     },
+     "why": [
+      "Link CTR 0.94%, top 26% of micro creators; trust index 1.06",
+      "Audience matches the brief: 26% women (target 42%), 95% age overlap, 83% city-tier overlap",
+      "Tech &amp; Gadgets is a core category for HP, with education &amp; careers as a second pillar",
+      "Forecast 14.2× ROAS on ₹9.5K, about 2 orders"
+     ],
+     "risks": []
+    }
+   ],
+   "plan": {
+    "creators": 61,
+    "spend": 2398500,
+    "views": 2894304,
+    "tgViews": 1813810,
+    "uniqueTgReach": 1119532,
+    "engagements": 135349,
+    "clicks": 19862,
+    "orders": 349,
+    "revenue": 19216495,
+    "roas": 8.01,
+    "recallLiftPts": 4.5,
+    "fakeAudienceShare": 0.14,
+    "gatedIncluded": 0,
+    "representCreators": 5,
+    "representSpend": 235000,
+    "forecastBandPct": 21,
+    "spendByTier": {
+     "micro": 416500,
+     "mid": 1421500,
+     "nano": 32500,
+     "macro": 528000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 2383000,
+    "views": 2046161,
+    "tgViews": 937411,
+    "uniqueTgReach": 580495,
+    "engagements": 49396,
+    "clicks": 6769,
+    "orders": 76,
+    "revenue": 4187748,
+    "roas": 1.76,
+    "recallLiftPts": 2.2,
+    "fakeAudienceShare": 0.43,
+    "gatedIncluded": 2,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 18,
+    "spendByTier": {
+     "mega": 2383000
+    }
+   },
+   "planCreators": [
+    "Mansi B. (Micro, Tech & Gadgets)",
+    "Yash S. (Micro, Education & Careers)",
+    "Tanvi R. (Mid-tier, Tech & Gadgets)",
+    "Janhvi D. (Micro, Education & Careers)",
+    "Anirban G. (Nano, Tech & Gadgets)",
+    "Tanvi S. (Micro, Tech & Gadgets)",
+    "Pavithra T. (Nano, Education & Careers)",
+    "Devang P. (Mid-tier, Education & Careers)",
+    "Sai G. (Micro, Education & Careers)",
+    "Omkar S. (Micro, Tech & Gadgets)",
+    "Anjali C. (Nano, Tech & Gadgets)",
+    "Aparna A. (Macro, Tech & Gadgets)"
+   ]
+  }
+ }
+}

@@ -1,0 +1,1811 @@
+{
+ "id": "dabur",
+ "name": "Dabur",
+ "parent": "Dabur India",
+ "vertical": "fmcg",
+ "sub": "Ayurvedic health & food",
+ "status": "Reported client",
+ "defaultObjective": "awareness",
+ "brief": "Make Chyawanprash a daily ritual for young families, beyond the grandparent shelf.",
+ "moment": "Winter immunity · Nov–Jan",
+ "budgetLakh": 18,
+ "target": {
+  "fem": 0.56,
+  "age": [
+   0.03,
+   0.14,
+   0.33,
+   0.3,
+   0.2
+  ],
+  "tiers": [
+   0.34,
+   0.38,
+   0.28
+  ],
+  "affl": 0.42
+ },
+ "languages": {
+  "Hindi": 1,
+  "Hinglish": 0.8,
+  "Marathi": 0.6,
+  "Bengali": 0.6,
+  "Tamil": 0.5,
+  "Telugu": 0.5,
+  "Gujarati": 0.6,
+  "English": 0.5,
+  "Punjabi": 0.6,
+  "Odia": 0.5,
+  "Kannada": 0.5,
+  "Malayalam": 0.5,
+  "Assamese": 0.4
+ },
+ "codes": [
+  "Family-first",
+  "Spiritual & Ayurveda",
+  "Festive & occasions",
+  "Regional pride"
+ ],
+ "affinity": {
+  "food": 0.9,
+  "health": 0.95,
+  "parenting": 0.9,
+  "fitness": 0.6,
+  "lifestyle": 0.55,
+  "home": 0.55,
+  "comedy": 0.35
+ },
+ "competitors": [
+  "Patanjali",
+  "Himalaya",
+  "Zandu",
+  "Horlicks"
+ ],
+ "compliance": "health",
+ "aov": 320,
+ "conversionRate": 0.05,
+ "kpis": [
+  "TG reach",
+  "Ad recall lift",
+  "Q-commerce search lift"
+ ],
+ "markets": [
+  "India"
+ ],
+ "tgPoolMillions": 210,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 340,
+   "gated": 80,
+   "gatesByReason": {
+    "conflict": 20,
+    "reg": 12,
+    "fraud": 32,
+    "safety": 4,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Riya T.",
+     "id": "CIE-1385",
+     "reasons": [
+      "Posted for Himalaya 51 days ago (60-day category exclusivity)",
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    },
+    {
+     "name": "Nithya Y.",
+     "id": "CIE-1053",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    },
+    {
+     "name": "Krupa K.",
+     "id": "CIE-1295",
+     "reasons": [
+      "Posted for Horlicks 27 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Pavithra S.",
+     "id": "CIE-1269",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1282",
+     "name": "Priyanka M.",
+     "niche": "Food & Cooking",
+     "niche2": "Parenting & Family",
+     "tier": "Mid-tier",
+     "followers": 135099,
+     "city": "Guwahati",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 88.7,
+     "parts": {
+      "aud": 96,
+      "cont": 90,
+      "cult": 100,
+      "perf": 77,
+      "auth": 73,
+      "safe": 86,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 21,
+      "cont": 13.5,
+      "cult": 14,
+      "perf": 11.5,
+      "auth": 10.2,
+      "safe": 8.6,
+      "cost": 9.8
+     },
+     "confidence": "High",
+     "er": 0.78,
+     "linkCtr": 0.58,
+     "realFollowers": 87.5,
+     "viewThrough": 52.4,
+     "hold3s": 65.3,
+     "sponsoredShare": 38,
+     "adDisclosure": 84,
+     "safety": 88,
+     "audienceWomen": 0.581,
+     "forecast": {
+      "cost": 41500,
+      "views": 67460,
+      "tgViews": 52588,
+      "tgShare": 0.89,
+      "engagements": 1621,
+      "clicks": 309,
+      "orders": 60,
+      "revenue": 19215,
+      "roas": 0.46,
+      "recallLiftPts": 8.3,
+      "costPerTgView": 0.79,
+      "costPerEngagement": 25.6,
+      "costPerClick": 134.38
+     },
+     "why": [
+      "Audience matches the brief: 58% women (target 56%), 84% age overlap, 95% city-tier overlap",
+      "Creates in Hindi, Dabur's lead language; shares the Family-first and Festive &amp; occasions and Spiritual &amp; Ayurveda codes",
+      "Food &amp; Cooking is a core category for Dabur, with parenting &amp; family as a second pillar",
+      "Viewers watch 52% of each video, top 15% of mid-tier creators; past recall lift +7.9 pts"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1055",
+     "name": "Varsha B.",
+     "niche": "Food & Cooking",
+     "niche2": "Parenting & Family",
+     "tier": "Micro",
+     "followers": 67015,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 87.9,
+     "parts": {
+      "aud": 90,
+      "cont": 90,
+      "cult": 78,
+      "perf": 94,
+      "auth": 80,
+      "safe": 85,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 19.7,
+      "cont": 13.5,
+      "cult": 10.9,
+      "perf": 14.1,
+      "auth": 11.2,
+      "safe": 8.5,
+      "cost": 10
+     },
+     "confidence": "High",
+     "er": 1.76,
+     "linkCtr": 1.27,
+     "realFollowers": 89.5,
+     "viewThrough": 53.6,
+     "hold3s": 76.4,
+     "sponsoredShare": 22,
+     "adDisclosure": 80,
+     "safety": 89,
+     "audienceWomen": 0.66,
+     "forecast": {
+      "cost": 13500,
+      "views": 48022,
+      "tgViews": 36525,
+      "tgShare": 0.85,
+      "engagements": 1541,
+      "clicks": 457,
+      "orders": 81.7,
+      "revenue": 26159,
+      "roas": 1.94,
+      "recallLiftPts": 10.2,
+      "costPerTgView": 0.37,
+      "costPerEngagement": 8.76,
+      "costPerClick": 29.53
+     },
+     "why": [
+      "Audience matches the brief: 66% women (target 56%), 88% age overlap, 89% city-tier overlap",
+      "Viewers watch 54% of each video, top 11% of micro creators; past recall lift +9.8 pts",
+      "Food &amp; Cooking is a core category for Dabur, with parenting &amp; family as a second pillar",
+      "90% of followers look real and active; 22% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1348",
+     "name": "Lakshmi D.",
+     "niche": "Food & Cooking",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 98010,
+     "city": "Hyderabad",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83,
+     "parts": {
+      "aud": 80,
+      "cont": 81,
+      "cult": 89,
+      "perf": 89,
+      "auth": 73,
+      "safe": 80,
+      "cost": 91
+     },
+     "contributions": {
+      "aud": 17.7,
+      "cont": 12.2,
+      "cult": 12.5,
+      "perf": 13.4,
+      "auth": 10.3,
+      "safe": 8,
+      "cost": 9.1
+     },
+     "confidence": "Medium",
+     "er": 2.4,
+     "linkCtr": 0.77,
+     "realFollowers": 84,
+     "viewThrough": 50.8,
+     "hold3s": 83.4,
+     "sponsoredShare": 18,
+     "adDisclosure": 85,
+     "safety": 76,
+     "audienceWomen": 0.627,
+     "forecast": {
+      "cost": 27000,
+      "views": 39234,
+      "tgViews": 25977,
+      "tgShare": 0.79,
+      "engagements": 2881,
+      "clicks": 290,
+      "orders": 56.9,
+      "revenue": 18216,
+      "roas": 0.67,
+      "recallLiftPts": 8.1,
+      "costPerTgView": 1.04,
+      "costPerEngagement": 9.37,
+      "costPerClick": 93.05
+     },
+     "why": [
+      "Audience matches the brief: 63% women (target 56%), 83% age overlap, 78% city-tier overlap",
+      "Viewers watch 51% of each video, top 18% of micro creators; past recall lift +8.3 pts",
+      "Creates in English + Hinglish; shares the Family-first and Festive &amp; occasions codes",
+      "Food &amp; Cooking is a strong category for Dabur, with lifestyle &amp; vlogs as a second pillar"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1003",
+     "name": "Aanya N.",
+     "niche": "Food & Cooking",
+     "niche2": "Parenting & Family",
+     "tier": "Micro",
+     "followers": 44829,
+     "city": "Jaipur",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.5,
+     "parts": {
+      "aud": 82,
+      "cont": 90,
+      "cult": 100,
+      "perf": 51,
+      "auth": 83,
+      "safe": 80,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 18.1,
+      "cont": 13.5,
+      "cult": 14,
+      "perf": 7.6,
+      "auth": 11.6,
+      "safe": 8,
+      "cost": 9.7
+     },
+     "confidence": "Low",
+     "er": 2.68,
+     "linkCtr": 0.7,
+     "realFollowers": 88.1,
+     "viewThrough": 43.1,
+     "hold3s": 56.7,
+     "sponsoredShare": 4,
+     "adDisclosure": 79,
+     "safety": 81,
+     "audienceWomen": 0.742,
+     "forecast": {
+      "cost": 15000,
+      "views": 26474,
+      "tgViews": 18686,
+      "tgShare": 0.8,
+      "engagements": 1443,
+      "clicks": 152,
+      "orders": 29.1,
+      "revenue": 9315,
+      "roas": 0.62,
+      "recallLiftPts": 7.2,
+      "costPerTgView": 0.8,
+      "costPerEngagement": 10.39,
+      "costPerClick": 98.41
+     },
+     "why": [
+      "Audience matches the brief: 74% women (target 56%), 81% age overlap, 96% city-tier overlap",
+      "Creates in Hindi, Dabur's lead language; shares the Festive &amp; occasions and Regional pride codes",
+      "Food &amp; Cooking is a core category for Dabur, with parenting &amp; family as a second pillar",
+      "88% of followers look real and active; 4% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1152",
+     "name": "Keerthi P.",
+     "niche": "Food & Cooking",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Mid-tier",
+     "followers": 292221,
+     "city": "Visakhapatnam",
+     "languages": [
+      "Telugu"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.4,
+     "parts": {
+      "aud": 88,
+      "cont": 91,
+      "cult": 73,
+      "perf": 78,
+      "auth": 71,
+      "safe": 87,
+      "cost": 89
+     },
+     "contributions": {
+      "aud": 19.4,
+      "cont": 13.7,
+      "cult": 10.2,
+      "perf": 11.6,
+      "auth": 10,
+      "safe": 8.7,
+      "cost": 8.9
+     },
+     "confidence": "Low",
+     "er": 1.21,
+     "linkCtr": 0.56,
+     "realFollowers": 87.5,
+     "viewThrough": 55,
+     "hold3s": 63.8,
+     "sponsoredShare": 37,
+     "adDisclosure": 85,
+     "safety": 88,
+     "audienceWomen": 0.682,
+     "forecast": {
+      "cost": 99000,
+      "views": 121609,
+      "tgViews": 89437,
+      "tgShare": 0.84,
+      "engagements": 4763,
+      "clicks": 594,
+      "orders": 104.8,
+      "revenue": 33547,
+      "roas": 0.34,
+      "recallLiftPts": 7.8,
+      "costPerTgView": 1.11,
+      "costPerEngagement": 20.78,
+      "costPerClick": 166.58
+     },
+     "why": [
+      "Audience matches the brief: 68% women (target 56%), 89% age overlap, 92% city-tier overlap",
+      "Food &amp; Cooking is a core category for Dabur, with doctors &amp; dietitians as a second pillar",
+      "Viewers watch 55% of each video, top 5% of mid-tier creators; past recall lift +7.5 pts",
+      "Creates in Telugu; shares the Festive &amp; occasions and Regional pride codes"
+     ],
+     "risks": [
+      "Posted for Patanjali 73 days ago (outside the 60-day window)",
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1419",
+     "name": "Bornali M.",
+     "niche": "Doctors & Dietitians",
+     "niche2": "Food & Cooking",
+     "tier": "Micro",
+     "followers": 11005,
+     "city": "Bhubaneswar",
+     "languages": [
+      "Odia",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "MBBS doctor",
+     "fit": 82.1,
+     "parts": {
+      "aud": 100,
+      "cont": 94,
+      "cult": 67,
+      "perf": 61,
+      "auth": 66,
+      "safe": 85,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 22,
+      "cont": 14.1,
+      "cult": 9.3,
+      "perf": 9.1,
+      "auth": 9.2,
+      "safe": 8.5,
+      "cost": 9.9
+     },
+     "confidence": "Low",
+     "er": 1.56,
+     "linkCtr": 0.78,
+     "realFollowers": 83.3,
+     "viewThrough": 46.1,
+     "hold3s": 46.7,
+     "sponsoredShare": 26,
+     "adDisclosure": 77,
+     "safety": 90,
+     "audienceWomen": 0.591,
+     "forecast": {
+      "cost": 3000,
+      "views": 5990,
+      "tgViews": 4598,
+      "tgShare": 0.92,
+      "engagements": 231,
+      "clicks": 41,
+      "orders": 10.5,
+      "revenue": 3345,
+      "roas": 1.12,
+      "recallLiftPts": 10.3,
+      "costPerTgView": 0.65,
+      "costPerEngagement": 12.98,
+      "costPerClick": 73.05
+     },
+     "why": [
+      "Audience matches the brief: 59% women (target 56%), 96% age overlap, 91% city-tier overlap",
+      "Doctors &amp; Dietitians is a core category for Dabur, with food &amp; cooking as a second pillar",
+      "₹0.65 per verified TG view for 1 reel and 2 stories (₹3K)",
+      "Creates in Odia + Hinglish; shares the Regional pride codes"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1009",
+     "name": "Kavya T.",
+     "niche": "Parenting & Family",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Mid-tier",
+     "followers": 264641,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.7,
+     "parts": {
+      "aud": 74,
+      "cont": 91,
+      "cult": 100,
+      "perf": 63,
+      "auth": 77,
+      "safe": 82,
+      "cost": 92
+     },
+     "contributions": {
+      "aud": 16.3,
+      "cont": 13.7,
+      "cult": 14,
+      "perf": 9.5,
+      "auth": 10.8,
+      "safe": 8.2,
+      "cost": 9.2
+     },
+     "confidence": "Low",
+     "er": 1.64,
+     "linkCtr": 1.5,
+     "realFollowers": 90.4,
+     "viewThrough": 49.4,
+     "hold3s": 74.2,
+     "sponsoredShare": 32,
+     "adDisclosure": 82,
+     "safety": 82,
+     "audienceWomen": 0.832,
+     "forecast": {
+      "cost": 72000,
+      "views": 115919,
+      "tgViews": 78429,
+      "tgShare": 0.75,
+      "engagements": 5452,
+      "clicks": 1477,
+      "orders": 278.7,
+      "revenue": 89172,
+      "roas": 1.24,
+      "recallLiftPts": 5.4,
+      "costPerTgView": 0.92,
+      "costPerEngagement": 13.21,
+      "costPerClick": 48.74
+     },
+     "why": [
+      "Audience matches the brief: 83% women (target 56%), 80% age overlap, 98% city-tier overlap",
+      "Creates in Hindi, Dabur's lead language; shares the Family-first and Festive &amp; occasions codes",
+      "Parenting &amp; Family is a core category for Dabur, with doctors &amp; dietitians as a second pillar",
+      "90% of followers look real and active; 32% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1054",
+     "name": "Ishani S.",
+     "niche": "Parenting & Family",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Mid-tier",
+     "followers": 462025,
+     "city": "Kolkata",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.8,
+     "parts": {
+      "aud": 68,
+      "cont": 91,
+      "cult": 89,
+      "perf": 90,
+      "auth": 61,
+      "safe": 92,
+      "cost": 86
+     },
+     "contributions": {
+      "aud": 14.9,
+      "cont": 13.7,
+      "cult": 12.5,
+      "perf": 13.5,
+      "auth": 8.5,
+      "safe": 9.2,
+      "cost": 8.6
+     },
+     "confidence": "High",
+     "er": 1.17,
+     "linkCtr": 0.97,
+     "realFollowers": 83.4,
+     "viewThrough": 54.2,
+     "hold3s": 74.4,
+     "sponsoredShare": 46,
+     "adDisclosure": 92,
+     "safety": 92,
+     "audienceWomen": 0.848,
+     "forecast": {
+      "cost": 125000,
+      "views": 175371,
+      "tgViews": 103319,
+      "tgShare": 0.71,
+      "engagements": 7346,
+      "clicks": 1560,
+      "orders": 329.7,
+      "revenue": 105504,
+      "roas": 0.84,
+      "recallLiftPts": 8.8,
+      "costPerTgView": 1.21,
+      "costPerEngagement": 17.02,
+      "costPerClick": 80.12
+     },
+     "why": [
+      "Audience matches the brief: 85% women (target 56%), 81% age overlap, 87% city-tier overlap",
+      "Parenting &amp; Family is a core category for Dabur, with doctors &amp; dietitians as a second pillar",
+      "Viewers watch 54% of each video, top 9% of mid-tier creators; past recall lift +8.8 pts",
+      "Creates in Hinglish; shares the Family-first and Festive &amp; occasions codes"
+     ],
+     "risks": [
+      "Ad fatigue: 46% of recent posts are sponsored",
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1103",
+     "name": "Aarya M.",
+     "niche": "Home & Decor",
+     "niche2": "Parenting & Family",
+     "tier": "Nano",
+     "followers": 4481,
+     "city": "Ahmedabad",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.5,
+     "parts": {
+      "aud": 80,
+      "cont": 64,
+      "cult": 100,
+      "perf": 96,
+      "auth": 67,
+      "safe": 84,
+      "cost": 71
+     },
+     "contributions": {
+      "aud": 17.7,
+      "cont": 9.6,
+      "cult": 14,
+      "perf": 14.5,
+      "auth": 9.3,
+      "safe": 8.4,
+      "cost": 7.1
+     },
+     "confidence": "Low",
+     "er": 5.44,
+     "linkCtr": 0.96,
+     "realFollowers": 84.5,
+     "viewThrough": 56.2,
+     "hold3s": 74.8,
+     "sponsoredShare": 34,
+     "adDisclosure": 74,
+     "safety": 91,
+     "audienceWomen": 0.732,
+     "forecast": {
+      "cost": 2500,
+      "views": 2425,
+      "tgViews": 1615,
+      "tgShare": 0.79,
+      "engagements": 276,
+      "clicks": 19,
+      "orders": 2.8,
+      "revenue": 887,
+      "roas": 0.35,
+      "recallLiftPts": 8.7,
+      "costPerTgView": 1.55,
+      "costPerEngagement": 9.06,
+      "costPerClick": 128.52
+     },
+     "why": [
+      "Audience matches the brief: 73% women (target 56%), 85% age overlap, 88% city-tier overlap",
+      "Viewers watch 56% of each video, top 5% of nano creators; past recall lift +10 pts",
+      "Creates in Hindi, Dabur's lead language; shares the Family-first and Festive &amp; occasions codes",
+      "Home &amp; Decor is a strong category for Dabur, with parenting &amp; family as a second pillar"
+     ],
+     "risks": [
+      "Discloses #ad on only 74% of paid posts. Brief on disclosure in the first line",
+      "Posted for Himalaya 112 days ago (outside the 60-day window)",
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1091",
+     "name": "Avni Y.",
+     "niche": "Food & Cooking",
+     "niche2": "Travel",
+     "tier": "Micro",
+     "followers": 16234,
+     "city": "Dehradun",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.4,
+     "parts": {
+      "aud": 89,
+      "cont": 69,
+      "cult": 78,
+      "perf": 60,
+      "auth": 79,
+      "safe": 97,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 19.6,
+      "cont": 10.3,
+      "cult": 10.9,
+      "perf": 9,
+      "auth": 11.1,
+      "safe": 9.7,
+      "cost": 9.8
+     },
+     "confidence": "High",
+     "er": 3,
+     "linkCtr": 0.53,
+     "realFollowers": 88.6,
+     "viewThrough": 44.9,
+     "hold3s": 75.4,
+     "sponsoredShare": 30,
+     "adDisclosure": 96,
+     "safety": 97,
+     "audienceWomen": 0.643,
+     "forecast": {
+      "cost": 4000,
+      "views": 7325,
+      "tgViews": 5496,
+      "tgShare": 0.85,
+      "engagements": 575,
+      "clicks": 32,
+      "orders": 4.7,
+      "revenue": 1502,
+      "roas": 0.38,
+      "recallLiftPts": 5,
+      "costPerTgView": 0.73,
+      "costPerEngagement": 6.96,
+      "costPerClick": 126.13
+     },
+     "why": [
+      "Audience matches the brief: 64% women (target 56%), 87% age overlap, 87% city-tier overlap",
+      "89% of followers look real and active; 30% of recent posts are sponsored",
+      "Creates in Hindi, Dabur's lead language; shares the Festive &amp; occasions codes",
+      "Food &amp; Cooking is a strong category for Dabur, with travel as a second pillar"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 43,
+    "spend": 1800000,
+    "views": 3026680,
+    "tgViews": 1965176,
+    "uniqueTgReach": 1215094,
+    "engagements": 110309,
+    "clicks": 16632,
+    "orders": 2922,
+    "revenue": 935064,
+    "roas": 0.52,
+    "recallLiftPts": 5.5,
+    "fakeAudienceShare": 0.14,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 24,
+    "spendByTier": {
+     "micro": 402000,
+     "mid": 865500,
+     "macro": 530500,
+     "nano": 2000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 1,
+    "spend": 1779000,
+    "views": 1190448,
+    "tgViews": 492013,
+    "uniqueTgReach": 305048,
+    "engagements": 35822,
+    "clicks": 4455,
+    "orders": 486,
+    "revenue": 155546,
+    "roas": 0.09,
+    "recallLiftPts": 3.2,
+    "fakeAudienceShare": 0.45,
+    "gatedIncluded": 1,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 1779000
+    }
+   },
+   "planCreators": [
+    "Varsha B. (Micro, Food & Cooking)",
+    "Tanvi C. (Micro, Food & Cooking)",
+    "Priyanka M. (Mid-tier, Food & Cooking)",
+    "Kavya T. (Mid-tier, Parenting & Family)",
+    "Aanya N. (Micro, Food & Cooking)",
+    "Kritika D. (Micro, Home & Decor)",
+    "Hetal A. (Mid-tier, Food & Cooking)",
+    "Siddharth C. (Micro, Food & Cooking)",
+    "Keerthi P. (Mid-tier, Food & Cooking)",
+    "Pooja V. (Micro, Parenting & Family)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Ananya J. (Micro, Music & Dance)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 340,
+   "gated": 80,
+   "gatesByReason": {
+    "conflict": 20,
+    "reg": 12,
+    "fraud": 32,
+    "safety": 4,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Krupa K.",
+     "id": "CIE-1295",
+     "reasons": [
+      "Posted for Horlicks 27 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Rasika K.",
+     "id": "CIE-1013",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    },
+    {
+     "name": "Pavithra S.",
+     "id": "CIE-1269",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    },
+    {
+     "name": "Chirag J.",
+     "id": "CIE-1259",
+     "reasons": [
+      "Posted for Patanjali 14 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1194",
+     "name": "Kunal J.",
+     "niche": "Food & Cooking",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 33892,
+     "city": "Indore",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.8,
+     "parts": {
+      "aud": 92,
+      "cont": 91,
+      "cult": 78,
+      "perf": 82,
+      "auth": 69,
+      "safe": 90,
+      "cost": 89
+     },
+     "contributions": {
+      "aud": 18.3,
+      "cont": 16.4,
+      "cult": 7.8,
+      "perf": 16.5,
+      "auth": 9.7,
+      "safe": 7.2,
+      "cost": 8.9
+     },
+     "confidence": "Medium",
+     "er": 4.99,
+     "linkCtr": 0.64,
+     "realFollowers": 86.5,
+     "viewThrough": 44.4,
+     "hold3s": 62,
+     "sponsoredShare": 38,
+     "adDisclosure": 88,
+     "safety": 92,
+     "audienceWomen": 0.626,
+     "forecast": {
+      "cost": 16000,
+      "views": 21953,
+      "tgViews": 16388,
+      "tgShare": 0.86,
+      "engagements": 1874,
+      "clicks": 111,
+      "orders": 20,
+      "revenue": 6409,
+      "roas": 0.4,
+      "recallLiftPts": 6.4,
+      "costPerTgView": 0.98,
+      "costPerEngagement": 8.54,
+      "costPerClick": 143.71
+     },
+     "why": [
+      "Audience matches the brief: 63% women (target 56%), 81% age overlap, 97% city-tier overlap",
+      "Engagement rate 5.0%, top 7% of micro creators; 2.8% of viewers save or share",
+      "Food &amp; Cooking is a core category for Dabur, with doctors &amp; dietitians as a second pillar",
+      "87% of followers look real and active; 38% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1003",
+     "name": "Aanya N.",
+     "niche": "Food & Cooking",
+     "niche2": "Parenting & Family",
+     "tier": "Micro",
+     "followers": 44829,
+     "city": "Jaipur",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.5,
+     "parts": {
+      "aud": 82,
+      "cont": 90,
+      "cult": 100,
+      "perf": 66,
+      "auth": 83,
+      "safe": 80,
+      "cost": 77
+     },
+     "contributions": {
+      "aud": 16.5,
+      "cont": 16.2,
+      "cult": 10,
+      "perf": 13.2,
+      "auth": 11.6,
+      "safe": 6.4,
+      "cost": 7.7
+     },
+     "confidence": "Low",
+     "er": 2.68,
+     "linkCtr": 0.7,
+     "realFollowers": 88.1,
+     "viewThrough": 43.1,
+     "hold3s": 56.7,
+     "sponsoredShare": 4,
+     "adDisclosure": 79,
+     "safety": 81,
+     "audienceWomen": 0.742,
+     "forecast": {
+      "cost": 15000,
+      "views": 26474,
+      "tgViews": 18686,
+      "tgShare": 0.8,
+      "engagements": 1443,
+      "clicks": 152,
+      "orders": 29.1,
+      "revenue": 9315,
+      "roas": 0.62,
+      "recallLiftPts": 7.2,
+      "costPerTgView": 0.8,
+      "costPerEngagement": 10.39,
+      "costPerClick": 98.41
+     },
+     "why": [
+      "Audience matches the brief: 74% women (target 56%), 81% age overlap, 96% city-tier overlap",
+      "Food &amp; Cooking is a core category for Dabur, with parenting &amp; family as a second pillar",
+      "Engagement rate 2.7%, top 55% of micro creators; 2.8% of viewers save or share",
+      "88% of followers look real and active; 4% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1091",
+     "name": "Avni Y.",
+     "niche": "Food & Cooking",
+     "niche2": "Travel",
+     "tier": "Micro",
+     "followers": 16234,
+     "city": "Dehradun",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.2,
+     "parts": {
+      "aud": 89,
+      "cont": 69,
+      "cult": 78,
+      "perf": 68,
+      "auth": 79,
+      "safe": 97,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 17.8,
+      "cont": 12.4,
+      "cult": 7.8,
+      "perf": 13.5,
+      "auth": 11.1,
+      "safe": 7.7,
+      "cost": 9.9
+     },
+     "confidence": "High",
+     "er": 3,
+     "linkCtr": 0.53,
+     "realFollowers": 88.6,
+     "viewThrough": 44.9,
+     "hold3s": 75.4,
+     "sponsoredShare": 30,
+     "adDisclosure": 96,
+     "safety": 97,
+     "audienceWomen": 0.643,
+     "forecast": {
+      "cost": 4000,
+      "views": 7325,
+      "tgViews": 5496,
+      "tgShare": 0.85,
+      "engagements": 575,
+      "clicks": 32,
+      "orders": 4.7,
+      "revenue": 1502,
+      "roas": 0.38,
+      "recallLiftPts": 5,
+      "costPerTgView": 0.73,
+      "costPerEngagement": 6.96,
+      "costPerClick": 126.13
+     },
+     "why": [
+      "Audience matches the brief: 64% women (target 56%), 87% age overlap, 87% city-tier overlap",
+      "Engagement rate 3.0%, top 43% of micro creators; 3.8% of viewers save or share",
+      "Food &amp; Cooking is a strong category for Dabur, with travel as a second pillar",
+      "89% of followers look real and active; 30% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1275",
+     "name": "Hetal B.",
+     "niche": "Food & Cooking",
+     "niche2": "Parenting & Family",
+     "tier": "Micro",
+     "followers": 25458,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.3,
+     "parts": {
+      "aud": 78,
+      "cont": 90,
+      "cult": 89,
+      "perf": 67,
+      "auth": 77,
+      "safe": 86,
+      "cost": 74
+     },
+     "contributions": {
+      "aud": 15.7,
+      "cont": 16.2,
+      "cult": 8.9,
+      "perf": 13.5,
+      "auth": 10.7,
+      "safe": 6.9,
+      "cost": 7.4
+     },
+     "confidence": "Low",
+     "er": 3.27,
+     "linkCtr": 0.52,
+     "realFollowers": 87.6,
+     "viewThrough": 44.7,
+     "hold3s": 65.9,
+     "sponsoredShare": 24,
+     "adDisclosure": 81,
+     "safety": 89,
+     "audienceWomen": 0.699,
+     "forecast": {
+      "cost": 10500,
+      "views": 10784,
+      "tgViews": 7327,
+      "tgShare": 0.78,
+      "engagements": 970,
+      "clicks": 55,
+      "orders": 11.1,
+      "revenue": 3563,
+      "roas": 0.34,
+      "recallLiftPts": 7.2,
+      "costPerTgView": 1.43,
+      "costPerEngagement": 10.83,
+      "costPerClick": 189.92
+     },
+     "why": [
+      "Food &amp; Cooking is a core category for Dabur, with parenting &amp; family as a second pillar",
+      "Audience matches the brief: 70% women (target 56%), 84% age overlap, 84% city-tier overlap",
+      "Engagement rate 3.3%, top 32% of micro creators; 2.6% of viewers save or share",
+      "88% of followers look real and active; 24% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1343",
+     "name": "Tejas R.",
+     "niche": "Food & Cooking",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 11009,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.9,
+     "parts": {
+      "aud": 98,
+      "cont": 81,
+      "cult": 89,
+      "perf": 69,
+      "auth": 65,
+      "safe": 80,
+      "cost": 64
+     },
+     "contributions": {
+      "aud": 19.7,
+      "cont": 14.6,
+      "cult": 8.9,
+      "perf": 13.8,
+      "auth": 9,
+      "safe": 6.4,
+      "cost": 6.4
+     },
+     "confidence": "High",
+     "er": 3.1,
+     "linkCtr": 0.58,
+     "realFollowers": 83.2,
+     "viewThrough": 43,
+     "hold3s": 63,
+     "sponsoredShare": 31,
+     "adDisclosure": 83,
+     "safety": 78,
+     "audienceWomen": 0.57,
+     "forecast": {
+      "cost": 5000,
+      "views": 6606,
+      "tgViews": 5002,
+      "tgShare": 0.91,
+      "engagements": 401,
+      "clicks": 29,
+      "orders": 4.5,
+      "revenue": 1442,
+      "roas": 0.29,
+      "recallLiftPts": 2,
+      "costPerTgView": 1,
+      "costPerEngagement": 12.48,
+      "costPerClick": 169.77
+     },
+     "why": [
+      "Audience matches the brief: 57% women (target 56%), 87% age overlap, 95% city-tier overlap",
+      "Food &amp; Cooking is a strong category for Dabur, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 3.1%, top 38% of micro creators; 4.0% of viewers save or share",
+      "83% of followers look real and active; 31% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 69,
+    "spend": 1800000,
+    "views": 1924128,
+    "tgViews": 1264841,
+    "uniqueTgReach": 782796,
+    "engagements": 160102,
+    "clicks": 10031,
+    "orders": 1698,
+    "revenue": 543519,
+    "roas": 0.3,
+    "recallLiftPts": 4.8,
+    "fakeAudienceShare": 0.11,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 257500,
+    "forecastBandPct": 25,
+    "spendByTier": {
+     "micro": 823000,
+     "nano": 18500,
+     "mid": 701000,
+     "macro": 257500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 1,
+    "spend": 1779000,
+    "views": 1190448,
+    "tgViews": 492013,
+    "uniqueTgReach": 305048,
+    "engagements": 35822,
+    "clicks": 4455,
+    "orders": 486,
+    "revenue": 155546,
+    "roas": 0.09,
+    "recallLiftPts": 3.2,
+    "fakeAudienceShare": 0.45,
+    "gatedIncluded": 1,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 1779000
+    }
+   },
+   "planCreators": [
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Dhwani R. (Micro, Fitness & Wellness)",
+    "Kunal J. (Micro, Food & Cooking)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Varsha B. (Micro, Food & Cooking)",
+    "Kunal K. (Micro, Fitness & Wellness)",
+    "Karthik G. (Micro, Food & Cooking)",
+    "Rutuja K. (Micro, Parenting & Family)",
+    "Devang M. (Nano, Lifestyle & Vlogs)",
+    "Tanvi C. (Micro, Food & Cooking)",
+    "Anjali V. (Micro, Comedy & Entertainment)",
+    "Avni Y. (Micro, Food & Cooking)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 340,
+   "gated": 80,
+   "gatesByReason": {
+    "reg": 12,
+    "conflict": 20,
+    "fraud": 32,
+    "market": 18,
+    "safety": 4
+   },
+   "gatedExamples": [
+    {
+     "name": "Rasika K.",
+     "id": "CIE-1013",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    },
+    {
+     "name": "Sneha V.",
+     "id": "CIE-1267",
+     "reasons": [
+      "Posted for Himalaya 25 days ago (60-day category exclusivity)",
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    },
+    {
+     "name": "Nithya Y.",
+     "id": "CIE-1053",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    },
+    {
+     "name": "Janhvi A.",
+     "id": "CIE-1304",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1009",
+     "name": "Kavya T.",
+     "niche": "Parenting & Family",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Mid-tier",
+     "followers": 264641,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 85.2,
+     "parts": {
+      "aud": 74,
+      "cont": 91,
+      "cult": 100,
+      "perf": 84,
+      "auth": 77,
+      "safe": 82,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 13.4,
+      "cont": 12.8,
+      "cult": 8,
+      "perf": 21.7,
+      "auth": 10.8,
+      "safe": 6.6,
+      "cost": 12
+     },
+     "confidence": "Low",
+     "er": 1.64,
+     "linkCtr": 1.5,
+     "realFollowers": 90.4,
+     "viewThrough": 49.4,
+     "hold3s": 74.2,
+     "sponsoredShare": 32,
+     "adDisclosure": 82,
+     "safety": 82,
+     "audienceWomen": 0.832,
+     "forecast": {
+      "cost": 72000,
+      "views": 115919,
+      "tgViews": 78429,
+      "tgShare": 0.75,
+      "engagements": 5452,
+      "clicks": 1477,
+      "orders": 278.7,
+      "revenue": 89172,
+      "roas": 1.24,
+      "recallLiftPts": 5.4,
+      "costPerTgView": 0.92,
+      "costPerEngagement": 13.21,
+      "costPerClick": 48.74
+     },
+     "why": [
+      "Link CTR 1.50%, top 4% of mid-tier creators; trust index 1.08",
+      "Audience matches the brief: 83% women (target 56%), 80% age overlap, 98% city-tier overlap",
+      "Parenting &amp; Family is a core category for Dabur, with doctors &amp; dietitians as a second pillar",
+      "Forecast 1.2× ROAS on ₹72K, about 279 orders"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1320",
+     "name": "Tanvi C.",
+     "niche": "Food & Cooking",
+     "niche2": "Parenting & Family",
+     "tier": "Micro",
+     "followers": 59236,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.9,
+     "parts": {
+      "aud": 81,
+      "cont": 90,
+      "cult": 89,
+      "perf": 64,
+      "auth": 87,
+      "safe": 87,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 14.5,
+      "cont": 12.6,
+      "cult": 7.1,
+      "perf": 16.6,
+      "auth": 12.1,
+      "safe": 6.9,
+      "cost": 11.9
+     },
+     "confidence": "Medium",
+     "er": 1.55,
+     "linkCtr": 0.93,
+     "realFollowers": 93.7,
+     "viewThrough": 39.6,
+     "hold3s": 60.8,
+     "sponsoredShare": 6,
+     "adDisclosure": 88,
+     "safety": 86,
+     "audienceWomen": 0.758,
+     "forecast": {
+      "cost": 16000,
+      "views": 34340,
+      "tgViews": 25448,
+      "tgShare": 0.79,
+      "engagements": 1238,
+      "clicks": 265,
+      "orders": 57.1,
+      "revenue": 18265,
+      "roas": 1.14,
+      "recallLiftPts": 2,
+      "costPerTgView": 0.63,
+      "costPerEngagement": 12.92,
+      "costPerClick": 60.34
+     },
+     "why": [
+      "Link CTR 0.93%, top 27% of micro creators; trust index 1.24",
+      "Audience matches the brief: 76% women (target 56%), 85% age overlap, 89% city-tier overlap",
+      "Food &amp; Cooking is a core category for Dabur, with parenting &amp; family as a second pillar",
+      "94% of followers look real and active; 6% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Posted for Patanjali 64 days ago (outside the 60-day window)",
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1055",
+     "name": "Varsha B.",
+     "niche": "Food & Cooking",
+     "niche2": "Parenting & Family",
+     "tier": "Micro",
+     "followers": 67015,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.8,
+     "parts": {
+      "aud": 90,
+      "cont": 90,
+      "cult": 78,
+      "perf": 65,
+      "auth": 80,
+      "safe": 85,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 16.1,
+      "cont": 12.6,
+      "cult": 6.2,
+      "perf": 16.8,
+      "auth": 11.2,
+      "safe": 6.8,
+      "cost": 12
+     },
+     "confidence": "High",
+     "er": 1.76,
+     "linkCtr": 1.27,
+     "realFollowers": 89.5,
+     "viewThrough": 53.6,
+     "hold3s": 76.4,
+     "sponsoredShare": 22,
+     "adDisclosure": 80,
+     "safety": 89,
+     "audienceWomen": 0.66,
+     "forecast": {
+      "cost": 13500,
+      "views": 48022,
+      "tgViews": 36525,
+      "tgShare": 0.85,
+      "engagements": 1541,
+      "clicks": 457,
+      "orders": 81.7,
+      "revenue": 26159,
+      "roas": 1.94,
+      "recallLiftPts": 10.2,
+      "costPerTgView": 0.37,
+      "costPerEngagement": 8.76,
+      "costPerClick": 29.53
+     },
+     "why": [
+      "Link CTR 1.27%, top 5% of micro creators; trust index 1.03",
+      "Audience matches the brief: 66% women (target 56%), 88% age overlap, 89% city-tier overlap",
+      "Food &amp; Cooking is a core category for Dabur, with parenting &amp; family as a second pillar",
+      "Forecast 1.9× ROAS on ₹14K, about 82 orders"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1245",
+     "name": "Janhvi B.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 18888,
+     "city": "Ahmedabad",
+     "languages": [
+      "Gujarati"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.8,
+     "parts": {
+      "aud": 85,
+      "cont": 69,
+      "cult": 56,
+      "perf": 84,
+      "auth": 69,
+      "safe": 91,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 15.3,
+      "cont": 9.6,
+      "cult": 4.4,
+      "perf": 21.8,
+      "auth": 9.6,
+      "safe": 7.3,
+      "cost": 11.7
+     },
+     "confidence": "High",
+     "er": 2.93,
+     "linkCtr": 1.24,
+     "realFollowers": 82.9,
+     "viewThrough": 55.4,
+     "hold3s": 60.8,
+     "sponsoredShare": 15,
+     "adDisclosure": 98,
+     "safety": 87,
+     "audienceWomen": 0.517,
+     "forecast": {
+      "cost": 6500,
+      "views": 8683,
+      "tgViews": 5898,
+      "tgShare": 0.82,
+      "engagements": 655,
+      "clicks": 87,
+      "orders": 16.7,
+      "revenue": 5335,
+      "roas": 0.82,
+      "recallLiftPts": 9.2,
+      "costPerTgView": 1.1,
+      "costPerEngagement": 9.92,
+      "costPerClick": 74.69
+     },
+     "why": [
+      "Link CTR 1.24%, top 8% of micro creators; trust index 1.23",
+      "Audience matches the brief: 52% women (target 56%), 74% age overlap, 91% city-tier overlap",
+      "Forecast 0.8× ROAS on ₹6.5K, about 17 orders",
+      "Fitness &amp; Wellness is a strong category for Dabur, with doctors &amp; dietitians as a second pillar"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1070",
+     "name": "Manav K.",
+     "niche": "Parenting & Family",
+     "niche2": "Food & Cooking",
+     "tier": "Mid-tier",
+     "followers": 272928,
+     "city": "Chandigarh",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.3,
+     "parts": {
+      "aud": 74,
+      "cont": 90,
+      "cult": 89,
+      "perf": 71,
+      "auth": 67,
+      "safe": 84,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 13.3,
+      "cont": 12.6,
+      "cult": 7.1,
+      "perf": 18.5,
+      "auth": 9.3,
+      "safe": 6.8,
+      "cost": 11.8
+     },
+     "confidence": "Medium",
+     "er": 1.31,
+     "linkCtr": 1.04,
+     "realFollowers": 82.2,
+     "viewThrough": 40.6,
+     "hold3s": 73.5,
+     "sponsoredShare": 31,
+     "adDisclosure": 79,
+     "safety": 88,
+     "audienceWomen": 0.791,
+     "forecast": {
+      "cost": 66500,
+      "views": 81593,
+      "tgViews": 50024,
+      "tgShare": 0.75,
+      "engagements": 4722,
+      "clicks": 887,
+      "orders": 177,
+      "revenue": 56644,
+      "roas": 0.85,
+      "recallLiftPts": 7.8,
+      "costPerTgView": 1.33,
+      "costPerEngagement": 14.08,
+      "costPerClick": 75
+     },
+     "why": [
+      "Link CTR 1.04%, top 26% of mid-tier creators; trust index 1.15",
+      "Audience matches the brief: 79% women (target 56%), 80% age overlap, 93% city-tier overlap",
+      "Parenting &amp; Family is a core category for Dabur, with food &amp; cooking as a second pillar",
+      "Forecast 0.9× ROAS on ₹67K, about 177 orders"
+     ],
+     "risks": [
+      "Posted for Patanjali 99 days ago (outside the 60-day window)",
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 34,
+    "spend": 1800000,
+    "views": 2728615,
+    "tgViews": 1723148,
+    "uniqueTgReach": 1065826,
+    "engagements": 106357,
+    "clicks": 19617,
+    "orders": 3668,
+    "revenue": 1173709,
+    "roas": 0.65,
+    "recallLiftPts": 6.1,
+    "fakeAudienceShare": 0.16,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 26,
+    "spendByTier": {
+     "micro": 235000,
+     "mid": 988000,
+     "macro": 574500,
+     "nano": 2500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 1,
+    "spend": 1779000,
+    "views": 1190448,
+    "tgViews": 492013,
+    "uniqueTgReach": 305048,
+    "engagements": 35822,
+    "clicks": 4455,
+    "orders": 486,
+    "revenue": 155546,
+    "roas": 0.09,
+    "recallLiftPts": 3.2,
+    "fakeAudienceShare": 0.45,
+    "gatedIncluded": 1,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 1779000
+    }
+   },
+   "planCreators": [
+    "Varsha B. (Micro, Food & Cooking)",
+    "Kavya T. (Mid-tier, Parenting & Family)",
+    "Tanvi C. (Micro, Food & Cooking)",
+    "Kunal K. (Micro, Fitness & Wellness)",
+    "Ishani S. (Mid-tier, Parenting & Family)",
+    "Manav K. (Mid-tier, Parenting & Family)",
+    "Saloni G. (Mid-tier, Parenting & Family)",
+    "Aanya N. (Micro, Food & Cooking)",
+    "Vivaan M. (Micro, Fitness & Wellness)",
+    "Janhvi C. (Micro, Parenting & Family)",
+    "Pooja V. (Micro, Parenting & Family)",
+    "Naina T. (Macro, Food & Cooking)"
+   ]
+  }
+ }
+}

@@ -1,0 +1,1802 @@
+{
+ "id": "hkvitals",
+ "name": "HK Vitals",
+ "parent": "HealthKart",
+ "vertical": "health",
+ "sub": "Nutraceuticals",
+ "status": "Reported client",
+ "defaultObjective": "conversion",
+ "brief": "Move biotin and collagen from impulse buy to a 90-day habit.",
+ "moment": "New-year resolutions · Jan",
+ "budgetLakh": 15,
+ "target": {
+  "fem": 0.55,
+  "age": [
+   0.02,
+   0.32,
+   0.44,
+   0.16,
+   0.06
+  ],
+  "tiers": [
+   0.48,
+   0.36,
+   0.16
+  ],
+  "affl": 0.52
+ },
+ "languages": {
+  "Hinglish": 1,
+  "Hindi": 0.85,
+  "English": 0.85,
+  "Tamil": 0.5,
+  "Telugu": 0.5
+ },
+ "codes": [
+  "Fitness-first",
+  "Science-backed",
+  "Working professional"
+ ],
+ "affinity": {
+  "fitness": 1,
+  "health": 0.95,
+  "beauty": 0.65,
+  "food": 0.55,
+  "lifestyle": 0.6
+ },
+ "competitors": [
+  "OZiva",
+  "Wellbeing Nutrition",
+  "Kapiva",
+  "MuscleBlaze"
+ ],
+ "compliance": "health",
+ "aov": 1100,
+ "conversionRate": 0.045,
+ "kpis": [
+  "Verified orders",
+  "Repeat purchase",
+  "iROAS"
+ ],
+ "markets": [
+  "India"
+ ],
+ "tgPoolMillions": 90,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 347,
+   "gated": 73,
+   "gatesByReason": {
+    "conflict": 11,
+    "reg": 12,
+    "fraud": 32,
+    "safety": 4,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Dhwani R.",
+     "id": "CIE-1263",
+     "reasons": [
+      "Posted for OZiva 25 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Gautham Y.",
+     "id": "CIE-1338",
+     "reasons": [
+      "Posted for MuscleBlaze 15 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Neel B.",
+     "id": "CIE-1056",
+     "reasons": [
+      "Posted for OZiva 33 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Kunal A.",
+     "id": "CIE-1086",
+     "reasons": [
+      "Posted for OZiva 60 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1400",
+     "name": "Gayathri A.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 15153,
+     "city": "Bengaluru",
+     "languages": [
+      "English"
+     ],
+     "platform": "Moj",
+     "represent": false,
+     "credential": null,
+     "fit": 86.2,
+     "parts": {
+      "aud": 99,
+      "cont": 90,
+      "cult": 92,
+      "perf": 61,
+      "auth": 81,
+      "safe": 89,
+      "cost": 87
+     },
+     "contributions": {
+      "aud": 21.8,
+      "cont": 13.5,
+      "cult": 12.8,
+      "perf": 9.2,
+      "auth": 11.3,
+      "safe": 8.9,
+      "cost": 8.7
+     },
+     "confidence": "High",
+     "er": 2.66,
+     "linkCtr": 1.11,
+     "realFollowers": 92.9,
+     "viewThrough": 49.4,
+     "hold3s": 64.5,
+     "sponsoredShare": 40,
+     "adDisclosure": 99,
+     "safety": 82,
+     "audienceWomen": 0.519,
+     "forecast": {
+      "cost": 5500,
+      "views": 6502,
+      "tgViews": 5526,
+      "tgShare": 0.91,
+      "engagements": 485,
+      "clicks": 71,
+      "orders": 10.8,
+      "revenue": 11894,
+      "roas": 2.16,
+      "recallLiftPts": 6.4,
+      "costPerTgView": 1,
+      "costPerEngagement": 11.34,
+      "costPerClick": 77.88
+     },
+     "why": [
+      "Audience matches the brief: 52% women (target 55%), 95% age overlap, 91% city-tier overlap",
+      "Fitness &amp; Wellness is a core category for HK Vitals, with lifestyle &amp; vlogs as a second pillar",
+      "Creates in English; shares the Fitness-first and Working professional codes",
+      "93% of followers look real and active; 40% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1066",
+     "name": "Saloni M.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Mid-tier",
+     "followers": 193801,
+     "city": "Pune",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 85,
+     "parts": {
+      "aud": 96,
+      "cont": 99,
+      "cult": 100,
+      "perf": 59,
+      "auth": 64,
+      "safe": 91,
+      "cost": 83
+     },
+     "contributions": {
+      "aud": 21.1,
+      "cont": 14.8,
+      "cult": 14,
+      "perf": 8.9,
+      "auth": 8.9,
+      "safe": 9.1,
+      "cost": 8.3
+     },
+     "confidence": "Low",
+     "er": 2.13,
+     "linkCtr": 0.76,
+     "realFollowers": 83.1,
+     "viewThrough": 52,
+     "hold3s": 88,
+     "sponsoredShare": 20,
+     "adDisclosure": 99,
+     "safety": 85,
+     "audienceWomen": 0.509,
+     "forecast": {
+      "cost": 69000,
+      "views": 93998,
+      "tgViews": 69627,
+      "tgShare": 0.89,
+      "engagements": 4942,
+      "clicks": 605,
+      "orders": 99.5,
+      "revenue": 109468,
+      "roas": 1.59,
+      "recallLiftPts": 3.6,
+      "costPerTgView": 0.99,
+      "costPerEngagement": 13.96,
+      "costPerClick": 114.05
+     },
+     "why": [
+      "Audience matches the brief: 51% women (target 55%), 92% age overlap, 93% city-tier overlap",
+      "Fitness &amp; Wellness is a core category for HK Vitals, with doctors &amp; dietitians as a second pillar",
+      "Creates in Hinglish, HK Vitals's lead language; shares the Fitness-first and Science-backed and Working professional codes",
+      "Safety score 85; discloses #ad on 99% of paid posts"
+     ],
+     "risks": [
+      "Posted for MuscleBlaze 88 days ago (outside the 60-day window)",
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1093",
+     "name": "Varsha T.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Macro",
+     "followers": 798877,
+     "city": "Hyderabad",
+     "languages": [
+      "Telugu"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "Certified trainer",
+     "fit": 84.2,
+     "parts": {
+      "aud": 92,
+      "cont": 90,
+      "cult": 73,
+      "perf": 98,
+      "auth": 73,
+      "safe": 78,
+      "cost": 75
+     },
+     "contributions": {
+      "aud": 20.3,
+      "cont": 13.5,
+      "cult": 10.2,
+      "perf": 14.7,
+      "auth": 10.2,
+      "safe": 7.8,
+      "cost": 7.5
+     },
+     "confidence": "High",
+     "er": 0.9,
+     "linkCtr": 0.81,
+     "realFollowers": 86.3,
+     "viewThrough": 66.4,
+     "hold3s": 85.5,
+     "sponsoredShare": 14,
+     "adDisclosure": 66,
+     "safety": 86,
+     "audienceWomen": 0.578,
+     "forecast": {
+      "cost": 254500,
+      "views": 251964,
+      "tgViews": 188850,
+      "tgShare": 0.87,
+      "engagements": 9826,
+      "clicks": 1801,
+      "orders": 287,
+      "revenue": 315672,
+      "roas": 1.24,
+      "recallLiftPts": 9.5,
+      "costPerTgView": 1.35,
+      "costPerEngagement": 25.9,
+      "costPerClick": 141.33
+     },
+     "why": [
+      "Audience matches the brief: 58% women (target 55%), 96% age overlap, 77% city-tier overlap",
+      "Viewers watch 66% of each video, top 1% of macro creators; past recall lift +9.1 pts",
+      "Fitness &amp; Wellness is a core category for HK Vitals, with lifestyle &amp; vlogs as a second pillar",
+      "86% of followers look real and active; 14% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Discloses #ad on only 66% of paid posts. Brief on disclosure in the first line"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1175",
+     "name": "Kavya J.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 71555,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "Certified trainer",
+     "fit": 84.1,
+     "parts": {
+      "aud": 100,
+      "cont": 99,
+      "cult": 100,
+      "perf": 47,
+      "auth": 69,
+      "safe": 83,
+      "cost": 83
+     },
+     "contributions": {
+      "aud": 21.9,
+      "cont": 14.8,
+      "cult": 14,
+      "perf": 7.1,
+      "auth": 9.7,
+      "safe": 8.3,
+      "cost": 8.3
+     },
+     "confidence": "Low",
+     "er": 2.57,
+     "linkCtr": 0.72,
+     "realFollowers": 82.6,
+     "viewThrough": 35.7,
+     "hold3s": 61.2,
+     "sponsoredShare": 16,
+     "adDisclosure": 74,
+     "safety": 89,
+     "audienceWomen": 0.507,
+     "forecast": {
+      "cost": 28000,
+      "views": 32172,
+      "tgViews": 24425,
+      "tgShare": 0.92,
+      "engagements": 2225,
+      "clicks": 233,
+      "orders": 39.5,
+      "revenue": 43485,
+      "roas": 1.55,
+      "recallLiftPts": 8.5,
+      "costPerTgView": 1.15,
+      "costPerEngagement": 12.58,
+      "costPerClick": 119.96
+     },
+     "why": [
+      "Audience matches the brief: 51% women (target 55%), 93% age overlap, 98% city-tier overlap",
+      "Fitness &amp; Wellness is a core category for HK Vitals, with doctors &amp; dietitians as a second pillar",
+      "Creates in Hinglish, HK Vitals's lead language; shares the Fitness-first and Science-backed codes",
+      "83% of followers look real and active; 16% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Discloses #ad on only 74% of paid posts. Brief on disclosure in the first line",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1060",
+     "name": "Varun S.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Food & Cooking",
+     "tier": "Micro",
+     "followers": 20656,
+     "city": "Jaipur",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.8,
+     "parts": {
+      "aud": 78,
+      "cont": 89,
+      "cult": 92,
+      "perf": 86,
+      "auth": 69,
+      "safe": 82,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 17.2,
+      "cont": 13.3,
+      "cult": 12.8,
+      "perf": 12.9,
+      "auth": 9.7,
+      "safe": 8.2,
+      "cost": 9.7
+     },
+     "confidence": "Medium",
+     "er": 3.22,
+     "linkCtr": 0.95,
+     "realFollowers": 80.8,
+     "viewThrough": 54.6,
+     "hold3s": 66.3,
+     "sponsoredShare": 11,
+     "adDisclosure": 81,
+     "safety": 83,
+     "audienceWomen": 0.283,
+     "forecast": {
+      "cost": 6500,
+      "views": 12875,
+      "tgViews": 8046,
+      "tgShare": 0.77,
+      "engagements": 777,
+      "clicks": 97,
+      "orders": 17.5,
+      "revenue": 19247,
+      "roas": 2.96,
+      "recallLiftPts": 9.6,
+      "costPerTgView": 0.81,
+      "costPerEngagement": 8.37,
+      "costPerClick": 66.92
+     },
+     "why": [
+      "Audience matches the brief: 28% women (target 55%), 94% age overlap, 82% city-tier overlap",
+      "Fitness &amp; Wellness is a core category for HK Vitals, with food &amp; cooking as a second pillar",
+      "Viewers watch 55% of each video, top 8% of micro creators; past recall lift +9.5 pts",
+      "Creates in Hindi; shares the Fitness-first and Science-backed and Working professional codes"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 36,
+    "spend": 1500000,
+    "views": 2433133,
+    "tgViews": 1722444,
+    "uniqueTgReach": 1062016,
+    "engagements": 93906,
+    "clicks": 13001,
+    "orders": 1916,
+    "revenue": 2107845,
+    "roas": 1.41,
+    "recallLiftPts": 5.8,
+    "fakeAudienceShare": 0.13,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 24,
+    "spendByTier": {
+     "micro": 397000,
+     "macro": 432000,
+     "mid": 671000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 3,
+    "spend": 1497000,
+    "views": 1536780,
+    "tgViews": 1071729,
+    "uniqueTgReach": 663918,
+    "engagements": 53612,
+    "clicks": 5856,
+    "orders": 543,
+    "revenue": 597122,
+    "roas": 0.4,
+    "recallLiftPts": 2.8,
+    "fakeAudienceShare": 0.14,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 205500,
+    "forecastBandPct": 33,
+    "spendByTier": {
+     "mega": 1266500,
+     "macro": 205500,
+     "mid": 25000
+    }
+   },
+   "planCreators": [
+    "Varsha B. (Micro, Food & Cooking)",
+    "Keerthi B. (Macro, Beauty & Skincare)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Tanvi C. (Micro, Food & Cooking)",
+    "Gayathri A. (Micro, Fitness & Wellness)",
+    "Vivaan M. (Micro, Fitness & Wellness)",
+    "Ananya J. (Micro, Music & Dance)",
+    "Hetal A. (Mid-tier, Food & Cooking)",
+    "Vivaan Y. (Micro, Fitness & Wellness)",
+    "Riya D. (Micro, Beauty & Skincare)",
+    "Varsha T. (Macro, Fitness & Wellness)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 347,
+   "gated": 73,
+   "gatesByReason": {
+    "conflict": 11,
+    "reg": 12,
+    "safety": 4,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Dhwani R.",
+     "id": "CIE-1263",
+     "reasons": [
+      "Posted for OZiva 25 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Kunal K.",
+     "id": "CIE-1332",
+     "reasons": [
+      "Posted for Wellbeing Nutrition 57 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Neel B.",
+     "id": "CIE-1056",
+     "reasons": [
+      "Posted for OZiva 33 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Mitali M.",
+     "id": "CIE-1227",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1192",
+     "name": "Vivaan Y.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 73368,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.5,
+     "parts": {
+      "aud": 99,
+      "cont": 90,
+      "cult": 78,
+      "perf": 64,
+      "auth": 72,
+      "safe": 89,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 19.7,
+      "cont": 16.2,
+      "cult": 7.8,
+      "perf": 12.9,
+      "auth": 10.1,
+      "safe": 7.1,
+      "cost": 9.7
+     },
+     "confidence": "Low",
+     "er": 4.2,
+     "linkCtr": 0.67,
+     "realFollowers": 85.4,
+     "viewThrough": 34.9,
+     "hold3s": 68,
+     "sponsoredShare": 21,
+     "adDisclosure": 90,
+     "safety": 88,
+     "audienceWomen": 0.502,
+     "forecast": {
+      "cost": 25000,
+      "views": 34034,
+      "tgViews": 26487,
+      "tgShare": 0.91,
+      "engagements": 3478,
+      "clicks": 213,
+      "orders": 46,
+      "revenue": 50606,
+      "roas": 2.02,
+      "recallLiftPts": 10.4,
+      "costPerTgView": 0.94,
+      "costPerEngagement": 7.19,
+      "costPerClick": 117.17
+     },
+     "why": [
+      "Audience matches the brief: 50% women (target 55%), 92% age overlap, 95% city-tier overlap",
+      "Fitness &amp; Wellness is a core category for HK Vitals, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 4.2%, top 12% of micro creators; 1.5% of viewers save or share",
+      "85% of followers look real and active; 21% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1020",
+     "name": "Rahul R.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 17478,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 83.1,
+     "parts": {
+      "aud": 99,
+      "cont": 90,
+      "cult": 92,
+      "perf": 66,
+      "auth": 69,
+      "safe": 86,
+      "cost": 82
+     },
+     "contributions": {
+      "aud": 19.9,
+      "cont": 16.2,
+      "cult": 9.2,
+      "perf": 13.1,
+      "auth": 9.6,
+      "safe": 6.9,
+      "cost": 8.2
+     },
+     "confidence": "Medium",
+     "er": 3.59,
+     "linkCtr": 0.53,
+     "realFollowers": 87.8,
+     "viewThrough": 50,
+     "hold3s": 76.7,
+     "sponsoredShare": 47,
+     "adDisclosure": 96,
+     "safety": 79,
+     "audienceWomen": 0.479,
+     "forecast": {
+      "cost": 6000,
+      "views": 2685,
+      "tgViews": 2163,
+      "tgShare": 0.92,
+      "engagements": 627,
+      "clicks": 11,
+      "orders": 1.7,
+      "revenue": 1848,
+      "roas": 0.31,
+      "recallLiftPts": 7.5,
+      "costPerTgView": 2.77,
+      "costPerEngagement": 9.56,
+      "costPerClick": 563.68
+     },
+     "why": [
+      "Audience matches the brief: 48% women (target 55%), 97% age overlap, 92% city-tier overlap",
+      "Fitness &amp; Wellness is a core category for HK Vitals, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 3.6%, top 25% of micro creators; 2.5% of viewers save or share",
+      "88% of followers look real and active; 47% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Ad fatigue: 47% of recent posts are sponsored",
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1384",
+     "name": "Rasika A.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 23534,
+     "city": "Mumbai",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": "Certified trainer",
+     "fit": 81,
+     "parts": {
+      "aud": 97,
+      "cont": 90,
+      "cult": 92,
+      "perf": 56,
+      "auth": 87,
+      "safe": 88,
+      "cost": 57
+     },
+     "contributions": {
+      "aud": 19.5,
+      "cont": 16.2,
+      "cult": 9.2,
+      "perf": 11.3,
+      "auth": 12.1,
+      "safe": 7.1,
+      "cost": 5.7
+     },
+     "confidence": "Low",
+     "er": 2.13,
+     "linkCtr": 0.69,
+     "realFollowers": 94.4,
+     "viewThrough": 34.4,
+     "hold3s": 55.6,
+     "sponsoredShare": 28,
+     "adDisclosure": 80,
+     "safety": 94,
+     "audienceWomen": 0.603,
+     "forecast": {
+      "cost": 7000,
+      "views": 5780,
+      "tgViews": 4931,
+      "tgShare": 0.9,
+      "engagements": 501,
+      "clicks": 30,
+      "orders": 4,
+      "revenue": 4409,
+      "roas": 0.63,
+      "recallLiftPts": 3,
+      "costPerTgView": 1.42,
+      "costPerEngagement": 13.96,
+      "costPerClick": 234.65
+     },
+     "why": [
+      "Audience matches the brief: 60% women (target 55%), 94% age overlap, 95% city-tier overlap",
+      "Fitness &amp; Wellness is a core category for HK Vitals, with lifestyle &amp; vlogs as a second pillar",
+      "94% of followers look real and active; 28% of recent posts are sponsored",
+      "Engagement rate 2.1%, top 71% of micro creators; 2.9% of viewers save or share"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1337",
+     "name": "Aditya G.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 28048,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 80.7,
+     "parts": {
+      "aud": 82,
+      "cont": 90,
+      "cult": 100,
+      "perf": 66,
+      "auth": 73,
+      "safe": 91,
+      "cost": 75
+     },
+     "contributions": {
+      "aud": 16.3,
+      "cont": 16.2,
+      "cult": 10,
+      "perf": 13.2,
+      "auth": 10.2,
+      "safe": 7.3,
+      "cost": 7.5
+     },
+     "confidence": "Low",
+     "er": 4.72,
+     "linkCtr": 0.47,
+     "realFollowers": 84,
+     "viewThrough": 46,
+     "hold3s": 63.5,
+     "sponsoredShare": 28,
+     "adDisclosure": 91,
+     "safety": 91,
+     "audienceWomen": 0.386,
+     "forecast": {
+      "cost": 14000,
+      "views": 3959,
+      "tgViews": 2647,
+      "tgShare": 0.8,
+      "engagements": 1324,
+      "clicks": 14,
+      "orders": 2.6,
+      "revenue": 2894,
+      "roas": 0.21,
+      "recallLiftPts": 7.5,
+      "costPerTgView": 5.29,
+      "costPerEngagement": 10.58,
+      "costPerClick": 1005.87
+     },
+     "why": [
+      "Audience matches the brief: 39% women (target 55%), 88% age overlap, 87% city-tier overlap",
+      "Fitness &amp; Wellness is a core category for HK Vitals, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 4.7%, top 9% of micro creators; 1.8% of viewers save or share",
+      "84% of followers look real and active; 28% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1370",
+     "name": "Vivaan M.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 66505,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.3,
+     "parts": {
+      "aud": 90,
+      "cont": 99,
+      "cult": 78,
+      "perf": 53,
+      "auth": 68,
+      "safe": 90,
+      "cost": 93
+     },
+     "contributions": {
+      "aud": 18.1,
+      "cont": 17.8,
+      "cult": 7.8,
+      "perf": 10.7,
+      "auth": 9.5,
+      "safe": 7.2,
+      "cost": 9.3
+     },
+     "confidence": "Low",
+     "er": 2.86,
+     "linkCtr": 0.78,
+     "realFollowers": 86.8,
+     "viewThrough": 34,
+     "hold3s": 60.4,
+     "sponsoredShare": 31,
+     "adDisclosure": 90,
+     "safety": 90,
+     "audienceWomen": 0.341,
+     "forecast": {
+      "cost": 18500,
+      "views": 36951,
+      "tgViews": 27395,
+      "tgShare": 0.85,
+      "engagements": 2261,
+      "clicks": 259,
+      "orders": 53.5,
+      "revenue": 58866,
+      "roas": 3.18,
+      "recallLiftPts": 4.6,
+      "costPerTgView": 0.68,
+      "costPerEngagement": 8.18,
+      "costPerClick": 71.5
+     },
+     "why": [
+      "Audience matches the brief: 34% women (target 55%), 95% age overlap, 98% city-tier overlap",
+      "Fitness &amp; Wellness is a core category for HK Vitals, with doctors &amp; dietitians as a second pillar",
+      "Engagement rate 2.9%, top 47% of micro creators; 2.7% of viewers save or share",
+      "87% of followers look real and active; 31% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Posted for OZiva 96 days ago (outside the 60-day window)",
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 80,
+    "spend": 1465500,
+    "views": 1754110,
+    "tgViews": 1225946,
+    "uniqueTgReach": 756974,
+    "engagements": 144542,
+    "clicks": 8611,
+    "orders": 1195,
+    "revenue": 1313988,
+    "roas": 0.9,
+    "recallLiftPts": 4.4,
+    "fakeAudienceShare": 0.12,
+    "gatedIncluded": 0,
+    "representCreators": 2,
+    "representSpend": 176000,
+    "forecastBandPct": 23,
+    "spendByTier": {
+     "micro": 1052000,
+     "nano": 21500,
+     "mid": 392000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 3,
+    "spend": 1460000,
+    "views": 1548920,
+    "tgViews": 1082373,
+    "uniqueTgReach": 670468,
+    "engagements": 49818,
+    "clicks": 5882,
+    "orders": 596,
+    "revenue": 655890,
+    "roas": 0.45,
+    "recallLiftPts": 2.6,
+    "fakeAudienceShare": 0.16,
+    "gatedIncluded": 1,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 33,
+    "spendByTier": {
+     "mega": 1266500,
+     "macro": 153500,
+     "mid": 40000
+    }
+   },
+   "planCreators": [
+    "Vivaan Y. (Micro, Fitness & Wellness)",
+    "Ananya B. (Micro, Beauty & Skincare)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Moumita N. (Micro, Parenting & Family)",
+    "Rasika D. (Micro, Beauty & Skincare)",
+    "Vivaan M. (Micro, Fitness & Wellness)",
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Dhwani K. (Micro, Beauty & Skincare)",
+    "Kunal J. (Micro, Food & Cooking)",
+    "Yash S. (Micro, Education & Careers)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Harsh V. (Micro, Beauty & Skincare)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 347,
+   "gated": 73,
+   "gatesByReason": {
+    "conflict": 11,
+    "reg": 12,
+    "fraud": 32,
+    "safety": 4,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Kunal K.",
+     "id": "CIE-1332",
+     "reasons": [
+      "Posted for Wellbeing Nutrition 57 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Sneha V.",
+     "id": "CIE-1267",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    },
+    {
+     "name": "Neel B.",
+     "id": "CIE-1056",
+     "reasons": [
+      "Posted for OZiva 33 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Janhvi A.",
+     "id": "CIE-1304",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1400",
+     "name": "Gayathri A.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 15153,
+     "city": "Bengaluru",
+     "languages": [
+      "English"
+     ],
+     "platform": "Moj",
+     "represent": false,
+     "credential": null,
+     "fit": 84.3,
+     "parts": {
+      "aud": 99,
+      "cont": 90,
+      "cult": 92,
+      "perf": 63,
+      "auth": 81,
+      "safe": 89,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 17.8,
+      "cont": 12.6,
+      "cult": 7.3,
+      "perf": 16.4,
+      "auth": 11.3,
+      "safe": 7.1,
+      "cost": 11.7
+     },
+     "confidence": "High",
+     "er": 2.66,
+     "linkCtr": 1.11,
+     "realFollowers": 92.9,
+     "viewThrough": 49.4,
+     "hold3s": 64.5,
+     "sponsoredShare": 40,
+     "adDisclosure": 99,
+     "safety": 82,
+     "audienceWomen": 0.519,
+     "forecast": {
+      "cost": 5500,
+      "views": 6502,
+      "tgViews": 5526,
+      "tgShare": 0.91,
+      "engagements": 485,
+      "clicks": 71,
+      "orders": 10.8,
+      "revenue": 11894,
+      "roas": 2.16,
+      "recallLiftPts": 6.4,
+      "costPerTgView": 1,
+      "costPerEngagement": 11.34,
+      "costPerClick": 77.88
+     },
+     "why": [
+      "Audience matches the brief: 52% women (target 55%), 95% age overlap, 91% city-tier overlap",
+      "Link CTR 1.11%, top 15% of micro creators; trust index 0.98",
+      "Fitness &amp; Wellness is a core category for HK Vitals, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 2.2× ROAS on ₹5.5K, about 11 orders"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1245",
+     "name": "Janhvi B.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 18888,
+     "city": "Ahmedabad",
+     "languages": [
+      "Gujarati"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.8,
+     "parts": {
+      "aud": 92,
+      "cont": 99,
+      "cult": 23,
+      "perf": 84,
+      "auth": 69,
+      "safe": 91,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 16.5,
+      "cont": 13.8,
+      "cult": 1.8,
+      "perf": 21.8,
+      "auth": 9.6,
+      "safe": 7.3,
+      "cost": 12
+     },
+     "confidence": "High",
+     "er": 2.93,
+     "linkCtr": 1.24,
+     "realFollowers": 82.9,
+     "viewThrough": 55.4,
+     "hold3s": 60.8,
+     "sponsoredShare": 15,
+     "adDisclosure": 98,
+     "safety": 87,
+     "audienceWomen": 0.517,
+     "forecast": {
+      "cost": 6500,
+      "views": 8683,
+      "tgViews": 6217,
+      "tgShare": 0.86,
+      "engagements": 655,
+      "clicks": 107,
+      "orders": 21.5,
+      "revenue": 23605,
+      "roas": 3.63,
+      "recallLiftPts": 11.1,
+      "costPerTgView": 1.05,
+      "costPerEngagement": 9.92,
+      "costPerClick": 60.68
+     },
+     "why": [
+      "Link CTR 1.24%, top 8% of micro creators; trust index 1.23",
+      "Audience matches the brief: 52% women (target 55%), 97% age overlap, 77% city-tier overlap",
+      "Fitness &amp; Wellness is a core category for HK Vitals, with doctors &amp; dietitians as a second pillar",
+      "Forecast 3.6× ROAS on ₹6.5K, about 21 orders"
+     ],
+     "risks": [
+      "Posted for OZiva 81 days ago (outside the 60-day window)",
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1370",
+     "name": "Vivaan M.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 66505,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.7,
+     "parts": {
+      "aud": 90,
+      "cont": 99,
+      "cult": 78,
+      "perf": 64,
+      "auth": 68,
+      "safe": 90,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 16.2,
+      "cont": 13.8,
+      "cult": 6.2,
+      "perf": 16.7,
+      "auth": 9.5,
+      "safe": 7.2,
+      "cost": 11.9
+     },
+     "confidence": "Low",
+     "er": 2.86,
+     "linkCtr": 0.78,
+     "realFollowers": 86.8,
+     "viewThrough": 34,
+     "hold3s": 60.4,
+     "sponsoredShare": 31,
+     "adDisclosure": 90,
+     "safety": 90,
+     "audienceWomen": 0.341,
+     "forecast": {
+      "cost": 18500,
+      "views": 36951,
+      "tgViews": 27395,
+      "tgShare": 0.85,
+      "engagements": 2261,
+      "clicks": 259,
+      "orders": 53.5,
+      "revenue": 58866,
+      "roas": 3.18,
+      "recallLiftPts": 4.6,
+      "costPerTgView": 0.68,
+      "costPerEngagement": 8.18,
+      "costPerClick": 71.5
+     },
+     "why": [
+      "Link CTR 0.78%, top 45% of micro creators; trust index 1.27",
+      "Audience matches the brief: 34% women (target 55%), 95% age overlap, 98% city-tier overlap",
+      "Fitness &amp; Wellness is a core category for HK Vitals, with doctors &amp; dietitians as a second pillar",
+      "Forecast 3.2× ROAS on ₹19K, about 54 orders"
+     ],
+     "risks": [
+      "Posted for OZiva 96 days ago (outside the 60-day window)",
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1192",
+     "name": "Vivaan Y.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 73368,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.5,
+     "parts": {
+      "aud": 99,
+      "cont": 90,
+      "cult": 78,
+      "perf": 62,
+      "auth": 72,
+      "safe": 89,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 17.7,
+      "cont": 12.6,
+      "cult": 6.2,
+      "perf": 16.1,
+      "auth": 10.1,
+      "safe": 7.1,
+      "cost": 11.6
+     },
+     "confidence": "Low",
+     "er": 4.2,
+     "linkCtr": 0.67,
+     "realFollowers": 85.4,
+     "viewThrough": 34.9,
+     "hold3s": 68,
+     "sponsoredShare": 21,
+     "adDisclosure": 90,
+     "safety": 88,
+     "audienceWomen": 0.502,
+     "forecast": {
+      "cost": 25000,
+      "views": 34034,
+      "tgViews": 26487,
+      "tgShare": 0.91,
+      "engagements": 3478,
+      "clicks": 213,
+      "orders": 46,
+      "revenue": 50606,
+      "roas": 2.02,
+      "recallLiftPts": 10.4,
+      "costPerTgView": 0.94,
+      "costPerEngagement": 7.19,
+      "costPerClick": 117.17
+     },
+     "why": [
+      "Audience matches the brief: 50% women (target 55%), 92% age overlap, 95% city-tier overlap",
+      "Link CTR 0.67%, top 63% of micro creators; trust index 1.38",
+      "Fitness &amp; Wellness is a core category for HK Vitals, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 2.0× ROAS on ₹25K, about 46 orders"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1060",
+     "name": "Varun S.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Food & Cooking",
+     "tier": "Micro",
+     "followers": 20656,
+     "city": "Jaipur",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.3,
+     "parts": {
+      "aud": 78,
+      "cont": 89,
+      "cult": 92,
+      "perf": 74,
+      "auth": 69,
+      "safe": 82,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 14.1,
+      "cont": 12.4,
+      "cult": 7.3,
+      "perf": 19.3,
+      "auth": 9.7,
+      "safe": 6.6,
+      "cost": 11.8
+     },
+     "confidence": "Medium",
+     "er": 3.22,
+     "linkCtr": 0.95,
+     "realFollowers": 80.8,
+     "viewThrough": 54.6,
+     "hold3s": 66.3,
+     "sponsoredShare": 11,
+     "adDisclosure": 81,
+     "safety": 83,
+     "audienceWomen": 0.283,
+     "forecast": {
+      "cost": 6500,
+      "views": 12875,
+      "tgViews": 8046,
+      "tgShare": 0.77,
+      "engagements": 777,
+      "clicks": 97,
+      "orders": 17.5,
+      "revenue": 19247,
+      "roas": 2.96,
+      "recallLiftPts": 9.6,
+      "costPerTgView": 0.81,
+      "costPerEngagement": 8.37,
+      "costPerClick": 66.92
+     },
+     "why": [
+      "Link CTR 0.95%, top 25% of micro creators; trust index 1.16",
+      "Audience matches the brief: 28% women (target 55%), 94% age overlap, 82% city-tier overlap",
+      "Fitness &amp; Wellness is a core category for HK Vitals, with food &amp; cooking as a second pillar",
+      "Forecast 3.0× ROAS on ₹6.5K, about 17 orders"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1066",
+     "name": "Saloni M.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Mid-tier",
+     "followers": 193801,
+     "city": "Pune",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.8,
+     "parts": {
+      "aud": 96,
+      "cont": 99,
+      "cult": 100,
+      "perf": 56,
+      "auth": 64,
+      "safe": 91,
+      "cost": 92
+     },
+     "contributions": {
+      "aud": 17.2,
+      "cont": 13.8,
+      "cult": 8,
+      "perf": 14.6,
+      "auth": 8.9,
+      "safe": 7.2,
+      "cost": 11.1
+     },
+     "confidence": "Low",
+     "er": 2.13,
+     "linkCtr": 0.76,
+     "realFollowers": 83.1,
+     "viewThrough": 52,
+     "hold3s": 88,
+     "sponsoredShare": 20,
+     "adDisclosure": 99,
+     "safety": 85,
+     "audienceWomen": 0.509,
+     "forecast": {
+      "cost": 69000,
+      "views": 93998,
+      "tgViews": 69627,
+      "tgShare": 0.89,
+      "engagements": 4942,
+      "clicks": 605,
+      "orders": 99.5,
+      "revenue": 109468,
+      "roas": 1.59,
+      "recallLiftPts": 3.6,
+      "costPerTgView": 0.99,
+      "costPerEngagement": 13.96,
+      "costPerClick": 114.05
+     },
+     "why": [
+      "Audience matches the brief: 51% women (target 55%), 92% age overlap, 93% city-tier overlap",
+      "Link CTR 0.76%, top 54% of mid-tier creators; trust index 1.01",
+      "Fitness &amp; Wellness is a core category for HK Vitals, with doctors &amp; dietitians as a second pillar",
+      "Forecast 1.6× ROAS on ₹69K, about 100 orders"
+     ],
+     "risks": [
+      "Posted for MuscleBlaze 88 days ago (outside the 60-day window)",
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1213",
+     "name": "Chirag T.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 317916,
+     "city": "Mumbai",
+     "languages": [
+      "Marathi",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "Certified trainer",
+     "fit": 80.2,
+     "parts": {
+      "aud": 82,
+      "cont": 90,
+      "cult": 78,
+      "perf": 74,
+      "auth": 59,
+      "safe": 89,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 14.8,
+      "cont": 12.6,
+      "cult": 6.2,
+      "perf": 19.1,
+      "auth": 8.3,
+      "safe": 7.2,
+      "cost": 12
+     },
+     "confidence": "Medium",
+     "er": 0.93,
+     "linkCtr": 1.23,
+     "realFollowers": 80.3,
+     "viewThrough": 59.8,
+     "hold3s": 81.5,
+     "sponsoredShare": 31,
+     "adDisclosure": 93,
+     "safety": 87,
+     "audienceWomen": 0.381,
+     "forecast": {
+      "cost": 76000,
+      "views": 142263,
+      "tgViews": 91630,
+      "tgShare": 0.8,
+      "engagements": 4292,
+      "clicks": 1458,
+      "orders": 259.8,
+      "revenue": 285750,
+      "roas": 3.76,
+      "recallLiftPts": 6.9,
+      "costPerTgView": 0.83,
+      "costPerEngagement": 17.71,
+      "costPerClick": 52.11
+     },
+     "why": [
+      "Link CTR 1.23%, top 11% of mid-tier creators; trust index 1.14",
+      "Audience matches the brief: 38% women (target 55%), 93% age overlap, 81% city-tier overlap",
+      "Fitness &amp; Wellness is a core category for HK Vitals, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 3.8× ROAS on ₹76K, about 260 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1235",
+     "name": "Varun R.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Food & Cooking",
+     "tier": "Micro",
+     "followers": 11673,
+     "city": "Chandigarh",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "Certified trainer",
+     "fit": 79.7,
+     "parts": {
+      "aud": 87,
+      "cont": 89,
+      "cult": 55,
+      "perf": 73,
+      "auth": 73,
+      "safe": 88,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 15.6,
+      "cont": 12.4,
+      "cult": 4.4,
+      "perf": 18.9,
+      "auth": 10.2,
+      "safe": 7,
+      "cost": 11.3
+     },
+     "confidence": "High",
+     "er": 2.78,
+     "linkCtr": 1.04,
+     "realFollowers": 84.6,
+     "viewThrough": 31.9,
+     "hold3s": 66.9,
+     "sponsoredShare": 11,
+     "adDisclosure": 90,
+     "safety": 86,
+     "audienceWomen": 0.487,
+     "forecast": {
+      "cost": 5000,
+      "views": 4502,
+      "tgViews": 3163,
+      "tgShare": 0.83,
+      "engagements": 388,
+      "clicks": 48,
+      "orders": 8.4,
+      "revenue": 9264,
+      "roas": 1.85,
+      "recallLiftPts": 4,
+      "costPerTgView": 1.58,
+      "costPerEngagement": 12.9,
+      "costPerClick": 103.27
+     },
+     "why": [
+      "Link CTR 1.04%, top 17% of micro creators; trust index 1.12",
+      "Audience matches the brief: 49% women (target 55%), 92% age overlap, 79% city-tier overlap",
+      "Fitness &amp; Wellness is a core category for HK Vitals, with food &amp; cooking as a second pillar",
+      "Forecast 1.9× ROAS on ₹5K, about 8 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1291",
+     "name": "Rasika V.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 236543,
+     "city": "Pune",
+     "languages": [
+      "Marathi",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.2,
+     "parts": {
+      "aud": 77,
+      "cont": 90,
+      "cult": 78,
+      "perf": 69,
+      "auth": 69,
+      "safe": 95,
+      "cost": 95
+     },
+     "contributions": {
+      "aud": 13.8,
+      "cont": 12.6,
+      "cult": 6.2,
+      "perf": 17.9,
+      "auth": 9.7,
+      "safe": 7.6,
+      "cost": 11.4
+     },
+     "confidence": "High",
+     "er": 1.2,
+     "linkCtr": 1.01,
+     "realFollowers": 82.6,
+     "viewThrough": 51.1,
+     "hold3s": 70.6,
+     "sponsoredShare": 14,
+     "adDisclosure": 93,
+     "safety": 97,
+     "audienceWomen": 0.657,
+     "forecast": {
+      "cost": 72000,
+      "views": 54805,
+      "tgViews": 34530,
+      "tgShare": 0.76,
+      "engagements": 3832,
+      "clicks": 681,
+      "orders": 126.6,
+      "revenue": 139220,
+      "roas": 1.93,
+      "recallLiftPts": 10.2,
+      "costPerTgView": 2.09,
+      "costPerEngagement": 18.79,
+      "costPerClick": 105.77
+     },
+     "why": [
+      "Link CTR 1.01%, top 30% of mid-tier creators; trust index 1.19",
+      "Audience matches the brief: 66% women (target 55%), 89% age overlap, 73% city-tier overlap",
+      "Fitness &amp; Wellness is a core category for HK Vitals, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 1.9× ROAS on ₹72K, about 127 orders"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1175",
+     "name": "Kavya J.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 71555,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "Certified trainer",
+     "fit": 78.9,
+     "parts": {
+      "aud": 100,
+      "cont": 99,
+      "cult": 100,
+      "perf": 46,
+      "auth": 69,
+      "safe": 83,
+      "cost": 92
+     },
+     "contributions": {
+      "aud": 17.9,
+      "cont": 13.8,
+      "cult": 8,
+      "perf": 11.8,
+      "auth": 9.7,
+      "safe": 6.6,
+      "cost": 11
+     },
+     "confidence": "Low",
+     "er": 2.57,
+     "linkCtr": 0.72,
+     "realFollowers": 82.6,
+     "viewThrough": 35.7,
+     "hold3s": 61.2,
+     "sponsoredShare": 16,
+     "adDisclosure": 74,
+     "safety": 89,
+     "audienceWomen": 0.507,
+     "forecast": {
+      "cost": 28000,
+      "views": 32172,
+      "tgViews": 24425,
+      "tgShare": 0.92,
+      "engagements": 2225,
+      "clicks": 233,
+      "orders": 39.5,
+      "revenue": 43485,
+      "roas": 1.55,
+      "recallLiftPts": 8.5,
+      "costPerTgView": 1.15,
+      "costPerEngagement": 12.58,
+      "costPerClick": 119.96
+     },
+     "why": [
+      "Audience matches the brief: 51% women (target 55%), 93% age overlap, 98% city-tier overlap",
+      "Fitness &amp; Wellness is a core category for HK Vitals, with doctors &amp; dietitians as a second pillar",
+      "Link CTR 0.72%, top 54% of micro creators; trust index 1.04",
+      "Forecast 1.6× ROAS on ₹28K, about 40 orders"
+     ],
+     "risks": [
+      "Discloses #ad on only 74% of paid posts. Brief on disclosure in the first line",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 43,
+    "spend": 1498500,
+    "views": 1915354,
+    "tgViews": 1354206,
+    "uniqueTgReach": 835942,
+    "engagements": 94920,
+    "clicks": 14788,
+    "orders": 2357,
+    "revenue": 2592758,
+    "roas": 1.73,
+    "recallLiftPts": 6.1,
+    "fakeAudienceShare": 0.14,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 49000,
+    "forecastBandPct": 22,
+    "spendByTier": {
+     "micro": 428000,
+     "mid": 586500,
+     "macro": 475500,
+     "nano": 8500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 3,
+    "spend": 1497000,
+    "views": 1536780,
+    "tgViews": 1071729,
+    "uniqueTgReach": 663918,
+    "engagements": 53612,
+    "clicks": 5856,
+    "orders": 543,
+    "revenue": 597122,
+    "roas": 0.4,
+    "recallLiftPts": 2.8,
+    "fakeAudienceShare": 0.14,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 205500,
+    "forecastBandPct": 33,
+    "spendByTier": {
+     "mega": 1266500,
+     "macro": 205500,
+     "mid": 25000
+    }
+   },
+   "planCreators": [
+    "Vivaan M. (Micro, Fitness & Wellness)",
+    "Aditi B. (Micro, Beauty & Skincare)",
+    "Varsha B. (Micro, Food & Cooking)",
+    "Gayathri A. (Micro, Fitness & Wellness)",
+    "Chirag T. (Mid-tier, Fitness & Wellness)",
+    "Janhvi B. (Micro, Fitness & Wellness)",
+    "Tanvi P. (Micro, Beauty & Skincare)",
+    "Tanvi C. (Micro, Food & Cooking)",
+    "Mansi T. (Mid-tier, Beauty & Skincare)",
+    "Vivaan Y. (Micro, Fitness & Wellness)",
+    "Debolina M. (Micro, Beauty & Skincare)",
+    "Riya D. (Micro, Beauty & Skincare)"
+   ]
+  }
+ }
+}

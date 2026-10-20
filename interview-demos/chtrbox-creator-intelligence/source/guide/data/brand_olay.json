@@ -1,0 +1,1780 @@
+{
+ "id": "olay",
+ "name": "Olay",
+ "parent": "P&G",
+ "vertical": "beauty",
+ "sub": "Premium skincare",
+ "status": "Reported client",
+ "defaultObjective": "consideration",
+ "brief": "Win the 25–40 working woman who is moving from basics to actives.",
+ "moment": "Festive glow · Oct–Nov",
+ "budgetLakh": 18,
+ "target": {
+  "fem": 0.86,
+  "age": [
+   0.02,
+   0.26,
+   0.44,
+   0.21,
+   0.07
+  ],
+  "tiers": [
+   0.62,
+   0.3,
+   0.08
+  ],
+  "affl": 0.7
+ },
+ "languages": {
+  "English": 1,
+  "Hinglish": 0.9,
+  "Hindi": 0.55
+ },
+ "codes": [
+  "Science-backed",
+  "Aspirational luxury",
+  "Working professional"
+ ],
+ "affinity": {
+  "beauty": 1,
+  "lifestyle": 0.75,
+  "fashion": 0.6,
+  "health": 0.7,
+  "fitness": 0.45
+ },
+ "competitors": [
+  "L'Oréal Paris",
+  "Neutrogena",
+  "Pond's",
+  "Minimalist",
+  "The Derma Co"
+ ],
+ "compliance": null,
+ "aov": 1150,
+ "conversionRate": 0.04,
+ "kpis": [
+  "Consideration lift",
+  "Saves per view",
+  "PDP clicks"
+ ],
+ "markets": [
+  "India"
+ ],
+ "tgPoolMillions": 48,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 354,
+   "gated": 66,
+   "gatesByReason": {
+    "conflict": 16,
+    "safety": 4,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Keerthi B.",
+     "id": "CIE-1270",
+     "reasons": [
+      "Posted for Pond's 10 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Meher A.",
+     "id": "CIE-1090",
+     "reasons": [
+      "Posted for Neutrogena 19 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Ananya M.",
+     "id": "CIE-1183",
+     "reasons": [
+      "Posted for The Derma Co 58 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Dhruv K.",
+     "id": "CIE-1184",
+     "reasons": [
+      "Posted for Pond's 7 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1271",
+     "name": "Rasika D.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 91472,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.9,
+     "parts": {
+      "aud": 90,
+      "cont": 94,
+      "cult": 72,
+      "perf": 65,
+      "auth": 82,
+      "safe": 85,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 19.7,
+      "cont": 14.1,
+      "cult": 10.1,
+      "perf": 9.7,
+      "auth": 11.4,
+      "safe": 8.5,
+      "cost": 9.4
+     },
+     "confidence": "Medium",
+     "er": 4.34,
+     "linkCtr": 0.7,
+     "realFollowers": 90.6,
+     "viewThrough": 54,
+     "hold3s": 66.7,
+     "sponsoredShare": 27,
+     "adDisclosure": 92,
+     "safety": 81,
+     "audienceWomen": 0.886,
+     "forecast": {
+      "cost": 37500,
+      "views": 51100,
+      "tgViews": 39344,
+      "tgShare": 0.85,
+      "engagements": 4464,
+      "clicks": 310,
+      "orders": 46.9,
+      "revenue": 53972,
+      "roas": 1.44,
+      "recallLiftPts": 5.7,
+      "costPerTgView": 0.95,
+      "costPerEngagement": 8.4,
+      "costPerClick": 120.89
+     },
+     "why": [
+      "Audience matches the brief: 89% women (target 86%), 83% age overlap, 86% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Olay, with lifestyle &amp; vlogs as a second pillar",
+      "91% of followers look real and active; 27% of recent posts are sponsored",
+      "Creates in Hinglish, Olay's lead language; shares the Aspirational luxury codes"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1231",
+     "name": "Riya D.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 30854,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.2,
+     "parts": {
+      "aud": 81,
+      "cont": 94,
+      "cult": 72,
+      "perf": 66,
+      "auth": 83,
+      "safe": 91,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 17.8,
+      "cont": 14.1,
+      "cult": 10.1,
+      "perf": 9.9,
+      "auth": 11.7,
+      "safe": 9.1,
+      "cost": 9.7
+     },
+     "confidence": "Low",
+     "er": 1.88,
+     "linkCtr": 0.85,
+     "realFollowers": 90.5,
+     "viewThrough": 44.7,
+     "hold3s": 59,
+     "sponsoredShare": 13,
+     "adDisclosure": 100,
+     "safety": 85,
+     "audienceWomen": 0.856,
+     "forecast": {
+      "cost": 8000,
+      "views": 12413,
+      "tgViews": 8878,
+      "tgShare": 0.79,
+      "engagements": 747,
+      "clicks": 110,
+      "orders": 19,
+      "revenue": 21804,
+      "roas": 2.73,
+      "recallLiftPts": 10.3,
+      "costPerTgView": 0.9,
+      "costPerEngagement": 10.71,
+      "costPerClick": 72.79
+     },
+     "why": [
+      "Audience matches the brief: 86% women (target 86%), 74% age overlap, 82% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Olay, with lifestyle &amp; vlogs as a second pillar",
+      "91% of followers look real and active; 13% of recent posts are sponsored",
+      "Creates in Hinglish + Hindi, Olay's lead language; shares the Science-backed codes"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1316",
+     "name": "Gayathri J.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 14204,
+     "city": "Hyderabad",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.9,
+     "parts": {
+      "aud": 80,
+      "cont": 93,
+      "cult": 55,
+      "perf": 85,
+      "auth": 73,
+      "safe": 79,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 17.7,
+      "cont": 13.9,
+      "cult": 7.7,
+      "perf": 12.8,
+      "auth": 10.2,
+      "safe": 7.9,
+      "cost": 9.8
+     },
+     "confidence": "Medium",
+     "er": 2.01,
+     "linkCtr": 0.77,
+     "realFollowers": 86.8,
+     "viewThrough": 55.3,
+     "hold3s": 68.1,
+     "sponsoredShare": 28,
+     "adDisclosure": 69,
+     "safety": 86,
+     "audienceWomen": 0.788,
+     "forecast": {
+      "cost": 3000,
+      "views": 5522,
+      "tgViews": 3774,
+      "tgShare": 0.79,
+      "engagements": 362,
+      "clicks": 45,
+      "orders": 5.9,
+      "revenue": 6742,
+      "roas": 2.25,
+      "recallLiftPts": 8.3,
+      "costPerTgView": 0.79,
+      "costPerEngagement": 8.28,
+      "costPerClick": 66.89
+     },
+     "why": [
+      "Audience matches the brief: 79% women (target 86%), 76% age overlap, 88% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Olay, with doctors &amp; dietitians as a second pillar",
+      "Viewers watch 55% of each video, top 6% of micro creators; past recall lift +8 pts",
+      "87% of followers look real and active; 28% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Discloses #ad on only 69% of paid posts. Brief on disclosure in the first line"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1030",
+     "name": "Krupa G.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 6587,
+     "city": "Mumbai",
+     "languages": [
+      "Marathi",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.3,
+     "parts": {
+      "aud": 79,
+      "cont": 94,
+      "cult": 72,
+      "perf": 63,
+      "auth": 77,
+      "safe": 97,
+      "cost": 79
+     },
+     "contributions": {
+      "aud": 17.4,
+      "cont": 14.1,
+      "cult": 10.1,
+      "perf": 9.5,
+      "auth": 10.7,
+      "safe": 9.7,
+      "cost": 7.9
+     },
+     "confidence": "Low",
+     "er": 4.22,
+     "linkCtr": 0.85,
+     "realFollowers": 85.9,
+     "viewThrough": 46.5,
+     "hold3s": 58.4,
+     "sponsoredShare": 8,
+     "adDisclosure": 99,
+     "safety": 95,
+     "audienceWomen": 0.881,
+     "forecast": {
+      "cost": 3000,
+      "views": 3402,
+      "tgViews": 2277,
+      "tgShare": 0.78,
+      "engagements": 325,
+      "clicks": 31,
+      "orders": 5.8,
+      "revenue": 6715,
+      "roas": 2.24,
+      "recallLiftPts": 6.6,
+      "costPerTgView": 1.32,
+      "costPerEngagement": 9.22,
+      "costPerClick": 97.34
+     },
+     "why": [
+      "Audience matches the brief: 88% women (target 86%), 90% age overlap, 65% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Olay, with lifestyle &amp; vlogs as a second pillar",
+      "86% of followers look real and active; 8% of recent posts are sponsored",
+      "Creates in Marathi + Hinglish, Olay's lead language; shares the Science-backed codes"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1141",
+     "name": "Ananya B.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 28452,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.6,
+     "parts": {
+      "aud": 94,
+      "cont": 94,
+      "cult": 72,
+      "perf": 53,
+      "auth": 76,
+      "safe": 86,
+      "cost": 65
+     },
+     "contributions": {
+      "aud": 20.6,
+      "cont": 14.1,
+      "cult": 10.1,
+      "perf": 8,
+      "auth": 10.7,
+      "safe": 8.6,
+      "cost": 6.5
+     },
+     "confidence": "Medium",
+     "er": 6.77,
+     "linkCtr": 0.5,
+     "realFollowers": 88.5,
+     "viewThrough": 52.3,
+     "hold3s": 65.3,
+     "sponsoredShare": 21,
+     "adDisclosure": 90,
+     "safety": 84,
+     "audienceWomen": 0.869,
+     "forecast": {
+      "cost": 12000,
+      "views": 10219,
+      "tgViews": 7934,
+      "tgShare": 0.88,
+      "engagements": 2080,
+      "clicks": 57,
+      "orders": 10.2,
+      "revenue": 11690,
+      "roas": 0.97,
+      "recallLiftPts": 4.4,
+      "costPerTgView": 1.51,
+      "costPerEngagement": 5.77,
+      "costPerClick": 210.33
+     },
+     "why": [
+      "Audience matches the brief: 87% women (target 86%), 88% age overlap, 85% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Olay, with lifestyle &amp; vlogs as a second pillar",
+      "89% of followers look real and active; 21% of recent posts are sponsored",
+      "Creates in Hinglish + Hindi, Olay's lead language; shares the Aspirational luxury codes"
+     ],
+     "risks": []
+    }
+   ],
+   "plan": {
+    "creators": 43,
+    "spend": 1800000,
+    "views": 2574079,
+    "tgViews": 1753159,
+    "uniqueTgReach": 1075532,
+    "engagements": 109013,
+    "clicks": 16222,
+    "orders": 2075,
+    "revenue": 2386049,
+    "roas": 1.33,
+    "recallLiftPts": 5.6,
+    "fakeAudienceShare": 0.13,
+    "gatedIncluded": 0,
+    "representCreators": 2,
+    "representSpend": 193000,
+    "forecastBandPct": 26,
+    "spendByTier": {
+     "micro": 432500,
+     "mid": 1050500,
+     "nano": 4000,
+     "macro": 313000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 1,
+    "spend": 1779000,
+    "views": 1190448,
+    "tgViews": 492672,
+    "uniqueTgReach": 305457,
+    "engagements": 35822,
+    "clicks": 4232,
+    "orders": 357,
+    "revenue": 410095,
+    "roas": 0.23,
+    "recallLiftPts": 3.1,
+    "fakeAudienceShare": 0.45,
+    "gatedIncluded": 1,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 1779000
+    }
+   },
+   "planCreators": [
+    "Varsha B. (Micro, Food & Cooking)",
+    "Rasika D. (Micro, Beauty & Skincare)",
+    "Tanvi P. (Micro, Beauty & Skincare)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Riya D. (Micro, Beauty & Skincare)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Ananya J. (Micro, Music & Dance)",
+    "Mitali B. (Micro, Fashion & Style)",
+    "Kritika D. (Micro, Home & Decor)",
+    "Aanya M. (Mid-tier, Beauty & Skincare)",
+    "Nikita B. (Mid-tier, Fashion & Style)",
+    "Tanvi C. (Micro, Food & Cooking)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 354,
+   "gated": 66,
+   "gatesByReason": {
+    "conflict": 16,
+    "safety": 4,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Ananya M.",
+     "id": "CIE-1183",
+     "reasons": [
+      "Posted for The Derma Co 58 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Meher A.",
+     "id": "CIE-1090",
+     "reasons": [
+      "Posted for Neutrogena 19 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Mitali S.",
+     "id": "CIE-1109",
+     "reasons": [
+      "Brand-safety score 51: political commentary, unverified health claims",
+      "Posted for Minimalist 35 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Dhruv K.",
+     "id": "CIE-1184",
+     "reasons": [
+      "Posted for Pond's 7 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1201",
+     "name": "Dhwani K.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 18750,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84,
+     "parts": {
+      "aud": 94,
+      "cont": 94,
+      "cult": 72,
+      "perf": 73,
+      "auth": 77,
+      "safe": 81,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 18.7,
+      "cont": 16.9,
+      "cult": 7.2,
+      "perf": 14.6,
+      "auth": 10.8,
+      "safe": 6.5,
+      "cost": 9.4
+     },
+     "confidence": "Medium",
+     "er": 5.45,
+     "linkCtr": 0.69,
+     "realFollowers": 89.1,
+     "viewThrough": 43,
+     "hold3s": 68.8,
+     "sponsoredShare": 25,
+     "adDisclosure": 85,
+     "safety": 78,
+     "audienceWomen": 0.853,
+     "forecast": {
+      "cost": 9000,
+      "views": 6870,
+      "tgViews": 5370,
+      "tgShare": 0.88,
+      "engagements": 1123,
+      "clicks": 52,
+      "orders": 8.3,
+      "revenue": 9521,
+      "roas": 1.06,
+      "recallLiftPts": 4.9,
+      "costPerTgView": 1.68,
+      "costPerEngagement": 8.01,
+      "costPerClick": 172.16
+     },
+     "why": [
+      "Audience matches the brief: 85% women (target 86%), 87% age overlap, 87% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Olay, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 5.5%, top 4% of micro creators; 2.5% of viewers save or share",
+      "89% of followers look real and active; 25% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1238",
+     "name": "Priyanka T.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 45090,
+     "city": "Kolkata",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.8,
+     "parts": {
+      "aud": 92,
+      "cont": 93,
+      "cult": 95,
+      "perf": 64,
+      "auth": 75,
+      "safe": 95,
+      "cost": 65
+     },
+     "contributions": {
+      "aud": 18.3,
+      "cont": 16.7,
+      "cult": 9.5,
+      "perf": 12.7,
+      "auth": 10.5,
+      "safe": 7.6,
+      "cost": 6.5
+     },
+     "confidence": "High",
+     "er": 3.61,
+     "linkCtr": 0.9,
+     "realFollowers": 87.9,
+     "viewThrough": 35.2,
+     "hold3s": 56.8,
+     "sponsoredShare": 24,
+     "adDisclosure": 96,
+     "safety": 95,
+     "audienceWomen": 0.899,
+     "forecast": {
+      "cost": 23000,
+      "views": 16144,
+      "tgViews": 12241,
+      "tgShare": 0.86,
+      "engagements": 1871,
+      "clicks": 161,
+      "orders": 24.5,
+      "revenue": 28150,
+      "roas": 1.22,
+      "recallLiftPts": 5.7,
+      "costPerTgView": 1.88,
+      "costPerEngagement": 12.29,
+      "costPerClick": 142.64
+     },
+     "why": [
+      "Audience matches the brief: 90% women (target 86%), 88% age overlap, 87% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Olay, with doctors &amp; dietitians as a second pillar",
+      "Engagement rate 3.6%, top 24% of micro creators; 1.9% of viewers save or share",
+      "88% of followers look real and active; 24% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1271",
+     "name": "Rasika D.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 91472,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.8,
+     "parts": {
+      "aud": 90,
+      "cont": 94,
+      "cult": 72,
+      "perf": 58,
+      "auth": 82,
+      "safe": 85,
+      "cost": 90
+     },
+     "contributions": {
+      "aud": 17.9,
+      "cont": 16.9,
+      "cult": 7.2,
+      "perf": 11.6,
+      "auth": 11.4,
+      "safe": 6.8,
+      "cost": 9
+     },
+     "confidence": "Medium",
+     "er": 4.34,
+     "linkCtr": 0.7,
+     "realFollowers": 90.6,
+     "viewThrough": 54,
+     "hold3s": 66.7,
+     "sponsoredShare": 27,
+     "adDisclosure": 92,
+     "safety": 81,
+     "audienceWomen": 0.886,
+     "forecast": {
+      "cost": 37500,
+      "views": 51100,
+      "tgViews": 39344,
+      "tgShare": 0.85,
+      "engagements": 4464,
+      "clicks": 310,
+      "orders": 46.9,
+      "revenue": 53972,
+      "roas": 1.44,
+      "recallLiftPts": 5.7,
+      "costPerTgView": 0.95,
+      "costPerEngagement": 8.4,
+      "costPerClick": 120.89
+     },
+     "why": [
+      "Audience matches the brief: 89% women (target 86%), 83% age overlap, 86% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Olay, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 4.3%, top 10% of micro creators; 1.8% of viewers save or share",
+      "91% of followers look real and active; 27% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1141",
+     "name": "Ananya B.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 28452,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.6,
+     "parts": {
+      "aud": 94,
+      "cont": 94,
+      "cult": 72,
+      "perf": 51,
+      "auth": 76,
+      "safe": 86,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 18.7,
+      "cont": 16.9,
+      "cult": 7.2,
+      "perf": 10.2,
+      "auth": 10.7,
+      "safe": 6.9,
+      "cost": 10
+     },
+     "confidence": "Medium",
+     "er": 6.77,
+     "linkCtr": 0.5,
+     "realFollowers": 88.5,
+     "viewThrough": 52.3,
+     "hold3s": 65.3,
+     "sponsoredShare": 21,
+     "adDisclosure": 90,
+     "safety": 84,
+     "audienceWomen": 0.869,
+     "forecast": {
+      "cost": 12000,
+      "views": 10219,
+      "tgViews": 7934,
+      "tgShare": 0.88,
+      "engagements": 2080,
+      "clicks": 57,
+      "orders": 10.2,
+      "revenue": 11690,
+      "roas": 0.97,
+      "recallLiftPts": 4.4,
+      "costPerTgView": 1.51,
+      "costPerEngagement": 5.77,
+      "costPerClick": 210.33
+     },
+     "why": [
+      "Audience matches the brief: 87% women (target 86%), 88% age overlap, 85% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Olay, with lifestyle &amp; vlogs as a second pillar",
+      "89% of followers look real and active; 21% of recent posts are sponsored",
+      "Engagement rate 6.8%, top 1% of micro creators; 1.3% of viewers save or share"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1296",
+     "name": "Subhankar B.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 45223,
+     "city": "Kolkata",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.3,
+     "parts": {
+      "aud": 85,
+      "cont": 94,
+      "cult": 50,
+      "perf": 78,
+      "auth": 76,
+      "safe": 90,
+      "cost": 83
+     },
+     "contributions": {
+      "aud": 16.9,
+      "cont": 16.9,
+      "cult": 5,
+      "perf": 15.5,
+      "auth": 10.6,
+      "safe": 7.2,
+      "cost": 8.3
+     },
+     "confidence": "Medium",
+     "er": 3.76,
+     "linkCtr": 0.59,
+     "realFollowers": 83.4,
+     "viewThrough": 41.2,
+     "hold3s": 55.4,
+     "sponsoredShare": 11,
+     "adDisclosure": 89,
+     "safety": 91,
+     "audienceWomen": 0.838,
+     "forecast": {
+      "cost": 18500,
+      "views": 23148,
+      "tgViews": 15745,
+      "tgShare": 0.82,
+      "engagements": 1945,
+      "clicks": 124,
+      "orders": 16.5,
+      "revenue": 18960,
+      "roas": 1.02,
+      "recallLiftPts": 6.1,
+      "costPerTgView": 1.18,
+      "costPerEngagement": 9.51,
+      "costPerClick": 149.14
+     },
+     "why": [
+      "Audience matches the brief: 84% women (target 86%), 84% age overlap, 74% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Olay, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 3.8%, top 20% of micro creators; 2.6% of viewers save or share",
+      "83% of followers look real and active; 11% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1157",
+     "name": "Saloni N.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Mid-tier",
+     "followers": 312036,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 80.1,
+     "parts": {
+      "aud": 92,
+      "cont": 90,
+      "cult": 72,
+      "perf": 95,
+      "auth": 61,
+      "safe": 88,
+      "cost": 38
+     },
+     "contributions": {
+      "aud": 18.3,
+      "cont": 16.2,
+      "cult": 7.2,
+      "perf": 18.9,
+      "auth": 8.6,
+      "safe": 7,
+      "cost": 3.8
+     },
+     "confidence": "Low",
+     "er": 2.43,
+     "linkCtr": 0.7,
+     "realFollowers": 81.9,
+     "viewThrough": 41.3,
+     "hold3s": 59.7,
+     "sponsoredShare": 32,
+     "adDisclosure": 79,
+     "safety": 94,
+     "audienceWomen": 0.816,
+     "forecast": {
+      "cost": 142000,
+      "views": 37477,
+      "tgViews": 26480,
+      "tgShare": 0.86,
+      "engagements": 7582,
+      "clicks": 196,
+      "orders": 28.9,
+      "revenue": 33221,
+      "roas": 0.23,
+      "recallLiftPts": 4.8,
+      "costPerTgView": 5.36,
+      "costPerEngagement": 18.73,
+      "costPerClick": 723.64
+     },
+     "why": [
+      "Engagement rate 2.4%, top 4% of mid-tier creators; 3.3% of viewers save or share",
+      "Audience matches the brief: 82% women (target 86%), 88% age overlap, 86% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Olay, with fashion &amp; style as a second pillar",
+      "82% of followers look real and active; 32% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1030",
+     "name": "Krupa G.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 6587,
+     "city": "Mumbai",
+     "languages": [
+      "Marathi",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80,
+     "parts": {
+      "aud": 79,
+      "cont": 94,
+      "cult": 72,
+      "perf": 66,
+      "auth": 77,
+      "safe": 97,
+      "cost": 85
+     },
+     "contributions": {
+      "aud": 15.8,
+      "cont": 16.9,
+      "cult": 7.2,
+      "perf": 13.2,
+      "auth": 10.7,
+      "safe": 7.7,
+      "cost": 8.5
+     },
+     "confidence": "Low",
+     "er": 4.22,
+     "linkCtr": 0.85,
+     "realFollowers": 85.9,
+     "viewThrough": 46.5,
+     "hold3s": 58.4,
+     "sponsoredShare": 8,
+     "adDisclosure": 99,
+     "safety": 95,
+     "audienceWomen": 0.881,
+     "forecast": {
+      "cost": 3000,
+      "views": 3402,
+      "tgViews": 2277,
+      "tgShare": 0.78,
+      "engagements": 325,
+      "clicks": 31,
+      "orders": 5.8,
+      "revenue": 6715,
+      "roas": 2.24,
+      "recallLiftPts": 6.6,
+      "costPerTgView": 1.32,
+      "costPerEngagement": 9.22,
+      "costPerClick": 97.34
+     },
+     "why": [
+      "Beauty &amp; Skincare is a core category for Olay, with lifestyle &amp; vlogs as a second pillar",
+      "Audience matches the brief: 88% women (target 86%), 90% age overlap, 65% city-tier overlap",
+      "Engagement rate 4.2%, top 54% of nano creators; 3.2% of viewers save or share",
+      "86% of followers look real and active; 8% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1140",
+     "name": "Lakshmi G.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 11900,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.6,
+     "parts": {
+      "aud": 83,
+      "cont": 90,
+      "cult": 50,
+      "perf": 70,
+      "auth": 78,
+      "safe": 78,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 16.6,
+      "cont": 16.2,
+      "cult": 5,
+      "perf": 14,
+      "auth": 10.9,
+      "safe": 6.2,
+      "cost": 9.7
+     },
+     "confidence": "Medium",
+     "er": 4.12,
+     "linkCtr": 1.02,
+     "realFollowers": 89,
+     "viewThrough": 42.9,
+     "hold3s": 63.8,
+     "sponsoredShare": 20,
+     "adDisclosure": 92,
+     "safety": 68,
+     "audienceWomen": 0.954,
+     "forecast": {
+      "cost": 4000,
+      "views": 4857,
+      "tgViews": 3476,
+      "tgShare": 0.8,
+      "engagements": 555,
+      "clicks": 50,
+      "orders": 8.8,
+      "revenue": 10127,
+      "roas": 2.53,
+      "recallLiftPts": 5.8,
+      "costPerTgView": 1.15,
+      "costPerEngagement": 7.21,
+      "costPerClick": 80.12
+     },
+     "why": [
+      "Audience matches the brief: 95% women (target 86%), 86% age overlap, 84% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Olay, with fashion &amp; style as a second pillar",
+      "Engagement rate 4.1%, top 14% of micro creators; 2.4% of viewers save or share",
+      "89% of followers look real and active; 20% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Posted for Pond's 77 days ago (outside the 60-day window)",
+      "Unverified health claims"
+     ]
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1289",
+     "name": "Jay C.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 15549,
+     "city": "Mumbai",
+     "languages": [
+      "Marathi",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 76.5,
+     "parts": {
+      "aud": 73,
+      "cont": 93,
+      "cult": 72,
+      "perf": 64,
+      "auth": 75,
+      "safe": 85,
+      "cost": 81
+     },
+     "contributions": {
+      "aud": 14.6,
+      "cont": 16.7,
+      "cult": 7.2,
+      "perf": 12.7,
+      "auth": 10.5,
+      "safe": 6.8,
+      "cost": 8.1
+     },
+     "confidence": "Low",
+     "er": 3.68,
+     "linkCtr": 1.27,
+     "realFollowers": 88.1,
+     "viewThrough": 54.7,
+     "hold3s": 74.4,
+     "sponsoredShare": 23,
+     "adDisclosure": 90,
+     "safety": 81,
+     "audienceWomen": 0.757,
+     "forecast": {
+      "cost": 6500,
+      "views": 6735,
+      "tgViews": 4391,
+      "tgShare": 0.74,
+      "engagements": 656,
+      "clicks": 85,
+      "orders": 11.5,
+      "revenue": 13267,
+      "roas": 2.04,
+      "recallLiftPts": 6.1,
+      "costPerTgView": 1.48,
+      "costPerEngagement": 9.91,
+      "costPerClick": 76.82
+     },
+     "why": [
+      "Beauty &amp; Skincare is a core category for Olay, with doctors &amp; dietitians as a second pillar",
+      "Audience matches the brief: 76% women (target 86%), 86% age overlap, 65% city-tier overlap",
+      "Engagement rate 3.7%, top 21% of micro creators; 2.8% of viewers save or share",
+      "88% of followers look real and active; 23% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1146",
+     "name": "Ishani V.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 69981,
+     "city": "Patna",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 76.4,
+     "parts": {
+      "aud": 76,
+      "cont": 94,
+      "cult": 30,
+      "perf": 77,
+      "auth": 70,
+      "safe": 95,
+      "cost": 84
+     },
+     "contributions": {
+      "aud": 15.2,
+      "cont": 16.9,
+      "cult": 3,
+      "perf": 15.4,
+      "auth": 9.9,
+      "safe": 7.6,
+      "cost": 8.4
+     },
+     "confidence": "Low",
+     "er": 5.7,
+     "linkCtr": 0.76,
+     "realFollowers": 85.8,
+     "viewThrough": 39.6,
+     "hold3s": 62.7,
+     "sponsoredShare": 28,
+     "adDisclosure": 99,
+     "safety": 92,
+     "audienceWomen": 0.921,
+     "forecast": {
+      "cost": 37000,
+      "views": 15201,
+      "tgViews": 9890,
+      "tgShare": 0.76,
+      "engagements": 3989,
+      "clicks": 89,
+      "orders": 11.8,
+      "revenue": 13537,
+      "roas": 0.37,
+      "recallLiftPts": 8.2,
+      "costPerTgView": 3.74,
+      "costPerEngagement": 9.28,
+      "costPerClick": 417.8
+     },
+     "why": [
+      "Beauty &amp; Skincare is a core category for Olay, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 5.7%, top 2% of micro creators; 2.6% of viewers save or share",
+      "Audience matches the brief: 92% women (target 86%), 83% age overlap, 76% city-tier overlap",
+      "86% of followers look real and active; 28% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Posted for The Derma Co 115 days ago (outside the 60-day window)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 80,
+    "spend": 1800000,
+    "views": 2047025,
+    "tgViews": 1342998,
+    "uniqueTgReach": 825762,
+    "engagements": 159880,
+    "clicks": 11310,
+    "orders": 1395,
+    "revenue": 1603909,
+    "roas": 0.89,
+    "recallLiftPts": 4.4,
+    "fakeAudienceShare": 0.11,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 173500,
+    "forecastBandPct": 21,
+    "spendByTier": {
+     "micro": 987000,
+     "nano": 22500,
+     "mid": 790500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 1,
+    "spend": 1779000,
+    "views": 1190448,
+    "tgViews": 492672,
+    "uniqueTgReach": 305457,
+    "engagements": 35822,
+    "clicks": 4232,
+    "orders": 357,
+    "revenue": 410095,
+    "roas": 0.23,
+    "recallLiftPts": 3.1,
+    "fakeAudienceShare": 0.45,
+    "gatedIncluded": 1,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 1779000
+    }
+   },
+   "planCreators": [
+    "Ananya B. (Micro, Beauty & Skincare)",
+    "Rasika D. (Micro, Beauty & Skincare)",
+    "Dhwani K. (Micro, Beauty & Skincare)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Moumita N. (Micro, Parenting & Family)",
+    "Aditi B. (Micro, Beauty & Skincare)",
+    "Dhwani R. (Micro, Fitness & Wellness)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Sneha D. (Micro, Lifestyle & Vlogs)",
+    "Lakshmi G. (Micro, Beauty & Skincare)",
+    "Ishani V. (Micro, Beauty & Skincare)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 354,
+   "gated": 66,
+   "gatesByReason": {
+    "conflict": 16,
+    "fraud": 32,
+    "safety": 4,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Meher A.",
+     "id": "CIE-1090",
+     "reasons": [
+      "Posted for Neutrogena 19 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Jay A.",
+     "id": "CIE-1021",
+     "reasons": [
+      "Posted for The Derma Co 55 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Hrishikesh N.",
+     "id": "CIE-1405",
+     "reasons": [
+      "Posted for The Derma Co 29 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Keerthi B.",
+     "id": "CIE-1270",
+     "reasons": [
+      "Posted for Pond's 10 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1404",
+     "name": "Kavya S.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Mega",
+     "followers": 3130171,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": true,
+     "credential": null,
+     "fit": 83.3,
+     "parts": {
+      "aud": 92,
+      "cont": 93,
+      "cult": 72,
+      "perf": 81,
+      "auth": 61,
+      "safe": 83,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 16.5,
+      "cont": 13,
+      "cult": 5.8,
+      "perf": 21.1,
+      "auth": 8.6,
+      "safe": 6.7,
+      "cost": 11.7
+     },
+     "confidence": "High",
+     "er": 0.38,
+     "linkCtr": 1.53,
+     "realFollowers": 79.7,
+     "viewThrough": 43.9,
+     "hold3s": 62.2,
+     "sponsoredShare": 24,
+     "adDisclosure": 76,
+     "safety": 88,
+     "audienceWomen": 0.791,
+     "forecast": {
+      "cost": 573000,
+      "views": 522655,
+      "tgViews": 360261,
+      "tgShare": 0.86,
+      "engagements": 19407,
+      "clicks": 8613,
+      "orders": 1113.8,
+      "revenue": 1280921,
+      "roas": 2.24,
+      "recallLiftPts": 5.5,
+      "costPerTgView": 1.59,
+      "costPerEngagement": 29.53,
+      "costPerClick": 66.52
+     },
+     "why": [
+      "Link CTR 1.53%, top 4% of mega creators; trust index 0.92",
+      "Audience matches the brief: 79% women (target 86%), 91% age overlap, 86% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Olay, with doctors &amp; dietitians as a second pillar",
+      "Forecast 2.2× ROAS on ₹5.73L, about 1.1K orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1238",
+     "name": "Priyanka T.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 45090,
+     "city": "Kolkata",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.1,
+     "parts": {
+      "aud": 92,
+      "cont": 93,
+      "cult": 95,
+      "perf": 68,
+      "auth": 75,
+      "safe": 95,
+      "cost": 85
+     },
+     "contributions": {
+      "aud": 16.5,
+      "cont": 13,
+      "cult": 7.6,
+      "perf": 17.7,
+      "auth": 10.5,
+      "safe": 7.6,
+      "cost": 10.2
+     },
+     "confidence": "High",
+     "er": 3.61,
+     "linkCtr": 0.9,
+     "realFollowers": 87.9,
+     "viewThrough": 35.2,
+     "hold3s": 56.8,
+     "sponsoredShare": 24,
+     "adDisclosure": 96,
+     "safety": 95,
+     "audienceWomen": 0.899,
+     "forecast": {
+      "cost": 23000,
+      "views": 16144,
+      "tgViews": 12241,
+      "tgShare": 0.86,
+      "engagements": 1871,
+      "clicks": 161,
+      "orders": 24.5,
+      "revenue": 28150,
+      "roas": 1.22,
+      "recallLiftPts": 5.7,
+      "costPerTgView": 1.88,
+      "costPerEngagement": 12.29,
+      "costPerClick": 142.64
+     },
+     "why": [
+      "Link CTR 0.90%, top 31% of micro creators; trust index 1.08",
+      "Audience matches the brief: 90% women (target 86%), 88% age overlap, 87% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Olay, with doctors &amp; dietitians as a second pillar",
+      "88% of followers look real and active; 24% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1140",
+     "name": "Lakshmi G.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 11900,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.6,
+     "parts": {
+      "aud": 83,
+      "cont": 90,
+      "cult": 50,
+      "perf": 85,
+      "auth": 78,
+      "safe": 78,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 14.9,
+      "cont": 12.6,
+      "cult": 4,
+      "perf": 22.2,
+      "auth": 10.9,
+      "safe": 6.2,
+      "cost": 11.8
+     },
+     "confidence": "Medium",
+     "er": 4.12,
+     "linkCtr": 1.02,
+     "realFollowers": 89,
+     "viewThrough": 42.9,
+     "hold3s": 63.8,
+     "sponsoredShare": 20,
+     "adDisclosure": 92,
+     "safety": 68,
+     "audienceWomen": 0.954,
+     "forecast": {
+      "cost": 4000,
+      "views": 4857,
+      "tgViews": 3476,
+      "tgShare": 0.8,
+      "engagements": 555,
+      "clicks": 50,
+      "orders": 8.8,
+      "revenue": 10127,
+      "roas": 2.53,
+      "recallLiftPts": 5.8,
+      "costPerTgView": 1.15,
+      "costPerEngagement": 7.21,
+      "costPerClick": 80.12
+     },
+     "why": [
+      "Link CTR 1.02%, top 18% of micro creators; trust index 1.27",
+      "Audience matches the brief: 95% women (target 86%), 86% age overlap, 84% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Olay, with fashion &amp; style as a second pillar",
+      "Forecast 2.5× ROAS on ₹4K, about 9 orders"
+     ],
+     "risks": [
+      "Posted for Pond's 77 days ago (outside the 60-day window)",
+      "Unverified health claims"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1248",
+     "name": "Nikita D.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Macro",
+     "followers": 989768,
+     "city": "Delhi NCR",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "Dermatologist (MD)",
+     "fit": 82.4,
+     "parts": {
+      "aud": 90,
+      "cont": 94,
+      "cult": 78,
+      "perf": 76,
+      "auth": 61,
+      "safe": 93,
+      "cost": 93
+     },
+     "contributions": {
+      "aud": 16.2,
+      "cont": 13.1,
+      "cult": 6.2,
+      "perf": 19.9,
+      "auth": 8.5,
+      "safe": 7.4,
+      "cost": 11.2
+     },
+     "confidence": "Low",
+     "er": 0.78,
+     "linkCtr": 1.02,
+     "realFollowers": 82.4,
+     "viewThrough": 37.5,
+     "hold3s": 73,
+     "sponsoredShare": 51,
+     "adDisclosure": 86,
+     "safety": 97,
+     "audienceWomen": 0.97,
+     "forecast": {
+      "cost": 274500,
+      "views": 223535,
+      "tgViews": 156671,
+      "tgShare": 0.85,
+      "engagements": 10986,
+      "clicks": 2501,
+      "orders": 406.7,
+      "revenue": 467717,
+      "roas": 1.7,
+      "recallLiftPts": 6.5,
+      "costPerTgView": 1.75,
+      "costPerEngagement": 24.99,
+      "costPerClick": 109.75
+     },
+     "why": [
+      "Link CTR 1.02%, top 16% of macro creators; trust index 1.15",
+      "Audience matches the brief: 97% women (target 86%), 86% age overlap, 93% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Olay, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 1.7× ROAS on ₹2.75L, about 407 orders"
+     ],
+     "risks": [
+      "Ad fatigue: 51% of recent posts are sponsored",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1220",
+     "name": "Aditi B.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 24805,
+     "city": "Jaipur",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.3,
+     "parts": {
+      "aud": 72,
+      "cont": 94,
+      "cult": 53,
+      "perf": 83,
+      "auth": 87,
+      "safe": 79,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 12.9,
+      "cont": 13.1,
+      "cult": 4.2,
+      "perf": 21.5,
+      "auth": 12.2,
+      "safe": 6.3,
+      "cost": 12
+     },
+     "confidence": "Medium",
+     "er": 2.9,
+     "linkCtr": 1.64,
+     "realFollowers": 93.5,
+     "viewThrough": 30.8,
+     "hold3s": 59.7,
+     "sponsoredShare": 11,
+     "adDisclosure": 85,
+     "safety": 75,
+     "audienceWomen": 0.97,
+     "forecast": {
+      "cost": 8000,
+      "views": 7925,
+      "tgViews": 5428,
+      "tgShare": 0.73,
+      "engagements": 853,
+      "clicks": 156,
+      "orders": 24.8,
+      "revenue": 28484,
+      "roas": 3.56,
+      "recallLiftPts": 3.7,
+      "costPerTgView": 1.47,
+      "costPerEngagement": 9.38,
+      "costPerClick": 51.15
+     },
+     "why": [
+      "Link CTR 1.64%, top 1% of micro creators; trust index 1.12",
+      "Beauty &amp; Skincare is a core category for Olay, with lifestyle &amp; vlogs as a second pillar",
+      "Audience matches the brief: 97% women (target 86%), 82% age overlap, 65% city-tier overlap",
+      "94% of followers look real and active; 11% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Posted for The Derma Co 97 days ago (outside the 60-day window)",
+      "Unverified health claims"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 32,
+    "spend": 1799500,
+    "views": 2002286,
+    "tgViews": 1345297,
+    "uniqueTgReach": 827483,
+    "engagements": 100177,
+    "clicks": 19053,
+    "orders": 2744,
+    "revenue": 3155437,
+    "roas": 1.75,
+    "recallLiftPts": 6.3,
+    "fakeAudienceShare": 0.14,
+    "gatedIncluded": 0,
+    "representCreators": 2,
+    "representSpend": 193000,
+    "forecastBandPct": 25,
+    "spendByTier": {
+     "micro": 279000,
+     "mid": 926000,
+     "nano": 7000,
+     "macro": 587500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 1,
+    "spend": 1779000,
+    "views": 1190448,
+    "tgViews": 492672,
+    "uniqueTgReach": 305457,
+    "engagements": 35822,
+    "clicks": 4232,
+    "orders": 357,
+    "revenue": 410095,
+    "roas": 0.23,
+    "recallLiftPts": 3.1,
+    "fakeAudienceShare": 0.45,
+    "gatedIncluded": 1,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 1779000
+    }
+   },
+   "planCreators": [
+    "Aditi B. (Micro, Beauty & Skincare)",
+    "Mansi T. (Mid-tier, Beauty & Skincare)",
+    "Tanvi P. (Micro, Beauty & Skincare)",
+    "Riya D. (Micro, Beauty & Skincare)",
+    "Debolina M. (Micro, Beauty & Skincare)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Rahul M. (Micro, Beauty & Skincare)",
+    "Aanya M. (Mid-tier, Beauty & Skincare)",
+    "Lakshmi G. (Micro, Beauty & Skincare)",
+    "Rasika D. (Micro, Beauty & Skincare)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Jay C. (Micro, Beauty & Skincare)"
+   ]
+  }
+ }
+}
