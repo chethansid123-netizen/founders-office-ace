@@ -1,0 +1,1762 @@
+{
+ "id": "crocs",
+ "name": "Crocs",
+ "parent": "Crocs India",
+ "vertical": "fashion",
+ "sub": "Casual footwear",
+ "status": "Reported client",
+ "defaultObjective": "conversion",
+ "brief": "Make Jibbitz the Gen-Z self-expression accessory.",
+ "moment": "Monsoon · Jun–Aug",
+ "budgetLakh": 10,
+ "target": {
+  "fem": 0.54,
+  "age": [
+   0.12,
+   0.52,
+   0.28,
+   0.06,
+   0.02
+  ],
+  "tiers": [
+   0.55,
+   0.34,
+   0.11
+  ],
+  "affl": 0.56
+ },
+ "languages": {
+  "Hinglish": 1,
+  "English": 0.95,
+  "Hindi": 0.55
+ },
+ "codes": [
+  "Gen-Z humour",
+  "Campus life",
+  "Bollywood pop"
+ ],
+ "affinity": {
+  "fashion": 1,
+  "lifestyle": 0.85,
+  "comedy": 0.65,
+  "music": 0.55,
+  "travel": 0.5
+ },
+ "competitors": [
+  "Skechers",
+  "Birkenstock",
+  "Bata"
+ ],
+ "compliance": null,
+ "aov": 3200,
+ "conversionRate": 0.03,
+ "kpis": [
+  "Verified orders",
+  "Shares per view",
+  "CTR"
+ ],
+ "markets": [
+  "India"
+ ],
+ "tgPoolMillions": 55,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 364,
+   "gated": 56,
+   "gatesByReason": {
+    "conflict": 4,
+    "safety": 4,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Hetal C.",
+     "id": "CIE-1024",
+     "reasons": [
+      "Posted for Skechers 50 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Pavithra K.",
+     "id": "CIE-1318",
+     "reasons": [
+      "Brand-safety score 44: past controversy (2025), promotes betting / real-money gaming"
+     ]
+    },
+    {
+     "name": "Nithya C.",
+     "id": "CIE-1306",
+     "reasons": [
+      "Brand-safety score 47: profanity in recent content, past controversy (2025)"
+     ]
+    },
+    {
+     "name": "Ananya R.",
+     "id": "CIE-1214",
+     "reasons": [
+      "Posted for Skechers 35 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1294",
+     "name": "Akhil Y.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 48916,
+     "city": "Bengaluru",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.4,
+     "parts": {
+      "aud": 91,
+      "cont": 63,
+      "cult": 97,
+      "perf": 94,
+      "auth": 72,
+      "safe": 76,
+      "cost": 86
+     },
+     "contributions": {
+      "aud": 20.1,
+      "cont": 9.4,
+      "cult": 13.6,
+      "perf": 14,
+      "auth": 10.1,
+      "safe": 7.6,
+      "cost": 8.6
+     },
+     "confidence": "High",
+     "er": 5.46,
+     "linkCtr": 0.46,
+     "realFollowers": 86.6,
+     "viewThrough": 61.8,
+     "hold3s": 80,
+     "sponsoredShare": 23,
+     "adDisclosure": 89,
+     "safety": 67,
+     "audienceWomen": 0.408,
+     "forecast": {
+      "cost": 25000,
+      "views": 29888,
+      "tgViews": 22289,
+      "tgShare": 0.86,
+      "engagements": 2935,
+      "clicks": 91,
+      "orders": 8.6,
+      "revenue": 27593,
+      "roas": 1.1,
+      "recallLiftPts": 7,
+      "costPerTgView": 1.12,
+      "costPerEngagement": 8.52,
+      "costPerClick": 274.89
+     },
+     "why": [
+      "Audience matches the brief: 41% women (target 54%), 90% age overlap, 94% city-tier overlap",
+      "Viewers watch 62% of each video, top 1% of micro creators; past recall lift +7.9 pts",
+      "Creates in English, Crocs's lead language; shares the Campus life and Gen-Z humour codes",
+      "87% of followers look real and active; 23% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Promotes betting / real-money gaming"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1391",
+     "name": "Parth B.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 8323,
+     "city": "Mumbai",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.2,
+     "parts": {
+      "aud": 97,
+      "cont": 70,
+      "cult": 75,
+      "perf": 92,
+      "auth": 71,
+      "safe": 73,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 21.4,
+      "cont": 10.5,
+      "cult": 10.5,
+      "perf": 13.8,
+      "auth": 9.9,
+      "safe": 7.3,
+      "cost": 9.9
+     },
+     "confidence": "Low",
+     "er": 7.87,
+     "linkCtr": 0.29,
+     "realFollowers": 84.8,
+     "viewThrough": 64.4,
+     "hold3s": 68,
+     "sponsoredShare": 28,
+     "adDisclosure": 83,
+     "safety": 67,
+     "audienceWomen": 0.519,
+     "forecast": {
+      "cost": 4000,
+      "views": 6666,
+      "tgViews": 5094,
+      "tgShare": 0.9,
+      "engagements": 715,
+      "clicks": 14,
+      "orders": 1,
+      "revenue": 3171,
+      "roas": 0.79,
+      "recallLiftPts": 9.4,
+      "costPerTgView": 0.79,
+      "costPerEngagement": 5.59,
+      "costPerClick": 292.43
+     },
+     "why": [
+      "Audience matches the brief: 52% women (target 54%), 90% age overlap, 90% city-tier overlap",
+      "Viewers watch 64% of each video, top 1% of nano creators; past recall lift +10 pts",
+      "Comedy &amp; Entertainment is a strong category for Crocs, with lifestyle &amp; vlogs as a second pillar",
+      "Creates in English, Crocs's lead language; shares the Gen-Z humour codes"
+     ],
+     "risks": [
+      "Promotes betting / real-money gaming",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1063",
+     "name": "Shreya N.",
+     "niche": "Lifestyle & Vlogs",
+     "niche2": "Travel",
+     "tier": "Micro",
+     "followers": 31260,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.1,
+     "parts": {
+      "aud": 92,
+      "cont": 76,
+      "cult": 78,
+      "perf": 69,
+      "auth": 71,
+      "safe": 89,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 20.3,
+      "cont": 11.4,
+      "cult": 10.9,
+      "perf": 10.3,
+      "auth": 10,
+      "safe": 8.9,
+      "cost": 9.4
+     },
+     "confidence": "Medium",
+     "er": 3.22,
+     "linkCtr": 0.67,
+     "realFollowers": 84.3,
+     "viewThrough": 56.9,
+     "hold3s": 55.2,
+     "sponsoredShare": 26,
+     "adDisclosure": 78,
+     "safety": 96,
+     "audienceWomen": 0.542,
+     "forecast": {
+      "cost": 11000,
+      "views": 15911,
+      "tgViews": 11639,
+      "tgShare": 0.87,
+      "engagements": 1175,
+      "clicks": 86,
+      "orders": 8.7,
+      "revenue": 27874,
+      "roas": 2.53,
+      "recallLiftPts": 7.3,
+      "costPerTgView": 0.95,
+      "costPerEngagement": 9.36,
+      "costPerClick": 127.7
+     },
+     "why": [
+      "Audience matches the brief: 54% women (target 54%), 83% age overlap, 91% city-tier overlap",
+      "Lifestyle &amp; Vlogs is a strong category for Crocs, with travel as a second pillar",
+      "Creates in Hinglish, Crocs's lead language; shares the Gen-Z humour codes",
+      "Viewers watch 57% of each video, top 4% of micro creators; past recall lift +7.5 pts"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1083",
+     "name": "Mitali B.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Micro",
+     "followers": 30216,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.9,
+     "parts": {
+      "aud": 76,
+      "cont": 76,
+      "cult": 78,
+      "perf": 76,
+      "auth": 85,
+      "safe": 92,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 16.8,
+      "cont": 11.4,
+      "cult": 10.9,
+      "perf": 11.3,
+      "auth": 12,
+      "safe": 9.2,
+      "cost": 9.4
+     },
+     "confidence": "Low",
+     "er": 2.34,
+     "linkCtr": 0.51,
+     "realFollowers": 90,
+     "viewThrough": 55.3,
+     "hold3s": 55.1,
+     "sponsoredShare": 4,
+     "adDisclosure": 94,
+     "safety": 90,
+     "audienceWomen": 0.705,
+     "forecast": {
+      "cost": 9500,
+      "views": 13910,
+      "tgViews": 9541,
+      "tgShare": 0.76,
+      "engagements": 870,
+      "clicks": 61,
+      "orders": 6.4,
+      "revenue": 20364,
+      "roas": 2.14,
+      "recallLiftPts": 9,
+      "costPerTgView": 1,
+      "costPerEngagement": 10.92,
+      "costPerClick": 156.76
+     },
+     "why": [
+      "Audience matches the brief: 71% women (target 54%), 78% age overlap, 87% city-tier overlap",
+      "90% of followers look real and active; 4% of recent posts are sponsored",
+      "Fashion &amp; Style is a strong category for Crocs, with beauty &amp; skincare as a second pillar",
+      "Viewers watch 55% of each video, top 6% of micro creators; past recall lift +9.6 pts"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1279",
+     "name": "Sakshi A.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 83493,
+     "city": "Chandigarh",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.5,
+     "parts": {
+      "aud": 83,
+      "cont": 63,
+      "cult": 100,
+      "perf": 67,
+      "auth": 77,
+      "safe": 84,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 18.2,
+      "cont": 9.4,
+      "cult": 14,
+      "perf": 10.1,
+      "auth": 10.8,
+      "safe": 8.4,
+      "cost": 9.7
+     },
+     "confidence": "Medium",
+     "er": 3.59,
+     "linkCtr": 0.57,
+     "realFollowers": 89.9,
+     "viewThrough": 48.1,
+     "hold3s": 74.2,
+     "sponsoredShare": 34,
+     "adDisclosure": 86,
+     "safety": 82,
+     "audienceWomen": 0.507,
+     "forecast": {
+      "cost": 25000,
+      "views": 44679,
+      "tgViews": 32232,
+      "tgShare": 0.8,
+      "engagements": 3448,
+      "clicks": 180,
+      "orders": 13,
+      "revenue": 41679,
+      "roas": 1.67,
+      "recallLiftPts": 5.1,
+      "costPerTgView": 0.78,
+      "costPerEngagement": 7.25,
+      "costPerClick": 138.66
+     },
+     "why": [
+      "Audience matches the brief: 51% women (target 54%), 89% age overlap, 74% city-tier overlap",
+      "Creates in Hinglish + Hindi, Crocs's lead language; shares the Bollywood pop and Gen-Z humour codes",
+      "90% of followers look real and active; 34% of recent posts are sponsored",
+      "Viewers watch 48% of each video, top 32% of micro creators; past recall lift +5.9 pts"
+     ],
+     "risks": []
+    }
+   ],
+   "plan": {
+    "creators": 24,
+    "spend": 1000000,
+    "views": 1695352,
+    "tgViews": 1153144,
+    "uniqueTgReach": 710820,
+    "engagements": 58196,
+    "clicks": 7108,
+    "orders": 616,
+    "revenue": 1972431,
+    "roas": 1.97,
+    "recallLiftPts": 5.5,
+    "fakeAudienceShare": 0.11,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 27,
+    "spendByTier": {
+     "micro": 228000,
+     "mid": 584500,
+     "macro": 177500,
+     "nano": 10000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 1,
+    "spend": 987000,
+    "views": 1002079,
+    "tgViews": 361103,
+    "uniqueTgReach": 223884,
+    "engagements": 24955,
+    "clicks": 2982,
+    "orders": 163,
+    "revenue": 520763,
+    "roas": 0.53,
+    "recallLiftPts": 1,
+    "fakeAudienceShare": 0.47,
+    "gatedIncluded": 1,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 987000
+    }
+   },
+   "planCreators": [
+    "Ananya J. (Micro, Music & Dance)",
+    "Varsha B. (Micro, Food & Cooking)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Keerthi J. (Mid-tier, Fashion & Style)",
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Mitali B. (Micro, Fashion & Style)",
+    "Karan Y. (Micro, Fashion & Style)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Akhil Y. (Micro, Comedy & Entertainment)",
+    "Akhil J. (Micro, Comedy & Entertainment)",
+    "Kritika P. (Micro, Lifestyle & Vlogs)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 364,
+   "gated": 56,
+   "gatesByReason": {
+    "safety": 4,
+    "conflict": 4,
+    "market": 18,
+    "fraud": 32
+   },
+   "gatedExamples": [
+    {
+     "name": "Nithya C.",
+     "id": "CIE-1306",
+     "reasons": [
+      "Brand-safety score 47: profanity in recent content, past controversy (2025)"
+     ]
+    },
+    {
+     "name": "Ananya R.",
+     "id": "CIE-1214",
+     "reasons": [
+      "Posted for Skechers 35 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Hetal C.",
+     "id": "CIE-1024",
+     "reasons": [
+      "Posted for Skechers 50 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Rehan G.",
+     "id": "CIE-1162",
+     "reasons": [
+      "Audience is mostly in the UAE; Crocs runs this brief in India"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1221",
+     "name": "Shreya G.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 16818,
+     "city": "Chandigarh",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 82,
+     "parts": {
+      "aud": 84,
+      "cont": 96,
+      "cult": 53,
+      "perf": 83,
+      "auth": 73,
+      "safe": 88,
+      "cost": 87
+     },
+     "contributions": {
+      "aud": 16.8,
+      "cont": 17.3,
+      "cult": 5.3,
+      "perf": 16.7,
+      "auth": 10.2,
+      "safe": 7,
+      "cost": 8.7
+     },
+     "confidence": "Low",
+     "er": 3.98,
+     "linkCtr": 0.59,
+     "realFollowers": 85.9,
+     "viewThrough": 51.4,
+     "hold3s": 61.1,
+     "sponsoredShare": 37,
+     "adDisclosure": 90,
+     "safety": 86,
+     "audienceWomen": 0.641,
+     "forecast": {
+      "cost": 6000,
+      "views": 3486,
+      "tgViews": 2435,
+      "tgShare": 0.81,
+      "engagements": 669,
+      "clicks": 16,
+      "orders": 1.8,
+      "revenue": 5666,
+      "roas": 0.94,
+      "recallLiftPts": 8.8,
+      "costPerTgView": 2.46,
+      "costPerEngagement": 8.96,
+      "costPerClick": 374.52
+     },
+     "why": [
+      "Fashion &amp; Style is a core category for Crocs, with lifestyle &amp; vlogs as a second pillar",
+      "Audience matches the brief: 64% women (target 54%), 91% age overlap, 78% city-tier overlap",
+      "Engagement rate 4.0%, top 17% of micro creators; 3.0% of viewers save or share",
+      "86% of followers look real and active; 37% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1391",
+     "name": "Parth B.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 8323,
+     "city": "Mumbai",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.3,
+     "parts": {
+      "aud": 97,
+      "cont": 70,
+      "cult": 75,
+      "perf": 80,
+      "auth": 71,
+      "safe": 73,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 19.4,
+      "cont": 12.6,
+      "cult": 7.5,
+      "perf": 16,
+      "auth": 9.9,
+      "safe": 5.9,
+      "cost": 10
+     },
+     "confidence": "Low",
+     "er": 7.87,
+     "linkCtr": 0.29,
+     "realFollowers": 84.8,
+     "viewThrough": 64.4,
+     "hold3s": 68,
+     "sponsoredShare": 28,
+     "adDisclosure": 83,
+     "safety": 67,
+     "audienceWomen": 0.519,
+     "forecast": {
+      "cost": 4000,
+      "views": 6666,
+      "tgViews": 5094,
+      "tgShare": 0.9,
+      "engagements": 715,
+      "clicks": 14,
+      "orders": 1,
+      "revenue": 3171,
+      "roas": 0.79,
+      "recallLiftPts": 9.4,
+      "costPerTgView": 0.79,
+      "costPerEngagement": 5.59,
+      "costPerClick": 292.43
+     },
+     "why": [
+      "Audience matches the brief: 52% women (target 54%), 90% age overlap, 90% city-tier overlap",
+      "Engagement rate 7.9%, top 1% of nano creators; 2.5% of viewers save or share",
+      "Comedy &amp; Entertainment is a strong category for Crocs, with lifestyle &amp; vlogs as a second pillar",
+      "₹5.59 per engagement (₹4K for the bundle)"
+     ],
+     "risks": [
+      "Promotes betting / real-money gaming",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1294",
+     "name": "Akhil Y.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 48916,
+     "city": "Bengaluru",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.7,
+     "parts": {
+      "aud": 91,
+      "cont": 63,
+      "cult": 97,
+      "perf": 83,
+      "auth": 72,
+      "safe": 76,
+      "cost": 88
+     },
+     "contributions": {
+      "aud": 18.3,
+      "cont": 11.3,
+      "cult": 9.7,
+      "perf": 16.5,
+      "auth": 10.1,
+      "safe": 6.1,
+      "cost": 8.8
+     },
+     "confidence": "High",
+     "er": 5.46,
+     "linkCtr": 0.46,
+     "realFollowers": 86.6,
+     "viewThrough": 61.8,
+     "hold3s": 80,
+     "sponsoredShare": 23,
+     "adDisclosure": 89,
+     "safety": 67,
+     "audienceWomen": 0.408,
+     "forecast": {
+      "cost": 25000,
+      "views": 29888,
+      "tgViews": 22289,
+      "tgShare": 0.86,
+      "engagements": 2935,
+      "clicks": 91,
+      "orders": 8.6,
+      "revenue": 27593,
+      "roas": 1.1,
+      "recallLiftPts": 7,
+      "costPerTgView": 1.12,
+      "costPerEngagement": 8.52,
+      "costPerClick": 274.89
+     },
+     "why": [
+      "Audience matches the brief: 41% women (target 54%), 90% age overlap, 94% city-tier overlap",
+      "Engagement rate 5.5%, top 4% of micro creators; 3.3% of viewers save or share",
+      "Comedy &amp; Entertainment is a strong category for Crocs, with music &amp; dance as a second pillar",
+      "87% of followers look real and active; 23% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Promotes betting / real-money gaming"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1104",
+     "name": "Karan Y.",
+     "niche": "Fashion & Style",
+     "niche2": "Travel",
+     "tier": "Micro",
+     "followers": 39673,
+     "city": "Delhi NCR",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.6,
+     "parts": {
+      "aud": 89,
+      "cont": 88,
+      "cult": 52,
+      "perf": 79,
+      "auth": 73,
+      "safe": 79,
+      "cost": 85
+     },
+     "contributions": {
+      "aud": 17.9,
+      "cont": 15.8,
+      "cult": 5.2,
+      "perf": 15.8,
+      "auth": 10.2,
+      "safe": 6.3,
+      "cost": 8.5
+     },
+     "confidence": "Low",
+     "er": 3.18,
+     "linkCtr": 1.04,
+     "realFollowers": 86.2,
+     "viewThrough": 50.2,
+     "hold3s": 67.5,
+     "sponsoredShare": 28,
+     "adDisclosure": 90,
+     "safety": 71,
+     "audienceWomen": 0.644,
+     "forecast": {
+      "cost": 13500,
+      "views": 23658,
+      "tgViews": 17302,
+      "tgShare": 0.85,
+      "engagements": 1476,
+      "clicks": 198,
+      "orders": 23,
+      "revenue": 73695,
+      "roas": 5.46,
+      "recallLiftPts": 6.6,
+      "costPerTgView": 0.78,
+      "costPerEngagement": 9.15,
+      "costPerClick": 68.16
+     },
+     "why": [
+      "Audience matches the brief: 64% women (target 54%), 89% age overlap, 91% city-tier overlap",
+      "Engagement rate 3.2%, top 36% of micro creators; 3.5% of viewers save or share",
+      "Fashion &amp; Style is a core category for Crocs, with travel as a second pillar",
+      "86% of followers look real and active; 28% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Past controversy (2025)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1279",
+     "name": "Sakshi A.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 83493,
+     "city": "Chandigarh",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.6,
+     "parts": {
+      "aud": 83,
+      "cont": 63,
+      "cult": 100,
+      "perf": 68,
+      "auth": 77,
+      "safe": 84,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 16.5,
+      "cont": 11.3,
+      "cult": 10,
+      "perf": 13.6,
+      "auth": 10.8,
+      "safe": 6.7,
+      "cost": 9.7
+     },
+     "confidence": "Medium",
+     "er": 3.59,
+     "linkCtr": 0.57,
+     "realFollowers": 89.9,
+     "viewThrough": 48.1,
+     "hold3s": 74.2,
+     "sponsoredShare": 34,
+     "adDisclosure": 86,
+     "safety": 82,
+     "audienceWomen": 0.507,
+     "forecast": {
+      "cost": 25000,
+      "views": 44679,
+      "tgViews": 32232,
+      "tgShare": 0.8,
+      "engagements": 3448,
+      "clicks": 180,
+      "orders": 13,
+      "revenue": 41679,
+      "roas": 1.67,
+      "recallLiftPts": 5.1,
+      "costPerTgView": 0.78,
+      "costPerEngagement": 7.25,
+      "costPerClick": 138.66
+     },
+     "why": [
+      "Audience matches the brief: 51% women (target 54%), 89% age overlap, 74% city-tier overlap",
+      "Engagement rate 3.6%, top 25% of micro creators; 2.2% of viewers save or share",
+      "Comedy &amp; Entertainment is a strong category for Crocs, with music &amp; dance as a second pillar",
+      "90% of followers look real and active; 34% of recent posts are sponsored"
+     ],
+     "risks": []
+    }
+   ],
+   "plan": {
+    "creators": 53,
+    "spend": 999000,
+    "views": 1257783,
+    "tgViews": 834663,
+    "uniqueTgReach": 515182,
+    "engagements": 106381,
+    "clicks": 5671,
+    "orders": 507,
+    "revenue": 1622714,
+    "roas": 1.62,
+    "recallLiftPts": 4.4,
+    "fakeAudienceShare": 0.12,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 23,
+    "spendByTier": {
+     "micro": 724000,
+     "nano": 16500,
+     "mid": 258500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 1,
+    "spend": 987000,
+    "views": 1002079,
+    "tgViews": 361103,
+    "uniqueTgReach": 223884,
+    "engagements": 24955,
+    "clicks": 2982,
+    "orders": 163,
+    "revenue": 520763,
+    "roas": 0.53,
+    "recallLiftPts": 1,
+    "fakeAudienceShare": 0.47,
+    "gatedIncluded": 1,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 987000
+    }
+   },
+   "planCreators": [
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Anjali V. (Micro, Comedy & Entertainment)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Akhil Y. (Micro, Comedy & Entertainment)",
+    "Moumita N. (Micro, Parenting & Family)",
+    "Parth B. (Nano, Comedy & Entertainment)",
+    "Yash S. (Micro, Education & Careers)",
+    "Sneha D. (Micro, Lifestyle & Vlogs)",
+    "Karan Y. (Micro, Fashion & Style)",
+    "Ananya B. (Micro, Beauty & Skincare)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 364,
+   "gated": 56,
+   "gatesByReason": {
+    "conflict": 4,
+    "fraud": 32,
+    "market": 18,
+    "safety": 4
+   },
+   "gatedExamples": [
+    {
+     "name": "Ananya R.",
+     "id": "CIE-1214",
+     "reasons": [
+      "Posted for Skechers 35 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Hetal C.",
+     "id": "CIE-1024",
+     "reasons": [
+      "Posted for Skechers 50 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Krupa B.",
+     "id": "CIE-1052",
+     "reasons": [
+      "Only 60.5% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Rehan G.",
+     "id": "CIE-1162",
+     "reasons": [
+      "Audience is mostly in the UAE; Crocs runs this brief in India"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1345",
+     "name": "Aanya R.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Nano",
+     "followers": 8388,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.4,
+     "parts": {
+      "aud": 82,
+      "cont": 76,
+      "cult": 78,
+      "perf": 75,
+      "auth": 92,
+      "safe": 85,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 14.8,
+      "cont": 10.7,
+      "cult": 6.2,
+      "perf": 19.4,
+      "auth": 12.9,
+      "safe": 6.8,
+      "cost": 11.6
+     },
+     "confidence": "Low",
+     "er": 4.96,
+     "linkCtr": 1.11,
+     "realFollowers": 95.7,
+     "viewThrough": 38.3,
+     "hold3s": 77.2,
+     "sponsoredShare": 21,
+     "adDisclosure": 87,
+     "safety": 83,
+     "audienceWomen": 0.731,
+     "forecast": {
+      "cost": 4000,
+      "views": 4633,
+      "tgViews": 3552,
+      "tgShare": 0.8,
+      "engagements": 476,
+      "clicks": 47,
+      "orders": 4.7,
+      "revenue": 14965,
+      "roas": 3.74,
+      "recallLiftPts": 3.2,
+      "costPerTgView": 1.13,
+      "costPerEngagement": 8.4,
+      "costPerClick": 85.66
+     },
+     "why": [
+      "Link CTR 1.11%, top 17% of nano creators; trust index 1.03",
+      "Audience matches the brief: 73% women (target 54%), 86% age overlap, 91% city-tier overlap",
+      "96% of followers look real and active; 21% of recent posts are sponsored",
+      "Forecast 3.7× ROAS on ₹4K, about 5 orders"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1357",
+     "name": "Rasika M.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Macro",
+     "followers": 904194,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.8,
+     "parts": {
+      "aud": 70,
+      "cont": 96,
+      "cult": 55,
+      "perf": 87,
+      "auth": 66,
+      "safe": 84,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 12.6,
+      "cont": 13.5,
+      "cult": 4.4,
+      "perf": 22.6,
+      "auth": 9.2,
+      "safe": 6.7,
+      "cost": 11.8
+     },
+     "confidence": "Medium",
+     "er": 0.96,
+     "linkCtr": 1.21,
+     "realFollowers": 82.3,
+     "viewThrough": 57.1,
+     "hold3s": 72,
+     "sponsoredShare": 25,
+     "adDisclosure": 80,
+     "safety": 86,
+     "audienceWomen": 0.834,
+     "forecast": {
+      "cost": 313000,
+      "views": 378871,
+      "tgViews": 224971,
+      "tgShare": 0.72,
+      "engagements": 11664,
+      "clicks": 3652,
+      "orders": 470.3,
+      "revenue": 1504965,
+      "roas": 4.81,
+      "recallLiftPts": 9.2,
+      "costPerTgView": 1.39,
+      "costPerEngagement": 26.83,
+      "costPerClick": 85.7
+     },
+     "why": [
+      "Link CTR 1.21%, top 7% of macro creators; trust index 1.20",
+      "Fashion &amp; Style is a core category for Crocs, with lifestyle &amp; vlogs as a second pillar",
+      "Audience matches the brief: 83% women (target 54%), 82% age overlap, 88% city-tier overlap",
+      "Forecast 4.8× ROAS on ₹3.13L, about 470 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1104",
+     "name": "Karan Y.",
+     "niche": "Fashion & Style",
+     "niche2": "Travel",
+     "tier": "Micro",
+     "followers": 39673,
+     "city": "Delhi NCR",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.7,
+     "parts": {
+      "aud": 89,
+      "cont": 88,
+      "cult": 52,
+      "perf": 76,
+      "auth": 73,
+      "safe": 79,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 16.1,
+      "cont": 12.3,
+      "cult": 4.2,
+      "perf": 19.7,
+      "auth": 10.2,
+      "safe": 6.3,
+      "cost": 11.9
+     },
+     "confidence": "Low",
+     "er": 3.18,
+     "linkCtr": 1.04,
+     "realFollowers": 86.2,
+     "viewThrough": 50.2,
+     "hold3s": 67.5,
+     "sponsoredShare": 28,
+     "adDisclosure": 90,
+     "safety": 71,
+     "audienceWomen": 0.644,
+     "forecast": {
+      "cost": 13500,
+      "views": 23658,
+      "tgViews": 17302,
+      "tgShare": 0.85,
+      "engagements": 1476,
+      "clicks": 198,
+      "orders": 23,
+      "revenue": 73695,
+      "roas": 5.46,
+      "recallLiftPts": 6.6,
+      "costPerTgView": 0.78,
+      "costPerEngagement": 9.15,
+      "costPerClick": 68.16
+     },
+     "why": [
+      "Link CTR 1.04%, top 17% of micro creators; trust index 1.13",
+      "Audience matches the brief: 64% women (target 54%), 89% age overlap, 91% city-tier overlap",
+      "Fashion &amp; Style is a core category for Crocs, with travel as a second pillar",
+      "Forecast 5.5× ROAS on ₹14K, about 23 orders"
+     ],
+     "risks": [
+      "Past controversy (2025)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1361",
+     "name": "Hetal M.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 30105,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.5,
+     "parts": {
+      "aud": 82,
+      "cont": 96,
+      "cult": 55,
+      "perf": 76,
+      "auth": 64,
+      "safe": 90,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 14.7,
+      "cont": 13.5,
+      "cult": 4.4,
+      "perf": 19.9,
+      "auth": 8.9,
+      "safe": 7.2,
+      "cost": 11.9
+     },
+     "confidence": "High",
+     "er": 2.41,
+     "linkCtr": 1.15,
+     "realFollowers": 80.4,
+     "viewThrough": 26.9,
+     "hold3s": 45.7,
+     "sponsoredShare": 14,
+     "adDisclosure": 83,
+     "safety": 95,
+     "audienceWomen": 0.658,
+     "forecast": {
+      "cost": 11000,
+      "views": 13079,
+      "tgViews": 8375,
+      "tgShare": 0.8,
+      "engagements": 888,
+      "clicks": 152,
+      "orders": 19.3,
+      "revenue": 61656,
+      "roas": 5.61,
+      "recallLiftPts": 6,
+      "costPerTgView": 1.31,
+      "costPerEngagement": 12.39,
+      "costPerClick": 72.29
+     },
+     "why": [
+      "Link CTR 1.15%, top 13% of micro creators; trust index 1.18",
+      "Audience matches the brief: 66% women (target 54%), 77% age overlap, 92% city-tier overlap",
+      "Fashion &amp; Style is a core category for Crocs, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 5.6× ROAS on ₹11K, about 19 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1262",
+     "name": "Sneha K.",
+     "niche": "Fashion & Style",
+     "niche2": "Travel",
+     "tier": "Mega",
+     "followers": 5381836,
+     "city": "Chennai",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.6,
+     "parts": {
+      "aud": 73,
+      "cont": 88,
+      "cult": 75,
+      "perf": 79,
+      "auth": 66,
+      "safe": 84,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 13.1,
+      "cont": 12.3,
+      "cult": 6,
+      "perf": 20.6,
+      "auth": 9.2,
+      "safe": 6.7,
+      "cost": 11.7
+     },
+     "confidence": "High",
+     "er": 0.27,
+     "linkCtr": 1.2,
+     "realFollowers": 83.3,
+     "viewThrough": 27.6,
+     "hold3s": 61.8,
+     "sponsoredShare": 30,
+     "adDisclosure": 85,
+     "safety": 83,
+     "audienceWomen": 0.818,
+     "forecast": {
+      "cost": 1301000,
+      "views": 1300172,
+      "tgViews": 800281,
+      "tgShare": 0.74,
+      "engagements": 27447,
+      "clicks": 13171,
+      "orders": 1653.4,
+      "revenue": 5290917,
+      "roas": 4.07,
+      "recallLiftPts": 2,
+      "costPerTgView": 1.63,
+      "costPerEngagement": 47.4,
+      "costPerClick": 98.78
+     },
+     "why": [
+      "Link CTR 1.20%, top 8% of mega creators; trust index 1.22",
+      "Audience matches the brief: 82% women (target 54%), 85% age overlap, 98% city-tier overlap",
+      "Fashion &amp; Style is a core category for Crocs, with travel as a second pillar",
+      "Forecast 4.1× ROAS on ₹13L, about 1.7K orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1232",
+     "name": "Abhinav C.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 250682,
+     "city": "Bengaluru",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.4,
+     "parts": {
+      "aud": 83,
+      "cont": 96,
+      "cult": 75,
+      "perf": 65,
+      "auth": 63,
+      "safe": 93,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 14.9,
+      "cont": 13.5,
+      "cult": 6,
+      "perf": 16.9,
+      "auth": 8.8,
+      "safe": 7.4,
+      "cost": 12
+     },
+     "confidence": "Medium",
+     "er": 0.98,
+     "linkCtr": 1.56,
+     "realFollowers": 80.5,
+     "viewThrough": 42.4,
+     "hold3s": 68.8,
+     "sponsoredShare": 19,
+     "adDisclosure": 87,
+     "safety": 97,
+     "audienceWomen": 0.689,
+     "forecast": {
+      "cost": 57500,
+      "views": 76163,
+      "tgViews": 49259,
+      "tgShare": 0.8,
+      "engagements": 3510,
+      "clicks": 1280,
+      "orders": 130.5,
+      "revenue": 417629,
+      "roas": 7.26,
+      "recallLiftPts": 7.4,
+      "costPerTgView": 1.17,
+      "costPerEngagement": 16.38,
+      "costPerClick": 44.91
+     },
+     "why": [
+      "Link CTR 1.56%, top 2% of mid-tier creators; trust index 0.95",
+      "Audience matches the brief: 69% women (target 54%), 93% age overlap, 86% city-tier overlap",
+      "Fashion &amp; Style is a core category for Crocs, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 7.3× ROAS on ₹58K, about 131 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1234",
+     "name": "Rasika S.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 200382,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 79.3,
+     "parts": {
+      "aud": 92,
+      "cont": 96,
+      "cult": 55,
+      "perf": 87,
+      "auth": 70,
+      "safe": 89,
+      "cost": 45
+     },
+     "contributions": {
+      "aud": 16.6,
+      "cont": 13.5,
+      "cult": 4.4,
+      "perf": 22.5,
+      "auth": 9.7,
+      "safe": 7.1,
+      "cost": 5.4
+     },
+     "confidence": "Medium",
+     "er": 2.05,
+     "linkCtr": 1.14,
+     "realFollowers": 82.7,
+     "viewThrough": 45.3,
+     "hold3s": 68.3,
+     "sponsoredShare": 12,
+     "adDisclosure": 94,
+     "safety": 86,
+     "audienceWomen": 0.682,
+     "forecast": {
+      "cost": 74000,
+      "views": 15962,
+      "tgViews": 11467,
+      "tgShare": 0.87,
+      "engagements": 4108,
+      "clicks": 142,
+      "orders": 17.8,
+      "revenue": 56947,
+      "roas": 0.77,
+      "recallLiftPts": 5.6,
+      "costPerTgView": 6.45,
+      "costPerEngagement": 18.01,
+      "costPerClick": 522.08
+     },
+     "why": [
+      "Link CTR 1.14%, top 15% of mid-tier creators; trust index 1.17",
+      "Audience matches the brief: 68% women (target 54%), 91% age overlap, 95% city-tier overlap",
+      "Fashion &amp; Style is a core category for Crocs, with lifestyle &amp; vlogs as a second pillar",
+      "83% of followers look real and active; 12% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1277",
+     "name": "Dhwani P.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Micro",
+     "followers": 32144,
+     "city": "Mumbai",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.6,
+     "parts": {
+      "aud": 81,
+      "cont": 76,
+      "cult": 75,
+      "perf": 69,
+      "auth": 73,
+      "safe": 93,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 14.6,
+      "cont": 10.7,
+      "cult": 6,
+      "perf": 17.9,
+      "auth": 10.2,
+      "safe": 7.4,
+      "cost": 11.8
+     },
+     "confidence": "High",
+     "er": 1.82,
+     "linkCtr": 1.02,
+     "realFollowers": 85.5,
+     "viewThrough": 45.1,
+     "hold3s": 53.3,
+     "sponsoredShare": 12,
+     "adDisclosure": 84,
+     "safety": 99,
+     "audienceWomen": 0.613,
+     "forecast": {
+      "cost": 10500,
+      "views": 12513,
+      "tgViews": 8489,
+      "tgShare": 0.79,
+      "engagements": 759,
+      "clicks": 120,
+      "orders": 14,
+      "revenue": 44914,
+      "roas": 4.28,
+      "recallLiftPts": 6.6,
+      "costPerTgView": 1.24,
+      "costPerEngagement": 13.84,
+      "costPerClick": 87.29
+     },
+     "why": [
+      "Link CTR 1.02%, top 18% of micro creators; trust index 1.20",
+      "Audience matches the brief: 61% women (target 54%), 82% age overlap, 91% city-tier overlap",
+      "Forecast 4.3× ROAS on ₹11K, about 14 orders",
+      "Fashion &amp; Style is a strong category for Crocs, with beauty &amp; skincare as a second pillar"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1405",
+     "name": "Hrishikesh N.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Micro",
+     "followers": 24840,
+     "city": "Mumbai",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 77.3,
+     "parts": {
+      "aud": 91,
+      "cont": 76,
+      "cult": 30,
+      "perf": 79,
+      "auth": 80,
+      "safe": 75,
+      "cost": 84
+     },
+     "contributions": {
+      "aud": 16.5,
+      "cont": 10.7,
+      "cult": 2.4,
+      "perf": 20.6,
+      "auth": 11.1,
+      "safe": 6,
+      "cost": 10.1
+     },
+     "confidence": "Low",
+     "er": 3.38,
+     "linkCtr": 1.13,
+     "realFollowers": 90,
+     "viewThrough": 39.5,
+     "hold3s": 57.8,
+     "sponsoredShare": 25,
+     "adDisclosure": 93,
+     "safety": 63,
+     "audienceWomen": 0.558,
+     "forecast": {
+      "cost": 9000,
+      "views": 6115,
+      "tgViews": 4743,
+      "tgShare": 0.86,
+      "engagements": 840,
+      "clicks": 47,
+      "orders": 5.1,
+      "revenue": 16372,
+      "roas": 1.82,
+      "recallLiftPts": 6.6,
+      "costPerTgView": 1.9,
+      "costPerEngagement": 10.72,
+      "costPerClick": 191.56
+     },
+     "why": [
+      "Link CTR 1.13%, top 13% of micro creators; trust index 1.12",
+      "Audience matches the brief: 56% women (target 54%), 85% age overlap, 89% city-tier overlap",
+      "90% of followers look real and active; 25% of recent posts are sponsored",
+      "Fashion &amp; Style is a strong category for Crocs, with beauty &amp; skincare as a second pillar"
+     ],
+     "risks": [
+      "Past controversy (2025)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1118",
+     "name": "Parth K.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 277922,
+     "city": "Pune",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 76.4,
+     "parts": {
+      "aud": 78,
+      "cont": 96,
+      "cult": 55,
+      "perf": 63,
+      "auth": 74,
+      "safe": 75,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 14.1,
+      "cont": 13.5,
+      "cult": 4.4,
+      "perf": 16.3,
+      "auth": 10.3,
+      "safe": 6,
+      "cost": 11.9
+     },
+     "confidence": "High",
+     "er": 1.08,
+     "linkCtr": 1.46,
+     "realFollowers": 88.6,
+     "viewThrough": 41,
+     "hold3s": 63.3,
+     "sponsoredShare": 44,
+     "adDisclosure": 77,
+     "safety": 74,
+     "audienceWomen": 0.674,
+     "forecast": {
+      "cost": 69500,
+      "views": 66688,
+      "tgViews": 45733,
+      "tgShare": 0.77,
+      "engagements": 4169,
+      "clicks": 1218,
+      "orders": 113.7,
+      "revenue": 363942,
+      "roas": 5.24,
+      "recallLiftPts": 4.5,
+      "costPerTgView": 1.52,
+      "costPerEngagement": 16.67,
+      "costPerClick": 57.05
+     },
+     "why": [
+      "Link CTR 1.46%, top 5% of mid-tier creators; trust index 0.87",
+      "Audience matches the brief: 67% women (target 54%), 78% age overlap, 90% city-tier overlap",
+      "Fashion &amp; Style is a core category for Crocs, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 5.2× ROAS on ₹70K, about 114 orders"
+     ],
+     "risks": [
+      "Political commentary"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 20,
+    "spend": 1000000,
+    "views": 1372344,
+    "tgViews": 913202,
+    "uniqueTgReach": 563602,
+    "engagements": 57495,
+    "clicks": 12310,
+    "orders": 1222,
+    "revenue": 3908931,
+    "roas": 3.91,
+    "recallLiftPts": 6.1,
+    "fakeAudienceShare": 0.12,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 2500,
+    "forecastBandPct": 22,
+    "spendByTier": {
+     "mid": 874000,
+     "micro": 119500,
+     "nano": 6500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 1,
+    "spend": 987000,
+    "views": 1002079,
+    "tgViews": 361103,
+    "uniqueTgReach": 223884,
+    "engagements": 24955,
+    "clicks": 2982,
+    "orders": 163,
+    "revenue": 520763,
+    "roas": 0.53,
+    "recallLiftPts": 1,
+    "fakeAudienceShare": 0.47,
+    "gatedIncluded": 1,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 987000
+    }
+   },
+   "planCreators": [
+    "Parth K. (Mid-tier, Fashion & Style)",
+    "Sruthi A. (Mid-tier, Fashion & Style)",
+    "Karan Y. (Micro, Fashion & Style)",
+    "Abhinav C. (Mid-tier, Fashion & Style)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Debolina R. (Mid-tier, Fashion & Style)",
+    "Nikita B. (Mid-tier, Fashion & Style)",
+    "Dhwani P. (Micro, Fashion & Style)",
+    "Hetal M. (Micro, Fashion & Style)",
+    "Aditya B. (Mid-tier, Lifestyle & Vlogs)"
+   ]
+  }
+ }
+}

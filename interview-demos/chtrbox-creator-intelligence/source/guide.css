@@ -1,0 +1,42 @@
+/* Presenter's guide: extends plan.css with study and speaking blocks. */
+section.part { break-before: page; }
+.part-k { font: 600 8pt/1 "Geist Mono", monospace; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin-bottom: 4px; }
+section.part > h1 { font-size: 26pt; margin-bottom: 10px; }
+h3 { font-size: 10.5pt; margin: 13px 0 6px; break-after: avoid; }
+h2 + h3 { margin-top: 6px; }
+.say { border-left: 3px solid var(--accent); background: var(--accent-soft); border-radius: 0 9px 9px 0; padding: 9px 13px; margin: 10px 0 12px; break-inside: avoid; }
+.say > b { display: block; font: 600 7pt/1 "Geist Mono", monospace; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); margin-bottom: 5px; }
+.say p { margin: 0 0 5px; font-size: 9.4pt; line-height: 1.5; color: var(--ink); font-style: italic; }
+.say p:last-child { margin-bottom: 0; }
+.def { border: 1px solid var(--line); border-radius: 9px; padding: 8px 11px; margin: 7px 0; break-inside: avoid; background: #fff; }
+.def > b { display: block; font: 650 9.6pt/1.2 "Bricolage Grotesque", sans-serif; margin-bottom: 3px; }
+.def p { margin: 0 0 4px; font-size: 8.8pt; color: var(--ink-2); }
+.def p:last-child { margin-bottom: 0; }
+.def .f { display: block; font: 8.2pt/1.5 "Geist Mono", monospace; color: var(--ink); background: var(--soft); border-radius: 5px; padding: 3px 7px; margin: 4px 0; }
+.example { border: 1px dashed var(--line-2, #cfcddf); border-radius: 9px; padding: 9px 12px; margin: 9px 0; background: #fcfcfe; break-inside: avoid; }
+.example > b { display: block; font: 650 9.4pt/1.2 "Bricolage Grotesque", sans-serif; margin-bottom: 5px; color: var(--s1); }
+.example p { margin: 0 0 5px; font-size: 8.8pt; }
+.example p:last-child { margin-bottom: 0; }
+.steps { counter-reset: st; display: grid; gap: 6px; margin: 8px 0 10px; }
+.step { counter-increment: st; display: grid; grid-template-columns: 24px 1fr; column-gap: 8px; break-inside: avoid; }
+.step::before { content: counter(st); grid-row: span 2; width: 20px; height: 20px; border-radius: 50%; background: var(--rail); color: #fff; font: 600 8pt/20px "Geist Mono", monospace; text-align: center; }
+.step > b { font: 650 9.3pt/1.3 "Bricolage Grotesque", sans-serif; }
+.step p { margin: 1px 0 0; font-size: 8.8pt; color: var(--ink-2); }
+.qa { display: grid; gap: 0; margin: 6px 0 10px; }
+.q { padding: 7px 0; border-bottom: 1px solid var(--line); break-inside: avoid; }
+.q > b { display: block; font-weight: 650; font-size: 9.2pt; margin-bottom: 2px; }
+.q > b::before { content: "Q  "; color: var(--accent); font-family: "Geist Mono", monospace; }
+.q p { margin: 0; font-size: 8.9pt; color: var(--ink-2); }
+.click { font: 8.4pt/1.5 "Geist Mono", monospace; background: var(--rail); color: #ecebf8; border-radius: 6px; padding: 5px 9px; margin: 6px 0; display: inline-block; }
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(38mm, 1fr)); gap: 8px; margin: 8px 0 10px; }
+ol { margin: 0 0 8px; padding-left: 18px; }
+/* guide cover and contents */
+.gtoc { columns: 2; column-gap: 24px; margin-top: 8px; }
+.gtoc .tp { break-inside: avoid; margin-bottom: 10px; }
+.gtoc .tp > div:first-child { font: 650 10.5pt/1.25 "Bricolage Grotesque", sans-serif; display: flex; justify-content: space-between; gap: 8px; border-bottom: 1.2px solid var(--ink); padding-bottom: 3px; margin-bottom: 3px; }
+.gtoc .tc { display: flex; justify-content: space-between; gap: 8px; font-size: 8.4pt; color: var(--ink-2); padding: 2px 0; }
+.gtoc .pg { font: 600 8pt "Geist Mono", monospace; color: var(--muted); white-space: nowrap; }
+.how { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 12px 0; }
+.how div { border: 1px solid var(--line); border-radius: 9px; padding: 9px 11px; }
+.how b { display: block; font: 650 10pt/1.2 "Bricolage Grotesque", sans-serif; margin-bottom: 3px; }
+.how span { font-size: 8.4pt; color: var(--ink-2); }

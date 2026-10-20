@@ -1,0 +1,1768 @@
+{
+ "id": "urbanco",
+ "name": "Urban Company",
+ "parent": "Urban Company",
+ "vertical": "services",
+ "sub": "Home services",
+ "status": "Reported client",
+ "defaultObjective": "conversion",
+ "brief": "Own the pre-Diwali deep-clean and salon-at-home rush.",
+ "moment": "Pre-Diwali cleaning · Oct",
+ "budgetLakh": 12,
+ "target": {
+  "fem": 0.66,
+  "age": [
+   0.01,
+   0.18,
+   0.48,
+   0.24,
+   0.09
+  ],
+  "tiers": [
+   0.72,
+   0.24,
+   0.04
+  ],
+  "affl": 0.64
+ },
+ "languages": {
+  "English": 1,
+  "Hinglish": 0.95,
+  "Hindi": 0.6,
+  "Kannada": 0.4,
+  "Tamil": 0.4,
+  "Telugu": 0.4
+ },
+ "codes": [
+  "Working professional",
+  "Family-first",
+  "Festive & occasions"
+ ],
+ "affinity": {
+  "home": 1,
+  "lifestyle": 0.85,
+  "beauty": 0.8,
+  "parenting": 0.75
+ },
+ "competitors": [
+  "Yes Madam",
+  "Housejoy"
+ ],
+ "compliance": null,
+ "aov": 1400,
+ "conversionRate": 0.04,
+ "kpis": [
+  "Verified bookings",
+  "iROAS",
+  "Repeat bookings"
+ ],
+ "markets": [
+  "India"
+ ],
+ "tgPoolMillions": 45,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 367,
+   "gated": 53,
+   "gatesByReason": {
+    "safety": 4,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Nithya C.",
+     "id": "CIE-1306",
+     "reasons": [
+      "Brand-safety score 47: profanity in recent content, past controversy (2025)"
+     ]
+    },
+    {
+     "name": "Moumita R.",
+     "id": "CIE-1135",
+     "reasons": [
+      "Only 55% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Arun S.",
+     "id": "CIE-1335",
+     "reasons": [
+      "Only 58.5% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Ananya Y.",
+     "id": "CIE-1256",
+     "reasons": [
+      "Only 70% of followers look real and active (gate is 72%)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1150",
+     "name": "Kritika D.",
+     "niche": "Home & Decor",
+     "niche2": "Parenting & Family",
+     "tier": "Micro",
+     "followers": 37214,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.4,
+     "parts": {
+      "aud": 84,
+      "cont": 94,
+      "cult": 78,
+      "perf": 78,
+      "auth": 79,
+      "safe": 83,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 18.5,
+      "cont": 14.1,
+      "cult": 10.9,
+      "perf": 11.6,
+      "auth": 11.1,
+      "safe": 8.3,
+      "cost": 10
+     },
+     "confidence": "High",
+     "er": 2.7,
+     "linkCtr": 0.47,
+     "realFollowers": 89.1,
+     "viewThrough": 52.1,
+     "hold3s": 62,
+     "sponsoredShare": 19,
+     "adDisclosure": 100,
+     "safety": 71,
+     "audienceWomen": 0.744,
+     "forecast": {
+      "cost": 11000,
+      "views": 21625,
+      "tgViews": 15635,
+      "tgShare": 0.81,
+      "engagements": 1206,
+      "clicks": 86,
+      "orders": 12.9,
+      "revenue": 18125,
+      "roas": 1.65,
+      "recallLiftPts": 9.7,
+      "costPerTgView": 0.7,
+      "costPerEngagement": 9.12,
+      "costPerClick": 127.35
+     },
+     "why": [
+      "Audience matches the brief: 74% women (target 66%), 92% age overlap, 72% city-tier overlap",
+      "Home &amp; Decor is a core category for Urban Company, with parenting &amp; family as a second pillar",
+      "Viewers watch 52% of each video, top 15% of micro creators; past recall lift +9.2 pts",
+      "89% of followers look real and active; 19% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1103",
+     "name": "Aarya M.",
+     "niche": "Home & Decor",
+     "niche2": "Parenting & Family",
+     "tier": "Nano",
+     "followers": 4481,
+     "city": "Ahmedabad",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.6,
+     "parts": {
+      "aud": 84,
+      "cont": 94,
+      "cult": 78,
+      "perf": 96,
+      "auth": 67,
+      "safe": 84,
+      "cost": 79
+     },
+     "contributions": {
+      "aud": 18.4,
+      "cont": 14.1,
+      "cult": 10.9,
+      "perf": 14.5,
+      "auth": 9.3,
+      "safe": 8.4,
+      "cost": 7.9
+     },
+     "confidence": "Low",
+     "er": 5.44,
+     "linkCtr": 0.96,
+     "realFollowers": 84.5,
+     "viewThrough": 56.2,
+     "hold3s": 74.8,
+     "sponsoredShare": 34,
+     "adDisclosure": 74,
+     "safety": 91,
+     "audienceWomen": 0.732,
+     "forecast": {
+      "cost": 2500,
+      "views": 2425,
+      "tgViews": 1662,
+      "tgShare": 0.81,
+      "engagements": 276,
+      "clicks": 24,
+      "orders": 3.2,
+      "revenue": 4489,
+      "roas": 1.8,
+      "recallLiftPts": 10.5,
+      "costPerTgView": 1.5,
+      "costPerEngagement": 9.06,
+      "costPerClick": 103.63
+     },
+     "why": [
+      "Audience matches the brief: 73% women (target 66%), 95% age overlap, 74% city-tier overlap",
+      "Viewers watch 56% of each video, top 5% of nano creators; past recall lift +10 pts",
+      "Home &amp; Decor is a core category for Urban Company, with parenting &amp; family as a second pillar",
+      "Creates in Hindi; shares the Family-first and Festive &amp; occasions codes"
+     ],
+     "risks": [
+      "Discloses #ad on only 74% of paid posts. Brief on disclosure in the first line",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1092",
+     "name": "Sahil R.",
+     "niche": "Home & Decor",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 360957,
+     "city": "Mumbai",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83,
+     "parts": {
+      "aud": 99,
+      "cont": 96,
+      "cult": 78,
+      "perf": 72,
+      "auth": 63,
+      "safe": 87,
+      "cost": 77
+     },
+     "contributions": {
+      "aud": 21.7,
+      "cont": 14.4,
+      "cult": 10.9,
+      "perf": 10.7,
+      "auth": 8.8,
+      "safe": 8.7,
+      "cost": 7.7
+     },
+     "confidence": "High",
+     "er": 1.32,
+     "linkCtr": 0.73,
+     "realFollowers": 82.3,
+     "viewThrough": 48.2,
+     "hold3s": 73.1,
+     "sponsoredShare": 27,
+     "adDisclosure": 95,
+     "safety": 82,
+     "audienceWomen": 0.618,
+     "forecast": {
+      "cost": 124000,
+      "views": 115754,
+      "tgViews": 86970,
+      "tgShare": 0.91,
+      "engagements": 6281,
+      "clicks": 881,
+      "orders": 138.7,
+      "revenue": 194227,
+      "roas": 1.57,
+      "recallLiftPts": 7.4,
+      "costPerTgView": 1.43,
+      "costPerEngagement": 19.74,
+      "costPerClick": 140.67
+     },
+     "why": [
+      "Audience matches the brief: 62% women (target 66%), 97% age overlap, 92% city-tier overlap",
+      "Home &amp; Decor is a core category for Urban Company, with lifestyle &amp; vlogs as a second pillar",
+      "Creates in English, Urban Company's lead language; shares the Festive &amp; occasions codes",
+      "Viewers watch 48% of each video, top 33% of mid-tier creators; past recall lift +6.7 pts"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1268",
+     "name": "Hetal J.",
+     "niche": "Parenting & Family",
+     "niche2": "Home & Decor",
+     "tier": "Micro",
+     "followers": 13406,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.2,
+     "parts": {
+      "aud": 81,
+      "cont": 81,
+      "cult": 97,
+      "perf": 73,
+      "auth": 80,
+      "safe": 85,
+      "cost": 81
+     },
+     "contributions": {
+      "aud": 17.7,
+      "cont": 12.2,
+      "cult": 13.6,
+      "perf": 10.9,
+      "auth": 11.2,
+      "safe": 8.5,
+      "cost": 8.1
+     },
+     "confidence": "Medium",
+     "er": 3.36,
+     "linkCtr": 0.82,
+     "realFollowers": 92,
+     "viewThrough": 49.8,
+     "hold3s": 64.6,
+     "sponsoredShare": 27,
+     "adDisclosure": 87,
+     "safety": 83,
+     "audienceWomen": 0.799,
+     "forecast": {
+      "cost": 5500,
+      "views": 5565,
+      "tgViews": 4040,
+      "tgShare": 0.79,
+      "engagements": 523,
+      "clicks": 43,
+      "orders": 5.9,
+      "revenue": 8306,
+      "roas": 1.51,
+      "recallLiftPts": 7.5,
+      "costPerTgView": 1.36,
+      "costPerEngagement": 10.52,
+      "costPerClick": 128.23
+     },
+     "why": [
+      "Audience matches the brief: 80% women (target 66%), 93% age overlap, 71% city-tier overlap",
+      "Creates in Hinglish + Hindi, Urban Company's lead language; shares the Family-first and Festive &amp; occasions codes",
+      "Parenting &amp; Family is a strong category for Urban Company, with home &amp; decor as a second pillar",
+      "92% of followers look real and active; 27% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1014",
+     "name": "Moumita N.",
+     "niche": "Parenting & Family",
+     "niche2": "Home & Decor",
+     "tier": "Micro",
+     "followers": 10035,
+     "city": "Kolkata",
+     "languages": [
+      "Bengali",
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80,
+     "parts": {
+      "aud": 78,
+      "cont": 81,
+      "cult": 55,
+      "perf": 96,
+      "auth": 85,
+      "safe": 91,
+      "cost": 76
+     },
+     "contributions": {
+      "aud": 17.1,
+      "cont": 12.2,
+      "cult": 7.7,
+      "perf": 14.4,
+      "auth": 11.9,
+      "safe": 9.1,
+      "cost": 7.6
+     },
+     "confidence": "Medium",
+     "er": 7.62,
+     "linkCtr": 0.61,
+     "realFollowers": 96.7,
+     "viewThrough": 59.6,
+     "hold3s": 78.2,
+     "sponsoredShare": 37,
+     "adDisclosure": 92,
+     "safety": 90,
+     "audienceWomen": 0.71,
+     "forecast": {
+      "cost": 5000,
+      "views": 4383,
+      "tgViews": 3272,
+      "tgShare": 0.77,
+      "engagements": 819,
+      "clicks": 24,
+      "orders": 4.4,
+      "revenue": 6223,
+      "roas": 1.24,
+      "recallLiftPts": 9,
+      "costPerTgView": 1.53,
+      "costPerEngagement": 6.11,
+      "costPerClick": 204.96
+     },
+     "why": [
+      "Audience matches the brief: 71% women (target 66%), 93% age overlap, 58% city-tier overlap",
+      "Viewers watch 60% of each video, top 2% of micro creators; past recall lift +9.3 pts",
+      "Parenting &amp; Family is a strong category for Urban Company, with home &amp; decor as a second pillar",
+      "97% of followers look real and active; 37% of recent posts are sponsored"
+     ],
+     "risks": []
+    }
+   ],
+   "plan": {
+    "creators": 32,
+    "spend": 1198500,
+    "views": 2029718,
+    "tgViews": 1329191,
+    "uniqueTgReach": 817322,
+    "engagements": 71950,
+    "clicks": 10566,
+    "orders": 1399,
+    "revenue": 1958664,
+    "roas": 1.63,
+    "recallLiftPts": 5.3,
+    "fakeAudienceShare": 0.13,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 23,
+    "spendByTier": {
+     "micro": 330000,
+     "macro": 353500,
+     "mid": 515000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 1189500,
+    "views": 1196830,
+    "tgViews": 588006,
+    "uniqueTgReach": 364298,
+    "engagements": 40450,
+    "clicks": 5476,
+    "orders": 575,
+    "revenue": 805227,
+    "roas": 0.68,
+    "recallLiftPts": 3.1,
+    "fakeAudienceShare": 0.26,
+    "gatedIncluded": 1,
+    "representCreators": 1,
+    "representSpend": 112000,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 1077500,
+     "mid": 112000
+    }
+   },
+   "planCreators": [
+    "Varsha B. (Micro, Food & Cooking)",
+    "Kritika D. (Micro, Home & Decor)",
+    "Tanvi C. (Micro, Food & Cooking)",
+    "Keerthi B. (Macro, Beauty & Skincare)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Kavya T. (Mid-tier, Parenting & Family)",
+    "Ananya J. (Micro, Music & Dance)",
+    "Janhvi C. (Micro, Parenting & Family)",
+    "Arjun S. (Macro, Parenting & Family)",
+    "Moumita N. (Micro, Parenting & Family)",
+    "Hetal A. (Mid-tier, Food & Cooking)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 367,
+   "gated": 53,
+   "gatesByReason": {
+    "safety": 4,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Mitali S.",
+     "id": "CIE-1109",
+     "reasons": [
+      "Brand-safety score 51: political commentary, unverified health claims"
+     ]
+    },
+    {
+     "name": "Nithya C.",
+     "id": "CIE-1306",
+     "reasons": [
+      "Brand-safety score 47: profanity in recent content, past controversy (2025)"
+     ]
+    },
+    {
+     "name": "Aarya D.",
+     "id": "CIE-1139",
+     "reasons": [
+      "Only 54.2% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Aparna D.",
+     "id": "CIE-1179",
+     "reasons": [
+      "Only 58.3% of followers look real and active (gate is 72%)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1307",
+     "name": "Ishita Y.",
+     "niche": "Home & Decor",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 419301,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79,
+     "parts": {
+      "aud": 89,
+      "cont": 96,
+      "cult": 75,
+      "perf": 76,
+      "auth": 65,
+      "safe": 92,
+      "cost": 48
+     },
+     "contributions": {
+      "aud": 17.8,
+      "cont": 17.3,
+      "cult": 7.5,
+      "perf": 15.1,
+      "auth": 9,
+      "safe": 7.4,
+      "cost": 4.8
+     },
+     "confidence": "Low",
+     "er": 1.96,
+     "linkCtr": 0.84,
+     "realFollowers": 83,
+     "viewThrough": 32.8,
+     "hold3s": 54.2,
+     "sponsoredShare": 32,
+     "adDisclosure": 99,
+     "safety": 88,
+     "audienceWomen": 0.682,
+     "forecast": {
+      "cost": 163000,
+      "views": 115639,
+      "tgViews": 81321,
+      "tgShare": 0.85,
+      "engagements": 9979,
+      "clicks": 1111,
+      "orders": 160.6,
+      "revenue": 224784,
+      "roas": 1.38,
+      "recallLiftPts": 3.7,
+      "costPerTgView": 2,
+      "costPerEngagement": 16.33,
+      "costPerClick": 146.71
+     },
+     "why": [
+      "Audience matches the brief: 68% women (target 66%), 88% age overlap, 78% city-tier overlap",
+      "Home &amp; Decor is a core category for Urban Company, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 2.0%, top 13% of mid-tier creators; 2.5% of viewers save or share",
+      "83% of followers look real and active; 32% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1150",
+     "name": "Kritika D.",
+     "niche": "Home & Decor",
+     "niche2": "Parenting & Family",
+     "tier": "Micro",
+     "followers": 37214,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.9,
+     "parts": {
+      "aud": 84,
+      "cont": 94,
+      "cult": 78,
+      "perf": 56,
+      "auth": 79,
+      "safe": 83,
+      "cost": 86
+     },
+     "contributions": {
+      "aud": 16.8,
+      "cont": 16.9,
+      "cult": 7.8,
+      "perf": 11.1,
+      "auth": 11.1,
+      "safe": 6.6,
+      "cost": 8.6
+     },
+     "confidence": "High",
+     "er": 2.7,
+     "linkCtr": 0.47,
+     "realFollowers": 89.1,
+     "viewThrough": 52.1,
+     "hold3s": 62,
+     "sponsoredShare": 19,
+     "adDisclosure": 100,
+     "safety": 71,
+     "audienceWomen": 0.744,
+     "forecast": {
+      "cost": 11000,
+      "views": 21625,
+      "tgViews": 15635,
+      "tgShare": 0.81,
+      "engagements": 1206,
+      "clicks": 86,
+      "orders": 12.9,
+      "revenue": 18125,
+      "roas": 1.65,
+      "recallLiftPts": 9.7,
+      "costPerTgView": 0.7,
+      "costPerEngagement": 9.12,
+      "costPerClick": 127.35
+     },
+     "why": [
+      "Home &amp; Decor is a core category for Urban Company, with parenting &amp; family as a second pillar",
+      "Audience matches the brief: 74% women (target 66%), 92% age overlap, 72% city-tier overlap",
+      "Engagement rate 2.7%, top 53% of micro creators; 3.1% of viewers save or share",
+      "89% of followers look real and active; 19% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1241",
+     "name": "Rutuja K.",
+     "niche": "Parenting & Family",
+     "niche2": "Food & Cooking",
+     "tier": "Micro",
+     "followers": 80342,
+     "city": "Mumbai",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 78.7,
+     "parts": {
+      "aud": 88,
+      "cont": 57,
+      "cult": 100,
+      "perf": 79,
+      "auth": 77,
+      "safe": 85,
+      "cost": 74
+     },
+     "contributions": {
+      "aud": 17.6,
+      "cont": 10.3,
+      "cult": 10,
+      "perf": 15.8,
+      "auth": 10.8,
+      "safe": 6.8,
+      "cost": 7.4
+     },
+     "confidence": "High",
+     "er": 3.46,
+     "linkCtr": 0.48,
+     "realFollowers": 89.7,
+     "viewThrough": 36.8,
+     "hold3s": 52.1,
+     "sponsoredShare": 33,
+     "adDisclosure": 97,
+     "safety": 77,
+     "audienceWomen": 0.78,
+     "forecast": {
+      "cost": 30000,
+      "views": 8518,
+      "tgViews": 6422,
+      "tgShare": 0.84,
+      "engagements": 2780,
+      "clicks": 24,
+      "orders": 3.6,
+      "revenue": 4995,
+      "roas": 0.17,
+      "recallLiftPts": 4.6,
+      "costPerTgView": 4.67,
+      "costPerEngagement": 10.79,
+      "costPerClick": 1249.72
+     },
+     "why": [
+      "Audience matches the brief: 78% women (target 66%), 92% age overlap, 89% city-tier overlap",
+      "Engagement rate 3.5%, top 28% of micro creators; 3.0% of viewers save or share",
+      "90% of followers look real and active; 33% of recent posts are sponsored",
+      "Parenting &amp; Family is a adjacent category for Urban Company, with food &amp; cooking as a second pillar"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1264",
+     "name": "Janhvi C.",
+     "niche": "Parenting & Family",
+     "niche2": "Home & Decor",
+     "tier": "Micro",
+     "followers": 68638,
+     "city": "Mumbai",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.7,
+     "parts": {
+      "aud": 100,
+      "cont": 81,
+      "cult": 100,
+      "perf": 33,
+      "auth": 81,
+      "safe": 84,
+      "cost": 85
+     },
+     "contributions": {
+      "aud": 19.9,
+      "cont": 14.6,
+      "cult": 10,
+      "perf": 6.5,
+      "auth": 11.3,
+      "safe": 6.8,
+      "cost": 8.5
+     },
+     "confidence": "Medium",
+     "er": 3.05,
+     "linkCtr": 0.76,
+     "realFollowers": 90.8,
+     "viewThrough": 29.7,
+     "hold3s": 54.3,
+     "sponsoredShare": 16,
+     "adDisclosure": 82,
+     "safety": 86,
+     "audienceWomen": 0.681,
+     "forecast": {
+      "cost": 22500,
+      "views": 26375,
+      "tgViews": 21983,
+      "tgShare": 0.92,
+      "engagements": 2464,
+      "clicks": 197,
+      "orders": 27.8,
+      "revenue": 38952,
+      "roas": 1.73,
+      "recallLiftPts": 2.2,
+      "costPerTgView": 1.02,
+      "costPerEngagement": 9.13,
+      "costPerClick": 114.01
+     },
+     "why": [
+      "Audience matches the brief: 68% women (target 66%), 92% age overlap, 95% city-tier overlap",
+      "Parenting &amp; Family is a strong category for Urban Company, with home &amp; decor as a second pillar",
+      "91% of followers look real and active; 16% of recent posts are sponsored",
+      "Creates in English + Hinglish, Urban Company's lead language; shares the Family-first and Festive &amp; occasions codes"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1183",
+     "name": "Ananya M.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 43554,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.4,
+     "parts": {
+      "aud": 75,
+      "cont": 81,
+      "cult": 75,
+      "perf": 87,
+      "auth": 66,
+      "safe": 69,
+      "cost": 81
+     },
+     "contributions": {
+      "aud": 15.1,
+      "cont": 14.6,
+      "cult": 7.5,
+      "perf": 17.4,
+      "auth": 9.3,
+      "safe": 5.5,
+      "cost": 8.1
+     },
+     "confidence": "Low",
+     "er": 5.31,
+     "linkCtr": 0.57,
+     "realFollowers": 81.6,
+     "viewThrough": 51.5,
+     "hold3s": 70.6,
+     "sponsoredShare": 31,
+     "adDisclosure": 73,
+     "safety": 66,
+     "audienceWomen": 0.833,
+     "forecast": {
+      "cost": 25000,
+      "views": 23728,
+      "tgViews": 14625,
+      "tgShare": 0.76,
+      "engagements": 2548,
+      "clicks": 109,
+      "orders": 15.5,
+      "revenue": 21764,
+      "roas": 0.87,
+      "recallLiftPts": 7.3,
+      "costPerTgView": 1.71,
+      "costPerEngagement": 9.81,
+      "costPerClick": 228.85
+     },
+     "why": [
+      "Engagement rate 5.3%, top 5% of micro creators; 2.8% of viewers save or share",
+      "Audience matches the brief: 83% women (target 66%), 86% age overlap, 74% city-tier overlap",
+      "Beauty &amp; Skincare is a strong category for Urban Company, with lifestyle &amp; vlogs as a second pillar",
+      "82% of followers look real and active; 31% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Discloses #ad on only 73% of paid posts. Brief on disclosure in the first line",
+      "Political commentary",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 61,
+    "spend": 1198500,
+    "views": 1308705,
+    "tgViews": 828547,
+    "uniqueTgReach": 510876,
+    "engagements": 118725,
+    "clicks": 6998,
+    "orders": 892,
+    "revenue": 1248171,
+    "roas": 1.04,
+    "recallLiftPts": 4.8,
+    "fakeAudienceShare": 0.11,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 24,
+    "spendByTier": {
+     "micro": 824500,
+     "nano": 14000,
+     "mid": 360000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 1189500,
+    "views": 1196830,
+    "tgViews": 588006,
+    "uniqueTgReach": 364298,
+    "engagements": 40450,
+    "clicks": 5476,
+    "orders": 575,
+    "revenue": 805227,
+    "roas": 0.68,
+    "recallLiftPts": 3.1,
+    "fakeAudienceShare": 0.26,
+    "gatedIncluded": 1,
+    "representCreators": 1,
+    "representSpend": 112000,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 1077500,
+     "mid": 112000
+    }
+   },
+   "planCreators": [
+    "Moumita N. (Micro, Parenting & Family)",
+    "Ananya B. (Micro, Beauty & Skincare)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Janhvi C. (Micro, Parenting & Family)",
+    "Rasika D. (Micro, Beauty & Skincare)",
+    "Sneha D. (Micro, Lifestyle & Vlogs)",
+    "Rutuja K. (Micro, Parenting & Family)",
+    "Kritika D. (Micro, Home & Decor)",
+    "Dhwani K. (Micro, Beauty & Skincare)",
+    "Arnab B. (Micro, Home & Decor)",
+    "Devang M. (Nano, Lifestyle & Vlogs)",
+    "Harsh V. (Micro, Beauty & Skincare)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 367,
+   "gated": 53,
+   "gatesByReason": {
+    "fraud": 32,
+    "safety": 4,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Aarya D.",
+     "id": "CIE-1139",
+     "reasons": [
+      "Only 54.2% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Mitali S.",
+     "id": "CIE-1109",
+     "reasons": [
+      "Brand-safety score 51: political commentary, unverified health claims"
+     ]
+    },
+    {
+     "name": "Hetal D.",
+     "id": "CIE-1212",
+     "reasons": [
+      "Only 65.5% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Aparna D.",
+     "id": "CIE-1179",
+     "reasons": [
+      "Only 58.3% of followers look real and active (gate is 72%)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1330",
+     "name": "Meera A.",
+     "niche": "Home & Decor",
+     "niche2": "Parenting & Family",
+     "tier": "Mid-tier",
+     "followers": 220058,
+     "city": "Bengaluru",
+     "languages": [
+      "English"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 82.9,
+     "parts": {
+      "aud": 95,
+      "cont": 94,
+      "cult": 78,
+      "perf": 64,
+      "auth": 83,
+      "safe": 93,
+      "cost": 89
+     },
+     "contributions": {
+      "aud": 17.2,
+      "cont": 13.1,
+      "cult": 6.2,
+      "perf": 16.7,
+      "auth": 11.6,
+      "safe": 7.5,
+      "cost": 10.7
+     },
+     "confidence": "Low",
+     "er": 0.73,
+     "linkCtr": 1.54,
+     "realFollowers": 91.7,
+     "viewThrough": 37.9,
+     "hold3s": 58.2,
+     "sponsoredShare": 21,
+     "adDisclosure": 85,
+     "safety": 99,
+     "audienceWomen": 0.688,
+     "forecast": {
+      "cost": 50000,
+      "views": 33944,
+      "tgViews": 27695,
+      "tgShare": 0.89,
+      "engagements": 1606,
+      "clicks": 401,
+      "orders": 56.1,
+      "revenue": 78532,
+      "roas": 1.57,
+      "recallLiftPts": 7.7,
+      "costPerTgView": 1.81,
+      "costPerEngagement": 31.13,
+      "costPerClick": 124.78
+     },
+     "why": [
+      "Audience matches the brief: 69% women (target 66%), 90% age overlap, 87% city-tier overlap",
+      "Link CTR 1.54%, top 3% of mid-tier creators; trust index 0.99",
+      "Home &amp; Decor is a core category for Urban Company, with parenting &amp; family as a second pillar",
+      "92% of followers look real and active; 21% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1264",
+     "name": "Janhvi C.",
+     "niche": "Parenting & Family",
+     "niche2": "Home & Decor",
+     "tier": "Micro",
+     "followers": 68638,
+     "city": "Mumbai",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.2,
+     "parts": {
+      "aud": 100,
+      "cont": 81,
+      "cult": 100,
+      "perf": 53,
+      "auth": 81,
+      "safe": 84,
+      "cost": 92
+     },
+     "contributions": {
+      "aud": 17.9,
+      "cont": 11.4,
+      "cult": 8,
+      "perf": 13.8,
+      "auth": 11.3,
+      "safe": 6.8,
+      "cost": 11.1
+     },
+     "confidence": "Medium",
+     "er": 3.05,
+     "linkCtr": 0.76,
+     "realFollowers": 90.8,
+     "viewThrough": 29.7,
+     "hold3s": 54.3,
+     "sponsoredShare": 16,
+     "adDisclosure": 82,
+     "safety": 86,
+     "audienceWomen": 0.681,
+     "forecast": {
+      "cost": 22500,
+      "views": 26375,
+      "tgViews": 21983,
+      "tgShare": 0.92,
+      "engagements": 2464,
+      "clicks": 197,
+      "orders": 27.8,
+      "revenue": 38952,
+      "roas": 1.73,
+      "recallLiftPts": 2.2,
+      "costPerTgView": 1.02,
+      "costPerEngagement": 9.13,
+      "costPerClick": 114.01
+     },
+     "why": [
+      "Audience matches the brief: 68% women (target 66%), 92% age overlap, 95% city-tier overlap",
+      "Link CTR 0.76%, top 49% of micro creators; trust index 1.06",
+      "Parenting &amp; Family is a strong category for Urban Company, with home &amp; decor as a second pillar",
+      "91% of followers look real and active; 16% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1334",
+     "name": "Mansi T.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 125386,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": true,
+     "credential": null,
+     "fit": 79.2,
+     "parts": {
+      "aud": 66,
+      "cont": 81,
+      "cult": 75,
+      "perf": 76,
+      "auth": 80,
+      "safe": 91,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 11.9,
+      "cont": 11.4,
+      "cult": 6,
+      "perf": 19.8,
+      "auth": 11.1,
+      "safe": 7.2,
+      "cost": 11.8
+     },
+     "confidence": "Low",
+     "er": 1.45,
+     "linkCtr": 1.68,
+     "realFollowers": 89,
+     "viewThrough": 49.8,
+     "hold3s": 64.1,
+     "sponsoredShare": 27,
+     "adDisclosure": 96,
+     "safety": 87,
+     "audienceWomen": 0.802,
+     "forecast": {
+      "cost": 49000,
+      "views": 52197,
+      "tgViews": 32322,
+      "tgShare": 0.7,
+      "engagements": 2345,
+      "clicks": 715,
+      "orders": 94.1,
+      "revenue": 131786,
+      "roas": 2.69,
+      "recallLiftPts": 4.9,
+      "costPerTgView": 1.52,
+      "costPerEngagement": 20.9,
+      "costPerClick": 68.54
+     },
+     "why": [
+      "Link CTR 1.68%, top 1% of mid-tier creators; trust index 0.99",
+      "Audience matches the brief: 80% women (target 66%), 74% age overlap, 71% city-tier overlap",
+      "Forecast 2.7× ROAS on ₹49K, about 94 orders",
+      "Beauty &amp; Skincare is a strong category for Urban Company, with lifestyle &amp; vlogs as a second pillar"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1418",
+     "name": "Rahul M.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 68998,
+     "city": "Delhi NCR",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.9,
+     "parts": {
+      "aud": 83,
+      "cont": 81,
+      "cult": 55,
+      "perf": 72,
+      "auth": 79,
+      "safe": 91,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 15,
+      "cont": 11.4,
+      "cult": 4.4,
+      "perf": 18.7,
+      "auth": 11,
+      "safe": 7.3,
+      "cost": 11.3
+     },
+     "confidence": "Medium",
+     "er": 3.07,
+     "linkCtr": 1.39,
+     "realFollowers": 89.2,
+     "viewThrough": 43.6,
+     "hold3s": 59.1,
+     "sponsoredShare": 25,
+     "adDisclosure": 95,
+     "safety": 88,
+     "audienceWomen": 0.714,
+     "forecast": {
+      "cost": 34500,
+      "views": 28230,
+      "tgViews": 20292,
+      "tgShare": 0.81,
+      "engagements": 2491,
+      "clicks": 372,
+      "orders": 46.5,
+      "revenue": 65112,
+      "roas": 1.89,
+      "recallLiftPts": 3,
+      "costPerTgView": 1.7,
+      "costPerEngagement": 13.85,
+      "costPerClick": 92.74
+     },
+     "why": [
+      "Link CTR 1.39%, top 2% of micro creators; trust index 0.94",
+      "Audience matches the brief: 71% women (target 66%), 76% age overlap, 87% city-tier overlap",
+      "Beauty &amp; Skincare is a strong category for Urban Company, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 1.9× ROAS on ₹35K, about 47 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1099",
+     "name": "Arnab B.",
+     "niche": "Home & Decor",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 43559,
+     "city": "Kolkata",
+     "languages": [
+      "Bengali",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.5,
+     "parts": {
+      "aud": 72,
+      "cont": 96,
+      "cult": 52,
+      "perf": 77,
+      "auth": 66,
+      "safe": 83,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 13,
+      "cont": 13.5,
+      "cult": 4.2,
+      "perf": 19.9,
+      "auth": 9.3,
+      "safe": 6.6,
+      "cost": 11.9
+     },
+     "confidence": "High",
+     "er": 4.13,
+     "linkCtr": 1,
+     "realFollowers": 84.7,
+     "viewThrough": 51.9,
+     "hold3s": 73,
+     "sponsoredShare": 29,
+     "adDisclosure": 89,
+     "safety": 79,
+     "audienceWomen": 0.594,
+     "forecast": {
+      "cost": 15000,
+      "views": 26907,
+      "tgViews": 16755,
+      "tgShare": 0.74,
+      "engagements": 2034,
+      "clicks": 225,
+      "orders": 35.5,
+      "revenue": 49657,
+      "roas": 3.31,
+      "recallLiftPts": 5.7,
+      "costPerTgView": 0.9,
+      "costPerEngagement": 7.37,
+      "costPerClick": 66.56
+     },
+     "why": [
+      "Link CTR 1.00%, top 21% of micro creators; trust index 1.10",
+      "Home &amp; Decor is a core category for Urban Company, with lifestyle &amp; vlogs as a second pillar",
+      "Audience matches the brief: 59% women (target 66%), 91% age overlap, 50% city-tier overlap",
+      "Forecast 3.3× ROAS on ₹15K, about 35 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1307",
+     "name": "Ishita Y.",
+     "niche": "Home & Decor",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 419301,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.8,
+     "parts": {
+      "aud": 89,
+      "cont": 96,
+      "cult": 75,
+      "perf": 60,
+      "auth": 65,
+      "safe": 92,
+      "cost": 85
+     },
+     "contributions": {
+      "aud": 16.1,
+      "cont": 13.5,
+      "cult": 6,
+      "perf": 15.6,
+      "auth": 9,
+      "safe": 7.4,
+      "cost": 10.2
+     },
+     "confidence": "Low",
+     "er": 1.96,
+     "linkCtr": 0.84,
+     "realFollowers": 83,
+     "viewThrough": 32.8,
+     "hold3s": 54.2,
+     "sponsoredShare": 32,
+     "adDisclosure": 99,
+     "safety": 88,
+     "audienceWomen": 0.682,
+     "forecast": {
+      "cost": 163000,
+      "views": 115639,
+      "tgViews": 81321,
+      "tgShare": 0.85,
+      "engagements": 9979,
+      "clicks": 1111,
+      "orders": 160.6,
+      "revenue": 224784,
+      "roas": 1.38,
+      "recallLiftPts": 3.7,
+      "costPerTgView": 2,
+      "costPerEngagement": 16.33,
+      "costPerClick": 146.71
+     },
+     "why": [
+      "Audience matches the brief: 68% women (target 66%), 88% age overlap, 78% city-tier overlap",
+      "Link CTR 0.84%, top 45% of mid-tier creators; trust index 1.01",
+      "Home &amp; Decor is a core category for Urban Company, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 1.4× ROAS on ₹1.63L, about 161 orders"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1009",
+     "name": "Kavya T.",
+     "niche": "Parenting & Family",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Mid-tier",
+     "followers": 264641,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.6,
+     "parts": {
+      "aud": 69,
+      "cont": 57,
+      "cult": 78,
+      "perf": 84,
+      "auth": 77,
+      "safe": 82,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 12.4,
+      "cont": 8,
+      "cult": 6.2,
+      "perf": 21.7,
+      "auth": 10.8,
+      "safe": 6.6,
+      "cost": 11.8
+     },
+     "confidence": "Low",
+     "er": 1.64,
+     "linkCtr": 1.5,
+     "realFollowers": 90.4,
+     "viewThrough": 49.4,
+     "hold3s": 74.2,
+     "sponsoredShare": 32,
+     "adDisclosure": 82,
+     "safety": 82,
+     "audienceWomen": 0.832,
+     "forecast": {
+      "cost": 72000,
+      "views": 115919,
+      "tgViews": 74792,
+      "tgShare": 0.71,
+      "engagements": 5452,
+      "clicks": 1150,
+      "orders": 145.4,
+      "revenue": 203527,
+      "roas": 2.83,
+      "recallLiftPts": 4.3,
+      "costPerTgView": 0.96,
+      "costPerEngagement": 13.21,
+      "costPerClick": 62.6
+     },
+     "why": [
+      "Link CTR 1.50%, top 4% of mid-tier creators; trust index 1.08",
+      "Audience matches the brief: 83% women (target 66%), 88% age overlap, 64% city-tier overlap",
+      "Forecast 2.8× ROAS on ₹72K, about 145 orders",
+      "90% of followers look real and active; 32% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1103",
+     "name": "Aarya M.",
+     "niche": "Home & Decor",
+     "niche2": "Parenting & Family",
+     "tier": "Nano",
+     "followers": 4481,
+     "city": "Ahmedabad",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.6,
+     "parts": {
+      "aud": 84,
+      "cont": 94,
+      "cult": 78,
+      "perf": 61,
+      "auth": 67,
+      "safe": 84,
+      "cost": 93
+     },
+     "contributions": {
+      "aud": 15.1,
+      "cont": 13.1,
+      "cult": 6.2,
+      "perf": 15.9,
+      "auth": 9.3,
+      "safe": 6.7,
+      "cost": 11.1
+     },
+     "confidence": "Low",
+     "er": 5.44,
+     "linkCtr": 0.96,
+     "realFollowers": 84.5,
+     "viewThrough": 56.2,
+     "hold3s": 74.8,
+     "sponsoredShare": 34,
+     "adDisclosure": 74,
+     "safety": 91,
+     "audienceWomen": 0.732,
+     "forecast": {
+      "cost": 2500,
+      "views": 2425,
+      "tgViews": 1662,
+      "tgShare": 0.81,
+      "engagements": 276,
+      "clicks": 24,
+      "orders": 3.2,
+      "revenue": 4489,
+      "roas": 1.8,
+      "recallLiftPts": 10.5,
+      "costPerTgView": 1.5,
+      "costPerEngagement": 9.06,
+      "costPerClick": 103.63
+     },
+     "why": [
+      "Link CTR 0.96%, top 34% of nano creators; trust index 0.94",
+      "Audience matches the brief: 73% women (target 66%), 95% age overlap, 74% city-tier overlap",
+      "Home &amp; Decor is a core category for Urban Company, with parenting &amp; family as a second pillar",
+      "Forecast 1.8× ROAS on ₹2.5K, about 3 orders"
+     ],
+     "risks": [
+      "Discloses #ad on only 74% of paid posts. Brief on disclosure in the first line",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1268",
+     "name": "Hetal J.",
+     "niche": "Parenting & Family",
+     "niche2": "Home & Decor",
+     "tier": "Micro",
+     "followers": 13406,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.2,
+     "parts": {
+      "aud": 81,
+      "cont": 81,
+      "cult": 97,
+      "perf": 58,
+      "auth": 80,
+      "safe": 85,
+      "cost": 87
+     },
+     "contributions": {
+      "aud": 14.5,
+      "cont": 11.4,
+      "cult": 7.8,
+      "perf": 15.1,
+      "auth": 11.2,
+      "safe": 6.8,
+      "cost": 10.5
+     },
+     "confidence": "Medium",
+     "er": 3.36,
+     "linkCtr": 0.82,
+     "realFollowers": 92,
+     "viewThrough": 49.8,
+     "hold3s": 64.6,
+     "sponsoredShare": 27,
+     "adDisclosure": 87,
+     "safety": 83,
+     "audienceWomen": 0.799,
+     "forecast": {
+      "cost": 5500,
+      "views": 5565,
+      "tgViews": 4040,
+      "tgShare": 0.79,
+      "engagements": 523,
+      "clicks": 43,
+      "orders": 5.9,
+      "revenue": 8306,
+      "roas": 1.51,
+      "recallLiftPts": 7.5,
+      "costPerTgView": 1.36,
+      "costPerEngagement": 10.52,
+      "costPerClick": 128.23
+     },
+     "why": [
+      "Link CTR 0.82%, top 41% of micro creators; trust index 1.04",
+      "Audience matches the brief: 80% women (target 66%), 93% age overlap, 71% city-tier overlap",
+      "Parenting &amp; Family is a strong category for Urban Company, with home &amp; decor as a second pillar",
+      "92% of followers look real and active; 27% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1092",
+     "name": "Sahil R.",
+     "niche": "Home & Decor",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 360957,
+     "city": "Mumbai",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.1,
+     "parts": {
+      "aud": 99,
+      "cont": 96,
+      "cult": 78,
+      "perf": 51,
+      "auth": 63,
+      "safe": 87,
+      "cost": 89
+     },
+     "contributions": {
+      "aud": 17.8,
+      "cont": 13.5,
+      "cult": 6.2,
+      "perf": 13.2,
+      "auth": 8.8,
+      "safe": 7,
+      "cost": 10.7
+     },
+     "confidence": "High",
+     "er": 1.32,
+     "linkCtr": 0.73,
+     "realFollowers": 82.3,
+     "viewThrough": 48.2,
+     "hold3s": 73.1,
+     "sponsoredShare": 27,
+     "adDisclosure": 95,
+     "safety": 82,
+     "audienceWomen": 0.618,
+     "forecast": {
+      "cost": 124000,
+      "views": 115754,
+      "tgViews": 86970,
+      "tgShare": 0.91,
+      "engagements": 6281,
+      "clicks": 881,
+      "orders": 138.7,
+      "revenue": 194227,
+      "roas": 1.57,
+      "recallLiftPts": 7.4,
+      "costPerTgView": 1.43,
+      "costPerEngagement": 19.74,
+      "costPerClick": 140.67
+     },
+     "why": [
+      "Audience matches the brief: 62% women (target 66%), 97% age overlap, 92% city-tier overlap",
+      "Home &amp; Decor is a core category for Urban Company, with lifestyle &amp; vlogs as a second pillar",
+      "Link CTR 0.73%, top 58% of mid-tier creators; trust index 1.10",
+      "Forecast 1.6× ROAS on ₹1.24L, about 139 orders"
+     ],
+     "risks": []
+    }
+   ],
+   "plan": {
+    "creators": 34,
+    "spend": 1200000,
+    "views": 1474877,
+    "tgViews": 955400,
+    "uniqueTgReach": 588759,
+    "engagements": 73803,
+    "clicks": 12540,
+    "orders": 1729,
+    "revenue": 2420548,
+    "roas": 2.02,
+    "recallLiftPts": 5.6,
+    "fakeAudienceShare": 0.13,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 49000,
+    "forecastBandPct": 27,
+    "spendByTier": {
+     "micro": 326000,
+     "mid": 594500,
+     "macro": 274500,
+     "nano": 5000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 1189500,
+    "views": 1196830,
+    "tgViews": 588006,
+    "uniqueTgReach": 364298,
+    "engagements": 40450,
+    "clicks": 5476,
+    "orders": 575,
+    "revenue": 805227,
+    "roas": 0.68,
+    "recallLiftPts": 3.1,
+    "fakeAudienceShare": 0.26,
+    "gatedIncluded": 1,
+    "representCreators": 1,
+    "representSpend": 112000,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 1077500,
+     "mid": 112000
+    }
+   },
+   "planCreators": [
+    "Aditi B. (Micro, Beauty & Skincare)",
+    "Kavya T. (Mid-tier, Parenting & Family)",
+    "Mansi T. (Mid-tier, Beauty & Skincare)",
+    "Arnab B. (Micro, Home & Decor)",
+    "Meera A. (Mid-tier, Home & Decor)",
+    "Riya D. (Micro, Beauty & Skincare)",
+    "Janhvi C. (Micro, Parenting & Family)",
+    "Rahul M. (Micro, Beauty & Skincare)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Varsha B. (Micro, Food & Cooking)",
+    "Tanvi P. (Micro, Beauty & Skincare)",
+    "Aanya M. (Mid-tier, Beauty & Skincare)"
+   ]
+  }
+ }
+}

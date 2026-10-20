@@ -1,0 +1,1785 @@
+{
+ "id": "cred",
+ "name": "CRED",
+ "parent": "Dreamplug",
+ "vertical": "bfsi",
+ "sub": "Credit & rewards",
+ "status": "Prospect",
+ "defaultObjective": "awareness",
+ "brief": "Keep CRED the 'members only' brand for the creditworthy few.",
+ "moment": "IPL · Mar–May",
+ "budgetLakh": 27,
+ "target": {
+  "fem": 0.36,
+  "age": [
+   0.01,
+   0.24,
+   0.5,
+   0.19,
+   0.06
+  ],
+  "tiers": [
+   0.72,
+   0.24,
+   0.04
+  ],
+  "affl": 0.8
+ },
+ "languages": {
+  "English": 1,
+  "Hinglish": 0.9,
+  "Hindi": 0.4
+ },
+ "codes": [
+  "Aspirational luxury",
+  "Gen-Z humour",
+  "Working professional"
+ ],
+ "affinity": {
+  "finance": 0.8,
+  "comedy": 0.85,
+  "lifestyle": 0.8,
+  "tech": 0.75,
+  "travel": 0.6
+ },
+ "competitors": [
+  "Paytm",
+  "Amazon Pay",
+  "Jupiter"
+ ],
+ "compliance": "finance",
+ "aov": 3000,
+ "conversionRate": 0.02,
+ "kpis": [
+  "Ad recall lift",
+  "App installs",
+  "Affluent reach"
+ ],
+ "markets": [
+  "India"
+ ],
+ "tgPoolMillions": 30,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 345,
+   "gated": 75,
+   "gatesByReason": {
+    "reg": 24,
+    "conflict": 4,
+    "fraud": 32,
+    "safety": 4,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Mitali T.",
+     "id": "CIE-1051",
+     "reasons": [
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    },
+    {
+     "name": "Riya K.",
+     "id": "CIE-1293",
+     "reasons": [
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    },
+    {
+     "name": "Swathi S.",
+     "id": "CIE-1358",
+     "reasons": [
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    },
+    {
+     "name": "Aarya J.",
+     "id": "CIE-1420",
+     "reasons": [
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1391",
+     "name": "Parth B.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 8323,
+     "city": "Mumbai",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.5,
+     "parts": {
+      "aud": 70,
+      "cont": 84,
+      "cult": 78,
+      "perf": 92,
+      "auth": 71,
+      "safe": 73,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 15.3,
+      "cont": 12.6,
+      "cult": 10.9,
+      "perf": 13.8,
+      "auth": 9.9,
+      "safe": 7.3,
+      "cost": 9.7
+     },
+     "confidence": "Low",
+     "er": 7.87,
+     "linkCtr": 0.29,
+     "realFollowers": 84.8,
+     "viewThrough": 64.4,
+     "hold3s": 68,
+     "sponsoredShare": 28,
+     "adDisclosure": 83,
+     "safety": 67,
+     "audienceWomen": 0.519,
+     "forecast": {
+      "cost": 4000,
+      "views": 6666,
+      "tgViews": 4060,
+      "tgShare": 0.72,
+      "engagements": 715,
+      "clicks": 15,
+      "orders": 0.8,
+      "revenue": 2351,
+      "roas": 0.59,
+      "recallLiftPts": 9.6,
+      "costPerTgView": 0.99,
+      "costPerEngagement": 5.59,
+      "costPerClick": 264.68
+     },
+     "why": [
+      "Audience matches the brief: 52% women (target 36%), 71% age overlap, 93% city-tier overlap",
+      "Viewers watch 64% of each video, top 1% of nano creators; past recall lift +10 pts",
+      "Comedy &amp; Entertainment is a strong category for CRED, with lifestyle &amp; vlogs as a second pillar",
+      "Creates in English, CRED's lead language; shares the Gen-Z humour codes"
+     ],
+     "risks": [
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)",
+      "Promotes betting / real-money gaming",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1169",
+     "name": "Anjali C.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Education & Careers",
+     "tier": "Nano",
+     "followers": 6774,
+     "city": "Bengaluru",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.2,
+     "parts": {
+      "aud": 76,
+      "cont": 57,
+      "cult": 100,
+      "perf": 74,
+      "auth": 82,
+      "safe": 93,
+      "cost": 71
+     },
+     "contributions": {
+      "aud": 16.6,
+      "cont": 8.6,
+      "cult": 14,
+      "perf": 11.2,
+      "auth": 11.4,
+      "safe": 9.3,
+      "cost": 7.1
+     },
+     "confidence": "Low",
+     "er": 4.41,
+     "linkCtr": 1,
+     "realFollowers": 88.4,
+     "viewThrough": 51.4,
+     "hold3s": 60.7,
+     "sponsoredShare": 16,
+     "adDisclosure": 83,
+     "safety": 99,
+     "audienceWomen": 0.206,
+     "forecast": {
+      "cost": 4000,
+      "views": 3766,
+      "tgViews": 2520,
+      "tgShare": 0.76,
+      "engagements": 348,
+      "clicks": 29,
+      "orders": 1.7,
+      "revenue": 5112,
+      "roas": 1.28,
+      "recallLiftPts": 5.7,
+      "costPerTgView": 1.59,
+      "costPerEngagement": 11.51,
+      "costPerClick": 135.99
+     },
+     "why": [
+      "Audience matches the brief: 21% women (target 36%), 76% age overlap, 94% city-tier overlap",
+      "Creates in English + Hinglish, CRED's lead language; shares the Aspirational luxury and Gen-Z humour and Working professional codes",
+      "88% of followers look real and active; 16% of recent posts are sponsored",
+      "Viewers watch 51% of each video, top 12% of nano creators; past recall lift +6.9 pts"
+     ],
+     "risks": [
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1294",
+     "name": "Akhil Y.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 48916,
+     "city": "Bengaluru",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77,
+     "parts": {
+      "aud": 73,
+      "cont": 65,
+      "cult": 78,
+      "perf": 94,
+      "auth": 72,
+      "safe": 76,
+      "cost": 88
+     },
+     "contributions": {
+      "aud": 16,
+      "cont": 9.7,
+      "cult": 10.9,
+      "perf": 14,
+      "auth": 10.1,
+      "safe": 7.6,
+      "cost": 8.8
+     },
+     "confidence": "High",
+     "er": 5.46,
+     "linkCtr": 0.46,
+     "realFollowers": 86.6,
+     "viewThrough": 61.8,
+     "hold3s": 80,
+     "sponsoredShare": 23,
+     "adDisclosure": 89,
+     "safety": 67,
+     "audienceWomen": 0.408,
+     "forecast": {
+      "cost": 25000,
+      "views": 29888,
+      "tgViews": 19096,
+      "tgShare": 0.74,
+      "engagements": 2935,
+      "clicks": 93,
+      "orders": 5.9,
+      "revenue": 17840,
+      "roas": 0.71,
+      "recallLiftPts": 6.8,
+      "costPerTgView": 1.31,
+      "costPerEngagement": 8.52,
+      "costPerClick": 269.44
+     },
+     "why": [
+      "Audience matches the brief: 41% women (target 36%), 71% age overlap, 88% city-tier overlap",
+      "Viewers watch 62% of each video, top 1% of micro creators; past recall lift +7.9 pts",
+      "Creates in English, CRED's lead language; shares the Gen-Z humour codes",
+      "87% of followers look real and active; 23% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)",
+      "Promotes betting / real-money gaming"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1063",
+     "name": "Shreya N.",
+     "niche": "Lifestyle & Vlogs",
+     "niche2": "Travel",
+     "tier": "Micro",
+     "followers": 31260,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 76.9,
+     "parts": {
+      "aud": 64,
+      "cont": 75,
+      "cult": 95,
+      "perf": 69,
+      "auth": 71,
+      "safe": 89,
+      "cost": 91
+     },
+     "contributions": {
+      "aud": 14.1,
+      "cont": 11.3,
+      "cult": 13.2,
+      "perf": 10.3,
+      "auth": 10,
+      "safe": 8.9,
+      "cost": 9.1
+     },
+     "confidence": "Medium",
+     "er": 3.22,
+     "linkCtr": 0.67,
+     "realFollowers": 84.3,
+     "viewThrough": 56.9,
+     "hold3s": 55.2,
+     "sponsoredShare": 26,
+     "adDisclosure": 78,
+     "safety": 96,
+     "audienceWomen": 0.542,
+     "forecast": {
+      "cost": 11000,
+      "views": 15911,
+      "tgViews": 9187,
+      "tgShare": 0.68,
+      "engagements": 1175,
+      "clicks": 85,
+      "orders": 5.7,
+      "revenue": 17151,
+      "roas": 1.56,
+      "recallLiftPts": 6.8,
+      "costPerTgView": 1.2,
+      "costPerEngagement": 9.36,
+      "costPerClick": 128.87
+     },
+     "why": [
+      "Audience matches the brief: 54% women (target 36%), 79% age overlap, 74% city-tier overlap",
+      "Creates in Hinglish, CRED's lead language; shares the Gen-Z humour and Working professional codes",
+      "Lifestyle &amp; Vlogs is a strong category for CRED, with travel as a second pillar",
+      "Viewers watch 57% of each video, top 4% of micro creators; past recall lift +7.5 pts"
+     ],
+     "risks": [
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1208",
+     "name": "Sahil Y.",
+     "niche": "Lifestyle & Vlogs",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 42312,
+     "city": "Mumbai",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Moj",
+     "represent": false,
+     "credential": null,
+     "fit": 75.9,
+     "parts": {
+      "aud": 83,
+      "cont": 61,
+      "cult": 78,
+      "perf": 55,
+      "auth": 91,
+      "safe": 91,
+      "cost": 74
+     },
+     "contributions": {
+      "aud": 18.3,
+      "cont": 9.2,
+      "cult": 10.9,
+      "perf": 8.3,
+      "auth": 12.7,
+      "safe": 9.1,
+      "cost": 7.4
+     },
+     "confidence": "Medium",
+     "er": 3.58,
+     "linkCtr": 0.75,
+     "realFollowers": 95.5,
+     "viewThrough": 46.3,
+     "hold3s": 66.8,
+     "sponsoredShare": 13,
+     "adDisclosure": 78,
+     "safety": 99,
+     "audienceWomen": 0.453,
+     "forecast": {
+      "cost": 17000,
+      "views": 14833,
+      "tgViews": 11445,
+      "tgShare": 0.81,
+      "engagements": 1743,
+      "clicks": 100,
+      "orders": 6,
+      "revenue": 18051,
+      "roas": 1.06,
+      "recallLiftPts": 4.8,
+      "costPerTgView": 1.49,
+      "costPerEngagement": 9.75,
+      "costPerClick": 170.58
+     },
+     "why": [
+      "Audience matches the brief: 45% women (target 36%), 81% age overlap, 93% city-tier overlap",
+      "96% of followers look real and active; 13% of recent posts are sponsored",
+      "Creates in English + Hinglish, CRED's lead language; shares the Working professional codes",
+      "Lifestyle &amp; Vlogs is a strong category for CRED, with fashion &amp; style as a second pillar"
+     ],
+     "risks": [
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)"
+     ]
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1069",
+     "name": "Anirban Y.",
+     "niche": "Personal Finance",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 30411,
+     "city": "Bhubaneswar",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "SEBI-registered RA",
+     "fit": 74.1,
+     "parts": {
+      "aud": 62,
+      "cont": 80,
+      "cult": 100,
+      "perf": 72,
+      "auth": 71,
+      "safe": 83,
+      "cost": 54
+     },
+     "contributions": {
+      "aud": 13.7,
+      "cont": 12,
+      "cult": 14,
+      "perf": 10.9,
+      "auth": 9.9,
+      "safe": 8.3,
+      "cost": 5.4
+     },
+     "confidence": "Medium",
+     "er": 1.96,
+     "linkCtr": 1.52,
+     "realFollowers": 87.8,
+     "viewThrough": 43.3,
+     "hold3s": 71.1,
+     "sponsoredShare": 35,
+     "adDisclosure": 77,
+     "safety": 87,
+     "audienceWomen": 0.196,
+     "forecast": {
+      "cost": 16000,
+      "views": 12607,
+      "tgViews": 7448,
+      "tgShare": 0.67,
+      "engagements": 760,
+      "clicks": 179,
+      "orders": 16.9,
+      "revenue": 50653,
+      "roas": 3.17,
+      "recallLiftPts": 8.3,
+      "costPerTgView": 2.15,
+      "costPerEngagement": 21.05,
+      "costPerClick": 89.55
+     },
+     "why": [
+      "Creates in English, CRED's lead language; shares the Aspirational luxury and Working professional codes",
+      "Audience matches the brief: 20% women (target 36%), 84% age overlap, 56% city-tier overlap",
+      "Personal Finance is a strong category for CRED, with lifestyle &amp; vlogs as a second pillar",
+      "Viewers watch 43% of each video, top 54% of micro creators; past recall lift +8.9 pts"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1314",
+     "name": "Aditi T.",
+     "niche": "Personal Finance",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 7190,
+     "city": "Jaipur",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "SEBI-registered RIA",
+     "fit": 73.8,
+     "parts": {
+      "aud": 79,
+      "cont": 80,
+      "cult": 45,
+      "perf": 61,
+      "auth": 77,
+      "safe": 86,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 17.3,
+      "cont": 12,
+      "cult": 6.2,
+      "perf": 9.1,
+      "auth": 10.7,
+      "safe": 8.6,
+      "cost": 9.8
+     },
+     "confidence": "Medium",
+     "er": 3.45,
+     "linkCtr": 1.34,
+     "realFollowers": 85.2,
+     "viewThrough": 36.2,
+     "hold3s": 72.6,
+     "sponsoredShare": 9,
+     "adDisclosure": 77,
+     "safety": 92,
+     "audienceWomen": 0.324,
+     "forecast": {
+      "cost": 3000,
+      "views": 5217,
+      "tgViews": 3457,
+      "tgShare": 0.78,
+      "engagements": 300,
+      "clicks": 56,
+      "orders": 4.4,
+      "revenue": 13322,
+      "roas": 4.44,
+      "recallLiftPts": 6.8,
+      "costPerTgView": 0.87,
+      "costPerEngagement": 10.01,
+      "costPerClick": 53.57
+     },
+     "why": [
+      "Audience matches the brief: 32% women (target 36%), 98% age overlap, 59% city-tier overlap",
+      "Personal Finance is a strong category for CRED, with lifestyle &amp; vlogs as a second pillar",
+      "85% of followers look real and active; 9% of recent posts are sponsored",
+      "₹0.87 per verified TG view for 1 reel and 2 stories (₹3K)"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1380",
+     "name": "Mansi B.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Gaming",
+     "tier": "Micro",
+     "followers": 49187,
+     "city": "Delhi NCR",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 72.9,
+     "parts": {
+      "aud": 80,
+      "cont": 57,
+      "cult": 78,
+      "perf": 44,
+      "auth": 80,
+      "safe": 88,
+      "cost": 92
+     },
+     "contributions": {
+      "aud": 17.6,
+      "cont": 8.6,
+      "cult": 10.9,
+      "perf": 6.6,
+      "auth": 11.1,
+      "safe": 8.8,
+      "cost": 9.2
+     },
+     "confidence": "Medium",
+     "er": 1.39,
+     "linkCtr": 2.13,
+     "realFollowers": 87.7,
+     "viewThrough": 42.3,
+     "hold3s": 71,
+     "sponsoredShare": 15,
+     "adDisclosure": 95,
+     "safety": 84,
+     "audienceWomen": 0.326,
+     "forecast": {
+      "cost": 17000,
+      "views": 23329,
+      "tgViews": 16076,
+      "tgShare": 0.79,
+      "engagements": 949,
+      "clicks": 360,
+      "orders": 24.7,
+      "revenue": 74037,
+      "roas": 4.36,
+      "recallLiftPts": 3.7,
+      "costPerTgView": 1.06,
+      "costPerEngagement": 17.91,
+      "costPerClick": 47.16
+     },
+     "why": [
+      "Audience matches the brief: 33% women (target 36%), 67% age overlap, 90% city-tier overlap",
+      "88% of followers look real and active; 15% of recent posts are sponsored",
+      "Creates in English, CRED's lead language; shares the Aspirational luxury codes",
+      "₹1.06 per verified TG view for 1 reel and 2 stories (₹17K)"
+     ],
+     "risks": [
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)"
+     ]
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1190",
+     "name": "Meher J.",
+     "niche": "Travel",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 7501,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 71.6,
+     "parts": {
+      "aud": 73,
+      "cont": 65,
+      "cult": 45,
+      "perf": 67,
+      "auth": 84,
+      "safe": 80,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 16,
+      "cont": 9.7,
+      "cult": 6.2,
+      "perf": 10.1,
+      "auth": 11.7,
+      "safe": 8,
+      "cost": 9.9
+     },
+     "confidence": "Medium",
+     "er": 3.4,
+     "linkCtr": 0.44,
+     "realFollowers": 89.6,
+     "viewThrough": 44.9,
+     "hold3s": 71.9,
+     "sponsoredShare": 11,
+     "adDisclosure": 90,
+     "safety": 73,
+     "audienceWomen": 0.51,
+     "forecast": {
+      "cost": 2500,
+      "views": 4802,
+      "tgViews": 3179,
+      "tgShare": 0.74,
+      "engagements": 309,
+      "clicks": 16,
+      "orders": 1,
+      "revenue": 3023,
+      "roas": 1.21,
+      "recallLiftPts": 4.6,
+      "costPerTgView": 0.79,
+      "costPerEngagement": 8.09,
+      "costPerClick": 154.46
+     },
+     "why": [
+      "Audience matches the brief: 51% women (target 36%), 86% age overlap, 74% city-tier overlap",
+      "90% of followers look real and active; 11% of recent posts are sponsored",
+      "Viewers watch 45% of each video, top 29% of nano creators; past recall lift +5.3 pts",
+      "₹0.79 per verified TG view for 1 reel and 2 stories (₹2.5K)"
+     ],
+     "risks": [
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)",
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1067",
+     "name": "Aparna A.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Auto & Bikes",
+     "tier": "Macro",
+     "followers": 622923,
+     "city": "Bengaluru",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 71.5,
+     "parts": {
+      "aud": 84,
+      "cont": 57,
+      "cult": 78,
+      "perf": 77,
+      "auth": 53,
+      "safe": 87,
+      "cost": 60
+     },
+     "contributions": {
+      "aud": 18.4,
+      "cont": 8.6,
+      "cult": 10.9,
+      "perf": 11.5,
+      "auth": 7.5,
+      "safe": 8.7,
+      "cost": 6
+     },
+     "confidence": "High",
+     "er": 1.23,
+     "linkCtr": 1.58,
+     "realFollowers": 80.5,
+     "viewThrough": 50.1,
+     "hold3s": 73.7,
+     "sponsoredShare": 52,
+     "adDisclosure": 79,
+     "safety": 92,
+     "audienceWomen": 0.291,
+     "forecast": {
+      "cost": 215000,
+      "views": 182333,
+      "tgViews": 118716,
+      "tgShare": 0.81,
+      "engagements": 9718,
+      "clicks": 2078,
+      "orders": 121.6,
+      "revenue": 364868,
+      "roas": 1.7,
+      "recallLiftPts": 5.1,
+      "costPerTgView": 1.81,
+      "costPerEngagement": 22.12,
+      "costPerClick": 103.45
+     },
+     "why": [
+      "Audience matches the brief: 29% women (target 36%), 72% age overlap, 93% city-tier overlap",
+      "Viewers watch 50% of each video, top 27% of macro creators; past recall lift +6.1 pts",
+      "Creates in English, CRED's lead language; shares the Working professional codes",
+      "Safety score 92; discloses #ad on 79% of paid posts"
+     ],
+     "risks": [
+      "Ad fatigue: 52% of recent posts are sponsored",
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 75,
+    "spend": 2699500,
+    "views": 4011260,
+    "tgViews": 2226663,
+    "uniqueTgReach": 1350382,
+    "engagements": 172716,
+    "clicks": 15044,
+    "orders": 813,
+    "revenue": 2438974,
+    "roas": 0.9,
+    "recallLiftPts": 4.3,
+    "fakeAudienceShare": 0.13,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 50000,
+    "forecastBandPct": 21,
+    "spendByTier": {
+     "micro": 716500,
+     "nano": 20500,
+     "mid": 1347500,
+     "macro": 615000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 3,
+    "spend": 2696000,
+    "views": 2786896,
+    "tgViews": 1046682,
+    "uniqueTgReach": 644996,
+    "engagements": 61869,
+    "clicks": 10423,
+    "orders": 524,
+    "revenue": 1570871,
+    "roas": 0.58,
+    "recallLiftPts": 4,
+    "fakeAudienceShare": 0.35,
+    "gatedIncluded": 1,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 15,
+    "spendByTier": {
+     "mega": 2555000,
+     "macro": 141000
+    }
+   },
+   "planCreators": [
+    "Varsha B. (Micro, Food & Cooking)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Anirban G. (Nano, Tech & Gadgets)",
+    "Mansi B. (Micro, Tech & Gadgets)",
+    "Akhil Y. (Micro, Comedy & Entertainment)",
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Hetal A. (Mid-tier, Food & Cooking)",
+    "Kritika D. (Micro, Home & Decor)",
+    "Gayathri A. (Micro, Fitness & Wellness)",
+    "Keerthi B. (Macro, Beauty & Skincare)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 345,
+   "gated": 75,
+   "gatesByReason": {
+    "reg": 24,
+    "conflict": 4,
+    "safety": 4,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Arnab S.",
+     "id": "CIE-1128",
+     "reasons": [
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    },
+    {
+     "name": "Mitali T.",
+     "id": "CIE-1051",
+     "reasons": [
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    },
+    {
+     "name": "Kabir G.",
+     "id": "CIE-1048",
+     "reasons": [
+      "Posted for Jupiter 14 days ago (60-day category exclusivity)",
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    },
+    {
+     "name": "Bornali N.",
+     "id": "CIE-1177",
+     "reasons": [
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1391",
+     "name": "Parth B.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 8323,
+     "city": "Mumbai",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.5,
+     "parts": {
+      "aud": 70,
+      "cont": 84,
+      "cult": 78,
+      "perf": 80,
+      "auth": 71,
+      "safe": 73,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 13.9,
+      "cont": 15.1,
+      "cult": 7.8,
+      "perf": 16,
+      "auth": 9.9,
+      "safe": 5.9,
+      "cost": 10
+     },
+     "confidence": "Low",
+     "er": 7.87,
+     "linkCtr": 0.29,
+     "realFollowers": 84.8,
+     "viewThrough": 64.4,
+     "hold3s": 68,
+     "sponsoredShare": 28,
+     "adDisclosure": 83,
+     "safety": 67,
+     "audienceWomen": 0.519,
+     "forecast": {
+      "cost": 4000,
+      "views": 6666,
+      "tgViews": 4060,
+      "tgShare": 0.72,
+      "engagements": 715,
+      "clicks": 15,
+      "orders": 0.8,
+      "revenue": 2351,
+      "roas": 0.59,
+      "recallLiftPts": 9.6,
+      "costPerTgView": 0.99,
+      "costPerEngagement": 5.59,
+      "costPerClick": 264.68
+     },
+     "why": [
+      "Engagement rate 7.9%, top 1% of nano creators; 2.5% of viewers save or share",
+      "Comedy &amp; Entertainment is a strong category for CRED, with lifestyle &amp; vlogs as a second pillar",
+      "Audience matches the brief: 52% women (target 36%), 71% age overlap, 93% city-tier overlap",
+      "₹5.59 per engagement (₹4K for the bundle)"
+     ],
+     "risks": [
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)",
+      "Promotes betting / real-money gaming",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1294",
+     "name": "Akhil Y.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 48916,
+     "city": "Bengaluru",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 75.4,
+     "parts": {
+      "aud": 73,
+      "cont": 65,
+      "cult": 78,
+      "perf": 83,
+      "auth": 72,
+      "safe": 76,
+      "cost": 88
+     },
+     "contributions": {
+      "aud": 14.5,
+      "cont": 11.7,
+      "cult": 7.8,
+      "perf": 16.5,
+      "auth": 10.1,
+      "safe": 6.1,
+      "cost": 8.8
+     },
+     "confidence": "High",
+     "er": 5.46,
+     "linkCtr": 0.46,
+     "realFollowers": 86.6,
+     "viewThrough": 61.8,
+     "hold3s": 80,
+     "sponsoredShare": 23,
+     "adDisclosure": 89,
+     "safety": 67,
+     "audienceWomen": 0.408,
+     "forecast": {
+      "cost": 25000,
+      "views": 29888,
+      "tgViews": 19096,
+      "tgShare": 0.74,
+      "engagements": 2935,
+      "clicks": 93,
+      "orders": 5.9,
+      "revenue": 17840,
+      "roas": 0.71,
+      "recallLiftPts": 6.8,
+      "costPerTgView": 1.31,
+      "costPerEngagement": 8.52,
+      "costPerClick": 269.44
+     },
+     "why": [
+      "Engagement rate 5.5%, top 4% of micro creators; 3.3% of viewers save or share",
+      "Audience matches the brief: 41% women (target 36%), 71% age overlap, 88% city-tier overlap",
+      "Comedy &amp; Entertainment is a strong category for CRED, with music &amp; dance as a second pillar",
+      "87% of followers look real and active; 23% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)",
+      "Promotes betting / real-money gaming"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1339",
+     "name": "Meher C.",
+     "niche": "Personal Finance",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 20415,
+     "city": "Lucknow",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": "SEBI-registered RIA",
+     "fit": 74.2,
+     "parts": {
+      "aud": 78,
+      "cont": 80,
+      "cult": 72,
+      "perf": 72,
+      "auth": 77,
+      "safe": 83,
+      "cost": 50
+     },
+     "contributions": {
+      "aud": 15.7,
+      "cont": 14.4,
+      "cult": 7.2,
+      "perf": 14.4,
+      "auth": 10.8,
+      "safe": 6.7,
+      "cost": 5
+     },
+     "confidence": "Medium",
+     "er": 3.27,
+     "linkCtr": 1.12,
+     "realFollowers": 88.9,
+     "viewThrough": 38.4,
+     "hold3s": 59,
+     "sponsoredShare": 24,
+     "adDisclosure": 73,
+     "safety": 90,
+     "audienceWomen": 0.351,
+     "forecast": {
+      "cost": 10000,
+      "views": 3028,
+      "tgViews": 2086,
+      "tgShare": 0.77,
+      "engagements": 668,
+      "clicks": 24,
+      "orders": 1.7,
+      "revenue": 5025,
+      "roas": 0.5,
+      "recallLiftPts": 6.1,
+      "costPerTgView": 4.79,
+      "costPerEngagement": 14.98,
+      "costPerClick": 422.14
+     },
+     "why": [
+      "Audience matches the brief: 35% women (target 36%), 92% age overlap, 67% city-tier overlap",
+      "Personal Finance is a strong category for CRED, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 3.3%, top 32% of micro creators; 4.4% of viewers save or share",
+      "89% of followers look real and active; 24% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Discloses #ad on only 73% of paid posts. Brief on disclosure in the first line"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1208",
+     "name": "Sahil Y.",
+     "niche": "Lifestyle & Vlogs",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 42312,
+     "city": "Mumbai",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Moj",
+     "represent": false,
+     "credential": null,
+     "fit": 71.8,
+     "parts": {
+      "aud": 83,
+      "cont": 61,
+      "cult": 78,
+      "perf": 42,
+      "auth": 91,
+      "safe": 91,
+      "cost": 80
+     },
+     "contributions": {
+      "aud": 16.7,
+      "cont": 11,
+      "cult": 7.8,
+      "perf": 8.4,
+      "auth": 12.7,
+      "safe": 7.2,
+      "cost": 8
+     },
+     "confidence": "Medium",
+     "er": 3.58,
+     "linkCtr": 0.75,
+     "realFollowers": 95.5,
+     "viewThrough": 46.3,
+     "hold3s": 66.8,
+     "sponsoredShare": 13,
+     "adDisclosure": 78,
+     "safety": 99,
+     "audienceWomen": 0.453,
+     "forecast": {
+      "cost": 17000,
+      "views": 14833,
+      "tgViews": 11445,
+      "tgShare": 0.81,
+      "engagements": 1743,
+      "clicks": 100,
+      "orders": 6,
+      "revenue": 18051,
+      "roas": 1.06,
+      "recallLiftPts": 4.8,
+      "costPerTgView": 1.49,
+      "costPerEngagement": 9.75,
+      "costPerClick": 170.58
+     },
+     "why": [
+      "Audience matches the brief: 45% women (target 36%), 81% age overlap, 93% city-tier overlap",
+      "96% of followers look real and active; 13% of recent posts are sponsored",
+      "Lifestyle &amp; Vlogs is a strong category for CRED, with fashion &amp; style as a second pillar",
+      "Engagement rate 3.6%, top 26% of micro creators; 1.0% of viewers save or share"
+     ],
+     "risks": [
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1145",
+     "name": "Akhil A.",
+     "niche": "Personal Finance",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 84095,
+     "city": "Bengaluru",
+     "languages": [
+      "Kannada",
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "SEBI-registered RIA",
+     "fit": 71.6,
+     "parts": {
+      "aud": 59,
+      "cont": 80,
+      "cult": 100,
+      "perf": 59,
+      "auth": 70,
+      "safe": 82,
+      "cost": 74
+     },
+     "contributions": {
+      "aud": 11.7,
+      "cont": 14.4,
+      "cult": 10,
+      "perf": 11.8,
+      "auth": 9.7,
+      "safe": 6.5,
+      "cost": 7.4
+     },
+     "confidence": "Medium",
+     "er": 2.35,
+     "linkCtr": 1.16,
+     "realFollowers": 85.9,
+     "viewThrough": 33.4,
+     "hold3s": 66.3,
+     "sponsoredShare": 29,
+     "adDisclosure": 93,
+     "safety": 74,
+     "audienceWomen": 0.165,
+     "forecast": {
+      "cost": 25500,
+      "views": 30583,
+      "tgViews": 17056,
+      "tgShare": 0.65,
+      "engagements": 2430,
+      "clicks": 358,
+      "orders": 32.9,
+      "revenue": 98694,
+      "roas": 3.87,
+      "recallLiftPts": 6,
+      "costPerTgView": 1.5,
+      "costPerEngagement": 10.49,
+      "costPerClick": 71.2
+     },
+     "why": [
+      "Personal Finance is a strong category for CRED, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 2.4%, top 65% of micro creators; 4.3% of viewers save or share",
+      "Audience matches the brief: 17% women (target 36%), 84% age overlap, 52% city-tier overlap",
+      "Creates in Kannada + English, CRED's lead language; shares the Aspirational luxury and Working professional codes"
+     ],
+     "risks": []
+    }
+   ],
+   "plan": {
+    "creators": 80,
+    "spend": 1772500,
+    "views": 1683573,
+    "tgViews": 934553,
+    "uniqueTgReach": 574047,
+    "engagements": 154463,
+    "clicks": 6498,
+    "orders": 377,
+    "revenue": 1132297,
+    "roas": 0.64,
+    "recallLiftPts": 4.1,
+    "fakeAudienceShare": 0.1,
+    "gatedIncluded": 0,
+    "representCreators": 4,
+    "representSpend": 662000,
+    "forecastBandPct": 20,
+    "spendByTier": {
+     "micro": 947000,
+     "nano": 31000,
+     "mid": 537000,
+     "macro": 257500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 3,
+    "spend": 1772000,
+    "views": 1943952,
+    "tgViews": 973965,
+    "uniqueTgReach": 601107,
+    "engagements": 60533,
+    "clicks": 6900,
+    "orders": 285,
+    "revenue": 854130,
+    "roas": 0.48,
+    "recallLiftPts": 2.4,
+    "fakeAudienceShare": 0.17,
+    "gatedIncluded": 1,
+    "representCreators": 2,
+    "representSpend": 505500,
+    "forecastBandPct": 33,
+    "spendByTier": {
+     "mega": 1566500,
+     "macro": 205500
+    }
+   },
+   "planCreators": [
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Moumita N. (Micro, Parenting & Family)",
+    "Akhil Y. (Micro, Comedy & Entertainment)",
+    "Sneha D. (Micro, Lifestyle & Vlogs)",
+    "Parth B. (Nano, Comedy & Entertainment)",
+    "Anjali V. (Micro, Comedy & Entertainment)",
+    "Ananya B. (Micro, Beauty & Skincare)",
+    "Yash S. (Micro, Education & Careers)",
+    "Rasika D. (Micro, Beauty & Skincare)",
+    "Dhwani R. (Micro, Fitness & Wellness)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 345,
+   "gated": 75,
+   "gatesByReason": {
+    "reg": 24,
+    "conflict": 4,
+    "fraud": 32,
+    "safety": 4,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Riya K.",
+     "id": "CIE-1293",
+     "reasons": [
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    },
+    {
+     "name": "Kabir G.",
+     "id": "CIE-1048",
+     "reasons": [
+      "Posted for Jupiter 14 days ago (60-day category exclusivity)",
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    },
+    {
+     "name": "Dhwani B.",
+     "id": "CIE-1061",
+     "reasons": [
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    },
+    {
+     "name": "Vignesh C.",
+     "id": "CIE-1106",
+     "reasons": [
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1069",
+     "name": "Anirban Y.",
+     "niche": "Personal Finance",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 30411,
+     "city": "Bhubaneswar",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "SEBI-registered RA",
+     "fit": 80.3,
+     "parts": {
+      "aud": 62,
+      "cont": 80,
+      "cult": 100,
+      "perf": 83,
+      "auth": 71,
+      "safe": 83,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 11.2,
+      "cont": 11.2,
+      "cult": 8,
+      "perf": 21.5,
+      "auth": 9.9,
+      "safe": 6.6,
+      "cost": 11.9
+     },
+     "confidence": "Medium",
+     "er": 1.96,
+     "linkCtr": 1.52,
+     "realFollowers": 87.8,
+     "viewThrough": 43.3,
+     "hold3s": 71.1,
+     "sponsoredShare": 35,
+     "adDisclosure": 77,
+     "safety": 87,
+     "audienceWomen": 0.196,
+     "forecast": {
+      "cost": 16000,
+      "views": 12607,
+      "tgViews": 7448,
+      "tgShare": 0.67,
+      "engagements": 760,
+      "clicks": 179,
+      "orders": 16.9,
+      "revenue": 50653,
+      "roas": 3.17,
+      "recallLiftPts": 8.3,
+      "costPerTgView": 2.15,
+      "costPerEngagement": 21.05,
+      "costPerClick": 89.55
+     },
+     "why": [
+      "Link CTR 1.52%, top 2% of micro creators; trust index 1.43",
+      "Forecast 3.2× ROAS on ₹16K, about 17 orders",
+      "Audience matches the brief: 20% women (target 36%), 84% age overlap, 56% city-tier overlap",
+      "Personal Finance is a strong category for CRED, with lifestyle &amp; vlogs as a second pillar"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1145",
+     "name": "Akhil A.",
+     "niche": "Personal Finance",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 84095,
+     "city": "Bengaluru",
+     "languages": [
+      "Kannada",
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "SEBI-registered RIA",
+     "fit": 78.8,
+     "parts": {
+      "aud": 59,
+      "cont": 80,
+      "cult": 100,
+      "perf": 80,
+      "auth": 70,
+      "safe": 82,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 10.5,
+      "cont": 11.2,
+      "cult": 8,
+      "perf": 20.8,
+      "auth": 9.7,
+      "safe": 6.5,
+      "cost": 11.9
+     },
+     "confidence": "Medium",
+     "er": 2.35,
+     "linkCtr": 1.16,
+     "realFollowers": 85.9,
+     "viewThrough": 33.4,
+     "hold3s": 66.3,
+     "sponsoredShare": 29,
+     "adDisclosure": 93,
+     "safety": 74,
+     "audienceWomen": 0.165,
+     "forecast": {
+      "cost": 25500,
+      "views": 30583,
+      "tgViews": 17056,
+      "tgShare": 0.65,
+      "engagements": 2430,
+      "clicks": 358,
+      "orders": 32.9,
+      "revenue": 98694,
+      "roas": 3.87,
+      "recallLiftPts": 6,
+      "costPerTgView": 1.5,
+      "costPerEngagement": 10.49,
+      "costPerClick": 71.2
+     },
+     "why": [
+      "Link CTR 1.16%, top 11% of micro creators; trust index 1.39",
+      "Forecast 3.9× ROAS on ₹26K, about 33 orders",
+      "Personal Finance is a strong category for CRED, with lifestyle &amp; vlogs as a second pillar",
+      "Audience matches the brief: 17% women (target 36%), 84% age overlap, 52% city-tier overlap"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1380",
+     "name": "Mansi B.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Gaming",
+     "tier": "Micro",
+     "followers": 49187,
+     "city": "Delhi NCR",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.6,
+     "parts": {
+      "aud": 80,
+      "cont": 57,
+      "cult": 78,
+      "perf": 76,
+      "auth": 80,
+      "safe": 88,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 14.4,
+      "cont": 8,
+      "cult": 6.2,
+      "perf": 19.8,
+      "auth": 11.1,
+      "safe": 7.1,
+      "cost": 12
+     },
+     "confidence": "Medium",
+     "er": 1.39,
+     "linkCtr": 2.13,
+     "realFollowers": 87.7,
+     "viewThrough": 42.3,
+     "hold3s": 71,
+     "sponsoredShare": 15,
+     "adDisclosure": 95,
+     "safety": 84,
+     "audienceWomen": 0.326,
+     "forecast": {
+      "cost": 17000,
+      "views": 23329,
+      "tgViews": 16076,
+      "tgShare": 0.79,
+      "engagements": 949,
+      "clicks": 360,
+      "orders": 24.7,
+      "revenue": 74037,
+      "roas": 4.36,
+      "recallLiftPts": 3.7,
+      "costPerTgView": 1.06,
+      "costPerEngagement": 17.91,
+      "costPerClick": 47.16
+     },
+     "why": [
+      "Link CTR 2.13%, top 1% of micro creators; trust index 1.17",
+      "Audience matches the brief: 33% women (target 36%), 67% age overlap, 90% city-tier overlap",
+      "Forecast 4.4× ROAS on ₹17K, about 25 orders",
+      "88% of followers look real and active; 15% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1314",
+     "name": "Aditi T.",
+     "niche": "Personal Finance",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 7190,
+     "city": "Jaipur",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "SEBI-registered RIA",
+     "fit": 78.5,
+     "parts": {
+      "aud": 79,
+      "cont": 80,
+      "cult": 45,
+      "perf": 77,
+      "auth": 77,
+      "safe": 86,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 14.2,
+      "cont": 11.2,
+      "cult": 3.6,
+      "perf": 20,
+      "auth": 10.7,
+      "safe": 6.9,
+      "cost": 12
+     },
+     "confidence": "Medium",
+     "er": 3.45,
+     "linkCtr": 1.34,
+     "realFollowers": 85.2,
+     "viewThrough": 36.2,
+     "hold3s": 72.6,
+     "sponsoredShare": 9,
+     "adDisclosure": 77,
+     "safety": 92,
+     "audienceWomen": 0.324,
+     "forecast": {
+      "cost": 3000,
+      "views": 5217,
+      "tgViews": 3457,
+      "tgShare": 0.78,
+      "engagements": 300,
+      "clicks": 56,
+      "orders": 4.4,
+      "revenue": 13322,
+      "roas": 4.44,
+      "recallLiftPts": 6.8,
+      "costPerTgView": 0.87,
+      "costPerEngagement": 10.01,
+      "costPerClick": 53.57
+     },
+     "why": [
+      "Link CTR 1.34%, top 2% of nano creators; trust index 1.20",
+      "Audience matches the brief: 32% women (target 36%), 98% age overlap, 59% city-tier overlap",
+      "Forecast 4.4× ROAS on ₹3K, about 4 orders",
+      "Personal Finance is a strong category for CRED, with lifestyle &amp; vlogs as a second pillar"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1067",
+     "name": "Aparna A.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Auto & Bikes",
+     "tier": "Macro",
+     "followers": 622923,
+     "city": "Bengaluru",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.2,
+     "parts": {
+      "aud": 84,
+      "cont": 57,
+      "cult": 78,
+      "perf": 85,
+      "auth": 53,
+      "safe": 87,
+      "cost": 95
+     },
+     "contributions": {
+      "aud": 15,
+      "cont": 8,
+      "cult": 6.2,
+      "perf": 22.1,
+      "auth": 7.5,
+      "safe": 6.9,
+      "cost": 11.4
+     },
+     "confidence": "High",
+     "er": 1.23,
+     "linkCtr": 1.58,
+     "realFollowers": 80.5,
+     "viewThrough": 50.1,
+     "hold3s": 73.7,
+     "sponsoredShare": 52,
+     "adDisclosure": 79,
+     "safety": 92,
+     "audienceWomen": 0.291,
+     "forecast": {
+      "cost": 215000,
+      "views": 182333,
+      "tgViews": 118716,
+      "tgShare": 0.81,
+      "engagements": 9718,
+      "clicks": 2078,
+      "orders": 121.6,
+      "revenue": 364868,
+      "roas": 1.7,
+      "recallLiftPts": 5.1,
+      "costPerTgView": 1.81,
+      "costPerEngagement": 22.12,
+      "costPerClick": 103.45
+     },
+     "why": [
+      "Link CTR 1.58%, top 2% of macro creators; trust index 1.00",
+      "Audience matches the brief: 29% women (target 36%), 72% age overlap, 93% city-tier overlap",
+      "Forecast 1.7× ROAS on ₹2.15L, about 122 orders",
+      "Tech &amp; Gadgets is a adjacent category for CRED, with auto &amp; bikes as a second pillar"
+     ],
+     "risks": [
+      "Ad fatigue: 52% of recent posts are sponsored",
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 62,
+    "spend": 2700000,
+    "views": 3043725,
+    "tgViews": 1650587,
+    "uniqueTgReach": 1006775,
+    "engagements": 154614,
+    "clicks": 20592,
+    "orders": 1192,
+    "revenue": 3577132,
+    "roas": 1.32,
+    "recallLiftPts": 4.6,
+    "fakeAudienceShare": 0.14,
+    "gatedIncluded": 0,
+    "representCreators": 3,
+    "representSpend": 301000,
+    "forecastBandPct": 23,
+    "spendByTier": {
+     "micro": 477500,
+     "nano": 25000,
+     "mid": 1669500,
+     "macro": 528000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 3,
+    "spend": 2696000,
+    "views": 2786896,
+    "tgViews": 1046682,
+    "uniqueTgReach": 644996,
+    "engagements": 61869,
+    "clicks": 10423,
+    "orders": 524,
+    "revenue": 1570871,
+    "roas": 0.58,
+    "recallLiftPts": 4,
+    "fakeAudienceShare": 0.35,
+    "gatedIncluded": 1,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 15,
+    "spendByTier": {
+     "mega": 2555000,
+     "macro": 141000
+    }
+   },
+   "planCreators": [
+    "Mansi B. (Micro, Tech & Gadgets)",
+    "Akhil A. (Micro, Personal Finance)",
+    "Anirban Y. (Micro, Personal Finance)",
+    "Yash S. (Micro, Education & Careers)",
+    "Aditi T. (Nano, Personal Finance)",
+    "Tanvi R. (Mid-tier, Tech & Gadgets)",
+    "Manav R. (Mid-tier, Tech & Gadgets)",
+    "Anirban G. (Nano, Tech & Gadgets)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Aditi B. (Micro, Beauty & Skincare)",
+    "Varsha B. (Micro, Food & Cooking)"
+   ]
+  }
+ }
+}

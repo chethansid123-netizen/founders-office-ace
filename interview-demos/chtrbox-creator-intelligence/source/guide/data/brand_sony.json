@@ -1,0 +1,1782 @@
+{
+ "id": "sony",
+ "name": "Sony",
+ "parent": "Sony India",
+ "vertical": "tech",
+ "sub": "Audio, TV & gaming",
+ "status": "Reported client",
+ "defaultObjective": "consideration",
+ "brief": "Win the audio upgrade from boAt for 20–30 year-old music and gaming fans.",
+ "moment": "Festive · Oct–Nov",
+ "budgetLakh": 15,
+ "target": {
+  "fem": 0.3,
+  "age": [
+   0.12,
+   0.46,
+   0.3,
+   0.09,
+   0.03
+  ],
+  "tiers": [
+   0.56,
+   0.32,
+   0.12
+  ],
+  "affl": 0.62
+ },
+ "languages": {
+  "English": 1,
+  "Hinglish": 0.9,
+  "Hindi": 0.5
+ },
+ "codes": [
+  "Gen-Z humour",
+  "Bollywood pop",
+  "Aspirational luxury"
+ ],
+ "affinity": {
+  "tech": 0.95,
+  "gaming": 0.95,
+  "music": 0.9,
+  "lifestyle": 0.5
+ },
+ "competitors": [
+  "JBL",
+  "boAt",
+  "Bose",
+  "Samsung"
+ ],
+ "compliance": null,
+ "aov": 9000,
+ "conversionRate": 0.012,
+ "kpis": [
+  "Consideration lift",
+  "PDP clicks",
+  "Shares per view"
+ ],
+ "markets": [
+  "India"
+ ],
+ "tgPoolMillions": 70,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 356,
+   "gated": 64,
+   "gatesByReason": {
+    "safety": 4,
+    "conflict": 12,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Pavithra K.",
+     "id": "CIE-1318",
+     "reasons": [
+      "Brand-safety score 44: past controversy (2025), promotes betting / real-money gaming"
+     ]
+    },
+    {
+     "name": "Ananya J.",
+     "id": "CIE-1168",
+     "reasons": [
+      "Posted for JBL 16 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Karan D.",
+     "id": "CIE-1249",
+     "reasons": [
+      "Posted for boAt 17 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Riya S.",
+     "id": "CIE-1057",
+     "reasons": [
+      "Posted for boAt 30 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1169",
+     "name": "Anjali C.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Education & Careers",
+     "tier": "Nano",
+     "followers": 6774,
+     "city": "Bengaluru",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.3,
+     "parts": {
+      "aud": 91,
+      "cont": 72,
+      "cult": 100,
+      "perf": 74,
+      "auth": 82,
+      "safe": 93,
+      "cost": 76
+     },
+     "contributions": {
+      "aud": 20,
+      "cont": 10.9,
+      "cult": 14,
+      "perf": 11.2,
+      "auth": 11.4,
+      "safe": 9.3,
+      "cost": 7.6
+     },
+     "confidence": "Low",
+     "er": 4.41,
+     "linkCtr": 1,
+     "realFollowers": 88.4,
+     "viewThrough": 51.4,
+     "hold3s": 60.7,
+     "sponsoredShare": 16,
+     "adDisclosure": 83,
+     "safety": 99,
+     "audienceWomen": 0.206,
+     "forecast": {
+      "cost": 4000,
+      "views": 3766,
+      "tgViews": 2855,
+      "tgShare": 0.86,
+      "engagements": 348,
+      "clicks": 33,
+      "orders": 1.3,
+      "revenue": 11259,
+      "roas": 2.81,
+      "recallLiftPts": 6.5,
+      "costPerTgView": 1.4,
+      "costPerEngagement": 11.51,
+      "costPerClick": 120.72
+     },
+     "why": [
+      "Audience matches the brief: 21% women (target 30%), 88% age overlap, 90% city-tier overlap",
+      "Creates in English + Hinglish, Sony's lead language; shares the Aspirational luxury and Gen-Z humour codes",
+      "88% of followers look real and active; 16% of recent posts are sponsored",
+      "Viewers watch 51% of each video, top 12% of nano creators; past recall lift +6.9 pts"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1347",
+     "name": "Aanya D.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Gaming",
+     "tier": "Mid-tier",
+     "followers": 142077,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "YouTube",
+     "represent": true,
+     "credential": null,
+     "fit": 83.5,
+     "parts": {
+      "aud": 98,
+      "cont": 95,
+      "cult": 95,
+      "perf": 82,
+      "auth": 80,
+      "safe": 79,
+      "cost": 31
+     },
+     "contributions": {
+      "aud": 21.6,
+      "cont": 14.3,
+      "cult": 13.2,
+      "perf": 12.2,
+      "auth": 11.1,
+      "safe": 7.9,
+      "cost": 3.1
+     },
+     "confidence": "High",
+     "er": 1.42,
+     "linkCtr": 0.69,
+     "realFollowers": 94.2,
+     "viewThrough": 52.4,
+     "hold3s": 67.2,
+     "sponsoredShare": 50,
+     "adDisclosure": 89,
+     "safety": 73,
+     "audienceWomen": 0.3,
+     "forecast": {
+      "cost": 50000,
+      "views": 20075,
+      "tgViews": 17192,
+      "tgShare": 0.91,
+      "engagements": 2017,
+      "clicks": 107,
+      "orders": 4.5,
+      "revenue": 40286,
+      "roas": 0.81,
+      "recallLiftPts": 9.2,
+      "costPerTgView": 2.91,
+      "costPerEngagement": 24.78,
+      "costPerClick": 467.12
+     },
+     "why": [
+      "Audience matches the brief: 30% women (target 30%), 90% age overlap, 91% city-tier overlap",
+      "Tech &amp; Gadgets is a core category for Sony, with gaming as a second pillar",
+      "Creates in Hinglish, Sony's lead language; shares the Aspirational luxury and Gen-Z humour codes",
+      "Viewers watch 52% of each video, top 15% of mid-tier creators; past recall lift +8.4 pts"
+     ],
+     "risks": [
+      "Ad fatigue: 50% of recent posts are sponsored",
+      "Promotes betting / real-money gaming"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1380",
+     "name": "Mansi B.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Gaming",
+     "tier": "Micro",
+     "followers": 49187,
+     "city": "Delhi NCR",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82,
+     "parts": {
+      "aud": 95,
+      "cont": 95,
+      "cult": 78,
+      "perf": 44,
+      "auth": 80,
+      "safe": 88,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 20.9,
+      "cont": 14.3,
+      "cult": 10.9,
+      "perf": 6.6,
+      "auth": 11.1,
+      "safe": 8.8,
+      "cost": 9.4
+     },
+     "confidence": "Medium",
+     "er": 1.39,
+     "linkCtr": 2.13,
+     "realFollowers": 87.7,
+     "viewThrough": 42.3,
+     "hold3s": 71,
+     "sponsoredShare": 15,
+     "adDisclosure": 95,
+     "safety": 84,
+     "audienceWomen": 0.326,
+     "forecast": {
+      "cost": 17000,
+      "views": 23329,
+      "tgViews": 18107,
+      "tgShare": 0.89,
+      "engagements": 949,
+      "clicks": 474,
+      "orders": 23.7,
+      "revenue": 213166,
+      "roas": 12.54,
+      "recallLiftPts": 4.8,
+      "costPerTgView": 0.94,
+      "costPerEngagement": 17.91,
+      "costPerClick": 35.83
+     },
+     "why": [
+      "Audience matches the brief: 33% women (target 30%), 94% age overlap, 94% city-tier overlap",
+      "Tech &amp; Gadgets is a core category for Sony, with gaming as a second pillar",
+      "88% of followers look real and active; 15% of recent posts are sponsored",
+      "Creates in English, Sony's lead language; shares the Aspirational luxury codes"
+     ],
+     "risks": [
+      "Posted for JBL 91 days ago (outside the 60-day window)"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1410",
+     "name": "Anirban G.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Gaming",
+     "tier": "Nano",
+     "followers": 7902,
+     "city": "Kolkata",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.4,
+     "parts": {
+      "aud": 92,
+      "cont": 95,
+      "cult": 78,
+      "perf": 20,
+      "auth": 84,
+      "safe": 73,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 20.2,
+      "cont": 14.3,
+      "cult": 10.9,
+      "perf": 3,
+      "auth": 11.8,
+      "safe": 7.3,
+      "cost": 9.9
+     },
+     "confidence": "Medium",
+     "er": 3.74,
+     "linkCtr": 1.1,
+     "realFollowers": 94.2,
+     "viewThrough": 35.6,
+     "hold3s": 59,
+     "sponsoredShare": 32,
+     "adDisclosure": 87,
+     "safety": 64,
+     "audienceWomen": 0.206,
+     "forecast": {
+      "cost": 3000,
+      "views": 5837,
+      "tgViews": 4761,
+      "tgShare": 0.87,
+      "engagements": 352,
+      "clicks": 56,
+      "orders": 2.1,
+      "revenue": 19269,
+      "roas": 6.42,
+      "recallLiftPts": 2.6,
+      "costPerTgView": 0.63,
+      "costPerEngagement": 8.51,
+      "costPerClick": 53.21
+     },
+     "why": [
+      "Audience matches the brief: 21% women (target 30%), 95% age overlap, 88% city-tier overlap",
+      "Tech &amp; Gadgets is a core category for Sony, with gaming as a second pillar",
+      "94% of followers look real and active; 32% of recent posts are sponsored",
+      "Creates in English, Sony's lead language; shares the Aspirational luxury codes"
+     ],
+     "risks": [
+      "Past controversy (2025)"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1294",
+     "name": "Akhil Y.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 48916,
+     "city": "Bengaluru",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 76.5,
+     "parts": {
+      "aud": 96,
+      "cont": 26,
+      "cult": 78,
+      "perf": 94,
+      "auth": 72,
+      "safe": 76,
+      "cost": 90
+     },
+     "contributions": {
+      "aud": 21.1,
+      "cont": 3.9,
+      "cult": 10.9,
+      "perf": 14,
+      "auth": 10.1,
+      "safe": 7.6,
+      "cost": 9
+     },
+     "confidence": "High",
+     "er": 5.46,
+     "linkCtr": 0.46,
+     "realFollowers": 86.6,
+     "viewThrough": 61.8,
+     "hold3s": 80,
+     "sponsoredShare": 23,
+     "adDisclosure": 89,
+     "safety": 67,
+     "audienceWomen": 0.408,
+     "forecast": {
+      "cost": 25000,
+      "views": 29888,
+      "tgViews": 23101,
+      "tgShare": 0.89,
+      "engagements": 2935,
+      "clicks": 64,
+      "orders": 1.9,
+      "revenue": 17500,
+      "roas": 0.7,
+      "recallLiftPts": 5.4,
+      "costPerTgView": 1.08,
+      "costPerEngagement": 8.52,
+      "costPerClick": 388.96
+     },
+     "why": [
+      "Audience matches the brief: 41% women (target 30%), 96% age overlap, 96% city-tier overlap",
+      "Viewers watch 62% of each video, top 1% of micro creators; past recall lift +7.9 pts",
+      "Creates in English, Sony's lead language; shares the Gen-Z humour codes",
+      "87% of followers look real and active; 23% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Promotes betting / real-money gaming"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 47,
+    "spend": 1500000,
+    "views": 2301579,
+    "tgViews": 1476722,
+    "uniqueTgReach": 909941,
+    "engagements": 96408,
+    "clicks": 9027,
+    "orders": 295,
+    "revenue": 2659151,
+    "roas": 1.77,
+    "recallLiftPts": 4.2,
+    "fakeAudienceShare": 0.12,
+    "gatedIncluded": 0,
+    "representCreators": 3,
+    "representSpend": 116500,
+    "forecastBandPct": 24,
+    "spendByTier": {
+     "micro": 434000,
+     "nano": 21500,
+     "mid": 867000,
+     "macro": 177500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 3,
+    "spend": 1497000,
+    "views": 1536780,
+    "tgViews": 791342,
+    "uniqueTgReach": 490174,
+    "engagements": 53612,
+    "clicks": 5618,
+    "orders": 134,
+    "revenue": 1207449,
+    "roas": 0.81,
+    "recallLiftPts": 2.6,
+    "fakeAudienceShare": 0.14,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 205500,
+    "forecastBandPct": 33,
+    "spendByTier": {
+     "mega": 1266500,
+     "macro": 205500,
+     "mid": 25000
+    }
+   },
+   "planCreators": [
+    "Varsha B. (Micro, Food & Cooking)",
+    "Anirban G. (Nano, Tech & Gadgets)",
+    "Mansi B. (Micro, Tech & Gadgets)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Tanvi R. (Mid-tier, Tech & Gadgets)",
+    "Manav R. (Mid-tier, Tech & Gadgets)",
+    "Akhil J. (Micro, Comedy & Entertainment)",
+    "Akhil Y. (Micro, Comedy & Entertainment)",
+    "Gauri N. (Micro, Music & Dance)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 356,
+   "gated": 64,
+   "gatesByReason": {
+    "conflict": 12,
+    "safety": 4,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Omkar S.",
+     "id": "CIE-1373",
+     "reasons": [
+      "Posted for boAt 51 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Krupa J.",
+     "id": "CIE-1107",
+     "reasons": [
+      "Posted for JBL 37 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Riya S.",
+     "id": "CIE-1057",
+     "reasons": [
+      "Posted for boAt 30 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Ananya J.",
+     "id": "CIE-1168",
+     "reasons": [
+      "Posted for JBL 16 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1410",
+     "name": "Anirban G.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Gaming",
+     "tier": "Nano",
+     "followers": 7902,
+     "city": "Kolkata",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79,
+     "parts": {
+      "aud": 92,
+      "cont": 95,
+      "cult": 78,
+      "perf": 46,
+      "auth": 84,
+      "safe": 73,
+      "cost": 89
+     },
+     "contributions": {
+      "aud": 18.4,
+      "cont": 17.1,
+      "cult": 7.8,
+      "perf": 9.2,
+      "auth": 11.8,
+      "safe": 5.9,
+      "cost": 8.9
+     },
+     "confidence": "Medium",
+     "er": 3.74,
+     "linkCtr": 1.1,
+     "realFollowers": 94.2,
+     "viewThrough": 35.6,
+     "hold3s": 59,
+     "sponsoredShare": 32,
+     "adDisclosure": 87,
+     "safety": 64,
+     "audienceWomen": 0.206,
+     "forecast": {
+      "cost": 3000,
+      "views": 5837,
+      "tgViews": 4761,
+      "tgShare": 0.87,
+      "engagements": 352,
+      "clicks": 56,
+      "orders": 2.1,
+      "revenue": 19269,
+      "roas": 6.42,
+      "recallLiftPts": 2.6,
+      "costPerTgView": 0.63,
+      "costPerEngagement": 8.51,
+      "costPerClick": 53.21
+     },
+     "why": [
+      "Audience matches the brief: 21% women (target 30%), 95% age overlap, 88% city-tier overlap",
+      "Tech &amp; Gadgets is a core category for Sony, with gaming as a second pillar",
+      "94% of followers look real and active; 32% of recent posts are sponsored",
+      "Engagement rate 3.7%, top 71% of nano creators; 2.8% of viewers save or share"
+     ],
+     "risks": [
+      "Past controversy (2025)"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1347",
+     "name": "Aanya D.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Gaming",
+     "tier": "Mid-tier",
+     "followers": 142077,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "YouTube",
+     "represent": true,
+     "credential": null,
+     "fit": 76.5,
+     "parts": {
+      "aud": 98,
+      "cont": 95,
+      "cult": 95,
+      "perf": 55,
+      "auth": 80,
+      "safe": 79,
+      "cost": 18
+     },
+     "contributions": {
+      "aud": 19.7,
+      "cont": 17.1,
+      "cult": 9.5,
+      "perf": 11,
+      "auth": 11.1,
+      "safe": 6.4,
+      "cost": 1.8
+     },
+     "confidence": "High",
+     "er": 1.42,
+     "linkCtr": 0.69,
+     "realFollowers": 94.2,
+     "viewThrough": 52.4,
+     "hold3s": 67.2,
+     "sponsoredShare": 50,
+     "adDisclosure": 89,
+     "safety": 73,
+     "audienceWomen": 0.3,
+     "forecast": {
+      "cost": 50000,
+      "views": 20075,
+      "tgViews": 17192,
+      "tgShare": 0.91,
+      "engagements": 2017,
+      "clicks": 107,
+      "orders": 4.5,
+      "revenue": 40286,
+      "roas": 0.81,
+      "recallLiftPts": 9.2,
+      "costPerTgView": 2.91,
+      "costPerEngagement": 24.78,
+      "costPerClick": 467.12
+     },
+     "why": [
+      "Audience matches the brief: 30% women (target 30%), 90% age overlap, 91% city-tier overlap",
+      "Tech &amp; Gadgets is a core category for Sony, with gaming as a second pillar",
+      "94% of followers look real and active; 50% of recent posts are sponsored",
+      "Engagement rate 1.4%, top 44% of mid-tier creators; 2.4% of viewers save or share"
+     ],
+     "risks": [
+      "Ad fatigue: 50% of recent posts are sponsored",
+      "Promotes betting / real-money gaming"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1363",
+     "name": "Tanvi S.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Education & Careers",
+     "tier": "Micro",
+     "followers": 26357,
+     "city": "Lucknow",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 75.5,
+     "parts": {
+      "aud": 87,
+      "cont": 72,
+      "cult": 50,
+      "perf": 65,
+      "auth": 78,
+      "safe": 86,
+      "cost": 92
+     },
+     "contributions": {
+      "aud": 17.4,
+      "cont": 13,
+      "cult": 5,
+      "perf": 13,
+      "auth": 10.9,
+      "safe": 6.9,
+      "cost": 9.2
+     },
+     "confidence": "High",
+     "er": 3.89,
+     "linkCtr": 0.94,
+     "realFollowers": 88.6,
+     "viewThrough": 51.6,
+     "hold3s": 73.7,
+     "sponsoredShare": 24,
+     "adDisclosure": 86,
+     "safety": 86,
+     "audienceWomen": 0.256,
+     "forecast": {
+      "cost": 9500,
+      "views": 10382,
+      "tgViews": 7657,
+      "tgShare": 0.83,
+      "engagements": 1168,
+      "clicks": 89,
+      "orders": 3.6,
+      "revenue": 32319,
+      "roas": 3.4,
+      "recallLiftPts": 5.7,
+      "costPerTgView": 1.24,
+      "costPerEngagement": 8.14,
+      "costPerClick": 106.94
+     },
+     "why": [
+      "Audience matches the brief: 26% women (target 30%), 95% age overlap, 71% city-tier overlap",
+      "Tech &amp; Gadgets is a strong category for Sony, with education &amp; careers as a second pillar",
+      "Engagement rate 3.9%, top 17% of micro creators; 2.2% of viewers save or share",
+      "89% of followers look real and active; 24% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1169",
+     "name": "Anjali C.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Education & Careers",
+     "tier": "Nano",
+     "followers": 6774,
+     "city": "Bengaluru",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 73.4,
+     "parts": {
+      "aud": 91,
+      "cont": 72,
+      "cult": 100,
+      "perf": 34,
+      "auth": 82,
+      "safe": 93,
+      "cost": 67
+     },
+     "contributions": {
+      "aud": 18.2,
+      "cont": 13,
+      "cult": 10,
+      "perf": 6.7,
+      "auth": 11.4,
+      "safe": 7.4,
+      "cost": 6.7
+     },
+     "confidence": "Low",
+     "er": 4.41,
+     "linkCtr": 1,
+     "realFollowers": 88.4,
+     "viewThrough": 51.4,
+     "hold3s": 60.7,
+     "sponsoredShare": 16,
+     "adDisclosure": 83,
+     "safety": 99,
+     "audienceWomen": 0.206,
+     "forecast": {
+      "cost": 4000,
+      "views": 3766,
+      "tgViews": 2855,
+      "tgShare": 0.86,
+      "engagements": 348,
+      "clicks": 33,
+      "orders": 1.3,
+      "revenue": 11259,
+      "roas": 2.81,
+      "recallLiftPts": 6.5,
+      "costPerTgView": 1.4,
+      "costPerEngagement": 11.51,
+      "costPerClick": 120.72
+     },
+     "why": [
+      "Audience matches the brief: 21% women (target 30%), 88% age overlap, 90% city-tier overlap",
+      "Tech &amp; Gadgets is a strong category for Sony, with education &amp; careers as a second pillar",
+      "88% of followers look real and active; 16% of recent posts are sponsored",
+      "Creates in English + Hinglish, Sony's lead language; shares the Aspirational luxury and Gen-Z humour codes"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1294",
+     "name": "Akhil Y.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 48916,
+     "city": "Bengaluru",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 73.1,
+     "parts": {
+      "aud": 96,
+      "cont": 26,
+      "cult": 78,
+      "perf": 83,
+      "auth": 72,
+      "safe": 76,
+      "cost": 88
+     },
+     "contributions": {
+      "aud": 19.2,
+      "cont": 4.7,
+      "cult": 7.8,
+      "perf": 16.5,
+      "auth": 10.1,
+      "safe": 6.1,
+      "cost": 8.8
+     },
+     "confidence": "High",
+     "er": 5.46,
+     "linkCtr": 0.46,
+     "realFollowers": 86.6,
+     "viewThrough": 61.8,
+     "hold3s": 80,
+     "sponsoredShare": 23,
+     "adDisclosure": 89,
+     "safety": 67,
+     "audienceWomen": 0.408,
+     "forecast": {
+      "cost": 25000,
+      "views": 29888,
+      "tgViews": 23101,
+      "tgShare": 0.89,
+      "engagements": 2935,
+      "clicks": 64,
+      "orders": 1.9,
+      "revenue": 17500,
+      "roas": 0.7,
+      "recallLiftPts": 5.4,
+      "costPerTgView": 1.08,
+      "costPerEngagement": 8.52,
+      "costPerClick": 388.96
+     },
+     "why": [
+      "Audience matches the brief: 41% women (target 30%), 96% age overlap, 96% city-tier overlap",
+      "Engagement rate 5.5%, top 4% of micro creators; 3.3% of viewers save or share",
+      "87% of followers look real and active; 23% of recent posts are sponsored",
+      "₹8.52 per engagement (₹25K for the bundle)"
+     ],
+     "risks": [
+      "Promotes betting / real-money gaming"
+     ]
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1240",
+     "name": "Varun P.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Auto & Bikes",
+     "tier": "Micro",
+     "followers": 10711,
+     "city": "Delhi NCR",
+     "languages": [
+      "English"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 72.4,
+     "parts": {
+      "aud": 88,
+      "cont": 72,
+      "cult": 55,
+      "perf": 50,
+      "auth": 83,
+      "safe": 88,
+      "cost": 75
+     },
+     "contributions": {
+      "aud": 17.6,
+      "cont": 13,
+      "cult": 5.5,
+      "perf": 10.1,
+      "auth": 11.7,
+      "safe": 7,
+      "cost": 7.5
+     },
+     "confidence": "Medium",
+     "er": 3.56,
+     "linkCtr": 0.89,
+     "realFollowers": 93.5,
+     "viewThrough": 44.1,
+     "hold3s": 51.6,
+     "sponsoredShare": 33,
+     "adDisclosure": 85,
+     "safety": 90,
+     "audienceWomen": 0.196,
+     "forecast": {
+      "cost": 4000,
+      "views": 1822,
+      "tgViews": 1428,
+      "tgShare": 0.84,
+      "engagements": 381,
+      "clicks": 11,
+      "orders": 0.5,
+      "revenue": 4160,
+      "roas": 1.04,
+      "recallLiftPts": 4.7,
+      "costPerTgView": 2.8,
+      "costPerEngagement": 10.49,
+      "costPerClick": 372.97
+     },
+     "why": [
+      "Audience matches the brief: 20% women (target 30%), 90% age overlap, 92% city-tier overlap",
+      "Tech &amp; Gadgets is a strong category for Sony, with auto &amp; bikes as a second pillar",
+      "94% of followers look real and active; 33% of recent posts are sponsored",
+      "Engagement rate 3.6%, top 27% of micro creators; 1.9% of viewers save or share"
+     ],
+     "risks": [
+      "Posted for boAt 79 days ago (outside the 60-day window)"
+     ]
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1002",
+     "name": "Abhinav Y.",
+     "niche": "Gaming",
+     "niche2": "Comedy & Entertainment",
+     "tier": "Micro",
+     "followers": 88874,
+     "city": "Chennai",
+     "languages": [
+      "Tamil",
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 71.2,
+     "parts": {
+      "aud": 63,
+      "cont": 72,
+      "cult": 78,
+      "perf": 55,
+      "auth": 77,
+      "safe": 90,
+      "cost": 89
+     },
+     "contributions": {
+      "aud": 12.5,
+      "cont": 13,
+      "cult": 7.8,
+      "perf": 11.1,
+      "auth": 10.8,
+      "safe": 7.2,
+      "cost": 8.9
+     },
+     "confidence": "Low",
+     "er": 4.13,
+     "linkCtr": 0.47,
+     "realFollowers": 89.1,
+     "viewThrough": 38.9,
+     "hold3s": 68,
+     "sponsoredShare": 25,
+     "adDisclosure": 92,
+     "safety": 88,
+     "audienceWomen": 0.057,
+     "forecast": {
+      "cost": 35000,
+      "views": 33769,
+      "tgViews": 20302,
+      "tgShare": 0.67,
+      "engagements": 4150,
+      "clicks": 148,
+      "orders": 4.8,
+      "revenue": 43588,
+      "roas": 1.25,
+      "recallLiftPts": 1.8,
+      "costPerTgView": 1.72,
+      "costPerEngagement": 8.43,
+      "costPerClick": 237.02
+     },
+     "why": [
+      "Gaming is a strong category for Sony, with comedy &amp; entertainment as a second pillar",
+      "Audience matches the brief: 6% women (target 30%), 88% age overlap, 71% city-tier overlap",
+      "Engagement rate 4.1%, top 13% of micro creators; 1.1% of viewers save or share",
+      "89% of followers look real and active; 25% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1017",
+     "name": "Anjali G.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Gaming",
+     "tier": "Mid-tier",
+     "followers": 120548,
+     "city": "Chennai",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 71.2,
+     "parts": {
+      "aud": 89,
+      "cont": 95,
+      "cult": 55,
+      "perf": 64,
+      "auth": 60,
+      "safe": 84,
+      "cost": 26
+     },
+     "contributions": {
+      "aud": 17.9,
+      "cont": 17.1,
+      "cult": 5.5,
+      "perf": 12.9,
+      "auth": 8.4,
+      "safe": 6.8,
+      "cost": 2.6
+     },
+     "confidence": "High",
+     "er": 1.72,
+     "linkCtr": 1.09,
+     "realFollowers": 79.8,
+     "viewThrough": 48.3,
+     "hold3s": 77.7,
+     "sponsoredShare": 43,
+     "adDisclosure": 88,
+     "safety": 82,
+     "audienceWomen": 0.385,
+     "forecast": {
+      "cost": 56000,
+      "views": 50744,
+      "tgViews": 34361,
+      "tgShare": 0.85,
+      "engagements": 2580,
+      "clicks": 492,
+      "orders": 23.5,
+      "revenue": 211451,
+      "roas": 3.78,
+      "recallLiftPts": 4.4,
+      "costPerTgView": 1.63,
+      "costPerEngagement": 21.71,
+      "costPerClick": 113.92
+     },
+     "why": [
+      "Audience matches the brief: 39% women (target 30%), 94% age overlap, 88% city-tier overlap",
+      "Tech &amp; Gadgets is a core category for Sony, with gaming as a second pillar",
+      "Engagement rate 1.7%, top 23% of mid-tier creators; 2.4% of viewers save or share",
+      "80% of followers look real and active; 43% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1325",
+     "name": "Aravind T.",
+     "niche": "Gaming",
+     "niche2": "Comedy & Entertainment",
+     "tier": "Nano",
+     "followers": 7019,
+     "city": "Mysuru",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Moj",
+     "represent": true,
+     "credential": null,
+     "fit": 70.9,
+     "parts": {
+      "aud": 68,
+      "cont": 72,
+      "cult": 78,
+      "perf": 57,
+      "auth": 72,
+      "safe": 73,
+      "cost": 92
+     },
+     "contributions": {
+      "aud": 13.6,
+      "cont": 13,
+      "cult": 7.8,
+      "perf": 11.5,
+      "auth": 10,
+      "safe": 5.9,
+      "cost": 9.2
+     },
+     "confidence": "Low",
+     "er": 6.28,
+     "linkCtr": 0.46,
+     "realFollowers": 86.6,
+     "viewThrough": 57.3,
+     "hold3s": 71,
+     "sponsoredShare": 30,
+     "adDisclosure": 69,
+     "safety": 76,
+     "audienceWomen": 0.056,
+     "forecast": {
+      "cost": 4000,
+      "views": 5405,
+      "tgViews": 3307,
+      "tgShare": 0.71,
+      "engagements": 491,
+      "clicks": 18,
+      "orders": 0.6,
+      "revenue": 5712,
+      "roas": 1.43,
+      "recallLiftPts": 6.2,
+      "costPerTgView": 1.21,
+      "costPerEngagement": 8.14,
+      "costPerClick": 218.74
+     },
+     "why": [
+      "Audience matches the brief: 6% women (target 30%), 87% age overlap, 73% city-tier overlap",
+      "Gaming is a strong category for Sony, with comedy &amp; entertainment as a second pillar",
+      "Engagement rate 6.3%, top 10% of nano creators; 1.3% of viewers save or share",
+      "87% of followers look real and active; 30% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Discloses #ad on only 69% of paid posts. Brief on disclosure in the first line",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1380",
+     "name": "Mansi B.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Gaming",
+     "tier": "Micro",
+     "followers": 49187,
+     "city": "Delhi NCR",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 70.6,
+     "parts": {
+      "aud": 95,
+      "cont": 95,
+      "cult": 78,
+      "perf": 22,
+      "auth": 80,
+      "safe": 88,
+      "cost": 42
+     },
+     "contributions": {
+      "aud": 19,
+      "cont": 17.1,
+      "cult": 7.8,
+      "perf": 4.3,
+      "auth": 11.1,
+      "safe": 7.1,
+      "cost": 4.2
+     },
+     "confidence": "Medium",
+     "er": 1.39,
+     "linkCtr": 2.13,
+     "realFollowers": 87.7,
+     "viewThrough": 42.3,
+     "hold3s": 71,
+     "sponsoredShare": 15,
+     "adDisclosure": 95,
+     "safety": 84,
+     "audienceWomen": 0.326,
+     "forecast": {
+      "cost": 17000,
+      "views": 23329,
+      "tgViews": 18107,
+      "tgShare": 0.89,
+      "engagements": 949,
+      "clicks": 474,
+      "orders": 23.7,
+      "revenue": 213166,
+      "roas": 12.54,
+      "recallLiftPts": 4.8,
+      "costPerTgView": 0.94,
+      "costPerEngagement": 17.91,
+      "costPerClick": 35.83
+     },
+     "why": [
+      "Audience matches the brief: 33% women (target 30%), 94% age overlap, 94% city-tier overlap",
+      "Tech &amp; Gadgets is a core category for Sony, with gaming as a second pillar",
+      "88% of followers look real and active; 15% of recent posts are sponsored",
+      "Creates in English, Sony's lead language; shares the Aspirational luxury codes"
+     ],
+     "risks": [
+      "Posted for JBL 91 days ago (outside the 60-day window)"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 80,
+    "spend": 1496000,
+    "views": 1638154,
+    "tgViews": 1029697,
+    "uniqueTgReach": 635612,
+    "engagements": 139637,
+    "clicks": 5788,
+    "orders": 187,
+    "revenue": 1681611,
+    "roas": 1.12,
+    "recallLiftPts": 3.7,
+    "fakeAudienceShare": 0.1,
+    "gatedIncluded": 0,
+    "representCreators": 3,
+    "representSpend": 311500,
+    "forecastBandPct": 23,
+    "spendByTier": {
+     "micro": 899500,
+     "nano": 42500,
+     "mid": 296500,
+     "macro": 257500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 3,
+    "spend": 1495000,
+    "views": 1533159,
+    "tgViews": 794193,
+    "uniqueTgReach": 491929,
+    "engagements": 54526,
+    "clicks": 5738,
+    "orders": 137,
+    "revenue": 1236102,
+    "roas": 0.83,
+    "recallLiftPts": 2.5,
+    "fakeAudienceShare": 0.14,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 205500,
+    "forecastBandPct": 33,
+    "spendByTier": {
+     "mega": 1266500,
+     "macro": 205500,
+     "micro": 23000
+    }
+   },
+   "planCreators": [
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Abhinav Y. (Micro, Gaming)",
+    "Anirban G. (Nano, Tech & Gadgets)",
+    "Tanvi S. (Micro, Tech & Gadgets)",
+    "Moumita N. (Micro, Parenting & Family)",
+    "Gauri N. (Micro, Music & Dance)",
+    "Akhil Y. (Micro, Comedy & Entertainment)",
+    "Yash S. (Micro, Education & Careers)",
+    "Ananya B. (Micro, Beauty & Skincare)",
+    "Rasika D. (Micro, Beauty & Skincare)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 356,
+   "gated": 64,
+   "gatesByReason": {
+    "conflict": 12,
+    "fraud": 32,
+    "safety": 4,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Krupa J.",
+     "id": "CIE-1107",
+     "reasons": [
+      "Posted for JBL 37 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Siddharth M.",
+     "id": "CIE-1134",
+     "reasons": [
+      "Posted for boAt 26 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Omkar S.",
+     "id": "CIE-1373",
+     "reasons": [
+      "Posted for boAt 51 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Karan D.",
+     "id": "CIE-1249",
+     "reasons": [
+      "Posted for boAt 17 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1380",
+     "name": "Mansi B.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Gaming",
+     "tier": "Micro",
+     "followers": 49187,
+     "city": "Delhi NCR",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 86.6,
+     "parts": {
+      "aud": 95,
+      "cont": 95,
+      "cult": 78,
+      "perf": 76,
+      "auth": 80,
+      "safe": 88,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 17.1,
+      "cont": 13.3,
+      "cult": 6.2,
+      "perf": 19.8,
+      "auth": 11.1,
+      "safe": 7.1,
+      "cost": 12
+     },
+     "confidence": "Medium",
+     "er": 1.39,
+     "linkCtr": 2.13,
+     "realFollowers": 87.7,
+     "viewThrough": 42.3,
+     "hold3s": 71,
+     "sponsoredShare": 15,
+     "adDisclosure": 95,
+     "safety": 84,
+     "audienceWomen": 0.326,
+     "forecast": {
+      "cost": 17000,
+      "views": 23329,
+      "tgViews": 18107,
+      "tgShare": 0.89,
+      "engagements": 949,
+      "clicks": 474,
+      "orders": 23.7,
+      "revenue": 213166,
+      "roas": 12.54,
+      "recallLiftPts": 4.8,
+      "costPerTgView": 0.94,
+      "costPerEngagement": 17.91,
+      "costPerClick": 35.83
+     },
+     "why": [
+      "Link CTR 2.13%, top 1% of micro creators; trust index 1.17",
+      "Audience matches the brief: 33% women (target 30%), 94% age overlap, 94% city-tier overlap",
+      "Tech &amp; Gadgets is a core category for Sony, with gaming as a second pillar",
+      "Forecast 12.5× ROAS on ₹17K, about 24 orders"
+     ],
+     "risks": [
+      "Posted for JBL 91 days ago (outside the 60-day window)"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1169",
+     "name": "Anjali C.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Education & Careers",
+     "tier": "Nano",
+     "followers": 6774,
+     "city": "Bengaluru",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.6,
+     "parts": {
+      "aud": 91,
+      "cont": 72,
+      "cult": 100,
+      "perf": 64,
+      "auth": 82,
+      "safe": 93,
+      "cost": 96
+     },
+     "contributions": {
+      "aud": 16.3,
+      "cont": 10.1,
+      "cult": 8,
+      "perf": 16.7,
+      "auth": 11.4,
+      "safe": 7.4,
+      "cost": 11.5
+     },
+     "confidence": "Low",
+     "er": 4.41,
+     "linkCtr": 1,
+     "realFollowers": 88.4,
+     "viewThrough": 51.4,
+     "hold3s": 60.7,
+     "sponsoredShare": 16,
+     "adDisclosure": 83,
+     "safety": 99,
+     "audienceWomen": 0.206,
+     "forecast": {
+      "cost": 4000,
+      "views": 3766,
+      "tgViews": 2855,
+      "tgShare": 0.86,
+      "engagements": 348,
+      "clicks": 33,
+      "orders": 1.3,
+      "revenue": 11259,
+      "roas": 2.81,
+      "recallLiftPts": 6.5,
+      "costPerTgView": 1.4,
+      "costPerEngagement": 11.51,
+      "costPerClick": 120.72
+     },
+     "why": [
+      "Link CTR 1.00%, top 27% of nano creators; trust index 0.99",
+      "Audience matches the brief: 21% women (target 30%), 88% age overlap, 90% city-tier overlap",
+      "Forecast 2.8× ROAS on ₹4K, about 1 orders",
+      "88% of followers look real and active; 16% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1017",
+     "name": "Anjali G.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Gaming",
+     "tier": "Mid-tier",
+     "followers": 120548,
+     "city": "Chennai",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.8,
+     "parts": {
+      "aud": 89,
+      "cont": 95,
+      "cult": 55,
+      "perf": 77,
+      "auth": 60,
+      "safe": 84,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 16.1,
+      "cont": 13.3,
+      "cult": 4.4,
+      "perf": 20.1,
+      "auth": 8.4,
+      "safe": 6.8,
+      "cost": 11.7
+     },
+     "confidence": "High",
+     "er": 1.72,
+     "linkCtr": 1.09,
+     "realFollowers": 79.8,
+     "viewThrough": 48.3,
+     "hold3s": 77.7,
+     "sponsoredShare": 43,
+     "adDisclosure": 88,
+     "safety": 82,
+     "audienceWomen": 0.385,
+     "forecast": {
+      "cost": 56000,
+      "views": 50744,
+      "tgViews": 34361,
+      "tgShare": 0.85,
+      "engagements": 2580,
+      "clicks": 492,
+      "orders": 23.5,
+      "revenue": 211451,
+      "roas": 3.78,
+      "recallLiftPts": 4.4,
+      "costPerTgView": 1.63,
+      "costPerEngagement": 21.71,
+      "costPerClick": 113.92
+     },
+     "why": [
+      "Link CTR 1.09%, top 22% of mid-tier creators; trust index 1.12",
+      "Audience matches the brief: 39% women (target 30%), 94% age overlap, 88% city-tier overlap",
+      "Tech &amp; Gadgets is a core category for Sony, with gaming as a second pillar",
+      "Forecast 3.8× ROAS on ₹56K, about 23 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1410",
+     "name": "Anirban G.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Gaming",
+     "tier": "Nano",
+     "followers": 7902,
+     "city": "Kolkata",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.3,
+     "parts": {
+      "aud": 92,
+      "cont": 95,
+      "cult": 78,
+      "perf": 56,
+      "auth": 84,
+      "safe": 73,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 16.6,
+      "cont": 13.3,
+      "cult": 6.2,
+      "perf": 14.6,
+      "auth": 11.8,
+      "safe": 5.9,
+      "cost": 11.9
+     },
+     "confidence": "Medium",
+     "er": 3.74,
+     "linkCtr": 1.1,
+     "realFollowers": 94.2,
+     "viewThrough": 35.6,
+     "hold3s": 59,
+     "sponsoredShare": 32,
+     "adDisclosure": 87,
+     "safety": 64,
+     "audienceWomen": 0.206,
+     "forecast": {
+      "cost": 3000,
+      "views": 5837,
+      "tgViews": 4761,
+      "tgShare": 0.87,
+      "engagements": 352,
+      "clicks": 56,
+      "orders": 2.1,
+      "revenue": 19269,
+      "roas": 6.42,
+      "recallLiftPts": 2.6,
+      "costPerTgView": 0.63,
+      "costPerEngagement": 8.51,
+      "costPerClick": 53.21
+     },
+     "why": [
+      "Audience matches the brief: 21% women (target 30%), 95% age overlap, 88% city-tier overlap",
+      "Link CTR 1.10%, top 20% of nano creators; trust index 0.89",
+      "Tech &amp; Gadgets is a core category for Sony, with gaming as a second pillar",
+      "Forecast 6.4× ROAS on ₹3K, about 2 orders"
+     ],
+     "risks": [
+      "Past controversy (2025)"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1067",
+     "name": "Aparna A.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Auto & Bikes",
+     "tier": "Macro",
+     "followers": 622923,
+     "city": "Bengaluru",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.9,
+     "parts": {
+      "aud": 95,
+      "cont": 72,
+      "cult": 55,
+      "perf": 85,
+      "auth": 53,
+      "safe": 87,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 17.1,
+      "cont": 10.1,
+      "cult": 4.4,
+      "perf": 22.1,
+      "auth": 7.5,
+      "safe": 6.9,
+      "cost": 11.7
+     },
+     "confidence": "High",
+     "er": 1.23,
+     "linkCtr": 1.58,
+     "realFollowers": 80.5,
+     "viewThrough": 50.1,
+     "hold3s": 73.7,
+     "sponsoredShare": 52,
+     "adDisclosure": 79,
+     "safety": 92,
+     "audienceWomen": 0.291,
+     "forecast": {
+      "cost": 215000,
+      "views": 182333,
+      "tgViews": 130361,
+      "tgShare": 0.89,
+      "engagements": 9718,
+      "clicks": 2341,
+      "orders": 89.3,
+      "revenue": 803536,
+      "roas": 3.74,
+      "recallLiftPts": 5.8,
+      "costPerTgView": 1.65,
+      "costPerEngagement": 22.12,
+      "costPerClick": 91.84
+     },
+     "why": [
+      "Link CTR 1.58%, top 2% of macro creators; trust index 1.00",
+      "Audience matches the brief: 29% women (target 30%), 95% age overlap, 91% city-tier overlap",
+      "Forecast 3.7× ROAS on ₹2.15L, about 89 orders",
+      "Tech &amp; Gadgets is a strong category for Sony, with auto &amp; bikes as a second pillar"
+     ],
+     "risks": [
+      "Ad fatigue: 52% of recent posts are sponsored"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 43,
+    "spend": 1498500,
+    "views": 1690083,
+    "tgViews": 1096393,
+    "uniqueTgReach": 676660,
+    "engagements": 84054,
+    "clicks": 13948,
+    "orders": 504,
+    "revenue": 4534083,
+    "roas": 3.03,
+    "recallLiftPts": 4.6,
+    "fakeAudienceShare": 0.14,
+    "gatedIncluded": 0,
+    "representCreators": 2,
+    "representSpend": 51500,
+    "forecastBandPct": 22,
+    "spendByTier": {
+     "micro": 233000,
+     "nano": 34500,
+     "mid": 1016000,
+     "macro": 215000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 3,
+    "spend": 1497000,
+    "views": 1536780,
+    "tgViews": 791342,
+    "uniqueTgReach": 490174,
+    "engagements": 53612,
+    "clicks": 5618,
+    "orders": 134,
+    "revenue": 1207449,
+    "roas": 0.81,
+    "recallLiftPts": 2.6,
+    "fakeAudienceShare": 0.14,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 205500,
+    "forecastBandPct": 33,
+    "spendByTier": {
+     "mega": 1266500,
+     "macro": 205500,
+     "mid": 25000
+    }
+   },
+   "planCreators": [
+    "Mansi B. (Micro, Tech & Gadgets)",
+    "Anirban G. (Nano, Tech & Gadgets)",
+    "Tanvi R. (Mid-tier, Tech & Gadgets)",
+    "Manav R. (Mid-tier, Tech & Gadgets)",
+    "Kabir J. (Micro, Tech & Gadgets)",
+    "Gautham V. (Micro, Tech & Gadgets)",
+    "Varun Y. (Mid-tier, Tech & Gadgets)",
+    "Tanvi S. (Micro, Tech & Gadgets)",
+    "Ishaan K. (Nano, Tech & Gadgets)",
+    "Yash S. (Micro, Education & Careers)",
+    "Aparna A. (Macro, Tech & Gadgets)",
+    "Rimjhim V. (Mid-tier, Personal Finance)"
+   ]
+  }
+ }
+}

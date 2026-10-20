@@ -1,0 +1,2229 @@
+{
+ "campaigns": [
+  {
+   "id": "C1",
+   "brand": "Amazon",
+   "title": "Great Indian Festival · creator storefronts",
+   "objective": "conversion",
+   "days": 21,
+   "elapsed": 14,
+   "live": true,
+   "budgetLakh": 29.9,
+   "creators": 72,
+   "posted": 52,
+   "spend": 2240000,
+   "reportedViews": 3513707,
+   "apiVerifiedViews": 2902932,
+   "uniqueViews": 2148169,
+   "realPeople": 1838219,
+   "inTargetGroup": 1646022,
+   "engagements": 93206,
+   "clicks": 26348,
+   "orders": 3604,
+   "attributedRevenue": 6889322,
+   "returnsRate": 0.09,
+   "verifiedRevenue": 6269283,
+   "incrementalShare": 0.62,
+   "incrementalRevenue": 3886955,
+   "attributedRoas": 3.08,
+   "incrementalRoas": 1.74,
+   "ltvMultiplier": 1,
+   "ltvRoas": 1.74,
+   "emvClaimed": 7528958,
+   "claimedRoi": 3.36,
+   "recallLiftPts": 10.5,
+   "brandLift": [
+    [
+     "Ad recall",
+     21,
+     31.5
+    ],
+    [
+     "Brand consideration",
+     48,
+     53.4
+    ],
+    [
+     "Purchase intent",
+     36,
+     41.8
+    ]
+   ],
+   "holdout": {
+    "test_cities": 6,
+    "control_cities": 6,
+    "test_rate": 2.98,
+    "control_rate": 1.87,
+    "lift_pct": 59.4
+   },
+   "attribution": {
+    "link": 0.46,
+    "code": 0.22,
+    "affiliate": 0.21,
+    "view": 0.11
+   },
+   "mape": 19.4,
+   "alerts": [
+    [
+     "serious",
+     "CIE-1231 CTR running 41% below forecast on Day 3. Swap the story frame to a price-drop sticker."
+    ],
+    [
+     "warning",
+     "2 posts went live without #ad in the first line. Flagged to creators and fixed within 2 hours."
+    ],
+    [
+     "good",
+     "Tier-2 Hindi creators are beating forecast by 28%. Moved ₹6.5L of remaining budget to them."
+    ],
+    [
+     "warning",
+     "Spend pacing at 92% of plan with 7 days left."
+    ]
+   ],
+   "topCreators": [
+    {
+     "name": "Avni T.",
+     "id": "CIE-1403",
+     "tier": "Macro",
+     "niche": "Home & Decor",
+     "fit": 70,
+     "cost": 141000,
+     "views": 213420,
+     "viewsForecast": 236055,
+     "clicks": 2586,
+     "orders": 487,
+     "revenue": 926961,
+     "roas": 6.57
+    },
+    {
+     "name": "Gayathri Y.",
+     "id": "CIE-1246",
+     "tier": "Mid-tier",
+     "niche": "Beauty & Skincare",
+     "fit": 72,
+     "cost": 225000,
+     "views": 193997,
+     "viewsForecast": 146868,
+     "clicks": 2514,
+     "orders": 382,
+     "revenue": 727388,
+     "roas": 3.23
+    },
+    {
+     "name": "Rasika M.",
+     "id": "CIE-1357",
+     "tier": "Macro",
+     "niche": "Fashion & Style",
+     "fit": 79,
+     "cost": 313000,
+     "views": 277966,
+     "viewsForecast": 378871,
+     "clicks": 2301,
+     "orders": 324,
+     "revenue": 616193,
+     "roas": 1.97
+    },
+    {
+     "name": "Keerthi B.",
+     "id": "CIE-1270",
+     "tier": "Macro",
+     "niche": "Beauty & Skincare",
+     "fit": 84,
+     "cost": 177500,
+     "views": 441129,
+     "viewsForecast": 382331,
+     "clicks": 2215,
+     "orders": 222,
+     "revenue": 422435,
+     "roas": 2.38
+    },
+    {
+     "name": "Chirag T.",
+     "id": "CIE-1213",
+     "tier": "Mid-tier",
+     "niche": "Fitness & Wellness",
+     "fit": 73,
+     "cost": 76000,
+     "views": 137539,
+     "viewsForecast": 142263,
+     "clicks": 1271,
+     "orders": 199,
+     "revenue": 379392,
+     "roas": 4.99
+    }
+   ],
+   "costPerClick": 85.02,
+   "cpmTg": 1361
+  },
+  {
+   "id": "C2",
+   "brand": "Olay",
+   "title": "Regenerist 28-day glow challenge",
+   "objective": "consideration",
+   "days": 28,
+   "elapsed": 28,
+   "live": false,
+   "budgetLakh": 9.9,
+   "creators": 26,
+   "posted": 26,
+   "spend": 951500,
+   "reportedViews": 1152137,
+   "apiVerifiedViews": 939618,
+   "uniqueViews": 695317,
+   "realPeople": 600345,
+   "inTargetGroup": 554536,
+   "engagements": 38446,
+   "clicks": 10069,
+   "orders": 1489,
+   "attributedRevenue": 1728166,
+   "returnsRate": 0.04,
+   "verifiedRevenue": 1659039,
+   "incrementalShare": 0.56,
+   "incrementalRevenue": 929062,
+   "attributedRoas": 1.82,
+   "incrementalRoas": 0.98,
+   "ltvMultiplier": 1.5,
+   "ltvRoas": 1.46,
+   "emvClaimed": 2689480,
+   "claimedRoi": 2.83,
+   "recallLiftPts": 11.6,
+   "brandLift": [
+    [
+     "Ad recall",
+     14,
+     25.6
+    ],
+    [
+     "Awareness of Regenerist",
+     31,
+     39.2
+    ],
+    [
+     "Consideration",
+     18,
+     24.9
+    ],
+    [
+     "Purchase intent",
+     12,
+     16.3
+    ]
+   ],
+   "holdout": {
+    "test_cities": 6,
+    "control_cities": 6,
+    "test_rate": 4.5,
+    "control_rate": 2.99,
+    "lift_pct": 50.5
+   },
+   "attribution": {
+    "link": 0.46,
+    "code": 0.22,
+    "affiliate": 0.21,
+    "view": 0.11
+   },
+   "mape": 17.2,
+   "alerts": [
+    [
+     "good",
+     "Derm-credentialed creators drove 2.1x the saves per view of lifestyle creators."
+    ],
+    [
+     "serious",
+     "One creator posted a competitor serum 11 days after go-live. Exclusivity clause invoked."
+    ]
+   ],
+   "topCreators": [
+    {
+     "name": "Nikita D.",
+     "id": "CIE-1248",
+     "tier": "Macro",
+     "niche": "Beauty & Skincare",
+     "fit": 86,
+     "cost": 274500,
+     "views": 183657,
+     "viewsForecast": 223535,
+     "clicks": 1962,
+     "orders": 443,
+     "revenue": 510131,
+     "roas": 1.86
+    },
+    {
+     "name": "Aanya M.",
+     "id": "CIE-1351",
+     "tier": "Mid-tier",
+     "niche": "Beauty & Skincare",
+     "fit": 79,
+     "cost": 112000,
+     "views": 140622,
+     "viewsForecast": 191468,
+     "clicks": 1636,
+     "orders": 226,
+     "revenue": 261040,
+     "roas": 2.33
+    },
+    {
+     "name": "Gauri M.",
+     "id": "CIE-1218",
+     "tier": "Mid-tier",
+     "niche": "Beauty & Skincare",
+     "fit": 89,
+     "cost": 144000,
+     "views": 95791,
+     "viewsForecast": 116372,
+     "clicks": 1110,
+     "orders": 128,
+     "revenue": 147209,
+     "roas": 1.02
+    },
+    {
+     "name": "Parth K.",
+     "id": "CIE-1118",
+     "tier": "Mid-tier",
+     "niche": "Fashion & Style",
+     "fit": 76,
+     "cost": 69500,
+     "views": 60999,
+     "viewsForecast": 66688,
+     "clicks": 839,
+     "orders": 97,
+     "revenue": 112327,
+     "roas": 1.62
+    },
+    {
+     "name": "Abhinav C.",
+     "id": "CIE-1232",
+     "tier": "Mid-tier",
+     "niche": "Fashion & Style",
+     "fit": 70,
+     "cost": 57500,
+     "views": 73986,
+     "viewsForecast": 76163,
+     "clicks": 925,
+     "orders": 95,
+     "revenue": 109920,
+     "roas": 1.91
+    }
+   ],
+   "costPerClick": 94.5,
+   "cpmTg": 1716
+  },
+  {
+   "id": "C3",
+   "brand": "Dabur",
+   "title": "Chyawanprash · winter immunity, 9 languages",
+   "objective": "awareness",
+   "days": 30,
+   "elapsed": 30,
+   "live": false,
+   "budgetLakh": 31.8,
+   "creators": 64,
+   "posted": 64,
+   "spend": 3054500,
+   "reportedViews": 4718312,
+   "apiVerifiedViews": 3864925,
+   "uniqueViews": 2860044,
+   "realPeople": 2427784,
+   "inTargetGroup": 2173125,
+   "engagements": 148141,
+   "clicks": 25208,
+   "orders": 4852,
+   "attributedRevenue": 1562785,
+   "returnsRate": 0.02,
+   "verifiedRevenue": 1531529,
+   "incrementalShare": 0.45,
+   "incrementalRevenue": 689188,
+   "attributedRoas": 0.51,
+   "incrementalRoas": 0.23,
+   "ltvMultiplier": 1.4,
+   "ltvRoas": 0.32,
+   "emvClaimed": 10753585,
+   "claimedRoi": 3.52,
+   "recallLiftPts": 9.1,
+   "brandLift": [
+    [
+     "Ad recall",
+     17,
+     26.1
+    ],
+    [
+     "Awareness: daily use",
+     22,
+     30.4
+    ],
+    [
+     "Consideration",
+     29,
+     33.8
+    ],
+    [
+     "Purchase intent",
+     21,
+     24.2
+    ]
+   ],
+   "holdout": {
+    "test_cities": 6,
+    "control_cities": 6,
+    "test_rate": 2.86,
+    "control_rate": 2.09,
+    "lift_pct": 36.8
+   },
+   "attribution": {
+    "link": 0.46,
+    "code": 0.22,
+    "affiliate": 0.21,
+    "view": 0.11
+   },
+   "mape": 18.9,
+   "alerts": [
+    [
+     "good",
+     "Regional-language creators delivered 64% of TG reach at 41% of spend."
+    ],
+    [
+     "warning",
+     "Health-claim language ('cures cold') removed from 3 scripts before approval."
+    ]
+   ],
+   "topCreators": [
+    {
+     "name": "Naina T.",
+     "id": "CIE-1173",
+     "tier": "Macro",
+     "niche": "Food & Cooking",
+     "fit": 85,
+     "cost": 177000,
+     "views": 382918,
+     "viewsForecast": 299576,
+     "clicks": 1880,
+     "orders": 655,
+     "revenue": 209909,
+     "roas": 1.19
+    },
+    {
+     "name": "Kavya T.",
+     "id": "CIE-1009",
+     "tier": "Mid-tier",
+     "niche": "Parenting & Family",
+     "fit": 90,
+     "cost": 72000,
+     "views": 142400,
+     "viewsForecast": 115918,
+     "clicks": 1767,
+     "orders": 406,
+     "revenue": 130199,
+     "roas": 1.81
+    },
+    {
+     "name": "Arjun S.",
+     "id": "CIE-1226",
+     "tier": "Macro",
+     "niche": "Parenting & Family",
+     "fit": 74,
+     "cost": 176000,
+     "views": 389527,
+     "viewsForecast": 389798,
+     "clicks": 2023,
+     "orders": 388,
+     "revenue": 124429,
+     "roas": 0.71
+    },
+    {
+     "name": "Ishani S.",
+     "id": "CIE-1054",
+     "tier": "Mid-tier",
+     "niche": "Parenting & Family",
+     "fit": 78,
+     "cost": 125000,
+     "views": 194843,
+     "viewsForecast": 175370,
+     "clicks": 1712,
+     "orders": 349,
+     "revenue": 111764,
+     "roas": 0.89
+    },
+    {
+     "name": "Moumita B.",
+     "id": "CIE-1413",
+     "tier": "Mega",
+     "niche": "Parenting & Family",
+     "fit": 78,
+     "cost": 332000,
+     "views": 314691,
+     "viewsForecast": 339999,
+     "clicks": 1540,
+     "orders": 300,
+     "revenue": 96215,
+     "roas": 0.29
+    }
+   ],
+   "costPerClick": 121.17,
+   "cpmTg": 1406
+  },
+  {
+   "id": "C4",
+   "brand": "Meesho",
+   "title": "Mega Blockbuster Sale · Bharat creators",
+   "objective": "conversion",
+   "days": 21,
+   "elapsed": 21,
+   "live": false,
+   "budgetLakh": 28.6,
+   "creators": 60,
+   "posted": 60,
+   "spend": 2751500,
+   "reportedViews": 4107259,
+   "apiVerifiedViews": 3393896,
+   "uniqueViews": 2511483,
+   "realPeople": 2138911,
+   "inTargetGroup": 1922838,
+   "engagements": 138273,
+   "clicks": 32504,
+   "orders": 8023,
+   "attributedRevenue": 4508964,
+   "returnsRate": 0.17,
+   "verifiedRevenue": 3742440,
+   "incrementalShare": 0.66,
+   "incrementalRevenue": 2470010,
+   "attributedRoas": 1.64,
+   "incrementalRoas": 0.9,
+   "ltvMultiplier": 2.2,
+   "ltvRoas": 1.97,
+   "emvClaimed": 9621807,
+   "claimedRoi": 3.5,
+   "recallLiftPts": 8.3,
+   "brandLift": [
+    [
+     "Ad recall",
+     19,
+     27.3
+    ],
+    [
+     "Consideration",
+     34,
+     39.1
+    ],
+    [
+     "Purchase intent",
+     28,
+     33.5
+    ]
+   ],
+   "holdout": {
+    "test_cities": 6,
+    "control_cities": 6,
+    "test_rate": 3.3,
+    "control_rate": 1.99,
+    "lift_pct": 65.8
+   },
+   "attribution": {
+    "link": 0.46,
+    "code": 0.22,
+    "affiliate": 0.21,
+    "view": 0.11
+   },
+   "mape": 16,
+   "alerts": [
+    [
+     "serious",
+     "Returns on fashion orders hit 17%. Verified revenue is reported net of returns."
+    ],
+    [
+     "good",
+     "First-time buyer share 38% vs 22% on paid social."
+    ]
+   ],
+   "topCreators": [
+    {
+     "name": "Rasika M.",
+     "id": "CIE-1357",
+     "tier": "Macro",
+     "niche": "Fashion & Style",
+     "fit": 82,
+     "cost": 313000,
+     "views": 357034,
+     "viewsForecast": 378871,
+     "clicks": 3424,
+     "orders": 1347,
+     "revenue": 754477,
+     "roas": 2.41
+    },
+    {
+     "name": "Gayathri Y.",
+     "id": "CIE-1246",
+     "tier": "Mid-tier",
+     "niche": "Beauty & Skincare",
+     "fit": 80,
+     "cost": 225000,
+     "views": 142420,
+     "viewsForecast": 146868,
+     "clicks": 2619,
+     "orders": 860,
+     "revenue": 481710,
+     "roas": 2.14
+    },
+    {
+     "name": "Aanya M.",
+     "id": "CIE-1351",
+     "tier": "Mid-tier",
+     "niche": "Beauty & Skincare",
+     "fit": 78,
+     "cost": 112000,
+     "views": 211742,
+     "viewsForecast": 191468,
+     "clicks": 1869,
+     "orders": 529,
+     "revenue": 296275,
+     "roas": 2.65
+    },
+    {
+     "name": "Ananya R.",
+     "id": "CIE-1214",
+     "tier": "Macro",
+     "niche": "Fashion & Style",
+     "fit": 82,
+     "cost": 155000,
+     "views": 223630,
+     "viewsForecast": 170944,
+     "clicks": 2388,
+     "orders": 479,
+     "revenue": 268765,
+     "roas": 1.73
+    },
+    {
+     "name": "Avni T.",
+     "id": "CIE-1403",
+     "tier": "Macro",
+     "niche": "Home & Decor",
+     "fit": 73,
+     "cost": 141000,
+     "views": 168376,
+     "viewsForecast": 236055,
+     "clicks": 1904,
+     "orders": 431,
+     "revenue": 241835,
+     "roas": 1.72
+    }
+   ],
+   "costPerClick": 84.65,
+   "cpmTg": 1431
+  },
+  {
+   "id": "C5",
+   "brand": "HK Vitals",
+   "title": "Biotin 90-day habit",
+   "objective": "conversion",
+   "days": 28,
+   "elapsed": 28,
+   "live": false,
+   "budgetLakh": 8.8,
+   "creators": 30,
+   "posted": 30,
+   "spend": 849000,
+   "reportedViews": 1501729,
+   "apiVerifiedViews": 1234301,
+   "uniqueViews": 913382,
+   "realPeople": 766985,
+   "inTargetGroup": 692892,
+   "engagements": 46798,
+   "clicks": 9588,
+   "orders": 1586,
+   "attributedRevenue": 1759667,
+   "returnsRate": 0.05,
+   "verifiedRevenue": 1671684,
+   "incrementalShare": 0.64,
+   "incrementalRevenue": 1069878,
+   "attributedRoas": 2.07,
+   "incrementalRoas": 1.26,
+   "ltvMultiplier": 2.1,
+   "ltvRoas": 2.65,
+   "emvClaimed": 3412765,
+   "claimedRoi": 4.02,
+   "recallLiftPts": 8.4,
+   "brandLift": [
+    [
+     "Ad recall",
+     12,
+     20.4
+    ],
+    [
+     "Consideration",
+     16,
+     21.8
+    ],
+    [
+     "Purchase intent",
+     11,
+     15.1
+    ]
+   ],
+   "holdout": {
+    "test_cities": 6,
+    "control_cities": 6,
+    "test_rate": 3.89,
+    "control_rate": 2.4,
+    "lift_pct": 62.1
+   },
+   "attribution": {
+    "link": 0.46,
+    "code": 0.22,
+    "affiliate": 0.21,
+    "view": 0.11
+   },
+   "mape": 18.7,
+   "alerts": [
+    [
+     "warning",
+     "Two fitness creators' scripts reworded: no 'guaranteed' hair-growth claims (ASCI)."
+    ],
+    [
+     "good",
+     "Repeat purchase at 60 days: 31% from creator cohorts vs 22% baseline."
+    ]
+   ],
+   "topCreators": [
+    {
+     "name": "Aanya M.",
+     "id": "CIE-1351",
+     "tier": "Mid-tier",
+     "niche": "Beauty & Skincare",
+     "fit": 72,
+     "cost": 112000,
+     "views": 220251,
+     "viewsForecast": 191468,
+     "clicks": 1655,
+     "orders": 321,
+     "revenue": 353837,
+     "roas": 3.16
+    },
+    {
+     "name": "Chirag T.",
+     "id": "CIE-1213",
+     "tier": "Mid-tier",
+     "niche": "Fitness & Wellness",
+     "fit": 81,
+     "cost": 76000,
+     "views": 151121,
+     "viewsForecast": 142263,
+     "clicks": 1552,
+     "orders": 245,
+     "revenue": 270340,
+     "roas": 3.56
+    },
+    {
+     "name": "Rasika Y.",
+     "id": "CIE-1407",
+     "tier": "Mid-tier",
+     "niche": "Fitness & Wellness",
+     "fit": 84,
+     "cost": 59000,
+     "views": 132806,
+     "viewsForecast": 116243,
+     "clicks": 522,
+     "orders": 124,
+     "revenue": 136506,
+     "roas": 2.31
+    },
+    {
+     "name": "Mansi T.",
+     "id": "CIE-1334",
+     "tier": "Mid-tier",
+     "niche": "Beauty & Skincare",
+     "fit": 79,
+     "cost": 49000,
+     "views": 42745,
+     "viewsForecast": 52197,
+     "clicks": 626,
+     "orders": 116,
+     "revenue": 127679,
+     "roas": 2.61
+    },
+    {
+     "name": "Rasika V.",
+     "id": "CIE-1291",
+     "tier": "Mid-tier",
+     "niche": "Fitness & Wellness",
+     "fit": 82,
+     "cost": 72000,
+     "views": 48025,
+     "viewsForecast": 54805,
+     "clicks": 678,
+     "orders": 98,
+     "revenue": 108578,
+     "roas": 1.51
+    }
+   ],
+   "costPerClick": 88.55,
+   "cpmTg": 1225
+  },
+  {
+   "id": "C6",
+   "brand": "Puma",
+   "title": "Run Your City · 10K series",
+   "objective": "consideration",
+   "days": 28,
+   "elapsed": 28,
+   "live": false,
+   "budgetLakh": 12.1,
+   "creators": 28,
+   "posted": 28,
+   "spend": 1165000,
+   "reportedViews": 2024521,
+   "apiVerifiedViews": 1640901,
+   "uniqueViews": 1214266,
+   "realPeople": 1025488,
+   "inTargetGroup": 910947,
+   "engagements": 55837,
+   "clicks": 12939,
+   "orders": 1454,
+   "attributedRevenue": 4691764,
+   "returnsRate": 0.11,
+   "verifiedRevenue": 4175670,
+   "incrementalShare": 0.54,
+   "incrementalRevenue": 2254862,
+   "attributedRoas": 4.03,
+   "incrementalRoas": 1.94,
+   "ltvMultiplier": 1.15,
+   "ltvRoas": 2.23,
+   "emvClaimed": 4397765,
+   "claimedRoi": 3.77,
+   "recallLiftPts": 10.8,
+   "brandLift": [
+    [
+     "Ad recall",
+     16,
+     26.8
+    ],
+    [
+     "Brand association: running",
+     22,
+     30.9
+    ],
+    [
+     "Consideration",
+     25,
+     30.2
+    ]
+   ],
+   "holdout": {
+    "test_cities": 6,
+    "control_cities": 6,
+    "test_rate": 3.61,
+    "control_rate": 2.44,
+    "lift_pct": 48
+   },
+   "attribution": {
+    "link": 0.46,
+    "code": 0.22,
+    "affiliate": 0.21,
+    "view": 0.11
+   },
+   "mape": 16.6,
+   "alerts": [
+    [
+     "good",
+     "Run-club event sign-ups 3,940, 2.3x forecast in Bengaluru and Pune."
+    ],
+    [
+     "warning",
+     "Two mega creators under-delivered on views (-34%). Re-weighting tier mix for the next flight."
+    ]
+   ],
+   "topCreators": [
+    {
+     "name": "Chirag T.",
+     "id": "CIE-1213",
+     "tier": "Mid-tier",
+     "niche": "Fitness & Wellness",
+     "fit": 81,
+     "cost": 76000,
+     "views": 132814,
+     "viewsForecast": 142263,
+     "clicks": 1595,
+     "orders": 218,
+     "revenue": 699608,
+     "roas": 9.21
+    },
+    {
+     "name": "Debolina R.",
+     "id": "CIE-1110",
+     "tier": "Mid-tier",
+     "niche": "Fashion & Style",
+     "fit": 75,
+     "cost": 161000,
+     "views": 240785,
+     "viewsForecast": 254169,
+     "clicks": 1231,
+     "orders": 162,
+     "revenue": 520003,
+     "roas": 3.23
+    },
+    {
+     "name": "Aditi D.",
+     "id": "CIE-1222",
+     "tier": "Mid-tier",
+     "niche": "Fashion & Style",
+     "fit": 75,
+     "cost": 93000,
+     "views": 152665,
+     "viewsForecast": 136630,
+     "clicks": 1087,
+     "orders": 135,
+     "revenue": 434784,
+     "roas": 4.68
+    },
+    {
+     "name": "Sruthi A.",
+     "id": "CIE-1202",
+     "tier": "Mid-tier",
+     "niche": "Fashion & Style",
+     "fit": 74,
+     "cost": 93000,
+     "views": 108972,
+     "viewsForecast": 150596,
+     "clicks": 1085,
+     "orders": 120,
+     "revenue": 384958,
+     "roas": 4.14
+    },
+    {
+     "name": "Nikita B.",
+     "id": "CIE-1244",
+     "tier": "Mid-tier",
+     "niche": "Fashion & Style",
+     "fit": 80,
+     "cost": 129000,
+     "views": 200198,
+     "viewsForecast": 223630,
+     "clicks": 1154,
+     "orders": 110,
+     "revenue": 353610,
+     "roas": 2.74
+    }
+   ],
+   "costPerClick": 90.04,
+   "cpmTg": 1279
+  }
+ ],
+ "overview": {
+  "creators": 420,
+  "brands": 35,
+  "reportedClients": 30,
+  "prospects": 5,
+  "medianGatedShare": 0.14,
+  "incrementalRevenueAll": 11299955,
+  "conversionIroas": 1.33,
+  "conversionLtvRoas": 1.95,
+  "meanRecallLift": 9.8
+ },
+ "verticals": [
+  {
+   "key": "fmcg",
+   "label": "FMCG",
+   "brands": [
+    "Dabur",
+    "KitKat",
+    "Coca-Cola",
+    "Whisper",
+    "Livon"
+   ],
+   "playbook": {
+    "thesis": "Reach the target group many times at a low cost per view, then prove memory moved. Sales show up later in quick-commerce and kirana, not in click-throughs.",
+    "kpi": [
+     "Verified TG reach and frequency",
+     "Ad recall and awareness lift (exposed vs control)",
+     "Quick-commerce search and sales lift in test cities",
+     "Sampling or code redemptions"
+    ],
+    "mix": "60% nano and micro creators in regional languages for cheap reach, 30% mid-tier, one macro anchor for salience.",
+    "formats": "15–30s Reels with the pack in the first 3 seconds; recipes and daily rituals; stories linking to Blinkit, Zepto and Instamart.",
+    "lang": "6 to 9 languages. Hindi and Hinglish first, then Tamil, Telugu, Marathi, Bengali and Kannada.",
+    "comp": "Health-benefit claims (immunity, energy) need substantiation; Drugs & Magic Remedies Act applies to cure language; ASCI disclosure.",
+    "moments": "Winter (Nov–Jan), summer and IPL (Mar–May), festive (Sep–Nov)."
+   },
+   "topCreators": [
+    {
+     "name": "Sakshi A.",
+     "niche": "Comedy & Entertainment",
+     "tier": "Micro",
+     "meanFit": 75,
+     "top20For": 2
+    },
+    {
+     "name": "Kritika P.",
+     "niche": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "meanFit": 74,
+     "top20For": 2
+    },
+    {
+     "name": "Parth B.",
+     "niche": "Comedy & Entertainment",
+     "tier": "Nano",
+     "meanFit": 74,
+     "top20For": 2
+    },
+    {
+     "name": "Anirban A.",
+     "niche": "Comedy & Entertainment",
+     "tier": "Micro",
+     "meanFit": 72,
+     "top20For": 2
+    },
+    {
+     "name": "Pooja T.",
+     "niche": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "meanFit": 71,
+     "top20For": 1
+    }
+   ],
+   "heat": {
+    "Beauty & Skincare": 67,
+    "Fashion & Style": 66,
+    "Food & Cooking": 69,
+    "Fitness & Wellness": 64,
+    "Personal Finance": 57,
+    "Tech & Gadgets": 56,
+    "Comedy & Entertainment": 72,
+    "Parenting & Family": 58,
+    "Travel": 56,
+    "Lifestyle & Vlogs": 70,
+    "Gaming": 55,
+    "Doctors & Dietitians": 62,
+    "Music & Dance": 65,
+    "Education & Careers": 61,
+    "Home & Decor": 60,
+    "Auto & Bikes": 46
+   }
+  },
+  {
+   "key": "ecom",
+   "label": "E-commerce",
+   "brands": [
+    "Amazon",
+    "Flipkart",
+    "Meesho",
+    "Nykaa"
+   ],
+   "playbook": {
+    "thesis": "Every rupee should trace to an order. The job is CTR × conversion, net of returns, with new-customer share as the quality check.",
+    "kpi": [
+     "Verified orders and revenue, net of returns",
+     "Incremental ROAS from geo holdouts",
+     "New-to-platform customer share",
+     "CAC and 60-day repeat"
+    ],
+    "mix": "Micro and mid-tier creators with high link CTR; storefront and affiliate links; a few macro creators only on sale days.",
+    "formats": "Haul and 'what I bought' Reels, price-drop story stickers, live countdowns before sale events.",
+    "lang": "Regional languages decide tier-2 and tier-3 conversion. Measure by language, not just by creator.",
+    "comp": "Price claims must match the live listing; disclose affiliate earnings; the CCPA's dark-pattern rules apply to urgency claims.",
+    "moments": "Great Indian Festival and Big Billion Days (Sep–Oct), EOSS (Jun, Dec), Pink Friday (Nov)."
+   },
+   "topCreators": [
+    {
+     "name": "Mansi T.",
+     "niche": "Beauty & Skincare",
+     "tier": "Mid-tier",
+     "meanFit": 83,
+     "top20For": 4
+    },
+    {
+     "name": "Gayathri Y.",
+     "niche": "Beauty & Skincare",
+     "tier": "Mid-tier",
+     "meanFit": 82,
+     "top20For": 4
+    },
+    {
+     "name": "Hetal M.",
+     "niche": "Fashion & Style",
+     "tier": "Micro",
+     "meanFit": 82,
+     "top20For": 4
+    },
+    {
+     "name": "Rasika M.",
+     "niche": "Fashion & Style",
+     "tier": "Macro",
+     "meanFit": 82,
+     "top20For": 4
+    },
+    {
+     "name": "Lakshmi G.",
+     "niche": "Beauty & Skincare",
+     "tier": "Micro",
+     "meanFit": 82,
+     "top20For": 4
+    }
+   ],
+   "heat": {
+    "Beauty & Skincare": 81,
+    "Fashion & Style": 80,
+    "Food & Cooking": 68,
+    "Fitness & Wellness": 69,
+    "Personal Finance": 67,
+    "Tech & Gadgets": 68,
+    "Comedy & Entertainment": 53,
+    "Parenting & Family": 68,
+    "Travel": 51,
+    "Lifestyle & Vlogs": 74,
+    "Gaming": 45,
+    "Doctors & Dietitians": 64,
+    "Music & Dance": 50,
+    "Education & Careers": 64,
+    "Home & Decor": 70,
+    "Auto & Bikes": 51
+   }
+  },
+  {
+   "key": "beauty",
+   "label": "Beauty & Personal Care",
+   "brands": [
+    "Olay",
+    "Bioderma",
+    "d'Alba",
+    "Celimax",
+    "Forever52"
+   ],
+   "playbook": {
+    "thesis": "Beauty is bought on proof. Saves, tutorial completion and credible voices predict sales better than likes.",
+    "kpi": [
+     "Saves per view and tutorial completion",
+     "Consideration lift",
+     "PDP click-through and sampling to repeat",
+     "Comment sentiment on efficacy"
+    ],
+    "mix": "Credentialed creators (dermatologists) for actives, micro creators for routines, K-culture Gen-Z creators for K-beauty.",
+    "formats": "Get-ready-with-me videos, 7-day and 28-day challenges, ingredient explainers, honest before-and-after (no filters).",
+    "lang": "English and Hinglish for premium; Hindi and regional languages for masstige makeup.",
+    "comp": "ASCI: no filters that exaggerate results; technical skin claims need qualified creators; no 'cures acne'.",
+    "moments": "Wedding season (Nov–Feb), festive glow (Oct–Nov), monsoon and summer skin."
+   },
+   "topCreators": [
+    {
+     "name": "Lakshmi G.",
+     "niche": "Beauty & Skincare",
+     "tier": "Micro",
+     "meanFit": 82,
+     "top20For": 5
+    },
+    {
+     "name": "Rasika D.",
+     "niche": "Beauty & Skincare",
+     "tier": "Micro",
+     "meanFit": 81,
+     "top20For": 5
+    },
+    {
+     "name": "Aditi B.",
+     "niche": "Beauty & Skincare",
+     "tier": "Micro",
+     "meanFit": 81,
+     "top20For": 5
+    },
+    {
+     "name": "Dhwani K.",
+     "niche": "Beauty & Skincare",
+     "tier": "Micro",
+     "meanFit": 80,
+     "top20For": 4
+    },
+    {
+     "name": "Priyanka T.",
+     "niche": "Beauty & Skincare",
+     "tier": "Micro",
+     "meanFit": 80,
+     "top20For": 5
+    }
+   ],
+   "heat": {
+    "Beauty & Skincare": 81,
+    "Fashion & Style": 74,
+    "Food & Cooking": 60,
+    "Fitness & Wellness": 63,
+    "Personal Finance": 59,
+    "Tech & Gadgets": 55,
+    "Comedy & Entertainment": 51,
+    "Parenting & Family": 60,
+    "Travel": 54,
+    "Lifestyle & Vlogs": 67,
+    "Gaming": 40,
+    "Doctors & Dietitians": 60,
+    "Music & Dance": 50,
+    "Education & Careers": 56,
+    "Home & Decor": 58,
+    "Auto & Bikes": 47
+   }
+  },
+  {
+   "key": "fashion",
+   "label": "Fashion & Footwear",
+   "brands": [
+    "H&M",
+    "Puma",
+    "Crocs",
+    "Zink London",
+    "Neeman's",
+    "Ray-Ban"
+   ],
+   "playbook": {
+    "thesis": "Fashion runs on taste and on returns. Saves and shares show taste; return-adjusted revenue shows whether it sold.",
+    "kpi": [
+     "Saves and shares per view",
+     "PDP click-through",
+     "Revenue net of returns (fashion returns run high)",
+     "Store visits for omnichannel brands"
+    ],
+    "mix": "Micro creators with a distinct style, mid-tier for drops, one or two macro creators for launches.",
+    "formats": "Try-on hauls, fit checks, styling one piece three ways, size-inclusive casting.",
+    "lang": "English and Hinglish lead; Hindi and regional languages for value fashion.",
+    "comp": "Disclose gifted products; avoid misleading 'sustainable' claims without proof (ASCI green claims).",
+    "moments": "EOSS (Jun, Dec), wedding season, festive, back-to-college."
+   },
+   "topCreators": [
+    {
+     "name": "Karan Y.",
+     "niche": "Fashion & Style",
+     "tier": "Micro",
+     "meanFit": 80,
+     "top20For": 6
+    },
+    {
+     "name": "Rasika S.",
+     "niche": "Fashion & Style",
+     "tier": "Mid-tier",
+     "meanFit": 78,
+     "top20For": 5
+    },
+    {
+     "name": "Aanya R.",
+     "niche": "Fashion & Style",
+     "tier": "Nano",
+     "meanFit": 77,
+     "top20For": 5
+    },
+    {
+     "name": "Sahil Y.",
+     "niche": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "meanFit": 77,
+     "top20For": 5
+    },
+    {
+     "name": "Meera M.",
+     "niche": "Fashion & Style",
+     "tier": "Macro",
+     "meanFit": 75,
+     "top20For": 4
+    }
+   ],
+   "heat": {
+    "Beauty & Skincare": 67,
+    "Fashion & Style": 77,
+    "Food & Cooking": 60,
+    "Fitness & Wellness": 67,
+    "Personal Finance": 61,
+    "Tech & Gadgets": 60,
+    "Comedy & Entertainment": 60,
+    "Parenting & Family": 54,
+    "Travel": 61,
+    "Lifestyle & Vlogs": 71,
+    "Gaming": 46,
+    "Doctors & Dietitians": 56,
+    "Music & Dance": 58,
+    "Education & Careers": 60,
+    "Home & Decor": 57,
+    "Auto & Bikes": 52
+   }
+  },
+  {
+   "key": "health",
+   "label": "Healthcare & Wellness",
+   "brands": [
+    "HK Vitals",
+    "Philips",
+    "Tata 1mg",
+    "Cult"
+   ],
+   "playbook": {
+    "thesis": "Trust is the product. A qualified creator with a smaller audience beats a large lifestyle account, and the rules require it for technical claims.",
+    "kpi": [
+     "Credentialed reach (doctors, dietitians)",
+     "Trust and sentiment",
+     "Bookings, consultations or orders",
+     "Repeat purchase at 60–90 days"
+    ],
+    "mix": "Mid-tier doctors and dietitians as the spine, fitness creators for lifestyle use, micro creators for testimonials with disclosure.",
+    "formats": "Myth-busting explainers, day-in-the-life, Q&A lives, routines without cure claims.",
+    "lang": "Hindi and Hinglish first; regional languages for diagnostics and pharmacy.",
+    "comp": "ASCI Addendum II (Apr 2025): technical health claims need qualified creators; Drugs & Magic Remedies Act; no disease-cure language.",
+    "moments": "New-year resolutions (Jan), monsoon health (Jul–Sep), winter immunity."
+   },
+   "topCreators": [
+    {
+     "name": "Vivaan Y.",
+     "niche": "Fitness & Wellness",
+     "tier": "Micro",
+     "meanFit": 78,
+     "top20For": 4
+    },
+    {
+     "name": "Vivaan M.",
+     "niche": "Fitness & Wellness",
+     "tier": "Micro",
+     "meanFit": 77,
+     "top20For": 3
+    },
+    {
+     "name": "Varun S.",
+     "niche": "Fitness & Wellness",
+     "tier": "Micro",
+     "meanFit": 76,
+     "top20For": 3
+    },
+    {
+     "name": "Janhvi B.",
+     "niche": "Fitness & Wellness",
+     "tier": "Micro",
+     "meanFit": 75,
+     "top20For": 3
+    },
+    {
+     "name": "Janhvi P.",
+     "niche": "Fitness & Wellness",
+     "tier": "Mid-tier",
+     "meanFit": 75,
+     "top20For": 2
+    }
+   ],
+   "heat": {
+    "Beauty & Skincare": 69,
+    "Fashion & Style": 66,
+    "Food & Cooking": 68,
+    "Fitness & Wellness": 76,
+    "Personal Finance": 67,
+    "Tech & Gadgets": 62,
+    "Comedy & Entertainment": 51,
+    "Parenting & Family": 64,
+    "Travel": 55,
+    "Lifestyle & Vlogs": 69,
+    "Gaming": 43,
+    "Doctors & Dietitians": 68,
+    "Music & Dance": 51,
+    "Education & Careers": 62,
+    "Home & Decor": 59,
+    "Auto & Bikes": 53
+   }
+  },
+  {
+   "key": "bfsi",
+   "label": "BFSI & Fintech",
+   "brands": [
+    "Groww",
+    "PolicyBazaar",
+    "CRED"
+   ],
+   "playbook": {
+    "thesis": "Finance is the most regulated creator category. The engine gates who may speak, then optimises for funded accounts, not installs.",
+    "kpi": [
+     "Funded accounts or policies issued",
+     "Cost per funded account",
+     "KYC completion rate",
+     "Complaints and grievance rate"
+    ],
+    "mix": "SEBI-registered advisers and analysts for product talk; non-finance creators only for brand-scripted app experience.",
+    "formats": "Long-form YouTube explainers, LinkedIn posts, Hinglish 'how I started my first SIP' with disclaimers.",
+    "lang": "Hinglish and Hindi; Gujarati and Marathi over-index for investing.",
+    "comp": "SEBI rules bar regulated entities from working with unregistered finfluencers who give advice or return claims; IRDAI for insurance; ASCI Addendum II.",
+    "moments": "Tax-saving season (Jan–Mar), IPO windows, new financial year."
+   },
+   "topCreators": [
+    {
+     "name": "Akhil A.",
+     "niche": "Personal Finance",
+     "tier": "Micro",
+     "meanFit": 78,
+     "top20For": 3
+    },
+    {
+     "name": "Meher C.",
+     "niche": "Personal Finance",
+     "tier": "Micro",
+     "meanFit": 75,
+     "top20For": 2
+    },
+    {
+     "name": "Yash S.",
+     "niche": "Education & Careers",
+     "tier": "Micro",
+     "meanFit": 74,
+     "top20For": 2
+    },
+    {
+     "name": "Anjali C.",
+     "niche": "Tech & Gadgets",
+     "tier": "Nano",
+     "meanFit": 73,
+     "top20For": 2
+    },
+    {
+     "name": "Tanvi R.",
+     "niche": "Tech & Gadgets",
+     "tier": "Mid-tier",
+     "meanFit": 72,
+     "top20For": 1
+    }
+   ],
+   "heat": {
+    "Beauty & Skincare": 61,
+    "Fashion & Style": 62,
+    "Food & Cooking": 62,
+    "Fitness & Wellness": 67,
+    "Personal Finance": 71,
+    "Tech & Gadgets": 71,
+    "Comedy & Entertainment": 56,
+    "Parenting & Family": 63,
+    "Travel": 58,
+    "Lifestyle & Vlogs": 66,
+    "Gaming": 46,
+    "Doctors & Dietitians": 62,
+    "Music & Dance": 48,
+    "Education & Careers": 68,
+    "Home & Decor": 59,
+    "Auto & Bikes": 56
+   }
+  },
+  {
+   "key": "tech",
+   "label": "Consumer Tech",
+   "brands": [
+    "HP",
+    "Samsung",
+    "Sony"
+   ],
+   "playbook": {
+    "thesis": "Tech is researched before it is bought. Depth and credibility of review content matter more than reach.",
+    "kpi": [
+     "Consideration lift",
+     "Store and PDP visits",
+     "Search lift for the model name",
+     "Review sentiment"
+    ],
+    "mix": "YouTube reviewers for depth, Shorts and Reels creators for launch buzz, gaming and education creators for laptops.",
+    "formats": "Unboxings, 30-day reviews, comparisons, 'setup tour', student-life integrations.",
+    "lang": "English and Hinglish; Hindi and Tamil for mass phones.",
+    "comp": "No fake or paid-for reviews presented as organic (consumer protection rules on reviews); disclose free devices.",
+    "moments": "Back to college (Jun–Aug), festive (Sep–Nov), launch weeks."
+   },
+   "topCreators": [
+    {
+     "name": "Tanvi S.",
+     "niche": "Tech & Gadgets",
+     "tier": "Micro",
+     "meanFit": 77,
+     "top20For": 3
+    },
+    {
+     "name": "Aanya D.",
+     "niche": "Tech & Gadgets",
+     "tier": "Mid-tier",
+     "meanFit": 73,
+     "top20For": 3
+    },
+    {
+     "name": "Varun P.",
+     "niche": "Tech & Gadgets",
+     "tier": "Micro",
+     "meanFit": 73,
+     "top20For": 3
+    },
+    {
+     "name": "Janhvi D.",
+     "niche": "Education & Careers",
+     "tier": "Micro",
+     "meanFit": 73,
+     "top20For": 2
+    },
+    {
+     "name": "Akhil Y.",
+     "niche": "Comedy & Entertainment",
+     "tier": "Micro",
+     "meanFit": 72,
+     "top20For": 2
+    }
+   ],
+   "heat": {
+    "Beauty & Skincare": 62,
+    "Fashion & Style": 63,
+    "Food & Cooking": 62,
+    "Fitness & Wellness": 65,
+    "Personal Finance": 62,
+    "Tech & Gadgets": 73,
+    "Comedy & Entertainment": 70,
+    "Parenting & Family": 58,
+    "Travel": 59,
+    "Lifestyle & Vlogs": 69,
+    "Gaming": 61,
+    "Doctors & Dietitians": 56,
+    "Music & Dance": 59,
+    "Education & Careers": 68,
+    "Home & Decor": 60,
+    "Auto & Bikes": 56
+   }
+  },
+  {
+   "key": "services",
+   "label": "Food, Travel & Services",
+   "brands": [
+    "McDonald's",
+    "IndiGo",
+    "Urban Company"
+   ],
+   "playbook": {
+    "thesis": "Services are local. City-level creators and redeemable codes tie spend to bookings and visits.",
+    "kpi": [
+     "Bookings or app orders",
+     "Code redemptions by city",
+     "Store or route demand lift",
+     "Repeat bookings"
+    ],
+    "mix": "City-specific micro and mid creators; diaspora creators for international routes (Dubai first).",
+    "formats": "Real-experience vlogs, before-and-after, route launches, limited-time offers.",
+    "lang": "City language first: Marathi in Pune, Kannada in Bengaluru, Malayalam for Gulf routes.",
+    "comp": "Offer terms must match the app; service quality claims need substantiation.",
+    "moments": "Pre-Diwali (Oct), holiday travel (Oct–Dec), monsoon."
+   },
+   "topCreators": [
+    {
+     "name": "Lakshmi D.",
+     "niche": "Food & Cooking",
+     "tier": "Micro",
+     "meanFit": 74,
+     "top20For": 1
+    },
+    {
+     "name": "Sahil Y.",
+     "niche": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "meanFit": 73,
+     "top20For": 1
+    },
+    {
+     "name": "Kritika P.",
+     "niche": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "meanFit": 72,
+     "top20For": 1
+    },
+    {
+     "name": "Pooja T.",
+     "niche": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "meanFit": 71,
+     "top20For": 1
+    },
+    {
+     "name": "Rohan R.",
+     "niche": "Food & Cooking",
+     "tier": "Macro",
+     "meanFit": 70,
+     "top20For": 0
+    }
+   ],
+   "heat": {
+    "Beauty & Skincare": 65,
+    "Fashion & Style": 66,
+    "Food & Cooking": 71,
+    "Fitness & Wellness": 65,
+    "Personal Finance": 62,
+    "Tech & Gadgets": 59,
+    "Comedy & Entertainment": 65,
+    "Parenting & Family": 66,
+    "Travel": 63,
+    "Lifestyle & Vlogs": 71,
+    "Gaming": 47,
+    "Doctors & Dietitians": 59,
+    "Music & Dance": 58,
+    "Education & Careers": 59,
+    "Home & Decor": 66,
+    "Auto & Bikes": 50
+   }
+  },
+  {
+   "key": "ent",
+   "label": "Entertainment & Music",
+   "brands": [
+    "Spotify",
+    "Warner Music India"
+   ],
+   "playbook": {
+    "thesis": "Music and entertainment win by being used, not watched. Audio uses and shares are the leading signal.",
+    "kpi": [
+     "Audio uses and remixes",
+     "Stream lift in week one",
+     "Shares per view",
+     "Ad recall for platform campaigns"
+    ],
+    "mix": "Meme-native comedy and dance creators, regional music creators, nano creators to seed a sound at scale.",
+    "formats": "Dance challenges, duets, lip-syncs, release-week countdowns.",
+    "lang": "Hindi, Punjabi and Tamil over-index; regional pride content travels.",
+    "comp": "Copyright and licensing on audio; disclose label partnerships.",
+    "moments": "Release weeks, Wrapped (Dec), wedding season playlists."
+   },
+   "topCreators": [
+    {
+     "name": "Sakshi A.",
+     "niche": "Comedy & Entertainment",
+     "tier": "Micro",
+     "meanFit": 86,
+     "top20For": 2
+    },
+    {
+     "name": "Akhil Y.",
+     "niche": "Comedy & Entertainment",
+     "tier": "Micro",
+     "meanFit": 83,
+     "top20For": 2
+    },
+    {
+     "name": "Rimjhim P.",
+     "niche": "Comedy & Entertainment",
+     "tier": "Mid-tier",
+     "meanFit": 82,
+     "top20For": 2
+    },
+    {
+     "name": "Parth B.",
+     "niche": "Comedy & Entertainment",
+     "tier": "Nano",
+     "meanFit": 82,
+     "top20For": 2
+    },
+    {
+     "name": "Anirban A.",
+     "niche": "Comedy & Entertainment",
+     "tier": "Micro",
+     "meanFit": 81,
+     "top20For": 2
+    }
+   ],
+   "heat": {
+    "Beauty & Skincare": 64,
+    "Fashion & Style": 71,
+    "Food & Cooking": 67,
+    "Fitness & Wellness": 64,
+    "Personal Finance": 57,
+    "Tech & Gadgets": 62,
+    "Comedy & Entertainment": 83,
+    "Parenting & Family": 55,
+    "Travel": 61,
+    "Lifestyle & Vlogs": 73,
+    "Gaming": 63,
+    "Doctors & Dietitians": 57,
+    "Music & Dance": 78,
+    "Education & Careers": 61,
+    "Home & Decor": 58,
+    "Auto & Bikes": 50
+   }
+  }
+ ],
+ "tiers": [
+  {
+   "key": "nano",
+   "label": "Nano",
+   "min": 3000,
+   "max": 10000,
+   "er": 4.9,
+   "story": 0.12
+  },
+  {
+   "key": "micro",
+   "label": "Micro",
+   "min": 10000,
+   "max": 100000,
+   "er": 2.8,
+   "story": 0.09
+  },
+  {
+   "key": "mid",
+   "label": "Mid-tier",
+   "min": 100000,
+   "max": 500000,
+   "er": 1.4,
+   "story": 0.07
+  },
+  {
+   "key": "macro",
+   "label": "Macro",
+   "min": 500000,
+   "max": 1000000,
+   "er": 0.9,
+   "story": 0.055
+  },
+  {
+   "key": "mega",
+   "label": "Mega",
+   "min": 1000000,
+   "max": 8000000,
+   "er": 0.4,
+   "story": 0.04
+  }
+ ],
+ "creatorStats": {
+  "Nano": {
+   "count": 41,
+   "medianER": 4.39,
+   "medianReel": 2000,
+   "meanRealFollowers": 86.4,
+   "fraudFlagged": 3
+  },
+  "Micro": {
+   "count": 168,
+   "medianER": 2.82,
+   "medianReel": 6000,
+   "meanRealFollowers": 86.1,
+   "fraudFlagged": 6
+  },
+  "Mid-tier": {
+   "count": 130,
+   "medianER": 1.35,
+   "medianReel": 50000,
+   "meanRealFollowers": 82.5,
+   "fraudFlagged": 11
+  },
+  "Macro": {
+   "count": 56,
+   "medianER": 0.81,
+   "medianReel": 137750,
+   "meanRealFollowers": 79.3,
+   "fraudFlagged": 6
+  },
+  "Mega": {
+   "count": 25,
+   "medianER": 0.33,
+   "medianReel": 569000,
+   "meanRealFollowers": 75.3,
+   "fraudFlagged": 6
+  }
+ },
+ "families": [
+  [
+   "Identity & profile",
+   [
+    "Platforms and handles",
+    "Followers by platform",
+    "Tier",
+    "City and state",
+    "Content languages",
+    "Primary category",
+    "Secondary category",
+    "Content pillars",
+    "Credentials (verified)",
+    "Represent roster status",
+    "Market (India / UAE)",
+    "Creator gender"
+   ],
+   "Creator OAuth, Chtrbox CRM"
+  ],
+  [
+   "Audience",
+   [
+    "Gender split",
+    "Age buckets",
+    "City-tier split",
+    "Top cities",
+    "Audience languages",
+    "Affluence index",
+    "Interest affinities",
+    "Audience overlap between creators",
+    "Follower growth, 12 months",
+    "Growth in last 90 days",
+    "Country split",
+    "Active-follower share",
+    "Device / OS mix",
+    "Peak activity hours"
+   ],
+   "Instagram Graph, YouTube Analytics (with consent)"
+  ],
+  [
+   "Content & culture",
+   [
+    "Cultural codes",
+    "Hook strength (first 3 sec)",
+    "Production quality score",
+    "Format mix (Reel, Story, long-form)",
+    "Posting cadence",
+    "Brand-integration style",
+    "Comment sentiment",
+    "Topics and entities",
+    "Visual brand-safety tags"
+   ],
+   "Vision + language models over frames, audio, captions"
+  ],
+  [
+   "Performance",
+   [
+    "Engagement rate",
+    "Average views",
+    "View-through rate",
+    "Hold at 3 seconds",
+    "Saves per view",
+    "Shares per view",
+    "Comment quality",
+    "Story link CTR",
+    "Reel / bio link CTR",
+    "Past conversion rate",
+    "Recall lift from past studies",
+    "Forecast error history"
+   ],
+   "APIs + Chtrbox campaign history"
+  ],
+  [
+   "Authenticity",
+   [
+    "Real and active follower share",
+    "Suspicious growth spikes",
+    "Engagement-pod signal",
+    "Bot share of comments",
+    "Engagement vs follower consistency",
+    "Sponsored-post saturation",
+    "Overlap with bot clusters"
+   ],
+   "Graph analysis, anomaly detection"
+  ],
+  [
+   "Safety & compliance",
+   [
+    "Brand-safety score",
+    "Flag categories",
+    "ASCI disclosure rate",
+    "Credential verification",
+    "Competitor posts, 120 days",
+    "Exclusivity windows",
+    "Past controversies",
+    "Regulated-category eligibility"
+   ],
+   "AI review + human QA, ASCI and SEBI rules"
+  ],
+  [
+   "Commercials",
+   [
+    "Rate card (Reel, Story, YouTube)",
+    "Negotiated-rate history",
+    "On-time delivery",
+    "Response time",
+    "Payment terms",
+    "TDS (194R / 194J) and GST status"
+   ],
+   "Chtrbox ops data"
+  ],
+  [
+   "Outcomes",
+   [
+    "API-verified views",
+    "Unique reach",
+    "Tracked clicks",
+    "Orders and revenue, net of returns",
+    "Incrementality from holdouts",
+    "Brand lift",
+    "12-month customer value",
+    "Content reuse in paid ads"
+   ],
+   "Existing tracking & attribution, brand data, lift studies"
+  ]
+ ],
+ "phases": [
+  [
+   "Days 0–15",
+   "Foundation",
+   [
+    "Inventory data: campaign history, Represent roster, tracking feeds",
+    "Freeze the 76-point schema and the Brand DNA template",
+    "v0 rules model and gates; consent flow for the 104 Represent creators",
+    "Pick 3 pilot brands in Beauty and E-commerce; measure today's baselines"
+   ],
+   "Data inventory signed off, baselines measured, 3 pilots agreed"
+  ],
+  [
+   "Days 16–30",
+   "Shadow mode",
+   [
+    "Engine runs beside strategists on 6–8 live briefs; no change to delivery during festive peak",
+    "Tracking QA becomes a go-live gate: no tracking, no launch",
+    "Design the first holdout and brand-lift study",
+    "Weekly pick-vs-pick review with strategists"
+   ],
+   "Engine picks ≥ 30% of final rosters; zero untracked campaigns"
+  ],
+  [
+   "Days 31–45",
+   "Calibrate",
+   [
+    "Fit forecasts to the first campaign outcomes (v1)",
+    "Tune fraud and safety thresholds on real cases",
+    "Deliver the first Verified ROI report to a pilot brand",
+    "Close the biggest data gaps found in shadow mode"
+   ],
+   "Views MAPE < 30%; first L4 report delivered"
+  ],
+  [
+   "Days 46–60",
+   "Productise",
+   [
+    "Brand-facing ROI report and dashboard template",
+    "Package and price 'Verified ROI' for Brand Solutions",
+    "Train every strategist; add Fashion and FMCG",
+    "15+ campaigns through the engine"
+   ],
+   "25% of campaigns at L4+; 2 packages priced and pitched"
+  ],
+  [
+   "Days 61–90",
+   "Scale",
+   [
+    "50% of campaigns through the engine; v2 learning-to-rank",
+    "Represent utilisation view for talent managers",
+    "Dubai pilot: 300-creator UAE graph for IndiGo-style briefs",
+    "CFO review of the payback model"
+   ],
+   "50% of campaigns at L4+; pitch win rate +5 pts"
+  ],
+  [
+   "Months 4–6",
+   "Prove incrementality",
+   [
+    "Geo holdouts at scale; brand-lift on every awareness brief",
+    "Open regulated verticals (Health, BFSI) behind compliance gates",
+    "Read-only dashboards for the top 10 clients"
+   ],
+   "iROAS reported on 80% of conversion spend"
+  ],
+  [
+   "Year 1",
+   "Standard of proof",
+   [
+    "Every campaign carries an ROI level (L0–L5)",
+    "Creator scorecards inside Represent",
+    "Agency self-serve shortlists",
+    "MENA graph live"
+   ],
+   "90% of revenue at L4+; margin +3 pts"
+  ],
+  [
+   "Year 2",
+   "Platform",
+   [
+    "Creator Intelligence subscriptions for brands and agencies",
+    "Outcome-based pricing on a share of campaigns",
+    "Data partnerships with marketplaces and quick-commerce",
+    "Integrate acquired tech; next markets in GCC"
+   ],
+   "Intelligence revenue line ≥ ₹2 Cr; payback reached"
+  ]
+ ],
+ "ops": 3000,
+ "assist": 2.8,
+ "niches": {
+  "beauty": "Beauty & Skincare",
+  "fashion": "Fashion & Style",
+  "food": "Food & Cooking",
+  "fitness": "Fitness & Wellness",
+  "finance": "Personal Finance",
+  "tech": "Tech & Gadgets",
+  "comedy": "Comedy & Entertainment",
+  "parenting": "Parenting & Family",
+  "travel": "Travel",
+  "lifestyle": "Lifestyle & Vlogs",
+  "gaming": "Gaming",
+  "health": "Doctors & Dietitians",
+  "music": "Music & Dance",
+  "education": "Education & Careers",
+  "home": "Home & Decor",
+  "auto": "Auto & Bikes"
+ },
+ "brandIndex": [
+  {
+   "id": "dabur",
+   "name": "Dabur",
+   "vertical": "fmcg",
+   "status": "Reported client",
+   "defaultObjective": "awareness",
+   "budgetLakh": 18
+  },
+  {
+   "id": "kitkat",
+   "name": "KitKat",
+   "vertical": "fmcg",
+   "status": "Reported client",
+   "defaultObjective": "awareness",
+   "budgetLakh": 14
+  },
+  {
+   "id": "coke",
+   "name": "Coca-Cola",
+   "vertical": "fmcg",
+   "status": "Reported client",
+   "defaultObjective": "awareness",
+   "budgetLakh": 36
+  },
+  {
+   "id": "whisper",
+   "name": "Whisper",
+   "vertical": "fmcg",
+   "status": "Reported client",
+   "defaultObjective": "consideration",
+   "budgetLakh": 12
+  },
+  {
+   "id": "livon",
+   "name": "Livon",
+   "vertical": "fmcg",
+   "status": "Reported client",
+   "defaultObjective": "consideration",
+   "budgetLakh": 8
+  },
+  {
+   "id": "amazon",
+   "name": "Amazon",
+   "vertical": "ecom",
+   "status": "Reported client",
+   "defaultObjective": "conversion",
+   "budgetLakh": 45
+  },
+  {
+   "id": "flipkart",
+   "name": "Flipkart",
+   "vertical": "ecom",
+   "status": "Reported client",
+   "defaultObjective": "conversion",
+   "budgetLakh": 45
+  },
+  {
+   "id": "meesho",
+   "name": "Meesho",
+   "vertical": "ecom",
+   "status": "Reported client",
+   "defaultObjective": "conversion",
+   "budgetLakh": 24
+  },
+  {
+   "id": "nykaa",
+   "name": "Nykaa",
+   "vertical": "ecom",
+   "status": "Reported client",
+   "defaultObjective": "conversion",
+   "budgetLakh": 27
+  },
+  {
+   "id": "olay",
+   "name": "Olay",
+   "vertical": "beauty",
+   "status": "Reported client",
+   "defaultObjective": "consideration",
+   "budgetLakh": 18
+  },
+  {
+   "id": "bioderma",
+   "name": "Bioderma",
+   "vertical": "beauty",
+   "status": "Reported client",
+   "defaultObjective": "consideration",
+   "budgetLakh": 12
+  },
+  {
+   "id": "dalba",
+   "name": "d'Alba",
+   "vertical": "beauty",
+   "status": "Reported client",
+   "defaultObjective": "conversion",
+   "budgetLakh": 9
+  },
+  {
+   "id": "celimax",
+   "name": "Celimax",
+   "vertical": "beauty",
+   "status": "Reported client",
+   "defaultObjective": "conversion",
+   "budgetLakh": 8
+  },
+  {
+   "id": "forever52",
+   "name": "Forever52",
+   "vertical": "beauty",
+   "status": "Reported client",
+   "defaultObjective": "conversion",
+   "budgetLakh": 6
+  },
+  {
+   "id": "hm",
+   "name": "H&M",
+   "vertical": "fashion",
+   "status": "Reported client",
+   "defaultObjective": "consideration",
+   "budgetLakh": 15
+  },
+  {
+   "id": "puma",
+   "name": "Puma",
+   "vertical": "fashion",
+   "status": "Reported client",
+   "defaultObjective": "consideration",
+   "budgetLakh": 21
+  },
+  {
+   "id": "crocs",
+   "name": "Crocs",
+   "vertical": "fashion",
+   "status": "Reported client",
+   "defaultObjective": "conversion",
+   "budgetLakh": 10
+  },
+  {
+   "id": "zink",
+   "name": "Zink London",
+   "vertical": "fashion",
+   "status": "Reported client",
+   "defaultObjective": "conversion",
+   "budgetLakh": 6
+  },
+  {
+   "id": "neemans",
+   "name": "Neeman's",
+   "vertical": "fashion",
+   "status": "Reported client",
+   "defaultObjective": "conversion",
+   "budgetLakh": 6
+  },
+  {
+   "id": "rayban",
+   "name": "Ray-Ban",
+   "vertical": "fashion",
+   "status": "Reported client",
+   "defaultObjective": "consideration",
+   "budgetLakh": 14
+  },
+  {
+   "id": "hkvitals",
+   "name": "HK Vitals",
+   "vertical": "health",
+   "status": "Reported client",
+   "defaultObjective": "conversion",
+   "budgetLakh": 15
+  },
+  {
+   "id": "philips",
+   "name": "Philips",
+   "vertical": "health",
+   "status": "Reported client",
+   "defaultObjective": "consideration",
+   "budgetLakh": 14
+  },
+  {
+   "id": "tata1mg",
+   "name": "Tata 1mg",
+   "vertical": "health",
+   "status": "Prospect",
+   "defaultObjective": "conversion",
+   "budgetLakh": 18
+  },
+  {
+   "id": "cult",
+   "name": "Cult",
+   "vertical": "health",
+   "status": "Prospect",
+   "defaultObjective": "conversion",
+   "budgetLakh": 12
+  },
+  {
+   "id": "groww",
+   "name": "Groww",
+   "vertical": "bfsi",
+   "status": "Prospect",
+   "defaultObjective": "conversion",
+   "budgetLakh": 24
+  },
+  {
+   "id": "policybazaar",
+   "name": "PolicyBazaar",
+   "vertical": "bfsi",
+   "status": "Prospect",
+   "defaultObjective": "conversion",
+   "budgetLakh": 21
+  },
+  {
+   "id": "cred",
+   "name": "CRED",
+   "vertical": "bfsi",
+   "status": "Prospect",
+   "defaultObjective": "awareness",
+   "budgetLakh": 27
+  },
+  {
+   "id": "hp",
+   "name": "HP",
+   "vertical": "tech",
+   "status": "Reported client",
+   "defaultObjective": "consideration",
+   "budgetLakh": 24
+  },
+  {
+   "id": "samsung",
+   "name": "Samsung",
+   "vertical": "tech",
+   "status": "Reported client",
+   "defaultObjective": "consideration",
+   "budgetLakh": 45
+  },
+  {
+   "id": "sony",
+   "name": "Sony",
+   "vertical": "tech",
+   "status": "Reported client",
+   "defaultObjective": "consideration",
+   "budgetLakh": 15
+  },
+  {
+   "id": "mcd",
+   "name": "McDonald's",
+   "vertical": "services",
+   "status": "Reported client",
+   "defaultObjective": "awareness",
+   "budgetLakh": 14
+  },
+  {
+   "id": "indigo",
+   "name": "IndiGo",
+   "vertical": "services",
+   "status": "Reported client",
+   "defaultObjective": "consideration",
+   "budgetLakh": 18
+  },
+  {
+   "id": "urbanco",
+   "name": "Urban Company",
+   "vertical": "services",
+   "status": "Reported client",
+   "defaultObjective": "conversion",
+   "budgetLakh": 12
+  },
+  {
+   "id": "spotify",
+   "name": "Spotify",
+   "vertical": "ent",
+   "status": "Reported client",
+   "defaultObjective": "awareness",
+   "budgetLakh": 15
+  },
+  {
+   "id": "warner",
+   "name": "Warner Music India",
+   "vertical": "ent",
+   "status": "Reported client",
+   "defaultObjective": "awareness",
+   "budgetLakh": 6
+  }
+ ]
+}

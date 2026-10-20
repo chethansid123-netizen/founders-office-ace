@@ -1,0 +1,1793 @@
+{
+ "id": "tata1mg",
+ "name": "Tata 1mg",
+ "parent": "Tata Digital",
+ "vertical": "health",
+ "sub": "E-pharmacy & diagnostics",
+ "status": "Prospect",
+ "defaultObjective": "conversion",
+ "brief": "Make full-body checkups a family habit through doctors people already trust.",
+ "moment": "Monsoon health · Jul–Sep",
+ "budgetLakh": 18,
+ "target": {
+  "fem": 0.55,
+  "age": [
+   0.01,
+   0.16,
+   0.4,
+   0.27,
+   0.16
+  ],
+  "tiers": [
+   0.4,
+   0.38,
+   0.22
+  ],
+  "affl": 0.45
+ },
+ "languages": {
+  "Hindi": 1,
+  "Hinglish": 0.95,
+  "English": 0.85,
+  "Tamil": 0.6,
+  "Telugu": 0.6,
+  "Bengali": 0.6,
+  "Marathi": 0.6
+ },
+ "codes": [
+  "Science-backed",
+  "Family-first",
+  "Value-seeker"
+ ],
+ "affinity": {
+  "health": 1,
+  "parenting": 0.8,
+  "fitness": 0.65,
+  "food": 0.5,
+  "lifestyle": 0.5
+ },
+ "competitors": [
+  "PharmEasy",
+  "Apollo 24|7",
+  "Netmeds"
+ ],
+ "compliance": "health",
+ "aov": 800,
+ "conversionRate": 0.05,
+ "kpis": [
+  "Lab test bookings",
+  "CAC",
+  "Repeat orders"
+ ],
+ "markets": [
+  "India"
+ ],
+ "tgPoolMillions": 150,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 351,
+   "gated": 69,
+   "gatesByReason": {
+    "reg": 12,
+    "conflict": 8,
+    "fraud": 32,
+    "safety": 4,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Riya T.",
+     "id": "CIE-1385",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    },
+    {
+     "name": "Pavithra S.",
+     "id": "CIE-1269",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    },
+    {
+     "name": "Chirag J.",
+     "id": "CIE-1259",
+     "reasons": [
+      "Posted for Apollo 24|7 28 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Nithya Y.",
+     "id": "CIE-1053",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1274",
+     "name": "Ankita K.",
+     "niche": "Doctors & Dietitians",
+     "niche2": "Parenting & Family",
+     "tier": "Micro",
+     "followers": 15061,
+     "city": "Kolkata",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "MBBS doctor",
+     "fit": 85,
+     "parts": {
+      "aud": 78,
+      "cont": 95,
+      "cult": 92,
+      "perf": 90,
+      "auth": 74,
+      "safe": 85,
+      "cost": 85
+     },
+     "contributions": {
+      "aud": 17.1,
+      "cont": 14.3,
+      "cult": 12.8,
+      "perf": 13.4,
+      "auth": 10.3,
+      "safe": 8.5,
+      "cost": 8.5
+     },
+     "confidence": "Low",
+     "er": 3.63,
+     "linkCtr": 0.59,
+     "realFollowers": 88.3,
+     "viewThrough": 50.3,
+     "hold3s": 75.8,
+     "sponsoredShare": 32,
+     "adDisclosure": 89,
+     "safety": 83,
+     "audienceWomen": 0.706,
+     "forecast": {
+      "cost": 7000,
+      "views": 8145,
+      "tgViews": 5549,
+      "tgShare": 0.77,
+      "engagements": 628,
+      "clicks": 43,
+      "orders": 8.7,
+      "revenue": 6929,
+      "roas": 0.99,
+      "recallLiftPts": 9.9,
+      "costPerTgView": 1.26,
+      "costPerEngagement": 11.15,
+      "costPerClick": 163.83
+     },
+     "why": [
+      "Audience matches the brief: 71% women (target 55%), 93% age overlap, 77% city-tier overlap",
+      "Doctors &amp; Dietitians is a core category for Tata 1mg, with parenting &amp; family as a second pillar",
+      "Viewers watch 50% of each video, top 20% of micro creators; past recall lift +9.5 pts",
+      "Creates in English; shares the Family-first and Science-backed codes"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1054",
+     "name": "Ishani S.",
+     "niche": "Parenting & Family",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Mid-tier",
+     "followers": 462025,
+     "city": "Kolkata",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.1,
+     "parts": {
+      "aud": 76,
+      "cont": 85,
+      "cult": 97,
+      "perf": 90,
+      "auth": 61,
+      "safe": 92,
+      "cost": 88
+     },
+     "contributions": {
+      "aud": 16.7,
+      "cont": 12.8,
+      "cult": 13.6,
+      "perf": 13.5,
+      "auth": 8.5,
+      "safe": 9.2,
+      "cost": 8.8
+     },
+     "confidence": "High",
+     "er": 1.17,
+     "linkCtr": 0.97,
+     "realFollowers": 83.4,
+     "viewThrough": 54.2,
+     "hold3s": 74.4,
+     "sponsoredShare": 46,
+     "adDisclosure": 92,
+     "safety": 92,
+     "audienceWomen": 0.848,
+     "forecast": {
+      "cost": 125000,
+      "views": 175371,
+      "tgViews": 111129,
+      "tgShare": 0.76,
+      "engagements": 7346,
+      "clicks": 1496,
+      "orders": 306.7,
+      "revenue": 245338,
+      "roas": 1.96,
+      "recallLiftPts": 8.7,
+      "costPerTgView": 1.12,
+      "costPerEngagement": 17.02,
+      "costPerClick": 83.55
+     },
+     "why": [
+      "Audience matches the brief: 85% women (target 55%), 88% age overlap, 93% city-tier overlap",
+      "Creates in Hinglish, Tata 1mg's lead language; shares the Family-first and Value-seeker codes",
+      "Viewers watch 54% of each video, top 9% of mid-tier creators; past recall lift +8.8 pts",
+      "Parenting &amp; Family is a core category for Tata 1mg, with doctors &amp; dietitians as a second pillar"
+     ],
+     "risks": [
+      "Ad fatigue: 46% of recent posts are sponsored",
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1009",
+     "name": "Kavya T.",
+     "niche": "Parenting & Family",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Mid-tier",
+     "followers": 264641,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.2,
+     "parts": {
+      "aud": 76,
+      "cont": 85,
+      "cult": 100,
+      "perf": 63,
+      "auth": 77,
+      "safe": 82,
+      "cost": 92
+     },
+     "contributions": {
+      "aud": 16.7,
+      "cont": 12.8,
+      "cult": 14,
+      "perf": 9.5,
+      "auth": 10.8,
+      "safe": 8.2,
+      "cost": 9.2
+     },
+     "confidence": "Low",
+     "er": 1.64,
+     "linkCtr": 1.5,
+     "realFollowers": 90.4,
+     "viewThrough": 49.4,
+     "hold3s": 74.2,
+     "sponsoredShare": 32,
+     "adDisclosure": 82,
+     "safety": 82,
+     "audienceWomen": 0.832,
+     "forecast": {
+      "cost": 72000,
+      "views": 115919,
+      "tgViews": 79674,
+      "tgShare": 0.76,
+      "engagements": 5452,
+      "clicks": 1417,
+      "orders": 259.2,
+      "revenue": 207359,
+      "roas": 2.88,
+      "recallLiftPts": 5.2,
+      "costPerTgView": 0.9,
+      "costPerEngagement": 13.21,
+      "costPerClick": 50.82
+     },
+     "why": [
+      "Audience matches the brief: 83% women (target 55%), 84% age overlap, 96% city-tier overlap",
+      "Creates in Hindi, Tata 1mg's lead language; shares the Family-first and Science-backed codes",
+      "Parenting &amp; Family is a core category for Tata 1mg, with doctors &amp; dietitians as a second pillar",
+      "90% of followers look real and active; 32% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1295",
+     "name": "Krupa K.",
+     "niche": "Parenting & Family",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 11890,
+     "city": "Mumbai",
+     "languages": [
+      "Marathi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.2,
+     "parts": {
+      "aud": 75,
+      "cont": 85,
+      "cult": 78,
+      "perf": 86,
+      "auth": 76,
+      "safe": 94,
+      "cost": 81
+     },
+     "contributions": {
+      "aud": 16.5,
+      "cont": 12.8,
+      "cult": 10.9,
+      "perf": 12.9,
+      "auth": 10.6,
+      "safe": 9.4,
+      "cost": 8.1
+     },
+     "confidence": "Medium",
+     "er": 5.02,
+     "linkCtr": 0.68,
+     "realFollowers": 88.8,
+     "viewThrough": 50.2,
+     "hold3s": 69.7,
+     "sponsoredShare": 23,
+     "adDisclosure": 100,
+     "safety": 90,
+     "audienceWomen": 0.791,
+     "forecast": {
+      "cost": 5000,
+      "views": 5619,
+      "tgViews": 3756,
+      "tgShare": 0.75,
+      "engagements": 661,
+      "clicks": 34,
+      "orders": 7.4,
+      "revenue": 5935,
+      "roas": 1.19,
+      "recallLiftPts": 9.9,
+      "costPerTgView": 1.33,
+      "costPerEngagement": 7.56,
+      "costPerClick": 146.15
+     },
+     "why": [
+      "Audience matches the brief: 79% women (target 55%), 88% age overlap, 85% city-tier overlap",
+      "Viewers watch 50% of each video, top 21% of micro creators; past recall lift +10.1 pts",
+      "Parenting &amp; Family is a core category for Tata 1mg, with doctors &amp; dietitians as a second pillar",
+      "Creates in Marathi; shares the Family-first and Science-backed codes"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1055",
+     "name": "Varsha B.",
+     "niche": "Food & Cooking",
+     "niche2": "Parenting & Family",
+     "tier": "Micro",
+     "followers": 67015,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81,
+     "parts": {
+      "aud": 95,
+      "cont": 57,
+      "cult": 55,
+      "perf": 94,
+      "auth": 80,
+      "safe": 85,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 20.9,
+      "cont": 8.6,
+      "cult": 7.7,
+      "perf": 14.1,
+      "auth": 11.2,
+      "safe": 8.5,
+      "cost": 10
+     },
+     "confidence": "High",
+     "er": 1.76,
+     "linkCtr": 1.27,
+     "realFollowers": 89.5,
+     "viewThrough": 53.6,
+     "hold3s": 76.4,
+     "sponsoredShare": 22,
+     "adDisclosure": 80,
+     "safety": 89,
+     "audienceWomen": 0.66,
+     "forecast": {
+      "cost": 13500,
+      "views": 48022,
+      "tgViews": 38110,
+      "tgShare": 0.89,
+      "engagements": 1541,
+      "clicks": 359,
+      "orders": 54.1,
+      "revenue": 43260,
+      "roas": 3.2,
+      "recallLiftPts": 8.5,
+      "costPerTgView": 0.35,
+      "costPerEngagement": 8.76,
+      "costPerClick": 37.62
+     },
+     "why": [
+      "Audience matches the brief: 66% women (target 55%), 91% age overlap, 95% city-tier overlap",
+      "Viewers watch 54% of each video, top 11% of micro creators; past recall lift +9.8 pts",
+      "90% of followers look real and active; 22% of recent posts are sponsored",
+      "₹0.35 per verified TG view for 1 reel and 2 stories (₹14K)"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 43,
+    "spend": 1799500,
+    "views": 2863897,
+    "tgViews": 1915386,
+    "uniqueTgReach": 1183140,
+    "engagements": 111522,
+    "clicks": 14632,
+    "orders": 2427,
+    "revenue": 1941308,
+    "roas": 1.08,
+    "recallLiftPts": 5.3,
+    "fakeAudienceShare": 0.14,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 22,
+    "spendByTier": {
+     "micro": 400000,
+     "mid": 791500,
+     "macro": 608000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 1,
+    "spend": 1779000,
+    "views": 1190448,
+    "tgViews": 527819,
+    "uniqueTgReach": 327248,
+    "engagements": 35822,
+    "clicks": 3964,
+    "orders": 400,
+    "revenue": 319670,
+    "roas": 0.18,
+    "recallLiftPts": 3,
+    "fakeAudienceShare": 0.45,
+    "gatedIncluded": 1,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 1779000
+    }
+   },
+   "planCreators": [
+    "Varsha B. (Micro, Food & Cooking)",
+    "Tanvi C. (Micro, Food & Cooking)",
+    "Kavya T. (Mid-tier, Parenting & Family)",
+    "Priyanka M. (Mid-tier, Food & Cooking)",
+    "Hetal A. (Mid-tier, Food & Cooking)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Kritika D. (Micro, Home & Decor)",
+    "Aanya N. (Micro, Food & Cooking)",
+    "Pooja V. (Micro, Parenting & Family)",
+    "Siddharth C. (Micro, Food & Cooking)",
+    "Keerthi B. (Macro, Beauty & Skincare)",
+    "Moumita N. (Micro, Parenting & Family)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 351,
+   "gated": 69,
+   "gatesByReason": {
+    "reg": 12,
+    "conflict": 8,
+    "fraud": 32,
+    "safety": 4,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Rasika K.",
+     "id": "CIE-1013",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    },
+    {
+     "name": "Riya T.",
+     "id": "CIE-1385",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    },
+    {
+     "name": "Pavithra S.",
+     "id": "CIE-1269",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    },
+    {
+     "name": "Chirag J.",
+     "id": "CIE-1259",
+     "reasons": [
+      "Posted for Apollo 24|7 28 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1274",
+     "name": "Ankita K.",
+     "niche": "Doctors & Dietitians",
+     "niche2": "Parenting & Family",
+     "tier": "Micro",
+     "followers": 15061,
+     "city": "Kolkata",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "MBBS doctor",
+     "fit": 81,
+     "parts": {
+      "aud": 78,
+      "cont": 95,
+      "cult": 92,
+      "perf": 75,
+      "auth": 74,
+      "safe": 85,
+      "cost": 71
+     },
+     "contributions": {
+      "aud": 15.6,
+      "cont": 17.1,
+      "cult": 9.2,
+      "perf": 14.9,
+      "auth": 10.3,
+      "safe": 6.8,
+      "cost": 7.1
+     },
+     "confidence": "Low",
+     "er": 3.63,
+     "linkCtr": 0.59,
+     "realFollowers": 88.3,
+     "viewThrough": 50.3,
+     "hold3s": 75.8,
+     "sponsoredShare": 32,
+     "adDisclosure": 89,
+     "safety": 83,
+     "audienceWomen": 0.706,
+     "forecast": {
+      "cost": 7000,
+      "views": 8145,
+      "tgViews": 5549,
+      "tgShare": 0.77,
+      "engagements": 628,
+      "clicks": 43,
+      "orders": 8.7,
+      "revenue": 6929,
+      "roas": 0.99,
+      "recallLiftPts": 9.9,
+      "costPerTgView": 1.26,
+      "costPerEngagement": 11.15,
+      "costPerClick": 163.83
+     },
+     "why": [
+      "Doctors &amp; Dietitians is a core category for Tata 1mg, with parenting &amp; family as a second pillar",
+      "Audience matches the brief: 71% women (target 55%), 93% age overlap, 77% city-tier overlap",
+      "Engagement rate 3.6%, top 23% of micro creators; 3.3% of viewers save or share",
+      "88% of followers look real and active; 32% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1295",
+     "name": "Krupa K.",
+     "niche": "Parenting & Family",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 11890,
+     "city": "Mumbai",
+     "languages": [
+      "Marathi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.6,
+     "parts": {
+      "aud": 75,
+      "cont": 85,
+      "cult": 78,
+      "perf": 74,
+      "auth": 76,
+      "safe": 94,
+      "cost": 96
+     },
+     "contributions": {
+      "aud": 15,
+      "cont": 15.3,
+      "cult": 7.8,
+      "perf": 14.8,
+      "auth": 10.6,
+      "safe": 7.5,
+      "cost": 9.6
+     },
+     "confidence": "Medium",
+     "er": 5.02,
+     "linkCtr": 0.68,
+     "realFollowers": 88.8,
+     "viewThrough": 50.2,
+     "hold3s": 69.7,
+     "sponsoredShare": 23,
+     "adDisclosure": 100,
+     "safety": 90,
+     "audienceWomen": 0.791,
+     "forecast": {
+      "cost": 5000,
+      "views": 5619,
+      "tgViews": 3756,
+      "tgShare": 0.75,
+      "engagements": 661,
+      "clicks": 34,
+      "orders": 7.4,
+      "revenue": 5935,
+      "roas": 1.19,
+      "recallLiftPts": 9.9,
+      "costPerTgView": 1.33,
+      "costPerEngagement": 7.56,
+      "costPerClick": 146.15
+     },
+     "why": [
+      "Parenting &amp; Family is a core category for Tata 1mg, with doctors &amp; dietitians as a second pillar",
+      "Audience matches the brief: 79% women (target 55%), 88% age overlap, 85% city-tier overlap",
+      "Engagement rate 5.0%, top 7% of micro creators; 2.0% of viewers save or share",
+      "89% of followers look real and active; 23% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1263",
+     "name": "Dhwani R.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 46218,
+     "city": "Pune",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.8,
+     "parts": {
+      "aud": 91,
+      "cont": 74,
+      "cult": 78,
+      "perf": 71,
+      "auth": 74,
+      "safe": 83,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 18.2,
+      "cont": 13.3,
+      "cult": 7.8,
+      "perf": 14.2,
+      "auth": 10.3,
+      "safe": 6.7,
+      "cost": 9.4
+     },
+     "confidence": "Medium",
+     "er": 5.31,
+     "linkCtr": 0.68,
+     "realFollowers": 89.6,
+     "viewThrough": 50.4,
+     "hold3s": 74.3,
+     "sponsoredShare": 35,
+     "adDisclosure": 90,
+     "safety": 79,
+     "audienceWomen": 0.489,
+     "forecast": {
+      "cost": 21500,
+      "views": 20704,
+      "tgViews": 15968,
+      "tgShare": 0.86,
+      "engagements": 2704,
+      "clicks": 120,
+      "orders": 21.9,
+      "revenue": 17494,
+      "roas": 0.81,
+      "recallLiftPts": 4.3,
+      "costPerTgView": 1.35,
+      "costPerEngagement": 7.95,
+      "costPerClick": 179.27
+     },
+     "why": [
+      "Audience matches the brief: 49% women (target 55%), 87% age overlap, 96% city-tier overlap",
+      "Engagement rate 5.3%, top 5% of micro creators; 2.5% of viewers save or share",
+      "Fitness &amp; Wellness is a strong category for Tata 1mg, with doctors &amp; dietitians as a second pillar",
+      "90% of followers look real and active; 35% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1241",
+     "name": "Rutuja K.",
+     "niche": "Parenting & Family",
+     "niche2": "Food & Cooking",
+     "tier": "Micro",
+     "followers": 80342,
+     "city": "Mumbai",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 77.7,
+     "parts": {
+      "aud": 71,
+      "cont": 73,
+      "cult": 97,
+      "perf": 79,
+      "auth": 77,
+      "safe": 85,
+      "cost": 74
+     },
+     "contributions": {
+      "aud": 14.2,
+      "cont": 13.1,
+      "cult": 9.7,
+      "perf": 15.8,
+      "auth": 10.8,
+      "safe": 6.8,
+      "cost": 7.4
+     },
+     "confidence": "High",
+     "er": 3.46,
+     "linkCtr": 0.48,
+     "realFollowers": 89.7,
+     "viewThrough": 36.8,
+     "hold3s": 52.1,
+     "sponsoredShare": 33,
+     "adDisclosure": 97,
+     "safety": 77,
+     "audienceWomen": 0.78,
+     "forecast": {
+      "cost": 30000,
+      "views": 8518,
+      "tgViews": 5547,
+      "tgShare": 0.73,
+      "engagements": 2780,
+      "clicks": 27,
+      "orders": 5.5,
+      "revenue": 4366,
+      "roas": 0.15,
+      "recallLiftPts": 4.9,
+      "costPerTgView": 5.41,
+      "costPerEngagement": 10.79,
+      "costPerClick": 1109.42
+     },
+     "why": [
+      "Engagement rate 3.5%, top 28% of micro creators; 3.0% of viewers save or share",
+      "Audience matches the brief: 78% women (target 55%), 84% age overlap, 79% city-tier overlap",
+      "Parenting &amp; Family is a strong category for Tata 1mg, with food &amp; cooking as a second pillar",
+      "90% of followers look real and active; 33% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1194",
+     "name": "Kunal J.",
+     "niche": "Food & Cooking",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 33892,
+     "city": "Indore",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77,
+     "parts": {
+      "aud": 90,
+      "cont": 63,
+      "cult": 55,
+      "perf": 82,
+      "auth": 69,
+      "safe": 90,
+      "cost": 88
+     },
+     "contributions": {
+      "aud": 18,
+      "cont": 11.3,
+      "cult": 5.5,
+      "perf": 16.5,
+      "auth": 9.7,
+      "safe": 7.2,
+      "cost": 8.8
+     },
+     "confidence": "Medium",
+     "er": 4.99,
+     "linkCtr": 0.64,
+     "realFollowers": 86.5,
+     "viewThrough": 44.4,
+     "hold3s": 62,
+     "sponsoredShare": 38,
+     "adDisclosure": 88,
+     "safety": 92,
+     "audienceWomen": 0.626,
+     "forecast": {
+      "cost": 16000,
+      "views": 21953,
+      "tgViews": 16213,
+      "tgShare": 0.85,
+      "engagements": 1874,
+      "clicks": 90,
+      "orders": 14,
+      "revenue": 11202,
+      "roas": 0.7,
+      "recallLiftPts": 5.4,
+      "costPerTgView": 0.99,
+      "costPerEngagement": 8.54,
+      "costPerClick": 177.13
+     },
+     "why": [
+      "Audience matches the brief: 63% women (target 55%), 85% age overlap, 91% city-tier overlap",
+      "Engagement rate 5.0%, top 7% of micro creators; 2.8% of viewers save or share",
+      "Food &amp; Cooking is a strong category for Tata 1mg, with doctors &amp; dietitians as a second pillar",
+      "87% of followers look real and active; 38% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 80,
+    "spend": 1786500,
+    "views": 1914946,
+    "tgViews": 1282876,
+    "uniqueTgReach": 793352,
+    "engagements": 162822,
+    "clicks": 8752,
+    "orders": 1382,
+    "revenue": 1105850,
+    "roas": 0.62,
+    "recallLiftPts": 4.3,
+    "fakeAudienceShare": 0.11,
+    "gatedIncluded": 0,
+    "representCreators": 2,
+    "representSpend": 260000,
+    "forecastBandPct": 24,
+    "spendByTier": {
+     "micro": 962500,
+     "nano": 21500,
+     "mid": 545000,
+     "macro": 257500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 1,
+    "spend": 1779000,
+    "views": 1190448,
+    "tgViews": 527819,
+    "uniqueTgReach": 327248,
+    "engagements": 35822,
+    "clicks": 3964,
+    "orders": 400,
+    "revenue": 319670,
+    "roas": 0.18,
+    "recallLiftPts": 3,
+    "fakeAudienceShare": 0.45,
+    "gatedIncluded": 1,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 1779000
+    }
+   },
+   "planCreators": [
+    "Moumita N. (Micro, Parenting & Family)",
+    "Dhwani R. (Micro, Fitness & Wellness)",
+    "Kunal K. (Micro, Fitness & Wellness)",
+    "Krupa K. (Micro, Parenting & Family)",
+    "Rutuja K. (Micro, Parenting & Family)",
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Vivaan Y. (Micro, Fitness & Wellness)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Kunal J. (Micro, Food & Cooking)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Varsha B. (Micro, Food & Cooking)",
+    "Janhvi C. (Micro, Parenting & Family)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 351,
+   "gated": 69,
+   "gatesByReason": {
+    "reg": 12,
+    "conflict": 8,
+    "fraud": 32,
+    "market": 18,
+    "safety": 4
+   },
+   "gatedExamples": [
+    {
+     "name": "Rasika K.",
+     "id": "CIE-1013",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    },
+    {
+     "name": "Sneha V.",
+     "id": "CIE-1267",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    },
+    {
+     "name": "Janhvi A.",
+     "id": "CIE-1304",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    },
+    {
+     "name": "Riya T.",
+     "id": "CIE-1385",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1009",
+     "name": "Kavya T.",
+     "niche": "Parenting & Family",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Mid-tier",
+     "followers": 264641,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.7,
+     "parts": {
+      "aud": 76,
+      "cont": 85,
+      "cult": 100,
+      "perf": 84,
+      "auth": 77,
+      "safe": 82,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 13.7,
+      "cont": 11.9,
+      "cult": 8,
+      "perf": 21.7,
+      "auth": 10.8,
+      "safe": 6.6,
+      "cost": 12
+     },
+     "confidence": "Low",
+     "er": 1.64,
+     "linkCtr": 1.5,
+     "realFollowers": 90.4,
+     "viewThrough": 49.4,
+     "hold3s": 74.2,
+     "sponsoredShare": 32,
+     "adDisclosure": 82,
+     "safety": 82,
+     "audienceWomen": 0.832,
+     "forecast": {
+      "cost": 72000,
+      "views": 115919,
+      "tgViews": 79674,
+      "tgShare": 0.76,
+      "engagements": 5452,
+      "clicks": 1417,
+      "orders": 259.2,
+      "revenue": 207359,
+      "roas": 2.88,
+      "recallLiftPts": 5.2,
+      "costPerTgView": 0.9,
+      "costPerEngagement": 13.21,
+      "costPerClick": 50.82
+     },
+     "why": [
+      "Link CTR 1.50%, top 4% of mid-tier creators; trust index 1.08",
+      "Audience matches the brief: 83% women (target 55%), 84% age overlap, 96% city-tier overlap",
+      "Forecast 2.9× ROAS on ₹72K, about 259 orders",
+      "Parenting &amp; Family is a core category for Tata 1mg, with doctors &amp; dietitians as a second pillar"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1332",
+     "name": "Kunal K.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Food & Cooking",
+     "tier": "Micro",
+     "followers": 32206,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.8,
+     "parts": {
+      "aud": 87,
+      "cont": 61,
+      "cult": 52,
+      "perf": 89,
+      "auth": 74,
+      "safe": 90,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 15.6,
+      "cont": 8.6,
+      "cult": 4.2,
+      "perf": 23,
+      "auth": 10.4,
+      "safe": 7.2,
+      "cost": 11.8
+     },
+     "confidence": "Low",
+     "er": 3.45,
+     "linkCtr": 1.58,
+     "realFollowers": 90.9,
+     "viewThrough": 27.7,
+     "hold3s": 40.9,
+     "sponsoredShare": 44,
+     "adDisclosure": 92,
+     "safety": 88,
+     "audienceWomen": 0.497,
+     "forecast": {
+      "cost": 11000,
+      "views": 12835,
+      "tgViews": 9692,
+      "tgShare": 0.83,
+      "engagements": 1285,
+      "clicks": 168,
+      "orders": 29.1,
+      "revenue": 23281,
+      "roas": 2.12,
+      "recallLiftPts": 2.1,
+      "costPerTgView": 1.13,
+      "costPerEngagement": 8.56,
+      "costPerClick": 65.53
+     },
+     "why": [
+      "Link CTR 1.58%, top 1% of micro creators; trust index 1.16",
+      "Audience matches the brief: 50% women (target 55%), 81% age overlap, 96% city-tier overlap",
+      "Forecast 2.1× ROAS on ₹11K, about 29 orders",
+      "91% of followers look real and active; 44% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1255",
+     "name": "Saloni G.",
+     "niche": "Parenting & Family",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Mid-tier",
+     "followers": 360846,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.3,
+     "parts": {
+      "aud": 74,
+      "cont": 85,
+      "cult": 100,
+      "perf": 69,
+      "auth": 73,
+      "safe": 91,
+      "cost": 96
+     },
+     "contributions": {
+      "aud": 13.3,
+      "cont": 11.9,
+      "cult": 8,
+      "perf": 18,
+      "auth": 10.3,
+      "safe": 7.2,
+      "cost": 11.6
+     },
+     "confidence": "Low",
+     "er": 1.71,
+     "linkCtr": 0.89,
+     "realFollowers": 86.2,
+     "viewThrough": 45.4,
+     "hold3s": 59.5,
+     "sponsoredShare": 25,
+     "adDisclosure": 93,
+     "safety": 89,
+     "audienceWomen": 0.861,
+     "forecast": {
+      "cost": 113000,
+      "views": 122312,
+      "tgViews": 78729,
+      "tgShare": 0.75,
+      "engagements": 7686,
+      "clicks": 1021,
+      "orders": 198.8,
+      "revenue": 159072,
+      "roas": 1.41,
+      "recallLiftPts": 6,
+      "costPerTgView": 1.44,
+      "costPerEngagement": 14.7,
+      "costPerClick": 110.71
+     },
+     "why": [
+      "Link CTR 0.89%, top 40% of mid-tier creators; trust index 1.15",
+      "Audience matches the brief: 86% women (target 55%), 84% age overlap, 100% city-tier overlap",
+      "Parenting &amp; Family is a core category for Tata 1mg, with doctors &amp; dietitians as a second pillar",
+      "Forecast 1.4× ROAS on ₹1.13L, about 199 orders"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1209",
+     "name": "Tejas J.",
+     "niche": "Parenting & Family",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Mega",
+     "followers": 7130547,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": true,
+     "credential": null,
+     "fit": 79.1,
+     "parts": {
+      "aud": 85,
+      "cont": 85,
+      "cult": 97,
+      "perf": 75,
+      "auth": 63,
+      "safe": 79,
+      "cost": 80
+     },
+     "contributions": {
+      "aud": 15.2,
+      "cont": 11.9,
+      "cult": 7.8,
+      "perf": 19.5,
+      "auth": 8.8,
+      "safe": 6.3,
+      "cost": 9.6
+     },
+     "confidence": "Medium",
+     "er": 0.48,
+     "linkCtr": 0.9,
+     "realFollowers": 83.3,
+     "viewThrough": 44.3,
+     "hold3s": 65.8,
+     "sponsoredShare": 37,
+     "adDisclosure": 71,
+     "safety": 84,
+     "audienceWomen": 0.718,
+     "forecast": {
+      "cost": 1927000,
+      "views": 1306662,
+      "tgViews": 887761,
+      "tgShare": 0.82,
+      "engagements": 51340,
+      "clicks": 11391,
+      "orders": 1775.2,
+      "revenue": 1420150,
+      "roas": 0.74,
+      "recallLiftPts": 3.9,
+      "costPerTgView": 2.17,
+      "costPerEngagement": 37.53,
+      "costPerClick": 169.18
+     },
+     "why": [
+      "Link CTR 0.90%, top 24% of mega creators; trust index 0.92",
+      "Audience matches the brief: 72% women (target 55%), 86% age overlap, 94% city-tier overlap",
+      "Parenting &amp; Family is a core category for Tata 1mg, with doctors &amp; dietitians as a second pillar",
+      "Forecast 0.7× ROAS on ₹19.3L, about 1.8K orders"
+     ],
+     "risks": [
+      "Discloses #ad on only 71% of paid posts. Brief on disclosure in the first line",
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1054",
+     "name": "Ishani S.",
+     "niche": "Parenting & Family",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Mid-tier",
+     "followers": 462025,
+     "city": "Kolkata",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.2,
+     "parts": {
+      "aud": 76,
+      "cont": 85,
+      "cult": 97,
+      "perf": 66,
+      "auth": 61,
+      "safe": 92,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 13.7,
+      "cont": 11.9,
+      "cult": 7.8,
+      "perf": 17.2,
+      "auth": 8.5,
+      "safe": 7.4,
+      "cost": 11.8
+     },
+     "confidence": "High",
+     "er": 1.17,
+     "linkCtr": 0.97,
+     "realFollowers": 83.4,
+     "viewThrough": 54.2,
+     "hold3s": 74.4,
+     "sponsoredShare": 46,
+     "adDisclosure": 92,
+     "safety": 92,
+     "audienceWomen": 0.848,
+     "forecast": {
+      "cost": 125000,
+      "views": 175371,
+      "tgViews": 111129,
+      "tgShare": 0.76,
+      "engagements": 7346,
+      "clicks": 1496,
+      "orders": 306.7,
+      "revenue": 245338,
+      "roas": 1.96,
+      "recallLiftPts": 8.7,
+      "costPerTgView": 1.12,
+      "costPerEngagement": 17.02,
+      "costPerClick": 83.55
+     },
+     "why": [
+      "Link CTR 0.97%, top 35% of mid-tier creators; trust index 1.21",
+      "Audience matches the brief: 85% women (target 55%), 88% age overlap, 93% city-tier overlap",
+      "Parenting &amp; Family is a core category for Tata 1mg, with doctors &amp; dietitians as a second pillar",
+      "Forecast 2.0× ROAS on ₹1.25L, about 307 orders"
+     ],
+     "risks": [
+      "Ad fatigue: 46% of recent posts are sponsored",
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1295",
+     "name": "Krupa K.",
+     "niche": "Parenting & Family",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 11890,
+     "city": "Mumbai",
+     "languages": [
+      "Marathi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.8,
+     "parts": {
+      "aud": 75,
+      "cont": 85,
+      "cult": 78,
+      "perf": 64,
+      "auth": 76,
+      "safe": 94,
+      "cost": 95
+     },
+     "contributions": {
+      "aud": 13.5,
+      "cont": 11.9,
+      "cult": 6.2,
+      "perf": 16.6,
+      "auth": 10.6,
+      "safe": 7.5,
+      "cost": 11.4
+     },
+     "confidence": "Medium",
+     "er": 5.02,
+     "linkCtr": 0.68,
+     "realFollowers": 88.8,
+     "viewThrough": 50.2,
+     "hold3s": 69.7,
+     "sponsoredShare": 23,
+     "adDisclosure": 100,
+     "safety": 90,
+     "audienceWomen": 0.791,
+     "forecast": {
+      "cost": 5000,
+      "views": 5619,
+      "tgViews": 3756,
+      "tgShare": 0.75,
+      "engagements": 661,
+      "clicks": 34,
+      "orders": 7.4,
+      "revenue": 5935,
+      "roas": 1.19,
+      "recallLiftPts": 9.9,
+      "costPerTgView": 1.33,
+      "costPerEngagement": 7.56,
+      "costPerClick": 146.15
+     },
+     "why": [
+      "Link CTR 0.68%, top 61% of micro creators; trust index 1.28",
+      "Audience matches the brief: 79% women (target 55%), 88% age overlap, 85% city-tier overlap",
+      "Parenting &amp; Family is a core category for Tata 1mg, with doctors &amp; dietitians as a second pillar",
+      "Forecast 1.2× ROAS on ₹5K, about 7 orders"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1070",
+     "name": "Manav K.",
+     "niche": "Parenting & Family",
+     "niche2": "Food & Cooking",
+     "tier": "Mid-tier",
+     "followers": 272928,
+     "city": "Chandigarh",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.3,
+     "parts": {
+      "aud": 74,
+      "cont": 73,
+      "cult": 97,
+      "perf": 71,
+      "auth": 67,
+      "safe": 84,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 13.2,
+      "cont": 10.2,
+      "cult": 7.8,
+      "perf": 18.5,
+      "auth": 9.3,
+      "safe": 6.8,
+      "cost": 11.7
+     },
+     "confidence": "Medium",
+     "er": 1.31,
+     "linkCtr": 1.04,
+     "realFollowers": 82.2,
+     "viewThrough": 40.6,
+     "hold3s": 73.5,
+     "sponsoredShare": 31,
+     "adDisclosure": 79,
+     "safety": 88,
+     "audienceWomen": 0.791,
+     "forecast": {
+      "cost": 66500,
+      "views": 81593,
+      "tgViews": 49851,
+      "tgShare": 0.74,
+      "engagements": 4722,
+      "clicks": 784,
+      "orders": 143.3,
+      "revenue": 114608,
+      "roas": 1.72,
+      "recallLiftPts": 7,
+      "costPerTgView": 1.33,
+      "costPerEngagement": 14.08,
+      "costPerClick": 84.82
+     },
+     "why": [
+      "Link CTR 1.04%, top 26% of mid-tier creators; trust index 1.15",
+      "Audience matches the brief: 79% women (target 55%), 84% age overlap, 87% city-tier overlap",
+      "Forecast 1.7× ROAS on ₹67K, about 143 orders",
+      "Parenting &amp; Family is a strong category for Tata 1mg, with food &amp; cooking as a second pillar"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1245",
+     "name": "Janhvi B.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 18888,
+     "city": "Ahmedabad",
+     "languages": [
+      "Gujarati"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 76.8,
+     "parts": {
+      "aud": 88,
+      "cont": 74,
+      "cult": 0,
+      "perf": 84,
+      "auth": 69,
+      "safe": 91,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 15.9,
+      "cont": 10.3,
+      "cult": 0,
+      "perf": 21.8,
+      "auth": 9.6,
+      "safe": 7.3,
+      "cost": 11.9
+     },
+     "confidence": "High",
+     "er": 2.93,
+     "linkCtr": 1.24,
+     "realFollowers": 82.9,
+     "viewThrough": 55.4,
+     "hold3s": 60.8,
+     "sponsoredShare": 15,
+     "adDisclosure": 98,
+     "safety": 87,
+     "audienceWomen": 0.517,
+     "forecast": {
+      "cost": 6500,
+      "views": 8683,
+      "tgViews": 6043,
+      "tgShare": 0.84,
+      "engagements": 655,
+      "clicks": 90,
+      "orders": 17.8,
+      "revenue": 14224,
+      "roas": 2.19,
+      "recallLiftPts": 9.5,
+      "costPerTgView": 1.08,
+      "costPerEngagement": 9.92,
+      "costPerClick": 71.92
+     },
+     "why": [
+      "Link CTR 1.24%, top 8% of micro creators; trust index 1.23",
+      "Audience matches the brief: 52% women (target 55%), 81% age overlap, 85% city-tier overlap",
+      "Forecast 2.2× ROAS on ₹6.5K, about 18 orders",
+      "Fitness &amp; Wellness is a strong category for Tata 1mg, with doctors &amp; dietitians as a second pillar"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1320",
+     "name": "Tanvi C.",
+     "niche": "Food & Cooking",
+     "niche2": "Parenting & Family",
+     "tier": "Micro",
+     "followers": 59236,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 76.6,
+     "parts": {
+      "aud": 84,
+      "cont": 57,
+      "cult": 75,
+      "perf": 64,
+      "auth": 87,
+      "safe": 87,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 15.2,
+      "cont": 8,
+      "cult": 6,
+      "perf": 16.6,
+      "auth": 12.1,
+      "safe": 6.9,
+      "cost": 11.7
+     },
+     "confidence": "Medium",
+     "er": 1.55,
+     "linkCtr": 0.93,
+     "realFollowers": 93.7,
+     "viewThrough": 39.6,
+     "hold3s": 60.8,
+     "sponsoredShare": 6,
+     "adDisclosure": 88,
+     "safety": 86,
+     "audienceWomen": 0.758,
+     "forecast": {
+      "cost": 16000,
+      "views": 34340,
+      "tgViews": 26230,
+      "tgShare": 0.82,
+      "engagements": 1238,
+      "clicks": 208,
+      "orders": 37.8,
+      "revenue": 30206,
+      "roas": 1.89,
+      "recallLiftPts": 1.7,
+      "costPerTgView": 0.61,
+      "costPerEngagement": 12.92,
+      "costPerClick": 76.87
+     },
+     "why": [
+      "Link CTR 0.93%, top 27% of micro creators; trust index 1.24",
+      "Audience matches the brief: 76% women (target 55%), 85% age overlap, 95% city-tier overlap",
+      "94% of followers look real and active; 6% of recent posts are sponsored",
+      "Forecast 1.9× ROAS on ₹16K, about 38 orders"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1055",
+     "name": "Varsha B.",
+     "niche": "Food & Cooking",
+     "niche2": "Parenting & Family",
+     "tier": "Micro",
+     "followers": 67015,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 76.4,
+     "parts": {
+      "aud": 95,
+      "cont": 57,
+      "cult": 55,
+      "perf": 65,
+      "auth": 80,
+      "safe": 85,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 17.1,
+      "cont": 8,
+      "cult": 4.4,
+      "perf": 16.8,
+      "auth": 11.2,
+      "safe": 6.8,
+      "cost": 12
+     },
+     "confidence": "High",
+     "er": 1.76,
+     "linkCtr": 1.27,
+     "realFollowers": 89.5,
+     "viewThrough": 53.6,
+     "hold3s": 76.4,
+     "sponsoredShare": 22,
+     "adDisclosure": 80,
+     "safety": 89,
+     "audienceWomen": 0.66,
+     "forecast": {
+      "cost": 13500,
+      "views": 48022,
+      "tgViews": 38110,
+      "tgShare": 0.89,
+      "engagements": 1541,
+      "clicks": 359,
+      "orders": 54.1,
+      "revenue": 43260,
+      "roas": 3.2,
+      "recallLiftPts": 8.5,
+      "costPerTgView": 0.35,
+      "costPerEngagement": 8.76,
+      "costPerClick": 37.62
+     },
+     "why": [
+      "Audience matches the brief: 66% women (target 55%), 91% age overlap, 95% city-tier overlap",
+      "Link CTR 1.27%, top 5% of micro creators; trust index 1.03",
+      "Forecast 3.2× ROAS on ₹14K, about 54 orders",
+      "90% of followers look real and active; 22% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 49,
+    "spend": 1799500,
+    "views": 2387756,
+    "tgViews": 1559258,
+    "uniqueTgReach": 963805,
+    "engagements": 115256,
+    "clicks": 16711,
+    "orders": 2949,
+    "revenue": 2359539,
+    "roas": 1.31,
+    "recallLiftPts": 5.2,
+    "fakeAudienceShare": 0.15,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 49000,
+    "forecastBandPct": 25,
+    "spendByTier": {
+     "mid": 1026500,
+     "micro": 399500,
+     "macro": 370500,
+     "nano": 3000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 1,
+    "spend": 1779000,
+    "views": 1190448,
+    "tgViews": 527819,
+    "uniqueTgReach": 327248,
+    "engagements": 35822,
+    "clicks": 3964,
+    "orders": 400,
+    "revenue": 319670,
+    "roas": 0.18,
+    "recallLiftPts": 3,
+    "fakeAudienceShare": 0.45,
+    "gatedIncluded": 1,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 1779000
+    }
+   },
+   "planCreators": [
+    "Kavya T. (Mid-tier, Parenting & Family)",
+    "Varsha B. (Micro, Food & Cooking)",
+    "Tanvi C. (Micro, Food & Cooking)",
+    "Kunal K. (Micro, Fitness & Wellness)",
+    "Ishani S. (Mid-tier, Parenting & Family)",
+    "Vivaan M. (Micro, Fitness & Wellness)",
+    "Saloni G. (Mid-tier, Parenting & Family)",
+    "Manav K. (Mid-tier, Parenting & Family)",
+    "Chirag T. (Mid-tier, Fitness & Wellness)",
+    "Janhvi B. (Micro, Fitness & Wellness)",
+    "Gayathri A. (Micro, Fitness & Wellness)",
+    "Bornali M. (Micro, Doctors & Dietitians)"
+   ]
+  }
+ }
+}

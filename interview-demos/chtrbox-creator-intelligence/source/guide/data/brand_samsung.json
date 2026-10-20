@@ -1,0 +1,1774 @@
+{
+ "id": "samsung",
+ "name": "Samsung",
+ "parent": "Samsung India",
+ "vertical": "tech",
+ "sub": "Phones & appliances",
+ "status": "Reported client",
+ "defaultObjective": "consideration",
+ "brief": "Pair device launches with home-service moments, as in the Urban Company tie-up.",
+ "moment": "Festive · Sep–Nov",
+ "budgetLakh": 45,
+ "target": {
+  "fem": 0.46,
+  "age": [
+   0.06,
+   0.38,
+   0.38,
+   0.13,
+   0.05
+  ],
+  "tiers": [
+   0.44,
+   0.38,
+   0.18
+  ],
+  "affl": 0.52
+ },
+ "languages": {
+  "Hinglish": 1,
+  "Hindi": 0.9,
+  "English": 0.9,
+  "Tamil": 0.6,
+  "Telugu": 0.6,
+  "Kannada": 0.55,
+  "Bengali": 0.55,
+  "Marathi": 0.55
+ },
+ "codes": [
+  "Working professional",
+  "Festive & occasions",
+  "Family-first"
+ ],
+ "affinity": {
+  "tech": 1,
+  "home": 0.8,
+  "lifestyle": 0.75,
+  "gaming": 0.6,
+  "travel": 0.55,
+  "parenting": 0.5
+ },
+ "competitors": [
+  "Apple",
+  "OnePlus",
+  "Xiaomi",
+  "LG"
+ ],
+ "compliance": null,
+ "aov": 25000,
+ "conversionRate": 0.008,
+ "kpis": [
+  "Consideration lift",
+  "PDP clicks",
+  "Search lift"
+ ],
+ "markets": [
+  "India",
+  "UAE"
+ ],
+ "tgPoolMillions": 260,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 372,
+   "gated": 48,
+   "gatesByReason": {
+    "conflict": 12,
+    "safety": 4,
+    "fraud": 32
+   },
+   "gatedExamples": [
+    {
+     "name": "Manav R.",
+     "id": "CIE-1185",
+     "reasons": [
+      "Posted for Apple 20 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Kabir J.",
+     "id": "CIE-1124",
+     "reasons": [
+      "Posted for OnePlus 29 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Sahil R.",
+     "id": "CIE-1092",
+     "reasons": [
+      "Posted for LG 39 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Nithya C.",
+     "id": "CIE-1306",
+     "reasons": [
+      "Brand-safety score 47: profanity in recent content, past controversy (2025)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1063",
+     "name": "Shreya N.",
+     "niche": "Lifestyle & Vlogs",
+     "niche2": "Travel",
+     "tier": "Micro",
+     "followers": 31260,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.5,
+     "parts": {
+      "aud": 98,
+      "cont": 70,
+      "cult": 78,
+      "perf": 69,
+      "auth": 71,
+      "safe": 89,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 21.6,
+      "cont": 10.5,
+      "cult": 10.9,
+      "perf": 10.3,
+      "auth": 10,
+      "safe": 8.9,
+      "cost": 9.4
+     },
+     "confidence": "Medium",
+     "er": 3.22,
+     "linkCtr": 0.67,
+     "realFollowers": 84.3,
+     "viewThrough": 56.9,
+     "hold3s": 55.2,
+     "sponsoredShare": 26,
+     "adDisclosure": 78,
+     "safety": 96,
+     "audienceWomen": 0.542,
+     "forecast": {
+      "cost": 11000,
+      "views": 15911,
+      "tgViews": 12187,
+      "tgShare": 0.91,
+      "engagements": 1175,
+      "clicks": 82,
+      "orders": 2.1,
+      "revenue": 53633,
+      "roas": 4.88,
+      "recallLiftPts": 7.1,
+      "costPerTgView": 0.9,
+      "costPerEngagement": 9.36,
+      "costPerClick": 133.78
+     },
+     "why": [
+      "Audience matches the brief: 54% women (target 46%), 97% age overlap, 96% city-tier overlap",
+      "Creates in Hinglish, Samsung's lead language; shares the Working professional codes",
+      "Lifestyle &amp; Vlogs is a strong category for Samsung, with travel as a second pillar",
+      "Viewers watch 57% of each video, top 4% of micro creators; past recall lift +7.5 pts"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1150",
+     "name": "Kritika D.",
+     "niche": "Home & Decor",
+     "niche2": "Parenting & Family",
+     "tier": "Micro",
+     "followers": 37214,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.2,
+     "parts": {
+      "aud": 74,
+      "cont": 73,
+      "cult": 95,
+      "perf": 78,
+      "auth": 79,
+      "safe": 83,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 16.2,
+      "cont": 10.9,
+      "cult": 13.2,
+      "perf": 11.6,
+      "auth": 11.1,
+      "safe": 8.3,
+      "cost": 9.8
+     },
+     "confidence": "High",
+     "er": 2.7,
+     "linkCtr": 0.47,
+     "realFollowers": 89.1,
+     "viewThrough": 52.1,
+     "hold3s": 62,
+     "sponsoredShare": 19,
+     "adDisclosure": 100,
+     "safety": 71,
+     "audienceWomen": 0.744,
+     "forecast": {
+      "cost": 11000,
+      "views": 21625,
+      "tgViews": 14353,
+      "tgShare": 0.74,
+      "engagements": 1206,
+      "clicks": 75,
+      "orders": 2,
+      "revenue": 50209,
+      "roas": 4.56,
+      "recallLiftPts": 8.4,
+      "costPerTgView": 0.77,
+      "costPerEngagement": 9.12,
+      "costPerClick": 147.6
+     },
+     "why": [
+      "Audience matches the brief: 74% women (target 46%), 81% age overlap, 99% city-tier overlap",
+      "Creates in Hindi, Samsung's lead language; shares the Family-first and Festive &amp; occasions codes",
+      "Viewers watch 52% of each video, top 15% of micro creators; past recall lift +9.2 pts",
+      "89% of followers look real and active; 19% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1028",
+     "name": "Kritika P.",
+     "niche": "Lifestyle & Vlogs",
+     "niche2": "Food & Cooking",
+     "tier": "Micro",
+     "followers": 36783,
+     "city": "Jaipur",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Moj",
+     "represent": false,
+     "credential": null,
+     "fit": 78.5,
+     "parts": {
+      "aud": 75,
+      "cont": 57,
+      "cult": 100,
+      "perf": 65,
+      "auth": 79,
+      "safe": 92,
+      "cost": 95
+     },
+     "contributions": {
+      "aud": 16.4,
+      "cont": 8.6,
+      "cult": 14,
+      "perf": 9.7,
+      "auth": 11.1,
+      "safe": 9.2,
+      "cost": 9.5
+     },
+     "confidence": "High",
+     "er": 2.76,
+     "linkCtr": 0.69,
+     "realFollowers": 88.3,
+     "viewThrough": 46.5,
+     "hold3s": 62.9,
+     "sponsoredShare": 18,
+     "adDisclosure": 91,
+     "safety": 92,
+     "audienceWomen": 0.724,
+     "forecast": {
+      "cost": 11000,
+      "views": 19785,
+      "tgViews": 13114,
+      "tgShare": 0.75,
+      "engagements": 1214,
+      "clicks": 92,
+      "orders": 2.5,
+      "revenue": 62242,
+      "roas": 5.66,
+      "recallLiftPts": 6.3,
+      "costPerTgView": 0.84,
+      "costPerEngagement": 9.06,
+      "costPerClick": 118.94
+     },
+     "why": [
+      "Audience matches the brief: 72% women (target 46%), 89% age overlap, 84% city-tier overlap",
+      "Creates in Hinglish + Hindi, Samsung's lead language; shares the Festive &amp; occasions and Working professional codes",
+      "88% of followers look real and active; 18% of recent posts are sponsored",
+      "Viewers watch 47% of each video, top 39% of micro creators; past recall lift +7.6 pts"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1103",
+     "name": "Aarya M.",
+     "niche": "Home & Decor",
+     "niche2": "Parenting & Family",
+     "tier": "Nano",
+     "followers": 4481,
+     "city": "Ahmedabad",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78,
+     "parts": {
+      "aud": 71,
+      "cont": 73,
+      "cult": 95,
+      "perf": 96,
+      "auth": 67,
+      "safe": 84,
+      "cost": 60
+     },
+     "contributions": {
+      "aud": 15.6,
+      "cont": 10.9,
+      "cult": 13.2,
+      "perf": 14.5,
+      "auth": 9.3,
+      "safe": 8.4,
+      "cost": 6
+     },
+     "confidence": "Low",
+     "er": 5.44,
+     "linkCtr": 0.96,
+     "realFollowers": 84.5,
+     "viewThrough": 56.2,
+     "hold3s": 74.8,
+     "sponsoredShare": 34,
+     "adDisclosure": 74,
+     "safety": 91,
+     "audienceWomen": 0.732,
+     "forecast": {
+      "cost": 2500,
+      "views": 2425,
+      "tgViews": 1491,
+      "tgShare": 0.73,
+      "engagements": 276,
+      "clicks": 21,
+      "orders": 0.5,
+      "revenue": 12436,
+      "roas": 4.97,
+      "recallLiftPts": 9,
+      "costPerTgView": 1.68,
+      "costPerEngagement": 9.06,
+      "costPerClick": 120.11
+     },
+     "why": [
+      "Audience matches the brief: 73% women (target 46%), 70% age overlap, 97% city-tier overlap",
+      "Viewers watch 56% of each video, top 5% of nano creators; past recall lift +10 pts",
+      "Creates in Hindi, Samsung's lead language; shares the Family-first and Festive &amp; occasions codes",
+      "Home &amp; Decor is a strong category for Samsung, with parenting &amp; family as a second pillar"
+     ],
+     "risks": [
+      "Discloses #ad on only 74% of paid posts. Brief on disclosure in the first line",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1190",
+     "name": "Meher J.",
+     "niche": "Travel",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 7501,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 76.2,
+     "parts": {
+      "aud": 94,
+      "cont": 60,
+      "cult": 50,
+      "perf": 67,
+      "auth": 84,
+      "safe": 80,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 20.7,
+      "cont": 9,
+      "cult": 6.9,
+      "perf": 10.1,
+      "auth": 11.7,
+      "safe": 8,
+      "cost": 9.9
+     },
+     "confidence": "Medium",
+     "er": 3.4,
+     "linkCtr": 0.44,
+     "realFollowers": 89.6,
+     "viewThrough": 44.9,
+     "hold3s": 71.9,
+     "sponsoredShare": 11,
+     "adDisclosure": 90,
+     "safety": 73,
+     "audienceWomen": 0.51,
+     "forecast": {
+      "cost": 2500,
+      "views": 4802,
+      "tgViews": 3782,
+      "tgShare": 0.88,
+      "engagements": 309,
+      "clicks": 16,
+      "orders": 0.4,
+      "revenue": 9411,
+      "roas": 3.76,
+      "recallLiftPts": 4.6,
+      "costPerTgView": 0.66,
+      "costPerEngagement": 8.09,
+      "costPerClick": 160.84
+     },
+     "why": [
+      "Audience matches the brief: 51% women (target 46%), 90% age overlap, 95% city-tier overlap",
+      "90% of followers look real and active; 11% of recent posts are sponsored",
+      "Viewers watch 45% of each video, top 29% of nano creators; past recall lift +5.3 pts",
+      "₹0.66 per verified TG view for 1 reel and 2 stories (₹2.5K)"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 80,
+    "spend": 3714500,
+    "views": 5393174,
+    "tgViews": 3626443,
+    "uniqueTgReach": 2238987,
+    "engagements": 221540,
+    "clicks": 22721,
+    "orders": 491,
+    "revenue": 12286046,
+    "roas": 3.31,
+    "recallLiftPts": 4.2,
+    "fakeAudienceShare": 0.13,
+    "gatedIncluded": 0,
+    "representCreators": 3,
+    "representSpend": 232500,
+    "forecastBandPct": 21,
+    "spendByTier": {
+     "micro": 683500,
+     "macro": 615000,
+     "mid": 2400000,
+     "nano": 16000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 4,
+    "spend": 3707000,
+    "views": 3417499,
+    "tgViews": 1912089,
+    "uniqueTgReach": 1183737,
+    "engagements": 94891,
+    "clicks": 15929,
+    "orders": 321,
+    "revenue": 8020738,
+    "roas": 2.16,
+    "recallLiftPts": 3.3,
+    "fakeAudienceShare": 0.31,
+    "gatedIncluded": 2,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 24,
+    "spendByTier": {
+     "mega": 3649500,
+     "mid": 57500
+    }
+   },
+   "planCreators": [
+    "Varsha B. (Micro, Food & Cooking)",
+    "Kritika D. (Micro, Home & Decor)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Ananya J. (Micro, Music & Dance)",
+    "Tanvi C. (Micro, Food & Cooking)",
+    "Kritika P. (Micro, Lifestyle & Vlogs)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Keerthi B. (Macro, Beauty & Skincare)",
+    "Hetal A. (Mid-tier, Food & Cooking)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 372,
+   "gated": 48,
+   "gatesByReason": {
+    "conflict": 12,
+    "safety": 4,
+    "fraud": 32
+   },
+   "gatedExamples": [
+    {
+     "name": "Anirban G.",
+     "id": "CIE-1410",
+     "reasons": [
+      "Posted for OnePlus 3 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Gautham V.",
+     "id": "CIE-1381",
+     "reasons": [
+      "Posted for Xiaomi 38 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Nithya C.",
+     "id": "CIE-1306",
+     "reasons": [
+      "Brand-safety score 47: profanity in recent content, past controversy (2025)"
+     ]
+    },
+    {
+     "name": "Lakshmi P.",
+     "id": "CIE-1029",
+     "reasons": [
+      "Posted for LG 19 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1063",
+     "name": "Shreya N.",
+     "niche": "Lifestyle & Vlogs",
+     "niche2": "Travel",
+     "tier": "Micro",
+     "followers": 31260,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 74.9,
+     "parts": {
+      "aud": 98,
+      "cont": 70,
+      "cult": 78,
+      "perf": 47,
+      "auth": 71,
+      "safe": 89,
+      "cost": 85
+     },
+     "contributions": {
+      "aud": 19.6,
+      "cont": 12.6,
+      "cult": 7.8,
+      "perf": 9.3,
+      "auth": 10,
+      "safe": 7.1,
+      "cost": 8.5
+     },
+     "confidence": "Medium",
+     "er": 3.22,
+     "linkCtr": 0.67,
+     "realFollowers": 84.3,
+     "viewThrough": 56.9,
+     "hold3s": 55.2,
+     "sponsoredShare": 26,
+     "adDisclosure": 78,
+     "safety": 96,
+     "audienceWomen": 0.542,
+     "forecast": {
+      "cost": 11000,
+      "views": 15911,
+      "tgViews": 12187,
+      "tgShare": 0.91,
+      "engagements": 1175,
+      "clicks": 82,
+      "orders": 2.1,
+      "revenue": 53633,
+      "roas": 4.88,
+      "recallLiftPts": 7.1,
+      "costPerTgView": 0.9,
+      "costPerEngagement": 9.36,
+      "costPerClick": 133.78
+     },
+     "why": [
+      "Audience matches the brief: 54% women (target 46%), 97% age overlap, 96% city-tier overlap",
+      "Lifestyle &amp; Vlogs is a strong category for Samsung, with travel as a second pillar",
+      "84% of followers look real and active; 26% of recent posts are sponsored",
+      "Engagement rate 3.2%, top 34% of micro creators; 1.7% of viewers save or share"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1150",
+     "name": "Kritika D.",
+     "niche": "Home & Decor",
+     "niche2": "Parenting & Family",
+     "tier": "Micro",
+     "followers": 37214,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 74.8,
+     "parts": {
+      "aud": 74,
+      "cont": 73,
+      "cult": 95,
+      "perf": 56,
+      "auth": 79,
+      "safe": 83,
+      "cost": 87
+     },
+     "contributions": {
+      "aud": 14.8,
+      "cont": 13.1,
+      "cult": 9.5,
+      "perf": 11.1,
+      "auth": 11.1,
+      "safe": 6.6,
+      "cost": 8.7
+     },
+     "confidence": "High",
+     "er": 2.7,
+     "linkCtr": 0.47,
+     "realFollowers": 89.1,
+     "viewThrough": 52.1,
+     "hold3s": 62,
+     "sponsoredShare": 19,
+     "adDisclosure": 100,
+     "safety": 71,
+     "audienceWomen": 0.744,
+     "forecast": {
+      "cost": 11000,
+      "views": 21625,
+      "tgViews": 14353,
+      "tgShare": 0.74,
+      "engagements": 1206,
+      "clicks": 75,
+      "orders": 2,
+      "revenue": 50209,
+      "roas": 4.56,
+      "recallLiftPts": 8.4,
+      "costPerTgView": 0.77,
+      "costPerEngagement": 9.12,
+      "costPerClick": 147.6
+     },
+     "why": [
+      "Audience matches the brief: 74% women (target 46%), 81% age overlap, 99% city-tier overlap",
+      "Home &amp; Decor is a strong category for Samsung, with parenting &amp; family as a second pillar",
+      "Engagement rate 2.7%, top 53% of micro creators; 3.1% of viewers save or share",
+      "89% of followers look real and active; 19% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1077",
+     "name": "Aarya T.",
+     "niche": "Lifestyle & Vlogs",
+     "niche2": "Food & Cooking",
+     "tier": "Nano",
+     "followers": 7655,
+     "city": "Mumbai",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 74.2,
+     "parts": {
+      "aud": 86,
+      "cont": 57,
+      "cult": 72,
+      "perf": 56,
+      "auth": 83,
+      "safe": 95,
+      "cost": 91
+     },
+     "contributions": {
+      "aud": 17.1,
+      "cont": 10.3,
+      "cult": 7.2,
+      "perf": 11.2,
+      "auth": 11.7,
+      "safe": 7.6,
+      "cost": 9.1
+     },
+     "confidence": "Low",
+     "er": 4.67,
+     "linkCtr": 0.61,
+     "realFollowers": 92.6,
+     "viewThrough": 35,
+     "hold3s": 51.3,
+     "sponsoredShare": 29,
+     "adDisclosure": 90,
+     "safety": 99,
+     "audienceWomen": 0.676,
+     "forecast": {
+      "cost": 3000,
+      "views": 1476,
+      "tgViews": 1124,
+      "tgShare": 0.82,
+      "engagements": 357,
+      "clicks": 5,
+      "orders": 0.1,
+      "revenue": 2877,
+      "roas": 0.96,
+      "recallLiftPts": 3.2,
+      "costPerTgView": 2.67,
+      "costPerEngagement": 8.39,
+      "costPerClick": 567.51
+     },
+     "why": [
+      "Audience matches the brief: 68% women (target 46%), 88% age overlap, 97% city-tier overlap",
+      "93% of followers look real and active; 29% of recent posts are sponsored",
+      "Engagement rate 4.7%, top 39% of nano creators; 1.7% of viewers save or share",
+      "Lifestyle &amp; Vlogs is a adjacent category for Samsung, with food &amp; cooking as a second pillar"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1363",
+     "name": "Tanvi S.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Education & Careers",
+     "tier": "Micro",
+     "followers": 26357,
+     "city": "Lucknow",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 73.6,
+     "parts": {
+      "aud": 74,
+      "cont": 76,
+      "cult": 50,
+      "perf": 65,
+      "auth": 78,
+      "safe": 86,
+      "cost": 93
+     },
+     "contributions": {
+      "aud": 14.8,
+      "cont": 13.7,
+      "cult": 5,
+      "perf": 13,
+      "auth": 10.9,
+      "safe": 6.9,
+      "cost": 9.3
+     },
+     "confidence": "High",
+     "er": 3.89,
+     "linkCtr": 0.94,
+     "realFollowers": 88.6,
+     "viewThrough": 51.6,
+     "hold3s": 73.7,
+     "sponsoredShare": 24,
+     "adDisclosure": 86,
+     "safety": 86,
+     "audienceWomen": 0.256,
+     "forecast": {
+      "cost": 9500,
+      "views": 10382,
+      "tgViews": 6877,
+      "tgShare": 0.75,
+      "engagements": 1168,
+      "clicks": 91,
+      "orders": 2.5,
+      "revenue": 62750,
+      "roas": 6.61,
+      "recallLiftPts": 5.7,
+      "costPerTgView": 1.38,
+      "costPerEngagement": 8.14,
+      "costPerClick": 104.02
+     },
+     "why": [
+      "Audience matches the brief: 26% women (target 46%), 86% age overlap, 83% city-tier overlap",
+      "Tech &amp; Gadgets is a strong category for Samsung, with education &amp; careers as a second pillar",
+      "Engagement rate 3.9%, top 17% of micro creators; 2.2% of viewers save or share",
+      "89% of followers look real and active; 24% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1099",
+     "name": "Arnab B.",
+     "niche": "Home & Decor",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 43559,
+     "city": "Kolkata",
+     "languages": [
+      "Bengali",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 73.2,
+     "parts": {
+      "aud": 68,
+      "cont": 79,
+      "cult": 55,
+      "perf": 71,
+      "auth": 66,
+      "safe": 83,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 13.7,
+      "cont": 14.2,
+      "cult": 5.5,
+      "perf": 14.2,
+      "auth": 9.3,
+      "safe": 6.6,
+      "cost": 9.7
+     },
+     "confidence": "High",
+     "er": 4.13,
+     "linkCtr": 1,
+     "realFollowers": 84.7,
+     "viewThrough": 51.9,
+     "hold3s": 73,
+     "sponsoredShare": 29,
+     "adDisclosure": 89,
+     "safety": 79,
+     "audienceWomen": 0.594,
+     "forecast": {
+      "cost": 15000,
+      "views": 26907,
+      "tgViews": 16178,
+      "tgShare": 0.71,
+      "engagements": 2034,
+      "clicks": 200,
+      "orders": 5.8,
+      "revenue": 144669,
+      "roas": 9.64,
+      "recallLiftPts": 5.1,
+      "costPerTgView": 0.93,
+      "costPerEngagement": 7.37,
+      "costPerClick": 74.89
+     },
+     "why": [
+      "Engagement rate 4.1%, top 13% of micro creators; 2.1% of viewers save or share",
+      "Home &amp; Decor is a strong category for Samsung, with lifestyle &amp; vlogs as a second pillar",
+      "Audience matches the brief: 59% women (target 46%), 74% age overlap, 78% city-tier overlap",
+      "₹7.37 per engagement (₹15K for the bundle)"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1307",
+     "name": "Ishita Y.",
+     "niche": "Home & Decor",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 419301,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 72.7,
+     "parts": {
+      "aud": 71,
+      "cont": 79,
+      "cult": 78,
+      "perf": 76,
+      "auth": 65,
+      "safe": 92,
+      "cost": 49
+     },
+     "contributions": {
+      "aud": 14.3,
+      "cont": 14.2,
+      "cult": 7.8,
+      "perf": 15.1,
+      "auth": 9,
+      "safe": 7.4,
+      "cost": 4.9
+     },
+     "confidence": "Low",
+     "er": 1.96,
+     "linkCtr": 0.84,
+     "realFollowers": 83,
+     "viewThrough": 32.8,
+     "hold3s": 54.2,
+     "sponsoredShare": 32,
+     "adDisclosure": 99,
+     "safety": 88,
+     "audienceWomen": 0.682,
+     "forecast": {
+      "cost": 163000,
+      "views": 115639,
+      "tgViews": 70101,
+      "tgShare": 0.73,
+      "engagements": 9979,
+      "clicks": 988,
+      "orders": 26.2,
+      "revenue": 654877,
+      "roas": 4.02,
+      "recallLiftPts": 3.2,
+      "costPerTgView": 2.33,
+      "costPerEngagement": 16.33,
+      "costPerClick": 165.06
+     },
+     "why": [
+      "Engagement rate 2.0%, top 13% of mid-tier creators; 2.5% of viewers save or share",
+      "Audience matches the brief: 68% women (target 46%), 74% age overlap, 94% city-tier overlap",
+      "Home &amp; Decor is a strong category for Samsung, with lifestyle &amp; vlogs as a second pillar",
+      "83% of followers look real and active; 32% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1208",
+     "name": "Sahil Y.",
+     "niche": "Lifestyle & Vlogs",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 42312,
+     "city": "Mumbai",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Moj",
+     "represent": false,
+     "credential": null,
+     "fit": 72.7,
+     "parts": {
+      "aud": 90,
+      "cont": 57,
+      "cult": 78,
+      "perf": 42,
+      "auth": 91,
+      "safe": 91,
+      "cost": 82
+     },
+     "contributions": {
+      "aud": 18,
+      "cont": 10.3,
+      "cult": 7.8,
+      "perf": 8.4,
+      "auth": 12.7,
+      "safe": 7.2,
+      "cost": 8.2
+     },
+     "confidence": "Medium",
+     "er": 3.58,
+     "linkCtr": 0.75,
+     "realFollowers": 95.5,
+     "viewThrough": 46.3,
+     "hold3s": 66.8,
+     "sponsoredShare": 13,
+     "adDisclosure": 78,
+     "safety": 99,
+     "audienceWomen": 0.453,
+     "forecast": {
+      "cost": 17000,
+      "views": 14833,
+      "tgViews": 12064,
+      "tgShare": 0.85,
+      "engagements": 1743,
+      "clicks": 97,
+      "orders": 2.3,
+      "revenue": 57098,
+      "roas": 3.36,
+      "recallLiftPts": 4.7,
+      "costPerTgView": 1.41,
+      "costPerEngagement": 9.75,
+      "costPerClick": 175.98
+     },
+     "why": [
+      "Audience matches the brief: 45% women (target 46%), 93% age overlap, 79% city-tier overlap",
+      "96% of followers look real and active; 13% of recent posts are sponsored",
+      "Lifestyle &amp; Vlogs is a adjacent category for Samsung, with fashion &amp; style as a second pillar",
+      "Engagement rate 3.6%, top 26% of micro creators; 1.0% of viewers save or share"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1103",
+     "name": "Aarya M.",
+     "niche": "Home & Decor",
+     "niche2": "Parenting & Family",
+     "tier": "Nano",
+     "followers": 4481,
+     "city": "Ahmedabad",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 72.6,
+     "parts": {
+      "aud": 71,
+      "cont": 73,
+      "cult": 95,
+      "perf": 56,
+      "auth": 67,
+      "safe": 84,
+      "cost": 87
+     },
+     "contributions": {
+      "aud": 14.2,
+      "cont": 13.1,
+      "cult": 9.5,
+      "perf": 11.1,
+      "auth": 9.3,
+      "safe": 6.7,
+      "cost": 8.7
+     },
+     "confidence": "Low",
+     "er": 5.44,
+     "linkCtr": 0.96,
+     "realFollowers": 84.5,
+     "viewThrough": 56.2,
+     "hold3s": 74.8,
+     "sponsoredShare": 34,
+     "adDisclosure": 74,
+     "safety": 91,
+     "audienceWomen": 0.732,
+     "forecast": {
+      "cost": 2500,
+      "views": 2425,
+      "tgViews": 1491,
+      "tgShare": 0.73,
+      "engagements": 276,
+      "clicks": 21,
+      "orders": 0.5,
+      "revenue": 12436,
+      "roas": 4.97,
+      "recallLiftPts": 9,
+      "costPerTgView": 1.68,
+      "costPerEngagement": 9.06,
+      "costPerClick": 120.11
+     },
+     "why": [
+      "Audience matches the brief: 73% women (target 46%), 70% age overlap, 97% city-tier overlap",
+      "Home &amp; Decor is a strong category for Samsung, with parenting &amp; family as a second pillar",
+      "Engagement rate 5.4%, top 27% of nano creators; 1.5% of viewers save or share",
+      "Creates in Hindi, Samsung's lead language; shares the Family-first and Festive &amp; occasions codes"
+     ],
+     "risks": [
+      "Discloses #ad on only 74% of paid posts. Brief on disclosure in the first line",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1094",
+     "name": "Lakshmi T.",
+     "niche": "Lifestyle & Vlogs",
+     "niche2": "Food & Cooking",
+     "tier": "Micro",
+     "followers": 16754,
+     "city": "Chennai",
+     "languages": [
+      "Tamil"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 72,
+     "parts": {
+      "aud": 86,
+      "cont": 57,
+      "cult": 56,
+      "perf": 64,
+      "auth": 78,
+      "safe": 85,
+      "cost": 84
+     },
+     "contributions": {
+      "aud": 17.2,
+      "cont": 10.3,
+      "cult": 5.6,
+      "perf": 12.9,
+      "auth": 10.9,
+      "safe": 6.8,
+      "cost": 8.4
+     },
+     "confidence": "High",
+     "er": 5.69,
+     "linkCtr": 0.31,
+     "realFollowers": 89.1,
+     "viewThrough": 47.4,
+     "hold3s": 73.1,
+     "sponsoredShare": 29,
+     "adDisclosure": 89,
+     "safety": 82,
+     "audienceWomen": 0.656,
+     "forecast": {
+      "cost": 9000,
+      "views": 1505,
+      "tgViews": 1106,
+      "tgShare": 0.82,
+      "engagements": 953,
+      "clicks": 3,
+      "orders": 0.1,
+      "revenue": 2004,
+      "roas": 0.22,
+      "recallLiftPts": 6.4,
+      "costPerTgView": 8.14,
+      "costPerEngagement": 9.44,
+      "costPerClick": 3285.59
+     },
+     "why": [
+      "Audience matches the brief: 66% women (target 46%), 93% age overlap, 88% city-tier overlap",
+      "Engagement rate 5.7%, top 3% of micro creators; 1.4% of viewers save or share",
+      "89% of followers look real and active; 29% of recent posts are sponsored",
+      "Lifestyle &amp; Vlogs is a adjacent category for Samsung, with food &amp; cooking as a second pillar"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1085",
+     "name": "Sayani G.",
+     "niche": "Home & Decor",
+     "niche2": "Parenting & Family",
+     "tier": "Mid-tier",
+     "followers": 337599,
+     "city": "Guwahati",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 71.8,
+     "parts": {
+      "aud": 64,
+      "cont": 73,
+      "cult": 72,
+      "perf": 76,
+      "auth": 78,
+      "safe": 87,
+      "cost": 56
+     },
+     "contributions": {
+      "aud": 12.8,
+      "cont": 13.1,
+      "cult": 7.2,
+      "perf": 15.3,
+      "auth": 10.9,
+      "safe": 7,
+      "cost": 5.6
+     },
+     "confidence": "High",
+     "er": 2.01,
+     "linkCtr": 0.48,
+     "realFollowers": 86.9,
+     "viewThrough": 48.9,
+     "hold3s": 59.8,
+     "sponsoredShare": 12,
+     "adDisclosure": 78,
+     "safety": 93,
+     "audienceWomen": 0.797,
+     "forecast": {
+      "cost": 118500,
+      "views": 101586,
+      "tgViews": 60168,
+      "tgShare": 0.68,
+      "engagements": 8204,
+      "clicks": 449,
+      "orders": 11.5,
+      "revenue": 288054,
+      "roas": 2.43,
+      "recallLiftPts": 6.1,
+      "costPerTgView": 1.97,
+      "costPerEngagement": 14.44,
+      "costPerClick": 264.09
+     },
+     "why": [
+      "Engagement rate 2.0%, top 11% of mid-tier creators; 2.6% of viewers save or share",
+      "Home &amp; Decor is a strong category for Samsung, with parenting &amp; family as a second pillar",
+      "Audience matches the brief: 80% women (target 46%), 72% age overlap, 92% city-tier overlap",
+      "87% of followers look real and active; 12% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Posted for LG 106 days ago (outside the 60-day window)"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 80,
+    "spend": 1869500,
+    "views": 1994646,
+    "tgViews": 1397523,
+    "uniqueTgReach": 865071,
+    "engagements": 164702,
+    "clicks": 7644,
+    "orders": 169,
+    "revenue": 4223472,
+    "roas": 2.26,
+    "recallLiftPts": 3.9,
+    "fakeAudienceShare": 0.1,
+    "gatedIncluded": 0,
+    "representCreators": 3,
+    "representSpend": 481000,
+    "forecastBandPct": 22,
+    "spendByTier": {
+     "micro": 945500,
+     "nano": 27000,
+     "mid": 639500,
+     "macro": 257500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 1861500,
+    "views": 1374815,
+    "tgViews": 683851,
+    "uniqueTgReach": 423885,
+    "engagements": 40416,
+    "clicks": 4698,
+    "orders": 81,
+    "revenue": 2014209,
+    "roas": 1.08,
+    "recallLiftPts": 3.5,
+    "fakeAudienceShare": 0.44,
+    "gatedIncluded": 1,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 13,
+    "spendByTier": {
+     "mega": 1779000,
+     "mid": 82500
+    }
+   },
+   "planCreators": [
+    "Moumita N. (Micro, Parenting & Family)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Yash S. (Micro, Education & Careers)",
+    "Devang M. (Nano, Lifestyle & Vlogs)",
+    "Sneha D. (Micro, Lifestyle & Vlogs)",
+    "Ananya B. (Micro, Beauty & Skincare)",
+    "Tanvi S. (Micro, Tech & Gadgets)",
+    "Dhwani R. (Micro, Fitness & Wellness)",
+    "Kritika D. (Micro, Home & Decor)",
+    "Kunal K. (Micro, Fitness & Wellness)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 372,
+   "gated": 48,
+   "gatesByReason": {
+    "conflict": 12,
+    "fraud": 32,
+    "safety": 4
+   },
+   "gatedExamples": [
+    {
+     "name": "Kabir J.",
+     "id": "CIE-1124",
+     "reasons": [
+      "Posted for OnePlus 29 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Aparna A.",
+     "id": "CIE-1067",
+     "reasons": [
+      "Posted for Xiaomi 41 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Gautham V.",
+     "id": "CIE-1381",
+     "reasons": [
+      "Posted for Xiaomi 38 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Manav R.",
+     "id": "CIE-1185",
+     "reasons": [
+      "Posted for Apple 20 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1114",
+     "name": "Tanvi R.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Education & Careers",
+     "tier": "Mid-tier",
+     "followers": 254770,
+     "city": "Jaipur",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.7,
+     "parts": {
+      "aud": 84,
+      "cont": 76,
+      "cult": 72,
+      "perf": 72,
+      "auth": 78,
+      "safe": 84,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 15.2,
+      "cont": 10.7,
+      "cult": 5.8,
+      "perf": 18.6,
+      "auth": 11,
+      "safe": 6.7,
+      "cost": 11.9
+     },
+     "confidence": "Low",
+     "er": 0.85,
+     "linkCtr": 1.23,
+     "realFollowers": 88.3,
+     "viewThrough": 34.7,
+     "hold3s": 64.4,
+     "sponsoredShare": 18,
+     "adDisclosure": 69,
+     "safety": 94,
+     "audienceWomen": 0.252,
+     "forecast": {
+      "cost": 77000,
+      "views": 94705,
+      "tgViews": 68045,
+      "tgShare": 0.81,
+      "engagements": 3236,
+      "clicks": 974,
+      "orders": 28.5,
+      "revenue": 713701,
+      "roas": 9.27,
+      "recallLiftPts": 5.1,
+      "costPerTgView": 1.13,
+      "costPerEngagement": 23.8,
+      "costPerClick": 79.02
+     },
+     "why": [
+      "Link CTR 1.23%, top 11% of mid-tier creators; trust index 1.13",
+      "Audience matches the brief: 25% women (target 46%), 91% age overlap, 97% city-tier overlap",
+      "Forecast 9.3× ROAS on ₹77K, about 29 orders",
+      "88% of followers look real and active; 18% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Discloses #ad on only 69% of paid posts. Brief on disclosure in the first line",
+      "Posted for Apple 77 days ago (outside the 60-day window)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1380",
+     "name": "Mansi B.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Gaming",
+     "tier": "Micro",
+     "followers": 49187,
+     "city": "Delhi NCR",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.5,
+     "parts": {
+      "aud": 72,
+      "cont": 90,
+      "cult": 50,
+      "perf": 76,
+      "auth": 80,
+      "safe": 88,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 12.9,
+      "cont": 12.6,
+      "cult": 4,
+      "perf": 19.8,
+      "auth": 11.1,
+      "safe": 7.1,
+      "cost": 12
+     },
+     "confidence": "Medium",
+     "er": 1.39,
+     "linkCtr": 2.13,
+     "realFollowers": 87.7,
+     "viewThrough": 42.3,
+     "hold3s": 71,
+     "sponsoredShare": 15,
+     "adDisclosure": 95,
+     "safety": 84,
+     "audienceWomen": 0.326,
+     "forecast": {
+      "cost": 17000,
+      "views": 23329,
+      "tgViews": 14989,
+      "tgShare": 0.73,
+      "engagements": 949,
+      "clicks": 459,
+      "orders": 14.9,
+      "revenue": 373083,
+      "roas": 21.95,
+      "recallLiftPts": 4.4,
+      "costPerTgView": 1.13,
+      "costPerEngagement": 17.91,
+      "costPerClick": 37.02
+     },
+     "why": [
+      "Link CTR 2.13%, top 1% of micro creators; trust index 1.17",
+      "Audience matches the brief: 33% women (target 46%), 85% age overlap, 82% city-tier overlap",
+      "Tech &amp; Gadgets is a core category for Samsung, with gaming as a second pillar",
+      "Forecast 21.9× ROAS on ₹17K, about 15 orders"
+     ],
+     "risks": [
+      "Posted for OnePlus 100 days ago (outside the 60-day window)"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1017",
+     "name": "Anjali G.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Gaming",
+     "tier": "Mid-tier",
+     "followers": 120548,
+     "city": "Chennai",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.5,
+     "parts": {
+      "aud": 79,
+      "cont": 90,
+      "cult": 72,
+      "perf": 77,
+      "auth": 60,
+      "safe": 84,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 14.2,
+      "cont": 12.6,
+      "cult": 5.8,
+      "perf": 20.1,
+      "auth": 8.4,
+      "safe": 6.8,
+      "cost": 11.6
+     },
+     "confidence": "High",
+     "er": 1.72,
+     "linkCtr": 1.09,
+     "realFollowers": 79.8,
+     "viewThrough": 48.3,
+     "hold3s": 77.7,
+     "sponsoredShare": 43,
+     "adDisclosure": 88,
+     "safety": 82,
+     "audienceWomen": 0.385,
+     "forecast": {
+      "cost": 56000,
+      "views": 50744,
+      "tgViews": 31519,
+      "tgShare": 0.78,
+      "engagements": 2580,
+      "clicks": 476,
+      "orders": 14.8,
+      "revenue": 370080,
+      "roas": 6.61,
+      "recallLiftPts": 4.2,
+      "costPerTgView": 1.78,
+      "costPerEngagement": 21.71,
+      "costPerClick": 117.68
+     },
+     "why": [
+      "Link CTR 1.09%, top 22% of mid-tier creators; trust index 1.12",
+      "Audience matches the brief: 39% women (target 46%), 92% age overlap, 76% city-tier overlap",
+      "Tech &amp; Gadgets is a core category for Samsung, with gaming as a second pillar",
+      "Forecast 6.6× ROAS on ₹56K, about 15 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1327",
+     "name": "Ishaan K.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Auto & Bikes",
+     "tier": "Nano",
+     "followers": 8356,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.4,
+     "parts": {
+      "aud": 88,
+      "cont": 76,
+      "cult": 50,
+      "perf": 69,
+      "auth": 76,
+      "safe": 94,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 15.8,
+      "cont": 10.7,
+      "cult": 4,
+      "perf": 17.9,
+      "auth": 10.6,
+      "safe": 7.5,
+      "cost": 11.9
+     },
+     "confidence": "Low",
+     "er": 3.98,
+     "linkCtr": 1.27,
+     "realFollowers": 87.6,
+     "viewThrough": 35.4,
+     "hold3s": 50.8,
+     "sponsoredShare": 30,
+     "adDisclosure": 93,
+     "safety": 95,
+     "audienceWomen": 0.254,
+     "forecast": {
+      "cost": 3000,
+      "views": 4155,
+      "tgViews": 3048,
+      "tgShare": 0.84,
+      "engagements": 393,
+      "clicks": 51,
+      "orders": 1.2,
+      "revenue": 30449,
+      "roas": 10.15,
+      "recallLiftPts": 1.9,
+      "costPerTgView": 0.98,
+      "costPerEngagement": 7.64,
+      "costPerClick": 58.76
+     },
+     "why": [
+      "Link CTR 1.27%, top 5% of nano creators; trust index 0.92",
+      "Audience matches the brief: 25% women (target 46%), 94% age overlap, 96% city-tier overlap",
+      "Forecast 10.1× ROAS on ₹3K, about 1 orders",
+      "Tech &amp; Gadgets is a strong category for Samsung, with auto &amp; bikes as a second pillar"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1299",
+     "name": "Rakesh G.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Education & Careers",
+     "tier": "Mid-tier",
+     "followers": 164917,
+     "city": "Bengaluru",
+     "languages": [
+      "Kannada",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.4,
+     "parts": {
+      "aud": 83,
+      "cont": 76,
+      "cult": 78,
+      "perf": 69,
+      "auth": 67,
+      "safe": 85,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 14.9,
+      "cont": 10.7,
+      "cult": 6.2,
+      "perf": 17.9,
+      "auth": 9.4,
+      "safe": 6.8,
+      "cost": 11.6
+     },
+     "confidence": "Medium",
+     "er": 0.86,
+     "linkCtr": 1.19,
+     "realFollowers": 83.4,
+     "viewThrough": 43.7,
+     "hold3s": 85,
+     "sponsoredShare": 31,
+     "adDisclosure": 83,
+     "safety": 86,
+     "audienceWomen": 0.317,
+     "forecast": {
+      "cost": 69000,
+      "views": 66931,
+      "tgViews": 44786,
+      "tgShare": 0.8,
+      "engagements": 2111,
+      "clicks": 635,
+      "orders": 18.1,
+      "revenue": 452809,
+      "roas": 6.56,
+      "recallLiftPts": 5.6,
+      "costPerTgView": 1.54,
+      "costPerEngagement": 32.69,
+      "costPerClick": 108.65
+     },
+     "why": [
+      "Link CTR 1.19%, top 13% of mid-tier creators; trust index 1.10",
+      "Audience matches the brief: 32% women (target 46%), 89% age overlap, 87% city-tier overlap",
+      "Forecast 6.6× ROAS on ₹69K, about 18 orders",
+      "Tech &amp; Gadgets is a strong category for Samsung, with education &amp; careers as a second pillar"
+     ],
+     "risks": []
+    }
+   ],
+   "plan": {
+    "creators": 76,
+    "spend": 4499000,
+    "views": 4651476,
+    "tgViews": 2898708,
+    "uniqueTgReach": 1791227,
+    "engagements": 209293,
+    "clicks": 35758,
+    "orders": 865,
+    "revenue": 21621547,
+    "roas": 4.81,
+    "recallLiftPts": 4.4,
+    "fakeAudienceShare": 0.15,
+    "gatedIncluded": 0,
+    "representCreators": 4,
+    "representSpend": 263500,
+    "forecastBandPct": 22,
+    "spendByTier": {
+     "micro": 467000,
+     "mid": 2771000,
+     "nano": 33500,
+     "macro": 317000,
+     "mega": 910500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 5,
+    "spend": 4499000,
+    "views": 4127902,
+    "tgViews": 2296867,
+    "uniqueTgReach": 1421208,
+    "engagements": 124813,
+    "clicks": 18146,
+    "orders": 374,
+    "revenue": 9359500,
+    "roas": 2.08,
+    "recallLiftPts": 3.4,
+    "fakeAudienceShare": 0.28,
+    "gatedIncluded": 2,
+    "representCreators": 1,
+    "representSpend": 300000,
+    "forecastBandPct": 20,
+    "spendByTier": {
+     "mega": 4423000,
+     "mid": 76000
+    }
+   },
+   "planCreators": [
+    "Mansi B. (Micro, Tech & Gadgets)",
+    "Tanvi R. (Mid-tier, Tech & Gadgets)",
+    "Kavya T. (Mid-tier, Parenting & Family)",
+    "Arnab B. (Micro, Home & Decor)",
+    "Varsha B. (Micro, Food & Cooking)",
+    "Ishaan K. (Nano, Tech & Gadgets)",
+    "Tanvi S. (Micro, Tech & Gadgets)",
+    "Yash S. (Micro, Education & Careers)",
+    "Meera A. (Mid-tier, Home & Decor)",
+    "Rimjhim V. (Mid-tier, Personal Finance)",
+    "Tanvi C. (Micro, Food & Cooking)",
+    "Rakesh G. (Mid-tier, Tech & Gadgets)"
+   ]
+  }
+ }
+}

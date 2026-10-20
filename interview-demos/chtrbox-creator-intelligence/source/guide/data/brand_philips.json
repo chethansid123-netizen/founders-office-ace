@@ -1,0 +1,1774 @@
+{
+ "id": "philips",
+ "name": "Philips",
+ "parent": "Philips India",
+ "vertical": "health",
+ "sub": "Personal health & grooming",
+ "status": "Reported client",
+ "defaultObjective": "consideration",
+ "brief": "Make grooming tech part of the groom-to-be routine.",
+ "moment": "Wedding season · Nov–Feb",
+ "budgetLakh": 14,
+ "target": {
+  "fem": 0.42,
+  "age": [
+   0.04,
+   0.4,
+   0.38,
+   0.13,
+   0.05
+  ],
+  "tiers": [
+   0.5,
+   0.36,
+   0.14
+  ],
+  "affl": 0.55
+ },
+ "languages": {
+  "Hinglish": 1,
+  "English": 0.9,
+  "Hindi": 0.7,
+  "Tamil": 0.5,
+  "Telugu": 0.5
+ },
+ "codes": [
+  "Working professional",
+  "Science-backed",
+  "Wedding season"
+ ],
+ "affinity": {
+  "lifestyle": 0.85,
+  "tech": 0.8,
+  "fashion": 0.7,
+  "beauty": 0.7,
+  "fitness": 0.65,
+  "health": 0.6
+ },
+ "competitors": [
+  "Braun",
+  "Havells",
+  "Xiaomi"
+ ],
+ "compliance": null,
+ "aov": 2200,
+ "conversionRate": 0.022,
+ "kpis": [
+  "Consideration lift",
+  "PDP clicks",
+  "Saves per view"
+ ],
+ "markets": [
+  "India"
+ ],
+ "tgPoolMillions": 90,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 365,
+   "gated": 55,
+   "gatesByReason": {
+    "conflict": 2,
+    "safety": 4,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Aparna A.",
+     "id": "CIE-1067",
+     "reasons": [
+      "Posted for Xiaomi 41 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Nithya C.",
+     "id": "CIE-1306",
+     "reasons": [
+      "Brand-safety score 47: profanity in recent content, past controversy (2025)"
+     ]
+    },
+    {
+     "name": "Ananya Y.",
+     "id": "CIE-1256",
+     "reasons": [
+      "Only 70% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Sruthi S.",
+     "id": "CIE-1278",
+     "reasons": [
+      "Only 69.8% of followers look real and active (gate is 72%)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1063",
+     "name": "Shreya N.",
+     "niche": "Lifestyle & Vlogs",
+     "niche2": "Travel",
+     "tier": "Micro",
+     "followers": 31260,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.9,
+     "parts": {
+      "aud": 95,
+      "cont": 65,
+      "cult": 78,
+      "perf": 69,
+      "auth": 71,
+      "safe": 89,
+      "cost": 92
+     },
+     "contributions": {
+      "aud": 20.9,
+      "cont": 9.7,
+      "cult": 10.9,
+      "perf": 10.3,
+      "auth": 10,
+      "safe": 8.9,
+      "cost": 9.2
+     },
+     "confidence": "Medium",
+     "er": 3.22,
+     "linkCtr": 0.67,
+     "realFollowers": 84.3,
+     "viewThrough": 56.9,
+     "hold3s": 55.2,
+     "sponsoredShare": 26,
+     "adDisclosure": 78,
+     "safety": 96,
+     "audienceWomen": 0.542,
+     "forecast": {
+      "cost": 11000,
+      "views": 15911,
+      "tgViews": 11884,
+      "tgShare": 0.89,
+      "engagements": 1175,
+      "clicks": 79,
+      "orders": 5.5,
+      "revenue": 12150,
+      "roas": 1.1,
+      "recallLiftPts": 6.8,
+      "costPerTgView": 0.93,
+      "costPerEngagement": 9.36,
+      "costPerClick": 139.09
+     },
+     "why": [
+      "Audience matches the brief: 54% women (target 42%), 97% age overlap, 94% city-tier overlap",
+      "Creates in Hinglish, Philips's lead language; shares the Working professional codes",
+      "Viewers watch 57% of each video, top 4% of micro creators; past recall lift +7.5 pts",
+      "84% of followers look real and active; 26% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1208",
+     "name": "Sahil Y.",
+     "niche": "Lifestyle & Vlogs",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 42312,
+     "city": "Mumbai",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Moj",
+     "represent": false,
+     "credential": null,
+     "fit": 79.5,
+     "parts": {
+      "aud": 91,
+      "cont": 81,
+      "cult": 78,
+      "perf": 55,
+      "auth": 91,
+      "safe": 91,
+      "cost": 63
+     },
+     "contributions": {
+      "aud": 20.1,
+      "cont": 12.2,
+      "cult": 10.9,
+      "perf": 8.3,
+      "auth": 12.7,
+      "safe": 9.1,
+      "cost": 6.3
+     },
+     "confidence": "Medium",
+     "er": 3.58,
+     "linkCtr": 0.75,
+     "realFollowers": 95.5,
+     "viewThrough": 46.3,
+     "hold3s": 66.8,
+     "sponsoredShare": 13,
+     "adDisclosure": 78,
+     "safety": 99,
+     "audienceWomen": 0.453,
+     "forecast": {
+      "cost": 17000,
+      "views": 14833,
+      "tgViews": 12186,
+      "tgShare": 0.86,
+      "engagements": 1743,
+      "clicks": 116,
+      "orders": 8.6,
+      "revenue": 18846,
+      "roas": 1.11,
+      "recallLiftPts": 5.5,
+      "costPerTgView": 1.4,
+      "costPerEngagement": 9.75,
+      "costPerClick": 146.62
+     },
+     "why": [
+      "Audience matches the brief: 45% women (target 42%), 91% age overlap, 85% city-tier overlap",
+      "96% of followers look real and active; 13% of recent posts are sponsored",
+      "Lifestyle &amp; Vlogs is a strong category for Philips, with fashion &amp; style as a second pillar",
+      "Creates in English + Hinglish, Philips's lead language; shares the Working professional codes"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1400",
+     "name": "Gayathri A.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 15153,
+     "city": "Bengaluru",
+     "languages": [
+      "English"
+     ],
+     "platform": "Moj",
+     "represent": false,
+     "credential": null,
+     "fit": 79,
+     "parts": {
+      "aud": 92,
+      "cont": 70,
+      "cult": 72,
+      "perf": 61,
+      "auth": 81,
+      "safe": 89,
+      "cost": 87
+     },
+     "contributions": {
+      "aud": 20.3,
+      "cont": 10.5,
+      "cult": 10.1,
+      "perf": 9.2,
+      "auth": 11.3,
+      "safe": 8.9,
+      "cost": 8.7
+     },
+     "confidence": "High",
+     "er": 2.66,
+     "linkCtr": 1.11,
+     "realFollowers": 92.9,
+     "viewThrough": 49.4,
+     "hold3s": 64.5,
+     "sponsoredShare": 40,
+     "adDisclosure": 99,
+     "safety": 82,
+     "audienceWomen": 0.519,
+     "forecast": {
+      "cost": 5500,
+      "views": 6502,
+      "tgViews": 5250,
+      "tgShare": 0.87,
+      "engagements": 485,
+      "clicks": 61,
+      "orders": 4.1,
+      "revenue": 9114,
+      "roas": 1.66,
+      "recallLiftPts": 5.6,
+      "costPerTgView": 1.05,
+      "costPerEngagement": 11.34,
+      "costPerClick": 89.76
+     },
+     "why": [
+      "Audience matches the brief: 52% women (target 42%), 89% age overlap, 93% city-tier overlap",
+      "93% of followers look real and active; 40% of recent posts are sponsored",
+      "Fitness &amp; Wellness is a strong category for Philips, with lifestyle &amp; vlogs as a second pillar",
+      "Creates in English, Philips's lead language; shares the Working professional codes"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1083",
+     "name": "Mitali B.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Micro",
+     "followers": 30216,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.2,
+     "parts": {
+      "aud": 83,
+      "cont": 70,
+      "cult": 55,
+      "perf": 76,
+      "auth": 85,
+      "safe": 92,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 18.2,
+      "cont": 10.5,
+      "cult": 7.7,
+      "perf": 11.3,
+      "auth": 12,
+      "safe": 9.2,
+      "cost": 9.4
+     },
+     "confidence": "Low",
+     "er": 2.34,
+     "linkCtr": 0.51,
+     "realFollowers": 90,
+     "viewThrough": 55.3,
+     "hold3s": 55.1,
+     "sponsoredShare": 4,
+     "adDisclosure": 94,
+     "safety": 90,
+     "audienceWomen": 0.705,
+     "forecast": {
+      "cost": 9500,
+      "views": 13910,
+      "tgViews": 10049,
+      "tgShare": 0.8,
+      "engagements": 870,
+      "clicks": 58,
+      "orders": 4.3,
+      "revenue": 9482,
+      "roas": 1,
+      "recallLiftPts": 8.8,
+      "costPerTgView": 0.95,
+      "costPerEngagement": 10.92,
+      "costPerClick": 164.23
+     },
+     "why": [
+      "Audience matches the brief: 71% women (target 42%), 96% age overlap, 91% city-tier overlap",
+      "90% of followers look real and active; 4% of recent posts are sponsored",
+      "Viewers watch 55% of each video, top 6% of micro creators; past recall lift +9.6 pts",
+      "Fashion &amp; Style is a strong category for Philips, with beauty &amp; skincare as a second pillar"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1066",
+     "name": "Saloni M.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Mid-tier",
+     "followers": 193801,
+     "city": "Pune",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.8,
+     "parts": {
+      "aud": 88,
+      "cont": 64,
+      "cult": 100,
+      "perf": 59,
+      "auth": 64,
+      "safe": 91,
+      "cost": 80
+     },
+     "contributions": {
+      "aud": 19.3,
+      "cont": 9.6,
+      "cult": 14,
+      "perf": 8.9,
+      "auth": 8.9,
+      "safe": 9.1,
+      "cost": 8
+     },
+     "confidence": "Low",
+     "er": 2.13,
+     "linkCtr": 0.76,
+     "realFollowers": 83.1,
+     "viewThrough": 52,
+     "hold3s": 88,
+     "sponsoredShare": 20,
+     "adDisclosure": 99,
+     "safety": 85,
+     "audienceWomen": 0.509,
+     "forecast": {
+      "cost": 69000,
+      "views": 93998,
+      "tgViews": 65450,
+      "tgShare": 0.84,
+      "engagements": 4942,
+      "clicks": 473,
+      "orders": 31.8,
+      "revenue": 70018,
+      "roas": 1.01,
+      "recallLiftPts": 2.9,
+      "costPerTgView": 1.05,
+      "costPerEngagement": 13.96,
+      "costPerClick": 146.01
+     },
+     "why": [
+      "Audience matches the brief: 51% women (target 42%), 85% age overlap, 91% city-tier overlap",
+      "Creates in Hinglish, Philips's lead language; shares the Science-backed and Working professional codes",
+      "Fitness &amp; Wellness is a strong category for Philips, with doctors &amp; dietitians as a second pillar",
+      "Safety score 85; discloses #ad on 99% of paid posts"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 35,
+    "spend": 1400000,
+    "views": 2338631,
+    "tgViews": 1571664,
+    "uniqueTgReach": 969533,
+    "engagements": 91470,
+    "clicks": 12836,
+    "orders": 852,
+    "revenue": 1873744,
+    "roas": 1.34,
+    "recallLiftPts": 4.9,
+    "fakeAudienceShare": 0.12,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 25,
+    "spendByTier": {
+     "micro": 392000,
+     "macro": 177500,
+     "mid": 824000,
+     "nano": 6500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 1395500,
+    "views": 1518805,
+    "tgViews": 971084,
+    "uniqueTgReach": 601571,
+    "engagements": 52040,
+    "clicks": 5420,
+    "orders": 252,
+    "revenue": 554396,
+    "roas": 0.4,
+    "recallLiftPts": 2.7,
+    "fakeAudienceShare": 0.13,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 33,
+    "spendByTier": {
+     "mega": 1266500,
+     "mid": 129000
+    }
+   },
+   "planCreators": [
+    "Varsha B. (Micro, Food & Cooking)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Keerthi B. (Macro, Beauty & Skincare)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Ananya J. (Micro, Music & Dance)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Mitali B. (Micro, Fashion & Style)",
+    "Keerthi J. (Mid-tier, Fashion & Style)",
+    "Vivaan M. (Micro, Fitness & Wellness)",
+    "Riya D. (Micro, Beauty & Skincare)",
+    "Rasika D. (Micro, Beauty & Skincare)",
+    "Gayathri A. (Micro, Fitness & Wellness)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 365,
+   "gated": 55,
+   "gatesByReason": {
+    "safety": 4,
+    "conflict": 2,
+    "market": 18,
+    "fraud": 32
+   },
+   "gatedExamples": [
+    {
+     "name": "Mitali S.",
+     "id": "CIE-1109",
+     "reasons": [
+      "Brand-safety score 51: political commentary, unverified health claims"
+     ]
+    },
+    {
+     "name": "Gautham V.",
+     "id": "CIE-1381",
+     "reasons": [
+      "Posted for Xiaomi 38 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Nithya C.",
+     "id": "CIE-1306",
+     "reasons": [
+      "Brand-safety score 47: profanity in recent content, past controversy (2025)"
+     ]
+    },
+    {
+     "name": "Aparna A.",
+     "id": "CIE-1067",
+     "reasons": [
+      "Posted for Xiaomi 41 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1337",
+     "name": "Aditya G.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 28048,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 78.5,
+     "parts": {
+      "aud": 89,
+      "cont": 70,
+      "cult": 100,
+      "perf": 66,
+      "auth": 73,
+      "safe": 91,
+      "cost": 75
+     },
+     "contributions": {
+      "aud": 17.8,
+      "cont": 12.6,
+      "cult": 10,
+      "perf": 13.2,
+      "auth": 10.2,
+      "safe": 7.3,
+      "cost": 7.5
+     },
+     "confidence": "Low",
+     "er": 4.72,
+     "linkCtr": 0.47,
+     "realFollowers": 84,
+     "viewThrough": 46,
+     "hold3s": 63.5,
+     "sponsoredShare": 28,
+     "adDisclosure": 91,
+     "safety": 91,
+     "audienceWomen": 0.386,
+     "forecast": {
+      "cost": 14000,
+      "views": 3959,
+      "tgViews": 2807,
+      "tgShare": 0.84,
+      "engagements": 1324,
+      "clicks": 12,
+      "orders": 1,
+      "revenue": 2218,
+      "roas": 0.16,
+      "recallLiftPts": 6.7,
+      "costPerTgView": 4.99,
+      "costPerEngagement": 10.58,
+      "costPerClick": 1159.31
+     },
+     "why": [
+      "Audience matches the brief: 39% women (target 42%), 86% age overlap, 85% city-tier overlap",
+      "Engagement rate 4.7%, top 9% of micro creators; 1.8% of viewers save or share",
+      "Fitness &amp; Wellness is a strong category for Philips, with lifestyle &amp; vlogs as a second pillar",
+      "84% of followers look real and active; 28% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1263",
+     "name": "Dhwani R.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 46218,
+     "city": "Pune",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.2,
+     "parts": {
+      "aud": 92,
+      "cont": 64,
+      "cult": 78,
+      "perf": 71,
+      "auth": 74,
+      "safe": 83,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 18.4,
+      "cont": 11.5,
+      "cult": 7.8,
+      "perf": 14.2,
+      "auth": 10.3,
+      "safe": 6.7,
+      "cost": 9.4
+     },
+     "confidence": "Medium",
+     "er": 5.31,
+     "linkCtr": 0.68,
+     "realFollowers": 89.6,
+     "viewThrough": 50.4,
+     "hold3s": 74.3,
+     "sponsoredShare": 35,
+     "adDisclosure": 90,
+     "safety": 79,
+     "audienceWomen": 0.489,
+     "forecast": {
+      "cost": 21500,
+      "views": 20704,
+      "tgViews": 16078,
+      "tgShare": 0.87,
+      "engagements": 2704,
+      "clicks": 111,
+      "orders": 8.4,
+      "revenue": 18569,
+      "roas": 0.86,
+      "recallLiftPts": 4,
+      "costPerTgView": 1.34,
+      "costPerEngagement": 7.95,
+      "costPerClick": 193.63
+     },
+     "why": [
+      "Audience matches the brief: 49% women (target 42%), 86% age overlap, 94% city-tier overlap",
+      "Engagement rate 5.3%, top 5% of micro creators; 2.5% of viewers save or share",
+      "Fitness &amp; Wellness is a strong category for Philips, with doctors &amp; dietitians as a second pillar",
+      "90% of followers look real and active; 35% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1183",
+     "name": "Ananya M.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 43554,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.1,
+     "parts": {
+      "aud": 68,
+      "cont": 74,
+      "cult": 100,
+      "perf": 87,
+      "auth": 66,
+      "safe": 69,
+      "cost": 81
+     },
+     "contributions": {
+      "aud": 13.6,
+      "cont": 13.3,
+      "cult": 10,
+      "perf": 17.4,
+      "auth": 9.3,
+      "safe": 5.5,
+      "cost": 8.1
+     },
+     "confidence": "Low",
+     "er": 5.31,
+     "linkCtr": 0.57,
+     "realFollowers": 81.6,
+     "viewThrough": 51.5,
+     "hold3s": 70.6,
+     "sponsoredShare": 31,
+     "adDisclosure": 73,
+     "safety": 66,
+     "audienceWomen": 0.833,
+     "forecast": {
+      "cost": 25000,
+      "views": 23728,
+      "tgViews": 13715,
+      "tgShare": 0.71,
+      "engagements": 2548,
+      "clicks": 103,
+      "orders": 7.8,
+      "revenue": 17144,
+      "roas": 0.69,
+      "recallLiftPts": 6.9,
+      "costPerTgView": 1.82,
+      "costPerEngagement": 9.81,
+      "costPerClick": 241.58
+     },
+     "why": [
+      "Engagement rate 5.3%, top 5% of micro creators; 2.8% of viewers save or share",
+      "Audience matches the brief: 83% women (target 42%), 87% age overlap, 92% city-tier overlap",
+      "Beauty &amp; Skincare is a strong category for Philips, with lifestyle &amp; vlogs as a second pillar",
+      "Creates in Hinglish, Philips's lead language; shares the Science-backed and Wedding season codes"
+     ],
+     "risks": [
+      "Discloses #ad on only 73% of paid posts. Brief on disclosure in the first line",
+      "Political commentary",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1208",
+     "name": "Sahil Y.",
+     "niche": "Lifestyle & Vlogs",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 42312,
+     "city": "Mumbai",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Moj",
+     "represent": false,
+     "credential": null,
+     "fit": 77.1,
+     "parts": {
+      "aud": 91,
+      "cont": 81,
+      "cult": 78,
+      "perf": 42,
+      "auth": 91,
+      "safe": 91,
+      "cost": 81
+     },
+     "contributions": {
+      "aud": 18.2,
+      "cont": 14.6,
+      "cult": 7.8,
+      "perf": 8.4,
+      "auth": 12.7,
+      "safe": 7.2,
+      "cost": 8.1
+     },
+     "confidence": "Medium",
+     "er": 3.58,
+     "linkCtr": 0.75,
+     "realFollowers": 95.5,
+     "viewThrough": 46.3,
+     "hold3s": 66.8,
+     "sponsoredShare": 13,
+     "adDisclosure": 78,
+     "safety": 99,
+     "audienceWomen": 0.453,
+     "forecast": {
+      "cost": 17000,
+      "views": 14833,
+      "tgViews": 12186,
+      "tgShare": 0.86,
+      "engagements": 1743,
+      "clicks": 116,
+      "orders": 8.6,
+      "revenue": 18846,
+      "roas": 1.11,
+      "recallLiftPts": 5.5,
+      "costPerTgView": 1.4,
+      "costPerEngagement": 9.75,
+      "costPerClick": 146.62
+     },
+     "why": [
+      "Audience matches the brief: 45% women (target 42%), 91% age overlap, 85% city-tier overlap",
+      "Lifestyle &amp; Vlogs is a strong category for Philips, with fashion &amp; style as a second pillar",
+      "96% of followers look real and active; 13% of recent posts are sponsored",
+      "Engagement rate 3.6%, top 26% of micro creators; 1.0% of viewers save or share"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1192",
+     "name": "Vivaan Y.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 73368,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 76.4,
+     "parts": {
+      "aud": 92,
+      "cont": 70,
+      "cult": 55,
+      "perf": 64,
+      "auth": 72,
+      "safe": 89,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 18.5,
+      "cont": 12.6,
+      "cult": 5.5,
+      "perf": 12.9,
+      "auth": 10.1,
+      "safe": 7.1,
+      "cost": 9.8
+     },
+     "confidence": "Low",
+     "er": 4.2,
+     "linkCtr": 0.67,
+     "realFollowers": 85.4,
+     "viewThrough": 34.9,
+     "hold3s": 68,
+     "sponsoredShare": 21,
+     "adDisclosure": 90,
+     "safety": 88,
+     "audienceWomen": 0.502,
+     "forecast": {
+      "cost": 25000,
+      "views": 34034,
+      "tgViews": 25232,
+      "tgShare": 0.87,
+      "engagements": 3478,
+      "clicks": 185,
+      "orders": 17.6,
+      "revenue": 38777,
+      "roas": 1.55,
+      "recallLiftPts": 9.1,
+      "costPerTgView": 0.99,
+      "costPerEngagement": 7.19,
+      "costPerClick": 135.04
+     },
+     "why": [
+      "Audience matches the brief: 50% women (target 42%), 85% age overlap, 95% city-tier overlap",
+      "Engagement rate 4.2%, top 12% of micro creators; 1.5% of viewers save or share",
+      "Fitness &amp; Wellness is a strong category for Philips, with lifestyle &amp; vlogs as a second pillar",
+      "85% of followers look real and active; 21% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1221",
+     "name": "Shreya G.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 16818,
+     "city": "Chandigarh",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 76.4,
+     "parts": {
+      "aud": 72,
+      "cont": 74,
+      "cult": 61,
+      "perf": 83,
+      "auth": 73,
+      "safe": 88,
+      "cost": 87
+     },
+     "contributions": {
+      "aud": 14.4,
+      "cont": 13.3,
+      "cult": 6.1,
+      "perf": 16.7,
+      "auth": 10.2,
+      "safe": 7,
+      "cost": 8.7
+     },
+     "confidence": "Low",
+     "er": 3.98,
+     "linkCtr": 0.59,
+     "realFollowers": 85.9,
+     "viewThrough": 51.4,
+     "hold3s": 61.1,
+     "sponsoredShare": 37,
+     "adDisclosure": 90,
+     "safety": 86,
+     "audienceWomen": 0.641,
+     "forecast": {
+      "cost": 6000,
+      "views": 3486,
+      "tgViews": 2201,
+      "tgShare": 0.73,
+      "engagements": 669,
+      "clicks": 14,
+      "orders": 1,
+      "revenue": 2190,
+      "roas": 0.36,
+      "recallLiftPts": 7.6,
+      "costPerTgView": 2.73,
+      "costPerEngagement": 8.96,
+      "costPerClick": 437
+     },
+     "why": [
+      "Engagement rate 4.0%, top 17% of micro creators; 3.0% of viewers save or share",
+      "Audience matches the brief: 64% women (target 42%), 81% age overlap, 83% city-tier overlap",
+      "Fashion &amp; Style is a strong category for Philips, with lifestyle &amp; vlogs as a second pillar",
+      "86% of followers look real and active; 37% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1056",
+     "name": "Neel B.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 15258,
+     "city": "Ahmedabad",
+     "languages": [
+      "Gujarati",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "Certified trainer",
+     "fit": 76.2,
+     "parts": {
+      "aud": 74,
+      "cont": 70,
+      "cult": 78,
+      "perf": 72,
+      "auth": 71,
+      "safe": 90,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 14.8,
+      "cont": 12.6,
+      "cult": 7.8,
+      "perf": 14.5,
+      "auth": 9.9,
+      "safe": 7.2,
+      "cost": 9.4
+     },
+     "confidence": "Low",
+     "er": 4,
+     "linkCtr": 0.75,
+     "realFollowers": 85,
+     "viewThrough": 42.7,
+     "hold3s": 59,
+     "sponsoredShare": 21,
+     "adDisclosure": 89,
+     "safety": 91,
+     "audienceWomen": 0.576,
+     "forecast": {
+      "cost": 5500,
+      "views": 6380,
+      "tgViews": 4057,
+      "tgShare": 0.75,
+      "engagements": 693,
+      "clicks": 41,
+      "orders": 3.8,
+      "revenue": 8452,
+      "roas": 1.54,
+      "recallLiftPts": 5.9,
+      "costPerTgView": 1.36,
+      "costPerEngagement": 7.94,
+      "costPerClick": 133.35
+     },
+     "why": [
+      "Audience matches the brief: 58% women (target 42%), 86% age overlap, 71% city-tier overlap",
+      "Engagement rate 4.0%, top 16% of micro creators; 2.5% of viewers save or share",
+      "Fitness &amp; Wellness is a strong category for Philips, with lifestyle &amp; vlogs as a second pillar",
+      "85% of followers look real and active; 21% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1296",
+     "name": "Subhankar B.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 45223,
+     "city": "Kolkata",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 75.8,
+     "parts": {
+      "aud": 66,
+      "cont": 74,
+      "cult": 78,
+      "perf": 78,
+      "auth": 76,
+      "safe": 90,
+      "cost": 82
+     },
+     "contributions": {
+      "aud": 13.2,
+      "cont": 13.3,
+      "cult": 7.8,
+      "perf": 15.5,
+      "auth": 10.6,
+      "safe": 7.2,
+      "cost": 8.2
+     },
+     "confidence": "Medium",
+     "er": 3.76,
+     "linkCtr": 0.59,
+     "realFollowers": 83.4,
+     "viewThrough": 41.2,
+     "hold3s": 55.4,
+     "sponsoredShare": 11,
+     "adDisclosure": 89,
+     "safety": 91,
+     "audienceWomen": 0.838,
+     "forecast": {
+      "cost": 18500,
+      "views": 23148,
+      "tgViews": 13443,
+      "tgShare": 0.7,
+      "engagements": 1945,
+      "clicks": 108,
+      "orders": 7.1,
+      "revenue": 15722,
+      "roas": 0.85,
+      "recallLiftPts": 5.2,
+      "costPerTgView": 1.38,
+      "costPerEngagement": 9.51,
+      "costPerClick": 171.26
+     },
+     "why": [
+      "Engagement rate 3.8%, top 20% of micro creators; 2.6% of viewers save or share",
+      "Beauty &amp; Skincare is a strong category for Philips, with lifestyle &amp; vlogs as a second pillar",
+      "Audience matches the brief: 84% women (target 42%), 93% age overlap, 86% city-tier overlap",
+      "83% of followers look real and active; 11% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1020",
+     "name": "Rahul R.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 17478,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 75.3,
+     "parts": {
+      "aud": 94,
+      "cont": 70,
+      "cult": 61,
+      "perf": 66,
+      "auth": 69,
+      "safe": 86,
+      "cost": 82
+     },
+     "contributions": {
+      "aud": 18.8,
+      "cont": 12.6,
+      "cult": 6.1,
+      "perf": 13.1,
+      "auth": 9.6,
+      "safe": 6.9,
+      "cost": 8.2
+     },
+     "confidence": "Medium",
+     "er": 3.59,
+     "linkCtr": 0.53,
+     "realFollowers": 87.8,
+     "viewThrough": 50,
+     "hold3s": 76.7,
+     "sponsoredShare": 47,
+     "adDisclosure": 96,
+     "safety": 79,
+     "audienceWomen": 0.479,
+     "forecast": {
+      "cost": 6000,
+      "views": 2685,
+      "tgViews": 2077,
+      "tgShare": 0.88,
+      "engagements": 627,
+      "clicks": 9,
+      "orders": 0.6,
+      "revenue": 1416,
+      "roas": 0.24,
+      "recallLiftPts": 6.6,
+      "costPerTgView": 2.89,
+      "costPerEngagement": 9.56,
+      "costPerClick": 649.66
+     },
+     "why": [
+      "Audience matches the brief: 48% women (target 42%), 90% age overlap, 92% city-tier overlap",
+      "Engagement rate 3.6%, top 25% of micro creators; 2.5% of viewers save or share",
+      "Fitness &amp; Wellness is a strong category for Philips, with lifestyle &amp; vlogs as a second pillar",
+      "88% of followers look real and active; 47% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Ad fatigue: 47% of recent posts are sponsored"
+     ]
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1332",
+     "name": "Kunal K.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Food & Cooking",
+     "tier": "Micro",
+     "followers": 32206,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 75,
+     "parts": {
+      "aud": 92,
+      "cont": 50,
+      "cult": 55,
+      "perf": 79,
+      "auth": 74,
+      "safe": 90,
+      "cost": 88
+     },
+     "contributions": {
+      "aud": 18.4,
+      "cont": 9,
+      "cult": 5.5,
+      "perf": 15.8,
+      "auth": 10.4,
+      "safe": 7.2,
+      "cost": 8.8
+     },
+     "confidence": "Low",
+     "er": 3.45,
+     "linkCtr": 1.58,
+     "realFollowers": 90.9,
+     "viewThrough": 27.7,
+     "hold3s": 40.9,
+     "sponsoredShare": 44,
+     "adDisclosure": 92,
+     "safety": 88,
+     "audienceWomen": 0.497,
+     "forecast": {
+      "cost": 11000,
+      "views": 12835,
+      "tgViews": 10107,
+      "tgShare": 0.87,
+      "engagements": 1285,
+      "clicks": 152,
+      "orders": 10.9,
+      "revenue": 23963,
+      "roas": 2.18,
+      "recallLiftPts": 2,
+      "costPerTgView": 1.09,
+      "costPerEngagement": 8.56,
+      "costPerClick": 72.16
+     },
+     "why": [
+      "Audience matches the brief: 50% women (target 42%), 89% age overlap, 93% city-tier overlap",
+      "Engagement rate 3.5%, top 29% of micro creators; 2.9% of viewers save or share",
+      "91% of followers look real and active; 44% of recent posts are sponsored",
+      "Fitness &amp; Wellness is a adjacent category for Philips, with food &amp; cooking as a second pillar"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 79,
+    "spend": 1400000,
+    "views": 1611156,
+    "tgViews": 1082851,
+    "uniqueTgReach": 668953,
+    "engagements": 140233,
+    "clicks": 8208,
+    "orders": 545,
+    "revenue": 1199060,
+    "roas": 0.86,
+    "recallLiftPts": 4.1,
+    "fakeAudienceShare": 0.11,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 23,
+    "spendByTier": {
+     "micro": 1075500,
+     "nano": 25000,
+     "mid": 299500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 1395500,
+    "views": 1518805,
+    "tgViews": 971084,
+    "uniqueTgReach": 601571,
+    "engagements": 52040,
+    "clicks": 5420,
+    "orders": 252,
+    "revenue": 554396,
+    "roas": 0.4,
+    "recallLiftPts": 2.7,
+    "fakeAudienceShare": 0.13,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 33,
+    "spendByTier": {
+     "mega": 1266500,
+     "mid": 129000
+    }
+   },
+   "planCreators": [
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Dhwani R. (Micro, Fitness & Wellness)",
+    "Ananya B. (Micro, Beauty & Skincare)",
+    "Rasika D. (Micro, Beauty & Skincare)",
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Kunal K. (Micro, Fitness & Wellness)",
+    "Vivaan Y. (Micro, Fitness & Wellness)",
+    "Moumita N. (Micro, Parenting & Family)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Dhwani K. (Micro, Beauty & Skincare)",
+    "Yash S. (Micro, Education & Careers)",
+    "Harsh V. (Micro, Beauty & Skincare)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 365,
+   "gated": 55,
+   "gatesByReason": {
+    "conflict": 2,
+    "fraud": 32,
+    "safety": 4,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Aparna A.",
+     "id": "CIE-1067",
+     "reasons": [
+      "Posted for Xiaomi 41 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Gautham V.",
+     "id": "CIE-1381",
+     "reasons": [
+      "Posted for Xiaomi 38 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Hetal D.",
+     "id": "CIE-1212",
+     "reasons": [
+      "Only 65.5% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Lakshmi S.",
+     "id": "CIE-1068",
+     "reasons": [
+      "Only 68.2% of followers look real and active (gate is 72%)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1332",
+     "name": "Kunal K.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Food & Cooking",
+     "tier": "Micro",
+     "followers": 32206,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.2,
+     "parts": {
+      "aud": 92,
+      "cont": 50,
+      "cult": 55,
+      "perf": 89,
+      "auth": 74,
+      "safe": 90,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 16.6,
+      "cont": 7,
+      "cult": 4.4,
+      "perf": 23,
+      "auth": 10.4,
+      "safe": 7.2,
+      "cost": 11.7
+     },
+     "confidence": "Low",
+     "er": 3.45,
+     "linkCtr": 1.58,
+     "realFollowers": 90.9,
+     "viewThrough": 27.7,
+     "hold3s": 40.9,
+     "sponsoredShare": 44,
+     "adDisclosure": 92,
+     "safety": 88,
+     "audienceWomen": 0.497,
+     "forecast": {
+      "cost": 11000,
+      "views": 12835,
+      "tgViews": 10107,
+      "tgShare": 0.87,
+      "engagements": 1285,
+      "clicks": 152,
+      "orders": 10.9,
+      "revenue": 23963,
+      "roas": 2.18,
+      "recallLiftPts": 2,
+      "costPerTgView": 1.09,
+      "costPerEngagement": 8.56,
+      "costPerClick": 72.16
+     },
+     "why": [
+      "Link CTR 1.58%, top 1% of micro creators; trust index 1.16",
+      "Audience matches the brief: 50% women (target 42%), 89% age overlap, 93% city-tier overlap",
+      "Forecast 2.2× ROAS on ₹11K, about 11 orders",
+      "91% of followers look real and active; 44% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1334",
+     "name": "Mansi T.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 125386,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": true,
+     "credential": null,
+     "fit": 78.6,
+     "parts": {
+      "aud": 78,
+      "cont": 74,
+      "cult": 55,
+      "perf": 76,
+      "auth": 80,
+      "safe": 91,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 14.1,
+      "cont": 10.3,
+      "cult": 4.4,
+      "perf": 19.8,
+      "auth": 11.1,
+      "safe": 7.2,
+      "cost": 11.6
+     },
+     "confidence": "Low",
+     "er": 1.45,
+     "linkCtr": 1.68,
+     "realFollowers": 89,
+     "viewThrough": 49.8,
+     "hold3s": 64.1,
+     "sponsoredShare": 27,
+     "adDisclosure": 96,
+     "safety": 87,
+     "audienceWomen": 0.802,
+     "forecast": {
+      "cost": 49000,
+      "views": 52197,
+      "tgViews": 35923,
+      "tgShare": 0.77,
+      "engagements": 2345,
+      "clicks": 677,
+      "orders": 47.2,
+      "revenue": 103811,
+      "roas": 2.12,
+      "recallLiftPts": 4.8,
+      "costPerTgView": 1.36,
+      "costPerEngagement": 20.9,
+      "costPerClick": 72.35
+     },
+     "why": [
+      "Link CTR 1.68%, top 1% of mid-tier creators; trust index 0.99",
+      "Audience matches the brief: 80% women (target 42%), 95% age overlap, 93% city-tier overlap",
+      "Forecast 2.1× ROAS on ₹49K, about 47 orders",
+      "89% of followers look real and active; 27% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1418",
+     "name": "Rahul M.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 68998,
+     "city": "Delhi NCR",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.5,
+     "parts": {
+      "aud": 81,
+      "cont": 74,
+      "cult": 78,
+      "perf": 72,
+      "auth": 79,
+      "safe": 91,
+      "cost": 87
+     },
+     "contributions": {
+      "aud": 14.6,
+      "cont": 10.3,
+      "cult": 6.2,
+      "perf": 18.7,
+      "auth": 11,
+      "safe": 7.3,
+      "cost": 10.5
+     },
+     "confidence": "Medium",
+     "er": 3.07,
+     "linkCtr": 1.39,
+     "realFollowers": 89.2,
+     "viewThrough": 43.6,
+     "hold3s": 59.1,
+     "sponsoredShare": 25,
+     "adDisclosure": 95,
+     "safety": 88,
+     "audienceWomen": 0.714,
+     "forecast": {
+      "cost": 34500,
+      "views": 28230,
+      "tgViews": 19926,
+      "tgShare": 0.79,
+      "engagements": 2491,
+      "clicks": 352,
+      "orders": 23.3,
+      "revenue": 51291,
+      "roas": 1.49,
+      "recallLiftPts": 2.9,
+      "costPerTgView": 1.73,
+      "costPerEngagement": 13.85,
+      "costPerClick": 97.9
+     },
+     "why": [
+      "Link CTR 1.39%, top 2% of micro creators; trust index 0.94",
+      "Audience matches the brief: 71% women (target 42%), 98% age overlap, 91% city-tier overlap",
+      "89% of followers look real and active; 25% of recent posts are sponsored",
+      "Forecast 1.5× ROAS on ₹35K, about 23 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1267",
+     "name": "Sneha V.",
+     "niche": "Doctors & Dietitians",
+     "niche2": "Fitness & Wellness",
+     "tier": "Micro",
+     "followers": 24274,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.3,
+     "parts": {
+      "aud": 74,
+      "cont": 61,
+      "cult": 78,
+      "perf": 85,
+      "auth": 68,
+      "safe": 93,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 13.3,
+      "cont": 8.6,
+      "cult": 6.2,
+      "perf": 22,
+      "auth": 9.5,
+      "safe": 7.4,
+      "cost": 11.3
+     },
+     "confidence": "Medium",
+     "er": 3.05,
+     "linkCtr": 1.2,
+     "realFollowers": 86.4,
+     "viewThrough": 36.2,
+     "hold3s": 55.4,
+     "sponsoredShare": 40,
+     "adDisclosure": 97,
+     "safety": 90,
+     "audienceWomen": 0.619,
+     "forecast": {
+      "cost": 9500,
+      "views": 10308,
+      "tgViews": 6631,
+      "tgShare": 0.74,
+      "engagements": 871,
+      "clicks": 99,
+      "orders": 8.2,
+      "revenue": 17974,
+      "roas": 1.89,
+      "recallLiftPts": 3.4,
+      "costPerTgView": 1.43,
+      "costPerEngagement": 10.9,
+      "costPerClick": 96.34
+     },
+     "why": [
+      "Link CTR 1.20%, top 10% of micro creators; trust index 1.26",
+      "Audience matches the brief: 62% women (target 42%), 71% age overlap, 97% city-tier overlap",
+      "Forecast 1.9× ROAS on ₹9.5K, about 8 orders",
+      "86% of followers look real and active; 40% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1345",
+     "name": "Aanya R.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Nano",
+     "followers": 8388,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.2,
+     "parts": {
+      "aud": 77,
+      "cont": 70,
+      "cult": 55,
+      "perf": 75,
+      "auth": 92,
+      "safe": 85,
+      "cost": 92
+     },
+     "contributions": {
+      "aud": 13.9,
+      "cont": 9.8,
+      "cult": 4.4,
+      "perf": 19.4,
+      "auth": 12.9,
+      "safe": 6.8,
+      "cost": 11
+     },
+     "confidence": "Low",
+     "er": 4.96,
+     "linkCtr": 1.11,
+     "realFollowers": 95.7,
+     "viewThrough": 38.3,
+     "hold3s": 77.2,
+     "sponsoredShare": 21,
+     "adDisclosure": 87,
+     "safety": 83,
+     "audienceWomen": 0.731,
+     "forecast": {
+      "cost": 4000,
+      "views": 4633,
+      "tgViews": 3400,
+      "tgShare": 0.77,
+      "engagements": 476,
+      "clicks": 45,
+      "orders": 3.2,
+      "revenue": 6968,
+      "roas": 1.74,
+      "recallLiftPts": 3.1,
+      "costPerTgView": 1.18,
+      "costPerEngagement": 8.4,
+      "costPerClick": 89.74
+     },
+     "why": [
+      "Link CTR 1.11%, top 17% of nano creators; trust index 1.03",
+      "Audience matches the brief: 73% women (target 42%), 87% age overlap, 96% city-tier overlap",
+      "96% of followers look real and active; 21% of recent posts are sponsored",
+      "Forecast 1.7× ROAS on ₹4K, about 3 orders"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 38,
+    "spend": 1400000,
+    "views": 1864368,
+    "tgViews": 1222356,
+    "uniqueTgReach": 754917,
+    "engagements": 84386,
+    "clicks": 16745,
+    "orders": 1256,
+    "revenue": 2763735,
+    "roas": 1.97,
+    "recallLiftPts": 6,
+    "fakeAudienceShare": 0.14,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 49000,
+    "forecastBandPct": 24,
+    "spendByTier": {
+     "micro": 340500,
+     "mid": 736500,
+     "nano": 10000,
+     "macro": 313000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 1395500,
+    "views": 1518805,
+    "tgViews": 971084,
+    "uniqueTgReach": 601571,
+    "engagements": 52040,
+    "clicks": 5420,
+    "orders": 252,
+    "revenue": 554396,
+    "roas": 0.4,
+    "recallLiftPts": 2.7,
+    "fakeAudienceShare": 0.13,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 33,
+    "spendByTier": {
+     "mega": 1266500,
+     "mid": 129000
+    }
+   },
+   "planCreators": [
+    "Aditi B. (Micro, Beauty & Skincare)",
+    "Mansi B. (Micro, Tech & Gadgets)",
+    "Kunal K. (Micro, Fitness & Wellness)",
+    "Mansi T. (Mid-tier, Beauty & Skincare)",
+    "Parth K. (Mid-tier, Fashion & Style)",
+    "Riya D. (Micro, Beauty & Skincare)",
+    "Tanvi P. (Micro, Beauty & Skincare)",
+    "Tanvi R. (Mid-tier, Tech & Gadgets)",
+    "Sruthi A. (Mid-tier, Fashion & Style)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)"
+   ]
+  }
+ }
+}

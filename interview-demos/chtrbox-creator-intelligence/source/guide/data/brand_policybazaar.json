@@ -1,0 +1,1788 @@
+{
+ "id": "policybazaar",
+ "name": "PolicyBazaar",
+ "parent": "PB Fintech",
+ "vertical": "bfsi",
+ "sub": "Insurance marketplace",
+ "status": "Prospect",
+ "defaultObjective": "conversion",
+ "brief": "Get young parents to buy term cover before their child's first birthday.",
+ "moment": "Tax-saving season · Jan–Mar",
+ "budgetLakh": 21,
+ "target": {
+  "fem": 0.4,
+  "age": [
+   0,
+   0.18,
+   0.46,
+   0.26,
+   0.1
+  ],
+  "tiers": [
+   0.44,
+   0.36,
+   0.2
+  ],
+  "affl": 0.52
+ },
+ "languages": {
+  "Hindi": 1,
+  "Hinglish": 0.95,
+  "English": 0.8,
+  "Tamil": 0.5,
+  "Telugu": 0.5,
+  "Marathi": 0.5
+ },
+ "codes": [
+  "Family-first",
+  "Working professional",
+  "Value-seeker"
+ ],
+ "affinity": {
+  "finance": 1,
+  "parenting": 0.8,
+  "health": 0.7,
+  "education": 0.55,
+  "lifestyle": 0.45
+ },
+ "competitors": [
+  "Acko",
+  "Ditto Insurance",
+  "InsuranceDekho"
+ ],
+ "compliance": "finance",
+ "aov": 2200,
+ "conversionRate": 0.045,
+ "kpis": [
+  "Qualified leads",
+  "Policies issued",
+  "Cost per policy"
+ ],
+ "markets": [
+  "India"
+ ],
+ "tgPoolMillions": 110,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 343,
+   "gated": 77,
+   "gatesByReason": {
+    "reg": 24,
+    "conflict": 6,
+    "fraud": 32,
+    "safety": 4,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Riya K.",
+     "id": "CIE-1293",
+     "reasons": [
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    },
+    {
+     "name": "Simran S.",
+     "id": "CIE-1219",
+     "reasons": [
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    },
+    {
+     "name": "Mitali T.",
+     "id": "CIE-1051",
+     "reasons": [
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    },
+    {
+     "name": "Bornali N.",
+     "id": "CIE-1177",
+     "reasons": [
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1054",
+     "name": "Ishani S.",
+     "niche": "Parenting & Family",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Mid-tier",
+     "followers": 462025,
+     "city": "Kolkata",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.5,
+     "parts": {
+      "aud": 73,
+      "cont": 78,
+      "cult": 97,
+      "perf": 90,
+      "auth": 61,
+      "safe": 92,
+      "cost": 89
+     },
+     "contributions": {
+      "aud": 16.1,
+      "cont": 11.6,
+      "cult": 13.6,
+      "perf": 13.5,
+      "auth": 8.5,
+      "safe": 9.2,
+      "cost": 8.9
+     },
+     "confidence": "High",
+     "er": 1.17,
+     "linkCtr": 0.97,
+     "realFollowers": 83.4,
+     "viewThrough": 54.2,
+     "hold3s": 74.4,
+     "sponsoredShare": 46,
+     "adDisclosure": 92,
+     "safety": 92,
+     "audienceWomen": 0.848,
+     "forecast": {
+      "cost": 125000,
+      "views": 175371,
+      "tgViews": 108523,
+      "tgShare": 0.74,
+      "engagements": 7346,
+      "clicks": 1419,
+      "orders": 252.1,
+      "revenue": 554619,
+      "roas": 4.44,
+      "recallLiftPts": 8.2,
+      "costPerTgView": 1.15,
+      "costPerEngagement": 17.02,
+      "costPerClick": 88.07
+     },
+     "why": [
+      "Audience matches the brief: 85% women (target 40%), 94% age overlap, 96% city-tier overlap",
+      "Creates in Hinglish, PolicyBazaar's lead language; shares the Family-first and Value-seeker codes",
+      "Viewers watch 54% of each video, top 9% of mid-tier creators; past recall lift +8.8 pts",
+      "Parenting &amp; Family is a strong category for PolicyBazaar, with doctors &amp; dietitians as a second pillar"
+     ],
+     "risks": [
+      "Ad fatigue: 46% of recent posts are sponsored",
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1314",
+     "name": "Aditi T.",
+     "niche": "Personal Finance",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 7190,
+     "city": "Jaipur",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "SEBI-registered RIA",
+     "fit": 78.5,
+     "parts": {
+      "aud": 89,
+      "cont": 86,
+      "cult": 55,
+      "perf": 61,
+      "auth": 77,
+      "safe": 86,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 19.6,
+      "cont": 12.9,
+      "cult": 7.7,
+      "perf": 9.1,
+      "auth": 10.7,
+      "safe": 8.6,
+      "cost": 9.8
+     },
+     "confidence": "Medium",
+     "er": 3.45,
+     "linkCtr": 1.34,
+     "realFollowers": 85.2,
+     "viewThrough": 36.2,
+     "hold3s": 72.6,
+     "sponsoredShare": 9,
+     "adDisclosure": 77,
+     "safety": 92,
+     "audienceWomen": 0.324,
+     "forecast": {
+      "cost": 3000,
+      "views": 5217,
+      "tgViews": 3761,
+      "tgShare": 0.85,
+      "engagements": 300,
+      "clicks": 58,
+      "orders": 10.8,
+      "revenue": 23684,
+      "roas": 7.89,
+      "recallLiftPts": 7.2,
+      "costPerTgView": 0.8,
+      "costPerEngagement": 10.01,
+      "costPerClick": 51.3
+     },
+     "why": [
+      "Audience matches the brief: 32% women (target 40%), 91% age overlap, 87% city-tier overlap",
+      "Personal Finance is a core category for PolicyBazaar, with lifestyle &amp; vlogs as a second pillar",
+      "85% of followers look real and active; 9% of recent posts are sponsored",
+      "₹0.80 per verified TG view for 1 reel and 2 stories (₹3K)"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1014",
+     "name": "Moumita N.",
+     "niche": "Parenting & Family",
+     "niche2": "Home & Decor",
+     "tier": "Micro",
+     "followers": 10035,
+     "city": "Kolkata",
+     "languages": [
+      "Bengali",
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.2,
+     "parts": {
+      "aud": 76,
+      "cont": 61,
+      "cult": 67,
+      "perf": 96,
+      "auth": 85,
+      "safe": 91,
+      "cost": 66
+     },
+     "contributions": {
+      "aud": 16.6,
+      "cont": 9.2,
+      "cult": 9.3,
+      "perf": 14.4,
+      "auth": 11.9,
+      "safe": 9.1,
+      "cost": 6.6
+     },
+     "confidence": "Medium",
+     "er": 7.62,
+     "linkCtr": 0.61,
+     "realFollowers": 96.7,
+     "viewThrough": 59.6,
+     "hold3s": 78.2,
+     "sponsoredShare": 37,
+     "adDisclosure": 92,
+     "safety": 90,
+     "audienceWomen": 0.71,
+     "forecast": {
+      "cost": 5000,
+      "views": 4383,
+      "tgViews": 3210,
+      "tgShare": 0.76,
+      "engagements": 819,
+      "clicks": 21,
+      "orders": 3.9,
+      "revenue": 8500,
+      "roas": 1.7,
+      "recallLiftPts": 7.9,
+      "costPerTgView": 1.56,
+      "costPerEngagement": 6.11,
+      "costPerClick": 238.46
+     },
+     "why": [
+      "Audience matches the brief: 71% women (target 40%), 92% age overlap, 86% city-tier overlap",
+      "Viewers watch 60% of each video, top 2% of micro creators; past recall lift +9.3 pts",
+      "97% of followers look real and active; 37% of recent posts are sponsored",
+      "Creates in Bengali + English; shares the Value-seeker codes"
+     ],
+     "risks": [
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1268",
+     "name": "Hetal J.",
+     "niche": "Parenting & Family",
+     "niche2": "Home & Decor",
+     "tier": "Micro",
+     "followers": 13406,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 76.6,
+     "parts": {
+      "aud": 72,
+      "cont": 61,
+      "cult": 100,
+      "perf": 73,
+      "auth": 80,
+      "safe": 85,
+      "cost": 69
+     },
+     "contributions": {
+      "aud": 15.9,
+      "cont": 9.2,
+      "cult": 14,
+      "perf": 10.9,
+      "auth": 11.2,
+      "safe": 8.5,
+      "cost": 6.9
+     },
+     "confidence": "Medium",
+     "er": 3.36,
+     "linkCtr": 0.82,
+     "realFollowers": 92,
+     "viewThrough": 49.8,
+     "hold3s": 64.6,
+     "sponsoredShare": 27,
+     "adDisclosure": 87,
+     "safety": 83,
+     "audienceWomen": 0.799,
+     "forecast": {
+      "cost": 5500,
+      "views": 5565,
+      "tgViews": 3772,
+      "tgShare": 0.74,
+      "engagements": 523,
+      "clicks": 37,
+      "orders": 5.2,
+      "revenue": 11346,
+      "roas": 2.06,
+      "recallLiftPts": 6.5,
+      "costPerTgView": 1.46,
+      "costPerEngagement": 10.52,
+      "costPerClick": 149.19
+     },
+     "why": [
+      "Audience matches the brief: 80% women (target 40%), 92% age overlap, 94% city-tier overlap",
+      "Creates in Hinglish + Hindi, PolicyBazaar's lead language; shares the Family-first and Value-seeker codes",
+      "92% of followers look real and active; 27% of recent posts are sponsored",
+      "Viewers watch 50% of each video, top 23% of micro creators; past recall lift +7.7 pts"
+     ],
+     "risks": [
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1385",
+     "name": "Riya T.",
+     "niche": "Doctors & Dietitians",
+     "niche2": "Parenting & Family",
+     "tier": "Mid-tier",
+     "followers": 380939,
+     "city": "Varanasi",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": true,
+     "credential": null,
+     "fit": 76.5,
+     "parts": {
+      "aud": 67,
+      "cont": 72,
+      "cult": 78,
+      "perf": 85,
+      "auth": 72,
+      "safe": 96,
+      "cost": 76
+     },
+     "contributions": {
+      "aud": 14.8,
+      "cont": 10.9,
+      "cult": 10.9,
+      "perf": 12.8,
+      "auth": 10,
+      "safe": 9.6,
+      "cost": 7.6
+     },
+     "confidence": "High",
+     "er": 1.75,
+     "linkCtr": 0.69,
+     "realFollowers": 89.5,
+     "viewThrough": 52.1,
+     "hold3s": 68.6,
+     "sponsoredShare": 40,
+     "adDisclosure": 100,
+     "safety": 94,
+     "audienceWomen": 0.646,
+     "forecast": {
+      "cost": 133500,
+      "views": 147087,
+      "tgViews": 92486,
+      "tgShare": 0.7,
+      "engagements": 8266,
+      "clicks": 809,
+      "orders": 173.5,
+      "revenue": 381620,
+      "roas": 2.86,
+      "recallLiftPts": 8.7,
+      "costPerTgView": 1.44,
+      "costPerEngagement": 16.15,
+      "costPerClick": 165.09
+     },
+     "why": [
+      "Audience matches the brief: 65% women (target 40%), 87% age overlap, 73% city-tier overlap",
+      "Viewers watch 52% of each video, top 17% of mid-tier creators; past recall lift +9.7 pts",
+      "Doctors &amp; Dietitians is a strong category for PolicyBazaar, with parenting &amp; family as a second pillar",
+      "Creates in Hindi, PolicyBazaar's lead language; shares the Value-seeker codes"
+     ],
+     "risks": [
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 54,
+    "spend": 2098500,
+    "views": 3185493,
+    "tgViews": 2055223,
+    "uniqueTgReach": 1267246,
+    "engagements": 131168,
+    "clicks": 14535,
+    "orders": 2100,
+    "revenue": 4619380,
+    "roas": 2.2,
+    "recallLiftPts": 4.8,
+    "fakeAudienceShare": 0.12,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 133500,
+    "forecastBandPct": 22,
+    "spendByTier": {
+     "micro": 509000,
+     "mid": 1230500,
+     "macro": 353500,
+     "nano": 5500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 2079000,
+    "views": 1632665,
+    "tgViews": 741822,
+    "uniqueTgReach": 459505,
+    "engagements": 44128,
+    "clicks": 4738,
+    "orders": 417,
+    "revenue": 917052,
+    "roas": 0.44,
+    "recallLiftPts": 2.5,
+    "fakeAudienceShare": 0.42,
+    "gatedIncluded": 2,
+    "representCreators": 1,
+    "representSpend": 300000,
+    "forecastBandPct": 15,
+    "spendByTier": {
+     "mega": 2079000
+    }
+   },
+   "planCreators": [
+    "Varsha B. (Micro, Food & Cooking)",
+    "Kavya T. (Mid-tier, Parenting & Family)",
+    "Tanvi C. (Micro, Food & Cooking)",
+    "Kritika D. (Micro, Home & Decor)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Nithya Y. (Mid-tier, Doctors & Dietitians)",
+    "Riya T. (Mid-tier, Doctors & Dietitians)",
+    "Hetal A. (Mid-tier, Food & Cooking)",
+    "Priyanka M. (Mid-tier, Food & Cooking)",
+    "Moumita N. (Micro, Parenting & Family)",
+    "Pooja V. (Micro, Parenting & Family)",
+    "Ishani S. (Mid-tier, Parenting & Family)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 343,
+   "gated": 77,
+   "gatesByReason": {
+    "reg": 24,
+    "conflict": 6,
+    "fraud": 32,
+    "safety": 4,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Bornali N.",
+     "id": "CIE-1177",
+     "reasons": [
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    },
+    {
+     "name": "Pooja A.",
+     "id": "CIE-1087",
+     "reasons": [
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    },
+    {
+     "name": "Simran S.",
+     "id": "CIE-1219",
+     "reasons": [
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    },
+    {
+     "name": "Nikita P.",
+     "id": "CIE-1412",
+     "reasons": [
+      "Posted for Acko 24 days ago (60-day category exclusivity)",
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1339",
+     "name": "Meher C.",
+     "niche": "Personal Finance",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 20415,
+     "city": "Lucknow",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": "SEBI-registered RIA",
+     "fit": 79.1,
+     "parts": {
+      "aud": 96,
+      "cont": 86,
+      "cult": 75,
+      "perf": 72,
+      "auth": 77,
+      "safe": 83,
+      "cost": 50
+     },
+     "contributions": {
+      "aud": 19.2,
+      "cont": 15.5,
+      "cult": 7.5,
+      "perf": 14.4,
+      "auth": 10.8,
+      "safe": 6.7,
+      "cost": 5
+     },
+     "confidence": "Medium",
+     "er": 3.27,
+     "linkCtr": 1.12,
+     "realFollowers": 88.9,
+     "viewThrough": 38.4,
+     "hold3s": 59,
+     "sponsoredShare": 24,
+     "adDisclosure": 73,
+     "safety": 90,
+     "audienceWomen": 0.351,
+     "forecast": {
+      "cost": 10000,
+      "views": 3028,
+      "tgViews": 2408,
+      "tgShare": 0.89,
+      "engagements": 668,
+      "clicks": 25,
+      "orders": 4.1,
+      "revenue": 8933,
+      "roas": 0.89,
+      "recallLiftPts": 6.5,
+      "costPerTgView": 4.15,
+      "costPerEngagement": 14.98,
+      "costPerClick": 404.24
+     },
+     "why": [
+      "Audience matches the brief: 35% women (target 40%), 89% age overlap, 94% city-tier overlap",
+      "Personal Finance is a core category for PolicyBazaar, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 3.3%, top 32% of micro creators; 4.4% of viewers save or share",
+      "89% of followers look real and active; 24% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Discloses #ad on only 73% of paid posts. Brief on disclosure in the first line"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1008",
+     "name": "Yash S.",
+     "niche": "Education & Careers",
+     "niche2": "Personal Finance",
+     "tier": "Micro",
+     "followers": 42640,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 75.7,
+     "parts": {
+      "aud": 79,
+      "cont": 66,
+      "cult": 78,
+      "perf": 66,
+      "auth": 82,
+      "safe": 79,
+      "cost": 92
+     },
+     "contributions": {
+      "aud": 15.7,
+      "cont": 11.9,
+      "cult": 7.8,
+      "perf": 13.3,
+      "auth": 11.5,
+      "safe": 6.3,
+      "cost": 9.2
+     },
+     "confidence": "Medium",
+     "er": 2.49,
+     "linkCtr": 1.29,
+     "realFollowers": 92.4,
+     "viewThrough": 35,
+     "hold3s": 45,
+     "sponsoredShare": 25,
+     "adDisclosure": 78,
+     "safety": 79,
+     "audienceWomen": 0.415,
+     "forecast": {
+      "cost": 10500,
+      "views": 12861,
+      "tgViews": 9228,
+      "tgShare": 0.78,
+      "engagements": 1292,
+      "clicks": 171,
+      "orders": 34.4,
+      "revenue": 75750,
+      "roas": 7.21,
+      "recallLiftPts": 4.8,
+      "costPerTgView": 1.14,
+      "costPerEngagement": 8.13,
+      "costPerClick": 61.57
+     },
+     "why": [
+      "Audience matches the brief: 42% women (target 40%), 62% age overlap, 91% city-tier overlap",
+      "Engagement rate 2.5%, top 61% of micro creators; 3.1% of viewers save or share",
+      "Education &amp; Careers is a strong category for PolicyBazaar, with personal finance as a second pillar",
+      "92% of followers look real and active; 25% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1241",
+     "name": "Rutuja K.",
+     "niche": "Parenting & Family",
+     "niche2": "Food & Cooking",
+     "tier": "Micro",
+     "followers": 80342,
+     "city": "Mumbai",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 75.1,
+     "parts": {
+      "aud": 69,
+      "cont": 61,
+      "cult": 97,
+      "perf": 79,
+      "auth": 77,
+      "safe": 85,
+      "cost": 73
+     },
+     "contributions": {
+      "aud": 13.8,
+      "cont": 11,
+      "cult": 9.7,
+      "perf": 15.8,
+      "auth": 10.8,
+      "safe": 6.8,
+      "cost": 7.3
+     },
+     "confidence": "High",
+     "er": 3.46,
+     "linkCtr": 0.48,
+     "realFollowers": 89.7,
+     "viewThrough": 36.8,
+     "hold3s": 52.1,
+     "sponsoredShare": 33,
+     "adDisclosure": 97,
+     "safety": 77,
+     "audienceWomen": 0.78,
+     "forecast": {
+      "cost": 30000,
+      "views": 8518,
+      "tgViews": 5454,
+      "tgShare": 0.71,
+      "engagements": 2780,
+      "clicks": 25,
+      "orders": 4.2,
+      "revenue": 9307,
+      "roas": 0.31,
+      "recallLiftPts": 4.5,
+      "costPerTgView": 5.5,
+      "costPerEngagement": 10.79,
+      "costPerClick": 1211.42
+     },
+     "why": [
+      "Engagement rate 3.5%, top 28% of micro creators; 3.0% of viewers save or share",
+      "Audience matches the brief: 78% women (target 40%), 90% age overlap, 83% city-tier overlap",
+      "Parenting &amp; Family is a strong category for PolicyBazaar, with food &amp; cooking as a second pillar",
+      "90% of followers look real and active; 33% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1108",
+     "name": "Sneha R.",
+     "niche": "Personal Finance",
+     "niche2": "Tech & Gadgets",
+     "tier": "Macro",
+     "followers": 665043,
+     "city": "Visakhapatnam",
+     "languages": [
+      "Telugu"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": "SEBI-registered RIA",
+     "fit": 75.1,
+     "parts": {
+      "aud": 91,
+      "cont": 76,
+      "cult": 73,
+      "perf": 90,
+      "auth": 76,
+      "safe": 89,
+      "cost": 2
+     },
+     "contributions": {
+      "aud": 18.2,
+      "cont": 13.7,
+      "cult": 7.3,
+      "perf": 17.9,
+      "auth": 10.7,
+      "safe": 7.1,
+      "cost": 0.2
+     },
+     "confidence": "Medium",
+     "er": 1.18,
+     "linkCtr": 0.79,
+     "realFollowers": 89.7,
+     "viewThrough": 37.1,
+     "hold3s": 60.5,
+     "sponsoredShare": 30,
+     "adDisclosure": 88,
+     "safety": 89,
+     "audienceWomen": 0.415,
+     "forecast": {
+      "cost": 333000,
+      "views": 51172,
+      "tgViews": 39496,
+      "tgShare": 0.86,
+      "engagements": 7848,
+      "clicks": 275,
+      "orders": 50.9,
+      "revenue": 112007,
+      "roas": 0.34,
+      "recallLiftPts": 5.4,
+      "costPerTgView": 8.43,
+      "costPerEngagement": 42.43,
+      "costPerClick": 1211.48
+     },
+     "why": [
+      "Audience matches the brief: 42% women (target 40%), 88% age overlap, 82% city-tier overlap",
+      "Engagement rate 1.2%, top 16% of macro creators; 3.6% of viewers save or share",
+      "Personal Finance is a strong category for PolicyBazaar, with tech &amp; gadgets as a second pillar",
+      "90% of followers look real and active; 30% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1295",
+     "name": "Krupa K.",
+     "niche": "Parenting & Family",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 11890,
+     "city": "Mumbai",
+     "languages": [
+      "Marathi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 75,
+     "parts": {
+      "aud": 68,
+      "cont": 78,
+      "cult": 50,
+      "perf": 74,
+      "auth": 76,
+      "safe": 94,
+      "cost": 96
+     },
+     "contributions": {
+      "aud": 13.6,
+      "cont": 14,
+      "cult": 5,
+      "perf": 14.8,
+      "auth": 10.6,
+      "safe": 7.5,
+      "cost": 9.6
+     },
+     "confidence": "Medium",
+     "er": 5.02,
+     "linkCtr": 0.68,
+     "realFollowers": 88.8,
+     "viewThrough": 50.2,
+     "hold3s": 69.7,
+     "sponsoredShare": 23,
+     "adDisclosure": 100,
+     "safety": 90,
+     "audienceWomen": 0.791,
+     "forecast": {
+      "cost": 5000,
+      "views": 5619,
+      "tgViews": 3526,
+      "tgShare": 0.71,
+      "engagements": 661,
+      "clicks": 32,
+      "orders": 6.1,
+      "revenue": 13416,
+      "roas": 2.68,
+      "recallLiftPts": 9.3,
+      "costPerTgView": 1.42,
+      "costPerEngagement": 7.56,
+      "costPerClick": 154.06
+     },
+     "why": [
+      "Engagement rate 5.0%, top 7% of micro creators; 2.0% of viewers save or share",
+      "Parenting &amp; Family is a strong category for PolicyBazaar, with doctors &amp; dietitians as a second pillar",
+      "Audience matches the brief: 79% women (target 40%), 92% age overlap, 81% city-tier overlap",
+      "89% of followers look real and active; 23% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 80,
+    "spend": 1948500,
+    "views": 1945589,
+    "tgViews": 1252497,
+    "uniqueTgReach": 773891,
+    "engagements": 169641,
+    "clicks": 9668,
+    "orders": 1433,
+    "revenue": 3152246,
+    "roas": 1.62,
+    "recallLiftPts": 4.4,
+    "fakeAudienceShare": 0.11,
+    "gatedIncluded": 0,
+    "representCreators": 2,
+    "representSpend": 314500,
+    "forecastBandPct": 23,
+    "spendByTier": {
+     "micro": 979000,
+     "nano": 17000,
+     "mid": 952500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 1932500,
+    "views": 1394667,
+    "tgViews": 607273,
+    "uniqueTgReach": 376319,
+    "engagements": 41620,
+    "clicks": 4097,
+    "orders": 338,
+    "revenue": 744366,
+    "roas": 0.39,
+    "recallLiftPts": 2.3,
+    "fakeAudienceShare": 0.44,
+    "gatedIncluded": 2,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 13,
+    "spendByTier": {
+     "mega": 1779000,
+     "macro": 153500
+    }
+   },
+   "planCreators": [
+    "Moumita N. (Micro, Parenting & Family)",
+    "Yash S. (Micro, Education & Careers)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Dhwani R. (Micro, Fitness & Wellness)",
+    "Rutuja K. (Micro, Parenting & Family)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Krupa K. (Micro, Parenting & Family)",
+    "Janhvi C. (Micro, Parenting & Family)",
+    "Kunal K. (Micro, Fitness & Wellness)",
+    "Ananya B. (Micro, Beauty & Skincare)",
+    "Vivaan Y. (Micro, Fitness & Wellness)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 343,
+   "gated": 77,
+   "gatesByReason": {
+    "reg": 24,
+    "conflict": 6,
+    "fraud": 32,
+    "market": 18,
+    "safety": 4
+   },
+   "gatedExamples": [
+    {
+     "name": "Riya K.",
+     "id": "CIE-1293",
+     "reasons": [
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    },
+    {
+     "name": "Nikita C.",
+     "id": "CIE-1037",
+     "reasons": [
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    },
+    {
+     "name": "Bornali N.",
+     "id": "CIE-1177",
+     "reasons": [
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    },
+    {
+     "name": "Kabir G.",
+     "id": "CIE-1048",
+     "reasons": [
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1013",
+     "name": "Rasika K.",
+     "niche": "Doctors & Dietitians",
+     "niche2": "Parenting & Family",
+     "tier": "Mid-tier",
+     "followers": 207690,
+     "city": "Mumbai",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.4,
+     "parts": {
+      "aud": 95,
+      "cont": 72,
+      "cult": 78,
+      "perf": 76,
+      "auth": 87,
+      "safe": 78,
+      "cost": 91
+     },
+     "contributions": {
+      "aud": 17.1,
+      "cont": 10.1,
+      "cult": 6.2,
+      "perf": 19.7,
+      "auth": 12.1,
+      "safe": 6.3,
+      "cost": 10.9
+     },
+     "confidence": "Low",
+     "er": 1.68,
+     "linkCtr": 1.06,
+     "realFollowers": 95.5,
+     "viewThrough": 40,
+     "hold3s": 48.5,
+     "sponsoredShare": 28,
+     "adDisclosure": 76,
+     "safety": 80,
+     "audienceWomen": 0.502,
+     "forecast": {
+      "cost": 93000,
+      "views": 59444,
+      "tgViews": 50293,
+      "tgShare": 0.89,
+      "engagements": 4361,
+      "clicks": 598,
+      "orders": 96.6,
+      "revenue": 212579,
+      "roas": 2.29,
+      "recallLiftPts": 4.1,
+      "costPerTgView": 1.85,
+      "costPerEngagement": 21.32,
+      "costPerClick": 155.54
+     },
+     "why": [
+      "Link CTR 1.06%, top 25% of mid-tier creators; trust index 1.13",
+      "Audience matches the brief: 50% women (target 40%), 96% age overlap, 93% city-tier overlap",
+      "96% of followers look real and active; 28% of recent posts are sponsored",
+      "Forecast 2.3× ROAS on ₹93K, about 97 orders"
+     ],
+     "risks": [
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1314",
+     "name": "Aditi T.",
+     "niche": "Personal Finance",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 7190,
+     "city": "Jaipur",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "SEBI-registered RIA",
+     "fit": 82.1,
+     "parts": {
+      "aud": 89,
+      "cont": 86,
+      "cult": 55,
+      "perf": 77,
+      "auth": 77,
+      "safe": 86,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 16,
+      "cont": 12.1,
+      "cult": 4.4,
+      "perf": 20,
+      "auth": 10.7,
+      "safe": 6.9,
+      "cost": 12
+     },
+     "confidence": "Medium",
+     "er": 3.45,
+     "linkCtr": 1.34,
+     "realFollowers": 85.2,
+     "viewThrough": 36.2,
+     "hold3s": 72.6,
+     "sponsoredShare": 9,
+     "adDisclosure": 77,
+     "safety": 92,
+     "audienceWomen": 0.324,
+     "forecast": {
+      "cost": 3000,
+      "views": 5217,
+      "tgViews": 3761,
+      "tgShare": 0.85,
+      "engagements": 300,
+      "clicks": 58,
+      "orders": 10.8,
+      "revenue": 23684,
+      "roas": 7.89,
+      "recallLiftPts": 7.2,
+      "costPerTgView": 0.8,
+      "costPerEngagement": 10.01,
+      "costPerClick": 51.3
+     },
+     "why": [
+      "Link CTR 1.34%, top 2% of nano creators; trust index 1.20",
+      "Audience matches the brief: 32% women (target 40%), 91% age overlap, 87% city-tier overlap",
+      "Personal Finance is a core category for PolicyBazaar, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 7.9× ROAS on ₹3K, about 11 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1008",
+     "name": "Yash S.",
+     "niche": "Education & Careers",
+     "niche2": "Personal Finance",
+     "tier": "Micro",
+     "followers": 42640,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.6,
+     "parts": {
+      "aud": 79,
+      "cont": 66,
+      "cult": 78,
+      "perf": 85,
+      "auth": 82,
+      "safe": 79,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 14.2,
+      "cont": 9.3,
+      "cult": 6.2,
+      "perf": 22.2,
+      "auth": 11.5,
+      "safe": 6.3,
+      "cost": 12
+     },
+     "confidence": "Medium",
+     "er": 2.49,
+     "linkCtr": 1.29,
+     "realFollowers": 92.4,
+     "viewThrough": 35,
+     "hold3s": 45,
+     "sponsoredShare": 25,
+     "adDisclosure": 78,
+     "safety": 79,
+     "audienceWomen": 0.415,
+     "forecast": {
+      "cost": 10500,
+      "views": 12861,
+      "tgViews": 9228,
+      "tgShare": 0.78,
+      "engagements": 1292,
+      "clicks": 171,
+      "orders": 34.4,
+      "revenue": 75750,
+      "roas": 7.21,
+      "recallLiftPts": 4.8,
+      "costPerTgView": 1.14,
+      "costPerEngagement": 8.13,
+      "costPerClick": 61.57
+     },
+     "why": [
+      "Link CTR 1.29%, top 4% of micro creators; trust index 1.46",
+      "Audience matches the brief: 42% women (target 40%), 62% age overlap, 91% city-tier overlap",
+      "Forecast 7.2× ROAS on ₹11K, about 34 orders",
+      "92% of followers look real and active; 25% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1009",
+     "name": "Kavya T.",
+     "niche": "Parenting & Family",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Mid-tier",
+     "followers": 264641,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.6,
+     "parts": {
+      "aud": 70,
+      "cont": 78,
+      "cult": 78,
+      "perf": 84,
+      "auth": 77,
+      "safe": 82,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 12.5,
+      "cont": 10.9,
+      "cult": 6.2,
+      "perf": 21.7,
+      "auth": 10.8,
+      "safe": 6.6,
+      "cost": 11.9
+     },
+     "confidence": "Low",
+     "er": 1.64,
+     "linkCtr": 1.5,
+     "realFollowers": 90.4,
+     "viewThrough": 49.4,
+     "hold3s": 74.2,
+     "sponsoredShare": 32,
+     "adDisclosure": 82,
+     "safety": 82,
+     "audienceWomen": 0.832,
+     "forecast": {
+      "cost": 72000,
+      "views": 115919,
+      "tgViews": 75251,
+      "tgShare": 0.72,
+      "engagements": 5452,
+      "clicks": 1344,
+      "orders": 213.1,
+      "revenue": 468762,
+      "roas": 6.51,
+      "recallLiftPts": 4.9,
+      "costPerTgView": 0.96,
+      "costPerEngagement": 13.21,
+      "costPerClick": 53.57
+     },
+     "why": [
+      "Link CTR 1.50%, top 4% of mid-tier creators; trust index 1.08",
+      "Audience matches the brief: 83% women (target 40%), 89% age overlap, 92% city-tier overlap",
+      "Forecast 6.5× ROAS on ₹72K, about 213 orders",
+      "Parenting &amp; Family is a strong category for PolicyBazaar, with doctors &amp; dietitians as a second pillar"
+     ],
+     "risks": [
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1414",
+     "name": "Devang R.",
+     "niche": "Personal Finance",
+     "niche2": "Tech & Gadgets",
+     "tier": "Mid-tier",
+     "followers": 436843,
+     "city": "Surat",
+     "languages": [
+      "Gujarati",
+      "English"
+     ],
+     "platform": "YouTube",
+     "represent": true,
+     "credential": "SEBI-registered RIA",
+     "fit": 80,
+     "parts": {
+      "aud": 80,
+      "cont": 76,
+      "cult": 89,
+      "perf": 95,
+      "auth": 75,
+      "safe": 79,
+      "cost": 52
+     },
+     "contributions": {
+      "aud": 14.5,
+      "cont": 10.7,
+      "cult": 7.1,
+      "perf": 24.6,
+      "auth": 10.5,
+      "safe": 6.4,
+      "cost": 6.3
+     },
+     "confidence": "High",
+     "er": 1.79,
+     "linkCtr": 1.57,
+     "realFollowers": 89.7,
+     "viewThrough": 46.6,
+     "hold3s": 66,
+     "sponsoredShare": 40,
+     "adDisclosure": 71,
+     "safety": 85,
+     "audienceWomen": 0.213,
+     "forecast": {
+      "cost": 181000,
+      "views": 32282,
+      "tgViews": 22812,
+      "tgShare": 0.79,
+      "engagements": 7819,
+      "clicks": 345,
+      "orders": 68.4,
+      "revenue": 150377,
+      "roas": 0.83,
+      "recallLiftPts": 8.8,
+      "costPerTgView": 7.93,
+      "costPerEngagement": 23.15,
+      "costPerClick": 525.23
+     },
+     "why": [
+      "Link CTR 1.57%, top 2% of mid-tier creators; trust index 1.36",
+      "Audience matches the brief: 21% women (target 40%), 90% age overlap, 81% city-tier overlap",
+      "Personal Finance is a strong category for PolicyBazaar, with tech &amp; gadgets as a second pillar",
+      "90% of followers look real and active; 40% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Discloses #ad on only 71% of paid posts. Brief on disclosure in the first line",
+      "Posted for Ditto Insurance 80 days ago (outside the 60-day window)"
+     ]
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1145",
+     "name": "Akhil A.",
+     "niche": "Personal Finance",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 84095,
+     "city": "Bengaluru",
+     "languages": [
+      "Kannada",
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "SEBI-registered RIA",
+     "fit": 79.7,
+     "parts": {
+      "aud": 64,
+      "cont": 86,
+      "cult": 89,
+      "perf": 80,
+      "auth": 70,
+      "safe": 82,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 11.5,
+      "cont": 12.1,
+      "cult": 7.1,
+      "perf": 20.8,
+      "auth": 9.7,
+      "safe": 6.5,
+      "cost": 11.9
+     },
+     "confidence": "Medium",
+     "er": 2.35,
+     "linkCtr": 1.16,
+     "realFollowers": 85.9,
+     "viewThrough": 33.4,
+     "hold3s": 66.3,
+     "sponsoredShare": 29,
+     "adDisclosure": 93,
+     "safety": 74,
+     "audienceWomen": 0.165,
+     "forecast": {
+      "cost": 25500,
+      "views": 30583,
+      "tgViews": 17915,
+      "tgShare": 0.68,
+      "engagements": 2430,
+      "clicks": 374,
+      "orders": 79.8,
+      "revenue": 175461,
+      "roas": 6.88,
+      "recallLiftPts": 6.3,
+      "costPerTgView": 1.42,
+      "costPerEngagement": 10.49,
+      "costPerClick": 68.18
+     },
+     "why": [
+      "Link CTR 1.16%, top 11% of micro creators; trust index 1.39",
+      "Personal Finance is a core category for PolicyBazaar, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 6.9× ROAS on ₹26K, about 80 orders",
+      "Audience matches the brief: 17% women (target 40%), 79% age overlap, 80% city-tier overlap"
+     ],
+     "risks": [
+      "Posted for Ditto Insurance 115 days ago (outside the 60-day window)"
+     ]
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1339",
+     "name": "Meher C.",
+     "niche": "Personal Finance",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 20415,
+     "city": "Lucknow",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": "SEBI-registered RIA",
+     "fit": 79.1,
+     "parts": {
+      "aud": 96,
+      "cont": 86,
+      "cult": 75,
+      "perf": 75,
+      "auth": 77,
+      "safe": 83,
+      "cost": 55
+     },
+     "contributions": {
+      "aud": 17.3,
+      "cont": 12.1,
+      "cult": 6,
+      "perf": 19.6,
+      "auth": 10.8,
+      "safe": 6.7,
+      "cost": 6.6
+     },
+     "confidence": "Medium",
+     "er": 3.27,
+     "linkCtr": 1.12,
+     "realFollowers": 88.9,
+     "viewThrough": 38.4,
+     "hold3s": 59,
+     "sponsoredShare": 24,
+     "adDisclosure": 73,
+     "safety": 90,
+     "audienceWomen": 0.351,
+     "forecast": {
+      "cost": 10000,
+      "views": 3028,
+      "tgViews": 2408,
+      "tgShare": 0.89,
+      "engagements": 668,
+      "clicks": 25,
+      "orders": 4.1,
+      "revenue": 8933,
+      "roas": 0.89,
+      "recallLiftPts": 6.5,
+      "costPerTgView": 4.15,
+      "costPerEngagement": 14.98,
+      "costPerClick": 404.24
+     },
+     "why": [
+      "Link CTR 1.12%, top 14% of micro creators; trust index 1.07",
+      "Audience matches the brief: 35% women (target 40%), 89% age overlap, 94% city-tier overlap",
+      "Personal Finance is a core category for PolicyBazaar, with lifestyle &amp; vlogs as a second pillar",
+      "89% of followers look real and active; 24% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Discloses #ad on only 73% of paid posts. Brief on disclosure in the first line"
+     ]
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1267",
+     "name": "Sneha V.",
+     "niche": "Doctors & Dietitians",
+     "niche2": "Fitness & Wellness",
+     "tier": "Micro",
+     "followers": 24274,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.3,
+     "parts": {
+      "aud": 82,
+      "cont": 54,
+      "cult": 55,
+      "perf": 85,
+      "auth": 68,
+      "safe": 93,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 14.8,
+      "cont": 7.5,
+      "cult": 4.4,
+      "perf": 22,
+      "auth": 9.5,
+      "safe": 7.4,
+      "cost": 11.7
+     },
+     "confidence": "Medium",
+     "er": 3.05,
+     "linkCtr": 1.2,
+     "realFollowers": 86.4,
+     "viewThrough": 36.2,
+     "hold3s": 55.4,
+     "sponsoredShare": 40,
+     "adDisclosure": 97,
+     "safety": 90,
+     "audienceWomen": 0.619,
+     "forecast": {
+      "cost": 9500,
+      "views": 10308,
+      "tgViews": 7128,
+      "tgShare": 0.8,
+      "engagements": 871,
+      "clicks": 93,
+      "orders": 15,
+      "revenue": 33057,
+      "roas": 3.48,
+      "recallLiftPts": 3.3,
+      "costPerTgView": 1.33,
+      "costPerEngagement": 10.9,
+      "costPerClick": 102.63
+     },
+     "why": [
+      "Link CTR 1.20%, top 10% of micro creators; trust index 1.26",
+      "Audience matches the brief: 62% women (target 40%), 86% age overlap, 95% city-tier overlap",
+      "Forecast 3.5× ROAS on ₹9.5K, about 15 orders",
+      "86% of followers look real and active; 40% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)"
+     ]
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1054",
+     "name": "Ishani S.",
+     "niche": "Parenting & Family",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Mid-tier",
+     "followers": 462025,
+     "city": "Kolkata",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 76.8,
+     "parts": {
+      "aud": 73,
+      "cont": 78,
+      "cult": 97,
+      "perf": 66,
+      "auth": 61,
+      "safe": 92,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 13.2,
+      "cont": 10.9,
+      "cult": 7.8,
+      "perf": 17.2,
+      "auth": 8.5,
+      "safe": 7.4,
+      "cost": 11.8
+     },
+     "confidence": "High",
+     "er": 1.17,
+     "linkCtr": 0.97,
+     "realFollowers": 83.4,
+     "viewThrough": 54.2,
+     "hold3s": 74.4,
+     "sponsoredShare": 46,
+     "adDisclosure": 92,
+     "safety": 92,
+     "audienceWomen": 0.848,
+     "forecast": {
+      "cost": 125000,
+      "views": 175371,
+      "tgViews": 108523,
+      "tgShare": 0.74,
+      "engagements": 7346,
+      "clicks": 1419,
+      "orders": 252.1,
+      "revenue": 554619,
+      "roas": 4.44,
+      "recallLiftPts": 8.2,
+      "costPerTgView": 1.15,
+      "costPerEngagement": 17.02,
+      "costPerClick": 88.07
+     },
+     "why": [
+      "Link CTR 0.97%, top 35% of mid-tier creators; trust index 1.21",
+      "Audience matches the brief: 85% women (target 40%), 94% age overlap, 96% city-tier overlap",
+      "Forecast 4.4× ROAS on ₹1.25L, about 252 orders",
+      "Parenting &amp; Family is a strong category for PolicyBazaar, with doctors &amp; dietitians as a second pillar"
+     ],
+     "risks": [
+      "Ad fatigue: 46% of recent posts are sponsored",
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)"
+     ]
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1255",
+     "name": "Saloni G.",
+     "niche": "Parenting & Family",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Mid-tier",
+     "followers": 360846,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 76.3,
+     "parts": {
+      "aud": 68,
+      "cont": 78,
+      "cult": 78,
+      "perf": 69,
+      "auth": 73,
+      "safe": 91,
+      "cost": 96
+     },
+     "contributions": {
+      "aud": 12.2,
+      "cont": 10.9,
+      "cult": 6.2,
+      "perf": 18,
+      "auth": 10.3,
+      "safe": 7.2,
+      "cost": 11.5
+     },
+     "confidence": "Low",
+     "er": 1.71,
+     "linkCtr": 0.89,
+     "realFollowers": 86.2,
+     "viewThrough": 45.4,
+     "hold3s": 59.5,
+     "sponsoredShare": 25,
+     "adDisclosure": 93,
+     "safety": 89,
+     "audienceWomen": 0.861,
+     "forecast": {
+      "cost": 113000,
+      "views": 122312,
+      "tgViews": 74590,
+      "tgShare": 0.71,
+      "engagements": 7686,
+      "clicks": 968,
+      "orders": 163.5,
+      "revenue": 359604,
+      "roas": 3.18,
+      "recallLiftPts": 5.6,
+      "costPerTgView": 1.51,
+      "costPerEngagement": 14.7,
+      "costPerClick": 116.7
+     },
+     "why": [
+      "Link CTR 0.89%, top 40% of mid-tier creators; trust index 1.15",
+      "Audience matches the brief: 86% women (target 40%), 89% age overlap, 96% city-tier overlap",
+      "Forecast 3.2× ROAS on ₹1.13L, about 163 orders",
+      "Parenting &amp; Family is a strong category for PolicyBazaar, with doctors &amp; dietitians as a second pillar"
+     ],
+     "risks": [
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 53,
+    "spend": 2099500,
+    "views": 2539691,
+    "tgViews": 1625259,
+    "uniqueTgReach": 1003302,
+    "engagements": 123779,
+    "clicks": 16744,
+    "orders": 2523,
+    "revenue": 5550519,
+    "roas": 2.64,
+    "recallLiftPts": 5.2,
+    "fakeAudienceShare": 0.13,
+    "gatedIncluded": 0,
+    "representCreators": 3,
+    "representSpend": 363500,
+    "forecastBandPct": 21,
+    "spendByTier": {
+     "micro": 336500,
+     "mid": 1570500,
+     "nano": 16500,
+     "macro": 176000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 2079000,
+    "views": 1632665,
+    "tgViews": 741822,
+    "uniqueTgReach": 459505,
+    "engagements": 44128,
+    "clicks": 4738,
+    "orders": 417,
+    "revenue": 917052,
+    "roas": 0.44,
+    "recallLiftPts": 2.5,
+    "fakeAudienceShare": 0.42,
+    "gatedIncluded": 2,
+    "representCreators": 1,
+    "representSpend": 300000,
+    "forecastBandPct": 15,
+    "spendByTier": {
+     "mega": 2079000
+    }
+   },
+   "planCreators": [
+    "Yash S. (Micro, Education & Careers)",
+    "Kavya T. (Mid-tier, Parenting & Family)",
+    "Akhil A. (Micro, Personal Finance)",
+    "Rasika K. (Mid-tier, Doctors & Dietitians)",
+    "Aditi T. (Nano, Personal Finance)",
+    "Nithya Y. (Mid-tier, Doctors & Dietitians)",
+    "Varsha B. (Micro, Food & Cooking)",
+    "Ishani S. (Mid-tier, Parenting & Family)",
+    "Riya T. (Mid-tier, Doctors & Dietitians)",
+    "Saloni G. (Mid-tier, Parenting & Family)",
+    "Tanvi C. (Micro, Food & Cooking)",
+    "Sneha V. (Micro, Doctors & Dietitians)"
+   ]
+  }
+ }
+}

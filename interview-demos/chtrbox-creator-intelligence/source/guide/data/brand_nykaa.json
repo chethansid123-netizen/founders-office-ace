@@ -1,0 +1,1781 @@
+{
+ "id": "nykaa",
+ "name": "Nykaa",
+ "parent": "FSN E-Commerce",
+ "vertical": "ecom",
+ "sub": "Beauty e-commerce",
+ "status": "Reported client",
+ "defaultObjective": "conversion",
+ "brief": "Make Nykaa the default cart for every creator-led routine.",
+ "moment": "Pink Friday · Nov",
+ "budgetLakh": 27,
+ "target": {
+  "fem": 0.82,
+  "age": [
+   0.06,
+   0.42,
+   0.38,
+   0.11,
+   0.03
+  ],
+  "tiers": [
+   0.5,
+   0.35,
+   0.15
+  ],
+  "affl": 0.58
+ },
+ "languages": {
+  "Hinglish": 1,
+  "English": 0.95,
+  "Hindi": 0.75,
+  "Tamil": 0.55,
+  "Telugu": 0.55,
+  "Bengali": 0.55,
+  "Marathi": 0.55
+ },
+ "codes": [
+  "Festive & occasions",
+  "Wedding season",
+  "K-culture",
+  "Aspirational luxury",
+  "Desi-modern"
+ ],
+ "affinity": {
+  "beauty": 1,
+  "fashion": 0.85,
+  "lifestyle": 0.8,
+  "health": 0.45
+ },
+ "competitors": [
+  "Purplle",
+  "Tira",
+  "Myntra"
+ ],
+ "compliance": null,
+ "aov": 1250,
+ "conversionRate": 0.045,
+ "kpis": [
+  "Verified orders",
+  "iROAS",
+  "Basket size"
+ ],
+ "markets": [
+  "India",
+  "UAE"
+ ],
+ "tgPoolMillions": 110,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 372,
+   "gated": 48,
+   "gatesByReason": {
+    "conflict": 13,
+    "safety": 4,
+    "fraud": 32
+   },
+   "gatedExamples": [
+    {
+     "name": "Keerthi J.",
+     "id": "CIE-1415",
+     "reasons": [
+      "Posted for Myntra 29 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Janhvi Y.",
+     "id": "CIE-1397",
+     "reasons": [
+      "Posted for Myntra 52 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Nikita D.",
+     "id": "CIE-1248",
+     "reasons": [
+      "Posted for Myntra 16 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Mitali S.",
+     "id": "CIE-1109",
+     "reasons": [
+      "Brand-safety score 51: political commentary, unverified health claims"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1271",
+     "name": "Rasika D.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 91472,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 89.1,
+     "parts": {
+      "aud": 99,
+      "cont": 95,
+      "cult": 100,
+      "perf": 65,
+      "auth": 82,
+      "safe": 85,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 21.8,
+      "cont": 14.3,
+      "cult": 14,
+      "perf": 9.7,
+      "auth": 11.4,
+      "safe": 8.5,
+      "cost": 9.4
+     },
+     "confidence": "Medium",
+     "er": 4.34,
+     "linkCtr": 0.7,
+     "realFollowers": 90.6,
+     "viewThrough": 54,
+     "hold3s": 66.7,
+     "sponsoredShare": 27,
+     "adDisclosure": 92,
+     "safety": 81,
+     "audienceWomen": 0.886,
+     "forecast": {
+      "cost": 37500,
+      "views": 51100,
+      "tgViews": 42312,
+      "tgShare": 0.91,
+      "engagements": 4464,
+      "clicks": 313,
+      "orders": 53.5,
+      "revenue": 66927,
+      "roas": 1.78,
+      "recallLiftPts": 5.9,
+      "costPerTgView": 0.89,
+      "costPerEngagement": 8.4,
+      "costPerClick": 119.92
+     },
+     "why": [
+      "Audience matches the brief: 89% women (target 82%), 96% age overlap, 98% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Nykaa, with lifestyle &amp; vlogs as a second pillar",
+      "Creates in Hinglish, Nykaa's lead language; shares the Aspirational luxury and Desi-modern and K-culture and Wedding season codes",
+      "91% of followers look real and active; 27% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1316",
+     "name": "Gayathri J.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 14204,
+     "city": "Hyderabad",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 87.8,
+     "parts": {
+      "aud": 93,
+      "cont": 86,
+      "cult": 97,
+      "perf": 85,
+      "auth": 73,
+      "safe": 79,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 20.5,
+      "cont": 12.9,
+      "cult": 13.6,
+      "perf": 12.8,
+      "auth": 10.2,
+      "safe": 7.9,
+      "cost": 9.9
+     },
+     "confidence": "Medium",
+     "er": 2.01,
+     "linkCtr": 0.77,
+     "realFollowers": 86.8,
+     "viewThrough": 55.3,
+     "hold3s": 68.1,
+     "sponsoredShare": 28,
+     "adDisclosure": 69,
+     "safety": 86,
+     "audienceWomen": 0.788,
+     "forecast": {
+      "cost": 3000,
+      "views": 5522,
+      "tgViews": 4192,
+      "tgShare": 0.87,
+      "engagements": 362,
+      "clicks": 43,
+      "orders": 6.1,
+      "revenue": 7673,
+      "roas": 2.56,
+      "recallLiftPts": 8.2,
+      "costPerTgView": 0.72,
+      "costPerEngagement": 8.28,
+      "costPerClick": 69.73
+     },
+     "why": [
+      "Audience matches the brief: 79% women (target 82%), 90% age overlap, 98% city-tier overlap",
+      "Creates in English, Nykaa's lead language; shares the Desi-modern and K-culture codes",
+      "Beauty &amp; Skincare is a core category for Nykaa, with doctors &amp; dietitians as a second pillar",
+      "Viewers watch 55% of each video, top 6% of micro creators; past recall lift +8 pts"
+     ],
+     "risks": [
+      "Discloses #ad on only 69% of paid posts. Brief on disclosure in the first line"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1083",
+     "name": "Mitali B.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Micro",
+     "followers": 30216,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 86.8,
+     "parts": {
+      "aud": 94,
+      "cont": 89,
+      "cult": 78,
+      "perf": 76,
+      "auth": 85,
+      "safe": 92,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 20.6,
+      "cont": 13.3,
+      "cult": 10.9,
+      "perf": 11.3,
+      "auth": 12,
+      "safe": 9.2,
+      "cost": 9.7
+     },
+     "confidence": "Low",
+     "er": 2.34,
+     "linkCtr": 0.51,
+     "realFollowers": 90,
+     "viewThrough": 55.3,
+     "hold3s": 55.1,
+     "sponsoredShare": 4,
+     "adDisclosure": 94,
+     "safety": 90,
+     "audienceWomen": 0.705,
+     "forecast": {
+      "cost": 9500,
+      "views": 13910,
+      "tgViews": 10977,
+      "tgShare": 0.88,
+      "engagements": 870,
+      "clicks": 66,
+      "orders": 11.1,
+      "revenue": 13861,
+      "roas": 1.46,
+      "recallLiftPts": 10,
+      "costPerTgView": 0.87,
+      "costPerEngagement": 10.92,
+      "costPerClick": 143.69
+     },
+     "why": [
+      "Audience matches the brief: 71% women (target 82%), 94% age overlap, 91% city-tier overlap",
+      "Fashion &amp; Style is a core category for Nykaa, with beauty &amp; skincare as a second pillar",
+      "90% of followers look real and active; 4% of recent posts are sponsored",
+      "Viewers watch 55% of each video, top 6% of micro creators; past recall lift +9.6 pts"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1231",
+     "name": "Riya D.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 30854,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 86.8,
+     "parts": {
+      "aud": 97,
+      "cont": 95,
+      "cult": 78,
+      "perf": 66,
+      "auth": 83,
+      "safe": 91,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 21.3,
+      "cont": 14.3,
+      "cult": 10.9,
+      "perf": 9.9,
+      "auth": 11.7,
+      "safe": 9.1,
+      "cost": 9.8
+     },
+     "confidence": "Low",
+     "er": 1.88,
+     "linkCtr": 0.85,
+     "realFollowers": 90.5,
+     "viewThrough": 44.7,
+     "hold3s": 59,
+     "sponsoredShare": 13,
+     "adDisclosure": 100,
+     "safety": 85,
+     "audienceWomen": 0.856,
+     "forecast": {
+      "cost": 8000,
+      "views": 12413,
+      "tgViews": 10097,
+      "tgShare": 0.9,
+      "engagements": 747,
+      "clicks": 111,
+      "orders": 21.6,
+      "revenue": 27038,
+      "roas": 3.38,
+      "recallLiftPts": 10.8,
+      "costPerTgView": 0.79,
+      "costPerEngagement": 10.71,
+      "costPerClick": 72.2
+     },
+     "why": [
+      "Audience matches the brief: 86% women (target 82%), 89% age overlap, 94% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Nykaa, with lifestyle &amp; vlogs as a second pillar",
+      "91% of followers look real and active; 13% of recent posts are sponsored",
+      "Creates in Hinglish + Hindi, Nykaa's lead language; shares the K-culture codes"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1334",
+     "name": "Mansi T.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 125386,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": true,
+     "credential": null,
+     "fit": 86.7,
+     "parts": {
+      "aud": 100,
+      "cont": 95,
+      "cult": 100,
+      "perf": 54,
+      "auth": 80,
+      "safe": 91,
+      "cost": 82
+     },
+     "contributions": {
+      "aud": 22,
+      "cont": 14.3,
+      "cult": 14,
+      "perf": 8.1,
+      "auth": 11.1,
+      "safe": 9.1,
+      "cost": 8.2
+     },
+     "confidence": "Low",
+     "er": 1.45,
+     "linkCtr": 1.68,
+     "realFollowers": 89,
+     "viewThrough": 49.8,
+     "hold3s": 64.1,
+     "sponsoredShare": 27,
+     "adDisclosure": 96,
+     "safety": 87,
+     "audienceWomen": 0.802,
+     "forecast": {
+      "cost": 49000,
+      "views": 52197,
+      "tgViews": 43551,
+      "tgShare": 0.94,
+      "engagements": 2345,
+      "clicks": 784,
+      "orders": 124.2,
+      "revenue": 155244,
+      "roas": 3.17,
+      "recallLiftPts": 5.7,
+      "costPerTgView": 1.13,
+      "costPerEngagement": 20.9,
+      "costPerClick": 62.5
+     },
+     "why": [
+      "Audience matches the brief: 80% women (target 82%), 95% age overlap, 93% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Nykaa, with lifestyle &amp; vlogs as a second pillar",
+      "Creates in Hinglish + Hindi, Nykaa's lead language; shares the Desi-modern and Festive &amp; occasions and K-culture codes",
+      "89% of followers look real and active; 27% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 56,
+    "spend": 2700000,
+    "views": 3620536,
+    "tgViews": 2698947,
+    "uniqueTgReach": 1661366,
+    "engagements": 148028,
+    "clicks": 25415,
+    "orders": 3889,
+    "revenue": 4860925,
+    "roas": 1.8,
+    "recallLiftPts": 6.1,
+    "fakeAudienceShare": 0.13,
+    "gatedIncluded": 0,
+    "representCreators": 3,
+    "representSpend": 535500,
+    "forecastBandPct": 24,
+    "spendByTier": {
+     "macro": 833000,
+     "micro": 472500,
+     "mid": 1382500,
+     "nano": 12000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 3,
+    "spend": 2696000,
+    "views": 2786896,
+    "tgViews": 1347724,
+    "uniqueTgReach": 833764,
+    "engagements": 61869,
+    "clicks": 8499,
+    "orders": 796,
+    "revenue": 995462,
+    "roas": 0.37,
+    "recallLiftPts": 3.2,
+    "fakeAudienceShare": 0.35,
+    "gatedIncluded": 2,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 15,
+    "spendByTier": {
+     "mega": 2555000,
+     "macro": 141000
+    }
+   },
+   "planCreators": [
+    "Keerthi B. (Macro, Beauty & Skincare)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Rasika D. (Micro, Beauty & Skincare)",
+    "Varsha B. (Micro, Food & Cooking)",
+    "Riya D. (Micro, Beauty & Skincare)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Ananya J. (Micro, Music & Dance)",
+    "Mitali B. (Micro, Fashion & Style)",
+    "Tanvi P. (Micro, Beauty & Skincare)",
+    "Nikita B. (Mid-tier, Fashion & Style)",
+    "Debolina R. (Mid-tier, Fashion & Style)",
+    "Mansi T. (Mid-tier, Beauty & Skincare)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 372,
+   "gated": 48,
+   "gatesByReason": {
+    "safety": 4,
+    "conflict": 13,
+    "fraud": 32
+   },
+   "gatedExamples": [
+    {
+     "name": "Mitali S.",
+     "id": "CIE-1109",
+     "reasons": [
+      "Brand-safety score 51: political commentary, unverified health claims"
+     ]
+    },
+    {
+     "name": "Janhvi Y.",
+     "id": "CIE-1397",
+     "reasons": [
+      "Posted for Myntra 52 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Nikita D.",
+     "id": "CIE-1248",
+     "reasons": [
+      "Posted for Myntra 16 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Aarya D.",
+     "id": "CIE-1139",
+     "reasons": [
+      "Only 54.2% of followers look real and active (gate is 72%)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1201",
+     "name": "Dhwani K.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 18750,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 88.4,
+     "parts": {
+      "aud": 100,
+      "cont": 95,
+      "cult": 100,
+      "perf": 73,
+      "auth": 77,
+      "safe": 81,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 20,
+      "cont": 17.1,
+      "cult": 10,
+      "perf": 14.6,
+      "auth": 10.8,
+      "safe": 6.5,
+      "cost": 9.4
+     },
+     "confidence": "Medium",
+     "er": 5.45,
+     "linkCtr": 0.69,
+     "realFollowers": 89.1,
+     "viewThrough": 43,
+     "hold3s": 68.8,
+     "sponsoredShare": 25,
+     "adDisclosure": 85,
+     "safety": 78,
+     "audienceWomen": 0.853,
+     "forecast": {
+      "cost": 9000,
+      "views": 6870,
+      "tgViews": 5664,
+      "tgShare": 0.93,
+      "engagements": 1123,
+      "clicks": 53,
+      "orders": 9.4,
+      "revenue": 11806,
+      "roas": 1.31,
+      "recallLiftPts": 5,
+      "costPerTgView": 1.59,
+      "costPerEngagement": 8.01,
+      "costPerClick": 170.78
+     },
+     "why": [
+      "Audience matches the brief: 85% women (target 82%), 94% age overlap, 99% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Nykaa, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 5.5%, top 4% of micro creators; 2.5% of viewers save or share",
+      "89% of followers look real and active; 25% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1296",
+     "name": "Subhankar B.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 45223,
+     "city": "Kolkata",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 87.2,
+     "parts": {
+      "aud": 92,
+      "cont": 95,
+      "cult": 100,
+      "perf": 78,
+      "auth": 76,
+      "safe": 90,
+      "cost": 83
+     },
+     "contributions": {
+      "aud": 18.5,
+      "cont": 17.1,
+      "cult": 10,
+      "perf": 15.5,
+      "auth": 10.6,
+      "safe": 7.2,
+      "cost": 8.3
+     },
+     "confidence": "Medium",
+     "er": 3.76,
+     "linkCtr": 0.59,
+     "realFollowers": 83.4,
+     "viewThrough": 41.2,
+     "hold3s": 55.4,
+     "sponsoredShare": 11,
+     "adDisclosure": 89,
+     "safety": 91,
+     "audienceWomen": 0.838,
+     "forecast": {
+      "cost": 18500,
+      "views": 23148,
+      "tgViews": 16778,
+      "tgShare": 0.87,
+      "engagements": 1945,
+      "clicks": 125,
+      "orders": 18.8,
+      "revenue": 23511,
+      "roas": 1.27,
+      "recallLiftPts": 6.2,
+      "costPerTgView": 1.1,
+      "costPerEngagement": 9.51,
+      "costPerClick": 147.95
+     },
+     "why": [
+      "Audience matches the brief: 84% women (target 82%), 91% age overlap, 86% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Nykaa, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 3.8%, top 20% of micro creators; 2.6% of viewers save or share",
+      "83% of followers look real and active; 11% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1183",
+     "name": "Ananya M.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 43554,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 86.4,
+     "parts": {
+      "aud": 95,
+      "cont": 95,
+      "cult": 100,
+      "perf": 87,
+      "auth": 66,
+      "safe": 69,
+      "cost": 81
+     },
+     "contributions": {
+      "aud": 19,
+      "cont": 17.1,
+      "cult": 10,
+      "perf": 17.4,
+      "auth": 9.3,
+      "safe": 5.5,
+      "cost": 8.1
+     },
+     "confidence": "Low",
+     "er": 5.31,
+     "linkCtr": 0.57,
+     "realFollowers": 81.6,
+     "viewThrough": 51.5,
+     "hold3s": 70.6,
+     "sponsoredShare": 31,
+     "adDisclosure": 73,
+     "safety": 66,
+     "audienceWomen": 0.833,
+     "forecast": {
+      "cost": 25000,
+      "views": 23728,
+      "tgViews": 17181,
+      "tgShare": 0.89,
+      "engagements": 2548,
+      "clicks": 120,
+      "orders": 20.5,
+      "revenue": 25639,
+      "roas": 1.03,
+      "recallLiftPts": 8.2,
+      "costPerTgView": 1.46,
+      "costPerEngagement": 9.81,
+      "costPerClick": 208.7
+     },
+     "why": [
+      "Audience matches the brief: 83% women (target 82%), 85% age overlap, 93% city-tier overlap",
+      "Engagement rate 5.3%, top 5% of micro creators; 2.8% of viewers save or share",
+      "Beauty &amp; Skincare is a core category for Nykaa, with lifestyle &amp; vlogs as a second pillar",
+      "Creates in Hinglish, Nykaa's lead language; shares the Festive &amp; occasions and Wedding season codes"
+     ],
+     "risks": [
+      "Discloses #ad on only 73% of paid posts. Brief on disclosure in the first line",
+      "Political commentary",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1140",
+     "name": "Lakshmi G.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 11900,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 86.1,
+     "parts": {
+      "aud": 90,
+      "cont": 96,
+      "cult": 100,
+      "perf": 70,
+      "auth": 78,
+      "safe": 78,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 17.9,
+      "cont": 17.3,
+      "cult": 10,
+      "perf": 14,
+      "auth": 10.9,
+      "safe": 6.2,
+      "cost": 9.7
+     },
+     "confidence": "Medium",
+     "er": 4.12,
+     "linkCtr": 1.02,
+     "realFollowers": 89,
+     "viewThrough": 42.9,
+     "hold3s": 63.8,
+     "sponsoredShare": 20,
+     "adDisclosure": 92,
+     "safety": 68,
+     "audienceWomen": 0.954,
+     "forecast": {
+      "cost": 4000,
+      "views": 4857,
+      "tgViews": 3674,
+      "tgShare": 0.85,
+      "engagements": 555,
+      "clicks": 52,
+      "orders": 10.6,
+      "revenue": 13286,
+      "roas": 3.32,
+      "recallLiftPts": 6.1,
+      "costPerTgView": 1.09,
+      "costPerEngagement": 7.21,
+      "costPerClick": 76.94
+     },
+     "why": [
+      "Audience matches the brief: 95% women (target 82%), 89% age overlap, 92% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Nykaa, with fashion &amp; style as a second pillar",
+      "Engagement rate 4.1%, top 14% of micro creators; 2.4% of viewers save or share",
+      "89% of followers look real and active; 20% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Unverified health claims"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1271",
+     "name": "Rasika D.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 91472,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 85.7,
+     "parts": {
+      "aud": 99,
+      "cont": 95,
+      "cult": 100,
+      "perf": 58,
+      "auth": 82,
+      "safe": 85,
+      "cost": 90
+     },
+     "contributions": {
+      "aud": 19.8,
+      "cont": 17.1,
+      "cult": 10,
+      "perf": 11.6,
+      "auth": 11.4,
+      "safe": 6.8,
+      "cost": 9
+     },
+     "confidence": "Medium",
+     "er": 4.34,
+     "linkCtr": 0.7,
+     "realFollowers": 90.6,
+     "viewThrough": 54,
+     "hold3s": 66.7,
+     "sponsoredShare": 27,
+     "adDisclosure": 92,
+     "safety": 81,
+     "audienceWomen": 0.886,
+     "forecast": {
+      "cost": 37500,
+      "views": 51100,
+      "tgViews": 42312,
+      "tgShare": 0.91,
+      "engagements": 4464,
+      "clicks": 313,
+      "orders": 53.5,
+      "revenue": 66927,
+      "roas": 1.78,
+      "recallLiftPts": 5.9,
+      "costPerTgView": 0.89,
+      "costPerEngagement": 8.4,
+      "costPerClick": 119.92
+     },
+     "why": [
+      "Audience matches the brief: 89% women (target 82%), 96% age overlap, 98% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Nykaa, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 4.3%, top 10% of micro creators; 1.8% of viewers save or share",
+      "91% of followers look real and active; 27% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 80,
+    "spend": 1924500,
+    "views": 2062053,
+    "tgViews": 1483775,
+    "uniqueTgReach": 916260,
+    "engagements": 167756,
+    "clicks": 13106,
+    "orders": 2001,
+    "revenue": 2500817,
+    "roas": 1.3,
+    "recallLiftPts": 5.3,
+    "fakeAudienceShare": 0.12,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 22,
+    "spendByTier": {
+     "micro": 1032000,
+     "nano": 19500,
+     "mid": 637000,
+     "macro": 236000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 1920000,
+    "views": 1426504,
+    "tgViews": 675225,
+    "uniqueTgReach": 418400,
+    "engagements": 40562,
+    "clicks": 5778,
+    "orders": 531,
+    "revenue": 663234,
+    "roas": 0.35,
+    "recallLiftPts": 3,
+    "fakeAudienceShare": 0.43,
+    "gatedIncluded": 1,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 13,
+    "spendByTier": {
+     "mega": 1779000,
+     "macro": 141000
+    }
+   },
+   "planCreators": [
+    "Ananya B. (Micro, Beauty & Skincare)",
+    "Rasika D. (Micro, Beauty & Skincare)",
+    "Dhwani K. (Micro, Beauty & Skincare)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Aditi B. (Micro, Beauty & Skincare)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Lakshmi G. (Micro, Beauty & Skincare)",
+    "Ishani V. (Micro, Beauty & Skincare)",
+    "Moumita N. (Micro, Parenting & Family)",
+    "Karan V. (Micro, Beauty & Skincare)",
+    "Devang M. (Nano, Lifestyle & Vlogs)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 372,
+   "gated": 48,
+   "gatesByReason": {
+    "conflict": 13,
+    "fraud": 32,
+    "safety": 4
+   },
+   "gatedExamples": [
+    {
+     "name": "Nikita D.",
+     "id": "CIE-1248",
+     "reasons": [
+      "Posted for Myntra 16 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Hetal D.",
+     "id": "CIE-1212",
+     "reasons": [
+      "Only 65.5% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Mitali S.",
+     "id": "CIE-1109",
+     "reasons": [
+      "Brand-safety score 51: political commentary, unverified health claims"
+     ]
+    },
+    {
+     "name": "Aarya D.",
+     "id": "CIE-1139",
+     "reasons": [
+      "Only 54.2% of followers look real and active (gate is 72%)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1334",
+     "name": "Mansi T.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 125386,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": true,
+     "credential": null,
+     "fit": 89.3,
+     "parts": {
+      "aud": 100,
+      "cont": 95,
+      "cult": 100,
+      "perf": 76,
+      "auth": 80,
+      "safe": 91,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 18,
+      "cont": 13.3,
+      "cult": 8,
+      "perf": 19.8,
+      "auth": 11.1,
+      "safe": 7.2,
+      "cost": 11.8
+     },
+     "confidence": "Low",
+     "er": 1.45,
+     "linkCtr": 1.68,
+     "realFollowers": 89,
+     "viewThrough": 49.8,
+     "hold3s": 64.1,
+     "sponsoredShare": 27,
+     "adDisclosure": 96,
+     "safety": 87,
+     "audienceWomen": 0.802,
+     "forecast": {
+      "cost": 49000,
+      "views": 52197,
+      "tgViews": 43551,
+      "tgShare": 0.94,
+      "engagements": 2345,
+      "clicks": 784,
+      "orders": 124.2,
+      "revenue": 155244,
+      "roas": 3.17,
+      "recallLiftPts": 5.7,
+      "costPerTgView": 1.13,
+      "costPerEngagement": 20.9,
+      "costPerClick": 62.5
+     },
+     "why": [
+      "Link CTR 1.68%, top 1% of mid-tier creators; trust index 0.99",
+      "Audience matches the brief: 80% women (target 82%), 95% age overlap, 93% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Nykaa, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 3.2× ROAS on ₹49K, about 124 orders"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1140",
+     "name": "Lakshmi G.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 11900,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 88.8,
+     "parts": {
+      "aud": 90,
+      "cont": 96,
+      "cult": 100,
+      "perf": 85,
+      "auth": 78,
+      "safe": 78,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 16.1,
+      "cont": 13.5,
+      "cult": 8,
+      "perf": 22.2,
+      "auth": 10.9,
+      "safe": 6.2,
+      "cost": 11.9
+     },
+     "confidence": "Medium",
+     "er": 4.12,
+     "linkCtr": 1.02,
+     "realFollowers": 89,
+     "viewThrough": 42.9,
+     "hold3s": 63.8,
+     "sponsoredShare": 20,
+     "adDisclosure": 92,
+     "safety": 68,
+     "audienceWomen": 0.954,
+     "forecast": {
+      "cost": 4000,
+      "views": 4857,
+      "tgViews": 3674,
+      "tgShare": 0.85,
+      "engagements": 555,
+      "clicks": 52,
+      "orders": 10.6,
+      "revenue": 13286,
+      "roas": 3.32,
+      "recallLiftPts": 6.1,
+      "costPerTgView": 1.09,
+      "costPerEngagement": 7.21,
+      "costPerClick": 76.94
+     },
+     "why": [
+      "Link CTR 1.02%, top 18% of micro creators; trust index 1.27",
+      "Audience matches the brief: 95% women (target 82%), 89% age overlap, 92% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Nykaa, with fashion &amp; style as a second pillar",
+      "Forecast 3.3× ROAS on ₹4K, about 11 orders"
+     ],
+     "risks": [
+      "Unverified health claims"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1246",
+     "name": "Gayathri Y.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Mid-tier",
+     "followers": 484648,
+     "city": "Madurai",
+     "languages": [
+      "Tamil"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 88,
+     "parts": {
+      "aud": 86,
+      "cont": 96,
+      "cult": 75,
+      "perf": 94,
+      "auth": 73,
+      "safe": 87,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 15.6,
+      "cont": 13.5,
+      "cult": 6,
+      "perf": 24.4,
+      "auth": 10.3,
+      "safe": 6.9,
+      "cost": 11.3
+     },
+     "confidence": "Medium",
+     "er": 2.47,
+     "linkCtr": 1.27,
+     "realFollowers": 85,
+     "viewThrough": 54.5,
+     "hold3s": 71.5,
+     "sponsoredShare": 23,
+     "adDisclosure": 100,
+     "safety": 78,
+     "audienceWomen": 0.831,
+     "forecast": {
+      "cost": 225000,
+      "views": 146869,
+      "tgViews": 103435,
+      "tgShare": 0.83,
+      "engagements": 14006,
+      "clicks": 2013,
+      "orders": 427.7,
+      "revenue": 534605,
+      "roas": 2.38,
+      "recallLiftPts": 10.5,
+      "costPerTgView": 2.18,
+      "costPerEngagement": 16.06,
+      "costPerClick": 111.78
+     },
+     "why": [
+      "Link CTR 1.27%, top 8% of mid-tier creators; trust index 1.32",
+      "Audience matches the brief: 83% women (target 82%), 94% age overlap, 69% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Nykaa, with fashion &amp; style as a second pillar",
+      "Forecast 2.4× ROAS on ₹2.25L, about 428 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1220",
+     "name": "Aditi B.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 24805,
+     "city": "Jaipur",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 86.7,
+     "parts": {
+      "aud": 80,
+      "cont": 95,
+      "cult": 86,
+      "perf": 83,
+      "auth": 87,
+      "safe": 79,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 14.4,
+      "cont": 13.3,
+      "cult": 6.9,
+      "perf": 21.5,
+      "auth": 12.2,
+      "safe": 6.3,
+      "cost": 12
+     },
+     "confidence": "Medium",
+     "er": 2.9,
+     "linkCtr": 1.64,
+     "realFollowers": 93.5,
+     "viewThrough": 30.8,
+     "hold3s": 59.7,
+     "sponsoredShare": 11,
+     "adDisclosure": 85,
+     "safety": 75,
+     "audienceWomen": 0.97,
+     "forecast": {
+      "cost": 8000,
+      "views": 7925,
+      "tgViews": 5826,
+      "tgShare": 0.79,
+      "engagements": 853,
+      "clicks": 158,
+      "orders": 28.3,
+      "revenue": 35321,
+      "roas": 4.42,
+      "recallLiftPts": 3.8,
+      "costPerTgView": 1.37,
+      "costPerEngagement": 9.38,
+      "costPerClick": 50.74
+     },
+     "why": [
+      "Link CTR 1.64%, top 1% of micro creators; trust index 1.12",
+      "Audience matches the brief: 97% women (target 82%), 94% age overlap, 77% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Nykaa, with lifestyle &amp; vlogs as a second pillar",
+      "94% of followers look real and active; 11% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Unverified health claims"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1418",
+     "name": "Rahul M.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 68998,
+     "city": "Delhi NCR",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 86.1,
+     "parts": {
+      "aud": 93,
+      "cont": 95,
+      "cult": 100,
+      "perf": 72,
+      "auth": 79,
+      "safe": 91,
+      "cost": 93
+     },
+     "contributions": {
+      "aud": 16.7,
+      "cont": 13.3,
+      "cult": 8,
+      "perf": 18.7,
+      "auth": 11,
+      "safe": 7.3,
+      "cost": 11.2
+     },
+     "confidence": "Medium",
+     "er": 3.07,
+     "linkCtr": 1.39,
+     "realFollowers": 89.2,
+     "viewThrough": 43.6,
+     "hold3s": 59.1,
+     "sponsoredShare": 25,
+     "adDisclosure": 95,
+     "safety": 88,
+     "audienceWomen": 0.714,
+     "forecast": {
+      "cost": 34500,
+      "views": 28230,
+      "tgViews": 21967,
+      "tgShare": 0.87,
+      "engagements": 2491,
+      "clicks": 408,
+      "orders": 61.4,
+      "revenue": 76703,
+      "roas": 2.22,
+      "recallLiftPts": 3.3,
+      "costPerTgView": 1.57,
+      "costPerEngagement": 13.85,
+      "costPerClick": 84.57
+     },
+     "why": [
+      "Link CTR 1.39%, top 2% of micro creators; trust index 0.94",
+      "Audience matches the brief: 71% women (target 82%), 96% age overlap, 91% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Nykaa, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 2.2× ROAS on ₹35K, about 61 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1345",
+     "name": "Aanya R.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Nano",
+     "followers": 8388,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 85.9,
+     "parts": {
+      "aud": 93,
+      "cont": 89,
+      "cult": 78,
+      "perf": 75,
+      "auth": 92,
+      "safe": 85,
+      "cost": 96
+     },
+     "contributions": {
+      "aud": 16.7,
+      "cont": 12.4,
+      "cult": 6.2,
+      "perf": 19.4,
+      "auth": 12.9,
+      "safe": 6.8,
+      "cost": 11.5
+     },
+     "confidence": "Low",
+     "er": 4.96,
+     "linkCtr": 1.11,
+     "realFollowers": 95.7,
+     "viewThrough": 38.3,
+     "hold3s": 77.2,
+     "sponsoredShare": 21,
+     "adDisclosure": 87,
+     "safety": 83,
+     "audienceWomen": 0.731,
+     "forecast": {
+      "cost": 4000,
+      "views": 4633,
+      "tgViews": 3868,
+      "tgShare": 0.87,
+      "engagements": 476,
+      "clicks": 51,
+      "orders": 8.1,
+      "revenue": 10187,
+      "roas": 2.55,
+      "recallLiftPts": 3.5,
+      "costPerTgView": 1.03,
+      "costPerEngagement": 8.4,
+      "costPerClick": 78.51
+     },
+     "why": [
+      "Link CTR 1.11%, top 17% of nano creators; trust index 1.03",
+      "Audience matches the brief: 73% women (target 82%), 87% age overlap, 96% city-tier overlap",
+      "96% of followers look real and active; 21% of recent posts are sponsored",
+      "Fashion &amp; Style is a core category for Nykaa, with beauty &amp; skincare as a second pillar"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1357",
+     "name": "Rasika M.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Macro",
+     "followers": 904194,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 85.8,
+     "parts": {
+      "aud": 100,
+      "cont": 84,
+      "cult": 78,
+      "perf": 87,
+      "auth": 66,
+      "safe": 84,
+      "cost": 95
+     },
+     "contributions": {
+      "aud": 18,
+      "cont": 11.7,
+      "cult": 6.2,
+      "perf": 22.6,
+      "auth": 9.2,
+      "safe": 6.7,
+      "cost": 11.4
+     },
+     "confidence": "Medium",
+     "er": 0.96,
+     "linkCtr": 1.21,
+     "realFollowers": 82.3,
+     "viewThrough": 57.1,
+     "hold3s": 72,
+     "sponsoredShare": 25,
+     "adDisclosure": 80,
+     "safety": 86,
+     "audienceWomen": 0.834,
+     "forecast": {
+      "cost": 313000,
+      "views": 378871,
+      "tgViews": 291780,
+      "tgShare": 0.94,
+      "engagements": 11664,
+      "clicks": 3362,
+      "orders": 611.3,
+      "revenue": 764111,
+      "roas": 2.44,
+      "recallLiftPts": 9.2,
+      "costPerTgView": 1.07,
+      "costPerEngagement": 26.83,
+      "costPerClick": 93.1
+     },
+     "why": [
+      "Link CTR 1.21%, top 7% of macro creators; trust index 1.20",
+      "Audience matches the brief: 83% women (target 82%), 97% age overlap, 93% city-tier overlap",
+      "Fashion &amp; Style is a strong category for Nykaa, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 2.4× ROAS on ₹3.13L, about 611 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1404",
+     "name": "Kavya S.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Mega",
+     "followers": 3130171,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": true,
+     "credential": null,
+     "fit": 85.2,
+     "parts": {
+      "aud": 96,
+      "cont": 86,
+      "cult": 100,
+      "perf": 81,
+      "auth": 61,
+      "safe": 83,
+      "cost": 95
+     },
+     "contributions": {
+      "aud": 17.3,
+      "cont": 12.1,
+      "cult": 8,
+      "perf": 21.1,
+      "auth": 8.6,
+      "safe": 6.7,
+      "cost": 11.5
+     },
+     "confidence": "High",
+     "er": 0.38,
+     "linkCtr": 1.53,
+     "realFollowers": 79.7,
+     "viewThrough": 43.9,
+     "hold3s": 62.2,
+     "sponsoredShare": 24,
+     "adDisclosure": 76,
+     "safety": 88,
+     "audienceWomen": 0.791,
+     "forecast": {
+      "cost": 573000,
+      "views": 522655,
+      "tgViews": 373158,
+      "tgShare": 0.9,
+      "engagements": 19407,
+      "clicks": 8263,
+      "orders": 1166.2,
+      "revenue": 1457715,
+      "roas": 2.54,
+      "recallLiftPts": 5.4,
+      "costPerTgView": 1.54,
+      "costPerEngagement": 29.53,
+      "costPerClick": 69.35
+     },
+     "why": [
+      "Link CTR 1.53%, top 4% of mega creators; trust index 0.92",
+      "Audience matches the brief: 79% women (target 82%), 89% age overlap, 96% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Nykaa, with doctors &amp; dietitians as a second pillar",
+      "Forecast 2.5× ROAS on ₹5.73L, about 1.2K orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1090",
+     "name": "Meher A.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 19027,
+     "city": "Delhi NCR",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.9,
+     "parts": {
+      "aud": 86,
+      "cont": 96,
+      "cult": 97,
+      "perf": 73,
+      "auth": 78,
+      "safe": 82,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 15.5,
+      "cont": 13.5,
+      "cult": 7.8,
+      "perf": 18.9,
+      "auth": 10.9,
+      "safe": 6.6,
+      "cost": 11.8
+     },
+     "confidence": "Low",
+     "er": 3.2,
+     "linkCtr": 1.29,
+     "realFollowers": 89.4,
+     "viewThrough": 42.2,
+     "hold3s": 51.2,
+     "sponsoredShare": 28,
+     "adDisclosure": 79,
+     "safety": 84,
+     "audienceWomen": 0.883,
+     "forecast": {
+      "cost": 6500,
+      "views": 8339,
+      "tgViews": 6155,
+      "tgShare": 0.83,
+      "engagements": 712,
+      "clicks": 108,
+      "orders": 16.9,
+      "revenue": 21132,
+      "roas": 3.25,
+      "recallLiftPts": 6.6,
+      "costPerTgView": 1.06,
+      "costPerEngagement": 9.13,
+      "costPerClick": 60.03
+     },
+     "why": [
+      "Link CTR 1.29%, top 4% of micro creators; trust index 0.97",
+      "Audience matches the brief: 88% women (target 82%), 87% age overlap, 88% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Nykaa, with fashion &amp; style as a second pillar",
+      "Forecast 3.3× ROAS on ₹6.5K, about 17 orders"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1289",
+     "name": "Jay C.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 15549,
+     "city": "Mumbai",
+     "languages": [
+      "Marathi",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.9,
+     "parts": {
+      "aud": 88,
+      "cont": 86,
+      "cult": 100,
+      "perf": 75,
+      "auth": 75,
+      "safe": 85,
+      "cost": 93
+     },
+     "contributions": {
+      "aud": 15.9,
+      "cont": 12.1,
+      "cult": 8,
+      "perf": 19.5,
+      "auth": 10.5,
+      "safe": 6.8,
+      "cost": 11.2
+     },
+     "confidence": "Low",
+     "er": 3.68,
+     "linkCtr": 1.27,
+     "realFollowers": 88.1,
+     "viewThrough": 54.7,
+     "hold3s": 74.4,
+     "sponsoredShare": 23,
+     "adDisclosure": 90,
+     "safety": 81,
+     "audienceWomen": 0.757,
+     "forecast": {
+      "cost": 6500,
+      "views": 6735,
+      "tgViews": 4988,
+      "tgShare": 0.84,
+      "engagements": 656,
+      "clicks": 81,
+      "orders": 12.1,
+      "revenue": 15098,
+      "roas": 2.32,
+      "recallLiftPts": 6.1,
+      "costPerTgView": 1.3,
+      "costPerEngagement": 9.91,
+      "costPerClick": 80.08
+     },
+     "why": [
+      "Link CTR 1.27%, top 5% of micro creators; trust index 0.97",
+      "Audience matches the brief: 76% women (target 82%), 93% age overlap, 77% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Nykaa, with doctors &amp; dietitians as a second pillar",
+      "Forecast 2.3× ROAS on ₹6.5K, about 12 orders"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 40,
+    "spend": 2699500,
+    "views": 3304469,
+    "tgViews": 2457774,
+    "uniqueTgReach": 1514118,
+    "engagements": 133333,
+    "clicks": 32817,
+    "orders": 5096,
+    "revenue": 6369678,
+    "roas": 2.36,
+    "recallLiftPts": 6.2,
+    "fakeAudienceShare": 0.16,
+    "gatedIncluded": 0,
+    "representCreators": 3,
+    "representSpend": 766000,
+    "forecastBandPct": 22,
+    "spendByTier": {
+     "micro": 280000,
+     "mid": 1191500,
+     "nano": 9500,
+     "macro": 645500,
+     "mega": 573000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 3,
+    "spend": 2696000,
+    "views": 2786896,
+    "tgViews": 1347724,
+    "uniqueTgReach": 833764,
+    "engagements": 61869,
+    "clicks": 8499,
+    "orders": 796,
+    "revenue": 995462,
+    "roas": 0.37,
+    "recallLiftPts": 3.2,
+    "fakeAudienceShare": 0.35,
+    "gatedIncluded": 2,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 15,
+    "spendByTier": {
+     "mega": 2555000,
+     "macro": 141000
+    }
+   },
+   "planCreators": [
+    "Aditi B. (Micro, Beauty & Skincare)",
+    "Mansi T. (Mid-tier, Beauty & Skincare)",
+    "Riya D. (Micro, Beauty & Skincare)",
+    "Tanvi P. (Micro, Beauty & Skincare)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Meher A. (Micro, Beauty & Skincare)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Parth K. (Mid-tier, Fashion & Style)",
+    "Rahul M. (Micro, Beauty & Skincare)",
+    "Debolina M. (Micro, Beauty & Skincare)",
+    "Lakshmi G. (Micro, Beauty & Skincare)",
+    "Gayathri Y. (Mid-tier, Beauty & Skincare)"
+   ]
+  }
+ }
+}

@@ -1,0 +1,1778 @@
+{
+ "id": "forever52",
+ "name": "Forever52",
+ "parent": "Daily Life Forever52",
+ "vertical": "beauty",
+ "sub": "Makeup",
+ "status": "Reported client",
+ "defaultObjective": "conversion",
+ "brief": "Be the bridesmaid kit brand in tier-1 and tier-2 weddings.",
+ "moment": "Wedding season · Nov–Feb",
+ "budgetLakh": 6,
+ "target": {
+  "fem": 0.92,
+  "age": [
+   0.06,
+   0.46,
+   0.36,
+   0.09,
+   0.03
+  ],
+  "tiers": [
+   0.44,
+   0.38,
+   0.18
+  ],
+  "affl": 0.45
+ },
+ "languages": {
+  "Hinglish": 1,
+  "Hindi": 0.8,
+  "English": 0.8,
+  "Tamil": 0.55,
+  "Telugu": 0.55,
+  "Bengali": 0.55,
+  "Marathi": 0.55
+ },
+ "codes": [
+  "Wedding season",
+  "Festive & occasions",
+  "Value-seeker",
+  "Desi-modern"
+ ],
+ "affinity": {
+  "beauty": 1,
+  "fashion": 0.85,
+  "lifestyle": 0.7
+ },
+ "competitors": [
+  "Swiss Beauty",
+  "Sugar Cosmetics",
+  "Maybelline",
+  "Lakmé"
+ ],
+ "compliance": null,
+ "aov": 650,
+ "conversionRate": 0.05,
+ "kpis": [
+  "Verified orders",
+  "CTR",
+  "Saves per view"
+ ],
+ "markets": [
+  "India"
+ ],
+ "tgPoolMillions": 70,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 362,
+   "gated": 58,
+   "gatesByReason": {
+    "conflict": 7,
+    "safety": 4,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Ananya M.",
+     "id": "CIE-1183",
+     "reasons": [
+      "Posted for Maybelline 3 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Ananya A.",
+     "id": "CIE-1375",
+     "reasons": [
+      "Posted for Maybelline 5 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Keerthi B.",
+     "id": "CIE-1270",
+     "reasons": [
+      "Posted for Sugar Cosmetics 33 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Mitali S.",
+     "id": "CIE-1109",
+     "reasons": [
+      "Brand-safety score 51: political commentary, unverified health claims"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1271",
+     "name": "Rasika D.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 91472,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 87.7,
+     "parts": {
+      "aud": 94,
+      "cont": 93,
+      "cult": 100,
+      "perf": 65,
+      "auth": 82,
+      "safe": 85,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 20.7,
+      "cont": 13.9,
+      "cult": 14,
+      "perf": 9.7,
+      "auth": 11.4,
+      "safe": 8.5,
+      "cost": 9.4
+     },
+     "confidence": "Medium",
+     "er": 4.34,
+     "linkCtr": 0.7,
+     "realFollowers": 90.6,
+     "viewThrough": 54,
+     "hold3s": 66.7,
+     "sponsoredShare": 27,
+     "adDisclosure": 92,
+     "safety": 81,
+     "audienceWomen": 0.886,
+     "forecast": {
+      "cost": 37500,
+      "views": 51100,
+      "tgViews": 40811,
+      "tgShare": 0.88,
+      "engagements": 4464,
+      "clicks": 308,
+      "orders": 57.8,
+      "revenue": 37600,
+      "roas": 1,
+      "recallLiftPts": 5.8,
+      "costPerTgView": 0.92,
+      "costPerEngagement": 8.4,
+      "costPerClick": 121.87
+     },
+     "why": [
+      "Audience matches the brief: 89% women (target 92%), 93% age overlap, 96% city-tier overlap",
+      "Creates in Hinglish, Forever52's lead language; shares the Desi-modern and Wedding season codes",
+      "Beauty &amp; Skincare is a core category for Forever52, with lifestyle &amp; vlogs as a second pillar",
+      "91% of followers look real and active; 27% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1357",
+     "name": "Rasika M.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Macro",
+     "followers": 904194,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 86.7,
+     "parts": {
+      "aud": 93,
+      "cont": 81,
+      "cult": 100,
+      "perf": 90,
+      "auth": 66,
+      "safe": 84,
+      "cost": 88
+     },
+     "contributions": {
+      "aud": 20.5,
+      "cont": 12.2,
+      "cult": 14,
+      "perf": 13.6,
+      "auth": 9.2,
+      "safe": 8.4,
+      "cost": 8.8
+     },
+     "confidence": "Medium",
+     "er": 0.96,
+     "linkCtr": 1.21,
+     "realFollowers": 82.3,
+     "viewThrough": 57.1,
+     "hold3s": 72,
+     "sponsoredShare": 25,
+     "adDisclosure": 80,
+     "safety": 86,
+     "audienceWomen": 0.834,
+     "forecast": {
+      "cost": 313000,
+      "views": 378871,
+      "tgViews": 272441,
+      "tgShare": 0.87,
+      "engagements": 11664,
+      "clicks": 3304,
+      "orders": 659.2,
+      "revenue": 428455,
+      "roas": 1.37,
+      "recallLiftPts": 8.9,
+      "costPerTgView": 1.15,
+      "costPerEngagement": 26.83,
+      "costPerClick": 94.73
+     },
+     "why": [
+      "Audience matches the brief: 83% women (target 92%), 94% age overlap, 97% city-tier overlap",
+      "Creates in Hinglish + Hindi, Forever52's lead language; shares the Desi-modern and Value-seeker codes",
+      "Viewers watch 57% of each video, top 9% of macro creators; past recall lift +8.9 pts",
+      "Fashion &amp; Style is a strong category for Forever52, with lifestyle &amp; vlogs as a second pillar"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1334",
+     "name": "Mansi T.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 125386,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": true,
+     "credential": null,
+     "fit": 85.1,
+     "parts": {
+      "aud": 94,
+      "cont": 93,
+      "cult": 100,
+      "perf": 54,
+      "auth": 80,
+      "safe": 91,
+      "cost": 82
+     },
+     "contributions": {
+      "aud": 20.7,
+      "cont": 13.9,
+      "cult": 14,
+      "perf": 8.1,
+      "auth": 11.1,
+      "safe": 9.1,
+      "cost": 8.2
+     },
+     "confidence": "Low",
+     "er": 1.45,
+     "linkCtr": 1.68,
+     "realFollowers": 89,
+     "viewThrough": 49.8,
+     "hold3s": 64.1,
+     "sponsoredShare": 27,
+     "adDisclosure": 96,
+     "safety": 87,
+     "audienceWomen": 0.802,
+     "forecast": {
+      "cost": 49000,
+      "views": 52197,
+      "tgViews": 40862,
+      "tgShare": 0.88,
+      "engagements": 2345,
+      "clicks": 771,
+      "orders": 134.2,
+      "revenue": 87218,
+      "roas": 1.78,
+      "recallLiftPts": 5.5,
+      "costPerTgView": 1.2,
+      "costPerEngagement": 20.9,
+      "costPerClick": 63.52
+     },
+     "why": [
+      "Audience matches the brief: 80% women (target 92%), 93% age overlap, 99% city-tier overlap",
+      "Creates in Hinglish + Hindi, Forever52's lead language; shares the Desi-modern and Festive &amp; occasions codes",
+      "Beauty &amp; Skincare is a core category for Forever52, with lifestyle &amp; vlogs as a second pillar",
+      "89% of followers look real and active; 27% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1083",
+     "name": "Mitali B.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Micro",
+     "followers": 30216,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.5,
+     "parts": {
+      "aud": 83,
+      "cont": 89,
+      "cult": 78,
+      "perf": 76,
+      "auth": 85,
+      "safe": 92,
+      "cost": 96
+     },
+     "contributions": {
+      "aud": 18.3,
+      "cont": 13.3,
+      "cult": 10.9,
+      "perf": 11.3,
+      "auth": 12,
+      "safe": 9.2,
+      "cost": 9.6
+     },
+     "confidence": "Low",
+     "er": 2.34,
+     "linkCtr": 0.51,
+     "realFollowers": 90,
+     "viewThrough": 55.3,
+     "hold3s": 55.1,
+     "sponsoredShare": 4,
+     "adDisclosure": 94,
+     "safety": 90,
+     "audienceWomen": 0.705,
+     "forecast": {
+      "cost": 9500,
+      "views": 13910,
+      "tgViews": 10104,
+      "tgShare": 0.81,
+      "engagements": 870,
+      "clicks": 66,
+      "orders": 12.3,
+      "revenue": 8009,
+      "roas": 0.84,
+      "recallLiftPts": 9.8,
+      "costPerTgView": 0.94,
+      "costPerEngagement": 10.92,
+      "costPerClick": 143.69
+     },
+     "why": [
+      "Audience matches the brief: 71% women (target 92%), 90% age overlap, 97% city-tier overlap",
+      "Fashion &amp; Style is a core category for Forever52, with beauty &amp; skincare as a second pillar",
+      "90% of followers look real and active; 4% of recent posts are sponsored",
+      "Viewers watch 55% of each video, top 6% of micro creators; past recall lift +9.6 pts"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1062",
+     "name": "Aravind B.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 21659,
+     "city": "Coimbatore",
+     "languages": [
+      "Tamil"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.3,
+     "parts": {
+      "aud": 80,
+      "cont": 96,
+      "cult": 75,
+      "perf": 86,
+      "auth": 75,
+      "safe": 87,
+      "cost": 88
+     },
+     "contributions": {
+      "aud": 17.6,
+      "cont": 14.4,
+      "cult": 10.5,
+      "perf": 12.8,
+      "auth": 10.4,
+      "safe": 8.7,
+      "cost": 8.8
+     },
+     "confidence": "High",
+     "er": 1.8,
+     "linkCtr": 0.75,
+     "realFollowers": 85.8,
+     "viewThrough": 56.5,
+     "hold3s": 83,
+     "sponsoredShare": 24,
+     "adDisclosure": 86,
+     "safety": 87,
+     "audienceWomen": 0.763,
+     "forecast": {
+      "cost": 8000,
+      "views": 10857,
+      "tgViews": 7331,
+      "tgShare": 0.79,
+      "engagements": 507,
+      "clicks": 76,
+      "orders": 12.2,
+      "revenue": 7952,
+      "roas": 0.99,
+      "recallLiftPts": 7,
+      "costPerTgView": 1.09,
+      "costPerEngagement": 15.78,
+      "costPerClick": 105.25
+     },
+     "why": [
+      "Audience matches the brief: 76% women (target 92%), 92% age overlap, 77% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Forever52, with fashion &amp; style as a second pillar",
+      "Viewers watch 57% of each video, top 5% of micro creators; past recall lift +6.6 pts",
+      "Creates in Tamil; shares the Desi-modern and Wedding season codes"
+     ],
+     "risks": []
+    }
+   ],
+   "plan": {
+    "creators": 19,
+    "spend": 598500,
+    "views": 951870,
+    "tgViews": 688429,
+    "uniqueTgReach": 425688,
+    "engagements": 43894,
+    "clicks": 6367,
+    "orders": 988,
+    "revenue": 642142,
+    "roas": 1.07,
+    "recallLiftPts": 5.3,
+    "fakeAudienceShare": 0.11,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 49000,
+    "forecastBandPct": 23,
+    "spendByTier": {
+     "micro": 195500,
+     "mid": 399000,
+     "nano": 4000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 598000,
+    "views": 557700,
+    "tgViews": 347745,
+    "uniqueTgReach": 215576,
+    "engagements": 20792,
+    "clicks": 7744,
+    "orders": 1152,
+    "revenue": 748762,
+    "roas": 1.25,
+    "recallLiftPts": 4.8,
+    "fakeAudienceShare": 0.2,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 573000,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 573000,
+     "mid": 25000
+    }
+   },
+   "planCreators": [
+    "Varsha B. (Micro, Food & Cooking)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Rasika D. (Micro, Beauty & Skincare)",
+    "Riya D. (Micro, Beauty & Skincare)",
+    "Ananya J. (Micro, Music & Dance)",
+    "Mitali B. (Micro, Fashion & Style)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Keerthi J. (Mid-tier, Fashion & Style)",
+    "Nikita B. (Mid-tier, Fashion & Style)",
+    "Kritika P. (Micro, Lifestyle & Vlogs)",
+    "Tanvi C. (Micro, Food & Cooking)",
+    "Mansi T. (Mid-tier, Beauty & Skincare)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 362,
+   "gated": 58,
+   "gatesByReason": {
+    "conflict": 7,
+    "safety": 4,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Ananya M.",
+     "id": "CIE-1183",
+     "reasons": [
+      "Posted for Maybelline 3 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Saloni N.",
+     "id": "CIE-1157",
+     "reasons": [
+      "Posted for Lakmé 33 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Mitali S.",
+     "id": "CIE-1109",
+     "reasons": [
+      "Brand-safety score 51: political commentary, unverified health claims"
+     ]
+    },
+    {
+     "name": "Ananya A.",
+     "id": "CIE-1375",
+     "reasons": [
+      "Posted for Maybelline 5 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1146",
+     "name": "Ishani V.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 69981,
+     "city": "Patna",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 86.8,
+     "parts": {
+      "aud": 100,
+      "cont": 93,
+      "cult": 89,
+      "perf": 77,
+      "auth": 70,
+      "safe": 95,
+      "cost": 84
+     },
+     "contributions": {
+      "aud": 20,
+      "cont": 16.7,
+      "cult": 8.9,
+      "perf": 15.4,
+      "auth": 9.9,
+      "safe": 7.6,
+      "cost": 8.4
+     },
+     "confidence": "Low",
+     "er": 5.7,
+     "linkCtr": 0.76,
+     "realFollowers": 85.8,
+     "viewThrough": 39.6,
+     "hold3s": 62.7,
+     "sponsoredShare": 28,
+     "adDisclosure": 99,
+     "safety": 92,
+     "audienceWomen": 0.921,
+     "forecast": {
+      "cost": 37000,
+      "views": 15201,
+      "tgViews": 12048,
+      "tgShare": 0.92,
+      "engagements": 3989,
+      "clicks": 88,
+      "orders": 14.5,
+      "revenue": 9430,
+      "roas": 0.25,
+      "recallLiftPts": 8.5,
+      "costPerTgView": 3.07,
+      "costPerEngagement": 9.28,
+      "costPerClick": 421.2
+     },
+     "why": [
+      "Audience matches the brief: 92% women (target 92%), 93% age overlap, 93% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Forever52, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 5.7%, top 2% of micro creators; 2.6% of viewers save or share",
+      "86% of followers look real and active; 28% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1140",
+     "name": "Lakshmi G.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 11900,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 86.4,
+     "parts": {
+      "aud": 91,
+      "cont": 96,
+      "cult": 100,
+      "perf": 70,
+      "auth": 78,
+      "safe": 78,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 18.3,
+      "cont": 17.3,
+      "cult": 10,
+      "perf": 14,
+      "auth": 10.9,
+      "safe": 6.2,
+      "cost": 9.7
+     },
+     "confidence": "Medium",
+     "er": 4.12,
+     "linkCtr": 1.02,
+     "realFollowers": 89,
+     "viewThrough": 42.9,
+     "hold3s": 63.8,
+     "sponsoredShare": 20,
+     "adDisclosure": 92,
+     "safety": 68,
+     "audienceWomen": 0.954,
+     "forecast": {
+      "cost": 4000,
+      "views": 4857,
+      "tgViews": 3725,
+      "tgShare": 0.86,
+      "engagements": 555,
+      "clicks": 52,
+      "orders": 11.8,
+      "revenue": 7676,
+      "roas": 1.92,
+      "recallLiftPts": 6.2,
+      "costPerTgView": 1.07,
+      "costPerEngagement": 7.21,
+      "costPerClick": 76.94
+     },
+     "why": [
+      "Audience matches the brief: 95% women (target 92%), 87% age overlap, 94% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Forever52, with fashion &amp; style as a second pillar",
+      "Engagement rate 4.1%, top 14% of micro creators; 2.4% of viewers save or share",
+      "89% of followers look real and active; 20% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Posted for Lakmé 102 days ago (outside the 60-day window)",
+      "Unverified health claims"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1296",
+     "name": "Subhankar B.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 45223,
+     "city": "Kolkata",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 85.4,
+     "parts": {
+      "aud": 86,
+      "cont": 93,
+      "cult": 100,
+      "perf": 78,
+      "auth": 76,
+      "safe": 90,
+      "cost": 82
+     },
+     "contributions": {
+      "aud": 17.2,
+      "cont": 16.7,
+      "cult": 10,
+      "perf": 15.5,
+      "auth": 10.6,
+      "safe": 7.2,
+      "cost": 8.2
+     },
+     "confidence": "Medium",
+     "er": 3.76,
+     "linkCtr": 0.59,
+     "realFollowers": 83.4,
+     "viewThrough": 41.2,
+     "hold3s": 55.4,
+     "sponsoredShare": 11,
+     "adDisclosure": 89,
+     "safety": 91,
+     "audienceWomen": 0.838,
+     "forecast": {
+      "cost": 18500,
+      "views": 23148,
+      "tgViews": 15917,
+      "tgShare": 0.82,
+      "engagements": 1945,
+      "clicks": 123,
+      "orders": 20.3,
+      "revenue": 13209,
+      "roas": 0.71,
+      "recallLiftPts": 6.1,
+      "costPerTgView": 1.16,
+      "costPerEngagement": 9.51,
+      "costPerClick": 150.36
+     },
+     "why": [
+      "Audience matches the brief: 84% women (target 92%), 89% age overlap, 92% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Forever52, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 3.8%, top 20% of micro creators; 2.6% of viewers save or share",
+      "83% of followers look real and active; 11% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1271",
+     "name": "Rasika D.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 91472,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.3,
+     "parts": {
+      "aud": 94,
+      "cont": 93,
+      "cult": 100,
+      "perf": 58,
+      "auth": 82,
+      "safe": 85,
+      "cost": 90
+     },
+     "contributions": {
+      "aud": 18.9,
+      "cont": 16.7,
+      "cult": 10,
+      "perf": 11.6,
+      "auth": 11.4,
+      "safe": 6.8,
+      "cost": 9
+     },
+     "confidence": "Medium",
+     "er": 4.34,
+     "linkCtr": 0.7,
+     "realFollowers": 90.6,
+     "viewThrough": 54,
+     "hold3s": 66.7,
+     "sponsoredShare": 27,
+     "adDisclosure": 92,
+     "safety": 81,
+     "audienceWomen": 0.886,
+     "forecast": {
+      "cost": 37500,
+      "views": 51100,
+      "tgViews": 40811,
+      "tgShare": 0.88,
+      "engagements": 4464,
+      "clicks": 308,
+      "orders": 57.8,
+      "revenue": 37600,
+      "roas": 1,
+      "recallLiftPts": 5.8,
+      "costPerTgView": 0.92,
+      "costPerEngagement": 8.4,
+      "costPerClick": 121.87
+     },
+     "why": [
+      "Audience matches the brief: 89% women (target 92%), 93% age overlap, 96% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Forever52, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 4.3%, top 10% of micro creators; 1.8% of viewers save or share",
+      "91% of followers look real and active; 27% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1184",
+     "name": "Dhruv K.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 21779,
+     "city": "Lucknow",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.4,
+     "parts": {
+      "aud": 93,
+      "cont": 93,
+      "cult": 100,
+      "perf": 69,
+      "auth": 64,
+      "safe": 91,
+      "cost": 80
+     },
+     "contributions": {
+      "aud": 18.6,
+      "cont": 16.7,
+      "cult": 10,
+      "perf": 13.8,
+      "auth": 9,
+      "safe": 7.3,
+      "cost": 8
+     },
+     "confidence": "Low",
+     "er": 3.87,
+     "linkCtr": 0.65,
+     "realFollowers": 79.1,
+     "viewThrough": 49.1,
+     "hold3s": 50.1,
+     "sponsoredShare": 17,
+     "adDisclosure": 93,
+     "safety": 90,
+     "audienceWomen": 0.842,
+     "forecast": {
+      "cost": 9500,
+      "views": 10055,
+      "tgViews": 6952,
+      "tgShare": 0.87,
+      "engagements": 960,
+      "clicks": 62,
+      "orders": 11.3,
+      "revenue": 7333,
+      "roas": 0.77,
+      "recallLiftPts": 7,
+      "costPerTgView": 1.37,
+      "costPerEngagement": 9.89,
+      "costPerClick": 152.4
+     },
+     "why": [
+      "Audience matches the brief: 84% women (target 92%), 90% age overlap, 90% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Forever52, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 3.9%, top 18% of micro creators; 2.3% of viewers save or share",
+      "Creates in Hinglish + Hindi, Forever52's lead language; shares the Festive &amp; occasions and Value-seeker codes"
+     ],
+     "risks": [
+      "Posted for Swiss Beauty 120 days ago (outside the 60-day window)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 39,
+    "spend": 599500,
+    "views": 626131,
+    "tgViews": 423377,
+    "uniqueTgReach": 262023,
+    "engagements": 68370,
+    "clicks": 3460,
+    "orders": 572,
+    "revenue": 372079,
+    "roas": 0.62,
+    "recallLiftPts": 4.9,
+    "fakeAudienceShare": 0.11,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 23,
+    "spendByTier": {
+     "micro": 552000,
+     "nano": 10000,
+     "mid": 37500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 598000,
+    "views": 557700,
+    "tgViews": 347745,
+    "uniqueTgReach": 215576,
+    "engagements": 20792,
+    "clicks": 7744,
+    "orders": 1152,
+    "revenue": 748762,
+    "roas": 1.25,
+    "recallLiftPts": 4.8,
+    "fakeAudienceShare": 0.2,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 573000,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 573000,
+     "mid": 25000
+    }
+   },
+   "planCreators": [
+    "Rasika D. (Micro, Beauty & Skincare)",
+    "Ananya B. (Micro, Beauty & Skincare)",
+    "Aditi B. (Micro, Beauty & Skincare)",
+    "Dhwani K. (Micro, Beauty & Skincare)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Ishani V. (Micro, Beauty & Skincare)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Lakshmi G. (Micro, Beauty & Skincare)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Moumita N. (Micro, Parenting & Family)",
+    "Devang M. (Nano, Lifestyle & Vlogs)",
+    "Karan V. (Micro, Beauty & Skincare)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 362,
+   "gated": 58,
+   "gatesByReason": {
+    "safety": 4,
+    "conflict": 7,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Mitali S.",
+     "id": "CIE-1109",
+     "reasons": [
+      "Brand-safety score 51: political commentary, unverified health claims"
+     ]
+    },
+    {
+     "name": "Ananya M.",
+     "id": "CIE-1183",
+     "reasons": [
+      "Posted for Maybelline 3 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Hetal D.",
+     "id": "CIE-1212",
+     "reasons": [
+      "Only 65.5% of followers look real and active (gate is 72%)",
+      "Posted for Lakmé 59 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Aarya D.",
+     "id": "CIE-1139",
+     "reasons": [
+      "Only 54.2% of followers look real and active (gate is 72%)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1140",
+     "name": "Lakshmi G.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 11900,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 89.1,
+     "parts": {
+      "aud": 91,
+      "cont": 96,
+      "cult": 100,
+      "perf": 85,
+      "auth": 78,
+      "safe": 78,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 16.4,
+      "cont": 13.5,
+      "cult": 8,
+      "perf": 22.2,
+      "auth": 10.9,
+      "safe": 6.2,
+      "cost": 11.9
+     },
+     "confidence": "Medium",
+     "er": 4.12,
+     "linkCtr": 1.02,
+     "realFollowers": 89,
+     "viewThrough": 42.9,
+     "hold3s": 63.8,
+     "sponsoredShare": 20,
+     "adDisclosure": 92,
+     "safety": 68,
+     "audienceWomen": 0.954,
+     "forecast": {
+      "cost": 4000,
+      "views": 4857,
+      "tgViews": 3725,
+      "tgShare": 0.86,
+      "engagements": 555,
+      "clicks": 52,
+      "orders": 11.8,
+      "revenue": 7676,
+      "roas": 1.92,
+      "recallLiftPts": 6.2,
+      "costPerTgView": 1.07,
+      "costPerEngagement": 7.21,
+      "costPerClick": 76.94
+     },
+     "why": [
+      "Link CTR 1.02%, top 18% of micro creators; trust index 1.27",
+      "Audience matches the brief: 95% women (target 92%), 87% age overlap, 94% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Forever52, with fashion &amp; style as a second pillar",
+      "Forecast 1.9× ROAS on ₹4K, about 12 orders"
+     ],
+     "risks": [
+      "Posted for Lakmé 102 days ago (outside the 60-day window)",
+      "Unverified health claims"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1334",
+     "name": "Mansi T.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 125386,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": true,
+     "credential": null,
+     "fit": 87.9,
+     "parts": {
+      "aud": 94,
+      "cont": 93,
+      "cult": 100,
+      "perf": 76,
+      "auth": 80,
+      "safe": 91,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 16.9,
+      "cont": 13,
+      "cult": 8,
+      "perf": 19.8,
+      "auth": 11.1,
+      "safe": 7.2,
+      "cost": 11.8
+     },
+     "confidence": "Low",
+     "er": 1.45,
+     "linkCtr": 1.68,
+     "realFollowers": 89,
+     "viewThrough": 49.8,
+     "hold3s": 64.1,
+     "sponsoredShare": 27,
+     "adDisclosure": 96,
+     "safety": 87,
+     "audienceWomen": 0.802,
+     "forecast": {
+      "cost": 49000,
+      "views": 52197,
+      "tgViews": 40862,
+      "tgShare": 0.88,
+      "engagements": 2345,
+      "clicks": 771,
+      "orders": 134.2,
+      "revenue": 87218,
+      "roas": 1.78,
+      "recallLiftPts": 5.5,
+      "costPerTgView": 1.2,
+      "costPerEngagement": 20.9,
+      "costPerClick": 63.52
+     },
+     "why": [
+      "Link CTR 1.68%, top 1% of mid-tier creators; trust index 0.99",
+      "Audience matches the brief: 80% women (target 92%), 93% age overlap, 99% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Forever52, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 1.8× ROAS on ₹49K, about 134 orders"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1357",
+     "name": "Rasika M.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Macro",
+     "followers": 904194,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 86,
+     "parts": {
+      "aud": 93,
+      "cont": 81,
+      "cult": 100,
+      "perf": 87,
+      "auth": 66,
+      "safe": 84,
+      "cost": 95
+     },
+     "contributions": {
+      "aud": 16.8,
+      "cont": 11.4,
+      "cult": 8,
+      "perf": 22.6,
+      "auth": 9.2,
+      "safe": 6.7,
+      "cost": 11.4
+     },
+     "confidence": "Medium",
+     "er": 0.96,
+     "linkCtr": 1.21,
+     "realFollowers": 82.3,
+     "viewThrough": 57.1,
+     "hold3s": 72,
+     "sponsoredShare": 25,
+     "adDisclosure": 80,
+     "safety": 86,
+     "audienceWomen": 0.834,
+     "forecast": {
+      "cost": 313000,
+      "views": 378871,
+      "tgViews": 272441,
+      "tgShare": 0.87,
+      "engagements": 11664,
+      "clicks": 3304,
+      "orders": 659.2,
+      "revenue": 428455,
+      "roas": 1.37,
+      "recallLiftPts": 8.9,
+      "costPerTgView": 1.15,
+      "costPerEngagement": 26.83,
+      "costPerClick": 94.73
+     },
+     "why": [
+      "Link CTR 1.21%, top 7% of macro creators; trust index 1.20",
+      "Audience matches the brief: 83% women (target 92%), 94% age overlap, 97% city-tier overlap",
+      "Fashion &amp; Style is a strong category for Forever52, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 1.4× ROAS on ₹3.13L, about 659 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1246",
+     "name": "Gayathri Y.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Mid-tier",
+     "followers": 484648,
+     "city": "Madurai",
+     "languages": [
+      "Tamil"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 86,
+     "parts": {
+      "aud": 84,
+      "cont": 96,
+      "cult": 53,
+      "perf": 94,
+      "auth": 73,
+      "safe": 87,
+      "cost": 95
+     },
+     "contributions": {
+      "aud": 15.2,
+      "cont": 13.5,
+      "cult": 4.2,
+      "perf": 24.4,
+      "auth": 10.3,
+      "safe": 6.9,
+      "cost": 11.4
+     },
+     "confidence": "Medium",
+     "er": 2.47,
+     "linkCtr": 1.27,
+     "realFollowers": 85,
+     "viewThrough": 54.5,
+     "hold3s": 71.5,
+     "sponsoredShare": 23,
+     "adDisclosure": 100,
+     "safety": 78,
+     "audienceWomen": 0.831,
+     "forecast": {
+      "cost": 225000,
+      "views": 146869,
+      "tgViews": 101710,
+      "tgShare": 0.81,
+      "engagements": 14006,
+      "clicks": 2013,
+      "orders": 475.2,
+      "revenue": 308883,
+      "roas": 1.37,
+      "recallLiftPts": 10.4,
+      "costPerTgView": 2.21,
+      "costPerEngagement": 16.06,
+      "costPerClick": 111.78
+     },
+     "why": [
+      "Link CTR 1.27%, top 8% of mid-tier creators; trust index 1.32",
+      "Audience matches the brief: 83% women (target 92%), 92% age overlap, 75% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Forever52, with fashion &amp; style as a second pillar",
+      "Forecast 1.4× ROAS on ₹2.25L, about 475 orders"
+     ],
+     "risks": [
+      "Posted for Sugar Cosmetics 87 days ago (outside the 60-day window)"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1220",
+     "name": "Aditi B.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 24805,
+     "city": "Jaipur",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 85.5,
+     "parts": {
+      "aud": 84,
+      "cont": 93,
+      "cult": 67,
+      "perf": 83,
+      "auth": 87,
+      "safe": 79,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 15.2,
+      "cont": 13,
+      "cult": 5.3,
+      "perf": 21.5,
+      "auth": 12.2,
+      "safe": 6.3,
+      "cost": 12
+     },
+     "confidence": "Medium",
+     "er": 2.9,
+     "linkCtr": 1.64,
+     "realFollowers": 93.5,
+     "viewThrough": 30.8,
+     "hold3s": 59.7,
+     "sponsoredShare": 11,
+     "adDisclosure": 85,
+     "safety": 75,
+     "audienceWomen": 0.97,
+     "forecast": {
+      "cost": 8000,
+      "views": 7925,
+      "tgViews": 6039,
+      "tgShare": 0.81,
+      "engagements": 853,
+      "clicks": 155,
+      "orders": 30.5,
+      "revenue": 19844,
+      "roas": 2.48,
+      "recallLiftPts": 3.8,
+      "costPerTgView": 1.32,
+      "costPerEngagement": 9.38,
+      "costPerClick": 51.57
+     },
+     "why": [
+      "Link CTR 1.64%, top 1% of micro creators; trust index 1.12",
+      "Audience matches the brief: 97% women (target 92%), 92% age overlap, 83% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Forever52, with lifestyle &amp; vlogs as a second pillar",
+      "94% of followers look real and active; 11% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Unverified health claims"
+     ]
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1418",
+     "name": "Rahul M.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 68998,
+     "city": "Delhi NCR",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.8,
+     "parts": {
+      "aud": 76,
+      "cont": 93,
+      "cult": 100,
+      "perf": 72,
+      "auth": 79,
+      "safe": 91,
+      "cost": 93
+     },
+     "contributions": {
+      "aud": 13.7,
+      "cont": 13,
+      "cult": 8,
+      "perf": 18.7,
+      "auth": 11,
+      "safe": 7.3,
+      "cost": 11.2
+     },
+     "confidence": "Medium",
+     "er": 3.07,
+     "linkCtr": 1.39,
+     "realFollowers": 89.2,
+     "viewThrough": 43.6,
+     "hold3s": 59.1,
+     "sponsoredShare": 25,
+     "adDisclosure": 95,
+     "safety": 88,
+     "audienceWomen": 0.714,
+     "forecast": {
+      "cost": 34500,
+      "views": 28230,
+      "tgViews": 19113,
+      "tgShare": 0.76,
+      "engagements": 2491,
+      "clicks": 401,
+      "orders": 66.3,
+      "revenue": 43092,
+      "roas": 1.25,
+      "recallLiftPts": 3.2,
+      "costPerTgView": 1.81,
+      "costPerEngagement": 13.85,
+      "costPerClick": 85.95
+     },
+     "why": [
+      "Link CTR 1.39%, top 2% of micro creators; trust index 0.94",
+      "Audience matches the brief: 71% women (target 92%), 91% age overlap, 85% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Forever52, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 1.2× ROAS on ₹35K, about 66 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1345",
+     "name": "Aanya R.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Nano",
+     "followers": 8388,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.6,
+     "parts": {
+      "aud": 84,
+      "cont": 89,
+      "cult": 55,
+      "perf": 75,
+      "auth": 92,
+      "safe": 85,
+      "cost": 96
+     },
+     "contributions": {
+      "aud": 15.1,
+      "cont": 12.4,
+      "cult": 4.4,
+      "perf": 19.4,
+      "auth": 12.9,
+      "safe": 6.8,
+      "cost": 11.6
+     },
+     "confidence": "Low",
+     "er": 4.96,
+     "linkCtr": 1.11,
+     "realFollowers": 95.7,
+     "viewThrough": 38.3,
+     "hold3s": 77.2,
+     "sponsoredShare": 21,
+     "adDisclosure": 87,
+     "safety": 83,
+     "audienceWomen": 0.731,
+     "forecast": {
+      "cost": 4000,
+      "views": 4633,
+      "tgViews": 3596,
+      "tgShare": 0.81,
+      "engagements": 476,
+      "clicks": 51,
+      "orders": 9.1,
+      "revenue": 5886,
+      "roas": 1.47,
+      "recallLiftPts": 3.5,
+      "costPerTgView": 1.11,
+      "costPerEngagement": 8.4,
+      "costPerClick": 78.51
+     },
+     "why": [
+      "Link CTR 1.11%, top 17% of nano creators; trust index 1.03",
+      "Audience matches the brief: 73% women (target 92%), 88% age overlap, 98% city-tier overlap",
+      "96% of followers look real and active; 21% of recent posts are sponsored",
+      "Fashion &amp; Style is a core category for Forever52, with beauty &amp; skincare as a second pillar"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1271",
+     "name": "Rasika D.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 91472,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.5,
+     "parts": {
+      "aud": 94,
+      "cont": 93,
+      "cult": 100,
+      "perf": 56,
+      "auth": 82,
+      "safe": 85,
+      "cost": 90
+     },
+     "contributions": {
+      "aud": 17,
+      "cont": 13,
+      "cult": 8,
+      "perf": 14.5,
+      "auth": 11.4,
+      "safe": 6.8,
+      "cost": 10.8
+     },
+     "confidence": "Medium",
+     "er": 4.34,
+     "linkCtr": 0.7,
+     "realFollowers": 90.6,
+     "viewThrough": 54,
+     "hold3s": 66.7,
+     "sponsoredShare": 27,
+     "adDisclosure": 92,
+     "safety": 81,
+     "audienceWomen": 0.886,
+     "forecast": {
+      "cost": 37500,
+      "views": 51100,
+      "tgViews": 40811,
+      "tgShare": 0.88,
+      "engagements": 4464,
+      "clicks": 308,
+      "orders": 57.8,
+      "revenue": 37600,
+      "roas": 1,
+      "recallLiftPts": 5.8,
+      "costPerTgView": 0.92,
+      "costPerEngagement": 8.4,
+      "costPerClick": 121.87
+     },
+     "why": [
+      "Audience matches the brief: 89% women (target 92%), 93% age overlap, 96% city-tier overlap",
+      "Link CTR 0.70%, top 57% of micro creators; trust index 1.07",
+      "Beauty &amp; Skincare is a core category for Forever52, with lifestyle &amp; vlogs as a second pillar",
+      "91% of followers look real and active; 27% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1247",
+     "name": "Simran B.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Mid-tier",
+     "followers": 186141,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 81.1,
+     "parts": {
+      "aud": 93,
+      "cont": 96,
+      "cult": 89,
+      "perf": 81,
+      "auth": 60,
+      "safe": 81,
+      "cost": 65
+     },
+     "contributions": {
+      "aud": 16.7,
+      "cont": 13.5,
+      "cult": 7.1,
+      "perf": 21.1,
+      "auth": 8.4,
+      "safe": 6.5,
+      "cost": 7.9
+     },
+     "confidence": "Medium",
+     "er": 1.64,
+     "linkCtr": 1.36,
+     "realFollowers": 82.6,
+     "viewThrough": 50,
+     "hold3s": 72.7,
+     "sponsoredShare": 42,
+     "adDisclosure": 75,
+     "safety": 85,
+     "audienceWomen": 0.923,
+     "forecast": {
+      "cost": 80000,
+      "views": 27090,
+      "tgViews": 19531,
+      "tgShare": 0.87,
+      "engagements": 3053,
+      "clicks": 287,
+      "orders": 54.4,
+      "revenue": 35364,
+      "roas": 0.44,
+      "recallLiftPts": 7.2,
+      "costPerTgView": 4.1,
+      "costPerEngagement": 26.21,
+      "costPerClick": 278.77
+     },
+     "why": [
+      "Link CTR 1.36%, top 7% of mid-tier creators; trust index 1.06",
+      "Audience matches the brief: 92% women (target 92%), 85% age overlap, 94% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Forever52, with fashion &amp; style as a second pillar",
+      "83% of followers look real and active; 42% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1090",
+     "name": "Meher A.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 19027,
+     "city": "Delhi NCR",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.9,
+     "parts": {
+      "aud": 77,
+      "cont": 96,
+      "cult": 67,
+      "perf": 73,
+      "auth": 78,
+      "safe": 82,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 13.9,
+      "cont": 13.5,
+      "cult": 5.3,
+      "perf": 18.9,
+      "auth": 10.9,
+      "safe": 6.6,
+      "cost": 11.9
+     },
+     "confidence": "Low",
+     "er": 3.2,
+     "linkCtr": 1.29,
+     "realFollowers": 89.4,
+     "viewThrough": 42.2,
+     "hold3s": 51.2,
+     "sponsoredShare": 28,
+     "adDisclosure": 79,
+     "safety": 84,
+     "audienceWomen": 0.883,
+     "forecast": {
+      "cost": 6500,
+      "views": 8339,
+      "tgViews": 5731,
+      "tgShare": 0.77,
+      "engagements": 712,
+      "clicks": 108,
+      "orders": 18.8,
+      "revenue": 12210,
+      "roas": 1.88,
+      "recallLiftPts": 6.5,
+      "costPerTgView": 1.13,
+      "costPerEngagement": 9.13,
+      "costPerClick": 60.03
+     },
+     "why": [
+      "Link CTR 1.29%, top 4% of micro creators; trust index 0.97",
+      "Audience matches the brief: 88% women (target 92%), 83% age overlap, 82% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Forever52, with fashion &amp; style as a second pillar",
+      "Forecast 1.9× ROAS on ₹6.5K, about 19 orders"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 18,
+    "spend": 599500,
+    "views": 702366,
+    "tgViews": 496755,
+    "uniqueTgReach": 307387,
+    "engagements": 38785,
+    "clicks": 8096,
+    "orders": 1342,
+    "revenue": 872443,
+    "roas": 1.46,
+    "recallLiftPts": 5.4,
+    "fakeAudienceShare": 0.12,
+    "gatedIncluded": 0,
+    "representCreators": 2,
+    "representSpend": 193000,
+    "forecastBandPct": 22,
+    "spendByTier": {
+     "micro": 179500,
+     "mid": 413000,
+     "nano": 7000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 598000,
+    "views": 557700,
+    "tgViews": 347745,
+    "uniqueTgReach": 215576,
+    "engagements": 20792,
+    "clicks": 7744,
+    "orders": 1152,
+    "revenue": 748762,
+    "roas": 1.25,
+    "recallLiftPts": 4.8,
+    "fakeAudienceShare": 0.2,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 573000,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 573000,
+     "mid": 25000
+    }
+   },
+   "planCreators": [
+    "Aditi B. (Micro, Beauty & Skincare)",
+    "Mansi T. (Mid-tier, Beauty & Skincare)",
+    "Riya D. (Micro, Beauty & Skincare)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Lakshmi G. (Micro, Beauty & Skincare)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Meher A. (Micro, Beauty & Skincare)",
+    "Rahul M. (Micro, Beauty & Skincare)",
+    "Parth K. (Mid-tier, Fashion & Style)",
+    "Tanvi P. (Micro, Beauty & Skincare)",
+    "Sruthi A. (Mid-tier, Fashion & Style)",
+    "Debolina M. (Micro, Beauty & Skincare)"
+   ]
+  }
+ }
+}

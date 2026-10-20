@@ -1,0 +1,1783 @@
+{
+ "id": "puma",
+ "name": "Puma",
+ "parent": "Puma India",
+ "vertical": "fashion",
+ "sub": "Sportswear",
+ "status": "Reported client",
+ "defaultObjective": "consideration",
+ "brief": "Make running culture in tier-1 cities feel like a community, not a race.",
+ "moment": "Run season · Oct–Feb",
+ "budgetLakh": 21,
+ "target": {
+  "fem": 0.44,
+  "age": [
+   0.08,
+   0.44,
+   0.34,
+   0.1,
+   0.04
+  ],
+  "tiers": [
+   0.52,
+   0.34,
+   0.14
+  ],
+  "affl": 0.55
+ },
+ "languages": {
+  "Hinglish": 1,
+  "English": 0.9,
+  "Hindi": 0.7,
+  "Tamil": 0.5,
+  "Telugu": 0.5,
+  "Kannada": 0.5,
+  "Punjabi": 0.5
+ },
+ "codes": [
+  "Fitness-first",
+  "Cricket & IPL",
+  "Gen-Z humour",
+  "Desi-modern"
+ ],
+ "affinity": {
+  "fitness": 1,
+  "fashion": 0.85,
+  "lifestyle": 0.7,
+  "music": 0.5,
+  "travel": 0.45,
+  "comedy": 0.4
+ },
+ "competitors": [
+  "Nike",
+  "Adidas",
+  "Skechers",
+  "ASICS"
+ ],
+ "compliance": null,
+ "aov": 3200,
+ "conversionRate": 0.03,
+ "kpis": [
+  "Engagement rate",
+  "PDP clicks",
+  "Event sign-ups"
+ ],
+ "markets": [
+  "India",
+  "UAE"
+ ],
+ "tgPoolMillions": 90,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 369,
+   "gated": 51,
+   "gatesByReason": {
+    "conflict": 16,
+    "safety": 4,
+    "fraud": 32
+   },
+   "gatedExamples": [
+    {
+     "name": "Gayathri A.",
+     "id": "CIE-1400",
+     "reasons": [
+      "Posted for Nike 8 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Rasika M.",
+     "id": "CIE-1357",
+     "reasons": [
+      "Posted for Nike 60 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Varsha T.",
+     "id": "CIE-1093",
+     "reasons": [
+      "Posted for Nike 39 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Pooja T.",
+     "id": "CIE-1180",
+     "reasons": [
+      "Posted for Nike 30 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1192",
+     "name": "Vivaan Y.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 73368,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.9,
+     "parts": {
+      "aud": 88,
+      "cont": 93,
+      "cult": 100,
+      "perf": 61,
+      "auth": 72,
+      "safe": 89,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 19.5,
+      "cont": 13.9,
+      "cult": 14,
+      "perf": 9.2,
+      "auth": 10.1,
+      "safe": 8.9,
+      "cost": 9.4
+     },
+     "confidence": "Low",
+     "er": 4.2,
+     "linkCtr": 0.67,
+     "realFollowers": 85.4,
+     "viewThrough": 34.9,
+     "hold3s": 68,
+     "sponsoredShare": 21,
+     "adDisclosure": 90,
+     "safety": 88,
+     "audienceWomen": 0.502,
+     "forecast": {
+      "cost": 25000,
+      "views": 34034,
+      "tgViews": 24476,
+      "tgShare": 0.84,
+      "engagements": 3478,
+      "clicks": 217,
+      "orders": 31.6,
+      "revenue": 100975,
+      "roas": 4.04,
+      "recallLiftPts": 10.3,
+      "costPerTgView": 1.02,
+      "costPerEngagement": 7.19,
+      "costPerClick": 115.26
+     },
+     "why": [
+      "Audience matches the brief: 50% women (target 44%), 77% age overlap, 95% city-tier overlap",
+      "Creates in Hinglish + Hindi, Puma's lead language; shares the Cricket &amp; IPL and Fitness-first codes",
+      "Fitness &amp; Wellness is a core category for Puma, with lifestyle &amp; vlogs as a second pillar",
+      "85% of followers look real and active; 21% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1213",
+     "name": "Chirag T.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 317916,
+     "city": "Mumbai",
+     "languages": [
+      "Marathi",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "Certified trainer",
+     "fit": 84.4,
+     "parts": {
+      "aud": 77,
+      "cont": 93,
+      "cult": 100,
+      "perf": 87,
+      "auth": 59,
+      "safe": 89,
+      "cost": 95
+     },
+     "contributions": {
+      "aud": 16.9,
+      "cont": 13.9,
+      "cult": 14,
+      "perf": 13,
+      "auth": 8.3,
+      "safe": 8.9,
+      "cost": 9.5
+     },
+     "confidence": "Medium",
+     "er": 0.93,
+     "linkCtr": 1.23,
+     "realFollowers": 80.3,
+     "viewThrough": 59.8,
+     "hold3s": 81.5,
+     "sponsoredShare": 31,
+     "adDisclosure": 93,
+     "safety": 87,
+     "audienceWomen": 0.381,
+     "forecast": {
+      "cost": 76000,
+      "views": 142263,
+      "tgViews": 87211,
+      "tgShare": 0.76,
+      "engagements": 4292,
+      "clicks": 1483,
+      "orders": 178.2,
+      "revenue": 570165,
+      "roas": 7.5,
+      "recallLiftPts": 6.9,
+      "costPerTgView": 0.87,
+      "costPerEngagement": 17.71,
+      "costPerClick": 51.26
+     },
+     "why": [
+      "Audience matches the brief: 38% women (target 44%), 75% age overlap, 77% city-tier overlap",
+      "Creates in Marathi + Hinglish, Puma's lead language; shares the Cricket &amp; IPL and Fitness-first codes",
+      "Fitness &amp; Wellness is a core category for Puma, with lifestyle &amp; vlogs as a second pillar",
+      "Viewers watch 60% of each video, top 1% of mid-tier creators; past recall lift +6.7 pts"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1083",
+     "name": "Mitali B.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Micro",
+     "followers": 30216,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.9,
+     "parts": {
+      "aud": 79,
+      "cont": 65,
+      "cult": 100,
+      "perf": 76,
+      "auth": 85,
+      "safe": 92,
+      "cost": 93
+     },
+     "contributions": {
+      "aud": 17.4,
+      "cont": 9.7,
+      "cult": 14,
+      "perf": 11.3,
+      "auth": 12,
+      "safe": 9.2,
+      "cost": 9.3
+     },
+     "confidence": "Low",
+     "er": 2.34,
+     "linkCtr": 0.51,
+     "realFollowers": 90,
+     "viewThrough": 55.3,
+     "hold3s": 55.1,
+     "sponsoredShare": 4,
+     "adDisclosure": 94,
+     "safety": 90,
+     "audienceWomen": 0.705,
+     "forecast": {
+      "cost": 9500,
+      "views": 13910,
+      "tgViews": 9759,
+      "tgShare": 0.78,
+      "engagements": 870,
+      "clicks": 56,
+      "orders": 5.5,
+      "revenue": 17606,
+      "roas": 1.85,
+      "recallLiftPts": 8.4,
+      "costPerTgView": 0.97,
+      "costPerEngagement": 10.92,
+      "costPerClick": 170.75
+     },
+     "why": [
+      "Audience matches the brief: 71% women (target 44%), 90% age overlap, 90% city-tier overlap",
+      "Creates in Hinglish, Puma's lead language; shares the Desi-modern and Gen-Z humour codes",
+      "90% of followers look real and active; 4% of recent posts are sponsored",
+      "Viewers watch 55% of each video, top 6% of micro creators; past recall lift +9.6 pts"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1294",
+     "name": "Akhil Y.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 48916,
+     "city": "Bengaluru",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.1,
+     "parts": {
+      "aud": 100,
+      "cont": 43,
+      "cult": 95,
+      "perf": 94,
+      "auth": 72,
+      "safe": 76,
+      "cost": 88
+     },
+     "contributions": {
+      "aud": 22,
+      "cont": 6.4,
+      "cult": 13.2,
+      "perf": 14,
+      "auth": 10.1,
+      "safe": 7.6,
+      "cost": 8.8
+     },
+     "confidence": "High",
+     "er": 5.46,
+     "linkCtr": 0.46,
+     "realFollowers": 86.6,
+     "viewThrough": 61.8,
+     "hold3s": 80,
+     "sponsoredShare": 23,
+     "adDisclosure": 89,
+     "safety": 67,
+     "audienceWomen": 0.408,
+     "forecast": {
+      "cost": 25000,
+      "views": 29888,
+      "tgViews": 23976,
+      "tgShare": 0.93,
+      "engagements": 2935,
+      "clicks": 76,
+      "orders": 6.4,
+      "revenue": 20547,
+      "roas": 0.82,
+      "recallLiftPts": 6.2,
+      "costPerTgView": 1.04,
+      "costPerEngagement": 8.52,
+      "costPerClick": 327.96
+     },
+     "why": [
+      "Audience matches the brief: 41% women (target 44%), 95% age overlap, 92% city-tier overlap",
+      "Viewers watch 62% of each video, top 1% of micro creators; past recall lift +7.9 pts",
+      "Creates in English, Puma's lead language; shares the Cricket &amp; IPL and Gen-Z humour codes",
+      "87% of followers look real and active; 23% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Promotes betting / real-money gaming"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1063",
+     "name": "Shreya N.",
+     "niche": "Lifestyle & Vlogs",
+     "niche2": "Travel",
+     "tier": "Micro",
+     "followers": 31260,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.8,
+     "parts": {
+      "aud": 95,
+      "cont": 64,
+      "cult": 78,
+      "perf": 69,
+      "auth": 71,
+      "safe": 89,
+      "cost": 93
+     },
+     "contributions": {
+      "aud": 20.9,
+      "cont": 9.6,
+      "cult": 10.9,
+      "perf": 10.3,
+      "auth": 10,
+      "safe": 8.9,
+      "cost": 9.3
+     },
+     "confidence": "Medium",
+     "er": 3.22,
+     "linkCtr": 0.67,
+     "realFollowers": 84.3,
+     "viewThrough": 56.9,
+     "hold3s": 55.2,
+     "sponsoredShare": 26,
+     "adDisclosure": 78,
+     "safety": 96,
+     "audienceWomen": 0.542,
+     "forecast": {
+      "cost": 11000,
+      "views": 15911,
+      "tgViews": 11884,
+      "tgShare": 0.89,
+      "engagements": 1175,
+      "clicks": 78,
+      "orders": 7.4,
+      "revenue": 23696,
+      "roas": 2.15,
+      "recallLiftPts": 6.8,
+      "costPerTgView": 0.93,
+      "costPerEngagement": 9.36,
+      "costPerClick": 140.48
+     },
+     "why": [
+      "Audience matches the brief: 54% women (target 44%), 95% age overlap, 94% city-tier overlap",
+      "Creates in Hinglish, Puma's lead language; shares the Gen-Z humour codes",
+      "Viewers watch 57% of each video, top 4% of micro creators; past recall lift +7.5 pts",
+      "84% of followers look real and active; 26% of recent posts are sponsored"
+     ],
+     "risks": []
+    }
+   ],
+   "plan": {
+    "creators": 45,
+    "spend": 2099500,
+    "views": 3244431,
+    "tgViews": 2208430,
+    "uniqueTgReach": 1359398,
+    "engagements": 132282,
+    "clicks": 15640,
+    "orders": 1428,
+    "revenue": 4568555,
+    "roas": 2.18,
+    "recallLiftPts": 5.2,
+    "fakeAudienceShare": 0.13,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 23,
+    "spendByTier": {
+     "micro": 419500,
+     "mid": 1228000,
+     "macro": 439000,
+     "nano": 13000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 2079000,
+    "views": 1632665,
+    "tgViews": 759332,
+    "uniqueTgReach": 470250,
+    "engagements": 44128,
+    "clicks": 6281,
+    "orders": 461,
+    "revenue": 1476647,
+    "roas": 0.71,
+    "recallLiftPts": 3.1,
+    "fakeAudienceShare": 0.42,
+    "gatedIncluded": 2,
+    "representCreators": 1,
+    "representSpend": 300000,
+    "forecastBandPct": 15,
+    "spendByTier": {
+     "mega": 2079000
+    }
+   },
+   "planCreators": [
+    "Varsha B. (Micro, Food & Cooking)",
+    "Ananya J. (Micro, Music & Dance)",
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Keerthi J. (Mid-tier, Fashion & Style)",
+    "Mitali B. (Micro, Fashion & Style)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Vivaan Y. (Micro, Fitness & Wellness)",
+    "Vivaan M. (Micro, Fitness & Wellness)",
+    "Akhil J. (Micro, Comedy & Entertainment)",
+    "Akhil Y. (Micro, Comedy & Entertainment)",
+    "Karan Y. (Micro, Fashion & Style)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 369,
+   "gated": 51,
+   "gatesByReason": {
+    "conflict": 16,
+    "safety": 4,
+    "fraud": 32
+   },
+   "gatedExamples": [
+    {
+     "name": "Gayathri A.",
+     "id": "CIE-1400",
+     "reasons": [
+      "Posted for Nike 8 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Janhvi P.",
+     "id": "CIE-1287",
+     "reasons": [
+      "Posted for Adidas 35 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Pooja T.",
+     "id": "CIE-1180",
+     "reasons": [
+      "Posted for Nike 30 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Arun N.",
+     "id": "CIE-1252",
+     "reasons": [
+      "Posted for Nike 4 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1192",
+     "name": "Vivaan Y.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 73368,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.2,
+     "parts": {
+      "aud": 88,
+      "cont": 93,
+      "cult": 100,
+      "perf": 64,
+      "auth": 72,
+      "safe": 89,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 17.7,
+      "cont": 16.7,
+      "cult": 10,
+      "perf": 12.9,
+      "auth": 10.1,
+      "safe": 7.1,
+      "cost": 9.8
+     },
+     "confidence": "Low",
+     "er": 4.2,
+     "linkCtr": 0.67,
+     "realFollowers": 85.4,
+     "viewThrough": 34.9,
+     "hold3s": 68,
+     "sponsoredShare": 21,
+     "adDisclosure": 90,
+     "safety": 88,
+     "audienceWomen": 0.502,
+     "forecast": {
+      "cost": 25000,
+      "views": 34034,
+      "tgViews": 24476,
+      "tgShare": 0.84,
+      "engagements": 3478,
+      "clicks": 217,
+      "orders": 31.6,
+      "revenue": 100975,
+      "roas": 4.04,
+      "recallLiftPts": 10.3,
+      "costPerTgView": 1.02,
+      "costPerEngagement": 7.19,
+      "costPerClick": 115.26
+     },
+     "why": [
+      "Audience matches the brief: 50% women (target 44%), 77% age overlap, 95% city-tier overlap",
+      "Fitness &amp; Wellness is a core category for Puma, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 4.2%, top 12% of micro creators; 1.5% of viewers save or share",
+      "85% of followers look real and active; 21% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1332",
+     "name": "Kunal K.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Food & Cooking",
+     "tier": "Micro",
+     "followers": 32206,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.2,
+     "parts": {
+      "aud": 87,
+      "cont": 76,
+      "cult": 100,
+      "perf": 79,
+      "auth": 74,
+      "safe": 90,
+      "cost": 88
+     },
+     "contributions": {
+      "aud": 17.4,
+      "cont": 13.7,
+      "cult": 10,
+      "perf": 15.8,
+      "auth": 10.4,
+      "safe": 7.2,
+      "cost": 8.8
+     },
+     "confidence": "Low",
+     "er": 3.45,
+     "linkCtr": 1.58,
+     "realFollowers": 90.9,
+     "viewThrough": 27.7,
+     "hold3s": 40.9,
+     "sponsoredShare": 44,
+     "adDisclosure": 92,
+     "safety": 88,
+     "audienceWomen": 0.497,
+     "forecast": {
+      "cost": 11000,
+      "views": 12835,
+      "tgViews": 9703,
+      "tgShare": 0.83,
+      "engagements": 1285,
+      "clicks": 188,
+      "orders": 21.3,
+      "revenue": 68013,
+      "roas": 6.18,
+      "recallLiftPts": 2.3,
+      "costPerTgView": 1.13,
+      "costPerEngagement": 8.56,
+      "costPerClick": 58.37
+     },
+     "why": [
+      "Audience matches the brief: 50% women (target 44%), 81% age overlap, 91% city-tier overlap",
+      "Engagement rate 3.5%, top 29% of micro creators; 2.9% of viewers save or share",
+      "Fitness &amp; Wellness is a strong category for Puma, with food &amp; cooking as a second pillar",
+      "91% of followers look real and active; 44% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Posted for Adidas 67 days ago (outside the 60-day window)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1221",
+     "name": "Shreya G.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 16818,
+     "city": "Chandigarh",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 80.9,
+     "parts": {
+      "aud": 77,
+      "cont": 81,
+      "cult": 84,
+      "perf": 83,
+      "auth": 73,
+      "safe": 88,
+      "cost": 87
+     },
+     "contributions": {
+      "aud": 15.4,
+      "cont": 14.6,
+      "cult": 8.4,
+      "perf": 16.7,
+      "auth": 10.2,
+      "safe": 7,
+      "cost": 8.7
+     },
+     "confidence": "Low",
+     "er": 3.98,
+     "linkCtr": 0.59,
+     "realFollowers": 85.9,
+     "viewThrough": 51.4,
+     "hold3s": 61.1,
+     "sponsoredShare": 37,
+     "adDisclosure": 90,
+     "safety": 86,
+     "audienceWomen": 0.641,
+     "forecast": {
+      "cost": 6000,
+      "views": 3486,
+      "tgViews": 2290,
+      "tgShare": 0.76,
+      "engagements": 669,
+      "clicks": 14,
+      "orders": 1.5,
+      "revenue": 4765,
+      "roas": 0.79,
+      "recallLiftPts": 8,
+      "costPerTgView": 2.62,
+      "costPerEngagement": 8.96,
+      "costPerClick": 413.98
+     },
+     "why": [
+      "Engagement rate 4.0%, top 17% of micro creators; 3.0% of viewers save or share",
+      "Audience matches the brief: 64% women (target 44%), 88% age overlap, 81% city-tier overlap",
+      "Fashion &amp; Style is a strong category for Puma, with lifestyle &amp; vlogs as a second pillar",
+      "86% of followers look real and active; 37% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1162",
+     "name": "Rehan G.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 3861,
+     "city": "Dubai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.5,
+     "parts": {
+      "aud": 91,
+      "cont": 81,
+      "cult": 55,
+      "perf": 80,
+      "auth": 87,
+      "safe": 83,
+      "cost": 73
+     },
+     "contributions": {
+      "aud": 18.3,
+      "cont": 14.6,
+      "cult": 5.5,
+      "perf": 16,
+      "auth": 12.2,
+      "safe": 6.7,
+      "cost": 7.3
+     },
+     "confidence": "Low",
+     "er": 5.16,
+     "linkCtr": 1,
+     "realFollowers": 97,
+     "viewThrough": 41.7,
+     "hold3s": 68.5,
+     "sponsoredShare": 34,
+     "adDisclosure": 85,
+     "safety": 82,
+     "audienceWomen": 0.617,
+     "forecast": {
+      "cost": 2500,
+      "views": 2935,
+      "tgViews": 2453,
+      "tgShare": 0.86,
+      "engagements": 227,
+      "clicks": 23,
+      "orders": 2.3,
+      "revenue": 7243,
+      "roas": 2.9,
+      "recallLiftPts": 3.4,
+      "costPerTgView": 1.02,
+      "costPerEngagement": 11.01,
+      "costPerClick": 107.98
+     },
+     "why": [
+      "Audience matches the brief: 62% women (target 44%), 96% age overlap, 96% city-tier overlap",
+      "Engagement rate 5.2%, top 29% of nano creators; 3.7% of viewers save or share",
+      "Fashion &amp; Style is a strong category for Puma, with lifestyle &amp; vlogs as a second pillar",
+      "97% of followers look real and active; 34% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1263",
+     "name": "Dhwani R.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 46218,
+     "city": "Pune",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.4,
+     "parts": {
+      "aud": 87,
+      "cont": 76,
+      "cult": 78,
+      "perf": 71,
+      "auth": 74,
+      "safe": 83,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 17.4,
+      "cont": 13.7,
+      "cult": 7.8,
+      "perf": 14.2,
+      "auth": 10.3,
+      "safe": 6.7,
+      "cost": 9.4
+     },
+     "confidence": "Medium",
+     "er": 5.31,
+     "linkCtr": 0.68,
+     "realFollowers": 89.6,
+     "viewThrough": 50.4,
+     "hold3s": 74.3,
+     "sponsoredShare": 35,
+     "adDisclosure": 90,
+     "safety": 79,
+     "audienceWomen": 0.489,
+     "forecast": {
+      "cost": 21500,
+      "views": 20704,
+      "tgViews": 15436,
+      "tgShare": 0.83,
+      "engagements": 2704,
+      "clicks": 122,
+      "orders": 13.5,
+      "revenue": 43326,
+      "roas": 2.02,
+      "recallLiftPts": 4.3,
+      "costPerTgView": 1.39,
+      "costPerEngagement": 7.95,
+      "costPerClick": 176.01
+     },
+     "why": [
+      "Audience matches the brief: 49% women (target 44%), 78% age overlap, 92% city-tier overlap",
+      "Engagement rate 5.3%, top 5% of micro creators; 2.5% of viewers save or share",
+      "Fitness &amp; Wellness is a strong category for Puma, with doctors &amp; dietitians as a second pillar",
+      "90% of followers look real and active; 35% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1337",
+     "name": "Aditya G.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 28048,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 79.4,
+     "parts": {
+      "aud": 84,
+      "cont": 93,
+      "cult": 78,
+      "perf": 66,
+      "auth": 73,
+      "safe": 91,
+      "cost": 75
+     },
+     "contributions": {
+      "aud": 16.7,
+      "cont": 16.7,
+      "cult": 7.8,
+      "perf": 13.2,
+      "auth": 10.2,
+      "safe": 7.3,
+      "cost": 7.5
+     },
+     "confidence": "Low",
+     "er": 4.72,
+     "linkCtr": 0.47,
+     "realFollowers": 84,
+     "viewThrough": 46,
+     "hold3s": 63.5,
+     "sponsoredShare": 28,
+     "adDisclosure": 91,
+     "safety": 91,
+     "audienceWomen": 0.386,
+     "forecast": {
+      "cost": 14000,
+      "views": 3959,
+      "tgViews": 2693,
+      "tgShare": 0.81,
+      "engagements": 1324,
+      "clicks": 14,
+      "orders": 1.8,
+      "revenue": 5775,
+      "roas": 0.41,
+      "recallLiftPts": 7.6,
+      "costPerTgView": 5.2,
+      "costPerEngagement": 10.58,
+      "costPerClick": 989.5
+     },
+     "why": [
+      "Audience matches the brief: 39% women (target 44%), 82% age overlap, 83% city-tier overlap",
+      "Fitness &amp; Wellness is a core category for Puma, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 4.7%, top 9% of micro creators; 1.8% of viewers save or share",
+      "84% of followers look real and active; 28% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1056",
+     "name": "Neel B.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 15258,
+     "city": "Ahmedabad",
+     "languages": [
+      "Gujarati",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "Certified trainer",
+     "fit": 79.2,
+     "parts": {
+      "aud": 69,
+      "cont": 93,
+      "cult": 78,
+      "perf": 72,
+      "auth": 71,
+      "safe": 90,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 13.8,
+      "cont": 16.7,
+      "cult": 7.8,
+      "perf": 14.5,
+      "auth": 9.9,
+      "safe": 7.2,
+      "cost": 9.4
+     },
+     "confidence": "Low",
+     "er": 4,
+     "linkCtr": 0.75,
+     "realFollowers": 85,
+     "viewThrough": 42.7,
+     "hold3s": 59,
+     "sponsoredShare": 21,
+     "adDisclosure": 89,
+     "safety": 91,
+     "audienceWomen": 0.576,
+     "forecast": {
+      "cost": 5500,
+      "views": 6380,
+      "tgViews": 3880,
+      "tgShare": 0.72,
+      "engagements": 693,
+      "clicks": 48,
+      "orders": 6.9,
+      "revenue": 22008,
+      "roas": 4,
+      "recallLiftPts": 6.7,
+      "costPerTgView": 1.42,
+      "costPerEngagement": 7.94,
+      "costPerClick": 113.81
+     },
+     "why": [
+      "Fitness &amp; Wellness is a core category for Puma, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 4.0%, top 16% of micro creators; 2.5% of viewers save or share",
+      "Audience matches the brief: 58% women (target 44%), 78% age overlap, 69% city-tier overlap",
+      "85% of followers look real and active; 21% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1020",
+     "name": "Rahul R.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 17478,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 78.8,
+     "parts": {
+      "aud": 91,
+      "cont": 93,
+      "cult": 61,
+      "perf": 66,
+      "auth": 69,
+      "safe": 86,
+      "cost": 82
+     },
+     "contributions": {
+      "aud": 18.1,
+      "cont": 16.7,
+      "cult": 6.1,
+      "perf": 13.1,
+      "auth": 9.6,
+      "safe": 6.9,
+      "cost": 8.2
+     },
+     "confidence": "Medium",
+     "er": 3.59,
+     "linkCtr": 0.53,
+     "realFollowers": 87.8,
+     "viewThrough": 50,
+     "hold3s": 76.7,
+     "sponsoredShare": 47,
+     "adDisclosure": 96,
+     "safety": 79,
+     "audienceWomen": 0.479,
+     "forecast": {
+      "cost": 6000,
+      "views": 2685,
+      "tgViews": 2021,
+      "tgShare": 0.86,
+      "engagements": 627,
+      "clicks": 11,
+      "orders": 1.2,
+      "revenue": 3687,
+      "roas": 0.61,
+      "recallLiftPts": 7.5,
+      "costPerTgView": 2.97,
+      "costPerEngagement": 9.56,
+      "costPerClick": 554.5
+     },
+     "why": [
+      "Audience matches the brief: 48% women (target 44%), 82% age overlap, 93% city-tier overlap",
+      "Fitness &amp; Wellness is a core category for Puma, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 3.6%, top 25% of micro creators; 2.5% of viewers save or share",
+      "88% of followers look real and active; 47% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Ad fatigue: 47% of recent posts are sponsored"
+     ]
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1294",
+     "name": "Akhil Y.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 48916,
+     "city": "Bengaluru",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.6,
+     "parts": {
+      "aud": 100,
+      "cont": 43,
+      "cult": 95,
+      "perf": 83,
+      "auth": 72,
+      "safe": 76,
+      "cost": 89
+     },
+     "contributions": {
+      "aud": 20,
+      "cont": 7.7,
+      "cult": 9.5,
+      "perf": 16.5,
+      "auth": 10.1,
+      "safe": 6.1,
+      "cost": 8.9
+     },
+     "confidence": "High",
+     "er": 5.46,
+     "linkCtr": 0.46,
+     "realFollowers": 86.6,
+     "viewThrough": 61.8,
+     "hold3s": 80,
+     "sponsoredShare": 23,
+     "adDisclosure": 89,
+     "safety": 67,
+     "audienceWomen": 0.408,
+     "forecast": {
+      "cost": 25000,
+      "views": 29888,
+      "tgViews": 23976,
+      "tgShare": 0.93,
+      "engagements": 2935,
+      "clicks": 76,
+      "orders": 6.4,
+      "revenue": 20547,
+      "roas": 0.82,
+      "recallLiftPts": 6.2,
+      "costPerTgView": 1.04,
+      "costPerEngagement": 8.52,
+      "costPerClick": 327.96
+     },
+     "why": [
+      "Audience matches the brief: 41% women (target 44%), 95% age overlap, 92% city-tier overlap",
+      "Engagement rate 5.5%, top 4% of micro creators; 3.3% of viewers save or share",
+      "87% of followers look real and active; 23% of recent posts are sponsored",
+      "Creates in English, Puma's lead language; shares the Cricket &amp; IPL and Gen-Z humour codes"
+     ],
+     "risks": [
+      "Promotes betting / real-money gaming"
+     ]
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1384",
+     "name": "Rasika A.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 23534,
+     "city": "Mumbai",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": "Certified trainer",
+     "fit": 78,
+     "parts": {
+      "aud": 84,
+      "cont": 93,
+      "cult": 84,
+      "perf": 56,
+      "auth": 87,
+      "safe": 88,
+      "cost": 58
+     },
+     "contributions": {
+      "aud": 16.8,
+      "cont": 16.7,
+      "cult": 8.4,
+      "perf": 11.3,
+      "auth": 12.1,
+      "safe": 7.1,
+      "cost": 5.8
+     },
+     "confidence": "Low",
+     "er": 2.13,
+     "linkCtr": 0.69,
+     "realFollowers": 94.4,
+     "viewThrough": 34.4,
+     "hold3s": 55.6,
+     "sponsoredShare": 28,
+     "adDisclosure": 80,
+     "safety": 94,
+     "audienceWomen": 0.603,
+     "forecast": {
+      "cost": 7000,
+      "views": 5780,
+      "tgViews": 4423,
+      "tgShare": 0.81,
+      "engagements": 501,
+      "clicks": 30,
+      "orders": 2.7,
+      "revenue": 8798,
+      "roas": 1.26,
+      "recallLiftPts": 2.9,
+      "costPerTgView": 1.58,
+      "costPerEngagement": 13.96,
+      "costPerClick": 230.83
+     },
+     "why": [
+      "Audience matches the brief: 60% women (target 44%), 85% age overlap, 93% city-tier overlap",
+      "Fitness &amp; Wellness is a core category for Puma, with lifestyle &amp; vlogs as a second pillar",
+      "94% of followers look real and active; 28% of recent posts are sponsored",
+      "Engagement rate 2.1%, top 71% of micro creators; 2.9% of viewers save or share"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 80,
+    "spend": 2019000,
+    "views": 2122811,
+    "tgViews": 1417916,
+    "uniqueTgReach": 874999,
+    "engagements": 176313,
+    "clicks": 9941,
+    "orders": 858,
+    "revenue": 2746331,
+    "roas": 1.36,
+    "recallLiftPts": 4.1,
+    "fakeAudienceShare": 0.11,
+    "gatedIncluded": 0,
+    "representCreators": 2,
+    "representSpend": 431000,
+    "forecastBandPct": 21,
+    "spendByTier": {
+     "micro": 1002000,
+     "nano": 22000,
+     "mid": 501500,
+     "macro": 493500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 3,
+    "spend": 2014000,
+    "views": 1442154,
+    "tgViews": 656014,
+    "uniqueTgReach": 406409,
+    "engagements": 47720,
+    "clicks": 5914,
+    "orders": 380,
+    "revenue": 1214727,
+    "roas": 0.6,
+    "recallLiftPts": 3.2,
+    "fakeAudienceShare": 0.42,
+    "gatedIncluded": 2,
+    "representCreators": 1,
+    "representSpend": 205500,
+    "forecastBandPct": 13,
+    "spendByTier": {
+     "mega": 1779000,
+     "macro": 205500,
+     "mid": 29500
+    }
+   },
+   "planCreators": [
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Kunal K. (Micro, Fitness & Wellness)",
+    "Dhwani R. (Micro, Fitness & Wellness)",
+    "Vivaan Y. (Micro, Fitness & Wellness)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Akhil Y. (Micro, Comedy & Entertainment)",
+    "Anjali V. (Micro, Comedy & Entertainment)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Moumita N. (Micro, Parenting & Family)",
+    "Vivaan M. (Micro, Fitness & Wellness)",
+    "Yash S. (Micro, Education & Careers)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 369,
+   "gated": 51,
+   "gatesByReason": {
+    "conflict": 16,
+    "fraud": 32,
+    "safety": 4
+   },
+   "gatedExamples": [
+    {
+     "name": "Gayathri A.",
+     "id": "CIE-1400",
+     "reasons": [
+      "Posted for Nike 8 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Rasika M.",
+     "id": "CIE-1357",
+     "reasons": [
+      "Posted for Nike 60 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Lakshmi A.",
+     "id": "CIE-1181",
+     "reasons": [
+      "Posted for Adidas 34 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Hetal C.",
+     "id": "CIE-1024",
+     "reasons": [
+      "Posted for Skechers 50 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1332",
+     "name": "Kunal K.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Food & Cooking",
+     "tier": "Micro",
+     "followers": 32206,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 86.8,
+     "parts": {
+      "aud": 87,
+      "cont": 76,
+      "cult": 100,
+      "perf": 89,
+      "auth": 74,
+      "safe": 90,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 15.6,
+      "cont": 10.7,
+      "cult": 8,
+      "perf": 23,
+      "auth": 10.4,
+      "safe": 7.2,
+      "cost": 12
+     },
+     "confidence": "Low",
+     "er": 3.45,
+     "linkCtr": 1.58,
+     "realFollowers": 90.9,
+     "viewThrough": 27.7,
+     "hold3s": 40.9,
+     "sponsoredShare": 44,
+     "adDisclosure": 92,
+     "safety": 88,
+     "audienceWomen": 0.497,
+     "forecast": {
+      "cost": 11000,
+      "views": 12835,
+      "tgViews": 9703,
+      "tgShare": 0.83,
+      "engagements": 1285,
+      "clicks": 188,
+      "orders": 21.3,
+      "revenue": 68013,
+      "roas": 6.18,
+      "recallLiftPts": 2.3,
+      "costPerTgView": 1.13,
+      "costPerEngagement": 8.56,
+      "costPerClick": 58.37
+     },
+     "why": [
+      "Link CTR 1.58%, top 1% of micro creators; trust index 1.16",
+      "Audience matches the brief: 50% women (target 44%), 81% age overlap, 91% city-tier overlap",
+      "Forecast 6.2× ROAS on ₹11K, about 21 orders",
+      "Fitness &amp; Wellness is a strong category for Puma, with food &amp; cooking as a second pillar"
+     ],
+     "risks": [
+      "Posted for Adidas 67 days ago (outside the 60-day window)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1192",
+     "name": "Vivaan Y.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 73368,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.9,
+     "parts": {
+      "aud": 88,
+      "cont": 93,
+      "cult": 100,
+      "perf": 62,
+      "auth": 72,
+      "safe": 89,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 15.9,
+      "cont": 13,
+      "cult": 8,
+      "perf": 16.1,
+      "auth": 10.1,
+      "safe": 7.1,
+      "cost": 11.7
+     },
+     "confidence": "Low",
+     "er": 4.2,
+     "linkCtr": 0.67,
+     "realFollowers": 85.4,
+     "viewThrough": 34.9,
+     "hold3s": 68,
+     "sponsoredShare": 21,
+     "adDisclosure": 90,
+     "safety": 88,
+     "audienceWomen": 0.502,
+     "forecast": {
+      "cost": 25000,
+      "views": 34034,
+      "tgViews": 24476,
+      "tgShare": 0.84,
+      "engagements": 3478,
+      "clicks": 217,
+      "orders": 31.6,
+      "revenue": 100975,
+      "roas": 4.04,
+      "recallLiftPts": 10.3,
+      "costPerTgView": 1.02,
+      "costPerEngagement": 7.19,
+      "costPerClick": 115.26
+     },
+     "why": [
+      "Link CTR 0.67%, top 63% of micro creators; trust index 1.38",
+      "Audience matches the brief: 50% women (target 44%), 77% age overlap, 95% city-tier overlap",
+      "Fitness &amp; Wellness is a core category for Puma, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 4.0× ROAS on ₹25K, about 32 orders"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1213",
+     "name": "Chirag T.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 317916,
+     "city": "Mumbai",
+     "languages": [
+      "Marathi",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "Certified trainer",
+     "fit": 81.3,
+     "parts": {
+      "aud": 77,
+      "cont": 93,
+      "cult": 100,
+      "perf": 74,
+      "auth": 59,
+      "safe": 89,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 13.8,
+      "cont": 13,
+      "cult": 8,
+      "perf": 19.1,
+      "auth": 8.3,
+      "safe": 7.2,
+      "cost": 12
+     },
+     "confidence": "Medium",
+     "er": 0.93,
+     "linkCtr": 1.23,
+     "realFollowers": 80.3,
+     "viewThrough": 59.8,
+     "hold3s": 81.5,
+     "sponsoredShare": 31,
+     "adDisclosure": 93,
+     "safety": 87,
+     "audienceWomen": 0.381,
+     "forecast": {
+      "cost": 76000,
+      "views": 142263,
+      "tgViews": 87211,
+      "tgShare": 0.76,
+      "engagements": 4292,
+      "clicks": 1483,
+      "orders": 178.2,
+      "revenue": 570165,
+      "roas": 7.5,
+      "recallLiftPts": 6.9,
+      "costPerTgView": 0.87,
+      "costPerEngagement": 17.71,
+      "costPerClick": 51.26
+     },
+     "why": [
+      "Link CTR 1.23%, top 11% of mid-tier creators; trust index 1.14",
+      "Audience matches the brief: 38% women (target 44%), 75% age overlap, 77% city-tier overlap",
+      "Fitness &amp; Wellness is a core category for Puma, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 7.5× ROAS on ₹76K, about 178 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1162",
+     "name": "Rehan G.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 3861,
+     "city": "Dubai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.7,
+     "parts": {
+      "aud": 91,
+      "cont": 81,
+      "cult": 55,
+      "perf": 67,
+      "auth": 87,
+      "safe": 83,
+      "cost": 93
+     },
+     "contributions": {
+      "aud": 16.4,
+      "cont": 11.4,
+      "cult": 4.4,
+      "perf": 17.5,
+      "auth": 12.2,
+      "safe": 6.7,
+      "cost": 11.2
+     },
+     "confidence": "Low",
+     "er": 5.16,
+     "linkCtr": 1,
+     "realFollowers": 97,
+     "viewThrough": 41.7,
+     "hold3s": 68.5,
+     "sponsoredShare": 34,
+     "adDisclosure": 85,
+     "safety": 82,
+     "audienceWomen": 0.617,
+     "forecast": {
+      "cost": 2500,
+      "views": 2935,
+      "tgViews": 2453,
+      "tgShare": 0.86,
+      "engagements": 227,
+      "clicks": 23,
+      "orders": 2.3,
+      "revenue": 7243,
+      "roas": 2.9,
+      "recallLiftPts": 3.4,
+      "costPerTgView": 1.02,
+      "costPerEngagement": 11.01,
+      "costPerClick": 107.98
+     },
+     "why": [
+      "Link CTR 1.00%, top 27% of nano creators; trust index 0.98",
+      "Audience matches the brief: 62% women (target 44%), 96% age overlap, 96% city-tier overlap",
+      "97% of followers look real and active; 34% of recent posts are sponsored",
+      "Fashion &amp; Style is a strong category for Puma, with lifestyle &amp; vlogs as a second pillar"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1235",
+     "name": "Varun R.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Food & Cooking",
+     "tier": "Micro",
+     "followers": 11673,
+     "city": "Chandigarh",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "Certified trainer",
+     "fit": 79.1,
+     "parts": {
+      "aud": 83,
+      "cont": 76,
+      "cult": 78,
+      "perf": 73,
+      "auth": 73,
+      "safe": 88,
+      "cost": 95
+     },
+     "contributions": {
+      "aud": 14.9,
+      "cont": 10.7,
+      "cult": 6.2,
+      "perf": 18.9,
+      "auth": 10.2,
+      "safe": 7,
+      "cost": 11.3
+     },
+     "confidence": "High",
+     "er": 2.78,
+     "linkCtr": 1.04,
+     "realFollowers": 84.6,
+     "viewThrough": 31.9,
+     "hold3s": 66.9,
+     "sponsoredShare": 11,
+     "adDisclosure": 90,
+     "safety": 86,
+     "audienceWomen": 0.487,
+     "forecast": {
+      "cost": 5000,
+      "views": 4502,
+      "tgViews": 3060,
+      "tgShare": 0.8,
+      "engagements": 388,
+      "clicks": 44,
+      "orders": 4.8,
+      "revenue": 15465,
+      "roas": 3.09,
+      "recallLiftPts": 3.7,
+      "costPerTgView": 1.63,
+      "costPerEngagement": 12.9,
+      "costPerClick": 112.66
+     },
+     "why": [
+      "Link CTR 1.04%, top 17% of micro creators; trust index 1.12",
+      "Audience matches the brief: 49% women (target 44%), 86% age overlap, 75% city-tier overlap",
+      "Forecast 3.1× ROAS on ₹5K, about 5 orders",
+      "Fitness &amp; Wellness is a strong category for Puma, with food &amp; cooking as a second pillar"
+     ],
+     "risks": [
+      "Posted for Nike 106 days ago (outside the 60-day window)"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 46,
+    "spend": 2099500,
+    "views": 2687267,
+    "tgViews": 1758294,
+    "uniqueTgReach": 1083861,
+    "engagements": 126493,
+    "clicks": 21200,
+    "orders": 2083,
+    "revenue": 6666399,
+    "roas": 3.18,
+    "recallLiftPts": 5,
+    "fakeAudienceShare": 0.14,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 49000,
+    "forecastBandPct": 24,
+    "spendByTier": {
+     "micro": 325500,
+     "mid": 1570000,
+     "nano": 9500,
+     "macro": 194500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 2079000,
+    "views": 1632665,
+    "tgViews": 759332,
+    "uniqueTgReach": 470250,
+    "engagements": 44128,
+    "clicks": 6281,
+    "orders": 461,
+    "revenue": 1476647,
+    "roas": 0.71,
+    "recallLiftPts": 3.1,
+    "fakeAudienceShare": 0.42,
+    "gatedIncluded": 2,
+    "representCreators": 1,
+    "representSpend": 300000,
+    "forecastBandPct": 15,
+    "spendByTier": {
+     "mega": 2079000
+    }
+   },
+   "planCreators": [
+    "Kunal K. (Micro, Fitness & Wellness)",
+    "Chirag T. (Mid-tier, Fitness & Wellness)",
+    "Parth K. (Mid-tier, Fashion & Style)",
+    "Vivaan M. (Micro, Fitness & Wellness)",
+    "Sruthi A. (Mid-tier, Fashion & Style)",
+    "Karan Y. (Micro, Fashion & Style)",
+    "Vivaan Y. (Micro, Fitness & Wellness)",
+    "Abhinav C. (Mid-tier, Fashion & Style)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Janhvi B. (Micro, Fitness & Wellness)",
+    "Rehan G. (Nano, Fashion & Style)"
+   ]
+  }
+ }
+}

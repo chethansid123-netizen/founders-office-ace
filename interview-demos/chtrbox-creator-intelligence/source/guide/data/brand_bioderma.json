@@ -1,0 +1,1804 @@
+{
+ "id": "bioderma",
+ "name": "Bioderma",
+ "parent": "NAOS",
+ "vertical": "beauty",
+ "sub": "Dermo-cosmetics",
+ "status": "Reported client",
+ "defaultObjective": "consideration",
+ "brief": "Earn derm credibility with sensitive-skin buyers before they search.",
+ "moment": "Summer skin · Mar–May",
+ "budgetLakh": 12,
+ "target": {
+  "fem": 0.8,
+  "age": [
+   0.03,
+   0.36,
+   0.42,
+   0.14,
+   0.05
+  ],
+  "tiers": [
+   0.6,
+   0.3,
+   0.1
+  ],
+  "affl": 0.66
+ },
+ "languages": {
+  "English": 1,
+  "Hinglish": 0.85,
+  "Hindi": 0.5
+ },
+ "codes": [
+  "Science-backed",
+  "Aspirational luxury"
+ ],
+ "affinity": {
+  "beauty": 1,
+  "health": 0.95,
+  "lifestyle": 0.6
+ },
+ "competitors": [
+  "La Roche-Posay",
+  "Cetaphil",
+  "CeraVe",
+  "Minimalist"
+ ],
+ "compliance": "health",
+ "aov": 1300,
+ "conversionRate": 0.035,
+ "kpis": [
+  "Consideration lift",
+  "Sentiment",
+  "PDP clicks"
+ ],
+ "markets": [
+  "India"
+ ],
+ "tgPoolMillions": 32,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 350,
+   "gated": 70,
+   "gatesByReason": {
+    "conflict": 9,
+    "reg": 12,
+    "safety": 4,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Aanya M.",
+     "id": "CIE-1351",
+     "reasons": [
+      "Posted for Cetaphil 49 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Rahul M.",
+     "id": "CIE-1418",
+     "reasons": [
+      "Posted for La Roche-Posay 36 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Harish K.",
+     "id": "CIE-1025",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    },
+    {
+     "name": "Nithya C.",
+     "id": "CIE-1306",
+     "reasons": [
+      "Brand-safety score 47: profanity in recent content, past controversy (2025)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1316",
+     "name": "Gayathri J.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 14204,
+     "city": "Hyderabad",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.3,
+     "parts": {
+      "aud": 91,
+      "cont": 99,
+      "cult": 55,
+      "perf": 85,
+      "auth": 73,
+      "safe": 79,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 20.1,
+      "cont": 14.8,
+      "cult": 7.7,
+      "perf": 12.8,
+      "auth": 10.2,
+      "safe": 7.9,
+      "cost": 9.9
+     },
+     "confidence": "Medium",
+     "er": 2.01,
+     "linkCtr": 0.77,
+     "realFollowers": 86.8,
+     "viewThrough": 55.3,
+     "hold3s": 68.1,
+     "sponsoredShare": 28,
+     "adDisclosure": 69,
+     "safety": 86,
+     "audienceWomen": 0.788,
+     "forecast": {
+      "cost": 3000,
+      "views": 5522,
+      "tgViews": 4131,
+      "tgShare": 0.86,
+      "engagements": 362,
+      "clicks": 47,
+      "orders": 5.5,
+      "revenue": 7148,
+      "roas": 2.38,
+      "recallLiftPts": 8.8,
+      "costPerTgView": 0.73,
+      "costPerEngagement": 8.28,
+      "costPerClick": 64.27
+     },
+     "why": [
+      "Audience matches the brief: 79% women (target 80%), 87% age overlap, 90% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Bioderma, with doctors &amp; dietitians as a second pillar",
+      "Viewers watch 55% of each video, top 6% of micro creators; past recall lift +8 pts",
+      "87% of followers look real and active; 28% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Discloses #ad on only 69% of paid posts. Brief on disclosure in the first line",
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1231",
+     "name": "Riya D.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 30854,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.7,
+     "parts": {
+      "aud": 87,
+      "cont": 90,
+      "cult": 69,
+      "perf": 66,
+      "auth": 83,
+      "safe": 91,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 19.1,
+      "cont": 13.5,
+      "cult": 9.7,
+      "perf": 9.9,
+      "auth": 11.7,
+      "safe": 9.1,
+      "cost": 9.7
+     },
+     "confidence": "Low",
+     "er": 1.88,
+     "linkCtr": 0.85,
+     "realFollowers": 90.5,
+     "viewThrough": 44.7,
+     "hold3s": 59,
+     "sponsoredShare": 13,
+     "adDisclosure": 100,
+     "safety": 85,
+     "audienceWomen": 0.856,
+     "forecast": {
+      "cost": 8000,
+      "views": 12413,
+      "tgViews": 9349,
+      "tgShare": 0.83,
+      "engagements": 747,
+      "clicks": 107,
+      "orders": 15.9,
+      "revenue": 20670,
+      "roas": 2.58,
+      "recallLiftPts": 10.2,
+      "costPerTgView": 0.86,
+      "costPerEngagement": 10.71,
+      "costPerClick": 74.59
+     },
+     "why": [
+      "Audience matches the brief: 86% women (target 80%), 85% age overlap, 84% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Bioderma, with lifestyle &amp; vlogs as a second pillar",
+      "91% of followers look real and active; 13% of recent posts are sponsored",
+      "Viewers watch 45% of each video, top 46% of micro creators; past recall lift +9.9 pts"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1271",
+     "name": "Rasika D.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 91472,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.7,
+     "parts": {
+      "aud": 93,
+      "cont": 90,
+      "cult": 69,
+      "perf": 65,
+      "auth": 82,
+      "safe": 85,
+      "cost": 93
+     },
+     "contributions": {
+      "aud": 20.5,
+      "cont": 13.5,
+      "cult": 9.7,
+      "perf": 9.7,
+      "auth": 11.4,
+      "safe": 8.5,
+      "cost": 9.3
+     },
+     "confidence": "Medium",
+     "er": 4.34,
+     "linkCtr": 0.7,
+     "realFollowers": 90.6,
+     "viewThrough": 54,
+     "hold3s": 66.7,
+     "sponsoredShare": 27,
+     "adDisclosure": 92,
+     "safety": 81,
+     "audienceWomen": 0.886,
+     "forecast": {
+      "cost": 37500,
+      "views": 51100,
+      "tgViews": 40536,
+      "tgShare": 0.88,
+      "engagements": 4464,
+      "clicks": 303,
+      "orders": 39.4,
+      "revenue": 51165,
+      "roas": 1.36,
+      "recallLiftPts": 5.7,
+      "costPerTgView": 0.93,
+      "costPerEngagement": 8.4,
+      "costPerClick": 123.89
+     },
+     "why": [
+      "Audience matches the brief: 89% women (target 80%), 94% age overlap, 88% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Bioderma, with lifestyle &amp; vlogs as a second pillar",
+      "91% of followers look real and active; 27% of recent posts are sponsored",
+      "Viewers watch 54% of each video, top 9% of micro creators; past recall lift +5.4 pts"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1270",
+     "name": "Keerthi B.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Macro",
+     "followers": 730413,
+     "city": "Kochi",
+     "languages": [
+      "Malayalam",
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82,
+     "parts": {
+      "aud": 86,
+      "cont": 76,
+      "cult": 100,
+      "perf": 46,
+      "auth": 80,
+      "safe": 96,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 19,
+      "cont": 11.4,
+      "cult": 14,
+      "perf": 6.9,
+      "auth": 11.2,
+      "safe": 9.6,
+      "cost": 9.9
+     },
+     "confidence": "Medium",
+     "er": 0.34,
+     "linkCtr": 0.7,
+     "realFollowers": 89.3,
+     "viewThrough": 36.2,
+     "hold3s": 64.5,
+     "sponsoredShare": 25,
+     "adDisclosure": 98,
+     "safety": 94,
+     "audienceWomen": 0.766,
+     "forecast": {
+      "cost": 177500,
+      "views": 382331,
+      "tgViews": 282454,
+      "tgShare": 0.83,
+      "engagements": 4894,
+      "clicks": 1688,
+      "orders": 178.1,
+      "revenue": 231479,
+      "roas": 1.3,
+      "recallLiftPts": 5.6,
+      "costPerTgView": 0.63,
+      "costPerEngagement": 36.27,
+      "costPerClick": 105.16
+     },
+     "why": [
+      "Audience matches the brief: 77% women (target 80%), 95% age overlap, 68% city-tier overlap",
+      "Creates in Malayalam + English, Bioderma's lead language; shares the Aspirational luxury and Science-backed codes",
+      "Beauty &amp; Skincare is a strong category for Bioderma, with fashion &amp; style as a second pillar",
+      "89% of followers look real and active; 25% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1289",
+     "name": "Jay C.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 15549,
+     "city": "Mumbai",
+     "languages": [
+      "Marathi",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.2,
+     "parts": {
+      "aud": 85,
+      "cont": 99,
+      "cult": 69,
+      "perf": 77,
+      "auth": 75,
+      "safe": 85,
+      "cost": 74
+     },
+     "contributions": {
+      "aud": 18.8,
+      "cont": 14.8,
+      "cult": 9.7,
+      "perf": 11.6,
+      "auth": 10.5,
+      "safe": 8.5,
+      "cost": 7.4
+     },
+     "confidence": "Low",
+     "er": 3.68,
+     "linkCtr": 1.27,
+     "realFollowers": 88.1,
+     "viewThrough": 54.7,
+     "hold3s": 74.4,
+     "sponsoredShare": 23,
+     "adDisclosure": 90,
+     "safety": 81,
+     "audienceWomen": 0.757,
+     "forecast": {
+      "cost": 6500,
+      "views": 6735,
+      "tgViews": 4872,
+      "tgShare": 0.82,
+      "engagements": 656,
+      "clicks": 88,
+      "orders": 10.8,
+      "revenue": 14065,
+      "roas": 2.16,
+      "recallLiftPts": 6.5,
+      "costPerTgView": 1.33,
+      "costPerEngagement": 9.91,
+      "costPerClick": 73.81
+     },
+     "why": [
+      "Audience matches the brief: 76% women (target 80%), 95% age overlap, 67% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Bioderma, with doctors &amp; dietitians as a second pillar",
+      "Viewers watch 55% of each video, top 7% of micro creators; past recall lift +6 pts",
+      "88% of followers look real and active; 23% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 29,
+    "spend": 1200000,
+    "views": 1926819,
+    "tgViews": 1398597,
+    "uniqueTgReach": 856609,
+    "engagements": 69109,
+    "clicks": 9438,
+    "orders": 925,
+    "revenue": 1201972,
+    "roas": 1,
+    "recallLiftPts": 4.5,
+    "fakeAudienceShare": 0.11,
+    "gatedIncluded": 0,
+    "representCreators": 2,
+    "representSpend": 193000,
+    "forecastBandPct": 26,
+    "spendByTier": {
+     "macro": 177500,
+     "micro": 253000,
+     "mid": 765500,
+     "nano": 4000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 1189500,
+    "views": 1196830,
+    "tgViews": 616453,
+    "uniqueTgReach": 381823,
+    "engagements": 40450,
+    "clicks": 4091,
+    "orders": 311,
+    "revenue": 404580,
+    "roas": 0.34,
+    "recallLiftPts": 2.5,
+    "fakeAudienceShare": 0.26,
+    "gatedIncluded": 1,
+    "representCreators": 1,
+    "representSpend": 112000,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 1077500,
+     "mid": 112000
+    }
+   },
+   "planCreators": [
+    "Keerthi B. (Macro, Beauty & Skincare)",
+    "Varsha B. (Micro, Food & Cooking)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Rasika D. (Micro, Beauty & Skincare)",
+    "Riya D. (Micro, Beauty & Skincare)",
+    "Tanvi P. (Micro, Beauty & Skincare)",
+    "Ananya J. (Micro, Music & Dance)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Kritika D. (Micro, Home & Decor)",
+    "Tanvi C. (Micro, Food & Cooking)",
+    "Mitali B. (Micro, Fashion & Style)",
+    "Gayathri J. (Micro, Beauty & Skincare)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 350,
+   "gated": 70,
+   "gatesByReason": {
+    "safety": 4,
+    "conflict": 9,
+    "reg": 12,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Mitali S.",
+     "id": "CIE-1109",
+     "reasons": [
+      "Brand-safety score 51: political commentary, unverified health claims",
+      "Posted for Minimalist 35 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Rahul M.",
+     "id": "CIE-1418",
+     "reasons": [
+      "Posted for La Roche-Posay 36 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Mitali M.",
+     "id": "CIE-1227",
+     "reasons": [
+      "Posted for Cetaphil 46 days ago (60-day category exclusivity)",
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    },
+    {
+     "name": "Sayani Y.",
+     "id": "CIE-1071",
+     "reasons": [
+      "Posted for Minimalist 56 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1201",
+     "name": "Dhwani K.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 18750,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.1,
+     "parts": {
+      "aud": 99,
+      "cont": 90,
+      "cult": 69,
+      "perf": 73,
+      "auth": 77,
+      "safe": 81,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 19.7,
+      "cont": 16.2,
+      "cult": 6.9,
+      "perf": 14.6,
+      "auth": 10.8,
+      "safe": 6.5,
+      "cost": 9.4
+     },
+     "confidence": "Medium",
+     "er": 5.45,
+     "linkCtr": 0.69,
+     "realFollowers": 89.1,
+     "viewThrough": 43,
+     "hold3s": 68.8,
+     "sponsoredShare": 25,
+     "adDisclosure": 85,
+     "safety": 78,
+     "audienceWomen": 0.853,
+     "forecast": {
+      "cost": 9000,
+      "views": 6870,
+      "tgViews": 5580,
+      "tgShare": 0.91,
+      "engagements": 1123,
+      "clicks": 51,
+      "orders": 6.9,
+      "revenue": 9026,
+      "roas": 1,
+      "recallLiftPts": 4.9,
+      "costPerTgView": 1.61,
+      "costPerEngagement": 8.01,
+      "costPerClick": 176.43
+     },
+     "why": [
+      "Audience matches the brief: 85% women (target 80%), 97% age overlap, 89% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Bioderma, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 5.5%, top 4% of micro creators; 2.5% of viewers save or share",
+      "89% of followers look real and active; 25% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1238",
+     "name": "Priyanka T.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 45090,
+     "city": "Kolkata",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.7,
+     "parts": {
+      "aud": 92,
+      "cont": 99,
+      "cult": 92,
+      "perf": 64,
+      "auth": 75,
+      "safe": 95,
+      "cost": 64
+     },
+     "contributions": {
+      "aud": 18.5,
+      "cont": 17.8,
+      "cult": 9.2,
+      "perf": 12.7,
+      "auth": 10.5,
+      "safe": 7.6,
+      "cost": 6.4
+     },
+     "confidence": "High",
+     "er": 3.61,
+     "linkCtr": 0.9,
+     "realFollowers": 87.9,
+     "viewThrough": 35.2,
+     "hold3s": 56.8,
+     "sponsoredShare": 24,
+     "adDisclosure": 96,
+     "safety": 95,
+     "audienceWomen": 0.899,
+     "forecast": {
+      "cost": 23000,
+      "views": 16144,
+      "tgViews": 12335,
+      "tgShare": 0.87,
+      "engagements": 1871,
+      "clicks": 168,
+      "orders": 23,
+      "revenue": 29843,
+      "roas": 1.3,
+      "recallLiftPts": 5.9,
+      "costPerTgView": 1.86,
+      "costPerEngagement": 12.29,
+      "costPerClick": 137.06
+     },
+     "why": [
+      "Audience matches the brief: 90% women (target 80%), 92% age overlap, 89% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Bioderma, with doctors &amp; dietitians as a second pillar",
+      "Engagement rate 3.6%, top 24% of micro creators; 1.9% of viewers save or share",
+      "88% of followers look real and active; 24% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1183",
+     "name": "Ananya M.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 43554,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.2,
+     "parts": {
+      "aud": 94,
+      "cont": 90,
+      "cult": 69,
+      "perf": 87,
+      "auth": 66,
+      "safe": 69,
+      "cost": 81
+     },
+     "contributions": {
+      "aud": 18.9,
+      "cont": 16.2,
+      "cult": 6.9,
+      "perf": 17.4,
+      "auth": 9.3,
+      "safe": 5.5,
+      "cost": 8.1
+     },
+     "confidence": "Low",
+     "er": 5.31,
+     "linkCtr": 0.57,
+     "realFollowers": 81.6,
+     "viewThrough": 51.5,
+     "hold3s": 70.6,
+     "sponsoredShare": 31,
+     "adDisclosure": 73,
+     "safety": 66,
+     "audienceWomen": 0.833,
+     "forecast": {
+      "cost": 25000,
+      "views": 23728,
+      "tgViews": 17081,
+      "tgShare": 0.88,
+      "engagements": 2548,
+      "clicks": 116,
+      "orders": 15.1,
+      "revenue": 19600,
+      "roas": 0.78,
+      "recallLiftPts": 8,
+      "costPerTgView": 1.46,
+      "costPerEngagement": 9.81,
+      "costPerClick": 215.6
+     },
+     "why": [
+      "Audience matches the brief: 83% women (target 80%), 91% age overlap, 86% city-tier overlap",
+      "Engagement rate 5.3%, top 5% of micro creators; 2.8% of viewers save or share",
+      "Beauty &amp; Skincare is a core category for Bioderma, with lifestyle &amp; vlogs as a second pillar",
+      "82% of followers look real and active; 31% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Discloses #ad on only 73% of paid posts. Brief on disclosure in the first line",
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Political commentary",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1271",
+     "name": "Rasika D.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 91472,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.7,
+     "parts": {
+      "aud": 93,
+      "cont": 90,
+      "cult": 69,
+      "perf": 58,
+      "auth": 82,
+      "safe": 85,
+      "cost": 90
+     },
+     "contributions": {
+      "aud": 18.7,
+      "cont": 16.2,
+      "cult": 6.9,
+      "perf": 11.6,
+      "auth": 11.4,
+      "safe": 6.8,
+      "cost": 9
+     },
+     "confidence": "Medium",
+     "er": 4.34,
+     "linkCtr": 0.7,
+     "realFollowers": 90.6,
+     "viewThrough": 54,
+     "hold3s": 66.7,
+     "sponsoredShare": 27,
+     "adDisclosure": 92,
+     "safety": 81,
+     "audienceWomen": 0.886,
+     "forecast": {
+      "cost": 37500,
+      "views": 51100,
+      "tgViews": 40536,
+      "tgShare": 0.88,
+      "engagements": 4464,
+      "clicks": 303,
+      "orders": 39.4,
+      "revenue": 51165,
+      "roas": 1.36,
+      "recallLiftPts": 5.7,
+      "costPerTgView": 0.93,
+      "costPerEngagement": 8.4,
+      "costPerClick": 123.89
+     },
+     "why": [
+      "Audience matches the brief: 89% women (target 80%), 94% age overlap, 88% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Bioderma, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 4.3%, top 10% of micro creators; 1.8% of viewers save or share",
+      "91% of followers look real and active; 27% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1296",
+     "name": "Subhankar B.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 45223,
+     "city": "Kolkata",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.4,
+     "parts": {
+      "aud": 90,
+      "cont": 90,
+      "cult": 47,
+      "perf": 78,
+      "auth": 76,
+      "safe": 90,
+      "cost": 83
+     },
+     "contributions": {
+      "aud": 17.9,
+      "cont": 16.2,
+      "cult": 4.7,
+      "perf": 15.5,
+      "auth": 10.6,
+      "safe": 7.2,
+      "cost": 8.3
+     },
+     "confidence": "Medium",
+     "er": 3.76,
+     "linkCtr": 0.59,
+     "realFollowers": 83.4,
+     "viewThrough": 41.2,
+     "hold3s": 55.4,
+     "sponsoredShare": 11,
+     "adDisclosure": 89,
+     "safety": 91,
+     "audienceWomen": 0.838,
+     "forecast": {
+      "cost": 18500,
+      "views": 23148,
+      "tgViews": 16399,
+      "tgShare": 0.85,
+      "engagements": 1945,
+      "clicks": 121,
+      "orders": 13.8,
+      "revenue": 17974,
+      "roas": 0.97,
+      "recallLiftPts": 6,
+      "costPerTgView": 1.13,
+      "costPerEngagement": 9.51,
+      "costPerClick": 152.84
+     },
+     "why": [
+      "Audience matches the brief: 84% women (target 80%), 93% age overlap, 76% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Bioderma, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 3.8%, top 20% of micro creators; 2.6% of viewers save or share",
+      "83% of followers look real and active; 11% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1141",
+     "name": "Ananya B.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 28452,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.1,
+     "parts": {
+      "aud": 96,
+      "cont": 90,
+      "cult": 69,
+      "perf": 51,
+      "auth": 76,
+      "safe": 86,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 19.2,
+      "cont": 16.2,
+      "cult": 6.9,
+      "perf": 10.2,
+      "auth": 10.7,
+      "safe": 6.9,
+      "cost": 10
+     },
+     "confidence": "Medium",
+     "er": 6.77,
+     "linkCtr": 0.5,
+     "realFollowers": 88.5,
+     "viewThrough": 52.3,
+     "hold3s": 65.3,
+     "sponsoredShare": 21,
+     "adDisclosure": 90,
+     "safety": 84,
+     "audienceWomen": 0.869,
+     "forecast": {
+      "cost": 12000,
+      "views": 10219,
+      "tgViews": 8082,
+      "tgShare": 0.89,
+      "engagements": 2080,
+      "clicks": 56,
+      "orders": 8.5,
+      "revenue": 11082,
+      "roas": 0.92,
+      "recallLiftPts": 4.3,
+      "costPerTgView": 1.48,
+      "costPerEngagement": 5.77,
+      "costPerClick": 215.55
+     },
+     "why": [
+      "Audience matches the brief: 87% women (target 80%), 96% age overlap, 87% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Bioderma, with lifestyle &amp; vlogs as a second pillar",
+      "89% of followers look real and active; 21% of recent posts are sponsored",
+      "Engagement rate 6.8%, top 1% of micro creators; 1.3% of viewers save or share"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1289",
+     "name": "Jay C.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 15549,
+     "city": "Mumbai",
+     "languages": [
+      "Marathi",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.7,
+     "parts": {
+      "aud": 85,
+      "cont": 99,
+      "cult": 69,
+      "perf": 64,
+      "auth": 75,
+      "safe": 85,
+      "cost": 80
+     },
+     "contributions": {
+      "aud": 17.1,
+      "cont": 17.8,
+      "cult": 6.9,
+      "perf": 12.7,
+      "auth": 10.5,
+      "safe": 6.8,
+      "cost": 8
+     },
+     "confidence": "Low",
+     "er": 3.68,
+     "linkCtr": 1.27,
+     "realFollowers": 88.1,
+     "viewThrough": 54.7,
+     "hold3s": 74.4,
+     "sponsoredShare": 23,
+     "adDisclosure": 90,
+     "safety": 81,
+     "audienceWomen": 0.757,
+     "forecast": {
+      "cost": 6500,
+      "views": 6735,
+      "tgViews": 4872,
+      "tgShare": 0.82,
+      "engagements": 656,
+      "clicks": 88,
+      "orders": 10.8,
+      "revenue": 14065,
+      "roas": 2.16,
+      "recallLiftPts": 6.5,
+      "costPerTgView": 1.33,
+      "costPerEngagement": 9.91,
+      "costPerClick": 73.81
+     },
+     "why": [
+      "Beauty &amp; Skincare is a core category for Bioderma, with doctors &amp; dietitians as a second pillar",
+      "Audience matches the brief: 76% women (target 80%), 95% age overlap, 67% city-tier overlap",
+      "Engagement rate 3.7%, top 21% of micro creators; 2.8% of viewers save or share",
+      "88% of followers look real and active; 23% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1043",
+     "name": "Rakesh J.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 23594,
+     "city": "Kochi",
+     "languages": [
+      "English"
+     ],
+     "platform": "Moj",
+     "represent": false,
+     "credential": "Dermatologist (MD)",
+     "fit": 79.1,
+     "parts": {
+      "aud": 90,
+      "cont": 99,
+      "cult": 78,
+      "perf": 63,
+      "auth": 68,
+      "safe": 85,
+      "cost": 65
+     },
+     "contributions": {
+      "aud": 18.1,
+      "cont": 17.8,
+      "cult": 7.8,
+      "perf": 12.7,
+      "auth": 9.5,
+      "safe": 6.8,
+      "cost": 6.5
+     },
+     "confidence": "Medium",
+     "er": 2.64,
+     "linkCtr": 0.86,
+     "realFollowers": 82.3,
+     "viewThrough": 40,
+     "hold3s": 71.4,
+     "sponsoredShare": 15,
+     "adDisclosure": 87,
+     "safety": 84,
+     "audienceWomen": 0.794,
+     "forecast": {
+      "cost": 9000,
+      "views": 10269,
+      "tgViews": 7224,
+      "tgShare": 0.85,
+      "engagements": 750,
+      "clicks": 91,
+      "orders": 11.9,
+      "revenue": 15527,
+      "roas": 1.73,
+      "recallLiftPts": 4.6,
+      "costPerTgView": 1.25,
+      "costPerEngagement": 12,
+      "costPerClick": 99.27
+     },
+     "why": [
+      "Audience matches the brief: 79% women (target 80%), 90% age overlap, 75% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Bioderma, with doctors &amp; dietitians as a second pillar",
+      "Engagement rate 2.6%, top 56% of micro creators; 2.8% of viewers save or share",
+      "82% of followers look real and active; 15% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Posted for Minimalist 117 days ago (outside the 60-day window)",
+      "Unverified health claims"
+     ]
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1030",
+     "name": "Krupa G.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 6587,
+     "city": "Mumbai",
+     "languages": [
+      "Marathi",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.1,
+     "parts": {
+      "aud": 79,
+      "cont": 90,
+      "cult": 69,
+      "perf": 66,
+      "auth": 77,
+      "safe": 97,
+      "cost": 85
+     },
+     "contributions": {
+      "aud": 15.8,
+      "cont": 16.2,
+      "cult": 6.9,
+      "perf": 13.2,
+      "auth": 10.7,
+      "safe": 7.7,
+      "cost": 8.5
+     },
+     "confidence": "Low",
+     "er": 4.22,
+     "linkCtr": 0.85,
+     "realFollowers": 85.9,
+     "viewThrough": 46.5,
+     "hold3s": 58.4,
+     "sponsoredShare": 8,
+     "adDisclosure": 99,
+     "safety": 95,
+     "audienceWomen": 0.881,
+     "forecast": {
+      "cost": 3000,
+      "views": 3402,
+      "tgViews": 2279,
+      "tgShare": 0.78,
+      "engagements": 325,
+      "clicks": 30,
+      "orders": 4.9,
+      "revenue": 6366,
+      "roas": 2.12,
+      "recallLiftPts": 6.5,
+      "costPerTgView": 1.32,
+      "costPerEngagement": 9.22,
+      "costPerClick": 99.76
+     },
+     "why": [
+      "Beauty &amp; Skincare is a core category for Bioderma, with lifestyle &amp; vlogs as a second pillar",
+      "Audience matches the brief: 88% women (target 80%), 92% age overlap, 67% city-tier overlap",
+      "Engagement rate 4.2%, top 54% of nano creators; 3.2% of viewers save or share",
+      "86% of followers look real and active; 8% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1157",
+     "name": "Saloni N.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Mid-tier",
+     "followers": 312036,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 79,
+     "parts": {
+      "aud": 100,
+      "cont": 76,
+      "cult": 69,
+      "perf": 95,
+      "auth": 61,
+      "safe": 88,
+      "cost": 38
+     },
+     "contributions": {
+      "aud": 20,
+      "cont": 13.7,
+      "cult": 6.9,
+      "perf": 18.9,
+      "auth": 8.6,
+      "safe": 7,
+      "cost": 3.8
+     },
+     "confidence": "Low",
+     "er": 2.43,
+     "linkCtr": 0.7,
+     "realFollowers": 81.9,
+     "viewThrough": 41.3,
+     "hold3s": 59.7,
+     "sponsoredShare": 32,
+     "adDisclosure": 79,
+     "safety": 94,
+     "audienceWomen": 0.816,
+     "forecast": {
+      "cost": 142000,
+      "views": 37477,
+      "tgViews": 28240,
+      "tgShare": 0.92,
+      "engagements": 7582,
+      "clicks": 178,
+      "orders": 21.4,
+      "revenue": 27882,
+      "roas": 0.2,
+      "recallLiftPts": 4.5,
+      "costPerTgView": 5.03,
+      "costPerEngagement": 18.73,
+      "costPerClick": 796.08
+     },
+     "why": [
+      "Audience matches the brief: 82% women (target 80%), 96% age overlap, 88% city-tier overlap",
+      "Engagement rate 2.4%, top 4% of mid-tier creators; 3.3% of viewers save or share",
+      "Beauty &amp; Skincare is a strong category for Bioderma, with fashion &amp; style as a second pillar",
+      "82% of followers look real and active; 32% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 66,
+    "spend": 1200000,
+    "views": 1384546,
+    "tgViews": 944101,
+    "uniqueTgReach": 580194,
+    "engagements": 118986,
+    "clicks": 6461,
+    "orders": 737,
+    "revenue": 957648,
+    "roas": 0.8,
+    "recallLiftPts": 4.7,
+    "fakeAudienceShare": 0.11,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 22,
+    "spendByTier": {
+     "micro": 929500,
+     "nano": 17000,
+     "mid": 253500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 1189500,
+    "views": 1196830,
+    "tgViews": 616453,
+    "uniqueTgReach": 381823,
+    "engagements": 40450,
+    "clicks": 4091,
+    "orders": 311,
+    "revenue": 404580,
+    "roas": 0.34,
+    "recallLiftPts": 2.5,
+    "fakeAudienceShare": 0.26,
+    "gatedIncluded": 1,
+    "representCreators": 1,
+    "representSpend": 112000,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 1077500,
+     "mid": 112000
+    }
+   },
+   "planCreators": [
+    "Ananya B. (Micro, Beauty & Skincare)",
+    "Rasika D. (Micro, Beauty & Skincare)",
+    "Dhwani K. (Micro, Beauty & Skincare)",
+    "Moumita N. (Micro, Parenting & Family)",
+    "Aditi B. (Micro, Beauty & Skincare)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Karan V. (Micro, Beauty & Skincare)",
+    "Dhwani R. (Micro, Fitness & Wellness)",
+    "Sneha D. (Micro, Lifestyle & Vlogs)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Ishani V. (Micro, Beauty & Skincare)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 350,
+   "gated": 70,
+   "gatesByReason": {
+    "conflict": 9,
+    "reg": 12,
+    "fraud": 32,
+    "safety": 4,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Rahul M.",
+     "id": "CIE-1418",
+     "reasons": [
+      "Posted for La Roche-Posay 36 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Aanya M.",
+     "id": "CIE-1351",
+     "reasons": [
+      "Posted for Cetaphil 49 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Gayathri Y.",
+     "id": "CIE-1246",
+     "reasons": [
+      "Posted for Cetaphil 23 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Sneha V.",
+     "id": "CIE-1267",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1404",
+     "name": "Kavya S.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Mega",
+     "followers": 3130171,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": true,
+     "credential": null,
+     "fit": 85.5,
+     "parts": {
+      "aud": 100,
+      "cont": 99,
+      "cult": 69,
+      "perf": 81,
+      "auth": 61,
+      "safe": 83,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 18,
+      "cont": 13.8,
+      "cult": 5.5,
+      "perf": 21.1,
+      "auth": 8.6,
+      "safe": 6.7,
+      "cost": 11.8
+     },
+     "confidence": "High",
+     "er": 0.38,
+     "linkCtr": 1.53,
+     "realFollowers": 79.7,
+     "viewThrough": 43.9,
+     "hold3s": 62.2,
+     "sponsoredShare": 24,
+     "adDisclosure": 76,
+     "safety": 88,
+     "audienceWomen": 0.791,
+     "forecast": {
+      "cost": 573000,
+      "views": 522655,
+      "tgViews": 384155,
+      "tgShare": 0.92,
+      "engagements": 19407,
+      "clicks": 8964,
+      "orders": 1044.6,
+      "revenue": 1357948,
+      "roas": 2.37,
+      "recallLiftPts": 5.8,
+      "costPerTgView": 1.49,
+      "costPerEngagement": 29.53,
+      "costPerClick": 63.92
+     },
+     "why": [
+      "Link CTR 1.53%, top 4% of mega creators; trust index 0.92",
+      "Audience matches the brief: 79% women (target 80%), 96% age overlap, 88% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Bioderma, with doctors &amp; dietitians as a second pillar",
+      "Forecast 2.4× ROAS on ₹5.73L, about 1K orders"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1238",
+     "name": "Priyanka T.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 45090,
+     "city": "Kolkata",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.8,
+     "parts": {
+      "aud": 92,
+      "cont": 99,
+      "cult": 92,
+      "perf": 68,
+      "auth": 75,
+      "safe": 95,
+      "cost": 92
+     },
+     "contributions": {
+      "aud": 16.6,
+      "cont": 13.8,
+      "cult": 7.3,
+      "perf": 17.7,
+      "auth": 10.5,
+      "safe": 7.6,
+      "cost": 11.1
+     },
+     "confidence": "High",
+     "er": 3.61,
+     "linkCtr": 0.9,
+     "realFollowers": 87.9,
+     "viewThrough": 35.2,
+     "hold3s": 56.8,
+     "sponsoredShare": 24,
+     "adDisclosure": 96,
+     "safety": 95,
+     "audienceWomen": 0.899,
+     "forecast": {
+      "cost": 23000,
+      "views": 16144,
+      "tgViews": 12335,
+      "tgShare": 0.87,
+      "engagements": 1871,
+      "clicks": 168,
+      "orders": 23,
+      "revenue": 29843,
+      "roas": 1.3,
+      "recallLiftPts": 5.9,
+      "costPerTgView": 1.86,
+      "costPerEngagement": 12.29,
+      "costPerClick": 137.06
+     },
+     "why": [
+      "Link CTR 0.90%, top 31% of micro creators; trust index 1.08",
+      "Audience matches the brief: 90% women (target 80%), 92% age overlap, 89% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Bioderma, with doctors &amp; dietitians as a second pillar",
+      "Forecast 1.3× ROAS on ₹23K, about 23 orders"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1334",
+     "name": "Mansi T.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 125386,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": true,
+     "credential": null,
+     "fit": 83.2,
+     "parts": {
+      "aud": 94,
+      "cont": 90,
+      "cult": 47,
+      "perf": 76,
+      "auth": 80,
+      "safe": 91,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 16.8,
+      "cont": 12.6,
+      "cult": 3.7,
+      "perf": 19.8,
+      "auth": 11.1,
+      "safe": 7.2,
+      "cost": 11.9
+     },
+     "confidence": "Low",
+     "er": 1.45,
+     "linkCtr": 1.68,
+     "realFollowers": 89,
+     "viewThrough": 49.8,
+     "hold3s": 64.1,
+     "sponsoredShare": 27,
+     "adDisclosure": 96,
+     "safety": 87,
+     "audienceWomen": 0.802,
+     "forecast": {
+      "cost": 49000,
+      "views": 52197,
+      "tgViews": 40706,
+      "tgShare": 0.88,
+      "engagements": 2345,
+      "clicks": 759,
+      "orders": 91.3,
+      "revenue": 118682,
+      "roas": 2.42,
+      "recallLiftPts": 5.5,
+      "costPerTgView": 1.2,
+      "costPerEngagement": 20.9,
+      "costPerClick": 64.57
+     },
+     "why": [
+      "Link CTR 1.68%, top 1% of mid-tier creators; trust index 0.99",
+      "Audience matches the brief: 80% women (target 80%), 92% age overlap, 83% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Bioderma, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 2.4× ROAS on ₹49K, about 91 orders"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1289",
+     "name": "Jay C.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 15549,
+     "city": "Mumbai",
+     "languages": [
+      "Marathi",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.2,
+     "parts": {
+      "aud": 85,
+      "cont": 99,
+      "cult": 69,
+      "perf": 75,
+      "auth": 75,
+      "safe": 85,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 15.4,
+      "cont": 13.8,
+      "cult": 5.5,
+      "perf": 19.5,
+      "auth": 10.5,
+      "safe": 6.8,
+      "cost": 11.7
+     },
+     "confidence": "Low",
+     "er": 3.68,
+     "linkCtr": 1.27,
+     "realFollowers": 88.1,
+     "viewThrough": 54.7,
+     "hold3s": 74.4,
+     "sponsoredShare": 23,
+     "adDisclosure": 90,
+     "safety": 81,
+     "audienceWomen": 0.757,
+     "forecast": {
+      "cost": 6500,
+      "views": 6735,
+      "tgViews": 4872,
+      "tgShare": 0.82,
+      "engagements": 656,
+      "clicks": 88,
+      "orders": 10.8,
+      "revenue": 14065,
+      "roas": 2.16,
+      "recallLiftPts": 6.5,
+      "costPerTgView": 1.33,
+      "costPerEngagement": 9.91,
+      "costPerClick": 73.81
+     },
+     "why": [
+      "Link CTR 1.27%, top 5% of micro creators; trust index 0.97",
+      "Audience matches the brief: 76% women (target 80%), 95% age overlap, 67% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Bioderma, with doctors &amp; dietitians as a second pillar",
+      "Forecast 2.2× ROAS on ₹6.5K, about 11 orders"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1409",
+     "name": "Tanvi P.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 84653,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.4,
+     "parts": {
+      "aud": 94,
+      "cont": 99,
+      "cult": 92,
+      "perf": 54,
+      "auth": 83,
+      "safe": 87,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 17,
+      "cont": 13.8,
+      "cult": 7.3,
+      "perf": 14,
+      "auth": 11.6,
+      "safe": 7,
+      "cost": 11.8
+     },
+     "confidence": "Medium",
+     "er": 1.6,
+     "linkCtr": 0.93,
+     "realFollowers": 92.6,
+     "viewThrough": 23,
+     "hold3s": 52.2,
+     "sponsoredShare": 31,
+     "adDisclosure": 97,
+     "safety": 81,
+     "audienceWomen": 0.838,
+     "forecast": {
+      "cost": 28000,
+      "views": 39625,
+      "tgViews": 32356,
+      "tgShare": 0.88,
+      "engagements": 1812,
+      "clicks": 363,
+      "orders": 47.8,
+      "revenue": 62154,
+      "roas": 2.22,
+      "recallLiftPts": 2.2,
+      "costPerTgView": 0.87,
+      "costPerEngagement": 15.46,
+      "costPerClick": 77.15
+     },
+     "why": [
+      "Audience matches the brief: 84% women (target 80%), 93% age overlap, 87% city-tier overlap",
+      "Link CTR 0.93%, top 27% of micro creators; trust index 1.04",
+      "Beauty &amp; Skincare is a core category for Bioderma, with doctors &amp; dietitians as a second pillar",
+      "Forecast 2.2× ROAS on ₹28K, about 48 orders"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 24,
+    "spend": 1200000,
+    "views": 1380676,
+    "tgViews": 1006402,
+    "uniqueTgReach": 618763,
+    "engagements": 61184,
+    "clicks": 10664,
+    "orders": 1321,
+    "revenue": 1717083,
+    "roas": 1.43,
+    "recallLiftPts": 5.5,
+    "fakeAudienceShare": 0.13,
+    "gatedIncluded": 0,
+    "representCreators": 2,
+    "representSpend": 193000,
+    "forecastBandPct": 28,
+    "spendByTier": {
+     "micro": 176500,
+     "mid": 562500,
+     "macro": 452000,
+     "nano": 9000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 1189500,
+    "views": 1196830,
+    "tgViews": 616453,
+    "uniqueTgReach": 381823,
+    "engagements": 40450,
+    "clicks": 4091,
+    "orders": 311,
+    "revenue": 404580,
+    "roas": 0.34,
+    "recallLiftPts": 2.5,
+    "fakeAudienceShare": 0.26,
+    "gatedIncluded": 1,
+    "representCreators": 1,
+    "representSpend": 112000,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 1077500,
+     "mid": 112000
+    }
+   },
+   "planCreators": [
+    "Aditi B. (Micro, Beauty & Skincare)",
+    "Tanvi P. (Micro, Beauty & Skincare)",
+    "Mansi T. (Mid-tier, Beauty & Skincare)",
+    "Debolina M. (Micro, Beauty & Skincare)",
+    "Riya D. (Micro, Beauty & Skincare)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Meher A. (Micro, Beauty & Skincare)",
+    "Jay C. (Micro, Beauty & Skincare)",
+    "Rasika D. (Micro, Beauty & Skincare)",
+    "Lakshmi G. (Micro, Beauty & Skincare)",
+    "Priyanka T. (Micro, Beauty & Skincare)",
+    "Kavya T. (Mid-tier, Parenting & Family)"
+   ]
+  }
+ }
+}

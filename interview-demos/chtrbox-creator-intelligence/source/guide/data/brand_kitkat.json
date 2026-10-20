@@ -1,0 +1,1773 @@
+{
+ "id": "kitkat",
+ "name": "KitKat",
+ "parent": "Nestlé India",
+ "vertical": "fmcg",
+ "sub": "Confectionery",
+ "status": "Reported client",
+ "defaultObjective": "awareness",
+ "brief": "Own the 'break' moment for students and first-jobbers.",
+ "moment": "Exam season · Feb–Mar & IPL",
+ "budgetLakh": 14,
+ "target": {
+  "fem": 0.5,
+  "age": [
+   0.16,
+   0.46,
+   0.28,
+   0.07,
+   0.03
+  ],
+  "tiers": [
+   0.48,
+   0.36,
+   0.16
+  ],
+  "affl": 0.45
+ },
+ "languages": {
+  "Hinglish": 1,
+  "English": 0.9,
+  "Hindi": 0.7,
+  "Tamil": 0.45,
+  "Telugu": 0.45,
+  "Bengali": 0.45,
+  "Marathi": 0.45
+ },
+ "codes": [
+  "Gen-Z humour",
+  "Campus life",
+  "Cricket & IPL",
+  "Bollywood pop"
+ ],
+ "affinity": {
+  "comedy": 0.95,
+  "music": 0.7,
+  "gaming": 0.7,
+  "lifestyle": 0.7,
+  "education": 0.55,
+  "food": 0.65
+ },
+ "competitors": [
+  "Cadbury",
+  "Snickers",
+  "Munch"
+ ],
+ "compliance": null,
+ "aov": 60,
+ "conversionRate": 0.04,
+ "kpis": [
+  "TG reach",
+  "Ad recall lift",
+  "Shares per view"
+ ],
+ "markets": [
+  "India"
+ ],
+ "tgPoolMillions": 160,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 359,
+   "gated": 61,
+   "gatesByReason": {
+    "conflict": 9,
+    "safety": 4,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Akhil Y.",
+     "id": "CIE-1294",
+     "reasons": [
+      "Posted for Cadbury 28 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Rimjhim P.",
+     "id": "CIE-1137",
+     "reasons": [
+      "Posted for Cadbury 14 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Ankita C.",
+     "id": "CIE-1136",
+     "reasons": [
+      "Posted for Cadbury 52 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Pavithra K.",
+     "id": "CIE-1318",
+     "reasons": [
+      "Brand-safety score 44: past controversy (2025), promotes betting / real-money gaming"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1279",
+     "name": "Sakshi A.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 83493,
+     "city": "Chandigarh",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 86,
+     "parts": {
+      "aud": 89,
+      "cont": 89,
+      "cult": 100,
+      "perf": 67,
+      "auth": 77,
+      "safe": 84,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 19.6,
+      "cont": 13.3,
+      "cult": 14,
+      "perf": 10.1,
+      "auth": 10.8,
+      "safe": 8.4,
+      "cost": 9.8
+     },
+     "confidence": "Medium",
+     "er": 3.59,
+     "linkCtr": 0.57,
+     "realFollowers": 89.9,
+     "viewThrough": 48.1,
+     "hold3s": 74.2,
+     "sponsoredShare": 34,
+     "adDisclosure": 86,
+     "safety": 82,
+     "audienceWomen": 0.507,
+     "forecast": {
+      "cost": 25000,
+      "views": 44679,
+      "tgViews": 34014,
+      "tgShare": 0.85,
+      "engagements": 3448,
+      "clicks": 219,
+      "orders": 24.1,
+      "revenue": 1448,
+      "roas": 0.06,
+      "recallLiftPts": 6.1,
+      "costPerTgView": 0.74,
+      "costPerEngagement": 7.25,
+      "costPerClick": 114.37
+     },
+     "why": [
+      "Audience matches the brief: 51% women (target 50%), 85% age overlap, 81% city-tier overlap",
+      "Creates in Hinglish + Hindi, KitKat's lead language; shares the Bollywood pop and Gen-Z humour codes",
+      "Comedy &amp; Entertainment is a core category for KitKat, with music &amp; dance as a second pillar",
+      "90% of followers look real and active; 34% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1391",
+     "name": "Parth B.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 8323,
+     "city": "Mumbai",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.2,
+     "parts": {
+      "aud": 91,
+      "cont": 89,
+      "cult": 72,
+      "perf": 92,
+      "auth": 71,
+      "safe": 73,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 20,
+      "cont": 13.3,
+      "cult": 10.1,
+      "perf": 13.8,
+      "auth": 9.9,
+      "safe": 7.3,
+      "cost": 9.8
+     },
+     "confidence": "Low",
+     "er": 7.87,
+     "linkCtr": 0.29,
+     "realFollowers": 84.8,
+     "viewThrough": 64.4,
+     "hold3s": 68,
+     "sponsoredShare": 28,
+     "adDisclosure": 83,
+     "safety": 67,
+     "audienceWomen": 0.519,
+     "forecast": {
+      "cost": 4000,
+      "views": 6666,
+      "tgViews": 4858,
+      "tgShare": 0.86,
+      "engagements": 715,
+      "clicks": 16,
+      "orders": 1.7,
+      "revenue": 100,
+      "roas": 0.02,
+      "recallLiftPts": 10.4,
+      "costPerTgView": 0.82,
+      "costPerEngagement": 5.59,
+      "costPerClick": 255.85
+     },
+     "why": [
+      "Audience matches the brief: 52% women (target 50%), 92% age overlap, 83% city-tier overlap",
+      "Viewers watch 64% of each video, top 1% of nano creators; past recall lift +10 pts",
+      "Comedy &amp; Entertainment is a core category for KitKat, with lifestyle &amp; vlogs as a second pillar",
+      "Creates in English, KitKat's lead language; shares the Gen-Z humour codes"
+     ],
+     "risks": [
+      "Posted for Cadbury 76 days ago (outside the 60-day window)",
+      "Promotes betting / real-money gaming",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1354",
+     "name": "Krupa T.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Mid-tier",
+     "followers": 383915,
+     "city": "Pune",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.6,
+     "parts": {
+      "aud": 96,
+      "cont": 89,
+      "cult": 100,
+      "perf": 48,
+      "auth": 66,
+      "safe": 85,
+      "cost": 92
+     },
+     "contributions": {
+      "aud": 21.2,
+      "cont": 13.3,
+      "cult": 14,
+      "perf": 7.2,
+      "auth": 9.2,
+      "safe": 8.5,
+      "cost": 9.2
+     },
+     "confidence": "Medium",
+     "er": 1.33,
+     "linkCtr": 0.42,
+     "realFollowers": 84.7,
+     "viewThrough": 41.2,
+     "hold3s": 62.9,
+     "sponsoredShare": 36,
+     "adDisclosure": 90,
+     "safety": 81,
+     "audienceWomen": 0.55,
+     "forecast": {
+      "cost": 136000,
+      "views": 185740,
+      "tgViews": 140823,
+      "tgShare": 0.9,
+      "engagements": 6719,
+      "clicks": 620,
+      "orders": 67.6,
+      "revenue": 4058,
+      "roas": 0.03,
+      "recallLiftPts": 6.6,
+      "costPerTgView": 0.97,
+      "costPerEngagement": 20.24,
+      "costPerClick": 219.31
+     },
+     "why": [
+      "Audience matches the brief: 55% women (target 50%), 89% age overlap, 96% city-tier overlap",
+      "Creates in Hinglish, KitKat's lead language; shares the Campus life and Cricket &amp; IPL and Gen-Z humour codes",
+      "Comedy &amp; Entertainment is a core category for KitKat, with music &amp; dance as a second pillar",
+      "85% of followers look real and active; 36% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1374",
+     "name": "Anirban A.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 10695,
+     "city": "Kolkata",
+     "languages": [
+      "Bengali",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.5,
+     "parts": {
+      "aud": 89,
+      "cont": 89,
+      "cult": 78,
+      "perf": 67,
+      "auth": 79,
+      "safe": 78,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 19.6,
+      "cont": 13.3,
+      "cult": 10.9,
+      "perf": 10.1,
+      "auth": 11,
+      "safe": 7.8,
+      "cost": 9.8
+     },
+     "confidence": "Medium",
+     "er": 3.15,
+     "linkCtr": 0.36,
+     "realFollowers": 91.1,
+     "viewThrough": 53.8,
+     "hold3s": 63.4,
+     "sponsoredShare": 32,
+     "adDisclosure": 100,
+     "safety": 64,
+     "audienceWomen": 0.497,
+     "forecast": {
+      "cost": 4000,
+      "views": 7453,
+      "tgViews": 5751,
+      "tgShare": 0.85,
+      "engagements": 395,
+      "clicks": 20,
+      "orders": 2.7,
+      "revenue": 162,
+      "roas": 0.04,
+      "recallLiftPts": 6.4,
+      "costPerTgView": 0.7,
+      "costPerEngagement": 10.14,
+      "costPerClick": 197.98
+     },
+     "why": [
+      "Audience matches the brief: 50% women (target 50%), 91% age overlap, 74% city-tier overlap",
+      "Comedy &amp; Entertainment is a core category for KitKat, with music &amp; dance as a second pillar",
+      "91% of followers look real and active; 32% of recent posts are sponsored",
+      "Creates in Bengali + Hinglish, KitKat's lead language; shares the Gen-Z humour codes"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1199",
+     "name": "Dhwani N.",
+     "niche": "Music & Dance",
+     "niche2": "Comedy & Entertainment",
+     "tier": "Macro",
+     "followers": 678708,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.8,
+     "parts": {
+      "aud": 96,
+      "cont": 76,
+      "cult": 78,
+      "perf": 94,
+      "auth": 50,
+      "safe": 81,
+      "cost": 93
+     },
+     "contributions": {
+      "aud": 21.2,
+      "cont": 11.4,
+      "cult": 10.9,
+      "perf": 14,
+      "auth": 7,
+      "safe": 8.1,
+      "cost": 9.3
+     },
+     "confidence": "High",
+     "er": 0.75,
+     "linkCtr": 0.18,
+     "realFollowers": 77,
+     "viewThrough": 59.6,
+     "hold3s": 70.9,
+     "sponsoredShare": 57,
+     "adDisclosure": 80,
+     "safety": 81,
+     "audienceWomen": 0.588,
+     "forecast": {
+      "cost": 201500,
+      "views": 283027,
+      "tgViews": 195026,
+      "tgShare": 0.89,
+      "engagements": 7330,
+      "clicks": 355,
+      "orders": 45.1,
+      "revenue": 2707,
+      "roas": 0.01,
+      "recallLiftPts": 9.1,
+      "costPerTgView": 1.03,
+      "costPerEngagement": 27.49,
+      "costPerClick": 567.49
+     },
+     "why": [
+      "Audience matches the brief: 59% women (target 50%), 92% age overlap, 97% city-tier overlap",
+      "Viewers watch 60% of each video, top 4% of macro creators; past recall lift +9.3 pts",
+      "Music &amp; Dance is a strong category for KitKat, with comedy &amp; entertainment as a second pillar",
+      "Creates in Hinglish + Hindi, KitKat's lead language; shares the Gen-Z humour codes"
+     ],
+     "risks": [
+      "Ad fatigue: 57% of recent posts are sponsored"
+     ]
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1125",
+     "name": "Sahil C.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Food & Cooking",
+     "tier": "Mid-tier",
+     "followers": 272265,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.3,
+     "parts": {
+      "aud": 92,
+      "cont": 87,
+      "cult": 100,
+      "perf": 55,
+      "auth": 58,
+      "safe": 86,
+      "cost": 89
+     },
+     "contributions": {
+      "aud": 20.3,
+      "cont": 13.1,
+      "cult": 14,
+      "perf": 8.2,
+      "auth": 8.1,
+      "safe": 8.6,
+      "cost": 8.9
+     },
+     "confidence": "High",
+     "er": 1.5,
+     "linkCtr": 0.36,
+     "realFollowers": 79.8,
+     "viewThrough": 50.7,
+     "hold3s": 60.3,
+     "sponsoredShare": 29,
+     "adDisclosure": 77,
+     "safety": 92,
+     "audienceWomen": 0.524,
+     "forecast": {
+      "cost": 111000,
+      "views": 156010,
+      "tgViews": 108124,
+      "tgShare": 0.87,
+      "engagements": 5227,
+      "clicks": 409,
+      "orders": 44.9,
+      "revenue": 2693,
+      "roas": 0.02,
+      "recallLiftPts": 6,
+      "costPerTgView": 1.03,
+      "costPerEngagement": 21.23,
+      "costPerClick": 271.47
+     },
+     "why": [
+      "Audience matches the brief: 52% women (target 50%), 87% age overlap, 88% city-tier overlap",
+      "Creates in Hinglish, KitKat's lead language; shares the Campus life and Gen-Z humour codes",
+      "Comedy &amp; Entertainment is a core category for KitKat, with food &amp; cooking as a second pillar",
+      "₹1.03 per verified TG view for 1 reel and 2 stories (₹1.11L)"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1131",
+     "name": "Pranav M.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Macro",
+     "followers": 669872,
+     "city": "Chennai",
+     "languages": [
+      "Tamil"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.7,
+     "parts": {
+      "aud": 80,
+      "cont": 89,
+      "cult": 70,
+      "perf": 89,
+      "auth": 65,
+      "safe": 86,
+      "cost": 81
+     },
+     "contributions": {
+      "aud": 17.5,
+      "cont": 13.3,
+      "cult": 9.8,
+      "perf": 13.3,
+      "auth": 9.1,
+      "safe": 8.6,
+      "cost": 8.1
+     },
+     "confidence": "High",
+     "er": 1.24,
+     "linkCtr": 0.47,
+     "realFollowers": 83.8,
+     "viewThrough": 62.6,
+     "hold3s": 64,
+     "sponsoredShare": 32,
+     "adDisclosure": 91,
+     "safety": 82,
+     "audienceWomen": 0.438,
+     "forecast": {
+      "cost": 261500,
+      "views": 302028,
+      "tgViews": 198334,
+      "tgShare": 0.78,
+      "engagements": 10517,
+      "clicks": 1041,
+      "orders": 120.8,
+      "revenue": 7246,
+      "roas": 0.03,
+      "recallLiftPts": 10.1,
+      "costPerTgView": 1.32,
+      "costPerEngagement": 24.86,
+      "costPerClick": 251.08
+     },
+     "why": [
+      "Audience matches the brief: 44% women (target 50%), 85% age overlap, 73% city-tier overlap",
+      "Comedy &amp; Entertainment is a core category for KitKat, with lifestyle &amp; vlogs as a second pillar",
+      "Viewers watch 63% of each video, top 2% of macro creators; past recall lift +10 pts",
+      "Creates in Tamil; shares the Campus life and Cricket &amp; IPL codes"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1111",
+     "name": "Karthik B.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 71521,
+     "city": "Bengaluru",
+     "languages": [
+      "Kannada"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.2,
+     "parts": {
+      "aud": 91,
+      "cont": 89,
+      "cult": 45,
+      "perf": 55,
+      "auth": 85,
+      "safe": 93,
+      "cost": 92
+     },
+     "contributions": {
+      "aud": 20,
+      "cont": 13.3,
+      "cult": 6.3,
+      "perf": 8.3,
+      "auth": 11.9,
+      "safe": 9.3,
+      "cost": 9.2
+     },
+     "confidence": "High",
+     "er": 4.84,
+     "linkCtr": 0.26,
+     "realFollowers": 95.6,
+     "viewThrough": 48.8,
+     "hold3s": 74.5,
+     "sponsoredShare": 21,
+     "adDisclosure": 95,
+     "safety": 91,
+     "audienceWomen": 0.443,
+     "forecast": {
+      "cost": 32000,
+      "views": 44383,
+      "tgViews": 36400,
+      "tgShare": 0.86,
+      "engagements": 3848,
+      "clicks": 92,
+      "orders": 10.6,
+      "revenue": 639,
+      "roas": 0.02,
+      "recallLiftPts": 3.6,
+      "costPerTgView": 0.88,
+      "costPerEngagement": 8.32,
+      "costPerClick": 348.44
+     },
+     "why": [
+      "Audience matches the brief: 44% women (target 50%), 94% age overlap, 81% city-tier overlap",
+      "Comedy &amp; Entertainment is a core category for KitKat, with music &amp; dance as a second pillar",
+      "96% of followers look real and active; 21% of recent posts are sponsored",
+      "Safety score 91; discloses #ad on 95% of paid posts"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1309",
+     "name": "Krupa P.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Macro",
+     "followers": 811462,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.4,
+     "parts": {
+      "aud": 91,
+      "cont": 89,
+      "cult": 100,
+      "perf": 65,
+      "auth": 55,
+      "safe": 81,
+      "cost": 45
+     },
+     "contributions": {
+      "aud": 20,
+      "cont": 13.3,
+      "cult": 14,
+      "perf": 9.8,
+      "auth": 7.7,
+      "safe": 8.1,
+      "cost": 4.5
+     },
+     "confidence": "Medium",
+     "er": 1.47,
+     "linkCtr": 0.31,
+     "realFollowers": 73.7,
+     "viewThrough": 46.7,
+     "hold3s": 62.3,
+     "sponsoredShare": 20,
+     "adDisclosure": 66,
+     "safety": 91,
+     "audienceWomen": 0.34,
+     "forecast": {
+      "cost": 388000,
+      "views": 299188,
+      "tgViews": 189334,
+      "tgShare": 0.86,
+      "engagements": 14606,
+      "clicks": 748,
+      "orders": 81.6,
+      "revenue": 4897,
+      "roas": 0.01,
+      "recallLiftPts": 6.5,
+      "costPerTgView": 2.05,
+      "costPerEngagement": 26.56,
+      "costPerClick": 518.37
+     },
+     "why": [
+      "Audience matches the brief: 34% women (target 50%), 89% age overlap, 97% city-tier overlap",
+      "Creates in Hinglish + Hindi, KitKat's lead language; shares the Bollywood pop and Gen-Z humour codes",
+      "Comedy &amp; Entertainment is a core category for KitKat, with music &amp; dance as a second pillar",
+      "Viewers watch 47% of each video, top 36% of macro creators; past recall lift +6.3 pts"
+     ],
+     "risks": [
+      "Discloses #ad on only 66% of paid posts. Brief on disclosure in the first line",
+      "Posted for Cadbury 80 days ago (outside the 60-day window)"
+     ]
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1063",
+     "name": "Shreya N.",
+     "niche": "Lifestyle & Vlogs",
+     "niche2": "Travel",
+     "tier": "Micro",
+     "followers": 31260,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77,
+     "parts": {
+      "aud": 90,
+      "cont": 54,
+      "cult": 78,
+      "perf": 69,
+      "auth": 71,
+      "safe": 89,
+      "cost": 91
+     },
+     "contributions": {
+      "aud": 19.8,
+      "cont": 8.1,
+      "cult": 10.9,
+      "perf": 10.3,
+      "auth": 10,
+      "safe": 8.9,
+      "cost": 9.1
+     },
+     "confidence": "Medium",
+     "er": 3.22,
+     "linkCtr": 0.67,
+     "realFollowers": 84.3,
+     "viewThrough": 56.9,
+     "hold3s": 55.2,
+     "sponsoredShare": 26,
+     "adDisclosure": 78,
+     "safety": 96,
+     "audienceWomen": 0.542,
+     "forecast": {
+      "cost": 11000,
+      "views": 15911,
+      "tgViews": 11436,
+      "tgShare": 0.85,
+      "engagements": 1175,
+      "clicks": 72,
+      "orders": 8.6,
+      "revenue": 515,
+      "roas": 0.05,
+      "recallLiftPts": 6.3,
+      "costPerTgView": 0.96,
+      "costPerEngagement": 9.36,
+      "costPerClick": 152.71
+     },
+     "why": [
+      "Audience matches the brief: 54% women (target 50%), 85% age overlap, 96% city-tier overlap",
+      "Creates in Hinglish, KitKat's lead language; shares the Gen-Z humour codes",
+      "Viewers watch 57% of each video, top 4% of micro creators; past recall lift +7.5 pts",
+      "84% of followers look real and active; 26% of recent posts are sponsored"
+     ],
+     "risks": []
+    }
+   ],
+   "plan": {
+    "creators": 30,
+    "spend": 1398500,
+    "views": 2132109,
+    "tgViews": 1493565,
+    "uniqueTgReach": 923553,
+    "engagements": 83998,
+    "clicks": 6957,
+    "orders": 745,
+    "revenue": 44717,
+    "roas": 0.03,
+    "recallLiftPts": 4.6,
+    "fakeAudienceShare": 0.12,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 257500,
+    "forecastBandPct": 24,
+    "spendByTier": {
+     "micro": 265500,
+     "mid": 527000,
+     "macro": 602000,
+     "nano": 4000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 1395500,
+    "views": 1518805,
+    "tgViews": 925375,
+    "uniqueTgReach": 573475,
+    "engagements": 52040,
+    "clicks": 4873,
+    "orders": 377,
+    "revenue": 22637,
+    "roas": 0.02,
+    "recallLiftPts": 2.5,
+    "fakeAudienceShare": 0.13,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 33,
+    "spendByTier": {
+     "mega": 1266500,
+     "mid": 129000
+    }
+   },
+   "planCreators": [
+    "Varsha B. (Micro, Food & Cooking)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Ananya J. (Micro, Music & Dance)",
+    "Akhil J. (Micro, Comedy & Entertainment)",
+    "Anirban A. (Micro, Comedy & Entertainment)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Tanvi C. (Micro, Food & Cooking)",
+    "Krupa T. (Mid-tier, Comedy & Entertainment)",
+    "Hetal A. (Mid-tier, Food & Cooking)",
+    "Kritika P. (Micro, Lifestyle & Vlogs)",
+    "Janhvi K. (Mid-tier, Music & Dance)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 359,
+   "gated": 61,
+   "gatesByReason": {
+    "conflict": 9,
+    "safety": 4,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Akhil Y.",
+     "id": "CIE-1294",
+     "reasons": [
+      "Posted for Cadbury 28 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Rimjhim P.",
+     "id": "CIE-1137",
+     "reasons": [
+      "Posted for Cadbury 14 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Ankita C.",
+     "id": "CIE-1136",
+     "reasons": [
+      "Posted for Cadbury 52 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Aarya T.",
+     "id": "CIE-1077",
+     "reasons": [
+      "Posted for Cadbury 8 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1279",
+     "name": "Sakshi A.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 83493,
+     "city": "Chandigarh",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.7,
+     "parts": {
+      "aud": 89,
+      "cont": 89,
+      "cult": 100,
+      "perf": 68,
+      "auth": 77,
+      "safe": 84,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 17.8,
+      "cont": 16,
+      "cult": 10,
+      "perf": 13.6,
+      "auth": 10.8,
+      "safe": 6.7,
+      "cost": 9.7
+     },
+     "confidence": "Medium",
+     "er": 3.59,
+     "linkCtr": 0.57,
+     "realFollowers": 89.9,
+     "viewThrough": 48.1,
+     "hold3s": 74.2,
+     "sponsoredShare": 34,
+     "adDisclosure": 86,
+     "safety": 82,
+     "audienceWomen": 0.507,
+     "forecast": {
+      "cost": 25000,
+      "views": 44679,
+      "tgViews": 34014,
+      "tgShare": 0.85,
+      "engagements": 3448,
+      "clicks": 219,
+      "orders": 24.1,
+      "revenue": 1448,
+      "roas": 0.06,
+      "recallLiftPts": 6.1,
+      "costPerTgView": 0.74,
+      "costPerEngagement": 7.25,
+      "costPerClick": 114.37
+     },
+     "why": [
+      "Audience matches the brief: 51% women (target 50%), 85% age overlap, 81% city-tier overlap",
+      "Comedy &amp; Entertainment is a core category for KitKat, with music &amp; dance as a second pillar",
+      "Engagement rate 3.6%, top 25% of micro creators; 2.2% of viewers save or share",
+      "90% of followers look real and active; 34% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1391",
+     "name": "Parth B.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 8323,
+     "city": "Mumbai",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.2,
+     "parts": {
+      "aud": 91,
+      "cont": 89,
+      "cult": 72,
+      "perf": 80,
+      "auth": 71,
+      "safe": 73,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 18.2,
+      "cont": 16,
+      "cult": 7.2,
+      "perf": 16,
+      "auth": 9.9,
+      "safe": 5.9,
+      "cost": 10
+     },
+     "confidence": "Low",
+     "er": 7.87,
+     "linkCtr": 0.29,
+     "realFollowers": 84.8,
+     "viewThrough": 64.4,
+     "hold3s": 68,
+     "sponsoredShare": 28,
+     "adDisclosure": 83,
+     "safety": 67,
+     "audienceWomen": 0.519,
+     "forecast": {
+      "cost": 4000,
+      "views": 6666,
+      "tgViews": 4858,
+      "tgShare": 0.86,
+      "engagements": 715,
+      "clicks": 16,
+      "orders": 1.7,
+      "revenue": 100,
+      "roas": 0.02,
+      "recallLiftPts": 10.4,
+      "costPerTgView": 0.82,
+      "costPerEngagement": 5.59,
+      "costPerClick": 255.85
+     },
+     "why": [
+      "Audience matches the brief: 52% women (target 50%), 92% age overlap, 83% city-tier overlap",
+      "Engagement rate 7.9%, top 1% of nano creators; 2.5% of viewers save or share",
+      "Comedy &amp; Entertainment is a core category for KitKat, with lifestyle &amp; vlogs as a second pillar",
+      "₹5.59 per engagement (₹4K for the bundle)"
+     ],
+     "risks": [
+      "Posted for Cadbury 76 days ago (outside the 60-day window)",
+      "Promotes betting / real-money gaming",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1111",
+     "name": "Karthik B.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 71521,
+     "city": "Bengaluru",
+     "languages": [
+      "Kannada"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.8,
+     "parts": {
+      "aud": 91,
+      "cont": 89,
+      "cult": 45,
+      "perf": 73,
+      "auth": 85,
+      "safe": 93,
+      "cost": 92
+     },
+     "contributions": {
+      "aud": 18.2,
+      "cont": 16,
+      "cult": 4.5,
+      "perf": 14.6,
+      "auth": 11.9,
+      "safe": 7.4,
+      "cost": 9.2
+     },
+     "confidence": "High",
+     "er": 4.84,
+     "linkCtr": 0.26,
+     "realFollowers": 95.6,
+     "viewThrough": 48.8,
+     "hold3s": 74.5,
+     "sponsoredShare": 21,
+     "adDisclosure": 95,
+     "safety": 91,
+     "audienceWomen": 0.443,
+     "forecast": {
+      "cost": 32000,
+      "views": 44383,
+      "tgViews": 36400,
+      "tgShare": 0.86,
+      "engagements": 3848,
+      "clicks": 92,
+      "orders": 10.6,
+      "revenue": 639,
+      "roas": 0.02,
+      "recallLiftPts": 3.6,
+      "costPerTgView": 0.88,
+      "costPerEngagement": 8.32,
+      "costPerClick": 348.44
+     },
+     "why": [
+      "Audience matches the brief: 44% women (target 50%), 94% age overlap, 81% city-tier overlap",
+      "Comedy &amp; Entertainment is a core category for KitKat, with music &amp; dance as a second pillar",
+      "Engagement rate 4.8%, top 8% of micro creators; 2.8% of viewers save or share",
+      "96% of followers look real and active; 21% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1374",
+     "name": "Anirban A.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 10695,
+     "city": "Kolkata",
+     "languages": [
+      "Bengali",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.1,
+     "parts": {
+      "aud": 89,
+      "cont": 89,
+      "cult": 78,
+      "perf": 72,
+      "auth": 79,
+      "safe": 78,
+      "cost": 79
+     },
+     "contributions": {
+      "aud": 17.8,
+      "cont": 16,
+      "cult": 7.8,
+      "perf": 14.4,
+      "auth": 11,
+      "safe": 6.3,
+      "cost": 7.9
+     },
+     "confidence": "Medium",
+     "er": 3.15,
+     "linkCtr": 0.36,
+     "realFollowers": 91.1,
+     "viewThrough": 53.8,
+     "hold3s": 63.4,
+     "sponsoredShare": 32,
+     "adDisclosure": 100,
+     "safety": 64,
+     "audienceWomen": 0.497,
+     "forecast": {
+      "cost": 4000,
+      "views": 7453,
+      "tgViews": 5751,
+      "tgShare": 0.85,
+      "engagements": 395,
+      "clicks": 20,
+      "orders": 2.7,
+      "revenue": 162,
+      "roas": 0.04,
+      "recallLiftPts": 6.4,
+      "costPerTgView": 0.7,
+      "costPerEngagement": 10.14,
+      "costPerClick": 197.98
+     },
+     "why": [
+      "Audience matches the brief: 50% women (target 50%), 91% age overlap, 74% city-tier overlap",
+      "Comedy &amp; Entertainment is a core category for KitKat, with music &amp; dance as a second pillar",
+      "Engagement rate 3.1%, top 38% of micro creators; 3.0% of viewers save or share",
+      "91% of followers look real and active; 32% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1342",
+     "name": "Aman T.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Macro",
+     "followers": 625678,
+     "city": "Chandigarh",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": true,
+     "credential": null,
+     "fit": 79,
+     "parts": {
+      "aud": 90,
+      "cont": 89,
+      "cult": 61,
+      "perf": 85,
+      "auth": 76,
+      "safe": 87,
+      "cost": 43
+     },
+     "contributions": {
+      "aud": 18,
+      "cont": 16,
+      "cult": 6.1,
+      "perf": 17.1,
+      "auth": 10.7,
+      "safe": 7,
+      "cost": 4.3
+     },
+     "confidence": "Medium",
+     "er": 1.95,
+     "linkCtr": 0.3,
+     "realFollowers": 92.3,
+     "viewThrough": 58.6,
+     "hold3s": 52,
+     "sponsoredShare": 46,
+     "adDisclosure": 92,
+     "safety": 84,
+     "audienceWomen": 0.576,
+     "forecast": {
+      "cost": 257500,
+      "views": 203196,
+      "tgViews": 159851,
+      "tgShare": 0.85,
+      "engagements": 14265,
+      "clicks": 525,
+      "orders": 54.4,
+      "revenue": 3262,
+      "roas": 0.01,
+      "recallLiftPts": 6,
+      "costPerTgView": 1.61,
+      "costPerEngagement": 18.05,
+      "costPerClick": 490.35
+     },
+     "why": [
+      "Audience matches the brief: 58% women (target 50%), 92% age overlap, 84% city-tier overlap",
+      "Engagement rate 1.9%, top 1% of macro creators; 2.8% of viewers save or share",
+      "Comedy &amp; Entertainment is a core category for KitKat, with music &amp; dance as a second pillar",
+      "92% of followers look real and active; 46% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Ad fatigue: 46% of recent posts are sponsored",
+      "Political commentary"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 74,
+    "spend": 1399500,
+    "views": 1642252,
+    "tgViews": 1124734,
+    "uniqueTgReach": 695878,
+    "engagements": 136059,
+    "clicks": 6387,
+    "orders": 719,
+    "revenue": 43111,
+    "roas": 0.03,
+    "recallLiftPts": 4.5,
+    "fakeAudienceShare": 0.11,
+    "gatedIncluded": 0,
+    "representCreators": 2,
+    "representSpend": 261500,
+    "forecastBandPct": 24,
+    "spendByTier": {
+     "micro": 966000,
+     "nano": 24500,
+     "macro": 257500,
+     "mid": 151500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 1395500,
+    "views": 1518805,
+    "tgViews": 925375,
+    "uniqueTgReach": 573475,
+    "engagements": 52040,
+    "clicks": 4873,
+    "orders": 377,
+    "revenue": 22637,
+    "roas": 0.02,
+    "recallLiftPts": 2.5,
+    "fakeAudienceShare": 0.13,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 33,
+    "spendByTier": {
+     "mega": 1266500,
+     "mid": 129000
+    }
+   },
+   "planCreators": [
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Anjali V. (Micro, Comedy & Entertainment)",
+    "Yash S. (Micro, Education & Careers)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Abhinav Y. (Micro, Gaming)",
+    "Parth B. (Nano, Comedy & Entertainment)",
+    "Moumita N. (Micro, Parenting & Family)",
+    "Gauri N. (Micro, Music & Dance)",
+    "Akhil J. (Micro, Comedy & Entertainment)",
+    "Kunal K. (Micro, Fitness & Wellness)",
+    "Devang M. (Nano, Lifestyle & Vlogs)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 359,
+   "gated": 61,
+   "gatesByReason": {
+    "conflict": 9,
+    "fraud": 32,
+    "safety": 4,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Akhil Y.",
+     "id": "CIE-1294",
+     "reasons": [
+      "Posted for Cadbury 28 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Divya G.",
+     "id": "CIE-1075",
+     "reasons": [
+      "Posted for Cadbury 14 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Krupa B.",
+     "id": "CIE-1052",
+     "reasons": [
+      "Only 60.5% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Rimjhim P.",
+     "id": "CIE-1137",
+     "reasons": [
+      "Posted for Cadbury 14 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1008",
+     "name": "Yash S.",
+     "niche": "Education & Careers",
+     "niche2": "Personal Finance",
+     "tier": "Micro",
+     "followers": 42640,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.4,
+     "parts": {
+      "aud": 98,
+      "cont": 43,
+      "cult": 61,
+      "perf": 85,
+      "auth": 82,
+      "safe": 79,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 17.6,
+      "cont": 6,
+      "cult": 4.9,
+      "perf": 22.2,
+      "auth": 11.5,
+      "safe": 6.3,
+      "cost": 12
+     },
+     "confidence": "Medium",
+     "er": 2.49,
+     "linkCtr": 1.29,
+     "realFollowers": 92.4,
+     "viewThrough": 35,
+     "hold3s": 45,
+     "sponsoredShare": 25,
+     "adDisclosure": 78,
+     "safety": 79,
+     "audienceWomen": 0.415,
+     "forecast": {
+      "cost": 10500,
+      "views": 12861,
+      "tgViews": 10758,
+      "tgShare": 0.91,
+      "engagements": 1292,
+      "clicks": 139,
+      "orders": 21.7,
+      "revenue": 1300,
+      "roas": 0.12,
+      "recallLiftPts": 4.2,
+      "costPerTgView": 0.98,
+      "costPerEngagement": 8.13,
+      "costPerClick": 75.68
+     },
+     "why": [
+      "Link CTR 1.29%, top 4% of micro creators; trust index 1.46",
+      "Audience matches the brief: 42% women (target 50%), 94% age overlap, 95% city-tier overlap",
+      "Forecast 0.1× ROAS on ₹11K, about 22 orders",
+      "92% of followers look real and active; 25% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1332",
+     "name": "Kunal K.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Food & Cooking",
+     "tier": "Micro",
+     "followers": 32206,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 75.8,
+     "parts": {
+      "aud": 83,
+      "cont": 20,
+      "cult": 78,
+      "perf": 89,
+      "auth": 74,
+      "safe": 90,
+      "cost": 95
+     },
+     "contributions": {
+      "aud": 14.9,
+      "cont": 2.8,
+      "cult": 6.2,
+      "perf": 23,
+      "auth": 10.4,
+      "safe": 7.2,
+      "cost": 11.4
+     },
+     "confidence": "Low",
+     "er": 3.45,
+     "linkCtr": 1.58,
+     "realFollowers": 90.9,
+     "viewThrough": 27.7,
+     "hold3s": 40.9,
+     "sponsoredShare": 44,
+     "adDisclosure": 92,
+     "safety": 88,
+     "audienceWomen": 0.497,
+     "forecast": {
+      "cost": 11000,
+      "views": 12835,
+      "tgViews": 9378,
+      "tgShare": 0.8,
+      "engagements": 1285,
+      "clicks": 111,
+      "orders": 11.9,
+      "revenue": 711,
+      "roas": 0.06,
+      "recallLiftPts": 1.5,
+      "costPerTgView": 1.17,
+      "costPerEngagement": 8.56,
+      "costPerClick": 98.85
+     },
+     "why": [
+      "Link CTR 1.58%, top 1% of micro creators; trust index 1.16",
+      "Audience matches the brief: 50% women (target 50%), 71% age overlap, 95% city-tier overlap",
+      "Forecast 0.1× ROAS on ₹11K, about 12 orders",
+      "91% of followers look real and active; 44% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1079",
+     "name": "Janhvi D.",
+     "niche": "Education & Careers",
+     "niche2": "Tech & Gadgets",
+     "tier": "Micro",
+     "followers": 25128,
+     "city": "Pune",
+     "languages": [
+      "Marathi",
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 74.7,
+     "parts": {
+      "aud": 89,
+      "cont": 43,
+      "cult": 50,
+      "perf": 75,
+      "auth": 75,
+      "safe": 86,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 16,
+      "cont": 6,
+      "cult": 4,
+      "perf": 19.6,
+      "auth": 10.5,
+      "safe": 6.9,
+      "cost": 11.8
+     },
+     "confidence": "High",
+     "er": 3.01,
+     "linkCtr": 1.27,
+     "realFollowers": 88.7,
+     "viewThrough": 47.3,
+     "hold3s": 72.1,
+     "sponsoredShare": 36,
+     "adDisclosure": 86,
+     "safety": 86,
+     "audienceWomen": 0.41,
+     "forecast": {
+      "cost": 8000,
+      "views": 11683,
+      "tgViews": 8766,
+      "tgShare": 0.85,
+      "engagements": 892,
+      "clicks": 95,
+      "orders": 10.6,
+      "revenue": 635,
+      "roas": 0.08,
+      "recallLiftPts": 2.5,
+      "costPerTgView": 0.91,
+      "costPerEngagement": 8.97,
+      "costPerClick": 84.15
+     },
+     "why": [
+      "Link CTR 1.27%, top 5% of micro creators; trust index 1.04",
+      "Audience matches the brief: 41% women (target 50%), 94% age overlap, 78% city-tier overlap",
+      "Forecast 0.1× ROAS on ₹8K, about 11 orders",
+      "89% of followers look real and active; 36% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1333",
+     "name": "Pavithra T.",
+     "niche": "Education & Careers",
+     "niche2": "Tech & Gadgets",
+     "tier": "Nano",
+     "followers": 9853,
+     "city": "Kochi",
+     "languages": [
+      "Malayalam",
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 74.1,
+     "parts": {
+      "aud": 90,
+      "cont": 43,
+      "cult": 72,
+      "perf": 66,
+      "auth": 70,
+      "safe": 94,
+      "cost": 96
+     },
+     "contributions": {
+      "aud": 16.2,
+      "cont": 6,
+      "cult": 5.8,
+      "perf": 17.2,
+      "auth": 9.8,
+      "safe": 7.5,
+      "cost": 11.5
+     },
+     "confidence": "Medium",
+     "er": 4.15,
+     "linkCtr": 1.05,
+     "realFollowers": 85.5,
+     "viewThrough": 38.6,
+     "hold3s": 46.4,
+     "sponsoredShare": 28,
+     "adDisclosure": 93,
+     "safety": 95,
+     "audienceWomen": 0.455,
+     "forecast": {
+      "cost": 4000,
+      "views": 4943,
+      "tgViews": 3604,
+      "tgShare": 0.85,
+      "engagements": 480,
+      "clicks": 38,
+      "orders": 4.5,
+      "revenue": 268,
+      "roas": 0.07,
+      "recallLiftPts": 5.5,
+      "costPerTgView": 1.11,
+      "costPerEngagement": 8.34,
+      "costPerClick": 106.18
+     },
+     "why": [
+      "Link CTR 1.05%, top 24% of nano creators; trust index 1.11",
+      "Audience matches the brief: 46% women (target 50%), 94% age overlap, 80% city-tier overlap",
+      "Forecast 0.1× ROAS on ₹4K, about 4 orders",
+      "86% of followers look real and active; 28% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1279",
+     "name": "Sakshi A.",
+     "niche": "Comedy & Entertainment",
+     "niche2": "Music & Dance",
+     "tier": "Micro",
+     "followers": 83493,
+     "city": "Chandigarh",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 72.7,
+     "parts": {
+      "aud": 89,
+      "cont": 89,
+      "cult": 100,
+      "perf": 29,
+      "auth": 77,
+      "safe": 84,
+      "cost": 93
+     },
+     "contributions": {
+      "aud": 16.1,
+      "cont": 12.4,
+      "cult": 8,
+      "perf": 7.5,
+      "auth": 10.8,
+      "safe": 6.7,
+      "cost": 11.2
+     },
+     "confidence": "Medium",
+     "er": 3.59,
+     "linkCtr": 0.57,
+     "realFollowers": 89.9,
+     "viewThrough": 48.1,
+     "hold3s": 74.2,
+     "sponsoredShare": 34,
+     "adDisclosure": 86,
+     "safety": 82,
+     "audienceWomen": 0.507,
+     "forecast": {
+      "cost": 25000,
+      "views": 44679,
+      "tgViews": 34014,
+      "tgShare": 0.85,
+      "engagements": 3448,
+      "clicks": 219,
+      "orders": 24.1,
+      "revenue": 1448,
+      "roas": 0.06,
+      "recallLiftPts": 6.1,
+      "costPerTgView": 0.74,
+      "costPerEngagement": 7.25,
+      "costPerClick": 114.37
+     },
+     "why": [
+      "Audience matches the brief: 51% women (target 50%), 85% age overlap, 81% city-tier overlap",
+      "Comedy &amp; Entertainment is a core category for KitKat, with music &amp; dance as a second pillar",
+      "Forecast 0.1× ROAS on ₹25K, about 24 orders",
+      "90% of followers look real and active; 34% of recent posts are sponsored"
+     ],
+     "risks": []
+    }
+   ],
+   "plan": {
+    "creators": 44,
+    "spend": 1398500,
+    "views": 1990630,
+    "tgViews": 1271412,
+    "uniqueTgReach": 786421,
+    "engagements": 91073,
+    "clicks": 11586,
+    "orders": 1282,
+    "revenue": 76943,
+    "roas": 0.06,
+    "recallLiftPts": 4.5,
+    "fakeAudienceShare": 0.13,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 49000,
+    "forecastBandPct": 22,
+    "spendByTier": {
+     "micro": 359000,
+     "nano": 15000,
+     "mid": 1024500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 1395500,
+    "views": 1518805,
+    "tgViews": 925375,
+    "uniqueTgReach": 573475,
+    "engagements": 52040,
+    "clicks": 4873,
+    "orders": 377,
+    "revenue": 22637,
+    "roas": 0.02,
+    "recallLiftPts": 2.5,
+    "fakeAudienceShare": 0.13,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 33,
+    "spendByTier": {
+     "mega": 1266500,
+     "mid": 129000
+    }
+   },
+   "planCreators": [
+    "Yash S. (Micro, Education & Careers)",
+    "Varsha B. (Micro, Food & Cooking)",
+    "Tanvi C. (Micro, Food & Cooking)",
+    "Mansi B. (Micro, Tech & Gadgets)",
+    "Kunal K. (Micro, Fitness & Wellness)",
+    "Janhvi D. (Micro, Education & Careers)",
+    "Kritika P. (Micro, Lifestyle & Vlogs)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Aditi B. (Micro, Beauty & Skincare)",
+    "Lakshmi D. (Micro, Food & Cooking)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)"
+   ]
+  }
+ }
+}

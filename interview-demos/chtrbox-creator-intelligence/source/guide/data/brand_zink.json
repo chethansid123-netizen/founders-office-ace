@@ -1,0 +1,1761 @@
+{
+ "id": "zink",
+ "name": "Zink London",
+ "parent": "Zink London",
+ "vertical": "fashion",
+ "sub": "Women's western wear",
+ "status": "Reported client",
+ "defaultObjective": "conversion",
+ "brief": "Become the first-job wardrobe for 21–27 year-old women.",
+ "moment": "EOSS · Jun & Dec",
+ "budgetLakh": 6,
+ "target": {
+  "fem": 0.95,
+  "age": [
+   0.06,
+   0.52,
+   0.34,
+   0.06,
+   0.02
+  ],
+  "tiers": [
+   0.48,
+   0.38,
+   0.14
+  ],
+  "affl": 0.48
+ },
+ "languages": {
+  "Hinglish": 1,
+  "English": 0.9,
+  "Hindi": 0.6
+ },
+ "codes": [
+  "Desi-modern",
+  "Value-seeker",
+  "Working professional",
+  "Gen-Z humour"
+ ],
+ "affinity": {
+  "fashion": 1,
+  "lifestyle": 0.8,
+  "beauty": 0.65
+ },
+ "competitors": [
+  "Only",
+  "Vero Moda",
+  "Zara",
+  "Max Fashion"
+ ],
+ "compliance": null,
+ "aov": 1300,
+ "conversionRate": 0.04,
+ "kpis": [
+  "Verified orders",
+  "CTR",
+  "Saves per view"
+ ],
+ "markets": [
+  "India"
+ ],
+ "tgPoolMillions": 40,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 359,
+   "gated": 61,
+   "gatesByReason": {
+    "conflict": 10,
+    "safety": 4,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Keerthi J.",
+     "id": "CIE-1415",
+     "reasons": [
+      "Posted for Vero Moda 14 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Shreya G.",
+     "id": "CIE-1221",
+     "reasons": [
+      "Posted for Zara 42 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Gauri B.",
+     "id": "CIE-1257",
+     "reasons": [
+      "Posted for Max Fashion 26 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Dhwani P.",
+     "id": "CIE-1277",
+     "reasons": [
+      "Posted for Vero Moda 21 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1357",
+     "name": "Rasika M.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Macro",
+     "followers": 904194,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 87.6,
+     "parts": {
+      "aud": 87,
+      "cont": 95,
+      "cult": 100,
+      "perf": 90,
+      "auth": 66,
+      "safe": 84,
+      "cost": 90
+     },
+     "contributions": {
+      "aud": 19.2,
+      "cont": 14.3,
+      "cult": 14,
+      "perf": 13.6,
+      "auth": 9.2,
+      "safe": 8.4,
+      "cost": 9
+     },
+     "confidence": "Medium",
+     "er": 0.96,
+     "linkCtr": 1.21,
+     "realFollowers": 82.3,
+     "viewThrough": 57.1,
+     "hold3s": 72,
+     "sponsoredShare": 25,
+     "adDisclosure": 80,
+     "safety": 86,
+     "audienceWomen": 0.834,
+     "forecast": {
+      "cost": 313000,
+      "views": 378871,
+      "tgViews": 259865,
+      "tgShare": 0.83,
+      "engagements": 11664,
+      "clicks": 3623,
+      "orders": 618.4,
+      "revenue": 803966,
+      "roas": 2.57,
+      "recallLiftPts": 9.5,
+      "costPerTgView": 1.2,
+      "costPerEngagement": 26.83,
+      "costPerClick": 86.39
+     },
+     "why": [
+      "Audience matches the brief: 83% women (target 95%), 88% age overlap, 95% city-tier overlap",
+      "Fashion &amp; Style is a core category for Zink London, with lifestyle &amp; vlogs as a second pillar",
+      "Creates in Hinglish + Hindi, Zink London's lead language; shares the Desi-modern and Value-seeker codes",
+      "Viewers watch 57% of each video, top 9% of macro creators; past recall lift +8.9 pts"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1083",
+     "name": "Mitali B.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Micro",
+     "followers": 30216,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 86.4,
+     "parts": {
+      "aud": 76,
+      "cont": 91,
+      "cult": 100,
+      "perf": 76,
+      "auth": 85,
+      "safe": 92,
+      "cost": 95
+     },
+     "contributions": {
+      "aud": 16.7,
+      "cont": 13.7,
+      "cult": 14,
+      "perf": 11.3,
+      "auth": 12,
+      "safe": 9.2,
+      "cost": 9.5
+     },
+     "confidence": "Low",
+     "er": 2.34,
+     "linkCtr": 0.51,
+     "realFollowers": 90,
+     "viewThrough": 55.3,
+     "hold3s": 55.1,
+     "sponsoredShare": 4,
+     "adDisclosure": 94,
+     "safety": 90,
+     "audienceWomen": 0.705,
+     "forecast": {
+      "cost": 9500,
+      "views": 13910,
+      "tgViews": 9510,
+      "tgShare": 0.76,
+      "engagements": 870,
+      "clicks": 67,
+      "orders": 10.1,
+      "revenue": 13186,
+      "roas": 1.39,
+      "recallLiftPts": 9.8,
+      "costPerTgView": 1,
+      "costPerEngagement": 10.92,
+      "costPerClick": 141.33
+     },
+     "why": [
+      "Audience matches the brief: 71% women (target 95%), 84% age overlap, 94% city-tier overlap",
+      "Creates in Hinglish, Zink London's lead language; shares the Desi-modern and Gen-Z humour codes",
+      "Fashion &amp; Style is a core category for Zink London, with beauty &amp; skincare as a second pillar",
+      "90% of followers look real and active; 4% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1216",
+     "name": "Dhwani M.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Micro",
+     "followers": 11990,
+     "city": "Mumbai",
+     "languages": [
+      "Marathi",
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.3,
+     "parts": {
+      "aud": 74,
+      "cont": 91,
+      "cult": 72,
+      "perf": 83,
+      "auth": 74,
+      "safe": 87,
+      "cost": 89
+     },
+     "contributions": {
+      "aud": 16.2,
+      "cont": 13.7,
+      "cult": 10.1,
+      "perf": 12.4,
+      "auth": 10.3,
+      "safe": 8.7,
+      "cost": 8.9
+     },
+     "confidence": "Medium",
+     "er": 3.79,
+     "linkCtr": 0.9,
+     "realFollowers": 86.2,
+     "viewThrough": 54.2,
+     "hold3s": 68.6,
+     "sponsoredShare": 29,
+     "adDisclosure": 92,
+     "safety": 83,
+     "audienceWomen": 0.736,
+     "forecast": {
+      "cost": 5000,
+      "views": 6695,
+      "tgViews": 4303,
+      "tgShare": 0.75,
+      "engagements": 519,
+      "clicks": 51,
+      "orders": 6.5,
+      "revenue": 8406,
+      "roas": 1.68,
+      "recallLiftPts": 7.8,
+      "costPerTgView": 1.16,
+      "costPerEngagement": 9.63,
+      "costPerClick": 97.23
+     },
+     "why": [
+      "Audience matches the brief: 74% women (target 95%), 95% age overlap, 76% city-tier overlap",
+      "Fashion &amp; Style is a core category for Zink London, with beauty &amp; skincare as a second pillar",
+      "Viewers watch 54% of each video, top 8% of micro creators; past recall lift +7.7 pts",
+      "86% of followers look real and active; 29% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1271",
+     "name": "Rasika D.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 91472,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.2,
+     "parts": {
+      "aud": 90,
+      "cont": 69,
+      "cult": 78,
+      "perf": 65,
+      "auth": 82,
+      "safe": 85,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 19.9,
+      "cont": 10.3,
+      "cult": 10.9,
+      "perf": 9.7,
+      "auth": 11.4,
+      "safe": 8.5,
+      "cost": 9.4
+     },
+     "confidence": "Medium",
+     "er": 4.34,
+     "linkCtr": 0.7,
+     "realFollowers": 90.6,
+     "viewThrough": 54,
+     "hold3s": 66.7,
+     "sponsoredShare": 27,
+     "adDisclosure": 92,
+     "safety": 81,
+     "audienceWomen": 0.886,
+     "forecast": {
+      "cost": 37500,
+      "views": 51100,
+      "tgViews": 39599,
+      "tgShare": 0.86,
+      "engagements": 4464,
+      "clicks": 260,
+      "orders": 34.7,
+      "revenue": 45084,
+      "roas": 1.2,
+      "recallLiftPts": 5,
+      "costPerTgView": 0.95,
+      "costPerEngagement": 8.4,
+      "costPerClick": 144.16
+     },
+     "why": [
+      "Audience matches the brief: 89% women (target 95%), 87% age overlap, 98% city-tier overlap",
+      "91% of followers look real and active; 27% of recent posts are sponsored",
+      "Creates in Hinglish, Zink London's lead language; shares the Desi-modern codes",
+      "Beauty &amp; Skincare is a strong category for Zink London, with lifestyle &amp; vlogs as a second pillar"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1028",
+     "name": "Kritika P.",
+     "niche": "Lifestyle & Vlogs",
+     "niche2": "Food & Cooking",
+     "tier": "Micro",
+     "followers": 36783,
+     "city": "Jaipur",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Moj",
+     "represent": false,
+     "credential": null,
+     "fit": 79.7,
+     "parts": {
+      "aud": 77,
+      "cont": 61,
+      "cult": 100,
+      "perf": 65,
+      "auth": 79,
+      "safe": 92,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 16.9,
+      "cont": 9.2,
+      "cult": 14,
+      "perf": 9.7,
+      "auth": 11.1,
+      "safe": 9.2,
+      "cost": 9.7
+     },
+     "confidence": "High",
+     "er": 2.76,
+     "linkCtr": 0.69,
+     "realFollowers": 88.3,
+     "viewThrough": 46.5,
+     "hold3s": 62.9,
+     "sponsoredShare": 18,
+     "adDisclosure": 91,
+     "safety": 92,
+     "audienceWomen": 0.724,
+     "forecast": {
+      "cost": 11000,
+      "views": 19785,
+      "tgViews": 13346,
+      "tgShare": 0.76,
+      "engagements": 1214,
+      "clicks": 95,
+      "orders": 13.1,
+      "revenue": 17054,
+      "roas": 1.55,
+      "recallLiftPts": 6.5,
+      "costPerTgView": 0.82,
+      "costPerEngagement": 9.06,
+      "costPerClick": 115.29
+     },
+     "why": [
+      "Audience matches the brief: 72% women (target 95%), 89% age overlap, 80% city-tier overlap",
+      "Creates in Hinglish + Hindi, Zink London's lead language; shares the Desi-modern and Working professional codes",
+      "88% of followers look real and active; 18% of recent posts are sponsored",
+      "₹0.82 per verified TG view for 1 reel and 2 stories (₹11K)"
+     ],
+     "risks": []
+    }
+   ],
+   "plan": {
+    "creators": 21,
+    "spend": 599500,
+    "views": 1055207,
+    "tgViews": 705565,
+    "uniqueTgReach": 435326,
+    "engagements": 48274,
+    "clicks": 6315,
+    "orders": 782,
+    "revenue": 1016543,
+    "roas": 1.7,
+    "recallLiftPts": 4.6,
+    "fakeAudienceShare": 0.12,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 49000,
+    "forecastBandPct": 23,
+    "spendByTier": {
+     "micro": 242000,
+     "mid": 353500,
+     "nano": 4000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 598000,
+    "views": 557700,
+    "tgViews": 333397,
+    "uniqueTgReach": 206663,
+    "engagements": 20792,
+    "clicks": 6272,
+    "orders": 645,
+    "revenue": 838356,
+    "roas": 1.4,
+    "recallLiftPts": 4,
+    "fakeAudienceShare": 0.2,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 573000,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 573000,
+     "mid": 25000
+    }
+   },
+   "planCreators": [
+    "Varsha B. (Micro, Food & Cooking)",
+    "Mitali B. (Micro, Fashion & Style)",
+    "Rasika D. (Micro, Beauty & Skincare)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Riya D. (Micro, Beauty & Skincare)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Ananya J. (Micro, Music & Dance)",
+    "Kritika P. (Micro, Lifestyle & Vlogs)",
+    "Nikita B. (Mid-tier, Fashion & Style)",
+    "Tanvi C. (Micro, Food & Cooking)",
+    "Aditi S. (Micro, Beauty & Skincare)",
+    "Mansi T. (Mid-tier, Beauty & Skincare)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 359,
+   "gated": 61,
+   "gatesByReason": {
+    "conflict": 10,
+    "safety": 4,
+    "market": 18,
+    "fraud": 32
+   },
+   "gatedExamples": [
+    {
+     "name": "Shreya G.",
+     "id": "CIE-1221",
+     "reasons": [
+      "Posted for Zara 42 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Mitali S.",
+     "id": "CIE-1109",
+     "reasons": [
+      "Brand-safety score 51: political commentary, unverified health claims"
+     ]
+    },
+    {
+     "name": "Gauri B.",
+     "id": "CIE-1257",
+     "reasons": [
+      "Posted for Max Fashion 26 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Varsha Y.",
+     "id": "CIE-1078",
+     "reasons": [
+      "Posted for Zara 43 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1146",
+     "name": "Ishani V.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 69981,
+     "city": "Patna",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 77.9,
+     "parts": {
+      "aud": 93,
+      "cont": 69,
+      "cult": 56,
+      "perf": 77,
+      "auth": 70,
+      "safe": 95,
+      "cost": 84
+     },
+     "contributions": {
+      "aud": 18.7,
+      "cont": 12.4,
+      "cult": 5.6,
+      "perf": 15.4,
+      "auth": 9.9,
+      "safe": 7.6,
+      "cost": 8.4
+     },
+     "confidence": "Low",
+     "er": 5.7,
+     "linkCtr": 0.76,
+     "realFollowers": 85.8,
+     "viewThrough": 39.6,
+     "hold3s": 62.7,
+     "sponsoredShare": 28,
+     "adDisclosure": 99,
+     "safety": 92,
+     "audienceWomen": 0.921,
+     "forecast": {
+      "cost": 37000,
+      "views": 15201,
+      "tgViews": 11409,
+      "tgShare": 0.87,
+      "engagements": 3989,
+      "clicks": 74,
+      "orders": 8.7,
+      "revenue": 11307,
+      "roas": 0.31,
+      "recallLiftPts": 7.3,
+      "costPerTgView": 3.24,
+      "costPerEngagement": 9.28,
+      "costPerClick": 498.23
+     },
+     "why": [
+      "Audience matches the brief: 92% women (target 95%), 87% age overlap, 89% city-tier overlap",
+      "Engagement rate 5.7%, top 2% of micro creators; 2.6% of viewers save or share",
+      "Beauty &amp; Skincare is a strong category for Zink London, with lifestyle &amp; vlogs as a second pillar",
+      "86% of followers look real and active; 28% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1296",
+     "name": "Subhankar B.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 45223,
+     "city": "Kolkata",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.5,
+     "parts": {
+      "aud": 79,
+      "cont": 69,
+      "cult": 78,
+      "perf": 78,
+      "auth": 76,
+      "safe": 90,
+      "cost": 82
+     },
+     "contributions": {
+      "aud": 15.9,
+      "cont": 12.4,
+      "cult": 7.8,
+      "perf": 15.5,
+      "auth": 10.6,
+      "safe": 7.2,
+      "cost": 8.2
+     },
+     "confidence": "Medium",
+     "er": 3.76,
+     "linkCtr": 0.59,
+     "realFollowers": 83.4,
+     "viewThrough": 41.2,
+     "hold3s": 55.4,
+     "sponsoredShare": 11,
+     "adDisclosure": 89,
+     "safety": 91,
+     "audienceWomen": 0.838,
+     "forecast": {
+      "cost": 18500,
+      "views": 23148,
+      "tgViews": 15078,
+      "tgShare": 0.78,
+      "engagements": 1945,
+      "clicks": 104,
+      "orders": 12.2,
+      "revenue": 15838,
+      "roas": 0.86,
+      "recallLiftPts": 5.2,
+      "costPerTgView": 1.23,
+      "costPerEngagement": 9.51,
+      "costPerClick": 177.85
+     },
+     "why": [
+      "Audience matches the brief: 84% women (target 95%), 84% age overlap, 88% city-tier overlap",
+      "Engagement rate 3.8%, top 20% of micro creators; 2.6% of viewers save or share",
+      "Beauty &amp; Skincare is a strong category for Zink London, with lifestyle &amp; vlogs as a second pillar",
+      "83% of followers look real and active; 11% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1234",
+     "name": "Rasika S.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 200382,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 77.5,
+     "parts": {
+      "aud": 85,
+      "cont": 95,
+      "cult": 78,
+      "perf": 73,
+      "auth": 70,
+      "safe": 89,
+      "cost": 42
+     },
+     "contributions": {
+      "aud": 16.9,
+      "cont": 17.1,
+      "cult": 7.8,
+      "perf": 14.7,
+      "auth": 9.7,
+      "safe": 7.1,
+      "cost": 4.2
+     },
+     "confidence": "Medium",
+     "er": 2.05,
+     "linkCtr": 1.14,
+     "realFollowers": 82.7,
+     "viewThrough": 45.3,
+     "hold3s": 68.3,
+     "sponsoredShare": 12,
+     "adDisclosure": 94,
+     "safety": 86,
+     "audienceWomen": 0.682,
+     "forecast": {
+      "cost": 74000,
+      "views": 15962,
+      "tgViews": 10777,
+      "tgShare": 0.82,
+      "engagements": 4108,
+      "clicks": 141,
+      "orders": 23.4,
+      "revenue": 30422,
+      "roas": 0.41,
+      "recallLiftPts": 5.5,
+      "costPerTgView": 6.87,
+      "costPerEngagement": 18.01,
+      "costPerClick": 526.26
+     },
+     "why": [
+      "Fashion &amp; Style is a core category for Zink London, with lifestyle &amp; vlogs as a second pillar",
+      "Audience matches the brief: 68% women (target 95%), 95% age overlap, 97% city-tier overlap",
+      "Engagement rate 2.0%, top 8% of mid-tier creators; 3.1% of viewers save or share",
+      "83% of followers look real and active; 12% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1140",
+     "name": "Lakshmi G.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 11900,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.5,
+     "parts": {
+      "aud": 89,
+      "cont": 74,
+      "cult": 55,
+      "perf": 70,
+      "auth": 78,
+      "safe": 78,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 17.9,
+      "cont": 13.3,
+      "cult": 5.5,
+      "perf": 14,
+      "auth": 10.9,
+      "safe": 6.2,
+      "cost": 9.7
+     },
+     "confidence": "Medium",
+     "er": 4.12,
+     "linkCtr": 1.02,
+     "realFollowers": 89,
+     "viewThrough": 42.9,
+     "hold3s": 63.8,
+     "sponsoredShare": 20,
+     "adDisclosure": 92,
+     "safety": 68,
+     "audienceWomen": 0.954,
+     "forecast": {
+      "cost": 4000,
+      "views": 4857,
+      "tgViews": 3668,
+      "tgShare": 0.85,
+      "engagements": 555,
+      "clicks": 45,
+      "orders": 7.2,
+      "revenue": 9413,
+      "roas": 2.35,
+      "recallLiftPts": 5.4,
+      "costPerTgView": 1.09,
+      "costPerEngagement": 7.21,
+      "costPerClick": 89.77
+     },
+     "why": [
+      "Audience matches the brief: 95% women (target 95%), 81% age overlap, 91% city-tier overlap",
+      "Engagement rate 4.1%, top 14% of micro creators; 2.4% of viewers save or share",
+      "Beauty &amp; Skincare is a strong category for Zink London, with fashion &amp; style as a second pillar",
+      "89% of followers look real and active; 20% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Unverified health claims"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1083",
+     "name": "Mitali B.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Micro",
+     "followers": 30216,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.2,
+     "parts": {
+      "aud": 76,
+      "cont": 91,
+      "cult": 100,
+      "perf": 45,
+      "auth": 85,
+      "safe": 92,
+      "cost": 72
+     },
+     "contributions": {
+      "aud": 15.2,
+      "cont": 16.4,
+      "cult": 10,
+      "perf": 9.1,
+      "auth": 12,
+      "safe": 7.3,
+      "cost": 7.2
+     },
+     "confidence": "Low",
+     "er": 2.34,
+     "linkCtr": 0.51,
+     "realFollowers": 90,
+     "viewThrough": 55.3,
+     "hold3s": 55.1,
+     "sponsoredShare": 4,
+     "adDisclosure": 94,
+     "safety": 90,
+     "audienceWomen": 0.705,
+     "forecast": {
+      "cost": 9500,
+      "views": 13910,
+      "tgViews": 9510,
+      "tgShare": 0.76,
+      "engagements": 870,
+      "clicks": 67,
+      "orders": 10.1,
+      "revenue": 13186,
+      "roas": 1.39,
+      "recallLiftPts": 9.8,
+      "costPerTgView": 1,
+      "costPerEngagement": 10.92,
+      "costPerClick": 141.33
+     },
+     "why": [
+      "Fashion &amp; Style is a core category for Zink London, with beauty &amp; skincare as a second pillar",
+      "Audience matches the brief: 71% women (target 95%), 84% age overlap, 94% city-tier overlap",
+      "90% of followers look real and active; 4% of recent posts are sponsored",
+      "Creates in Hinglish, Zink London's lead language; shares the Desi-modern and Gen-Z humour codes"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 38,
+    "spend": 599500,
+    "views": 672059,
+    "tgViews": 430438,
+    "uniqueTgReach": 266020,
+    "engagements": 69381,
+    "clicks": 3346,
+    "orders": 421,
+    "revenue": 547941,
+    "roas": 0.91,
+    "recallLiftPts": 4.8,
+    "fakeAudienceShare": 0.11,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 25,
+    "spendByTier": {
+     "micro": 545000,
+     "nano": 17000,
+     "mid": 37500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 598000,
+    "views": 557700,
+    "tgViews": 333397,
+    "uniqueTgReach": 206663,
+    "engagements": 20792,
+    "clicks": 6272,
+    "orders": 645,
+    "revenue": 838356,
+    "roas": 1.4,
+    "recallLiftPts": 4,
+    "fakeAudienceShare": 0.2,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 573000,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 573000,
+     "mid": 25000
+    }
+   },
+   "planCreators": [
+    "Rasika D. (Micro, Beauty & Skincare)",
+    "Ananya B. (Micro, Beauty & Skincare)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Moumita N. (Micro, Parenting & Family)",
+    "Dhwani K. (Micro, Beauty & Skincare)",
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Aditi B. (Micro, Beauty & Skincare)",
+    "Ishani V. (Micro, Beauty & Skincare)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Lakshmi G. (Micro, Beauty & Skincare)",
+    "Sakshi A. (Micro, Comedy & Entertainment)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 359,
+   "gated": 61,
+   "gatesByReason": {
+    "conflict": 10,
+    "safety": 4,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Ananya R.",
+     "id": "CIE-1214",
+     "reasons": [
+      "Posted for Max Fashion 59 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Dhwani P.",
+     "id": "CIE-1277",
+     "reasons": [
+      "Posted for Vero Moda 21 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Gauri B.",
+     "id": "CIE-1257",
+     "reasons": [
+      "Posted for Max Fashion 26 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Debolina R.",
+     "id": "CIE-1110",
+     "reasons": [
+      "Posted for Zara 51 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1357",
+     "name": "Rasika M.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Macro",
+     "followers": 904194,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 87.2,
+     "parts": {
+      "aud": 87,
+      "cont": 95,
+      "cult": 100,
+      "perf": 87,
+      "auth": 66,
+      "safe": 84,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 15.7,
+      "cont": 13.3,
+      "cult": 8,
+      "perf": 22.6,
+      "auth": 9.2,
+      "safe": 6.7,
+      "cost": 11.8
+     },
+     "confidence": "Medium",
+     "er": 0.96,
+     "linkCtr": 1.21,
+     "realFollowers": 82.3,
+     "viewThrough": 57.1,
+     "hold3s": 72,
+     "sponsoredShare": 25,
+     "adDisclosure": 80,
+     "safety": 86,
+     "audienceWomen": 0.834,
+     "forecast": {
+      "cost": 313000,
+      "views": 378871,
+      "tgViews": 259865,
+      "tgShare": 0.83,
+      "engagements": 11664,
+      "clicks": 3623,
+      "orders": 618.4,
+      "revenue": 803966,
+      "roas": 2.57,
+      "recallLiftPts": 9.5,
+      "costPerTgView": 1.2,
+      "costPerEngagement": 26.83,
+      "costPerClick": 86.39
+     },
+     "why": [
+      "Link CTR 1.21%, top 7% of macro creators; trust index 1.20",
+      "Audience matches the brief: 83% women (target 95%), 88% age overlap, 95% city-tier overlap",
+      "Fashion &amp; Style is a core category for Zink London, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 2.6× ROAS on ₹3.13L, about 618 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1345",
+     "name": "Aanya R.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Nano",
+     "followers": 8388,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.4,
+     "parts": {
+      "aud": 80,
+      "cont": 91,
+      "cult": 55,
+      "perf": 75,
+      "auth": 92,
+      "safe": 85,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 14.4,
+      "cont": 12.8,
+      "cult": 4.4,
+      "perf": 19.4,
+      "auth": 12.9,
+      "safe": 6.8,
+      "cost": 11.7
+     },
+     "confidence": "Low",
+     "er": 4.96,
+     "linkCtr": 1.11,
+     "realFollowers": 95.7,
+     "viewThrough": 38.3,
+     "hold3s": 77.2,
+     "sponsoredShare": 21,
+     "adDisclosure": 87,
+     "safety": 83,
+     "audienceWomen": 0.731,
+     "forecast": {
+      "cost": 4000,
+      "views": 4633,
+      "tgViews": 3490,
+      "tgShare": 0.79,
+      "engagements": 476,
+      "clicks": 52,
+      "orders": 7.5,
+      "revenue": 9691,
+      "roas": 2.42,
+      "recallLiftPts": 3.5,
+      "costPerTgView": 1.15,
+      "costPerEngagement": 8.4,
+      "costPerClick": 77.22
+     },
+     "why": [
+      "Link CTR 1.11%, top 17% of nano creators; trust index 1.03",
+      "Audience matches the brief: 73% women (target 95%), 84% age overlap, 98% city-tier overlap",
+      "96% of followers look real and active; 21% of recent posts are sponsored",
+      "Fashion &amp; Style is a core category for Zink London, with beauty &amp; skincare as a second pillar"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1140",
+     "name": "Lakshmi G.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 11900,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.8,
+     "parts": {
+      "aud": 89,
+      "cont": 74,
+      "cult": 55,
+      "perf": 85,
+      "auth": 78,
+      "safe": 78,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 16.1,
+      "cont": 10.3,
+      "cult": 4.4,
+      "perf": 22.2,
+      "auth": 10.9,
+      "safe": 6.2,
+      "cost": 11.7
+     },
+     "confidence": "Medium",
+     "er": 4.12,
+     "linkCtr": 1.02,
+     "realFollowers": 89,
+     "viewThrough": 42.9,
+     "hold3s": 63.8,
+     "sponsoredShare": 20,
+     "adDisclosure": 92,
+     "safety": 68,
+     "audienceWomen": 0.954,
+     "forecast": {
+      "cost": 4000,
+      "views": 4857,
+      "tgViews": 3668,
+      "tgShare": 0.85,
+      "engagements": 555,
+      "clicks": 45,
+      "orders": 7.2,
+      "revenue": 9413,
+      "roas": 2.35,
+      "recallLiftPts": 5.4,
+      "costPerTgView": 1.09,
+      "costPerEngagement": 7.21,
+      "costPerClick": 89.77
+     },
+     "why": [
+      "Link CTR 1.02%, top 18% of micro creators; trust index 1.27",
+      "Audience matches the brief: 95% women (target 95%), 81% age overlap, 91% city-tier overlap",
+      "Forecast 2.4× ROAS on ₹4K, about 7 orders",
+      "89% of followers look real and active; 20% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Unverified health claims"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1334",
+     "name": "Mansi T.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 125386,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": true,
+     "credential": null,
+     "fit": 81.2,
+     "parts": {
+      "aud": 87,
+      "cont": 69,
+      "cult": 78,
+      "perf": 76,
+      "auth": 80,
+      "safe": 91,
+      "cost": 96
+     },
+     "contributions": {
+      "aud": 15.7,
+      "cont": 9.6,
+      "cult": 6.2,
+      "perf": 19.8,
+      "auth": 11.1,
+      "safe": 7.2,
+      "cost": 11.5
+     },
+     "confidence": "Low",
+     "er": 1.45,
+     "linkCtr": 1.68,
+     "realFollowers": 89,
+     "viewThrough": 49.8,
+     "hold3s": 64.1,
+     "sponsoredShare": 27,
+     "adDisclosure": 96,
+     "safety": 87,
+     "audienceWomen": 0.802,
+     "forecast": {
+      "cost": 49000,
+      "views": 52197,
+      "tgViews": 38668,
+      "tgShare": 0.83,
+      "engagements": 2345,
+      "clicks": 652,
+      "orders": 80.4,
+      "revenue": 104577,
+      "roas": 2.13,
+      "recallLiftPts": 4.8,
+      "costPerTgView": 1.27,
+      "costPerEngagement": 20.9,
+      "costPerClick": 75.14
+     },
+     "why": [
+      "Link CTR 1.68%, top 1% of mid-tier creators; trust index 0.99",
+      "Audience matches the brief: 80% women (target 95%), 87% age overlap, 95% city-tier overlap",
+      "Forecast 2.1× ROAS on ₹49K, about 80 orders",
+      "89% of followers look real and active; 27% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1262",
+     "name": "Sneha K.",
+     "niche": "Fashion & Style",
+     "niche2": "Travel",
+     "tier": "Mega",
+     "followers": 5381836,
+     "city": "Chennai",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.7,
+     "parts": {
+      "aud": 80,
+      "cont": 76,
+      "cult": 95,
+      "perf": 79,
+      "auth": 66,
+      "safe": 84,
+      "cost": 96
+     },
+     "contributions": {
+      "aud": 14.5,
+      "cont": 10.7,
+      "cult": 7.6,
+      "perf": 20.6,
+      "auth": 9.2,
+      "safe": 6.7,
+      "cost": 11.5
+     },
+     "confidence": "High",
+     "er": 0.27,
+     "linkCtr": 1.2,
+     "realFollowers": 83.3,
+     "viewThrough": 27.6,
+     "hold3s": 61.8,
+     "sponsoredShare": 30,
+     "adDisclosure": 85,
+     "safety": 83,
+     "audienceWomen": 0.818,
+     "forecast": {
+      "cost": 1301000,
+      "views": 1300172,
+      "tgViews": 853207,
+      "tgShare": 0.79,
+      "engagements": 27447,
+      "clicks": 12174,
+      "orders": 1925.4,
+      "revenue": 2502998,
+      "roas": 1.92,
+      "recallLiftPts": 1.9,
+      "costPerTgView": 1.52,
+      "costPerEngagement": 47.4,
+      "costPerClick": 106.87
+     },
+     "why": [
+      "Link CTR 1.20%, top 8% of mega creators; trust index 1.22",
+      "Audience matches the brief: 82% women (target 95%), 91% age overlap, 92% city-tier overlap",
+      "Forecast 1.9× ROAS on ₹13L, about 1.9K orders",
+      "Fashion &amp; Style is a strong category for Zink London, with travel as a second pillar"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1172",
+     "name": "Mitali V.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mega",
+     "followers": 1052574,
+     "city": "Pune",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.4,
+     "parts": {
+      "aud": 86,
+      "cont": 95,
+      "cult": 100,
+      "perf": 72,
+      "auth": 55,
+      "safe": 88,
+      "cost": 84
+     },
+     "contributions": {
+      "aud": 15.5,
+      "cont": 13.3,
+      "cult": 8,
+      "perf": 18.7,
+      "auth": 7.6,
+      "safe": 7.1,
+      "cost": 10.1
+     },
+     "confidence": "Medium",
+     "er": 0.42,
+     "linkCtr": 1.05,
+     "realFollowers": 76.5,
+     "viewThrough": 41,
+     "hold3s": 77.7,
+     "sponsoredShare": 34,
+     "adDisclosure": 90,
+     "safety": 87,
+     "audienceWomen": 0.86,
+     "forecast": {
+      "cost": 301500,
+      "views": 219734,
+      "tgViews": 139001,
+      "tgShare": 0.83,
+      "engagements": 6947,
+      "clicks": 2215,
+      "orders": 283.5,
+      "revenue": 368578,
+      "roas": 1.22,
+      "recallLiftPts": 7,
+      "costPerTgView": 2.17,
+      "costPerEngagement": 43.4,
+      "costPerClick": 136.13
+     },
+     "why": [
+      "Link CTR 1.05%, top 16% of mega creators; trust index 0.90",
+      "Audience matches the brief: 86% women (target 95%), 86% age overlap, 94% city-tier overlap",
+      "Fashion &amp; Style is a core category for Zink London, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 1.2× ROAS on ₹3.02L, about 284 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1361",
+     "name": "Hetal M.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 30105,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.2,
+     "parts": {
+      "aud": 71,
+      "cont": 95,
+      "cult": 78,
+      "perf": 76,
+      "auth": 64,
+      "safe": 90,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 12.8,
+      "cont": 13.3,
+      "cult": 6.2,
+      "perf": 19.9,
+      "auth": 8.9,
+      "safe": 7.2,
+      "cost": 11.9
+     },
+     "confidence": "High",
+     "er": 2.41,
+     "linkCtr": 1.15,
+     "realFollowers": 80.4,
+     "viewThrough": 26.9,
+     "hold3s": 45.7,
+     "sponsoredShare": 14,
+     "adDisclosure": 83,
+     "safety": 95,
+     "audienceWomen": 0.658,
+     "forecast": {
+      "cost": 11000,
+      "views": 13079,
+      "tgViews": 7647,
+      "tgShare": 0.73,
+      "engagements": 888,
+      "clicks": 151,
+      "orders": 25.3,
+      "revenue": 32937,
+      "roas": 2.99,
+      "recallLiftPts": 5.9,
+      "costPerTgView": 1.44,
+      "costPerEngagement": 12.39,
+      "costPerClick": 72.87
+     },
+     "why": [
+      "Link CTR 1.15%, top 13% of micro creators; trust index 1.18",
+      "Fashion &amp; Style is a core category for Zink London, with lifestyle &amp; vlogs as a second pillar",
+      "Audience matches the brief: 66% women (target 95%), 83% age overlap, 91% city-tier overlap",
+      "Forecast 3.0× ROAS on ₹11K, about 25 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1234",
+     "name": "Rasika S.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 200382,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 79.8,
+     "parts": {
+      "aud": 85,
+      "cont": 95,
+      "cult": 78,
+      "perf": 87,
+      "auth": 70,
+      "safe": 89,
+      "cost": 47
+     },
+     "contributions": {
+      "aud": 15.2,
+      "cont": 13.3,
+      "cult": 6.2,
+      "perf": 22.5,
+      "auth": 9.7,
+      "safe": 7.1,
+      "cost": 5.6
+     },
+     "confidence": "Medium",
+     "er": 2.05,
+     "linkCtr": 1.14,
+     "realFollowers": 82.7,
+     "viewThrough": 45.3,
+     "hold3s": 68.3,
+     "sponsoredShare": 12,
+     "adDisclosure": 94,
+     "safety": 86,
+     "audienceWomen": 0.682,
+     "forecast": {
+      "cost": 74000,
+      "views": 15962,
+      "tgViews": 10777,
+      "tgShare": 0.82,
+      "engagements": 4108,
+      "clicks": 141,
+      "orders": 23.4,
+      "revenue": 30422,
+      "roas": 0.41,
+      "recallLiftPts": 5.5,
+      "costPerTgView": 6.87,
+      "costPerEngagement": 18.01,
+      "costPerClick": 526.26
+     },
+     "why": [
+      "Link CTR 1.14%, top 15% of mid-tier creators; trust index 1.17",
+      "Audience matches the brief: 68% women (target 95%), 95% age overlap, 97% city-tier overlap",
+      "Fashion &amp; Style is a core category for Zink London, with lifestyle &amp; vlogs as a second pillar",
+      "83% of followers look real and active; 12% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1220",
+     "name": "Aditi B.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 24805,
+     "city": "Jaipur",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.1,
+     "parts": {
+      "aud": 83,
+      "cont": 69,
+      "cult": 33,
+      "perf": 83,
+      "auth": 87,
+      "safe": 79,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 14.9,
+      "cont": 9.6,
+      "cult": 2.6,
+      "perf": 21.5,
+      "auth": 12.2,
+      "safe": 6.3,
+      "cost": 11.9
+     },
+     "confidence": "Medium",
+     "er": 2.9,
+     "linkCtr": 1.64,
+     "realFollowers": 93.5,
+     "viewThrough": 30.8,
+     "hold3s": 59.7,
+     "sponsoredShare": 11,
+     "adDisclosure": 85,
+     "safety": 75,
+     "audienceWomen": 0.97,
+     "forecast": {
+      "cost": 8000,
+      "views": 7925,
+      "tgViews": 5946,
+      "tgShare": 0.8,
+      "engagements": 853,
+      "clicks": 131,
+      "orders": 18.3,
+      "revenue": 23793,
+      "roas": 2.97,
+      "recallLiftPts": 3.3,
+      "costPerTgView": 1.35,
+      "costPerEngagement": 9.38,
+      "costPerClick": 61
+     },
+     "why": [
+      "Link CTR 1.64%, top 1% of micro creators; trust index 1.12",
+      "Audience matches the brief: 97% women (target 95%), 88% age overlap, 79% city-tier overlap",
+      "94% of followers look real and active; 11% of recent posts are sponsored",
+      "Forecast 3.0× ROAS on ₹8K, about 18 orders"
+     ],
+     "risks": [
+      "Unverified health claims"
+     ]
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1418",
+     "name": "Rahul M.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 68998,
+     "city": "Delhi NCR",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.7,
+     "parts": {
+      "aud": 73,
+      "cont": 69,
+      "cult": 100,
+      "perf": 72,
+      "auth": 79,
+      "safe": 91,
+      "cost": 91
+     },
+     "contributions": {
+      "aud": 13.2,
+      "cont": 9.6,
+      "cult": 8,
+      "perf": 18.7,
+      "auth": 11,
+      "safe": 7.3,
+      "cost": 11
+     },
+     "confidence": "Medium",
+     "er": 3.07,
+     "linkCtr": 1.39,
+     "realFollowers": 89.2,
+     "viewThrough": 43.6,
+     "hold3s": 59.1,
+     "sponsoredShare": 25,
+     "adDisclosure": 95,
+     "safety": 88,
+     "audienceWomen": 0.714,
+     "forecast": {
+      "cost": 34500,
+      "views": 28230,
+      "tgViews": 18661,
+      "tgShare": 0.74,
+      "engagements": 2491,
+      "clicks": 339,
+      "orders": 39.7,
+      "revenue": 51669,
+      "roas": 1.5,
+      "recallLiftPts": 2.8,
+      "costPerTgView": 1.85,
+      "costPerEngagement": 13.85,
+      "costPerClick": 101.67
+     },
+     "why": [
+      "Link CTR 1.39%, top 2% of micro creators; trust index 0.94",
+      "Audience matches the brief: 71% women (target 95%), 86% age overlap, 89% city-tier overlap",
+      "89% of followers look real and active; 25% of recent posts are sponsored",
+      "Forecast 1.5× ROAS on ₹35K, about 40 orders"
+     ],
+     "risks": []
+    }
+   ],
+   "plan": {
+    "creators": 18,
+    "spend": 599000,
+    "views": 829348,
+    "tgViews": 551191,
+    "uniqueTgReach": 340490,
+    "engagements": 42708,
+    "clicks": 8793,
+    "orders": 1154,
+    "revenue": 1499608,
+    "roas": 2.5,
+    "recallLiftPts": 5.4,
+    "fakeAudienceShare": 0.13,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 49000,
+    "forecastBandPct": 21,
+    "spendByTier": {
+     "micro": 138500,
+     "mid": 456500,
+     "nano": 4000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 598000,
+    "views": 557700,
+    "tgViews": 333397,
+    "uniqueTgReach": 206663,
+    "engagements": 20792,
+    "clicks": 6272,
+    "orders": 645,
+    "revenue": 838356,
+    "roas": 1.4,
+    "recallLiftPts": 4,
+    "fakeAudienceShare": 0.2,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 573000,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 573000,
+     "mid": 25000
+    }
+   },
+   "planCreators": [
+    "Aditi B. (Micro, Beauty & Skincare)",
+    "Parth K. (Mid-tier, Fashion & Style)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Sruthi A. (Mid-tier, Fashion & Style)",
+    "Mansi T. (Mid-tier, Beauty & Skincare)",
+    "Abhinav C. (Mid-tier, Fashion & Style)",
+    "Riya D. (Micro, Beauty & Skincare)",
+    "Hetal C. (Mid-tier, Fashion & Style)",
+    "Karan Y. (Micro, Fashion & Style)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Meher A. (Micro, Beauty & Skincare)",
+    "Lakshmi G. (Micro, Beauty & Skincare)"
+   ]
+  }
+ }
+}

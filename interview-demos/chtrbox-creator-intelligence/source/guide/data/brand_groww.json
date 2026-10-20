@@ -1,0 +1,1808 @@
+{
+ "id": "groww",
+ "name": "Groww",
+ "parent": "Groww",
+ "vertical": "bfsi",
+ "sub": "Investing app",
+ "status": "Prospect",
+ "defaultObjective": "conversion",
+ "brief": "Bring first-time investors from tier-2 cities to a funded SIP.",
+ "moment": "Tax-saving season · Jan–Mar",
+ "budgetLakh": 24,
+ "target": {
+  "fem": 0.3,
+  "age": [
+   0.01,
+   0.34,
+   0.46,
+   0.14,
+   0.05
+  ],
+  "tiers": [
+   0.42,
+   0.38,
+   0.2
+  ],
+  "affl": 0.5
+ },
+ "languages": {
+  "Hinglish": 1,
+  "Hindi": 0.95,
+  "English": 0.85,
+  "Marathi": 0.55,
+  "Gujarati": 0.6,
+  "Tamil": 0.5,
+  "Telugu": 0.5
+ },
+ "codes": [
+  "Working professional",
+  "Small-town dreams",
+  "Value-seeker"
+ ],
+ "affinity": {
+  "finance": 1,
+  "education": 0.85,
+  "tech": 0.7,
+  "lifestyle": 0.45,
+  "comedy": 0.35
+ },
+ "competitors": [
+  "Zerodha",
+  "Upstox",
+  "Angel One",
+  "Paytm Money",
+  "INDmoney"
+ ],
+ "compliance": "finance",
+ "aov": 2500,
+ "conversionRate": 0.06,
+ "kpis": [
+  "Funded accounts",
+  "Cost per funded account",
+  "SIP activation"
+ ],
+ "markets": [
+  "India"
+ ],
+ "tgPoolMillions": 120,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 343,
+   "gated": 77,
+   "gatesByReason": {
+    "conflict": 13,
+    "reg": 24,
+    "fraud": 32,
+    "safety": 4,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Riya K.",
+     "id": "CIE-1293",
+     "reasons": [
+      "Posted for Angel One 37 days ago (60-day category exclusivity)",
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    },
+    {
+     "name": "Swathi R.",
+     "id": "CIE-1072",
+     "reasons": [
+      "Posted for INDmoney 17 days ago (60-day category exclusivity)",
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    },
+    {
+     "name": "Mitali T.",
+     "id": "CIE-1051",
+     "reasons": [
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    },
+    {
+     "name": "Harsh N.",
+     "id": "CIE-1298",
+     "reasons": [
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1185",
+     "name": "Manav R.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Education & Careers",
+     "tier": "Mid-tier",
+     "followers": 155314,
+     "city": "Chandigarh",
+     "languages": [
+      "Punjabi",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.7,
+     "parts": {
+      "aud": 78,
+      "cont": 74,
+      "cult": 100,
+      "perf": 66,
+      "auth": 77,
+      "safe": 80,
+      "cost": 88
+     },
+     "contributions": {
+      "aud": 17.2,
+      "cont": 11.1,
+      "cult": 14,
+      "perf": 9.9,
+      "auth": 10.8,
+      "safe": 8,
+      "cost": 8.8
+     },
+     "confidence": "Medium",
+     "er": 0.89,
+     "linkCtr": 1.09,
+     "realFollowers": 89.6,
+     "viewThrough": 45,
+     "hold3s": 66,
+     "sponsoredShare": 26,
+     "adDisclosure": 81,
+     "safety": 79,
+     "audienceWomen": 0.15,
+     "forecast": {
+      "cost": 40000,
+      "views": 49526,
+      "tgViews": 34334,
+      "tgShare": 0.77,
+      "engagements": 2035,
+      "clicks": 484,
+      "orders": 101.3,
+      "revenue": 253273,
+      "roas": 6.33,
+      "recallLiftPts": 7.6,
+      "costPerTgView": 1.17,
+      "costPerEngagement": 19.66,
+      "costPerClick": 82.6
+     },
+     "why": [
+      "Audience matches the brief: 15% women (target 30%), 87% age overlap, 81% city-tier overlap",
+      "Creates in Punjabi + Hinglish, Groww's lead language; shares the Value-seeker and Working professional codes",
+      "Tech &amp; Gadgets is a strong category for Groww, with education &amp; careers as a second pillar",
+      "90% of followers look real and active; 26% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1069",
+     "name": "Anirban Y.",
+     "niche": "Personal Finance",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 30411,
+     "city": "Bhubaneswar",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "SEBI-registered RA",
+     "fit": 79.4,
+     "parts": {
+      "aud": 84,
+      "cont": 86,
+      "cult": 92,
+      "perf": 72,
+      "auth": 71,
+      "safe": 83,
+      "cost": 60
+     },
+     "contributions": {
+      "aud": 18.6,
+      "cont": 12.9,
+      "cult": 12.8,
+      "perf": 10.9,
+      "auth": 9.9,
+      "safe": 8.3,
+      "cost": 6
+     },
+     "confidence": "Medium",
+     "er": 1.96,
+     "linkCtr": 1.52,
+     "realFollowers": 87.8,
+     "viewThrough": 43.3,
+     "hold3s": 71.1,
+     "sponsoredShare": 35,
+     "adDisclosure": 77,
+     "safety": 87,
+     "audienceWomen": 0.196,
+     "forecast": {
+      "cost": 16000,
+      "views": 12607,
+      "tgViews": 9016,
+      "tgShare": 0.81,
+      "engagements": 760,
+      "clicks": 187,
+      "orders": 54.6,
+      "revenue": 136443,
+      "roas": 8.53,
+      "recallLiftPts": 9,
+      "costPerTgView": 1.77,
+      "costPerEngagement": 21.05,
+      "costPerClick": 85.75
+     },
+     "why": [
+      "Audience matches the brief: 20% women (target 30%), 93% age overlap, 86% city-tier overlap",
+      "Personal Finance is a core category for Groww, with lifestyle &amp; vlogs as a second pillar",
+      "Creates in English; shares the Value-seeker and Working professional codes",
+      "Viewers watch 43% of each video, top 54% of micro creators; past recall lift +8.9 pts"
+     ],
+     "risks": [
+      "Posted for Angel One 105 days ago (outside the 60-day window)"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1114",
+     "name": "Tanvi R.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Education & Careers",
+     "tier": "Mid-tier",
+     "followers": 254770,
+     "city": "Jaipur",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.3,
+     "parts": {
+      "aud": 88,
+      "cont": 74,
+      "cult": 97,
+      "perf": 36,
+      "auth": 78,
+      "safe": 84,
+      "cost": 86
+     },
+     "contributions": {
+      "aud": 19.3,
+      "cont": 11.1,
+      "cult": 13.6,
+      "perf": 5.4,
+      "auth": 11,
+      "safe": 8.4,
+      "cost": 8.6
+     },
+     "confidence": "Low",
+     "er": 0.85,
+     "linkCtr": 1.23,
+     "realFollowers": 88.3,
+     "viewThrough": 34.7,
+     "hold3s": 64.4,
+     "sponsoredShare": 18,
+     "adDisclosure": 69,
+     "safety": 94,
+     "audienceWomen": 0.252,
+     "forecast": {
+      "cost": 77000,
+      "views": 94705,
+      "tgViews": 70006,
+      "tgShare": 0.84,
+      "engagements": 3236,
+      "clicks": 957,
+      "orders": 207.5,
+      "revenue": 518723,
+      "roas": 6.74,
+      "recallLiftPts": 5.1,
+      "costPerTgView": 1.1,
+      "costPerEngagement": 23.8,
+      "costPerClick": 80.49
+     },
+     "why": [
+      "Audience matches the brief: 25% women (target 30%), 82% age overlap, 96% city-tier overlap",
+      "Creates in Hindi, Groww's lead language; shares the Small-town dreams and Working professional codes",
+      "Tech &amp; Gadgets is a strong category for Groww, with education &amp; careers as a second pillar",
+      "88% of followers look real and active; 18% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Discloses #ad on only 69% of paid posts. Brief on disclosure in the first line",
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1169",
+     "name": "Anjali C.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Education & Careers",
+     "tier": "Nano",
+     "followers": 6774,
+     "city": "Bengaluru",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77,
+     "parts": {
+      "aud": 77,
+      "cont": 74,
+      "cult": 78,
+      "perf": 74,
+      "auth": 82,
+      "safe": 93,
+      "cost": 63
+     },
+     "contributions": {
+      "aud": 16.9,
+      "cont": 11.1,
+      "cult": 10.9,
+      "perf": 11.2,
+      "auth": 11.4,
+      "safe": 9.3,
+      "cost": 6.3
+     },
+     "confidence": "Low",
+     "er": 4.41,
+     "linkCtr": 1,
+     "realFollowers": 88.4,
+     "viewThrough": 51.4,
+     "hold3s": 60.7,
+     "sponsoredShare": 16,
+     "adDisclosure": 83,
+     "safety": 99,
+     "audienceWomen": 0.206,
+     "forecast": {
+      "cost": 4000,
+      "views": 3766,
+      "tgViews": 2549,
+      "tgShare": 0.77,
+      "engagements": 348,
+      "clicks": 33,
+      "orders": 6.4,
+      "revenue": 15888,
+      "roas": 3.97,
+      "recallLiftPts": 6.4,
+      "costPerTgView": 1.57,
+      "costPerEngagement": 11.51,
+      "costPerClick": 119.6
+     },
+     "why": [
+      "Audience matches the brief: 21% women (target 30%), 85% age overlap, 76% city-tier overlap",
+      "88% of followers look real and active; 16% of recent posts are sponsored",
+      "Viewers watch 51% of each video, top 12% of nano creators; past recall lift +6.9 pts",
+      "Tech &amp; Gadgets is a strong category for Groww, with education &amp; careers as a second pillar"
+     ],
+     "risks": [
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1145",
+     "name": "Akhil A.",
+     "niche": "Personal Finance",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 84095,
+     "city": "Bengaluru",
+     "languages": [
+      "Kannada",
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "SEBI-registered RIA",
+     "fit": 76.2,
+     "parts": {
+      "aud": 80,
+      "cont": 86,
+      "cult": 92,
+      "perf": 45,
+      "auth": 70,
+      "safe": 82,
+      "cost": 81
+     },
+     "contributions": {
+      "aud": 17.6,
+      "cont": 12.9,
+      "cult": 12.8,
+      "perf": 6.8,
+      "auth": 9.7,
+      "safe": 8.2,
+      "cost": 8.1
+     },
+     "confidence": "Medium",
+     "er": 2.35,
+     "linkCtr": 1.16,
+     "realFollowers": 85.9,
+     "viewThrough": 33.4,
+     "hold3s": 66.3,
+     "sponsoredShare": 29,
+     "adDisclosure": 93,
+     "safety": 74,
+     "audienceWomen": 0.165,
+     "forecast": {
+      "cost": 25500,
+      "views": 30583,
+      "tgViews": 20638,
+      "tgShare": 0.79,
+      "engagements": 2430,
+      "clicks": 374,
+      "orders": 106.3,
+      "revenue": 265851,
+      "roas": 10.43,
+      "recallLiftPts": 6.5,
+      "costPerTgView": 1.24,
+      "costPerEngagement": 10.49,
+      "costPerClick": 68.18
+     },
+     "why": [
+      "Audience matches the brief: 17% women (target 30%), 93% age overlap, 82% city-tier overlap",
+      "Personal Finance is a core category for Groww, with lifestyle &amp; vlogs as a second pillar",
+      "Creates in Kannada + English; shares the Value-seeker and Working professional codes",
+      "86% of followers look real and active; 29% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Posted for Upstox 65 days ago (outside the 60-day window)"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 59,
+    "spend": 2399500,
+    "views": 3305436,
+    "tgViews": 2142559,
+    "uniqueTgReach": 1321377,
+    "engagements": 147679,
+    "clicks": 12822,
+    "orders": 2137,
+    "revenue": 5343675,
+    "roas": 2.23,
+    "recallLiftPts": 4.4,
+    "fakeAudienceShare": 0.12,
+    "gatedIncluded": 0,
+    "representCreators": 3,
+    "representSpend": 462000,
+    "forecastBandPct": 22,
+    "spendByTier": {
+     "micro": 535500,
+     "mid": 1151000,
+     "macro": 696500,
+     "nano": 16500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 2383000,
+    "views": 2046161,
+    "tgViews": 882336,
+    "uniqueTgReach": 546439,
+    "engagements": 49396,
+    "clicks": 6401,
+    "orders": 695,
+    "revenue": 1736774,
+    "roas": 0.73,
+    "recallLiftPts": 2.1,
+    "fakeAudienceShare": 0.43,
+    "gatedIncluded": 2,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 18,
+    "spendByTier": {
+     "mega": 2383000
+    }
+   },
+   "planCreators": [
+    "Varsha B. (Micro, Food & Cooking)",
+    "Manav R. (Mid-tier, Tech & Gadgets)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Akhil J. (Micro, Comedy & Entertainment)",
+    "Tanvi R. (Mid-tier, Tech & Gadgets)",
+    "Yash S. (Micro, Education & Careers)",
+    "Ananya J. (Micro, Music & Dance)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Keerthi B. (Macro, Beauty & Skincare)",
+    "Tanvi C. (Micro, Food & Cooking)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 343,
+   "gated": 77,
+   "gatesByReason": {
+    "reg": 24,
+    "conflict": 13,
+    "fraud": 32,
+    "safety": 4,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Pooja A.",
+     "id": "CIE-1087",
+     "reasons": [
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    },
+    {
+     "name": "Simran S.",
+     "id": "CIE-1219",
+     "reasons": [
+      "Posted for INDmoney 44 days ago (60-day category exclusivity)",
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    },
+    {
+     "name": "Bornali N.",
+     "id": "CIE-1177",
+     "reasons": [
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    },
+    {
+     "name": "Harsh N.",
+     "id": "CIE-1298",
+     "reasons": [
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1339",
+     "name": "Meher C.",
+     "niche": "Personal Finance",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 20415,
+     "city": "Lucknow",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": "SEBI-registered RIA",
+     "fit": 80.9,
+     "parts": {
+      "aud": 92,
+      "cont": 86,
+      "cult": 100,
+      "perf": 72,
+      "auth": 77,
+      "safe": 83,
+      "cost": 50
+     },
+     "contributions": {
+      "aud": 18.5,
+      "cont": 15.5,
+      "cult": 10,
+      "perf": 14.4,
+      "auth": 10.8,
+      "safe": 6.7,
+      "cost": 5
+     },
+     "confidence": "Medium",
+     "er": 3.27,
+     "linkCtr": 1.12,
+     "realFollowers": 88.9,
+     "viewThrough": 38.4,
+     "hold3s": 59,
+     "sponsoredShare": 24,
+     "adDisclosure": 73,
+     "safety": 90,
+     "audienceWomen": 0.351,
+     "forecast": {
+      "cost": 10000,
+      "views": 3028,
+      "tgViews": 2338,
+      "tgShare": 0.87,
+      "engagements": 668,
+      "clicks": 25,
+      "orders": 5.4,
+      "revenue": 13535,
+      "roas": 1.35,
+      "recallLiftPts": 6.5,
+      "costPerTgView": 4.28,
+      "costPerEngagement": 14.98,
+      "costPerClick": 404.24
+     },
+     "why": [
+      "Audience matches the brief: 35% women (target 30%), 84% age overlap, 94% city-tier overlap",
+      "Personal Finance is a core category for Groww, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 3.3%, top 32% of micro creators; 4.4% of viewers save or share",
+      "89% of followers look real and active; 24% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Discloses #ad on only 73% of paid posts. Brief on disclosure in the first line",
+      "Posted for INDmoney 105 days ago (outside the 60-day window)"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1008",
+     "name": "Yash S.",
+     "niche": "Education & Careers",
+     "niche2": "Personal Finance",
+     "tier": "Micro",
+     "followers": 42640,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.3,
+     "parts": {
+      "aud": 83,
+      "cont": 89,
+      "cult": 75,
+      "perf": 66,
+      "auth": 82,
+      "safe": 79,
+      "cost": 92
+     },
+     "contributions": {
+      "aud": 16.6,
+      "cont": 16,
+      "cult": 7.5,
+      "perf": 13.3,
+      "auth": 11.5,
+      "safe": 6.3,
+      "cost": 9.2
+     },
+     "confidence": "Medium",
+     "er": 2.49,
+     "linkCtr": 1.29,
+     "realFollowers": 92.4,
+     "viewThrough": 35,
+     "hold3s": 45,
+     "sponsoredShare": 25,
+     "adDisclosure": 78,
+     "safety": 79,
+     "audienceWomen": 0.415,
+     "forecast": {
+      "cost": 10500,
+      "views": 12861,
+      "tgViews": 9559,
+      "tgShare": 0.8,
+      "engagements": 1292,
+      "clicks": 201,
+      "orders": 60.7,
+      "revenue": 151661,
+      "roas": 14.44,
+      "recallLiftPts": 5.5,
+      "costPerTgView": 1.1,
+      "costPerEngagement": 8.13,
+      "costPerClick": 52.32
+     },
+     "why": [
+      "Audience matches the brief: 42% women (target 30%), 79% age overlap, 89% city-tier overlap",
+      "Education &amp; Careers is a core category for Groww, with personal finance as a second pillar",
+      "Engagement rate 2.5%, top 61% of micro creators; 3.1% of viewers save or share",
+      "92% of followers look real and active; 25% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Posted for Paytm Money 78 days ago (outside the 60-day window)",
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1079",
+     "name": "Janhvi D.",
+     "niche": "Education & Careers",
+     "niche2": "Tech & Gadgets",
+     "tier": "Micro",
+     "followers": 25128,
+     "city": "Pune",
+     "languages": [
+      "Marathi",
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.4,
+     "parts": {
+      "aud": 75,
+      "cont": 81,
+      "cult": 69,
+      "perf": 75,
+      "auth": 75,
+      "safe": 86,
+      "cost": 86
+     },
+     "contributions": {
+      "aud": 15,
+      "cont": 14.6,
+      "cult": 6.9,
+      "perf": 15,
+      "auth": 10.5,
+      "safe": 6.9,
+      "cost": 8.6
+     },
+     "confidence": "High",
+     "er": 3.01,
+     "linkCtr": 1.27,
+     "realFollowers": 88.7,
+     "viewThrough": 47.3,
+     "hold3s": 72.1,
+     "sponsoredShare": 36,
+     "adDisclosure": 86,
+     "safety": 86,
+     "audienceWomen": 0.41,
+     "forecast": {
+      "cost": 8000,
+      "views": 11683,
+      "tgViews": 7788,
+      "tgShare": 0.75,
+      "engagements": 892,
+      "clicks": 131,
+      "orders": 27.1,
+      "revenue": 67758,
+      "roas": 8.47,
+      "recallLiftPts": 3.2,
+      "costPerTgView": 1.03,
+      "costPerEngagement": 8.97,
+      "costPerClick": 61.24
+     },
+     "why": [
+      "Engagement rate 3.0%, top 42% of micro creators; 4.5% of viewers save or share",
+      "Audience matches the brief: 41% women (target 30%), 73% age overlap, 84% city-tier overlap",
+      "Education &amp; Careers is a strong category for Groww, with tech &amp; gadgets as a second pillar",
+      "89% of followers look real and active; 36% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1108",
+     "name": "Sneha R.",
+     "niche": "Personal Finance",
+     "niche2": "Tech & Gadgets",
+     "tier": "Macro",
+     "followers": 665043,
+     "city": "Visakhapatnam",
+     "languages": [
+      "Telugu"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": "SEBI-registered RIA",
+     "fit": 76.6,
+     "parts": {
+      "aud": 84,
+      "cont": 93,
+      "cult": 73,
+      "perf": 90,
+      "auth": 76,
+      "safe": 89,
+      "cost": 2
+     },
+     "contributions": {
+      "aud": 16.8,
+      "cont": 16.7,
+      "cult": 7.3,
+      "perf": 17.9,
+      "auth": 10.7,
+      "safe": 7.1,
+      "cost": 0.2
+     },
+     "confidence": "Medium",
+     "er": 1.18,
+     "linkCtr": 0.79,
+     "realFollowers": 89.7,
+     "viewThrough": 37.1,
+     "hold3s": 60.5,
+     "sponsoredShare": 30,
+     "adDisclosure": 88,
+     "safety": 89,
+     "audienceWomen": 0.415,
+     "forecast": {
+      "cost": 333000,
+      "views": 51172,
+      "tgViews": 37288,
+      "tgShare": 0.81,
+      "engagements": 7848,
+      "clicks": 307,
+      "orders": 82.3,
+      "revenue": 205771,
+      "roas": 0.62,
+      "recallLiftPts": 5.8,
+      "costPerTgView": 8.93,
+      "costPerEngagement": 42.43,
+      "costPerClick": 1083.32
+     },
+     "why": [
+      "Engagement rate 1.2%, top 16% of macro creators; 3.6% of viewers save or share",
+      "Audience matches the brief: 42% women (target 30%), 87% age overlap, 84% city-tier overlap",
+      "Personal Finance is a core category for Groww, with tech &amp; gadgets as a second pillar",
+      "90% of followers look real and active; 30% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Posted for Zerodha 110 days ago (outside the 60-day window)"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1145",
+     "name": "Akhil A.",
+     "niche": "Personal Finance",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 84095,
+     "city": "Bengaluru",
+     "languages": [
+      "Kannada",
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "SEBI-registered RIA",
+     "fit": 76.2,
+     "parts": {
+      "aud": 80,
+      "cont": 86,
+      "cult": 92,
+      "perf": 59,
+      "auth": 70,
+      "safe": 82,
+      "cost": 75
+     },
+     "contributions": {
+      "aud": 16,
+      "cont": 15.5,
+      "cult": 9.2,
+      "perf": 11.8,
+      "auth": 9.7,
+      "safe": 6.5,
+      "cost": 7.5
+     },
+     "confidence": "Medium",
+     "er": 2.35,
+     "linkCtr": 1.16,
+     "realFollowers": 85.9,
+     "viewThrough": 33.4,
+     "hold3s": 66.3,
+     "sponsoredShare": 29,
+     "adDisclosure": 93,
+     "safety": 74,
+     "audienceWomen": 0.165,
+     "forecast": {
+      "cost": 25500,
+      "views": 30583,
+      "tgViews": 20638,
+      "tgShare": 0.79,
+      "engagements": 2430,
+      "clicks": 374,
+      "orders": 106.3,
+      "revenue": 265851,
+      "roas": 10.43,
+      "recallLiftPts": 6.5,
+      "costPerTgView": 1.24,
+      "costPerEngagement": 10.49,
+      "costPerClick": 68.18
+     },
+     "why": [
+      "Audience matches the brief: 17% women (target 30%), 93% age overlap, 82% city-tier overlap",
+      "Personal Finance is a core category for Groww, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 2.4%, top 65% of micro creators; 4.3% of viewers save or share",
+      "86% of followers look real and active; 29% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Posted for Upstox 65 days ago (outside the 60-day window)"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 80,
+    "spend": 1642500,
+    "views": 1762762,
+    "tgViews": 1145882,
+    "uniqueTgReach": 708420,
+    "engagements": 151000,
+    "clicks": 6302,
+    "orders": 1055,
+    "revenue": 2637357,
+    "roas": 1.61,
+    "recallLiftPts": 3.7,
+    "fakeAudienceShare": 0.11,
+    "gatedIncluded": 0,
+    "representCreators": 3,
+    "representSpend": 481000,
+    "forecastBandPct": 22,
+    "spendByTier": {
+     "micro": 961000,
+     "nano": 28000,
+     "mid": 396000,
+     "macro": 257500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 3,
+    "spend": 1642500,
+    "views": 1879655,
+    "tgViews": 1161582,
+    "uniqueTgReach": 719211,
+    "engagements": 54583,
+    "clicks": 5916,
+    "orders": 719,
+    "revenue": 1796762,
+    "roas": 1.09,
+    "recallLiftPts": 2.5,
+    "fakeAudienceShare": 0.17,
+    "gatedIncluded": 1,
+    "representCreators": 1,
+    "representSpend": 300000,
+    "forecastBandPct": 34,
+    "spendByTier": {
+     "mega": 1566500,
+     "mid": 76000
+    }
+   },
+   "planCreators": [
+    "Yash S. (Micro, Education & Careers)",
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Moumita N. (Micro, Parenting & Family)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Tanvi S. (Micro, Tech & Gadgets)",
+    "Janhvi D. (Micro, Education & Careers)",
+    "Bornali Y. (Micro, Education & Careers)",
+    "Karan M. (Micro, Tech & Gadgets)",
+    "Dhwani R. (Micro, Fitness & Wellness)",
+    "Kunal K. (Micro, Fitness & Wellness)",
+    "Ananya B. (Micro, Beauty & Skincare)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 343,
+   "gated": 77,
+   "gatesByReason": {
+    "conflict": 13,
+    "reg": 24,
+    "fraud": 32,
+    "market": 18,
+    "safety": 4
+   },
+   "gatedExamples": [
+    {
+     "name": "Riya K.",
+     "id": "CIE-1293",
+     "reasons": [
+      "Posted for Angel One 37 days ago (60-day category exclusivity)",
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    },
+    {
+     "name": "Harsh N.",
+     "id": "CIE-1298",
+     "reasons": [
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    },
+    {
+     "name": "Pooja A.",
+     "id": "CIE-1087",
+     "reasons": [
+      "Gives investing content without SEBI registration. SEBI-regulated brands can't work with unregistered finfluencers"
+     ]
+    },
+    {
+     "name": "Devang R.",
+     "id": "CIE-1414",
+     "reasons": [
+      "Posted for INDmoney 52 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1008",
+     "name": "Yash S.",
+     "niche": "Education & Careers",
+     "niche2": "Personal Finance",
+     "tier": "Micro",
+     "followers": 42640,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 85.3,
+     "parts": {
+      "aud": 83,
+      "cont": 89,
+      "cult": 75,
+      "perf": 85,
+      "auth": 82,
+      "safe": 79,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 14.9,
+      "cont": 12.4,
+      "cult": 6,
+      "perf": 22.2,
+      "auth": 11.5,
+      "safe": 6.3,
+      "cost": 12
+     },
+     "confidence": "Medium",
+     "er": 2.49,
+     "linkCtr": 1.29,
+     "realFollowers": 92.4,
+     "viewThrough": 35,
+     "hold3s": 45,
+     "sponsoredShare": 25,
+     "adDisclosure": 78,
+     "safety": 79,
+     "audienceWomen": 0.415,
+     "forecast": {
+      "cost": 10500,
+      "views": 12861,
+      "tgViews": 9559,
+      "tgShare": 0.8,
+      "engagements": 1292,
+      "clicks": 201,
+      "orders": 60.7,
+      "revenue": 151661,
+      "roas": 14.44,
+      "recallLiftPts": 5.5,
+      "costPerTgView": 1.1,
+      "costPerEngagement": 8.13,
+      "costPerClick": 52.32
+     },
+     "why": [
+      "Link CTR 1.29%, top 4% of micro creators; trust index 1.46",
+      "Audience matches the brief: 42% women (target 30%), 79% age overlap, 89% city-tier overlap",
+      "Education &amp; Careers is a core category for Groww, with personal finance as a second pillar",
+      "Forecast 14.4× ROAS on ₹11K, about 61 orders"
+     ],
+     "risks": [
+      "Posted for Paytm Money 78 days ago (outside the 60-day window)",
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1069",
+     "name": "Anirban Y.",
+     "niche": "Personal Finance",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 30411,
+     "city": "Bhubaneswar",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "SEBI-registered RA",
+     "fit": 84.5,
+     "parts": {
+      "aud": 84,
+      "cont": 86,
+      "cult": 92,
+      "perf": 83,
+      "auth": 71,
+      "safe": 83,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 15.2,
+      "cont": 12.1,
+      "cult": 7.3,
+      "perf": 21.5,
+      "auth": 9.9,
+      "safe": 6.6,
+      "cost": 11.9
+     },
+     "confidence": "Medium",
+     "er": 1.96,
+     "linkCtr": 1.52,
+     "realFollowers": 87.8,
+     "viewThrough": 43.3,
+     "hold3s": 71.1,
+     "sponsoredShare": 35,
+     "adDisclosure": 77,
+     "safety": 87,
+     "audienceWomen": 0.196,
+     "forecast": {
+      "cost": 16000,
+      "views": 12607,
+      "tgViews": 9016,
+      "tgShare": 0.81,
+      "engagements": 760,
+      "clicks": 187,
+      "orders": 54.6,
+      "revenue": 136443,
+      "roas": 8.53,
+      "recallLiftPts": 9,
+      "costPerTgView": 1.77,
+      "costPerEngagement": 21.05,
+      "costPerClick": 85.75
+     },
+     "why": [
+      "Link CTR 1.52%, top 2% of micro creators; trust index 1.43",
+      "Audience matches the brief: 20% women (target 30%), 93% age overlap, 86% city-tier overlap",
+      "Personal Finance is a core category for Groww, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 8.5× ROAS on ₹16K, about 55 orders"
+     ],
+     "risks": [
+      "Posted for Angel One 105 days ago (outside the 60-day window)"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1145",
+     "name": "Akhil A.",
+     "niche": "Personal Finance",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 84095,
+     "city": "Bengaluru",
+     "languages": [
+      "Kannada",
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "SEBI-registered RIA",
+     "fit": 82.9,
+     "parts": {
+      "aud": 80,
+      "cont": 86,
+      "cult": 92,
+      "perf": 80,
+      "auth": 70,
+      "safe": 82,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 14.4,
+      "cont": 12.1,
+      "cult": 7.3,
+      "perf": 20.8,
+      "auth": 9.7,
+      "safe": 6.5,
+      "cost": 12
+     },
+     "confidence": "Medium",
+     "er": 2.35,
+     "linkCtr": 1.16,
+     "realFollowers": 85.9,
+     "viewThrough": 33.4,
+     "hold3s": 66.3,
+     "sponsoredShare": 29,
+     "adDisclosure": 93,
+     "safety": 74,
+     "audienceWomen": 0.165,
+     "forecast": {
+      "cost": 25500,
+      "views": 30583,
+      "tgViews": 20638,
+      "tgShare": 0.79,
+      "engagements": 2430,
+      "clicks": 374,
+      "orders": 106.3,
+      "revenue": 265851,
+      "roas": 10.43,
+      "recallLiftPts": 6.5,
+      "costPerTgView": 1.24,
+      "costPerEngagement": 10.49,
+      "costPerClick": 68.18
+     },
+     "why": [
+      "Link CTR 1.16%, top 11% of micro creators; trust index 1.39",
+      "Audience matches the brief: 17% women (target 30%), 93% age overlap, 82% city-tier overlap",
+      "Personal Finance is a core category for Groww, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 10.4× ROAS on ₹26K, about 106 orders"
+     ],
+     "risks": [
+      "Posted for Upstox 65 days ago (outside the 60-day window)"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1114",
+     "name": "Tanvi R.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Education & Careers",
+     "tier": "Mid-tier",
+     "followers": 254770,
+     "city": "Jaipur",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.9,
+     "parts": {
+      "aud": 88,
+      "cont": 74,
+      "cult": 97,
+      "perf": 72,
+      "auth": 78,
+      "safe": 84,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 15.8,
+      "cont": 10.3,
+      "cult": 7.8,
+      "perf": 18.6,
+      "auth": 11,
+      "safe": 6.7,
+      "cost": 11.8
+     },
+     "confidence": "Low",
+     "er": 0.85,
+     "linkCtr": 1.23,
+     "realFollowers": 88.3,
+     "viewThrough": 34.7,
+     "hold3s": 64.4,
+     "sponsoredShare": 18,
+     "adDisclosure": 69,
+     "safety": 94,
+     "audienceWomen": 0.252,
+     "forecast": {
+      "cost": 77000,
+      "views": 94705,
+      "tgViews": 70006,
+      "tgShare": 0.84,
+      "engagements": 3236,
+      "clicks": 957,
+      "orders": 207.5,
+      "revenue": 518723,
+      "roas": 6.74,
+      "recallLiftPts": 5.1,
+      "costPerTgView": 1.1,
+      "costPerEngagement": 23.8,
+      "costPerClick": 80.49
+     },
+     "why": [
+      "Link CTR 1.23%, top 11% of mid-tier creators; trust index 1.13",
+      "Audience matches the brief: 25% women (target 30%), 82% age overlap, 96% city-tier overlap",
+      "Forecast 6.7× ROAS on ₹77K, about 207 orders",
+      "88% of followers look real and active; 18% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Discloses #ad on only 69% of paid posts. Brief on disclosure in the first line",
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1339",
+     "name": "Meher C.",
+     "niche": "Personal Finance",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 20415,
+     "city": "Lucknow",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": "SEBI-registered RIA",
+     "fit": 81,
+     "parts": {
+      "aud": 92,
+      "cont": 86,
+      "cult": 100,
+      "perf": 75,
+      "auth": 77,
+      "safe": 83,
+      "cost": 60
+     },
+     "contributions": {
+      "aud": 16.6,
+      "cont": 12.1,
+      "cult": 8,
+      "perf": 19.6,
+      "auth": 10.8,
+      "safe": 6.7,
+      "cost": 7.2
+     },
+     "confidence": "Medium",
+     "er": 3.27,
+     "linkCtr": 1.12,
+     "realFollowers": 88.9,
+     "viewThrough": 38.4,
+     "hold3s": 59,
+     "sponsoredShare": 24,
+     "adDisclosure": 73,
+     "safety": 90,
+     "audienceWomen": 0.351,
+     "forecast": {
+      "cost": 10000,
+      "views": 3028,
+      "tgViews": 2338,
+      "tgShare": 0.87,
+      "engagements": 668,
+      "clicks": 25,
+      "orders": 5.4,
+      "revenue": 13535,
+      "roas": 1.35,
+      "recallLiftPts": 6.5,
+      "costPerTgView": 4.28,
+      "costPerEngagement": 14.98,
+      "costPerClick": 404.24
+     },
+     "why": [
+      "Link CTR 1.12%, top 14% of micro creators; trust index 1.07",
+      "Audience matches the brief: 35% women (target 30%), 84% age overlap, 94% city-tier overlap",
+      "Personal Finance is a core category for Groww, with lifestyle &amp; vlogs as a second pillar",
+      "89% of followers look real and active; 24% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Discloses #ad on only 73% of paid posts. Brief on disclosure in the first line",
+      "Posted for INDmoney 105 days ago (outside the 60-day window)"
+     ]
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1079",
+     "name": "Janhvi D.",
+     "niche": "Education & Careers",
+     "niche2": "Tech & Gadgets",
+     "tier": "Micro",
+     "followers": 25128,
+     "city": "Pune",
+     "languages": [
+      "Marathi",
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.1,
+     "parts": {
+      "aud": 75,
+      "cont": 81,
+      "cult": 69,
+      "perf": 75,
+      "auth": 75,
+      "safe": 86,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 13.5,
+      "cont": 11.4,
+      "cult": 5.5,
+      "perf": 19.6,
+      "auth": 10.5,
+      "safe": 6.9,
+      "cost": 11.8
+     },
+     "confidence": "High",
+     "er": 3.01,
+     "linkCtr": 1.27,
+     "realFollowers": 88.7,
+     "viewThrough": 47.3,
+     "hold3s": 72.1,
+     "sponsoredShare": 36,
+     "adDisclosure": 86,
+     "safety": 86,
+     "audienceWomen": 0.41,
+     "forecast": {
+      "cost": 8000,
+      "views": 11683,
+      "tgViews": 7788,
+      "tgShare": 0.75,
+      "engagements": 892,
+      "clicks": 131,
+      "orders": 27.1,
+      "revenue": 67758,
+      "roas": 8.47,
+      "recallLiftPts": 3.2,
+      "costPerTgView": 1.03,
+      "costPerEngagement": 8.97,
+      "costPerClick": 61.24
+     },
+     "why": [
+      "Link CTR 1.27%, top 5% of micro creators; trust index 1.04",
+      "Audience matches the brief: 41% women (target 30%), 73% age overlap, 84% city-tier overlap",
+      "Forecast 8.5× ROAS on ₹8K, about 27 orders",
+      "Education &amp; Careers is a strong category for Groww, with tech &amp; gadgets as a second pillar"
+     ],
+     "risks": [
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)"
+     ]
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1299",
+     "name": "Rakesh G.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Education & Careers",
+     "tier": "Mid-tier",
+     "followers": 164917,
+     "city": "Bengaluru",
+     "languages": [
+      "Kannada",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.5,
+     "parts": {
+      "aud": 91,
+      "cont": 74,
+      "cult": 78,
+      "perf": 69,
+      "auth": 67,
+      "safe": 85,
+      "cost": 96
+     },
+     "contributions": {
+      "aud": 16.4,
+      "cont": 10.3,
+      "cult": 6.2,
+      "perf": 17.9,
+      "auth": 9.4,
+      "safe": 6.8,
+      "cost": 11.5
+     },
+     "confidence": "Medium",
+     "er": 0.86,
+     "linkCtr": 1.19,
+     "realFollowers": 83.4,
+     "viewThrough": 43.7,
+     "hold3s": 85,
+     "sponsoredShare": 31,
+     "adDisclosure": 83,
+     "safety": 86,
+     "audienceWomen": 0.317,
+     "forecast": {
+      "cost": 69000,
+      "views": 66931,
+      "tgViews": 48002,
+      "tgShare": 0.86,
+      "engagements": 2111,
+      "clicks": 623,
+      "orders": 131.6,
+      "revenue": 329105,
+      "roas": 4.77,
+      "recallLiftPts": 5.6,
+      "costPerTgView": 1.44,
+      "costPerEngagement": 32.69,
+      "costPerClick": 110.67
+     },
+     "why": [
+      "Link CTR 1.19%, top 13% of mid-tier creators; trust index 1.10",
+      "Audience matches the brief: 32% women (target 30%), 88% age overlap, 89% city-tier overlap",
+      "Forecast 4.8× ROAS on ₹69K, about 132 orders",
+      "Tech &amp; Gadgets is a strong category for Groww, with education &amp; careers as a second pillar"
+     ],
+     "risks": [
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)"
+     ]
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1327",
+     "name": "Ishaan K.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Auto & Bikes",
+     "tier": "Nano",
+     "followers": 8356,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.1,
+     "parts": {
+      "aud": 94,
+      "cont": 54,
+      "cult": 75,
+      "perf": 69,
+      "auth": 76,
+      "safe": 94,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 16.9,
+      "cont": 7.5,
+      "cult": 6,
+      "perf": 17.9,
+      "auth": 10.6,
+      "safe": 7.5,
+      "cost": 11.7
+     },
+     "confidence": "Low",
+     "er": 3.98,
+     "linkCtr": 1.27,
+     "realFollowers": 87.6,
+     "viewThrough": 35.4,
+     "hold3s": 50.8,
+     "sponsoredShare": 30,
+     "adDisclosure": 93,
+     "safety": 95,
+     "audienceWomen": 0.254,
+     "forecast": {
+      "cost": 3000,
+      "views": 4155,
+      "tgViews": 3205,
+      "tgShare": 0.88,
+      "engagements": 393,
+      "clicks": 43,
+      "orders": 6.7,
+      "revenue": 16869,
+      "roas": 5.62,
+      "recallLiftPts": 1.7,
+      "costPerTgView": 0.94,
+      "costPerEngagement": 7.64,
+      "costPerClick": 70.27
+     },
+     "why": [
+      "Link CTR 1.27%, top 5% of nano creators; trust index 0.92",
+      "Audience matches the brief: 25% women (target 30%), 88% age overlap, 96% city-tier overlap",
+      "Forecast 5.6× ROAS on ₹3K, about 7 orders",
+      "88% of followers look real and active; 30% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1378",
+     "name": "Omkar T.",
+     "niche": "Personal Finance",
+     "niche2": "Tech & Gadgets",
+     "tier": "Mega",
+     "followers": 4620210,
+     "city": "Pune",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": "SEBI-registered RIA",
+     "fit": 77.8,
+     "parts": {
+      "aud": 83,
+      "cont": 93,
+      "cult": 78,
+      "perf": 64,
+      "auth": 69,
+      "safe": 80,
+      "cost": 92
+     },
+     "contributions": {
+      "aud": 14.9,
+      "cont": 13,
+      "cult": 6.2,
+      "perf": 16.7,
+      "auth": 9.7,
+      "safe": 6.4,
+      "cost": 11
+     },
+     "confidence": "Medium",
+     "er": 0.32,
+     "linkCtr": 1.14,
+     "realFollowers": 84.5,
+     "viewThrough": 46.4,
+     "hold3s": 60.1,
+     "sponsoredShare": 31,
+     "adDisclosure": 80,
+     "safety": 80,
+     "audienceWomen": 0.157,
+     "forecast": {
+      "cost": 1434500,
+      "views": 864686,
+      "tgViews": 587516,
+      "tgShare": 0.8,
+      "engagements": 25873,
+      "clicks": 9914,
+      "orders": 1839.4,
+      "revenue": 4598454,
+      "roas": 3.21,
+      "recallLiftPts": 5.4,
+      "costPerTgView": 2.44,
+      "costPerEngagement": 55.44,
+      "costPerClick": 144.7
+     },
+     "why": [
+      "Link CTR 1.14%, top 12% of mega creators; trust index 0.88",
+      "Audience matches the brief: 16% women (target 30%), 87% age overlap, 94% city-tier overlap",
+      "Personal Finance is a core category for Groww, with tech &amp; gadgets as a second pillar",
+      "Forecast 3.2× ROAS on ₹14.3L, about 1.8K orders"
+     ],
+     "risks": [
+      "Posted for Upstox 101 days ago (outside the 60-day window)"
+     ]
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1185",
+     "name": "Manav R.",
+     "niche": "Tech & Gadgets",
+     "niche2": "Education & Careers",
+     "tier": "Mid-tier",
+     "followers": 155314,
+     "city": "Chandigarh",
+     "languages": [
+      "Punjabi",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.8,
+     "parts": {
+      "aud": 78,
+      "cont": 74,
+      "cult": 100,
+      "perf": 64,
+      "auth": 77,
+      "safe": 80,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 14.1,
+      "cont": 10.3,
+      "cult": 8,
+      "perf": 16.5,
+      "auth": 10.8,
+      "safe": 6.4,
+      "cost": 11.7
+     },
+     "confidence": "Medium",
+     "er": 0.89,
+     "linkCtr": 1.09,
+     "realFollowers": 89.6,
+     "viewThrough": 45,
+     "hold3s": 66,
+     "sponsoredShare": 26,
+     "adDisclosure": 81,
+     "safety": 79,
+     "audienceWomen": 0.15,
+     "forecast": {
+      "cost": 40000,
+      "views": 49526,
+      "tgViews": 34334,
+      "tgShare": 0.77,
+      "engagements": 2035,
+      "clicks": 484,
+      "orders": 101.3,
+      "revenue": 253273,
+      "roas": 6.33,
+      "recallLiftPts": 7.6,
+      "costPerTgView": 1.17,
+      "costPerEngagement": 19.66,
+      "costPerClick": 82.6
+     },
+     "why": [
+      "Link CTR 1.09%, top 22% of mid-tier creators; trust index 1.09",
+      "Audience matches the brief: 15% women (target 30%), 87% age overlap, 81% city-tier overlap",
+      "Forecast 6.3× ROAS on ₹40K, about 101 orders",
+      "90% of followers look real and active; 26% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Brand-scripted only: no return or advice claims (SEBI, ASCI)"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 55,
+    "spend": 2399000,
+    "views": 2654652,
+    "tgViews": 1685623,
+    "uniqueTgReach": 1040748,
+    "engagements": 131285,
+    "clicks": 17639,
+    "orders": 3110,
+    "revenue": 7774807,
+    "roas": 3.24,
+    "recallLiftPts": 4.4,
+    "fakeAudienceShare": 0.14,
+    "gatedIncluded": 0,
+    "representCreators": 2,
+    "representSpend": 120000,
+    "forecastBandPct": 24,
+    "spendByTier": {
+     "micro": 425500,
+     "mid": 1424500,
+     "nano": 21000,
+     "macro": 528000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 2383000,
+    "views": 2046161,
+    "tgViews": 882336,
+    "uniqueTgReach": 546439,
+    "engagements": 49396,
+    "clicks": 6401,
+    "orders": 695,
+    "revenue": 1736774,
+    "roas": 0.73,
+    "recallLiftPts": 2.1,
+    "fakeAudienceShare": 0.43,
+    "gatedIncluded": 2,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 18,
+    "spendByTier": {
+     "mega": 2383000
+    }
+   },
+   "planCreators": [
+    "Yash S. (Micro, Education & Careers)",
+    "Akhil A. (Micro, Personal Finance)",
+    "Anirban Y. (Micro, Personal Finance)",
+    "Mansi B. (Micro, Tech & Gadgets)",
+    "Tanvi R. (Mid-tier, Tech & Gadgets)",
+    "Janhvi D. (Micro, Education & Careers)",
+    "Manav R. (Mid-tier, Tech & Gadgets)",
+    "Sai G. (Micro, Education & Careers)",
+    "Tanvi S. (Micro, Tech & Gadgets)",
+    "Rakesh G. (Mid-tier, Tech & Gadgets)",
+    "Pavithra T. (Nano, Education & Careers)",
+    "Devang P. (Mid-tier, Education & Careers)"
+   ]
+  }
+ }
+}

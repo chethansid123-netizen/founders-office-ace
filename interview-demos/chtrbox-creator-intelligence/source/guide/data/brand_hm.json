@@ -1,0 +1,1779 @@
+{
+ "id": "hm",
+ "name": "H&M",
+ "parent": "H&M India",
+ "vertical": "fashion",
+ "sub": "Fast fashion",
+ "status": "Reported client",
+ "defaultObjective": "consideration",
+ "brief": "Lead the Gen-Z 'fit check' with styling that mixes desi and global.",
+ "moment": "End-of-season sale · Dec–Jan",
+ "budgetLakh": 15,
+ "target": {
+  "fem": 0.6,
+  "age": [
+   0.08,
+   0.5,
+   0.32,
+   0.07,
+   0.03
+  ],
+  "tiers": [
+   0.62,
+   0.3,
+   0.08
+  ],
+  "affl": 0.62
+ },
+ "languages": {
+  "English": 1,
+  "Hinglish": 0.9,
+  "Hindi": 0.45
+ },
+ "codes": [
+  "Gen-Z humour",
+  "Sustainability",
+  "Aspirational luxury",
+  "Desi-modern"
+ ],
+ "affinity": {
+  "fashion": 1,
+  "lifestyle": 0.85,
+  "beauty": 0.6,
+  "music": 0.55,
+  "travel": 0.55
+ },
+ "competitors": [
+  "Zara",
+  "Uniqlo",
+  "Max Fashion",
+  "Bewakoof"
+ ],
+ "compliance": null,
+ "aov": 1800,
+ "conversionRate": 0.025,
+ "kpis": [
+  "Saves per view",
+  "PDP clicks",
+  "Store visits"
+ ],
+ "markets": [
+  "India",
+  "UAE"
+ ],
+ "tgPoolMillions": 60,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 373,
+   "gated": 47,
+   "gatesByReason": {
+    "conflict": 13,
+    "safety": 4,
+    "fraud": 32
+   },
+   "gatedExamples": [
+    {
+     "name": "Rahul N.",
+     "id": "CIE-1074",
+     "reasons": [
+      "Posted for Zara 25 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Shreya G.",
+     "id": "CIE-1221",
+     "reasons": [
+      "Posted for Zara 42 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Nithya C.",
+     "id": "CIE-1306",
+     "reasons": [
+      "Brand-safety score 47: profanity in recent content, past controversy (2025)"
+     ]
+    },
+    {
+     "name": "Aisha M.",
+     "id": "CIE-1046",
+     "reasons": [
+      "Posted for Uniqlo 28 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1083",
+     "name": "Mitali B.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Micro",
+     "followers": 30216,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 86.7,
+     "parts": {
+      "aud": 82,
+      "cont": 90,
+      "cult": 95,
+      "perf": 76,
+      "auth": 85,
+      "safe": 92,
+      "cost": 95
+     },
+     "contributions": {
+      "aud": 18,
+      "cont": 13.5,
+      "cult": 13.2,
+      "perf": 11.3,
+      "auth": 12,
+      "safe": 9.2,
+      "cost": 9.5
+     },
+     "confidence": "Low",
+     "er": 2.34,
+     "linkCtr": 0.51,
+     "realFollowers": 90,
+     "viewThrough": 55.3,
+     "hold3s": 55.1,
+     "sponsoredShare": 4,
+     "adDisclosure": 94,
+     "safety": 90,
+     "audienceWomen": 0.705,
+     "forecast": {
+      "cost": 9500,
+      "views": 13910,
+      "tgViews": 9988,
+      "tgShare": 0.8,
+      "engagements": 870,
+      "clicks": 67,
+      "orders": 6.2,
+      "revenue": 11249,
+      "roas": 1.18,
+      "recallLiftPts": 9.8,
+      "costPerTgView": 0.95,
+      "costPerEngagement": 10.92,
+      "costPerClick": 142.5
+     },
+     "why": [
+      "Audience matches the brief: 71% women (target 60%), 84% age overlap, 80% city-tier overlap",
+      "Fashion &amp; Style is a core category for H&amp;M, with beauty &amp; skincare as a second pillar",
+      "Creates in Hinglish, H&amp;M's lead language; shares the Desi-modern and Gen-Z humour codes",
+      "90% of followers look real and active; 4% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1216",
+     "name": "Dhwani M.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Micro",
+     "followers": 11990,
+     "city": "Mumbai",
+     "languages": [
+      "Marathi",
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 85.1,
+     "parts": {
+      "aud": 79,
+      "cont": 90,
+      "cult": 100,
+      "perf": 83,
+      "auth": 74,
+      "safe": 87,
+      "cost": 89
+     },
+     "contributions": {
+      "aud": 17.3,
+      "cont": 13.5,
+      "cult": 14,
+      "perf": 12.4,
+      "auth": 10.3,
+      "safe": 8.7,
+      "cost": 8.9
+     },
+     "confidence": "Medium",
+     "er": 3.79,
+     "linkCtr": 0.9,
+     "realFollowers": 86.2,
+     "viewThrough": 54.2,
+     "hold3s": 68.6,
+     "sponsoredShare": 29,
+     "adDisclosure": 92,
+     "safety": 83,
+     "audienceWomen": 0.736,
+     "forecast": {
+      "cost": 5000,
+      "views": 6695,
+      "tgViews": 4481,
+      "tgShare": 0.78,
+      "engagements": 519,
+      "clicks": 51,
+      "orders": 4,
+      "revenue": 7172,
+      "roas": 1.43,
+      "recallLiftPts": 7.8,
+      "costPerTgView": 1.12,
+      "costPerEngagement": 9.63,
+      "costPerClick": 98.04
+     },
+     "why": [
+      "Audience matches the brief: 74% women (target 60%), 99% age overlap, 62% city-tier overlap",
+      "Creates in Marathi + English, H&amp;M's lead language; shares the Aspirational luxury and Gen-Z humour codes",
+      "Fashion &amp; Style is a core category for H&amp;M, with beauty &amp; skincare as a second pillar",
+      "Viewers watch 54% of each video, top 8% of micro creators; past recall lift +7.7 pts"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1104",
+     "name": "Karan Y.",
+     "niche": "Fashion & Style",
+     "niche2": "Travel",
+     "tier": "Micro",
+     "followers": 39673,
+     "city": "Delhi NCR",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.7,
+     "parts": {
+      "aud": 100,
+      "cont": 89,
+      "cult": 78,
+      "perf": 70,
+      "auth": 73,
+      "safe": 79,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 22,
+      "cont": 13.3,
+      "cult": 10.9,
+      "perf": 10.6,
+      "auth": 10.2,
+      "safe": 7.9,
+      "cost": 9.9
+     },
+     "confidence": "Low",
+     "er": 3.18,
+     "linkCtr": 1.04,
+     "realFollowers": 86.2,
+     "viewThrough": 50.2,
+     "hold3s": 67.5,
+     "sponsoredShare": 28,
+     "adDisclosure": 90,
+     "safety": 71,
+     "audienceWomen": 0.644,
+     "forecast": {
+      "cost": 13500,
+      "views": 23658,
+      "tgViews": 18980,
+      "tgShare": 0.93,
+      "engagements": 1476,
+      "clicks": 200,
+      "orders": 19.5,
+      "revenue": 35048,
+      "roas": 2.6,
+      "recallLiftPts": 6.8,
+      "costPerTgView": 0.71,
+      "costPerEngagement": 9.15,
+      "costPerClick": 67.59
+     },
+     "why": [
+      "Audience matches the brief: 64% women (target 60%), 95% age overlap, 95% city-tier overlap",
+      "Fashion &amp; Style is a core category for H&amp;M, with travel as a second pillar",
+      "Creates in English, H&amp;M's lead language; shares the Aspirational luxury codes",
+      "Viewers watch 50% of each video, top 21% of micro creators; past recall lift +6.4 pts"
+     ],
+     "risks": [
+      "Past controversy (2025)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1232",
+     "name": "Abhinav C.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 250682,
+     "city": "Bengaluru",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.6,
+     "parts": {
+      "aud": 91,
+      "cont": 96,
+      "cult": 100,
+      "perf": 60,
+      "auth": 63,
+      "safe": 93,
+      "cost": 90
+     },
+     "contributions": {
+      "aud": 20.1,
+      "cont": 14.4,
+      "cult": 14,
+      "perf": 9.1,
+      "auth": 8.8,
+      "safe": 9.3,
+      "cost": 9
+     },
+     "confidence": "Medium",
+     "er": 0.98,
+     "linkCtr": 1.56,
+     "realFollowers": 80.5,
+     "viewThrough": 42.4,
+     "hold3s": 68.8,
+     "sponsoredShare": 19,
+     "adDisclosure": 87,
+     "safety": 97,
+     "audienceWomen": 0.689,
+     "forecast": {
+      "cost": 57500,
+      "views": 76163,
+      "tgViews": 52784,
+      "tgShare": 0.86,
+      "engagements": 3510,
+      "clicks": 1280,
+      "orders": 108.8,
+      "revenue": 195764,
+      "roas": 3.4,
+      "recallLiftPts": 7.6,
+      "costPerTgView": 1.09,
+      "costPerEngagement": 16.38,
+      "costPerClick": 44.91
+     },
+     "why": [
+      "Audience matches the brief: 69% women (target 60%), 93% age overlap, 91% city-tier overlap",
+      "Fashion &amp; Style is a core category for H&amp;M, with lifestyle &amp; vlogs as a second pillar",
+      "Creates in English, H&amp;M's lead language; shares the Aspirational luxury and Gen-Z humour codes",
+      "Safety score 97; discloses #ad on 87% of paid posts"
+     ],
+     "risks": [
+      "Posted for Bewakoof 76 days ago (outside the 60-day window)"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1024",
+     "name": "Hetal C.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 173129,
+     "city": "Surat",
+     "languages": [
+      "Gujarati",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.3,
+     "parts": {
+      "aud": 72,
+      "cont": 96,
+      "cult": 95,
+      "perf": 88,
+      "auth": 69,
+      "safe": 91,
+      "cost": 80
+     },
+     "contributions": {
+      "aud": 15.7,
+      "cont": 14.4,
+      "cult": 13.2,
+      "perf": 13.2,
+      "auth": 9.6,
+      "safe": 9.1,
+      "cost": 8
+     },
+     "confidence": "Low",
+     "er": 1.19,
+     "linkCtr": 1.38,
+     "realFollowers": 83,
+     "viewThrough": 53.9,
+     "hold3s": 73.3,
+     "sponsoredShare": 20,
+     "adDisclosure": 92,
+     "safety": 90,
+     "audienceWomen": 0.728,
+     "forecast": {
+      "cost": 58500,
+      "views": 73249,
+      "tgViews": 44417,
+      "tgShare": 0.73,
+      "engagements": 2787,
+      "clicks": 903,
+      "orders": 77.5,
+      "revenue": 139567,
+      "roas": 2.39,
+      "recallLiftPts": 8.9,
+      "costPerTgView": 1.32,
+      "costPerEngagement": 20.99,
+      "costPerClick": 64.77
+     },
+     "why": [
+      "Audience matches the brief: 73% women (target 60%), 89% age overlap, 66% city-tier overlap",
+      "Fashion &amp; Style is a core category for H&amp;M, with lifestyle &amp; vlogs as a second pillar",
+      "Creates in Gujarati + Hinglish, H&amp;M's lead language; shares the Aspirational luxury and Sustainability codes",
+      "Viewers watch 54% of each video, top 12% of mid-tier creators; past recall lift +8.6 pts"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 43,
+    "spend": 1499500,
+    "views": 2311187,
+    "tgViews": 1572184,
+    "uniqueTgReach": 967376,
+    "engagements": 98490,
+    "clicks": 15731,
+    "orders": 1249,
+    "revenue": 2248303,
+    "roas": 1.5,
+    "recallLiftPts": 5.6,
+    "fakeAudienceShare": 0.12,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 49000,
+    "forecastBandPct": 22,
+    "spendByTier": {
+     "micro": 403000,
+     "mid": 903000,
+     "macro": 177500,
+     "nano": 16000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 3,
+    "spend": 1497000,
+    "views": 1536780,
+    "tgViews": 918712,
+    "uniqueTgReach": 568914,
+    "engagements": 53612,
+    "clicks": 5944,
+    "orders": 310,
+    "revenue": 558847,
+    "roas": 0.37,
+    "recallLiftPts": 2.7,
+    "fakeAudienceShare": 0.14,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 205500,
+    "forecastBandPct": 33,
+    "spendByTier": {
+     "mega": 1266500,
+     "macro": 205500,
+     "mid": 25000
+    }
+   },
+   "planCreators": [
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Keerthi J. (Mid-tier, Fashion & Style)",
+    "Varsha B. (Micro, Food & Cooking)",
+    "Ananya J. (Micro, Music & Dance)",
+    "Mitali B. (Micro, Fashion & Style)",
+    "Keerthi B. (Macro, Beauty & Skincare)",
+    "Karan Y. (Micro, Fashion & Style)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Rasika D. (Micro, Beauty & Skincare)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Riya D. (Micro, Beauty & Skincare)",
+    "Rehan G. (Nano, Fashion & Style)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 373,
+   "gated": 47,
+   "gatesByReason": {
+    "conflict": 13,
+    "safety": 4,
+    "fraud": 32
+   },
+   "gatedExamples": [
+    {
+     "name": "Shreya G.",
+     "id": "CIE-1221",
+     "reasons": [
+      "Posted for Zara 42 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Varsha Y.",
+     "id": "CIE-1078",
+     "reasons": [
+      "Posted for Zara 43 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Ananya R.",
+     "id": "CIE-1214",
+     "reasons": [
+      "Posted for Max Fashion 59 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Gauri B.",
+     "id": "CIE-1257",
+     "reasons": [
+      "Posted for Max Fashion 26 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1162",
+     "name": "Rehan G.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 3861,
+     "city": "Dubai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 86.7,
+     "parts": {
+      "aud": 100,
+      "cont": 96,
+      "cult": 72,
+      "perf": 80,
+      "auth": 87,
+      "safe": 83,
+      "cost": 73
+     },
+     "contributions": {
+      "aud": 20,
+      "cont": 17.3,
+      "cult": 7.2,
+      "perf": 16,
+      "auth": 12.2,
+      "safe": 6.7,
+      "cost": 7.3
+     },
+     "confidence": "Low",
+     "er": 5.16,
+     "linkCtr": 1,
+     "realFollowers": 97,
+     "viewThrough": 41.7,
+     "hold3s": 68.5,
+     "sponsoredShare": 34,
+     "adDisclosure": 85,
+     "safety": 82,
+     "audienceWomen": 0.617,
+     "forecast": {
+      "cost": 2500,
+      "views": 2935,
+      "tgViews": 2625,
+      "tgShare": 0.92,
+      "engagements": 227,
+      "clicks": 26,
+      "orders": 2.2,
+      "revenue": 4037,
+      "roas": 1.61,
+      "recallLiftPts": 3.7,
+      "costPerTgView": 0.95,
+      "costPerEngagement": 11.01,
+      "costPerClick": 97.69
+     },
+     "why": [
+      "Audience matches the brief: 62% women (target 60%), 91% age overlap, 94% city-tier overlap",
+      "Fashion &amp; Style is a core category for H&amp;M, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 5.2%, top 29% of nano creators; 3.7% of viewers save or share",
+      "97% of followers look real and active; 34% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1104",
+     "name": "Karan Y.",
+     "niche": "Fashion & Style",
+     "niche2": "Travel",
+     "tier": "Micro",
+     "followers": 39673,
+     "city": "Delhi NCR",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.6,
+     "parts": {
+      "aud": 100,
+      "cont": 89,
+      "cult": 78,
+      "perf": 79,
+      "auth": 73,
+      "safe": 79,
+      "cost": 85
+     },
+     "contributions": {
+      "aud": 20,
+      "cont": 16,
+      "cult": 7.8,
+      "perf": 15.8,
+      "auth": 10.2,
+      "safe": 6.3,
+      "cost": 8.5
+     },
+     "confidence": "Low",
+     "er": 3.18,
+     "linkCtr": 1.04,
+     "realFollowers": 86.2,
+     "viewThrough": 50.2,
+     "hold3s": 67.5,
+     "sponsoredShare": 28,
+     "adDisclosure": 90,
+     "safety": 71,
+     "audienceWomen": 0.644,
+     "forecast": {
+      "cost": 13500,
+      "views": 23658,
+      "tgViews": 18980,
+      "tgShare": 0.93,
+      "engagements": 1476,
+      "clicks": 200,
+      "orders": 19.5,
+      "revenue": 35048,
+      "roas": 2.6,
+      "recallLiftPts": 6.8,
+      "costPerTgView": 0.71,
+      "costPerEngagement": 9.15,
+      "costPerClick": 67.59
+     },
+     "why": [
+      "Audience matches the brief: 64% women (target 60%), 95% age overlap, 95% city-tier overlap",
+      "Fashion &amp; Style is a core category for H&amp;M, with travel as a second pillar",
+      "Engagement rate 3.2%, top 36% of micro creators; 3.5% of viewers save or share",
+      "86% of followers look real and active; 28% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Past controversy (2025)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1236",
+     "name": "Meera M.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Macro",
+     "followers": 562849,
+     "city": "Bengaluru",
+     "languages": [
+      "English"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 84.2,
+     "parts": {
+      "aud": 100,
+      "cont": 90,
+      "cult": 100,
+      "perf": 87,
+      "auth": 69,
+      "safe": 86,
+      "cost": 40
+     },
+     "contributions": {
+      "aud": 20,
+      "cont": 16.2,
+      "cult": 10,
+      "perf": 17.4,
+      "auth": 9.7,
+      "safe": 6.9,
+      "cost": 4
+     },
+     "confidence": "High",
+     "er": 1.54,
+     "linkCtr": 0.81,
+     "realFollowers": 84.3,
+     "viewThrough": 43.9,
+     "hold3s": 73.9,
+     "sponsoredShare": 32,
+     "adDisclosure": 81,
+     "safety": 90,
+     "audienceWomen": 0.605,
+     "forecast": {
+      "cost": 161000,
+      "views": 88554,
+      "tgViews": 69809,
+      "tgShare": 0.94,
+      "engagements": 8668,
+      "clicks": 537,
+      "orders": 46.6,
+      "revenue": 83828,
+      "roas": 0.52,
+      "recallLiftPts": 4.3,
+      "costPerTgView": 2.31,
+      "costPerEngagement": 18.57,
+      "costPerClick": 300.08
+     },
+     "why": [
+      "Audience matches the brief: 61% women (target 60%), 92% age overlap, 98% city-tier overlap",
+      "Engagement rate 1.5%, top 4% of macro creators; 2.7% of viewers save or share",
+      "Fashion &amp; Style is a core category for H&amp;M, with beauty &amp; skincare as a second pillar",
+      "Creates in English, H&amp;M's lead language; shares the Aspirational luxury and Gen-Z humour codes"
+     ],
+     "risks": [
+      "Posted for Uniqlo 61 days ago (outside the 60-day window)"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1234",
+     "name": "Rasika S.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 200382,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 81.6,
+     "parts": {
+      "aud": 95,
+      "cont": 96,
+      "cult": 95,
+      "perf": 73,
+      "auth": 70,
+      "safe": 89,
+      "cost": 43
+     },
+     "contributions": {
+      "aud": 18.9,
+      "cont": 17.3,
+      "cult": 9.5,
+      "perf": 14.7,
+      "auth": 9.7,
+      "safe": 7.1,
+      "cost": 4.3
+     },
+     "confidence": "Medium",
+     "er": 2.05,
+     "linkCtr": 1.14,
+     "realFollowers": 82.7,
+     "viewThrough": 45.3,
+     "hold3s": 68.3,
+     "sponsoredShare": 12,
+     "adDisclosure": 94,
+     "safety": 86,
+     "audienceWomen": 0.682,
+     "forecast": {
+      "cost": 74000,
+      "views": 15962,
+      "tgViews": 11676,
+      "tgShare": 0.88,
+      "engagements": 4108,
+      "clicks": 142,
+      "orders": 14.8,
+      "revenue": 26694,
+      "roas": 0.36,
+      "recallLiftPts": 5.7,
+      "costPerTgView": 6.34,
+      "costPerEngagement": 18.01,
+      "costPerClick": 522.08
+     },
+     "why": [
+      "Audience matches the brief: 68% women (target 60%), 96% age overlap, 88% city-tier overlap",
+      "Fashion &amp; Style is a core category for H&amp;M, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 2.0%, top 8% of mid-tier creators; 3.1% of viewers save or share",
+      "83% of followers look real and active; 12% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1216",
+     "name": "Dhwani M.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Micro",
+     "followers": 11990,
+     "city": "Mumbai",
+     "languages": [
+      "Marathi",
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.5,
+     "parts": {
+      "aud": 79,
+      "cont": 90,
+      "cult": 100,
+      "perf": 66,
+      "auth": 74,
+      "safe": 87,
+      "cost": 82
+     },
+     "contributions": {
+      "aud": 15.7,
+      "cont": 16.2,
+      "cult": 10,
+      "perf": 13.1,
+      "auth": 10.3,
+      "safe": 6.9,
+      "cost": 8.2
+     },
+     "confidence": "Medium",
+     "er": 3.79,
+     "linkCtr": 0.9,
+     "realFollowers": 86.2,
+     "viewThrough": 54.2,
+     "hold3s": 68.6,
+     "sponsoredShare": 29,
+     "adDisclosure": 92,
+     "safety": 83,
+     "audienceWomen": 0.736,
+     "forecast": {
+      "cost": 5000,
+      "views": 6695,
+      "tgViews": 4481,
+      "tgShare": 0.78,
+      "engagements": 519,
+      "clicks": 51,
+      "orders": 4,
+      "revenue": 7172,
+      "roas": 1.43,
+      "recallLiftPts": 7.8,
+      "costPerTgView": 1.12,
+      "costPerEngagement": 9.63,
+      "costPerClick": 98.04
+     },
+     "why": [
+      "Fashion &amp; Style is a core category for H&amp;M, with beauty &amp; skincare as a second pillar",
+      "Audience matches the brief: 74% women (target 60%), 99% age overlap, 62% city-tier overlap",
+      "Engagement rate 3.8%, top 18% of micro creators; 1.8% of viewers save or share",
+      "86% of followers look real and active; 29% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1345",
+     "name": "Aanya R.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Nano",
+     "followers": 8388,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.1,
+     "parts": {
+      "aud": 85,
+      "cont": 90,
+      "cult": 72,
+      "perf": 50,
+      "auth": 92,
+      "safe": 85,
+      "cost": 90
+     },
+     "contributions": {
+      "aud": 17,
+      "cont": 16.2,
+      "cult": 7.2,
+      "perf": 10,
+      "auth": 12.9,
+      "safe": 6.8,
+      "cost": 9
+     },
+     "confidence": "Low",
+     "er": 4.96,
+     "linkCtr": 1.11,
+     "realFollowers": 95.7,
+     "viewThrough": 38.3,
+     "hold3s": 77.2,
+     "sponsoredShare": 21,
+     "adDisclosure": 87,
+     "safety": 83,
+     "audienceWomen": 0.731,
+     "forecast": {
+      "cost": 4000,
+      "views": 4633,
+      "tgViews": 3630,
+      "tgShare": 0.82,
+      "engagements": 476,
+      "clicks": 51,
+      "orders": 4.6,
+      "revenue": 8267,
+      "roas": 2.07,
+      "recallLiftPts": 3.5,
+      "costPerTgView": 1.1,
+      "costPerEngagement": 8.4,
+      "costPerClick": 77.86
+     },
+     "why": [
+      "Audience matches the brief: 73% women (target 60%), 88% age overlap, 84% city-tier overlap",
+      "Fashion &amp; Style is a core category for H&amp;M, with beauty &amp; skincare as a second pillar",
+      "96% of followers look real and active; 21% of recent posts are sponsored",
+      "Engagement rate 5.0%, top 32% of nano creators; 1.6% of viewers save or share"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1208",
+     "name": "Sahil Y.",
+     "niche": "Lifestyle & Vlogs",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 42312,
+     "city": "Mumbai",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Moj",
+     "represent": false,
+     "credential": null,
+     "fit": 77.8,
+     "parts": {
+      "aud": 88,
+      "cont": 89,
+      "cult": 78,
+      "perf": 42,
+      "auth": 91,
+      "safe": 91,
+      "cost": 82
+     },
+     "contributions": {
+      "aud": 17.6,
+      "cont": 16,
+      "cult": 7.8,
+      "perf": 8.4,
+      "auth": 12.7,
+      "safe": 7.2,
+      "cost": 8.2
+     },
+     "confidence": "Medium",
+     "er": 3.58,
+     "linkCtr": 0.75,
+     "realFollowers": 95.5,
+     "viewThrough": 46.3,
+     "hold3s": 66.8,
+     "sponsoredShare": 13,
+     "adDisclosure": 78,
+     "safety": 99,
+     "audienceWomen": 0.453,
+     "forecast": {
+      "cost": 17000,
+      "views": 14833,
+      "tgViews": 11866,
+      "tgShare": 0.84,
+      "engagements": 1743,
+      "clicks": 122,
+      "orders": 10.6,
+      "revenue": 19144,
+      "roas": 1.13,
+      "recallLiftPts": 5.7,
+      "costPerTgView": 1.43,
+      "costPerEngagement": 9.75,
+      "costPerClick": 139.28
+     },
+     "why": [
+      "Audience matches the brief: 45% women (target 60%), 84% age overlap, 96% city-tier overlap",
+      "Lifestyle &amp; Vlogs is a core category for H&amp;M, with fashion &amp; style as a second pillar",
+      "96% of followers look real and active; 13% of recent posts are sponsored",
+      "Engagement rate 3.6%, top 26% of micro creators; 1.0% of viewers save or share"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1083",
+     "name": "Mitali B.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Micro",
+     "followers": 30216,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 77.7,
+     "parts": {
+      "aud": 82,
+      "cont": 90,
+      "cult": 95,
+      "perf": 45,
+      "auth": 85,
+      "safe": 92,
+      "cost": 73
+     },
+     "contributions": {
+      "aud": 16.4,
+      "cont": 16.2,
+      "cult": 9.5,
+      "perf": 9.1,
+      "auth": 12,
+      "safe": 7.3,
+      "cost": 7.3
+     },
+     "confidence": "Low",
+     "er": 2.34,
+     "linkCtr": 0.51,
+     "realFollowers": 90,
+     "viewThrough": 55.3,
+     "hold3s": 55.1,
+     "sponsoredShare": 4,
+     "adDisclosure": 94,
+     "safety": 90,
+     "audienceWomen": 0.705,
+     "forecast": {
+      "cost": 9500,
+      "views": 13910,
+      "tgViews": 9988,
+      "tgShare": 0.8,
+      "engagements": 870,
+      "clicks": 67,
+      "orders": 6.2,
+      "revenue": 11249,
+      "roas": 1.18,
+      "recallLiftPts": 9.8,
+      "costPerTgView": 0.95,
+      "costPerEngagement": 10.92,
+      "costPerClick": 142.5
+     },
+     "why": [
+      "Audience matches the brief: 71% women (target 60%), 84% age overlap, 80% city-tier overlap",
+      "Fashion &amp; Style is a core category for H&amp;M, with beauty &amp; skincare as a second pillar",
+      "90% of followers look real and active; 4% of recent posts are sponsored",
+      "Creates in Hinglish, H&amp;M's lead language; shares the Desi-modern and Gen-Z humour codes"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1405",
+     "name": "Hrishikesh N.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Micro",
+     "followers": 24840,
+     "city": "Mumbai",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 77.2,
+     "parts": {
+      "aud": 94,
+      "cont": 90,
+      "cult": 47,
+      "perf": 64,
+      "auth": 80,
+      "safe": 75,
+      "cost": 75
+     },
+     "contributions": {
+      "aud": 18.8,
+      "cont": 16.2,
+      "cult": 4.7,
+      "perf": 12.9,
+      "auth": 11.1,
+      "safe": 6,
+      "cost": 7.5
+     },
+     "confidence": "Low",
+     "er": 3.38,
+     "linkCtr": 1.13,
+     "realFollowers": 90,
+     "viewThrough": 39.5,
+     "hold3s": 57.8,
+     "sponsoredShare": 25,
+     "adDisclosure": 93,
+     "safety": 63,
+     "audienceWomen": 0.558,
+     "forecast": {
+      "cost": 9000,
+      "views": 6115,
+      "tgViews": 4846,
+      "tgShare": 0.88,
+      "engagements": 840,
+      "clicks": 52,
+      "orders": 5,
+      "revenue": 9045,
+      "roas": 1,
+      "recallLiftPts": 7.1,
+      "costPerTgView": 1.86,
+      "costPerEngagement": 10.72,
+      "costPerClick": 174.13
+     },
+     "why": [
+      "Audience matches the brief: 56% women (target 60%), 91% age overlap, 86% city-tier overlap",
+      "Fashion &amp; Style is a core category for H&amp;M, with beauty &amp; skincare as a second pillar",
+      "Engagement rate 3.4%, top 29% of micro creators; 2.5% of viewers save or share",
+      "90% of followers look real and active; 25% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Past controversy (2025)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1375",
+     "name": "Ananya A.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Micro",
+     "followers": 94368,
+     "city": "Mysuru",
+     "languages": [
+      "Kannada",
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 76.2,
+     "parts": {
+      "aud": 76,
+      "cont": 90,
+      "cult": 78,
+      "perf": 56,
+      "auth": 75,
+      "safe": 94,
+      "cost": 76
+     },
+     "contributions": {
+      "aud": 15.3,
+      "cont": 16.2,
+      "cult": 7.8,
+      "perf": 11.3,
+      "auth": 10.6,
+      "safe": 7.5,
+      "cost": 7.6
+     },
+     "confidence": "Low",
+     "er": 3.65,
+     "linkCtr": 0.55,
+     "realFollowers": 85.2,
+     "viewThrough": 44.1,
+     "hold3s": 62.4,
+     "sponsoredShare": 4,
+     "adDisclosure": 100,
+     "safety": 90,
+     "audienceWomen": 0.721,
+     "forecast": {
+      "cost": 41500,
+      "views": 45377,
+      "tgViews": 29473,
+      "tgShare": 0.76,
+      "engagements": 3954,
+      "clicks": 229,
+      "orders": 19.9,
+      "revenue": 35761,
+      "roas": 0.86,
+      "recallLiftPts": 6.9,
+      "costPerTgView": 1.41,
+      "costPerEngagement": 10.5,
+      "costPerClick": 181.31
+     },
+     "why": [
+      "Fashion &amp; Style is a core category for H&amp;M, with beauty &amp; skincare as a second pillar",
+      "Audience matches the brief: 72% women (target 60%), 92% age overlap, 63% city-tier overlap",
+      "Engagement rate 3.6%, top 22% of micro creators; 1.3% of viewers save or share",
+      "85% of followers look real and active; 4% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Posted for Max Fashion 113 days ago (outside the 60-day window)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 80,
+    "spend": 1500000,
+    "views": 1688153,
+    "tgViews": 1133773,
+    "uniqueTgReach": 698978,
+    "engagements": 145228,
+    "clicks": 9238,
+    "orders": 705,
+    "revenue": 1268514,
+    "roas": 0.85,
+    "recallLiftPts": 4.3,
+    "fakeAudienceShare": 0.12,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 21,
+    "spendByTier": {
+     "micro": 1018500,
+     "nano": 29500,
+     "mid": 291000,
+     "macro": 161000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 3,
+    "spend": 1497000,
+    "views": 1536780,
+    "tgViews": 918712,
+    "uniqueTgReach": 568914,
+    "engagements": 53612,
+    "clicks": 5944,
+    "orders": 310,
+    "revenue": 558847,
+    "roas": 0.37,
+    "recallLiftPts": 2.7,
+    "fakeAudienceShare": 0.14,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 205500,
+    "forecastBandPct": 33,
+    "spendByTier": {
+     "mega": 1266500,
+     "macro": 205500,
+     "mid": 25000
+    }
+   },
+   "planCreators": [
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Rasika D. (Micro, Beauty & Skincare)",
+    "Ananya B. (Micro, Beauty & Skincare)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Sneha D. (Micro, Lifestyle & Vlogs)",
+    "Moumita N. (Micro, Parenting & Family)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Karan Y. (Micro, Fashion & Style)",
+    "Rehan G. (Nano, Fashion & Style)",
+    "Dhwani K. (Micro, Beauty & Skincare)",
+    "Devang M. (Nano, Lifestyle & Vlogs)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 373,
+   "gated": 47,
+   "gatesByReason": {
+    "conflict": 13,
+    "fraud": 32,
+    "safety": 4
+   },
+   "gatedExamples": [
+    {
+     "name": "Ananya R.",
+     "id": "CIE-1214",
+     "reasons": [
+      "Posted for Max Fashion 59 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Nikita A.",
+     "id": "CIE-1328",
+     "reasons": [
+      "Posted for Bewakoof 53 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Aisha M.",
+     "id": "CIE-1046",
+     "reasons": [
+      "Posted for Uniqlo 28 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Rahul N.",
+     "id": "CIE-1074",
+     "reasons": [
+      "Posted for Zara 25 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1361",
+     "name": "Hetal M.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 30105,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 85.1,
+     "parts": {
+      "aud": 89,
+      "cont": 96,
+      "cult": 95,
+      "perf": 76,
+      "auth": 64,
+      "safe": 90,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 16.1,
+      "cont": 13.5,
+      "cult": 7.6,
+      "perf": 19.9,
+      "auth": 8.9,
+      "safe": 7.2,
+      "cost": 11.9
+     },
+     "confidence": "High",
+     "er": 2.41,
+     "linkCtr": 1.15,
+     "realFollowers": 80.4,
+     "viewThrough": 26.9,
+     "hold3s": 45.7,
+     "sponsoredShare": 14,
+     "adDisclosure": 83,
+     "safety": 95,
+     "audienceWomen": 0.658,
+     "forecast": {
+      "cost": 11000,
+      "views": 13079,
+      "tgViews": 8914,
+      "tgShare": 0.85,
+      "engagements": 888,
+      "clicks": 152,
+      "orders": 16.1,
+      "revenue": 28901,
+      "roas": 2.63,
+      "recallLiftPts": 6.1,
+      "costPerTgView": 1.23,
+      "costPerEngagement": 12.39,
+      "costPerClick": 72.29
+     },
+     "why": [
+      "Link CTR 1.15%, top 13% of micro creators; trust index 1.18",
+      "Audience matches the brief: 66% women (target 60%), 83% age overlap, 89% city-tier overlap",
+      "Fashion &amp; Style is a core category for H&amp;M, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 2.6× ROAS on ₹11K, about 16 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1162",
+     "name": "Rehan G.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 3861,
+     "city": "Dubai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.9,
+     "parts": {
+      "aud": 100,
+      "cont": 96,
+      "cult": 72,
+      "perf": 67,
+      "auth": 87,
+      "safe": 83,
+      "cost": 95
+     },
+     "contributions": {
+      "aud": 18,
+      "cont": 13.5,
+      "cult": 5.8,
+      "perf": 17.5,
+      "auth": 12.2,
+      "safe": 6.7,
+      "cost": 11.4
+     },
+     "confidence": "Low",
+     "er": 5.16,
+     "linkCtr": 1,
+     "realFollowers": 97,
+     "viewThrough": 41.7,
+     "hold3s": 68.5,
+     "sponsoredShare": 34,
+     "adDisclosure": 85,
+     "safety": 82,
+     "audienceWomen": 0.617,
+     "forecast": {
+      "cost": 2500,
+      "views": 2935,
+      "tgViews": 2625,
+      "tgShare": 0.92,
+      "engagements": 227,
+      "clicks": 26,
+      "orders": 2.2,
+      "revenue": 4037,
+      "roas": 1.61,
+      "recallLiftPts": 3.7,
+      "costPerTgView": 0.95,
+      "costPerEngagement": 11.01,
+      "costPerClick": 97.69
+     },
+     "why": [
+      "Audience matches the brief: 62% women (target 60%), 91% age overlap, 94% city-tier overlap",
+      "Link CTR 1.00%, top 27% of nano creators; trust index 0.98",
+      "Fashion &amp; Style is a core category for H&amp;M, with lifestyle &amp; vlogs as a second pillar",
+      "97% of followers look real and active; 34% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1104",
+     "name": "Karan Y.",
+     "niche": "Fashion & Style",
+     "niche2": "Travel",
+     "tier": "Micro",
+     "followers": 39673,
+     "city": "Delhi NCR",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.8,
+     "parts": {
+      "aud": 100,
+      "cont": 89,
+      "cult": 78,
+      "perf": 76,
+      "auth": 73,
+      "safe": 79,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 18,
+      "cont": 12.4,
+      "cult": 6.2,
+      "perf": 19.7,
+      "auth": 10.2,
+      "safe": 6.3,
+      "cost": 11.9
+     },
+     "confidence": "Low",
+     "er": 3.18,
+     "linkCtr": 1.04,
+     "realFollowers": 86.2,
+     "viewThrough": 50.2,
+     "hold3s": 67.5,
+     "sponsoredShare": 28,
+     "adDisclosure": 90,
+     "safety": 71,
+     "audienceWomen": 0.644,
+     "forecast": {
+      "cost": 13500,
+      "views": 23658,
+      "tgViews": 18980,
+      "tgShare": 0.93,
+      "engagements": 1476,
+      "clicks": 200,
+      "orders": 19.5,
+      "revenue": 35048,
+      "roas": 2.6,
+      "recallLiftPts": 6.8,
+      "costPerTgView": 0.71,
+      "costPerEngagement": 9.15,
+      "costPerClick": 67.59
+     },
+     "why": [
+      "Link CTR 1.04%, top 17% of micro creators; trust index 1.13",
+      "Audience matches the brief: 64% women (target 60%), 95% age overlap, 95% city-tier overlap",
+      "Fashion &amp; Style is a core category for H&amp;M, with travel as a second pillar",
+      "Forecast 2.6× ROAS on ₹14K, about 19 orders"
+     ],
+     "risks": [
+      "Past controversy (2025)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1345",
+     "name": "Aanya R.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Nano",
+     "followers": 8388,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.4,
+     "parts": {
+      "aud": 85,
+      "cont": 90,
+      "cult": 72,
+      "perf": 75,
+      "auth": 92,
+      "safe": 85,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 15.3,
+      "cont": 12.6,
+      "cult": 5.8,
+      "perf": 19.4,
+      "auth": 12.9,
+      "safe": 6.8,
+      "cost": 11.7
+     },
+     "confidence": "Low",
+     "er": 4.96,
+     "linkCtr": 1.11,
+     "realFollowers": 95.7,
+     "viewThrough": 38.3,
+     "hold3s": 77.2,
+     "sponsoredShare": 21,
+     "adDisclosure": 87,
+     "safety": 83,
+     "audienceWomen": 0.731,
+     "forecast": {
+      "cost": 4000,
+      "views": 4633,
+      "tgViews": 3630,
+      "tgShare": 0.82,
+      "engagements": 476,
+      "clicks": 51,
+      "orders": 4.6,
+      "revenue": 8267,
+      "roas": 2.07,
+      "recallLiftPts": 3.5,
+      "costPerTgView": 1.1,
+      "costPerEngagement": 8.4,
+      "costPerClick": 77.86
+     },
+     "why": [
+      "Link CTR 1.11%, top 17% of nano creators; trust index 1.03",
+      "Audience matches the brief: 73% women (target 60%), 88% age overlap, 84% city-tier overlap",
+      "96% of followers look real and active; 21% of recent posts are sponsored",
+      "Fashion &amp; Style is a core category for H&amp;M, with beauty &amp; skincare as a second pillar"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1357",
+     "name": "Rasika M.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Macro",
+     "followers": 904194,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.1,
+     "parts": {
+      "aud": 76,
+      "cont": 96,
+      "cult": 72,
+      "perf": 87,
+      "auth": 66,
+      "safe": 84,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 13.7,
+      "cont": 13.5,
+      "cult": 5.8,
+      "perf": 22.6,
+      "auth": 9.2,
+      "safe": 6.7,
+      "cost": 11.7
+     },
+     "confidence": "Medium",
+     "er": 0.96,
+     "linkCtr": 1.21,
+     "realFollowers": 82.3,
+     "viewThrough": 57.1,
+     "hold3s": 72,
+     "sponsoredShare": 25,
+     "adDisclosure": 80,
+     "safety": 86,
+     "audienceWomen": 0.834,
+     "forecast": {
+      "cost": 313000,
+      "views": 378871,
+      "tgViews": 237233,
+      "tgShare": 0.76,
+      "engagements": 11664,
+      "clicks": 3652,
+      "orders": 391.9,
+      "revenue": 705453,
+      "roas": 2.25,
+      "recallLiftPts": 9.3,
+      "costPerTgView": 1.32,
+      "costPerEngagement": 26.83,
+      "costPerClick": 85.7
+     },
+     "why": [
+      "Link CTR 1.21%, top 7% of macro creators; trust index 1.20",
+      "Audience matches the brief: 83% women (target 60%), 88% age overlap, 81% city-tier overlap",
+      "Fashion &amp; Style is a core category for H&amp;M, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 2.3× ROAS on ₹3.13L, about 392 orders"
+     ],
+     "risks": []
+    }
+   ],
+   "plan": {
+    "creators": 26,
+    "spend": 1499000,
+    "views": 1822213,
+    "tgViews": 1197270,
+    "uniqueTgReach": 738170,
+    "engagements": 84539,
+    "clicks": 17941,
+    "orders": 1624,
+    "revenue": 2923761,
+    "roas": 1.95,
+    "recallLiftPts": 6.6,
+    "fakeAudienceShare": 0.14,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 49000,
+    "forecastBandPct": 22,
+    "spendByTier": {
+     "mid": 1029500,
+     "micro": 147000,
+     "nano": 9500,
+     "macro": 313000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 3,
+    "spend": 1497000,
+    "views": 1536780,
+    "tgViews": 918712,
+    "uniqueTgReach": 568914,
+    "engagements": 53612,
+    "clicks": 5944,
+    "orders": 310,
+    "revenue": 558847,
+    "roas": 0.37,
+    "recallLiftPts": 2.7,
+    "fakeAudienceShare": 0.14,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 205500,
+    "forecastBandPct": 33,
+    "spendByTier": {
+     "mega": 1266500,
+     "macro": 205500,
+     "mid": 25000
+    }
+   },
+   "planCreators": [
+    "Parth K. (Mid-tier, Fashion & Style)",
+    "Aditi B. (Micro, Beauty & Skincare)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Karan Y. (Micro, Fashion & Style)",
+    "Abhinav C. (Mid-tier, Fashion & Style)",
+    "Sruthi A. (Mid-tier, Fashion & Style)",
+    "Mansi T. (Mid-tier, Beauty & Skincare)",
+    "Dhwani P. (Micro, Fashion & Style)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Rasika M. (Macro, Fashion & Style)",
+    "Hetal C. (Mid-tier, Fashion & Style)",
+    "Rehan G. (Nano, Fashion & Style)"
+   ]
+  }
+ }
+}

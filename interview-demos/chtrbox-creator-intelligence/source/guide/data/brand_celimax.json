@@ -1,0 +1,1784 @@
+{
+ "id": "celimax",
+ "name": "Celimax",
+ "parent": "Celimax (Korea)",
+ "vertical": "beauty",
+ "sub": "K-beauty",
+ "status": "Reported client",
+ "defaultObjective": "conversion",
+ "brief": "Turn 'Noni' into the acne-care search term for 18–28s.",
+ "moment": "Acne-season · Jun–Sep",
+ "budgetLakh": 8,
+ "target": {
+  "fem": 0.8,
+  "age": [
+   0.08,
+   0.5,
+   0.34,
+   0.06,
+   0.02
+  ],
+  "tiers": [
+   0.52,
+   0.36,
+   0.12
+  ],
+  "affl": 0.55
+ },
+ "languages": {
+  "English": 1,
+  "Hinglish": 0.95,
+  "Hindi": 0.55
+ },
+ "codes": [
+  "K-culture",
+  "Science-backed",
+  "Value-seeker"
+ ],
+ "affinity": {
+  "beauty": 1,
+  "lifestyle": 0.7,
+  "fashion": 0.6,
+  "health": 0.5
+ },
+ "competitors": [
+  "COSRX",
+  "Axis-Y",
+  "Beauty of Joseon"
+ ],
+ "compliance": null,
+ "aov": 1100,
+ "conversionRate": 0.045,
+ "kpis": [
+  "Verified orders",
+  "CTR",
+  "Repeat rate"
+ ],
+ "markets": [
+  "India"
+ ],
+ "tgPoolMillions": 28,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 367,
+   "gated": 53,
+   "gatesByReason": {
+    "fraud": 32,
+    "safety": 4,
+    "conflict": 2,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Lakshmi S.",
+     "id": "CIE-1068",
+     "reasons": [
+      "Only 68.2% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Rutuja G.",
+     "id": "CIE-1156",
+     "reasons": [
+      "Only 57.4% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Nithya C.",
+     "id": "CIE-1306",
+     "reasons": [
+      "Brand-safety score 47: profanity in recent content, past controversy (2025)"
+     ]
+    },
+    {
+     "name": "Mitali S.",
+     "id": "CIE-1109",
+     "reasons": [
+      "Brand-safety score 51: political commentary, unverified health claims"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1316",
+     "name": "Gayathri J.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 14204,
+     "city": "Hyderabad",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 88.5,
+     "parts": {
+      "aud": 94,
+      "cont": 88,
+      "cult": 100,
+      "perf": 85,
+      "auth": 73,
+      "safe": 79,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 20.7,
+      "cont": 13.1,
+      "cult": 14,
+      "perf": 12.8,
+      "auth": 10.2,
+      "safe": 7.9,
+      "cost": 9.9
+     },
+     "confidence": "Medium",
+     "er": 2.01,
+     "linkCtr": 0.77,
+     "realFollowers": 86.8,
+     "viewThrough": 55.3,
+     "hold3s": 68.1,
+     "sponsoredShare": 28,
+     "adDisclosure": 69,
+     "safety": 86,
+     "audienceWomen": 0.788,
+     "forecast": {
+      "cost": 3000,
+      "views": 5522,
+      "tgViews": 4215,
+      "tgShare": 0.88,
+      "engagements": 362,
+      "clicks": 43,
+      "orders": 6.2,
+      "revenue": 6851,
+      "roas": 2.28,
+      "recallLiftPts": 8.3,
+      "costPerTgView": 0.71,
+      "costPerEngagement": 8.28,
+      "costPerClick": 69.14
+     },
+     "why": [
+      "Audience matches the brief: 79% women (target 80%), 90% age overlap, 98% city-tier overlap",
+      "Creates in English, Celimax's lead language; shares the K-culture and Value-seeker codes",
+      "Beauty &amp; Skincare is a core category for Celimax, with doctors &amp; dietitians as a second pillar",
+      "Viewers watch 55% of each video, top 6% of micro creators; past recall lift +8 pts"
+     ],
+     "risks": [
+      "Discloses #ad on only 69% of paid posts. Brief on disclosure in the first line"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1231",
+     "name": "Riya D.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 30854,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 88.5,
+     "parts": {
+      "aud": 93,
+      "cont": 93,
+      "cult": 97,
+      "perf": 66,
+      "auth": 83,
+      "safe": 91,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 20.6,
+      "cont": 13.9,
+      "cult": 13.6,
+      "perf": 9.9,
+      "auth": 11.7,
+      "safe": 9.1,
+      "cost": 9.8
+     },
+     "confidence": "Low",
+     "er": 1.88,
+     "linkCtr": 0.85,
+     "realFollowers": 90.5,
+     "viewThrough": 44.7,
+     "hold3s": 59,
+     "sponsoredShare": 13,
+     "adDisclosure": 100,
+     "safety": 85,
+     "audienceWomen": 0.856,
+     "forecast": {
+      "cost": 8000,
+      "views": 12413,
+      "tgViews": 9841,
+      "tgShare": 0.88,
+      "engagements": 747,
+      "clicks": 109,
+      "orders": 21,
+      "revenue": 23136,
+      "roas": 2.89,
+      "recallLiftPts": 10.5,
+      "costPerTgView": 0.81,
+      "costPerEngagement": 10.71,
+      "costPerClick": 73.38
+     },
+     "why": [
+      "Audience matches the brief: 86% women (target 80%), 89% age overlap, 92% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Celimax, with lifestyle &amp; vlogs as a second pillar",
+      "Creates in Hinglish + Hindi, Celimax's lead language; shares the K-culture and Science-backed codes",
+      "91% of followers look real and active; 13% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1271",
+     "name": "Rasika D.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 91472,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83,
+     "parts": {
+      "aud": 90,
+      "cont": 93,
+      "cult": 75,
+      "perf": 65,
+      "auth": 82,
+      "safe": 85,
+      "cost": 92
+     },
+     "contributions": {
+      "aud": 19.8,
+      "cont": 13.9,
+      "cult": 10.5,
+      "perf": 9.7,
+      "auth": 11.4,
+      "safe": 8.5,
+      "cost": 9.2
+     },
+     "confidence": "Medium",
+     "er": 4.34,
+     "linkCtr": 0.7,
+     "realFollowers": 90.6,
+     "viewThrough": 54,
+     "hold3s": 66.7,
+     "sponsoredShare": 27,
+     "adDisclosure": 92,
+     "safety": 81,
+     "audienceWomen": 0.886,
+     "forecast": {
+      "cost": 37500,
+      "views": 51100,
+      "tgViews": 39435,
+      "tgShare": 0.85,
+      "engagements": 4464,
+      "clicks": 308,
+      "orders": 52.1,
+      "revenue": 57268,
+      "roas": 1.53,
+      "recallLiftPts": 5.7,
+      "costPerTgView": 0.95,
+      "costPerEngagement": 8.4,
+      "costPerClick": 121.87
+     },
+     "why": [
+      "Audience matches the brief: 89% women (target 80%), 87% age overlap, 96% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Celimax, with lifestyle &amp; vlogs as a second pillar",
+      "91% of followers look real and active; 27% of recent posts are sponsored",
+      "Creates in Hinglish, Celimax's lead language; shares the K-culture codes"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1334",
+     "name": "Mansi T.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 125386,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": true,
+     "credential": null,
+     "fit": 82.1,
+     "parts": {
+      "aud": 97,
+      "cont": 93,
+      "cult": 75,
+      "perf": 54,
+      "auth": 80,
+      "safe": 91,
+      "cost": 81
+     },
+     "contributions": {
+      "aud": 21.3,
+      "cont": 13.9,
+      "cult": 10.5,
+      "perf": 8.1,
+      "auth": 11.1,
+      "safe": 9.1,
+      "cost": 8.1
+     },
+     "confidence": "Low",
+     "er": 1.45,
+     "linkCtr": 1.68,
+     "realFollowers": 89,
+     "viewThrough": 49.8,
+     "hold3s": 64.1,
+     "sponsoredShare": 27,
+     "adDisclosure": 96,
+     "safety": 87,
+     "audienceWomen": 0.802,
+     "forecast": {
+      "cost": 49000,
+      "views": 52197,
+      "tgViews": 41787,
+      "tgShare": 0.9,
+      "engagements": 2345,
+      "clicks": 771,
+      "orders": 120.8,
+      "revenue": 132839,
+      "roas": 2.71,
+      "recallLiftPts": 5.6,
+      "costPerTgView": 1.17,
+      "costPerEngagement": 20.9,
+      "costPerClick": 63.52
+     },
+     "why": [
+      "Audience matches the brief: 80% women (target 80%), 87% age overlap, 91% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Celimax, with lifestyle &amp; vlogs as a second pillar",
+      "89% of followers look real and active; 27% of recent posts are sponsored",
+      "Creates in Hinglish + Hindi, Celimax's lead language; shares the K-culture codes"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1030",
+     "name": "Krupa G.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 6587,
+     "city": "Mumbai",
+     "languages": [
+      "Marathi",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.3,
+     "parts": {
+      "aud": 75,
+      "cont": 93,
+      "cult": 97,
+      "perf": 63,
+      "auth": 77,
+      "safe": 97,
+      "cost": 74
+     },
+     "contributions": {
+      "aud": 16.6,
+      "cont": 13.9,
+      "cult": 13.6,
+      "perf": 9.5,
+      "auth": 10.7,
+      "safe": 9.7,
+      "cost": 7.4
+     },
+     "confidence": "Low",
+     "er": 4.22,
+     "linkCtr": 0.85,
+     "realFollowers": 85.9,
+     "viewThrough": 46.5,
+     "hold3s": 58.4,
+     "sponsoredShare": 8,
+     "adDisclosure": 99,
+     "safety": 95,
+     "audienceWomen": 0.881,
+     "forecast": {
+      "cost": 3000,
+      "views": 3402,
+      "tgViews": 2207,
+      "tgShare": 0.76,
+      "engagements": 325,
+      "clicks": 31,
+      "orders": 6.5,
+      "revenue": 7125,
+      "roas": 2.38,
+      "recallLiftPts": 6.6,
+      "costPerTgView": 1.36,
+      "costPerEngagement": 9.22,
+      "costPerClick": 98.13
+     },
+     "why": [
+      "Audience matches the brief: 88% women (target 80%), 76% age overlap, 75% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Celimax, with lifestyle &amp; vlogs as a second pillar",
+      "Creates in Marathi + Hinglish, Celimax's lead language; shares the K-culture and Science-backed codes",
+      "86% of followers look real and active; 8% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 20,
+    "spend": 800000,
+    "views": 1400545,
+    "tgViews": 1021878,
+    "uniqueTgReach": 627459,
+    "engagements": 42821,
+    "clicks": 7177,
+    "orders": 979,
+    "revenue": 1076538,
+    "roas": 1.35,
+    "recallLiftPts": 5.6,
+    "fakeAudienceShare": 0.11,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 49000,
+    "forecastBandPct": 29,
+    "spendByTier": {
+     "macro": 177500,
+     "micro": 198000,
+     "mid": 420500,
+     "nano": 4000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 799000,
+    "views": 1391817,
+    "tgViews": 684401,
+    "uniqueTgReach": 424135,
+    "engagements": 23605,
+    "clicks": 2761,
+    "orders": 262,
+    "revenue": 288715,
+    "roas": 0.36,
+    "recallLiftPts": 3.3,
+    "fakeAudienceShare": 0.2,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 22,
+    "spendByTier": {
+     "mega": 776000,
+     "micro": 23000
+    }
+   },
+   "planCreators": [
+    "Keerthi B. (Macro, Beauty & Skincare)",
+    "Riya D. (Micro, Beauty & Skincare)",
+    "Varsha B. (Micro, Food & Cooking)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Rasika D. (Micro, Beauty & Skincare)",
+    "Ananya J. (Micro, Music & Dance)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Mitali B. (Micro, Fashion & Style)",
+    "Keerthi J. (Mid-tier, Fashion & Style)",
+    "Tanvi P. (Micro, Beauty & Skincare)",
+    "Mansi T. (Mid-tier, Beauty & Skincare)",
+    "Tanvi C. (Micro, Food & Cooking)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 367,
+   "gated": 53,
+   "gatesByReason": {
+    "safety": 4,
+    "fraud": 32,
+    "market": 18,
+    "conflict": 2
+   },
+   "gatedExamples": [
+    {
+     "name": "Mitali S.",
+     "id": "CIE-1109",
+     "reasons": [
+      "Brand-safety score 51: political commentary, unverified health claims"
+     ]
+    },
+    {
+     "name": "Lakshmi S.",
+     "id": "CIE-1068",
+     "reasons": [
+      "Only 68.2% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Aarya D.",
+     "id": "CIE-1139",
+     "reasons": [
+      "Only 54.2% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Rutuja G.",
+     "id": "CIE-1156",
+     "reasons": [
+      "Only 57.4% of followers look real and active (gate is 72%)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1201",
+     "name": "Dhwani K.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 18750,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.5,
+     "parts": {
+      "aud": 90,
+      "cont": 93,
+      "cult": 75,
+      "perf": 73,
+      "auth": 77,
+      "safe": 81,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 18.1,
+      "cont": 16.7,
+      "cult": 7.5,
+      "perf": 14.6,
+      "auth": 10.8,
+      "safe": 6.5,
+      "cost": 9.4
+     },
+     "confidence": "Medium",
+     "er": 5.45,
+     "linkCtr": 0.69,
+     "realFollowers": 89.1,
+     "viewThrough": 43,
+     "hold3s": 68.8,
+     "sponsoredShare": 25,
+     "adDisclosure": 85,
+     "safety": 78,
+     "audienceWomen": 0.853,
+     "forecast": {
+      "cost": 9000,
+      "views": 6870,
+      "tgViews": 5237,
+      "tgShare": 0.86,
+      "engagements": 1123,
+      "clicks": 52,
+      "orders": 9.2,
+      "revenue": 10102,
+      "roas": 1.12,
+      "recallLiftPts": 4.9,
+      "costPerTgView": 1.72,
+      "costPerEngagement": 8.01,
+      "costPerClick": 173.56
+     },
+     "why": [
+      "Audience matches the brief: 85% women (target 80%), 84% age overlap, 97% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Celimax, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 5.5%, top 4% of micro creators; 2.5% of viewers save or share",
+      "89% of followers look real and active; 25% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1296",
+     "name": "Subhankar B.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 45223,
+     "city": "Kolkata",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.8,
+     "parts": {
+      "aud": 85,
+      "cont": 93,
+      "cult": 75,
+      "perf": 78,
+      "auth": 76,
+      "safe": 90,
+      "cost": 83
+     },
+     "contributions": {
+      "aud": 17.1,
+      "cont": 16.7,
+      "cult": 7.5,
+      "perf": 15.5,
+      "auth": 10.6,
+      "safe": 7.2,
+      "cost": 8.3
+     },
+     "confidence": "Medium",
+     "er": 3.76,
+     "linkCtr": 0.59,
+     "realFollowers": 83.4,
+     "viewThrough": 41.2,
+     "hold3s": 55.4,
+     "sponsoredShare": 11,
+     "adDisclosure": 89,
+     "safety": 91,
+     "audienceWomen": 0.838,
+     "forecast": {
+      "cost": 18500,
+      "views": 23148,
+      "tgViews": 15868,
+      "tgShare": 0.82,
+      "engagements": 1945,
+      "clicks": 123,
+      "orders": 18.3,
+      "revenue": 20118,
+      "roas": 1.09,
+      "recallLiftPts": 6.1,
+      "costPerTgView": 1.17,
+      "costPerEngagement": 9.51,
+      "costPerClick": 150.36
+     },
+     "why": [
+      "Audience matches the brief: 84% women (target 80%), 86% age overlap, 84% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Celimax, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 3.8%, top 20% of micro creators; 2.6% of viewers save or share",
+      "83% of followers look real and active; 11% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1030",
+     "name": "Krupa G.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 6587,
+     "city": "Mumbai",
+     "languages": [
+      "Marathi",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.6,
+     "parts": {
+      "aud": 75,
+      "cont": 93,
+      "cult": 97,
+      "perf": 66,
+      "auth": 77,
+      "safe": 97,
+      "cost": 84
+     },
+     "contributions": {
+      "aud": 15.1,
+      "cont": 16.7,
+      "cult": 9.7,
+      "perf": 13.2,
+      "auth": 10.7,
+      "safe": 7.7,
+      "cost": 8.4
+     },
+     "confidence": "Low",
+     "er": 4.22,
+     "linkCtr": 0.85,
+     "realFollowers": 85.9,
+     "viewThrough": 46.5,
+     "hold3s": 58.4,
+     "sponsoredShare": 8,
+     "adDisclosure": 99,
+     "safety": 95,
+     "audienceWomen": 0.881,
+     "forecast": {
+      "cost": 3000,
+      "views": 3402,
+      "tgViews": 2207,
+      "tgShare": 0.76,
+      "engagements": 325,
+      "clicks": 31,
+      "orders": 6.5,
+      "revenue": 7125,
+      "roas": 2.38,
+      "recallLiftPts": 6.6,
+      "costPerTgView": 1.36,
+      "costPerEngagement": 9.22,
+      "costPerClick": 98.13
+     },
+     "why": [
+      "Beauty &amp; Skincare is a core category for Celimax, with lifestyle &amp; vlogs as a second pillar",
+      "Audience matches the brief: 88% women (target 80%), 76% age overlap, 75% city-tier overlap",
+      "Engagement rate 4.2%, top 54% of nano creators; 3.2% of viewers save or share",
+      "86% of followers look real and active; 8% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1184",
+     "name": "Dhruv K.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 21779,
+     "city": "Lucknow",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.5,
+     "parts": {
+      "aud": 85,
+      "cont": 93,
+      "cult": 97,
+      "perf": 69,
+      "auth": 64,
+      "safe": 91,
+      "cost": 80
+     },
+     "contributions": {
+      "aud": 17,
+      "cont": 16.7,
+      "cult": 9.7,
+      "perf": 13.8,
+      "auth": 9,
+      "safe": 7.3,
+      "cost": 8
+     },
+     "confidence": "Low",
+     "er": 3.87,
+     "linkCtr": 0.65,
+     "realFollowers": 79.1,
+     "viewThrough": 49.1,
+     "hold3s": 50.1,
+     "sponsoredShare": 17,
+     "adDisclosure": 93,
+     "safety": 90,
+     "audienceWomen": 0.842,
+     "forecast": {
+      "cost": 9500,
+      "views": 10055,
+      "tgViews": 6520,
+      "tgShare": 0.82,
+      "engagements": 960,
+      "clicks": 62,
+      "orders": 10.2,
+      "revenue": 11168,
+      "roas": 1.18,
+      "recallLiftPts": 6.9,
+      "costPerTgView": 1.46,
+      "costPerEngagement": 9.89,
+      "costPerClick": 152.4
+     },
+     "why": [
+      "Audience matches the brief: 84% women (target 80%), 86% age overlap, 82% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Celimax, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 3.9%, top 18% of micro creators; 2.3% of viewers save or share",
+      "Creates in Hinglish + Hindi, Celimax's lead language; shares the Science-backed and Value-seeker codes"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1183",
+     "name": "Ananya M.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 43554,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.3,
+     "parts": {
+      "aud": 84,
+      "cont": 93,
+      "cult": 75,
+      "perf": 87,
+      "auth": 66,
+      "safe": 69,
+      "cost": 81
+     },
+     "contributions": {
+      "aud": 16.9,
+      "cont": 16.7,
+      "cult": 7.5,
+      "perf": 17.4,
+      "auth": 9.3,
+      "safe": 5.5,
+      "cost": 8.1
+     },
+     "confidence": "Low",
+     "er": 5.31,
+     "linkCtr": 0.57,
+     "realFollowers": 81.6,
+     "viewThrough": 51.5,
+     "hold3s": 70.6,
+     "sponsoredShare": 31,
+     "adDisclosure": 73,
+     "safety": 66,
+     "audienceWomen": 0.833,
+     "forecast": {
+      "cost": 25000,
+      "views": 23728,
+      "tgViews": 15782,
+      "tgShare": 0.82,
+      "engagements": 2548,
+      "clicks": 118,
+      "orders": 19.9,
+      "revenue": 21938,
+      "roas": 0.88,
+      "recallLiftPts": 7.9,
+      "costPerTgView": 1.58,
+      "costPerEngagement": 9.81,
+      "costPerClick": 212.09
+     },
+     "why": [
+      "Engagement rate 5.3%, top 5% of micro creators; 2.8% of viewers save or share",
+      "Audience matches the brief: 83% women (target 80%), 75% age overlap, 90% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Celimax, with lifestyle &amp; vlogs as a second pillar",
+      "82% of followers look real and active; 31% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Discloses #ad on only 73% of paid posts. Brief on disclosure in the first line",
+      "Political commentary",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 49,
+    "spend": 799000,
+    "views": 841748,
+    "tgViews": 578751,
+    "uniqueTgReach": 356610,
+    "engagements": 87619,
+    "clicks": 4634,
+    "orders": 680,
+    "revenue": 748435,
+    "roas": 0.94,
+    "recallLiftPts": 4.8,
+    "fakeAudienceShare": 0.11,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 23,
+    "spendByTier": {
+     "micro": 744500,
+     "nano": 17000,
+     "mid": 37500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 799000,
+    "views": 1391817,
+    "tgViews": 684401,
+    "uniqueTgReach": 424135,
+    "engagements": 23605,
+    "clicks": 2761,
+    "orders": 262,
+    "revenue": 288715,
+    "roas": 0.36,
+    "recallLiftPts": 3.3,
+    "fakeAudienceShare": 0.2,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 22,
+    "spendByTier": {
+     "mega": 776000,
+     "micro": 23000
+    }
+   },
+   "planCreators": [
+    "Rasika D. (Micro, Beauty & Skincare)",
+    "Ananya B. (Micro, Beauty & Skincare)",
+    "Dhwani K. (Micro, Beauty & Skincare)",
+    "Moumita N. (Micro, Parenting & Family)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Aditi B. (Micro, Beauty & Skincare)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Ishani V. (Micro, Beauty & Skincare)",
+    "Karan V. (Micro, Beauty & Skincare)",
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Lakshmi G. (Micro, Beauty & Skincare)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 367,
+   "gated": 53,
+   "gatesByReason": {
+    "fraud": 32,
+    "safety": 4,
+    "conflict": 2,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Lakshmi S.",
+     "id": "CIE-1068",
+     "reasons": [
+      "Only 68.2% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Mitali S.",
+     "id": "CIE-1109",
+     "reasons": [
+      "Brand-safety score 51: political commentary, unverified health claims"
+     ]
+    },
+    {
+     "name": "Rutuja G.",
+     "id": "CIE-1156",
+     "reasons": [
+      "Only 57.4% of followers look real and active (gate is 72%)"
+     ]
+    },
+    {
+     "name": "Hetal D.",
+     "id": "CIE-1212",
+     "reasons": [
+      "Only 65.5% of followers look real and active (gate is 72%)",
+      "Posted for COSRX 22 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1334",
+     "name": "Mansi T.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 125386,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": true,
+     "credential": null,
+     "fit": 86.4,
+     "parts": {
+      "aud": 97,
+      "cont": 93,
+      "cult": 75,
+      "perf": 76,
+      "auth": 80,
+      "safe": 91,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 17.4,
+      "cont": 13,
+      "cult": 6,
+      "perf": 19.8,
+      "auth": 11.1,
+      "safe": 7.2,
+      "cost": 11.8
+     },
+     "confidence": "Low",
+     "er": 1.45,
+     "linkCtr": 1.68,
+     "realFollowers": 89,
+     "viewThrough": 49.8,
+     "hold3s": 64.1,
+     "sponsoredShare": 27,
+     "adDisclosure": 96,
+     "safety": 87,
+     "audienceWomen": 0.802,
+     "forecast": {
+      "cost": 49000,
+      "views": 52197,
+      "tgViews": 41787,
+      "tgShare": 0.9,
+      "engagements": 2345,
+      "clicks": 771,
+      "orders": 120.8,
+      "revenue": 132839,
+      "roas": 2.71,
+      "recallLiftPts": 5.6,
+      "costPerTgView": 1.17,
+      "costPerEngagement": 20.9,
+      "costPerClick": 63.52
+     },
+     "why": [
+      "Link CTR 1.68%, top 1% of mid-tier creators; trust index 0.99",
+      "Audience matches the brief: 80% women (target 80%), 87% age overlap, 91% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Celimax, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 2.7× ROAS on ₹49K, about 121 orders"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1231",
+     "name": "Riya D.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 30854,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.8,
+     "parts": {
+      "aud": 93,
+      "cont": 93,
+      "cult": 97,
+      "perf": 59,
+      "auth": 83,
+      "safe": 91,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 16.8,
+      "cont": 13,
+      "cult": 7.8,
+      "perf": 15.3,
+      "auth": 11.7,
+      "safe": 7.3,
+      "cost": 11.9
+     },
+     "confidence": "Low",
+     "er": 1.88,
+     "linkCtr": 0.85,
+     "realFollowers": 90.5,
+     "viewThrough": 44.7,
+     "hold3s": 59,
+     "sponsoredShare": 13,
+     "adDisclosure": 100,
+     "safety": 85,
+     "audienceWomen": 0.856,
+     "forecast": {
+      "cost": 8000,
+      "views": 12413,
+      "tgViews": 9841,
+      "tgShare": 0.88,
+      "engagements": 747,
+      "clicks": 109,
+      "orders": 21,
+      "revenue": 23136,
+      "roas": 2.89,
+      "recallLiftPts": 10.5,
+      "costPerTgView": 0.81,
+      "costPerEngagement": 10.71,
+      "costPerClick": 73.38
+     },
+     "why": [
+      "Audience matches the brief: 86% women (target 80%), 89% age overlap, 92% city-tier overlap",
+      "Link CTR 0.85%, top 38% of micro creators; trust index 1.22",
+      "Beauty &amp; Skincare is a core category for Celimax, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 2.9× ROAS on ₹8K, about 21 orders"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1418",
+     "name": "Rahul M.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 68998,
+     "city": "Delhi NCR",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.1,
+     "parts": {
+      "aud": 87,
+      "cont": 93,
+      "cult": 78,
+      "perf": 72,
+      "auth": 79,
+      "safe": 91,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 15.7,
+      "cont": 13,
+      "cult": 6.2,
+      "perf": 18.7,
+      "auth": 11,
+      "safe": 7.3,
+      "cost": 11.3
+     },
+     "confidence": "Medium",
+     "er": 3.07,
+     "linkCtr": 1.39,
+     "realFollowers": 89.2,
+     "viewThrough": 43.6,
+     "hold3s": 59.1,
+     "sponsoredShare": 25,
+     "adDisclosure": 95,
+     "safety": 88,
+     "audienceWomen": 0.714,
+     "forecast": {
+      "cost": 34500,
+      "views": 28230,
+      "tgViews": 21018,
+      "tgShare": 0.83,
+      "engagements": 2491,
+      "clicks": 401,
+      "orders": 59.7,
+      "revenue": 65633,
+      "roas": 1.9,
+      "recallLiftPts": 3.3,
+      "costPerTgView": 1.64,
+      "costPerEngagement": 13.85,
+      "costPerClick": 85.95
+     },
+     "why": [
+      "Link CTR 1.39%, top 2% of micro creators; trust index 0.94",
+      "Audience matches the brief: 71% women (target 80%), 86% age overlap, 92% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Celimax, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 1.9× ROAS on ₹35K, about 60 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1140",
+     "name": "Lakshmi G.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 11900,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.7,
+     "parts": {
+      "aud": 82,
+      "cont": 90,
+      "cult": 52,
+      "perf": 85,
+      "auth": 78,
+      "safe": 78,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 14.8,
+      "cont": 12.6,
+      "cult": 4.2,
+      "perf": 22.2,
+      "auth": 10.9,
+      "safe": 6.2,
+      "cost": 11.9
+     },
+     "confidence": "Medium",
+     "er": 4.12,
+     "linkCtr": 1.02,
+     "realFollowers": 89,
+     "viewThrough": 42.9,
+     "hold3s": 63.8,
+     "sponsoredShare": 20,
+     "adDisclosure": 92,
+     "safety": 68,
+     "audienceWomen": 0.954,
+     "forecast": {
+      "cost": 4000,
+      "views": 4857,
+      "tgViews": 3452,
+      "tgShare": 0.8,
+      "engagements": 555,
+      "clicks": 50,
+      "orders": 9.9,
+      "revenue": 10897,
+      "roas": 2.72,
+      "recallLiftPts": 5.8,
+      "costPerTgView": 1.16,
+      "costPerEngagement": 7.21,
+      "costPerClick": 80.12
+     },
+     "why": [
+      "Link CTR 1.02%, top 18% of micro creators; trust index 1.27",
+      "Audience matches the brief: 95% women (target 80%), 83% age overlap, 89% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Celimax, with fashion &amp; style as a second pillar",
+      "Forecast 2.7× ROAS on ₹4K, about 10 orders"
+     ],
+     "risks": [
+      "Unverified health claims"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1220",
+     "name": "Aditi B.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 24805,
+     "city": "Jaipur",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.3,
+     "parts": {
+      "aud": 73,
+      "cont": 93,
+      "cult": 53,
+      "perf": 83,
+      "auth": 87,
+      "safe": 79,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 13.1,
+      "cont": 13,
+      "cult": 4.2,
+      "perf": 21.5,
+      "auth": 12.2,
+      "safe": 6.3,
+      "cost": 12
+     },
+     "confidence": "Medium",
+     "er": 2.9,
+     "linkCtr": 1.64,
+     "realFollowers": 93.5,
+     "viewThrough": 30.8,
+     "hold3s": 59.7,
+     "sponsoredShare": 11,
+     "adDisclosure": 85,
+     "safety": 75,
+     "audienceWomen": 0.97,
+     "forecast": {
+      "cost": 8000,
+      "views": 7925,
+      "tgViews": 5467,
+      "tgShare": 0.74,
+      "engagements": 853,
+      "clicks": 155,
+      "orders": 27.5,
+      "revenue": 30223,
+      "roas": 3.78,
+      "recallLiftPts": 3.7,
+      "costPerTgView": 1.46,
+      "costPerEngagement": 9.38,
+      "costPerClick": 51.57
+     },
+     "why": [
+      "Link CTR 1.64%, top 1% of micro creators; trust index 1.12",
+      "Audience matches the brief: 97% women (target 80%), 88% age overlap, 75% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Celimax, with lifestyle &amp; vlogs as a second pillar",
+      "94% of followers look real and active; 11% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Unverified health claims"
+     ]
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1246",
+     "name": "Gayathri Y.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Mid-tier",
+     "followers": 484648,
+     "city": "Madurai",
+     "languages": [
+      "Tamil"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.2,
+     "parts": {
+      "aud": 82,
+      "cont": 90,
+      "cult": 23,
+      "perf": 94,
+      "auth": 73,
+      "safe": 87,
+      "cost": 95
+     },
+     "contributions": {
+      "aud": 14.8,
+      "cont": 12.6,
+      "cult": 1.8,
+      "perf": 24.4,
+      "auth": 10.3,
+      "safe": 6.9,
+      "cost": 11.4
+     },
+     "confidence": "Medium",
+     "er": 2.47,
+     "linkCtr": 1.27,
+     "realFollowers": 85,
+     "viewThrough": 54.5,
+     "hold3s": 71.5,
+     "sponsoredShare": 23,
+     "adDisclosure": 100,
+     "safety": 78,
+     "audienceWomen": 0.831,
+     "forecast": {
+      "cost": 225000,
+      "views": 146869,
+      "tgViews": 99683,
+      "tgShare": 0.8,
+      "engagements": 14006,
+      "clicks": 1933,
+      "orders": 398.6,
+      "revenue": 438506,
+      "roas": 1.95,
+      "recallLiftPts": 10,
+      "costPerTgView": 2.26,
+      "costPerEngagement": 16.06,
+      "costPerClick": 116.4
+     },
+     "why": [
+      "Link CTR 1.27%, top 8% of mid-tier creators; trust index 1.32",
+      "Audience matches the brief: 83% women (target 80%), 89% age overlap, 67% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Celimax, with fashion &amp; style as a second pillar",
+      "Forecast 1.9× ROAS on ₹2.25L, about 399 orders"
+     ],
+     "risks": [
+      "Posted for Beauty of Joseon 92 days ago (outside the 60-day window)"
+     ]
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1289",
+     "name": "Jay C.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Micro",
+     "followers": 15549,
+     "city": "Mumbai",
+     "languages": [
+      "Marathi",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.2,
+     "parts": {
+      "aud": 81,
+      "cont": 88,
+      "cult": 75,
+      "perf": 75,
+      "auth": 75,
+      "safe": 85,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 14.6,
+      "cont": 12.3,
+      "cult": 6,
+      "perf": 19.5,
+      "auth": 10.5,
+      "safe": 6.8,
+      "cost": 11.6
+     },
+     "confidence": "Low",
+     "er": 3.68,
+     "linkCtr": 1.27,
+     "realFollowers": 88.1,
+     "viewThrough": 54.7,
+     "hold3s": 74.4,
+     "sponsoredShare": 23,
+     "adDisclosure": 90,
+     "safety": 81,
+     "audienceWomen": 0.757,
+     "forecast": {
+      "cost": 6500,
+      "views": 6735,
+      "tgViews": 4711,
+      "tgShare": 0.79,
+      "engagements": 656,
+      "clicks": 82,
+      "orders": 12.3,
+      "revenue": 13482,
+      "roas": 2.07,
+      "recallLiftPts": 6.1,
+      "costPerTgView": 1.38,
+      "costPerEngagement": 9.91,
+      "costPerClick": 79.4
+     },
+     "why": [
+      "Link CTR 1.27%, top 5% of micro creators; trust index 0.97",
+      "Audience matches the brief: 76% women (target 80%), 84% age overlap, 75% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Celimax, with doctors &amp; dietitians as a second pillar",
+      "Forecast 2.1× ROAS on ₹6.5K, about 12 orders"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1030",
+     "name": "Krupa G.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 6587,
+     "city": "Mumbai",
+     "languages": [
+      "Marathi",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.1,
+     "parts": {
+      "aud": 75,
+      "cont": 93,
+      "cult": 97,
+      "perf": 64,
+      "auth": 77,
+      "safe": 97,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 13.6,
+      "cont": 13,
+      "cult": 7.8,
+      "perf": 16.6,
+      "auth": 10.7,
+      "safe": 7.7,
+      "cost": 11.7
+     },
+     "confidence": "Low",
+     "er": 4.22,
+     "linkCtr": 0.85,
+     "realFollowers": 85.9,
+     "viewThrough": 46.5,
+     "hold3s": 58.4,
+     "sponsoredShare": 8,
+     "adDisclosure": 99,
+     "safety": 95,
+     "audienceWomen": 0.881,
+     "forecast": {
+      "cost": 3000,
+      "views": 3402,
+      "tgViews": 2207,
+      "tgShare": 0.76,
+      "engagements": 325,
+      "clicks": 31,
+      "orders": 6.5,
+      "revenue": 7125,
+      "roas": 2.38,
+      "recallLiftPts": 6.6,
+      "costPerTgView": 1.36,
+      "costPerEngagement": 9.22,
+      "costPerClick": 98.13
+     },
+     "why": [
+      "Link CTR 0.85%, top 44% of nano creators; trust index 1.34",
+      "Audience matches the brief: 88% women (target 80%), 76% age overlap, 75% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Celimax, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 2.4× ROAS on ₹3K, about 6 orders"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1090",
+     "name": "Meher A.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 19027,
+     "city": "Delhi NCR",
+     "languages": [
+      "English"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81,
+     "parts": {
+      "aud": 78,
+      "cont": 90,
+      "cult": 78,
+      "perf": 73,
+      "auth": 78,
+      "safe": 82,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 14.1,
+      "cont": 12.6,
+      "cult": 6.2,
+      "perf": 18.9,
+      "auth": 10.9,
+      "safe": 6.6,
+      "cost": 11.8
+     },
+     "confidence": "Low",
+     "er": 3.2,
+     "linkCtr": 1.29,
+     "realFollowers": 89.4,
+     "viewThrough": 42.2,
+     "hold3s": 51.2,
+     "sponsoredShare": 28,
+     "adDisclosure": 79,
+     "safety": 84,
+     "audienceWomen": 0.883,
+     "forecast": {
+      "cost": 6500,
+      "views": 8339,
+      "tgViews": 5766,
+      "tgShare": 0.77,
+      "engagements": 712,
+      "clicks": 104,
+      "orders": 15.8,
+      "revenue": 17333,
+      "roas": 2.67,
+      "recallLiftPts": 6.3,
+      "costPerTgView": 1.13,
+      "costPerEngagement": 9.13,
+      "costPerClick": 62.52
+     },
+     "why": [
+      "Link CTR 1.29%, top 4% of micro creators; trust index 0.97",
+      "Audience matches the brief: 88% women (target 80%), 77% age overlap, 90% city-tier overlap",
+      "Beauty &amp; Skincare is a core category for Celimax, with fashion &amp; style as a second pillar",
+      "Forecast 2.7× ROAS on ₹6.5K, about 16 orders"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1357",
+     "name": "Rasika M.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Macro",
+     "followers": 904194,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.9,
+     "parts": {
+      "aud": 93,
+      "cont": 63,
+      "cult": 75,
+      "perf": 87,
+      "auth": 66,
+      "safe": 84,
+      "cost": 92
+     },
+     "contributions": {
+      "aud": 16.7,
+      "cont": 8.8,
+      "cult": 6,
+      "perf": 22.6,
+      "auth": 9.2,
+      "safe": 6.7,
+      "cost": 11.1
+     },
+     "confidence": "Medium",
+     "er": 0.96,
+     "linkCtr": 1.21,
+     "realFollowers": 82.3,
+     "viewThrough": 57.1,
+     "hold3s": 72,
+     "sponsoredShare": 25,
+     "adDisclosure": 80,
+     "safety": 86,
+     "audienceWomen": 0.834,
+     "forecast": {
+      "cost": 313000,
+      "views": 378871,
+      "tgViews": 271659,
+      "tgShare": 0.87,
+      "engagements": 11664,
+      "clicks": 2869,
+      "orders": 466.3,
+      "revenue": 512942,
+      "roas": 1.64,
+      "recallLiftPts": 7.9,
+      "costPerTgView": 1.15,
+      "costPerEngagement": 26.83,
+      "costPerClick": 109.1
+     },
+     "why": [
+      "Link CTR 1.21%, top 7% of macro creators; trust index 1.20",
+      "Audience matches the brief: 83% women (target 80%), 88% age overlap, 91% city-tier overlap",
+      "Forecast 1.6× ROAS on ₹3.13L, about 466 orders",
+      "82% of followers look real and active; 25% of recent posts are sponsored"
+     ],
+     "risks": []
+    }
+   ],
+   "plan": {
+    "creators": 20,
+    "spend": 800000,
+    "views": 1134292,
+    "tgViews": 826465,
+    "uniqueTgReach": 508507,
+    "engagements": 42295,
+    "clicks": 9778,
+    "orders": 1470,
+    "revenue": 1617463,
+    "roas": 2.02,
+    "recallLiftPts": 5.8,
+    "fakeAudienceShare": 0.12,
+    "gatedIncluded": 0,
+    "representCreators": 2,
+    "representSpend": 193000,
+    "forecastBandPct": 24,
+    "spendByTier": {
+     "micro": 184500,
+     "mid": 432000,
+     "nano": 6000,
+     "macro": 177500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 799000,
+    "views": 1391817,
+    "tgViews": 684401,
+    "uniqueTgReach": 424135,
+    "engagements": 23605,
+    "clicks": 2761,
+    "orders": 262,
+    "revenue": 288715,
+    "roas": 0.36,
+    "recallLiftPts": 3.3,
+    "fakeAudienceShare": 0.2,
+    "gatedIncluded": 0,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 22,
+    "spendByTier": {
+     "mega": 776000,
+     "micro": 23000
+    }
+   },
+   "planCreators": [
+    "Aditi B. (Micro, Beauty & Skincare)",
+    "Mansi T. (Mid-tier, Beauty & Skincare)",
+    "Riya D. (Micro, Beauty & Skincare)",
+    "Tanvi P. (Micro, Beauty & Skincare)",
+    "Debolina M. (Micro, Beauty & Skincare)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Rahul M. (Micro, Beauty & Skincare)",
+    "Meher A. (Micro, Beauty & Skincare)",
+    "Aanya M. (Mid-tier, Beauty & Skincare)",
+    "Lakshmi G. (Micro, Beauty & Skincare)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Rasika D. (Micro, Beauty & Skincare)"
+   ]
+  }
+ }
+}

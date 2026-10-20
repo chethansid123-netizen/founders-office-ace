@@ -1,0 +1,1783 @@
+{
+ "id": "amazon",
+ "name": "Amazon",
+ "parent": "Amazon India",
+ "vertical": "ecom",
+ "sub": "Marketplace",
+ "status": "Reported client",
+ "defaultObjective": "conversion",
+ "brief": "Turn creator storefronts into the first stop for festive shopping lists.",
+ "moment": "Great Indian Festival · Sep–Oct",
+ "budgetLakh": 45,
+ "target": {
+  "fem": 0.52,
+  "age": [
+   0.04,
+   0.32,
+   0.4,
+   0.17,
+   0.07
+  ],
+  "tiers": [
+   0.42,
+   0.36,
+   0.22
+  ],
+  "affl": 0.5
+ },
+ "languages": {
+  "Hinglish": 1,
+  "Hindi": 0.9,
+  "English": 0.9,
+  "Tamil": 0.6,
+  "Telugu": 0.6,
+  "Kannada": 0.6,
+  "Bengali": 0.6,
+  "Marathi": 0.6,
+  "Malayalam": 0.55,
+  "Gujarati": 0.55
+ },
+ "codes": [
+  "Festive & occasions",
+  "Value-seeker",
+  "Working professional",
+  "Family-first"
+ ],
+ "affinity": {
+  "tech": 0.9,
+  "fashion": 0.8,
+  "beauty": 0.8,
+  "home": 0.9,
+  "lifestyle": 0.85,
+  "parenting": 0.75,
+  "food": 0.6,
+  "fitness": 0.6,
+  "comedy": 0.5
+ },
+ "competitors": [
+  "Flipkart",
+  "Meesho",
+  "Myntra",
+  "Ajio"
+ ],
+ "compliance": null,
+ "aov": 1900,
+ "conversionRate": 0.04,
+ "kpis": [
+  "Verified orders",
+  "iROAS",
+  "New-to-Amazon customers"
+ ],
+ "markets": [
+  "India",
+  "UAE"
+ ],
+ "tgPoolMillions": 330,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 366,
+   "gated": 54,
+   "gatesByReason": {
+    "conflict": 20,
+    "safety": 4,
+    "fraud": 32
+   },
+   "gatedExamples": [
+    {
+     "name": "Dhruv K.",
+     "id": "CIE-1184",
+     "reasons": [
+      "Posted for Ajio 29 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Keerthi J.",
+     "id": "CIE-1415",
+     "reasons": [
+      "Posted for Myntra 29 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Dhwani M.",
+     "id": "CIE-1216",
+     "reasons": [
+      "Posted for Ajio 12 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Akhil Y.",
+     "id": "CIE-1294",
+     "reasons": [
+      "Posted for Myntra 31 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1150",
+     "name": "Kritika D.",
+     "niche": "Home & Decor",
+     "niche2": "Parenting & Family",
+     "tier": "Micro",
+     "followers": 37214,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.7,
+     "parts": {
+      "aud": 80,
+      "cont": 86,
+      "cult": 95,
+      "perf": 78,
+      "auth": 79,
+      "safe": 83,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 17.7,
+      "cont": 12.9,
+      "cult": 13.2,
+      "perf": 11.6,
+      "auth": 11.1,
+      "safe": 8.3,
+      "cost": 9.9
+     },
+     "confidence": "High",
+     "er": 2.7,
+     "linkCtr": 0.47,
+     "realFollowers": 89.1,
+     "viewThrough": 52.1,
+     "hold3s": 62,
+     "sponsoredShare": 19,
+     "adDisclosure": 100,
+     "safety": 71,
+     "audienceWomen": 0.744,
+     "forecast": {
+      "cost": 11000,
+      "views": 21625,
+      "tgViews": 15198,
+      "tgShare": 0.79,
+      "engagements": 1206,
+      "clicks": 82,
+      "orders": 11.9,
+      "revenue": 22572,
+      "roas": 2.05,
+      "recallLiftPts": 9.2,
+      "costPerTgView": 0.72,
+      "costPerEngagement": 9.12,
+      "costPerClick": 133.83
+     },
+     "why": [
+      "Audience matches the brief: 74% women (target 52%), 88% age overlap, 97% city-tier overlap",
+      "Creates in Hindi, Amazon's lead language; shares the Family-first and Festive &amp; occasions codes",
+      "Home &amp; Decor is a core category for Amazon, with parenting &amp; family as a second pillar",
+      "Viewers watch 52% of each video, top 15% of micro creators; past recall lift +9.2 pts"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1348",
+     "name": "Lakshmi D.",
+     "niche": "Food & Cooking",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 98010,
+     "city": "Hyderabad",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 84.3,
+     "parts": {
+      "aud": 90,
+      "cont": 66,
+      "cult": 100,
+      "perf": 89,
+      "auth": 73,
+      "safe": 80,
+      "cost": 90
+     },
+     "contributions": {
+      "aud": 19.8,
+      "cont": 9.9,
+      "cult": 14,
+      "perf": 13.4,
+      "auth": 10.3,
+      "safe": 8,
+      "cost": 9
+     },
+     "confidence": "Medium",
+     "er": 2.4,
+     "linkCtr": 0.77,
+     "realFollowers": 84,
+     "viewThrough": 50.8,
+     "hold3s": 83.4,
+     "sponsoredShare": 18,
+     "adDisclosure": 85,
+     "safety": 76,
+     "audienceWomen": 0.627,
+     "forecast": {
+      "cost": 27000,
+      "views": 39234,
+      "tgViews": 28072,
+      "tgShare": 0.85,
+      "engagements": 2881,
+      "clicks": 260,
+      "orders": 37.7,
+      "revenue": 71540,
+      "roas": 2.65,
+      "recallLiftPts": 7.5,
+      "costPerTgView": 0.96,
+      "costPerEngagement": 9.37,
+      "costPerClick": 104.01
+     },
+     "why": [
+      "Audience matches the brief: 63% women (target 52%), 90% age overlap, 86% city-tier overlap",
+      "Creates in English + Hinglish, Amazon's lead language; shares the Family-first and Festive &amp; occasions codes",
+      "Viewers watch 51% of each video, top 18% of micro creators; past recall lift +8.3 pts",
+      "84% of followers look real and active; 18% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1103",
+     "name": "Aarya M.",
+     "niche": "Home & Decor",
+     "niche2": "Parenting & Family",
+     "tier": "Nano",
+     "followers": 4481,
+     "city": "Ahmedabad",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.5,
+     "parts": {
+      "aud": 80,
+      "cont": 86,
+      "cult": 95,
+      "perf": 96,
+      "auth": 67,
+      "safe": 84,
+      "cost": 64
+     },
+     "contributions": {
+      "aud": 17.7,
+      "cont": 12.9,
+      "cult": 13.2,
+      "perf": 14.5,
+      "auth": 9.3,
+      "safe": 8.4,
+      "cost": 6.4
+     },
+     "confidence": "Low",
+     "er": 5.44,
+     "linkCtr": 0.96,
+     "realFollowers": 84.5,
+     "viewThrough": 56.2,
+     "hold3s": 74.8,
+     "sponsoredShare": 34,
+     "adDisclosure": 74,
+     "safety": 91,
+     "audienceWomen": 0.732,
+     "forecast": {
+      "cost": 2500,
+      "views": 2425,
+      "tgViews": 1613,
+      "tgShare": 0.79,
+      "engagements": 276,
+      "clicks": 23,
+      "orders": 2.9,
+      "revenue": 5591,
+      "roas": 2.24,
+      "recallLiftPts": 10,
+      "costPerTgView": 1.55,
+      "costPerEngagement": 9.06,
+      "costPerClick": 108.9
+     },
+     "why": [
+      "Audience matches the brief: 73% women (target 52%), 78% age overlap, 96% city-tier overlap",
+      "Viewers watch 56% of each video, top 5% of nano creators; past recall lift +10 pts",
+      "Creates in Hindi, Amazon's lead language; shares the Family-first and Festive &amp; occasions codes",
+      "Home &amp; Decor is a core category for Amazon, with parenting &amp; family as a second pillar"
+     ],
+     "risks": [
+      "Discloses #ad on only 74% of paid posts. Brief on disclosure in the first line",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1028",
+     "name": "Kritika P.",
+     "niche": "Lifestyle & Vlogs",
+     "niche2": "Food & Cooking",
+     "tier": "Micro",
+     "followers": 36783,
+     "city": "Jaipur",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Moj",
+     "represent": false,
+     "credential": null,
+     "fit": 81.8,
+     "parts": {
+      "aud": 75,
+      "cont": 79,
+      "cult": 100,
+      "perf": 65,
+      "auth": 79,
+      "safe": 92,
+      "cost": 95
+     },
+     "contributions": {
+      "aud": 16.5,
+      "cont": 11.8,
+      "cult": 14,
+      "perf": 9.7,
+      "auth": 11.1,
+      "safe": 9.2,
+      "cost": 9.5
+     },
+     "confidence": "High",
+     "er": 2.76,
+     "linkCtr": 0.69,
+     "realFollowers": 88.3,
+     "viewThrough": 46.5,
+     "hold3s": 62.9,
+     "sponsoredShare": 18,
+     "adDisclosure": 91,
+     "safety": 92,
+     "audienceWomen": 0.724,
+     "forecast": {
+      "cost": 11000,
+      "views": 19785,
+      "tgViews": 13180,
+      "tgShare": 0.75,
+      "engagements": 1214,
+      "clicks": 109,
+      "orders": 16.5,
+      "revenue": 31292,
+      "roas": 2.84,
+      "recallLiftPts": 7.2,
+      "costPerTgView": 0.83,
+      "costPerEngagement": 9.06,
+      "costPerClick": 100.86
+     },
+     "why": [
+      "Audience matches the brief: 72% women (target 52%), 81% age overlap, 86% city-tier overlap",
+      "Creates in Hinglish + Hindi, Amazon's lead language; shares the Festive &amp; occasions and Working professional codes",
+      "Lifestyle &amp; Vlogs is a strong category for Amazon, with food &amp; cooking as a second pillar",
+      "88% of followers look real and active; 18% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1083",
+     "name": "Mitali B.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Micro",
+     "followers": 30216,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.4,
+     "parts": {
+      "aud": 90,
+      "cont": 80,
+      "cult": 55,
+      "perf": 76,
+      "auth": 85,
+      "safe": 92,
+      "cost": 95
+     },
+     "contributions": {
+      "aud": 19.7,
+      "cont": 12,
+      "cult": 7.7,
+      "perf": 11.3,
+      "auth": 12,
+      "safe": 9.2,
+      "cost": 9.5
+     },
+     "confidence": "Low",
+     "er": 2.34,
+     "linkCtr": 0.51,
+     "realFollowers": 90,
+     "viewThrough": 55.3,
+     "hold3s": 55.1,
+     "sponsoredShare": 4,
+     "adDisclosure": 94,
+     "safety": 90,
+     "audienceWomen": 0.705,
+     "forecast": {
+      "cost": 9500,
+      "views": 13910,
+      "tgViews": 10646,
+      "tgShare": 0.85,
+      "engagements": 870,
+      "clicks": 62,
+      "orders": 8.9,
+      "revenue": 16883,
+      "roas": 1.78,
+      "recallLiftPts": 9.4,
+      "costPerTgView": 0.89,
+      "costPerEngagement": 10.92,
+      "costPerClick": 152.6
+     },
+     "why": [
+      "Audience matches the brief: 71% women (target 52%), 94% age overlap, 98% city-tier overlap",
+      "Fashion &amp; Style is a strong category for Amazon, with beauty &amp; skincare as a second pillar",
+      "90% of followers look real and active; 4% of recent posts are sponsored",
+      "Viewers watch 55% of each video, top 6% of micro creators; past recall lift +9.6 pts"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 80,
+    "spend": 3765500,
+    "views": 5490831,
+    "tgViews": 3766626,
+    "uniqueTgReach": 2327300,
+    "engagements": 225758,
+    "clicks": 32719,
+    "orders": 4248,
+    "revenue": 8072115,
+    "roas": 2.14,
+    "recallLiftPts": 5.5,
+    "fakeAudienceShare": 0.13,
+    "gatedIncluded": 0,
+    "representCreators": 2,
+    "representSpend": 182500,
+    "forecastBandPct": 22,
+    "spendByTier": {
+     "micro": 618500,
+     "macro": 608000,
+     "mid": 2520000,
+     "nano": 19000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 4,
+    "spend": 3761500,
+    "views": 3480365,
+    "tgViews": 2027474,
+    "uniqueTgReach": 1255482,
+    "engagements": 97422,
+    "clicks": 18393,
+    "orders": 2020,
+    "revenue": 3838072,
+    "roas": 1.02,
+    "recallLiftPts": 3.7,
+    "fakeAudienceShare": 0.31,
+    "gatedIncluded": 3,
+    "representCreators": 1,
+    "representSpend": 112000,
+    "forecastBandPct": 23,
+    "spendByTier": {
+     "mega": 3649500,
+     "mid": 112000
+    }
+   },
+   "planCreators": [
+    "Varsha B. (Micro, Food & Cooking)",
+    "Tanvi C. (Micro, Food & Cooking)",
+    "Kritika D. (Micro, Home & Decor)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Keerthi B. (Macro, Beauty & Skincare)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Hetal A. (Mid-tier, Food & Cooking)",
+    "Mitali B. (Micro, Fashion & Style)",
+    "Ananya J. (Micro, Music & Dance)",
+    "Priyanka M. (Mid-tier, Food & Cooking)",
+    "Kritika P. (Micro, Lifestyle & Vlogs)",
+    "Sakshi A. (Micro, Comedy & Entertainment)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 366,
+   "gated": 54,
+   "gatesByReason": {
+    "conflict": 20,
+    "safety": 4,
+    "fraud": 32
+   },
+   "gatedExamples": [
+    {
+     "name": "Dhruv K.",
+     "id": "CIE-1184",
+     "reasons": [
+      "Posted for Ajio 29 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Ishita Y.",
+     "id": "CIE-1307",
+     "reasons": [
+      "Posted for Ajio 42 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Rasika S.",
+     "id": "CIE-1234",
+     "reasons": [
+      "Posted for Ajio 28 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Mitali S.",
+     "id": "CIE-1109",
+     "reasons": [
+      "Brand-safety score 51: political commentary, unverified health claims"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1162",
+     "name": "Rehan G.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 3861,
+     "city": "Dubai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.3,
+     "parts": {
+      "aud": 83,
+      "cont": 81,
+      "cult": 78,
+      "perf": 80,
+      "auth": 87,
+      "safe": 83,
+      "cost": 73
+     },
+     "contributions": {
+      "aud": 16.7,
+      "cont": 14.6,
+      "cult": 7.8,
+      "perf": 16,
+      "auth": 12.2,
+      "safe": 6.7,
+      "cost": 7.3
+     },
+     "confidence": "Low",
+     "er": 5.16,
+     "linkCtr": 1,
+     "realFollowers": 97,
+     "viewThrough": 41.7,
+     "hold3s": 68.5,
+     "sponsoredShare": 34,
+     "adDisclosure": 85,
+     "safety": 82,
+     "audienceWomen": 0.617,
+     "forecast": {
+      "cost": 2500,
+      "views": 2935,
+      "tgViews": 2299,
+      "tgShare": 0.81,
+      "engagements": 227,
+      "clicks": 23,
+      "orders": 3,
+      "revenue": 5734,
+      "roas": 2.29,
+      "recallLiftPts": 3.3,
+      "costPerTgView": 1.09,
+      "costPerEngagement": 11.01,
+      "costPerClick": 107.98
+     },
+     "why": [
+      "Audience matches the brief: 62% women (target 52%), 87% age overlap, 86% city-tier overlap",
+      "Engagement rate 5.2%, top 29% of nano creators; 3.7% of viewers save or share",
+      "Fashion &amp; Style is a strong category for Amazon, with lifestyle &amp; vlogs as a second pillar",
+      "97% of followers look real and active; 34% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1296",
+     "name": "Subhankar B.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 45223,
+     "city": "Kolkata",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.3,
+     "parts": {
+      "aud": 75,
+      "cont": 81,
+      "cult": 100,
+      "perf": 78,
+      "auth": 76,
+      "safe": 90,
+      "cost": 83
+     },
+     "contributions": {
+      "aud": 15,
+      "cont": 14.6,
+      "cult": 10,
+      "perf": 15.5,
+      "auth": 10.6,
+      "safe": 7.2,
+      "cost": 8.3
+     },
+     "confidence": "Medium",
+     "er": 3.76,
+     "linkCtr": 0.59,
+     "realFollowers": 83.4,
+     "viewThrough": 41.2,
+     "hold3s": 55.4,
+     "sponsoredShare": 11,
+     "adDisclosure": 89,
+     "safety": 91,
+     "audienceWomen": 0.838,
+     "forecast": {
+      "cost": 18500,
+      "views": 23148,
+      "tgViews": 14566,
+      "tgShare": 0.75,
+      "engagements": 1945,
+      "clicks": 114,
+      "orders": 14.3,
+      "revenue": 27086,
+      "roas": 1.46,
+      "recallLiftPts": 5.6,
+      "costPerTgView": 1.27,
+      "costPerEngagement": 9.51,
+      "costPerClick": 162.24
+     },
+     "why": [
+      "Engagement rate 3.8%, top 20% of micro creators; 2.6% of viewers save or share",
+      "Audience matches the brief: 84% women (target 52%), 92% age overlap, 94% city-tier overlap",
+      "Beauty &amp; Skincare is a strong category for Amazon, with lifestyle &amp; vlogs as a second pillar",
+      "83% of followers look real and active; 11% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1146",
+     "name": "Ishani V.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 69981,
+     "city": "Patna",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 80.5,
+     "parts": {
+      "aud": 76,
+      "cont": 81,
+      "cult": 95,
+      "perf": 77,
+      "auth": 70,
+      "safe": 95,
+      "cost": 84
+     },
+     "contributions": {
+      "aud": 15.1,
+      "cont": 14.6,
+      "cult": 9.5,
+      "perf": 15.4,
+      "auth": 9.9,
+      "safe": 7.6,
+      "cost": 8.4
+     },
+     "confidence": "Low",
+     "er": 5.7,
+     "linkCtr": 0.76,
+     "realFollowers": 85.8,
+     "viewThrough": 39.6,
+     "hold3s": 62.7,
+     "sponsoredShare": 28,
+     "adDisclosure": 99,
+     "safety": 92,
+     "audienceWomen": 0.921,
+     "forecast": {
+      "cost": 37000,
+      "views": 15201,
+      "tgViews": 9871,
+      "tgShare": 0.76,
+      "engagements": 3989,
+      "clicks": 81,
+      "orders": 10.2,
+      "revenue": 19338,
+      "roas": 0.52,
+      "recallLiftPts": 7.6,
+      "costPerTgView": 3.75,
+      "costPerEngagement": 9.28,
+      "costPerClick": 454.48
+     },
+     "why": [
+      "Engagement rate 5.7%, top 2% of micro creators; 2.6% of viewers save or share",
+      "Audience matches the brief: 92% women (target 52%), 91% age overlap, 96% city-tier overlap",
+      "Beauty &amp; Skincare is a strong category for Amazon, with lifestyle &amp; vlogs as a second pillar",
+      "86% of followers look real and active; 28% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1221",
+     "name": "Shreya G.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 16818,
+     "city": "Chandigarh",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 79.7,
+     "parts": {
+      "aud": 76,
+      "cont": 81,
+      "cult": 72,
+      "perf": 83,
+      "auth": 73,
+      "safe": 88,
+      "cost": 87
+     },
+     "contributions": {
+      "aud": 15.3,
+      "cont": 14.6,
+      "cult": 7.2,
+      "perf": 16.7,
+      "auth": 10.2,
+      "safe": 7,
+      "cost": 8.7
+     },
+     "confidence": "Low",
+     "er": 3.98,
+     "linkCtr": 0.59,
+     "realFollowers": 85.9,
+     "viewThrough": 51.4,
+     "hold3s": 61.1,
+     "sponsoredShare": 37,
+     "adDisclosure": 90,
+     "safety": 86,
+     "audienceWomen": 0.641,
+     "forecast": {
+      "cost": 6000,
+      "views": 3486,
+      "tgViews": 2280,
+      "tgShare": 0.76,
+      "engagements": 669,
+      "clicks": 14,
+      "orders": 2,
+      "revenue": 3772,
+      "roas": 0.63,
+      "recallLiftPts": 8,
+      "costPerTgView": 2.63,
+      "costPerEngagement": 8.96,
+      "costPerClick": 413.98
+     },
+     "why": [
+      "Engagement rate 4.0%, top 17% of micro creators; 3.0% of viewers save or share",
+      "Audience matches the brief: 64% women (target 52%), 73% age overlap, 91% city-tier overlap",
+      "Fashion &amp; Style is a strong category for Amazon, with lifestyle &amp; vlogs as a second pillar",
+      "86% of followers look real and active; 37% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1150",
+     "name": "Kritika D.",
+     "niche": "Home & Decor",
+     "niche2": "Parenting & Family",
+     "tier": "Micro",
+     "followers": 37214,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.5,
+     "parts": {
+      "aud": 80,
+      "cont": 86,
+      "cult": 95,
+      "perf": 56,
+      "auth": 79,
+      "safe": 83,
+      "cost": 86
+     },
+     "contributions": {
+      "aud": 16.1,
+      "cont": 15.5,
+      "cult": 9.5,
+      "perf": 11.1,
+      "auth": 11.1,
+      "safe": 6.6,
+      "cost": 8.6
+     },
+     "confidence": "High",
+     "er": 2.7,
+     "linkCtr": 0.47,
+     "realFollowers": 89.1,
+     "viewThrough": 52.1,
+     "hold3s": 62,
+     "sponsoredShare": 19,
+     "adDisclosure": 100,
+     "safety": 71,
+     "audienceWomen": 0.744,
+     "forecast": {
+      "cost": 11000,
+      "views": 21625,
+      "tgViews": 15198,
+      "tgShare": 0.79,
+      "engagements": 1206,
+      "clicks": 82,
+      "orders": 11.9,
+      "revenue": 22572,
+      "roas": 2.05,
+      "recallLiftPts": 9.2,
+      "costPerTgView": 0.72,
+      "costPerEngagement": 9.12,
+      "costPerClick": 133.83
+     },
+     "why": [
+      "Audience matches the brief: 74% women (target 52%), 88% age overlap, 97% city-tier overlap",
+      "Home &amp; Decor is a core category for Amazon, with parenting &amp; family as a second pillar",
+      "Engagement rate 2.7%, top 53% of micro creators; 3.1% of viewers save or share",
+      "89% of followers look real and active; 19% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Profanity in recent content"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 80,
+    "spend": 1922500,
+    "views": 2016688,
+    "tgViews": 1409402,
+    "uniqueTgReach": 872714,
+    "engagements": 173378,
+    "clicks": 10551,
+    "orders": 1374,
+    "revenue": 2611088,
+    "roas": 1.36,
+    "recallLiftPts": 5,
+    "fakeAudienceShare": 0.11,
+    "gatedIncluded": 0,
+    "representCreators": 2,
+    "representSpend": 431000,
+    "forecastBandPct": 23,
+    "spendByTier": {
+     "micro": 1017000,
+     "nano": 19500,
+     "mid": 628500,
+     "macro": 257500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 1920000,
+    "views": 1426504,
+    "tgViews": 697297,
+    "uniqueTgReach": 432244,
+    "engagements": 40562,
+    "clicks": 8138,
+    "orders": 828,
+    "revenue": 1573317,
+    "roas": 0.82,
+    "recallLiftPts": 3.7,
+    "fakeAudienceShare": 0.43,
+    "gatedIncluded": 1,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 13,
+    "spendByTier": {
+     "mega": 1779000,
+     "macro": 141000
+    }
+   },
+   "planCreators": [
+    "Moumita N. (Micro, Parenting & Family)",
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Sahil Y. (Micro, Lifestyle & Vlogs)",
+    "Ananya B. (Micro, Beauty & Skincare)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Rasika D. (Micro, Beauty & Skincare)",
+    "Kunal K. (Micro, Fitness & Wellness)",
+    "Dhwani R. (Micro, Fitness & Wellness)",
+    "Devang M. (Nano, Lifestyle & Vlogs)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Vivaan Y. (Micro, Fitness & Wellness)",
+    "Anjali V. (Micro, Comedy & Entertainment)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 366,
+   "gated": 54,
+   "gatesByReason": {
+    "conflict": 20,
+    "fraud": 32,
+    "safety": 4
+   },
+   "gatedExamples": [
+    {
+     "name": "Nikita D.",
+     "id": "CIE-1248",
+     "reasons": [
+      "Posted for Myntra 16 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Ishita Y.",
+     "id": "CIE-1307",
+     "reasons": [
+      "Posted for Ajio 42 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Rasika S.",
+     "id": "CIE-1234",
+     "reasons": [
+      "Posted for Ajio 28 days ago (60-day category exclusivity)"
+     ]
+    },
+    {
+     "name": "Aditi T.",
+     "id": "CIE-1314",
+     "reasons": [
+      "Posted for Myntra 54 days ago (60-day category exclusivity)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1332",
+     "name": "Kunal K.",
+     "niche": "Fitness & Wellness",
+     "niche2": "Food & Cooking",
+     "tier": "Micro",
+     "followers": 32206,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.1,
+     "parts": {
+      "aud": 100,
+      "cont": 60,
+      "cult": 55,
+      "perf": 89,
+      "auth": 74,
+      "safe": 90,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 18,
+      "cont": 8.4,
+      "cult": 4.4,
+      "perf": 23,
+      "auth": 10.4,
+      "safe": 7.2,
+      "cost": 11.8
+     },
+     "confidence": "Low",
+     "er": 3.45,
+     "linkCtr": 1.58,
+     "realFollowers": 90.9,
+     "viewThrough": 27.7,
+     "hold3s": 40.9,
+     "sponsoredShare": 44,
+     "adDisclosure": 92,
+     "safety": 88,
+     "audienceWomen": 0.497,
+     "forecast": {
+      "cost": 11000,
+      "views": 12835,
+      "tgViews": 10741,
+      "tgShare": 0.92,
+      "engagements": 1285,
+      "clicks": 166,
+      "orders": 22.9,
+      "revenue": 43475,
+      "roas": 3.95,
+      "recallLiftPts": 2.1,
+      "costPerTgView": 1.02,
+      "costPerEngagement": 8.56,
+      "costPerClick": 66.2
+     },
+     "why": [
+      "Link CTR 1.58%, top 1% of micro creators; trust index 1.16",
+      "Audience matches the brief: 50% women (target 52%), 95% age overlap, 96% city-tier overlap",
+      "Forecast 4.0× ROAS on ₹11K, about 23 orders",
+      "91% of followers look real and active; 44% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1361",
+     "name": "Hetal M.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 30105,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 82.5,
+     "parts": {
+      "aud": 86,
+      "cont": 81,
+      "cult": 100,
+      "perf": 76,
+      "auth": 64,
+      "safe": 90,
+      "cost": 96
+     },
+     "contributions": {
+      "aud": 15.6,
+      "cont": 11.4,
+      "cult": 8,
+      "perf": 19.9,
+      "auth": 8.9,
+      "safe": 7.2,
+      "cost": 11.5
+     },
+     "confidence": "High",
+     "er": 2.41,
+     "linkCtr": 1.15,
+     "realFollowers": 80.4,
+     "viewThrough": 26.9,
+     "hold3s": 45.7,
+     "sponsoredShare": 14,
+     "adDisclosure": 83,
+     "safety": 95,
+     "audienceWomen": 0.658,
+     "forecast": {
+      "cost": 11000,
+      "views": 13079,
+      "tgViews": 8712,
+      "tgShare": 0.83,
+      "engagements": 888,
+      "clicks": 138,
+      "orders": 21.6,
+      "revenue": 41047,
+      "roas": 3.73,
+      "recallLiftPts": 5.6,
+      "costPerTgView": 1.26,
+      "costPerEngagement": 12.39,
+      "costPerClick": 79.91
+     },
+     "why": [
+      "Link CTR 1.15%, top 13% of micro creators; trust index 1.18",
+      "Audience matches the brief: 66% women (target 52%), 90% age overlap, 90% city-tier overlap",
+      "Forecast 3.7× ROAS on ₹11K, about 22 orders",
+      "Fashion &amp; Style is a strong category for Amazon, with lifestyle &amp; vlogs as a second pillar"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1334",
+     "name": "Mansi T.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 125386,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": true,
+     "credential": null,
+     "fit": 82,
+     "parts": {
+      "aud": 82,
+      "cont": 81,
+      "cult": 78,
+      "perf": 76,
+      "auth": 80,
+      "safe": 91,
+      "cost": 96
+     },
+     "contributions": {
+      "aud": 14.8,
+      "cont": 11.4,
+      "cult": 6.2,
+      "perf": 19.8,
+      "auth": 11.1,
+      "safe": 7.2,
+      "cost": 11.5
+     },
+     "confidence": "Low",
+     "er": 1.45,
+     "linkCtr": 1.68,
+     "realFollowers": 89,
+     "viewThrough": 49.8,
+     "hold3s": 64.1,
+     "sponsoredShare": 27,
+     "adDisclosure": 96,
+     "safety": 87,
+     "audienceWomen": 0.802,
+     "forecast": {
+      "cost": 49000,
+      "views": 52197,
+      "tgViews": 37101,
+      "tgShare": 0.8,
+      "engagements": 2345,
+      "clicks": 715,
+      "orders": 94.1,
+      "revenue": 178852,
+      "roas": 3.65,
+      "recallLiftPts": 5.1,
+      "costPerTgView": 1.32,
+      "costPerEngagement": 20.9,
+      "costPerClick": 68.54
+     },
+     "why": [
+      "Link CTR 1.68%, top 1% of mid-tier creators; trust index 0.99",
+      "Audience matches the brief: 80% women (target 52%), 91% age overlap, 96% city-tier overlap",
+      "Forecast 3.7× ROAS on ₹49K, about 94 orders",
+      "Beauty &amp; Skincare is a strong category for Amazon, with lifestyle &amp; vlogs as a second pillar"
+     ],
+     "risks": [
+      "Posted for Ajio 106 days ago (outside the 60-day window)",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1140",
+     "name": "Lakshmi G.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 11900,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 81.1,
+     "parts": {
+      "aud": 72,
+      "cont": 80,
+      "cult": 78,
+      "perf": 85,
+      "auth": 78,
+      "safe": 78,
+      "cost": 96
+     },
+     "contributions": {
+      "aud": 12.9,
+      "cont": 11.2,
+      "cult": 6.2,
+      "perf": 22.2,
+      "auth": 10.9,
+      "safe": 6.2,
+      "cost": 11.5
+     },
+     "confidence": "Medium",
+     "er": 4.12,
+     "linkCtr": 1.02,
+     "realFollowers": 89,
+     "viewThrough": 42.9,
+     "hold3s": 63.8,
+     "sponsoredShare": 20,
+     "adDisclosure": 92,
+     "safety": 68,
+     "audienceWomen": 0.954,
+     "forecast": {
+      "cost": 4000,
+      "views": 4857,
+      "tgViews": 3161,
+      "tgShare": 0.73,
+      "engagements": 555,
+      "clicks": 47,
+      "orders": 7.8,
+      "revenue": 14868,
+      "roas": 3.72,
+      "recallLiftPts": 5.4,
+      "costPerTgView": 1.27,
+      "costPerEngagement": 7.21,
+      "costPerClick": 85.8
+     },
+     "why": [
+      "Link CTR 1.02%, top 18% of micro creators; trust index 1.27",
+      "Audience matches the brief: 95% women (target 52%), 93% age overlap, 96% city-tier overlap",
+      "Forecast 3.7× ROAS on ₹4K, about 8 orders",
+      "Beauty &amp; Skincare is a strong category for Amazon, with fashion &amp; style as a second pillar"
+     ],
+     "risks": [
+      "Unverified health claims"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1357",
+     "name": "Rasika M.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Macro",
+     "followers": 904194,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 80.6,
+     "parts": {
+      "aud": 75,
+      "cont": 81,
+      "cult": 78,
+      "perf": 87,
+      "auth": 66,
+      "safe": 84,
+      "cost": 93
+     },
+     "contributions": {
+      "aud": 13.5,
+      "cont": 11.4,
+      "cult": 6.2,
+      "perf": 22.6,
+      "auth": 9.2,
+      "safe": 6.7,
+      "cost": 11.1
+     },
+     "confidence": "Medium",
+     "er": 0.96,
+     "linkCtr": 1.21,
+     "realFollowers": 82.3,
+     "viewThrough": 57.1,
+     "hold3s": 72,
+     "sponsoredShare": 25,
+     "adDisclosure": 80,
+     "safety": 86,
+     "audienceWomen": 0.834,
+     "forecast": {
+      "cost": 313000,
+      "views": 378871,
+      "tgViews": 234402,
+      "tgShare": 0.75,
+      "engagements": 11664,
+      "clicks": 3304,
+      "orders": 527.3,
+      "revenue": 1001926,
+      "roas": 3.2,
+      "recallLiftPts": 8.5,
+      "costPerTgView": 1.34,
+      "costPerEngagement": 26.83,
+      "costPerClick": 94.73
+     },
+     "why": [
+      "Link CTR 1.21%, top 7% of macro creators; trust index 1.20",
+      "Audience matches the brief: 83% women (target 52%), 90% age overlap, 94% city-tier overlap",
+      "Fashion &amp; Style is a strong category for Amazon, with lifestyle &amp; vlogs as a second pillar",
+      "Forecast 3.2× ROAS on ₹3.13L, about 527 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1345",
+     "name": "Aanya R.",
+     "niche": "Fashion & Style",
+     "niche2": "Beauty & Skincare",
+     "tier": "Nano",
+     "followers": 8388,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.6,
+     "parts": {
+      "aud": 78,
+      "cont": 80,
+      "cult": 55,
+      "perf": 75,
+      "auth": 92,
+      "safe": 85,
+      "cost": 91
+     },
+     "contributions": {
+      "aud": 14.1,
+      "cont": 11.2,
+      "cult": 4.4,
+      "perf": 19.4,
+      "auth": 12.9,
+      "safe": 6.8,
+      "cost": 10.9
+     },
+     "confidence": "Low",
+     "er": 4.96,
+     "linkCtr": 1.11,
+     "realFollowers": 95.7,
+     "viewThrough": 38.3,
+     "hold3s": 77.2,
+     "sponsoredShare": 21,
+     "adDisclosure": 87,
+     "safety": 83,
+     "audienceWomen": 0.731,
+     "forecast": {
+      "cost": 4000,
+      "views": 4633,
+      "tgViews": 3428,
+      "tgShare": 0.77,
+      "engagements": 476,
+      "clicks": 48,
+      "orders": 6.5,
+      "revenue": 12408,
+      "roas": 3.1,
+      "recallLiftPts": 3.3,
+      "costPerTgView": 1.17,
+      "costPerEngagement": 8.4,
+      "costPerClick": 83.38
+     },
+     "why": [
+      "Link CTR 1.11%, top 17% of nano creators; trust index 1.03",
+      "Audience matches the brief: 73% women (target 52%), 83% age overlap, 94% city-tier overlap",
+      "96% of followers look real and active; 21% of recent posts are sponsored",
+      "Fashion &amp; Style is a strong category for Amazon, with beauty &amp; skincare as a second pillar"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1320",
+     "name": "Tanvi C.",
+     "niche": "Food & Cooking",
+     "niche2": "Parenting & Family",
+     "tier": "Micro",
+     "followers": 59236,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.1,
+     "parts": {
+      "aud": 82,
+      "cont": 64,
+      "cult": 100,
+      "perf": 64,
+      "auth": 87,
+      "safe": 87,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 14.7,
+      "cont": 8.9,
+      "cult": 8,
+      "perf": 16.6,
+      "auth": 12.1,
+      "safe": 6.9,
+      "cost": 11.7
+     },
+     "confidence": "Medium",
+     "er": 1.55,
+     "linkCtr": 0.93,
+     "realFollowers": 93.7,
+     "viewThrough": 39.6,
+     "hold3s": 60.8,
+     "sponsoredShare": 6,
+     "adDisclosure": 88,
+     "safety": 86,
+     "audienceWomen": 0.758,
+     "forecast": {
+      "cost": 16000,
+      "views": 34340,
+      "tgViews": 25688,
+      "tgShare": 0.8,
+      "engagements": 1238,
+      "clicks": 219,
+      "orders": 32.9,
+      "revenue": 62584,
+      "roas": 3.91,
+      "recallLiftPts": 1.8,
+      "costPerTgView": 0.62,
+      "costPerEngagement": 12.92,
+      "costPerClick": 73.03
+     },
+     "why": [
+      "Link CTR 0.93%, top 27% of micro creators; trust index 1.24",
+      "Audience matches the brief: 76% women (target 52%), 87% age overlap, 95% city-tier overlap",
+      "94% of followers look real and active; 6% of recent posts are sponsored",
+      "Forecast 3.9× ROAS on ₹16K, about 33 orders"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1418",
+     "name": "Rahul M.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 68998,
+     "city": "Delhi NCR",
+     "languages": [
+      "English",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.9,
+     "parts": {
+      "aud": 78,
+      "cont": 81,
+      "cult": 78,
+      "perf": 72,
+      "auth": 79,
+      "safe": 91,
+      "cost": 87
+     },
+     "contributions": {
+      "aud": 14,
+      "cont": 11.4,
+      "cult": 6.2,
+      "perf": 18.7,
+      "auth": 11,
+      "safe": 7.3,
+      "cost": 10.4
+     },
+     "confidence": "Medium",
+     "er": 3.07,
+     "linkCtr": 1.39,
+     "realFollowers": 89.2,
+     "viewThrough": 43.6,
+     "hold3s": 59.1,
+     "sponsoredShare": 25,
+     "adDisclosure": 95,
+     "safety": 88,
+     "audienceWomen": 0.714,
+     "forecast": {
+      "cost": 34500,
+      "views": 28230,
+      "tgViews": 19444,
+      "tgShare": 0.77,
+      "engagements": 2491,
+      "clicks": 372,
+      "orders": 46.5,
+      "revenue": 88367,
+      "roas": 2.56,
+      "recallLiftPts": 3,
+      "costPerTgView": 1.77,
+      "costPerEngagement": 13.85,
+      "costPerClick": 92.74
+     },
+     "why": [
+      "Link CTR 1.39%, top 2% of micro creators; trust index 0.94",
+      "Audience matches the brief: 71% women (target 52%), 93% age overlap, 83% city-tier overlap",
+      "Beauty &amp; Skincare is a strong category for Amazon, with lifestyle &amp; vlogs as a second pillar",
+      "89% of followers look real and active; 25% of recent posts are sponsored"
+     ],
+     "risks": []
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1162",
+     "name": "Rehan G.",
+     "niche": "Fashion & Style",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 3861,
+     "city": "Dubai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.7,
+     "parts": {
+      "aud": 83,
+      "cont": 81,
+      "cult": 78,
+      "perf": 67,
+      "auth": 87,
+      "safe": 83,
+      "cost": 82
+     },
+     "contributions": {
+      "aud": 15,
+      "cont": 11.4,
+      "cult": 6.2,
+      "perf": 17.5,
+      "auth": 12.2,
+      "safe": 6.7,
+      "cost": 9.8
+     },
+     "confidence": "Low",
+     "er": 5.16,
+     "linkCtr": 1,
+     "realFollowers": 97,
+     "viewThrough": 41.7,
+     "hold3s": 68.5,
+     "sponsoredShare": 34,
+     "adDisclosure": 85,
+     "safety": 82,
+     "audienceWomen": 0.617,
+     "forecast": {
+      "cost": 2500,
+      "views": 2935,
+      "tgViews": 2299,
+      "tgShare": 0.81,
+      "engagements": 227,
+      "clicks": 23,
+      "orders": 3,
+      "revenue": 5734,
+      "roas": 2.29,
+      "recallLiftPts": 3.3,
+      "costPerTgView": 1.09,
+      "costPerEngagement": 11.01,
+      "costPerClick": 107.98
+     },
+     "why": [
+      "Link CTR 1.00%, top 27% of nano creators; trust index 0.98",
+      "Audience matches the brief: 62% women (target 52%), 87% age overlap, 86% city-tier overlap",
+      "97% of followers look real and active; 34% of recent posts are sponsored",
+      "Fashion &amp; Style is a strong category for Amazon, with lifestyle &amp; vlogs as a second pillar"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1009",
+     "name": "Kavya T.",
+     "niche": "Parenting & Family",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Mid-tier",
+     "followers": 264641,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.6,
+     "parts": {
+      "aud": 68,
+      "cont": 57,
+      "cult": 95,
+      "perf": 84,
+      "auth": 77,
+      "safe": 82,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 12.3,
+      "cont": 8,
+      "cult": 7.6,
+      "perf": 21.7,
+      "auth": 10.8,
+      "safe": 6.6,
+      "cost": 11.6
+     },
+     "confidence": "Low",
+     "er": 1.64,
+     "linkCtr": 1.5,
+     "realFollowers": 90.4,
+     "viewThrough": 49.4,
+     "hold3s": 74.2,
+     "sponsoredShare": 32,
+     "adDisclosure": 82,
+     "safety": 82,
+     "audienceWomen": 0.832,
+     "forecast": {
+      "cost": 72000,
+      "views": 115919,
+      "tgViews": 74482,
+      "tgShare": 0.71,
+      "engagements": 5452,
+      "clicks": 1150,
+      "orders": 145.4,
+      "revenue": 276216,
+      "roas": 3.84,
+      "recallLiftPts": 4.3,
+      "costPerTgView": 0.97,
+      "costPerEngagement": 13.21,
+      "costPerClick": 62.6
+     },
+     "why": [
+      "Link CTR 1.50%, top 4% of mid-tier creators; trust index 1.08",
+      "Audience matches the brief: 83% women (target 52%), 74% age overlap, 94% city-tier overlap",
+      "Forecast 3.8× ROAS on ₹72K, about 145 orders",
+      "90% of followers look real and active; 32% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 80,
+    "spend": 4216000,
+    "views": 5198613,
+    "tgViews": 3390942,
+    "uniqueTgReach": 2095948,
+    "engagements": 228396,
+    "clicks": 45693,
+    "orders": 6045,
+    "revenue": 11484930,
+    "roas": 2.72,
+    "recallLiftPts": 5.7,
+    "fakeAudienceShare": 0.15,
+    "gatedIncluded": 0,
+    "representCreators": 5,
+    "representSpend": 839500,
+    "forecastBandPct": 23,
+    "spendByTier": {
+     "micro": 581500,
+     "mid": 2395000,
+     "nano": 21000,
+     "macro": 645500,
+     "mega": 573000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 4,
+    "spend": 4216000,
+    "views": 3694018,
+    "tgViews": 2188333,
+    "uniqueTgReach": 1354892,
+    "engagements": 118657,
+    "clicks": 20103,
+    "orders": 2305,
+    "revenue": 4378999,
+    "roas": 1.04,
+    "recallLiftPts": 4.1,
+    "fakeAudienceShare": 0.28,
+    "gatedIncluded": 1,
+    "representCreators": 0,
+    "representSpend": 0,
+    "forecastBandPct": 19,
+    "spendByTier": {
+     "mega": 4123000,
+     "mid": 93000
+    }
+   },
+   "planCreators": [
+    "Varsha B. (Micro, Food & Cooking)",
+    "Aditi B. (Micro, Beauty & Skincare)",
+    "Mansi B. (Micro, Tech & Gadgets)",
+    "Tanvi C. (Micro, Food & Cooking)",
+    "Kavya T. (Mid-tier, Parenting & Family)",
+    "Kunal K. (Micro, Fitness & Wellness)",
+    "Mansi T. (Mid-tier, Beauty & Skincare)",
+    "Parth K. (Mid-tier, Fashion & Style)",
+    "Sruthi A. (Mid-tier, Fashion & Style)",
+    "Aanya R. (Nano, Fashion & Style)",
+    "Riya D. (Micro, Beauty & Skincare)",
+    "Tanvi R. (Mid-tier, Tech & Gadgets)"
+   ]
+  }
+ }
+}

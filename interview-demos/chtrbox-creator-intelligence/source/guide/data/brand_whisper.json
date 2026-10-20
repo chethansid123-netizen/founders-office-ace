@@ -1,0 +1,1806 @@
+{
+ "id": "whisper",
+ "name": "Whisper",
+ "parent": "P&G",
+ "vertical": "fmcg",
+ "sub": "Feminine hygiene",
+ "status": "Reported client",
+ "defaultObjective": "consideration",
+ "brief": "Normalise period conversations with first-year college students.",
+ "moment": "Back to college · Jun–Aug",
+ "budgetLakh": 12,
+ "target": {
+  "fem": 0.97,
+  "age": [
+   0.14,
+   0.52,
+   0.28,
+   0.05,
+   0.01
+  ],
+  "tiers": [
+   0.3,
+   0.4,
+   0.3
+  ],
+  "affl": 0.4
+ },
+ "languages": {
+  "Hindi": 1,
+  "Hinglish": 0.9,
+  "English": 0.6,
+  "Tamil": 0.6,
+  "Telugu": 0.6,
+  "Bengali": 0.6,
+  "Marathi": 0.6
+ },
+ "codes": [
+  "Campus life",
+  "Small-town dreams",
+  "Science-backed"
+ ],
+ "affinity": {
+  "health": 0.9,
+  "lifestyle": 0.75,
+  "beauty": 0.7,
+  "education": 0.75,
+  "fitness": 0.6
+ },
+ "competitors": [
+  "Stayfree",
+  "Sofy",
+  "Nua"
+ ],
+ "compliance": "health",
+ "aov": 180,
+ "conversionRate": 0.05,
+ "kpis": [
+  "Saves per view",
+  "Sentiment",
+  "Sampling sign-ups"
+ ],
+ "markets": [
+  "India"
+ ],
+ "tgPoolMillions": 80,
+ "byObjective": {
+  "awareness": {
+   "weights": {
+    "aud": 22,
+    "cont": 15,
+    "cult": 14,
+    "perf": 15,
+    "auth": 14,
+    "safe": 10,
+    "cost": 10
+   },
+   "eligible": 356,
+   "gated": 64,
+   "gatesByReason": {
+    "reg": 12,
+    "safety": 4,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Riya T.",
+     "id": "CIE-1385",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    },
+    {
+     "name": "Hetal R.",
+     "id": "CIE-1160",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    },
+    {
+     "name": "Janhvi A.",
+     "id": "CIE-1304",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    },
+    {
+     "name": "Sneha V.",
+     "id": "CIE-1267",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1231",
+     "name": "Riya D.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 30854,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 79.5,
+     "parts": {
+      "aud": 80,
+      "cont": 71,
+      "cult": 78,
+      "perf": 66,
+      "auth": 83,
+      "safe": 91,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 17.6,
+      "cont": 10.7,
+      "cult": 10.9,
+      "perf": 9.9,
+      "auth": 11.7,
+      "safe": 9.1,
+      "cost": 9.8
+     },
+     "confidence": "Low",
+     "er": 1.88,
+     "linkCtr": 0.85,
+     "realFollowers": 90.5,
+     "viewThrough": 44.7,
+     "hold3s": 59,
+     "sponsoredShare": 13,
+     "adDisclosure": 100,
+     "safety": 85,
+     "audienceWomen": 0.856,
+     "forecast": {
+      "cost": 8000,
+      "views": 12413,
+      "tgViews": 8816,
+      "tgShare": 0.78,
+      "engagements": 747,
+      "clicks": 94,
+      "orders": 18.1,
+      "revenue": 3256,
+      "roas": 0.41,
+      "recallLiftPts": 9.1,
+      "costPerTgView": 0.91,
+      "costPerEngagement": 10.71,
+      "costPerClick": 85.16
+     },
+     "why": [
+      "Audience matches the brief: 86% women (target 97%), 87% age overlap, 86% city-tier overlap",
+      "91% of followers look real and active; 13% of recent posts are sponsored",
+      "Creates in Hinglish + Hindi, Whisper's lead language; shares the Science-backed codes",
+      "Beauty &amp; Skincare is a strong category for Whisper, with lifestyle &amp; vlogs as a second pillar"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1191",
+     "name": "Karan V.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 13872,
+     "city": "Jaipur",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 75.9,
+     "parts": {
+      "aud": 69,
+      "cont": 71,
+      "cult": 78,
+      "perf": 69,
+      "auth": 83,
+      "safe": 80,
+      "cost": 91
+     },
+     "contributions": {
+      "aud": 15.3,
+      "cont": 10.7,
+      "cult": 10.9,
+      "perf": 10.4,
+      "auth": 11.6,
+      "safe": 8,
+      "cost": 9.1
+     },
+     "confidence": "Medium",
+     "er": 3.68,
+     "linkCtr": 0.72,
+     "realFollowers": 92.4,
+     "viewThrough": 44.2,
+     "hold3s": 69,
+     "sponsoredShare": 36,
+     "adDisclosure": 83,
+     "safety": 78,
+     "audienceWomen": 0.624,
+     "forecast": {
+      "cost": 5000,
+      "views": 6617,
+      "tgViews": 4387,
+      "tgShare": 0.72,
+      "engagements": 585,
+      "clicks": 38,
+      "orders": 6.1,
+      "revenue": 1103,
+      "roas": 0.22,
+      "recallLiftPts": 7,
+      "costPerTgView": 1.14,
+      "costPerEngagement": 8.54,
+      "costPerClick": 130.06
+     },
+     "why": [
+      "Audience matches the brief: 62% women (target 97%), 77% age overlap, 95% city-tier overlap",
+      "92% of followers look real and active; 36% of recent posts are sponsored",
+      "Creates in Hindi, Whisper's lead language; shares the Small-town dreams codes",
+      "Beauty &amp; Skincare is a strong category for Whisper, with lifestyle &amp; vlogs as a second pillar"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1030",
+     "name": "Krupa G.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 6587,
+     "city": "Mumbai",
+     "languages": [
+      "Marathi",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 75.4,
+     "parts": {
+      "aud": 77,
+      "cont": 71,
+      "cult": 72,
+      "perf": 63,
+      "auth": 77,
+      "safe": 97,
+      "cost": 79
+     },
+     "contributions": {
+      "aud": 16.9,
+      "cont": 10.7,
+      "cult": 10.1,
+      "perf": 9.5,
+      "auth": 10.7,
+      "safe": 9.7,
+      "cost": 7.9
+     },
+     "confidence": "Low",
+     "er": 4.22,
+     "linkCtr": 0.85,
+     "realFollowers": 85.9,
+     "viewThrough": 46.5,
+     "hold3s": 58.4,
+     "sponsoredShare": 8,
+     "adDisclosure": 99,
+     "safety": 95,
+     "audienceWomen": 0.881,
+     "forecast": {
+      "cost": 3000,
+      "views": 3402,
+      "tgViews": 2233,
+      "tgShare": 0.76,
+      "engagements": 325,
+      "clicks": 26,
+      "orders": 5.6,
+      "revenue": 1003,
+      "roas": 0.33,
+      "recallLiftPts": 5.8,
+      "costPerTgView": 1.34,
+      "costPerEngagement": 9.22,
+      "costPerClick": 113.89
+     },
+     "why": [
+      "Audience matches the brief: 88% women (target 97%), 68% age overlap, 97% city-tier overlap",
+      "86% of followers look real and active; 8% of recent posts are sponsored",
+      "Beauty &amp; Skincare is a strong category for Whisper, with lifestyle &amp; vlogs as a second pillar",
+      "Creates in Marathi + Hinglish, Whisper's lead language; shares the Science-backed codes"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1028",
+     "name": "Kritika P.",
+     "niche": "Lifestyle & Vlogs",
+     "niche2": "Food & Cooking",
+     "tier": "Micro",
+     "followers": 36783,
+     "city": "Jaipur",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Moj",
+     "represent": false,
+     "credential": null,
+     "fit": 74.2,
+     "parts": {
+      "aud": 82,
+      "cont": 57,
+      "cult": 55,
+      "perf": 65,
+      "auth": 79,
+      "safe": 92,
+      "cost": 99
+     },
+     "contributions": {
+      "aud": 18.1,
+      "cont": 8.6,
+      "cult": 7.7,
+      "perf": 9.7,
+      "auth": 11.1,
+      "safe": 9.2,
+      "cost": 9.9
+     },
+     "confidence": "High",
+     "er": 2.76,
+     "linkCtr": 0.69,
+     "realFollowers": 88.3,
+     "viewThrough": 46.5,
+     "hold3s": 62.9,
+     "sponsoredShare": 18,
+     "adDisclosure": 91,
+     "safety": 92,
+     "audienceWomen": 0.724,
+     "forecast": {
+      "cost": 11000,
+      "views": 19785,
+      "tgViews": 13990,
+      "tgShare": 0.8,
+      "engagements": 1214,
+      "clicks": 92,
+      "orders": 15.6,
+      "revenue": 2801,
+      "roas": 0.25,
+      "recallLiftPts": 6.4,
+      "costPerTgView": 0.79,
+      "costPerEngagement": 9.06,
+      "costPerClick": 118.94
+     },
+     "why": [
+      "Audience matches the brief: 72% women (target 97%), 88% age overlap, 95% city-tier overlap",
+      "88% of followers look real and active; 18% of recent posts are sponsored",
+      "₹0.79 per verified TG view for 1 reel and 2 stories (₹11K)",
+      "Viewers watch 47% of each video, top 39% of micro creators; past recall lift +7.6 pts"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1184",
+     "name": "Dhruv K.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 21779,
+     "city": "Lucknow",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 74.2,
+     "parts": {
+      "aud": 85,
+      "cont": 71,
+      "cult": 78,
+      "perf": 55,
+      "auth": 64,
+      "safe": 91,
+      "cost": 75
+     },
+     "contributions": {
+      "aud": 18.8,
+      "cont": 10.7,
+      "cult": 10.9,
+      "perf": 8.3,
+      "auth": 9,
+      "safe": 9.1,
+      "cost": 7.5
+     },
+     "confidence": "Low",
+     "er": 3.87,
+     "linkCtr": 0.65,
+     "realFollowers": 79.1,
+     "viewThrough": 49.1,
+     "hold3s": 50.1,
+     "sponsoredShare": 17,
+     "adDisclosure": 93,
+     "safety": 90,
+     "audienceWomen": 0.842,
+     "forecast": {
+      "cost": 9500,
+      "views": 10055,
+      "tgViews": 6533,
+      "tgShare": 0.82,
+      "engagements": 960,
+      "clicks": 54,
+      "orders": 8.7,
+      "revenue": 1572,
+      "roas": 0.17,
+      "recallLiftPts": 6.1,
+      "costPerTgView": 1.45,
+      "costPerEngagement": 9.89,
+      "costPerClick": 176.87
+     },
+     "why": [
+      "Audience matches the brief: 84% women (target 97%), 79% age overlap, 96% city-tier overlap",
+      "Creates in Hinglish + Hindi, Whisper's lead language; shares the Science-backed codes",
+      "Beauty &amp; Skincare is a strong category for Whisper, with lifestyle &amp; vlogs as a second pillar",
+      "Safety score 90; discloses #ad on 93% of paid posts"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 33,
+    "spend": 1200000,
+    "views": 1980090,
+    "tgViews": 1277797,
+    "uniqueTgReach": 788662,
+    "engagements": 72355,
+    "clicks": 8604,
+    "orders": 1184,
+    "revenue": 213131,
+    "roas": 0.18,
+    "recallLiftPts": 4.2,
+    "fakeAudienceShare": 0.11,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 49000,
+    "forecastBandPct": 28,
+    "spendByTier": {
+     "micro": 342500,
+     "macro": 177500,
+     "mid": 677500,
+     "nano": 2500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 1189500,
+    "views": 1196830,
+    "tgViews": 575344,
+    "uniqueTgReach": 356592,
+    "engagements": 40450,
+    "clicks": 4033,
+    "orders": 435,
+    "revenue": 78214,
+    "roas": 0.07,
+    "recallLiftPts": 2.5,
+    "fakeAudienceShare": 0.26,
+    "gatedIncluded": 1,
+    "representCreators": 1,
+    "representSpend": 112000,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 1077500,
+     "mid": 112000
+    }
+   },
+   "planCreators": [
+    "Varsha B. (Micro, Food & Cooking)",
+    "Keerthi B. (Macro, Beauty & Skincare)",
+    "Riya D. (Micro, Beauty & Skincare)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Kritika P. (Micro, Lifestyle & Vlogs)",
+    "Ananya J. (Micro, Music & Dance)",
+    "Pooja T. (Micro, Lifestyle & Vlogs)",
+    "Rasika D. (Micro, Beauty & Skincare)",
+    "Aditi S. (Micro, Beauty & Skincare)",
+    "Karan V. (Micro, Beauty & Skincare)",
+    "Tanvi C. (Micro, Food & Cooking)",
+    "Sakshi A. (Micro, Comedy & Entertainment)"
+   ]
+  },
+  "consideration": {
+   "weights": {
+    "aud": 20,
+    "cont": 18,
+    "cult": 10,
+    "perf": 20,
+    "auth": 14,
+    "safe": 8,
+    "cost": 10
+   },
+   "eligible": 356,
+   "gated": 64,
+   "gatesByReason": {
+    "safety": 4,
+    "reg": 12,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Mitali S.",
+     "id": "CIE-1109",
+     "reasons": [
+      "Brand-safety score 51: political commentary, unverified health claims"
+     ]
+    },
+    {
+     "name": "Riya T.",
+     "id": "CIE-1385",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    },
+    {
+     "name": "Sneha V.",
+     "id": "CIE-1267",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    },
+    {
+     "name": "Rasika K.",
+     "id": "CIE-1013",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1146",
+     "name": "Ishani V.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 69981,
+     "city": "Patna",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 76.8,
+     "parts": {
+      "aud": 86,
+      "cont": 71,
+      "cult": 55,
+      "perf": 77,
+      "auth": 70,
+      "safe": 95,
+      "cost": 84
+     },
+     "contributions": {
+      "aud": 17.2,
+      "cont": 12.8,
+      "cult": 5.5,
+      "perf": 15.4,
+      "auth": 9.9,
+      "safe": 7.6,
+      "cost": 8.4
+     },
+     "confidence": "Low",
+     "er": 5.7,
+     "linkCtr": 0.76,
+     "realFollowers": 85.8,
+     "viewThrough": 39.6,
+     "hold3s": 62.7,
+     "sponsoredShare": 28,
+     "adDisclosure": 99,
+     "safety": 92,
+     "audienceWomen": 0.921,
+     "forecast": {
+      "cost": 37000,
+      "views": 15201,
+      "tgViews": 10756,
+      "tgShare": 0.82,
+      "engagements": 3989,
+      "clicks": 76,
+      "orders": 11.2,
+      "revenue": 2022,
+      "roas": 0.05,
+      "recallLiftPts": 7.3,
+      "costPerTgView": 3.44,
+      "costPerEngagement": 9.28,
+      "costPerClick": 488.82
+     },
+     "why": [
+      "Audience matches the brief: 92% women (target 97%), 79% age overlap, 92% city-tier overlap",
+      "Engagement rate 5.7%, top 2% of micro creators; 2.6% of viewers save or share",
+      "Beauty &amp; Skincare is a strong category for Whisper, with lifestyle &amp; vlogs as a second pillar",
+      "86% of followers look real and active; 28% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1220",
+     "name": "Aditi B.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 24805,
+     "city": "Jaipur",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 76.4,
+     "parts": {
+      "aud": 85,
+      "cont": 71,
+      "cult": 78,
+      "perf": 60,
+      "auth": 87,
+      "safe": 79,
+      "cost": 83
+     },
+     "contributions": {
+      "aud": 17.1,
+      "cont": 12.8,
+      "cult": 7.8,
+      "perf": 12,
+      "auth": 12.2,
+      "safe": 6.3,
+      "cost": 8.3
+     },
+     "confidence": "Medium",
+     "er": 2.9,
+     "linkCtr": 1.64,
+     "realFollowers": 93.5,
+     "viewThrough": 30.8,
+     "hold3s": 59.7,
+     "sponsoredShare": 11,
+     "adDisclosure": 85,
+     "safety": 75,
+     "audienceWomen": 0.97,
+     "forecast": {
+      "cost": 8000,
+      "views": 7925,
+      "tgViews": 6080,
+      "tgShare": 0.82,
+      "engagements": 853,
+      "clicks": 134,
+      "orders": 23.6,
+      "revenue": 4254,
+      "roas": 0.53,
+      "recallLiftPts": 3.3,
+      "costPerTgView": 1.32,
+      "costPerEngagement": 9.38,
+      "costPerClick": 59.85
+     },
+     "why": [
+      "Audience matches the brief: 97% women (target 97%), 80% age overlap, 95% city-tier overlap",
+      "Beauty &amp; Skincare is a strong category for Whisper, with lifestyle &amp; vlogs as a second pillar",
+      "94% of followers look real and active; 11% of recent posts are sponsored",
+      "Engagement rate 2.9%, top 45% of micro creators; 2.2% of viewers save or share"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Unverified health claims"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1184",
+     "name": "Dhruv K.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 21779,
+     "city": "Lucknow",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 75.8,
+     "parts": {
+      "aud": 85,
+      "cont": 71,
+      "cult": 78,
+      "perf": 69,
+      "auth": 64,
+      "safe": 91,
+      "cost": 80
+     },
+     "contributions": {
+      "aud": 17.1,
+      "cont": 12.8,
+      "cult": 7.8,
+      "perf": 13.8,
+      "auth": 9,
+      "safe": 7.3,
+      "cost": 8
+     },
+     "confidence": "Low",
+     "er": 3.87,
+     "linkCtr": 0.65,
+     "realFollowers": 79.1,
+     "viewThrough": 49.1,
+     "hold3s": 50.1,
+     "sponsoredShare": 17,
+     "adDisclosure": 93,
+     "safety": 90,
+     "audienceWomen": 0.842,
+     "forecast": {
+      "cost": 9500,
+      "views": 10055,
+      "tgViews": 6533,
+      "tgShare": 0.82,
+      "engagements": 960,
+      "clicks": 54,
+      "orders": 8.7,
+      "revenue": 1572,
+      "roas": 0.17,
+      "recallLiftPts": 6.1,
+      "costPerTgView": 1.45,
+      "costPerEngagement": 9.89,
+      "costPerClick": 176.87
+     },
+     "why": [
+      "Audience matches the brief: 84% women (target 97%), 79% age overlap, 96% city-tier overlap",
+      "Engagement rate 3.9%, top 18% of micro creators; 2.3% of viewers save or share",
+      "Beauty &amp; Skincare is a strong category for Whisper, with lifestyle &amp; vlogs as a second pillar",
+      "79% of followers look real and active; 17% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1030",
+     "name": "Krupa G.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Nano",
+     "followers": 6587,
+     "city": "Mumbai",
+     "languages": [
+      "Marathi",
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 75.5,
+     "parts": {
+      "aud": 77,
+      "cont": 71,
+      "cult": 72,
+      "perf": 66,
+      "auth": 77,
+      "safe": 97,
+      "cost": 85
+     },
+     "contributions": {
+      "aud": 15.3,
+      "cont": 12.8,
+      "cult": 7.2,
+      "perf": 13.2,
+      "auth": 10.7,
+      "safe": 7.7,
+      "cost": 8.5
+     },
+     "confidence": "Low",
+     "er": 4.22,
+     "linkCtr": 0.85,
+     "realFollowers": 85.9,
+     "viewThrough": 46.5,
+     "hold3s": 58.4,
+     "sponsoredShare": 8,
+     "adDisclosure": 99,
+     "safety": 95,
+     "audienceWomen": 0.881,
+     "forecast": {
+      "cost": 3000,
+      "views": 3402,
+      "tgViews": 2233,
+      "tgShare": 0.76,
+      "engagements": 325,
+      "clicks": 26,
+      "orders": 5.6,
+      "revenue": 1003,
+      "roas": 0.33,
+      "recallLiftPts": 5.8,
+      "costPerTgView": 1.34,
+      "costPerEngagement": 9.22,
+      "costPerClick": 113.89
+     },
+     "why": [
+      "Audience matches the brief: 88% women (target 97%), 68% age overlap, 97% city-tier overlap",
+      "Engagement rate 4.2%, top 54% of nano creators; 3.2% of viewers save or share",
+      "Beauty &amp; Skincare is a strong category for Whisper, with lifestyle &amp; vlogs as a second pillar",
+      "86% of followers look real and active; 8% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1276",
+     "name": "Pooja N.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Doctors & Dietitians",
+     "tier": "Mid-tier",
+     "followers": 167783,
+     "city": "Jaipur",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": true,
+     "credential": null,
+     "fit": 75,
+     "parts": {
+      "aud": 88,
+      "cont": 75,
+      "cult": 55,
+      "perf": 85,
+      "auth": 63,
+      "safe": 84,
+      "cost": 58
+     },
+     "contributions": {
+      "aud": 17.7,
+      "cont": 13.5,
+      "cult": 5.5,
+      "perf": 17,
+      "auth": 8.9,
+      "safe": 6.7,
+      "cost": 5.8
+     },
+     "confidence": "Low",
+     "er": 3.52,
+     "linkCtr": 0.65,
+     "realFollowers": 79.5,
+     "viewThrough": 40.5,
+     "hold3s": 78.9,
+     "sponsoredShare": 13,
+     "adDisclosure": 76,
+     "safety": 89,
+     "audienceWomen": 0.873,
+     "forecast": {
+      "cost": 92000,
+      "views": 67690,
+      "tgViews": 45239,
+      "tgShare": 0.84,
+      "engagements": 6611,
+      "clicks": 349,
+      "orders": 64.6,
+      "revenue": 11622,
+      "roas": 0.13,
+      "recallLiftPts": 6.1,
+      "costPerTgView": 2.03,
+      "costPerEngagement": 13.92,
+      "costPerClick": 263.81
+     },
+     "why": [
+      "Audience matches the brief: 87% women (target 97%), 87% age overlap, 93% city-tier overlap",
+      "Engagement rate 3.5%, top 1% of mid-tier creators; 2.7% of viewers save or share",
+      "Beauty &amp; Skincare is a strong category for Whisper, with doctors &amp; dietitians as a second pillar",
+      "80% of followers look real and active; 13% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 6,
+     "id": "CIE-1296",
+     "name": "Subhankar B.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 45223,
+     "city": "Kolkata",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 74.1,
+     "parts": {
+      "aud": 74,
+      "cont": 71,
+      "cult": 50,
+      "perf": 78,
+      "auth": 76,
+      "safe": 90,
+      "cost": 83
+     },
+     "contributions": {
+      "aud": 14.7,
+      "cont": 12.8,
+      "cult": 5,
+      "perf": 15.5,
+      "auth": 10.6,
+      "safe": 7.2,
+      "cost": 8.3
+     },
+     "confidence": "Medium",
+     "er": 3.76,
+     "linkCtr": 0.59,
+     "realFollowers": 83.4,
+     "viewThrough": 41.2,
+     "hold3s": 55.4,
+     "sponsoredShare": 11,
+     "adDisclosure": 89,
+     "safety": 91,
+     "audienceWomen": 0.838,
+     "forecast": {
+      "cost": 18500,
+      "views": 23148,
+      "tgViews": 14355,
+      "tgShare": 0.74,
+      "engagements": 1945,
+      "clicks": 106,
+      "orders": 15.7,
+      "revenue": 2832,
+      "roas": 0.15,
+      "recallLiftPts": 5.2,
+      "costPerTgView": 1.29,
+      "costPerEngagement": 9.51,
+      "costPerClick": 174.5
+     },
+     "why": [
+      "Engagement rate 3.8%, top 20% of micro creators; 2.6% of viewers save or share",
+      "Audience matches the brief: 84% women (target 97%), 78% age overlap, 93% city-tier overlap",
+      "Beauty &amp; Skincare is a strong category for Whisper, with lifestyle &amp; vlogs as a second pillar",
+      "83% of followers look real and active; 11% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 7,
+     "id": "CIE-1191",
+     "name": "Karan V.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 13872,
+     "city": "Jaipur",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 73.1,
+     "parts": {
+      "aud": 69,
+      "cont": 71,
+      "cult": 78,
+      "perf": 59,
+      "auth": 83,
+      "safe": 80,
+      "cost": 88
+     },
+     "contributions": {
+      "aud": 13.9,
+      "cont": 12.8,
+      "cult": 7.8,
+      "perf": 11.8,
+      "auth": 11.6,
+      "safe": 6.4,
+      "cost": 8.8
+     },
+     "confidence": "Medium",
+     "er": 3.68,
+     "linkCtr": 0.72,
+     "realFollowers": 92.4,
+     "viewThrough": 44.2,
+     "hold3s": 69,
+     "sponsoredShare": 36,
+     "adDisclosure": 83,
+     "safety": 78,
+     "audienceWomen": 0.624,
+     "forecast": {
+      "cost": 5000,
+      "views": 6617,
+      "tgViews": 4387,
+      "tgShare": 0.72,
+      "engagements": 585,
+      "clicks": 38,
+      "orders": 6.1,
+      "revenue": 1103,
+      "roas": 0.22,
+      "recallLiftPts": 7,
+      "costPerTgView": 1.14,
+      "costPerEngagement": 8.54,
+      "costPerClick": 130.06
+     },
+     "why": [
+      "Audience matches the brief: 62% women (target 97%), 77% age overlap, 95% city-tier overlap",
+      "Beauty &amp; Skincare is a strong category for Whisper, with lifestyle &amp; vlogs as a second pillar",
+      "Engagement rate 3.7%, top 21% of micro creators; 1.6% of viewers save or share",
+      "92% of followers look real and active; 36% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 8,
+     "id": "CIE-1183",
+     "name": "Ananya M.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 43554,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 73,
+     "parts": {
+      "aud": 64,
+      "cont": 71,
+      "cult": 72,
+      "perf": 87,
+      "auth": 66,
+      "safe": 69,
+      "cost": 81
+     },
+     "contributions": {
+      "aud": 12.7,
+      "cont": 12.8,
+      "cult": 7.2,
+      "perf": 17.4,
+      "auth": 9.3,
+      "safe": 5.5,
+      "cost": 8.1
+     },
+     "confidence": "Low",
+     "er": 5.31,
+     "linkCtr": 0.57,
+     "realFollowers": 81.6,
+     "viewThrough": 51.5,
+     "hold3s": 70.6,
+     "sponsoredShare": 31,
+     "adDisclosure": 73,
+     "safety": 66,
+     "audienceWomen": 0.833,
+     "forecast": {
+      "cost": 25000,
+      "views": 23728,
+      "tgViews": 13167,
+      "tgShare": 0.68,
+      "engagements": 2548,
+      "clicks": 102,
+      "orders": 17.2,
+      "revenue": 3088,
+      "roas": 0.12,
+      "recallLiftPts": 6.7,
+      "costPerTgView": 1.9,
+      "costPerEngagement": 9.81,
+      "costPerClick": 246.14
+     },
+     "why": [
+      "Engagement rate 5.3%, top 5% of micro creators; 2.8% of viewers save or share",
+      "Beauty &amp; Skincare is a strong category for Whisper, with lifestyle &amp; vlogs as a second pillar",
+      "Audience matches the brief: 83% women (target 97%), 67% age overlap, 84% city-tier overlap",
+      "82% of followers look real and active; 31% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Discloses #ad on only 73% of paid posts. Brief on disclosure in the first line",
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Political commentary",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 9,
+     "id": "CIE-1071",
+     "name": "Sayani Y.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 17932,
+     "city": "Ranchi",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "YouTube",
+     "represent": false,
+     "credential": null,
+     "fit": 72.6,
+     "parts": {
+      "aud": 87,
+      "cont": 54,
+      "cult": 78,
+      "perf": 60,
+      "auth": 69,
+      "safe": 88,
+      "cost": 91
+     },
+     "contributions": {
+      "aud": 17.4,
+      "cont": 9.7,
+      "cult": 7.8,
+      "perf": 12.1,
+      "auth": 9.6,
+      "safe": 7,
+      "cost": 9.1
+     },
+     "confidence": "High",
+     "er": 4.01,
+     "linkCtr": 0.94,
+     "realFollowers": 85.4,
+     "viewThrough": 48.6,
+     "hold3s": 76.4,
+     "sponsoredShare": 32,
+     "adDisclosure": 86,
+     "safety": 89,
+     "audienceWomen": 0.873,
+     "forecast": {
+      "cost": 6000,
+      "views": 2433,
+      "tgViews": 1727,
+      "tgShare": 0.83,
+      "engagements": 719,
+      "clicks": 13,
+      "orders": 1.8,
+      "revenue": 322,
+      "roas": 0.05,
+      "recallLiftPts": 5.1,
+      "costPerTgView": 3.47,
+      "costPerEngagement": 8.34,
+      "costPerClick": 461.43
+     },
+     "why": [
+      "Audience matches the brief: 87% women (target 97%), 89% age overlap, 85% city-tier overlap",
+      "Engagement rate 4.0%, top 15% of micro creators; 2.1% of viewers save or share",
+      "Beauty &amp; Skincare is a adjacent category for Whisper, with fashion &amp; style as a second pillar",
+      "85% of followers look real and active; 32% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 10,
+     "id": "CIE-1201",
+     "name": "Dhwani K.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 18750,
+     "city": "Mumbai",
+     "languages": [
+      "Hinglish"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 72.5,
+     "parts": {
+      "aud": 67,
+      "cont": 71,
+      "cult": 50,
+      "perf": 73,
+      "auth": 77,
+      "safe": 81,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 13.4,
+      "cont": 12.8,
+      "cult": 5,
+      "perf": 14.6,
+      "auth": 10.8,
+      "safe": 6.5,
+      "cost": 9.4
+     },
+     "confidence": "Medium",
+     "er": 5.45,
+     "linkCtr": 0.69,
+     "realFollowers": 89.1,
+     "viewThrough": 43,
+     "hold3s": 68.8,
+     "sponsoredShare": 25,
+     "adDisclosure": 85,
+     "safety": 78,
+     "audienceWomen": 0.853,
+     "forecast": {
+      "cost": 9000,
+      "views": 6870,
+      "tgViews": 4304,
+      "tgShare": 0.7,
+      "engagements": 1123,
+      "clicks": 45,
+      "orders": 7.9,
+      "revenue": 1422,
+      "roas": 0.16,
+      "recallLiftPts": 4.1,
+      "costPerTgView": 2.09,
+      "costPerEngagement": 8.01,
+      "costPerClick": 201.42
+     },
+     "why": [
+      "Engagement rate 5.5%, top 4% of micro creators; 2.5% of viewers save or share",
+      "Audience matches the brief: 85% women (target 97%), 76% age overlap, 81% city-tier overlap",
+      "Beauty &amp; Skincare is a strong category for Whisper, with lifestyle &amp; vlogs as a second pillar",
+      "89% of followers look real and active; 25% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Profanity in recent content"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 63,
+    "spend": 1200000,
+    "views": 1280887,
+    "tgViews": 776607,
+    "uniqueTgReach": 480122,
+    "engagements": 118108,
+    "clicks": 5586,
+    "orders": 850,
+    "revenue": 153016,
+    "roas": 0.13,
+    "recallLiftPts": 4.1,
+    "fakeAudienceShare": 0.1,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 257500,
+    "forecastBandPct": 22,
+    "spendByTier": {
+     "micro": 844000,
+     "nano": 21000,
+     "mid": 77500,
+     "macro": 257500
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 1189500,
+    "views": 1196830,
+    "tgViews": 575344,
+    "uniqueTgReach": 356592,
+    "engagements": 40450,
+    "clicks": 4033,
+    "orders": 435,
+    "revenue": 78214,
+    "roas": 0.07,
+    "recallLiftPts": 2.5,
+    "fakeAudienceShare": 0.26,
+    "gatedIncluded": 1,
+    "representCreators": 1,
+    "representSpend": 112000,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 1077500,
+     "mid": 112000
+    }
+   },
+   "planCreators": [
+    "Ananya B. (Micro, Beauty & Skincare)",
+    "Rasika D. (Micro, Beauty & Skincare)",
+    "Aditi B. (Micro, Beauty & Skincare)",
+    "Karthik B. (Micro, Comedy & Entertainment)",
+    "Yash S. (Micro, Education & Careers)",
+    "Dhwani R. (Micro, Fitness & Wellness)",
+    "Dhwani K. (Micro, Beauty & Skincare)",
+    "Moumita N. (Micro, Parenting & Family)",
+    "Karan V. (Micro, Beauty & Skincare)",
+    "Sakshi A. (Micro, Comedy & Entertainment)",
+    "Ishani V. (Micro, Beauty & Skincare)",
+    "Harsh V. (Micro, Beauty & Skincare)"
+   ]
+  },
+  "conversion": {
+   "weights": {
+    "aud": 18,
+    "cont": 14,
+    "cult": 8,
+    "perf": 26,
+    "auth": 14,
+    "safe": 8,
+    "cost": 12
+   },
+   "eligible": 356,
+   "gated": 64,
+   "gatesByReason": {
+    "reg": 12,
+    "safety": 4,
+    "fraud": 32,
+    "market": 18
+   },
+   "gatedExamples": [
+    {
+     "name": "Sneha V.",
+     "id": "CIE-1267",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    },
+    {
+     "name": "Janhvi A.",
+     "id": "CIE-1304",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    },
+    {
+     "name": "Rasika K.",
+     "id": "CIE-1013",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    },
+    {
+     "name": "Riya T.",
+     "id": "CIE-1385",
+     "reasons": [
+      "Makes health claims without a medical or nutrition qualification (ASCI Addendum II)"
+     ]
+    }
+   ],
+   "top": [
+    {
+     "rank": 1,
+     "id": "CIE-1220",
+     "name": "Aditi B.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 24805,
+     "city": "Jaipur",
+     "languages": [
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 83.5,
+     "parts": {
+      "aud": 85,
+      "cont": 71,
+      "cult": 78,
+      "perf": 83,
+      "auth": 87,
+      "safe": 79,
+      "cost": 100
+     },
+     "contributions": {
+      "aud": 15.3,
+      "cont": 10,
+      "cult": 6.2,
+      "perf": 21.5,
+      "auth": 12.2,
+      "safe": 6.3,
+      "cost": 12
+     },
+     "confidence": "Medium",
+     "er": 2.9,
+     "linkCtr": 1.64,
+     "realFollowers": 93.5,
+     "viewThrough": 30.8,
+     "hold3s": 59.7,
+     "sponsoredShare": 11,
+     "adDisclosure": 85,
+     "safety": 75,
+     "audienceWomen": 0.97,
+     "forecast": {
+      "cost": 8000,
+      "views": 7925,
+      "tgViews": 6080,
+      "tgShare": 0.82,
+      "engagements": 853,
+      "clicks": 134,
+      "orders": 23.6,
+      "revenue": 4254,
+      "roas": 0.53,
+      "recallLiftPts": 3.3,
+      "costPerTgView": 1.32,
+      "costPerEngagement": 9.38,
+      "costPerClick": 59.85
+     },
+     "why": [
+      "Link CTR 1.64%, top 1% of micro creators; trust index 1.12",
+      "Audience matches the brief: 97% women (target 97%), 80% age overlap, 95% city-tier overlap",
+      "94% of followers look real and active; 11% of recent posts are sponsored",
+      "Forecast 0.5× ROAS on ₹8K, about 24 orders"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Unverified health claims"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "CIE-1246",
+     "name": "Gayathri Y.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Mid-tier",
+     "followers": 484648,
+     "city": "Madurai",
+     "languages": [
+      "Tamil"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 78.4,
+     "parts": {
+      "aud": 81,
+      "cont": 54,
+      "cult": 56,
+      "perf": 94,
+      "auth": 73,
+      "safe": 87,
+      "cost": 86
+     },
+     "contributions": {
+      "aud": 14.5,
+      "cont": 7.5,
+      "cult": 4.4,
+      "perf": 24.4,
+      "auth": 10.3,
+      "safe": 6.9,
+      "cost": 10.3
+     },
+     "confidence": "Medium",
+     "er": 2.47,
+     "linkCtr": 1.27,
+     "realFollowers": 85,
+     "viewThrough": 54.5,
+     "hold3s": 71.5,
+     "sponsoredShare": 23,
+     "adDisclosure": 100,
+     "safety": 78,
+     "audienceWomen": 0.831,
+     "forecast": {
+      "cost": 225000,
+      "views": 146869,
+      "tgViews": 98483,
+      "tgShare": 0.79,
+      "engagements": 14006,
+      "clicks": 1469,
+      "orders": 277.6,
+      "revenue": 49973,
+      "roas": 0.22,
+      "recallLiftPts": 8,
+      "costPerTgView": 2.28,
+      "costPerEngagement": 16.06,
+      "costPerClick": 153.14
+     },
+     "why": [
+      "Link CTR 1.27%, top 8% of mid-tier creators; trust index 1.32",
+      "Audience matches the brief: 83% women (target 97%), 83% age overlap, 88% city-tier overlap",
+      "Forecast 0.2× ROAS on ₹2.25L, about 278 orders",
+      "85% of followers look real and active; 23% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "CIE-1334",
+     "name": "Mansi T.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Mid-tier",
+     "followers": 125386,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": true,
+     "credential": null,
+     "fit": 77.4,
+     "parts": {
+      "aud": 73,
+      "cont": 71,
+      "cult": 55,
+      "perf": 76,
+      "auth": 80,
+      "safe": 91,
+      "cost": 97
+     },
+     "contributions": {
+      "aud": 13.1,
+      "cont": 10,
+      "cult": 4.4,
+      "perf": 19.8,
+      "auth": 11.1,
+      "safe": 7.2,
+      "cost": 11.7
+     },
+     "confidence": "Low",
+     "er": 1.45,
+     "linkCtr": 1.68,
+     "realFollowers": 89,
+     "viewThrough": 49.8,
+     "hold3s": 64.1,
+     "sponsoredShare": 27,
+     "adDisclosure": 96,
+     "safety": 87,
+     "audienceWomen": 0.802,
+     "forecast": {
+      "cost": 49000,
+      "views": 52197,
+      "tgViews": 34357,
+      "tgShare": 0.74,
+      "engagements": 2345,
+      "clicks": 665,
+      "orders": 103.9,
+      "revenue": 18697,
+      "roas": 0.38,
+      "recallLiftPts": 4.7,
+      "costPerTgView": 1.43,
+      "costPerEngagement": 20.9,
+      "costPerClick": 73.72
+     },
+     "why": [
+      "Link CTR 1.68%, top 1% of mid-tier creators; trust index 0.99",
+      "Audience matches the brief: 80% women (target 97%), 79% age overlap, 87% city-tier overlap",
+      "Forecast 0.4× ROAS on ₹49K, about 104 orders",
+      "89% of followers look real and active; 27% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "CIE-1140",
+     "name": "Lakshmi G.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Fashion & Style",
+     "tier": "Micro",
+     "followers": 11900,
+     "city": "Hyderabad",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 76.7,
+     "parts": {
+      "aud": 79,
+      "cont": 54,
+      "cult": 55,
+      "perf": 85,
+      "auth": 78,
+      "safe": 78,
+      "cost": 94
+     },
+     "contributions": {
+      "aud": 14.2,
+      "cont": 7.5,
+      "cult": 4.4,
+      "perf": 22.2,
+      "auth": 10.9,
+      "safe": 6.2,
+      "cost": 11.3
+     },
+     "confidence": "Medium",
+     "er": 4.12,
+     "linkCtr": 1.02,
+     "realFollowers": 89,
+     "viewThrough": 42.9,
+     "hold3s": 63.8,
+     "sponsoredShare": 20,
+     "adDisclosure": 92,
+     "safety": 68,
+     "audienceWomen": 0.954,
+     "forecast": {
+      "cost": 4000,
+      "views": 4857,
+      "tgViews": 3365,
+      "tgShare": 0.78,
+      "engagements": 555,
+      "clicks": 38,
+      "orders": 6.9,
+      "revenue": 1242,
+      "roas": 0.31,
+      "recallLiftPts": 4.6,
+      "costPerTgView": 1.19,
+      "costPerEngagement": 7.21,
+      "costPerClick": 105.4
+     },
+     "why": [
+      "Link CTR 1.02%, top 18% of micro creators; trust index 1.27",
+      "Audience matches the brief: 95% women (target 97%), 76% age overlap, 84% city-tier overlap",
+      "Forecast 0.3× ROAS on ₹4K, about 7 orders",
+      "89% of followers look real and active; 20% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Unverified health claims"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "CIE-1231",
+     "name": "Riya D.",
+     "niche": "Beauty & Skincare",
+     "niche2": "Lifestyle & Vlogs",
+     "tier": "Micro",
+     "followers": 30854,
+     "city": "Delhi NCR",
+     "languages": [
+      "Hinglish",
+      "Hindi"
+     ],
+     "platform": "Instagram",
+     "represent": false,
+     "credential": null,
+     "fit": 76.6,
+     "parts": {
+      "aud": 80,
+      "cont": 71,
+      "cult": 78,
+      "perf": 59,
+      "auth": 83,
+      "safe": 91,
+      "cost": 98
+     },
+     "contributions": {
+      "aud": 14.4,
+      "cont": 10,
+      "cult": 6.2,
+      "perf": 15.3,
+      "auth": 11.7,
+      "safe": 7.3,
+      "cost": 11.8
+     },
+     "confidence": "Low",
+     "er": 1.88,
+     "linkCtr": 0.85,
+     "realFollowers": 90.5,
+     "viewThrough": 44.7,
+     "hold3s": 59,
+     "sponsoredShare": 13,
+     "adDisclosure": 100,
+     "safety": 85,
+     "audienceWomen": 0.856,
+     "forecast": {
+      "cost": 8000,
+      "views": 12413,
+      "tgViews": 8816,
+      "tgShare": 0.78,
+      "engagements": 747,
+      "clicks": 94,
+      "orders": 18.1,
+      "revenue": 3256,
+      "roas": 0.41,
+      "recallLiftPts": 9.1,
+      "costPerTgView": 0.91,
+      "costPerEngagement": 10.71,
+      "costPerClick": 85.16
+     },
+     "why": [
+      "Link CTR 0.85%, top 38% of micro creators; trust index 1.22",
+      "Audience matches the brief: 86% women (target 97%), 87% age overlap, 86% city-tier overlap",
+      "Forecast 0.4× ROAS on ₹8K, about 18 orders",
+      "91% of followers look real and active; 13% of recent posts are sponsored"
+     ],
+     "risks": [
+      "Lifestyle use only: no efficacy or medical claims without credentials",
+      "Few tracked campaigns, so the forecast band is wide"
+     ]
+    }
+   ],
+   "plan": {
+    "creators": 31,
+    "spend": 1199000,
+    "views": 1380859,
+    "tgViews": 794750,
+    "uniqueTgReach": 491355,
+    "engagements": 78235,
+    "clicks": 11652,
+    "orders": 1990,
+    "revenue": 358192,
+    "roas": 0.3,
+    "recallLiftPts": 5.4,
+    "fakeAudienceShare": 0.15,
+    "gatedIncluded": 0,
+    "representCreators": 1,
+    "representSpend": 49000,
+    "forecastBandPct": 27,
+    "spendByTier": {
+     "micro": 311500,
+     "mid": 606000,
+     "macro": 274500,
+     "nano": 7000
+    }
+   },
+   "followerCountPlan": {
+    "creators": 2,
+    "spend": 1189500,
+    "views": 1196830,
+    "tgViews": 575344,
+    "uniqueTgReach": 356592,
+    "engagements": 40450,
+    "clicks": 4033,
+    "orders": 435,
+    "revenue": 78214,
+    "roas": 0.07,
+    "recallLiftPts": 2.5,
+    "fakeAudienceShare": 0.26,
+    "gatedIncluded": 1,
+    "representCreators": 1,
+    "representSpend": 112000,
+    "forecastBandPct": 12,
+    "spendByTier": {
+     "mega": 1077500,
+     "mid": 112000
+    }
+   },
+   "planCreators": [
+    "Aditi B. (Micro, Beauty & Skincare)",
+    "Yash S. (Micro, Education & Careers)",
+    "Mansi T. (Mid-tier, Beauty & Skincare)",
+    "Riya D. (Micro, Beauty & Skincare)",
+    "Tanvi P. (Micro, Beauty & Skincare)",
+    "Debolina M. (Micro, Beauty & Skincare)",
+    "Kunal K. (Micro, Fitness & Wellness)",
+    "Harsh V. (Micro, Beauty & Skincare)",
+    "Kavya T. (Mid-tier, Parenting & Family)",
+    "Janhvi D. (Micro, Education & Careers)",
+    "Aanya M. (Mid-tier, Beauty & Skincare)",
+    "Rahul M. (Micro, Beauty & Skincare)"
+   ]
+  }
+ }
+}
