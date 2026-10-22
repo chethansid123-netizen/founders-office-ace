@@ -305,7 +305,7 @@ actions = [
          update="Demand forecast done", next="Supply gap by city Wed"),
     dict(id="A-113", action="One definition for 'fill rate' across all 5 teams", owner="Founder's Office",
          kpi="Data quality", raised="2026-10-12", due="2026-10-19", status="Done", closed="2026-10-18",
-         update="Metric dictionary v1 shared", next="Sign-off from 5 managers"),
+         update="Metric dictionary v1 shared and used in the MIS", next="Sign-off by 5 managers and the VP (decision 3)"),
     dict(id="A-114", action="Cap Mumbai Saturday-evening slots at capacity", owner="City Ops",
          kpi="Fill rate", raised="2026-10-05", due="2026-10-14", status="Done", closed="2026-10-13",
          update="Live since 13 Oct", next="Review impact next week"),

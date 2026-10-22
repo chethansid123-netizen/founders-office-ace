@@ -164,7 +164,7 @@ note.font = F(italic=True, color=MUTED)
 
 # ------------------------------------------------------------------ Lists (validation sources)
 ws_lists["A1"], ws_lists["B1"], ws_lists["C1"], ws_lists["D1"] = "Weeks", "Scope", "Owners", "Statuses"
-for i, w in enumerate(range(32, CUR + 1), start=2):
+for i, w in enumerate(range(34, CUR + 1), start=2):
     ws_lists.cell(row=i, column=1, value=w)
 for i, c in enumerate(["All India"] + CITIES, start=2):
     ws_lists.cell(row=i, column=2, value=c)
@@ -297,11 +297,11 @@ put(ws, "C5", "All India", INPUT_FONT, None, INPUT_FILL, CENTER)
 put(ws, "B6", "Compared with", F(bold=True))
 put(ws, "C6", "=C4-1", F(), '"W"0', None, CENTER)
 put(ws, "G4", "How to use", F(bold=True))
-put(ws, "G5", "Pick a week (W32–W42) and a scope in the yellow cells. Every number below recalculates.", F(color=MUTED))
+put(ws, "G5", "Pick a week (W34–W42) and a scope in the yellow cells. Every number below recalculates.", F(color=MUTED))
 put(ws, "G6", "Status: Green meets target · Amber within 5% of it · Red further off · Info has no target.", F(color=MUTED))
 ws.merge_cells("C4:C4")
-dv_w = DataValidation(type="list", formula1="=Lists!$A$2:$A$12", allow_blank=False, showDropDown=False)
-dv_w.error, dv_w.errorTitle = "Pick a week between 32 and 42", "Week"
+dv_w = DataValidation(type="list", formula1="=Lists!$A$2:$A$10", allow_blank=False, showDropDown=False)
+dv_w.error, dv_w.errorTitle = "Pick a week between 34 and 42", "Week"
 dv_s = DataValidation(type="list", formula1="=Lists!$B$2:$B$10", allow_blank=False)
 ws.add_data_validation(dv_w)
 ws.add_data_validation(dv_s)
@@ -440,7 +440,7 @@ r0 = NS_LAST + 3
 put(ws, f"A{r0}", "Where the week leaked", F(size=12, bold=True))
 put(ws, f"D{r0}", "Week", F(bold=True))
 put(ws, f"E{r0}", "=sel_week", LINK_FONT, '"W"0')
-put(ws, f"F{r0}", "(set on the Weekly MIS tab)", F(color=MUTED))
+put(ws, f"F{r0}", "(set on the Weekly MIS tab · scope: All India; the city selector does not apply here)", F(color=MUTED))
 header_row(ws, r0 + 1, 1, ["Term", "", "This week", "Last week", "Change", "Perfect bookings this term moved"])
 terms = [("Booking requests", "C", INT), ("Fill rate", "K", PCT1), ("Completion", "L", PCT1), ("On-time", "M", PCT1),
          ("Quality pass", "N", PCT1)]
@@ -457,8 +457,8 @@ put(ws, f"D{pr}", f"=INDEX(G$5:G${NS_LAST},MATCH(sel_week-1,$A$5:$A${NS_LAST},0)
 put(ws, f"E{pr}", f"=C{pr}-D{pr}", F(bold=True), '+#,##0;-#,##0;0', border=BOTTOM)
 for j in range(5):
     rr = r0 + 2 + j
-    put(ws, f"F{rr}", f"=$E${pr}*LN(C{rr}/D{rr})/LN($C${pr}/$D${pr})", F(bold=True), '+#,##0;-#,##0;0', border=BOTTOM)
-put(ws, f"F{pr}", f"=SUM(F{r0 + 2}:F{r0 + 6})", F(bold=True), '+#,##0;-#,##0;0', border=BOTTOM)
+    put(ws, f"F{rr}", f"=$E${pr}*LN(C{rr}/D{rr})/LN($C${pr}/$D${pr})", F(bold=True), '+#,##0.0;-#,##0.0;0.0', border=BOTTOM)
+put(ws, f"F{pr}", f"=SUM(F{r0 + 2}:F{r0 + 6})", F(bold=True), '+#,##0.0;-#,##0.0;0.0', border=BOTTOM)
 ws.conditional_formatting.add(f"F{r0 + 2}:F{pr}", FormulaRule(formula=[f"F{r0 + 2}<0"], font=Font(name=FONT, color="B02A2A", bold=True)))
 ws.conditional_formatting.add(f"F{r0 + 2}:F{pr}", FormulaRule(formula=[f"F{r0 + 2}>0"], font=Font(name=FONT, color="006100", bold=True)))
 put(ws, f"A{pr + 1}", "Log split: each term's share of the change in ln(perfect bookings). The five terms add up to the total change.",
@@ -872,32 +872,36 @@ for i, row in enumerate(raw, start=2):
             c.number_format = "d mmm yyyy"
 RAW_LAST = len(raw) + 1
 name("raw_id", f"'Raw Bookings'!$A$2:$A${RAW_LAST}")
+name("raw_total", f"'Raw Bookings'!$O${3 + len(CITIES)}")
 widths(ws, {"A": 15, "B": 13, "C": 18, "D": 8, "E": 10, "F": 18, "G": 8, "H": 20, "I": 8, "J": 7, "K": 10, "L": 12,
             "M": 3, "N": 18, "O": 10, "P": 11, "Q": 12, "R": 11, "S": 11})
 ws.freeze_panes = "B2"
 ws.auto_filter.ref = f"A1:L{RAW_LAST}"
-put(ws, "N1", "Sample summary (COUNTIFS / AVERAGEIFS)", F(bold=True))
+put(ws, "M1", "First of ID", F(bold=True, color=WHITE), fill=HEAD_FILL)
+for i in range(2, RAW_LAST + 1):
+    put(ws, f"M{i}", f"=--(COUNTIF($A$2:A{i},A{i})=1)", F(color=MUTED), "0")
+put(ws, "N1", "Sample summary, each booking ID counted once (COUNTIFS / AVERAGEIFS)", F(bold=True))
 header_row(ws, 2, 14, ["City", "Bookings", "Completed", "Completion", "Avg rating", "Complaints"])
 for i, c in enumerate(CITIES, start=3):
     put(ws, f"N{i}", c, F())
-    put(ws, f"O{i}", f'=COUNTIFS($C$2:$C${RAW_LAST},N{i})', F(), "0")
-    put(ws, f"P{i}", f'=COUNTIFS($C$2:$C${RAW_LAST},N{i},$H$2:$H${RAW_LAST},"Completed")', F(), "0")
+    put(ws, f"O{i}", f'=COUNTIFS($C$2:$C${RAW_LAST},N{i},$M$2:$M${RAW_LAST},1)', F(), "0")
+    put(ws, f"P{i}", f'=COUNTIFS($C$2:$C${RAW_LAST},N{i},$H$2:$H${RAW_LAST},"Completed",$M$2:$M${RAW_LAST},1)', F(), "0")
     put(ws, f"Q{i}", f'=IFERROR(P{i}/O{i},0)', F(), PCT0)
-    put(ws, f"R{i}", f'=IFERROR(AVERAGEIFS($J$2:$J${RAW_LAST},$C$2:$C${RAW_LAST},N{i}),0)', F(), D2)
-    put(ws, f"S{i}", f'=COUNTIFS($C$2:$C${RAW_LAST},N{i},$K$2:$K${RAW_LAST},"Y")', F(), "0")
+    put(ws, f"R{i}", f'=IFERROR(AVERAGEIFS($J$2:$J${RAW_LAST},$C$2:$C${RAW_LAST},N{i},$M$2:$M${RAW_LAST},1),0)', F(), D2)
+    put(ws, f"S{i}", f'=COUNTIFS($C$2:$C${RAW_LAST},N{i},$K$2:$K${RAW_LAST},"Y",$M$2:$M${RAW_LAST},1)', F(), "0")
 rt = 3 + len(CITIES)
 put(ws, f"N{rt}", "Total", F(bold=True))
 for col in "OPS":
     put(ws, f"{col}{rt}", f"=SUM({col}3:{col}{rt - 1})", F(bold=True), "0")
 put(ws, f"Q{rt}", f"=P{rt}/O{rt}", F(bold=True), PCT0)
-put(ws, f"R{rt}", f"=AVERAGE($J$2:$J${RAW_LAST})", F(bold=True), D2)
+put(ws, f"R{rt}", f"=AVERAGEIFS($J$2:$J${RAW_LAST},$M$2:$M${RAW_LAST},1)", F(bold=True), D2)
 put(ws, f"N{rt + 2}", "A 300-row extract to practise on: one row per booking. Three rescheduled bookings appear twice "
     "with the same ID. The Data Checks tab catches them.", F(italic=True, color=MUTED))
 ws.conditional_formatting.add(f"A2:A{RAW_LAST}", FormulaRule(formula=[f"COUNTIF(raw_id,A2)>1"], fill=AMBER_FILL))
 
 # ------------------------------------------------------------------ Data Checks
 ws = ws_chk
-title(ws, "Data checks · run before the MIS goes out", "Each check is a live formula on the Data and Raw Bookings tabs. Two problems were caught and fixed this week.")
+title(ws, "Data checks · run before the MIS goes out", "Checks 1–6 are live formulas on the Data and Raw Bookings tabs; checks 7 and 8 are documented notes. Two problems were caught and fixed this week.")
 header_row(ws, 4, 2, ["#", "Check", "What it tests", "Result", "Detail"])
 SYS = {w: sum(r["req"] for r in D["rows"] if r["week"] == w) for w in WEEKS}
 SYSC = {w: sum(r["comp"] for r in D["rows"] if r["week"] == w) for w in WEEKS}
@@ -910,15 +914,15 @@ CHECKS = [
      '=SUMPRODUCT(--(d_comp<>d_asg-d_cc-d_pc))&" rows do not reconcile"'),
     ("No impossible counts", "On time ≤ completed, perfect ≤ on time, stock-outs ≤ active partners",
      '=IF(SUMPRODUCT(--(d_ot>d_comp))+SUMPRODUCT(--(d_perf>d_ot))+SUMPRODUCT(--(d_stock>d_act))=0,"PASS","FAIL")',
-     '="0 = clean"'),
+     '=SUMPRODUCT(--(d_ot>d_comp))+SUMPRODUCT(--(d_perf>d_ot))+SUMPRODUCT(--(d_stock>d_act))&" rows break a limit"'),
     ("Cities add up to the ops-app total", "City rows summed vs the national totals the ops app reports (table below)",
      None, None),
     ("No blanks or negatives", "Every count in the Data tab is filled in and ≥ 0",
      f'=IF(AND(COUNTBLANK(Data!A2:V{LAST})=0,COUNTIF(Data!E2:V{LAST},"<0")=0),"PASS","FAIL")',
      f'=COUNTBLANK(Data!A2:V{LAST})&" blanks, "&COUNTIF(Data!E2:V{LAST},"<0")&" negatives"'),
     ("Duplicate booking IDs", "Reschedules logged twice would inflate requests",
-     '=IF(SUMPRODUCT(--(COUNTIF(raw_id,raw_id)>1))=0,"PASS","FIXED")',
-     '=SUMPRODUCT(--(COUNTIF(raw_id,raw_id)>1))&" rows share an ID in the raw sample. Counted once, by booking ID"'),
+     '=IF(SUMPRODUCT(--(COUNTIF(raw_id,raw_id)>1))=0,"PASS",IF(raw_total=SUMPRODUCT(1/COUNTIF(raw_id,raw_id)),"FIXED","FAIL"))',
+     '=SUMPRODUCT(--(COUNTIF(raw_id,raw_id)>1))&" rows share an ID in the raw sample ("&ROUND(SUMPRODUCT(1/COUNTIF(raw_id,raw_id)),0)&" unique bookings). The sample summary counts each ID once"'),
     ("One fill-rate definition", "City Ops left out requests cancelled by customers within 5 minutes",
      '="FIXED"', None),
     ("Rates are never averaged", "Average of slot rates vs sum ÷ sum, from the City View tab",
@@ -931,9 +935,9 @@ for i, (lab, what, res, det) in enumerate(CHECKS, start=5):
     put(ws, f"D{i}", what, F(color=MUTED), border=BOTTOM)
     if lab.startswith("Cities add up"):
         res = f'=IF(SUMPRODUCT(ABS(E{rec0 + 1}:E{rec0 + len(WEEKS)}))+SUMPRODUCT(ABS(H{rec0 + 1}:H{rec0 + len(WEEKS)}))=0,"PASS","FAIL")'
-        det = f'="Difference over 12 weeks: "&SUMPRODUCT(ABS(E{rec0 + 1}:E{rec0 + len(WEEKS)}))'
+        det = f'="Difference over 12 weeks: "&(SUMPRODUCT(ABS(E{rec0 + 1}:E{rec0 + len(WEEKS)}))+SUMPRODUCT(ABS(H{rec0 + 1}:H{rec0 + len(WEEKS)})))'
     if lab.startswith("One fill-rate"):
-        det = f'="City Ops said "&TEXT(SUMIFS(d_asg,d_week,{CUR})/(SUMIFS(d_req,d_week,{CUR})-1620),"0.0%")&", MIS said "&TEXT(SUMIFS(d_asg,d_week,{CUR})/SUMIFS(d_req,d_week,{CUR}),"0.0%")&". Fixed with the metric dictionary (A-113)"'
+        det = f'="City Ops said "&TEXT(SUMIFS(d_asg,d_week,{CUR})/(SUMIFS(d_req,d_week,{CUR})-1620),"0.0%")&", MIS said "&TEXT(SUMIFS(d_asg,d_week,{CUR})/SUMIFS(d_req,d_week,{CUR}),"0.0%")&". One definition now used in the MIS (A-113); sign-off pending, decision 3"'
     put(ws, f"E{i}", res, F(bold=True), border=BOTTOM, align=CENTER)
     put(ws, f"F{i}", det, F(), border=BOTTOM)
 CL = 4 + len(CHECKS)
@@ -993,10 +997,10 @@ JD = [
     ("MIS reporting and dashboards", "Dashboard slides 1–5. This workbook: one Data tab feeds every number", "LVX: automated dashboards in Google Sheets and Power BI tracking ₹7 Cr+ of pipeline. Reporting accuracy up 30%"),
     ("Turn data into insights", "North Star leak split; ₹ impact; kits → cancellations → fill rate link (CORREL on Quality & Kits)", "LVX: funnel analysis across ₹3.5 Cr, ₹7 Cr and ₹9 Cr+ launches. Conversion up 20%"),
     ("Weekly and monthly reports, review decks", "Weekly MIS tab (one page) and Monthly tab. The dashboard is the review deck", "Techvaraha: weekly and monthly reviews across 4 departments. 15+ executive presentations"),
-    ("Spot discrepancies, gaps and bottlenecks", "Data Checks tab: 8 live checks, reconciliation to the ops-app totals, duplicate IDs", "LVX: reporting SOPs and data workflows. Manual errors down 35%"),
+    ("Spot discrepancies, gaps and bottlenecks", "Data Checks tab: 6 live checks and 2 documented notes, reconciliation to the ops-app totals, duplicate IDs", "LVX: reporting SOPs and data workflows. Manual errors down 35%"),
     ("Track managers' priorities, deliverables and timelines", "Action Tracker: one owner and one date per action, days late and flags by formula", "Techvaraha: kept 15–20 people across our team and client CXOs moving together. Project delays down 25%"),
     ("Follow up and close on time", "Manager summary, on-time closure %, escalation ladder", "Techvaraha: escalation turnaround down 40%. Zero missed deliverables for 3 quarters"),
-    ("Monitor metrics against targets", "Targets tab drives every status. One red-amber-green rule for all 14 KPIs", "Techvaraha: 4 SOPs, QA workflows and KRAs. On-time delivery from 65% to 90%"),
+    ("Monitor metrics against targets", "Targets tab drives every status. One red-amber-green rule for all 13 targeted KPIs (15 tracked)", "Techvaraha: 4 SOPs, QA workflows and KRAs. On-time delivery from 65% to 90%"),
     ("Confidentiality and integrity", "Mock data only. Weekly MIS is protected; only the yellow input cells can be edited", "LVX: owned investor consent and compliance workflows for the Dubai corridor"),
     ("Strong Excel and Google Sheets", "SUMIFS, COUNTIFS, INDEX-MATCH, named ranges, data validation, conditional formatting, CORREL", "Advanced Excel. Automated Google Sheets dashboards at LVX"),
     ("Partner supply and ops", "Supply tab: onboarding funnel, cohort retention, utilisation lever", "Built a network of 1,400+ healthcare practitioners and 15+ hospital tie-ups. Ran sourcing, inventory and QC at Gomedha"),
@@ -1038,7 +1042,7 @@ put(ws, "C7", f'="perfect bookings · "&TEXT(SUMIFS(d_perf,d_week,{CUR})/SUMIFS(
     F(size=11, color=INK))
 put(ws, "B9", "How to use", F(size=12, bold=True))
 for i, t in enumerate([
-    "1. Open Weekly MIS. Pick a week and a city in the yellow cells. Every number recalculates.",
+    "1. Open Weekly MIS. Pick a week and a city in the yellow cells. The Weekly MIS recalculates; North Star and City View follow the week (All India); other tabs show Week 42.",
     "2. Change a target on the Targets tab. Every status, in every tab, follows.",
     "3. All KPIs are built from the Data tab with SUMIFS: counts are summed first, then divided. Rates are never averaged.",
 ], start=10):
@@ -1048,7 +1052,7 @@ TABS = [
     ("Weekly MIS", "One-page MIS: 15 KPIs, this week vs last week vs target, with status and owner"),
     ("North Star", "Perfect bookings over 12 weeks, and which funnel term moved it"),
     ("Monthly", "Aug, Sep and Oct to date, for the monthly review"),
-    ("City View", "Every KPI by city, plus fill rate by day and slot"),
+    ("City View", "9 of the 15 KPIs by city (requests, fill, on-time, cancels, productivity, complaints, kits, perfect rate), plus fill rate by day and slot"),
     ("Supply", "Onboarding funnel, cohort retention, utilisation"),
     ("Quality & Kits", "Complaints by service and hub, kit items missing, CORREL"),
     ("Action Tracker", "Five managers' actions, flags by formula, manager summary"),

@@ -439,7 +439,7 @@ const KPIS = [
   { key: "pc", name: "Cancellations, partner side", f: a => a.pc / a.asg, fmt: "pct", dir: "down", target: 0.015, owner: "Supply" },
   { key: "act", block: "Partner supply", name: "Active partners (1+ job)", f: a => a.act / a.n, fmt: "int", dir: "up", target: 7600, owner: "Supply", national: true },
   { key: "cert", name: "New partners certified", f: a => a.cert / a.n, fmt: "int", dir: "up", target: 200, owner: "Training & QA", national: true },
-  { key: "ret", name: "90-day retention (cohort)", f: a => a.coh_a / a.coh, fmt: "pct0", dir: "up", target: 0.70, owner: "Supply" },
+  { key: "ret", name: "90-day retention (cohort)", f: a => a.coh_a / a.coh, fmt: "pct", dir: "up", target: 0.70, owner: "Supply" },
   { key: "jppd", block: "Productivity", name: "Jobs per active partner per day", f: a => a.comp / (a.act * 6), fmt: "d2", dir: "up", target: 1.65, owner: "City Ops" },
   { key: "rating", block: "Quality", name: "Average rating", f: a => a.rs / a.rc, fmt: "d2", dir: "up", target: 4.70, owner: "Training & QA" },
   { key: "cpk", name: "Complaints per 1,000 jobs", f: a => a.cpl / a.comp * 1000, fmt: "d1", dir: "down", target: 8.0, owner: "CX" },
@@ -747,6 +747,13 @@ const stages = a => ({ req: a.req, fill: a.asg / a.req, compl: a.comp / a.asg, o
 const sA = stages(A), sL = stages(L);
 const dP = A.perfect - L.perfect, dLn = Math.log(A.perfect / L.perfect);
 const contrib = Object.fromEntries(Object.keys(sA).map(k => [k, dP * Math.log(sA[k] / sL[k]) / dLn]));
+// Rounded so the five shown values add up exactly to the headline change
+const contribR = (() => {
+  const ks = Object.keys(contrib), fl = Object.fromEntries(ks.map(k => [k, Math.floor(contrib[k])]));
+  let rem = dP - ks.reduce((s, k) => s + fl[k], 0);
+  ks.slice().sort((a, b) => (contrib[b] - fl[b]) - (contrib[a] - fl[a])).forEach(k => { if (rem > 0) { fl[k]++; rem--; } });
+  return fl;
+})();
 
 /* ---------------- slides ---------------- */
 const SLIDES = [];
@@ -775,7 +782,7 @@ SLIDES.push({
     const worst = ["fill", "compl", "ot", "q"].reduce((a, b) => contrib[a] < contrib[b] ? a : b);
     const conv = { fill: "of requests", compl: "of assigned", ot: "of completed", q: "of on-time" };
     const funnel = rows.map(([name, n, r, lr, key]) => {
-      const c = contrib[key];
+      const c = contribR[key];
       return `<tr${key === worst ? ' class="hl"' : ""}>
         <td class="metric nowrap">${esc(name)}${key === worst ? '<span class="tag">Biggest leak</span>' : ""}</td>
         <td style="width:34%"><div class="bar-track"><div class="bar-fill${key === "q" ? "" : " soft"}" style="width:${(n / A.req * 100).toFixed(1)}%"></div></div></td>
@@ -806,7 +813,7 @@ SLIDES.push({
       <div class="card c5"><p class="card-t" style="margin-bottom:10px">The week in three lines</p>
         <dl class="kv">
           <dt>What changed</dt><dd>Fill rate fell ${Math.abs((sA.fill - sL.fill) * 100).toFixed(1)} pts. Partner cancellations rose to ${fPct(val("pc", A))}. Complaints went from ${val("cpk", L).toFixed(1)} to ${val("cpk", A).toFixed(1)} per 1,000.</dd>
-          <dt>Why</dt><dd>Weekend evenings ran out of partners in Mumbai and Bengaluru. Kit stock-outs rose in Gurugram and Noida. One wax batch drove complaints in two Gurugram hubs.</dd>
+          <dt>Why</dt><dd>Weekend evenings ran out of partners in Mumbai and Bengaluru. Kit stock-outs rose in Gurugram and Noida. Complaints spiked across Gurugram, most likely one wax batch (QC result due Tue).</dd>
           <dt>What we're doing</dt><dd>Weekend-evening incentive pilot in 3 hubs, kit refill plus auto-reorder, and retraining for 41 waxing partners. Two of these need your OK (slide 2).</dd>
         </dl>
       </div>
@@ -848,7 +855,7 @@ SLIDES.push({
     this._red = red; this._total = total;
     const opts = ["All India"].concat(D.cities).map(c => `<option${c === scope ? " selected" : ""}>${esc(c)}</option>`).join("");
     const title = scope === "All India"
-      ? `${red} of ${total} KPIs are red, and three of them trace back to kits: stock-outs, partner cancellations and a bad wax batch.`
+      ? `${red} of ${total} KPIs are red, and three of them trace back to kits: stock-outs, partner cancellations and a suspected bad wax batch.`
       : `${scope}: ${red} of ${total} KPIs are red this week.`;
     return head("02 · Weekly MIS · one page", title,
       `This week against last week and target. ${rag("g")} meets target · ${rag("a")} within 5% of it · ${rag("r")} further off · ${rag("n")} tracked, no target.`,
@@ -860,13 +867,13 @@ SLIDES.push({
       </div>
       <div class="c4" style="display:grid;gap:12px;align-content:start">
         <div class="card"><p class="card-t" style="margin-bottom:6px">Top 3 issues</p>
-          <div class="issue"><div class="n">1</div><div><p><b>Complaints rose to ${val("cpk", A).toFixed(1)} per 1,000.</b> Mostly waxing, in GGN-2 and GGN-4. Retrain 41 flagged partners and QC the wax batch.</p><div class="meta">CX with Training & QA · due Thu 22 Oct</div></div></div>
+          <div class="issue"><div class="n">1</div><div><p><b>Complaints rose to ${val("cpk", A).toFixed(1)} per 1,000.</b> Mostly waxing, mostly Gurugram (+${fInt(agg(CUR, "Gurugram").cpl - agg(PREV, "Gurugram").cpl)} of the +${fInt(A.cpl - L.cpl)} rise). Retrain 41 flagged partners and QC the wax batch.</p><div class="meta">Training & QA, retrain by Thu 22 Oct · Inventory, wax QC by Tue 20 Oct</div></div></div>
           <div class="issue"><div class="n">2</div><div><p><b>Partner cancellations rose to ${fPct(val("pc", A))}</b>, in step with kit stock-outs (${fPct(val("kit", A))}). Refill the top 5 items at hubs.</p><div class="meta">Inventory · was due 16 Oct, now 3 days late</div></div></div>
           <div class="issue"><div class="n">3</div><div><p><b>Fill rate fell to ${fPct(val("fill", A))}</b>, weakest on weekend evenings in Mumbai and Bengaluru. Pilot a weekend shift incentive in 3 hubs.</p><div class="meta">City Ops · due Fri 23 Oct</div></div></div>
         </div>
         <div class="card"><p class="card-t" style="margin-bottom:6px">Wins</p>
           <div class="issue"><div class="n g">✓</div><div><p><b>${fInt(A.cert)} partners certified</b>, above the 200 target. Best week in 12.</p></div></div>
-          <div class="issue"><div class="n g">✓</div><div><p><b>Average rating held at ${val("rating", A).toFixed(2)}</b>, above 4.70, despite the complaint spike.</p></div></div>
+          <div class="issue"><div class="n g">✓</div><div><p><b>Average rating stayed above the 4.70 target</b> at ${val("rating", A).toFixed(2)} (down 0.02, a 12-week low), despite the complaint spike.</p></div></div>
           <div class="issue"><div class="n g">✓</div><div><p><b>Customer cancellations stayed under 3%</b> with ${((A.req / L.req - 1) * 100).toFixed(1)}% more requests.</p></div></div>
         </div>
         <div class="card"><p class="card-t" style="margin-bottom:6px">Decisions needed from you</p>
@@ -924,7 +931,7 @@ SLIDES.push({
     const P = pal();
     // heatmap, diverging around the 95% target
     const tgt = 0.95;
-    const color = v => { const d = (v - tgt) * 100; return d < 0 ? ramp(P.redArm, -d / 12) : ramp(P.blueArm, d / 3); };
+    const color = v => { const d = (v - tgt) * 100; return d < 0 ? ramp(P.redArm, -d / 15) : ramp(P.blueArm, d / 3); };
     let h = `<table class="heat"><thead><tr><th class="rowh"></th>${G.slots.map(s => `<th>${esc(s)}</th>`).join("")}</tr></thead><tbody>`;
     G.cells.forEach((row, d) => {
       h += `<tr><th class="rowh">${esc(G.days[d])}</th>`;
@@ -938,7 +945,7 @@ SLIDES.push({
     const heat = document.getElementById("heat");
     heat.innerHTML = h; bindTips(heat);
     const st = P.redArm.slice().reverse().concat(P.blueArm.slice(1));
-    document.getElementById("heatScale").innerHTML = `<span>83%</span><span class="ramp" style="background:linear-gradient(90deg, ${st.join(",")})"></span><span>98%</span><span>· gray = on target (95%)</span>`;
+    document.getElementById("heatScale").innerHTML = `<span>80%</span><span class="ramp" style="background:linear-gradient(90deg, ${st.join(",")})"></span><span>98%</span><span>· gray = on target (95%)</span>`;
     const req = WEEKS.map(w => agg(w).req), comp = WEEKS.map(w => agg(w).comp);
     document.getElementById("kq1").style.background = P.accent;
     document.getElementById("kq2").style.background = P.s2;
@@ -966,7 +973,7 @@ SLIDES.push({
     const drop24 = coh.map(c => c.ret[1] - c.ret[2]);
     const redWeeks = WEEKS.filter(w => status(K.ret, K.ret.f(agg(w))) === "r").length;
     return head("04 · Partner supply & productivity · Supply, Training & QA",
-      `Onboarding beat target with ${fInt(A.cert)} certified, but 90-day retention has been red for ${redWeeks} straight weeks. Most partners are lost in weeks 2 to 4.`,
+      `Onboarding beat target with ${fInt(A.cert)} certified, but 90-day retention has been red for ${redWeeks} straight weeks. About 60% of the 13-week loss happens in the first 4 weeks.`,
       `Supply is the constraint. More partners, kept longer and kept busy, is the only way fill rate holds through wedding season.`,
       esc(D.meta.week_label)) +
     `<div class="tiles t4">${tile(K.act, A, L)}${tile(K.cert, A, L)}${tile(K.ret, A, L)}${tile(K.jppd, A, L)}</div>
@@ -1042,7 +1049,7 @@ SLIDES.push({
       <div class="card c4"><div class="card-h"><div><p class="card-t">Complaints per 1,000 jobs, by service</p><p class="card-s">Last week to this week.</p></div></div>
         <div class="chart" id="ch-cat"></div>
         <div class="legend"><span><i class="key-dot" id="kd1"></i>Last week</span><span><i class="key-dot" id="kd2"></i>This week</span></div></div>
-      <div class="card c5"><div class="card-h"><div><p class="card-t">Worst 6 hubs by complaints</p><p class="card-s">Of about 140 hubs. Complaint counts in brackets: small bases swing.</p></div></div>
+      <div class="card c5"><div class="card-h"><div><p class="card-t">Highest complaints among the 12 tracked hubs</p><p class="card-s">12 tracked hubs. Complaint counts in brackets: small bases swing.</p></div></div>
         <table class="tbl compact"><thead><tr><th>Hub</th><th>City</th><th class="num">Jobs</th><th class="num">Complaints / 1,000</th><th class="num">Kit stock-out</th><th class="num">Partner cancel</th></tr></thead><tbody>${hubRows}</tbody></table></div>
       <div class="card c3"><div class="card-h"><div><p class="card-t">Kits drive cancellations</p><p class="card-s">12 hubs. Correlation r = ${r.toFixed(2)}.</p></div></div>
         <div class="chart" id="ch-sc"></div></div>
@@ -1052,7 +1059,7 @@ SLIDES.push({
         <div class="chart" id="ch-why"></div></div>
       <div class="card c4"><p class="card-t" style="margin-bottom:8px">What the numbers say</p>
         <div class="callout"><b>Waxing complaints went from ${(wax.cpl41 / wax.jobs41 * 1000).toFixed(1)} to ${(wax.cpl42 / wax.jobs42 * 1000).toFixed(1)} per 1,000.</b> Other services barely moved. That points to a product batch, not skills, so the wax batch QC (A-103) comes first.</div>
-        <div class="callout"><b>Fix kits upstream.</b> Stock-outs raise partner cancellations, which cut fill rate. One refill SLA fixes three red numbers.</div>
+        <div class="callout"><b>Fix kits upstream.</b> Stock-outs raise partner cancellations, which cut completed jobs. One refill SLA fixes two red numbers, kit stock-outs and partner cancellations, and a third if the wax batch turns out to be a kit problem.</div>
       </div>
     </div>` + footer("5 / 8");
   },
@@ -1179,15 +1186,15 @@ SLIDES.push({
         ${chk(true, "Cities add up to the ops-app total", "12 weeks, zero difference")}
         ${chk(true, "Duplicate bookings removed", "412 rescheduled bookings were logged twice. Counted once, by booking ID", "a")}
         ${chk(true, "One fill-rate definition", "City Ops sheet said " + fPct(opsFill) + ", MIS said " + fPct(right) + ". See the box", "a")}
-        ${chk(true, "Same date cut-off everywhere", "Service date, Monday to Sunday, IST")}
-        ${chk(true, "Small bases shown as counts", "3 hubs had under 50 jobs. Their % swings are not trends", "n")}
+        ${chk(true, "No blanks or negatives", "Every count in the data is filled in and 0 or more")}
+        ${chk(true, "Rates are never averaged", "Average of slot rates " + fPct(G.cells.flat().reduce((s, c) => s + c.asg / c.req, 0) / 35) + " vs sum ÷ sum " + fPct(A.asg / A.req) + ". See the box", "n")}
       </div>
       <div class="c4" style="display:grid;gap:12px;align-content:start">
         <div class="card"><p class="card-t">Same metric, two numbers</p>
           <p style="font-size:12.8px;margin:6px 0 0">City Ops reported fill rate at <b>${fPct(opsFill)}</b>. The MIS showed <b>${fPct(right)}</b>. Both were right by their own rule: City Ops left out 1,620 requests that customers cancelled within 5 minutes.</p>
-          <p style="font-size:12.8px;margin:6px 0 0"><b>Fix:</b> one definition in the dictionary, signed off by all five managers (A-113). You get one number, with a one-line note on what changed.</p></div>
+          <p style="font-size:12.8px;margin:6px 0 0"><b>Fix:</b> one definition in the dictionary, now used in the MIS (A-113). Sign-off by the five managers and you is decision 3 on slide 2. You get one number, with a one-line note on what changed.</p></div>
         <div class="card"><p class="card-t">The averaging trap</p>
-          <p style="font-size:12.8px;margin:6px 0 8px">Averaging the 35 day-slot fill rates gives <b>${fPct(simple)}</b>. Adding up the counts first gives <b>${fPct(right)}</b>. The shortcut reads ${((simple - right) * 100).toFixed(1)} pts too high and hides ${fPct((simple - right) / (sL.fill - sA.fill), 0)} of this week's drop, because a quiet Monday slot counts as much as a packed Sunday evening.</p>
+          <p style="font-size:12.8px;margin:6px 0 8px">Averaging the 35 day-slot fill rates gives <b>${fPct(simple)}</b>. Adding up the counts first gives <b>${fPct(right)}</b>. The shortcut reads ${((simple - right) * 100).toFixed(2)} pts too high and hides about a fifth (${fPct((simple - right) / (sL.fill - sA.fill), 0)}) of this week's ${((sL.fill - sA.fill) * 100).toFixed(1)}-pt drop, because a quiet Monday slot counts as much as a packed Sunday evening.</p>
           <table class="tbl compact"><tbody><tr><td>Average of 35 slot rates</td><td class="num">${fPct(simple)}</td><td>${rag("r", "Wrong")}</td></tr><tr><td>Total assigned ÷ total requests</td><td class="num">${fPct(right)}</td><td>${rag("g", "Right")}</td></tr></tbody></table></div>
       </div>
       <div class="card c4"><p class="card-t" style="margin-bottom:6px">Metric dictionary, v1</p>
@@ -1207,9 +1214,9 @@ SLIDES.push({
       ["Spot discrepancies, gaps and bottlenecks", "Appendix A: 8 pre-publish checks, and the 93.5% vs 91.6% fill-rate mismatch", "LVX: reporting SOPs and data workflows. Manual errors down 35%"],
       ["Track managers' priorities, deliverables and timelines", "Slide 6: one tracker, one owner and one date per action, flagged automatically when late", "Techvaraha: kept 15–20 people across our team and client CXOs moving together. Project delays down 25%"],
       ["Follow up and close on time", "Slide 6: review rhythm and a 4-step escalation ladder", "Techvaraha: escalation turnaround down 40%. Zero missed deliverables for 3 quarters"],
-      ["Monitor metrics against targets", "One targets table and one red-amber-green rule for all 14 KPIs", "Techvaraha: 4 SOPs, QA workflows and KRAs. On-time delivery from 65% to 90%"],
-      ["Confidentiality and integrity", "Mock data only. Formula cells locked, inputs marked, need-to-know sharing", "LVX: owned investor consent and compliance workflows for the Dubai corridor"],
-      ["Strong Excel and Google Sheets", "Week and city selectors recalculate the whole MIS: SUMIFS, INDEX-MATCH, named ranges, validation", "Advanced Excel. Automated Google Sheets dashboards at LVX"],
+      ["Monitor metrics against targets", "One targets table and one red-amber-green rule for all 13 targeted KPIs (15 tracked)", "Techvaraha: 4 SOPs, QA workflows and KRAs. On-time delivery from 65% to 90%"],
+      ["Confidentiality and integrity", "Mock data only. Weekly MIS protected so only the yellow input cells can be edited, inputs marked, need-to-know sharing", "LVX: owned investor consent and compliance workflows for the Dubai corridor"],
+      ["Strong Excel and Google Sheets", "Week and city selectors recalculate the one-page MIS: SUMIFS, INDEX-MATCH, named ranges, validation", "Advanced Excel. Automated Google Sheets dashboards at LVX"],
       ["Partner supply and ops", "Slide 4: onboarding funnel, cohort retention, utilisation", "Built a network of 1,400+ healthcare practitioners and 15+ hospital tie-ups. Ran sourcing, inventory and QC at Gomedha"],
       ["A fast leadership office", "Built over one weekend, from public information", "Two Founder's Office roles. Best Execution Award 2025"],
     ].map(([a, b, c]) => `<tr><td>${esc(a)}</td><td class="ink2">${esc(b)}</td><td>${esc(c)}</td></tr>`).join("");
