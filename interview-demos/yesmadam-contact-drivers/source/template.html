@@ -468,7 +468,7 @@ SLIDES.push({
     const cols = S.whys.map(w => `<div class="card c4"><div class="rank" style="font-size:12px;font-weight:700;color:var(--accent)">${esc(DRV[w.driver].label)}</div>
       <p class="card-t" style="margin:4px 0 10px">${esc(w.problem)}</p>
       <div class="whys">${w.chain.map((c, i) => `<div class="why"><span class="wn">Why ${i + 1}</span><span>${esc(c.text)} ${c.ev === "E" ? `<span class="tag green ev">In reviews</span>` : `<span class="tag amber ev">To verify</span>`}</span></div>`).join("")}</div>
-      <div class="root"><b>Root cause</b>${esc(w.root)}</div>
+      <div class="root"><b>Likely root cause</b>${esc(w.root)}</div>
       <div class="proof"><b>What would prove me wrong:</b> ${esc(w.test)}</div>
     </div>`).join("");
     return head("3 · Root causes", S.t3, `Five whys on each top driver. <span class="tag green">In reviews</span> = customers say it directly. <span class="tag amber">To verify</span> = my hypothesis, to check against ticket and ops data in week 1.`, "") +
@@ -490,7 +490,7 @@ SLIDES.push({
         ${ctl("costPerContact", "Cost per contact (₹)", 15, 120, 5, "rs", "Assumption: blended chat and voice")}
         ${ctl("reduction", "Cut in top-3 contacts from the fixes", 10, 60, 5, "pct", "Target for the three fixes on slide 5")}
         ${ctl("lostShare", "Customers lost per top-3 contact", 0, 40, 1, "pct", `Reviews say ${fPct(D.impact.churnTop3)}; real rate is lower`)}
-        ${ctl("annualValue", "Yearly value of a customer (₹)", 1000, 12000, 100, "rs", "Assumption: about ₹1,350 a visit, 4–5 visits a year")}
+        ${ctl("annualValue", "Yearly value of a customer (₹)", 1000, 12000, 100, "rs", "Assumption: about ₹1,350 a visit, 4 visits a year")}
       </div></div>
       <div class="c8 stack">
         <div class="grid" style="grid-template-columns:repeat(3,minmax(0,1fr))">
@@ -524,7 +524,7 @@ SLIDES.push({
       root.querySelector("#oContacts").textContent = fInt(contacts);
       root.querySelector("#oContactsS").textContent = `${fRs(cost)} a month in support cost`;
       root.querySelector("#oTop").textContent = fInt(topContacts);
-      root.querySelector("#oTopS").textContent = `${fPct(topShare)} of contacts · ${fRs(topContacts * CALC.costPerContact)} a month`;
+      root.querySelector("#oTopS").textContent = `${fPct(topShare)} of contacts if tickets mirror reviews · ${fRs(topContacts * CALC.costPerContact)} a month`;
       root.querySelector("#oSave").textContent = fInt(saved);
       root.querySelector("#oSaveS").textContent = `fewer contacts a month · ${fRs(savedCost * 12)} a year saved`;
       let rows = `<thead><tr><th>Driver</th><th class="num">Share</th><th class="num">Contacts</th><th class="num">Cost</th><th class="num">After fixes</th></tr></thead><tbody>`;
@@ -564,7 +564,7 @@ SLIDES.push({
     return head("One-page readout", S.tR, "", `${esc(M.app)} · ${fInt(M.n)} App Store reviews`) +
       `<div class="readout">
         <div class="card"><h3>Problem</h3>${r.problem.map(p => `<p style="margin:4px 0">${esc(p)}</p>`).join("")}</div>
-        <div class="card"><h3>Root cause</h3><ul>${r.root.map(p => `<li>${esc(p)}</li>`).join("")}</ul></div>
+        <div class="card"><h3>Likely root cause</h3><ul>${r.root.map(p => `<li>${esc(p)}</li>`).join("")}</ul><p class="muted" style="margin:6px 0 0;font-size:12.5px">From the five whys. Parts marked "to verify" on slide 3 need ticket and ops data in week 1.</p></div>
         <div class="card"><h3>Impact</h3><ul>${r.impact.map(p => `<li>${esc(p)}</li>`).join("")}</ul></div>
         <div class="card"><h3>Action</h3><ol>${r.action.map(p => `<li>${esc(p)}</li>`).join("")}</ol></div>
       </div>

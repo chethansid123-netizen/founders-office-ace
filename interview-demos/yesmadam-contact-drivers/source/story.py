@@ -58,7 +58,7 @@ WHYS = {
         chain=[
             dict(text="The assigned professional declined, went on leave or fell ill, and no one else was sent (#62, #247, #250).", ev="E"),
             dict(text="Nobody checks before the slot that she is coming. The customer finds out at the slot time, or only when she calls support (#15, #193, #338).", ev="E"),
-            dict(text="Accepting a job does not lock the professional in. Some ask the customer to cancel instead, so the drop is logged as a customer cancellation (#127, #219, #362).", ev="E"),
+            dict(text="Accepting a job does not lock the professional in: some call and ask the customer to cancel instead (#127, #219, #362).", ev="E"),
             dict(text="The app shows slots when no professional is free, and products run short too, so there is no one ready to send instead (#73, #284, #394).", ev="E"),
             dict(text="Slots are sold off the calendar, not off confirmed professional capacity in that area and hour, and payment is taken before anyone confirms.", ev="H"),
         ],
@@ -70,20 +70,20 @@ WHYS = {
         chain=[
             dict(text="The offer they were sent could not be booked, or the final price was higher than the price shown (#10, #23).", ev="E"),
             dict(text="The free pedicure opens at 1 pm for everyone. Slots are gone by 1:02, and the app crashes at checkout in the rush (#78, #121, #138).", ev="E"),
-            dict(text="It reads as a scam, not a sell-out, because it is pushed to everyone without saying how many slots exist (#48, #77).", ev="E"),
+            dict(text="It reads as a scam, not a sell-out: customers call it 'fake' and 'bluffing', and nothing tells them how few slots there were (#48, #77, #121).", ev="E"),
             dict(text="Compulsory fees sit outside the listed price: a platform fee, a ₹99 kit charge, a ₹300 line labelled tax. They appear only at checkout (#55, #126, #190).", ev="E"),
             dict(text="Offers and price pages are judged on installs and visits, not on how many offers are honoured or how many complaints they create.", ev="H"),
         ],
-        root="Offers and prices are built to attract, not to be honoured: a tiny flash offer pushed to everyone, and compulsory fees shown only at checkout.",
+        root="Offers and prices are built to attract, not to be honoured: a flash offer that sells out in minutes is pushed to everyone, and compulsory fees show up only at checkout.",
         test="If offer complaints spike only on days the app crashed at 1 pm, this is an engineering capacity problem, not offer design.",
     ),
     "service_quality": dict(
         problem=f"The service itself goes wrong: untrained or rushed work, rude behaviour, and burns or rashes ({inj_wax} of the {inj_all} burn or reaction reviews follow waxing).",
         chain=[
-            dict(text="The professional lacked the skill for that service: burnt skin after waxing, ruined brows, half-done work (#41, #152, #191).", ev="E"),
+            dict(text="The professional lacked the skill for that service: burnt skin after waxing, ruined brows (#41, #152, #191).", ev="E"),
             dict(text="Professionals reach customers before their skill on each service is proven. Quality is checked by ratings after the job, not before it.", ev="H"),
-            dict(text="Professionals rush the job ('in too much hurry', a facial done in 30 minutes), likely because back-to-back slots leave no slack (#50, #264, #351).", ev="E"),
-            dict(text="When something goes wrong, the answer is a coupon, not a call-back or care for the injury: a ₹400 coupon for a burnt hand (#41, #104, #217).", ev="E"),
+            dict(text="Professionals rush the job: 'in too much hurry', a facial done in 30 minutes (#50, #264, #351).", ev="E"),
+            dict(text="When something goes wrong, there is no real follow-up: a ₹400 coupon for a burnt hand, no reply to photos of a burn, a promised refund that never came (#41, #217, #104).", ev="E"),
             dict(text="Complaints are closed case by case in support and don't flow back to the professional's record, training or assignment.", ev="H"),
         ],
         root="No closed loop from complaint to professional: skill isn't certified per service before risky jobs like waxing, and complaints end in coupons instead of retraining.",
@@ -129,7 +129,7 @@ BENCH_NOTES = [
     f"<b>Same pain, different weights.</b> Urban Company's top three are {', '.join(LABEL[k] for k in uc_rank)}. Overlap with Yes Madam's top three: {len(set(uc_rank) & set(TOP))} of 3.",
     f"<b>Yes Madam over-indexes on {LABEL[hi_k]}</b>: {pct(share(hi_k))} of complaints vs {pct(ucs(hi_k))} at Urban Company ({hi_g * 100:+.0f} pts).",
     f"<b>Yes Madam under-indexes on {LABEL[lo_k]}</b>: {pct(share(lo_k))} vs {pct(ucs(lo_k))} ({lo_g * 100:+.0f} pts).",
-    f"Both apps: over 4 in 10 written reviews are 1★ ({pct(oneStar / len(R))} Yes Madam, {pct(UC['oneStar'] / UC['n'])} Urban Company), against store averages of 4.73★ and 4.77★. Reviews skew negative everywhere.",
+    f"Both apps: over 4 in 10 written reviews are 1★ ({pct(oneStar / len(R))} Yes Madam, {pct(UC['oneStar'] / UC['n'])} Urban Company), against store averages of 4.73★ and {UC['store_avg']:.2f}★. Reviews skew negative everywhere.",
 ]
 months = sorted({r["date"][:7] for r in R})
 offer_by_m = {m: sum(1 for r in C if r["date"].startswith(m) and r["subtag"] == "offer_not_honoured") for m in months}
@@ -157,14 +157,14 @@ story = dict(
     top3=TOP, order=order,
     t1=f"{pct(top3)} of complaints come down to three things: {LABEL[TOP[0]]}, {LABEL[TOP[1]]} and {LABEL[TOP[2]]}.",
     t2=f"{LABEL[TOP[0]].capitalize()} lead, at {pct(share(TOP[0]))} of complaints. Customers don't just dislike them; many have already called support about them.",
-    t3="Each driver traces back to something the operation does, not something customers do.",
-    t4="The top three drivers are the bulk of the support load, and the bigger cost is customers who don't come back.",
-    t5="Three fixes, three owners, one metric each: contacts per 100 bookings by driver.",
+    t3="Each driver traces back to something the operation controls, not something customers do.",
+    t4="If tickets look like reviews, the top three drivers are most of the support load, and the bigger cost is customers who don't come back.",
+    t5="Three fixes, one per driver, each with an owner, a metric and a target. One number tracks the programme: contacts per 100 bookings.",
     tR="Why customers contact Yes Madam, and what to fix first.",
     tB=f"Same top drivers as Urban Company, but Yes Madam over-indexes on {LABEL[max([k for k in ranked if k in by], key=lambda k: share(k) - ucs(k))]}.",
     tC="Complaints by month and by app version.",
     paretoNote=(f"<b>{len(contacted)} complaints ({pct(len(contacted) / nC)})</b> say they already contacted support, and {len(failed)} of them say support didn't fix it. "
-                f"Weighted by who already called, the top three are {pct(top3c / len(contacted))} of contacts, and {LABEL[kc]} alone are {pct(contactedBy[kc] / len(contacted))}."),
+                f"Among those {len(contacted)}, the top three drivers account for {top3c} ({pct(top3c / len(contacted))}), and {LABEL[kc]} alone for {contactedBy[kc]} ({pct(contactedBy[kc] / len(contacted))})."),
     quotes=quotes,
     whys=[dict(driver=k, **WHYS[k]) for k in TOP if k in WHYS],
     fixes=[dict(driver=k, **FIXES[k]) for k in TOP if k in FIXES],
@@ -176,7 +176,7 @@ story = dict(
     ],
     northStarNote="It falls only if customers have fewer reasons to call, which is the point. Watch first-contact resolution next to it, so contacts aren't cut by making support harder to reach.",
     readout=dict(
-        problem=[f"Customers who write reviews are mostly unhappy: {pct(oneStar / len(R))} of the {len(R)} most recent App Store reviews are 1★, against a {4.73}★ store average.",
+        problem=[f"Customers who write reviews are mostly unhappy: {pct(nC / len(R))} of the {len(R)} most recent App Store reviews are complaints and {pct(oneStar / len(R))} are 1★, against a 4.73★ store average.",
                  f"{pct(top3)} of complaints come from three drivers: {LABEL[TOP[0]]} ({pct(share(TOP[0]))}), {LABEL[TOP[1]]} ({pct(share(TOP[1]))}) and {LABEL[TOP[2]]} ({pct(share(TOP[2]))}).",
                  f"{pct(len(contacted) / nC)} of complaints say they already contacted support, and the same three drivers are {pct(top3c / len(contacted))} of those; {LABEL[kc]} alone are {pct(contactedBy[kc] / len(contacted))}. {pct(len(churn) / nC)} say they will stop using the app."],
         root=[f"{WHYS[k]['root']}" for k in TOP if k in WHYS],

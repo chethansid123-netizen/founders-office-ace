@@ -104,7 +104,7 @@ def main():
             uc_tags[x["n"]] = x
     ucc = [uc_tags[r["n"]] for r in uc_rows if r["n"] in uc_tags]
     uc_comp = [x for x in ucc if x["primary"] != "praise"]
-    uc = dict(n=len(uc_rows), tagged=len(ucc), nC=len(uc_comp),
+    uc = dict(n=len(uc_rows), tagged=len(ucc), nC=len(uc_comp), store_avg=4.77, store_ratings=1223305,  # App Store, fetched 2026-10-22
               byPrimary=dict(collections.Counter(x["primary"] for x in uc_comp)),
               contacted=sum(1 for x in uc_comp if x["contacted_support"] == "yes"),
               churn=sum(1 for x in uc_comp if x["churn_signal"]),
