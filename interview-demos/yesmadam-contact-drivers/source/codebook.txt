@@ -1,0 +1,32 @@
+CODEBOOK — contact-driver tagging of app-store reviews for an at-home beauty / home services app (India).
+For each review pick ONE primary driver: the problem that made the customer write (the reason they would contact support). Then list any other drivers the review also mentions as secondary.
+
+Primary drivers (use exactly these keys):
+- delay: the professional arrived late, assignment took long, or the service overran. Subtags: late_arrival, slow_assignment, service_overran.
+- partner_cancellation: the professional did not show up, cancelled late, or the company kept rescheduling / had no professional. Subtags: no_show, last_minute_cancel, repeated_reschedule, no_partner_available.
+- payment_refund: money taken or stuck: refund delayed or denied, charged but not served, wallet or coupon money lost, payment failed. Subtags: refund_delayed, refund_denied, charged_not_served, wallet_or_coupon_lost, payment_failed.
+- price_clarity: the price or offer was not what was shown: hidden or extra charges at checkout, offers/coupons/free-service promotions that do not work or vanish, price mismatch, membership or package confusion. Subtags: hidden_charges, offer_not_honoured, price_mismatch, membership_or_package_confusion.
+- service_quality: the service itself or the professional's conduct: poor skill, rushed or incomplete service, hygiene, a burn/cut/rash caused by technique, rude behaviour, safety or theft. Subtags: poor_skill, rushed_or_incomplete, hygiene, skin_injury_or_reaction, rude_behaviour, safety_or_theft.
+- product_fit: the products used: poor or fake-seeming products, products missing or wrong, pushed product upsells, a reaction the customer blames on the product itself. Subtags: product_quality, missing_or_wrong_products, product_upsell, product_reaction.
+- support: the complaint is about customer support itself, with no other underlying problem described: unreachable, scripted/unhelpful, slow, no escalation. Subtags: unreachable, unhelpful_or_scripted, slow_resolution, no_escalation.
+- app: the app or website: crashes or will not open, login/OTP, booking or checkout bugs (including the professional's app showing different services), no slots shown, spammy notifications. Subtags: crash_or_wont_open, login_or_otp, booking_or_checkout_bug, slots_unavailable, spam_notifications, other_app.
+- praise: positive review with no complaint. Subtags: praise_professional, praise_service, praise_value.
+- other: complaint that fits none of the above, or too vague to classify (e.g. "worst app", "scam" with no detail). Subtags: other_issue, unclear.
+
+Rules:
+1. Support is primary ONLY when support itself is the whole complaint. If the customer describes an underlying problem (refund, no-show, injury...) and then says support did not help, the underlying problem is primary and support is secondary.
+2. A burn, rash or cut blamed on the professional's technique = service_quality/skin_injury_or_reaction. Blamed on the product (bad wax, cream) = product_fit/product_reaction. If unclear, use service_quality.
+3. "Free pedicure at 1 pm" style offers that vanish, coupons that cannot be used, fake promo notifications = price_clarity/offer_not_honoured. Notification spam with no offer complaint = app/spam_notifications.
+4. Paid but booking never happened = payment_refund/charged_not_served. Booking cancelled by them and refund slow = payment_refund/refund_delayed if the refund is the main grievance, else partner_cancellation.
+5. A mixed review (praise plus a complaint) gets the complaint as primary. A short vague negative ("worst", "bad service") with no specifics = other/unclear, unless the title gives the specific.
+6. Hindi/Hinglish reviews are tagged the same way.
+
+Other fields:
+- contacted_support: "yes" if the review says they called, chatted, emailed, raised a ticket or complained to customer care; else "no".
+- support_failed: "yes" if they contacted support and say it did not resolve the issue (or was unreachable); else "no".
+- severity: "none" for praise; "low" for annoyance; "medium" for a failed or poor service or lost time; "high" for money lost, injury or reaction, harassment, privacy, safety or theft.
+- churn_signal: true if they say they will stop using it, uninstall, never book again, or are moving to a competitor.
+- service: the service mentioned (waxing, facial_cleanup, massage_spa, hair, mani_pedi, threading_bleach, laser_advanced, makeup, multiple, unknown). "unknown" if none.
+- city: city if named, else "".
+- amount_inr: the most relevant rupee amount mentioned, else 0.
+- quote: the 8–25 word verbatim excerpt that best evidences the primary driver. Replace any person's name with [name] and any order id, phone number or email with [id]. Keep the original wording otherwise.

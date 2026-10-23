@@ -1,0 +1,789 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Driver Teardown</title>
+<style>
+/* Layout: an app bar with slide tabs over one slide at a time; each slide is a 12-column grid of cards. */
+:root {
+  color-scheme: light;
+  --page: #f2f3f1;
+  --surface: #ffffff;
+  --surface-2: #f6f7f5;
+  --ink: #0e1110;
+  --ink-2: #4c524f;
+  --muted: #78807c;
+  --grid: #e4e7e4;
+  --axis: #c2c8c4;
+  --border: rgba(14, 17, 16, 0.10);
+  --accent: #2a78d6;
+  --accent-soft: #e8f1fc;
+  --accent-2: #eb6834;
+  --soft-bar: #b9cfe9;
+  --gray-bar: #c9ccc8;
+  --good: #0ca30c; --warn: #fab219; --crit: #d03b3b;
+  --good-ink: #006300; --warn-ink: #7a5000; --crit-ink: #b02a2a;
+  --good-bg: #e5f5e5; --warn-bg: #fff3d6; --crit-bg: #fbe7e7; --info-bg: #eef0ee;
+  --quote-bg: #f7f8f6;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --page: #0c0d0d; --surface: #181a19; --surface-2: #202322; --ink: #eef0ee; --ink-2: #c2c7c3; --muted: #939a96;
+    --grid: #2a2d2c; --axis: #424745; --border: rgba(255, 255, 255, 0.10);
+    --accent: #3987e5; --accent-soft: #14273d; --accent-2: #d95926; --soft-bar: #1f4a7d; --gray-bar: #4a4f4c;
+    --good-ink: #3fc23f; --warn-ink: #f5c04d; --crit-ink: #f07a7a;
+    --good-bg: #13301a; --warn-bg: #3a2e10; --crit-bg: #3d1a1a; --info-bg: #262928; --quote-bg: #1e2120; --shadow: none;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0c0d0d; --surface: #181a19; --surface-2: #202322; --ink: #eef0ee; --ink-2: #c2c7c3; --muted: #939a96;
+  --grid: #2a2d2c; --axis: #424745; --border: rgba(255, 255, 255, 0.10);
+  --accent: #3987e5; --accent-soft: #14273d; --accent-2: #d95926; --soft-bar: #1f4a7d; --gray-bar: #4a4f4c;
+  --good-ink: #3fc23f; --warn-ink: #f5c04d; --crit-ink: #f07a7a;
+  --good-bg: #13301a; --warn-bg: #3a2e10; --crit-bg: #3d1a1a; --info-bg: #262928; --quote-bg: #1e2120; --shadow: none;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--page); color: var(--ink); font: 14px/1.45 var(--font); -webkit-font-smoothing: antialiased; }
+button, input, select { font: inherit; color: inherit; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 30; background: var(--surface); }
+
+/* app bar */
+.appbar {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; display: flex; align-items: center; gap: 14px;
+  height: 56px; padding-block: 0; padding-left: max(20px, env(safe-area-inset-left, 0px)); padding-right: max(20px, env(safe-area-inset-right, 0px));
+  background: var(--surface); border-bottom: 1px solid var(--border);
+}
+.brand { display: flex; align-items: center; gap: 10px; flex: none; }
+.brand-mark { width: 30px; height: 30px; border-radius: 8px; flex: none; background: var(--ink); color: var(--surface); display: grid; place-items: center; font-weight: 700; font-size: 10.5px; letter-spacing: .02em; }
+.brand-text { line-height: 1.15; white-space: nowrap; }
+.brand-text b { font-size: 14px; }
+.brand-text span { display: block; font-size: 12px; color: var(--muted); }
+.real-pill { font-size: 11px; font-weight: 600; padding: 3px 8px; border-radius: 999px; background: var(--good-bg); color: var(--good-ink); white-space: nowrap; }
+.tabs { display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; margin-left: auto; min-width: 0; flex: 0 1 auto; }
+.tabs::-webkit-scrollbar { display: none; }
+.tab { border: 0; background: transparent; padding: 7px 7px; border-radius: 8px; font-size: 13px; color: var(--ink-2); cursor: pointer; white-space: nowrap; }
+.tab:hover { background: var(--surface-2); }
+.tab:focus-visible, .icon-btn:focus-visible, select:focus-visible, input:focus-visible, .chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.tab[aria-selected="true"] { background: var(--ink); color: var(--surface); }
+.tab .n { opacity: .6; margin-right: 4px; font-variant-numeric: tabular-nums; }
+.tab.sep { margin-left: 8px; }
+.tools { display: flex; gap: 6px; flex: none; }
+.icon-btn { border: 1px solid var(--border); background: var(--surface); border-radius: 8px; height: 32px; min-width: 32px; padding: 0 10px; cursor: pointer; font-size: 13px; color: var(--ink-2); }
+.icon-btn:hover { background: var(--surface-2); }
+
+/* slides */
+.deck { padding-block: 18px 28px; padding-left: max(20px, env(safe-area-inset-left, 0px)); padding-right: max(20px, env(safe-area-inset-right, 0px)); }
+.slide { display: none; max-width: 1400px; margin: 0 auto; }
+.slide.active { display: block; }
+.slide-head { display: flex; align-items: flex-end; gap: 24px; margin: 2px 0 14px; }
+.slide-head .titles { flex: 1; min-width: 0; }
+.eyebrow { font-size: 12px; font-weight: 600; color: var(--accent); letter-spacing: .02em; }
+h2.title { font-size: 23px; line-height: 1.25; margin: 4px 0; font-weight: 650; letter-spacing: -0.01em; text-wrap: balance; }
+.subtitle { color: var(--ink-2); font-size: 13.5px; margin: 0; max-width: 980px; }
+.slide-meta { text-align: right; font-size: 12px; color: var(--muted); white-space: nowrap; }
+.slide-foot { display: flex; justify-content: space-between; gap: 16px; margin-top: 12px; font-size: 11.5px; color: var(--muted); }
+
+.grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 12px; }
+.c3 { grid-column: span 3; } .c4 { grid-column: span 4; } .c5 { grid-column: span 5; } .c6 { grid-column: span 6; }
+.c7 { grid-column: span 7; } .c8 { grid-column: span 8; } .c9 { grid-column: span 9; } .c12 { grid-column: span 12; }
+.mt { margin-top: 12px; }
+.stack { display: grid; gap: 12px; align-content: start; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; box-shadow: var(--shadow); min-width: 0; }
+.card-h { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin-bottom: 8px; }
+.card-t { font-size: 13.5px; font-weight: 650; margin: 0; }
+.card-s { font-size: 12px; color: var(--muted); margin: 2px 0 0; }
+
+.tiles { display: grid; gap: 12px; grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.tile { padding: 12px 14px; }
+.tile .lbl { font-size: 12.5px; color: var(--ink-2); }
+.tile .val { font-size: 26px; font-weight: 650; line-height: 1.15; margin-top: 4px; letter-spacing: -0.01em; }
+.tile .sub { font-size: 12px; color: var(--muted); margin-top: 2px; }
+
+.tbl-wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; }
+.tbl { font-size: 12.5px; }
+.tbl th { text-align: left; font-weight: 600; color: var(--muted); font-size: 11.5px; padding: 6px 8px; border-bottom: 1px solid var(--grid); white-space: nowrap; }
+.tbl td { padding: 5px 8px; border-bottom: 1px solid var(--grid); vertical-align: middle; }
+.tbl tr:last-child td { border-bottom: 0; }
+.tbl .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.tbl tr.hl td { background: var(--accent-soft); }
+.tbl tr.total td { font-weight: 650; border-top: 1px solid var(--axis); }
+.tbl .strong { font-weight: 650; }
+.muted { color: var(--muted); } .ink2 { color: var(--ink-2); }
+.nowrap { white-space: nowrap; }
+
+.bar-track { position: relative; height: 14px; background: var(--surface-2); border-radius: 0 4px 4px 0; }
+.bar-fill { position: absolute; left: 0; top: 0; bottom: 0; background: var(--accent); border-radius: 0 4px 4px 0; }
+.bar-fill.gray { background: var(--gray-bar); }
+.bar-fill.soft { background: var(--soft-bar); }
+.cum { position: absolute; top: -3px; bottom: -3px; width: 2px; background: var(--ink-2); border-radius: 1px; }
+
+.tag { display: inline-block; font-size: 10.5px; font-weight: 700; padding: 1px 6px; border-radius: 4px; background: var(--accent-soft); color: var(--accent); vertical-align: 1px; letter-spacing: .02em; white-space: nowrap; }
+.tag.red { background: var(--crit-bg); color: var(--crit-ink); }
+.tag.amber { background: var(--warn-bg); color: var(--warn-ink); }
+.tag.green { background: var(--good-bg); color: var(--good-ink); }
+.tag.gray { background: var(--info-bg); color: var(--ink-2); }
+.stars { color: var(--warn-ink); letter-spacing: 1px; font-size: 12px; white-space: nowrap; }
+
+.quote { background: var(--quote-bg); border-radius: 8px; padding: 9px 11px; font-size: 13px; line-height: 1.45; }
+.quote + .quote { margin-top: 8px; }
+.quote .meta { display: flex; gap: 8px; align-items: center; font-size: 11.5px; color: var(--muted); margin-bottom: 3px; }
+.callout { border-left: 3px solid var(--accent); background: var(--accent-soft); border-radius: 0 8px 8px 0; padding: 9px 12px; font-size: 12.8px; }
+.callout + .callout { margin-top: 8px; }
+.callout.warn { border-left-color: var(--warn); background: var(--warn-bg); }
+.kv { display: grid; grid-template-columns: 120px 1fr; gap: 6px 12px; font-size: 13px; }
+.kv dt { color: var(--muted); font-weight: 600; font-size: 12px; padding-top: 1px; }
+.kv dd { margin: 0; }
+
+/* driver cards */
+.dcard .big { font-size: 34px; font-weight: 700; letter-spacing: -0.02em; line-height: 1; }
+.dcard .rank { font-size: 12px; font-weight: 700; color: var(--accent); }
+.dcard h3 { font-size: 17px; margin: 4px 0 2px; }
+.minirow { display: grid; grid-template-columns: 1fr 34px; gap: 8px; align-items: center; font-size: 12px; margin: 3px 0; }
+.minirow .lab { display: flex; justify-content: space-between; gap: 8px; }
+.facts { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
+
+/* five whys */
+.whys { display: grid; gap: 6px; }
+.why { display: grid; grid-template-columns: 50px 1fr; gap: 8px; align-items: start; font-size: 12.8px; }
+.why .wn { font-size: 11px; font-weight: 700; color: var(--muted); padding-top: 2px; }
+.why .ev { display: inline-block; margin-left: 4px; }
+.root { margin-top: 10px; border-radius: 8px; padding: 10px 12px; background: var(--ink); color: var(--surface); font-size: 13px; }
+.root b { display: block; font-size: 11px; letter-spacing: .04em; text-transform: uppercase; opacity: .75; margin-bottom: 2px; }
+.proof { margin-top: 8px; font-size: 12px; color: var(--ink-2); }
+
+/* impact calculator */
+.calc { display: grid; gap: 12px; }
+.ctl { display: grid; gap: 4px; }
+.ctl label { display: flex; justify-content: space-between; font-size: 12.5px; color: var(--ink-2); }
+.ctl label b { color: var(--ink); font-variant-numeric: tabular-nums; }
+.ctl input[type=range] { width: 100%; accent-color: var(--accent); }
+.ctl .hint { font-size: 11.5px; color: var(--muted); }
+.out-big { font-size: 30px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.05; }
+
+/* explorer */
+.filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 10px; font-size: 12.5px; color: var(--ink-2); }
+select, input[type=search] { font-size: 12.5px; color: var(--ink); background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 5px 8px; }
+input[type=search] { min-width: 220px; }
+.rv td { vertical-align: top; }
+.rv .txt { max-width: 640px; }
+.rv .t { font-weight: 600; }
+.chip { display: inline-block; border: 1px solid var(--border); background: var(--surface); border-radius: 999px; padding: 3px 10px; font-size: 12px; cursor: pointer; color: var(--ink-2); }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+.pager { display: flex; gap: 8px; align-items: center; justify-content: flex-end; margin-top: 8px; font-size: 12px; color: var(--muted); }
+
+/* charts */
+.chart { position: relative; width: 100%; }
+.chart svg { display: block; overflow: visible; }
+.ax { fill: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+.gl { stroke: var(--grid); stroke-width: 1; shape-rendering: crispEdges; }
+.bl { stroke: var(--axis); stroke-width: 1; shape-rendering: crispEdges; }
+.lbl-ink { fill: var(--ink); font-size: 11.5px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; color: var(--ink-2); margin-top: 6px; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.key-rect { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+
+.tip { position: fixed; z-index: 50; pointer-events: none; display: none; background: var(--surface); color: var(--ink); border: 1px solid var(--border); box-shadow: 0 6px 24px rgba(0, 0, 0, 0.14); border-radius: 8px; padding: 8px 10px; font-size: 12px; min-width: 140px; max-width: 320px; }
+.tip .tt { font-weight: 650; margin-bottom: 4px; color: var(--ink-2); }
+.tip .tr { display: flex; align-items: center; gap: 8px; justify-content: space-between; }
+.tip .tr .k { color: var(--muted); }
+.tip .tr .v { font-weight: 700; font-variant-numeric: tabular-nums; }
+
+/* readout */
+.readout { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.readout .card h3 { margin: 0 0 6px; font-size: 13px; letter-spacing: .04em; text-transform: uppercase; color: var(--accent); }
+.readout .card p, .readout .card li { font-size: 14px; }
+.readout ul, .readout ol { margin: 4px 0; padding-left: 20px; }
+.readout li { margin: 3px 0; }
+
+body.present .brand-text span, body.present .real-pill { display: none; }
+
+@media (max-width: 1100px) {
+  .c3, .c4, .c5, .c6, .c7, .c8, .c9 { grid-column: span 12; }
+  .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .readout { grid-template-columns: 1fr; }
+  .brand-text span { display: none; }
+}
+@media (max-width: 700px) {
+  .appbar { height: auto; flex-wrap: wrap; padding-block: 10px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); gap: 8px; }
+  .tabs { order: 3; width: 100%; margin-left: 0; }
+  .deck { padding-block: 14px 24px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  .slide-head { flex-direction: column; align-items: flex-start; gap: 6px; }
+  .slide-meta { text-align: left; white-space: normal; }
+  .tiles { grid-template-columns: 1fr 1fr; }
+  h2.title { font-size: 20px; }
+  input[type=search] { min-width: 0; width: 100%; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+@page { size: 1440px 900px; margin: 0; }
+body.printing .appbar, body.printing::before { display: none; }
+body.printing .deck { padding: 0; }
+body.printing .slide { display: block; width: 1440px; height: 900px; max-width: none; padding: 26px 32px 20px; overflow: hidden; break-after: page; page-break-after: always; position: relative; }
+body.printing .slide.noprint { display: none; }
+body.printing .slide-foot { position: absolute; left: 32px; right: 32px; bottom: 16px; }
+@media print { .appbar { display: none; } .tip { display: none !important; } body { -webkit-print-color-adjust: exact; print-color-adjust: exact; } }
+</style>
+</head>
+<body>
+<header class="appbar">
+  <div class="brand">
+    <div class="brand-mark" aria-hidden="true">CDT</div>
+    <div class="brand-text"><b>Contact-driver teardown</b><span id="subLabel"></span></div>
+    <span class="real-pill" title="Every review in this pack is a real, public App Store review">Real reviews</span>
+  </div>
+  <nav class="tabs" id="tabs" role="tablist" aria-label="Slides"></nav>
+  <div class="tools">
+    <button class="icon-btn" id="prevBtn" aria-label="Previous slide">←</button>
+    <button class="icon-btn" id="nextBtn" aria-label="Next slide">→</button>
+    <button class="icon-btn" id="presentBtn" title="Full screen (F)">Present</button>
+    <button class="icon-btn" id="themeBtn" aria-label="Switch light or dark">Dark</button>
+  </div>
+</header>
+<main class="deck" id="deck"></main>
+<div class="tip" id="tip" role="tooltip"></div>
+<script>const DATA = /*__DATA__*/null;</script>
+<script>
+(() => {
+"use strict";
+const D = DATA, S = D.story, M = D.meta;
+const R = D.reviews;
+
+/* ---------- format ---------- */
+const MINUS = "−";
+const nf = new Intl.NumberFormat("en-IN", { maximumFractionDigits: 0 });
+const fInt = n => nf.format(Math.round(n));
+const fPct = (x, d = 0) => (x * 100).toFixed(d) + "%";
+const fRs = r => r >= 1e7 ? "₹" + (r / 1e7).toFixed(2) + " Cr" : r >= 1e5 ? "₹" + (r / 1e5).toFixed(1) + " L" : "₹" + fInt(r);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const stars = n => `<span class="stars" aria-label="${n} stars">${"★".repeat(n)}<span class="muted">${"★".repeat(5 - n)}</span></span>`;
+const dfmt = d => new Date(d + "T00:00:00").toLocaleDateString("en-GB", { day: "numeric", month: "short" });
+const DRV = D.drivers;                       // key -> {label, short, desc}
+const SUB = D.subtags;                       // key -> label
+const label = k => (DRV[k] ? DRV[k].label : k);
+
+/* ---------- derived numbers ---------- */
+const complaints = R.filter(r => r.primary !== "praise");
+const nC = complaints.length;
+const byPrimary = {};
+for (const r of complaints) byPrimary[r.primary] = (byPrimary[r.primary] || 0) + 1;
+const order = Object.keys(byPrimary).sort((a, b) => (b === "other") - (a === "other") || byPrimary[b] - byPrimary[a] || S.order.indexOf(a) - S.order.indexOf(b));  // ties: the build order
+const ranked = order.filter(k => k !== "other").concat(order.includes("other") ? ["other"] : []);
+const TOP = S.top3;                          // decided in the build from the data
+const mentions = {};
+for (const r of complaints) for (const k of new Set([r.primary].concat(r.secondary || []))) if (k !== "praise") mentions[k] = (mentions[k] || 0) + 1;
+const contacted = complaints.filter(r => r.contacted === "yes");
+const failed = contacted.filter(r => r.failed === "yes");
+const churn = complaints.filter(r => r.churn);
+const high = complaints.filter(r => r.severity === "high");
+const oneStar = R.filter(r => r.rating === 1).length;
+const top3n = TOP.reduce((s, k) => s + (byPrimary[k] || 0), 0);
+const contactedBy = {};
+for (const r of contacted) contactedBy[r.primary] = (contactedBy[r.primary] || 0) + 1;
+const top3c = TOP.reduce((s, k) => s + (contactedBy[k] || 0), 0);
+const sharePrimary = k => (byPrimary[k] || 0) / nC;
+
+/* ---------- tooltip ---------- */
+const tip = document.getElementById("tip");
+function showTip(e, title, rows) {
+  tip.replaceChildren();
+  if (title) { const t = document.createElement("div"); t.className = "tt"; t.textContent = title; tip.append(t); }
+  for (const r of rows) {
+    const row = document.createElement("div"); row.className = "tr";
+    const k = document.createElement("span"); k.className = "k"; k.textContent = r.k;
+    const v = document.createElement("span"); v.className = "v"; v.textContent = r.v;
+    row.append(k, v); tip.append(row);
+  }
+  tip.style.display = "block";
+  const w = tip.offsetWidth, h = tip.offsetHeight;
+  let left = e.clientX + 14, top = e.clientY + 14;
+  if (left + w > innerWidth - 8) left = e.clientX - w - 14;
+  if (top + h > innerHeight - 8) top = e.clientY - h - 14;
+  tip.style.left = left + "px"; tip.style.top = top + "px";
+}
+function hideTip() { tip.style.display = "none"; }
+function bindTips(root) {
+  root.querySelectorAll("[data-tip]").forEach(el => {
+    const d = JSON.parse(el.dataset.tip);
+    const on = e => showTip(e.clientX ? e : (() => { const r = el.getBoundingClientRect(); return { clientX: r.left + r.width / 2, clientY: r.top + r.height / 2 }; })(), d.t, d.r);
+    el.addEventListener("pointermove", on); el.addEventListener("focus", on);
+    el.addEventListener("pointerleave", hideTip); el.addEventListener("blur", hideTip);
+  });
+}
+const tipAttr = (t, r) => `data-tip='${esc(JSON.stringify({ t, r }))}' tabindex="0"`;
+
+/* ---------- theme ---------- */
+const darkQuery = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+function isDark() { const t = document.documentElement.dataset.theme; return t === "dark" || (t !== "light" && !!(darkQuery && darkQuery.matches)); }
+function pal() {
+  return isDark()
+    ? { accent: "#3987e5", s2: "#d95926", gray: "#4a4f4c", soft: "#1f4a7d", ink: "#eef0ee", muted: "#939a96", surface: "#181a19", grid: "#2a2d2c" }
+    : { accent: "#2a78d6", s2: "#eb6834", gray: "#c9ccc8", soft: "#b9cfe9", ink: "#0e1110", muted: "#78807c", surface: "#ffffff", grid: "#e4e7e4" };
+}
+
+/* ---------- charts ---------- */
+function niceTicks(max, count = 4) {
+  const step0 = (max || 1) / count, mag = Math.pow(10, Math.floor(Math.log10(step0))), err = step0 / mag;
+  const step = (err >= 7.5 ? 10 : err >= 3.5 ? 5 : err >= 1.5 ? 2 : 1) * mag;
+  const t = []; for (let v = 0; v <= max + step * 0.01; v += step) t.push(+v.toFixed(10));
+  if (t[t.length - 1] < max) t.push(t[t.length - 1] + step);
+  return t;
+}
+/* grouped vertical columns: categories x series, one axis */
+function groupedColumns(el, o) {
+  const P = pal();
+  const W = Math.max(300, el.clientWidth), H = o.height || 220, m = { l: 36, r: 8, t: 14, b: 40 };
+  const iw = W - m.l - m.r, ih = H - m.t - m.b;
+  const n = o.cats.length, ns = o.series.length, band = iw / n, bw = Math.min(20, (band * 0.7) / ns);
+  const vmax = Math.max(...o.series.flatMap(s => s.values)) * 1.12;
+  const ticks = niceTicks(vmax, 4), top = ticks[ticks.length - 1];
+  const y = v => m.t + ih - v / top * ih;
+  let s = `<svg width="${W}" height="${H}" role="img" aria-label="${esc(o.aria || "")}">`;
+  for (const t of ticks) s += `<line class="gl" x1="${m.l}" x2="${W - m.r}" y1="${y(t)}" y2="${y(t)}"/><text class="ax" x="${m.l - 6}" y="${y(t) + 4}" text-anchor="end">${esc(o.yFmt(t))}</text>`;
+  o.cats.forEach((c, i) => {
+    const cx = m.l + band * i + band / 2, gw = bw * ns + 2 * (ns - 1);
+    o.series.forEach((se, j) => {
+      const v = se.values[i], x = cx - gw / 2 + j * (bw + 2), top0 = y(v), h = m.t + ih - top0;
+      if (h > 0.5) s += `<path d="M${x} ${m.t + ih} v${-Math.max(0, h - 3)} a3 3 0 0 1 3 -3 h${bw - 6} a3 3 0 0 1 3 3 v${Math.max(0, h - 3)} Z" style="fill:${se.color}"/>`;
+    });
+    const lab = o.catLabel(c);
+    lab.split("\n").forEach((ln, k) => { s += `<text class="ax" x="${cx}" y="${H - 26 + k * 12}" text-anchor="middle">${esc(ln)}</text>`; });
+    s += `<rect x="${cx - band / 2}" y="${m.t}" width="${band}" height="${ih}" fill="transparent" ${tipAttr(o.catLabel(c).replace("\n", " "), o.series.map(se => ({ k: se.name, v: o.yFmt(se.values[i]) })))}/>`;
+  });
+  s += `<line class="bl" x1="${m.l}" x2="${W - m.r}" y1="${m.t + ih}" y2="${m.t + ih}"/></svg>`;
+  el.innerHTML = s; bindTips(el);
+}
+/* stacked columns by month */
+function stackedColumns(el, o) {
+  const P = pal();
+  const W = Math.max(300, el.clientWidth), H = o.height || 200, m = { l: 32, r: 8, t: 10, b: 26 };
+  const iw = W - m.l - m.r, ih = H - m.t - m.b, n = o.cats.length, band = iw / n, bw = Math.min(46, band * 0.6);
+  const totals = o.cats.map((_, i) => o.series.reduce((a, s) => a + s.values[i], 0));
+  const ticks = niceTicks(Math.max(...totals) * 1.08, 4), top = ticks[ticks.length - 1];
+  const y = v => m.t + ih - v / top * ih;
+  let s = `<svg width="${W}" height="${H}" role="img" aria-label="${esc(o.aria || "")}">`;
+  for (const t of ticks) s += `<line class="gl" x1="${m.l}" x2="${W - m.r}" y1="${y(t)}" y2="${y(t)}"/><text class="ax" x="${m.l - 6}" y="${y(t) + 4}" text-anchor="end">${t}</text>`;
+  o.cats.forEach((c, i) => {
+    const cx = m.l + band * i + band / 2; let acc = 0;
+    o.series.forEach(se => {
+      const v = se.values[i]; if (!v) return;
+      const y1 = y(acc + v), y0 = y(acc); acc += v;
+      s += `<rect x="${cx - bw / 2}" y="${y1}" width="${bw}" height="${Math.max(0, y0 - y1 - 2)}" style="fill:${se.color}"/>`;
+    });
+    s += `<text class="lbl-ink" x="${cx}" y="${y(totals[i]) - 4}" text-anchor="middle">${totals[i]}</text>`;
+    s += `<text class="ax" x="${cx}" y="${H - 8}" text-anchor="middle">${esc(c)}</text>`;
+    s += `<rect x="${cx - band / 2}" y="${m.t}" width="${band}" height="${ih}" fill="transparent" ${tipAttr(c, o.series.map(se => ({ k: se.name, v: String(se.values[i]) })).concat([{ k: "Total", v: String(totals[i]) }]))}/>`;
+  });
+  s += `<line class="bl" x1="${m.l}" x2="${W - m.r}" y1="${m.t + ih}" y2="${m.t + ih}"/></svg>`;
+  el.innerHTML = s; bindTips(el);
+}
+
+/* ---------- slide helpers ---------- */
+const head = (eyebrow, title, sub, meta) => `<div class="slide-head"><div class="titles"><div class="eyebrow">${esc(eyebrow)}</div><h2 class="title">${esc(title)}</h2>${sub ? `<p class="subtitle">${sub}</p>` : ""}</div>${meta ? `<div class="slide-meta">${meta}</div>` : ""}</div>`;
+const foot = n => `<div class="slide-foot"><span>Source: ${esc(M.source_short)}. ${fInt(M.n)} most recent reviews, ${esc(dfmt(M.from))}–${esc(dfmt(M.to))} ${esc(M.to.slice(0, 4))}. Tagged twice with one codebook; disagreements settled.</span><span>${esc(n)}</span></div>`;
+const tile = (lbl, val, sub) => `<div class="card tile"><div class="lbl">${esc(lbl)}</div><div class="val">${val}</div><div class="sub">${sub}</div></div>`;
+const sevTag = s => s === "high" ? `<span class="tag red">High severity</span>` : s === "medium" ? `<span class="tag amber">Medium</span>` : `<span class="tag gray">${esc(s)}</span>`;
+function quoteHtml(q) {
+  return `<div class="quote"><div class="meta">${stars(q.rating)}<span>${esc(dfmt(q.date))}</span>${q.tag ? `<span class="tag gray">${esc(q.tag)}</span>` : ""}</div>“${esc(q.text)}”</div>`;
+}
+
+const SLIDES = [];
+
+/* 1 · What customers say (Pareto) */
+SLIDES.push({
+  id: "pareto", tab: "Pareto", n: "1",
+  html() {
+    let cum = 0;
+    const rows = ranked.map((k, i) => {
+      const c = byPrimary[k]; cum += c;
+      const isTop = TOP.includes(k);
+      return `<tr${isTop ? ' class="hl"' : ""}><td class="strong nowrap">${i + 1}. ${esc(label(k))}${isTop ? ' <span class="tag">Top 3</span>' : ""}</td>
+        <td style="width:38%"><div class="bar-track" ${tipAttr(label(k), [{ k: "Reviews", v: fInt(c) }, { k: "Share of complaints", v: fPct(c / nC, 1) }, { k: "Running total", v: fPct(cum / nC, 0) }])}><div class="bar-fill${isTop ? "" : " gray"}" style="width:${(c / byPrimary[ranked[0]] * 100).toFixed(1)}%"></div></div></td>
+        <td class="num">${fInt(c)}</td><td class="num">${fPct(c / nC, 1)}</td><td class="num muted">${fPct(cum / nC, 0)}</td><td class="num muted">${fInt(mentions[k] || 0)}</td><td class="num"${tipAttr(label(k), [{ k: "Complaints that already contacted support", v: fInt(contactedBy[k] || 0) }, { k: "Share of all who contacted", v: fPct((contactedBy[k] || 0) / Math.max(1, contacted.length)) }])}>${fInt(contactedBy[k] || 0)} <span class="muted">${fPct((contactedBy[k] || 0) / Math.max(1, contacted.length))}</span></td></tr>`;
+    }).join("");
+    return head("1 · What customers say", S.t1, `Every one of the ${fInt(M.n)} most recent App Store reviews tagged with one primary driver: the reason that customer would contact support. ${fInt(nC)} are complaints; ${fInt(M.n - nC)} are praise.`, `${esc(M.app)} · App Store India<br>${esc(dfmt(M.from))} – ${esc(dfmt(M.to))} ${esc(M.to.slice(0, 4))}`) +
+    `<div class="tiles">
+      ${tile("Reviews read and tagged", fInt(M.n), `${esc(dfmt(M.from))} to ${esc(dfmt(M.to))}, newest first`)}
+      ${tile("Complaints", fInt(nC), `${fPct(nC / M.n)} of reviews. ${fInt(oneStar)} are 1★`)}
+      ${tile("Top 3 drivers", fPct(top3n / nC), `of complaints: ${TOP.map(k => esc(DRV[k].short)).join(", ")}`)}
+      ${tile("Already contacted support", fPct(contacted.length / nC), `${fInt(contacted.length)} complaints. Support failed ${fInt(failed.length)} of them`)}
+      ${tile("Say they will leave", fPct(churn.length / nC), `${fInt(churn.length)} complaints: uninstall, never again, switching`)}
+    </div>
+    <div class="grid mt">
+      <div class="card c8"><div class="card-h"><div><p class="card-t">Pareto of complaint drivers</p><p class="card-s">One primary driver per review. Blue = the three that make up ${fPct(top3n / nC)} of complaints and ${fPct(top3c / Math.max(1, contacted.length))} of those who already contacted support. "Mentioned" counts every review that raises it at all.</p></div></div>
+        <div class="tbl-wrap"><table class="tbl"><thead><tr><th>Driver</th><th></th><th class="num">Reviews</th><th class="num">Share</th><th class="num">Running</th><th class="num">Mentioned</th><th class="num">Contacted support</th></tr></thead><tbody>${rows}
+        <tr class="total"><td>All complaints</td><td></td><td class="num">${fInt(nC)}</td><td class="num">100%</td><td></td><td></td><td class="num">${fInt(contacted.length)} <span class="muted">100%</span></td></tr></tbody></table></div>
+      </div>
+      <div class="stack c4">
+        <div class="card"><p class="card-t" style="margin-bottom:6px">Read this first</p>
+          <div class="callout warn"><b>Reviews are a complaint channel, not a satisfaction score.</b> The store average is ${esc(M.store_avg.toFixed(2))}★ across ${fInt(M.store_ratings)} ratings, yet ${fPct(oneStar / M.n)} of written reviews are 1★. Use this for the mix of problems, not their rate.</div>
+          <div class="callout">${S.paretoNote}</div>
+        </div>
+        <div class="card"><p class="card-t" style="margin-bottom:6px">Severity of complaints</p>
+          <table class="tbl"><tbody>
+            <tr><td>High: money lost, injury, safety</td><td class="num strong">${fInt(high.length)}</td><td class="num muted">${fPct(high.length / nC)}</td></tr>
+            <tr><td>Medium: failed or poor service</td><td class="num strong">${fInt(complaints.filter(r => r.severity === "medium").length)}</td><td class="num muted">${fPct(complaints.filter(r => r.severity === "medium").length / nC)}</td></tr>
+            <tr><td>Low: annoyance</td><td class="num strong">${fInt(complaints.filter(r => r.severity === "low").length)}</td><td class="num muted">${fPct(complaints.filter(r => r.severity === "low").length / nC)}</td></tr>
+          </tbody></table></div>
+      </div>
+    </div>` + foot("1 / 5");
+  },
+});
+
+/* 2 · Top three drivers with quotes */
+SLIDES.push({
+  id: "drivers", tab: "Top 3", n: "2",
+  html() {
+    const cards = TOP.map((k, i) => {
+      const rs = complaints.filter(r => r.primary === k);
+      const subs = {}; for (const r of rs) subs[r.subtag] = (subs[r.subtag] || 0) + 1;
+      const subList = Object.entries(subs).sort((a, b) => b[1] - a[1]).slice(0, 4);
+      const mx = subList.length ? subList[0][1] : 1;
+      const qs = (S.quotes[k] || []).slice(0, 3);
+      const c = rs.filter(r => r.contacted === "yes").length, h = rs.filter(r => r.severity === "high").length, ch = rs.filter(r => r.churn).length;
+      return `<div class="card dcard c4"><div class="rank">#${i + 1} driver</div><h3>${esc(DRV[k].label)}</h3>
+        <div style="display:flex;align-items:baseline;gap:10px"><span class="big">${fPct(rs.length / nC)}</span><span class="muted">${fInt(rs.length)} of ${fInt(nC)} complaints</span></div>
+        <div class="facts"><span class="tag ${c / rs.length > 0.3 ? "amber" : "gray"}">${fPct(c / rs.length)} contacted support</span><span class="tag ${h / rs.length > 0.3 ? "red" : "gray"}">${fPct(h / rs.length)} high severity</span><span class="tag gray">${fPct(ch / rs.length)} say they'll leave</span></div>
+        <p class="card-s" style="margin:6px 0 4px">What it looks like</p>
+        ${subList.map(([sk, v]) => `<div class="minirow"><div><div class="lab"><span>${esc(SUB[sk] || sk)}</span></div><div class="bar-track" style="height:8px"><div class="bar-fill soft" style="width:${(v / mx * 100).toFixed(0)}%"></div></div></div><span class="num muted" style="text-align:right">${v}</span></div>`).join("")}
+        <p class="card-s" style="margin:10px 0 6px">In their words</p>
+        ${qs.map(quoteHtml).join("")}
+      </div>`;
+    }).join("");
+    return head("2 · The top three drivers", S.t2, "Real quotes, lightly trimmed. Names and order IDs are removed.", "") +
+      `<div class="grid">${cards}</div>` + foot("2 / 5");
+  },
+});
+
+/* 3 · Root causes (five whys) */
+SLIDES.push({
+  id: "causes", tab: "Causes", n: "3",
+  html() {
+    const cols = S.whys.map(w => `<div class="card c4"><div class="rank" style="font-size:12px;font-weight:700;color:var(--accent)">${esc(DRV[w.driver].label)}</div>
+      <p class="card-t" style="margin:4px 0 10px">${esc(w.problem)}</p>
+      <div class="whys">${w.chain.map((c, i) => `<div class="why"><span class="wn">Why ${i + 1}</span><span>${esc(c.text)} ${c.ev === "E" ? `<span class="tag green ev">In reviews</span>` : `<span class="tag amber ev">To verify</span>`}</span></div>`).join("")}</div>
+      <div class="root"><b>Root cause</b>${esc(w.root)}</div>
+      <div class="proof"><b>What would prove me wrong:</b> ${esc(w.test)}</div>
+    </div>`).join("");
+    return head("3 · Root causes", S.t3, `Five whys on each top driver. <span class="tag green">In reviews</span> = customers say it directly. <span class="tag amber">To verify</span> = my hypothesis, to check against ticket and ops data in week 1.`, "") +
+      `<div class="grid">${cols}</div>` + foot("3 / 5");
+  },
+});
+
+/* 4 · Impact in contacts and rupees */
+const CALC = Object.assign({}, D.impact.defaults);
+SLIDES.push({
+  id: "impact", tab: "Impact", n: "4",
+  html() {
+    const ctl = (id, lab, min, max, step, fmt, hint) => `<div class="ctl"><label for="${id}"><span>${esc(lab)}</span><b id="${id}V"></b></label><input type="range" id="${id}" min="${min}" max="${max}" step="${step}" value="${CALC[id]}"><span class="hint">${hint}</span></div>`;
+    return head("4 · Impact in contacts and rupees", S.t4, "A transparent model. Every input is an assumption you can move. The driver mix comes from the reviews; the rest I would replace with real numbers in week 1.", "") +
+    `<div class="grid">
+      <div class="card c4"><p class="card-t" style="margin-bottom:10px">Assumptions</p><div class="calc">
+        ${ctl("bookings", "Bookings a month", 100000, 600000, 10000, "int", "Public figure: about 3.5 lakh a month")}
+        ${ctl("contactRate", "Contacts per 100 bookings", 4, 25, 1, "int", "Assumption. Typical for at-home services: 8–15")}
+        ${ctl("costPerContact", "Cost per contact (₹)", 15, 120, 5, "rs", "Assumption: blended chat and voice")}
+        ${ctl("reduction", "Cut in top-3 contacts from the fixes", 10, 60, 5, "pct", "Target for the three fixes on slide 5")}
+        ${ctl("lostShare", "Customers lost per top-3 contact", 0, 40, 1, "pct", `Reviews say ${fPct(D.impact.churnTop3)}; real rate is lower`)}
+        ${ctl("annualValue", "Yearly value of a customer (₹)", 1000, 12000, 100, "rs", "Assumption: about ₹1,350 a visit, 4–5 visits a year")}
+      </div></div>
+      <div class="c8 stack">
+        <div class="grid" style="grid-template-columns:repeat(3,minmax(0,1fr))">
+          <div class="card tile"><div class="lbl">Contacts a month</div><div class="out-big" id="oContacts"></div><div class="sub" id="oContactsS"></div></div>
+          <div class="card tile"><div class="lbl">From the top 3 drivers</div><div class="out-big" id="oTop"></div><div class="sub" id="oTopS"></div></div>
+          <div class="card tile"><div class="lbl">If the fixes land</div><div class="out-big" id="oSave"></div><div class="sub" id="oSaveS"></div></div>
+        </div>
+        <div class="card"><div class="card-h"><div><p class="card-t">Contacts and cost by driver, per month</p><p class="card-s">Driver share = share of complaint reviews. Reviews over-weight severe issues, so treat this as the direction, not the decimal.</p></div></div>
+          <div class="tbl-wrap"><table class="tbl" id="impactTbl"></table></div></div>
+        <div class="card"><div class="callout" id="oNote"></div></div>
+      </div>
+    </div>` + foot("4 / 5");
+  },
+  bind(root) {
+    const ids = ["bookings", "contactRate", "costPerContact", "reduction", "lostShare", "annualValue"];
+    const upd = () => {
+      for (const id of ids) CALC[id] = +root.querySelector("#" + id).value;
+      root.querySelector("#bookingsV").textContent = fInt(CALC.bookings);
+      root.querySelector("#contactRateV").textContent = CALC.contactRate;
+      root.querySelector("#costPerContactV").textContent = "₹" + CALC.costPerContact;
+      root.querySelector("#reductionV").textContent = CALC.reduction + "%";
+      root.querySelector("#lostShareV").textContent = CALC.lostShare + "%";
+      root.querySelector("#annualValueV").textContent = "₹" + fInt(CALC.annualValue);
+      const contacts = CALC.bookings * CALC.contactRate / 100;
+      const topShare = top3n / nC, topContacts = contacts * topShare;
+      const saved = topContacts * CALC.reduction / 100;
+      const cost = contacts * CALC.costPerContact;
+      const savedCost = saved * CALC.costPerContact;
+      const keptCustomers = saved * CALC.lostShare / 100;
+      const keptValue = keptCustomers * CALC.annualValue;
+      root.querySelector("#oContacts").textContent = fInt(contacts);
+      root.querySelector("#oContactsS").textContent = `${fRs(cost)} a month in support cost`;
+      root.querySelector("#oTop").textContent = fInt(topContacts);
+      root.querySelector("#oTopS").textContent = `${fPct(topShare)} of contacts · ${fRs(topContacts * CALC.costPerContact)} a month`;
+      root.querySelector("#oSave").textContent = fInt(saved);
+      root.querySelector("#oSaveS").textContent = `fewer contacts a month · ${fRs(savedCost * 12)} a year saved`;
+      let rows = `<thead><tr><th>Driver</th><th class="num">Share</th><th class="num">Contacts</th><th class="num">Cost</th><th class="num">After fixes</th></tr></thead><tbody>`;
+      for (const k of ranked) {
+        const sh = byPrimary[k] / nC, c = contacts * sh, after = TOP.includes(k) ? c * (1 - CALC.reduction / 100) : c;
+        rows += `<tr${TOP.includes(k) ? ' class="hl"' : ""}><td>${esc(label(k))}</td><td class="num">${fPct(sh, 1)}</td><td class="num">${fInt(c)}</td><td class="num">${fRs(c * CALC.costPerContact)}</td><td class="num">${fInt(after)}</td></tr>`;
+      }
+      rows += `<tr class="total"><td>Total</td><td class="num">100%</td><td class="num">${fInt(contacts)}</td><td class="num">${fRs(cost)}</td><td class="num">${fInt(contacts - saved)}</td></tr></tbody>`;
+      root.querySelector("#impactTbl").innerHTML = rows;
+      root.querySelector("#oNote").innerHTML = `<b>The bigger number is retention.</b> Cutting ${fInt(saved)} bad experiences a month and keeping ${CALC.lostShare}% of those customers is about ${fInt(keptCustomers)} customers kept a month, worth up to <b>${fRs(keptValue * 12)}</b> a year at ${fRs(CALC.annualValue)} each. Support savings: <b>${fRs(savedCost * 12)}</b> a year.`;
+    };
+    for (const id of ids) root.querySelector("#" + id).addEventListener("input", upd);
+    upd();
+  },
+});
+
+/* 5 · First three fixes */
+SLIDES.push({
+  id: "fixes", tab: "Fixes", n: "5",
+  html() {
+    const rows = S.fixes.map((f, i) => `<tr><td class="strong" style="width:22%">${i + 1}. ${esc(f.name)}<div class="muted" style="font-weight:400;font-size:12px">${esc(DRV[f.driver].label)} · ${esc(f.owner)}</div></td>
+      <td style="width:28%">${esc(f.what)}</td><td style="width:20%"><b>${esc(f.metric)}</b><div class="muted" style="font-size:12px">${esc(f.target)}</div></td><td>${esc(f.measure)}</td></tr>`).join("");
+    return head("5 · First three fixes, and how I'd measure them", S.t5, "One fix per top driver. Each has an owner, one metric, a target and a test that would show it worked.", "") +
+      `<div class="card"><div class="tbl-wrap"><table class="tbl"><thead><tr><th>Fix</th><th>What changes</th><th>Metric · target</th><th>How I'd measure it</th></tr></thead><tbody>${rows}</tbody></table></div></div>
+      <div class="grid mt">
+        <div class="card c6"><p class="card-t" style="margin-bottom:6px">First 30 days</p><ol style="margin:0;padding-left:18px;font-size:13px">${S.plan30.map(x => `<li style="margin:3px 0">${esc(x)}</li>`).join("")}</ol></div>
+        <div class="card c6"><p class="card-t" style="margin-bottom:6px">The one metric for the whole programme</p><div class="callout"><b>Contacts per 100 bookings</b>, split by driver, reviewed weekly. ${esc(S.northStarNote)}</div></div>
+      </div>` + foot("5 / 5");
+  },
+});
+
+/* R · One-page readout */
+SLIDES.push({
+  id: "readout", tab: "Readout", n: "R", sep: true,
+  html() {
+    const r = S.readout;
+    return head("One-page readout", S.tR, "", `${esc(M.app)} · ${fInt(M.n)} App Store reviews`) +
+      `<div class="readout">
+        <div class="card"><h3>Problem</h3>${r.problem.map(p => `<p style="margin:4px 0">${esc(p)}</p>`).join("")}</div>
+        <div class="card"><h3>Root cause</h3><ul>${r.root.map(p => `<li>${esc(p)}</li>`).join("")}</ul></div>
+        <div class="card"><h3>Impact</h3><ul>${r.impact.map(p => `<li>${esc(p)}</li>`).join("")}</ul></div>
+        <div class="card"><h3>Action</h3><ol>${r.action.map(p => `<li>${esc(p)}</li>`).join("")}</ol></div>
+      </div>
+      <div class="card mt"><p class="card-s" style="margin:0">${esc(r.caveat)}</p></div>` + foot("Readout");
+  },
+});
+
+/* A · Method and bias */
+SLIDES.push({
+  id: "method", tab: "Method", n: "A", sep: true,
+  html() {
+    const rel = D.reliability;
+    const code = Object.entries(DRV).filter(([k]) => k !== "praise").map(([k, v]) => `<tr><td class="strong nowrap">${esc(v.label)}</td><td class="ink2">${esc(v.desc)}</td></tr>`).join("");
+    return head("A · Method and bias", "How the 500 reviews were read, tagged and checked, and what they can't tell us.", "", "") +
+      `<div class="grid">
+        <div class="stack c4">
+          <div class="card"><p class="card-t" style="margin-bottom:6px">Source</p><dl class="kv">
+            <dt>Where</dt><dd>${esc(M.source_long)}</dd>
+            <dt>Which</dt><dd>The ${fInt(M.n)} most recent reviews (the feed's maximum), ${esc(dfmt(M.from))} – ${esc(dfmt(M.to))} ${esc(M.to.slice(0, 4))}</dd>
+            <dt>Why not Play Store</dt><dd>${esc(M.playNote)}</dd>
+            <dt>Privacy</dt><dd>Reviewer names dropped. Names of professionals and order IDs inside reviews replaced with [name] and [id].</dd>
+          </dl></div>
+          <div class="card"><p class="card-t" style="margin-bottom:6px">Tagging, double-checked</p>
+            <p style="margin:0;font-size:13px">One codebook, built on the eight drivers in the brief. All ${fInt(rel.n)} reviews were tagged twice with it, in two independent AI-assisted passes. The passes agreed on the primary driver for <b>${fPct(rel.po)}</b> (Cohen's kappa <b>${rel.kappa.toFixed(2)}</b>). A third read against the codebook settled the ${fInt(rel.adjudicated)} disagreements, and every quote was checked word for word against its review.</p></div>
+        </div>
+        <div class="card c4"><p class="card-t" style="margin-bottom:6px">Bias, said out loud</p>
+          ${S.biases.map(b => `<div class="callout warn"><b>${esc(b.what)}</b> ${esc(b.effect)}</div>`).join("")}
+        </div>
+        <div class="card c4"><p class="card-t" style="margin-bottom:6px">Codebook</p><div class="tbl-wrap"><table class="tbl"><tbody>${code}</tbody></table></div>
+          <p class="card-s" style="margin-top:8px">Rule: support is the driver only when support itself is the whole complaint. Otherwise the underlying problem is the driver and support is secondary.</p></div>
+      </div>` + foot("Appendix A");
+  },
+});
+
+/* B · Benchmark vs Urban Company */
+SLIDES.push({
+  id: "benchmark", tab: "vs UC", n: "B",
+  html() {
+    const U = D.uc;
+    const keys = ranked.filter(k => k !== "other");
+    const rows = keys.map(k => {
+      const a = sharePrimary(k), b = (U.byPrimary[k] || 0) / U.nC, d = a - b;
+      return `<tr${TOP.includes(k) ? ' class="hl"' : ""}><td class="strong">${esc(label(k))}</td><td class="num">${fPct(a, 1)}</td><td class="num">${fPct(b, 1)}</td><td class="num ${d > 0.02 ? "" : "muted"}">${d >= 0 ? "+" : MINUS}${Math.abs(d * 100).toFixed(1)} pts</td></tr>`;
+    }).join("");
+    return head("B · Benchmark: Urban Company", S.tB, `Same method, ${fInt(U.n)} most recent Urban Company App Store reviews (${esc(dfmt(U.from))} – ${esc(dfmt(U.to))}). Urban Company covers all home services, so salon issues are only part of its mix.`, "") +
+      `<div class="grid">
+        <div class="card c7"><div class="card-h"><div><p class="card-t">Share of complaints by driver</p></div></div><div class="chart" id="ch-bench"></div>
+          <div class="legend"><span><i class="key-rect" id="k1"></i>${esc(M.app)}</span><span><i class="key-rect" id="k2"></i>Urban Company</span></div></div>
+        <div class="stack c5">
+          <div class="card"><div class="tbl-wrap"><table class="tbl"><thead><tr><th>Driver</th><th class="num">${esc(M.app)}</th><th class="num">Urban Co.</th><th class="num">Gap</th></tr></thead><tbody>${rows}</tbody></table></div></div>
+          <div class="card">${S.benchNotes.map(t => `<div class="callout">${t}</div>`).join("")}</div>
+        </div>
+      </div>` + foot("Appendix B");
+  },
+  charts() {
+    const P = pal(), U = D.uc, keys = ranked.filter(k => k !== "other");
+    document.getElementById("k1").style.background = P.accent; document.getElementById("k2").style.background = P.s2;
+    groupedColumns(document.getElementById("ch-bench"), {
+      cats: keys, catLabel: k => DRV[k].short.replace(" & ", "\n& ").replace(" / ", "\n/ "), height: 300,
+      series: [{ name: M.app, values: keys.map(k => sharePrimary(k) * 100), color: P.accent }, { name: "Urban Company", values: keys.map(k => (U.byPrimary[k] || 0) / U.nC * 100), color: P.s2 }],
+      yFmt: v => v.toFixed(0) + "%", aria: "Share of complaints by driver, Yes Madam vs Urban Company",
+    });
+  },
+});
+
+/* C · Trends */
+SLIDES.push({
+  id: "trends", tab: "Trends", n: "C",
+  html() {
+    return head("C · Trends", S.tC, "Complaint reviews by month and driver, and app complaints by app version.", "") +
+      `<div class="grid">
+        <div class="card c7"><div class="card-h"><div><p class="card-t">Complaints by month</p><p class="card-s">Top 3 drivers in colour, the rest in gray. ${esc(S.monthNote)}</p></div></div><div class="chart" id="ch-month"></div><div class="legend" id="lg-month"></div></div>
+        <div class="card c5"><div class="card-h"><div><p class="card-t">App complaints by version</p><p class="card-s">Reviews tagged "App", by the version the reviewer was on.</p></div></div><div class="tbl-wrap"><table class="tbl" id="verTbl"></table></div>
+          <div class="callout mt">${S.versionNote}</div></div>
+      </div>` + foot("Appendix C");
+  },
+  charts() {
+    const P = pal();
+    const months = [...new Set(R.map(r => r.date.slice(0, 7)))].sort();
+    const mlab = m => new Date(m + "-01T00:00:00").toLocaleDateString("en-GB", { month: "short" }) + (m === months[0] ? " (part)" : m === months[months.length - 1] ? " (to " + M.to.slice(8, 10) + ")" : "");
+    const colors = [P.accent, P.s2, "#1baf7a"];
+    const series = TOP.map((k, i) => ({ name: DRV[k].short, color: colors[i], values: months.map(m => complaints.filter(r => r.primary === k && r.date.startsWith(m)).length) }));
+    series.push({ name: "Everything else", color: P.gray, values: months.map(m => complaints.filter(r => !TOP.includes(r.primary) && r.date.startsWith(m)).length) });
+    stackedColumns(document.getElementById("ch-month"), { cats: months.map(mlab), series, height: 250, aria: "Complaints by month" });
+    document.getElementById("lg-month").innerHTML = series.map(s => `<span><i class="key-rect" style="background:${s.color}"></i>${esc(s.name)}</span>`).join("");
+    const app = R.filter(r => r.primary === "app");
+    const vers = {}; for (const r of R) { vers[r.version] = vers[r.version] || { all: 0, app: 0 }; vers[r.version].all++; if (r.primary === "app") vers[r.version].app++; }
+    const vrows = Object.entries(vers).sort((a, b) => b[0].localeCompare(a[0], undefined, { numeric: true })).slice(0, 8)
+      .map(([v, o]) => `<tr><td class="strong">${esc(v)}</td><td class="num">${o.all}</td><td class="num">${o.app}</td><td class="num">${fPct(o.app / o.all)}</td></tr>`).join("");
+    document.getElementById("verTbl").innerHTML = `<thead><tr><th>Version</th><th class="num">Reviews</th><th class="num">App complaints</th><th class="num">Share</th></tr></thead><tbody>${vrows}</tbody>`;
+  },
+});
+
+/* D · All reviews explorer */
+const EX = { driver: "all", rating: "all", q: "", page: 0 };
+SLIDES.push({
+  id: "explorer", tab: "Reviews", n: "D", noprint: true,
+  html() {
+    const opts = [["all", "All drivers"]].concat(ranked.map(k => [k, label(k)])).concat([["praise", "Praise"]]);
+    return head("D · Every review, tagged", `All ${fInt(M.n)} reviews with their tags. Filter by driver or stars, or search the text.`, "Use this when asked \"show me\": every number in the pack traces back to these rows.", "") +
+      `<div class="card"><div class="filters">
+        <label for="fDriver">Driver</label><select id="fDriver">${opts.map(([k, l]) => `<option value="${k}"${EX.driver === k ? " selected" : ""}>${esc(l)}</option>`).join("")}</select>
+        <label for="fRating">Stars</label><select id="fRating"><option value="all">All</option>${[1, 2, 3, 4, 5].map(s => `<option value="${s}"${String(EX.rating) === String(s) ? " selected" : ""}>${s}★</option>`).join("")}</select>
+        <input type="search" id="fQ" placeholder="Search text, e.g. refund, wax, 1 pm" value="${esc(EX.q)}" aria-label="Search review text">
+        <span class="muted" id="fCount"></span>
+      </div><div class="tbl-wrap"><table class="tbl rv" id="rvTbl"></table></div><div class="pager"><button class="icon-btn" id="pPrev">Previous</button><span id="pInfo"></span><button class="icon-btn" id="pNext">Next</button></div></div>` + foot("Appendix D");
+  },
+  bind(root) {
+    const PAGE = 25;
+    const draw = () => {
+      const q = EX.q.trim().toLowerCase();
+      const rows = R.filter(r => (EX.driver === "all" || r.primary === EX.driver) && (EX.rating === "all" || r.rating === +EX.rating) && (!q || (r.title + " " + r.text).toLowerCase().includes(q)));
+      const pages = Math.max(1, Math.ceil(rows.length / PAGE)); EX.page = Math.min(EX.page, pages - 1);
+      const slice = rows.slice(EX.page * PAGE, EX.page * PAGE + PAGE);
+      root.querySelector("#fCount").textContent = `${rows.length} reviews`;
+      root.querySelector("#pInfo").textContent = `Page ${EX.page + 1} of ${pages}`;
+      root.querySelector("#rvTbl").innerHTML = `<thead><tr><th>#</th><th>Date</th><th>Stars</th><th>Driver</th><th>Review</th></tr></thead><tbody>` + slice.map(r => `<tr>
+        <td class="muted num">${r.n}</td><td class="nowrap">${esc(dfmt(r.date))}</td><td>${stars(r.rating)}</td>
+        <td><span class="tag${TOP.includes(r.primary) ? "" : r.primary === "praise" ? " green" : " gray"}">${esc(label(r.primary))}</span><div class="muted" style="font-size:11.5px;margin-top:2px">${esc(SUB[r.subtag] || r.subtag)}${r.contacted === "yes" ? " · contacted support" : ""}${r.churn ? " · will leave" : ""}</div></td>
+        <td class="txt"><span class="t">${esc(r.title)}</span> <span class="ink2">${esc(r.text)}</span></td></tr>`).join("") + `</tbody>`;
+    };
+    root.querySelector("#fDriver").addEventListener("change", e => { EX.driver = e.target.value; EX.page = 0; draw(); });
+    root.querySelector("#fRating").addEventListener("change", e => { EX.rating = e.target.value; EX.page = 0; draw(); });
+    root.querySelector("#fQ").addEventListener("input", e => { EX.q = e.target.value; EX.page = 0; draw(); });
+    root.querySelector("#pPrev").addEventListener("click", () => { EX.page = Math.max(0, EX.page - 1); draw(); });
+    root.querySelector("#pNext").addEventListener("click", () => { EX.page++; draw(); });
+    draw();
+  },
+});
+
+/* E · Built for this role */
+SLIDES.push({
+  id: "role", tab: "JD fit", n: "E",
+  html() {
+    const rows = S.jd.map(([a, b, c]) => `<tr><td class="strong" style="width:22%">${esc(a)}</td><td class="ink2" style="width:38%">${esc(b)}</td><td>${esc(c)}</td></tr>`).join("");
+    return head("E · Why I built this", "Each JD line, where it shows up in this teardown, and where I've done it before.", "", "Prepared by Chethan") +
+      `<div class="card"><div class="tbl-wrap"><table class="tbl"><thead><tr><th>The JD asks for</th><th>In this teardown</th><th>Where I've done it before</th></tr></thead><tbody>${rows}</tbody></table></div></div>` + foot("Appendix E");
+  },
+});
+
+/* ---------- shell ---------- */
+const deck = document.getElementById("deck"), tabs = document.getElementById("tabs");
+document.getElementById("subLabel").textContent = `${M.app} · ${fInt(M.n)} App Store reviews`;
+SLIDES.forEach((s, i) => {
+  const sec = document.createElement("section");
+  sec.className = "slide" + (s.noprint ? " noprint" : ""); sec.id = s.id; sec.setAttribute("role", "tabpanel"); sec.setAttribute("aria-label", s.tab);
+  deck.append(sec);
+  const b = document.createElement("button");
+  b.className = "tab" + (s.sep ? " sep" : ""); b.setAttribute("role", "tab"); b.dataset.i = i;
+  const n = document.createElement("span"); n.className = "n"; n.textContent = s.n;
+  b.append(n, document.createTextNode(s.tab)); b.addEventListener("click", () => go(i));
+  tabs.append(b);
+});
+let cur = 0;
+const rendered = new Set();
+function renderSlide(i, force) {
+  const s = SLIDES[i], sec = deck.children[i];
+  if (force || !rendered.has(i)) { sec.innerHTML = s.html(); bindTips(sec); if (s.bind) s.bind(sec); rendered.add(i); }
+  if (s.charts) s.charts();
+}
+function render(force) { renderSlide(cur, force); fit(); }
+function go(i) {
+  cur = (i + SLIDES.length) % SLIDES.length;
+  [...deck.children].forEach((el, j) => el.classList.toggle("active", j === cur));
+  [...tabs.children].forEach((el, j) => el.setAttribute("aria-selected", j === cur ? "true" : "false"));
+  tabs.children[cur].scrollIntoView({ block: "nearest", inline: "nearest" });
+  hideTip(); renderSlide(cur); fit();
+  try { history.replaceState(null, "", "#" + SLIDES[cur].id); } catch (e) { /* file:// may refuse */ }
+}
+function fit() {
+  const sec = deck.children[cur]; sec.style.zoom = "";
+  if (!document.body.classList.contains("present")) return;
+  const avail = innerHeight - 56 - 24, h = sec.scrollHeight;
+  if (h > avail) sec.style.zoom = Math.max(0.72, avail / h).toFixed(3);
+}
+document.getElementById("prevBtn").addEventListener("click", () => go(cur - 1));
+document.getElementById("nextBtn").addEventListener("click", () => go(cur + 1));
+function togglePresent() {
+  const on = !document.body.classList.contains("present");
+  document.body.classList.toggle("present", on);
+  try {
+    if (on && document.documentElement.requestFullscreen) document.documentElement.requestFullscreen().catch(() => {});
+    else if (!on && document.fullscreenElement) document.exitFullscreen();
+  } catch (e) { /* full screen not allowed here */ }
+  setTimeout(() => render(), 120);
+}
+document.getElementById("presentBtn").addEventListener("click", togglePresent);
+document.addEventListener("fullscreenchange", () => { if (!document.fullscreenElement) { document.body.classList.remove("present"); render(); } });
+document.getElementById("themeBtn").addEventListener("click", () => {
+  const t = isDark() ? "light" : "dark";
+  document.documentElement.dataset.theme = t;
+  try { localStorage.setItem("cdt-theme", t); } catch (e) { /* storage blocked */ }
+});
+function themeLabel() { document.getElementById("themeBtn").textContent = isDark() ? "Light" : "Dark"; }
+try { const t = localStorage.getItem("cdt-theme"); if (t === "dark" || t === "light") document.documentElement.dataset.theme = t; } catch (e) { /* storage blocked */ }
+themeLabel();
+const KEYS = Object.fromEntries(SLIDES.map((s, i) => [s.n.toLowerCase(), i]));
+document.addEventListener("keydown", e => {
+  if (e.target.closest && e.target.closest("select, input")) return;
+  if (e.key === "ArrowRight" || e.key === "PageDown" || (e.key === " " && document.body.classList.contains("present"))) { e.preventDefault(); go(cur + 1); }
+  else if (e.key === "ArrowLeft" || e.key === "PageUp") { e.preventDefault(); go(cur - 1); }
+  else if (e.key === "f" || e.key === "F") togglePresent();
+  else if (KEYS[e.key.toLowerCase()] !== undefined) go(KEYS[e.key.toLowerCase()]);
+});
+let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => render(), 150); });
+function renderAll() {
+  document.body.classList.add("printing");
+  SLIDES.forEach((s, i) => { const sec = deck.children[i]; sec.style.zoom = ""; sec.innerHTML = s.html(); bindTips(sec); if (s.bind) s.bind(sec); });
+  SLIDES.forEach(s => s.charts && s.charts());
+  rendered.clear();
+}
+addEventListener("beforeprint", renderAll);
+addEventListener("afterprint", () => { document.body.classList.remove("printing"); rendered.clear(); go(cur); });
+const start = SLIDES.findIndex(s => "#" + s.id === location.hash);
+if (/[?&]print\b/.test(location.search)) renderAll(); else go(start >= 0 ? start : 0);
+function onThemeChange() { themeLabel(); rendered.clear(); if (document.body.classList.contains("printing")) renderAll(); else render(true); }
+if (darkQuery && darkQuery.addEventListener) darkQuery.addEventListener("change", onThemeChange);
+new MutationObserver(onThemeChange).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+})();
+</script>
+</body>
+</html>
