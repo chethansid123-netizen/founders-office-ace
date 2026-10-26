@@ -103,19 +103,19 @@ WHYS = {
     ),
 }
 FIXES = {
-    "partner_cancellation": dict(name="Confirm or reassign 2 hours before", owner="City Ops, Supply and Product",
+    "partner_cancellation": dict(name="Confirm or reassign 2 hours before", short="Professional confirms 2 hours before the slot. No confirmation means auto-reassign, and the customer hears before the slot, not at it.", pilot="2 pilot cities vs 2 control cities, 4 weeks", owner="City Ops, Supply and Product",
         what="Professional confirms 2 hours before the slot. No confirmation means auto-reassign from the nearby pool, and the customer gets a message with a choice before the slot, not after. Sell slots only against confirmed capacity. Log a professional's 'please cancel' as a partner cancellation.",
         metric="Failed bookings per 100, partner side", target="Down 40% in 8 weeks; 90% of failures with 2+ hours' notice",
         measure="Pilot in 2 cities against 2 similar cities for 4 weeks. Track failed bookings, notice given, reassign success, and contacts per 100 bookings for 'where is my professional'."),
-    "price_clarity": dict(name="Price shown is price paid; honest offers", owner="Growth, Product and Finance",
+    "price_clarity": dict(name="Price shown is price paid; honest offers", short="Compulsory fees inside the listed price. Flash offers show how many slots exist and stop being pushed once sold out.", pilot="All-in prices for 10% of users, 2 weeks", owner="Growth, Product and Finance",
         what="Show compulsory fees inside the listed price. Label flash offers with the number of slots ('200 free pedicures today') and give a waitlist or coupon when they run out. Load-test the 1 pm checkout.",
         metric="Offer and price complaints per 1,000 bookings", target="Down 50%, with checkout conversion flat or better",
         measure="A/B test all-in prices on 10% of users for 2 weeks: conversion, cart-to-payment drop-off, and contacts tagged offer or charges. Track app crashes in the 1 pm window."),
-    "service_quality": dict(name="Certify risky services; close the loop on complaints", owner="Training & QA and CX",
+    "service_quality": dict(name="Certify risky services; close the loop on complaints", short="Certify professionals per service, waxing first. Every injury gets a call within 24 hours, and the professional is paused for review.", pilot="Before vs after by hub, 12 weeks", owner="Training & QA and CX",
         what="Certify each professional per service, waxing first, before she is assigned it. Every injury complaint gets a call within 24 hours, care for the customer, and the professional is paused and retrained. Weekly list of professionals with 2+ complaints.",
         metric="Injury and quality complaints per 1,000 jobs", target="Down 30% in 12 weeks; no repeat complaint within 30 days of retraining",
         measure="Before and after by hub cohort. Check how concentrated complaints are: if the worst 10% of professionals carry most of them, target them first."),
-    "payment_refund": dict(name="Refund with a date the customer can see", owner="Finance, Product and CX",
+    "payment_refund": dict(name="Refund with a date the customer can see", short="Refund to source by default, with the refund date shown in the app.", pilot="Before vs after, by refund type", owner="Finance, Product and CX",
         what="Refund to source by default, show the refund date in the app, and alert support when a refund is late.",
         metric="Refund contacts per 1,000 refunds", target="Down 50%", measure="Before and after, by refund type."),
 }

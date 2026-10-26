@@ -25,7 +25,7 @@ assumptions.
 
 | File | What it is |
 |---|---|
-| `Contact-Driver-Teardown.html` | The dashboard. It opens in any browser and works offline. Five slides (Pareto · Top 3 with quotes · Root causes · Impact · Fixes), a one-page readout, and appendices for the method and bias, the Urban Company benchmark, trends, every review (searchable) and the JD fit. `F` gives full screen, the arrow keys move between slides, `1`–`5`, `R` and `A`–`E` jump. |
+| `Contact-Driver-Teardown.html` | The dashboard. It opens in any browser and works offline. Five slides (Pareto · Top 3 with quotes · Root causes · Impact · Fixes) and three appendix tabs: Urban Company benchmark, trends, and every review (searchable). `F` gives full screen, the arrow keys move between slides, `1`–`5` and `A`–`C` jump. |
 | `Contact-Driver-Teardown.xlsx` | Working workbook. The Pareto, drivers, benchmark and reliability tabs are live formulas over the Reviews tab. Yellow cells on Impact Model are the assumptions. |
 | `Contact-Driver-Teardown-Slides.pdf` | All slides as a PDF backup. |
 | `Contact-Driver-Teardown-Readout.pdf` | The one-page readout: problem, root cause, impact, action. |

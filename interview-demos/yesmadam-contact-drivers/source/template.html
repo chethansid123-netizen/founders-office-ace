@@ -100,6 +100,12 @@ h2.title { font-size: 23px; line-height: 1.25; margin: 4px 0; font-weight: 650; 
 .card-s { font-size: 12px; color: var(--muted); margin: 2px 0 0; }
 
 .tiles { display: grid; gap: 12px; grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.tiles.t4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.fx h3 { font-size: 17px; margin: 4px 0 6px; }
+.fx-what { font-size: 13.5px; margin: 0 0 10px; color: var(--ink-2); }
+.fx-row { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 8px; font-size: 13px; padding: 6px 0; border-top: 1px solid var(--border); }
+.fx-l { font-size: 11.5px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; padding-top: 1px; }
+.why .ref { color: var(--muted); font-size: 11.5px; }
 .tile { padding: 12px 14px; }
 .tile .lbl { font-size: 12.5px; color: var(--ink-2); }
 .tile .val { font-size: 26px; font-weight: 650; line-height: 1.15; margin-top: 4px; letter-spacing: -0.01em; }
@@ -195,19 +201,12 @@ input[type=search] { min-width: 220px; }
 .tip .tr .k { color: var(--muted); }
 .tip .tr .v { font-weight: 700; font-variant-numeric: tabular-nums; }
 
-/* readout */
-.readout { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
-.readout .card h3 { margin: 0 0 6px; font-size: 13px; letter-spacing: .04em; text-transform: uppercase; color: var(--accent); }
-.readout .card p, .readout .card li { font-size: 14px; }
-.readout ul, .readout ol { margin: 4px 0; padding-left: 20px; }
-.readout li { margin: 3px 0; }
 
 body.present .brand-text span, body.present .real-pill { display: none; }
 
 @media (max-width: 1100px) {
   .c3, .c4, .c5, .c6, .c7, .c8, .c9 { grid-column: span 12; }
-  .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .readout { grid-template-columns: 1fr; }
+  .tiles, .tiles.t4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .brand-text span { display: none; }
 }
 @media (max-width: 700px) {
@@ -215,6 +214,7 @@ body.present .brand-text span, body.present .real-pill { display: none; }
   .tabs { order: 3; width: 100%; margin-left: 0; }
   .deck { padding-block: 14px 24px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
   .slide-head { flex-direction: column; align-items: flex-start; gap: 6px; }
+  .slide-head .titles { flex: none; width: 100%; }
   .slide-meta { text-align: left; white-space: normal; }
   .tiles { grid-template-columns: 1fr 1fr; }
   h2.title { font-size: 20px; }
@@ -396,6 +396,7 @@ function quoteHtml(q) {
 const SLIDES = [];
 
 /* 1 · What customers say (Pareto) */
+const leadC = Object.keys(contactedBy).sort((a, b) => contactedBy[b] - contactedBy[a])[0];
 SLIDES.push({
   id: "pareto", tab: "Pareto", n: "1",
   html() {
@@ -403,34 +404,25 @@ SLIDES.push({
     const rows = ranked.map((k, i) => {
       const c = byPrimary[k]; cum += c;
       const isTop = TOP.includes(k);
-      return `<tr${isTop ? ' class="hl"' : ""}><td class="strong nowrap">${i + 1}. ${esc(label(k))}${isTop ? ' <span class="tag">Top 3</span>' : ""}</td>
-        <td style="width:38%"><div class="bar-track" ${tipAttr(label(k), [{ k: "Reviews", v: fInt(c) }, { k: "Share of complaints", v: fPct(c / nC, 1) }, { k: "Running total", v: fPct(cum / nC, 0) }])}><div class="bar-fill${isTop ? "" : " gray"}" style="width:${(c / byPrimary[ranked[0]] * 100).toFixed(1)}%"></div></div></td>
-        <td class="num">${fInt(c)}</td><td class="num">${fPct(c / nC, 1)}</td><td class="num muted">${fPct(cum / nC, 0)}</td><td class="num muted">${fInt(mentions[k] || 0)}</td><td class="num"${tipAttr(label(k), [{ k: "Complaints that already contacted support", v: fInt(contactedBy[k] || 0) }, { k: "Share of all who contacted", v: fPct((contactedBy[k] || 0) / Math.max(1, contacted.length)) }])}>${fInt(contactedBy[k] || 0)} <span class="muted">${fPct((contactedBy[k] || 0) / Math.max(1, contacted.length))}</span></td></tr>`;
+      return `<tr${isTop ? ' class="hl"' : ""}><td class="strong nowrap">${i + 1}. ${esc(label(k))}</td>
+        <td style="width:38%"><div class="bar-track" ${tipAttr(label(k), [{ k: "Reviews", v: fInt(c) }, { k: "Share of complaints", v: fPct(c / nC, 1) }, { k: "Running total", v: fPct(cum / nC) }])}><div class="bar-fill${isTop ? "" : " gray"}" style="width:${(c / byPrimary[ranked[0]] * 100).toFixed(1)}%"></div></div></td>
+        <td class="num">${fInt(c)}</td><td class="num">${fPct(c / nC)}</td><td class="num muted">${fPct(cum / nC)}</td><td class="num">${fInt(contactedBy[k] || 0)}</td></tr>`;
     }).join("");
-    return head("1 · What customers say", S.t1, `Every one of the ${fInt(M.n)} most recent App Store reviews tagged with one primary driver: the reason that customer would contact support. ${fInt(nC)} are complaints; ${fInt(M.n - nC)} are praise.`, `${esc(M.app)} · App Store India<br>${esc(dfmt(M.from))} – ${esc(dfmt(M.to))} ${esc(M.to.slice(0, 4))}`) +
-    `<div class="tiles">
-      ${tile("Reviews read and tagged", fInt(M.n), `${esc(dfmt(M.from))} to ${esc(dfmt(M.to))}, newest first`)}
-      ${tile("Complaints", fInt(nC), `${fPct(nC / M.n)} of reviews. ${fInt(oneStar)} are 1★`)}
+    return head("1 · What customers say", `Three problems are ${fPct(top3n / nC)} of complaints.`, `The ${fInt(M.n)} most recent App Store reviews, each tagged with the one reason that customer would contact support.`, `${esc(M.app)} · App Store India<br>${esc(dfmt(M.from))} – ${esc(dfmt(M.to))} ${esc(M.to.slice(0, 4))}`) +
+    `<div class="tiles t4">
+      ${tile("Complaints", fInt(nC), `of ${fInt(M.n)} reviews`)}
       ${tile("Top 3 drivers", fPct(top3n / nC), `of complaints: ${TOP.map(k => esc(DRV[k].short)).join(", ")}`)}
-      ${tile("Already contacted support", fPct(contacted.length / nC), `${fInt(contacted.length)} complaints. Support failed ${fInt(failed.length)} of them`)}
-      ${tile("Say they will leave", fPct(churn.length / nC), `${fInt(churn.length)} complaints: uninstall, never again, switching`)}
+      ${tile("Already contacted support", fInt(contacted.length), `${fPct(top3c / contacted.length)} of them about the top 3`)}
+      ${tile("Support didn't fix it", fPct(failed.length / contacted.length), `${fInt(failed.length)} of the ${fInt(contacted.length)} who contacted`)}
     </div>
     <div class="grid mt">
-      <div class="card c8"><div class="card-h"><div><p class="card-t">Pareto of complaint drivers</p><p class="card-s">One primary driver per review. Blue = the three that make up ${fPct(top3n / nC)} of complaints and ${fPct(top3c / Math.max(1, contacted.length))} of those who already contacted support. "Mentioned" counts every review that raises it at all.</p></div></div>
-        <div class="tbl-wrap"><table class="tbl"><thead><tr><th>Driver</th><th></th><th class="num">Reviews</th><th class="num">Share</th><th class="num">Running</th><th class="num">Mentioned</th><th class="num">Contacted support</th></tr></thead><tbody>${rows}
-        <tr class="total"><td>All complaints</td><td></td><td class="num">${fInt(nC)}</td><td class="num">100%</td><td></td><td></td><td class="num">${fInt(contacted.length)} <span class="muted">100%</span></td></tr></tbody></table></div>
+      <div class="card c8"><p class="card-t" style="margin-bottom:6px">Complaints by driver</p>
+        <div class="tbl-wrap"><table class="tbl"><thead><tr><th>Driver</th><th></th><th class="num">Reviews</th><th class="num">Share</th><th class="num">Running</th><th class="num">Contacted support</th></tr></thead><tbody>${rows}
+        <tr class="total"><td>All complaints</td><td></td><td class="num">${fInt(nC)}</td><td class="num">100%</td><td></td><td class="num">${fInt(contacted.length)}</td></tr></tbody></table></div>
       </div>
       <div class="stack c4">
-        <div class="card"><p class="card-t" style="margin-bottom:6px">Read this first</p>
-          <div class="callout warn"><b>Reviews are a complaint channel, not a satisfaction score.</b> The store average is ${esc(M.store_avg.toFixed(2))}★ across ${fInt(M.store_ratings)} ratings, yet ${fPct(oneStar / M.n)} of written reviews are 1★. Use this for the mix of problems, not their rate.</div>
-          <div class="callout">${S.paretoNote}</div>
-        </div>
-        <div class="card"><p class="card-t" style="margin-bottom:6px">Severity of complaints</p>
-          <table class="tbl"><tbody>
-            <tr><td>High: money lost, injury, safety</td><td class="num strong">${fInt(high.length)}</td><td class="num muted">${fPct(high.length / nC)}</td></tr>
-            <tr><td>Medium: failed or poor service</td><td class="num strong">${fInt(complaints.filter(r => r.severity === "medium").length)}</td><td class="num muted">${fPct(complaints.filter(r => r.severity === "medium").length / nC)}</td></tr>
-            <tr><td>Low: annoyance</td><td class="num strong">${fInt(complaints.filter(r => r.severity === "low").length)}</td><td class="num muted">${fPct(complaints.filter(r => r.severity === "low").length / nC)}</td></tr>
-          </tbody></table></div>
+        <div class="card"><div class="callout warn"><b>Reviews skew negative.</b> ${fPct(oneStar / M.n)} are 1★ against a ${esc(M.store_avg.toFixed(2))}★ store average, and they aren't tickets. Read this as the mix of problems, not the rate.</div></div>
+        <div class="card"><div class="callout"><b>${fInt(top3c)} of the ${fInt(contacted.length)}</b> customers who already contacted support are about these three. ${esc(DRV[leadC].short)} alone: ${fInt(contactedBy[leadC])}.</div></div>
       </div>
     </div>` + foot("1 / 5");
   },
@@ -443,20 +435,19 @@ SLIDES.push({
     const cards = TOP.map((k, i) => {
       const rs = complaints.filter(r => r.primary === k);
       const subs = {}; for (const r of rs) subs[r.subtag] = (subs[r.subtag] || 0) + 1;
-      const subList = Object.entries(subs).sort((a, b) => b[1] - a[1]).slice(0, 4);
+      const subList = Object.entries(subs).sort((a, b) => b[1] - a[1]).slice(0, 3);
       const mx = subList.length ? subList[0][1] : 1;
-      const qs = (S.quotes[k] || []).slice(0, 3);
+      const qs = (S.quotes[k] || []).slice(0, 2);
       const c = rs.filter(r => r.contacted === "yes").length, h = rs.filter(r => r.severity === "high").length, ch = rs.filter(r => r.churn).length;
-      return `<div class="card dcard c4"><div class="rank">#${i + 1} driver</div><h3>${esc(DRV[k].label)}</h3>
-        <div style="display:flex;align-items:baseline;gap:10px"><span class="big">${fPct(rs.length / nC)}</span><span class="muted">${fInt(rs.length)} of ${fInt(nC)} complaints</span></div>
-        <div class="facts"><span class="tag ${c / rs.length > 0.3 ? "amber" : "gray"}">${fPct(c / rs.length)} contacted support</span><span class="tag ${h / rs.length > 0.3 ? "red" : "gray"}">${fPct(h / rs.length)} high severity</span><span class="tag gray">${fPct(ch / rs.length)} say they'll leave</span></div>
-        <p class="card-s" style="margin:6px 0 4px">What it looks like</p>
+      return `<div class="card dcard c4"><div class="rank">#${i + 1}</div><h3>${esc(DRV[k].label)}</h3>
+        <div style="display:flex;align-items:baseline;gap:10px"><span class="big">${fPct(rs.length / nC)}</span><span class="muted">${fInt(rs.length)} complaints</span></div>
+        <div class="facts"><span class="tag ${c / rs.length > 0.3 ? "amber" : "gray"}">${fPct(c / rs.length)} called support</span><span class="tag ${h / rs.length > 0.3 ? "red" : "gray"}">${fPct(h / rs.length)} high severity</span><span class="tag gray">${fPct(ch / rs.length)} will leave</span></div>
         ${subList.map(([sk, v]) => `<div class="minirow"><div><div class="lab"><span>${esc(SUB[sk] || sk)}</span></div><div class="bar-track" style="height:8px"><div class="bar-fill soft" style="width:${(v / mx * 100).toFixed(0)}%"></div></div></div><span class="num muted" style="text-align:right">${v}</span></div>`).join("")}
-        <p class="card-s" style="margin:10px 0 6px">In their words</p>
-        ${qs.map(quoteHtml).join("")}
+        <div style="margin-top:10px">${qs.map(quoteHtml).join("")}</div>
       </div>`;
     }).join("");
-    return head("2 · The top three drivers", S.t2, "Real quotes, lightly trimmed. Names and order IDs are removed.", "") +
+    const r0 = complaints.filter(r => r.primary === TOP[0]);
+    return head("2 · The top three, in their words", `${DRV[TOP[0]].label} lead. ${fPct(r0.filter(r => r.contacted === "yes").length / r0.length)} of those customers had already called support.`, "Real quotes. Names removed.", "") +
       `<div class="grid">${cards}</div>` + foot("2 / 5");
   },
 });
@@ -465,13 +456,12 @@ SLIDES.push({
 SLIDES.push({
   id: "causes", tab: "Causes", n: "3",
   html() {
+    const step = t => { const m = t.match(/^(.*?)\s*(\((?:#\d+(?:, )?)+\))\.?$/); return m ? `${esc(m[1])} <span class="ref">${esc(m[2])}</span>` : esc(t); };
     const cols = S.whys.map(w => `<div class="card c4"><div class="rank" style="font-size:12px;font-weight:700;color:var(--accent)">${esc(DRV[w.driver].label)}</div>
-      <p class="card-t" style="margin:4px 0 10px">${esc(w.problem)}</p>
-      <div class="whys">${w.chain.map((c, i) => `<div class="why"><span class="wn">Why ${i + 1}</span><span>${esc(c.text)} ${c.ev === "E" ? `<span class="tag green ev">In reviews</span>` : `<span class="tag amber ev">To verify</span>`}</span></div>`).join("")}</div>
+      <div class="whys" style="margin-top:8px">${w.chain.map((c, i) => `<div class="why"><span class="wn">Why ${i + 1}</span><span>${step(c.text)} ${c.ev === "E" ? `<span class="tag green ev">In reviews</span>` : `<span class="tag amber ev">To verify</span>`}</span></div>`).join("")}</div>
       <div class="root"><b>Likely root cause</b>${esc(w.root)}</div>
-      <div class="proof"><b>What would prove me wrong:</b> ${esc(w.test)}</div>
     </div>`).join("");
-    return head("3 · Root causes", S.t3, `Five whys on each top driver. <span class="tag green">In reviews</span> = customers say it directly. <span class="tag amber">To verify</span> = my hypothesis, to check against ticket and ops data in week 1.`, "") +
+    return head("3 · Root causes", "Each one traces back to something the operation controls.", `Five whys per driver. <span class="tag green">In reviews</span> customers say it. <span class="tag amber">To verify</span> my hypothesis, checked in week 1.`, "") +
       `<div class="grid">${cols}</div>` + foot("3 / 5");
   },
 });
@@ -482,24 +472,23 @@ SLIDES.push({
   id: "impact", tab: "Impact", n: "4",
   html() {
     const ctl = (id, lab, min, max, step, fmt, hint) => `<div class="ctl"><label for="${id}"><span>${esc(lab)}</span><b id="${id}V"></b></label><input type="range" id="${id}" min="${min}" max="${max}" step="${step}" value="${CALC[id]}"><span class="hint">${hint}</span></div>`;
-    return head("4 · Impact in contacts and rupees", S.t4, "A transparent model. Every input is an assumption you can move. The driver mix comes from the reviews; the rest I would replace with real numbers in week 1.", "") +
+    return head("4 · Impact", "What the top three cost, and what fixing them is worth.", `Move any input. Only the ${fPct(top3n / nC)} comes from the reviews; bookings are a public figure; the rest are my assumptions.`, "") +
     `<div class="grid">
       <div class="card c4"><p class="card-t" style="margin-bottom:10px">Assumptions</p><div class="calc">
-        ${ctl("bookings", "Bookings a month", 100000, 600000, 10000, "int", "Public figure: about 3.5 lakh a month")}
-        ${ctl("contactRate", "Contacts per 100 bookings", 4, 25, 1, "int", "Assumption. Typical for at-home services: 8–15")}
-        ${ctl("costPerContact", "Cost per contact (₹)", 15, 120, 5, "rs", "Assumption: blended chat and voice")}
-        ${ctl("reduction", "Cut in top-3 contacts from the fixes", 10, 60, 5, "pct", "Target for the three fixes on slide 5")}
-        ${ctl("lostShare", "Customers lost per top-3 contact", 0, 40, 1, "pct", `Reviews say ${fPct(D.impact.churnTop3)}; real rate is lower`)}
-        ${ctl("annualValue", "Yearly value of a customer (₹)", 1000, 12000, 100, "rs", "Assumption: about ₹1,350 a visit, 4 visits a year")}
+        ${ctl("bookings", "Bookings a month", 100000, 600000, 10000, "int", "Public figure: about 3 to 3.5 lakh")}
+        ${ctl("contactRate", "Contacts per 100 bookings", 4, 25, 1, "int", "Assumption: replace with the real rate")}
+        ${ctl("costPerContact", "Cost per contact (₹)", 15, 120, 5, "rs", "Assumption: blended chat and call")}
+        ${ctl("reduction", "Cut from the fixes", 10, 60, 5, "pct", "Target, not a result")}
+        ${ctl("lostShare", "Customers lost per bad experience", 0, 40, 1, "pct", `Reviews say ${fPct(D.impact.churnTop3)}; real rate is lower`)}
+        ${ctl("annualValue", "Yearly value of a customer (₹)", 1000, 12000, 100, "rs", "Assumption: ₹1,350 a visit, 4 visits a year")}
       </div></div>
       <div class="c8 stack">
         <div class="grid" style="grid-template-columns:repeat(3,minmax(0,1fr))">
           <div class="card tile"><div class="lbl">Contacts a month</div><div class="out-big" id="oContacts"></div><div class="sub" id="oContactsS"></div></div>
-          <div class="card tile"><div class="lbl">From the top 3 drivers</div><div class="out-big" id="oTop"></div><div class="sub" id="oTopS"></div></div>
-          <div class="card tile"><div class="lbl">If the fixes land</div><div class="out-big" id="oSave"></div><div class="sub" id="oSaveS"></div></div>
+          <div class="card tile"><div class="lbl">From the top 3</div><div class="out-big" id="oTop"></div><div class="sub" id="oTopS"></div></div>
+          <div class="card tile"><div class="lbl">Removed by the fixes</div><div class="out-big" id="oSave"></div><div class="sub" id="oSaveS"></div></div>
         </div>
-        <div class="card"><div class="card-h"><div><p class="card-t">Contacts and cost by driver, per month</p><p class="card-s">Driver share = share of complaint reviews. Reviews over-weight severe issues, so treat this as the direction, not the decimal.</p></div></div>
-          <div class="tbl-wrap"><table class="tbl" id="impactTbl"></table></div></div>
+        <div class="card"><div class="tbl-wrap"><table class="tbl" id="impactTbl"></table></div></div>
         <div class="card"><div class="callout" id="oNote"></div></div>
       </div>
     </div>` + foot("4 / 5");
@@ -519,22 +508,23 @@ SLIDES.push({
       const saved = topContacts * CALC.reduction / 100;
       const cost = contacts * CALC.costPerContact;
       const savedCost = saved * CALC.costPerContact;
-      const keptCustomers = saved * CALC.lostShare / 100;
-      const keptValue = keptCustomers * CALC.annualValue;
+      const keptValue = saved * CALC.lostShare / 100 * CALC.annualValue;
       root.querySelector("#oContacts").textContent = fInt(contacts);
       root.querySelector("#oContactsS").textContent = `${fRs(cost)} a month in support cost`;
       root.querySelector("#oTop").textContent = fInt(topContacts);
-      root.querySelector("#oTopS").textContent = `${fPct(topShare)} of contacts if tickets mirror reviews · ${fRs(topContacts * CALC.costPerContact)} a month`;
+      root.querySelector("#oTopS").textContent = `${fPct(topShare)} of contacts, if tickets mirror reviews`;
       root.querySelector("#oSave").textContent = fInt(saved);
-      root.querySelector("#oSaveS").textContent = `fewer contacts a month · ${fRs(savedCost * 12)} a year saved`;
-      let rows = `<thead><tr><th>Driver</th><th class="num">Share</th><th class="num">Contacts</th><th class="num">Cost</th><th class="num">After fixes</th></tr></thead><tbody>`;
-      for (const k of ranked) {
-        const sh = byPrimary[k] / nC, c = contacts * sh, after = TOP.includes(k) ? c * (1 - CALC.reduction / 100) : c;
-        rows += `<tr${TOP.includes(k) ? ' class="hl"' : ""}><td>${esc(label(k))}</td><td class="num">${fPct(sh, 1)}</td><td class="num">${fInt(c)}</td><td class="num">${fRs(c * CALC.costPerContact)}</td><td class="num">${fInt(after)}</td></tr>`;
+      root.querySelector("#oSaveS").textContent = `a month · ${fRs(savedCost * 12)} a year saved`;
+      let rows = `<thead><tr><th>Driver</th><th class="num">Share</th><th class="num">Contacts / month</th><th class="num">Cost / month</th><th class="num">After fixes</th></tr></thead><tbody>`;
+      for (const k of TOP) {
+        const sh = byPrimary[k] / nC, c = contacts * sh;
+        rows += `<tr class="hl"><td>${esc(label(k))}</td><td class="num">${fPct(sh)}</td><td class="num">${fInt(c)}</td><td class="num">${fRs(c * CALC.costPerContact)}</td><td class="num">${fInt(c * (1 - CALC.reduction / 100))}</td></tr>`;
       }
+      const rest = contacts * (1 - topShare);
+      rows += `<tr><td>All other drivers</td><td class="num">${fPct(1 - topShare)}</td><td class="num">${fInt(rest)}</td><td class="num">${fRs(rest * CALC.costPerContact)}</td><td class="num">${fInt(rest)}</td></tr>`;
       rows += `<tr class="total"><td>Total</td><td class="num">100%</td><td class="num">${fInt(contacts)}</td><td class="num">${fRs(cost)}</td><td class="num">${fInt(contacts - saved)}</td></tr></tbody>`;
       root.querySelector("#impactTbl").innerHTML = rows;
-      root.querySelector("#oNote").innerHTML = `<b>The bigger number is retention.</b> Cutting ${fInt(saved)} bad experiences a month and keeping ${CALC.lostShare}% of those customers is about ${fInt(keptCustomers)} customers kept a month, worth up to <b>${fRs(keptValue * 12)}</b> a year at ${fRs(CALC.annualValue)} each. Support savings: <b>${fRs(savedCost * 12)}</b> a year.`;
+      root.querySelector("#oNote").innerHTML = `<b>The bigger prize is retention.</b> If ${CALC.lostShare}% of the customers behind ${fInt(saved)} fixed experiences a month would otherwise leave, keeping them is worth up to <b>${fRs(keptValue * 12)}</b> a year.`;
     };
     for (const id of ids) root.querySelector("#" + id).addEventListener("input", upd);
     upd();
@@ -545,63 +535,20 @@ SLIDES.push({
 SLIDES.push({
   id: "fixes", tab: "Fixes", n: "5",
   html() {
-    const rows = S.fixes.map((f, i) => `<tr><td class="strong" style="width:22%">${i + 1}. ${esc(f.name)}<div class="muted" style="font-weight:400;font-size:12px">${esc(DRV[f.driver].label)} · ${esc(f.owner)}</div></td>
-      <td style="width:28%">${esc(f.what)}</td><td style="width:20%"><b>${esc(f.metric)}</b><div class="muted" style="font-size:12px">${esc(f.target)}</div></td><td>${esc(f.measure)}</td></tr>`).join("");
-    return head("5 · First three fixes, and how I'd measure them", S.t5, "One fix per top driver. Each has an owner, one metric, a target and a test that would show it worked.", "") +
-      `<div class="card"><div class="tbl-wrap"><table class="tbl"><thead><tr><th>Fix</th><th>What changes</th><th>Metric · target</th><th>How I'd measure it</th></tr></thead><tbody>${rows}</tbody></table></div></div>
-      <div class="grid mt">
-        <div class="card c6"><p class="card-t" style="margin-bottom:6px">First 30 days</p><ol style="margin:0;padding-left:18px;font-size:13px">${S.plan30.map(x => `<li style="margin:3px 0">${esc(x)}</li>`).join("")}</ol></div>
-        <div class="card c6"><p class="card-t" style="margin-bottom:6px">The one metric for the whole programme</p><div class="callout"><b>Contacts per 100 bookings</b>, split by driver, reviewed weekly. ${esc(S.northStarNote)}</div></div>
-      </div>` + foot("5 / 5");
+    const row = (l, v) => `<div class="fx-row"><span class="fx-l">${l}</span><span>${esc(v)}</span></div>`;
+    const cards = S.fixes.map((f, i) => `<div class="card c4 fx"><div class="rank" style="font-size:12px;font-weight:700;color:var(--accent)">Fix ${i + 1} · ${esc(DRV[f.driver].label)}</div><h3>${esc(f.name)}</h3>
+      <p class="fx-what">${esc(f.short || f.what)}</p>
+      ${row("Owner", f.owner)}${row("Metric", f.metric)}${row("Target", f.target)}${row("Test", f.pilot || f.measure)}
+    </div>`).join("");
+    return head("5 · First three fixes", "Three fixes, three owners, one number to track.", "", "") +
+      `<div class="grid">${cards}</div>
+      <div class="card mt"><div class="callout"><b>One number for the programme: contacts per 100 bookings</b>, by driver, every week. Watch first-contact resolution next to it, so contacts aren't cut by making support harder to reach.</div></div>` + foot("5 / 5");
   },
 });
 
-/* R · One-page readout */
+/* A · Benchmark vs Urban Company */
 SLIDES.push({
-  id: "readout", tab: "Readout", n: "R", sep: true,
-  html() {
-    const r = S.readout;
-    return head("One-page readout", S.tR, "", `${esc(M.app)} · ${fInt(M.n)} App Store reviews`) +
-      `<div class="readout">
-        <div class="card"><h3>Problem</h3>${r.problem.map(p => `<p style="margin:4px 0">${esc(p)}</p>`).join("")}</div>
-        <div class="card"><h3>Likely root cause</h3><ul>${r.root.map(p => `<li>${esc(p)}</li>`).join("")}</ul><p class="muted" style="margin:6px 0 0;font-size:12.5px">From the five whys. Parts marked "to verify" on slide 3 need ticket and ops data in week 1.</p></div>
-        <div class="card"><h3>Impact</h3><ul>${r.impact.map(p => `<li>${esc(p)}</li>`).join("")}</ul></div>
-        <div class="card"><h3>Action</h3><ol>${r.action.map(p => `<li>${esc(p)}</li>`).join("")}</ol></div>
-      </div>
-      <div class="card mt"><p class="card-s" style="margin:0">${esc(r.caveat)}</p></div>` + foot("Readout");
-  },
-});
-
-/* A · Method and bias */
-SLIDES.push({
-  id: "method", tab: "Method", n: "A", sep: true,
-  html() {
-    const rel = D.reliability;
-    const code = Object.entries(DRV).filter(([k]) => k !== "praise").map(([k, v]) => `<tr><td class="strong nowrap">${esc(v.label)}</td><td class="ink2">${esc(v.desc)}</td></tr>`).join("");
-    return head("A · Method and bias", "How the 500 reviews were read, tagged and checked, and what they can't tell us.", "", "") +
-      `<div class="grid">
-        <div class="stack c4">
-          <div class="card"><p class="card-t" style="margin-bottom:6px">Source</p><dl class="kv">
-            <dt>Where</dt><dd>${esc(M.source_long)}</dd>
-            <dt>Which</dt><dd>The ${fInt(M.n)} most recent reviews (the feed's maximum), ${esc(dfmt(M.from))} – ${esc(dfmt(M.to))} ${esc(M.to.slice(0, 4))}</dd>
-            <dt>Why not Play Store</dt><dd>${esc(M.playNote)}</dd>
-            <dt>Privacy</dt><dd>Reviewer names dropped. Names of professionals and order IDs inside reviews replaced with [name] and [id].</dd>
-          </dl></div>
-          <div class="card"><p class="card-t" style="margin-bottom:6px">Tagging, double-checked</p>
-            <p style="margin:0;font-size:13px">One codebook, built on the eight drivers in the brief. All ${fInt(rel.n)} reviews were tagged twice with it, in two independent AI-assisted passes. The passes agreed on the primary driver for <b>${fPct(rel.po)}</b> (Cohen's kappa <b>${rel.kappa.toFixed(2)}</b>). A third read against the codebook settled the ${fInt(rel.adjudicated)} disagreements, and every quote was checked word for word against its review.</p></div>
-        </div>
-        <div class="card c4"><p class="card-t" style="margin-bottom:6px">Bias, said out loud</p>
-          ${S.biases.map(b => `<div class="callout warn"><b>${esc(b.what)}</b> ${esc(b.effect)}</div>`).join("")}
-        </div>
-        <div class="card c4"><p class="card-t" style="margin-bottom:6px">Codebook</p><div class="tbl-wrap"><table class="tbl"><tbody>${code}</tbody></table></div>
-          <p class="card-s" style="margin-top:8px">Rule: support is the driver only when support itself is the whole complaint. Otherwise the underlying problem is the driver and support is secondary.</p></div>
-      </div>` + foot("Appendix A");
-  },
-});
-
-/* B · Benchmark vs Urban Company */
-SLIDES.push({
-  id: "benchmark", tab: "vs UC", n: "B",
+  id: "benchmark", tab: "vs UC", n: "A", sep: true,
   html() {
     const U = D.uc;
     const keys = ranked.filter(k => k !== "other");
@@ -609,7 +556,7 @@ SLIDES.push({
       const a = sharePrimary(k), b = (U.byPrimary[k] || 0) / U.nC, d = a - b;
       return `<tr${TOP.includes(k) ? ' class="hl"' : ""}><td class="strong">${esc(label(k))}</td><td class="num">${fPct(a, 1)}</td><td class="num">${fPct(b, 1)}</td><td class="num ${d > 0.02 ? "" : "muted"}">${d >= 0 ? "+" : MINUS}${Math.abs(d * 100).toFixed(1)} pts</td></tr>`;
     }).join("");
-    return head("B · Benchmark: Urban Company", S.tB, `Same method, ${fInt(U.n)} most recent Urban Company App Store reviews (${esc(dfmt(U.from))} – ${esc(dfmt(U.to))}). Urban Company covers all home services, so salon issues are only part of its mix.`, "") +
+    return head("A · Benchmark: Urban Company", S.tB, `Same method, ${fInt(U.n)} most recent Urban Company App Store reviews (${esc(dfmt(U.from))} – ${esc(dfmt(U.to))}). Urban Company covers all home services, so salon issues are only part of its mix.`, "") +
       `<div class="grid">
         <div class="card c7"><div class="card-h"><div><p class="card-t">Share of complaints by driver</p></div></div><div class="chart" id="ch-bench"></div>
           <div class="legend"><span><i class="key-rect" id="k1"></i>${esc(M.app)}</span><span><i class="key-rect" id="k2"></i>Urban Company</span></div></div>
@@ -617,7 +564,7 @@ SLIDES.push({
           <div class="card"><div class="tbl-wrap"><table class="tbl"><thead><tr><th>Driver</th><th class="num">${esc(M.app)}</th><th class="num">Urban Co.</th><th class="num">Gap</th></tr></thead><tbody>${rows}</tbody></table></div></div>
           <div class="card">${S.benchNotes.map(t => `<div class="callout">${t}</div>`).join("")}</div>
         </div>
-      </div>` + foot("Appendix B");
+      </div>` + foot("Appendix A");
   },
   charts() {
     const P = pal(), U = D.uc, keys = ranked.filter(k => k !== "other");
@@ -630,16 +577,16 @@ SLIDES.push({
   },
 });
 
-/* C · Trends */
+/* B · Trends */
 SLIDES.push({
-  id: "trends", tab: "Trends", n: "C",
+  id: "trends", tab: "Trends", n: "B",
   html() {
-    return head("C · Trends", S.tC, "Complaint reviews by month and driver, and app complaints by app version.", "") +
+    return head("B · Trends", S.tC, "Complaint reviews by month and driver, and app complaints by app version.", "") +
       `<div class="grid">
         <div class="card c7"><div class="card-h"><div><p class="card-t">Complaints by month</p><p class="card-s">Top 3 drivers in colour, the rest in gray. ${esc(S.monthNote)}</p></div></div><div class="chart" id="ch-month"></div><div class="legend" id="lg-month"></div></div>
         <div class="card c5"><div class="card-h"><div><p class="card-t">App complaints by version</p><p class="card-s">Reviews tagged "App", by the version the reviewer was on.</p></div></div><div class="tbl-wrap"><table class="tbl" id="verTbl"></table></div>
           <div class="callout mt">${S.versionNote}</div></div>
-      </div>` + foot("Appendix C");
+      </div>` + foot("Appendix B");
   },
   charts() {
     const P = pal();
@@ -658,19 +605,19 @@ SLIDES.push({
   },
 });
 
-/* D · All reviews explorer */
+/* C · All reviews explorer */
 const EX = { driver: "all", rating: "all", q: "", page: 0 };
 SLIDES.push({
-  id: "explorer", tab: "Reviews", n: "D", noprint: true,
+  id: "explorer", tab: "Reviews", n: "C", noprint: true,
   html() {
     const opts = [["all", "All drivers"]].concat(ranked.map(k => [k, label(k)])).concat([["praise", "Praise"]]);
-    return head("D · Every review, tagged", `All ${fInt(M.n)} reviews with their tags. Filter by driver or stars, or search the text.`, "Use this when asked \"show me\": every number in the pack traces back to these rows.", "") +
+    return head("C · Every review, tagged", `All ${fInt(M.n)} reviews with their tags. Filter by driver or stars, or search the text.`, "Use this when asked \"show me\": every number in the pack traces back to these rows.", "") +
       `<div class="card"><div class="filters">
         <label for="fDriver">Driver</label><select id="fDriver">${opts.map(([k, l]) => `<option value="${k}"${EX.driver === k ? " selected" : ""}>${esc(l)}</option>`).join("")}</select>
         <label for="fRating">Stars</label><select id="fRating"><option value="all">All</option>${[1, 2, 3, 4, 5].map(s => `<option value="${s}"${String(EX.rating) === String(s) ? " selected" : ""}>${s}★</option>`).join("")}</select>
         <input type="search" id="fQ" placeholder="Search text, e.g. refund, wax, 1 pm" value="${esc(EX.q)}" aria-label="Search review text">
         <span class="muted" id="fCount"></span>
-      </div><div class="tbl-wrap"><table class="tbl rv" id="rvTbl"></table></div><div class="pager"><button class="icon-btn" id="pPrev">Previous</button><span id="pInfo"></span><button class="icon-btn" id="pNext">Next</button></div></div>` + foot("Appendix D");
+      </div><div class="tbl-wrap"><table class="tbl rv" id="rvTbl"></table></div><div class="pager"><button class="icon-btn" id="pPrev">Previous</button><span id="pInfo"></span><button class="icon-btn" id="pNext">Next</button></div></div>` + foot("Appendix C");
   },
   bind(root) {
     const PAGE = 25;
@@ -695,22 +642,12 @@ SLIDES.push({
   },
 });
 
-/* E · Built for this role */
-SLIDES.push({
-  id: "role", tab: "JD fit", n: "E",
-  html() {
-    const rows = S.jd.map(([a, b, c]) => `<tr><td class="strong" style="width:22%">${esc(a)}</td><td class="ink2" style="width:38%">${esc(b)}</td><td>${esc(c)}</td></tr>`).join("");
-    return head("E · Why I built this", "Each JD line, where it shows up in this teardown, and where I've done it before.", "", "Prepared by Chethan") +
-      `<div class="card"><div class="tbl-wrap"><table class="tbl"><thead><tr><th>The JD asks for</th><th>In this teardown</th><th>Where I've done it before</th></tr></thead><tbody>${rows}</tbody></table></div></div>` + foot("Appendix E");
-  },
-});
-
 /* ---------- shell ---------- */
 const deck = document.getElementById("deck"), tabs = document.getElementById("tabs");
 document.getElementById("subLabel").textContent = `${M.app} · ${fInt(M.n)} App Store reviews`;
 SLIDES.forEach((s, i) => {
   const sec = document.createElement("section");
-  sec.className = "slide" + (s.noprint ? " noprint" : ""); sec.id = s.id; sec.setAttribute("role", "tabpanel"); sec.setAttribute("aria-label", s.tab);
+  sec.className = "slide" + (s.noprint ? " noprint" : ""); sec.id = "s-" + s.id;  // not the hash itself, so the browser never jumps to it sec.setAttribute("role", "tabpanel"); sec.setAttribute("aria-label", s.tab);
   deck.append(sec);
   const b = document.createElement("button");
   b.className = "tab" + (s.sep ? " sep" : ""); b.setAttribute("role", "tab"); b.dataset.i = i;
@@ -730,7 +667,7 @@ function go(i) {
   cur = (i + SLIDES.length) % SLIDES.length;
   [...deck.children].forEach((el, j) => el.classList.toggle("active", j === cur));
   [...tabs.children].forEach((el, j) => el.setAttribute("aria-selected", j === cur ? "true" : "false"));
-  tabs.children[cur].scrollIntoView({ block: "nearest", inline: "nearest" });
+  { const tb = tabs.children[cur], tr = tabs.getBoundingClientRect(), br = tb.getBoundingClientRect(); tabs.scrollLeft += (br.left - tr.left) - (tr.width - br.width) / 2; }  // sideways only: never scroll the page
   hideTip(); renderSlide(cur); fit();
   try { history.replaceState(null, "", "#" + SLIDES[cur].id); } catch (e) { /* file:// may refuse */ }
 }
