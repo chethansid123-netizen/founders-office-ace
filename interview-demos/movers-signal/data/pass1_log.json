@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-11-02T15:00:59+00:00",
+  "built_at": "2026-11-02T15:05:20+00:00",
   "auto_pages": [
     {
       "record": "esds-20261102-chief-product-officer",
@@ -16,6 +16,14 @@
       "resolved_page": 4,
       "all_pages": [
         4
+      ]
+    },
+    {
+      "record": "akums-20261102-president-operations-designated-smp",
+      "field": "company",
+      "resolved_page": 2,
+      "all_pages": [
+        2
       ]
     }
   ]

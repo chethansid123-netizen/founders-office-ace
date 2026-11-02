@@ -25,12 +25,6 @@
       "lead": "RBI approval: Executive Director (whole-time director)"
     },
     {
-      "key": "c9c263cbb952",
-      "company": "Punjab & Sind Bank",
-      "practice": "Financial Services",
-      "lead": "General Manager superannuation (corrected filing)"
-    },
-    {
       "key": "a7a1e2fdd7ae",
       "company": "RBL Bank Limited",
       "practice": "Financial Services",
@@ -235,12 +229,6 @@
       "lead": "CTO and Chief Procurement Officer resign"
     },
     {
-      "key": "f760aa5eb5fa",
-      "company": "UPL Limited",
-      "practice": "Industrial & Infrastructure",
-      "lead": "President - APAC, Africa and Europe designated SMP"
-    },
-    {
       "key": "4e0d1437b07f",
       "company": "G R Infraprojects Limited",
       "practice": "Industrial & Infrastructure",
@@ -305,6 +293,18 @@
       "company": "S H Kelkar and Company Limited",
       "practice": "Industrial & Infrastructure",
       "lead": "EVP - Ingredients Division resignation"
+    },
+    {
+      "key": "577c407df5ec",
+      "company": "India Nippon Electricals Limited",
+      "practice": "Industrial & Infrastructure",
+      "lead": "CFO re-designated; successor CFO appointed"
+    },
+    {
+      "key": "bc7a1b6d5db0",
+      "company": "Vikram Solar Limited",
+      "practice": "Industrial & Infrastructure",
+      "lead": "EVP - Sales & BD resignation; new Chief Business Officer"
     }
   ],
   "extract_for_review_test": [
@@ -332,6 +332,16 @@
       "key": "585f193ce271",
       "company": "Akums Drugs and Pharmaceuticals Limited",
       "lead": "President-Operations designated SMP: possibly no seat change"
+    },
+    {
+      "key": "c9c263cbb952",
+      "company": "Punjab & Sind Bank",
+      "lead": "Corrected filing, but company name not in text and annexure names a different person"
+    },
+    {
+      "key": "f760aa5eb5fa",
+      "company": "UPL Limited",
+      "lead": "Appointment of an existing President as SMP: possibly no seat change"
     }
   ],
   "screened_out": [
@@ -503,16 +513,6 @@
     {
       "key": "4dd8a89cc1fe",
       "company": "Patel Integrated Logistics Limited",
-      "reason": "Not selected: sample capped at 50 filings (see selection rule)"
-    },
-    {
-      "key": "577c407df5ec",
-      "company": "India Nippon Electricals Limited",
-      "reason": "Not selected: sample capped at 50 filings (see selection rule)"
-    },
-    {
-      "key": "bc7a1b6d5db0",
-      "company": "Vikram Solar Limited",
       "reason": "Not selected: sample capped at 50 filings (see selection rule)"
     },
     {

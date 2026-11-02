@@ -1,0 +1,62 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachHis/80931a42-8937-4bdd-8da0-007028b786b6.pdf
+SHA256: e0b83357c57277d1ecc13bb9b1c8b1ed08241932010f8e18e9eee4e49ff14e60
+FETCHED_AT: 2026-11-02T14:09:04+00:00
+PAGES: 3
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 0 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+September 29, 2026
+VSL/CS/388/2026 dated 29.09.2026
+BSE Limited. National Stock Exchange of India Ltd.
+Department of Corporate Services Listing Department
+P. J. Towers, Dalal Street, Mumbai – 400 001. Exchange Plaza, Bandra-Kurla Complex, Bandra (E), Mumbai – 400
+051
+(Scrip Code: Equity - 544488) (Symbol: VIKRAMSOLR, Series EQ)
+Dear Sir/ Madam,
+Sub: Intimation about Resignation of Senior Management Personnel (SMP)
+Reference: Regulation 30 read with Part A of Schedule III to the SEBI (Listing Obligations and Disclosure
+Requirements) Regulations, 2015
+Pursuant to the provisions of Regulation 30 read with Schedule III, Part A, Para A (sub-paras 7 & 7C) of the SEBI (Listing
+Obligations and Disclosure Requirements) Regulations, 2015 (“Listing Regulations”), we hereby inform you that Mr. Rony
+Banerjee, Executive Vice President – Sales & BD, designated as a Senior Management Personnel (SMP) has tendered his
+resignation which has been accepted by the management of the Company effective from the close of business hours on 28th
+September 2026.
+The details as required under Para A of Part A of Schedule III of the Listing Regulations read with SEBI Master Circular No.
+HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026, as amended from time to time, are enclosed
+herewith as Annexure A, along with a copy of the resignation letter. The aforesaid information is also available on the
+website of the Company www.vikramsolar.com
+Further, Mr. Nimish Jain has been appointed by the Company as Chief Business Officer. Mr. Jain has over 17 years of
+leadership experience spanning solar manufacturing, international sales, operations and P&L management and has been
+associated with Vikram Solar’s growth journey across key markets. In his new role, Mr. Nimish Jain will lead the company’s
+commercial agenda, bringing together its sales and business development efforts as Vikram Solar continues to scale its
+business and strengthen its presence across markets.
+We request you to kindly take the aforesaid information on record.
+Thanking You,
+For and on behalf of
+VIKRAM SOLAR LIMITED
+SUDIPTA BHOWAL
+Company Secretary &
+Compliance Officer
+Encl: as above
+
+=== PAGE 2 ===
+ANNEXURE A
+Details required under Regulation 30 of SEBI (LODR) Regulations, 2015
+Sr. Particulars Details
+No.
+1. Reason for change viz. appointment, re-appointment, Resignation
+resignation, removal, death or otherwise
+2. Date of appointment /Cessation (as applicable) & Term of Cessation is effective from the close of
+appointment business hours on 28th September 2026.
+Post internal discussions held with
+Mr. Rony Banerjee; the Company has
+accepted his resignation and has relieved
+him from his duties with effect from the
+above date.
+3. Brief Profile (in case of appointment) Not Applicable
+4. Disclosure of Relationship between Directors (in case of Not Applicable
+appointment of Director).
+
+=== PAGE 3 ===
+
