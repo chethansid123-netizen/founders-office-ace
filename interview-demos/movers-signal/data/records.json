@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T15:12:14+00:00",
+  "generated_at": "2026-11-02T15:38:18+00:00",
   "as_of": "2026-11-02",
   "human_signoff": false,
   "records": [
@@ -2463,6 +2463,7 @@
       "reviewed_by": "Claude (AI second reader)",
       "reviewed_at": "2026-11-02",
       "review_overrides": [],
+      "source_url_stable": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/733c3520-6adb-4a6d-889a-a4fcdfecc73d.pdf",
       "verification": {
         "run": "verification_v2",
         "fields": {
@@ -4245,6 +4246,7 @@
       "reviewed_by": "Claude (AI second reader)",
       "reviewed_at": "2026-11-02",
       "review_overrides": [],
+      "source_url_stable": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/e53e4d58-8bdf-4cd6-b16b-d4794d8e04cb.pdf",
       "verification": {
         "run": "verification_v2",
         "fields": {

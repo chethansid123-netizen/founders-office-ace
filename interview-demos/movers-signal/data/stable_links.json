@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-11-02T15:38:18+00:00",
+  "links": {
+    "https://www.bseindia.com/xml-data/corpfiling/AttachLive/733c3520-6adb-4a6d-889a-a4fcdfecc73d.pdf": {
+      "stable_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/733c3520-6adb-4a6d-889a-a4fcdfecc73d.pdf",
+      "sha256": "bdbb3ad911e5882d0e67fe38e48c627dcd4762640b602240274ede0b77f8c176",
+      "same_sha256": true,
+      "checked_at": "2026-11-02T15:38:15+00:00"
+    },
+    "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e53e4d58-8bdf-4cd6-b16b-d4794d8e04cb.pdf": {
+      "stable_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/e53e4d58-8bdf-4cd6-b16b-d4794d8e04cb.pdf",
+      "sha256": "d0df989607704905d056ab6e199183871fe9a8645b9b6685e4743779cc3e152b",
+      "same_sha256": true,
+      "checked_at": "2026-11-02T15:38:18+00:00"
+    }
+  },
+  "pending": [
+    "https://www.bseindia.com/xml-data/corpfiling/AttachLive/59f59944-8a8c-4ffe-8493-bf364de30e4f.pdf"
+  ]
+}

@@ -9,6 +9,9 @@ left by the latest verification run (verification_v2.json) is covered by a
 written override in the decision. Otherwise it stays UNREVIEWED.
 The site reads data/records.json and shows only VERIFIED records.
 
+Also adds `source_url_stable` where data/stable_links.json holds a
+byte-identical permanent copy of a BSE document (see stable_links.py).
+
 Usage:  python3 -I pipeline/apply_review.py [--require-human]
 """
 
@@ -31,6 +34,10 @@ def main() -> int:
     human = load_json(DATA / "review_decisions_human.json", None)
     ai_by = {d["id"]: d for d in ai["decisions"]}
     hu_by = {d["id"]: d for d in (human or {}).get("decisions", [])}
+
+    # Permanent BSE addresses for documents first fetched from the temporary
+    # AttachLive path; accepted only when byte-identical (pipeline/stable_links.py).
+    stable = load_json(DATA / "stable_links.json", {"links": {}})["links"]
 
     out, blocked = [], []
     for rec in records:
@@ -59,6 +66,9 @@ def main() -> int:
         rec["reviewed_by"] = who if d else None
         rec["reviewed_at"] = when if d else None
         rec["review_overrides"] = (d or {}).get("overrides", [])
+        link = stable.get(rec["source_url"])
+        if link and link.get("same_sha256") and link.get("sha256") == rec.get("source_sha256"):
+            rec["source_url_stable"] = link["stable_url"]
         rec["verification"] = {
             "run": "verification_v2",
             "fields": {k: f["status"] for k, f in v["fields"].items()},

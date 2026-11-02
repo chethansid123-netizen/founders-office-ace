@@ -1,0 +1,1068 @@
+{
+  "checked_at": "2026-11-02T15:41:08+00:00",
+  "user_agent": "MoversSignal-research-prototype/0.1 (independent interview prototype; public filings only)",
+  "links": 53,
+  "checked": 53,
+  "ok": 53,
+  "failed": 0,
+  "not_checked": 0,
+  "stopped": null,
+  "pages_cited": 98,
+  "results": [
+    {
+      "url": "https://nsearchives.nseindia.com/content/debt/WDM/pnbmetlife2018_16092026163455_CFO_resignation_-_NSE_Intimation-signed.pdf",
+      "used_by": [
+        "seat pnb-metlife-20260916-cfo"
+      ],
+      "cited_pages": [
+        1
+      ],
+      "http_status": 200,
+      "final_host": "nsearchives.nseindia.com",
+      "is_pdf": true,
+      "bytes": 236868,
+      "sha256": "1f8606a909a058435d527a9587b2a1e5fcbb59a9e16f438f75637e83c2a35306",
+      "sha256_recorded": "1f8606a909a058435d527a9587b2a1e5fcbb59a9e16f438f75637e83c2a35306",
+      "sha256_match": true,
+      "pdf_pages": 2,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://nsearchives.nseindia.com/corporate/ADSL_07092026190321_Resignation_Raghuvir_kamat.pdf",
+      "used_by": [
+        "seat allied-digital-20260907-avp-projects"
+      ],
+      "cited_pages": [
+        1
+      ],
+      "http_status": 200,
+      "final_host": "nsearchives.nseindia.com",
+      "is_pdf": true,
+      "bytes": 467405,
+      "sha256": "b5254295707b58979cf5f279a8c3aae07ef781007d1a077c632e9e73450b7722",
+      "sha256_recorded": "b5254295707b58979cf5f279a8c3aae07ef781007d1a077c632e9e73450b7722",
+      "sha256_match": true,
+      "pdf_pages": 4,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://nsearchives.nseindia.com/corporate/AMIORG_02112026180857_IntimationSWSigned.pdf",
+      "used_by": [
+        "seat acutaas-20261102-avp-operations"
+      ],
+      "cited_pages": [
+        1
+      ],
+      "http_status": 200,
+      "final_host": "nsearchives.nseindia.com",
+      "is_pdf": true,
+      "bytes": 1263758,
+      "sha256": "875c930bfe204bac659a4f3fdae7b968569ad3927c91f561df2f59fb539ceff1",
+      "sha256_recorded": "875c930bfe204bac659a4f3fdae7b968569ad3927c91f561df2f59fb539ceff1",
+      "sha256_match": true,
+      "pdf_pages": 3,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_04082026184705_Airtel_STX_-_Change_in_CIA.pdf",
+      "used_by": [
+        "seat bharti-airtel-20260804-chief-internal-auditor"
+      ],
+      "cited_pages": [
+        1,
+        2
+      ],
+      "http_status": 200,
+      "final_host": "nsearchives.nseindia.com",
+      "is_pdf": true,
+      "bytes": 2865152,
+      "sha256": "b0dfb9d1b8e65ac98f2e2f2d6024f9aa2dc70f195cdace77348a87806ff93561",
+      "sha256_recorded": "b0dfb9d1b8e65ac98f2e2f2d6024f9aa2dc70f195cdace77348a87806ff93561",
+      "sha256_match": true,
+      "pdf_pages": 2,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://nsearchives.nseindia.com/corporate/CUB_02112026183459_CUB_RBI_Approval_Shri_Sankaran_ED.pdf",
+      "used_by": [
+        "seat city-union-bank-20261102-executive-director"
+      ],
+      "cited_pages": [
+        1
+      ],
+      "http_status": 200,
+      "final_host": "nsearchives.nseindia.com",
+      "is_pdf": true,
+      "bytes": 94597,
+      "sha256": "270bae263e68bfce7537a8b18739177b9e0b223c3f7548963307ce84b155c3c2",
+      "sha256_recorded": "270bae263e68bfce7537a8b18739177b9e0b223c3f7548963307ce84b155c3c2",
+      "sha256_match": true,
+      "pdf_pages": 1,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://nsearchives.nseindia.com/corporate/ESDS_02112026163013_ESDS_BM_Outcome_BSE_NSE_Intimation.pdf",
+      "used_by": [
+        "seat esds-20261102-chief-product-officer"
+      ],
+      "cited_pages": [
+        1,
+        2,
+        17
+      ],
+      "http_status": 200,
+      "final_host": "nsearchives.nseindia.com",
+      "is_pdf": true,
+      "bytes": 3499258,
+      "sha256": "49b5e2fe08454ddffda9bbfee53ff62f4b1d4e78e8b04ec5292fa1f6f6aa2fbb",
+      "sha256_recorded": "49b5e2fe08454ddffda9bbfee53ff62f4b1d4e78e8b04ec5292fa1f6f6aa2fbb",
+      "sha256_match": true,
+      "pdf_pages": 18,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://nsearchives.nseindia.com/corporate/GRINFRA_02112026154316_Intimation_02112026.pdf",
+      "used_by": [
+        "seat gr-infraprojects-20261102-joint-president-ptd"
+      ],
+      "cited_pages": [
+        1,
+        2
+      ],
+      "http_status": 200,
+      "final_host": "nsearchives.nseindia.com",
+      "is_pdf": true,
+      "bytes": 714523,
+      "sha256": "4d38971d61b78eb6686c4902d0924d5e7ba559c8d78c40b149a6f7ffcf05b156",
+      "sha256_recorded": "4d38971d61b78eb6686c4902d0924d5e7ba559c8d78c40b149a6f7ffcf05b156",
+      "sha256_match": true,
+      "pdf_pages": 2,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_07102026160736_SEIntimationPostalBallotNoticeOct2026.pdf",
+      "used_by": [
+        "seat hdfc-bank-20261007-md-ceo"
+      ],
+      "cited_pages": [
+        1,
+        2,
+        11,
+        12
+      ],
+      "http_status": 200,
+      "final_host": "nsearchives.nseindia.com",
+      "is_pdf": true,
+      "bytes": 610437,
+      "sha256": "f9b0e61f258d73e064079e41f41036040d23fa6a094c35b4dc1bb2a6af10d0c0",
+      "sha256_recorded": "f9b0e61f258d73e064079e41f41036040d23fa6a094c35b4dc1bb2a6af10d0c0",
+      "sha256_match": true,
+      "pdf_pages": 13,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://nsearchives.nseindia.com/corporate/INDIASHLTR_14052024210815_INDIASHLTR.pdf",
+      "used_by": [
+        "practice evidence for India Shelter Finance Corporation Limited"
+      ],
+      "cited_pages": [
+        3
+      ],
+      "http_status": 200,
+      "final_host": "nsearchives.nseindia.com",
+      "is_pdf": true,
+      "bytes": 408388,
+      "sha256": "d336c13dade8208f037f9f2d2003c15b364929facff4c9e4eac18585cdf56a17",
+      "sha256_recorded": "d336c13dade8208f037f9f2d2003c15b364929facff4c9e4eac18585cdf56a17",
+      "sha256_match": true,
+      "pdf_pages": 4,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://nsearchives.nseindia.com/corporate/ISFC2010_02112026173900_Intimation_for_appointment_of_SMP.pdf",
+      "used_by": [
+        "seat india-shelter-20261102-chief-strategy"
+      ],
+      "cited_pages": [
+        1,
+        2
+      ],
+      "http_status": 200,
+      "final_host": "nsearchives.nseindia.com",
+      "is_pdf": true,
+      "bytes": 336882,
+      "sha256": "b596f09af1d87f0157b05c7ff23c1487abc5fdab6089a5a16810dca7372f41e0",
+      "sha256_recorded": "b596f09af1d87f0157b05c7ff23c1487abc5fdab6089a5a16810dca7372f41e0",
+      "sha256_match": true,
+      "pdf_pages": 2,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://nsearchives.nseindia.com/corporate/JAYBARMARUT_02112026152353_SUBMISSION_OUTCOME.pdf",
+      "used_by": [
+        "seat jay-bharat-maruti-20261102-ceo"
+      ],
+      "cited_pages": [
+        1,
+        12
+      ],
+      "http_status": 200,
+      "final_host": "nsearchives.nseindia.com",
+      "is_pdf": true,
+      "bytes": 29314690,
+      "sha256": "c6561c3ebbbd37879be63588f2d991f7100cd87b7f5b609767b1e69d53415df4",
+      "sha256_recorded": "c6561c3ebbbd37879be63588f2d991f7100cd87b7f5b609767b1e69d53415df4",
+      "sha256_match": true,
+      "pdf_pages": 12,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://nsearchives.nseindia.com/corporate/KPIGLOBAL_02092026155452_KPI_Intimation_Resignation_of_CFO_02092026_Signed.pdf",
+      "used_by": [
+        "seat kpi-green-20260902-cfo"
+      ],
+      "cited_pages": [
+        1
+      ],
+      "http_status": 200,
+      "final_host": "nsearchives.nseindia.com",
+      "is_pdf": true,
+      "bytes": 287264,
+      "sha256": "402d43b38c3330f3f49690017720c9047c58116f1f1927e7ba6e09fbc72b03fe",
+      "sha256_recorded": "402d43b38c3330f3f49690017720c9047c58116f1f1927e7ba6e09fbc72b03fe",
+      "sha256_match": true,
+      "pdf_pages": 1,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://nsearchives.nseindia.com/corporate/LXCHEM_18082026171737_Resingation.pdf",
+      "used_by": [
+        "seat laxmi-organic-20260818-cto",
+        "seat laxmi-organic-20260818-chief-procurement-officer"
+      ],
+      "cited_pages": [
+        1
+      ],
+      "http_status": 200,
+      "final_host": "nsearchives.nseindia.com",
+      "is_pdf": true,
+      "bytes": 433548,
+      "sha256": "39f571238f162b0c0437d6785fe00f5120cb7a355d7f46c5b83f163a37e96abc",
+      "sha256_recorded": "39f571238f162b0c0437d6785fe00f5120cb7a355d7f46c5b83f163a37e96abc",
+      "sha256_match": true,
+      "pdf_pages": 3,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://nsearchives.nseindia.com/corporate/MANAPPURAM_01092026195205_Reg30FINALsigned.pdf",
+      "used_by": [
+        "seat manappuram-20260901-business-head-cv"
+      ],
+      "cited_pages": [
+        1
+      ],
+      "http_status": 200,
+      "final_host": "nsearchives.nseindia.com",
+      "is_pdf": true,
+      "bytes": 814452,
+      "sha256": "101fb46420b612ff3c9f15329ccfc20b6d8b16ff727a3bec2aeb86dadd72a8e5",
+      "sha256_recorded": "101fb46420b612ff3c9f15329ccfc20b6d8b16ff727a3bec2aeb86dadd72a8e5",
+      "sha256_match": true,
+      "pdf_pages": 3,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://nsearchives.nseindia.com/corporate/MEDANTA21_02112026172623_GHLResignationofSMPNOVEMBER022026SIGNED.pdf",
+      "used_by": [
+        "seat global-health-20261102-head-hr"
+      ],
+      "cited_pages": [
+        1,
+        5
+      ],
+      "http_status": 200,
+      "final_host": "nsearchives.nseindia.com",
+      "is_pdf": true,
+      "bytes": 790071,
+      "sha256": "26a9657726ae5b5fb3aede73aedb27ea361a56581f1cb7f213e09a3b62204027",
+      "sha256_recorded": "26a9657726ae5b5fb3aede73aedb27ea361a56581f1cb7f213e09a3b62204027",
+      "sha256_match": true,
+      "pdf_pages": 5,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://nsearchives.nseindia.com/corporate/MHRIL_02112026182713_MHRIL_SE_Intimation_Manish_Goel_Signed.pdf",
+      "used_by": [
+        "seat mahindra-holidays-20261102-chief-projects-officer"
+      ],
+      "cited_pages": [
+        1,
+        2
+      ],
+      "http_status": 200,
+      "final_host": "nsearchives.nseindia.com",
+      "is_pdf": true,
+      "bytes": 456296,
+      "sha256": "28973100f7067b4419a44091ad9308c5785001b1c95767734fc724bc86629aa9",
+      "sha256_recorded": "28973100f7067b4419a44091ad9308c5785001b1c95767734fc724bc86629aa9",
+      "sha256_match": true,
+      "pdf_pages": 3,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://nsearchives.nseindia.com/corporate/OEL_02112026153505_Regulation30Intimation.pdf",
+      "used_by": [
+        "seat orient-electric-20261102-cdio"
+      ],
+      "cited_pages": [
+        1,
+        3
+      ],
+      "http_status": 200,
+      "final_host": "nsearchives.nseindia.com",
+      "is_pdf": true,
+      "bytes": 439675,
+      "sha256": "70d32922412032ded8b1da5d948ca25a685649047f87eabe9cd07797ae4984f6",
+      "sha256_recorded": "70d32922412032ded8b1da5d948ca25a685649047f87eabe9cd07797ae4984f6",
+      "sha256_match": true,
+      "pdf_pages": 3,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://nsearchives.nseindia.com/corporate/WELCORP_02112026184807_SE_Intimation_SMP_Resignation_letter.pdf",
+      "used_by": [
+        "seat welspun-corp-20261102-chro"
+      ],
+      "cited_pages": [
+        1
+      ],
+      "http_status": 200,
+      "final_host": "nsearchives.nseindia.com",
+      "is_pdf": true,
+      "bytes": 310299,
+      "sha256": "796827276e0e9de282a6778db9e4bb1518243bcc7e295a02a3e666c48dc325b8",
+      "sha256_recorded": "796827276e0e9de282a6778db9e4bb1518243bcc7e295a02a3e666c48dc325b8",
+      "sha256_match": true,
+      "pdf_pages": 3,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/0b3229a1-99b9-4f0a-b4e4-af2bf9378456.pdf",
+      "used_by": [
+        "seat cipla-20260922-global-head-supply-chain"
+      ],
+      "cited_pages": [
+        1
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 321153,
+      "sha256": "65a8a0d76b7be7dd774c7ec81c1175ae6a6765ddad11316c587f42fb1efc9c5d",
+      "sha256_recorded": "65a8a0d76b7be7dd774c7ec81c1175ae6a6765ddad11316c587f42fb1efc9c5d",
+      "sha256_match": true,
+      "pdf_pages": 2,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/0caa4ef6-4ed8-4a21-a2e9-d704c6a04cc9.pdf",
+      "used_by": [
+        "seat torrent-power-20260820-cfo"
+      ],
+      "cited_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 319751,
+      "sha256": "e2d9f4869031ae8e3eac2b322c3b56a7f15820322a618f74a7a0602e38a9174e",
+      "sha256_recorded": "e2d9f4869031ae8e3eac2b322c3b56a7f15820322a618f74a7a0602e38a9174e",
+      "sha256_match": true,
+      "pdf_pages": 5,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/0e308d4b-bea4-4b6b-9afc-0198c461e6ad.pdf",
+      "used_by": [
+        "practice evidence for Manappuram Finance Limited"
+      ],
+      "cited_pages": [
+        1,
+        2
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 273884,
+      "sha256": "9852f207505ab7307d31c870a8de51f15e41d2da901032991dfbde9ad5f89041",
+      "sha256_recorded": "9852f207505ab7307d31c870a8de51f15e41d2da901032991dfbde9ad5f89041",
+      "sha256_match": true,
+      "pdf_pages": 2,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/1581a3bc-5226-4efa-ae8c-4ef031e74f6b.pdf",
+      "used_by": [
+        "seat gtpl-hathway-20260918-cfo"
+      ],
+      "cited_pages": [
+        1
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 533457,
+      "sha256": "947bd87af639d957e65206fa74c17b2ac97d32edf4d495d28c3e4a49d46916c7",
+      "sha256_recorded": "947bd87af639d957e65206fa74c17b2ac97d32edf4d495d28c3e4a49d46916c7",
+      "sha256_match": true,
+      "pdf_pages": 3,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/1597de5e-8fa5-47ce-afdf-223c9770422f.pdf",
+      "used_by": [
+        "seat karnataka-bank-20261019-coo"
+      ],
+      "cited_pages": [
+        1,
+        3
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 407094,
+      "sha256": "57b4987fd61360cdda44afd543254c0735d6f10983b6ed71243ced10252f03e1",
+      "sha256_recorded": "57b4987fd61360cdda44afd543254c0735d6f10983b6ed71243ced10252f03e1",
+      "sha256_match": true,
+      "pdf_pages": 3,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/1f2f9701-2109-4b05-b3e9-c5f0b16c721b.pdf",
+      "used_by": [
+        "seat britannia-20260831-cio"
+      ],
+      "cited_pages": [
+        1,
+        2
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 566626,
+      "sha256": "3417dad1362282a9a297399d4d8efa6fe603df3b07407fb10e1f42f37d72c969",
+      "sha256_recorded": "3417dad1362282a9a297399d4d8efa6fe603df3b07407fb10e1f42f37d72c969",
+      "sha256_match": true,
+      "pdf_pages": 2,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/245411e3-141f-4e4c-9131-6503c4b6b726.pdf",
+      "used_by": [
+        "seat welspun-specialty-20260905-coo"
+      ],
+      "cited_pages": [
+        1
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 508419,
+      "sha256": "84fa4e9495a122d9856e3ed43cfaa7f73677b8b3f24b8e8755fad6cba9ed9eb1",
+      "sha256_recorded": "84fa4e9495a122d9856e3ed43cfaa7f73677b8b3f24b8e8755fad6cba9ed9eb1",
+      "sha256_match": true,
+      "pdf_pages": 2,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/2886a20c-51a3-443d-86da-a38293cfe1ba.pdf",
+      "used_by": [
+        "seat rvnl-20261019-executive-director-highway"
+      ],
+      "cited_pages": [
+        1
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 1976975,
+      "sha256": "7d336cf132dbb767b44ebdf0cf9c40c3bc646a841213fdae517608f5a51067f4",
+      "sha256_recorded": "7d336cf132dbb767b44ebdf0cf9c40c3bc646a841213fdae517608f5a51067f4",
+      "sha256_match": true,
+      "pdf_pages": 3,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/2ca20f08-ead1-41ff-a802-bd773f50a3f5.pdf",
+      "used_by": [
+        "seat manappuram-20260915-business-head-cv",
+        "seat manappuram-20260915-business-head-2w"
+      ],
+      "cited_pages": [
+        1
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 2000735,
+      "sha256": "c2979b44a9f8984f99fe832432dc2f7faa91f3123a1b3ba177bec03ffdf84371",
+      "sha256_recorded": "c2979b44a9f8984f99fe832432dc2f7faa91f3123a1b3ba177bec03ffdf84371",
+      "sha256_match": true,
+      "pdf_pages": 4,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/2e0ae114-ac92-4331-a335-079c384a29bc.pdf",
+      "used_by": [
+        "seat tata-communications-20260925-company-secretary"
+      ],
+      "cited_pages": [
+        1,
+        3
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 461929,
+      "sha256": "b16ac2940be3e41bb4118211551113d250deb99797c59c35caad2dcdf6bb2ce9",
+      "sha256_recorded": "b16ac2940be3e41bb4118211551113d250deb99797c59c35caad2dcdf6bb2ce9",
+      "sha256_match": true,
+      "pdf_pages": 3,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3ba84592-5666-4053-ae62-82d09f257a80.pdf",
+      "used_by": [
+        "seat dr-reddys-20260813-ceo-api-services"
+      ],
+      "cited_pages": [
+        1,
+        2
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 424501,
+      "sha256": "07656a5610a1d4ce49e5e7dd917dc1f118af4cab22afcb17a69061987a4a8b48",
+      "sha256_recorded": "07656a5610a1d4ce49e5e7dd917dc1f118af4cab22afcb17a69061987a4a8b48",
+      "sha256_match": true,
+      "pdf_pages": 3,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4d4b7168-ae8a-4352-9352-a0d9b79bbe07.pdf",
+      "used_by": [
+        "seat alkem-20260924-cfo"
+      ],
+      "cited_pages": [
+        1
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 313179,
+      "sha256": "c1d49d357d8812b245f988f8fbb549238a7c6a07b6916d10b40e2e2d3c3e8ef1",
+      "sha256_recorded": "c1d49d357d8812b245f988f8fbb549238a7c6a07b6916d10b40e2e2d3c3e8ef1",
+      "sha256_match": true,
+      "pdf_pages": 3,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/571E1C77-C6E4-438C-AD17-91288728B80D-085146.pdf",
+      "used_by": [
+        "seat karur-vysya-bank-20261015-coo"
+      ],
+      "cited_pages": [
+        1
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 238948,
+      "sha256": "ecd45c13a237a4db1754eb5ab84637b58deef4e2252a3813056d0ebcb9179c1b",
+      "sha256_recorded": "ecd45c13a237a4db1754eb5ab84637b58deef4e2252a3813056d0ebcb9179c1b",
+      "sha256_match": true,
+      "pdf_pages": 2,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/58a57c65-4b46-4dd2-97ee-b26dfdf66aed.pdf",
+      "used_by": [
+        "seat whirlpool-20261022-head-accounting",
+        "seat whirlpool-20261022-head-taxation"
+      ],
+      "cited_pages": [
+        1,
+        2
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 240820,
+      "sha256": "1c448e51723978de24ddf8c6c2a5fb1ca743dc88e756ca047d7b8e169c3b4317",
+      "sha256_recorded": "1c448e51723978de24ddf8c6c2a5fb1ca743dc88e756ca047d7b8e169c3b4317",
+      "sha256_match": true,
+      "pdf_pages": 2,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/59463D45_16D8_4BDE_9E4A_E1C71C4B9AAE_124637.pdf",
+      "used_by": [
+        "practice evidence for Manappuram Finance Limited"
+      ],
+      "cited_pages": [
+        5
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 2485351,
+      "sha256": "3c69eaecec7755ab9a90e34a4d83e3a1752b7a4230963cea7d7441003f450666",
+      "sha256_recorded": "3c69eaecec7755ab9a90e34a4d83e3a1752b7a4230963cea7d7441003f450666",
+      "sha256_match": true,
+      "pdf_pages": 8,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/5fd9c82f-b7a0-45f6-9ea1-19a059f85b52.pdf",
+      "used_by": [
+        "seat sh-kelkar-20260930-evp-ingredients"
+      ],
+      "cited_pages": [
+        1
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 433056,
+      "sha256": "0a07b3196b7149523d7cb54a83e3520dd47872a3096304553027a556050bb095",
+      "sha256_recorded": "0a07b3196b7149523d7cb54a83e3520dd47872a3096304553027a556050bb095",
+      "sha256_match": true,
+      "pdf_pages": 3,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/6003215e-0710-4123-a79b-081f577aa7b7.pdf",
+      "used_by": [
+        "seat cartrade-20260825-ceo-consumer-business"
+      ],
+      "cited_pages": [
+        1,
+        3
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 346302,
+      "sha256": "bf7b76cf09fec8ed48efb1b28f07c6d078044bd0ce631051544ddc18564a1f65",
+      "sha256_recorded": "bf7b76cf09fec8ed48efb1b28f07c6d078044bd0ce631051544ddc18564a1f65",
+      "sha256_match": true,
+      "pdf_pages": 3,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/6369471e-d844-42ec-b7f2-6c8ae62cf5ab.pdf",
+      "used_by": [
+        "seat varun-beverages-20260924-coo"
+      ],
+      "cited_pages": [
+        1,
+        2
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 256554,
+      "sha256": "4fa826ed5b8a03e1fda22235e9f74affb9b8b6e24b56df7bcac75306da3a97bd",
+      "sha256_recorded": "4fa826ed5b8a03e1fda22235e9f74affb9b8b6e24b56df7bcac75306da3a97bd",
+      "sha256_match": true,
+      "pdf_pages": 3,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/6430107d-c92e-4c13-b770-73bcbc8912f6.pdf",
+      "used_by": [
+        "seat info-edge-20261028-md-ceo"
+      ],
+      "cited_pages": [
+        1,
+        2
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 4182581,
+      "sha256": "4ea1ae9e0c37bea899660a14ea1520e0ac201e4c36277c4f3b1021c84fde4048",
+      "sha256_recorded": "4ea1ae9e0c37bea899660a14ea1520e0ac201e4c36277c4f3b1021c84fde4048",
+      "sha256_match": true,
+      "pdf_pages": 9,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/679bb022-17be-4a39-ae95-aa7c82525886.pdf",
+      "used_by": [
+        "seat pfizer-20260918-senior-director-policy"
+      ],
+      "cited_pages": [
+        1
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 334708,
+      "sha256": "3818194119b04ae043105e308c4f2d1cd461a5781c3a9fbf33202b37203f6a6c",
+      "sha256_recorded": "3818194119b04ae043105e308c4f2d1cd461a5781c3a9fbf33202b37203f6a6c",
+      "sha256_match": true,
+      "pdf_pages": 3,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/733c3520-6adb-4a6d-889a-a4fcdfecc73d.pdf",
+      "used_by": [
+        "seat esds-20261030-cto-cio"
+      ],
+      "cited_pages": [
+        1,
+        2
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 631234,
+      "sha256": "bdbb3ad911e5882d0e67fe38e48c627dcd4762640b602240274ede0b77f8c176",
+      "sha256_recorded": "bdbb3ad911e5882d0e67fe38e48c627dcd4762640b602240274ede0b77f8c176",
+      "sha256_match": true,
+      "pdf_pages": 2,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/80931a42-8937-4bdd-8da0-007028b786b6.pdf",
+      "used_by": [
+        "seat vikram-solar-20260929-evp-sales-bd"
+      ],
+      "cited_pages": [
+        1,
+        2
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 983895,
+      "sha256": "e0b83357c57277d1ecc13bb9b1c8b1ed08241932010f8e18e9eee4e49ff14e60",
+      "sha256_recorded": "e0b83357c57277d1ecc13bb9b1c8b1ed08241932010f8e18e9eee4e49ff14e60",
+      "sha256_match": true,
+      "pdf_pages": 3,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/842a1048-da82-465b-b5a5-23e1517dc1dd.pdf",
+      "used_by": [
+        "seat jubilant-foodworks-20260911-cio"
+      ],
+      "cited_pages": [
+        1,
+        2
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 298836,
+      "sha256": "b2d3734aa139c7498442aca642537f591524a67daac7d7a48603a33b38829ed9",
+      "sha256_recorded": "b2d3734aa139c7498442aca642537f591524a67daac7d7a48603a33b38829ed9",
+      "sha256_match": true,
+      "pdf_pages": 2,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/8b31a993-b67c-4f03-8731-d646073247ad.pdf",
+      "used_by": [
+        "seat rbl-bank-20261012-cro"
+      ],
+      "cited_pages": [
+        1,
+        2
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 289698,
+      "sha256": "0632b5d5da26acd903d80c44d3b1ab651741dcd2b3a8e465f27449be60537baa",
+      "sha256_recorded": "0632b5d5da26acd903d80c44d3b1ab651741dcd2b3a8e465f27449be60537baa",
+      "sha256_match": true,
+      "pdf_pages": 4,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/952f8b96-bc8f-416c-9682-1adcbb66d066.pdf",
+      "used_by": [
+        "seat india-nippon-20260807-cfo"
+      ],
+      "cited_pages": [
+        1,
+        2,
+        7
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 2009769,
+      "sha256": "d47995900f8aa3fc9732a74a88c8bdb11f2f5758281d3c6cc148f56b10cb723b",
+      "sha256_recorded": "d47995900f8aa3fc9732a74a88c8bdb11f2f5758281d3c6cc148f56b10cb723b",
+      "sha256_match": true,
+      "pdf_pages": 7,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/956fad30-901a-4c67-8a56-dee6cf2b9134.pdf",
+      "used_by": [
+        "seat lincoln-pharma-20260924-senior-gm-quality"
+      ],
+      "cited_pages": [
+        1
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 2740030,
+      "sha256": "b478680f8a4520a4a3f3176f1657a188271469b43e57d28db1f226b6c9fd375b",
+      "sha256_recorded": "b478680f8a4520a4a3f3176f1657a188271469b43e57d28db1f226b6c9fd375b",
+      "sha256_match": true,
+      "pdf_pages": 6,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/9b77fd8f-3c17-4629-a385-63858a55817c.pdf",
+      "used_by": [
+        "seat hexaware-20260902-ceo"
+      ],
+      "cited_pages": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 366817,
+      "sha256": "447feeb309c51e04788452f70278aed261a416d4f656d363aaf22d202c1e9b67",
+      "sha256_recorded": "447feeb309c51e04788452f70278aed261a416d4f656d363aaf22d202c1e9b67",
+      "sha256_match": true,
+      "pdf_pages": 5,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/a77298cb-b6a9-4f5d-825c-48fb7a0974aa.pdf",
+      "used_by": [
+        "seat muthoot-capital-20261014-cro"
+      ],
+      "cited_pages": [
+        1,
+        2,
+        3
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 423603,
+      "sha256": "2607036a31531fc4b96923226bd357b2cf8c05d3df10235080cf3a955f560979",
+      "sha256_recorded": "2607036a31531fc4b96923226bd357b2cf8c05d3df10235080cf3a955f560979",
+      "sha256_match": true,
+      "pdf_pages": 3,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/be997ce1-7d8b-4c11-b710-03fefca0dba0.pdf",
+      "used_by": [
+        "seat gmm-pfaudler-20260915-group-cfo"
+      ],
+      "cited_pages": [
+        1,
+        2,
+        4
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 931577,
+      "sha256": "724dadad18e43dd98c2f5374146499ef44012476dc74ec16ae21d21119a33926",
+      "sha256_recorded": "724dadad18e43dd98c2f5374146499ef44012476dc74ec16ae21d21119a33926",
+      "sha256_match": true,
+      "pdf_pages": 4,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/d2ce4c17-84d2-46fa-a1b2-3780cb89cdae.pdf",
+      "used_by": [
+        "seat niit-20261014-ceo"
+      ],
+      "cited_pages": [
+        1,
+        2,
+        5
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 316297,
+      "sha256": "6dace2905ba2693abde933c4c9188baf7e9583c683f17e9df2433bfad2f34357",
+      "sha256_recorded": "6dace2905ba2693abde933c4c9188baf7e9583c683f17e9df2433bfad2f34357",
+      "sha256_match": true,
+      "pdf_pages": 5,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/d9ad423c-204a-4cd3-b099-97a4b85912a4.pdf",
+      "used_by": [
+        "seat vodafone-idea-20261016-coo"
+      ],
+      "cited_pages": [
+        1,
+        2
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 745947,
+      "sha256": "01a5c6df65c0f964e66dbe05db89fa8bb6af46e6bcd5c0c3a2315f0c1b42fbc7",
+      "sha256_recorded": "01a5c6df65c0f964e66dbe05db89fa8bb6af46e6bcd5c0c3a2315f0c1b42fbc7",
+      "sha256_match": true,
+      "pdf_pages": 2,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/de3a4456-9000-4d79-ac78-dd9b2ad39749.pdf",
+      "used_by": [
+        "seat ashok-leyland-20261022-head-special-projects-hr"
+      ],
+      "cited_pages": [
+        1,
+        3
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 914880,
+      "sha256": "fcc58f4243c7bda43b56c6f5dd6402197393d73a024d7e5d480627b936c8d970",
+      "sha256_recorded": "fcc58f4243c7bda43b56c6f5dd6402197393d73a024d7e5d480627b936c8d970",
+      "sha256_match": true,
+      "pdf_pages": 3,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/e385ee1b-4a73-4bec-88f9-da18c2a9f9c0.pdf",
+      "used_by": [
+        "seat jubilant-ingrevia-20261001-svp-supply-chain"
+      ],
+      "cited_pages": [
+        1,
+        2,
+        3
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 619774,
+      "sha256": "42f1029eb5a7971912562015e3633f543ddadaef8126aa0d5553d3c411c02a8c",
+      "sha256_recorded": "42f1029eb5a7971912562015e3633f543ddadaef8126aa0d5553d3c411c02a8c",
+      "sha256_match": true,
+      "pdf_pages": 3,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/e53e4d58-8bdf-4cd6-b16b-d4794d8e04cb.pdf",
+      "used_by": [
+        "seat havells-20261027-president"
+      ],
+      "cited_pages": [
+        1,
+        2
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 758005,
+      "sha256": "d0df989607704905d056ab6e199183871fe9a8645b9b6685e4743779cc3e152b",
+      "sha256_recorded": "d0df989607704905d056ab6e199183871fe9a8645b9b6685e4743779cc3e152b",
+      "sha256_match": true,
+      "pdf_pages": 2,
+      "pages_ok": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/59f59944-8a8c-4ffe-8493-bf364de30e4f.pdf",
+      "used_by": [
+        "seat ksb-20261101-head-project-contract-management"
+      ],
+      "cited_pages": [
+        1,
+        2
+      ],
+      "http_status": 200,
+      "final_host": "www.bseindia.com",
+      "is_pdf": true,
+      "bytes": 275378,
+      "sha256": "fd40db03acbfcc83e397fcf8ff2e33bf1e13716f00ea0ac32b15b157d8fdd654",
+      "sha256_recorded": "fd40db03acbfcc83e397fcf8ff2e33bf1e13716f00ea0ac32b15b157d8fdd654",
+      "sha256_match": true,
+      "pdf_pages": 2,
+      "pages_ok": true,
+      "ok": true
+    }
+  ]
+}
