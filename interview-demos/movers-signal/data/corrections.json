@@ -1,0 +1,266 @@
+{
+  "_about": "Fixes made after the independent verification pass. Pass 1 is never edited; apply_corrections.py builds extracted_v2.json from v1 plus these.",
+  "corrections": [
+    {
+      "id": "rbl-bank-20261012-cro",
+      "field": "exchange_symbol",
+      "set_evidence": {
+        "quote": "Scrip Name: RBLBANK",
+        "page": 1
+      },
+      "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+      "found_by": "verification_v1"
+    },
+    {
+      "id": "tata-communications-20260925-company-secretary",
+      "field": "exchange_symbol",
+      "set_evidence": {
+        "quote": "SYMBOL: TATACOMM",
+        "page": 1
+      },
+      "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+      "found_by": "verification_v1"
+    },
+    {
+      "id": "gtpl-hathway-20260918-cfo",
+      "field": "exchange_symbol",
+      "set_evidence": {
+        "quote": "Trading Symbol: GTPL",
+        "page": 1
+      },
+      "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+      "found_by": "verification_v1"
+    },
+    {
+      "id": "global-health-20261102-head-hr",
+      "field": "exchange_symbol",
+      "set_evidence": {
+        "quote": "Symbol: MEDANTA",
+        "page": 1
+      },
+      "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+      "found_by": "verification_v1"
+    },
+    {
+      "id": "alkem-20260924-cfo",
+      "field": "exchange_symbol",
+      "set_evidence": {
+        "quote": "Scrip Symbol: ALKEM",
+        "page": 1
+      },
+      "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+      "found_by": "verification_v1"
+    },
+    {
+      "id": "pfizer-20260918-senior-director-policy",
+      "field": "exchange_symbol",
+      "set_evidence": {
+        "quote": "Scrip Symbol: PFIZER",
+        "page": 1
+      },
+      "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+      "found_by": "verification_v1"
+    },
+    {
+      "id": "cipla-20260922-global-head-supply-chain",
+      "field": "exchange_symbol",
+      "set_evidence": {
+        "quote": "Scrip Symbol: CIPLA",
+        "page": 1
+      },
+      "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+      "found_by": "verification_v1"
+    },
+    {
+      "id": "orient-electric-20261102-cdio",
+      "field": "exchange_symbol",
+      "set_evidence": {
+        "quote": "Symbol: ORIENTELEC",
+        "page": 1
+      },
+      "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+      "found_by": "verification_v1"
+    },
+    {
+      "id": "britannia-20260831-cio",
+      "field": "exchange_symbol",
+      "set_evidence": {
+        "quote": "Symbol: BRITANNIA",
+        "page": 1
+      },
+      "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+      "found_by": "verification_v1"
+    },
+    {
+      "id": "jubilant-foodworks-20260911-cio",
+      "field": "exchange_symbol",
+      "set_evidence": {
+        "quote": "Symbol: JUBLFOOD",
+        "page": 1
+      },
+      "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+      "found_by": "verification_v1"
+    },
+    {
+      "id": "varun-beverages-20260924-coo",
+      "field": "exchange_symbol",
+      "set_evidence": {
+        "quote": "Symbol: VBL",
+        "page": 1
+      },
+      "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+      "found_by": "verification_v1"
+    },
+    {
+      "id": "whirlpool-20261022-head-accounting",
+      "field": "exchange_symbol",
+      "set_evidence": {
+        "quote": "Symbol - WHIRLPOOL",
+        "page": 1
+      },
+      "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+      "found_by": "verification_v1"
+    },
+    {
+      "id": "whirlpool-20261022-head-taxation",
+      "field": "exchange_symbol",
+      "set_evidence": {
+        "quote": "Symbol - WHIRLPOOL",
+        "page": 1
+      },
+      "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+      "found_by": "verification_v1"
+    },
+    {
+      "id": "ashok-leyland-20261022-head-special-projects-hr",
+      "field": "exchange_symbol",
+      "set_evidence": {
+        "quote": "SCRIP CODE: ASHOKLEY",
+        "page": 1
+      },
+      "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+      "found_by": "verification_v1"
+    },
+    {
+      "id": "upl-20261102-president-apac-africa-europe",
+      "field": "exchange_symbol",
+      "set_evidence": {
+        "quote": "SYMBOL: UPL",
+        "page": 1
+      },
+      "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+      "found_by": "verification_v1"
+    },
+    {
+      "id": "jubilant-ingrevia-20261001-svp-supply-chain",
+      "field": "exchange_symbol",
+      "set_evidence": {
+        "quote": "Trading Symbol: JUBLINGREA",
+        "page": 1
+      },
+      "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+      "found_by": "verification_v1"
+    },
+    {
+      "id": "rvnl-20261019-executive-director-highway",
+      "field": "exchange_symbol",
+      "set_evidence": {
+        "quote": "Scrip: RVNL",
+        "page": 1
+      },
+      "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+      "found_by": "verification_v1"
+    },
+    {
+      "id": "kpi-green-20260902-cfo",
+      "field": "exchange_symbol",
+      "set_evidence": {
+        "quote": "Symbol: KPIGREEN",
+        "page": 1
+      },
+      "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+      "found_by": "verification_v1"
+    },
+    {
+      "id": "wockhardt-20261102-cdio-designated-smp",
+      "field": "exchange_symbol",
+      "set_evidence": {
+        "quote": "NSE Symbol: WOCKPHARMA",
+        "page": 1
+      },
+      "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+      "found_by": "verification_v1"
+    },
+    {
+      "id": "pfizer-20260727-ed-finance-cfo",
+      "field": "exchange_symbol",
+      "set_evidence": {
+        "quote": "Scrip Symbol: PFIZER",
+        "page": 1
+      },
+      "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+      "found_by": "verification_v1"
+    },
+    {
+      "id": "akums-20261102-president-operations-designated-smp",
+      "field": "exchange_symbol",
+      "set_evidence": {
+        "quote": "Symbol: AKUMS",
+        "page": 1
+      },
+      "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+      "found_by": "verification_v1"
+    },
+    {
+      "id": "rvnl-20261019-executive-director-highway",
+      "field": "company",
+      "set_evidence": {
+        "quote": "Scrip: RVNL",
+        "page": 1,
+        "note": "The full company name is not in the text layer; identified by its filed symbol."
+      },
+      "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+      "found_by": "verification_v1"
+    },
+    {
+      "id": "manappuram-20260915-business-head-cv",
+      "field": "person_name",
+      "set_evidence": {
+        "quote": "Mr. Digbijay Bandyopadhyay Business Head – Commercial Vehicle Finance (VP) September 15, 2026",
+        "page": 1
+      },
+      "reason": "Table row: pass 1 put the wrapped words 'Finance (VP)' after the date column. Replaced with the visual reading order that both independent engines produce.",
+      "found_by": "verification_v1"
+    },
+    {
+      "id": "manappuram-20260915-business-head-cv",
+      "field": "role_title",
+      "set_evidence": {
+        "quote": "Mr. Digbijay Bandyopadhyay Business Head – Commercial Vehicle Finance (VP) September 15, 2026",
+        "page": 1
+      },
+      "reason": "Table row: pass 1 put the wrapped words 'Finance (VP)' after the date column. Replaced with the visual reading order that both independent engines produce.",
+      "found_by": "verification_v1"
+    },
+    {
+      "id": "manappuram-20260915-business-head-cv",
+      "field": "effective_date",
+      "set_evidence": {
+        "quote": "Mr. Digbijay Bandyopadhyay Business Head – Commercial Vehicle Finance (VP) September 15, 2026",
+        "page": 1
+      },
+      "reason": "Table row: pass 1 put the wrapped words 'Finance (VP)' after the date column. Replaced with the visual reading order that both independent engines produce.",
+      "found_by": "verification_v1"
+    },
+    {
+      "id": "torrent-power-20260820-cfo",
+      "field": "role_title",
+      "set_evidence": {
+        "quote": "position of Chief Financial Officer and Whole Time Key Managerial Personnel of",
+        "page": 1
+      },
+      "reason": "The quote stopped at 'Whole Time Key' and did not support the full filed title; extended to the end of the title.",
+      "found_by": "verification_v1"
+    }
+  ]
+}

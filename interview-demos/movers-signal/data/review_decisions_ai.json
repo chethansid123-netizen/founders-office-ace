@@ -1,0 +1,373 @@
+{
+  "reviewer": "Claude (AI second reader)",
+  "reviewed_at": "2026-11-02",
+  "method": "Each record was read beside its cited source pages and the independent verification result (v2). Every review-queue item was resolved: fixed (corrections.json), cleared with a written override, or rejected.",
+  "human_signoff": "pending: open review.html, approve or reject each record, export the file to data/review_decisions_human.json and run pipeline/apply_review.py",
+  "decisions": [
+    {
+      "id": "hdfc-bank-20261007-md-ceo",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 11 fields match, 1 confirmed absent. Appointment record (Seat filled). The outgoing MD & CEO's retirement is shown as filed facts from page 11.",
+      "overrides": []
+    },
+    {
+      "id": "pnb-metlife-20260916-cfo",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 10 fields match, 2 confirmed absent. Debt-listed insurer: no equity symbol. Original intimation of 13 Jul 2026 is outside the window and was not used.",
+      "overrides": []
+    },
+    {
+      "id": "city-union-bank-20261102-executive-director",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 10 fields match, 2 confirmed absent. No calendar effective date in the filing (from the date of taking charge); Board approval still pending. Letterhead text is OCR-quality; body text is clean.",
+      "overrides": []
+    },
+    {
+      "id": "rbl-bank-20261012-cro",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 13 fields match, 0 confirmed absent. Successor source left UNCLEAR: the filing does not say whether the new CRO joins from outside.",
+      "overrides": []
+    },
+    {
+      "id": "muthoot-capital-20261014-cro",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 12 fields match, 0 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "karnataka-bank-20261019-coo",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 12 fields match, 0 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "karur-vysya-bank-20261015-coo",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 13 fields match, 0 confirmed absent. Company identified by its filed NSE symbol; the name is a logo image.",
+      "overrides": []
+    },
+    {
+      "id": "manappuram-20260901-business-head-cv",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 12 fields match, 0 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "manappuram-20260915-business-head-cv",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 12 fields match, 0 confirmed absent. Second exit from a role titled 'Business Head – Commercial Vehicle Finance' within 15 days of the first.",
+      "overrides": []
+    },
+    {
+      "id": "manappuram-20260915-business-head-2w",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 12 fields match, 0 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "india-shelter-20261102-chief-strategy",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 11 fields match, 1 confirmed absent. Successor source left UNCLEAR: the profile lists prior employers but not where he joins from.",
+      "overrides": []
+    },
+    {
+      "id": "vodafone-idea-20261016-coo",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 11 fields match, 1 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "tata-communications-20260925-company-secretary",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 12 fields match, 0 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "bharti-airtel-20260804-chief-internal-auditor",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 11 fields match, 1 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "gtpl-hathway-20260918-cfo",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 13 fields match, 0 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "info-edge-20261028-md-ceo",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 13 fields match, 0 confirmed absent. Outgoing MD & CEO joins the Board as a non-executive director; successor is an existing director (re-designation).",
+      "overrides": []
+    },
+    {
+      "id": "cartrade-20260825-ceo-consumer-business",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 12 fields match, 0 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "niit-20261014-ceo",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 13 fields match, 0 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "hexaware-20260902-ceo",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 13 fields match, 0 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "esds-20261030-cto-cio",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 12 fields match, 0 confirmed absent. Effective date is an upper bound ('on or before').",
+      "overrides": []
+    },
+    {
+      "id": "esds-20261102-chief-product-officer",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 11 fields match, 1 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "allied-digital-20260907-avp-projects",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 12 fields match, 0 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "punjab-sind-bank-20261102-general-manager",
+      "decision": "REJECTED",
+      "note": "Rejected. The company name is not in the text layer, the annexure profile describes a different person (Santosh Neeraj), and an earlier copy of the same event gives dates a month apart. Facts cannot be stated with confidence.",
+      "overrides": []
+    },
+    {
+      "id": "punjab-sind-bank-20261102-general-manager-superseded",
+      "decision": "REJECTED",
+      "note": "Rejected. Earlier copy of the same event, filed five minutes before a corrected filing; its dates conflict by one month.",
+      "overrides": []
+    },
+    {
+      "id": "global-health-20261102-head-hr",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 12 fields match, 0 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "dr-reddys-20260813-ceo-api-services",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 12 fields match, 0 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "alkem-20260924-cfo",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 11 fields match, 0 confirmed absent. One verifier flag cleared as a false positive (see override).",
+      "overrides": [
+        {
+          "field": "successor_status",
+          "reason": "False positive: the flagged words are the SEBI annexure label 'term of appointment/ reappointment' followed by the outgoing CFO's name ('Mr. Nitin Agrawal shall cease...'). No successor is named."
+        }
+      ]
+    },
+    {
+      "id": "pfizer-20260918-senior-director-policy",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 12 fields match, 0 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "cipla-20260922-global-head-supply-chain",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 12 fields match, 0 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "acutaas-20261102-avp-operations",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 11 fields match, 1 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "lincoln-pharma-20260924-senior-gm-quality",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 11 fields match, 1 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "orient-electric-20261102-cdio",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 12 fields match, 0 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "mahindra-holidays-20261102-chief-projects-officer",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 12 fields match, 0 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "britannia-20260831-cio",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 13 fields match, 0 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "havells-20261027-president",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 12 fields match, 0 confirmed absent. Cover letter says 'President'; the enclosed email says 'President & SBU Head'. The fuller filed title is used, with its own quote.",
+      "overrides": []
+    },
+    {
+      "id": "jubilant-foodworks-20260911-cio",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 12 fields match, 0 confirmed absent. Update to an intimation of 22 Jul 2026; the reason is stated in this filing's annexure.",
+      "overrides": []
+    },
+    {
+      "id": "varun-beverages-20260924-coo",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 11 fields match, 1 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "whirlpool-20261022-head-accounting",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 12 fields match, 0 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "whirlpool-20261022-head-taxation",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 12 fields match, 0 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "welspun-corp-20261102-chro",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 12 fields match, 0 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "laxmi-organic-20260818-cto",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 12 fields match, 0 confirmed absent. Filing states the company does not presently plan a like-for-like replacement; shown as a filed fact.",
+      "overrides": []
+    },
+    {
+      "id": "laxmi-organic-20260818-chief-procurement-officer",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 12 fields match, 0 confirmed absent. Filing states the company does not presently plan a like-for-like replacement; shown as a filed fact.",
+      "overrides": []
+    },
+    {
+      "id": "gr-infraprojects-20261102-joint-president-ptd",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 11 fields match, 1 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "gmm-pfaudler-20260915-group-cfo",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 13 fields match, 0 confirmed absent. Effective date is planned (tied to the Q2 FY27 board meeting).",
+      "overrides": []
+    },
+    {
+      "id": "ashok-leyland-20261022-head-special-projects-hr",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 12 fields match, 0 confirmed absent. Web search named this filing as Dr. Reddy's; the PDF is Ashok Leyland's. Successor marked UNCLEAR: the letter mentions an incoming CHRO without a name or date.",
+      "overrides": []
+    },
+    {
+      "id": "jay-bharat-maruti-20261102-ceo",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 11 fields match, 1 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "upl-20261102-president-apac-africa-europe",
+      "decision": "REJECTED",
+      "note": "Rejected. Reads as the designation of an existing President as Senior Management Personnel; the filing does not show a change of seat holder.",
+      "overrides": []
+    },
+    {
+      "id": "torrent-power-20260820-cfo",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 13 fields match, 0 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "jubilant-ingrevia-20261001-svp-supply-chain",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 12 fields match, 0 confirmed absent. Two reasons are filed: the company's 'got better opportunity' and the executive's own 'personal reasons'. Both are shown verbatim.",
+      "overrides": []
+    },
+    {
+      "id": "ksb-20261101-head-project-contract-management",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 12 fields match, 0 confirmed absent. An executive is designated for the same function from 1 Nov, but the filing does not call him the successor: UNCLEAR.",
+      "overrides": []
+    },
+    {
+      "id": "welspun-specialty-20260905-coo",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 12 fields match, 0 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "rvnl-20261019-executive-director-highway",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 12 fields match, 0 confirmed absent. Company identified by its filed symbol. Moved to NBCC as Director (Projects): recorded as OTHER, not resignation.",
+      "overrides": []
+    },
+    {
+      "id": "kpi-green-20260902-cfo",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 11 fields match, 1 confirmed absent. This is the update fixing the last working day; the original intimation of 11 Aug 2026 was not used.",
+      "overrides": []
+    },
+    {
+      "id": "sh-kelkar-20260930-evp-ingredients",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 13 fields match, 0 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "india-nippon-20260807-cfo",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 13 fields match, 0 confirmed absent.",
+      "overrides": []
+    },
+    {
+      "id": "vikram-solar-20260929-evp-sales-bd",
+      "decision": "VERIFIED",
+      "note": "Read beside the source PDF. Verification v2: 11 fields match, 1 confirmed absent. Resignation letter is a scanned image, so no reason is captured. A new Chief Business Officer is not stated to be the successor: UNCLEAR.",
+      "overrides": []
+    },
+    {
+      "id": "wockhardt-20261102-cdio-designated-smp",
+      "decision": "REJECTED",
+      "note": "Rejected. The existing Chief Digital & Information Officer is designated SMP; no one leaves or joins the seat.",
+      "overrides": []
+    },
+    {
+      "id": "pfizer-20260727-ed-finance-cfo",
+      "decision": "REJECTED",
+      "note": "Rejected. Filed 27 Jul 2026, before the 90-day window opens on 4 Aug 2026.",
+      "overrides": []
+    },
+    {
+      "id": "banswara-syntex-20261102-coo-garment",
+      "decision": "REJECTED",
+      "note": "Rejected. OCR-quality text: the effective date reads '2th November' and the title is incomplete in the text layer.",
+      "overrides": []
+    },
+    {
+      "id": "akums-20261102-president-operations-designated-smp",
+      "decision": "REJECTED",
+      "note": "Rejected. An existing President is designated SMP; no seat change.",
+      "overrides": []
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-11-02T15:11:09+00:00",
+  "from": "data/verification_v2.json",
+  "records": [
+    {
+      "id": "punjab-sind-bank-20261102-general-manager",
+      "company": "Punjab & Sind Bank",
+      "source_url": "https://nsearchives.nseindia.com/corporate/PSB_02112026154708_bsense02112026.pdf",
+      "problems": [
+        "CONFLICTING_DUPLICATE: same event also in ['punjab-sind-bank-20261102-general-manager-superseded'] with different effective dates ['2026-09-30', '2026-10-30']"
+      ]
+    },
+    {
+      "id": "punjab-sind-bank-20261102-general-manager-superseded",
+      "company": "Punjab & Sind Bank",
+      "source_url": "https://nsearchives.nseindia.com/corporate/PSB_02112026154241_bsense02112026.pdf",
+      "problems": [
+        "CONFLICTING_DUPLICATE: same event also in ['punjab-sind-bank-20261102-general-manager'] with different effective dates ['2026-09-30', '2026-10-30']"
+      ]
+    },
+    {
+      "id": "alkem-20260924-cfo",
+      "company": "Alkem Laboratories Limited",
+      "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4d4b7168-ae8a-4352-9352-a0d9b79bbe07.pdf",
+      "problems": [
+        "successor_status: document mentions possible successor wording: ['appointment mr. n']"
+      ]
+    },
+    {
+      "id": "wockhardt-20261102-cdio-designated-smp",
+      "company": "Wockhardt Limited",
+      "source_url": "https://nsearchives.nseindia.com/corporate/WOCKPHARMA_02112026171023_changeinmanagementMrSumitGargs.pdf",
+      "problems": [
+        "effective_date: quote not reproducible by either independent engine"
+      ]
+    },
+    {
+      "id": "pfizer-20260727-ed-finance-cfo",
+      "company": "Pfizer Limited",
+      "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/490fb24b-3801-4b77-bead-23429d0a5b07.pdf",
+      "problems": [
+        "OUT_OF_WINDOW: filed 2026-07-27, window 2026-08-04 to 2026-11-02"
+      ]
+    },
+    {
+      "id": "banswara-syntex-20261102-coo-garment",
+      "company": "Banswara Syntex Limited",
+      "source_url": "https://nsearchives.nseindia.com/corporate/BANSWRAS_02112026144649_Intimation_Letter_Outcome_of_BM.pdf",
+      "problems": [
+        "role_title: 'Chief Operating Officer - Garment' not supported word-for-word by the quote"
+      ]
+    }
+  ]
+}

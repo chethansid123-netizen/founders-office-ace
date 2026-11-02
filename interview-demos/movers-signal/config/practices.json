@@ -1,0 +1,86 @@
+{
+  "_about": "How each company is routed to a Positive Moves practice. This is a Derived classification: rule 1 rests on cited filings; rule 2 uses the company's main line of business (an analyst classification, shown as such).",
+  "rules": [
+    "1. Private Equity when a primary filing shows a private equity fund as a promoter or in joint control of the company.",
+    "2. Otherwise, the practice of the company's main line of business."
+  ],
+  "practices": {
+    "Financial Services": "Banks, NBFCs, housing finance, insurers, asset managers and brokers",
+    "Telecom": "Telecom operators, broadband and cable networks, network services and equipment",
+    "Digital": "Internet platforms, online marketplaces and digital-learning businesses",
+    "Private Equity": "Companies where a private equity fund is a promoter or holds joint control",
+    "Consumer Products & Retail": "Foods, beverages, consumer durables and electricals, restaurants, leisure",
+    "Information Technology": "IT services, cloud and data-centre services, managed IT infrastructure",
+    "Healthcare & Life Sciences": "Pharmaceuticals, intermediates, hospitals and diagnostics",
+    "Industrial & Infrastructure": "Manufacturing, chemicals, auto, power, EPC, railways and capital goods"
+  },
+  "companies": {
+    "HDFC Bank Limited": {"practice": "Financial Services", "sector": "Private-sector bank", "symbol": "HDFCBANK"},
+    "PNB MetLife India Insurance Company Limited": {"practice": "Financial Services", "sector": "Life insurer (debt-listed)", "symbol": null},
+    "City Union Bank Limited": {"practice": "Financial Services", "sector": "Private-sector bank", "symbol": "CUB"},
+    "RBL Bank Limited": {"practice": "Financial Services", "sector": "Private-sector bank", "symbol": "RBLBANK"},
+    "Muthoot Capital Services Limited": {"practice": "Financial Services", "sector": "Vehicle-finance NBFC", "symbol": "MUTHOOTCAP"},
+    "Karnataka Bank Limited": {"practice": "Financial Services", "sector": "Private-sector bank", "symbol": "KTKBANK"},
+    "Karur Vysya Bank Limited": {"practice": "Financial Services", "sector": "Private-sector bank", "symbol": "KARURVYSYA"},
+    "Punjab & Sind Bank": {"practice": "Financial Services", "sector": "Public-sector bank", "symbol": "PSB"},
+    "Manappuram Finance Limited": {
+      "practice": "Private Equity", "sector": "Gold-loan and vehicle-finance NBFC", "symbol": "MANAPPURAM",
+      "pe_basis": "Company filing (18 Mar 2026): RBI approvals for Bain Capital affiliates to acquire joint control with the existing promoters. Acquirer disclosure: 9.89% of equity allotted on 27 Mar 2026 (18.00% fully diluted).",
+      "evidence": [
+        {"source_key": "625f07c7cc49", "quote": "RBI grants all approvals for Bain Capital to acquire joint control of Manappuram Finance", "page": 1},
+        {"source_key": "625f07c7cc49", "quote": "joint control with the existing promoters", "page": 2},
+        {"source_key": "94a9cbbbbbff", "quote": "Preferential Allotment of: (i) 9,29,01,373 equity shares", "page": 5}
+      ]
+    },
+    "India Shelter Finance Corporation Limited": {
+      "practice": "Private Equity", "sector": "Affordable housing finance", "symbol": "INDIASHLTR",
+      "pe_basis": "Promoter declaration filed with NSE (May 2024): WestBridge Crossover Fund, LLC declares itself a promoter.",
+      "evidence": [
+        {"source_key": "a75047e2d6b5", "quote": "We, WestBridge Crossover Fund, LLC, in the capacity of promoter of India Shelter", "page": 3}
+      ]
+    },
+    "Vodafone Idea Limited": {"practice": "Telecom", "sector": "Mobile telecom operator", "symbol": "IDEA"},
+    "Tata Communications Limited": {"practice": "Telecom", "sector": "Communications and network services", "symbol": "TATACOMM"},
+    "Bharti Airtel Limited": {"practice": "Telecom", "sector": "Telecom operator", "symbol": "BHARTIARTL"},
+    "GTPL Hathway Limited": {"practice": "Telecom", "sector": "Cable TV and broadband", "symbol": "GTPL"},
+    "Info Edge (India) Limited": {"practice": "Digital", "sector": "Internet classifieds (Naukri, 99acres, Jeevansathi, Shiksha)", "symbol": "NAUKRI"},
+    "CarTrade Tech Limited": {"practice": "Digital", "sector": "Online automotive marketplaces", "symbol": "CARTRADE"},
+    "NIIT Limited": {"practice": "Digital", "sector": "Learning and talent development (education technology)", "symbol": "NIITLTD"},
+    "Hexaware Technologies Limited": {"practice": "Information Technology", "sector": "IT services", "symbol": "HEXT"},
+    "ESDS Software Solution Limited": {"practice": "Information Technology", "sector": "Cloud and data-centre services", "symbol": "ESDS"},
+    "Allied Digital Services Limited": {"practice": "Information Technology", "sector": "IT infrastructure and managed services", "symbol": "ADSL"},
+    "Global Health Limited": {"practice": "Healthcare & Life Sciences", "sector": "Hospitals (Medanta)", "symbol": "MEDANTA"},
+    "Dr. Reddy's Laboratories Limited": {"practice": "Healthcare & Life Sciences", "sector": "Pharmaceuticals", "symbol": "DRREDDY"},
+    "Alkem Laboratories Limited": {"practice": "Healthcare & Life Sciences", "sector": "Pharmaceuticals", "symbol": "ALKEM"},
+    "Pfizer Limited": {"practice": "Healthcare & Life Sciences", "sector": "Pharmaceuticals", "symbol": "PFIZER"},
+    "Cipla Limited": {"practice": "Healthcare & Life Sciences", "sector": "Pharmaceuticals", "symbol": "CIPLA"},
+    "Acutaas Chemicals Limited": {"practice": "Healthcare & Life Sciences", "sector": "Pharmaceutical intermediates", "symbol": "ACUTAAS"},
+    "Lincoln Pharmaceuticals Limited": {"practice": "Healthcare & Life Sciences", "sector": "Pharmaceuticals", "symbol": "LINCOLN"},
+    "Wockhardt Limited": {"practice": "Healthcare & Life Sciences", "sector": "Pharmaceuticals", "symbol": "WOCKPHARMA"},
+    "Akums Drugs and Pharmaceuticals Limited": {"practice": "Healthcare & Life Sciences", "sector": "Pharmaceutical contract manufacturing", "symbol": "AKUMS"},
+    "Orient Electric Limited": {"practice": "Consumer Products & Retail", "sector": "Consumer electricals", "symbol": "ORIENTELEC"},
+    "Mahindra Holidays & Resorts India Limited": {"practice": "Consumer Products & Retail", "sector": "Leisure and holidays (Club Mahindra)", "symbol": "MHRIL"},
+    "Britannia Industries Limited": {"practice": "Consumer Products & Retail", "sector": "Packaged foods", "symbol": "BRITANNIA"},
+    "Havells India Limited": {"practice": "Consumer Products & Retail", "sector": "Consumer electricals and durables", "symbol": "HAVELLS"},
+    "Jubilant FoodWorks Limited": {"practice": "Consumer Products & Retail", "sector": "Quick-service restaurants", "symbol": "JUBLFOOD"},
+    "Varun Beverages Limited": {"practice": "Consumer Products & Retail", "sector": "Beverages", "symbol": "VBL"},
+    "Whirlpool of India Limited": {"practice": "Consumer Products & Retail", "sector": "Home appliances", "symbol": "WHIRLPOOL"},
+    "Welspun Corp Limited": {"practice": "Industrial & Infrastructure", "sector": "Steel pipes and building materials", "symbol": "WELCORP"},
+    "Laxmi Organic Industries Limited": {"practice": "Industrial & Infrastructure", "sector": "Specialty chemicals", "symbol": "LXCHEM"},
+    "G R Infraprojects Limited": {"practice": "Industrial & Infrastructure", "sector": "Roads and power-transmission EPC", "symbol": "GRINFRA"},
+    "GMM Pfaudler Limited": {"practice": "Industrial & Infrastructure", "sector": "Process equipment", "symbol": "GMMPFAUDLR"},
+    "Ashok Leyland Limited": {"practice": "Industrial & Infrastructure", "sector": "Commercial vehicles", "symbol": "ASHOKLEY"},
+    "Jay Bharat Maruti Limited": {"practice": "Industrial & Infrastructure", "sector": "Auto components", "symbol": "JAYBARMARU"},
+    "Torrent Power Limited": {"practice": "Industrial & Infrastructure", "sector": "Power generation and distribution", "symbol": "TORNTPOWER"},
+    "Jubilant Ingrevia Limited": {"practice": "Industrial & Infrastructure", "sector": "Specialty chemicals", "symbol": "JUBLINGREA"},
+    "KSB Limited": {"practice": "Industrial & Infrastructure", "sector": "Pumps and valves", "symbol": "KSB"},
+    "Welspun Specialty Solutions Limited": {"practice": "Industrial & Infrastructure", "sector": "Specialty steel", "symbol": "500365"},
+    "Rail Vikas Nigam Limited": {"practice": "Industrial & Infrastructure", "sector": "Railway infrastructure (public sector)", "symbol": "RVNL"},
+    "KPI Green Energy Limited": {"practice": "Industrial & Infrastructure", "sector": "Renewable power", "symbol": "KPIGREEN"},
+    "S H Kelkar and Company Limited": {"practice": "Industrial & Infrastructure", "sector": "Fragrance and flavour ingredients", "symbol": "SHK"},
+    "India Nippon Electricals Limited": {"practice": "Industrial & Infrastructure", "sector": "Auto electrical components", "symbol": "INDNIPPON"},
+    "Vikram Solar Limited": {"practice": "Industrial & Infrastructure", "sector": "Solar modules", "symbol": "VIKRAMSOLR"},
+    "UPL Limited": {"practice": "Industrial & Infrastructure", "sector": "Crop protection", "symbol": "UPL"},
+    "Banswara Syntex Limited": {"practice": "Industrial & Infrastructure", "sector": "Textiles", "symbol": "BANSWRAS"}
+  }
+}

@@ -1,0 +1,5118 @@
+[
+  {
+    "id": "hdfc-bank-20261007-md-ceo",
+    "company": "HDFC Bank Limited",
+    "exchange_symbol": "HDFCBANK",
+    "practice": "Financial Services",
+    "person_name": "Anup Bagchi",
+    "role_title": "Managing Director & Chief Executive Officer",
+    "role_level": "CEO_MD",
+    "event_type": "APPOINTMENT",
+    "filing_date": "2026-10-07",
+    "effective_date": "2026-10-27",
+    "stated_reason": null,
+    "successor_status": "NAMED_PERMANENT",
+    "successor_source": "EXTERNAL",
+    "source_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_07102026160736_SEIntimationPostalBallotNoticeOct2026.pdf",
+    "source_page": 2,
+    "evidence": {
+      "company": {
+        "quote": "For HDFC Bank Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Scrip Code: 500180 Scrip Symbol: HDFCBANK",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Appointment of Mr. Anup Bagchi (DIN: 00105962) as a Director",
+        "page": 2
+      },
+      "role_title": {
+        "quote": "as the Managing Director & Chief Executive Officer of the Bank",
+        "page": 2
+      },
+      "event_type": {
+        "quote": "Appointment of Mr. Anup Bagchi (DIN: 00105962) as a Director",
+        "page": 2
+      },
+      "filing_date": {
+        "quote": "October 7, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "for a period of 3 (three) years commencing from October 27, 2026",
+        "page": 2
+      },
+      "stated_reason": {
+        "quote": null,
+        "page": null,
+        "note": "Appointment: no reason for leaving applies."
+      },
+      "successor_status": {
+        "quote": "for a period of 3 (three) years commencing from October 27, 2026",
+        "page": 2
+      },
+      "successor_source": {
+        "quote": "currently is the MD & CEO of ICICI Life Insurance Limited",
+        "page": 12
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "0c88ddcc0f1d",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "Outgoing MD & CEO",
+        "value": "Sashidhar Jagdishan, retiring",
+        "quote": "Mr. Jagdishan would be retiring from the services of the Bank upon the close",
+        "page": 11
+      },
+      {
+        "label": "Outgoing MD & CEO's last day",
+        "value": "2026-10-26",
+        "quote": "upon the close of business hours on October 26, 2026.",
+        "page": 11
+      },
+      {
+        "label": "Decision not to seek re-appointment communicated",
+        "value": "2026-08-29",
+        "quote": "Mr. Sashidhar Jagdishan on August 29, 2026, communicated his decision",
+        "page": 11
+      }
+    ],
+    "extraction_note": "Postal ballot notice (filed 7 Oct 2026) for the MD & CEO appointment made by the Board on 1 Oct 2026.",
+    "review_test": null,
+    "source_sha256": "f9b0e61f258d73e064079e41f41036040d23fa6a094c35b4dc1bb2a6af10d0c0",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "pnb-metlife-20260916-cfo",
+    "company": "PNB MetLife India Insurance Company Limited",
+    "exchange_symbol": null,
+    "practice": "Financial Services",
+    "person_name": "Nilesh Kothari",
+    "role_title": "Chief Financial Officer",
+    "role_level": "CXO",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-09-16",
+    "effective_date": "2026-09-16",
+    "stated_reason": null,
+    "successor_status": "NOT_NAMED",
+    "successor_source": "NOT_APPLICABLE",
+    "source_url": "https://nsearchives.nseindia.com/content/debt/WDM/pnbmetlife2018_16092026163455_CFO_resignation_-_NSE_Intimation-signed.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For PNB MetLife India Insurance Company Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": null,
+        "page": null,
+        "note": "Debt-listed company: the filing carries no equity trading symbol."
+      },
+      "person_name": {
+        "quote": "regarding the resignation of Mr. Nilesh Kothari as the Chief Financial Officer",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "regarding the resignation of Mr. Nilesh Kothari as the Chief Financial Officer",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "regarding the resignation of Mr. Nilesh Kothari as the Chief Financial Officer",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "September 16, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "effective from the close of business hours on Wednesday, 16 September, 2026.",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": null,
+        "page": null,
+        "note": "This filing states no reason; it refers to an intimation of 13 Jul 2026, outside the window."
+      },
+      "successor_status": {
+        "quote": null,
+        "page": null,
+        "note": "No successor or interim arrangement is named on any page of the filing."
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so there is no source to classify."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "961a84f45ab1",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "Earlier intimation",
+        "value": "Resignation first intimated on 2026-07-13",
+        "quote": "in furtherance to our intimation dated July 13, 2026 regarding the resignation",
+        "page": 1
+      }
+    ],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "1f8606a909a058435d527a9587b2a1e5fcbb59a9e16f438f75637e83c2a35306",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "city-union-bank-20261102-executive-director",
+    "company": "City Union Bank Limited",
+    "exchange_symbol": "CUB",
+    "practice": "Financial Services",
+    "person_name": "Sankaran G",
+    "role_title": "Whole-time Director - Executive Director",
+    "role_level": "CXO",
+    "event_type": "APPOINTMENT",
+    "filing_date": "2026-11-02",
+    "effective_date": null,
+    "stated_reason": null,
+    "successor_status": "NAMED_PERMANENT",
+    "successor_source": "INTERNAL",
+    "source_url": "https://nsearchives.nseindia.com/corporate/CUB_02112026183459_CUB_RBI_Approval_Shri_Sankaran_ED.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "for CITY UNION BANK",
+        "page": 1,
+        "note": "Signature line; the letterhead text layer is OCR-quality."
+      },
+      "exchange_symbol": {
+        "quote": "Scrip Code: CUB Scrip Code: 532210",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "approval for the appointment of Shri Sankaran G (currently Executive President of the Bank)",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Whole-time Director - Executive Director of the Bank for a period of three years",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "has conveyed its approval for the appointment of Shri Sankaran G",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "November 02,2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "for a period of three years w.e.f the date of taking charge.",
+        "page": 1,
+        "note": "No calendar date: effective from the date he takes charge."
+      },
+      "stated_reason": {
+        "quote": null,
+        "page": null,
+        "note": "Appointment: no reason for leaving applies."
+      },
+      "successor_status": {
+        "quote": "for a period of three years w.e.f the date of taking charge.",
+        "page": 1
+      },
+      "successor_source": {
+        "quote": "(currently Executive President of the Bank)",
+        "page": 1
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "3a15e7016245",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "Still pending",
+        "value": "Board approval and induction to the Board",
+        "quote": "after his appointment is approved by the Board of the Bank.",
+        "page": 1
+      }
+    ],
+    "extraction_note": "RBI approval letter dated 2 Nov 2026; the Board's own approval is still to follow.",
+    "review_test": null,
+    "source_sha256": "270bae263e68bfce7537a8b18739177b9e0b223c3f7548963307ce84b155c3c2",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "rbl-bank-20261012-cro",
+    "company": "RBL Bank Limited",
+    "exchange_symbol": "RBLBANK",
+    "practice": "Financial Services",
+    "person_name": "Deepak Kumar",
+    "role_title": "Chief Risk Officer (CRO)",
+    "role_level": "CXO",
+    "event_type": "END_OF_TERM",
+    "filing_date": "2026-10-12",
+    "effective_date": "2026-10-31",
+    "stated_reason": "associated with the Bank on a fixed term contract",
+    "successor_status": "NAMED_PERMANENT",
+    "successor_source": "UNCLEAR",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/8b31a993-b67c-4f03-8731-d646073247ad.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For RBL Bank Limited",
+        "page": 2
+      },
+      "exchange_symbol": {
+        "quote": "Scrip Name: RBLBANK",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Mr. Deepak Kumar - Chief Risk Officer (CRO), being part of the Senior Management",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Mr. Deepak Kumar - Chief Risk Officer (CRO), being part of the Senior Management",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "As per the terms, the contract shall conclude on October 31, 2026.",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "October 12, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "effective close of business hours on October 31, 2026.",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "has been associated with the Bank on a fixed term contract.",
+        "page": 1
+      },
+      "successor_status": {
+        "quote": "Board approved appointment of Mr. Ashwini Kumar Choudhary as the Chief Risk Officer",
+        "page": 1
+      },
+      "successor_source": {
+        "quote": "Mr. Ashwini Kumar Choudhary is a part of the Senior Management of the Bank.",
+        "page": 1,
+        "note": "Profile lists prior employers; the filing does not say whether he joins from outside."
+      },
+      "successor_name": {
+        "quote": "Board approved appointment of Mr. Ashwini Kumar Choudhary as the Chief Risk Officer",
+        "page": 1
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "a7a1e2fdd7ae",
+    "successor_name": "Ashwini Kumar Choudhary",
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "Successor takes office",
+        "value": "2026-11-01",
+        "quote": "of the Bank with effect from November 01, 2026.",
+        "page": 1
+      }
+    ],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "0632b5d5da26acd903d80c44d3b1ab651741dcd2b3a8e465f27449be60537baa",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    },
+    "corrections": [
+      {
+        "field": "exchange_symbol",
+        "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+        "found_by": "verification_v1"
+      }
+    ]
+  },
+  {
+    "id": "muthoot-capital-20261014-cro",
+    "company": "Muthoot Capital Services Limited",
+    "exchange_symbol": "MUTHOOTCAP",
+    "practice": "Financial Services",
+    "person_name": "Umadevi Pazhoor Unnikrishnan",
+    "role_title": "Chief Risk Officer",
+    "role_level": "CXO",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-10-14",
+    "effective_date": "2026-10-14",
+    "stated_reason": "due to personal reasons",
+    "successor_status": "NOT_NAMED",
+    "successor_source": "NOT_APPLICABLE",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/a77298cb-b6a9-4f5d-825c-48fb7a0974aa.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For Muthoot Capital Services Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Trading Symbol - MUTHOOTCAP",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Mrs. Umadevi Pazhoor Unnikrishnan has resigned from the position",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "of Chief Risk Officer of Muthoot Capital Services Limited",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "Mrs. Umadevi Pazhoor Unnikrishnan has resigned from the position",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "October 14, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "close of business hours of October 14, 2026.",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "Resignation due to personal reasons",
+        "page": 2
+      },
+      "successor_status": {
+        "quote": null,
+        "page": null,
+        "note": "No successor or interim arrangement is named on any page of the filing."
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so there is no source to classify."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "baeb5899e6f9",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "Resignation letter dated",
+        "value": "2026-07-17",
+        "quote": "Date: 17.07.2026",
+        "page": 3
+      }
+    ],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "2607036a31531fc4b96923226bd357b2cf8c05d3df10235080cf3a955f560979",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "karnataka-bank-20261019-coo",
+    "company": "Karnataka Bank Limited",
+    "exchange_symbol": "KTKBANK",
+    "practice": "Financial Services",
+    "person_name": "Raja B S",
+    "role_title": "Chief Operating Officer",
+    "role_level": "CXO",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-10-19",
+    "effective_date": "2026-10-19",
+    "stated_reason": "for pursuing further career and passion beyond the Bank",
+    "successor_status": "NOT_NAMED",
+    "successor_source": "NOT_APPLICABLE",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/1597de5e-8fa5-47ce-afdf-223c9770422f.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "Karnataka Bank Ltd.",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "NSE Scrip Code: KTKBANK BSE Scrip Code: 532652",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Mr. Raja B S (Chief Operating Officer) has submitted his resignation",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Mr. Raja B S (Chief Operating Officer) has submitted his resignation",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "Mr. Raja B S (Chief Operating Officer) has submitted his resignation",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "HO:SEC:194:2026-27 Date: 19.10.2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "close of business hours of today i.e., 19.10.2026.",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "for pursuing further career and passion beyond the Bank.",
+        "page": 1
+      },
+      "successor_status": {
+        "quote": null,
+        "page": null,
+        "note": "No successor or interim arrangement is named on any page of the filing."
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so there is no source to classify."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "e18ed867888e",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "Service stated in the resignation letter",
+        "value": "almost 37 years",
+        "quote": "serve the great Organisation for almost 37 years at various levels",
+        "page": 3
+      }
+    ],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "57b4987fd61360cdda44afd543254c0735d6f10983b6ed71243ced10252f03e1",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "karur-vysya-bank-20261015-coo",
+    "company": "Karur Vysya Bank Limited",
+    "exchange_symbol": "KARURVYSYA",
+    "practice": "Financial Services",
+    "person_name": "Chandrasekaran M S",
+    "role_title": "Chief General Manager & Chief Operating Officer",
+    "role_level": "CXO",
+    "event_type": "END_OF_TERM",
+    "filing_date": "2026-10-15",
+    "effective_date": "2026-10-15",
+    "stated_reason": "completion of his tenure",
+    "successor_status": "NAMED_PERMANENT",
+    "successor_source": "INTERNAL",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/571E1C77-C6E4-438C-AD17-91288728B80D-085146.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "Scrip Code: KARURVYSYA Scrip Code: 590003",
+        "page": 1,
+        "note": "The company name is not in the text layer (logo image); identified by its filed NSE symbol."
+      },
+      "exchange_symbol": {
+        "quote": "Scrip Code: KARURVYSYA Scrip Code: 590003",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Shri Chandrasekaran M S, Chief General Manager & Chief Operating Officer",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Shri Chandrasekaran M S, Chief General Manager & Chief Operating Officer",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "consequent to completion of his tenure.",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "15th October 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "demitted office today (i.e. 15th October 2026) at the close of office hours,",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "consequent to completion of his tenure.",
+        "page": 1
+      },
+      "successor_status": {
+        "quote": "incumbent Chief General Manager, Shri Ramshankar R will take charge as",
+        "page": 1
+      },
+      "successor_source": {
+        "quote": "incumbent Chief General Manager, Shri Ramshankar R will take charge as",
+        "page": 1
+      },
+      "successor_name": {
+        "quote": "incumbent Chief General Manager, Shri Ramshankar R will take charge as",
+        "page": 1
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "580e4b74eb4b",
+    "successor_name": "Ramshankar R",
+    "effective_date_note": null,
+    "company_basis": "symbol",
+    "context_facts": [
+      {
+        "label": "Successor takes charge",
+        "value": "2026-10-16",
+        "quote": "Chief Operating Officer with effect from 16th October 2026.",
+        "page": 1
+      }
+    ],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "ecd45c13a237a4db1754eb5ab84637b58deef4e2252a3813056d0ebcb9179c1b",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "manappuram-20260901-business-head-cv",
+    "company": "Manappuram Finance Limited",
+    "exchange_symbol": "MANAPPURAM",
+    "practice": "Private Equity",
+    "person_name": "Kamal P Parmar",
+    "role_title": "Business Head – Commercial Vehicle Finance (SVP)",
+    "role_level": "BUSINESS_HEAD",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-09-01",
+    "effective_date": "2026-09-01",
+    "stated_reason": "due to personal reasons",
+    "successor_status": "NOT_NAMED",
+    "successor_source": "NOT_APPLICABLE",
+    "source_url": "https://nsearchives.nseindia.com/corporate/MANAPPURAM_01092026195205_Reg30FINALsigned.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For Manappuram Finance Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Symbol: MANAPPURAM",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Mr. Kamal P Parmar, Business Head – Commercial Vehicle Finance (SVP)",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Mr. Kamal P Parmar, Business Head – Commercial Vehicle Finance (SVP)",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "has tendered his resignation from the services of the Company due to personal reasons",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "Date: September 1, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "effective from the close of business hours on September 1, 2026.",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "has tendered his resignation from the services of the Company due to personal reasons",
+        "page": 1
+      },
+      "successor_status": {
+        "quote": null,
+        "page": null,
+        "note": "No successor or interim arrangement is named on any page of the filing."
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so there is no source to classify."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "44a897eed9d3",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "101fb46420b612ff3c9f15329ccfc20b6d8b16ff727a3bec2aeb86dadd72a8e5",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "manappuram-20260915-business-head-cv",
+    "company": "Manappuram Finance Limited",
+    "exchange_symbol": "MANAPPURAM",
+    "practice": "Private Equity",
+    "person_name": "Digbijay Bandyopadhyay",
+    "role_title": "Business Head – Commercial Vehicle Finance (VP)",
+    "role_level": "BUSINESS_HEAD",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-09-15",
+    "effective_date": "2026-09-15",
+    "stated_reason": "due to personal reasons",
+    "successor_status": "NOT_NAMED",
+    "successor_source": "NOT_APPLICABLE",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/2ca20f08-ead1-41ff-a802-bd773f50a3f5.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For Manappuram Finance Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Symbol: MANAPPURAM",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Mr. Digbijay Bandyopadhyay Business Head – Commercial Vehicle Finance (VP) September 15, 2026",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Mr. Digbijay Bandyopadhyay Business Head – Commercial Vehicle Finance (VP) September 15, 2026",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "have tendered their resignations from the services of the Company due to personal reasons",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "Date: September 15, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "Mr. Digbijay Bandyopadhyay Business Head – Commercial Vehicle Finance (VP) September 15, 2026",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "have tendered their resignations from the services of the Company due to personal reasons",
+        "page": 1
+      },
+      "successor_status": {
+        "quote": null,
+        "page": null,
+        "note": "No successor or interim arrangement is named on any page of the filing."
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so there is no source to classify."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "40cf137f030d",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [],
+    "extraction_note": "One filing, two exits: see manappuram-20260915-business-head-2w.",
+    "review_test": null,
+    "source_sha256": "c2979b44a9f8984f99fe832432dc2f7faa91f3123a1b3ba177bec03ffdf84371",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    },
+    "corrections": [
+      {
+        "field": "person_name",
+        "reason": "Table row: pass 1 put the wrapped words 'Finance (VP)' after the date column. Replaced with the visual reading order that both independent engines produce.",
+        "found_by": "verification_v1"
+      },
+      {
+        "field": "role_title",
+        "reason": "Table row: pass 1 put the wrapped words 'Finance (VP)' after the date column. Replaced with the visual reading order that both independent engines produce.",
+        "found_by": "verification_v1"
+      },
+      {
+        "field": "effective_date",
+        "reason": "Table row: pass 1 put the wrapped words 'Finance (VP)' after the date column. Replaced with the visual reading order that both independent engines produce.",
+        "found_by": "verification_v1"
+      }
+    ]
+  },
+  {
+    "id": "manappuram-20260915-business-head-2w",
+    "company": "Manappuram Finance Limited",
+    "exchange_symbol": "MANAPPURAM",
+    "practice": "Private Equity",
+    "person_name": "Ajay Bhalchandra Shelke",
+    "role_title": "Business Head – Two-Wheeler Finance",
+    "role_level": "BUSINESS_HEAD",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-09-15",
+    "effective_date": "2026-09-16",
+    "stated_reason": "due to personal reasons",
+    "successor_status": "NOT_NAMED",
+    "successor_source": "NOT_APPLICABLE",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/2ca20f08-ead1-41ff-a802-bd773f50a3f5.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For Manappuram Finance Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Symbol: MANAPPURAM",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Mr. Ajay Bhalchandra Shelke Business Head – Two-Wheeler Finance September 16, 2026",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Mr. Ajay Bhalchandra Shelke Business Head – Two-Wheeler Finance September 16, 2026",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "have tendered their resignations from the services of the Company due to personal reasons",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "Date: September 15, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "Mr. Ajay Bhalchandra Shelke Business Head – Two-Wheeler Finance September 16, 2026",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "have tendered their resignations from the services of the Company due to personal reasons",
+        "page": 1
+      },
+      "successor_status": {
+        "quote": null,
+        "page": null,
+        "note": "No successor or interim arrangement is named on any page of the filing."
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so there is no source to classify."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "40cf137f030d",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [],
+    "extraction_note": "One filing, two exits: see manappuram-20260915-business-head-cv.",
+    "review_test": null,
+    "source_sha256": "c2979b44a9f8984f99fe832432dc2f7faa91f3123a1b3ba177bec03ffdf84371",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "india-shelter-20261102-chief-strategy",
+    "company": "India Shelter Finance Corporation Limited",
+    "exchange_symbol": "INDIASHLTR",
+    "practice": "Private Equity",
+    "person_name": "Surendra Kumar Sihag",
+    "role_title": "Chief - Strategy & Customer Excellence",
+    "role_level": "CXO",
+    "event_type": "APPOINTMENT",
+    "filing_date": "2026-11-02",
+    "effective_date": "2026-11-02",
+    "stated_reason": null,
+    "successor_status": "NAMED_PERMANENT",
+    "successor_source": "UNCLEAR",
+    "source_url": "https://nsearchives.nseindia.com/corporate/ISFC2010_02112026173900_Intimation_for_appointment_of_SMP.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For India Shelter Finance Corporation Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "NSE Symbol: INDIASHLTR",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "appointed Mr. Surendra Kumar Sihag, as Chief - Strategy & Customer",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Chief - Strategy & Customer Excellence, Senior Management Personnel of the Company",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "Intimation for appointment of Senior Management Personnel",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "November 02, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "Senior Management Personnel of the Company w.e.f. November 02, 2026.",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": null,
+        "page": null,
+        "note": "Appointment: no reason for leaving applies."
+      },
+      "successor_status": {
+        "quote": "appointed Mr. Surendra Kumar Sihag, as Chief - Strategy & Customer",
+        "page": 1
+      },
+      "successor_source": {
+        "quote": "He has held senior leadership positions with leading financial institutions,",
+        "page": 2,
+        "note": "Profile lists prior employers only; the filing does not say where he joins from."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "ec356eadd477",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "b596f09af1d87f0157b05c7ff23c1487abc5fdab6089a5a16810dca7372f41e0",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "vodafone-idea-20261016-coo",
+    "company": "Vodafone Idea Limited",
+    "exchange_symbol": "IDEA",
+    "practice": "Telecom",
+    "person_name": "Manoj Murali",
+    "role_title": "Chief Operating Officer",
+    "role_level": "CXO",
+    "event_type": "APPOINTMENT",
+    "filing_date": "2026-10-16",
+    "effective_date": "2026-10-19",
+    "stated_reason": null,
+    "successor_status": "NAMED_PERMANENT",
+    "successor_source": "EXTERNAL",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/d9ad423c-204a-4cd3-b099-97a4b85912a4.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For Vodafone Idea Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Ref: “Vodafone Idea Limited” (IDEA/532822)",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "approved the appointment of Mr. Manoj Murali as the Chief Operating Officer",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "approved the appointment of Mr. Manoj Murali as the Chief Operating Officer",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "approved the appointment of Mr. Manoj Murali as the Chief Operating Officer",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "16 October, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "with effect from 19 October 2026.",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": null,
+        "page": null,
+        "note": "Appointment: no reason for leaving applies."
+      },
+      "successor_status": {
+        "quote": "Term of Appointment – Full Time Employment",
+        "page": 2
+      },
+      "successor_source": {
+        "quote": "He was last posted at Ola Electric as Chief",
+        "page": 2
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "05c7e423be35",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "Earlier employers (filed)",
+        "value": "Reliance Jio; Bharti Airtel",
+        "quote": "Mr. Murali has earlier worked with Reliance Jio as well as Bharti Airtel.",
+        "page": 2
+      }
+    ],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "01a5c6df65c0f964e66dbe05db89fa8bb6af46e6bcd5c0c3a2315f0c1b42fbc7",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "tata-communications-20260925-company-secretary",
+    "company": "Tata Communications Limited",
+    "exchange_symbol": "TATACOMM",
+    "practice": "Telecom",
+    "person_name": "Zubin Adil Patel",
+    "role_title": "Company Secretary and Compliance Officer",
+    "role_level": "FUNCTION_HEAD",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-09-25",
+    "effective_date": "2026-10-31",
+    "stated_reason": "to pursue opportunities outside Tata Communications",
+    "successor_status": "NOT_NAMED",
+    "successor_source": "NOT_APPLICABLE",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/2e0ae114-ac92-4331-a335-079c384a29bc.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For Tata Communications Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "SYMBOL: TATACOMM",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Mr. Zubin Adil Patel has submitted his resignation from the position of Company",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "the position of Company Secretary and Compliance Officer of Tata Communications Limited",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "Mr. Zubin Adil Patel has submitted his resignation from the position of Company",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "September 25, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "effective from the close of business hours on October 31, 2026.",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "to pursue opportunities outside Tata Communications.",
+        "page": 3
+      },
+      "successor_status": {
+        "quote": "The Company has initiated steps to identify a successor",
+        "page": 1
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so there is no source to classify."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "ee77e6572834",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "In the role since",
+        "value": "March 2021",
+        "quote": "my tenure as the Company Secretary since March 2021.",
+        "page": 3
+      }
+    ],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "b16ac2940be3e41bb4118211551113d250deb99797c59c35caad2dcdf6bb2ce9",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    },
+    "corrections": [
+      {
+        "field": "exchange_symbol",
+        "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+        "found_by": "verification_v1"
+      }
+    ]
+  },
+  {
+    "id": "bharti-airtel-20260804-chief-internal-auditor",
+    "company": "Bharti Airtel Limited",
+    "exchange_symbol": "BHARTIARTL",
+    "practice": "Telecom",
+    "person_name": "Vivek Mehta",
+    "role_title": "Chief Internal Auditor and Head - Internal Assurance",
+    "role_level": "FUNCTION_HEAD",
+    "event_type": "APPOINTMENT",
+    "filing_date": "2026-08-04",
+    "effective_date": "2026-08-05",
+    "stated_reason": null,
+    "successor_status": "NAMED_PERMANENT",
+    "successor_source": "INTERNAL",
+    "source_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_04082026184705_Airtel_STX_-_Change_in_CIA.pdf",
+    "source_page": 2,
+    "evidence": {
+      "company": {
+        "quote": "For Bharti Airtel Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Symbol: BHARTIARTL/ AIRTELPP",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Vivek Mehta has been appointed as Chief Internal Auditor and Head - Internal Assurance",
+        "page": 2
+      },
+      "role_title": {
+        "quote": "Vivek Mehta has been appointed as Chief Internal Auditor and Head - Internal Assurance",
+        "page": 2
+      },
+      "event_type": {
+        "quote": "Vivek Mehta has been appointed as Chief Internal Auditor and Head - Internal Assurance",
+        "page": 2
+      },
+      "filing_date": {
+        "quote": "August 4, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "(Senior Management) of the Company effective August 5, 2026, in place of Ramjee Verma",
+        "page": 2
+      },
+      "stated_reason": {
+        "quote": null,
+        "page": null,
+        "note": "Appointment: no reason for leaving applies."
+      },
+      "successor_status": {
+        "quote": "(Senior Management) of the Company effective August 5, 2026, in place of Ramjee Verma",
+        "page": 2
+      },
+      "successor_source": {
+        "quote": "Vivek Mehta is currently associated as Global Shared Service Head and Senior Vice",
+        "page": 2
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "e6a24f352162",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "Predecessor",
+        "value": "Ramjee Verma, moving to a new role within the Group",
+        "quote": "who will be moving into a new role within the Group",
+        "page": 2
+      }
+    ],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "b0dfb9d1b8e65ac98f2e2f2d6024f9aa2dc70f195cdace77348a87806ff93561",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "gtpl-hathway-20260918-cfo",
+    "company": "GTPL Hathway Limited",
+    "exchange_symbol": "GTPL",
+    "practice": "Telecom",
+    "person_name": "Saurav Banerjee",
+    "role_title": "Chief Financial Officer",
+    "role_level": "CXO",
+    "event_type": "RETIREMENT",
+    "filing_date": "2026-09-18",
+    "effective_date": "2026-09-30",
+    "stated_reason": "superannuates",
+    "successor_status": "NAMED_PERMANENT",
+    "successor_source": "INTERNAL",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/1581a3bc-5226-4efa-ae8c-4ef031e74f6b.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "GTPL Hathway Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Trading Symbol: GTPL",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "in place of Mr. Saurav Banerjee who superannuates on September 30, 2026",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "as Chief Financial Officer (Key Managerial Personnel) of the Company",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "who superannuates on September 30, 2026 (close of business hours).",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "Date: September 18, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "who superannuates on September 30, 2026 (close of business hours).",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "who superannuates on September 30, 2026 (close of business hours).",
+        "page": 1
+      },
+      "successor_status": {
+        "quote": "Appointment of Mr. Piyush Pankaj, currently serving as the Business Head – B2B (CATV",
+        "page": 1
+      },
+      "successor_source": {
+        "quote": "has been associated with the Company for the last 10 years",
+        "page": 1
+      },
+      "successor_name": {
+        "quote": "Appointment of Mr. Piyush Pankaj, currently serving as the Business Head – B2B (CATV",
+        "page": 1
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "a4a38ed38ee2",
+    "successor_name": "Piyush Pankaj",
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "Successor takes office",
+        "value": "2026-10-01",
+        "quote": "of the Company with effect from October 1, 2026,",
+        "page": 1
+      }
+    ],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "947bd87af639d957e65206fa74c17b2ac97d32edf4d495d28c3e4a49d46916c7",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    },
+    "corrections": [
+      {
+        "field": "exchange_symbol",
+        "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+        "found_by": "verification_v1"
+      }
+    ]
+  },
+  {
+    "id": "info-edge-20261028-md-ceo",
+    "company": "Info Edge (India) Limited",
+    "exchange_symbol": "NAUKRI",
+    "practice": "Digital",
+    "person_name": "Hitesh Oberoi",
+    "role_title": "Managing Director and Chief Executive Officer",
+    "role_level": "CEO_MD",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-10-28",
+    "effective_date": "2026-12-02",
+    "stated_reason": "to devote more time to his personal interests",
+    "successor_status": "NAMED_PERMANENT",
+    "successor_source": "INTERNAL",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/6430107d-c92e-4c13-b770-73bcbc8912f6.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For Info Edge (India) Limited",
+        "page": 2
+      },
+      "exchange_symbol": {
+        "quote": "(Scrip Symbol: NAUKRI)",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Transition of Mr. Hitesh Oberoi from full-time operating role",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "positions as Managing Director and Chief Executive Officer (Key Managerial Personnel)",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "A copy of Mr. Oberoi’s resignation letter is enclosed as Annexure II.",
+        "page": 2
+      },
+      "filing_date": {
+        "quote": "Date: October 28, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "effect from the close of business hours on December 2, 2026,",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "in order to devote more time to his personal interests",
+        "page": 1
+      },
+      "successor_status": {
+        "quote": "Appointment and re-designation of Mr. Sanjeev Bikhchandani as Executive Vice Chairman, Managing",
+        "page": 2
+      },
+      "successor_source": {
+        "quote": "approved the appointment and re-designation of Mr. Sanjeev Bikhchandani (DIN: 00065640)",
+        "page": 2
+      },
+      "successor_name": {
+        "quote": "Appointment and re-designation of Mr. Sanjeev Bikhchandani as Executive Vice Chairman, Managing",
+        "page": 2
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "38762ce7e174",
+    "successor_name": "Sanjeev Bikhchandani",
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "Also stated",
+        "value": "to spend more time with his family",
+        "quote": "as well as to spend more time with his family.",
+        "page": 1
+      },
+      {
+        "label": "Tenure",
+        "value": "nearly 27 years with Info Edge",
+        "quote": "after nearly 27 years with Info Edge.",
+        "page": 1
+      },
+      {
+        "label": "Board role after the transition",
+        "value": "Additional Director (non-executive)",
+        "quote": "approved the appointment of Mr. Hitesh Oberoi (DIN: 01189953) as an Additional Director,",
+        "page": 1
+      },
+      {
+        "label": "Successor takes office",
+        "value": "2026-12-03",
+        "quote": "with effect from December 3, 2026, subject to the approval of the members",
+        "page": 2
+      }
+    ],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "4ea1ae9e0c37bea899660a14ea1520e0ac201e4c36277c4f3b1021c84fde4048",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "cartrade-20260825-ceo-consumer-business",
+    "company": "CarTrade Tech Limited",
+    "exchange_symbol": "CARTRADE",
+    "practice": "Digital",
+    "person_name": "Banwari Lal Sharma",
+    "role_title": "Chief Executive Officer – Consumer Business",
+    "role_level": "BUSINESS_HEAD",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-08-25",
+    "effective_date": "2026-08-25",
+    "stated_reason": "to pursue new opportunities",
+    "successor_status": "NOT_NAMED",
+    "successor_source": "NOT_APPLICABLE",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/6003215e-0710-4123-a79b-081f577aa7b7.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For CarTrade Tech Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Scrip Code: 543333 Scrip Symbol: CARTRADE",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Mr. Banwari Lal Sharma, Chief Executive Officer – Consumer Business, designated as Senior",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Mr. Banwari Lal Sharma, Chief Executive Officer – Consumer Business, designated as Senior",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "has tendered his resignation from the services of the Company",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "Date: August 25, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "effective from August 25, 2026 to pursue new opportunities.",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "effective from August 25, 2026 to pursue new opportunities.",
+        "page": 1
+      },
+      "successor_status": {
+        "quote": "The Consumer Business will continue to be led by the existing leadership team",
+        "page": 1
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so there is no source to classify."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "45297d19fda0",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "Interim arrangement",
+        "value": "Existing leadership team, under the Chairman & MD's guidance",
+        "quote": "under the strategic guidance of Mr. Vinay Sanghi, Chairman and Managing Director,",
+        "page": 1
+      },
+      {
+        "label": "Tenure stated in the resignation email",
+        "value": "more than 22 years",
+        "quote": "It has been a wonderful journey of more than 22 years",
+        "page": 3
+      }
+    ],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "bf7b76cf09fec8ed48efb1b28f07c6d078044bd0ce631051544ddc18564a1f65",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "niit-20261014-ceo",
+    "company": "NIIT Limited",
+    "exchange_symbol": "NIITLTD",
+    "practice": "Digital",
+    "person_name": "Pankaj Prabhakar Jathar",
+    "role_title": "Chief Executive Officer",
+    "role_level": "CEO_MD",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-10-14",
+    "effective_date": "2026-10-14",
+    "stated_reason": "as he wishes to pursue other interests",
+    "successor_status": "NAMED_PERMANENT",
+    "successor_source": "EXTERNAL",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/d2ce4c17-84d2-46fa-a1b2-3780cb89cdae.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For NIIT Limited",
+        "page": 2
+      },
+      "exchange_symbol": {
+        "quote": "Scrip Code : BSE – 500304; NSE – NIITLTD",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Take on record and accept resignation of Mr. Pankaj Prabhakar Jathar from the position",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "of Chief Executive Officer of the Company effective October 14, 2026,",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "Take on record and accept resignation of Mr. Pankaj Prabhakar Jathar from the position",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "October 14, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "of Chief Executive Officer of the Company effective October 14, 2026,",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "as he wishes to pursue other interests.",
+        "page": 1
+      },
+      "successor_status": {
+        "quote": "approved the appointment of Mr. Anish Kumar Sarkar as Chief Executive Officer",
+        "page": 1
+      },
+      "successor_source": {
+        "quote": "Prior to joining NIIT, he was Managing Director – India",
+        "page": 5
+      },
+      "successor_name": {
+        "quote": "approved the appointment of Mr. Anish Kumar Sarkar as Chief Executive Officer",
+        "page": 1
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "44141d03d22c",
+    "successor_name": "Anish Kumar Sarkar",
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "Outgoing CEO relieved from services",
+        "value": "2026-10-22",
+        "quote": "with effect from close of business hours on October 22, 2026.",
+        "page": 1
+      }
+    ],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "6dace2905ba2693abde933c4c9188baf7e9583c683f17e9df2433bfad2f34357",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "hexaware-20260902-ceo",
+    "company": "Hexaware Technologies Limited",
+    "exchange_symbol": "HEXT",
+    "practice": "Information Technology",
+    "person_name": "Srikrishna Ramakarthikeyan",
+    "role_title": "Chief Executive Officer (CEO) and Whole-time Director",
+    "role_level": "CEO_MD",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-09-02",
+    "effective_date": "2026-10-28",
+    "stated_reason": "to pursue personal interests",
+    "successor_status": "NAMED_PERMANENT",
+    "successor_source": "EXTERNAL",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/9b77fd8f-3c17-4629-a385-63858a55817c.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For Hexaware Technologies Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Symbol: HEXT",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Mr. Srikrishna Ramakarthikeyan (DIN: 03160121), Chief Executive Officer (CEO) and Whole-time Director",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Mr. Srikrishna Ramakarthikeyan (DIN: 03160121), Chief Executive Officer (CEO) and Whole-time Director",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "has submitted his resignation as (i) the CEO",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "HEXT/SE/2026/90 Date: September 02, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "in each case, with effect from October 28, 2026.",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "in each case, with effect from October 28, 2026, to pursue personal interests.",
+        "page": 5
+      },
+      "successor_status": {
+        "quote": "approved the appointment of Mr. Vivek Jetley, as the Chief Executive Officer (CEO)",
+        "page": 1
+      },
+      "successor_source": {
+        "quote": "He joins Hexaware from EXL, where he currently serves as",
+        "page": 4
+      },
+      "successor_name": {
+        "quote": "approved the appointment of Mr. Vivek Jetley, as the Chief Executive Officer (CEO)",
+        "page": 1
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "d2dd425f4c27",
+    "successor_name": "Vivek Jetley",
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "Outgoing CEO's next role",
+        "value": "Senior Advisor to the Company from 2026-10-28",
+        "quote": "approved the appointment of Mr. Srikrishna Ramakarthikeyan as Senior Advisor to the Company",
+        "page": 1
+      },
+      {
+        "label": "Successor's term",
+        "value": "4 years from 2026-10-28",
+        "quote": "Executive Officer, for a period of 4 (four)",
+        "page": 3
+      }
+    ],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "447feeb309c51e04788452f70278aed261a416d4f656d363aaf22d202c1e9b67",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "esds-20261030-cto-cio",
+    "company": "ESDS Software Solution Limited",
+    "exchange_symbol": "ESDS",
+    "practice": "Information Technology",
+    "person_name": "Sajiv Nair",
+    "role_title": "Chief Technology Officer & Chief Information Officer",
+    "role_level": "CXO",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-10-30",
+    "effective_date": "2027-01-27",
+    "stated_reason": "due to personal reasons",
+    "successor_status": "NOT_NAMED",
+    "successor_source": "NOT_APPLICABLE",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/733c3520-6adb-4a6d-889a-a4fcdfecc73d.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For ESDS Software Solution Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Scrip Code: 544898 Scrip Symbol: ESDS",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "sajiv Nair Chief Technology Officer & Chief Information Officer",
+        "page": 2
+      },
+      "role_title": {
+        "quote": "sajiv Nair Chief Technology Officer & Chief Information Officer",
+        "page": 2
+      },
+      "event_type": {
+        "quote": "Resigned on 29th October, 2026 due to personal reasons.",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "Date: October 30, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "On or before 27th January, 2027.",
+        "page": 1,
+        "note": "Upper bound: cessation on or before this date."
+      },
+      "stated_reason": {
+        "quote": "Resigned on 29th October, 2026 due to personal reasons.",
+        "page": 1
+      },
+      "successor_status": {
+        "quote": null,
+        "page": null,
+        "note": "No successor or interim arrangement is named on any page of the filing."
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so there is no source to classify."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "011109ca7f05",
+    "successor_name": null,
+    "effective_date_note": "on or before",
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "Requested relieving date",
+        "value": "on or before 2027-01-27",
+        "quote": "relieve me of my duties at the earliest, on or before 27th Jan 2027.",
+        "page": 2
+      }
+    ],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "bdbb3ad911e5882d0e67fe38e48c627dcd4762640b602240274ede0b77f8c176",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "esds-20261102-chief-product-officer",
+    "company": "ESDS Software Solution Limited",
+    "exchange_symbol": "ESDS",
+    "practice": "Information Technology",
+    "person_name": "Sushil Kadu",
+    "role_title": "Chief Product Officer",
+    "role_level": "CXO",
+    "event_type": "APPOINTMENT",
+    "filing_date": "2026-11-02",
+    "effective_date": "2026-11-02",
+    "stated_reason": null,
+    "successor_status": "NAMED_PERMANENT",
+    "successor_source": "EXTERNAL",
+    "source_url": "https://nsearchives.nseindia.com/corporate/ESDS_02112026163013_ESDS_BM_Outcome_BSE_NSE_Intimation.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For ESDS Software Solution Limited",
+        "page": 2
+      },
+      "exchange_symbol": {
+        "quote": "Scrip Code: 544898 Scrip Symbol: ESDS",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Appointment of Mr. Sushil Kadu as the Chief Product Officer",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Appointment of Mr. Sushil Kadu as the Chief Product Officer",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "Appointment of Mr. Sushil Kadu as the Chief Product Officer",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "Date: November 02, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "Personnel with effect from November 02, 2026 (Annexure B);",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": null,
+        "page": null,
+        "note": "Appointment: no reason for leaving applies."
+      },
+      "successor_status": {
+        "quote": "02nd November, 2026 (Full-time employment)",
+        "page": 17
+      },
+      "successor_source": {
+        "quote": "He most recently served as Director – Technology Line Manager at Amdocs",
+        "page": 17
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "ef80d7fd477a",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "49b5e2fe08454ddffda9bbfee53ff62f4b1d4e78e8b04ec5292fa1f6f6aa2fbb",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "allied-digital-20260907-avp-projects",
+    "company": "Allied Digital Services Limited",
+    "exchange_symbol": "ADSL",
+    "practice": "Information Technology",
+    "person_name": "Raghuvir Kamat",
+    "role_title": "Assistant Vice President - Projects",
+    "role_level": "OTHER_SMP",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-09-07",
+    "effective_date": "2026-09-07",
+    "stated_reason": "pursue new professional opportunity, and the need to explore a different direction",
+    "successor_status": "NOT_NAMED",
+    "successor_source": "NOT_APPLICABLE",
+    "source_url": "https://nsearchives.nseindia.com/corporate/ADSL_07092026190321_Resignation_Raghuvir_kamat.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For Allied Digital Services Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Scrip Code: 532875 Scrip Symbol: ADSL",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Raghuvir Kamat, Assistant Vice President- Projects, designated as Senior Management Personnel",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Raghuvir Kamat, Assistant Vice President- Projects, designated as Senior Management Personnel",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "has resigned from the said post in order to pursue new professional opportunity,",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "September 07, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "close of business hours on September 07, 2026.",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "pursue new professional opportunity, and the need to explore a different direction.",
+        "page": 1
+      },
+      "successor_status": {
+        "quote": null,
+        "page": null,
+        "note": "No successor or interim arrangement is named on any page of the filing."
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so there is no source to classify."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "a98ea481c6bc",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "b5254295707b58979cf5f279a8c3aae07ef781007d1a077c632e9e73450b7722",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "punjab-sind-bank-20261102-general-manager",
+    "company": "Punjab & Sind Bank",
+    "exchange_symbol": "PSB",
+    "practice": "Financial Services",
+    "person_name": "Gajraj Devi Singh Thakur",
+    "role_title": "General Manager",
+    "role_level": "OTHER_SMP",
+    "event_type": "RETIREMENT",
+    "filing_date": "2026-11-02",
+    "effective_date": "2026-10-30",
+    "stated_reason": "superannuated",
+    "successor_status": "UNCLEAR",
+    "successor_source": "UNCLEAR",
+    "source_url": "https://nsearchives.nseindia.com/corporate/PSB_02112026154708_bsense02112026.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "SYMBOL: PSB SERIES: EQ",
+        "page": 1,
+        "note": "Company name is not in the text layer; identified by its filed symbol."
+      },
+      "exchange_symbol": {
+        "quote": "SYMBOL: PSB SERIES: EQ",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Sh. Gajraj Devi Singh Thakur, General Manager has superannuated from the",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Sh. Gajraj Devi Singh Thakur, General Manager has superannuated from the",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "Sh. Gajraj Devi Singh Thakur, General Manager has superannuated from the",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "November 2, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "services of Bank at the close of business hours on 30th October 2026.",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "Sh. Gajraj Devi Singh Thakur, General Manager has superannuated from the",
+        "page": 1
+      },
+      "successor_status": {
+        "quote": "Sh. Vinay Khandelwal, has been appointed as General Manager of Bank with effect",
+        "page": 1,
+        "note": "Listed alongside, but not stated to fill the retiring officer's seat."
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "The annexure profile names a different person (Santosh Neeraj), so the source cannot be read."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "c9c263cbb952",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "symbol",
+    "context_facts": [],
+    "extraction_note": null,
+    "review_test": "Internal inconsistency: the annexure profile names a different person; company name not in text layer.",
+    "source_sha256": "55e260c218728cde47eb066e4f80659e929e1dbb3b4dfcc6945f55f0bd7b3b0f",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "punjab-sind-bank-20261102-general-manager-superseded",
+    "company": "Punjab & Sind Bank",
+    "exchange_symbol": "PSB",
+    "practice": "Financial Services",
+    "person_name": "Gajraj Devi Singh Thakur",
+    "role_title": "General Manager",
+    "role_level": "OTHER_SMP",
+    "event_type": "RETIREMENT",
+    "filing_date": "2026-11-02",
+    "effective_date": "2026-09-30",
+    "stated_reason": "superannuated",
+    "successor_status": "UNCLEAR",
+    "successor_source": "UNCLEAR",
+    "source_url": "https://nsearchives.nseindia.com/corporate/PSB_02112026154241_bsense02112026.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "SYMBOL: PSB SERIES: EQ",
+        "page": 1,
+        "note": "Company name is not in the text layer; identified by its filed symbol."
+      },
+      "exchange_symbol": {
+        "quote": "SYMBOL: PSB SERIES: EQ",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Sh. Gajraj Devi Singh Thakur, General Manager has superannuated from the",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Sh. Gajraj Devi Singh Thakur, General Manager has superannuated from the",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "Sh. Gajraj Devi Singh Thakur, General Manager has superannuated from the",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "November 2, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "services of Bank at the close of business hours on 30th September 2026.",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "Sh. Gajraj Devi Singh Thakur, General Manager has superannuated from the",
+        "page": 1
+      },
+      "successor_status": {
+        "quote": "Sh. Vinay Khandelwal, has been appointed as General Manager of Bank with effect",
+        "page": 1
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "Not determinable from the filing."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "5d00d33457c9",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "symbol",
+    "context_facts": [],
+    "extraction_note": null,
+    "review_test": "Same event filed twice, 5 minutes apart, with dates one month apart; this is the earlier copy.",
+    "source_sha256": "c61903cfb59a800975f3164f08b0b918affc8c67a1c2c96bea64d31b6e066e86",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "global-health-20261102-head-hr",
+    "company": "Global Health Limited",
+    "exchange_symbol": "MEDANTA",
+    "practice": "Healthcare & Life Sciences",
+    "person_name": "Saurabh Upadhyay",
+    "role_title": "Senior Vice President & Head-HR",
+    "role_level": "FUNCTION_HEAD",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-11-02",
+    "effective_date": "2026-12-23",
+    "stated_reason": "to pursue opportunities outside Medanta",
+    "successor_status": "NOT_NAMED",
+    "successor_source": "NOT_APPLICABLE",
+    "source_url": "https://nsearchives.nseindia.com/corporate/MEDANTA21_02112026172623_GHLResignationofSMPNOVEMBER022026SIGNED.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For Global Health Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Symbol: MEDANTA",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Resignation of Mr. Saurabh Upadhyay, Senior Vice President & Head-HR",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Resignation of Mr. Saurabh Upadhyay, Senior Vice President & Head-HR",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "Resignation of Mr. Saurabh Upadhyay, Senior Vice President & Head-HR",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "Date: November 02, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "His last working day will be close of business hours of December 23, 2026.",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "to pursue opportunities outside Medanta.",
+        "page": 5
+      },
+      "successor_status": {
+        "quote": null,
+        "page": null,
+        "note": "No successor or interim arrangement is named on any page of the filing."
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so there is no source to classify."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "adbc947a0984",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "26a9657726ae5b5fb3aede73aedb27ea361a56581f1cb7f213e09a3b62204027",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    },
+    "corrections": [
+      {
+        "field": "exchange_symbol",
+        "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+        "found_by": "verification_v1"
+      }
+    ]
+  },
+  {
+    "id": "dr-reddys-20260813-ceo-api-services",
+    "company": "Dr. Reddy's Laboratories Limited",
+    "exchange_symbol": "DRREDDY",
+    "practice": "Healthcare & Life Sciences",
+    "person_name": "Deepak Sapra",
+    "role_title": "CEO, API and Services",
+    "role_level": "BUSINESS_HEAD",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-08-13",
+    "effective_date": "2026-11-12",
+    "stated_reason": "to pursue opportunities outside the Company",
+    "successor_status": "NOT_NAMED",
+    "successor_source": "NOT_APPLICABLE",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3ba84592-5666-4053-ae62-82d09f257a80.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For Dr. Reddy’s Laboratories Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "National Stock Exchange of India Ltd. (Scrip Code: DRREDDY)",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Mr. Deepak Sapra, has resigned from the position of CEO, API and Services",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Mr. Deepak Sapra, has resigned from the position of CEO, API and Services",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "Mr. Deepak Sapra, has resigned from the position of CEO, API and Services",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "August 13, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "effective from the close of business hours on November 12, 2026.",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "to pursue opportunities outside the Company.",
+        "page": 2
+      },
+      "successor_status": {
+        "quote": null,
+        "page": null,
+        "note": "No successor or interim arrangement is named on any page of the filing."
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so there is no source to classify."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "04ac5252241b",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "07656a5610a1d4ce49e5e7dd917dc1f118af4cab22afcb17a69061987a4a8b48",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "alkem-20260924-cfo",
+    "company": "Alkem Laboratories Limited",
+    "exchange_symbol": "ALKEM",
+    "practice": "Healthcare & Life Sciences",
+    "person_name": "Nitin Agrawal",
+    "role_title": "Chief Financial Officer & Key Managerial Personnel",
+    "role_level": "CXO",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-09-24",
+    "effective_date": "2026-09-30",
+    "stated_reason": "to pursue new professional opportunities",
+    "successor_status": "NOT_NAMED",
+    "successor_source": "NOT_APPLICABLE",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4d4b7168-ae8a-4352-9352-a0d9b79bbe07.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For Alkem Laboratories Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Scrip Symbol: ALKEM",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Mr. Nitin Agrawal has resigned on 30th July, 2026 from the position of Chief",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "from the position of Chief Financial Officer & Key Managerial Personnel of the Company",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "Mr. Nitin Agrawal has resigned on 30th July, 2026 from the position of Chief",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "24th September, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "Position of the Company effective from 30th September, 2026.",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "of the Company to pursue new professional opportunities.",
+        "page": 1
+      },
+      "successor_status": {
+        "quote": null,
+        "page": null,
+        "note": "No successor or interim arrangement is named on any page of the filing."
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so there is no source to classify."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "f58212c912fa",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "Resignation tendered on",
+        "value": "2026-07-30",
+        "quote": "Mr. Nitin Agrawal has resigned on 30th July, 2026 from the position of Chief",
+        "page": 1
+      }
+    ],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "c1d49d357d8812b245f988f8fbb549238a7c6a07b6916d10b40e2e2d3c3e8ef1",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    },
+    "corrections": [
+      {
+        "field": "exchange_symbol",
+        "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+        "found_by": "verification_v1"
+      }
+    ]
+  },
+  {
+    "id": "pfizer-20260918-senior-director-policy",
+    "company": "Pfizer Limited",
+    "exchange_symbol": "PFIZER",
+    "practice": "Healthcare & Life Sciences",
+    "person_name": "Sharad Goswami",
+    "role_title": "Senior Director – Policy & Public Affairs",
+    "role_level": "FUNCTION_HEAD",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-09-18",
+    "effective_date": "2026-09-25",
+    "stated_reason": "to pursue opportunities outside Pfizer Limited",
+    "successor_status": "NOT_NAMED",
+    "successor_source": "NOT_APPLICABLE",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/679bb022-17be-4a39-ae95-aa7c82525886.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For Pfizer Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Scrip Symbol: PFIZER",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Mr. Sharad Goswami, Senior Director – Policy & Public Affairs has resigned",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Mr. Sharad Goswami, Senior Director – Policy & Public Affairs has resigned",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "Mr. Sharad Goswami, Senior Director – Policy & Public Affairs has resigned",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "September 18, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "September 25, 2026 (close of business), to pursue opportunities outside Pfizer Limited.",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "September 25, 2026 (close of business), to pursue opportunities outside Pfizer Limited.",
+        "page": 1
+      },
+      "successor_status": {
+        "quote": null,
+        "page": null,
+        "note": "No successor or interim arrangement is named on any page of the filing."
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so there is no source to classify."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "f23ed981f80d",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "3818194119b04ae043105e308c4f2d1cd461a5781c3a9fbf33202b37203f6a6c",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    },
+    "corrections": [
+      {
+        "field": "exchange_symbol",
+        "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+        "found_by": "verification_v1"
+      }
+    ]
+  },
+  {
+    "id": "cipla-20260922-global-head-supply-chain",
+    "company": "Cipla Limited",
+    "exchange_symbol": "CIPLA",
+    "practice": "Healthcare & Life Sciences",
+    "person_name": "Venkata Sai Mungara",
+    "role_title": "Global Head Supply Chain",
+    "role_level": "FUNCTION_HEAD",
+    "event_type": "OTHER",
+    "filing_date": "2026-09-22",
+    "effective_date": "2026-10-01",
+    "stated_reason": "transitioned to the role of Chief of Manufacturing and Supply Chain Operations",
+    "successor_status": "NOT_NAMED",
+    "successor_source": "NOT_APPLICABLE",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/0b3229a1-99b9-4f0a-b4e4-af2bf9378456.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For Cipla Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Scrip Symbol: CIPLA",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Mr Venkata Sai Mungara, Global Head Supply Chain, has transitioned to the role",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Mr Venkata Sai Mungara, Global Head Supply Chain, has transitioned to the role",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "Mr Venkata Sai Mungara, Global Head Supply Chain, has transitioned to the role",
+        "page": 1,
+        "note": "Internal move to a subsidiary; he ceases to be Senior Management Personnel of the listed company."
+      },
+      "filing_date": {
+        "quote": "22nd September, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "with effect from 1st October, 2026.",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "transitioned to the role of Chief of Manufacturing and Supply Chain Operations",
+        "page": 1
+      },
+      "successor_status": {
+        "quote": null,
+        "page": null,
+        "note": "No successor or interim arrangement is named on any page of the filing."
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so there is no source to classify."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "449c669cec6a",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "New role is at",
+        "value": "Cipla USA Inc. (wholly owned subsidiary)",
+        "quote": "of Cipla USA Inc. (wholly owned subsidiary of the Company)",
+        "page": 1
+      }
+    ],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "65a8a0d76b7be7dd774c7ec81c1175ae6a6765ddad11316c587f42fb1efc9c5d",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    },
+    "corrections": [
+      {
+        "field": "exchange_symbol",
+        "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+        "found_by": "verification_v1"
+      }
+    ]
+  },
+  {
+    "id": "acutaas-20261102-avp-operations",
+    "company": "Acutaas Chemicals Limited",
+    "exchange_symbol": "ACUTAAS",
+    "practice": "Healthcare & Life Sciences",
+    "person_name": "Ashish Kumar Pandey",
+    "role_title": "Assistant Vice President — Operations (Cluster Head — Unit 2 & 3)",
+    "role_level": "OTHER_SMP",
+    "event_type": "APPOINTMENT",
+    "filing_date": "2026-11-02",
+    "effective_date": "2026-11-02",
+    "stated_reason": null,
+    "successor_status": "NAMED_PERMANENT",
+    "successor_source": "UNCLEAR",
+    "source_url": "https://nsearchives.nseindia.com/corporate/AMIORG_02112026180857_IntimationSWSigned.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For, ACUTAAS CHEMICALS LIMITED",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Scrip Code: 543349 NSE Symbol: ACUTAAS",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Dr. Ashish Kumar Pandey has been appointed as",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Assistant Vice President — Operations (Cluster Head — Unit 2 & 3)",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "Dr. Ashish Kumar Pandey has been appointed as",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "November 2, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "Management Personnel of the Company, with effect from November 2, 2026.",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": null,
+        "page": null,
+        "note": "Appointment: no reason for leaving applies."
+      },
+      "successor_status": {
+        "quote": "Dr. Ashish Kumar Pandey has been appointed as",
+        "page": 1
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "The profile gives experience only; the filing does not say where he joins from."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "f9a1fb0a93a1",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "Reporting change",
+        "value": "Two unit heads now report to him; no one leaves",
+        "quote": "since there is no cessation of employment",
+        "page": 1
+      }
+    ],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "875c930bfe204bac659a4f3fdae7b968569ad3927c91f561df2f59fb539ceff1",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "lincoln-pharma-20260924-senior-gm-quality",
+    "company": "Lincoln Pharmaceuticals Limited",
+    "exchange_symbol": "LINCOLN",
+    "practice": "Healthcare & Life Sciences",
+    "person_name": "Pradeep Kumar Yadav",
+    "role_title": "Senior General Manager - Quality Assurance",
+    "role_level": "OTHER_SMP",
+    "event_type": "APPOINTMENT",
+    "filing_date": "2026-09-24",
+    "effective_date": "2026-09-24",
+    "stated_reason": null,
+    "successor_status": "NAMED_PERMANENT",
+    "successor_source": "UNCLEAR",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/956fad30-901a-4c67-8a56-dee6cf2b9134.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For Lincoln Pharmaceuticals Ltd",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Symbol-LINCOLN Scrip Code-531633",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Mr. Pradeep Kumar Yadav has been appointed as Senior General Manager- Quality Assurance",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Mr. Pradeep Kumar Yadav has been appointed as Senior General Manager- Quality Assurance",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "Mr. Pradeep Kumar Yadav has been appointed as Senior General Manager- Quality Assurance",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "Date: September 24, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "with effect from 24th September, 2026, and has been designated as Senior",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": null,
+        "page": null,
+        "note": "Appointment: no reason for leaving applies."
+      },
+      "successor_status": {
+        "quote": "Mr. Pradeep Kumar Yadav has been appointed as Senior General Manager- Quality Assurance",
+        "page": 1
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "The profile gives experience only; the filing does not say where he joins from."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "d56da9f72fb8",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "b478680f8a4520a4a3f3176f1657a188271469b43e57d28db1f226b6c9fd375b",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "orient-electric-20261102-cdio",
+    "company": "Orient Electric Limited",
+    "exchange_symbol": "ORIENTELEC",
+    "practice": "Consumer Products & Retail",
+    "person_name": "Aadarsh Rohira",
+    "role_title": "Chief Digital & Information Officer (CDIO)",
+    "role_level": "CXO",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-11-02",
+    "effective_date": "2026-12-11",
+    "stated_reason": "to pursue another professional opportunity outside of the Company",
+    "successor_status": "NOT_NAMED",
+    "successor_source": "NOT_APPLICABLE",
+    "source_url": "https://nsearchives.nseindia.com/corporate/OEL_02112026153505_Regulation30Intimation.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For Orient Electric Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Symbol: ORIENTELEC",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Mr. Aadarsh Rohira, Chief Digital & Information Officer (CDIO) and Senior Management Personnel",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Mr. Aadarsh Rohira, Chief Digital & Information Officer (CDIO) and Senior Management Personnel",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "resigned from the services of the Company vide resignation letter dated",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "2nd November 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "His last working day would be 11th December 2026 (close of business",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "decided to pursue another professional opportunity outside of the Company.",
+        "page": 3
+      },
+      "successor_status": {
+        "quote": null,
+        "page": null,
+        "note": "No successor or interim arrangement is named on any page of the filing."
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so there is no source to classify."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "1f94ab1b60ba",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "70d32922412032ded8b1da5d948ca25a685649047f87eabe9cd07797ae4984f6",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    },
+    "corrections": [
+      {
+        "field": "exchange_symbol",
+        "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+        "found_by": "verification_v1"
+      }
+    ]
+  },
+  {
+    "id": "mahindra-holidays-20261102-chief-projects-officer",
+    "company": "Mahindra Holidays & Resorts India Limited",
+    "exchange_symbol": "MHRIL",
+    "practice": "Consumer Products & Retail",
+    "person_name": "Manish Goel",
+    "role_title": "Chief Projects Officer",
+    "role_level": "CXO",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-11-02",
+    "effective_date": "2026-11-02",
+    "stated_reason": "to pursue external opportunities",
+    "successor_status": "NOT_NAMED",
+    "successor_source": "NOT_APPLICABLE",
+    "source_url": "https://nsearchives.nseindia.com/corporate/MHRIL_02112026182713_MHRIL_SE_Intimation_Manish_Goel_Signed.pdf",
+    "source_page": 2,
+    "evidence": {
+      "company": {
+        "quote": "For Mahindra Holidays & Resorts India Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Symbol: MHRIL Scrip Code: 533088",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Mr. Manish Goel, Chief Projects Officer, has tendered resignation",
+        "page": 2
+      },
+      "role_title": {
+        "quote": "Mr. Manish Goel, Chief Projects Officer, has tendered resignation",
+        "page": 2
+      },
+      "event_type": {
+        "quote": "Mr. Manish Goel, Chief Projects Officer, has tendered resignation",
+        "page": 2
+      },
+      "filing_date": {
+        "quote": "2nd November 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "Effective date of resignation: 2nd November 2026 (Close of business",
+        "page": 2
+      },
+      "stated_reason": {
+        "quote": "from the services of the Company to pursue external opportunities.",
+        "page": 2
+      },
+      "successor_status": {
+        "quote": null,
+        "page": null,
+        "note": "No successor or interim arrangement is named on any page of the filing."
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so there is no source to classify."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "5e777f5a2fd9",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "28973100f7067b4419a44091ad9308c5785001b1c95767734fc724bc86629aa9",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "britannia-20260831-cio",
+    "company": "Britannia Industries Limited",
+    "exchange_symbol": "BRITANNIA",
+    "practice": "Consumer Products & Retail",
+    "person_name": "Susheel Navanale",
+    "role_title": "Chief Information Officer",
+    "role_level": "CXO",
+    "event_type": "RETIREMENT",
+    "filing_date": "2026-08-31",
+    "effective_date": "2026-09-30",
+    "stated_reason": "will retire from the services of the Company",
+    "successor_status": "NAMED_PERMANENT",
+    "successor_source": "EXTERNAL",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/1f2f9701-2109-4b05-b3e9-c5f0b16c721b.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For Britannia Industries Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Symbol: BRITANNIA",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Mr. Susheel Navanale, Chief Information Officer of the Company will retire",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Mr. Susheel Navanale, Chief Information Officer of the Company will retire",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "Mr. Susheel Navanale, Chief Information Officer of the Company will retire",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "Date: 31st August, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "with effect from close of business hours on 30th September, 2026.",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "will retire from the services of the Company",
+        "page": 1
+      },
+      "successor_status": {
+        "quote": "approved the appointment of Mr. Rejin Surendran as the Chief Digital and Information Officer",
+        "page": 1
+      },
+      "successor_source": {
+        "quote": "Prior to joining Britannia, Mr. Rejin was working as the Global Chief",
+        "page": 2
+      },
+      "successor_name": {
+        "quote": "approved the appointment of Mr. Rejin Surendran as the Chief Digital and Information Officer",
+        "page": 1
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "174f3c23025f",
+    "successor_name": "Rejin Surendran",
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "Successor takes office",
+        "value": "2026-10-01 (designate from 2026-09-01)",
+        "quote": "Information Officer of the Company with effect 1st October, 2026.",
+        "page": 1
+      }
+    ],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "3417dad1362282a9a297399d4d8efa6fe603df3b07407fb10e1f42f37d72c969",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    },
+    "corrections": [
+      {
+        "field": "exchange_symbol",
+        "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+        "found_by": "verification_v1"
+      }
+    ]
+  },
+  {
+    "id": "havells-20261027-president",
+    "company": "Havells India Limited",
+    "exchange_symbol": "HAVELLS",
+    "practice": "Consumer Products & Retail",
+    "person_name": "Samir Kirit Anjaria",
+    "role_title": "President & SBU Head",
+    "role_level": "BUSINESS_HEAD",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-10-27",
+    "effective_date": "2026-10-27",
+    "stated_reason": "driven entirely by personal reasons",
+    "successor_status": "NOT_NAMED",
+    "successor_source": "NOT_APPLICABLE",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e53e4d58-8bdf-4cd6-b16b-d4794d8e04cb.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "for Havells India Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "NSE Symbol : HAVELLS",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Mr Samir Kirit Anjaria resigned from the position of President.",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "I wish to tender my resignation as President & SBU Head.",
+        "page": 2,
+        "note": "The cover letter says 'President'; the enclosed resignation email says 'President & SBU Head'."
+      },
+      "event_type": {
+        "quote": "Mr Samir Kirit Anjaria resigned from the position of President.",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "27th October, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "27th October, 2026 (date of cessation).",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "This decision is driven entirely by personal reasons.",
+        "page": 2
+      },
+      "successor_status": {
+        "quote": null,
+        "page": null,
+        "note": "No successor or interim arrangement is named on any page of the filing."
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so there is no source to classify."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "ed33969c068b",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "Resignation email sent",
+        "value": "2026-07-28",
+        "quote": "Sent: 28 July 2026 13:55",
+        "page": 2
+      }
+    ],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "d0df989607704905d056ab6e199183871fe9a8645b9b6685e4743779cc3e152b",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "jubilant-foodworks-20260911-cio",
+    "company": "Jubilant FoodWorks Limited",
+    "exchange_symbol": "JUBLFOOD",
+    "practice": "Consumer Products & Retail",
+    "person_name": "Narottam Sharma",
+    "role_title": "Senior Vice President & Chief Information Officer",
+    "role_level": "CXO",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-09-11",
+    "effective_date": "2026-09-14",
+    "stated_reason": "to take up an external opportunity",
+    "successor_status": "NOT_NAMED",
+    "successor_source": "NOT_APPLICABLE",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/842a1048-da82-465b-b5a5-23e1517dc1dd.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For Jubilant FoodWorks Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Symbol: JUBLFOOD",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Narottam Sharma, Senior Vice President & Chief Information Officer and Senior Managerial",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Narottam Sharma, Senior Vice President & Chief Information Officer and Senior Managerial",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "regarding the resignation of Mr. Narottam Sharma",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "JFL/NSE-BSE/2026-27/53 September 11, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "Last Working Date: September 14, 2026 (close of business",
+        "page": 2
+      },
+      "stated_reason": {
+        "quote": "to take up an external opportunity.",
+        "page": 2
+      },
+      "successor_status": {
+        "quote": null,
+        "page": null,
+        "note": "No successor or interim arrangement is named on any page of the filing."
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so there is no source to classify."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "828fe147e9f6",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "Original intimation",
+        "value": "2026-07-22 (outside the window)",
+        "quote": "This is with reference to our intimation dated July 22, 2026",
+        "page": 1
+      },
+      {
+        "label": "Last working date changed",
+        "value": "from 2026-09-18 to 2026-09-14",
+        "quote": "his last working date has been revised from September 18, 2026 to September 14,",
+        "page": 1
+      }
+    ],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "b2d3734aa139c7498442aca642537f591524a67daac7d7a48603a33b38829ed9",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    },
+    "corrections": [
+      {
+        "field": "exchange_symbol",
+        "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+        "found_by": "verification_v1"
+      }
+    ]
+  },
+  {
+    "id": "varun-beverages-20260924-coo",
+    "company": "Varun Beverages Limited",
+    "exchange_symbol": "VBL",
+    "practice": "Consumer Products & Retail",
+    "person_name": "Manmohan Rupal Paul",
+    "role_title": "Chief Operating Officer",
+    "role_level": "CXO",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-09-24",
+    "effective_date": "2026-09-24",
+    "stated_reason": null,
+    "successor_status": "NOT_NAMED",
+    "successor_source": "NOT_APPLICABLE",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/6369471e-d844-42ec-b7f2-6c8ae62cf5ab.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For Varun Beverages Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Symbol: VBL",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "pursuant to resignation of Mr. Manmohan Rupal Paul (Senior Management Personnel),",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "my decision to resign from the position of Chief Operating Officer",
+        "page": 2
+      },
+      "event_type": {
+        "quote": "pursuant to resignation of Mr. Manmohan Rupal Paul (Senior Management Personnel),",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "September 24, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "he has been relieved from duties w.e.f. September 24, 2026 (last",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": null,
+        "page": null,
+        "note": "Neither the cover letter nor the enclosed resignation letter states a reason."
+      },
+      "successor_status": {
+        "quote": null,
+        "page": null,
+        "note": "No successor or interim arrangement is named on any page of the filing."
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so there is no source to classify."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "1ccf0273221f",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "Exit timing",
+        "value": "Last working day agreed mutually",
+        "quote": "As mutually agreed, my last working data of working with Varun Beverages",
+        "page": 2
+      },
+      {
+        "label": "Resignation letter dated",
+        "value": "2026-08-29",
+        "quote": "Date; 29/08/2026",
+        "page": 2
+      }
+    ],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "4fa826ed5b8a03e1fda22235e9f74affb9b8b6e24b56df7bcac75306da3a97bd",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    },
+    "corrections": [
+      {
+        "field": "exchange_symbol",
+        "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+        "found_by": "verification_v1"
+      }
+    ]
+  },
+  {
+    "id": "whirlpool-20261022-head-accounting",
+    "company": "Whirlpool of India Limited",
+    "exchange_symbol": "WHIRLPOOL",
+    "practice": "Consumer Products & Retail",
+    "person_name": "Prafulla Kandpal",
+    "role_title": "Head-Accounting",
+    "role_level": "FUNCTION_HEAD",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-10-22",
+    "effective_date": "2026-10-30",
+    "stated_reason": "to seek opportunities outside the Company",
+    "successor_status": "NOT_NAMED",
+    "successor_source": "NOT_APPLICABLE",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/58a57c65-4b46-4dd2-97ee-b26dfdf66aed.pdf",
+    "source_page": 2,
+    "evidence": {
+      "company": {
+        "quote": "For Whirlpool of India Limited",
+        "page": 2
+      },
+      "exchange_symbol": {
+        "quote": "Symbol - WHIRLPOOL",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Mr. Prafulla Kandpal, currently Head-Accounting has tendered his resignation with",
+        "page": 2
+      },
+      "role_title": {
+        "quote": "Mr. Prafulla Kandpal, currently Head-Accounting has tendered his resignation with",
+        "page": 2
+      },
+      "event_type": {
+        "quote": "Mr. Prafulla Kandpal, currently Head-Accounting has tendered his resignation with",
+        "page": 2
+      },
+      "filing_date": {
+        "quote": "October 22, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "effect from October 30, 2026 to seek opportunities outside the Company.",
+        "page": 2
+      },
+      "stated_reason": {
+        "quote": "effect from October 30, 2026 to seek opportunities outside the Company.",
+        "page": 2
+      },
+      "successor_status": {
+        "quote": "The details of his successor and his resignation letter will be filed",
+        "page": 2
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so there is no source to classify."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "01199693a1f9",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [],
+    "extraction_note": "One filing, two finance-function exits: see whirlpool-20261022-head-taxation.",
+    "review_test": null,
+    "source_sha256": "1c448e51723978de24ddf8c6c2a5fb1ca743dc88e756ca047d7b8e169c3b4317",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    },
+    "corrections": [
+      {
+        "field": "exchange_symbol",
+        "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+        "found_by": "verification_v1"
+      }
+    ]
+  },
+  {
+    "id": "whirlpool-20261022-head-taxation",
+    "company": "Whirlpool of India Limited",
+    "exchange_symbol": "WHIRLPOOL",
+    "practice": "Consumer Products & Retail",
+    "person_name": "Vijay Waghmore",
+    "role_title": "Head-Taxation",
+    "role_level": "FUNCTION_HEAD",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-10-22",
+    "effective_date": "2026-11-13",
+    "stated_reason": "to seek opportunities outside the Company",
+    "successor_status": "NOT_NAMED",
+    "successor_source": "NOT_APPLICABLE",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/58a57c65-4b46-4dd2-97ee-b26dfdf66aed.pdf",
+    "source_page": 2,
+    "evidence": {
+      "company": {
+        "quote": "For Whirlpool of India Limited",
+        "page": 2
+      },
+      "exchange_symbol": {
+        "quote": "Symbol - WHIRLPOOL",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Mr. Vijay Waghmore, currently Head-Taxation has tendered his resignation with effect",
+        "page": 2
+      },
+      "role_title": {
+        "quote": "Mr. Vijay Waghmore, currently Head-Taxation has tendered his resignation with effect",
+        "page": 2
+      },
+      "event_type": {
+        "quote": "Mr. Vijay Waghmore, currently Head-Taxation has tendered his resignation with effect",
+        "page": 2
+      },
+      "filing_date": {
+        "quote": "October 22, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "from November 13, 2026 to seek opportunities outside the Company.",
+        "page": 2
+      },
+      "stated_reason": {
+        "quote": "from November 13, 2026 to seek opportunities outside the Company.",
+        "page": 2
+      },
+      "successor_status": {
+        "quote": "The details of his successor and his resignation letter will be filed",
+        "page": 2
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so there is no source to classify."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "01199693a1f9",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [],
+    "extraction_note": "One filing, two finance-function exits: see whirlpool-20261022-head-accounting.",
+    "review_test": null,
+    "source_sha256": "1c448e51723978de24ddf8c6c2a5fb1ca743dc88e756ca047d7b8e169c3b4317",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    },
+    "corrections": [
+      {
+        "field": "exchange_symbol",
+        "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+        "found_by": "verification_v1"
+      }
+    ]
+  },
+  {
+    "id": "welspun-corp-20261102-chro",
+    "company": "Welspun Corp Limited",
+    "exchange_symbol": "WELCORP",
+    "practice": "Industrial & Infrastructure",
+    "person_name": "Rakesh Mehta",
+    "role_title": "Chief Human Resource Officer (CHRO)",
+    "role_level": "CXO",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-11-02",
+    "effective_date": "2026-11-02",
+    "stated_reason": "due to personal reason",
+    "successor_status": "NOT_NAMED",
+    "successor_source": "NOT_APPLICABLE",
+    "source_url": "https://nsearchives.nseindia.com/corporate/WELCORP_02112026184807_SE_Intimation_SMP_Resignation_letter.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For Welspun Corp Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "(Symbol: WELCORP, Series EQ)",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Mr. Rakesh Mehta, Chief Human Resource Officer (CHRO) and Senior Management Personnel (SMP)",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Mr. Rakesh Mehta, Chief Human Resource Officer (CHRO) and Senior Management Personnel (SMP)",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "has resigned from the said position effective from the close of business hours",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "WCL/SEC/2026 November 2, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "the close of business hours on November 2, 2026, due to personal reason.",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "the close of business hours on November 2, 2026, due to personal reason.",
+        "page": 1
+      },
+      "successor_status": {
+        "quote": null,
+        "page": null,
+        "note": "No successor or interim arrangement is named on any page of the filing."
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so there is no source to classify."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "8fddce06c5f1",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "796827276e0e9de282a6778db9e4bb1518243bcc7e295a02a3e666c48dc325b8",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "laxmi-organic-20260818-cto",
+    "company": "Laxmi Organic Industries Limited",
+    "exchange_symbol": "LXCHEM",
+    "practice": "Industrial & Infrastructure",
+    "person_name": "Salil Mukundan",
+    "role_title": "Chief Technology Officer",
+    "role_level": "CXO",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-08-18",
+    "effective_date": "2026-10-31",
+    "stated_reason": "to pursue an opportunity outside Laxmi in line with his personal aspirations",
+    "successor_status": "NOT_NAMED",
+    "successor_source": "NOT_APPLICABLE",
+    "source_url": "https://nsearchives.nseindia.com/corporate/LXCHEM_18082026171737_Resingation.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For Laxmi Organic Industries Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Trading Symbol: LXCHEM",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Mr. Salil Mukundan, vide an email dated August 18, 2026 tendered his resignation",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "tendered his resignation as Chief Technology Officer of the Company",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "Mr. Salil Mukundan, vide an email dated August 18, 2026 tendered his resignation",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "August 18, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "he will be relieved from his duties on October 31, 2026.",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "to pursue an opportunity outside Laxmi in line with his personal aspirations.",
+        "page": 1
+      },
+      "successor_status": {
+        "quote": "the Company does not presently envisage like-for-like replacements for these roles",
+        "page": 1
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so there is no source to classify."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "e3720dbc8787",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "Company statement",
+        "value": "Responsibilities absorbed by the existing leadership; no like-for-like hire planned",
+        "quote": "responsibilities of the outgoing executives are being appropriately integrated within the existing leadership structure",
+        "page": 1
+      }
+    ],
+    "extraction_note": "One filing, two exits: see laxmi-organic-20260818-chief-procurement-officer.",
+    "review_test": null,
+    "source_sha256": "39f571238f162b0c0437d6785fe00f5120cb7a355d7f46c5b83f163a37e96abc",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "laxmi-organic-20260818-chief-procurement-officer",
+    "company": "Laxmi Organic Industries Limited",
+    "exchange_symbol": "LXCHEM",
+    "practice": "Industrial & Infrastructure",
+    "person_name": "Keshav Ruthia",
+    "role_title": "Chief Procurement Officer",
+    "role_level": "CXO",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-08-18",
+    "effective_date": "2026-10-31",
+    "stated_reason": "to pursue an opportunity outside Laxmi in line with his personal aspirations",
+    "successor_status": "NOT_NAMED",
+    "successor_source": "NOT_APPLICABLE",
+    "source_url": "https://nsearchives.nseindia.com/corporate/LXCHEM_18082026171737_Resingation.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For Laxmi Organic Industries Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Trading Symbol: LXCHEM",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Dr. Keshav Ruthia, vide letter dated August 3, 2026, tendered his resignation as",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "tendered his resignation as Chief Procurement Officer of the Company",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "Dr. Keshav Ruthia, vide letter dated August 3, 2026, tendered his resignation as",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "August 18, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "he will be relieved from his duties on October 31, 2026.",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "to pursue an opportunity outside Laxmi in line with his personal aspirations.",
+        "page": 1
+      },
+      "successor_status": {
+        "quote": "the Company does not presently envisage like-for-like replacements for these roles",
+        "page": 1
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so there is no source to classify."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "e3720dbc8787",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "Company statement",
+        "value": "Responsibilities absorbed by the existing leadership; no like-for-like hire planned",
+        "quote": "responsibilities of the outgoing executives are being appropriately integrated within the existing leadership structure",
+        "page": 1
+      }
+    ],
+    "extraction_note": "One filing, two exits: see laxmi-organic-20260818-cto.",
+    "review_test": null,
+    "source_sha256": "39f571238f162b0c0437d6785fe00f5120cb7a355d7f46c5b83f163a37e96abc",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "gr-infraprojects-20261102-joint-president-ptd",
+    "company": "G R Infraprojects Limited",
+    "exchange_symbol": "GRINFRA",
+    "practice": "Industrial & Infrastructure",
+    "person_name": "Unnat Prakash",
+    "role_title": "Joint President – Power Transmission and Distribution (PT & D)",
+    "role_level": "BUSINESS_HEAD",
+    "event_type": "APPOINTMENT",
+    "filing_date": "2026-11-02",
+    "effective_date": "2026-11-02",
+    "stated_reason": null,
+    "successor_status": "NAMED_PERMANENT",
+    "successor_source": "EXTERNAL",
+    "source_url": "https://nsearchives.nseindia.com/corporate/GRINFRA_02112026154316_Intimation_02112026.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For G R Infraprojects Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Scrip Code: 543317 Symbol: GRINFRA",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Mr. Unnat Prakash has been appointed as Joint President – Power Transmission and",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Joint President – Power Transmission and Distribution (PT & D)",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "Mr. Unnat Prakash has been appointed as Joint President – Power Transmission and",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "2nd November 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "SMP of the Company with effect from 2nd November 2026.",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": null,
+        "page": null,
+        "note": "Appointment: no reason for leaving applies."
+      },
+      "successor_status": {
+        "quote": "Full-Time employment with effect from date of joining the Company.",
+        "page": 2
+      },
+      "successor_source": {
+        "quote": "Full-Time employment with effect from date of joining the Company.",
+        "page": 2
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "4e0d1437b07f",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "4d38971d61b78eb6686c4902d0924d5e7ba559c8d78c40b149a6f7ffcf05b156",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "gmm-pfaudler-20260915-group-cfo",
+    "company": "GMM Pfaudler Limited",
+    "exchange_symbol": "GMMPFAUDLR",
+    "practice": "Industrial & Infrastructure",
+    "person_name": "Alexander Poempner",
+    "role_title": "Group Chief Financial Officer",
+    "role_level": "CXO",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-09-15",
+    "effective_date": "2026-11-04",
+    "stated_reason": "to pursue opportunities outside the GMM Pfaudler Group",
+    "successor_status": "NAMED_PERMANENT",
+    "successor_source": "INTERNAL",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/be997ce1-7d8b-4c11-b710-03fefca0dba0.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For GMM Pfaudler Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Scrip Code: 505255 Symbol: GMMPFAUDLR",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "the resignation of Mr. Alexander Poempner as Group Chief Financial Officer and",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "the resignation of Mr. Alexander Poempner as Group Chief Financial Officer and",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "the resignation of Mr. Alexander Poempner as Group Chief Financial Officer and",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "GMM/SEC/2026-27/40 September 15, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "will be approved, currently planned for November 4, 2026.",
+        "page": 1,
+        "note": "Planned date: cessation is tied to the Q2 FY27 board meeting."
+      },
+      "stated_reason": {
+        "quote": "decided to pursue opportunities outside the GMM Pfaudler Group.",
+        "page": 4
+      },
+      "successor_status": {
+        "quote": "Appointment of Mr. Ankit Nayyar as Group Chief Financial Officer and Key",
+        "page": 1
+      },
+      "successor_source": {
+        "quote": "Mr. Nayyar joined the Company as Deputy CFO",
+        "page": 2
+      },
+      "successor_name": {
+        "quote": "Appointment of Mr. Ankit Nayyar as Group Chief Financial Officer and Key",
+        "page": 1
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "43e2d0faee90",
+    "successor_name": "Ankit Nayyar",
+    "effective_date_note": "planned: at the end of the Q2 FY27 board meeting",
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "Handover",
+        "value": "Outgoing CFO stays with the organisation until 2026-12-31",
+        "quote": "Mr. Poempner will continue with the organization until December 31, 2026,",
+        "page": 1
+      },
+      {
+        "label": "Successor joined",
+        "value": "as Deputy CFO in May 2026",
+        "quote": "in May 2026 and has nearly two decades of",
+        "page": 2
+      }
+    ],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "724dadad18e43dd98c2f5374146499ef44012476dc74ec16ae21d21119a33926",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "ashok-leyland-20261022-head-special-projects-hr",
+    "company": "Ashok Leyland Limited",
+    "exchange_symbol": "ASHOKLEY",
+    "practice": "Industrial & Infrastructure",
+    "person_name": "Raja Radhakrishnan",
+    "role_title": "Head - Special Projects – Human Resource",
+    "role_level": "FUNCTION_HEAD",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-10-22",
+    "effective_date": "2026-10-21",
+    "stated_reason": "move on and explore some of the opportunities I have been considering",
+    "successor_status": "UNCLEAR",
+    "successor_source": "UNCLEAR",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/de3a4456-9000-4d79-ac78-dd9b2ad39749.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "for ASHOK LEYLAND LIMITED",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "SCRIP CODE: ASHOKLEY",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Mr. Raja Radhakrishnan, Head - Special Projects – Human Resource, Senior Management Personnel,",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Mr. Raja Radhakrishnan, Head - Special Projects – Human Resource, Senior Management Personnel,",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "has resigned from the Company, with effect from the close of business hours",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "October 22, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "close of business hours of October 21, 2026.",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "move on and explore some of the opportunities I have been considering.",
+        "page": 3
+      },
+      "successor_status": {
+        "quote": "work closely with you and the incoming CHRO to",
+        "page": 3,
+        "note": "The letter refers to an incoming CHRO, but no successor is named or dated."
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so the source cannot be read."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "943c623a378d",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "Resignation letter signed as",
+        "value": "President & CHRO",
+        "quote": "Raja Radhakrishnan President & CHRO",
+        "page": 3
+      }
+    ],
+    "extraction_note": "Web search attributed this filing to Dr. Reddy's; the PDF (scrip ASHOKLEY, signed for Ashok Leyland) shows Ashok Leyland.",
+    "review_test": null,
+    "source_sha256": "fcc58f4243c7bda43b56c6f5dd6402197393d73a024d7e5d480627b936c8d970",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    },
+    "corrections": [
+      {
+        "field": "exchange_symbol",
+        "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+        "found_by": "verification_v1"
+      }
+    ]
+  },
+  {
+    "id": "jay-bharat-maruti-20261102-ceo",
+    "company": "Jay Bharat Maruti Limited",
+    "exchange_symbol": "JAYBARMARU",
+    "practice": "Industrial & Infrastructure",
+    "person_name": "Mayank Varma",
+    "role_title": "Chief Executive Officer (CEO)",
+    "role_level": "CEO_MD",
+    "event_type": "APPOINTMENT",
+    "filing_date": "2026-11-02",
+    "effective_date": "2026-11-02",
+    "stated_reason": null,
+    "successor_status": "NAMED_PERMANENT",
+    "successor_source": "INTERNAL",
+    "source_url": "https://nsearchives.nseindia.com/corporate/JAYBARMARUT_02112026152353_SUBMISSION_OUTCOME.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "JAY BHARAT MARUTI LIMITED",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Scrip Code: JAYBARMARU Scrip Code: 520066",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Mr. Mayank Varma is appointed as the Chief Executive Officer (CEO) responsible for both",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Mr. Mayank Varma is appointed as the Chief Executive Officer (CEO) responsible for both",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "Mr. Mayank Varma is appointed as the Chief Executive Officer (CEO) responsible for both",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "JBML/SE/Q3/2026-27 November 02, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "Re-designation effective from … November 02, 2026.",
+        "fragments": [
+          "Re-designation effective from",
+          "November 02, 2026."
+        ],
+        "page": 12,
+        "note": "Two-column annexure table: the cell wraps around the neighbouring column."
+      },
+      "stated_reason": {
+        "quote": null,
+        "page": null,
+        "note": "Appointment: no reason for leaving applies."
+      },
+      "successor_status": {
+        "quote": "Mr. Mayank Varma is appointed as the Chief Executive Officer (CEO) responsible for both",
+        "page": 1
+      },
+      "successor_source": {
+        "quote": "approved the re-designation of below Senior Management Personnel’s (SMP’s) of the Company:",
+        "page": 1
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "99971b76b97c",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "Scope of the role",
+        "value": "Both the tooling and the auto components businesses",
+        "quote": "responsible for both tooling and auto components business.",
+        "page": 1
+      }
+    ],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "c6561c3ebbbd37879be63588f2d991f7100cd87b7f5b609767b1e69d53415df4",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "upl-20261102-president-apac-africa-europe",
+    "company": "UPL Limited",
+    "exchange_symbol": "UPL",
+    "practice": "Industrial & Infrastructure",
+    "person_name": "Sameer Tandon",
+    "role_title": "President - APAC, Africa and Europe",
+    "role_level": "BUSINESS_HEAD",
+    "event_type": "APPOINTMENT",
+    "filing_date": "2026-11-02",
+    "effective_date": "2026-11-02",
+    "stated_reason": null,
+    "successor_status": "NAMED_PERMANENT",
+    "successor_source": "UNCLEAR",
+    "source_url": "https://nsearchives.nseindia.com/corporate/UPL_02112026153604_Other_outcome_of_Board_meeting.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For UPL Limited",
+        "page": 2
+      },
+      "exchange_symbol": {
+        "quote": "SYMBOL: UPL",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "approved the appointment of Mr. Sameer Tandon, President - APAC, Africa and Europe,",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "approved the appointment of Mr. Sameer Tandon, President - APAC, Africa and Europe,",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "approved the appointment of Mr. Sameer Tandon, President - APAC, Africa and Europe,",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "November 2, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "as Senior Management Personnel of the Company with effect from November 2, 2026.",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": null,
+        "page": null,
+        "note": "Appointment: no reason for leaving applies."
+      },
+      "successor_status": {
+        "quote": "approved the appointment of Mr. Sameer Tandon, President - APAC, Africa and Europe,",
+        "page": 1
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "The filing does not say whether he already held this role or joins from outside."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "f760aa5eb5fa",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [],
+    "extraction_note": null,
+    "review_test": "Reads as an existing President being designated SMP; the filing does not show a change of seat holder.",
+    "source_sha256": "b2440503af00d4a2bdc0c1b2ebd7a94b4ac270885d172656d3a371edcd479edf",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    },
+    "corrections": [
+      {
+        "field": "exchange_symbol",
+        "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+        "found_by": "verification_v1"
+      }
+    ]
+  },
+  {
+    "id": "torrent-power-20260820-cfo",
+    "company": "Torrent Power Limited",
+    "exchange_symbol": "TORNTPOWER",
+    "practice": "Industrial & Infrastructure",
+    "person_name": "Saurabh Mashruwala",
+    "role_title": "Chief Financial Officer and Whole Time Key Managerial Personnel",
+    "role_level": "CXO",
+    "event_type": "RETIREMENT",
+    "filing_date": "2026-08-20",
+    "effective_date": "2026-08-20",
+    "stated_reason": "due to planned retirement",
+    "successor_status": "NAMED_PERMANENT",
+    "successor_source": "EXTERNAL",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/0caa4ef6-4ed8-4a21-a2e9-d704c6a04cc9.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For Torrent Power Limited",
+        "page": 2
+      },
+      "exchange_symbol": {
+        "quote": "SCRIP CODE: 532779 SCRIP SYMBOL: TORNTPOWER",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Accepted the resignation tendered by Saurabh Mashruwala from the position of Chief Financial",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "position of Chief Financial Officer and Whole Time Key Managerial Personnel of",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "hours of August 20, 2026 due to planned retirement.",
+        "page": 1,
+        "note": "The Board accepted a resignation tendered 'due to planned retirement'."
+      },
+      "filing_date": {
+        "quote": "August 20, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "hours of August 20, 2026 due to planned retirement.",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "hours of August 20, 2026 due to planned retirement.",
+        "page": 1
+      },
+      "successor_status": {
+        "quote": "Approved the appointment of Vikas Poddar as Chief Financial Officer & Whole Time Key",
+        "page": 1
+      },
+      "successor_source": {
+        "quote": "Prior to joining the Company, he was the Chief Financial Officer at Indus",
+        "page": 4
+      },
+      "successor_name": {
+        "quote": "Approved the appointment of Vikas Poddar as Chief Financial Officer & Whole Time Key",
+        "page": 1
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "294ae0169de8",
+    "successor_name": "Vikas Poddar",
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "Successor takes office",
+        "value": "2026-08-21",
+        "quote": "Senior Management Personnel of the Company w.e.f. August 21, 2026.",
+        "page": 1
+      },
+      {
+        "label": "Outgoing CFO stays on",
+        "value": "As Executive Director until a smooth transition",
+        "quote": "He will continue with the Company as ED till smooth transition.",
+        "page": 3
+      }
+    ],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "e2d9f4869031ae8e3eac2b322c3b56a7f15820322a618f74a7a0602e38a9174e",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    },
+    "corrections": [
+      {
+        "field": "role_title",
+        "reason": "The quote stopped at 'Whole Time Key' and did not support the full filed title; extended to the end of the title.",
+        "found_by": "verification_v1"
+      }
+    ]
+  },
+  {
+    "id": "jubilant-ingrevia-20261001-svp-supply-chain",
+    "company": "Jubilant Ingrevia Limited",
+    "exchange_symbol": "JUBLINGREA",
+    "practice": "Industrial & Infrastructure",
+    "person_name": "Birajeev Singh",
+    "role_title": "Sr. Vice President - Supply Chain",
+    "role_level": "FUNCTION_HEAD",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-10-01",
+    "effective_date": "2026-11-05",
+    "stated_reason": "Resigned as got better opportunity",
+    "successor_status": "NOT_NAMED",
+    "successor_source": "NOT_APPLICABLE",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/e385ee1b-4a73-4bec-88f9-da18c2a9f9c0.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For Jubilant Ingrevia Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Trading Symbol: JUBLINGREA",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Mr. Birajeev Singh, Sr. Vice President - Supply Chain",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Mr. Birajeev Singh, Sr. Vice President - Supply Chain",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "has tendered his resignation effective from close of business hours of November 5, 2026.",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "October 1, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "has tendered his resignation effective from close of business hours of November 5, 2026.",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "Resigned as got better opportunity",
+        "page": 2,
+        "note": "The company's disclosure. The enclosed email states a different reason; see context."
+      },
+      "successor_status": {
+        "quote": null,
+        "page": null,
+        "note": "No successor or interim arrangement is named on any page of the filing."
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so there is no source to classify."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "0dd536406b16",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "Reason in the executive's own email",
+        "value": "due to personal reasons",
+        "quote": "Chain at Jubilant Ingrevia, due to personal reasons.",
+        "page": 3
+      },
+      {
+        "label": "Title in the email signature",
+        "value": "Chief of SCM",
+        "quote": "Birajeev Singh Chief of SCM",
+        "page": 3
+      }
+    ],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "42f1029eb5a7971912562015e3633f543ddadaef8126aa0d5553d3c411c02a8c",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    },
+    "corrections": [
+      {
+        "field": "exchange_symbol",
+        "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+        "found_by": "verification_v1"
+      }
+    ]
+  },
+  {
+    "id": "ksb-20261101-head-project-contract-management",
+    "company": "KSB Limited",
+    "exchange_symbol": "KSB",
+    "practice": "Industrial & Infrastructure",
+    "person_name": "Mukesh R. Pattewar",
+    "role_title": "Head - Project and Contract Management",
+    "role_level": "FUNCTION_HEAD",
+    "event_type": "RETIREMENT",
+    "filing_date": "2026-11-01",
+    "effective_date": "2026-12-31",
+    "stated_reason": "superannuation",
+    "successor_status": "UNCLEAR",
+    "successor_source": "UNCLEAR",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/59f59944-8a8c-4ffe-8493-bf364de30e4f.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For KSB Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "BSE Scrip Code: 500249 NSE Symbol: KSB",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Cessation of Mr. Mukesh R. Pattewar as the Head - Project and Contract Management,",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Cessation of Mr. Mukesh R. Pattewar as the Head - Project and Contract Management,",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "with effect from close of business hours 31st December, 2026 upon his superannuation.",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "1st November, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "with effect from close of business hours 31st December, 2026 upon his superannuation.",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "with effect from close of business hours 31st December, 2026 upon his superannuation.",
+        "page": 1
+      },
+      "successor_status": {
+        "quote": "Designation of Mr. Uday Joshi as the General Manager – Project Contract",
+        "page": 1,
+        "note": "Designated for the same function from 1 Nov 2026; the filing does not call him the successor."
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "The filing does not name a successor, so the source cannot be classified."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "e54b861f490f",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "GM – Project Contract Management designated from 1 Nov 2026",
+        "value": "With KSB since 2001",
+        "quote": "associated with KSB since year 2001",
+        "page": 2
+      }
+    ],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "fd40db03acbfcc83e397fcf8ff2e33bf1e13716f00ea0ac32b15b157d8fdd654",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "welspun-specialty-20260905-coo",
+    "company": "Welspun Specialty Solutions Limited",
+    "exchange_symbol": "500365",
+    "practice": "Industrial & Infrastructure",
+    "person_name": "Gouri Shankar Roy",
+    "role_title": "Chief Operating Officer",
+    "role_level": "CXO",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-09-05",
+    "effective_date": "2026-09-05",
+    "stated_reason": "due to health issue and family commitments",
+    "successor_status": "NOT_NAMED",
+    "successor_source": "NOT_APPLICABLE",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/245411e3-141f-4e4c-9131-6503c4b6b726.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For Welspun Specialty Solutions Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Scrip Code: 500365",
+        "page": 1,
+        "note": "BSE scrip code; the filing is addressed to BSE only."
+      },
+      "person_name": {
+        "quote": "Mr. Gouri Shankar Roy, Chief Operating Officer and Senior Management Personnel (SMP)",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Mr. Gouri Shankar Roy, Chief Operating Officer and Senior Management Personnel (SMP)",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "has resigned from the said position effective from close of business hours",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "September 5, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "close of business hours on September 5, 2026 due to health issue and",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "due to health issue and family commitments.",
+        "page": 1
+      },
+      "successor_status": {
+        "quote": null,
+        "page": null,
+        "note": "No successor or interim arrangement is named on any page of the filing."
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so there is no source to classify."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "4ccfd19e861b",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "84fa4e9495a122d9856e3ed43cfaa7f73677b8b3f24b8e8755fad6cba9ed9eb1",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "rvnl-20261019-executive-director-highway",
+    "company": "Rail Vikas Nigam Limited",
+    "exchange_symbol": "RVNL",
+    "practice": "Industrial & Infrastructure",
+    "person_name": "Ashutosh Gautam",
+    "role_title": "Executive Director (Highway)",
+    "role_level": "BUSINESS_HEAD",
+    "event_type": "OTHER",
+    "filing_date": "2026-10-19",
+    "effective_date": "2026-10-19",
+    "stated_reason": "to assume charge of the post of Director (Projects), NBCC (India) Limited",
+    "successor_status": "NOT_NAMED",
+    "successor_source": "NOT_APPLICABLE",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/2886a20c-51a3-443d-86da-a38293cfe1ba.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "Scrip: RVNL",
+        "page": 1,
+        "note": "The full company name is not in the text layer; identified by its filed symbol."
+      },
+      "exchange_symbol": {
+        "quote": "Scrip: RVNL",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Shri Ashutosh Gautam, Executive Director (Highway)/RVNL has been relieved from the services",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Shri Ashutosh Gautam, Executive Director (Highway)/RVNL has been relieved from the services",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "Shri Ashutosh Gautam, Executive Director (Highway)/RVNL has been relieved from the services",
+        "page": 1,
+        "note": "Relieved to take up a post at another company: recorded as OTHER, not as a resignation."
+      },
+      "filing_date": {
+        "quote": "RVNL/SECY/STEX/2026-27 19.10.2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "of the Company on 19th October, 2026 (F/N)",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "to assume charge of the post of Director (Projects), NBCC (India) Limited",
+        "page": 1
+      },
+      "successor_status": {
+        "quote": null,
+        "page": null,
+        "note": "No successor or interim arrangement is named on any page of the filing."
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so there is no source to classify."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "a5f9c110c35d",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "symbol",
+    "context_facts": [],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "7d336cf132dbb767b44ebdf0cf9c40c3bc646a841213fdae517608f5a51067f4",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    },
+    "corrections": [
+      {
+        "field": "exchange_symbol",
+        "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+        "found_by": "verification_v1"
+      },
+      {
+        "field": "company",
+        "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+        "found_by": "verification_v1"
+      }
+    ]
+  },
+  {
+    "id": "kpi-green-20260902-cfo",
+    "company": "KPI Green Energy Limited",
+    "exchange_symbol": "KPIGREEN",
+    "practice": "Industrial & Infrastructure",
+    "person_name": "Salim Yahoo",
+    "role_title": "Chief Financial Officer (CFO) and Key Managerial Personnel (KMP)",
+    "role_level": "CXO",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-09-02",
+    "effective_date": "2026-09-02",
+    "stated_reason": null,
+    "successor_status": "NOT_NAMED",
+    "successor_source": "NOT_APPLICABLE",
+    "source_url": "https://nsearchives.nseindia.com/corporate/KPIGLOBAL_02092026155452_KPI_Intimation_Resignation_of_CFO_02092026_Signed.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For KPI Green Energy Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Symbol: KPIGREEN",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Salim Yahoo, Chief Financial Officer (“CFO”) and Key Managerial Personnel (“KMP”)",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Salim Yahoo, Chief Financial Officer (“CFO”) and Key Managerial Personnel (“KMP”)",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "regarding the resignation tendered by Mr. Salim Yahoo, Chief Financial Officer",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "KPI/MAT/SEP/2026/820 Date: September 02, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "after close of business hours on September, 2, 2026, Mr. Salim Yahoo shall cease",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": null,
+        "page": null,
+        "note": "This update states no reason; it refers to the company's communication of 11 Aug 2026."
+      },
+      "successor_status": {
+        "quote": null,
+        "page": null,
+        "note": "No successor or interim arrangement is named on any page of the filing."
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so there is no source to classify."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "492ac6b72f69",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "Earlier intimation",
+        "value": "2026-08-11",
+        "quote": "Further to our communication dated August 11, 2026, regarding the resignation",
+        "page": 1
+      },
+      {
+        "label": "Last working day",
+        "value": "Mutually decided",
+        "quote": "September 2, 2026 is mutually decided as his last working day/relieving date.",
+        "page": 1
+      }
+    ],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "402d43b38c3330f3f49690017720c9047c58116f1f1927e7ba6e09fbc72b03fe",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    },
+    "corrections": [
+      {
+        "field": "exchange_symbol",
+        "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+        "found_by": "verification_v1"
+      }
+    ]
+  },
+  {
+    "id": "sh-kelkar-20260930-evp-ingredients",
+    "company": "S H Kelkar and Company Limited",
+    "exchange_symbol": "SHK",
+    "practice": "Industrial & Infrastructure",
+    "person_name": "Vivek Kulkarni",
+    "role_title": "Executive Vice President – Ingredients Division",
+    "role_level": "BUSINESS_HEAD",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-09-30",
+    "effective_date": "2026-09-30",
+    "stated_reason": "to pursue other professional interests outside the Keva Group",
+    "successor_status": "NAMED_PERMANENT",
+    "successor_source": "INTERNAL",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/5fd9c82f-b7a0-45f6-9ea1-19a059f85b52.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For S H Kelkar and Company Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Scrip Code: 539450 Scrip Symbol: SHK",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Mr. Vivek Kulkarni, Executive Vice President – Ingredients Division and Senior Management Personnel",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Mr. Vivek Kulkarni, Executive Vice President – Ingredients Division and Senior Management Personnel",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "has resigned from the services of the Company to pursue other professional interests",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "September 30, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "with effect from the close of business hours of September 30, 2026.",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "to pursue other professional interests outside the Keva Group.",
+        "page": 1
+      },
+      "successor_status": {
+        "quote": "Consequent to Mr. Vivek Kulkarni’s decision to resign from the Company and as part",
+        "page": 1
+      },
+      "successor_source": {
+        "quote": "approved the appointment of Mr. Rajeev Mishra [currently serving as",
+        "page": 1
+      },
+      "successor_name": {
+        "quote": "approved the appointment of Mr. Rajeev Mishra [currently serving as",
+        "page": 1
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "e9206b72e760",
+    "successor_name": "Rajeev Mishra",
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "Successor's role (re-organised)",
+        "value": "Vice President – Sales & Ingredients Division, from 2026-10-01",
+        "quote": "as Vice President – Sales & Ingredients Division and Senior",
+        "page": 1
+      }
+    ],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "0a07b3196b7149523d7cb54a83e3520dd47872a3096304553027a556050bb095",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "india-nippon-20260807-cfo",
+    "company": "India Nippon Electricals Limited",
+    "exchange_symbol": "INDNIPPON",
+    "practice": "Industrial & Infrastructure",
+    "person_name": "Elango Srinivasan",
+    "role_title": "Chief Financial Officer",
+    "role_level": "CXO",
+    "event_type": "OTHER",
+    "filing_date": "2026-08-07",
+    "effective_date": "2026-09-30",
+    "stated_reason": "Change in designation",
+    "successor_status": "NAMED_PERMANENT",
+    "successor_source": "EXTERNAL",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/952f8b96-bc8f-416c-9682-1adcbb66d066.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For India Nippon Electricals Limited",
+        "page": 2
+      },
+      "exchange_symbol": {
+        "quote": "Scrip Code: INDNIPPON Scrip Code: 532240",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Change in designation of Mr. Elango Srinivasan from Chief Financial Officer of the Company",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Change in designation of Mr. Elango Srinivasan from Chief Financial Officer of the Company",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "Change in designation of Mr. Elango Srinivasan from Chief Financial Officer of the Company",
+        "page": 1,
+        "note": "Re-designated within the company: recorded as OTHER."
+      },
+      "filing_date": {
+        "quote": "August 07, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "the closure of business hours on 30th September 2026",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "Change in designation of Mr. Elango Srinivasan from Chief Financial Officer of the Company",
+        "page": 1
+      },
+      "successor_status": {
+        "quote": "approved the appointment of Mr. Saravana Kumar M as the Chief Financial",
+        "page": 2
+      },
+      "successor_source": {
+        "quote": "Prior to joining the Company, Mr. Saravana Kumar was",
+        "page": 7
+      },
+      "successor_name": {
+        "quote": "approved the appointment of Mr. Saravana Kumar M as the Chief Financial",
+        "page": 2
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "577c407df5ec",
+    "successor_name": "Saravana Kumar M",
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "New designation",
+        "value": "Special Projects Head – Finance, from 2026-10-01",
+        "quote": "to “Special Projects Head – Finance” w.e.f. 01st October 2026,",
+        "page": 1
+      },
+      {
+        "label": "Successor takes office",
+        "value": "2026-10-01",
+        "quote": "of the Company w.e.f. 01st October 2026.",
+        "page": 2
+      },
+      {
+        "label": "The filing also encloses",
+        "value": "A resignation letter (Annexure B)",
+        "quote": "A copy of the resignation letter is enclosed as Annexure B",
+        "page": 1
+      }
+    ],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "d47995900f8aa3fc9732a74a88c8bdb11f2f5758281d3c6cc148f56b10cb723b",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "vikram-solar-20260929-evp-sales-bd",
+    "company": "Vikram Solar Limited",
+    "exchange_symbol": "VIKRAMSOLR",
+    "practice": "Industrial & Infrastructure",
+    "person_name": "Rony Banerjee",
+    "role_title": "Executive Vice President – Sales & BD",
+    "role_level": "FUNCTION_HEAD",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-09-29",
+    "effective_date": "2026-09-28",
+    "stated_reason": null,
+    "successor_status": "UNCLEAR",
+    "successor_source": "UNCLEAR",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/80931a42-8937-4bdd-8da0-007028b786b6.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For and on behalf of VIKRAM SOLAR LIMITED",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "(Symbol: VIKRAMSOLR, Series EQ)",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Mr. Rony Banerjee, Executive Vice President – Sales & BD, designated as a Senior",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Mr. Rony Banerjee, Executive Vice President – Sales & BD, designated as a Senior",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "has tendered his resignation which has been accepted by the management of the Company",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "September 29, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "effective from the close of business hours on 28th September 2026.",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": null,
+        "page": null,
+        "note": "No reason in the text; the enclosed resignation letter is a scanned image with no text layer."
+      },
+      "successor_status": {
+        "quote": "Further, Mr. Nimish Jain has been appointed by the Company as Chief Business Officer.",
+        "page": 1,
+        "note": "A new Chief Business Officer will lead sales and BD; the filing does not call him the successor."
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so the source cannot be classified."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "bc7a1b6d5db0",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [
+      {
+        "label": "Related appointment",
+        "value": "Chief Business Officer to lead sales and business development",
+        "quote": "bringing together its sales and business development efforts as Vikram Solar continues",
+        "page": 1
+      },
+      {
+        "label": "Exit agreed after",
+        "value": "Internal discussions",
+        "quote": "Post internal discussions held with Mr. Rony Banerjee; the Company has",
+        "page": 2
+      }
+    ],
+    "extraction_note": null,
+    "review_test": null,
+    "source_sha256": "e0b83357c57277d1ecc13bb9b1c8b1ed08241932010f8e18e9eee4e49ff14e60",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "wockhardt-20261102-cdio-designated-smp",
+    "company": "Wockhardt Limited",
+    "exchange_symbol": "WOCKPHARMA",
+    "practice": "Healthcare & Life Sciences",
+    "person_name": "Sumit Garg",
+    "role_title": "Chief Digital & Information Officer",
+    "role_level": "CXO",
+    "event_type": "OTHER",
+    "filing_date": "2026-11-02",
+    "effective_date": "2026-11-02",
+    "stated_reason": null,
+    "successor_status": "UNCLEAR",
+    "successor_source": "UNCLEAR",
+    "source_url": "https://nsearchives.nseindia.com/corporate/WOCKPHARMA_02112026171023_changeinmanagementMrSumitGargs.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For Wockhardt Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "NSE Symbol: WOCKPHARMA",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "identified and designated Mr. Sumit Garg, Chief Digital & Information Officer as Senior",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "identified and designated Mr. Sumit Garg, Chief Digital & Information Officer as Senior",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "identified and designated Mr. Sumit Garg, Chief Digital & Information Officer as Senior",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "2nd November, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "Date of 2nd November, 2026",
+        "page": 2
+      },
+      "stated_reason": {
+        "quote": null,
+        "page": null,
+        "note": "Designation, not a departure: no reason applies."
+      },
+      "successor_status": {
+        "quote": null,
+        "page": null,
+        "note": "No seat change: the existing officer is designated SMP."
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No seat change."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "7b6f916240ef",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [],
+    "extraction_note": null,
+    "review_test": "Designation of the existing CDIO as SMP: no one leaves or joins the seat.",
+    "source_sha256": "5b549444fa803a10f843e7103767f1ce9793e32b2ee567ce7137f78ef3f9f657",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    },
+    "corrections": [
+      {
+        "field": "exchange_symbol",
+        "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+        "found_by": "verification_v1"
+      }
+    ]
+  },
+  {
+    "id": "pfizer-20260727-ed-finance-cfo",
+    "company": "Pfizer Limited",
+    "exchange_symbol": "PFIZER",
+    "practice": "Healthcare & Life Sciences",
+    "person_name": "Amit Agarwal",
+    "role_title": "Executive Director – Finance & Chief Financial Officer",
+    "role_level": "CXO",
+    "event_type": "RESIGNATION",
+    "filing_date": "2026-07-27",
+    "effective_date": "2026-10-08",
+    "stated_reason": "to pursue an opportunity outside Pfizer Limited",
+    "successor_status": "NOT_NAMED",
+    "successor_source": "NOT_APPLICABLE",
+    "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/490fb24b-3801-4b77-bead-23429d0a5b07.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "Pfizer Limited",
+        "page": 1
+      },
+      "exchange_symbol": {
+        "quote": "Scrip Symbol: PFIZER",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Mr. Amit Agarwal, Executive Director – Finance & Chief Financial Officer (DIN: 10465938)",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Mr. Amit Agarwal, Executive Director – Finance & Chief Financial Officer (DIN: 10465938)",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "has resigned from the services of the Company, with effect from October 8, 2026,",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "July 27, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "has resigned from the services of the Company, with effect from October 8, 2026,",
+        "page": 1
+      },
+      "stated_reason": {
+        "quote": "to pursue an opportunity outside Pfizer Limited.",
+        "page": 1
+      },
+      "successor_status": {
+        "quote": null,
+        "page": null,
+        "note": "No successor or interim arrangement is named on any page of the filing."
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No successor is named, so there is no source to classify."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "0959d441d825",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [],
+    "extraction_note": null,
+    "review_test": "Filed 27 Jul 2026, before the window opens on 4 Aug 2026.",
+    "source_sha256": "47c4c3c2d82e58a7942c2aba68a85377586f9e631ccf6a395db60615b8b315ea",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    },
+    "corrections": [
+      {
+        "field": "exchange_symbol",
+        "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+        "found_by": "verification_v1"
+      }
+    ]
+  },
+  {
+    "id": "banswara-syntex-20261102-coo-garment",
+    "company": "Banswara Syntex Limited",
+    "exchange_symbol": "BANSWRAS",
+    "practice": "Industrial & Infrastructure",
+    "person_name": "Sudhanshu Singhal",
+    "role_title": "Chief Operating Officer - Garment",
+    "role_level": "CXO",
+    "event_type": "APPOINTMENT",
+    "filing_date": "2026-11-02",
+    "effective_date": null,
+    "stated_reason": null,
+    "successor_status": "NAMED_PERMANENT",
+    "successor_source": "UNCLEAR",
+    "source_url": "https://nsearchives.nseindia.com/corporate/BANSWRAS_02112026144649_Intimation_Letter_Outcome_of_BM.pdf",
+    "source_page": 2,
+    "evidence": {
+      "company": {
+        "quote": "Scrip Code: 503722 Symbol: BANSWRAS",
+        "page": 1,
+        "note": "Identified by its filed symbol."
+      },
+      "exchange_symbol": {
+        "quote": "Scrip Code: 503722 Symbol: BANSWRAS",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "has approved the appointment of Mr. Sudhanshu Singhal as Chief Operating",
+        "page": 2
+      },
+      "role_title": {
+        "quote": "has approved the appointment of Mr. Sudhanshu Singhal as Chief Operating",
+        "page": 2
+      },
+      "event_type": {
+        "quote": "has approved the appointment of Mr. Sudhanshu Singhal as Chief Operating",
+        "page": 2
+      },
+      "filing_date": {
+        "quote": "2nd November,2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": "of the Company w.e.f. 2th November,",
+        "page": 2,
+        "note": "OCR-quality text: the day reads '2th', so the date cannot be confirmed."
+      },
+      "stated_reason": {
+        "quote": null,
+        "page": null,
+        "note": "Appointment: no reason for leaving applies."
+      },
+      "successor_status": {
+        "quote": "has approved the appointment of Mr. Sudhanshu Singhal as Chief Operating",
+        "page": 2
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "Not stated."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "0ea41bb4cb26",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "symbol",
+    "context_facts": [],
+    "extraction_note": null,
+    "review_test": "OCR-quality text layer: the effective date reads '2th November'.",
+    "source_sha256": "99937ff0792d91400bdcc8c2ca6e924ec6c747691dfa35008e17c578ff58e5be",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    }
+  },
+  {
+    "id": "akums-20261102-president-operations-designated-smp",
+    "company": "Akums Drugs and Pharmaceuticals Limited",
+    "exchange_symbol": "AKUMS",
+    "practice": "Healthcare & Life Sciences",
+    "person_name": "Sanjay Kumar",
+    "role_title": "President – Operations",
+    "role_level": "FUNCTION_HEAD",
+    "event_type": "OTHER",
+    "filing_date": "2026-11-02",
+    "effective_date": null,
+    "stated_reason": null,
+    "successor_status": "UNCLEAR",
+    "successor_source": "UNCLEAR",
+    "source_url": "https://nsearchives.nseindia.com/corporate/NSEAKUMS10_02112026173055_AKUMSBMOUTCOME.pdf",
+    "source_page": 1,
+    "evidence": {
+      "company": {
+        "quote": "For Akums Drugs and Pharmaceuticals Limited",
+        "page": 2
+      },
+      "exchange_symbol": {
+        "quote": "Symbol: AKUMS",
+        "page": 1
+      },
+      "person_name": {
+        "quote": "Mr. Sanjay Kumar, President – Operations, designated as Senior Management",
+        "page": 1
+      },
+      "role_title": {
+        "quote": "Mr. Sanjay Kumar, President – Operations, designated as Senior Management",
+        "page": 1
+      },
+      "event_type": {
+        "quote": "Directors has approved to designate Mr. Sanjay Kumar, President – Operations as",
+        "page": 1
+      },
+      "filing_date": {
+        "quote": "Ref: Akums/Exchange/2026-27/58 November 02, 2026",
+        "page": 1
+      },
+      "effective_date": {
+        "quote": null,
+        "page": null,
+        "note": "No effective date is stated for the designation."
+      },
+      "stated_reason": {
+        "quote": null,
+        "page": null,
+        "note": "Designation, not a departure: no reason applies."
+      },
+      "successor_status": {
+        "quote": null,
+        "page": null,
+        "note": "No seat change: an existing executive is designated SMP."
+      },
+      "successor_source": {
+        "quote": null,
+        "page": null,
+        "note": "No seat change."
+      }
+    },
+    "review_status": "UNREVIEWED",
+    "review_note": null,
+    "source_key": "585f193ce271",
+    "successor_name": null,
+    "effective_date_note": null,
+    "company_basis": "text",
+    "context_facts": [],
+    "extraction_note": null,
+    "review_test": "Designation of an existing President as SMP: no seat change.",
+    "source_sha256": "7dde55996fca9c6639c7da3ce3d98cf8abd548bd637ad65749f20c2081f7ee10",
+    "extraction": {
+      "pass": 1,
+      "method": "read of page text (engine A: pdfplumber)",
+      "built_at": "2026-11-02T15:05:20+00:00"
+    },
+    "corrections": [
+      {
+        "field": "exchange_symbol",
+        "reason": "Quote spanned two layout columns: pass 1 (pdfplumber) merged the side-by-side BSE and NSE address blocks into one line. Narrowed to the column that holds the symbol, which both independent engines reproduce.",
+        "found_by": "verification_v1"
+      }
+    ]
+  }
+]

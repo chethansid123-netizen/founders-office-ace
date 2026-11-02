@@ -1,0 +1,13 @@
+{
+  "_about": "Maps a filed role title to a role level. Rules run in order on the lower-cased title; the first match wins. The result is a Derived field: it comes from the filed title by these rules, not from the filing itself.",
+  "rules": [
+    {"level": "BUSINESS_HEAD", "pattern": "^(chief executive officer|ceo)\\s*[-–—,]\\s*\\w", "why": "CEO of a business unit, not of the company"},
+    {"level": "CEO_MD", "pattern": "managing director|^chief executive officer|^ceo\\b", "why": "Company CEO or Managing Director"},
+    {"level": "CXO", "pattern": "\\bchief\\b[^,;]*\\bofficer\\b|^chief\\s*[-–—]\\s*\\w|whole[- ]?time director", "why": "C-suite title (Chief ... Officer) or an executive whole-time director"},
+    {"level": "OTHER_SMP", "pattern": "^assistant vice president|^(senior )?general manager|^deputy\\b|\\badvisor\\b", "why": "Senior management below function-head level"},
+    {"level": "FUNCTION_HEAD", "pattern": "^president\\s*[-–—]\\s*(operations|finance|hr|human|legal|supply|manufacturing|quality)", "why": "President of a function"},
+    {"level": "BUSINESS_HEAD", "pattern": "business head|^president\\b|joint president|executive director \\(|division\\b|country business leader", "why": "Leads a business, region or division"},
+    {"level": "FUNCTION_HEAD", "pattern": "\\bhead\\b|company secretary|chief internal auditor|senior director|vice president\\s*[-–—]\\s*(supply chain|sales|marketing|finance|hr|legal|it)", "why": "Leads a function (HR, finance, supply chain, legal, sales and so on)"},
+    {"level": "OTHER_SMP", "pattern": ".*", "why": "Any other named Senior Management Personnel"}
+  ]
+}

@@ -1,0 +1,3662 @@
+{
+  "run_at": "2026-11-02T15:11:09+00:00",
+  "input": "data/extracted_v2.json",
+  "engines": {
+    "B": "pypdfium2 (PDFium)",
+    "C": "poppler pdftotext -raw"
+  },
+  "window": [
+    "2026-08-04",
+    "2026-11-02"
+  ],
+  "records": {
+    "hdfc-bank-20261007-md-ceo": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; NSE upload timestamp 2026-10-07"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "not_found",
+          "reason": "not applicable"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "quote found on p12 by engine B+C"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CEO_MD (Company CEO or Managing Director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Financial Services"
+        }
+      },
+      "context": [
+        {
+          "label": "Outgoing MD & CEO",
+          "status": "match",
+          "reason": "quote found on p11 by engine B+C"
+        },
+        {
+          "label": "Outgoing MD & CEO's last day",
+          "status": "match",
+          "reason": "quote found on p11 by engine B+C"
+        },
+        {
+          "label": "Decision not to seek re-appointment communicated",
+          "status": "match",
+          "reason": "quote found on p11 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "pnb-metlife-20260916-cfo": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "not_found",
+          "reason": "Debt-listed company: the filing carries no equity trading symbol."
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; NSE upload timestamp 2026-09-16"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "not_found",
+          "reason": "no reason wording anywhere in the document"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "absence confirmed: no named appointment, interim or successor wording in the document"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "consistent with no named successor"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CXO (C-suite title (Chief ... Officer) or an executive whole-time director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Financial Services"
+        }
+      },
+      "context": [
+        {
+          "label": "Earlier intimation",
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "city-union-bank-20261102-executive-director": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; NSE upload timestamp 2026-11-02"
+        },
+        "effective_date": {
+          "status": "not_found",
+          "reason": "no calendar date in the source for this field"
+        },
+        "stated_reason": {
+          "status": "not_found",
+          "reason": "not applicable"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CXO (C-suite title (Chief ... Officer) or an executive whole-time director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Financial Services"
+        }
+      },
+      "context": [
+        {
+          "label": "Still pending",
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "rbl-bank-20261012-cro": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; source not stated explicitly"
+        },
+        "successor_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CXO (C-suite title (Chief ... Officer) or an executive whole-time director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Financial Services"
+        }
+      },
+      "context": [
+        {
+          "label": "Successor takes office",
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "muthoot-capital-20261014-cro": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "absence confirmed: no named appointment, interim or successor wording in the document"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "consistent with no named successor"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CXO (C-suite title (Chief ... Officer) or an executive whole-time director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Financial Services"
+        }
+      },
+      "context": [
+        {
+          "label": "Resignation letter dated",
+          "status": "match",
+          "reason": "quote found on p3 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "karnataka-bank-20261019-coo": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "absence confirmed: no named appointment, interim or successor wording in the document"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "consistent with no named successor"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CXO (C-suite title (Chief ... Officer) or an executive whole-time director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Financial Services"
+        }
+      },
+      "context": [
+        {
+          "label": "Service stated in the resignation letter",
+          "status": "match",
+          "reason": "quote found on p3 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "karur-vysya-bank-20261015-coo": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; identified by filed symbol KARURVYSYA"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CXO (C-suite title (Chief ... Officer) or an executive whole-time director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Financial Services"
+        }
+      },
+      "context": [
+        {
+          "label": "Successor takes charge",
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "manappuram-20260901-business-head-cv": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; NSE upload timestamp 2026-09-01"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "absence confirmed: no named appointment, interim or successor wording in the document"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "consistent with no named successor"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives BUSINESS_HEAD (Leads a business, region or division)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Private Equity"
+        }
+      },
+      "context": [],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "manappuram-20260915-business-head-cv": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "absence confirmed: no named appointment, interim or successor wording in the document"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "consistent with no named successor"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives BUSINESS_HEAD (Leads a business, region or division)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Private Equity"
+        }
+      },
+      "context": [],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "manappuram-20260915-business-head-2w": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "absence confirmed: no named appointment, interim or successor wording in the document"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "consistent with no named successor"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives BUSINESS_HEAD (Leads a business, region or division)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Private Equity"
+        }
+      },
+      "context": [],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "india-shelter-20261102-chief-strategy": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; NSE upload timestamp 2026-11-02"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "not_found",
+          "reason": "not applicable"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C; source not stated explicitly"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CXO (C-suite title (Chief ... Officer) or an executive whole-time director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Private Equity"
+        }
+      },
+      "context": [],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "vodafone-idea-20261016-coo": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "not_found",
+          "reason": "not applicable"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CXO (C-suite title (Chief ... Officer) or an executive whole-time director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Telecom"
+        }
+      },
+      "context": [
+        {
+          "label": "Earlier employers (filed)",
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "tata-communications-20260925-company-secretary": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p3 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "consistent with no named successor"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives FUNCTION_HEAD (Leads a function (HR, finance, supply chain, legal, sales and so on))"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Telecom"
+        }
+      },
+      "context": [
+        {
+          "label": "In the role since",
+          "status": "match",
+          "reason": "quote found on p3 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "bharti-airtel-20260804-chief-internal-auditor": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; NSE upload timestamp 2026-08-04"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "not_found",
+          "reason": "not applicable"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives FUNCTION_HEAD (Leads a function (HR, finance, supply chain, legal, sales and so on))"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Telecom"
+        }
+      },
+      "context": [
+        {
+          "label": "Predecessor",
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "gtpl-hathway-20260918-cfo": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CXO (C-suite title (Chief ... Officer) or an executive whole-time director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Telecom"
+        }
+      },
+      "context": [
+        {
+          "label": "Successor takes office",
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "info-edge-20261028-md-ceo": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "successor_name": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CEO_MD (Company CEO or Managing Director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Digital"
+        }
+      },
+      "context": [
+        {
+          "label": "Also stated",
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        {
+          "label": "Tenure",
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        {
+          "label": "Board role after the transition",
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        {
+          "label": "Successor takes office",
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "cartrade-20260825-ceo-consumer-business": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "consistent with no named successor"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives BUSINESS_HEAD (CEO of a business unit, not of the company)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Digital"
+        }
+      },
+      "context": [
+        {
+          "label": "Interim arrangement",
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        {
+          "label": "Tenure stated in the resignation email",
+          "status": "match",
+          "reason": "quote found on p3 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "niit-20261014-ceo": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "quote found on p5 by engine B+C"
+        },
+        "successor_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CEO_MD (Company CEO or Managing Director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Digital"
+        }
+      },
+      "context": [
+        {
+          "label": "Outgoing CEO relieved from services",
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "hexaware-20260902-ceo": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p5 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "quote found on p4 by engine B+C"
+        },
+        "successor_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CEO_MD (Company CEO or Managing Director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Information Technology"
+        }
+      },
+      "context": [
+        {
+          "label": "Outgoing CEO's next role",
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        {
+          "label": "Successor's term",
+          "status": "match",
+          "reason": "quote found on p3 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "esds-20261030-cto-cio": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "absence confirmed: no named appointment, interim or successor wording in the document"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "consistent with no named successor"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CXO (C-suite title (Chief ... Officer) or an executive whole-time director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Information Technology"
+        }
+      },
+      "context": [
+        {
+          "label": "Requested relieving date",
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "esds-20261102-chief-product-officer": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; NSE upload timestamp 2026-11-02"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "not_found",
+          "reason": "not applicable"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p17 by engine B+C"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "quote found on p17 by engine B+C"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CXO (C-suite title (Chief ... Officer) or an executive whole-time director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Information Technology"
+        }
+      },
+      "context": [],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "allied-digital-20260907-avp-projects": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; NSE upload timestamp 2026-09-07"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "absence confirmed: no named appointment, interim or successor wording in the document"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "consistent with no named successor"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives OTHER_SMP (Senior management below function-head level)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Information Technology"
+        }
+      },
+      "context": [],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "punjab-sind-bank-20261102-general-manager": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; identified by filed symbol PSB"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; NSE upload timestamp 2026-11-02"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; reviewer judgement: unclear"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "source not stated in the filing"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives OTHER_SMP (Senior management below function-head level)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Financial Services"
+        }
+      },
+      "context": [],
+      "record_flags": [
+        "CONFLICTING_DUPLICATE: same event also in ['punjab-sind-bank-20261102-general-manager-superseded'] with different effective dates ['2026-09-30', '2026-10-30']"
+      ],
+      "needs_review": true
+    },
+    "punjab-sind-bank-20261102-general-manager-superseded": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; identified by filed symbol PSB"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; NSE upload timestamp 2026-11-02"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; reviewer judgement: unclear"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "source not stated in the filing"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives OTHER_SMP (Senior management below function-head level)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Financial Services"
+        }
+      },
+      "context": [],
+      "record_flags": [
+        "CONFLICTING_DUPLICATE: same event also in ['punjab-sind-bank-20261102-general-manager'] with different effective dates ['2026-09-30', '2026-10-30']"
+      ],
+      "needs_review": true
+    },
+    "global-health-20261102-head-hr": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; NSE upload timestamp 2026-11-02"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p5 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "absence confirmed: no named appointment, interim or successor wording in the document"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "consistent with no named successor"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives FUNCTION_HEAD (Leads a function (HR, finance, supply chain, legal, sales and so on))"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Healthcare & Life Sciences"
+        }
+      },
+      "context": [],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "dr-reddys-20260813-ceo-api-services": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "absence confirmed: no named appointment, interim or successor wording in the document"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "consistent with no named successor"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives BUSINESS_HEAD (CEO of a business unit, not of the company)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Healthcare & Life Sciences"
+        }
+      },
+      "context": [],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "alkem-20260924-cfo": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_status": {
+          "status": "mismatch",
+          "reason": "document mentions possible successor wording: ['appointment mr. n']"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "consistent with no named successor"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CXO (C-suite title (Chief ... Officer) or an executive whole-time director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Healthcare & Life Sciences"
+        }
+      },
+      "context": [
+        {
+          "label": "Resignation tendered on",
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": true
+    },
+    "pfizer-20260918-senior-director-policy": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "absence confirmed: no named appointment, interim or successor wording in the document"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "consistent with no named successor"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives FUNCTION_HEAD (Leads a function (HR, finance, supply chain, legal, sales and so on))"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Healthcare & Life Sciences"
+        }
+      },
+      "context": [],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "cipla-20260922-global-head-supply-chain": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "absence confirmed: no named appointment, interim or successor wording in the document"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "consistent with no named successor"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives FUNCTION_HEAD (Leads a function (HR, finance, supply chain, legal, sales and so on))"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Healthcare & Life Sciences"
+        }
+      },
+      "context": [
+        {
+          "label": "New role is at",
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "acutaas-20261102-avp-operations": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; NSE upload timestamp 2026-11-02"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "not_found",
+          "reason": "not applicable"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "source not stated in the filing"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives OTHER_SMP (Senior management below function-head level)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Healthcare & Life Sciences"
+        }
+      },
+      "context": [
+        {
+          "label": "Reporting change",
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "lincoln-pharma-20260924-senior-gm-quality": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "not_found",
+          "reason": "not applicable"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "source not stated in the filing"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives OTHER_SMP (Senior management below function-head level)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Healthcare & Life Sciences"
+        }
+      },
+      "context": [],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "orient-electric-20261102-cdio": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine C; NSE upload timestamp 2026-11-02"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p3 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "absence confirmed: no named appointment, interim or successor wording in the document"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "consistent with no named successor"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CXO (C-suite title (Chief ... Officer) or an executive whole-time director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Consumer Products & Retail"
+        }
+      },
+      "context": [],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "mahindra-holidays-20261102-chief-projects-officer": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; NSE upload timestamp 2026-11-02"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "absence confirmed: no named appointment, interim or successor wording in the document"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "consistent with no named successor"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CXO (C-suite title (Chief ... Officer) or an executive whole-time director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Consumer Products & Retail"
+        }
+      },
+      "context": [],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "britannia-20260831-cio": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "successor_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CXO (C-suite title (Chief ... Officer) or an executive whole-time director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Consumer Products & Retail"
+        }
+      },
+      "context": [
+        {
+          "label": "Successor takes office",
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "havells-20261027-president": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "absence confirmed: no named appointment, interim or successor wording in the document"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "consistent with no named successor"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives BUSINESS_HEAD (Leads a business, region or division)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Consumer Products & Retail"
+        }
+      },
+      "context": [
+        {
+          "label": "Resignation email sent",
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "jubilant-foodworks-20260911-cio": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "absence confirmed: no named appointment, interim or successor wording in the document"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "consistent with no named successor"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CXO (C-suite title (Chief ... Officer) or an executive whole-time director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Consumer Products & Retail"
+        }
+      },
+      "context": [
+        {
+          "label": "Original intimation",
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        {
+          "label": "Last working date changed",
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "varun-beverages-20260924-coo": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "not_found",
+          "reason": "no reason wording anywhere in the document"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "absence confirmed: no named appointment, interim or successor wording in the document"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "consistent with no named successor"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CXO (C-suite title (Chief ... Officer) or an executive whole-time director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Consumer Products & Retail"
+        }
+      },
+      "context": [
+        {
+          "label": "Exit timing",
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        {
+          "label": "Resignation letter dated",
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "whirlpool-20261022-head-accounting": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "consistent with no named successor"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives FUNCTION_HEAD (Leads a function (HR, finance, supply chain, legal, sales and so on))"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Consumer Products & Retail"
+        }
+      },
+      "context": [],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "whirlpool-20261022-head-taxation": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "consistent with no named successor"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives FUNCTION_HEAD (Leads a function (HR, finance, supply chain, legal, sales and so on))"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Consumer Products & Retail"
+        }
+      },
+      "context": [],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "welspun-corp-20261102-chro": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; NSE upload timestamp 2026-11-02"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "absence confirmed: no named appointment, interim or successor wording in the document"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "consistent with no named successor"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CXO (C-suite title (Chief ... Officer) or an executive whole-time director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Industrial & Infrastructure"
+        }
+      },
+      "context": [],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "laxmi-organic-20260818-cto": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; NSE upload timestamp 2026-08-18"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "consistent with no named successor"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CXO (C-suite title (Chief ... Officer) or an executive whole-time director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Industrial & Infrastructure"
+        }
+      },
+      "context": [
+        {
+          "label": "Company statement",
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "laxmi-organic-20260818-chief-procurement-officer": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; NSE upload timestamp 2026-08-18"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "consistent with no named successor"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CXO (C-suite title (Chief ... Officer) or an executive whole-time director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Industrial & Infrastructure"
+        }
+      },
+      "context": [
+        {
+          "label": "Company statement",
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "gr-infraprojects-20261102-joint-president-ptd": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; NSE upload timestamp 2026-11-02"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "not_found",
+          "reason": "not applicable"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives BUSINESS_HEAD (Leads a business, region or division)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Industrial & Infrastructure"
+        }
+      },
+      "context": [],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "gmm-pfaudler-20260915-group-cfo": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p4 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "successor_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CXO (C-suite title (Chief ... Officer) or an executive whole-time director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Industrial & Infrastructure"
+        }
+      },
+      "context": [
+        {
+          "label": "Handover",
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        {
+          "label": "Successor joined",
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "ashok-leyland-20261022-head-special-projects-hr": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p3 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p3 by engine B+C; reviewer judgement: unclear"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "source not stated in the filing"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives FUNCTION_HEAD (Leads a function (HR, finance, supply chain, legal, sales and so on))"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Industrial & Infrastructure"
+        }
+      },
+      "context": [
+        {
+          "label": "Resignation letter signed as",
+          "status": "match",
+          "reason": "quote found on p3 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "jay-bharat-maruti-20261102-ceo": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; NSE upload timestamp 2026-11-02"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p12 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "not_found",
+          "reason": "not applicable"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "quote found on p1 by engine C"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CEO_MD (Company CEO or Managing Director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Industrial & Infrastructure"
+        }
+      },
+      "context": [
+        {
+          "label": "Scope of the role",
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "upl-20261102-president-apac-africa-europe": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; NSE upload timestamp 2026-11-02"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "not_found",
+          "reason": "not applicable"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "source not stated in the filing"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives BUSINESS_HEAD (Leads a business, region or division)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Industrial & Infrastructure"
+        }
+      },
+      "context": [],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "torrent-power-20260820-cfo": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "quote found on p4 by engine B+C"
+        },
+        "successor_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CXO (C-suite title (Chief ... Officer) or an executive whole-time director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Industrial & Infrastructure"
+        }
+      },
+      "context": [
+        {
+          "label": "Successor takes office",
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        {
+          "label": "Outgoing CFO stays on",
+          "status": "match",
+          "reason": "quote found on p3 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "jubilant-ingrevia-20261001-svp-supply-chain": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "absence confirmed: no named appointment, interim or successor wording in the document"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "consistent with no named successor"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives FUNCTION_HEAD (Leads a function (HR, finance, supply chain, legal, sales and so on))"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Industrial & Infrastructure"
+        }
+      },
+      "context": [
+        {
+          "label": "Reason in the executive's own email",
+          "status": "match",
+          "reason": "quote found on p3 by engine B+C"
+        },
+        {
+          "label": "Title in the email signature",
+          "status": "match",
+          "reason": "quote found on p3 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "ksb-20261101-head-project-contract-management": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; reviewer judgement: unclear"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "source not stated in the filing"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives FUNCTION_HEAD (Leads a function (HR, finance, supply chain, legal, sales and so on))"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Industrial & Infrastructure"
+        }
+      },
+      "context": [
+        {
+          "label": "GM – Project Contract Management designated from 1 Nov 2026",
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "welspun-specialty-20260905-coo": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "absence confirmed: no named appointment, interim or successor wording in the document"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "consistent with no named successor"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CXO (C-suite title (Chief ... Officer) or an executive whole-time director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Industrial & Infrastructure"
+        }
+      },
+      "context": [],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "rvnl-20261019-executive-director-highway": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; identified by filed symbol RVNL"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "absence confirmed: no named appointment, interim or successor wording in the document"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "consistent with no named successor"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives BUSINESS_HEAD (Leads a business, region or division)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Industrial & Infrastructure"
+        }
+      },
+      "context": [],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "kpi-green-20260902-cfo": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; NSE upload timestamp 2026-09-02"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B"
+        },
+        "stated_reason": {
+          "status": "not_found",
+          "reason": "no reason wording anywhere in the document"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "absence confirmed: no named appointment, interim or successor wording in the document"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "consistent with no named successor"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CXO (C-suite title (Chief ... Officer) or an executive whole-time director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Industrial & Infrastructure"
+        }
+      },
+      "context": [
+        {
+          "label": "Earlier intimation",
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        {
+          "label": "Last working day",
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "sh-kelkar-20260930-evp-ingredients": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives BUSINESS_HEAD (Leads a business, region or division)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Industrial & Infrastructure"
+        }
+      },
+      "context": [
+        {
+          "label": "Successor's role (re-organised)",
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "india-nippon-20260807-cfo": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "quote found on p7 by engine B+C"
+        },
+        "successor_name": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CXO (C-suite title (Chief ... Officer) or an executive whole-time director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Industrial & Infrastructure"
+        }
+      },
+      "context": [
+        {
+          "label": "New designation",
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        {
+          "label": "Successor takes office",
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        {
+          "label": "The filing also encloses",
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "vikram-solar-20260929-evp-sales-bd": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "not_found",
+          "reason": "no reason wording anywhere in the document"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; reviewer judgement: unclear"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "source not stated in the filing"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives FUNCTION_HEAD (Leads a function (HR, finance, supply chain, legal, sales and so on))"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Industrial & Infrastructure"
+        }
+      },
+      "context": [
+        {
+          "label": "Related appointment",
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        {
+          "label": "Exit agreed after",
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        }
+      ],
+      "record_flags": [],
+      "needs_review": false
+    },
+    "wockhardt-20261102-cdio-designated-smp": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine C; NSE upload timestamp 2026-11-02"
+        },
+        "effective_date": {
+          "status": "mismatch",
+          "reason": "quote not reproducible by either independent engine"
+        },
+        "stated_reason": {
+          "status": "not_found",
+          "reason": "not applicable"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "unclear: no successor wording to classify"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "source not stated in the filing"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CXO (C-suite title (Chief ... Officer) or an executive whole-time director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Healthcare & Life Sciences"
+        }
+      },
+      "context": [],
+      "record_flags": [],
+      "needs_review": true
+    },
+    "pfizer-20260727-ed-finance-cfo": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "effective_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "stated_reason": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "absence confirmed: no named appointment, interim or successor wording in the document"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "consistent with no named successor"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CXO (C-suite title (Chief ... Officer) or an executive whole-time director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Healthcare & Life Sciences"
+        }
+      },
+      "context": [],
+      "record_flags": [
+        "OUT_OF_WINDOW: filed 2026-07-27, window 2026-08-04 to 2026-11-02"
+      ],
+      "needs_review": true
+    },
+    "banswara-syntex-20261102-coo-garment": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; identified by filed symbol BANSWRAS"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "role_title": {
+          "status": "mismatch",
+          "reason": "'Chief Operating Officer - Garment' not supported word-for-word by the quote"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; NSE upload timestamp 2026-11-02"
+        },
+        "effective_date": {
+          "status": "not_found",
+          "reason": "no calendar date in the source for this field"
+        },
+        "stated_reason": {
+          "status": "not_found",
+          "reason": "not applicable"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "source not stated in the filing"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives CXO (C-suite title (Chief ... Officer) or an executive whole-time director)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Industrial & Infrastructure"
+        }
+      },
+      "context": [],
+      "record_flags": [],
+      "needs_review": true
+    },
+    "akums-20261102-president-operations-designated-smp": {
+      "fields": {
+        "company": {
+          "status": "match",
+          "reason": "quote found on p2 by engine B+C"
+        },
+        "exchange_symbol": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "person_name": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "role_title": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "event_type": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C"
+        },
+        "filing_date": {
+          "status": "match",
+          "reason": "quote found on p1 by engine B+C; NSE upload timestamp 2026-11-02"
+        },
+        "effective_date": {
+          "status": "not_found",
+          "reason": "no calendar date in the source for this field"
+        },
+        "stated_reason": {
+          "status": "not_found",
+          "reason": "not applicable"
+        },
+        "successor_status": {
+          "status": "match",
+          "reason": "unclear: no successor wording to classify"
+        },
+        "successor_source": {
+          "status": "match",
+          "reason": "source not stated in the filing"
+        },
+        "role_level": {
+          "status": "match",
+          "reason": "rule gives FUNCTION_HEAD (President of a function)"
+        },
+        "practice": {
+          "status": "match",
+          "reason": "config/practices.json gives Healthcare & Life Sciences"
+        }
+      },
+      "context": [],
+      "record_flags": [],
+      "needs_review": false
+    }
+  },
+  "totals": {
+    "match": 706,
+    "not_found": 22,
+    "context_match": 51,
+    "mismatch": 3
+  },
+  "fields_checked": 731,
+  "context_facts_checked": 51
+}

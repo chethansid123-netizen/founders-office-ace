@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-11-02T15:12:51+00:00",
+  "window": [
+    "2026-08-04",
+    "2026-11-02"
+  ],
+  "documents_fetched": 109,
+  "filings_reviewed": 57,
+  "filings_in_study": 50,
+  "review_test_filings": 7,
+  "screened_out_at_triage": 51,
+  "fields_checked_per_run": 731,
+  "context_facts_checked_per_run": 51,
+  "verification_runs": 2,
+  "errors_found": 32,
+  "errors_found_fields": 29,
+  "errors_found_record_flags": 3,
+  "errors_fixed": 26,
+  "errors_fixed_now_match": 26,
+  "false_positives_cleared": 1,
+  "records_rejected": 7,
+  "records_verified": 53,
+  "seats_verified": 53,
+  "filings_verified": 50,
+  "date_of_last_review": "2026-11-02",
+  "reviewed_by": "Claude (AI second reader)",
+  "human_signoff": false,
+  "error_classes_v1": {
+    "Quote spanned two layout columns (address block)": 22,
+    "Quote not in the independent engines' reading order (table row)": 4,
+    "Same event filed twice with conflicting dates": 2,
+    "Possible successor wording in the document": 1,
+    "Value not fully supported by its quote": 2,
+    "Filed outside the 90-day window": 1
+  },
+  "open_items_v2": 6
+}
