@@ -121,6 +121,16 @@ decisions to `data/review_decisions_human.json`, and run `apply_review.py --requ
 decisions override the AI second reader. **The current decisions are the AI second reader's; a
 person's sign-off is still pending.**
 
+## Presenter's guide
+
+`Movers-Signal-Presenter-Guide.pdf` explains the logic, the data connections, the score and its
+weights, a click-by-click demo script and likely interview questions. Every number in it is read
+from the site's own data export, so it always agrees with the site. Rebuild after `npm run build`:
+
+```bash
+npm run guide
+```
+
 ## Layout
 
 | Path | Contents |

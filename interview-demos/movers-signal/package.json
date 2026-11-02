@@ -10,7 +10,8 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "check:site": "node scripts/check-site.mjs",
-    "check:all": "npm run lint && npm run typecheck && npm run test && npm run build && npm run check:site"
+    "check:all": "npm run lint && npm run typecheck && npm run test && npm run build && npm run check:site",
+    "guide": "python3 -I guide/build_guide.py"
   },
   "dependencies": {
     "next": "16.4.4",

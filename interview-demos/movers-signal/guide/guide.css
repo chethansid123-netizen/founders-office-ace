@@ -1,0 +1,107 @@
+/* Movers Signal presenter's guide: A4, printed by headless Chromium. Same palette as the site. */
+@page { size: A4; margin: 16mm 15mm 17mm 15mm; }
+:root {
+  --bg: #f3eee3; --surface: #fbf8f1; --surface-2: #efe9dc; --ink: #16221c; --ink-2: #33423a; --muted: #56645b;
+  --line: #d9d0bd; --pine: #1c3a30; --pine-2: #2a5646; --pine-soft: #e1ebe3; --brass: #8c6c2f; --brass-soft: #f2e7cf;
+  --slate: #2e4e62; --slate-soft: #e1e9ef; --bar: #1a7f56; --accent: #a87a1f; --track: #e6d3a8;
+}
+* { box-sizing: border-box; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+/* calt and tabular figures off: their alternate glyphs extract as private-use characters, breaking copy and search */
+body { margin: 0; font: 9.3pt/1.5 "Inter", "DejaVu Sans", sans-serif; color: var(--ink); background: #fff; font-feature-settings: "calt" 0, "tnum" 0; }
+h1, h2, h3, .serif { font-family: "Bitstream Charter", "Caladea", "Liberation Serif", Georgia, serif; letter-spacing: -0.005em; color: var(--ink); }
+h1 { font-size: 24pt; line-height: 1.12; margin: 0 0 8px; font-weight: 700; }
+h2 { font-size: 13.5pt; line-height: 1.25; margin: 16px 0 6px; font-weight: 700; break-after: avoid; }
+h3 { font-size: 10.6pt; margin: 12px 0 4px; font-weight: 700; break-after: avoid; }
+p { margin: 0 0 7px; }
+ul, ol { margin: 0 0 8px; padding-left: 17px; }
+li { margin: 2px 0; }
+a { color: var(--pine-2); text-decoration: none; }
+code, .mono { font-family: "JetBrains Mono", "DejaVu Sans Mono", monospace; font-size: 8.1pt; }
+code { background: var(--surface-2); border-radius: 4px; padding: 0 3px; }
+strong { font-weight: 650; }
+.muted { color: var(--muted); }
+.small { font-size: 8.3pt; }
+
+section.part { break-before: page; }
+.kicker { font: 600 7.6pt/1 "JetBrains Mono", monospace; letter-spacing: .14em; text-transform: uppercase; color: var(--brass); margin-bottom: 6px; }
+.lede { font-size: 10.6pt; line-height: 1.5; color: var(--ink-2); margin-bottom: 10px; }
+
+/* blocks */
+.say { border-left: 3px solid var(--pine-2); background: var(--pine-soft); border-radius: 0 9px 9px 0; padding: 8px 12px; margin: 9px 0 11px; break-inside: avoid; }
+.say > b { display: block; font: 600 7pt/1 "JetBrains Mono", monospace; letter-spacing: .12em; text-transform: uppercase; color: var(--pine-2); margin-bottom: 5px; }
+.say p { margin: 0 0 4px; font-size: 9.6pt; line-height: 1.5; font-style: italic; color: var(--ink); }
+.say p:last-child { margin-bottom: 0; }
+.note { border: 1px solid var(--brass); background: var(--brass-soft); border-radius: 9px; padding: 8px 12px; margin: 9px 0; break-inside: avoid; }
+.note > b { color: var(--brass); }
+.card { border: 1px solid var(--line); border-radius: 9px; padding: 9px 12px; margin: 8px 0; background: var(--surface); break-inside: avoid; }
+.card > b:first-child { display: block; font: 700 10pt/1.25 "Bitstream Charter", "Caladea", serif; margin-bottom: 3px; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; }
+.grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 9px; }
+.grid4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 10px 0; }
+.keep { break-inside: avoid; }
+.kpi { border: 1px solid var(--line); border-radius: 9px; padding: 8px 11px; background: var(--surface); break-inside: avoid; }
+.kpi .v { font: 650 20pt/1.05 "Inter", sans-serif; color: var(--ink); }
+.kpi .l { font-weight: 600; margin-top: 3px; }
+.kpi .n { font-size: 8pt; color: var(--muted); }
+.tag { display: inline-block; border-radius: 99px; padding: 1px 7px; font: 650 6.8pt/1.5 "Inter", sans-serif; letter-spacing: .06em; text-transform: uppercase; vertical-align: 1px; white-space: nowrap; }
+.tag.fact { background: var(--pine-soft); color: var(--pine-2); }
+.tag.derived { background: var(--slate-soft); color: var(--slate); }
+.tag.hyp { background: var(--brass-soft); color: var(--brass); border: 1px dashed var(--brass); }
+.chip { display: inline-block; border-radius: 99px; padding: 0 7px; font-size: 7.8pt; font-weight: 600; background: var(--brass-soft); color: var(--brass); white-space: nowrap; }
+
+table { width: 100%; border-collapse: collapse; margin: 6px 0 10px; font-size: 8.6pt; break-inside: auto; }
+thead th { text-align: left; font-weight: 650; color: var(--muted); font-size: 7.6pt; text-transform: uppercase; letter-spacing: .05em; border-bottom: 1.2px solid var(--ink); padding: 4px 6px 4px 0; }
+tbody td { border-bottom: 1px solid var(--line); padding: 4px 6px 4px 0; vertical-align: top; }
+tbody tr { break-inside: avoid; }
+td.n, th.n { text-align: right; white-space: nowrap; }
+td.q { font-style: italic; color: var(--ink-2); }
+
+.steps { counter-reset: st; display: grid; gap: 6px; margin: 6px 0 10px; }
+.step { counter-increment: st; display: grid; grid-template-columns: 22px 1fr; column-gap: 8px; break-inside: avoid; }
+.step::before { content: counter(st); grid-row: span 2; width: 19px; height: 19px; border-radius: 50%; background: var(--pine); color: #f3eee3; font: 600 7.8pt/19px "JetBrains Mono", monospace; text-align: center; }
+.step > b { font-weight: 650; }
+.step p { margin: 1px 0 0; color: var(--ink-2); }
+
+.flow { display: grid; grid-template-columns: repeat(4, 1fr); gap: 7px; margin: 8px 0 12px; }
+.flow div { position: relative; border: 1px solid var(--line); background: var(--surface); border-radius: 8px; padding: 6px 8px; font-size: 8.1pt; break-inside: avoid; }
+.flow div b { display: block; font-size: 8.6pt; margin-bottom: 1px; }
+.flow div i { display: block; font-style: normal; font: 600 6.8pt/1.3 "JetBrains Mono", monospace; color: var(--brass); margin-bottom: 2px; letter-spacing: .06em; }
+
+.qa .q { padding: 6px 0 7px; border-bottom: 1px solid var(--line); break-inside: avoid; }
+.qa .q > b { display: block; font-weight: 650; font-size: 9.4pt; margin-bottom: 2px; }
+.qa .q > b::before { content: "Q  "; color: var(--brass); font-family: "JetBrains Mono", monospace; }
+.qa .q p { margin: 0; color: var(--ink-2); }
+
+.shot { border: 1px solid var(--line); border-radius: 8px; overflow: hidden; margin: 6px 0 4px; break-inside: avoid; }
+.shot img { display: block; width: 100%; }
+.cap { font-size: 7.8pt; color: var(--muted); margin-bottom: 8px; }
+.click { display: inline-block; font: 7.8pt/1.45 "JetBrains Mono", monospace; background: var(--pine); color: #f3eee3; border-radius: 5px; padding: 2px 7px; margin: 2px 0 4px; }
+.bars .row { display: grid; grid-template-columns: 70px 1fr 26px; align-items: center; gap: 7px; margin: 2px 0; font-size: 8.3pt; }
+.bars .bar { height: 10px; background: var(--bar); border-radius: 0 3px 3px 0; }
+
+/* cover */
+.cover { height: 263mm; display: flex; flex-direction: column; justify-content: space-between; background: var(--pine); color: #f3eee3; border-radius: 12px; padding: 22mm 18mm 14mm; }
+.cover h1 { color: #f3eee3; font-size: 42pt; margin: 6px 0 10px; }
+.cover .kicker { color: #d6b673; }
+.cover .sub { font: 400 14pt/1.45 "Bitstream Charter", "Caladea", serif; color: #e7e2d4; max-width: 140mm; }
+.cover .mark { display: flex; gap: 5px; align-items: flex-end; height: 30px; margin-bottom: 14px; }
+.cover .mark span { width: 9px; background: #f3eee3; border-radius: 2px; }
+.cover .three { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.cover .three div { border: 1px solid rgba(243, 238, 227, .28); border-radius: 9px; padding: 9px 11px; }
+.cover .three b { display: block; font: 700 11pt/1.2 "Bitstream Charter", "Caladea", serif; margin-bottom: 3px; color: #f3eee3; }
+.cover .three span { font-size: 8.4pt; color: #d9d3c4; }
+.cover .nums { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 14px; }
+.cover .nums div { border-top: 1px solid rgba(243, 238, 227, .35); padding-top: 6px; }
+.cover .nums b { display: block; font: 650 22pt/1 "Inter", sans-serif; color: #f3eee3; }
+.cover .nums span { font-size: 8pt; color: #d9d3c4; }
+.cover .foot { font-size: 8pt; color: #d9d3c4; display: flex; justify-content: space-between; gap: 12px; border-top: 1px solid rgba(243, 238, 227, .25); padding-top: 8px; }
+
+/* contents */
+.toc { margin-top: 10px; }
+.toc .tp { display: grid; grid-template-columns: 26px 1fr 22px; gap: 6px; padding: 6px 0; border-bottom: 1px solid var(--line); break-inside: avoid; }
+.toc .tp .no { font: 600 8pt/1.6 "JetBrains Mono", monospace; color: var(--brass); }
+.toc .tp b { font: 700 11pt/1.25 "Bitstream Charter", "Caladea", serif; }
+.toc .tp span.d { display: block; font-size: 8.3pt; color: var(--muted); }
+.toc .tp .pg { font: 600 9pt/1.6 "JetBrains Mono", monospace; text-align: right; }
