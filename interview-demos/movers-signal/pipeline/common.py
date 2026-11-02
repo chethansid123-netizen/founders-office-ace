@@ -81,6 +81,8 @@ def normalize(text: str) -> str:
     quotes, only to compare them."""
     text = unicodedata.normalize("NFKC", text)
     text = "".join(_TRANSLATE.get(c, c) for c in text)
+    # a word hyphenated across a line break ("Whole-\ntime") reads as "Whole-time"
+    text = re.sub(r"(\w)-[ \t]*\n[ \t]*(?=\w)", r"\1-", text)
     text = re.sub(r"\s+", " ", text)
     return text.strip().casefold()
 

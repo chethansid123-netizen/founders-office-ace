@@ -1,0 +1,22 @@
+{
+  "built_at": "2026-11-02T15:00:59+00:00",
+  "auto_pages": [
+    {
+      "record": "esds-20261102-chief-product-officer",
+      "field": "company",
+      "resolved_page": 2,
+      "all_pages": [
+        2,
+        16
+      ]
+    },
+    {
+      "record": "gmm-pfaudler-20260915-group-cfo",
+      "field": "stated_reason",
+      "resolved_page": 4,
+      "all_pages": [
+        4
+      ]
+    }
+  ]
+}
