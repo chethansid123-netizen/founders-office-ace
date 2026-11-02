@@ -1,4 +1,5 @@
 import auditJson from "@/data/audit.json";
+import manifestJson from "@/data/raw/manifest.json";
 import recordsJson from "@/data/records.json";
 import practicesJson from "@/config/practices.json";
 import scoreJson from "@/config/score.json";
@@ -47,7 +48,7 @@ export const PRACTICES = practicesJson as unknown as {
   companies: Record<string, PracticeInfo>;
 };
 
-export const AUDIT = auditJson as Record<string, unknown> & {
+export const AUDIT = auditJson as unknown as {
   filings_reviewed: number;
   fields_checked_per_run: number;
   context_facts_checked_per_run: number;
@@ -68,3 +69,10 @@ export const AUDIT = auditJson as Record<string, unknown> & {
   window: [string, string];
   error_classes_v1: Record<string, number>;
 };
+
+const MANIFEST = manifestJson as unknown as Record<string, { url: string; sha256?: string }>;
+
+/** Public URL of a source document by its pipeline key (used for practice evidence). */
+export function urlForKey(key: string): string | undefined {
+  return MANIFEST[key]?.url;
+}

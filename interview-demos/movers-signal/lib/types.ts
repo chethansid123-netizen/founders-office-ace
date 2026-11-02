@@ -34,6 +34,8 @@ export interface SeatRecord {
   successor_status: SuccessorStatus;
   successor_source: SuccessorSource;
   source_url: string;
+  /** A byte-identical permanent copy of the same PDF (BSE AttachHis), when one exists. */
+  source_url_stable?: string;
   source_page: number | null;
   evidence: Record<string, Evidence>;
   review_status: ReviewStatus;

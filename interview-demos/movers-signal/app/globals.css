@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #f3eee3;
+  --surface: #fbf8f1;
+  --surface-2: #efe9dc;
+  --ink: #16221c;
+  --muted: #56645b;
+  --line: #d9d0bd;
+  --pine: #1c3a30;
+  --pine-2: #2a5646;
+  --pine-soft: #e1ebe3;
+  --brass: #8c6c2f;
+  --brass-soft: #f2e7cf;
+  --slate: #2e4e62;
+  --slate-soft: #e1e9ef;
+  --on-pine: #f3eee3;
+  --focus: #2a5646;
+  /* Chart marks, checked with the dataviz validator (lightness band, chroma, contrast) */
+  --viz-bar: #1a7f56;
+  --viz-accent: #a87a1f;
+  --viz-track: #e6d3a8;
+  --viz-bar-track: #d3e5da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1512;
+    --surface: #141d19;
+    --surface-2: #1a2520;
+    --ink: #e7e2d4;
+    --muted: #a0aba4;
+    --line: #2a3832;
+    --pine: #0f241d;
+    --pine-2: #9cc8b3;
+    --pine-soft: #1b2b24;
+    --brass: #d6b673;
+    --brass-soft: #2b2416;
+    --slate: #a8c6da;
+    --slate-soft: #17252f;
+    --on-pine: #e7e2d4;
+    --focus: #9cc8b3;
+    --viz-bar: #3fa77a;
+    --viz-accent: #b88a2c;
+    --viz-track: #4a3d22;
+    --viz-bar-track: #22392e;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1512;
+  --surface: #141d19;
+  --surface-2: #1a2520;
+  --ink: #e7e2d4;
+  --muted: #a0aba4;
+  --line: #2a3832;
+  --pine: #0f241d;
+  --pine-2: #9cc8b3;
+  --pine-soft: #1b2b24;
+  --brass: #d6b673;
+  --brass-soft: #2b2416;
+  --slate: #a8c6da;
+  --slate-soft: #17252f;
+  --on-pine: #e7e2d4;
+  --focus: #9cc8b3;
+  --viz-bar: #3fa77a;
+  --viz-accent: #b88a2c;
+  --viz-track: #4a3d22;
+  --viz-bar-track: #22392e;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-pine: var(--pine);
+  --color-pine-2: var(--pine-2);
+  --color-pine-soft: var(--pine-soft);
+  --color-brass: var(--brass);
+  --color-brass-soft: var(--brass-soft);
+  --color-slate: var(--slate);
+  --color-slate-soft: var(--slate-soft);
+  --color-on-pine: var(--on-pine);
+  --color-viz-bar: var(--viz-bar);
+  --color-viz-accent: var(--viz-accent);
+  --color-viz-track: var(--viz-track);
+  --color-viz-bar-track: var(--viz-bar-track);
+  --font-serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+html {
+  background: var(--bg);
+  color: var(--ink);
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+}
+h1, h2, h3 {
+  font-family: var(--font-serif);
+  letter-spacing: -0.01em;
+}
+a {
+  color: inherit;
+}
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+.num {
+  font-variant-numeric: tabular-nums;
+}
+.wrap-any {
+  overflow-wrap: anywhere;
+}
+@media print {
+  header nav, .no-print { display: none !important; }
+}

@@ -61,7 +61,7 @@ export function buildHypotheses(s: ScoredSeat): Hypotheses {
     if (d === null) line1 = `The filing names no successor for the ${role} seat and gives no exit date.`;
     else if (d > 0) line1 = `The ${role} seat opens in ${d} days (${when}) and the filing names no successor.`;
     else if (d === 0) line1 = `The ${role} seat opens today (${when}) and the filing names no successor.`;
-    else line1 = `The ${role} seat has had no named successor since ${when} (${-d} days).`;
+    else line1 = `The exit took effect on ${when}, ${-d} days ago, and the filing names no successor, so the ${role} seat may be open now unless a later filing names someone.`;
   } else if (seat.successor_status === "NAMED_PERMANENT") {
     line1 = `A permanent successor is already named, so the live question is the seat that successor leaves behind.`;
   } else if (seat.successor_status === "NAMED_INTERIM") {

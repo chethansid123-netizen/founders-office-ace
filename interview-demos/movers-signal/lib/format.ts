@@ -8,6 +8,13 @@ export function formatDate(iso: string | null | undefined): string {
   return `${d} ${MONTHS[(m ?? 1) - 1]} ${y}`;
 }
 
+/** ISO date plus n days (UTC), as yyyy-mm-dd. */
+export function addDays(iso: string, n: number): string {
+  const d = new Date(`${iso}T00:00:00Z`);
+  d.setUTCDate(d.getUTCDate() + n);
+  return d.toISOString().slice(0, 10);
+}
+
 export const ROLE_LEVEL_LABEL: Record<RoleLevel, string> = {
   CEO_MD: "CEO / MD",
   CXO: "CXO",
@@ -43,6 +50,11 @@ export function exchangeOf(url: string): string {
   if (url.includes("nseindia.com")) return "NSE";
   if (url.includes("bseindia.com")) return "BSE";
   return "Company";
+}
+
+/** The address the site links to for a seat's filing: the permanent copy when there is one. */
+export function sourceHref(seat: { source_url: string; source_url_stable?: string }): string {
+  return seat.source_url_stable ?? seat.source_url;
 }
 
 export function pdfLink(url: string, page: number | null | undefined): string {
