@@ -1,0 +1,150 @@
+SOURCE_URL: https://nsearchives.nseindia.com/corporate/MEDANTA21_02112026172623_GHLResignationofSMPNOVEMBER022026SIGNED.pdf
+SHA256: 26a9657726ae5b5fb3aede73aedb27ea361a56581f1cb7f213e09a3b62204027
+FETCHED_AT: 2026-11-02T14:06:22+00:00
+PAGES: 5
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 8 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+lobal Health
+Limited
+Date: November 02, 2026
+Ref:- GHL/2026-27/EXCH/69
+The General Manager The Manager
+Dept. of Corporate Services Listing Department
+BSE Limited, National Stock Exchange of India Limited
+P J Towers, Dalal Street, Exchange Plaza, C-1, Block G,
+Mumbai - 400 001 Bandra Kurla Complex,
+Bandra (E), Mumbai - 400 051
+Scrip Code: 543654 Symbol: MEDANTA
+Sub: Announcement under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements)
+Regulations, 2015 (‘Listing Regulations’)
+Dear Sir(s),
+Pursuant to Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015,
+as amended, (‘SEBI LODR Regulations’), we hereby inform you that the Nomination and Remuneration
+Committee of Global Health Limited (‘the Company’) in its meeting held today i.e. November 02, 2026,
+has inter alia, approved/ Noted the following:
+1. Grant of 3,14,000 ESOPs to certain eligible employees, under Part –A of GHL LTIP 2024 Plan i.e. GHL
+Employees Stock Option Scheme, 2024 at Exercise Price of Rs. 635 per Share.
+2. Resignation of Mr. Saurabh Upadhyay, Senior Vice President & Head-HR and also designated as one of
+the Senior Management Personnel of the Company. His last working day will be close of business hours
+of December 23, 2026.
+Necessary disclosures in this regard as mandated under the Listing Regulations are attached herewith as
+Annexures.
+The meeting of the Nomination &Remuneration Committee commenced at 03:00 P.M. and
+concluded at 04:35 P.M.
+This is for your information and record.
+Thanking You,
+For Global Health Limited
+Rahul Ranjan
+Company Secretary & Compliance Officer
+M.No. A17035
+Encl: a/a
+Regd. Office: E-18, Defence Colony, New Delhi 110024, Ph No.[phone redacted] www.medanta.org, [email redacted], CIN: L85110DL2004PLC128319
+
+=== PAGE 2 ===
+Limited
+Annexure: A
+Disclosures as required under Regulation 30 of SEBI (Listing Obligations and Disclosure
+Requirements) Regulations, 2015
+S. Particulars Information ESOS
+No.
+a) Global Health Limited The purpose of the GHL ESOS 2024 is to reward the
+(GHL) Employees Long Employees for their association, dedication and
+Term Share Based Incentive contribution to the goals of the Company. The Company
+Plan - 2024 (“GHL LTIP intends to use this ESOS to attract, retain and motivate
+2024 Plan”) the key talents by way of rewarding their performance
+and motivate them to contribute to the overall corporate
+growth and profitability. The Company views ESOS as
+a long-term incentive tool that would enable the
+Employees not only to become co-owners, but also to
+create wealth out of such ownership in future.
+b) Whether the scheme is in Yes, GHL LTIP 2024 is in compliance with SEBI (Share
+terms of SEBI (SBEB) Based Employee Benefits and Sweat Equity)
+Regulations, 2021 (if Regulations, 2021.
+applicable)
+c) Total number of Shares The current grant is of 3,14,000 Stock options.
+covered by these options
+Note: Each Option will result into allotment of One (1)
+Equity Share of Rs.2 /- each.
+d) (Pricing formula or Exercise The current grant of Options under ESOS is issued for an
+cPrice Exercise Price of Rs. 635/- each.
+)
+e) Options vested Not applicable at this stage
+f) Time within which option The Vested Options shall be exercised within a maximum
+may be exercised period of 3 years from the date of vesting of last
+instalment of Options under GHL LTIP 2024 Plan.
+g) Options exercised Not applicable
+h) Money realized by exercise
+of options
+i) The total number of shares
+arising as a result of exercise
+of option
+j) Options lapsed;
+k) Variation of terms of options;
+l) Brief details of significant 1. Forty-Five (45) employee is covered for the current
+terms grant.
+2. Exercise Period: The vested Options are allowed for
+exercise on and from the date of vesting. The vested
+Options need to be exercised within a maximum period
+of 3 years from the date of vesting of last instalments of
+Options under ESOS.
+Regd. Office: E-18, Defence Colony, New Delhi 110024, Ph No.[phone redacted] www.medanta.org, [email redacted], CIN: L85110DL2004PLC128319
+
+=== PAGE 3 ===
+lobal Health
+Limited
+3. Vesting period: Options granted under current tranche
+would vest in accordance with the Vesting schedule and
+Vesting Conditions as outlined in the Grant letter, subject
+to maximum period of 5 years from the date of grant of
+such Options.
+m) Subsequent changes or Not applicable
+cancellation or exercise of
+such options;
+n) Diluted earnings per share Not applicable
+pursuant to issue of equity
+shares on exercise of
+options.
+Regd. Office: E-18, Defence Colony, New Delhi 110024, Ph No.[phone redacted] www.medanta.org, [email redacted], CIN: L85110DL2004PLC128319
+
+=== PAGE 4 ===
+lobal Health
+Limited
+Annexure: B
+Disclosures as required under Regulation 30 of SEBI (Listing Obligations and Disclosure
+Requirements) Regulations, 2015
+Resignation:
+S. Particulars Details
+No.
+1. Reason for change viz. appointment, resignation, removal, Resignation
+death or otherwise
+2. Date of appointment/re-appointment/cessation (as Close of working hours of
+applicable) & term of appointment December 23, 2026
+3. Terms of Appointment NA
+4. Brief profile (in case of appointment) NA
+5. Disclosure of relationships between directors (in case of NA
+appointment of a Director)
+6. In case of Resignation, mention reason along with To pursue opportunities
+Resignation Letter outside Medanta. His Last
+working day will be close of
+business hours of
+December 23, 2026.
+Resignation Letter is attached
+as Exhibit.
+Regd. Office: E-18, Defence Colony, New Delhi 110024, Ph No.[phone redacted] www.medanta.org, [email redacted], CIN: L85110DL2004PLC128319
+
+=== PAGE 5 ===
+Saurabh Upadhyay
+Date: 02/11/2026
+To
+Mr. Pankaj Sahni
+Group Chief Executive Officer & Director
+Global Health Limited
+Sub: Resignation from the position of Senior Vice President & Head-HR of the Company
+Dear Pankaj,
+I hereby tender my resignation from the position of Senior Vice President & Head-HR of the
+Company to pursue opportunities outside Medanta. My last working day shall be close of business
+hours of December 23, 2026.
+I thank you and entire management team for consistent support and guidance during my
+association with Medanta.

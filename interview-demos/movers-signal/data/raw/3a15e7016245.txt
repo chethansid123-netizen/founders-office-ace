@@ -1,0 +1,46 @@
+SOURCE_URL: https://nsearchives.nseindia.com/corporate/CUB_02112026183459_CUB_RBI_Approval_Shri_Sankaran_ED.pdf
+SHA256: 270bae263e68bfce7537a8b18739177b9e0b223c3f7548963307ce84b155c3c2
+FETCHED_AT: 2026-11-02T14:07:03+00:00
+PAGES: 1
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 3 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+trITY UNIT]N BeNr LIvITED
+CIN : 1651 1OTN1 904P1C001287
+trUB Regd. Office : 149, T.S.R. (Big) Street, Kumbakonam - 612 001. Thanjavur District.
+Tamil Nadu. Telephone No : [phone redacted]
+nuSrAxD ExcEtultcE
+sr[cE teoa E-mail : [email redacted] Website : www.cityunionbank.bank.in
+C. O/ S h a r'e s/ LR-s | 2026-27 November 02,2026
+National Stock Exchange of India Ltd., BSE Ltd.,
+Exchange Plaza, 5th Floor, DCS - CRD,
+Plot No.C/l, G Block, Phiroze Jeejeebhoy Towers,
+Bandra-Kurla Complex, 25th Floor, Dalal Street,
+Bandra (E), Mumbai 400 001
+Mumbai 400 051
+Scrip Code: CUB Scrip Code: 532210
+Sub: Approval of RBI for appointment of Shri Sankaran G as Executive Director
+(Whole Time Director) of the Bank
+Pursuant to Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations,
+2015 (including any amendments thereto), intimation be and is hereby given that the RBI vide its
+letter no. DoR.GOV.No. 6205/08.42.00t12026-27 dated November 02, 2026, has conveyed its
+approval for the appointment of Shri Sankaran G (currently Executive President of the Bank) as
+Whole-time Director - Executive Director of the Bank for a period of three years w.e.f the date of
+taking charge.
+The Bank shall take necessary steps with regard to his induction in the Board of the Bank as
+Whole-time Director designated as Executive Director of the Bank in due course. A separate
+communication will be made to the Exchange along with relevant disclosures as per SEBI Master
+Circular no. HO|49|I4|L4(7)2025-CFD-POD2/I1376212026 dated Janauary 30, 2026, after his
+appointment is approved by the Board of the Bank.
+Kindly take the above on record and disseminate to all concerned.
+Thanking you
+Yours faithfully
+for CITY UNION BANK tlMlIED
+* F
+Venkataramanan S
+*
+Company Secretary &
+Compliance Officer
+"NARAYANA"Administrative Office, No.24-B, Gandhi Nagar, Kumbakonam - 612 001
+Phone:[phone redacted]

@@ -1,0 +1,325 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachHis/3F0828F5_E726_428E_AE83_4879FA9BF048_151451.pdf
+SHA256: b4c70777c1cbcaa9c2632903843ca968caf0c0025322d7b34bd841e7356b2267
+FETCHED_AT: 2026-11-02T14:28:54+00:00
+PAGES: 14
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 0 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+August 19, 2026
+BSE Limited
+1st floor, Phiroze Jeejeebhoy Towers
+Dalal Street, Mumbai 400 001
+Maharashtra, India
+National Stock Exchange of India Limited
+Exchange Plaza, C-1, Block G
+Bandra Kurla Complex, Bandra (E)
+Mumbai 400 051
+Maharashtra, India
+The Company Secretary and Compliance Officer,
+Dhoot Transmission Limited
+Gut No 312, Nanekarwadi, Chakan Tq Khed
+Dist Pune, NA, Chakan, Pune – 410501
+Maharashtra, India
+Sir/ Madam,
+Sub: Disclosure under Regulation 31(1) of the Securities and Exchange Board of India
+(Substantial Acquisition of Shares and Takeovers) Regulations, 2011, as amended
+(“SAST Regulations”)
+In compliance with Regulation 31(1) of the SAST Regulations, and SEBI Master Circular for SAST
+Regulations bearing reference no. SEBI/HO/CFD/PoD-1/P/CIR/2023/31 dated February 16, 2023,
+please find enclosed the requisite disclosures.
+Yours sincerely,
+For BC Asia Investments XV Limited
+__________________________
+Name: Numesh NUNKOO
+Designation: Director
+Place: Mauritius
+For BC Asia Investments XVI Limited
+__________________________
+Name: Numesh NUNKOO
+Designation: Director
+Place: Mauritius
+11
+
+=== PAGE 2 ===
+ANNEXURE – I
+Disclosure by the Promoter(s) to the stock exchanges and to the Target Company for encumbrance of shares/ invocation of encumbrance/ release of
+encumbrance, in terms of Regulation 31(1) of Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)
+Regulations, 2011
+Name of the Target Company (“TC”) Dhoot Transmission Limited
+Names of the stock exchanges where the BSE Limited
+shares of the target company are listed National Stock Exchange of India Limited
+Date of reporting August 19, 2026
+Name of the promoter or PAC on whose BC Asia Investments XV Limited (“Promoter” or “Borrower”)
+shares encumbrance has been
+created/released/invoked Separately, please note that:
+(a) BC Asia Investments XVI Limited (“BC Asia XVI” or “Guarantor”) is one of the members of the promoter
+group and holds 83 nominee shares on behalf of the Promoter as its nominee. The Promoter, along with its
+nominee BC Asia XVI, holds 42.84% of the paid-up equity share capital of the TC as per the shareholding
+pattern of the TC as on August 14, 2026.
+(b) BC Asia Investments XXIII Limited (“BC Asia XXIII” or “Parent”) holds 100% share capital of each of the
+Promoter and Guarantor and does not directly hold any equity shares in the TC.
+Details of the creation/ The Promoter has availed a facility from inter alia BNP Paribas, acting through its Singapore branch, DBS Bank Ltd
+invocation/release of encumbrance: acting through its IFSC Banking Unit at International Financial Services Centre (IFSC), GIFT City, Nomura Singapore
+Limited, Sumitomo Mitsui Banking Corporation Singapore Branch, The Hongkong and Shanghai Banking
+Corporation Limited, GIFT City Branch, Bank SinoPac Co., Ltd., KGI Bank Co., Ltd., Siemens Bank GmbH
+Singapore Branch, Taishin International Bank Co., Ltd, Crédit Agricole Corporate and Investment Bank, Singapore
+Branch and CTBC Bank Co., Singapore Branch (“Lenders”) under the terms of the facility agreement dated 17 March
+2025 as amended pursuant to an amendment and restatement agreement dated 10 March 2026 executed amongst others
+by the Promoter, Deutsche Bank AG as the agent (“Agent”) and security agent (“Security Agent”) (“Facility
+Agreement”). The Facility Agreement is entered into between inter alia the Promoter,the Guarantor, Lenders, the
+Agent and the Security Agent. Pursuant to a deed of fixed and floating charge dated 17 March 2025 (as supplemented
+by a deed of supplemental fixed and floating charge dated 10 March 2026), the Parent, being the holding company of
+the Promoter, has created a limited recourse Mauritian security over all of the Promoter’s shares in favor of the
+2
+
+=== PAGE 3 ===
+Security Agent for the benefit of the Lenders. Further, pursuant to a deed of fixed and floating charge dated 17 March
+2025 (as supplemented by a deed of supplemental fixed and floating charge dated 10 March 2026), the Parent, being
+the holding company of the Guarantor, has created a limited recourse Mauritian security over all of the Guarantor’s
+shares in favor of the Security Agent for the benefit of the Lenders. Additionally, the Promoter and the Guarantor
+have agreed to certain covenants relating to margin and prepayment which are inter alia linked to the shareholding
+percentage of the Promoter and Guarantor in the Company (together, “Indirect Encumbrance”).
+The Indirect Encumbrance over the equity shares of the Target Company was created with effect from March 17,
+2025. However, since the shares of the Target Company were listed on the stock exchanges on August 17, 2026, this
+reporting is being submitted at this stage.
+Name of Promoter holding in Promoter holding Details of events pertaining to encumbrance (3) Post event holding
+the the target company (1) already encumbered of encumbered
+promoter (2) shares {creation
+(s) or [(2) + (3)] /
+PACs release
+with him* [(2) - (3)] /
+invocation
+[(2) - (3)]}
+Number % of total Number % of total Type of Date of Type of Reasons Number % of Name of the Number % of total
+share capital share capital event creation / encumbranc for share entity in whose share
+(creation / release/ e (pledge/ encumbr capital favor shares capital
+release / invocation lien/ non ance ** encumbered***
+invocation) of disposal
+encumbran undertaking/
+ce others)
+BC Asia 87,632,0 42.842 NIL NIL Creation of March 17, Please see For the NA NA Agent and NA NA
+Investme Indirect 2025 details purposes There is Security Agent
+nts XV Encumbranc above. specified no direct for the benefit of
+Limited e The TC was under the encumbran the Lenders
+and BC listed on Facility ce on the (refer note
+Asia August 17, Agreeme shares of below#).
+______________________________________________________________________________________________________________________________________
+2 This is inclusive of 83 Equity Shares held by BC Asia XVI on behalf of the Promoter as its nominee.
+3
+
+=== PAGE 4 ===
+XVI 931 2026 nt such the TC.
+as Pursuant
+general to the
+corporate Indirect
+and Encumbra
+working nce, 100%
+capital of the
+purposes shares of
+of the the
+group Promoter
+(whether and
+directly Guarantor
+or are
+indirectl encumbere
+y)3 d.
+Notes:
+# The list of lenders under the Facility Agreement, as on date, is set out below:
+(i) BNP Paribas, acting through its Singapore branch;
+(ii) DBS Bank Ltd acting through its IFSC Banking Unit at International Financial Services Centre (IFSC), GIFT City;
+(iii) Nomura Singapore Limited;
+(iv) Sumitomo Mitsui Banking Corporation Singapore Branch;
+(v) The Hongkong and Shanghai Banking Corporation Limited, GIFT City Branch;
+(vi) Bank SinoPac Co., Ltd.;
+(vii) KGI Bank Co., Ltd.;
+(viii) Siemens Bank GmbH Singapore Branch;
+(ix) Taishin International Bank Co., Ltd;
+(x) Crédit Agricole Corporate and Investment Bank, Singapore Branch
+______________________________________________________________________________________________________________________________________
+1 Including 83 Equity Shares held by BC Asia XVI on behalf of the Promoter as its nominee.
+3 Including, but not limited to, financing capital expenditures, permitted acquisitions, permitted joint venture investments, permitted reorganisations, and financing the repayment
+or prepayment of existing indebtedness of the target group (as defined in the Facility Agreement) (if any), including the close-out of any related hedging arrangements, together
+with any costs and expenses permitted under the Facility Agreement.
+4
+
+=== PAGE 5 ===
+(xi) CTBC Bank Co., Singapore Branch
+(**) The names of all the promoters, their shareholding in the target company and their pledged shareholding as on the reporting date should appear in the
+table irrespective of whether they are reporting on the date of event or not.
+(*) Total share capital to be taken as per the latest filing done by the company in terms of Regulation 31 of the SEBI (Listing Obligations and Disclosure
+Requirements) Regulations, 2015. Diluted share / voting capital means the total number of shares in the TC assuming full conversion of the outstanding
+convertible securities / warrants into equity shares of the TC.
+5
+
+=== PAGE 6 ===
+For and on behalf of BC Asia Investments XV Limited
+Authorised signatory
+Name: Numesh NUNKOO
+Designation: Director
+Date: August 19, 2026
+Place: Mauritius
+[For the limited purposes of disclosure required under Regulation 31(1) of the SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011.]
+66
+
+=== PAGE 7 ===
+For and on behalf of BC Asia Investments XVI Limited
+Authorised signatory
+Name: Numesh NUNKOO
+Designation: Director
+Date: August 19, 2026
+Place: Mauritius
+[For the limited purposes of disclosure required under Regulation 31(1) of the SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011.]
+77
+
+=== PAGE 8 ===
+Annexure-II
+Disclosure of reasons for encumbrance
+Name of listed company Dhoot Transmission Limited (“TC”)
+Name of the recognised stock exchanges where the shares of the company are listed BSE Limited
+National Stock Exchange of India Limited
+Name of the promoter(s) I PACs whose shares have been encumbered BC Asia Investments XV Limited (“Promoter” or
+“Borrower”)
+Separately, please note that:
+(a) BC Asia Investments XVI Limited (“BC Asia XVI”
+or “Guarantor”) is one of the members of the
+promoter group and holds 83 nominee shares on
+behalf of the Promoter as its nominee. The Promoter,
+along with its nominee BC Asia XVI, holds 42.84%
+of the paid-up equity share capital of the TC on a fully
+diluted basis as per the shareholding pattern of the TC
+as on August 14, 2026.
+(b) BC Asia Investments XXIII Limited (“BC Asia
+XXIII” or “Parent”) holds 100% share capital of the
+Promoter and Guarantor and does not directly hold
+any equity shares in the TC.
+Total promoter shareholding in the listed company The details of shareholding of the Promoter (together with its
+PAC) in the TC are as follows:
+No. of shares: 87,632,093
+% of total share capital: 42.84%
+Additionally, there are certain other shareholding entities
+forming part of the promoter/ promoter group of the TC that
+8
+
+=== PAGE 9 ===
+are not PACs with the Promoter.
+However, for completeness, set out below are details of the
+aggregate promoter/promoter group shareholding in the TC
+as of August 14, 2026:
+No. of shares – 169,318,510
+% of total share capital – 82.78%
+Encumbered shares as a % of promoter shareholding There is no direct encumbrance on the shares of TC held
+by the Promoter and/or its PACs. Pursuant to the Indirect
+Encumbrance, 100% of the shares of each of the Promoter
+and Guarantor are encumbered.
+Whether encumbered share is 50% or more of promoter shareholding YES/NO
+Whether encumbered share is 20% or more of total share capital YES/NO
+Details of all the existing events/ agreements pertaining to encumbrance
+Type of encumbrance (pledge, lien, negative lien, non-disposal undertaking etc. or any other Creation of Indirect Encumbrance as specified above.
+covenant transaction, condition or Arrangement in the nature of encumbrance)
+No. and % of shares encumbered
+Specific details about the Name of the entity in whose favour shares encumbered (X) Deutsche Bank AG, Hong Kong Branch, as the Agent and Security
+encumbrance Agent for the benefit of the Lenders (as detailed in the note
+above#).
+Whether the entity X is a scheduled commercial bank, public financial YES/NO
+institution NBFC or housing finance company? If No, provide the
+nature of the business of the entity. Security Agent is an offshore bank.
+Names of all other entities in the agreement Listed company and its group companies (if any)- Nil
+Other entities (if any) –
+9
+
+=== PAGE 10 ===
+Facility Agreement:
+1. BC Asia Investments XXIII Limited
+2. BC Asia Investments XV Limited
+3. BC Asia Investments XVI Limited
+4. Deutsche Bank AG, Hong Kong Branch as Agent and
+Security Agent
+5. BNP Paribas, acting through its Singapore branch
+6. DBS Bank Limited acting through its IFSC Banking Unit
+at International Financial Services Centre (IFSC), GIFT
+City
+7. Nomura Singapore Limited
+8. Sumitomo Mitsui Banking Corporation Singapore Branch
+9. The Hongkong and Shanghai Banking Corporation
+Limited
+10. The Hongkong and Shanghai Banking Corporation
+Limited, GIFT City Branch
+11. Bank SinoPac Co., Ltd.
+12. KGI Bank Co., Ltd.
+13. Siemens Bank GmbH Singapore Branch
+14. Taishin International Bank Co., Ltd.
+15. Crédit Agricole Corporate and Investment Bank,
+Singapore Branch
+16. BNP Paribas, as arranger
+17. DBS Bank Ltd. acting through one or more of its branches,
+as arranger
+18. Nomura International (Hong Kong) Limited, as arranger
+19. Sumitomo Mitsui Banking Corporation Singapore
+Branch, as arranger
+20. The Hongkong and Shanghai Banking Corporation
+Limited, as arranger
+Fixed and floating charge granted over Promoter’s shares
+10
+
+=== PAGE 11 ===
+1. BC Asia Investments XXIII Limited
+2. Deutsche Bank AG, Hong Kong Branch
+3. BC Asia Investments XV Limited
+Fixed and floating charge granted over the Guarantor’s shares
+1. BC Asia Investments XXIII Limited
+2. Deutsche Bank AG, Hong Kong Branch
+3. BC Asia Investments XVI Limited
+Whether the encumbrance is relating to any debt instruments viz. YES/NO
+debenture, commercial paper certificate of deposit etc.? If yes provide If yes,
+details about the instrument including credit rating 1. Name of the issuer: Not Applicable
+2. Details of the debt instrument: Not Applicable
+3. Whether the debt instrument is listed in stock exchanges?: Not
+Applicable
+4. Credit Rating of the debt instrument: Not Applicable
+5. ISIN of the instrument: Not Applicable
+Security Cover I Asset Value of shares on the date of event/ agreement (A) NA.
+Cover
+The Indirect Encumbrance was created on March 17, 2025 and
+Amount involved (against which shares have been encumbered) (B)
+predates listing of the TC’s shares on the stock exchanges.
+Ratio of A/ B
+End use of money Borrowed amount to be utilized for what purpose- For the purposes specified under the Facility Agreement such as
+general corporate and working capital purposes of the group
+(a) Personal use by promoters and PACs
+(whether directly or indirectly), including, but not limited to,
+(b) For the benefit of listed company
+financing capital expenditures, permitted acquisitions, permitted
+Provide details including amount purpose of raising money by listed
+joint venture investments, permitted reorganisations, and
+company, schedule for utilization of amount, repayment schedule etc.
+financing the repayment or prepayment of existing indebtedness
+(a) Any other reason (please specify)
+of the target group (as defined in the Facility Agreement) (if any),
+including the close-out of any related hedging arrangements,
+together with any costs and expenses permitted under the Facility
+11
+
+=== PAGE 12 ===
+Agreement.
+12
+
+=== PAGE 13 ===
+For and on behalf of BC Asia Investments XV Limited
+Authorised signatory
+Name: Numesh NUNKOO
+Designation: Director
+Date: August 19, 2026
+Place: Mauritius
+[For the limited purposes of disclosure required under Regulation 31(1) of the SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011.]
+1133
+
+=== PAGE 14 ===
+For and on behalf of BC Asia Investments XVI Limited
+Authorised signatory
+Name: Numesh NUNKOO
+Designation: Director
+Date: August 19, 2026
+Place: Mauritius
+[For the limited purposes of disclosure required under Regulation 31(1) of the SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011.]
+1144

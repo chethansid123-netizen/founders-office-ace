@@ -1,0 +1,68 @@
+SOURCE_URL: https://nsearchives.nseindia.com/content/debt/WDM/pnbmetlife2018_16092026163455_CFO_resignation_-_NSE_Intimation-signed.pdf
+SHA256: 1f8606a909a058435d527a9587b2a1e5fcbb59a9e16f438f75637e83c2a35306
+FETCHED_AT: 2026-11-02T14:07:43+00:00
+PAGES: 2
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 8 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+PNB MetLife India Insurance Co. Ltd.
+Unit no. 302, 3rd floor, Tower-3,
+Worldmark Village Maidawas,
+Sector 65, District Gurugram,
+Haryana-122018
+PH: [phone redacted]
+Website: www.pnbmetlife.com
+September 16, 2026
+To
+National Stock Exchange of India Ltd
+Plot No. C/1 ‘G’ Block
+Bandra-Kurla Complex
+Bandra East, Mumbai 400051
+Dear Sir/Madam,
+Sub: Intimation pursuant to Regulation 51 (2) read with Part B of Schedule III of the SEBI (LODR) Regulations,
+2015 – Resignation of Chief Financial Officer (Key Managerial Personel)
+Pursuant to the provisions of Regulation 51(2) of the SEBI (Listing Obligations & Disclosure Requirements)
+Regulations, 2015 and in furtherance to our intimation dated July 13, 2026 regarding the resignation of Mr.
+Nilesh Kothari as the Chief Financial Officer of the Company, it is hereby informed that his resignation shall be
+effective from the close of business hours on Wednesday, 16 September, 2026.
+The details as required under SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 read
+with SEBI Circular No. CIR/CFD/CMD/4/2015 dated September 9, 2015 are provided under Annexure A.
+You are requested to take the above information on record and disseminate the same for the information of
+the stakeholders.
+Thanking you,
+Yours faithfully
+For PNB MetLife India Insurance Company Limited
+Yagya Turker
+Company Secretary
+Place: Mumbai
+Regd. Office : Unit Nos 701, 702 & 703, 7th Floor, West Wing, Raheja Tower, 26/27, M.G Road, Bangalore -560001. IRDAI
+Regd. No: 117, CI No.: U66010KA2001PLC028883, Phone: 080 – 66006969 Fax : 080 – 22421970, Email:
+[email redacted]
+Write to us at: Office unit no. 101, 1st Floor, Techniplex -1, Techniplex Complex, off Veer Savarkar Flyover, S V Road,
+Goregaon (West) Mumbai – 400 062, Phone: [phone redacted], Fax: [phone redacted]
+
+=== PAGE 2 ===
+PNB MetLife India Insurance Co. Ltd.
+Unit no. 302, 3rd floor, Tower-3,
+Worldmark Village Maidawas,
+Sector 65, District Gurugram,
+Haryana-122018
+PH: [phone redacted]
+Website: www.pnbmetlife.com
+Annexure A:
+Disclosure required pursuant to Regulation 51(2) of SEBI LODR read with B of Schedule III to the said
+Regulation read with the SEBI Master Circular no. CIR/CFD/CMD/4/2015 dated September 9, 2015 regarding
+change in Directors and Key Managerial Personnel is given herein under:
+Reason for change viz. appointment, resignation, Resignation
+removal, death or otherwise
+Date of appointment / cessation (as applicable) & With effect from the closure of business hours
+term of appointment of September 16, 2026
+Brief profile (in case of appointment) Not applicable
+Disclosure of relationships between directors (in case Not applicable
+of appointment of a director)
+Regd. Office : Unit Nos 701, 702 & 703, 7th Floor, West Wing, Raheja Tower, 26/27, M.G Road, Bangalore -560001. IRDAI
+Regd. No: 117, CI No.: U66010KA2001PLC028883, Phone: 080 – 66006969 Fax : 080 – 22421970, Email:
+[email redacted]
+Write to us at: Office unit no. 101, 1st Floor, Techniplex -1, Techniplex Complex, off Veer Savarkar Flyover, S V Road,
+Goregaon (West) Mumbai – 400 062, Phone: [phone redacted], Fax: [phone redacted]

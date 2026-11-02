@@ -1,0 +1,68 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachHis/1f2f9701-2109-4b05-b3e9-c5f0b16c721b.pdf
+SHA256: 3417dad1362282a9a297399d4d8efa6fe603df3b07407fb10e1f42f37d72c969
+FETCHED_AT: 2026-11-02T14:08:16+00:00
+PAGES: 2
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 0 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+Date: 31st August, 2026
+To,
+The Corporate Relations Department, The Listing Department,
+BSE Limited, National Stock Exchange of India Limited,
+Phiroze Jeejeebhoy Towers, Exchange Plaza, C-1, Block G, Bandra-Kurla Complex,
+Dalal Street, Fort, Mumbai - 400 001 Bandra (East), Mumbai - 400 051
+Scrip Code: 500825 Symbol: BRITANNIA
+Dear Sir/Madam,
+Sub : Change in Senior Management Personnel of the Company - Intimation under Regulation 30 of
+the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements)
+Regulations, 2015 (‘SEBI Listing Regulations, 2015’)
+Ref : SEBI Master Circular No. HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026
+(‘SEBI Master Circular’)
+Pursuant to Regulation 30 read with Clause 7 of Para A of Part A of Schedule III of the SEBI Listing Regulations,
+2015, this is to inform you that Mr. Susheel Navanale, Chief Information Officer of the Company will retire
+from the services of the Company with effect from close of business hours on 30th September, 2026.
+In this regard, the Board of Directors, based on the recommendation of the Nomination and Remuneration
+Committee, vide their Circular Resolution passed today i.e. 31st August, 2026, at 10:35 P.M. IST, have
+approved the appointment of Mr. Rejin Surendran as the Chief Digital and Information Officer (Designate) of
+the Company with effect from 1st September, 2026. Mr. Rejin shall assume the office of Chief Digital and
+Information Officer of the Company with effect 1st October, 2026.
+The details as required under the SEBI Listing Regulations, 2015 read with the SEBI Master Circular are
+enclosed as ‘Annexure I’.
+Request you to please take the above information on record.
+Thanking you,
+Yours faithfully,
+For Britannia Industries Limited
+Sona Rajora
+Company Secretary & Compliance Officer
+ICSI Membership No.: A35468
+Encl.: As above
+
+=== PAGE 2 ===
+Annexure I
+SI. Particulars Details
+1. Name Mr. Rejin Surendran
+2. Designation Chief Digital and Information Officer
+3. Reason for change viz. The Board of Directors, based on the recommendation of the Nomination
+appointment, re- and Remuneration Committee, vide their Circular Resolution passed today
+appointment, i.e. 31st August, 2026, at 10:35 P.M. IST, have approved the appointment
+resignation, removal, of Mr. Rejin Surendran as the Chief Digital and Information Officer
+death or otherwise (Designate) of the Company with effect from 1st September, 2026.
+Mr. Rejin shall assume the office of Chief Digital and Information Officer of
+4. Date and term of the Company with effect 1st October, 2026.
+appointment
+Term of Appointment: Full Time Employment
+5. Brief Profile Mr. Rejin Surendran brings over 24 years of diverse experience in leading
+and driving large-scale digital and technology transformations.
+Prior to joining Britannia, Mr. Rejin was working as the Global Chief
+Information Officer at Wipro Enterprises Private Limited, where he led a
+global technology team spanning across 25 Countries for over 4.5 years.
+Prior to Wipro Enterprises Private Limited, Mr. Rejin was working as the
+Head of Digital & ERP CoE at the Bottling Investments Group, Coca-Cola,
+where he led and drove the digital transformation journey for the
+enterprise. He also worked for over 13 years at Unilever, where he led the
+Digital Supply Chain roadmap for the organisation, including the
+digitisation of factories and logistics.
+Mr. Rejin holds an MBA from the Indian Institute of Technology (IIT),
+Bombay, and a degree in Electrical & Electronics Engineering from the
+National Institute of Technology (NIT), Warangal.

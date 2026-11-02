@@ -1,0 +1,50 @@
+SOURCE_URL: https://nsearchives.nseindia.com/corporate/team_bbodade_19052025185232_HEXT.pdf
+SHA256: bbf02f78191c1a854ff9213d9fae05bbdda29112d233918bd9b7ba65d3a11d21
+FETCHED_AT: 2026-11-02T14:28:58+00:00
+PAGES: 2
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 0 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+Docusign Envelope ID: 88B269B9-03E9-4A1B-AB33-5CEEBDE236AD
+Date: April 8, 2025
+To,
+BSE Limited
+1st floor, Phiroze Jeejeebhoy Towers
+Dalal Street, Mumbai 400 001
+Maharashtra, India
+National Stock Exchange of India Limited
+Exchange Plaza, C-1, Block G
+Bandra Kurla Complex, Bandra (E)
+Mumbai 400 051
+Maharashtra, India
+Hexaware Technologies Limited
+152, Millennium Business Park, Sector III, ‘A’ Block, TTC Industrial Area
+Mahape, Navi Mumbai 400 710
+Maharashtra, India
+Sir/ Madam,
+Sub: Disclosure under Regulation 31(4) of SEBI (Substantial Acquisition of Shares and
+Takeovers) Regulations, 2011, as amended (“SEBI Takeover Regulations”) by CA Magnum
+Holdings
+In compliance with Regulation 31(4) of the SEBI Takeover Regulations, we hereby confirm that CA
+Magnum Holdings, together with any persons acting in concert, has not created any encumbrance on the
+shares of Hexaware Technologies Limited (“HTL”), directly or indirectly, during the financial year ended
+March 31, 2025.
+Separately, please note on November 3, 2021 (i.e. a few years prior to the listing of HTL on completion of
+its initial public offering on February 19, 2025), under an indenture governed by the laws of the State of
+New York executed among CA Magnum Holdings, CA Silkie Investments (the parent entity of CA
+Magnum Holdings) and HSBC Bank U.S.A., National Association (as the trustee and collateral agent),
+certain covenants in the nature of encumbrance (as defined under the SEBI Takeover Regulations) were
+agreed as part of the security package for the benefit of the holders of certain Senior Secured Notes due
+2026 issued by CA Magnum Holdings on November 3, 2021, including the creation of pledge on the entire
+
+=== PAGE 2 ===
+Docusign Envelope ID: 88B269B9-03E9-4A1B-AB33-5CEEBDE236AD
+issued capital stock of CA Magnum Holdings held by CA Silkie Investments. Note that there is no pledge
+on the shares of HTL held by CA Magnum Holdings.
+Sincerely,
+For CA Magnum Holdings
+__________________________
+Name: Nikesh Anand Muthoor
+Designation: Director
+Place: Mauritius

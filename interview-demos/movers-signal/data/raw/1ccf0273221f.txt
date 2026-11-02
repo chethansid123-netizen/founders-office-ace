@@ -1,0 +1,71 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachHis/6369471e-d844-42ec-b7f2-6c8ae62cf5ab.pdf
+SHA256: 4fa826ed5b8a03e1fda22235e9f74affb9b8b6e24b56df7bcac75306da3a97bd
+FETCHED_AT: 2026-11-02T14:17:22+00:00
+PAGES: 3
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 2 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+September 24, 2026
+To,
+National Stock Exchange of India Ltd. BSE Limited
+Exchange Plaza, Block G, C/1, Bandra Kurla Phiroze Jeejeebhoy Towers
+Complex, Bandra (E), Mumbai – 400 051 Dalal Street, Mumbai – 400 001
+Email: [email redacted] Email: [email redacted]
+Symbol: VBL Security Code: 540180
+Subject: Intimation of change in Senior Management Personnel of the Company
+Dear Sir/Madam
+Pursuant to the provisions of Regulation 30 of the SEBI (Listing Obligations and Disclosure
+Requirements) Regulations, 2015 (“Listing Regulations”) read with Para A of Part A of Schedule III to
+the Listing Regulations, We would like to inform that pursuant to resignation of Mr. Manmohan Rupal
+Paul (Senior Management Personnel), he has been relieved from duties w.e.f. September 24, 2026 (last
+working day). Copy of the resignation letter is enclosed herewith as Annexure - I.
+The detailed disclosure as required under Regulation 30 of the Listing Regulations read with SEBI
+Master Circular No. HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026 is also
+enclosed herewith as Annexure - II.
+You are requested to take the above on record.
+Yours faithfully,
+For Varun Beverages Limited
+Ravi Batra
+Chief Risk Officer & Group Company Secretary
+Encl.: As above
+
+=== PAGE 2 ===
+Annexure -1
+Date; 29/08/2026
+To,
+Mr. Varun Jaipuria
+Executive Vice Chairman and Whole Time Director
+Varun Beverages Limited
+Resignation Letter
+Dear Sir,
+This has reference to our discussion and subsequent discussion v/kh Mr. Rajeshwar Tripathi, I
+would like to inform you about my decision to resign from the position of Chief Operating Officer
+at Varun Beverages Limited.
+I would like to place on record my deepest gratitude to you sir for your unwavering support,
+guidance, trust and encouragement overtheyears. I will always remain deeply grateful for the
+opportunities given to me, the confidence you have placed in me and the freedom and
+empowerment to contribute and grow.
+Thankyou for your understanding and support during my journey. As mutually agreed, my last
+working data of working with Varun Beverages Limited will be 24th September 2026.
+
+=== PAGE 3 ===
+Annexure - II
+Disclosure under Regulation 30 read with Para A of Part A of Schedule III of the SEBI
+(Listing Obligations and Disclosure Requirements) Regulations, 2015 and SEBI Master
+Circular dated January 30, 2026
+S. Particulars Disclosure
+No.
+1. Reason for change viz. Resignation of Mr. Manmohan Rupal Paul, Chief
+appointment, re-appointment Operating Officer (Senior Management Personnel)
+resignation, removal, death or
+otherwise
+2. Date of appointment/re- September 24, 2026
+appointment/cessation (as
+applicable) & term of
+appointment/re-appointment
+3. Brief profile (in case of Not Applicable
+appointment)
+4. Disclosure of relationships Not Applicable
+between directors (in case of
+appointment of a director)

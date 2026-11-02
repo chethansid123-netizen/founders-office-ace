@@ -1,0 +1,310 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachHis/6430107d-c92e-4c13-b770-73bcbc8912f6.pdf
+SHA256: 4ea1ae9e0c37bea899660a14ea1520e0ac201e4c36277c4f3b1021c84fde4048
+FETCHED_AT: 2026-11-02T14:25:23+00:00
+PAGES: 9
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 8 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+infoedge
+Date: October 28, 2026
+1. The Manager- Listing
+National Stock Exchange of India Limited
+(Scrip Symbol: NAUKRI)
+2. The Manager- Listing
+BSE Limited
+(Scrip Code: 532777)
+Dear Sir/Madam,
+Subject: Outcome of the Board Meeting – October 28, 2026
+Ref.: Intimation pursuant to Regulation 30 of the Securities and Exchange Board of India (Listing
+Obligations and Disclosure Requirements) Regulations, 2015 (“Listing Regulations”)
+Pursuant to the requirements of Regulation 30 read with Schedule III of the Listing Regulations, we wish to
+inform you that the Board of Directors of Info Edge (India) Limited (“Company”), at its meeting held today, i.e.,
+October 28, 2026, have, inter alia, considered and approved the following:
+1. Transition of Mr. Hitesh Oberoi from full-time operating role
+The Board of Directors took note of the decision of Mr. Hitesh Oberoi (DIN: 01189953) to step down from his
+positions as Managing Director and Chief Executive Officer (Key Managerial Personnel) of the Company, with
+effect from the close of business hours on December 2, 2026, after nearly 27 years with Info Edge. This decision
+has been taken by Mr. Oberoi after careful consideration, in order to devote more time to his personal interests
+in education, entrepreneurship, institution building, investing and philanthropy, as well as to spend more time
+with his family.
+The Board places on record its appreciation for Mr. Oberoi’s significant contributions to the Company over
+nearly 27 years and his role in building and strengthening its businesses and leadership team.
+2. Appointment of Mr. Hitesh Oberoi as Additional Director
+Based on the recommendation of the Nomination and Remuneration Committee, the Board of Directors
+approved the appointment of Mr. Hitesh Oberoi (DIN: 01189953) as an Additional Director, designated as a
+Non-Executive, Non-Independent Director under the Promoter Category, liable to retire by rotation, with effect
+from December 3, 2026, subject to the approval of the members of the Company.
+Mr. Oberoi’s appointment will enable the Board to continue to benefit from his extensive experience,
+institutional knowledge and deep understanding of the Company’s businesses.
+.,
+Q naukri Q naukrigulf 99acres Jeevansathi.com ~f shiksha
+INFO EDGE (INDIA) LIMITED
+Corporate Office: B-8, Sector - 132, Noida - 201304, Tel.: 0120 - 3082000, Fax: [phone redacted]
+Email: [email redacted] URL: http://www.infoedge.in CIN: L74899DL1995PLC068021
+Regd. Office: Ground Floor, 12A, 94, Meghdoot, Nehru Place, New Delhi-110019
+
+=== PAGE 2 ===
+infoedge
+3. Appointment and re-designation of Mr. Sanjeev Bikhchandani as Executive Vice Chairman, Managing
+Director and Group Chief Executive Officer
+Based on the recommendation of the Nomination and Remuneration Committee, the Board of Directors
+approved the appointment and re-designation of Mr. Sanjeev Bikhchandani (DIN: 00065640) as Executive Vice
+Chairman, Managing Director and Group Chief Executive Officer (Key Managerial Personnel) of the Company,
+with effect from December 3, 2026, subject to the approval of the members of the Company. He shall not be
+liable to retire by rotation, subject to the terms of his appointment and applicable law.
+Furthermore, the details as required in terms of the Listing Regulations read with SEBI Master Circular No.
+HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026 in relation to the above referred items
+are enclosed as Annexure I to this intimation.
+A copy of Mr. Oberoi’s resignation letter is enclosed as Annexure II.
+The press release in relation to the above is enclosed as Annexure III.
+The Board Meeting commenced at 10:30 a.m. (IST) and concluded at 01:45 p.m. (IST).
+This intimation is also being uploaded on the Company’s website at www.infoedge.in.
+You are requested to take the above on record.
+Thanking You.
+Yours faithfully,
+For Info Edge (India) Limited
+Jaya Bhatia
+Company Secretary & Compliance Officer
+Encl.: As above
+.,
+Q naukri Q naukrigulf 99acres Jeevansathi.com ~f shiksha
+INFO EDGE (INDIA) LIMITED
+Corporate Office: B-8, Sector - 132, Noida - 201304, Tel.: 0120 - 3082000, Fax: [phone redacted]
+Email: [email redacted] URL: http://www.infoedge.in CIN: L74899DL1995PLC068021
+Regd. Office: Ground Floor, 12A, 94, Meghdoot, Nehru Place, New Delhi-110019
+
+=== PAGE 3 ===
+infoedge
+Annexure I
+Disclosure of information pursuant to Regulation 30 of the Listing Regulations read with SEBI Master
+Circular No. HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026
+S.No. Particulars Information with regard Information with regard to Information with regard to
+to Resignation of Mr. appointment of Mr. Hitesh appointment and re-
+Hitesh Oberoi Oberoi designation of Mr. Sanjeev
+Bikhchandani
+1. Reason for The Board of Directors Based on the recommendation Based on the recommendation
+change viz. took note of the decision of the Nomination and of the Nomination and
+appointment, re- of Mr. Hitesh Oberoi (DIN: Remuneration Committee, the Remuneration Committee, the
+appointment, 01189953), (vide letter Board of Directors of the Board of Directors of the
+resignation, dated October 27, 2026) to Company approved the Company approved the
+removal, death step down from his appointment of Mr. Hitesh appointment and re-designation
+or otherwise; positions as Managing Oberoi (DIN: 01189953) as an of Mr. Sanjeev Bikhchandani
+Director and Chief Additional Director, (DIN: 00065640) as Executive
+Executive Officer (Key designated as a Non-Executive, Vice Chairman, Managing
+Managerial Personnel) of Non-Independent Director Director and Group Chief
+the Company, after nearly under the Promoter Category, Executive Officer of the
+27 years with Info Edge. liable to retire by rotation, with Company for the period
+This decision has been effect from December 3, 2026, commencing on December 3,
+taken by Mr. Oberoi after subject to the approval of the 2026 and ending on April 26,
+careful consideration, in members of the Company. 2031, co-terminus with his
+order to devote more time existing term of appointment
+to his personal interests in approved by the shareholders
+education, on August 25, 2025, subject to
+entrepreneurship, the approval of the members of
+institution building, the Company. He shall not be
+investing and liable to retire by rotation,
+philanthropy, as well as to subject to the terms of his
+spend more time with his appointment and applicable law.
+family.
+2. Date of Cessation from the Appointment with effect from The appointment and re-
+appointment/ re- positions of Managing December 3, 2026, subject to designation, as aforesaid, shall
+appointment/ces
+Director and Chief the approval of the members be effective from December 3,
+sation & term of
+Executive Officer with of the Company. 2026, until April 26, 2031, co-
+appointment/re-
+effect from the close of terminus with his existing term
+appointment
+business hours on of appointment as approved by
+December 2, 2026. the shareholders on August 25,
+2025, subject to the approval of
+the members of the Company.
+.,
+Q naukri Q naukrigulf 99acres Jeevansathi.com ~f shiksha
+INFO EDGE (INDIA) LIMITED
+Corporate Office: B-8, Sector - 132, Noida - 201304, Tel.: 0120 - 3082000, Fax: [phone redacted]
+Email: [email redacted] URL: http://www.infoedge.in CIN: L74899DL1995PLC068021
+Regd. Office: Ground Floor, 12A, 94, Meghdoot, Nehru Place, New Delhi-110019
+
+=== PAGE 4 ===
+infoedge
+3. Brief Profile (in Not Applicable. Brief profile of Mr. Hitesh Brief profile of Mr. Sanjeev
+case of Oberoi is available at the Bikhchandani is available at the
+appointment) below link: below link:
+https://www.infoedge.in/Abo https://www.infoedge.in/About
+ut/BoardOfDirectors /BoardOfDirectors
+4. Disclosure of Not Applicable Mr. Hitesh Oberoi is not Mr. Sanjeev Bikhchandani is not
+relationships related to any of the other related to any of the other
+between Directors of the Company. Directors the Company.
+Directors (in case
+of appointment
+of a director)
+5. Confirmation Not Applicable Mr. Hitesh Oberoi is not Mr. Sanjeev Bikhchandani is not
+w.r.t. debarment debarred from holding the debarred from holding the office
+from office of Director by virtue of of Director by virtue of any SEBI
+holding the office any SEBI order or order of any order or order of any other
+of Director (in other authority and, therefore, authority and, therefore, is not
+case is not disqualified to be disqualified to be appointed as
+of appointment appointed as Director. Director.
+of director)
+.,
+Q naukri Q naukrigulf 99acres Jeevansathi.com ~f shiksha
+INFO EDGE (INDIA) LIMITED
+Corporate Office: B-8, Sector - 132, Noida - 201304, Tel.: 0120 - 3082000, Fax: [phone redacted]
+Email: [email redacted] URL: http://www.infoedge.in CIN: L74899DL1995PLC068021
+Regd. Office: Ground Floor, 12A, 94, Meghdoot, Nehru Place, New Delhi-110019
+
+=== PAGE 5 ===
+Annexure-II
+Date: October 27, 2026
+To,
+The Board of Directors
+Info Edge (India) Limited
+Subject: Resignation from the positions of Managing Director and Chief Executive Officer
+Dear Board Members,
+After nearly 27 years at Info Edge, including over 16 years as MD and CEO, I have decided that it is time
+for me to step back from my full-time operating role. Accordingly, I hereby tender my resignation from
+the positions of Managing Director and Chief Executive Officer of the Company with effect from the
+close of business on December 2, 2026.
+I have thought about this decision for some time, and it has not been an easy one to make. Info Edge
+has been a defining part of my life, and I feel enormous gratitude and pride when I look back at what we
+have built together.
+Over the years, there were a few things I wanted to see through before I felt comfortable stepping back,
+and I am happy to say that I believe we have got there.
+Naukri is where our journey began. I still remember the early days, when we raised money just in time,
+set up a sales team, launched Resdex, and for several years made 60-70 sales calls a month alongside
+the team so that we could break even quickly. Today, Naukri has a clear Al and Data strategy which is
+playing out well and will help power its next phase of growth.
+99acres, which tested our patience and resolve for many years, has established clear market leadership
+over the last couple of years and is now a robust, cash-generating business. Jeevansathi and Aisle
+continue to gain market share and are now profitable, while Jobhai has built a credible monetisation
+engine and laid the foundations for a much larger business. Watching each of these businesses grow,
+often through difficult phases, has been one of the great joys of my working life.
+More importantly, together, we have built a much stronger institution. We have senior leaders who
+have been with Info Edge for over 20 years and understand our businesses deeply, alongside a younger
+generation of leaders who are ambitious and ready to take on greater responsibility. Many of them I
+have had the privilege of working alongside for several years, and some I have seen grow from their first
+jobs into great leaders.
+If there is one thing I am most proud of, it is the quality of the team we have built at Info Edge. I will miss
+working with them enormously; the energy, camaraderie and sense of purpose that have made coming
+to work at Info Edge so rewarding. Together, we have built businesses that generate substantial cash,
+which has allowed Info Edge to evolve into an important investor in, and supporter of, India's startup
+
+=== PAGE 6 ===
+ecosystem. I believe the organisation is now at a point where it has the depth of leadership and
+institutional strength to move confidently into its next phase.
+I therefore feel this is the right time for me to step back.
+This is not a decision to step away from Info Edge. I remain deeply invested in the company, both
+emotionally and financially. Subject to shareholder approval, I will be happy to continue to serve on the
+Board as a Non-Executive Director, and I will remain available to help whenever needed.
+In the next phase of my life, I want to make more time to pursue my interests in higher education,
+entrepreneurship, investing and philanthropy. I would also like to spend more time with my family.
+Without their rock solid support, I would not have made it so far.
+I would like to thank all our past and present Board Members, especially Ashish Gupta, Arun Duggal,
+Sha rad Malik, Bala Deshpande, Saurabh Srivastava, and Naresh Gupta, for their support and guidance
+over the years, particularly when Info Edge was a small company. I am grateful to my colleagues, past
+and present especially Ambarish who came back to support us again as interim CFO, to our shareholders
+for their trust, and to Sanjeev, for his long partnership.
+I leave my full-time operating role with a heavy heart and enormous gratitude, proud of what we have
+built and excited about what lies ahead.
+Y urs sincerely,
+Managing Director & CEO
+Dated -27th October, 2026
+Place -Naida
+
+=== PAGE 7 ===
+Annexure-III
+INFO EDGE (INDIA) LTD
+PRESS RELEASE
+Info Edge Announces Leadership Transition
+Hitesh Oberoi to transition from MD & CEO role after nearly 27 years; Sanjeev Bikhchandani to assume
+expanded executive leadership role.
+Info Edge (India) Ltd. (NSE: NAUKRI; BSE: 532777) today announced a leadership transition following
+decisions taken by its Board of Directors.
+Mr. Hitesh Oberoi, Managing Director and Chief Executive Officer of Info Edge, will step down from his full-
+time executive role with effect from the close of business on December 2, 2026, after nearly 27 years with
+the Company, including over 16 years as MD & CEO.
+Subject to shareholders’ approval, Mr. Oberoi will continue his association with Info Edge as a Non-
+Executive, Non-Independent Director with effect from December 3, 2026.
+The Board has approved the appointment of Mr. Sanjeev Bikhchandani, Founder and Vice Chairman of Info
+Edge, as Executive Vice Chairman, Managing Director and Group Chief Executive Officer, with effect from
+December 3, 2026, subject to shareholders’ approval.
+Over the last 27 years, Mr. Oberoi and has played a central role in building the Company into one of India’s
+leading consumer internet businesses. During his tenure as MD and CEO, Naukri.com strengthened its
+position as India’s leading online recruitment platform, while Info Edge built and scaled businesses
+including 99acres, Jeevansathi, Shiksha and Jobhai and invested its surplus cash in India’s startup
+ecosystem.
+Over his 16 years as Chief Executive Officer, Info Edge’s market capitalisation grew from approximately
+₹2,500 crore to approximately ₹80,000 crore. During this period, the Company also developed a broad
+leadership team across its businesses, creating a strong institutional foundation for the next phase of
+growth.
+Mr. Hitesh Oberoi on his transition
+“After nearly 27 years at Info Edge, I feel this is the right time for me to begin transitioning out of my full-
+time operating role. It has not been an easy decision. Info Edge has been a defining part of my life, and I
+feel enormous gratitude and pride when I look back at what we have built together.
+There were a few things I wanted to see through before stepping back. Today, Naukri has a clear AI and
+Data strategy which is playing out well and will help power its next phase of growth. 99acres has
+established strong market leadership over the last couple of years and is now a fast growing, robust cash
+generating business. Jeevansathi and Aisle continue to gain market share and are now profitable and Jobhai
+has built a credible monetisation engine and laid the foundations for a much larger business.
+More importantly, together, we have built a much stronger institution. We have senior leaders who have
+been with Info Edge for over 20 years and understand our businesses deeply, alongside a younger
+
+=== PAGE 8 ===
+generation of leaders who are ambitious and ready to take on greater responsibility. If there is one thing I
+am most proud of, it is the quality of our leadership team and the culture we have built. Our businesses
+generate substantial cash, allowing Info Edge to evolve into an important investor in, and supporter of,
+India’s startup ecosystem.
+In the next phase of my life, I now want to make more time for higher education, entrepreneurship,
+investing and my family. I will miss working with the many colleagues and teams who have made these 27
+years so special.
+I therefore feel this is the right time for me to step back. Subject to shareholder approval, I will be happy to
+continue to serve on the Board as a Non-Executive Director, and I will remain available to help whenever
+needed.
+I am deeply grateful to my current and former Board members, to my colleagues past and present, and to
+Sanjeev for this long and exciting partnership of more than 27 years. I carry with me fond memories of the
+many early battles for survival we fought together and the fun times we had when we had nothing. I will
+miss our bets and debates at Election time and our common interest in conspiracy theories long before
+social media took them to every home. I am also very pleased that I will continue my association with Info
+Edge as a Non-Executive Director and look forward to contributing to the Company in that capacity.”
+Mr. Kapil Kapoor, Chairman of Info Edge, on Mr. Hitesh Oberoi
+“Hitesh has had a remarkable innings at Info Edge, which I have had the privilege of watching up close for
+almost 24 years. Together with Sanjeev, he helped build a company that achieved many firsts, including
+becoming the first Indian internet company to go public.
+Hitesh’s contribution, first as COO and subsequently as CEO, has been exceptional. His relentless focus on
+execution, and the ability to provide strategic direction through multiple competitive and macroeconomic
+cycles have been important drivers of Info Edge’s growth.
+Equally important, Hitesh has helped build a strong leadership team and institution for the future. We are
+confident that the Company is well prepared for this transition and the opportunities ahead.
+We fully understand and respect his decision to transition out of his full-time operating role and are
+delighted that he will continue to contribute as a Non-Executive Director. His experience, judgement and
+institutional knowledge will remain valuable to the Board and the Company.”
+Mr. Sanjeev Bikhchandani, Founder and Vice Chairman of Info Edge, on the transition
+“Hitesh and I have built Info Edge together for more than 27 years. He has been an extraordinary partner
+and much of what Info Edge is today reflects his leadership, judgement and the exceptional team he has
+built.
+I shall dearly miss Hitesh - a comrade in arms, a torchbearer for the Company and the Internet industry, a
+close friend and colleague, an exceptional business leader, an Amitabh Bachchan fan, a superb raconteur
+with a large pitara of stories and, above all, a wicked sense of humour.
+
+=== PAGE 9 ===
+But then, he isn’t really going. He will still be on the Board and will always be available for advice and
+consultation to all business managers. I know I shall rely a lot on his guidance.
+I am grateful to the Board for its confidence as I take on this expanded role.”
+Mr. Kapil Kapoor, Chairman of Info Edge, on Mr. Sanjeev Bikhchandani’s appointment
+“We are pleased that Sanjeev, the Founder and Vice Chairman, has agreed to take on expanded
+responsibilities as Executive Vice Chairman, Managing Director and Group Chief Executive Officer.
+As Founder, Sanjeev brings a deep understanding of Info Edge’s businesses, culture and values, together
+with a strong entrepreneurial orientation and a long-term perspective on value creation.
+Sanjeev has played a leading role in shaping Info Edge since its inception, including in building the
+Company’s investment portfolio, several investments from which have subsequently grown into
+independent listed companies.
+We are confident that his experience, energy and long-term perspective will be valuable as Info Edge enters
+its next phase of growth and continues to build businesses and investments that can create significant long-
+term value.”
+The Board and management of Info Edge place on record their appreciation for Mr. Hitesh Oberoi’s
+contribution to the Company over nearly 27 years.
+The Company looks forward to his continued association as a Non-Executive, Non-Independent Director,
+subject to shareholders’ approval, and to benefiting from his experience and institutional knowledge as Info
+Edge enters its next phase.

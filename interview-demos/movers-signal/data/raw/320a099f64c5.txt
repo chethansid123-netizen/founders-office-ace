@@ -1,0 +1,104 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachHis/a9da20ed-6c6d-48a9-8bd3-f463f05c7486.pdf
+SHA256: 972f0abfadc7c60ea4a7520c578c070d4d8a8584a708d51f8a943217b1b585ee
+FETCHED_AT: 2026-11-02T14:29:06+00:00
+PAGES: 3
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 0 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+August 6, 2026
+BSE Limited The National Stock Exchange of India Limited
+P.J. Towers Exchange Plaza
+Dalal Street Bandra Kurla Complex
+Mumbai - 400 001 Bandra (E)
+Mumbai - 400 051
+Dear Sir,
+Re.: Disclosure pursuant to the SEBI (Listing Obligations and Disclosure Requirements)
+Regulations, 2015 (the ‘Listing Regulations’)
+Pursuant to the provisions of the Listing Regulations and in continuation of our letter dated April
+30, 2026 regarding the acquisition of 44,11,764 Compulsorily Convertible Preference Shares
+(‘CCPS’) of Kajaria Bathware Private Limited, a wholly-owned subsidiary (‘KBPL’), we wish to
+inform you that the Company has acquired 44,11,764 CCPS of KBPL on August 6, 2026 from
+Aravali Investment Holdings. Consequently, the Company now holds entire equity shares and
+CCPS of KBPL.
+Details pursuant to Regulation 30 of the Listing Regulations are given in Annexure-A.
+Kindly take the above on your record.
+Thanking you,
+For Kajaria Ceramics Limited
+Vinit Kumar
+General Counsel & Company Secretary
+Encl.: As above
+
+=== PAGE 2 ===
+Annexure-A
+Details regarding acquisition of CCPS of Kajaria Bathware Private Limited
+Sr. No. Particulars Details
+1. Name of the target entity, details in Kajaria Bathware Private Limited, a wholly- owned
+brief such as size, turnover etc. subsidiary (‘KBPL’).
+Turnover (As on 31.03.2026)*: Rs. 413.64 Crores
+Profit/(Loss) After Tax (As on 31.03.2026)*: Rs.
+(28.49) Crores
+KBPL is carrying out the business of manufacturing
+of bathware products.
+2. Whether the acquisition would fall The acquisition of 44,11,764 (Fourty-Four Lacs
+within related party transaction(s) and Eleven Thousand Seven Hundred Sixty-Four)
+whether the promoter/ promoter 0.01% Compulsorily Convertible Preference Shares
+group/ group companies have any (‘CCPS’) of Rs. 10 each of KBPL did not fall within
+interest in the entity being acquired? related party transaction.
+If yes, nature of interest and details
+thereof and whether the same is done
+at “arms length”
+3. Industry to which the entity being No entity is acquired through the said transaction,
+acquired belongs except acquisition of above said CCPS of KBPL by
+the Company.
+4. Objects and impact of acquisition Aravali Investment Holdings, Mauritius (‘Aravali’), a
+(including but not limited to, wholly-owned subsidiary of WestBridge Crossover
+disclosure of reasons for acquisition Fund, LLC had made investment of Rs. 64.50
+of target entity, if its business is Crores in KBPL by way of subscribing 44,11,764
+outside the main line of business of CCPS of Rs. 10 each of KBPL, as per the
+the listed entity) Shareholders’ Agreement (‘SHA’) executed on June
+4, 2018. As per the SHA, the SHA shall be ceased
+to have effect as regards to a shareholder/CCPS
+holder of KBPL, if such shareholder/CCPS holder
+ceases to be the shareholder/CCPS holder of KBPL
+and it is required to give an exit option to Aravali by
+way of listing of equity shares of KBPL or by
+purchasing the said CCPS by the Company.
+Accordingly, post-acquisition of the said CCPS by
+the Company, Aravali ceased to be the
+shareholder/CCPS holder of KBPL and as there
+being no other shareholder of KBPL except the
+Company, the SHA came to an end as the Company
+has acquired the entire CCPS of KBPL on August 6,
+2026 from Aravali at a consideration of Rs. 50
+Crores.
+5. Brief details of any governmental or Not Applicable
+regulatory approvals required for the
+acquisition
+
+=== PAGE 3 ===
+6. Indicative time period for completion Not Applicable
+of the acquisition
+7. Consideration - whether cash Cash consideration
+consideration or share swap or any
+other form and details of the same
+8. Cost of acquisition and/or the price at Rs. 50 Crores
+which the shares are acquired
+9. Percentage of shareholding/control The Company holds 100% equity shares of KBPL
+acquired and/or number of shares and after the said acquisition, the Company also
+acquired holds 100% CCPS of KBPL and accordingly, KBPL
+will continue to be a wholly-owned subsidiary of the
+Company.
+10. Brief background about the entity • Products/line of business:
+acquired in terms of products/line of Manufacturing of bathware products
+business acquired, date of
+incorporation, history of last 3 years • Date of incorporation:
+turnover, country in which the May 22, 2013
+acquired entity has presence and any
+other significant information (in brief) • Turnover of last three years*:
+2025-26: Rs. 413.64 Crores
+2024-25: Rs. 386.20 Crores
+2023-24: Rs. 363.47 Crores
+• Country in which KBPL has presence:
+India
+* Consolidated

@@ -1,0 +1,674 @@
+SOURCE_URL: https://nsearchives.nseindia.com/corporate/HDFCBANK_07102026160736_SEIntimationPostalBallotNoticeOct2026.pdf
+SHA256: f9b0e61f258d73e064079e41f41036040d23fa6a094c35b4dc1bb2a6af10d0c0
+FETCHED_AT: 2026-11-02T14:07:21+00:00
+PAGES: 13
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 12 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+CIN: L65920MH1994PLC080618 HDFC Bank Limited,
+Email: [email redacted] HDFC House,
+Website: www.hdfc.bank.in H T Parekh Marg,
+165-166 Backbay Reclamation,
+Churchgate, Mumbai- 400 020
+Tel. No.:[phone redacted]
+Ref. No. SE/2026-27/120
+October 7, 2026
+BSE Limited National Stock Exchange of India Limited
+Dept. of Corporate Services The Listing Department
+Phiroze Jeejeebhoy Towers, Exchange Plaza,
+Dalal Street, Fort, Bandra Kurla Complex,
+Mumbai – 400 001 Mumbai – 400 051
+Scrip Code: 500180 Scrip Symbol: HDFCBANK
+Dear Sir,
+Sub: Intimation under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations
+and Disclosure Requirements) Regulations, 2015 (“SEBI Listing Regulations”) - Notice of Postal Ballot
+Pursuant to Regulation 30 of the SEBI Listing Regulations and in furtherance to our intimation dated October 1, 2026
+please find enclosed herewith a copy of the Postal Ballot Notice dated October 1, 2026 (“Notice”) together with the
+Explanatory Statement thereto, seeking approval of the Members of HDFC Bank Limited (“the Bank”) on the
+resolution specified therein, by means of electronic voting (remote e-voting) in compliance with the relevant circulars
+issued by the Ministry of Corporate Affairs and the Securities and Exchange Board of India.
+In compliance with the applicable circulars, the Notice is being sent to all Members whose names appear in the
+Register of Members / Register of Beneficial Owners maintained by the Depositories viz. National Securities
+Depository Limited (“NSDL”) and Central Depository Services (India) Limited as on Friday, October 2, 2026 (cut-
+off date) and whose e-mail addresses are registered with Depository Participants and / or Datamatics Business
+Solutions Limited, Registrar & Transfer Agents of the Bank.
+The Bank has engaged NSDL for facilitating remote e-voting to enable the Members to cast their votes electronically.
+The period for remote e-voting on the resolution set out in the Notice shall commence on Thursday, October 8, 2026
+at 10:00 A.M. (IST) and end on Friday, November 6, 2026 at 5:00 P.M. (IST). The Notice is being uploaded on
+the Bank’s website at https://www.hdfc.bank.in/about-us/corporate-governance/postal-ballot and on the website of
+NSDL at https://www.evoting.nsdl.com
+This is for your information and appropriate dissemination.
+Yours faithfully,
+For HDFC Bank Limited
+Ajay Agarwal
+Company Secretary
+Group Head – Secretarial & Group Oversight
+Encl.: a/a
+cc: New York Stock Exchange Singapore Exchange Securities Trading Limited
+11, Wall Street, 2 Shenton Way
+New York, # 02-00 SGX Centre 1
+NY 10005 Singapore 068804
+USA
+Regd. Office: HDFC Bank Limited, HDFC Bank House, Senapati Bapat Marg, Lower Parel (West), Mumbai – 400 013
+
+=== PAGE 2 ===
+HDFC Bank Limited
+Registered Office: HDFC Bank House, Senapati Bapat Marg, Lower Parel (W), Mumbai 400 013
+CIN: L65920MH1994PLC080618 E-Mail: [email redacted]
+Website: www.hdfc.bank.in Tel No.: [phone redacted]
+POSTAL BALLOT NOTICE
+[Pursuant to Sections 108 and 110 of the Companies Act, 2013 read with Rules 20 and 22 of the Companies
+(Management and Administration) Rules, 2014]
+Dear Member(s),
+NOTICE is hereby given that pursuant to the provisions of Sections 108, 110 and all other applicable provisions, if any, of the
+Companies Act, 2013 (the “Act”) read with Rules 20 and 22 of the Companies (Management and Administration) Rules, 2014,
+and in compliance with the applicable guidelines / circulars / rules issued by the Ministry of Corporate Affairs (“MCA”) inter alia
+including General Circular Nos. 14/2020 dated April 8, 2020, 17/2020 dated April 13, 2020 and the latest being No. 03/2025 dated
+September 22, 2025, issued by MCA, read with other relevant circulars, issued from time to time, Regulation 44 of the Securities
+and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, Secretarial Standard on General
+Meetings issued by the Institute of Company Secretaries of India, and other applicable laws and regulations, if any, including any
+statutory amendment(s), modification(s), variation(s) or re-enactment(s) thereto, for the time being in force, the following special
+business is proposed to be passed by the Members of HDFC Bank Limited by way of Postal Ballot through voting by electronic
+means (“remote e-voting”) only.
+Special Business:
+Resolution No. 1: Appointment of Mr. Anup Bagchi (DIN: 00105962) as a Director and as the Managing Director & Chief
+Executive Officer of the Bank, on the terms and conditions relating to the said appointment, including remuneration, as
+approved by the Reserve Bank of India
+To consider and if thought fit, to pass the following resolution, as an Ordinary Resolution:
+“RESOLVED THAT pursuant to Sections 149, 152, 196, 197, 203, Schedule V and other applicable provisions, if any, of the
+Companies Act, 2013 (“the Act”) and the relevant rules thereunder, Section 35B and other applicable provisions of the Banking
+Regulation Act, 1949, Reserve Bank of India (Commercial Banks - Governance) Directions, 2025, other relevant directions,
+guidelines, circulars and notifications issued by the Reserve Bank of India (“RBI”) from time to time, the Securities and Exchange
+Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 (“Listing Regulations”), any other relevant
+provisions of the applicable laws, and as each of the above is or may be amended, modified, varied, re-stated or re-enacted from
+time to time, the provisions of the Articles of Association of HDFC Bank Limited (“Bank”) and pursuant to the recommendation
+of the Governance, Nomination and Remuneration Committee and the Board of Directors of the Bank (hereinafter referred to as
+the “Board”, which term shall be deemed to include Governance, Nomination and Remuneration Committee of the Bank) and
+pursuant to the approval received from the RBI, Mr. Anup Bagchi (DIN: 00105962), who was originally appointed by the Board
+as an Additional Director of the Bank with effect from October 2, 2026 and as the Managing Director & Chief Executive Officer
+(the “MD & CEO”) of the Bank, for a period of 3 (three) years commencing from October 27, 2026 up to October 26, 2029, (both
+days inclusive), be and is hereby appointed as a Director and as the MD & CEO of the Bank for the aforesaid period, not liable to
+retire by rotation, upon the terms and conditions including remuneration as mentioned herein below, which are specifically hereby
+approved, with further authority to the Board to alter and vary the terms and conditions of the said appointment, remuneration and
+/ or agreement including increments and revisions and / or any other components of the remuneration (including authority, from
+time to time to determine the amount of salary as also the type and amount of perquisites and other benefits payable to Mr. Anup
+Bagchi), as may be necessary from time to time during the tenure of Mr. Anup Bagchi as the MD & CEO of the Bank, subject to
+the approval of RBI:
+Particulars Amount in ` (annualized)
+PART-A:
+Fixed Pay (including perquisites):
+1. Salary 3,31,86,378
+2. Dearness allowance -
+3. Retiral/Superannuation benefits:
+(a) Provident Fund 39,82,365
+(b) Gratuity ^ 21,37,966
+(c) Pension / NPS * 46,46,093
+(d) Superannuation * 49,77,957
+4. Leave Fare Concession/ Allowance 55,31,063
+5. Other fixed allowances, if any (please specify)* 1,09,10,442
+*Consolidated allowance, if any, to be given with details of heads it subsumes.
+6. Perquisites: (details for each perquisite described below)
+(i) Free Furnished House and its maintenance / House Rent Allowance 1,65,93,189
+1
+
+=== PAGE 3 ===
+Particulars Amount in ` (annualized)
+(ii) Conveyance Allowance/Free use of bank’s car for official and private purposes 54,00,000
+(iii) Driver(s)’ salary -
+(iv) Club Membership(s) 3,72,880
+(v) Loan perquisite 17,62,500
+(vi) Medical Insurance Premium 1,73,442
+(vii) Personal Accident Insurance Premium 69,384
+Total Fixed pay (including perquisites) 8,97,43,659
+Details of Perquisites considered in Fixed Pay of Mr. Anup Bagchi:
+1. House Rent Allowance / Company Leased Accommodation / Company Provided Accommodation (termed as ‘Free Furnished
+House and its maintenance/House Rent Allowance’ in the above table)
+Mr. Bagchi will be entitled to an amount of ` 1,65,93,189/-, which may be availed in any one of the following forms:
+A. House Rent Allowance (HRA); or
+B. Company Leased Accommodation (CLA), which shall cover:
+- cost of refundable deposit, computed at 10% per annum,
+- actual rent paid, and
+- maintenance charges, property tax, society fee etc. where applicable; or
+C. Company Provided Accommodation, valued in accordance with the Bank’s approved valuation methodology.
+Where CLA or Company Provided Accommodation is availed:
+(i) any surplus amount, after adjusting for the CLA value determined by the Bank or the notional annualised value of the
+Company Provided Accommodation (as applicable), shall be paid as part of “Other Fixed Allowances”;
+(ii) any excess amount over and above the entitlement under this head shall be adjusted against “Other Fixed Allowances”,
+or, where required, recovered directly from Mr. Bagchi.
+All amounts will be subject to applicable taxes.
+2. Company Car / Car Allowance (termed as ‘Conveyance Allowance/Free use of bank’s car’ in the above table):
+Mr. Bagchi will be eligible for up to 2 company cars within an ex-showroom price of Rs. 1.40 crore with fuel of 700 litres per
+month and car maintenance at actuals. As per the Bank’s policy, the life of a company car is considered to be 4 years.
+The corresponding Car Allowance amount is Rs. 54 lakhs and shall comprise:
+- A fixed minimum of ` 40 lakhs per annum, irrespective of the car value and inclusive of reimbursement of fuel and
+maintenance expenses on actuals. The monetary ceiling considered for fuel and maintenance expenses, which is a
+reimbursable perquisite is ` 15 lakhs within the aforementioned limit of ` 40 lakhs.
+- An additional ` 35,000 per lakh for the portion of the car’s ex showroom price exceeding ` 1 crore (and up to ` 1.4 crore),
+capped at a maximum value of ` 14 lakhs.
+Where the reference car value is below ` 1.40 crore, any residual amount (after computing the Car Allowance as above)
+shall be added to the “Other Fixed Allowances”.
+3. Club: Mr. Bagchi can avail membership of two clubs. The amount mentioned is the tentative subscription cost.
+4. Loan perquisite: Mr. Bagchi is entitled to a housing loan of ` 3.75 crore split into 2 parts:
+(i) Slab 1 of `1.875 crore at 2.5% interest
+(ii) Slab 2 of ` 1.875 crore at 5% interest.
+Cost of loan is the perquisite value of the potential benefit in the event that Mr. Bagchi avails the total value of the
+loan benefit. The loan benefit is calculated as (SBI interest rate - Staff Loan Interest Rate) * Value of Loan entitlement.
+The SBI Interest Rate for Home Loan is 8.45% as on April 1, 2026. This will not be subject to cash in lieu amount.
+5. Medical Insurance Premium: Mr. Bagchi is entitled to a floater medical cover (hospitalization) of ` 50,00,000. The perquisite
+value considered is the medical insurance premium paid by the Bank for self, spouse, two children and dependent parents.
+This will not be subject to cash in lieu amount.
+6. Personal Accident Insurance: Mr. Bagchi will be eligible for `12 crore life cover in the event of an accident. The perquisite value
+considered is the insurance premium paid by the Bank. This will not be subject to cash in lieu amount.
+^Gratuity: Gratuity will be calculated in accordance with the Governing Law(s), as amended from time to time.
+* In case Mr. Bagchi does not opt for NPS and/or Superannuation, the amount shown will be paid out as part of the regular salary.
+2
+
+=== PAGE 4 ===
+Perquisites not considered as part of Fixed Pay:
+1. Domiciliary Medical Expenses: The domiciliary medical expenses will be reimbursed at actuals for self, spouse and dependent
+children for medical expenses incurred in the country. As this amount is variable reimbursement without a monetary ceiling, it
+is not considered as part of Fixed Pay.
+2. Telephone: The telephone expenses for Mr. Bagchi will be reimbursed at actuals. As this amount is variable reimbursement
+without a monetary ceiling, it is not considered as part of Fixed Pay.
+Particulars Amount in Rs. (annualized)
+PART-B:
+Variable Pay (proposed subject to performance)
+For FY/Performance Period [Target 2026-27]
+1. Cash component
+· Upfront payment (with %) Upfront Payment - 4,44,23,111.5 (50%)
+· Deferred payment (with %) Deferred Payment - 4,44,23,111.5 (50%)
+Total cash component 8,88,46,223
+Vesting period (in years) 3
+Deferral arrangement
+(i) First Year 1,48,07,704 (in first year)
+(ii) Second Year 1,48,07,704 (in second year)
+(iii) Third Year 1,48,07,704 (in third year)
+2. Non-cash Components (Share-linked instruments):
+(i) ESOP/ESOS
+(a) Number of share/ share-linked instruments ** 7,11,801 @ Black Scholes Value of ` 253.42
+(b) Monetary value 18,03,84,755
+(c) Deferral (with %) ESOP grant will be deferred over a period of 4 years
+(d) Vesting schedule details - 25% rounded off to the nearest 100 at the end
+of first year
+- 25% rounded off to the nearest 100 at the end
+of second year
+- 25% rounded off to the nearest 100 at the end
+of third year
+- The balance at the end of fourth year
+(ii) Any other share-linked instruments
+(a) Number of share/ share-linked instruments
+(b) Monetary value -
+(c) Deferral (with %)
+(d) Vesting schedule details
+(iii) Any other non-cash component (please specify) and mention its monetary -
+value, deferral, vesting schedule, etc.
+Total monetary value of non-cash component(s) 18,03,84,755
+Total monetary value of Variable Pay (Cash and non-cash components) 26,92,30,978
+% of Cash Component in Total Variable Pay 33%
+% of Non-cash component in Total Variable Pay 67%
+% of Variable Pay to Fixed Pay 300%
+% of Variable Pay in Total Compensation 75%
+Total Compensation (Fixed Pay + Variable Pay) 35,89,74,637
+** The Black Scholes value mentioned above is indicative. Number of share-linked instrument units may change based on the
+Black Scholes value determined at the time of grant
+Target Variable Pay for the Performance Year 2026-27
+The Governance, Nomination an Remuneration Committee (“GNRC”) and the Board has approved Target Variable Pay for
+Mr. Bagchi for FY 2026-27 calculated at a maximum value of ` 26,92,30,978 which is 300% of proposed Fixed Pay. This will be
+further split into Non-cash component and Cash Components with maximum Non-cash component at 67% valued at ` 18,03,84,755
+and the remaining balance at cash component valued at ` 8,88,46,223.
+Based on the final Variable Pay, determined as a percentage of Fixed Pay in line with the GNRC and Board’s assessment of actual
+FY 2026-27 performance, the Bank may revise the above ratios (i.e., the split between Cash Variable and Non Cash Variable)
+while remaining compliant with the applicable RBI guidelines. In case the variable pay is up to 200% of the fixed pay, 50% of the
+variable pay shall be paid in cash.
+3
+
+=== PAGE 5 ===
+RESOLVED FURTHER THAT a one-time joining bonus to Mr. Anup Bagchi in the form of options granted under the applicable
+Employee Stock Option Scheme and Restricted Stock Units under the applicable Employees’ Stock Incentive Scheme, as mentioned
+below, be and is hereby approved:
+3. Share-linked instruments (sign-on/joining bonus): Proposed in Year 1
+(i) Restricted Stock Units (RSUs)
+(a) Number of share/ share-linked instruments ** 44,796 @ Black Scholes Value of ` 711
+(b) Monetary value 3,18,50,000
+(c) Deferral (with %) RSUs grant will be deferred over a period of 4 years
+(d) Vesting schedule details - 25% rounded off to the nearest 10 at the end of first year
+The said RSUs will be granted within 30-45 days of the - 25% rounded off to the nearest 10 at the end of second year
+receipt of Members approval - 25% rounded off to the nearest 10 at the end of third year
+- The balance at the end of fourth year
+(e) Grant Price Re. 1 per Unit
+(ii) ESOP/ESOS
+(a) Number of share/ share-linked instruments ** 1,64,207 @ Black Scholes Value of ` 253.42
+(b) Monetary value 4,16,13,423
+(c) Deferral (with %) ESOP grant will be deferred over a period of 4 years
+(d) Vesting schedule details - 25% rounded off to the nearest 100 at the end of first year,
+The said ESOPs will be granted within 30-45 days of the - 25% rounded off to the nearest 100 at the end of second
+receipt of Members approval year.
+- 25% rounded off to the nearest 100 at the end of third year
+- The balance at the end of fourth year
+(e) Grant Price As defined in the ESOP Scheme, which is the closing market
+price prior to the day on which ESOPs will be granted
+**The Black Scholes value mentioned above is indicative. Number of share-linked instrument units may change based on the
+Black Scholes value determined at the time of grant.
+RESOLVED FURTHER THAT any modification / revision approved by the RBI while granting approval for the remuneration of Mr.
+Anup Bagchi, including remuneration approved annually by the RBI during his tenure as the MD & CEO, shall be considered as
+final remuneration to be paid to Mr. Anup Bagchi.
+RESOLVED FURTHER THAT the Board be and is hereby authorized to do all such acts, deeds, matters and things and to execute
+any agreements, documents, instruments and writings as may be required, with power to settle all questions, difficulties or doubts
+that may arise in regard to the said appointment as it may in its sole discretion deem fit and necessary and to delegate all or any
+of its powers conferred herein to any director(s) and / or officer(s) of the Bank to give effect to this resolution.”
+Registered office: By Order of the Board of Directors
+HDFC Bank House,
+Senapati Bapat Marg,
+Lower Parel (West), Ajay Agarwal
+Mumbai 400 013 Company Secretary
+E-mail: [email redacted] Group Head - Secretarial & Group Oversight
+Website: www.hdfc.bank.in ICSI Membership No.: F9023
+Place: Mumbai
+Date: October 1, 2026
+4
+
+=== PAGE 6 ===
+Notes
+1. An explanatory statement pursuant to Section 102 of the Companies Act, 2013 (“Act”), setting out all material facts relating
+to the resolution contained in this Postal Ballot Notice (“Notice”) is appended herein below for information and consideration
+of Members and the same should be considered as part of this Notice.
+2. Members who wish to inspect the documents referred to in this Notice may send an e-mail from their registered e-mail address
+to [email redacted] mentioning their name, folio no. / client ID and DP ID, and the documents they wish
+to inspect until 5:00 p.m. (IST) of the last date of remote e-voting of this Postal Ballot i.e. Friday, November 6, 2026.
+3. Mr. Ashish Garg, Designated Partner of GDR & Partners LLP and in his absence, Mr. V. V. Chakradeo of M/s. V. V. Chakradeo
+& Co., Company Secretaries, having communicated their willingness, have been appointed as the Scrutinizer by the Board
+of Directors of the Bank to scrutinize the e-voting process in a fair and transparent manner.
+4. In accordance with the Circulars issued by Ministry of Corporate Affairs (“MCA Circulars”) and the Securities and Exchange
+Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 (“Listing Regulations”), this Notice is
+being sent by electronic mode to those Members, whose names appeared in the Register of Members/ Register of Beneficial
+Owners as on Friday, October 2, 2026 (“Cut-Off date”) and whose e-mail address are registered with the Registrar and
+Share Transfer Agent of the Bank, Datamatics Business Solutions Limited (the “RTA”) / Depository Participant (“DP”).
+5. Cut-Off date is for determining the eligibility to vote by electronic means. A person who is not a Member as on the
+Cut-Off date should treat this Notice for information purposes only. This Notice is also available at the Bank’s website:
+https://www.hdfc.bank.in/about-us/corporate-governance/postal-ballot and the websites of the Stock Exchanges i.e. BSE
+Limited at www.bseindia.com and National Stock Exchange of India Limited at www.nseindia.com and on the website of
+National Securities Depository Limited (“NSDL”) at https://www.evoting.nsdl.com.
+6. In compliance with the provisions of Sections 108, 110 and other applicable provisions of the Act, read with the Companies
+(Management and Administration) Rules, 2014, the applicable MCA Circulars and Regulation 44 of the Listing Regulations
+as amended from time to time, read with the relevant circulars, the Bank is offering remote e-voting facility to Members to
+cast their vote electronically.
+7. The Bank has engaged NSDL for facilitating remote e-voting to enable the Members to cast their votes electronically for this
+Postal Ballot.
+8. To facilitate voting by the Members who are eligible to vote and have not registered their e-mail address, the Bank has made
+special arrangements with its RTA, for registration of e-mail address, the process for which is as under:
+Members Send relevant documents to the RTA in Form ISR-1 available on the Bank’s website
+holding shares in https://www.hdfc.bank.in/about-us/corporate-governance/shareholders-information-and-helpdesk and also
+physical mode on the website of the RTA at https://www.datamaticsbpm.com/register-and-transfer-agent/information-
+to-shareholders/
+Members holding Contact your DP and register/ update e-mail address and mobile number in demat account, as per the
+shares in demat process advised by the DP.
+mode
+9. The process and manner for remote e-voting is explained below:
+Step 1: Access to NSDL e-voting system
+A) Login method for remote e-voting for Individual Members holding shares in demat mode
+Type of Members Login Method
+Individual members holding A. For OTP based login
+shares in demat mode with NSDL.
+- Click on https://eservices.nsdl.com/SecureWeb/evoting/evotinglogin.jsp
+- Enter your 8-digit DP ID, 8-digit Client Id, PAN No., Verification code and
+generate OTP.
+- Enter the OTP received on registered email id/mobile number and click on
+login.
+- After successful authentication, it will be redirected to e-voting page of NSDL
+Depository site.
+- Click on HDFC Bank Limited or e-voting service provider i.e. NSDL and it will
+be redirected to e-voting website of NSDL for casting vote during the remote
+e-voting period.
+5
+
+=== PAGE 7 ===
+Type of Members Login Method
+B. NSDL IDeAS facility
+If you are already registered, follow the below steps:
+- Visit the e-Services website of NSDL Viz. https://eservices.nsdl.com
+- On the e-Services home page click on the “Beneficial Owner” icon under
+“Login” which is available under ‘IDeAS’ section. This will prompt to enter
+your existing User ID and Password.
+- After successful authentication, member will be able to see e-voting services
+under Value added services. Click on “Access to e-voting” under e-voting
+services and you will be able to see e-voting page.
+- Click on HDFC Bank Limited or e-Voting service provider i.e. NSDL and you
+will be re-directed to e-voting website of NSDL for casting your vote during
+the remote e-voting period.
+If you are not registered, follow the below steps:
+- Option to register is available at https://eservices.nsdl.com
+- Select “Register Online for IDeAS Portal” or click at
+https://eservices.nsdl.com/SecureWeb/IdeasDirectReg.jsp
+C. E-voting website of NSDL
+- Visit the e-voting website of NSDL at https://www.evoting.nsdl.com/
+- Once the home page of e-voting system is launched, click on the icon “Login”
+which is available under ‘Shareholder/Member’ section.
+- A new screen will open. Enter User ID (i.e. sixteen-digit demat account number
+held with NSDL), Password/OTP and a Verification Code as shown on the
+screen.
+- After successful authentication, it will be redirected to e-voting page of NSDL
+Depository site.
+- Click on HDFC Bank Limited or e-voting service provider i.e. NSDL and it
+will be redirected to e-voting website of NSDL for casting your vote during
+the remote e-voting period.
+D. Members can also download NSDL Mobile App “NSDL Speede” facility by
+scanning the QR code mentioned below for seamless voting experience.
+Individual Members holding 1. Users who have opted for CDSL Easi / Easiest facility, can login through
+shares in demat mode with CDSL their existing user id and password. Option will be made available to reach
+e-voting page without any further authentication. The users to login Easi /
+Easiest are requested to visit CDSL website www.cdslindia.com and click
+on login icon and New System Myeasi Tab and then use your existing my
+easi username & password.
+2. After successful login to the Easi / Easiest, user will be able to view the e-voting
+option for the Bank where the evoting is in progress as per the information
+provided by the Bank. On clicking the evoting option, the user will be able
+to see e-voting page of the e-voting service provider for casting your vote
+during the remote e-voting period. Additionally, there are also links provided
+to access the system of all e-voting Service Providers, so that the user can
+visit the e-voting service providers’ website directly.
+3. If the user is not registered for Easi/Easiest, option to register is available
+at www.cdslindia.com. Thereafter, click on login & New System Myeasi Tab
+and then click on registration option.
+4. Alternatively, the user can directly access e-voting page by providing Demat
+Account Number and PAN No. from e-voting link available on www.cdslindia.com
+home page. The system will authenticate the user by sending OTP on registered
+Mobile & Email as recorded in the Demat Account. After successful authentication,
+user will be able to see the e-voting option where the e-voting is in progress and
+also able to directly access the system of all e-Voting Service Providers.
+6
+
+=== PAGE 8 ===
+Type of Members Login Method
+Individual Members (holding 1. You can also login using the login credentials of your demat account through
+shares in demat mode) login your DP registered with NSDL/CDSL for e-voting facility.
+through their DPs 2. Upon logging in, you will be able to see e-voting option.
+3. Click on e-voting option, you will be redirected to NSDL/CDSL Depository
+site after successful authentication, wherein you can see e-voting feature.
+4. Click on options available against HDFC Bank Limited or e-voting service
+provider i.e. NSDL and you will be redirected to e-voting website of NSDL
+for casting your vote during the remote e-voting period.
+Important note: Members who are unable to retrieve User ID/ Password are advised to use “Forgot User ID/Forgot
+Password” option available at abovementioned website.
+Helpdesk for Members holding securities in demat mode for any technical issues related to login through Depository
+i.e. NSDL and CDSL.
+Login type Helpdesk details
+Individual Members holding shares in Contact NSDL helpdesk by sending a request to Ms. Pallavi Mhatre, Deputy
+demat mode with NSDL Vice President at [email redacted] or call at No.: 022 - 4886 7000
+Individual Members holding shares in Contact CDSL helpdesk by sending a request at helpdesk.evoting@
+demat mode with CDSL cdslindia.com or call at 1800-21-09911
+B. Login Method for e-voting other than Individual members holding shares in demat mode and members holding
+shares in physical mode.
+How to Log-in to NSDL e-voting website?
+1. Visit the e-voting website of NSDL at https://www.evoting.nsdl.com/
+2. Once the home page of e-voting system is launched, click on the “Login” icon which is available under ‘Shareholder/
+Member’ section.
+3. A new screen will open. Enter your User ID, your Password/OTP and a Verification Code as shown on the screen.
+4. Alternatively, if you are registered for NSDL eservices i.e. IDeAS, you can log-in at https://eservices.nsdl.com/ with
+your existing IDEAS login. Once you log-in to NSDL eservices after using your log-in credentials, click on e-voting
+and you can proceed to Step 2 i.e. Cast your vote electronically.
+5. Your User ID details are given below:
+Manner of holding shares i.e. Demat (NSDL Your User ID is:
+or CDSL) or Physical
+a) For Members who hold shares in demat 8 Character DP ID followed by 8 Digit Client ID
+account with NSDL.
+For example, if your DP ID is IN300*** and Client ID is 12******
+then your user ID is IN300***12******.
+b) For Members who hold shares in demat 16 Digit Beneficiary ID
+account with CDSL.
+For example, if your Beneficiary ID is 12************** then your
+user ID is 12**************
+c) For Members holding shares in Physical EVEN Number i.e. 143249 + Folio Number registered with the
+Form. Bank
+(For example, if folio number is 001*** then user ID is
+143249001***)
+6. Password details for Members other than Individual Members are given below:
+a) If you are already registered for e-voting, then you can use your existing password to login and cast your vote.
+b) If you are using NSDL e-voting system for the first time, you will need to retrieve the ‘initial password’ which
+was communicated to you. Once you retrieve your ‘initial password’, you need to enter the ‘initial password’
+and the system will force you to change your password.
+c) How to retrieve your ‘initial password’?
+(i) If your email ID is registered in your demat account or with the Bank, your ‘initial password’ is communicated
+to you on your email ID. Trace the email sent to you from NSDL from your mailbox. Open the email and
+7
+
+=== PAGE 9 ===
+open the attachment i.e. a .pdf file. Open the .pdf file. The password to open the .pdf file is your 8 digit
+client ID for NSDL account, last 8 digits of client ID for CDSL account or folio number for shares held in
+physical form. The .pdf file contains your ‘User ID’ and your ‘initial password’.
+(ii) If your email ID is not registered, please follow steps mentioned below in process for those members
+whose email ids are not registered.
+7. If you are unable to retrieve or have not received the “Initial password” or have forgotten your password:
+a) Click on “Forgot User Details/Password?”, if you are holding shares in your demat account
+b) Click on “Physical User Reset Password?”, if you are holding shares in physical mode
+c) If you are still unable to get the password by aforesaid two options, you can send a request at
+[email redacted] mentioning your demat account number/folio number, your PAN, your name, your registered
+address etc.
+d) Members can also use the OTP (One Time Password) based login for casting the votes on the e-voting system
+of NSDL.
+8. After entering your password, tick on Agree to “Terms and Conditions” by selecting on the check box.
+9. Now, you will have to click on “Login” button.
+10. After you click on the “Login” button, Home page of e-voting will open.
+Step 2: Cast your vote electronically on NSDL e-voting system
+How to cast your vote electronically on NSDL e-voting system?
+1. After successful login at Step 1, you will be able to see all the companies “EVEN” in which you are holding shares and
+whose voting cycle and General Meeting is in active status.
+2. Select “EVEN” of the Bank- 143249, for casting your vote during the remote e-voting period.
+3. Now you are ready for e-voting as the Voting page opens.
+4. Cast your vote by selecting appropriate options i.e. assent or dissent, verify/modify the number of shares for which you
+wish to cast your vote and click on “Submit” and also “Confirm” when prompted.
+5. Upon confirmation, the message “Vote cast successfully” will be displayed.
+6. You can also take the printout of the votes cast by you by clicking on the print option on the confirmation page.
+7. Once you confirm your vote on the resolution, you will not be allowed to modify your vote.
+General Guidelines for Members:
+1. It is strongly recommended not to share your password with any other person and take utmost care to keep your password
+confidential. Login to the e-voting website will be disabled upon five unsuccessful attempts to key in the correct password.
+In such an event, you will need to go through the “Forgot User Details/Password?” or “Physical User Reset Password?”
+option available here to reset the password.
+2. Members may send a request to [email redacted] for procuring User ID and password for e-voting by providing DP ID and
+Client ID/Folio no., client master or copy of Consolidated Account statement, PAN (self-attested scanned copy), Aadhaar
+(self-attested scanned copy).
+10. Some of the important details regarding e-voting facility are provided below:
+Cut-off date for determining the Members entitled to vote Friday, October 2, 2026
+Commencement of e-voting period Thursday, October 8, 2026 at 10:00 A.M. (IST)
+End of e-voting period Friday, November 6, 2026 at 5:00 P.M. (IST)
+The e-voting module will be disabled by NSDL immediately after 5:00 p.m. (IST) on Friday, November 6, 2026.
+11. The voting rights of Members shall be in proportion to the number of equity shares held by the respective Member in the paid-up
+equity share capital of the Bank as on the Cut-Off date i.e. Friday, October 2, 2026.
+8
+
+=== PAGE 10 ===
+12. In case of joint holders, the Member whose name appears higher in the order of names as per the Register of Members of the
+Bank will be entitled to vote.
+13. Institutional shareholders /Corporate Members (i.e. other than individuals, HUF, NRI etc.), are requested to send a certified
+scanned copy (PDF/JPG Format) of the relevant Board Resolution / Authority letter etc. with attested specimen signature
+of the duly authorized signatory(ies) who are authorized to vote on their behalf, to the Scrutinizer by sending an e-mail to
+[email redacted] with a copy marked to [email redacted] by quoting the concerned DP ID and Client ID or Folio
+Number. The said documents can also be uploaded under “Upload Board Resolution/Authority Letter” displayed under
+“e-voting” tab.
+14. The Scrutinizer will submit the results of the remote e-voting to the Chairman of the Bank or the Authorized Officer(s) of the
+Bank after completion of the scrutiny of the e-voting.
+15. The result of the Postal Ballot along with the Scrutinizer’s Report will be displayed on the Bank’s website
+https://www.hdfc.bank.in/about-us/corporate-governance/postal-ballot, on the website of NSDL at https://www.evoting.nsdl.com
+and shall be communicated to the Stock Exchanges where the Bank’s shares are listed i.e. BSE Limited at www.bseindia.com
+and National Stock Exchange of India Limited at www.nseindia.com, within 2 (two) working days from the end of the e-voting
+period, and shall be displayed at the Registered Office of the Bank.
+16. The resolution, if approved by the requisite majority of Members by means of Postal Ballot, shall be deemed to have been
+passed on the last date of remote e-voting, i.e. Friday, November 6, 2026.
+9
+
+=== PAGE 11 ===
+EXPLANATORY STATEMENT PURSUANT TO SECTION 102 OF THE COMPANIES ACT, 2013
+The following Explanatory Statement sets out the relevant information as required under Section 102 and other applicable provisions,
+if any, of the Companies Act, 2013 (the “Act”), read with rules framed thereunder and the Securities and Exchange Board of India
+(Listing Obligations and Disclosure Requirements) Regulations, 2015 (“Listing Regulations”).
+Resolution No. 1
+The Members of the Bank, vide resolution passed through Postal Ballot on January 9, 2024, had approved the re-appointment of
+Mr. Sashidhar Jagdishan as the Managing Director & Chief Executive Officer (“MD & CEO”) of the Bank, for a period of 3 (three)
+years commencing from October 27, 2023 up to October 26, 2026 (both days inclusive) along with his remuneration.
+Mr. Sashidhar Jagdishan on August 29, 2026, communicated his decision to the Board of Directors to not seek re-appointment as
+the MD & CEO of the Bank, post the completion of his current tenure. The Board of Directors, placed on record its appreciation for
+Mr. Jagdishan’s long association and contribution to the growth of the Bank and noted his communication to not seek re-appointment,
+and accordingly, Mr. Jagdishan would be retiring from the services of the Bank upon the close of business hours on October 26, 2026.
+Consequent to receipt of such communication from Mr. Jagdishan, the Governance, Nomination and Remuneration Committee
+(“GNRC”) convened few meetings immediately thereafter and undertook a detailed review of potential candidates, both internal
+and external. Following these deliberations, the GNRC and the Board of Directors of the Bank, at their respective meetings held on
+September 12, 2026, evaluated and shortlisted candidates for the position of MD & CEO, after assessing a wide range of attributes
+including leadership and strategic vision, depth of banking and financial services experience, exposure to large scale operations,
+risk management acumen, regulatory and compliance orientation, stakeholder management capability, governance track record,
+digital and technology transformation experience and overall understanding of the Bank’s business model and long term priorities.
+The GNRC and the Board of Directors also assessed the compliance of the shortlisted candidates with the ‘Fit and Proper’ criteria
+in terms of the Banking Regulation Act, 1949, Reserve Bank of India (Commercial Banks - Governance) Directions, 2025 and
+other relevant directions, circulars and notifications issued by the Reserve Bank of India (“RBI”) from time to time, the Listing
+Regulations and the Policy on Appointment and Fit and Proper Criteria for Directors of the Bank, along with other applicable rules
+and regulations. The Board of Directors thereafter finalized the terms and conditions relating to the said appointment, including
+remuneration, and recommended the same for the approval of the RBI.
+Pursuant to the application made by the Bank, the RBI, vide its letter dated October 1, 2026, granted its approval from the candidates
+shortlisted by the Bank, for the appointment of Mr. Anup Bagchi as the MD & CEO of the Bank, for a period of 3 (three) years,
+commencing from October 27, 2026 till October 26, 2029.
+Mr. Anup Bagchi is a seasoned financial services leader with over three decades of experience across banking, capital markets,
+wealth management and insurance. A member of the ICICI Group since 1992, he has built a diverse career spanning treasury, retail
+banking, wholesale banking, investment banking, and digital financial services. Over the course of his career, he has held several
+pivotal leadership positions, including CEO & MD of ICICI Securities Limited, Executive Director of ICICI Bank Limited, and currently
+is the MD & CEO of ICICI Life Insurance Limited (formerly known as ICICI Prudential Life Insurance Company Limited). His career
+reflects a strong track record of business building, strategic leadership, and navigating the evolving financial services landscape.
+Mr. Bagchi served as an Executive Director of ICICI Bank Limited from 2017 to 2023, overseeing Retail, Business and Rural Banking,
+and subsequently Wholesale Banking. During his tenure, he played a key role in strengthening the ICICI Bank’s retail franchise,
+driving profitable growth while maintaining credit and cost discipline. Under his leadership, ICICI Bank Limited became the first
+private-sector bank in India to surpass a retail mortgage portfolio of Rs. 2 trillion and successfully navigated the demonetisation
+period with limited business disruption. Alongside his executive responsibilities, he served as Chairman of ICICI Prudential Asset
+Management Company Limited until May 2023 and was a Director of ICICI Prudential Pension Fund Management Limited and
+ICICI Home Finance Company Limited.
+Since June 2023, Mr. Bagchi has been serving as the MD & CEO of ICICI Life Insurance Limited, leading one of India’s largest
+private life insurers, which is publicly listed. Under his leadership, the company crossed Rs. 10,000 crore in Annualised Premium
+Equivalent (APE) for the first time in FY2025, with APE growing 15% year-on-year to Rs. 10,407 crore and profit after tax increasing
+nearly 40% to Rs. 1,189 crore. The business has also delivered strong growth in protection products and new business generation,
+reflecting his focus on sustainable and profitable expansion.
+Based on the said RBI approval and the recommendation of GNRC, the Board of Directors of the Bank, at its meeting held on
+October 1, 2026 appointed Mr. Bagchi as the MD & CEO of the Bank, for a period of 3 (three) years, with effect from October
+27, 2026 up to October 26, 2029 (both days inclusive) on the terms and conditions, including remuneration as mentioned in the
+Resolution No. 1, subject to the approval of the Members of the Bank.
+In order to facilitate smooth transition, the Board of Directors of the Bank, based on the recommendation of the GNRC, at the said
+meeting also appointed Mr. Bagchi as an Additional Director of the Bank with effect from October 2, 2026 till the date of approval
+of Members of the Bank.
+Mr. Bagchi meets the fit and proper criteria as prescribed by the RBI and is not disqualified from being appointed as a Director in
+terms of Section 164 of the Companies Act, 2013 (the “Act”). In the opinion of the Board of Directors, he fulfils the conditions for
+the said appointment as prescribed under the relevant provisions of the Act and the relevant Rules made thereunder, the Listing
+Regulations, the Banking Regulation Act, 1949 and other guidelines issued by the RBI from time to time. Mr. Bagchi has the requisite
+qualifications, skills, experience and expertise in specific functional areas, which are beneficial to the Bank. He has furnished to
+the Bank his consent to act as a Director of the Bank and affirmed that he is not debarred from holding office of Director by virtue
+of any order of the Securities and Exchange Board of India or any other such authority.
+10
+
+=== PAGE 12 ===
+Pursuant to the relevant provisions of the Articles of Association of the Bank, Mr. Bagchi shall not be liable to retire by rotation in
+terms of the provisions of Section 152 of the Act during his tenure as the MD & CEO of the Bank.
+As regards the annual increment in the remuneration of Mr. Bagchi, the same is performance linked and subject to the approval of
+the RBI, each year. Further, the average increase in the fixed remuneration of Whole-Time Directors (“WTDs”) over the last 5 years
+has been in the range of 4.0% to 8.0% and the payment of variable component including cash bonus and ESOPs as a percentage
+of Fixed Pay, has been generally capped between 200% - 300%.
+Based on the current remuneration structure, the Bank expects that during Mr. Bagchi’s tenure as the MD & CEO of the Bank, the
+annual increments in the fixed remuneration would continue to remain within a similar range and the variable pay as a percentage
+of fixed pay will continue to be capped at 300%, subject to the approval of the GNRC, Board of Directors and RBI, every year.
+The Bank has also received a notice under Section 160 of the Act from a member proposing the candidature of Mr. Anup Bagchi
+as the Director of the Bank.
+Brief profile of Mr. Anup Bagchi in terms of the Listing Regulations and the Secretarial Standard on the General Meetings
+(“SS-2”) has been provided in this Explanatory Statement as under:
+Director Identification Number (DIN) 00105962
+Age 56 years
+Nationality Indian
+Qualifications • Management degree from Indian Institute of Management, Bangalore; and
+• Engineering degree from Indian Institute of Technology, Kanpur
+Experience/ Brief Profile Mr. Anup Bagchi is a seasoned financial services leader with over three decades
+of experience across banking, capital markets, wealth management and insurance.
+A member of the ICICI Group since 1992, he has built a diverse career spanning
+treasury, retail banking, wholesale banking, investment banking, and digital financial
+services. Over the course of his career, he has held several pivotal leadership
+positions, including CEO & MD of ICICI Securities Limited, Executive Director of
+ICICI Bank Limited, and currently is the MD & CEO of ICICI Life Insurance Limited
+(formerly known as ICICI Prudential Life Insurance Company Limited). His career
+reflects a strong track record of business building, strategic leadership, and navigating
+the evolving financial services landscape.
+Mr. Bagchi served as an Executive Director of ICICI Bank Limited from 2017 to
+2023, overseeing Retail, Business and Rural Banking, and subsequently Wholesale
+Banking. During his tenure, he played a key role in strengthening the ICICI Bank’s
+retail franchise, driving profitable growth while maintaining credit and cost discipline.
+Under his leadership, ICICI Bank Limited became the first private-sector bank in
+India to surpass a retail mortgage portfolio of Rs. 2 trillion and successfully navigated
+the demonetisation period with limited business disruption. Alongside his executive
+responsibilities, he served as Chairman of ICICI Prudential Asset Management
+Company Limited until May 2023 and was a Director of ICICI Prudential Pension
+Fund Management Limited and ICICI Home Finance Company Limited.
+Since June 2023, Mr. Bagchi has been serving as the MD & CEO of ICICI Life
+Insurance Limited, leading one of India’s largest private life insurers, which is publicly
+listed. Under his leadership, the company crossed Rs. 10,000 crore in Annualised
+Premium Equivalent (APE) for the first time in FY2025, with APE growing 15% year-
+on-year to Rs. 10,407 crore and profit after tax increasing nearly 40% to Rs. 1,189
+crore. The business has also delivered strong growth in protection products and new
+business generation, reflecting his focus on sustainable and profitable expansion.
+Date of first appointment on the Board October 2, 2026 (as an Additional Director)
+Number of Meetings of the Board attended Not Applicable
+during the year (FY 2026-27)
+Directorships, Trusteeships, Partnerships, Listed Company
+etc. held in other companies, firms, trusts,
+ICICI Life Insurance Limited (formerly known as ICICI Prudential Life Insurance
+entities, etc
+Company Limited)
+Unlisted Company
+Comm Trade Services Limited (under liquidation)
+Memberships / chairmanships of Stakeholders Relationship Committee
+committees of the Boards of other
+ICICI Life Insurance Limited (formerly known as ICICI Prudential Life Insurance
+companies
+Company Limited)- Member
+11
+
+=== PAGE 13 ===
+Listed entities from which the person has Nil
+resigned from the directorship in the past
+three years
+Number of shares held in the Bank Nil
+(including shareholding as a beneficial
+owner)
+Terms and conditions of the appointment, As detailed in Resolution No. 1
+including details of remuneration sought to
+be paid and the last remuneration drawn
+Justification for appointment and skills The appointment of Mr. Anup Bagchi as the MD & CEO of the Bank is expected
+and capabilities required for the role and to benefit the Bank through his extensive leadership experience across banking,
+the manner in which the proposed person capital markets and insurance sectors. His broad expertise spanning retail, MSME
+meets such requirements and corporate banking, treasury, credit policy and data analytics would support the
+Bank’s strategic priorities, strengthen and enhance customer-centric innovation. His
+experience in leading large and diversified financial-services businesses would also
+bring an external perspective, and contribute to the Bank’s long-term sustainable
+growth and value creation for all stakeholders.
+Nature of expertise in specific functional Banking, Business Management, Finance, Risk Management, Economics, Payment
+areas & Settlement systems, Information Technology, Agriculture and Rural Economy,
+Strategic Planning, Consulting & Corporate Planning, General Administration, Audit,
+Customer Experience, Sales, Marketing, Corporate Governance, Housing and Real
+Estate and Operations.
+Relationship with other directors of the None
+Board, or Key Managerial Personnel of
+the Bank
+Note: For the purpose of considering the limit of chairpersonships / memberships of committees of the Boards of other companies,
+only the Audit Committee and Stakeholders’ Relationship Committee are considered.
+Accordingly, approval of the Members of the Bank is sought for the appointment of Mr. Anup Bagchi, as a Director and as
+the MD & CEO of the Bank, for a period of 3 (three) years commencing from October 27, 2026 up to October 26, 2029, (both
+days inclusive), not liable to retire by rotation, upon the terms and conditions including remuneration, as approved by the
+RBI, and as mentioned in Resolution No. 1, with further authority to the Board of Directors to alter and vary the terms and
+conditions of the said appointment, remuneration and / or agreement including increments and revisions and / or any other
+components of the remuneration (including authority, from time to time to determine the amount of salary as also the type and
+amount of perquisites and other benefits payable to Mr. Bagchi), as may be necessary from time to time during the tenure of
+Mr. Bagchi as the MD & CEO of the Bank, subject to the approval of RBI.
+None of the Bank’s Directors, Key Managerial Personnel and their relatives, other than Mr. Bagchi and his relatives, are in any way
+concerned or interested, financially or otherwise, in the passing of the Resolution No. 1 of this Notice.
+Your Directors recommend the passing of the Ordinary Resolution as set forth in Resolution No. 1 of the accompanying Notice.
+Registered office: By Order of the Board of Directors
+HDFC Bank House,
+Senapati Bapat Marg,
+Lower Parel (West), Ajay Agarwal
+Mumbai 400 013 Company Secretary
+E-mail: [email redacted] Group Head - Secretarial & Group Oversight
+Website: www.hdfc.bank.in ICSI Membership No.: F9023
+Place: Mumbai
+Date: October 1, 2026
+12

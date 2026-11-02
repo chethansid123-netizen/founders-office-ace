@@ -1,0 +1,61 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachHis/245411e3-141f-4e4c-9131-6503c4b6b726.pdf
+SHA256: 84fa4e9495a122d9856e3ed43cfaa7f73677b8b3f24b8e8755fad6cba9ed9eb1
+FETCHED_AT: 2026-11-02T14:17:34+00:00
+PAGES: 2
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 0 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+September 5, 2026
+To,
+BSE Limited
+Listing Department,
+P. J. Towers, Dalal Street,
+Mumbai – 400 001
+Scrip Code: 500365
+Dear Sir/Madam,
+Sub: Resignation of Senior Management Personnel (SMP) of the Company
+Ref.: Regulation 30 read with Para A (7) of Part A of Schedule III and other applicable provisions of the
+SEBI (Listing Obligations & Disclosure Requirements) Regulations, 2015, as amended from time to
+time ('SEBI Listing Regulations')
+In terms of SEBI Listing Regulations, this is to inform you that Mr. Gouri Shankar Roy,
+Chief Operating Officer and Senior Management Personnel (SMP) of the Company, has resigned from
+the said position effective from close of business hours on September 5, 2026 due to health issue and
+family commitments.
+The details as required under SEBI Listing Regulations, read with SEBI Master Circular No.
+HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026 are provided hereunder:
+Name of Senior Management Personnel (SMP) Mr. Gouri Shankar Roy
+Reason for change – viz. appointment, re- Resignation from the position of Chief Operating
+appointment, resignation, removal, death or Officer and SMP of the Company due to health
+otherwise issue and family commitments.
+Date of appointment/ re-appointment/ cessation Close of business hours on September 5, 2026
+(as applicable) & term of appointment/
+re-appointment.
+Brief Profile (in case of appointment) Not Applicable
+Disclosure of relationships between directors (in Not Applicable
+case of appointment of a director)
+A copy of the resignation letter is also enclosed for your reference.
+Kindly take the same on record.
+Thanking you.
+Yours faithfully,
+For Welspun Specialty Solutions Limited
+Dipti Modi
+Company Secretary and
+Compliance Officer
+
+=== PAGE 2 ===
+September 5, 2026
+To,
+The CEO &- Whole Time Dircctor
+Weispun Specialty Solutions Limited
+Subject: Resignation from the position of Chief Operating Officer
+Dear Sir,
+I hereby tender my resignation from the positi on of Chief Operating Office-, due to
+health issue and family commitment. I would request you to relieve me of my duties
+with effect front the close of business hours on September 5, 2026.
+I wish to thank all my colleagues for their support during my tenure and wish the
+Company success in all its endeavors.
+Thanks & Regards,
+Kcrqfr
+Mr. Gouri Shankar Roy
+Chief Operating Officer

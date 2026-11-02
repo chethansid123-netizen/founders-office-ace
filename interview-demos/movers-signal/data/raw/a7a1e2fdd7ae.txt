@@ -1,0 +1,178 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachHis/8b31a993-b67c-4f03-8731-d646073247ad.pdf
+SHA256: 0632b5d5da26acd903d80c44d3b1ab651741dcd2b3a8e465f27449be60537baa
+FETCHED_AT: 2026-11-02T14:20:34+00:00
+PAGES: 4
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 12 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+October 12, 2026
+BSE Limited, National Stock Exchange of India Limited,
+1st Floor, Phiroze Jeejeebhoy Towers, Exchange Plaza, C-1, Block G,
+Dalal Street, Bandra Kurla Complex, Bandra (E)
+Mumbai – 400001. Mumbai -400051.
+Scrip Code: 540065 Scrip Name: RBLBANK
+Reg: Disclosure under relevant provisions of the SEBI (Listing Obligations and
+Disclosure Requirements) Regulations, 2015 (“SEBI Listing Regulations”) –
+Change in Senior Management
+Sub: Outcome of Board Meeting
+Dear Sir/Madam,
+In continuation to our earlier intimation dated October 12, 2026, and pursuant to Regulation
+30, Schedule III, Part A, Para A (7) and other applicable provisions of the SEBI Listing
+Regulations, as amended, this is to inform you that the Board of Directors of RBL Bank Limited
+(“the Bank”) at its meeting held today i.e. on October 12, 2026, has, inter-alia noted/approved
+the following:
+I. Changes in Senior Management of the Bank:
+1. Mr. Deepak Kumar - Chief Risk Officer (CRO), being part of the Senior Management of
+RBL Bank Limited (“the Bank”) has been associated with the Bank on a fixed term contract.
+As per the terms, the contract shall conclude on October 31, 2026. Accordingly,
+Mr. Deepak Kumar shall cease to be a part of the Senior Management of the Bank
+effective close of business hours on October 31, 2026.
+2. Further, we wish to inform you that basis the recommendations of the Risk Management
+Committee of the Board and Nomination and Remuneration Committee of the Board, the
+Board approved appointment of Mr. Ashwini Kumar Choudhary as the Chief Risk Officer
+of the Bank with effect from November 01, 2026. Mr. Ashwini Kumar Choudhary is a part
+of the Senior Management of the Bank.
+The intimation with respect to change in incumbency (Sr. no. 1 and 2) is filed in compliance
+with Chapter III F of the Reserve Bank of India (“RBI”) Directions Ref No. RBI/DOR/2025-
+26/149 DOR.HGG.GOV. No.68/29.67.001/2025-26 dated November 28, 2025.
+3. Further, we wish to inform you that basis the recommendations of the Audit Committee of
+the Board and Nomination and Remuneration Committee of the Board, the Board
+approved the re-appointment of Mr. Prakash Gupta as the Chief Compliance Officer of the
+Bank with effect from November 1, 2026 for a period of one year eight months.
+Mr. Prakash Gupta is a part of the Senior Management of the Bank.
+Disclosure of information pursuant to Regulation 30 of SEBI (Listing Obligations and
+Disclosure Requirements) Regulations, 2015, read with SEBI Master Circular No.
+HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026, is enclosed as
+Annexure I.
+www.rbl.bank.in
+RBL Bank Limited
+Controlling Office: One World Center, Tower 2B, 6th Floor, 841 Senapati Bapat Marg, Lower Parel, Mumbai - 400 013, Maharashtra, India I Tel:[phone redacted]
+Registered Office: 1st Lane, Shahupuri, Kolhapur - 416001, India I Tel.: [phone redacted]
+CIN: L65191PN1943PLC007308 . E-mail: [email redacted]
+
+=== PAGE 2 ===
+II. Other matter:
+Further, in compliance with Regulation 8(2) of the SEBI (Prohibition of Insider Trading)
+Regulations, 2015, as amended, we wish to inform you that the Board of Directors, reviewed
+and approved the amendments to the “Code of Practices and Procedures for Fair Disclosure
+of Unpublished Price Sensitive Information”.
+The revised Code of Practices and Procedures for Fair Disclosure of Unpublished Price
+Sensitive Information is available on the website of the Bank at
+https://www.rbl.bank.in/investor-relations/disclosures-regulation-46/codes-and-policies.
+The Board Meeting commenced at 2:04 p.m. and concluded at 6:03 p.m.
+This disclosure may be read in continuation of the Bank's earlier intimation dated October 12, 2026
+regarding approval of the unaudited standalone and consolidated financial results for the quarter
+and half year ended September 30, 2026.
+The above information is also being hosted on the Bank’s website https://www.rbl.bank.in/
+Kindly take the same on record.
+Thanking you,
+Yours faithfully,
+For RBL Bank Limited
+Niti Arya
+Company Secretary
+Encl: As above
+www.rbl.bank.in
+RBL Bank Limited
+Controlling Office: One World Center, Tower 2B, 6th Floor, 841 Senapati Bapat Marg, Lower Parel, Mumbai - 400 013, Maharashtra, India I Tel:[phone redacted]
+Registered Office: 1st Lane, Shahupuri, Kolhapur - 416001, India I Tel.: [phone redacted]
+CIN: L65191PN1943PLC007308 . E-mail: [email redacted]
+
+=== PAGE 3 ===
+Annexure I
+Disclosure of information pursuant to Regulation 30 of SEBI (Listing Obligations and
+Disclosure Requirements) Regulations, 2015, read with SEBI Master Circular No.
+HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026
+Sr. Particulars Mr. Deepak Mr. Ashwini Kumar Mr. Prakash Gupta
+No. Kumar Choudhary
+1 Reason for change Completion Appointment as Chief Re-appointment as
+viz., appointment, of term as Risk Officer Chief Compliance
+re-appointment, Chief Risk Officer
+resignation, Officer
+removal, death or effective
+otherwise close of
+2 Date of business Appointment as Chief Re-appointment as
+appointment/Re- hours on Risk Officer with effect Chief Compliance
+appointment, October 31, from November 1, Officer with effect from
+cessation (as 2026 2026 November 1, 2026, for
+applicable) and a period of one year
+term of and eight months
+appointment/re-
+appointment
+3 Brief profile (in Not Mr. Ashwini Kumar Mr. Prakash Gupta has
+case of Applicable Choudhary brings over over 31 years of
+appointment/re- 27 years of experience experience working in
+appointment) across banking and the banking and
+financial services, with financial services
+expertise in enterprise sector. During his
+risk management, professional career, he
+credit, and has been the Head of
+governance. He has Compliance at
+held several senior Barclays, Credit-
+leadership positions, Suisse and Rabobank.
+including Group Chief He has also worked in
+Risk Officer at Union varied capacities
+Bank of India and across banks and
+Chief Risk Officer at financial institutions
+Tata Cleantech like Bank of Baroda,
+Capital. His career ICICI Bank Ltd and
+also includes key roles Edelweiss. Prior to
+at HSBC, HDFC Bank, joining RBL Bank, he
+Srei Infrastructure was the Chief Risk
+Finance, and Bank of officer with ECL
+Baroda. Mr. Finance Ltd. In his past
+Choudhary holds a role, he was
+Post Graduate responsible for an
+Diploma in Banking oversight on the
+and Finance from the NBFCs and other
+National Institute of regulated group
+Bank Management entities. He holds
+www.rbl.bank.in
+RBL Bank Limited
+Controlling Office: One World Center, Tower 2B, 6th Floor, 841 Senapati Bapat Marg, Lower Parel, Mumbai - 400 013, Maharashtra, India I Tel:[phone redacted]
+Registered Office: 1st Lane, Shahupuri, Kolhapur - 416001, India I Tel.: [phone redacted]
+CIN: L65191PN1943PLC007308 . E-mail: [email redacted]
+
+=== PAGE 4 ===
+and has completed the strong domain
+FRM, CFA, and CAIIB knowledge in
+certifications. He also Compliance, Banking
+holds a B.A. (Hons.) in and Para-banking
+Sociology from Products
+Magadh University. Development, Branch
+Operations, Loan
+Recovery, Forex
+Management, Credit &
+Enterprise Risk
+Management, and
+Client Servicing. Mr.
+Prakash Gupta brings
+rich experience of
+actively working with
+several regulators and
+quasi regulators (in
+India and abroad),
+representing the views
+of the sector on various
+issues, more
+particularly in the
+context of customer
+centricity, technology,
+compliance, and
+governance which has
+become very important
+in the present dynamic
+environment. Prakash
+holds a Master's
+Degree in Economics.
+4 Disclosure of Not Not Applicable Not Applicable
+relationships Applicable
+between directors
+(in case of
+appointment of a
+director)
+www.rbl.bank.in
+RBL Bank Limited
+Controlling Office: One World Center, Tower 2B, 6th Floor, 841 Senapati Bapat Marg, Lower Parel, Mumbai - 400 013, Maharashtra, India I Tel:[phone redacted]
+Registered Office: 1st Lane, Shahupuri, Kolhapur - 416001, India I Tel.: [phone redacted]
+CIN: L65191PN1943PLC007308 . E-mail: [email redacted]

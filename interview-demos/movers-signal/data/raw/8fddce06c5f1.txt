@@ -1,0 +1,59 @@
+SOURCE_URL: https://nsearchives.nseindia.com/corporate/WELCORP_02112026184807_SE_Intimation_SMP_Resignation_letter.pdf
+SHA256: 796827276e0e9de282a6778db9e4bb1518243bcc7e295a02a3e666c48dc325b8
+FETCHED_AT: 2026-11-02T14:06:14+00:00
+PAGES: 3
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 0 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+WCL/SEC/2026 November 2, 2026
+To,
+BSE Ltd. National Stock Exchange of India Ltd.
+Listing Department, Exchange Plaza,
+P. J. Towers, Dalal Street, Bandra-Kurla Complex,
+Mumbai – 400 001. Bandra (E), Mumbai – 400 051.
+(Scrip Code: Equity - 532144), (Symbol: WELCORP, Series EQ)
+(NCD – 973309)
+Dear Sirs/ Madam,
+Sub: Resignation of Senior Management Personnel (SMP) of the Company
+Ref.: a. Regulation 30 read with Para A (7) of Part A of Schedule III and other applicable
+provisions of the SEBI (Listing Obligations & Disclosure Requirements)
+Regulations, 2015, as amended from time to time ('SEBI Listing Regulations')
+b. ISIN: INE191B01025
+In terms of the SEBI Listing Regulations, we wish to inform you that Mr. Rakesh Mehta, Chief
+Human Resource Officer (CHRO) and Senior Management Personnel (SMP) of the
+Company, has resigned from the said position effective from the close of business hours on
+November 2, 2026, due to personal reason.
+The requisite details as required under SEBI Listing Regulations, read with SEBI Master
+Circular No. HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026 are
+enclosed herewith as Annexure A. A copy of the resignation letter is also enclosed for your
+reference.
+Kindly take the same on record, please.
+Thanking you.
+Yours faithfully,
+For Welspun Corp Limited
+Kamal Rathi
+Company Secretary and Compliance Officer
+ACS-18182
+Encl. a/a.
+
+=== PAGE 2 ===
+Annexure A
+Sr. Particulars Details
+No.
+1. Name of Senior management Mr. Rakesh Mehta
+Personnel (SMP)
+2. Reason for change, viz, appointment, Resignation from the position of Chief
+re-appointment, resignation, removal, Human Resource Officer (CHRO) and
+death or otherwise. Senior Management Personnel (SMP) of
+the Company, due to personal reason.
+3. Date of appointment/ re-appointment/ Close of business hours of November 2,
+cessation (as applicable) & term of 2026
+appointment/ re-appointment.
+4. Brief Profile (in case of appointment) Not Applicable
+5. Disclosure of relationship between Not Applicable
+directors (in case of appointment of a
+Director)
+
+=== PAGE 3 ===
+

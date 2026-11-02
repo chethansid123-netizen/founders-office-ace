@@ -1,0 +1,281 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachHis/956fad30-901a-4c67-8a56-dee6cf2b9134.pdf
+SHA256: b478680f8a4520a4a3f3176f1657a188271469b43e57d28db1f226b6c9fd375b
+FETCHED_AT: 2026-11-02T14:16:59+00:00
+PAGES: 6
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 22 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+LINCOLN
+PHARMACEUTICALS L TO.
+HEALTHCARE FOR ALL
+Date: September 24, 2026
+To, To,
+The Manager, Listing Department, The Department of Corporate Service,
+National Stock Exchange of India Limited (NSE), BSE Limited,
+Exchange Plaza, C – 1, Block – G, Bandra – Kurla 1st Floor, New Trading Ring, Rotunda Building, Phiroze
+Complex, Bandra (E), Mumbai-400 051. Jeejeebhoy Tower, Dalal Street, Mumbai – 400 001.
+Symbol-LINCOLN Scrip Code-531633
+Dear Sir / Madam,
+Subject: Intimation of change in Senior Management Personnel under Regulation 30 of Securities and Exchange
+Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 (“LODR Regulations”).
+Pursuant to Regulation 30 read with Schedule III of the LODR Regulations, we hereby inform you that Mr. Pradeep
+Kumar Yadav has been appointed as Senior General Manager- Quality Assurance with effect from 24th September,
+2026, and has been designated as Senior Management Personnel of the Company.
+The relevant details with respect to the above appointment in Senior Management Personnel as prescribed under
+Clause 7 of Para A of Part A of Schedule III of the SEBI LODR Regulations read with the SEBI Master Circular No.
+SEBI/HO/CFD/PoD2/CIR/P/0155 dated 11th November, 2024 are enclosed as Annexure - I.
+Kindly take note of the same on your record.
+Thanking you,
+Yours faithfully,
+For Lincoln Pharmaceuticals Ltd
+___________________
+Trusha Shah
+Company Secretary & Compliance Officer
+Encl.: As above
+Regd. Office: "Lincoln House", B/h. Satyam Complex, Science City Road, Sola, Ahmedabad-380060, Gujarat, India.
+Phone: [phone redacted] I CIN L24230GJ1995PLC024288
+E-mail: [email redacted] I Website : www.lincolnpharma.com
+Factory: Trimul Estate, Khatraj, Tai.- Kalal, Dist.- Gandhinagar-382721, Gujarat State. India
+Phone: [phone redacted] I E-mail: [email redacted]
+
+=== PAGE 2 ===
+LINCOLN
+PHARMACEUTICALS L TO.
+HEALTHCARE FOR ALL
+Annexure - A
+Details required under Regulation 30 of the SEBI LODR Regulation
+Particulars Mr. Pradeep Kumar Yadav has been appointed as
+Senior General Manager- Quality Assurance
+Reason for change viz. appointment, Appointment.
+re-appointment, resignation, removal,
+death or otherwise;
+Date of appointment / reappointment / Appointment w.e.f September 24,2026
+cessation (as applicable) & term of
+appointment/re-appointment; Term: Not Applicable
+Brief profile (in case of appointment) Mr. Pradeep Kumar has over 20 years of experience in
+the pharmaceutical industry. He has strong expertise
+in Quality Management Systems (QMS), audit
+compliance, validation and qualifications. He also
+brings deep knowledge of IPQA and vendor
+management.
+He has been directly involved in customer audits and
+international regulatory inspections by USFDA, MHRA,
+TGA, ENVISA, WHO Geneva and SAPHRA.
+Disclosure of relationships between Not Applicable
+directors (in case of appointment of a
+director)
+Regd. Office: "Lincoln House", B/h. Satyam Complex, Science City Road, Sola, Ahmedabad-380060, Gujarat, India.
+Phone: [phone redacted] I CIN L24230GJ1995PLC024288
+E-mail: [email redacted] I Website : www.lincolnpharma.com
+Factory: Trimul Estate, Khatraj, Tai.- Kalal, Dist.- Gandhinagar-382721, Gujarat State. India
+Phone: [phone redacted] I E-mail: [email redacted]
+
+=== PAGE 3 ===
+Ref: LPl/HR/September/2026
+September 24, 2026 LINCOLN
+To, PHARMACEUTICALS LTD.
+Mr. Pradeep Kumar Yadav HEALTHCARE FOR ALL
+D-602, Sun South Park
+South Bopal,
+Ahmedabad (Gujarat)
+Subject: Letter of Appointment
+Dear Mr. Pradeep Kumar,
+We are pleased to inform you that you are hereby appointed as an Senior General Manager-Quality
+Assurance with our organization. The detailed terms and conditions of your employment & services with the
+organization are outlined as under:
+1. Placement & Compensation:
+1.1 This appointment is effective from your date of joining with the organization as September 24, 2026.
+1.2 You are placed in the appropriate responsibility level of the company, and are entitled to compensation
+(salary &other applicable benefits) as enclosed in Compensation Structure.
+1.3 Compensation is governed by the rules of the company, as applicable and/or amended hereafter.
+2. Posting & Transfer:
+2.1 Your will be based at Manufacturing Facilitsj, Khatraj. Situated at:: Plot No. 10,12,13, Trimul Estate, After
+Vadsar Village, Near Khatraj Chokadi, P.O. Khatraj - 382 721, Ta: Kaloi, Dist: Gandhinagar.
+2.2 However, your services are liable to be transferred or loaned or assigned with / without transfer, wholly
+or partially, from one department to another or to office/ branch or locations anywhere in India or
+abroad or any other concern where this company has any interest or an associate company, existing or to
+come into existence in future In such case, you will abide by responsibilities vested or implied or
+communicated and shall follow rules & regulations of the department/ office, establishment, jointly or
+separately, without any compensation or extra remuneration or provision of accommodation. You,
+thereupon will be governed by service conditions & other terms of the said concern as applicable.
+2.3 The aforesaid Clause (i) will not give you any right to claim employment in any associate or
+sister concern or ask for a common seniority with the employee of sister/ associate concern.
+3. Probation & Confirmation:
+3.1. You will be placed on probation for a period of 06 months from the date of joining the organization
+and said period can be extended at the discretion of management to enable you to achieve expected
+standards of performance. Your performance will be evaluated periodically.
+3.2. During probation, if your performance does not reach the expected standards, management deserves the
+right to take appropriate actions against you which may possibly include discharge/termination from the
+duties at the discretion of the management.
+3.3. After Confirmation, as a permanent employee of the company. You will be entitled to statutory and
+service benefits and be governed by discipline and other rules existing or may come into existence from
+time to time to the location / place wherever you are working.
+4. Performance Appraisals & Rewards:
+Your performance will be reviewed on April 1st of each year, or at such other time as the management may
+decide. Your future increments or promotion or any other salary increase shall be based on merit considering
+your periodic and consistent overall performance, business conditions and other parameters fixed from time
+to time at the discretion of the management and shall not be considered merely as a matter of right.
+Regd. Office: "Lincoln House", B/h. Satyam Complex. Science City Road. Sola. Ahmedabad-380060. Gujarat, India.
+Phone: [phone redacted] I CIN L24230GJ1995PLC024288 Page 1 or 4
+E-mail : [email redacted] I Website : www.lincolnpharma.com
+Factory: Trimul Estate, Khatraj. Tal.- Kaloi. Dist.- Gandhmagar-382721, Gujarat State. India
+Phone: [phone redacted] I E-mail: [email redacted]
+
+=== PAGE 4 ===
+LINCOLN
+PHARMACEUTICALS LTD.
+HEALTHCARE FOR ALL
+5. Leave Policy & Absence from Duties:
+5.1. You will be eligible for annual leave as per company's leave policy. You must ensure to apply for leave
+well in advance before proceeding. In the absence of prior approval of leave by your immediate superior,
+the same will be considered as Leave without Pay (LWP).
+5.2. Absence for a continuous period of 07 days without prior approval of your superior, (including overstay
+on leave) would result in your losing services and it automatically come to an end without any notice.
+6. Working Hours, Weekly Off & Leaves:
+6.1. You will be expected to strictly adhere to the Working hours and Weekly off as applicable to your
+location and for further details pl. contact HR department.
+6.2. However, considering business exigencies, often there will be times when you will be expected to work
+beyond regular time including Evenings, Weekly Off to meet essential guidelines.
+6.3. The company's Leave policy & guidelines might have been updated from time to time; hence you should
+contact HR Department for the latest provisions and guidelines for Leave, Working Hours & Weekly Off.
+7. Full time employment:
+7.1. Your position is a full time employment with the company and you shall devote yourself exclusively to
+the business and interests of the company. You will not take up any other work for remuneration (part
+time or otherwise) or work in an advisory capacity, or be interested directly or indirectly (except as
+shareholder / debenture holder), in any other trade or business during your employment with the
+company, also You will also not seek membership of any local or public bodies without permission in
+writing of Managing Director of the company. Any contravention of this condition will entail
+termination of your services from the Company.
+7.2. During the period of service with the company, you shall not indulge and/ or take part in any activity of
+formation of council and / or association or become a member being part of management staff which is
+found to be detrimental in the interest of the company in any way. Such an action shall be deemed as
+infringement to service conditions of the company and amount to causing damage to its interest and
+shall call for disciplinary action being taken against you, as it may deem fit and appropriate.
+8. Confidentiality of Material or Intellectual Property:
+8.1. You will not, at any time, during the employment or thereafter, without the consent of the management
+disclose or divulge or make public, except on legal obligations, any information regarding the
+company's affairs or administration or research carried out, whether the same is confided to you or
+becomes known to you in the course of your service or otherwise.
+8.2. All documents, plans, drawings, prints, trade secrets, technical information, reports, statements, etc.,
+written or unwritten and also information and instructions that pass through you or come
+to your knowledge shall be treated as Confidential. You shall not utilize them for your own use or
+disclose by word of mouth or otherwise to other persons during or after your employment.. You
+will be liable for prosecution for damages for divulgence, sharing or parting any of such information
+during course of employment and on cessation for at least 2 years period.
+8.3. If you conceive any new or advanced method of improving designs/ processes/ formulae/ systems, etc.
+in relation to the business/ operations of the company, such developments will be fully communicated
+to the company and will be, and remain, the sole right/ property of the company.
+9. Responsibilities & Duties:
+9.1. You shall be responsible to carry out the job as mutually agreed upon and such other jobs connected with
+or incidental to which is necessary for business of the Company as intimated by management time to
+y
+time and to the best of your ability.
+Regd. Office : "Lincoln House", 8/h. Satyam Complex, Science City Road, Sola, Ahmedabad-380060, Gujarat, India.
+Phone: [phone redacted] I CIN L24230GJ1995PLC024288 Page 2 of 4
+E·mail: [email redacted] I Website: www.lincolnpharma.com
+Factory: Trimul Estate, Khatraj, Tal.- Kalol, Dist.- Gandhinagar-382721, Gujarat State, India
+Phone: [phone redacted] I E-mail: khatrajl!!lincolnpharma.com
+
+=== PAGE 5 ===
+LINCOLN
+PHARMACEUTICALS LTD.
+10. Past Records: HEALT H CARE FOR ALL
+If any declaration given, or information furnished by you, to the company for this appointment proves to be
+false, or if you are found to have willfully suppressed any material information, in such cases, you will be
+liable to removal from services without any notice or salary in lieu thereof.
+11. Contract/Bond with Previous Employers:
+It will be your personal responsibility to discharge all obligations arising out of any contract or bond with
+previous employers. Our will not be liable for addressing any legal issues or court matters in this regard.
+12. Bond: As mutually agreed, to sign a bond for 2 years minimum, as per the terms agreed- you will submit
+cheque equal to 2 months CTC. In case you leave before 2 years then company has all rights to encash the
+cheque against the training, resources, infrastructure etc. provided, else after completion of 2 years said
+cheque will be refund back to you.
+13. Separation from Employment:
+13.1. During the probationary period and any extension thereof, your services may be terminated on either
+side by giving 30 days' notice. However, on confirmation, the services can be terminated frorn either side
+by giving 90 days' notice.
+13.2. Your services shall be liable to terminated forthwith or without any notice period or pay at the discretion
+of the management, under any of the following circumstances:
+1. If the company is satisfied on medical evidence that you are unfit or continue to be unfit for
+considerable time to ill health of physical/ mental disability for the proper discharge of your duties.
+ii. If, at any time during the employment, you are found guilty of any misconduct, an act of indiscipline,
+disobedience, insubordination, incivility, insobriety, dishonesty or corrupt practice or fraud
+misappropriation or breach of trust or non compliance with the administrative orders of provisions of
+service rules, regulations and conditions or any of the terms of conditions of this appointment.
+iii. If you are declared bankrupt or insolvent or found or caught in any criminal offence covered under
+any Indian laws shall be terminated from the services.
+iv. If it is found that the declaration or information, furnished by you including that given for seeking
+employment are false and/or misleading and/or, it is found that you had will fully suppressed any
+information to the company.
+v. If you will abstain yourself from work without prior consent of your superior or otherwise fail to
+attend to your duties or abandon your work.
+13.3 At the time of separation/termination, you will immediately hand over to the company all
+correspondence, specifications, formulae, books, documents, market data, cost data, drawings or records
+belonging to the company or relating to its business and shall not retain or make copies of these items.
+13.4 You shall return all company property, which will be in your possession to your assigned senior officials.
+Further, you will also be required to clear up all outstanding accounts, including advances / loans taken
+from the company & it shall be your responsibility to recover all outstanding to parties on your account
+for remittance to the company before you proceed to settle your legal dues in full and final settlement,
+else shall be fully recovered from your salary/ any other legal dues including Gratuity.
+13.4.1 Before leaving the employment of the company, you are required to give your Exit lllteroiew to HR
+either on telephone or in person. Moreover, you have to submit "No Dues Certificate" to HR
+Department for processing your full and final settlement, collecting your Relieving & Experience
+Certificates as a part of separation system. In case, you fail to do so or not obtain the said documents, you
+will be treated as left the organization & you will be liable to pay for applicable notice period along with,
+compensation made by company directly or indirectly.
+Regd. Office: .. Lincoln House ". 8/h. Satyam Complex, Science City Road. Sola. Ah7:edabad-380060, Gujarat, India.
+Phone: [phone redacted] I CIN L24230GJ1995PLC024288 Pagel O 4
+E-mail: [email redacted] 1 Website: www.lincolnpharma.com
+Factory: Trimul Estate. Khatraj, Tai.- Kaloi. Dist.- Gandhinagar-382721. Gujarat State. India
+Phone: [phone redacted] I E-mail: [email redacted]
+
+=== PAGE 6 ===
+LINCOLN
+PHARMACEUTICALS LTD.
+14. Retirement: HEAL TH CARE FOR ALL
+14.1. The retirement age is 58 years. You will retire from the employment of the company at the end of the
+month in which you attain 58 years of age and you shall not have claim to be continued thereafter.
+14.2. Your date of birth will be considered as per company's record, on the basis of photocopy of Birth
+Certificate/ School Leaving Certificate submitted by you.
+15. Income Tax:
+15.1. The company is obliged to deduct Income Tax at source as per provision of I. Tax Act/ Rules.
+15.2. Accordingly, you are required to submit all required proof of permitted savings/ investments and other
+details from time to time to enable the company to comply with the provisions of law.
+15.3. In the event of non compliance by you as aforesaid if the company is required to pay any interest or
+payment under I. T. Act, it shall deduct the amount as may be paid or payable from your salary or other
+payments & you shall allow company to comply with these requirements without any objection.
+16. Industrial Disputes:
+All disputes arising out of this letter will be subject to the jurisdiction of the Kaloi Court. And that the courts,
+tribunals and/ or authorities at Kaloi only shall have jurisdiction to entertain, disputes or differences arising
+out of or pertaining to this contract of employment, irrespective of your working HQ.
+17. Address & Contacts:
+You must keep the company informed of any change in your residential address, contact details of yourself
+and immediate family member in case of an emergency, that may happen during the course of employment
+of your services with the company.
+18. General:
+The above terms & conditions are based on company's policy, procedures and rules and regulations currently
+applicable to the company's employees and are subject to amendments and adjustments from time to time.
+Please confirm your acceptance on the above terms & conditions by signing and returning this letter for records.
+Your'sI faith=fully, """''
+Accepte By:
+For Limited,
+.;-P
+d.
+Authorized Signatory Kumar
+Senior General Manager- QA
+DECLARATION
+I hereby declare that l have carefully read & fully understood the terms and condition(s) including rules and
+regulation, trade secret policy of my employment stated above and I hereby accept and will abide by them.
+Moreover, any amendment made by the company is also binding to me from time to time during my
+employment in future. I acknowledge the receipt of this letter in original, as token of my acceptance.
+r
+Place: Khatraj Name: Prad··e··e·p·� Kumar- P rv
+Date:
+Signature:
+Regd. Office: "Lincoln House". 8/h. Satyam Complex. Science City Road. Sola. Ahmedabad-380060. Gujaral. India.
+4 4
+Phone: [phone redacted] I CIN L24230GJ1995PLC024288 Pago of
+E-mail: [email redacted] I Website: www.lincolnpharma.com
+Factory: Trimul Estate, Khatraj, Tai.- Kaloi. Dist.- Gandhinagar-382721. Gujarat State. India
+Phone: [phone redacted] I E-mail: khatrajfglincolnpharma.com

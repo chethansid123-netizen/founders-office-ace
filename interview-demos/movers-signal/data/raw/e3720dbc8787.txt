@@ -1,0 +1,97 @@
+SOURCE_URL: https://nsearchives.nseindia.com/corporate/LXCHEM_18082026171737_Resingation.pdf
+SHA256: 39f571238f162b0c0437d6785fe00f5120cb7a355d7f46c5b83f163a37e96abc
+FETCHED_AT: 2026-11-02T14:07:15+00:00
+PAGES: 3
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 4 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+August 18, 2026
+BSE Limited National Stock Exchange Limited
+Corporate Relationship Department, Exchange Plaza, Bandra Kurla Complex,
+1st Floor, New Trading Ring, Bandra (E),
+Rotunda Building, P. J. Towers, Mumbai – 400 051
+Dalal Street, Fort, Mumbai – 400 001 Trading Symbol: LXCHEM
+Scrip Code: 543277
+Dear Sir / Madam,
+Sub: Intimation regarding the resignation of Senior Management Personnel of the Company
+We are writing to inform you in accordance with the provisions of Regulation 30(4) of SEBI (Listing
+Obligations and Disclosure Requirements) Regulations, 2015, that
+a. Dr. Keshav Ruthia, vide letter dated August 3, 2026, tendered his resignation as Chief Procurement
+Officer of the Company to pursue an opportunity outside Laxmi in line with his personal aspirations.
+The Company has accepted his resignation, and he will be relieved from his duties on October 31,
+2026.
+b. Mr. Salil Mukundan, vide an email dated August 18, 2026 tendered his resignation as Chief Technology
+Officer of the Company to pursue an opportunity outside Laxmi in line with his personal aspirations.
+The Company has accepted his resignation, and he will be relieved from his duties on October 31,
+2026.
+As part of the Company’s ongoing organisational realignment, the responsibilities of the outgoing
+executives are being appropriately integrated within the existing leadership structure to strengthen
+ownership, accountability and execution effectiveness. Accordingly, the Company does not presently
+envisage like-for-like replacements for these roles at the senior leadership level.
+The details as required under Regulation 30 of the Listing Regulations read with SEBI Circular No.
+SEBI/HO/CFD/CFD-PoD1/P/CIR/2023/123 dated July 13, 2023, are as under:
+Particulars Dr. Keshav Ruthia Mr. Salil Mukundan
+1. Reason for Change Resignation Resignation
+2. Date of Cessation W.e.f. the closing of business W.e.f. the closing of business
+hours on October 31, 2026 hours on October 31, 2026
+3. Brief profile Not Applicable Not Applicable
+4. Disclosure of relationship Not Applicable Not Applicable
+5. Letter of Resignation Attached as Annexure ‘A’ Attached as Annexure ‘B’
+This is for your information and records. We request you to take the above on record.
+Thanking you,
+For Laxmi Organic Industries Limited
+_________________
+Aniket Hirpara
+Company Secretary and Compliance Officer
+
+=== PAGE 2 ===
+Annexure 'A'
+From: Dr. Keshav Ruthiya
+To: Dr. Rajan Venkatesh; Prateek Singh
+Cc: Dr. Keshav Ruthiya; Keshav Ruthiya
+Subject: Resignation Letter
+Date: 03 August 2026 21:12:27
+Importance: High
+Dear Rajan, Dear Prateek
+As we discussed in-person, after considerable deep thought and reflection, I have decided
+to resign from my position as CPO at Laxmi Organic Industries Ltd, to purse an
+opportunity outside Laxmi, the working plan of the last working day is 31 Oct 2026.
+I am grateful for the trust, support, and opportunities I have received during my tenure.
+Working alongside the leadership team, and our colleagues has been a privilege, and I am
+proud of what we have achieved together. Rest assured, I remain committed to ensuring a
+smooth transition, work closely with the team to transfer responsibilities and support
+succession planning.
+Thank you once again, and I sincerely appreciate the relationships I have built and wish the
+organization continued profitable growth & success.
+Sincerely,
+Keshav Ruthiya
+Dr. Keshav Ruthiya ​​​​
+Chief Procurement Officer
+LAXMI ORGANIC INDUSTRIES LTD
+Chandermukhi, 3rd Floor, Nariman Point, Mumbai 400021, India
+T [phone redacted] M [phone redacted] www.laxmi.com
+
+=== PAGE 3 ===
+Annexure 'B'
+From: Salil Mukundan
+To: Dr. Rajan Venkatesh
+Cc: Prateek Singh
+Subject: FW: My Future Plan
+Date: 18 August 2026 11:57:22
+Dear Dr Rajan,
+As discussed with you two weeks back I have been exploring opportunities elsewhere
+wherein my physical engagement as part of my functional delivery is lesser than present. I
+am evaluating few potential options which are most likely to fructify in the immediate future
+and hence I have decided to move on. I would say the decision has been primarily for health
+reasons considering the size of Projects under evaluation in the present LOIL pipeline.
+As discussed with you I agree to be there till 31st October 2026 to ensure the transition of
+various functions happen smoothly and nothing is missed. I will be there for any advise
+required from me on the transition & future structure when the larger Projects pass the
+approval stage.
+Regards,
+Salil Mukundan ​​​​
+Chief Technology Officer
+LAXMI ORGANIC INDUSTRIES LTD
+Chandermukhi, 3rd Floor, Nariman Point, Mumbai 400021, India
+T [phone redacted] / Extn. 505 F [phone redacted] www.laxmi.com

@@ -1,0 +1,75 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachHis/de3a4456-9000-4d79-ac78-dd9b2ad39749.pdf
+SHA256: fcc58f4243c7bda43b56c6f5dd6402197393d73a024d7e5d480627b936c8d970
+FETCHED_AT: 2026-11-02T14:25:52+00:00
+PAGES: 3
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 0 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+October 22, 2026
+National Stock Exchange of India Limited BSE Limited
+Exchange Plaza, Phiroze Jeejeebhoy Towers
+C-1, Block G Dalal Street
+Bandra Kurla Complex Mumbai - 400 001
+Bandra (E), Mumbai - 400 051
+SCRIP CODE: ASHOKLEY SCRIP CODE: 500477
+Dear Sir/Madam,
+Subject: Intimation under Regulation 30 of SEBI (Listing Obligations & Disclosure
+Requirements) Regulations, 2015 – Change in Senior Management Personnel
+Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements)
+Regulations, 2015 (SEBI Listing Regulations), we wish to inform you that Mr. Raja
+Radhakrishnan, Head - Special Projects – Human Resource, Senior Management Personnel,
+has resigned from the Company, with effect from the close of business hours of October 21,
+2026.
+The details as per the SEBI master circular for compliance with provisions of the SEBI Listing
+Regulations by listed entities bearing circular number SEBI/HO/49/14/14(7)2025-CFD-
+POD2/I/3762/2026 dated January 30, 2026, in Annexure A is attached herewith.
+A letter in this regard from Mr. Raja Radhakrishnan as required under Clause 7C of Para A of
+Part A of Schedule III of SEBI (Listing Obligations and Disclosure Requirements) Regulations,
+2015 is enclosed as Annexure B.
+We request you to kindly note and take the above information on record.
+Thanking you,
+Yours faithfully,
+for ASHOK LEYLAND LIMITED
+N Ramanathan
+Company Secretary
+
+=== PAGE 2 ===
+Annexure – A
+Disclosure under Regulation 30(6) of the SEBI (Listing Obligations and Disclosures
+Requirements) Regulations, 2015
+S.No Particulars Details
+1. Reason for change viz., appointment, Resignation
+resignation, removal, death or otherwise
+2. Date of appointment / cessation (as applicable) Close of business hours of October
+& term of appointment 21, 2026
+3. Brief profile (in case of appointment) Not applicable
+4. Disclosure of relationships between directors Not applicable
+(in case of appointment of a director)
+****
+
+=== PAGE 3 ===
+-
+To,
+Mr. Shenu Aggarwal
+MD & CEO Ashok Leyland Ltd.
+Dear Shenu,
+Thank you for taking the time to discuss my future career plans with me. I
+have given considerable thought to the various options available to me,
+including the idea of starting something of my own-an aspiration that has
+been on my mind for some time.
+After careful reflection, I have decide~ that the time is right for me to move
+on and explore some of the opportunities I have been considering. As and
+when a successor to my role is appointed, I will ensure a smooth and
+seamless transition and work closely with you and the incoming CHRO to
+I
+enable an effective handover.
+In addition, I would be open to continuing with the Ashok Leyland in any
+capacity where my capabilities can be meaningfully leveraged, till end of
+2026.
+I am deeply grateful for the opportunity to have worked closely with you and •
+the leadership team, and I look forward to partnering over the coming
+months to ensure a successful transition.
+Yours Sincerely,
+Raja Radhakrishnan
+President & CHRO

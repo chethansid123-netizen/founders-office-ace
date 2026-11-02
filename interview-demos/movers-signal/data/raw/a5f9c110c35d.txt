@@ -1,0 +1,68 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachHis/2886a20c-51a3-443d-86da-a38293cfe1ba.pdf
+SHA256: 7d336cf132dbb767b44ebdf0cf9c40c3bc646a841213fdae517608f5a51067f4
+FETCHED_AT: 2026-11-02T14:22:06+00:00
+PAGES: 3
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 6 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+RVNL/SECY/STEX/2026-27 19.10.2026
+National Stock Exchange of India Ltd. BSE Ltd.
+Exchange Plaza, Department of Corporate Service,
+Plot no. C/1, G Block, Phiroze Jeejeebhoy Towers,
+Bandra-Kurla Complex, Dalal Street,
+Bandra (E), Mumbai - 400051 Mumbai- 400001
+Scrip: RVNL Scrip: 542649
+नशे नल (cid:232)टॉक ए(cid:200)सच(cid:581)ज ऑफ इं(cid:875)डया (cid:871)ल(cid:871)मटेड बीएसई (cid:871)ल(cid:871)मटेड
+ए(cid:200)सच(cid:581)ज (cid:220)लाज़ा, कॉप(cid:574)रेट सेवा (cid:874)वभाग
+(cid:220)लॉट न.ं सी/1, जी (cid:222)लॉक, (cid:873)फ़रोज़ जीजीभॉय टावस,(cid:91)
+बा(cid:289)ं ा-कुला(cid:91) कॉ(cid:224)(cid:220)ले(cid:200)स, दलाल (cid:232)(cid:282)(cid:547)ट,
+बा(cid:289)ं ा (पूव)(cid:91) , मुंबई- 400051 मुंबई- 400001
+ि(cid:232)(cid:272)प: RVNL ि(cid:232)(cid:272)प: 542649
+Sub: Intimation regarding Change in the Senior Management
+(cid:874)वषय: सी(cid:467)नयर मैनेजम(cid:581)ट म(cid:581) बदलाव के बारे म(cid:581) सूचना
+Dear Sir/Madam,
+(cid:874)(cid:292)य महोदय/महोदया,
+In compliance with the Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements)
+Regulations, 2015, it is hereby informed that Shri Ashutosh Gautam, Executive Director
+(Highway)/RVNL has been relieved from the services of the Company on 19th October, 2026 (F/N)
+to enable him to assume charge of the post of Director (Projects), NBCC (India) Limited and
+accordingly, he ceases to be part of Senior Management of the Company w.e.f. 19th October,
+2026.
+Declaration as per SEBI Master Circular No. HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated
+30th January, 2026 is enclosed as Annexure A.
+The office order is enclosed as Annexure B.
+ध(cid:219)यवाद,
+भवद(cid:547)या,
+रेल (cid:874)वकास (cid:467)नगम (cid:871)ल(cid:871)मटेड क(cid:551) ओर से
+(क(cid:665)ना दबू े)
+कं पनी सिचव एवं अनुपालन अिधकारी
+संल(cid:432)क: उपयु(cid:330)(cid:389) अनुसार
+Regd. Office: World Trade Center, Tower A, 6th to 9th Floor, Nauroji Nagar, New Delhi- 110029
+Phone: [phone redacted], Fax: [phone redacted], E-mail: [email redacted], Web: www.rvnl.org
+
+=== PAGE 2 ===
+Annexure A
+Details of the changes in the Senior Management Personnel of the Company
+Particulars Details
+Name Shri Ashutosh Gautam
+Reason for Change viz. appointment, Shri Ashutosh Gautam, Executive Director
+reappointment, resignation, removal, (Highway)/RVNL has been relieved from the services
+death or otherwise
+of the Company on 19th October, 2026 (F/N) to enable
+him to assume charge of the post of Director
+(Projects), NBCC (India) Limited and accordingly, he
+ceases to be part of Senior Management of the
+Company w.e.f. 19th October, 2026.
+Date of appointment/ reappointment/
+cessation (as applicable) & term of 19.10.2026 (F/N)
+appointment/ re-appointment
+Brief Profile (in case of appointment) NA
+Disclosure of relationships between
+directors (in case of appointment of a NA
+director).
+Regd. Office: World Trade Center, Tower A, 6th to 9th Floor, Nauroji Nagar, New Delhi- 110029
+Phone: [phone redacted], Fax: [phone redacted], E-mail: [email redacted], Web: www.rvnl.org
+
+=== PAGE 3 ===
+Annexure B

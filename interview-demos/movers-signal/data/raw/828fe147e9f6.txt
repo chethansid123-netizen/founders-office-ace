@@ -1,0 +1,50 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachHis/842a1048-da82-465b-b5a5-23e1517dc1dd.pdf
+SHA256: b2d3734aa139c7498442aca642537f591524a67daac7d7a48603a33b38829ed9
+FETCHED_AT: 2026-11-02T14:16:44+00:00
+PAGES: 2
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 1 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+JFL/NSE-BSE/2026-27/53 September 11, 2026
+BSE Ltd. National Stock Exchange of India Limited
+P.J. Towers, Dalal Street Exchange Plaza, Bandra Kurla Complex
+Mumbai – 400001 Bandra(E), Mumbai – 400051
+Scrip Code: 533155 Symbol: JUBLFOOD
+Sub: Update on Change in Senior Management
+Ref: Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements)
+Regulations, 2015 (“Listing Regulations”)
+Dear Sir/ Madam,
+This is with reference to our intimation dated July 22, 2026 regarding the resignation of Mr.
+Narottam Sharma, Senior Vice President & Chief Information Officer and Senior Managerial
+Personnel of the Company. Based on request received from Mr. Sharma and after due
+consideration, his last working date has been revised from September 18, 2026 to September 14,
+2026 (close of business hours).
+All other particulars set out in the aforesaid intimation dated July 22, 2026, including the reason
+for resignation, remain unchanged. The relevant details, as required under Regulation 30 of the
+Listing Regulations read with the applicable SEBI Circulars, are enclosed as Annexure A.
+The aforesaid intimation is also being disseminated on Company’s website at
+www.jubilantfoodworks.com under Investor Relations section.
+We request you to kindly take the aforesaid information on records.
+Thanking you,
+For Jubilant FoodWorks Limited
+Mona Aggarwal
+Company Secretary and Compliance Officer
+Investor E-mail id: [email redacted]
+Encl: A/a
+
+=== PAGE 2 ===
+Annexure A
+S. No. Disclosure Requirements Details
+1 Reason for change viz. Resignation of Mr. Narottam Sharma, Senior Vice President
+appointment, re-appointment, & Chief Information Officer and Senior Managerial Personnel
+resignation, removal, death or (SMP) of the Company to take up an external opportunity.
+otherwise
+2 Date of Appointment/ re- Last Working Date: September 14, 2026 (close of business
+appointment/ Cessation & term hours)
+of appointment / re-appointment
+3 Brief Profile (in case of N.A.
+appointment of a director)
+4 Disclosure of relationships N.A.
+between directors (in case of
+appointment of Director)

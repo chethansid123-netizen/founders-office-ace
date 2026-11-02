@@ -1,0 +1,94 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachHis/d2ce4c17-84d2-46fa-a1b2-3780cb89cdae.pdf
+SHA256: 6dace2905ba2693abde933c4c9188baf7e9583c683f17e9df2433bfad2f34357
+FETCHED_AT: 2026-11-02T14:08:41+00:00
+PAGES: 5
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 0 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+October 14, 2026
+The Manager The Manager
+BSE Limited National Stock Exchange of India Limited
+Corporate Relationship Department, Listing Department
+1st Floor, New Trading Ring, Exchange Plaza
+Rotunda Building 5th Floor, Plot no C/1, G Block
+Phiroze Jeejeebhoy Towers Bandra Kurla Complex
+Dalal Street, Mumbai 400 001 Bandra (E),Mumbai – 400 051
+Subject: Intimation pursuant to Regulation 30 of the SEBI (Listing Obligations &
+Disclosure Requirements) Regulations 2015 (“Listing Regulations")
+Scrip Code : BSE – 500304; NSE – NIITLTD
+Dear Sir,
+Pursuant to Regulation 30 of Listing Regulations, we hereby inform you that the Board of
+Directors of the Company, at its meeting held today i.e., October 14, 2026 (which commenced
+at 03:04 p.m. and concluded at 3:47 p.m.), has, inter alia, considered and approved the
+following:
+1. Take on record and accept resignation of Mr. Pankaj Prabhakar Jathar from the position
+of Chief Executive Officer of the Company effective October 14, 2026, as he wishes to
+pursue other interests. He also ceases to be Key Managerial Personnel of the Company
+in terms of the provisions of Section 203 of the Companies Act, 2013 (read with the
+applicable rules framed thereunder).
+Mr. Jathar shall be relieved from his services of the Company with effect from close of
+business hours on October 22, 2026. Consequent to his cessation, he shall also cease
+to be Senior Managerial Personnel in terms of SEBI (Listing Obligations & Disclosure
+Requirements) Regulations, 2015 on that date.
+2. Based on the recommendation of the Nomination and Remuneration Committee,
+approved the appointment of Mr. Anish Kumar Sarkar as Chief Executive Officer
+and Key Managerial Personnel of the Company w.e.f. October 14, 2026 in terms of the
+provisions of Section 203 of the Companies Act, 2013 (read with the applicable rules
+framed thereunder) and Senior Managerial Personnel in terms of SEBI (Listing
+Obligations & Disclosure Requirements) Regulations, 2015.
+
+=== PAGE 2 ===
+The details required in terms of Regulation 30 read with Schedule III of the Listing Regulations
+and SEBI Circulars issued in this regard, are given in Annexure A.
+You are requested to take note of the same and inform your members accordingly.
+Thanking you,
+Yours truly,
+For NIIT Limited
+Arpita B Malhotra
+Company Secretary &
+Compliance Officer
+Encls : a/a
+
+=== PAGE 3 ===
+Annexure- A
+S. No. Particulars Mr. Pankaj Prabhakar Jathar Mr. Anish Kumar Sarkar
+1. Reason for Change Resigned from the position of Chief Appointed as Chief Executive Officer
+viz. Executive Officer of the Company of the Company
+appointment, effective October 14, 2026, as he
+resignation, wishes to pursue other interests.
+removal, death or
+otherwise Copy of resignation letter is attached
+as Annexure 1
+2. Date of Effective date of cessation as Chief October 14, 2026
+Appointment/ Executive Officer and Key Managerial
+Cessation & terms Personnel – October 14, 2026
+of appointment
+3. Brief profile (in case Not Applicable Profile annexed as Annexure 2
+of appointment)
+4. Disclosure of Not Applicable Not Applicable
+relationships
+between
+directors (in case of
+appointment of a
+director)
+
+=== PAGE 4 ===
+Annexure 1
+Resignation letter of Mr. Pankaj Prabhakar Jathar
+
+=== PAGE 5 ===
+Annexure 2
+Profile of Mr. Anish Kumar Sarkar – Chief Executive Officer
+Anish Sarkar is a seasoned executive leader with over two decades of experience in business
+building, transformation and M&A-led growth across consulting and operational leadership
+roles. Prior to joining NIIT, he was Managing Director – India and Director of the India /
+Philippines / Indonesia Cluster at Pluxee (formerly Sodexo BRS), a global employee benefits
+and engagement company; and CEO of Mercer India, a global leader in human capital
+consulting. At both these organisations, he led strong revenue growth and portfolio expansion,
+including strategic acquisitions.
+Earlier, Anish spent several years with the Capgemini Group in senior leadership roles
+spanning management consulting, sales and technology transformation. Across these roles,
+he built deep experience in growth strategy, client partnerships, digital transformation and
+technology-led business growth. An alumnus of IIT Kharagpur and IIM Calcutta, Anish brings
+a distinctive blend of business, human capital and technology expertise to NIIT.

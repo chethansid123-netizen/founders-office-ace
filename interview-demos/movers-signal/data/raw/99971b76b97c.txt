@@ -1,0 +1,452 @@
+SOURCE_URL: https://nsearchives.nseindia.com/corporate/JAYBARMARUT_02112026152353_SUBMISSION_OUTCOME.pdf
+SHA256: c6561c3ebbbd37879be63588f2d991f7100cd87b7f5b609767b1e69d53415df4
+FETCHED_AT: 2026-11-02T14:06:53+00:00
+PAGES: 12
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 26 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+JAY BHARAT MARUTI LIMITED
+Corporate Office : Plot No. 9, Institutional Area,
+Sector 44, Gurgaon-122 003 (Hr.)
+T : [phone redacted], 4674550
+F : [phone redacted]
+W : www.jbmgroup.com
+JBML/SE/Q3/2026-27 November 02, 2026
+National Stock Exchange of India Ltd. BSE Limited
+Exchange Plaza, Plot C-1, Block G 25th Floor, Phiroze Jeejeebhoy Towers,
+Bandra Kurla Complex, Bandra (E), Dalal Street,
+Mumbai - 400 051 Mumbai - 400 001
+Scrip Code: JAYBARMARU Scrip Code: 520066
+Sub: Compliances under Regulation 30 of the SEBI (Listing Obligations and Disclosure
+Requirements) Regulations, 2015
+Ref: Outcome of Board Meeting held on Monday, November 02, 2026
+Dear Sir/ Madam,
+Pursuant to Regulations 30 and 33, along with other applicable provisions of the SEBI (Listing
+Obligations and Disclosure Requirements) Regulations, 2015 ("SEBI LODR"), we hereby inform
+you that the Board of Directors of the Company, at its meeting held today, Monday, November 2,
+2026, has, inter alia, considered the following matters:
+a) Based on the recommendations of Audit Committee, approved the Un-audited (Standalone &
+Consolidated) Financial results for the Second Quarter and Half Year ended September 30, 2026
+along with Limited Review Report issued by M/s. GSA & Associates LLP, Statutory Auditor of
+the Company.
+Copy of the aforesaid financial results along with the Limited Review Report(s) by the Statutory
+Auditors of the Company are enclosed as Annexure-I.
+b) Based on the recommendations of the Nomination and Remuneration Committee, approved the
+appointment of Ms. Radhika Khurana (ACS: 32557) as the Company Secretary and Compliance
+Officer of the Company, who would also be Key Managerial Personnel with effect from December
+18, 2026.
+c) Based on the recommendations of the Nomination and Remuneration Committee, approved the re-
+designation of below Senior Management Personnel’s (SMP’s) of the Company:
+i. Mr. Mayank Varma is appointed as the Chief Executive Officer (CEO) responsible for both
+tooling and auto components business.
+ii. Mr. Deepak Gupta, currently designated as Business head (Auto Components) will look after
+Strategy and Diversification
+Requisite details in relation to items no. b) and c) in terms of Regulation 30 read with Schedule III
+of the SEBI Listing Regulations and SEBI Master Circular No. HO/49/14/14(7)2025-
+CFDPOD2/I/3762/2026 dated January 30, 2026 in this regard are enclosed as “Annexure – II and
+III” respectively.
+Regd. Office : Pace City–II, Mohammadpur Jharsa, Near Khandsa Village, Sector-36, Gurgaon-122001 (Haryana) T: [phone redacted]. F: [phone redacted]
+CIN : L29130HR1987PLC130020 Email Id: [email redacted]
+
+=== PAGE 2 ===
+JAY BHARAT MARUTI LIMITED
+Corporate Office : Plot No. 9, Institutional Area,
+Sector 44, Gurgaon-122 003 (Hr.)
+T : [phone redacted], 4674550
+F : [phone redacted]
+W : www.jbmgroup.com
+The meeting of the Board of Directors commenced at 01:06 P.M. and concluded at 02:41 P.M. The
+said intimation also being made available on the Company’s website at www.jbmgroup.com.
+This is for your information and record please.
+Thanking you,
+For Jay Bharat Maruti Limited
+Anand Swaroop
+Executive Director & CFO
+DIN: 00004816
+Encl.: As stated above
+Regd. Office : Pace City–II, Mohammadpur Jharsa, Near Khandsa Village, Sector-36, Gurgaon-122001 (Haryana) T: [phone redacted]. F: [phone redacted]
+CIN : L29130HR1987PLC130020 Email Id: [email redacted]
+
+=== PAGE 3 ===
+JAY BHARAT MARUTI LIMITED -
+Regd. Office: Pace City IT, Mohammadpur Jharsa 5 @
+Near Khandsa Village, Sector -36 Gurgaon, Haryana-122001 JBM &
+Phone No.[phone redacted]; Fax [phone redacted] Gurrulepiones ars Wichulones
+Website : www.jbmgroup.com , CIN : 1.29130HR1987PLC130020
+[STATEMENT OF UNAUDITED RESULTS FOR THE QUARTER AND HALF YEAR ENDED 30TH SEPTEMBER, 2026 (Rs. In Lakhs)
+STANDALONE CONSOLIDATED
+Three Months, Half Year Year ‘Three Months Half Year Year
+S.No.[ Particulars Ended Ended Ended Ended Ended Ended
+30-Sep-26 30-Jun-26 30-Sep-25 30-Sep-26 30-Sep-25 31-Mar-26 30-Sep-26_ 30-Jun-26 | 30-Sep-25 30-Sep-26 30-Sep-25 31-Mar-26
+T_|Revenue from Operations Un § a 2 u , d 3 i 4 t 2 e 4 d 0 | U 6 n 3 a , u 6 d 7 i 9 t . e 2 d 4 | | Un 58 a , u 2 d 6 i 5 t . e 1 d 0 | 1 Un 4 a 5 u 0 di 2 t 1 e 6 d 4 | 1 U , n 1 a 3 u , d 0 i 4 t 8 e 3 d 4 | 2 A , u 5 d 5 i , t 0 e 9 d 9 24 | _ U n 8 a 2 u , d 3 i 4 t 2 e . d 4 0 | U 6 n 2 a , u 6 d 7 i 9 t . e 2 d 4 | | U 5 n 8 a , u 26 d 5 i . t 1 e 0 d | U 1 n , a 4 u 5 d 0 i 2 t 1 e . d 6 4 | 1 U , n 1 a 3 u , d 9 i 4 t 8 e 3 d 4 [ 2 A , u 5 d 5, i 0 t 9 e 9 d . 24
+2_|Other Income 525.61 18.19 103.59 543.80 10951 291,97 52561 19 10359 543.80 109.51 29197
+3 |Total Income (172) $2,868.01 | 62,697.43 | 58,368.69 | 14556544 | 11405785 | 2,55391.21 | _ 82,868.01 | 62,697.43 | 58.368.69 | 1.45.56544 | 1,14,057.85 25539121
+4 _ a | ] E C x o p s en t s e o s f Materials Consumed. 6065123 | 4685109 | 43,0721 | 1,11,502.32 | 83,7502 | 18973537 | 6465123 | 4685109 | 43,0721 | 11150232 | 8375022 | 18973537
+) Changos in Inventory of Fimishod Goods & Workcinr-Progress 09297 _(13733%)] _ (14L46)| _ (A6829] @753 6059 2,09299] (3753D| (14140 __ (3,A6829)| _ (477.53) (760.59)
+[c) Employee Benefits Expenso 7.04009 | 6,162.66 | 523267 | 13,202.75 | 1032006 | _ 21,603.46 | 7,040.00 | 6,162.66 | 5.232.67 | 1320275 | 1032006 | 21,603.46
+[d) Finance Costs 1,09.74 | 1,057.75 09790 | 2,15749 | 1,901.63 436574 109974 | 1,057.75 | 997.90 2,15749 | 190163 436574
+[e) Depreciation and Amortisation Bxpense 273629 | 241592 | 241145 515021 453518 947054 273629 | 241592 241145 505221 | 4,535.18 9,470.34
+[£) Other Expenses 573,57 | 474865 | 305694 | 1002222 | _ 7,63627| 16,260.14 5073.57 | 474865 | 395694 | 1002220 | 763627 | _ 1626014
+[Total Expenses 78.707.95 | 59,860.75 | 5553471 | 1,38,568.70 | 1,07,665.83 | 240,674.47 | _78,707.95 | 59,860.75 | 5553471 | 138,568.70 | 1,07,66583 | 240,674.47
+5_|Profit beforc share of profit of Joint Venture and Tax (3-4) 4,160.06 | 283668 | 283398 | 6,996.74 | 639202 1471674 ] 416006 | 283668 | 2:833.98 69974 6,392.00| 14,71674
+6_|Share of Profit/(Loss) of Joint Venture 1115 89.68 5595 200.83 85.08 241.46
+7_|Profit Before Tax (5+6) 416006 | 283668 | 283398 | 699674 | 639202 | 1471674 | 427121 | 292636 | 288993 TA9TST | 647700 | 1495820
+[T ax Expense
+Current Tax 1,120.10 59526 | (146.10) 171536 93731 3012.17 114382 | 61853 | (12383)] 176235 959.58 3,065.74
+Deferred Tax (7476)] 12122] L17721 4646 | 134472 1,58025 68D 123.17] 1,17099 4636 | 1,34594 158697
+Deforred Tax Reversal dus to Rate Change (Refer Note 8) - - - - - (,679.02) - - - - - (3,679.0)|
+Farlier Years 310 - - 3.10 - 17.08 310 - - 310 - 1708
+8_[Total Tax Expense 1,048.44 71648 | 1L03LIT 176492 | 2,282.03 930.48 107001 | 74170 | 1,047.16 181181 | 230552 990.77
+9 [Profit after Tax for the Period (7-8) 301162 | 512020 | 180287 | 523182| 410999 | 13,78626 | 3720110 | 218466 | 1,842.77 538576 | 417158 | 13,967.43
+10_[Other Comprehensive Income
+[Ttems that will not be reclassified subsequently to Profit or Loss
+~ Remeasuroment Gain/ (Loss) of Defined Benefit Plan 2123) 3314 30.73 1191 30.18 52.90 20.73) 33,64 3041 291 955 5489
+~ Fair Value Gain/ (Loss) on Investments .17 20499 419.74 @4.18) 357.68 306.17 @49.07)| 20499 | 41974 (@4.18) 557.68 206.17
+~ Income Tax effect 4097 G765 (601) 332 (3625) (120.31) 4085 G178 (25.93)] 307 (36.09) 208D
+[Tiems that will_be reciassified subsequently to Profiotr Loss N B - B 5 5 N . B N - 5
+[Total Other Comprehensive Tncome for the period (Nef of Tax) (2943)| 20048 42446 (895) 5161 13876 @29.05)| 20085 | 42422 (28.20) SL14 4025
+
+=== PAGE 4 ===
+STANDALONE CONSOLIDATED
+“Three Months Half Year “Three Months Half Year Year
+S.No.| Particulars Ended Ended Ended Ended
+30-Sep-26 30-Sep-25 30-Sep-25 30-Sep-26_| 30-Jun-26 30-Sep-26 30-Sep-25 31-M
+Unaudited Unaudited Unaudited Unaudited Unaudited Unaudited Unaudited Unaudited Audi
+11_|[ P To r t o a f l i C f o o m r p t r h e e h p e e n r s i i o v d e a t I t n r c i o bu m t e a b f l o e r t t o h e period (9+10) 2,882.19 2,320.68 2,227.33 I 4,661.60 13,925.02 2,972.05 2,385.51 2.266.99 5,357.56 4,722.712 T 14,107.68
+Owners of the Company I 320110 | 218466 | 184277 417158 13.967.43
+Non Controlling Interest T - - - - -
+[Other Comprehensive Income for the period attributable to
+Owners of the Company @29.05)| 20085 | 42422 (28.20) 140.25
+Non Controlling Interest = - . . - B
+Tofal Comprehensive Income for the period attributable o
+297205 | 238551 | 2,266.99 535756 | 47227 T4,107.68
+‘Owners of the Company
+“Non Controlling Inicrest : - S| B z =
+12_|Paid up equity share capital (Face value ofs hare Rs_2/- each) 206500 | 216500 | 216500 | 2.165.00 216500 2.165.00 206500 | 2,165.00 | _2,165.00 206500 | 216500 2,165.00
+13_|Other Equity 66,921.94 67.446.61
+14_|Earning per Share (of Rs. 2/- cach) (not annualised)
+[2) Basic (In Rs.) 287 195 167 483 | 380 1274 296 200 70 498 385 12.90
+b) Dilute(dI Rs) 287 195 67 [EE] 380 12.74 296 200 70 498 385 12.90
+Nofes:
+1 The above financial results have been prepared in accordance with the recognition and measurement principles laid down in Ind AS 34 "Interim Financial Reporting” prescribed under tion 133 of the Companies Act, 2013, read with the relevant rules
+issued thereunder and the other accounting principles generally accepted in India and in terms of Regulation 33 of SEBI (Listing Oblizations and Disclosure Requirements) Regulations, 2015, as amended.
+2 The above financial results were reviewed by the Audit Committee and approved by the Board of Directors in their meeting held on November 2nd, 2026. The Limited review of financial results for the quarter ended September 30, 2026 as required under
+Regulation 33 of§ BI (Listing Obligations and Disclosure Requirements) Regulations, 2015, has bezn performed by the Statutory Auditors and they have issued an unmodified report on the aforesaid results
+3 The Company is primarily operates in single segmenti .¢. manufacturing of companents for Automobiles in India. Hence, no separzte segment disclosures as per Ind AS 108 "Operating Segments" have been presented.
+4 The figures of the previous periods have been re-groupedre-classified, wherever necessary to conforn to the curtent year's classification.
+5 The figures for the current quarter ended September 30, 2026 and quarter ended September 30, 2025 are the balancing figures between the published year to date figures in respect of the period ended September 30, 2026 and Septen-ber 30, 2025, respect:vely
+and published figures up to quarter ended June 30, 2026 and June 30, 2025, respectively which were subjected t limited review.
+6 The Consolidated financial results include the results of the Company and ore Joint Venture.
+7 Revenue from Operations include Incentive amounting to Rs.2979.59 lakhs in quartcr ended September 30 2026 (PY Q2 3550 lakhs & CY Q1 Rs. 3426 lakhs) pertaining to investment made in the state of Gujarat under Industrial Policy 2015 and in the state
+of Haryana under Haryana Enterprises & Employment Policy 2020
+8 Pursuant to the changes in the MAT provisions introduced in the recent Budget, the Company opted for the conc fonal tax regime under Section 11SBAA of the Income-tax Act with effect from 1 April 2026. Conscquertly, the applicable tax rate changed
+from 34.94% 0 25.17%. Accordingly, deferred tax assets/liabilities were remeasured using the revised tax rate, and the resulting impact of Rs. 3.679.02 lakhs was recognized in the Statement of Profit and Loss for the quarter ended 31 March 2026.
+For and on behaloff the Board of Dircctors
+FOR JAY BHARAT MARUTI LIMITED
+Surendra Kumyr Arya
+Chairman
+Y
+L=
+
+=== PAGE 5 ===
+JAY BHARAT MARUTI LIMITED
+Regd. Office: Pace City 11, Mohammadpur Jharsa JBMi®
+Near Khandsa Village, Sector -36 Gurgaon, Haryana-122001
+Phone No.[phone redacted]; Fax [phone redacted] et e uchstons
+Website : www.jbmgroup.com
+CIN : L29130HR1987PLC130020
+STATEMENT OF ASSETS AND LIABILITIES (Rs. In Lakhs)
+STANDALONE CONSOLIDATED
+Particulars
+Asat Asat
+T0Sep26 | 31-Mar26 30-5ep-26 SN2
+Unaudited Audited Unaudited Audited
+Non Current Assets
+( (a b ) ) C Pr a o p p i e t r a t l y w , o P r l k a - n i t n - a p n r d o gr E e q s u s i pment 11 1 9 7, 6 7 7 30 0 2 . 5 3 4 9 1 6 | 1, 1 17 0 , 9 1 0 5 67 6 7 . 5 9 4 4 7 1,19,670.59 1, 1 1 0 7 , , 9 1 2 5 6 6 7 7 . . 5 9 4 4 7
+(<) Investment Property 6324 8823 8823
+( ( ¢ ) ) I I n n v t e an s g t i m b e l n e t s A s a s c e c t o s u nted for using equity method - - 1968.11 181342
+(1) Financial Assets 3.576.66 3,620.83 228791 233208
+(i) Investments 49477 42886 494.77 428.86
+(i) Other Financial Assets 1346.66 1,19041 1,346.66 1,190.41
+() Other non-current assets
+Current Assets 38,953.96 86095 38,953.96 26,860.95
+() Inventorics
+(
+(
+b
+0
+)
+) ( ( C
+F
+i i i ) i u
+i
+v i ) )
+n
+r ) T C
+a
+r r O B
+n
+a e a t a
+c
+s n d h
+i
+n h t e e
+a
+k
+l
+r T a R a n B
+a
+e F a
+s
+x d c i
+s
+l e n
+e
+a C A i a
+i
+n s a v n
+s
+c s c a s e e i b h s t a l s l e e o s q ( t A u N h s i e e s v t r e ) a t l t s e h n a t n s (ii) above
+19
+6 1 1
+.
+, , 9
+6
+1 0 1 7 8
+8
+1 3 0
+6
+0 3 1 8 .
+.
+. . 4 0
+7
+0 0 1 1 6
+9
+0 7 2
+1
+2 6
+1
+1 ,
+,
+7 , 4
+6
+0 2 7 4 7
+8
+0 5
+8
+9 4 1 1 2
+.
+. . 5 4 2
+6
+8 0 9 6 0
+2
+3 0
+19
+6 1 1
+,
+, , 9
+6
+1 0 7 8 1
+8
+1 3 1
+6
+3 0 8 0 .
+.
+. . 4 0 0
+7
+0 1 1 7 6
+9
+0 2
+11
+2 6 1
+,
+, 7 2 4
+6
+0 5 4 7 1
+8
+0 2
+8
+9 1 4 1 .
+.
+. 2 5 4 0
+6
+8 6 0 9
+2
+3 0
+(d) Other current assets 7,00,758.10 | 18258023 21143746 T83,104.90
+TOTAL
+[EQUITY 2,165.00 2,165.00 2,165.00 2,165.00
+(a) Equity Share capital 7136706 | 6692194 72.046.42 61446.61
+(b) Other Equity
+Non current
+() Financial liabilitics 2556824 | 27,5638 25,568.24 27,566.38
+Borrowings 7,750.58 840747 7.750.58 840747
+¢ Liabilities 121062 1,101.85 121062 110185
+( (b ) ) D P e r f o e v r i r si e o d n T s ax Liabilitics (Net) 1 10 0 . , 3 9 9 0 7 9 . . 1 4 1 5 8 9 , . 7 9 6 2 6 5 . . 4 1 1 3 1 1 0 0, 3 9 9 0 7 9 . . 1 4 1 5 8 9 , . 7 9 6 2 6 5 . . 4 1 1 3
+1866235 | 16,307.10 18,6235 16,307.10
+(i) Borrowings 79103 839.64 791.03 83964
+(i) Lease Liabilities
+(iii) Trade payables
+Total outstanding dues of Micro enterprises & small 50467 865.04 804.67 865.04
+enterprises
+enterp T r o i t s a es l o & u t s s m t a a ll n d e i n n t g e r d p u r e i s s e o s f ereditors ather than Micro 42 8, 6 3 9 5 5 4. 9 0 8 0 [ 2 4 8 , 6 9 1 08 3 . 5 4 5 8 42 8 , . 6 3 9 5 5 4 . . 9 0 8 0 2 4 8 , 6 9 1 0 3 8 . . 5 4 5 8
+(i) Other financial I 907639 548577 9,07639 5485.77
+(b) Other current il 41733 387.75 41733 38775
+( (o d ) ) P C r u ov r is r io e n n s T atx Liabilities (Net) 2,10, 5 7 8 5 8 8 . . 2 1 9 0 | 1825 3 8 18 0 . 2 7 3 2 2,11, 5 4 8 37 8 . 2 4 9 6 T:83, 3 1 1 0 8 4 . . 7 9 2 0
+[TOTAL
+By Order of the Board
+FOR JAY BHARAT MARUTI LIMITED
+S.KARYA
+Place :- Gurugram
+CHAIRMAN
+Date :- 2nd November, 2026
+\(,
+
+=== PAGE 6 ===
+JAY BHARAT MARUTI LIMITED .
+Regd. Office: Pace City IT, Mohammadpur Jharsa )
+Near Khandsa Village, Sector -36 Gurgaon, Haryana-122001 J BM& @
+Phone No.[phone redacted]; Fax [phone redacted] (oSG e
+Website : wi.jbmgroup.com
+CIN : L29130HR1987PLC130020
+STATEMENT OF CASH FLOW
+(Rs. In Lakhs)
+STANDALONE CONSOLIDATED
+Unaudited Audited Unaudited Audited
+Particulars
+Yearended | Yearended | Year ended Year ended
+30-Sep-26 | 31-Mar-26 30-Sep-26 31-Mar-26
+>
+'CASH FLOW FROM OPERATING ACTIVITIES
+Profit before taxation 6.996.74 14,716.74 7,197.57 1495820
+Adjustments to reconcile profit & loss to net cash provided
+by operating activities :
+Depreciation and amortisation 947034 515221 947034
+2,157.49 436574 2,157.49 436574
+Interest income (434.60) (174.03) (484.60) (174.03)
+Dividend income (G2.54) (32.09) @351 (32.03)]
+Rental income 4.04) (43.20) (24.0)f (“3.20)
+Balances written back - (50.53) - (50.53)]
+Share in (Profit)/loss of joint Venture - - (20083) (241.46)
+(Profit)/Loss on sale of property.plant and equipment (0.05) 5123 0.09) 5123
+Operating Profit before working Capital changes 13,764.21 28,304.26 13,764.21 2330426
+Adjustments for
+Trade and other receivables (8,783.39) (3,697.59) (8783.39) (3,697.54)
+Other asset 697.62 (6,578.29) 60762 (6,57828)
+Inventories (12,093.00) (1,836.47) (12,093.00) (1,836.47)
+Trade and other payables 20,087.14 485737 2228714 485737
+Cash generated from operating activitics 21,049.34 1587258 21,049.34
+Income Tax (paid)/Refund (Net) (1,391.74) (4835) (1,391.74)
+Net Cash from Operating Activities 15,8423 19.657.60 5 19.657.60
+B CASH FLOW FROM INVESTING ACTIVITIES
+Capital expenditure on property.plant and equipment and
+intangible assets including capital advances (13,113.38) (14,934.29) (13,113.38)| (14,934.29)]
+Proceeds from sale ofp roperty,plant and equipment 007 1,529.83 0.07
+Purchase of Investments - - -
+Rent received 24.04 4320 24.04
+Interest received 484.60 174.03 484.60
+Dividend received 3354 3203 3354
+Net cash used in Investing Activity 2,571.13)| (13,155.20) (12571.13)
+C CASH FLOW FROM FINANCING ACTIVITIES
+Procecls fiom Non Current borrowings 2,647.28 824988 2,617.28
+Repayments of Non Current borrowings (3.290.17) (6,751.94) (3:290.17)
+Payment of lease liability (1,041.15)| (1,073.59) (1041.15) (1,073.54)
+Current borrowings (Net) 1,000.00 2,000.00) 1,000.00 (2,000.00)
+Interest paid (2,207.69) (3.819.25) (2207.69) (3,819.25)
+Dividend paid (757.75) s1.15) (751.75) (757.75)
+Net cash from financing activities (3,619.45) 3,649.49) (6.152.60)
+Net increase in Cash and Cash equivalents (396.39) (396.38) 349.80
+Cash and Cash cquivalents at the beginning of the year 47746 47746 127.66
+Cash and Cash equivalents at the end of the ye: 81.06 81.06 47746
+Cash and cash equivalents comprises
+Cash in hand 10.73 616 1073 616
+Balance with Banks 7033 47130 7033 47130
+§1.06 47746 81.06 47146
+Notes : The above Cash Flow Statement has been prepared under the Indirect Metkod as set out in the IND AS-7 " Statement of Cash Flows".
+By Order of the Board
+FOR JAY BHARAT MARUTI LIMITED
+Place :- Gurugram YA
+Date :- 2nd November, 2026 AIRMAN
+
+=== PAGE 7 ===
+
+
+=== PAGE 8 ===
+
+
+=== PAGE 9 ===
+
+
+=== PAGE 10 ===
+
+
+=== PAGE 11 ===
+JAY BHARAT MARUTI LIMITED
+Corporate Office : Plot No. 9, Institutional Area,
+Sector 44, Gurgaon-122 003 (Hr.)
+T : [phone redacted], 4674550
+F : [phone redacted]
+W : www.jbmgroup.com
+Annexure – II
+S.No. Disclosure Requirement Details
+1. Reason for change Appointment of Ms. Radhika Khurana as Company
+(appointment) Secretary of the Company and Compliance Officer of the
+Company who would also be the Key managerial Personnel
+of the Company w.e.f December 18, 2026.
+2. Date of appointment & term With effect from December 18, 2026.
+of appointment
+3. Brief profile (in case of Ms. Radhika Khurana is a Qualified Company Secretary
+appointment); and an Associate Member of the Institute of Company
+Secretaries of India (ICSI), holding Membership No.
+A32557. She is a seasoned corporate governance
+professional with over 13 years of post-qualification
+experience, bringing extensive expertise across corporate
+compliances, governance, and regulatory matters. Her
+experience includes handling Schemes of Arrangement,
+including demergers, fund-raising activities, providing
+strategic support to the Board and senior management, and
+overseeing compliance with applicable provisions of the
+Companies Act and Securities Laws. She also possesses
+strong experience in developing and implementing robust
+Compliance Management Frameworks.
+She is currently serving as the Company Secretary of
+Xchanging Solutions Limited (DXC Group).
+Prior to joining DXC, she has been associated with reputed
+organisations, including the ICRA Group, Indag Rubber
+Limited and HB Group.
+4. Disclosure of relationships Not Applicable
+between directors (in case of
+appointment of a Director).
+Regd. Office : Pace City–II, Mohammadpur Jharsa, Near Khandsa Village, Sector-36, Gurgaon-122001 (Haryana) T: [phone redacted]. F: [phone redacted]
+CIN : L29130HR1987PLC130020 Email Id: [email redacted]
+
+=== PAGE 12 ===
+JAY BHARAT MARUTI LIMITED
+Corporate Office : Plot No. 9, Institutional Area,
+Sector 44, Gurgaon-122 003 (Hr.)
+T : [phone redacted], 4674550
+F : [phone redacted]
+W : www.jbmgroup.com
+Annexure – III
+S.No. Disclosure Details Details
+Requirement
+1. Name of the Senior Mr. Mayank Varma, re-designated Mr. Deepak Gupta, re-
+Management as Chief Executive Officer (CEO) designated will look after
+Personnel (SMP) responsible for both tooling and auto Strategy and Diversification
+components business.
+2. Reason for change Change in roles & responsibilities Change in roles &
+(Re-designation and responsibilities
+appointment )
+3. Date of appointment Re-designation effective from Re-designation effective
+& term of November 02, 2026. from November 02, 2026.
+appointment
+4. Brief profile (in case Not Applicable Not Applicable
+of appointment)
+5. Disclosure of Not Applicable Not Applicable
+relationships
+between directors (in
+case of appointment
+of a director).
+Regd. Office : Pace City–II, Mohammadpur Jharsa, Near Khandsa Village, Sector-36, Gurgaon-122001 (Haryana) T: [phone redacted]. F: [phone redacted]
+CIN : L29130HR1987PLC130020 Email Id: [email redacted]

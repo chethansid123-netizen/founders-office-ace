@@ -1,0 +1,104 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachHis/2ca20f08-ead1-41ff-a802-bd773f50a3f5.pdf
+SHA256: c2979b44a9f8984f99fe832432dc2f7faa91f3123a1b3ba177bec03ffdf84371
+FETCHED_AT: 2026-11-02T14:09:00+00:00
+PAGES: 4
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 2 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+Reference No.: SEC/ SE/ 131/ 2026 – 27
+Date: September 15, 2026
+BSE Limited National Stock Exchange of India International Exchange (IFSC)
+Phiroze Jeejeebhoy Towers India Limited Ltd
+Dalal Street 5th Floor, Exchange Plaza 1st Floor, Unit No. 101, The Signature
+Mumbai- 400001 Bandra (East) Building no. 13B, Road 1C, Zone 1
+Scrip Code: 531213 Mumbai – 400 051 GIFT SEZ, GIFT City, Gandhinagar
+Symbol: MANAPPURAM Gujarat – 382355
+Dear Sir / Madam,
+Intimation under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements)
+Regulations, 2015, as amended ("Listing Regulations") – Resignation of Senior Management
+Personnel of the Company
+Pursuant to Regulation 30 of the Listing Regulations, we hereby inform you that the following Senior
+Management Personnel of the Company have tendered their resignations from the services of the
+Company due to personal reasons. The resignations shall take effect from the close of business hours
+on the respective last working dates mentioned below.
+Name Designation Last Working Day
+Mr. Digbijay Bandyopadhyay Business Head – Commercial Vehicle September 15, 2026
+Finance (VP)
+Mr. Ajay Bhalchandra Shelke Business Head – Two-Wheeler Finance September 16, 2026
+The details required to be disclosed as provided in Para A of Part A of Schedule III of the Listing
+Regulations read with the SEBI Master Circular dated January 30, 2026, bearing reference number
+HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 are enclosed as Annexure A, B and C.
+The above information is also being uploaded on the Company’s website at
+https://www.manappuram.com/disclosure-intimation-stock-exchange in terms of the Listing
+Regulations.
+This is for your information and appropriate dissemination.
+Thanking you.
+Yours faithfully,
+For Manappuram Finance Limited
+Aparna Menon
+Company Secretary
+Enclosures: As above
+
+=== PAGE 2 ===
+Annexure A
+Sl. Particulars Name of Senior Management Personnel
+No. Mr. Digbijay Bandyopadhyay Mr. Ajay Bhalchandra Shelke
+1 Reason for change viz. Resignation Resignation
+appointment, re-
+appointment, resignation,
+removal, death or
+otherwise
+2 Date of appointment/re- Date of cessation: September 15, 2026 Date of cessation: September 16, 2026
+appointment/ cessation
+(as applicable) & term of Mr. Digbijay Bandyopadhyay, Business Mr. Ajay Bhalchandra Shelke, Business
+appointment/re- Head – Commercial Vehicle Finance Head – Two-Wheeler Finance, has
+appointment (VP), has submitted his resignation submitted his resignation citing
+citing personal reasons. The resignation personal reasons. The resignation shall
+shall take effect from the close of take effect from the close of business
+business hours on September 15, 2026. hours on September 16, 2026.
+3 Brief profile (in case of Not Applicable Not Applicable
+appointment);
+4 Disclosure of Not Applicable Not Applicable
+relationships between
+directors (in case of
+appointment of a
+director).
+5 Disclosure in terms of Copy of the resignation letter, indicating Copy of the resignation letter, indicating
+Regulation 30 read with the reason for resignation, is enclosed as the reason for resignation, is enclosed as
+Clause 7C in Para A of Annexure B. Annexure C.
+Part A of Schedule III of
+the Listing Regulations
+(i.e., copy of resignation
+letter setting out reasons
+for resignation)
+
+=== PAGE 3 ===
+Annexure B
+Date: 18 June 2026
+To,
+Dr Renjith PR
+CHRO, Manappuram Finance Ltd,
+Valapad, Thrissur, Kerala
+Subject : Resignation from services
+Dear Sir,
+|a m resigning from services due to personal reasons.
+Th ave submitted my resignation on 18 June 2026, and I shall serve 90 days notice period
+as per termso f employment, and my last working day shall be 15 September 2026.
+Am thankful for the opportunities provided to me during my tenure and wish the
+company continued success and growth.
+Kindly note the same and accept my resignation with effect from 18 June 2026 with 90
+days notice period, to be served at my current station branch Mumbai head office
+(Kanakia Wall Street, Andheri East).
+Kindly process my dues including gratuity, full and final settlement and issue my
+relieving letter, experience letter on priority after my last working day
+Thanking you,
+Your' s sincerely
+Digbijay Bandyopadhyay
+Business Head-CV& CE
+Employee code-335417
+Mumbai
+Contact -#[phone redacted] /d [email redacted]
+
+=== PAGE 4 ===
+Annexure C

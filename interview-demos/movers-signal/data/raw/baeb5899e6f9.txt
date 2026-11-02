@@ -1,0 +1,89 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachHis/a77298cb-b6a9-4f5d-825c-48fb7a0974aa.pdf
+SHA256: 2607036a31531fc4b96923226bd357b2cf8c05d3df10235080cf3a955f560979
+FETCHED_AT: 2026-11-02T14:20:50+00:00
+PAGES: 3
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 6 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+MCSL/SEC/26-27/243
+October 14, 2026
+BSE Limited National Stock Exchange of India
+Phiroze Jeejeebhoy Towers Limited
+Dalal Street, Exchange Plaza, C-1, Block G,
+Mumbai - 400 001, Maharashtra Bandra Kurla Complex, Bandra (E),
+Scrip Code - 511766 Mumbai - 400 051, Maharashtra
+Scrip Code (Debenture & CP) - 975282, Trading Symbol - MUTHOOTCAP
+975513, 975662, 976146, 976183, 976213,
+976233, 976363, 976458, 976806, 976898,
+976933, 976965, 978079, 978198, 97714,
+977929, 729732, 729733, 730251 and 732701
+Dear Sir / Ma’am,
+Sub: Resignation of Chief Risk Officer
+Pursuant to Regulation 30 and 51 of the Securities and Exchange Board of India (Listing
+Obligations and Disclosure Requirements) Regulations, 2015 (“Listing Regulations”),
+this is to inform that Mrs. Umadevi Pazhoor Unnikrishnan has resigned from the position
+of Chief Risk Officer of Muthoot Capital Services Limited (‘the Company’) w.e.f. the
+close of business hours of October 14, 2026.
+The disclosure required under Regulation 30 of the Listing Regulations read with Para A
+of Part A of Schedule III of the Listing Regulations and SEBI Circular No.
+HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026, is enclosed as
+Annexure A.
+This is for your kind information and records.
+Thanking You
+Yours faithfully,
+For Muthoot Capital Services Limited
+Deepa G
+Company Secretary & Compliance Officer
+(Membership No.: A68790)
+Encl: as above
+Muthoot Capital Services Limited, Registered Office: 3rd Floor, Muthoot Towers, M. G. Road, Kochi - 682 035, Kerala
+P: [phone redacted], 6613450, F: [phone redacted], Email: [email redacted], www.muthootcap.com
+CIN: L67120KL1994PLC007726
+Classification: Public
+
+=== PAGE 2 ===
+Annexure A
+Resignation of Chief Risk Officer
+Sl. Particulars Details
+No.
+1. Reason for change viz. Resignation due to personal reasons
+appointment re-appointment,
+resignation, removal, death
+or otherwise
+2. Date of Resignation The resignation will be effective from the close of
+business hours of October 14, 2026
+3. Brief Profile NA
+(in case of appointment)
+4. Disclosure of relationships NA
+between directors (in case of
+appointment of a director)
+Muthoot Capital Services Limited, Registered Office: 3rd Floor, Muthoot Towers, M. G. Road, Kochi - 682 035, Kerala
+P: [phone redacted], 6613450, F: [phone redacted], Email: [email redacted], www.muthootcap.com
+CIN: L67120KL1994PLC007726
+Classification: Public
+
+=== PAGE 3 ===
+To
+Mr. Mathews Markose
+Chief Executive Officer
+Muthoot Capital Services ltd
+3rd Floor, Muthoot Towers, MG Road, Koc hi - 682 035
+Subject: Resignati..0.n.. from the position of Chief Risk Officer of the Com.Qan.Y
+Dear Sir,
+I hereby tender my resignation from the position of Chief Risk Officer of Muthoot Capital
+Services limited due to personal reasons.
+I request that my resignation be accepted and that I be relieved from my duties and
+responsibilities as Chief Risk Officer with effect from the closing hours of October 14,
+2026.
+I would like to express my sincere gratitude to the Management and the Board of Directors
+for the support, guidance and opportunities extended to me during my tenure with the
+Company.
+I shall extend all necessary cooperation to ensure c> smooth transition and handover of
+my responsibilities prior to my relieving date.
+I wish the Company and the entire team continued success and growth in the future.
+Yours faithfully,
+?-~-~)_·
+Umadevi Pazhoor Unnikrishnan
+Date: 17.07.2026
+Classification: Public

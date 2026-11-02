@@ -1,0 +1,85 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachHis/679bb022-17be-4a39-ae95-aa7c82525886.pdf
+SHA256: 3818194119b04ae043105e308c4f2d1cd461a5781c3a9fbf33202b37203f6a6c
+FETCHED_AT: 2026-11-02T14:17:03+00:00
+PAGES: 3
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 6 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+Pfizer Limited
+The Capital, 1802/1901,
+Plot No. C - 70, G Block, Bandra Kurla Complex,
+Bandra (East), Mumbai 400 051.
+Tel : [phone redacted] Fax : [phone redacted]
+September 18, 2026
+The Corporate Relationship Dept. The Listing Dept.
+BSE Limited The National Stock Exchange of India Ltd.
+1st Floor, P.J.Towers Exchange Plaza, 5th Floor, Plot No. C/1,
+Dalal Street, Fort G Block Bandra-Kurla Complex, Bandra (E)
+Mumbai – 400 001 Mumbai – 400 051
+Scrip Code: 500680 Scrip Symbol: PFIZER
+Dear Sirs / Madam,
+Sub: Intimation regarding change in Senior Management Personnel of the Company.
+Ref.: Regulations 30 of the SEBI (Listing Obligations and Disclosure Requirements)
+Regulations, 2015.
+Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements)
+Regulations, 2015, we hereby inform that Mr. Sharad Goswami, Senior Director – Policy &
+Public Affairs has resigned from the services of the Company with effect from
+September 25, 2026 (close of business), to pursue opportunities outside Pfizer Limited.
+Mr. Goswami shall accordingly cease to be a Senior Management Personnel, effective the
+said date.
+The additional details required to be disclosed pursuant to the SEBI (Listing Obligations and
+Disclosure Requirements) Regulations 2015 read with SEBI Circular No.
+HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026, are enclosed as
+Annexure – A & Annexure – B.
+Request you to please take the above on record.
+Thanking you,
+Yours truly,
+For Pfizer Limited
+Prajeet Nair
+Director – Corporate Services & Company Secretary
+CIN: L24231MH1950PLC008311
+Email ID: [email redacted]
+Website: www.pfizerltd.co.in
+
+=== PAGE 2 ===
+Annexure - A
+Additional information pursuant to SEBI Listing Regulations read with SEBI Circular No.
+HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026.
+Sr. Particulars Description
+No.
+1. Reason for change viz. appointment, re- Resignation of Mr. Sharad Goswami,
+appointment, resignation, removal, Senior Director – Policy & Public Affairs
+death or otherwise. with effect from September 25, 2026 (close
+of business) to pursue opportunities
+outside Pfizer Limited.
+2. Date of appointment / cessation Cessation as Senior Director – Policy &
+(as applicable) & term of appointment, Public Affairs with effect from
+re-appointment. September 25, 2026 (close of business).
+3. Brief profile (in case of appointment) Not Applicable
+4. Disclosure of relationships between Not Applicable
+directors (in case of appointment of a
+director).
+
+=== PAGE 3 ===
+Annexure – B
+From: Goswami, Sharad Tarun <[email redacted]>
+Sent: Friday, September 18, 2026 2:39 PM
+To: Nevatia, Meenakshi <[email redacted]>
+Cc: Parida, Reshma <[email redacted]>
+Subject: Resignation
+September 18, 2026
+To,
+Managing Director
+Pfizer Limited
+Mumbai.
+Dear Madam,
+Sub: Resignation
+I hereby tender my resignation from the services of the Company, e(cid:431)ective close of business on
+September 25, 2026, to pursue opportunities outside Pfizer.
+I would like to thank the management and colleagues for their support extended to me during my tenure
+with the Company.
+Yours truly,
+_________________
+Sharad Goswami
+1

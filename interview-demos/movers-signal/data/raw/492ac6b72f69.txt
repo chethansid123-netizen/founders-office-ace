@@ -1,0 +1,29 @@
+SOURCE_URL: https://nsearchives.nseindia.com/corporate/KPIGLOBAL_02092026155452_KPI_Intimation_Resignation_of_CFO_02092026_Signed.pdf
+SHA256: 402d43b38c3330f3f49690017720c9047c58116f1f1927e7ba6e09fbc72b03fe
+FETCHED_AT: 2026-11-02T14:07:46+00:00
+PAGES: 1
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 0 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+KPI/MAT/SEP/2026/820 Date: September 02, 2026
+BSE Limited National Stock Exchange of India Limited
+Phiroze Jeejeebhoy Towers, Exchange Plaza,
+Dalal Street, Bandra Kurla Complex,
+Mumbai - 400001 Bandra (E), Mumbai - 400051
+Scrip Code: 542323 Symbol: KPIGREEN
+Sub Intimation under Regulation 30 of Resignation of the SEBI (Listing Obligations and
+Disclosure Requirements) Regulations, 2015 – Update on resignation of Chief Financial
+Officer (CFO) of the Company
+Dear Sir(s),
+Further to our communication dated August 11, 2026, regarding the resignation tendered by Mr.
+Salim Yahoo, Chief Financial Officer (“CFO”) and Key Managerial Personnel (“KMP”) of the
+Company, we hereby inform you that today i.e. September 2, 2026 is mutually decided as his last
+working day/relieving date. Accordingly, after close of business hours on September, 2, 2026, Mr.
+Salim Yahoo shall cease to be CFO & KMP of the Company.
+We request you to take the same on your record.
+Thanking You,
+Yours faithfully,
+For KPI Green Energy Limited
+Krunal Bhatt
+Company Secretary & Compliance Officer

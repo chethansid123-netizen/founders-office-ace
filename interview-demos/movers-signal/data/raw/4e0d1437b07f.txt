@@ -1,0 +1,62 @@
+SOURCE_URL: https://nsearchives.nseindia.com/corporate/GRINFRA_02112026154316_Intimation_02112026.pdf
+SHA256: 4d38971d61b78eb6686c4902d0924d5e7ba559c8d78c40b149a6f7ffcf05b156
+FETCHED_AT: 2026-11-02T14:06:43+00:00
+PAGES: 2
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 0 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+2nd November 2026
+To,
+BSE Limited National Stock Exchange of India Limited
+Phiroze Jeejeebhoy Towers Exchange Plaza, Plot No. C-1
+Dalal Street, Fort G Block, Bandra-Kurla Complex, Bandra(E)
+Mumbai - 400001 Mumbai -400051
+Scrip Code: 543317 Symbol: GRINFRA
+Sub: Intimation of change in the Senior Management Personnel (SMP) of the Company.
+Dear Sir,
+Pursuant to Regulation 30 read with Schedule III of the SEBI (Listing Obligations and
+Disclosure Requirements) Regulations, 2015 (“SEBI Listing Regulations”), we wish to inform
+you that Mr. Unnat Prakash has been appointed as Joint President – Power Transmission and
+Distribution (PT & D) and designated as SMP of the Company with effect from 2nd November
+2026.
+The details as required under Regulation 30 of the SEBI Listing Regulations read with SEBI
+Master Circular No. SEBI/HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30,
+2026 (‘SEBI Circular’), are enclosed in the Annexure A below.
+You are requested to take the above information on record.
+Yours sincerely,
+For G R Infraprojects Limited
+Sudhir Mutha
+Company Secretary
+ICSI Membership No. ACS18857
+Enclosed: As above.
+
+=== PAGE 2 ===
+Annexure- A
+Details required under SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 read
+with SEBI Circular No. HO/49/14/14(7)2025-CFD-POD2/1/3762/2026 dated 30th January 2026.
+S. Particulars Mr. Unnat Prakash
+No.
+1. Reason for change viz. appointment, Appointment of Mr. Unnat Prakash, as Joint President –
+re- appointment, resignation, removal, Power Transmission and Distribution (PT & D).
+death or otherwise
+2. Date of appointment/ Date of appointment: With effect from 2nd November
+re-appointment/ cessation & term of 2026
+appointment/ reappointment Term of Appointment Full-Time employment with effect
+from date of joining the Company.
+3. Brief profile (in case of appointment) Mr. Unnat Prakash is a seasoned professional having
+over 32 years of experience in Power Transmission &
+Distribution, HVDC and infrastructure projects. He has
+extensive experience in project execution, operational
+management and leadership of large-scale infrastructure
+projects. He holds a B. Tech. degree in Civil Engineering
+from NIT Warangal and is a certified Project
+Management Professional. He has also completed
+advanced leadership programmes from IIM Kolkata and
+IIT Delhi. He is recognized for driving strategic initiatives,
+ensuring operational excellence, accelerating project
+delivery and optimizing capital expenditure in complex,
+high-value infrastructure projects.
+4. Disclosure of Relationships between He is not related to any of the Directors of the Company.
+directors (in case of appointment of a
+director).

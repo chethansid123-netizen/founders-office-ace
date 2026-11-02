@@ -1,0 +1,109 @@
+SOURCE_URL: https://nsearchives.nseindia.com/corporate/INDIASHLTR_14052024210815_INDIASHLTR.pdf
+SHA256: d336c13dade8208f037f9f2d2003c15b364929facff4c9e4eac18585cdf56a17
+FETCHED_AT: 2026-11-02T14:29:03+00:00
+PAGES: 4
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 2 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+Date: April 06, 2024
+To, To,
+BSE Limited, National Stock Exchange of India Limited,
+Phiroze Jeejeebhoy Exchange Plaza, C-1, Block G, Bandra Kurla
+Towers, Dalal Street, Complex, Bandra (E),
+Mumbai- 400001 Mumbai – 400 051
+Scrip Code: 544044 NSE Symbol: INDIASHLTR
+Sub: Disclosure under Regulation 31 (4) of SEBI (Substantial Acquisition of Shares and Takeovers)
+Regulations, 2011
+Dear Sir/Madam,
+Pursuant to Regulation 31(4) of SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011, please
+find attached herewith the declarations submitted by the promoters , along with persons acting in concert, that no
+encumbrance on shares of India Shelter Finance Corporation Limited has been made directly or indirectly, during the
+Financial Year ending March 31, 2024.
+Thanking you
+For India Shelter Finance Corporation Limited
+Mukti Chaplot
+Company Secretary and Chief Compliance Officer
+Membership No.: 38326
+Encl: Declaration submitted by promoters
+India Shelter Finance Corporation Limited
+Registered office – 6th Floor, Plot No 15, Institutional Area, Sector 44, Gurgaon, Haryana-122002
+CIN: L65922HR1998PLC042782, Phone No [phone redacted]
+E-mail: [email redacted], Website: www.indiashelter.in
+
+=== PAGE 2 ===
+To, To,
+BSE Limited, National Stock Exchange of India Limited,
+Phiroze Jeejeebhoy Exchange Plaza, C-1, Block G, Bandra Kurla
+Towers, Dalal Street, Complex, Bandra (E),
+Mumbai- 400001 Mumbai – 400 051
+Scrip Code: 544044 NSE Symbol: INDIASHLTR
+Sub: Declaration under Regulation 31 (4) of SEBI (Substantial Acquisition of Shares and Takeovers) Regulations,
+2011
+Dear Sir/Madam,
+I Anil Mehta, in the capacity of promoter of India Shelter Finance Corporation Limited, along with persons acting in
+concert., hereby declare that no encumbrance on shares of India Shelter Finance Corporation Limited has been made
+directly or indirectly, during the Financial Year ending March 31, 2024, pursuant to Regulation 31(4) of SEBI
+(Substantial Acquisition of Shares and Takeovers) Regulations, 2011.
+Thanking you
+Anil Mehta
+Date: April 06, 2024
+Place: Gurugram
+CC:
+The Audit Committee
+India Shelter Finance Corporation Limited
+6th Floor, Plot No. 15, Institutional Area, Sector 44, Gurugram, Haryana-122002
+
+=== PAGE 3 ===
+DocuSign E nvelope ID: E0C264E9-A300-49F4-A98E-95F9E301A140
+WestBridge Crossover Fund, LLC
+Leve 4, Tower A, 1 Exchange Square, Wall Street, Ebene 72201,
+Mauritius
+To, To,
+BSE Limited, National Stock Exchange of India Limited,
+Phiroze Jeejeebhoy Exchange Plaza, C-1, Block G, Bandra Kurla
+Towers, Dalal Street, Complex, Bandra (E),
+Mumbai- 400001 Mumbai – 400 051
+Scrip Code: 544044 NSE Symbol: INDIASHLTR
+Sub: Declaration under Regulation 31 (4) of SEBI (Substantial Acquisition of Shares and Takeovers) Regulations,
+2011
+Dear Sir/Madam,
+We, WestBridge Crossover Fund, LLC, in the capacity of promoter of India Shelter Finance Corporation Limited,
+along with persons acting in concert., hereby declare that no encumbrance on shares of India Shelter Finance
+Corporation Limited has been made directly or indirectly, during the Financial Year ending March 31, 2024
+pursuant to Regulation 31(4) of SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011.
+Thanking you
+Westbridge Crossover Fund, LLC
+Date: 05th April 2024
+Place: Mauritius
+CC:
+The Audit Committee
+India Shelter Finance Corporation Limited
+6th Floor, Plot No. 15, Institutional Area, Sector 44, Gurugram, Haryana-122002
+
+=== PAGE 4 ===
+DocuSign E nvelope ID: E0C264E9-A300-49F4-A98E-95F9E301A140
+Aravali Investment Holdings
+Level 4, Tower A, 1 Exchange Square, Wall Street, Ebene 72201,
+Mauritius
+To, To,
+BSE Limited, National Stock Exchange of India Limited,
+Phiroze Jeejeebhoy Exchange Plaza, C-1, Block G, Bandra Kurla
+Towers, Dalal Street, Complex, Bandra (E),
+Mumbai- 400001 Mumbai – 400 051
+Scrip Code: 544044 NSE Symbol: INDIASHLTR
+Sub: Declaration under Regulation 31 (4) of SEBI (Substantial Acquisition of Shares and Takeovers) Regulations,
+2011
+Dear Sir/Madam,
+We, Aravali Investment Holdings, in the capacity of promoter of India Shelter Finance Corporation Limited, along
+with persons acting in concert., hereby declare that no encumbrance on shares of India Shelter Finance Corporation
+Limited has been made directly or indirectly, during the Financial Year ending March 31, 2024 pursuant to
+Regulation 31(4) of SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011.
+Thanking you
+Aravali Investment Holdings
+Date: 05th April 2024
+Place: Mauritius
+CC:
+The Audit Committee
+India Shelter Finance Corporation Limited
+6th Floor, Plot No. 15, Institutional Area, Sector 44, Gurugram, Haryana-122002

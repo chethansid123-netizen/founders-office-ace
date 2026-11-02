@@ -1,0 +1,70 @@
+SOURCE_URL: https://nsearchives.nseindia.com/corporate/MANAPPURAM_01092026195205_Reg30FINALsigned.pdf
+SHA256: 101fb46420b612ff3c9f15329ccfc20b6d8b16ff727a3bec2aeb86dadd72a8e5
+FETCHED_AT: 2026-11-02T14:07:12+00:00
+PAGES: 3
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 0 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+Reference No.: SEC/ SE/ 120/ 2026 – 27
+Date: September 1, 2026
+BSE Limited National Stock Exchange of India International Exchange (IFSC)
+Phiroze Jeejeebhoy Towers India Limited Ltd
+Dalal Street 5th Floor, Exchange Plaza 1st Floor, Unit No. 101, The Signature
+Mumbai- 400001 Bandra (East) Building no. 13B, Road 1C, Zone 1
+Scrip Code: 531213 Mumbai – 400 051 GIFT SEZ, GIFT City, Gandhinagar
+Symbol: MANAPPURAM Gujarat – 382355
+Dear Sir / Madam,
+Intimation under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements)
+Regulations, 2015, as amended (“Listing Regulations”) - Resignation of Senior Management
+Personnel of the Company
+Pursuant to Regulation 30 of the Listing Regulations, we hereby inform you that Mr. Kamal P Parmar,
+Business Head – Commercial Vehicle Finance (SVP) and a Senior Management Personnel of the
+Company, has tendered his resignation from the services of the Company due to personal reasons. His
+resignation shall be effective from the close of business hours on September 1, 2026.
+The details required to be disclosed as provided in Para A of Part A of Schedule III of the Listing
+Regulations read with the SEBI Master Circular dated January 30, 2026, bearing reference number
+HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 are enclosed as Annexure A and B.
+The above information is also being uploaded on the Company’s website at
+https://www.manappuram.com/disclosure-intimation-stock-exchange in terms of the Listing
+Regulations.
+This is for your information and appropriate dissemination.
+Thanking you.
+Yours faithfully,
+For Manappuram Finance Limited
+Aparna Menon
+Company Secretary
+Enclosures: As above
+
+=== PAGE 2 ===
+Annexure A
+Sl. Particulars Name of Senior Management Personnel
+No. Mr. Kamal P Parmar
+1 Reason for change viz. Resignation
+appointment, re-
+appointment, resignation,
+removal, death or
+otherwise
+2 Date of appointment/re- Date of cessation: September 1, 2026.
+appointment/ cessation
+(as applicable) & term of Mr. Kamal P Parmar, Business Head – Commercial Vehicle Finance
+appointment/re- (SVP), has submitted his resignation citing personal reasons. The
+appointment resignation shall take effect from the close of business hours on
+September 1, 2026.
+3 Brief profile (in case of Not Applicable
+appointment);
+4 Disclosure of relationships Not Applicable
+between directors (in case
+of appointment of a
+director).
+5 Disclosure in terms of Copy of the resignation letter, indicating the
+Regulation 30 read with reason for resignation, is enclosed as Annexure B.
+Clause 7C in Para A of
+Part A of Schedule III of
+the Listing Regulations
+(i.e., copy of resignation
+letter setting out reasons
+for resignation)
+
+=== PAGE 3 ===
+Annexure B

@@ -1,0 +1,66 @@
+SOURCE_URL: https://nsearchives.nseindia.com/corporate/BHARTIARTL_04082026184705_Airtel_STX_-_Change_in_CIA.pdf
+SHA256: b0dfb9d1b8e65ac98f2e2f2d6024f9aa2dc70f195cdace77348a87806ff93561
+FETCHED_AT: 2026-11-02T14:25:27+00:00
+PAGES: 2
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 6 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+August 4, 2026
+National Stock Exchange of India Limited
+Exchange Plaza, C-1 Block G
+Bandra Kurla Complex, Bandra (E)
+Mumbai - 400051, India
+Symbol: BHARTIARTL/ AIRTELPP
+BSE Limited
+Phiroze Jeejeebhoy Towers
+Dalal Street
+Mumbai - 400001, India
+Scrip Code: 532454/ 890157
+Sub: Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure
+Requirements) Regulations, 2015 (‘SEBI Listing Regulations’) - Change in Senior
+Management on account of internal organisational changes
+Dear Sir/ Ma’am,
+Pursuant to Regulation 30 of SEBI Listing Regulations read with SEBI Master Circular No.
+HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dt. January 30, 2026, we wish to inform the
+change in Senior Management Personnel of the Company on account of internal
+organisational changes, as detailed in Annexure-A.
+Kindly take the above information on record.
+Thanking you,
+Sincerely yours,
+For Bharti Airtel Limited
+Rohit Krishan Puri
+Company Secretary & Compliance Officer
+Encl.: As above
+Bharti Airtel Limited
+(a Bharti Enterprise)
+Regd. Office: Airtel Center, Plot No. 16, Udyog Vihar, Phase-IV, Gurugram - 122015, India
+Corporate Office: Bharti Crescent, 1, Nelson Mandela Road, Vasant Kunj, Phase II, New Delhi - 110070, India
+T.: [phone redacted], F.: [phone redacted], Email: [email redacted], Website: www.airtel.in
+CIN: L74899HR1995PLC095967
+
+=== PAGE 2 ===
+Annexure A
+Vivek Mehta has been appointed as Chief Internal Auditor and Head - Internal Assurance
+(Senior Management) of the Company effective August 5, 2026, in place of Ramjee Verma
+who will be moving into a new role within the Group w.e.f. August 5, 2026. The brief profile of
+Vivek Mehta is as under:
+“Vivek Mehta is currently associated as Global Shared Service Head and Senior Vice
+President - Finance of the Company. A seasoned professional, Vivek brings over more than
+two decades of diverse experience in financial leadership, particularly within the
+telecommunications sector. Before joining Airtel, he was with VIP Industries Ltd. Vivek
+Mehta’s career at Airtel is marked by progressive leadership roles at center, including his
+previous role as Head - Regulatory Compliance. In his current role as Global Finance Shared
+Service Head and Senior Vice President at Bharti Airtel, Vivek Mehta is leading initiatives on
+automating and simplifying the financial processes across geographies for the Company.
+Throughout his tenure at Bharti Airtel, Vivek has demonstrated capabilities in operational
+excellence, strengthening governance, regulatory compliance & large team handling.”
+The aforesaid change was approved/ taken on record by the Board of Directors, in its meeting
+held today i.e. August 4, 2026 which commenced at IST 1400 Hrs. and concluded at IST 1740
+Hrs.
+Bharti Airtel Limited
+(a Bharti Enterprise)
+Regd. Office: Airtel Center, Plot No. 16, Udyog Vihar, Phase-IV, Gurugram - 122015, India
+Corporate Office: Bharti Crescent, 1, Nelson Mandela Road, Vasant Kunj, Phase II, New Delhi - 110070, India
+T.: [phone redacted], F.: [phone redacted], Email: [email redacted], Website: www.airtel.in
+CIN: L74899HR1995PLC095967

@@ -1,0 +1,69 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachLive/e53e4d58-8bdf-4cd6-b16b-d4794d8e04cb.pdf
+SHA256: d0df989607704905d056ab6e199183871fe9a8645b9b6685e4743779cc3e152b
+FETCHED_AT: 2026-11-02T14:08:34+00:00
+PAGES: 2
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 8 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+H
+HAVELLS
+GROUP
+27th October, 2026
+The National Stock Exchange of India Ltd. BSE Limited
+Exchange Plaza, 5th Floor Phiroze Jeejeebhoy Towers
+Plot No. C/1, G Block Dalal Street
+Bandra Kurla Complex Mumbai- 400 001
+Bandra (E)
+Mumbai- 400 051 Scrip Code : 517354
+NSE Symbol : HAVELLS
+Sub: - Intimation under Regulation 30
+Dear Sir,
+In terms of Regulation 30 and other applicable provisions of the SEBI (Listing Obligations and
+Disclosure Requirements) Regulations, 2015 (SEBI LODR) read with corresponding circulars and
+notifications issued thereunder, we wish to inform the Exchanges about change in Senior Management
+of the Company viz. Havells India Limited.
+The requisite details in terms of Regulation 30 and sub-para 7 of Para A of Part A of Schedule III of the
+SEBI LODR are furnished hereunder:
+(i) Reason for Change viz. appointment, re-appointment, resignation, removal, death or
+otherwise:
+Mr Samir Kirit Anjaria resigned from the position of President.
+(ii) Date of appointment/ re-appointment/ cessation (as applicable) & term of appointment/ re-
+appointment: 27th October, 2026 (date of cessation).
+(iii) Brief profile (in case of appointment/ promotion): Not Applicable
+(iv) Disclosure of relationships between directors (in case of appointment of a director): Not
+applicable
+A copy of the resignation letter tendered by Mr Samir Kirit Anjaria is also enclosed herewith.
+This is for your information and records.
+Thanking you.
+Yours faithfully,
+for Havells India Limited
+(Sanjay Kumar Gupta)
+Company Secretary
+Encl: As above
+HAVELLS INDIA LTD.
+Corporate Office: QRG Towers, 2D, Sector 126, Expressway, Naida -201304, U.P (INDIA). Tel: [phone redacted], Fax: [phone redacted], E-mail:[email redacted],www.havells.com
+Registered Office: 904, 9th Floor, Surya Kiran Building, K.G. Marg, Connaught Place, New Delhi -110001. (INDIA)
+For CARE 360, Call us: for Havells: [phone redacted], for Lloyd: [phone redacted]. GIN: L31900DL 1983PLC016304
+M HAVELLS I LLO~!:) I HAVELLS erabtree I S STANDARD I R£
+
+=== PAGE 2 ===
+From: Sameer Anjaria
+Sent: 28 July 2026 13:55
+To: AnilRai Gupta <[email redacted]>
+Cc: MC HO <[email redacted]>
+Subject: Resignation
+Dear Anilji
+After extensive deliberations and thought, I wish to tender my resignation as President &
+SBU Head.
+This decision is driven entirely by personal reasons.
+I would request to kindly relieve me at close of business hours on Tuesday October 27th
+2026. I will be resigning on the system approx. a month before the exit date. (will discuss
+this). I will be available in the intervening period for handing over of responsibilities.
+Wishing the organisation success in its every endeavour!
+Best Regards,
+Sameer Anjaria
+President & SBU Head
+QRG Towers, Sec 126, Expressway,
+Noida – 201304, Uttar Pradesh, India.
+[phone redacted]

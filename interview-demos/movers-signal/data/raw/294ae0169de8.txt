@@ -1,0 +1,114 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachHis/0caa4ef6-4ed8-4a21-a2e9-d704c6a04cc9.pdf
+SHA256: e2d9f4869031ae8e3eac2b322c3b56a7f15820322a618f74a7a0602e38a9174e
+FETCHED_AT: 2026-11-02T14:29:11+00:00
+PAGES: 5
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 0 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+August 20, 2026
+To, To,
+Corporate Relationship Department Listing Department
+BSE Limited, National Stock Exchange of India Limited
+14th Floor, P. J. Towers, "Exchange Plaza", C-1, Block G,
+Dalal Street, Fort, Bandra- Kurla Complex,
+Mumbai – 400 001 Bandra (East), Mumbai – 400 051
+SCRIP CODE: 532779 SCRIP SYMBOL: TORNTPOWER
+Dear Sir / Madam,
+Ref: Change in Key Managerial Personnel - Disclosure under Regulation 30 of the Securities
+and Exchange Board of India (Listing Obligations and Disclosure Requirements)
+Regulations, 2015 (“Listing Regulations”)
+Sub: Outcome of the Board Meeting dated August 20, 2026
+Pursuant to Regulation 30 of the Listing Regulations, we wish to inform you that the Board of
+Directors of the Company at its Meeting held today have:
+1. Accepted the resignation tendered by Saurabh Mashruwala from the position of Chief Financial
+Officer and Whole Time Key Managerial Personnel of the Company w.e.f. close of business
+hours of August 20, 2026 due to planned retirement.
+2. Approved the appointment of Vikas Poddar as Chief Financial Officer & Whole Time Key
+Managerial Personnel and Senior Management Personnel of the Company w.e.f. August 21,
+2026.
+Consequent to the above:
+1. Saurabh Mashruwala shall also cease to be Key Managerial Personnel authorised for the
+purpose of determining materiality of an event or information and for the purpose of making
+disclosures to stock exchange(s) under regulation 30 of the Listing Regulations with effect from
+close of business hours of August 20, 2026, and
+2. Vikas Poddar shall be appointed as Key Managerial Personnel authorised for the purpose of
+determining materiality of an event or information and for the purpose of making disclosures to
+stock exchange(s) under regulation 30 of the Listing Regulations with effect from August 21,
+2026.
+
+=== PAGE 2 ===
+Details with respect to resignation of Saurabh Mashruwala and appointment of Vikas Poddar as
+required pursuant to Regulation 30 of Listing Regulations read with SEBI Master Circular No.
+HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026 are attached as
+Annexure - A and Annexure – B respectively.
+The Board Meeting commenced at 05:00 pm and concluded at 5.18 pm.
+You are requested to take the above on record.
+Thanking you,
+Yours faithfully,
+For Torrent Power Limited
+Rahul Shah
+Company Secretary & Compliance Officer
+
+=== PAGE 3 ===
+Annexure – A
+Details with respect to resignation of Saurabh Mashruwala, Chief Financial Officer and Key
+Managerial Personnel as required under Regulation 30(6) read with Schedule III Part A Para
+A(7) of the Listing Regulations and SEBI Circular No. HO/49/14/14(7)2025-CFD-
+POD2/I/3762/2026 dated January 30, 2026:
+Sr. No Details of events that needs to Information of such event(s)
+be provided
+1 Reason for change viz. Pursuant to his planned retirement, Saurabh
+appointment, resignation, Mashruwala Chief Financial Officer and Key
+removal, death or otherwise Managerial Personnel of the Company has
+tendered his resignation. He will continue with
+the Company as ED till smooth transition.
+2 Date of appointment/cessation Date of cessation - With effect from close of
+(as applicable) and term of business hours of August 20, 2026.
+appointment
+Term of appointment – Not Applicable
+3 Brief Profile (in case of Not Applicable
+appointment)
+4 Disclosure of relationships Not Applicable
+between directors (in case of
+appointment of a director)
+
+=== PAGE 4 ===
+Annexure – B
+Details with respect to appointment of Vikas Poddar, Chief Financial Officer & Key
+Managerial Personnel and Senior Management Personnel as required under Regulation
+30(6) read with Schedule III Part A Para A(7) of the Listing Regulations and SEBI Circular
+No. HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026:
+Sr. No Details of events that needs to Information of such event(s)
+be provided
+1 Reason for change viz. Vikas Poddar has been appointed as Chief
+appointment, resignation, Financial Officer and Key Managerial Personnel
+removal, death or otherwise of the Company.
+2 Date of appointment/cessation Date of Appointment - With effect from August
+(as applicable) and term of 21, 2026.
+appointment
+Term of appointment – Not Applicable
+3 Brief Profile (in case of Vikas Poddar is an MBA from the National
+appointment) University of Singapore and is a Chartered
+Accountant with over 27 years of
+experience. Prior to joining the Company,
+he was the Chief Financial Officer at Indus
+Towers, an Indian telecommunications
+infrastructure company with revenue of over
+USD 3.5B and listed on the stock
+exchanges. He progressed through various
+finance leadership roles at Vodafone,
+including Head of FP&A and Decision
+Support in India and Regional Finance
+Controller and Finance Director in the UK,
+contributing to strategic planning, digital
+transformation, and financial performance
+improvements. Prior to Vodafone, he held
+finance management positions at ITC
+Limited.
+4 Disclosure of relationships Not Applicable
+between directors (in case of
+appointment of a director)
+
+=== PAGE 5 ===
+

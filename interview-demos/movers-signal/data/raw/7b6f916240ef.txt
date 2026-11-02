@@ -1,0 +1,89 @@
+SOURCE_URL: https://nsearchives.nseindia.com/corporate/WOCKPHARMA_02112026171023_changeinmanagementMrSumitGargs.pdf
+SHA256: 5b549444fa803a10f843e7103767f1ce9793e32b2ee567ce7137f78ef3f9f657
+FETCHED_AT: 2026-11-02T14:06:28+00:00
+PAGES: 3
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 0 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+Ref. No.: WOCK/SEC/SE/2026-27/047 2nd November, 2026
+BSE Limited National Stock Exchange of India Limited
+Corporate Relations Department Exchange Plaza, Bandra Kurla Complex
+P J Towers, Dalal Street, Mumbai - 400 001 Bandra (E), Mumbai - 400 051
+Scrip Code: 532300 NSE Symbol: WOCKPHARMA
+Dear Sir/ Madam,
+Subject: Change in Senior Management Personnel (‘SMP’)
+In terms of provisions of Regulation 30 (read with Part A of Schedule III) and other applicable
+provisions of the Securities and Exchange Board of India (Listing Obligations and Disclosure
+Requirements) Regulations, 2015 (‘Listing Regulations’), we wish to inform you that the Board of
+Directors of the Company, at its Meeting held today i.e. 2nd November, 2026, inter-alia, has
+identified and designated Mr. Sumit Garg, Chief Digital & Information Officer as Senior
+Management Personnel (SMP) of the Company.
+Details with respect to the said designated SMP as required under Regulation 30(6) read with Para
+A(7) of Part A of Schedule III of the Listing Regulations read with SEBI Master Circular No.
+HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026 are enclosed as Annexure
+I respectively.
+The above information is also available on the website of the Company i.e.
+https://www.wockhardt.com.
+Kindly take the same on record.
+For Wockhardt Limited
+Rashmi Mamtura
+Company Secretary
+Encl: as above
+
+=== PAGE 2 ===
+Annexure I
+The details required to be furnished pursuant to Regulation 30 of the Listing Regulations read with the
+SEBI Master Circular No. HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026.
+Sr. No. Particulars Details of Mr. Sumit Garg
+1 Reason for change viz. The Board of Directors of the Company has identified and
+appointment, designated Mr. Sumit Garg, Chief Digital & Information Officer as
+resignation, removal, the Senior Management Personnel of the Company.
+death or otherwise
+2 Date of 2nd November, 2026
+appointment/cessation Term: Full-time employment
+(as applicable) & term of
+appointment
+3 Brief profile (in case of Mr. Sumit Garg, aged 55 years is the Chief Digital & Information
+appointment);
+Officer (CDIO) at Wockhardt Limited, with 30+ years of
+technology and transformation leadership experience spanning
+Pharmaceuticals, Life sciences, FMCG/CPG and Automobile.
+Sumit has led enterprise transformation across highly regulated
+and global businesses. His experience spans AI/GenAI, SAP and
+enterprise platforms, Digital manufacturing and supply chain, data
+& analytics, Cloud and cybersecurity, with a strong focus on
+positioning technology as an enabler of business transformation
+and growth. Prior to joining Wockhardt, he served as Vice
+President and Global Chief Information Officer at Piramal Pharma
+Solutions responsible for the Technology vertical & driving the
+digital transformation agenda across operations in North America,
+the UK and Asia. Before Piramal, he spent more than two
+decades with GSK Consumer & Pharma. His last role with GSK
+was Director IT for APAC region, with responsibilities including IT
+strategy focused on Digital supply chain, Unilever / Pfizer
+integrations, paperless manufacturing and business
+transformation through IT.
+He holds a Master’s in Computer Application (MCA) degree from
+Thapar Institute, Patiala and Master’s in Physics (M.Sc. Hons)
+from Department of Physics, Panjab University, Chandigarh. He
+holds globally recognized credentials including CISA, CGEIT and
+Six Sigma, complementing his extensive technology and
+transformation leadership experience.
+4 Disclosure of Not Applicable.
+relationships between
+directors (in case of
+appointment of a
+director)
+
+=== PAGE 3 ===
+5 Information as required Not Applicable.
+pursuant to BSE
+Circular with ref. no.
+LIST/COMP/14/2018-19
+and the National Stock
+Exchange of India
+Limited Circular with ref.
+no. NSE/ CML/2018/24,
+both dated 20 June
+2018

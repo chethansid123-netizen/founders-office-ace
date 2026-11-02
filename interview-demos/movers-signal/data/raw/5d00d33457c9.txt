@@ -1,0 +1,52 @@
+SOURCE_URL: https://nsearchives.nseindia.com/corporate/PSB_02112026154241_bsense02112026.pdf
+SHA256: c61903cfb59a800975f3164f08b0b918affc8c67a1c2c96bea64d31b6e066e86
+FETCHED_AT: 2026-11-02T14:06:40+00:00
+PAGES: 2
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 2 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+Ref No: PSB/HO/Shares Cell / 66 /2026-27 November 2, 2026
+To,
+BSE Limited, National Stock Exchange of India Ltd.,
+Department of Corporate Services, Exchange Plaza, C – 1, Block – G,
+25th floor, Phiroze Jeejeebhoy Towers, Bandra Kurla Complex, Bandra (East),
+Dalal Street, Fort, Mumbai – 400 051.
+Mumbai – 400 001. SYMBOL: PSB SERIES: EQ
+SCRIP ID : PSB
+SCRIP CODE : 533295
+Dear Sir,
+Reg: Change in Senior Management
+Pursuant to Regulation 30 & 51 of SEBI (LODR) Regulation, 2015, we would like to
+inform about the change in senior management of Bank as under:
+1. Sh. Gajraj Devi Singh Thakur, General Manager has superannuated from the
+services of Bank at the close of business hours on 30th September 2026.
+2. Sh. Vinay Khandelwal, has been appointed as General Manager of Bank with effect
+from 01st October, 2026.
+The details as required under SEBI (LODR) Regulations, 2015 read with SEBI circular
+dated 09th September, 2015 are given in enclosed Annexure – I.
+Yours faithfully
+Saket Mehrotra
+Company Secretary
+Head Office: 21, Rajendra Place, New Delhi-110008
+Corporate Office: NBCC Office Complex, Block 3, East Kidwai Nagar, New Delhi – 110023
+Email: [email redacted]
+
+=== PAGE 2 ===
+Annexure – I
+Sl No Particulars Details
+1 Name of the General Sh Vinay Khandelwal
+Manager
+2 Reason for change Appointed as General Manager
+3 Effective date of cessation 1st October, 2026
+4 Brief Profile Sh Santosh Neeraj is aged 47 years and
+joined the services of the Bank in 2012. He is
+a qualified Chartered Accountant and
+Company Secretary and is a Certified
+Associate of Indian Institute of Banking &
+Finance (CAIIB).
+5 Disclosure of relationship Not Applicable
+between Directors
+Head Office: 21, Rajendra Place, New Delhi-110008
+Corporate Office: NBCC Office Complex, Block 3, East Kidwai Nagar, New Delhi – 110023
+Email: [email redacted]

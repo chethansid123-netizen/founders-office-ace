@@ -1,0 +1,132 @@
+SOURCE_URL: https://nsearchives.nseindia.com/corporate/AMIORG_02112026180857_IntimationSWSigned.pdf
+SHA256: 875c930bfe204bac659a4f3fdae7b968569ad3927c91f561df2f59fb539ceff1
+FETCHED_AT: 2026-11-02T14:06:49+00:00
+PAGES: 3
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 9 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+® ACUTAAS CHEMICALS LIMITED
+A (Formerly known as Ami Organics Limited)
+CIN No. : L24100GJ2007PLC051093
+You and us: chemistry’s apex
+November 2, 2026
+To, To,
+The Listing Department, The Listing Department
+BSE LIMITED, National Stock Exchange of India Limited,
+Phiroze Jeejeebhoy Towers, Exchange Plaza, 5™ Floor, Plot no. C-1,
+Dalal Street, Fort G-Block, Bandra Kurla Complex,
+Mumbai- 400 001 Mumbai -400051
+Scrip Code: 543349 NSE Symbol: ACUTAAS
+Subject: Intimation pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure
+Requirements) Regulations, 2015
+Dear Sir/Madam,
+In accordance with Regulation 30 read with Schedule Il of the SEBI (Listing Obligations and Disclosure
+Requirements) Regulations, 2015 ("Listing Regulations"), we would like to inform you that Nomination
+and Remuneration Committee has today, approved following in respect of the Senior Management
+Personnel (‘SMP”) of the Company:
+1. Appointment of Dr. Ashish Kumar Pandey: Dr. Ashish Kumar Pandey has been appointed as
+Assistant Vice President — Operations (Cluster Head — Unit 2 & 3) designated as Senior
+Management Personnel of the Company, with effect from November 2, 2026.
+2. Declassification of Senior Management Personnel: Consequent to the above mentioned
+appointment, Mr. Anurag Shukla, General Manager - Operations (Head Unit 2) and Mr. Uday
+Desai, General Manager -Operations (Head Unit 3) who are designated as Senior Management
+Personnel of Company, shall henceforth report to Dr. Ashish Kumar Pandey. Accordingly, due to
+change in internal reporting structure, Mr. Anurag Shukla and Mr. Uday Desai shall cease to be
+designated as Senior Management Personnel of the Company with effect from November 2,
+2026. However since there is no cessation of employment, Mr. Anurag Shukla and Mr. Uday Desai
+will be continuing in the Company under the new reporting structure.
+Details as required in terms of Regulation 30 & Schedule Il of SEBI (Listing Obligations & Disclosure
+Requirements) Regulations, 2015, as amended, read with SEBI Master Circular No. HO/49/14/14(7)2025-
+CFD-POD2/1/3762/2026 dated January 30, 2026 is annexed to this letter Annexure-1 & II.
+Kindly take the above on record.
+Yours faithfully,
+For, ACUTAAS CHEMICALS LIMITED
+€S Ekta Kumari Srivastava
+Company Secretary & Compliance Officer
+Encl: As above
+—_ ————————————
+[phone redacted], [phone redacted] @ Registered Office: Plot No. 440/4, 5 & 6,
+¥ [email redacted] Road Na. 82/A. GIDC Sachin.
+“: www.acutaas.com Dist. Surat- 394230, Gujarat, India
+
+=== PAGE 2 ===
+AN ACUTAAS'
+ACUTAAS CHEMICALS LIMITED
+(Formerly known as Ami Organics Limited)
+CIN No. : L24100GJ2007PLC0O51093
+You and us: chemistry’s apex
+Annexure - |
+Details under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations,
+2015 read with SEBI Master Circular No. HO/49/14/14(7)2025-CFD-POD2/1/3762/2026 dated January
+30, 2026:
+Sr No. Requirement Disclosures
+1, Reason for change viz. | Dr. Ashish Kumar Pandey has been appointed as Assistant — Vice
+Appointment, President (Cluster Head — Unit 2 & 3) and designated as Senior
+resignation, removal. | Management Personnel of the Company, with effect from
+death or otherwise November 2, 2026.
+2. Date of Appointment | Date of Appointment as SMP — November 2, 2026
+/cessation (as applicable)
+& term of appointment. Term of appointment - Not Applicable
+3% Brief Profile Dr. Ashish Kumar Pandey is a Doctorate in Operations and
+Management (Hons.) and holds an M.Sc. in Chemistry from Madurai
+| | Kamaraj University. He is a seasoned professional with over 30 years
+j ; of extensive experience in the agrochemical, specialty chemicals
+} { and pharmaceutical intermediates industries. He possesses strong |
+3 : | expertise in production and process management, operations,f
+1 1 process safety management, Quality, Health, Safety and |
+i Environment (QHSE) and plant commissioning. He is highly ‘
+| experienced in greenfield and brownfield project management,
+process debottlenecking, yield and quality improvement, effluent
+treatment, and technology transfer from pilot scale to commercial
+production. He also brings substantial experience in team and
+people management, innovation management, administration and
+statutory liaison, with a proven focus on operational efficiency,
+process improvement and organizational growth. Prior to joining
+Acutaas Chemicals Limited, he was associated in senior
+management roles with Benzochem Industries Private Limited, Dr.
+Acharya Laboratories Private Limited, Songwon Speciality Chemicals
+India Private Limited and others.
+4. Disclosure of relationships | Not Applicable. Dr. Ashish Kumar Pandey is not refated to any
+between directors (in case | Director or KMP of the Company.
+of appointment of a
+Director)
+. [phone redacted], [phone redacted] gistered Office: Plot No. 440/4, 5 & 6,
+7 [email redacted] Road No. 82/A. GIDC Sachin.
+www.acutaas.com Dist. Surat- 394230, Gujarat, India
+
+=== PAGE 3 ===
+N ACUTAAS
+ACUTAAS CHEMICALS LIMITED
+(Formerly known as Ami Organics Limited)
+CIN No. : L24100GJ2007PLC051093
+You and us: chemistry’s apex
+Annexure - Il
+Details under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations,
+2015 read with SEBI Master Circular No. HO/49/14/14(7)2025-CFD-POD2/1/3762/2026 dated January
+30, 2026:
+Sr No. Requirement Disclosures
+1 Reason for change viz. | Mr. Anurag Shukla, General Man-a Opgeraetiorns (Head Unit 2) and
+Appointment, Mr. Uday Desai, General Manager - Operations (Head Unit 3) shall
+resignation, removal. cease to be designated as Senior Management Personnel (“SMP”)
+death or otherwise of the Company with effect from November 2, 2026 due to change
+in the internal reporting structure of the Company. They shall
+henceforth report to Dr. Ashish Kumar Pandey instead of reporting
+directly to any Executive Director.
+2. Date of Appointment Mr. Anurag Shukla and Mr. Uday Desai shall cease to be SMP w.e.f.
+/cessation (as applicable) close of business hours of November 02, 2026 under the new
+& term of appointment. reporting structure, however they will continue in the Company as
+!
+Head of Unit 2 & 3 respectively.
+|| 3 i Brief Profile Not Applicable
+| ;
+| |
+| 1} | |
+['a. , Disclosure of relationships ! Not Applicable i
+| between directors (in case | ||
+of appointment of a
+Director)
+—_— — L—
+. [phone redacted], [phone redacted] Q Registered Office: Plot No. 440/4, 5 & 6,
+i [email redacted] Road No. 82/A, GIDC Sachin,
+# www.acutaas.com Dist. Surat- 394230, Gujarat, India

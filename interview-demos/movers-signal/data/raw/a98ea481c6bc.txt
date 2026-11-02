@@ -1,0 +1,114 @@
+SOURCE_URL: https://nsearchives.nseindia.com/corporate/ADSL_07092026190321_Resignation_Raghuvir_kamat.pdf
+SHA256: b5254295707b58979cf5f279a8c3aae07ef781007d1a077c632e9e73450b7722
+FETCHED_AT: 2026-11-02T14:22:15+00:00
+PAGES: 4
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 14 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+September 07, 2026
+To, To,
+Corporate Relationship Department Listing Compliance Department
+BSE Limited National Stock Exchange of India Limited
+P.J. Towers, Dalal Street Exchange Plaza, 5th Floor Plot No. C-1,
+Mumbai — 400 001 G-Block, Bandra-Kurla Complex,
+Bandra (East), Mumbai- 400 051
+Scrip Code: 532875 Scrip Symbol: ADSL
+Dear Sir/Madam,
+Sub: Disclosure under Regulation 30 of Securities and Exchange Board of India (Listing
+Obligations and Disclosure Requirements) Regulations, 2015 – Resignation of
+Senior Management Personnel [“SMP”].
+Pursuant to Regulation 30 and Schedule III of the SEBI (Listing Obligations and Disclosure
+Requirements) Regulations, 2015 ("SEBI Listing Regulations"), we wish to inform you that Mr.
+Raghuvir Kamat, Assistant Vice President- Projects, designated as Senior Management Personnel
+(“SMP”) of the Company as per Regulation 16(1)(d) of SEBI Listing Regulations, 2015, has
+resigned from the said post in order to pursue new professional opportunity, and the need to
+explore a different direction. The Company has accepted his resignation and has relieved him
+from his duties with effect from the close of business hours on September 07, 2026.
+The required details as prescribed under SEBI Listing Regulations read with SEBI Circular No.
+HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026, are enclosed herewith
+as ‘Annexure I ’, and a copy of the resignation email is enclosed as ‘Annexure II’.
+We request you to kindly take the same on record.
+Thanking you,
+Yours faithfully,
+For Allied Digital Services Limited
+_______________
+Khyati Shah
+Company Secretary
+Encl: As stated above
+
+=== PAGE 2 ===
+Annexure I
+Disclosure in terms of Regulation 30 of the SEBI Listing Regulations read with SEBI
+Master Circular HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026
+Sr. Particular Details
+No.
+1 Reason for change viz. Resignation of Mr. Raghuvir Kamat, Assistant Vice
+appointment, resignation, President - Projects, designated as a Senior
+removal, death or otherwise Management Personnel of the Company, in order to
+pursue new professional opportunity, and the need to
+explore a different direction.
+2 Date of appointment September 07, 2026 (Close of business hours)
+/reappointment/cessation
+(as applicable) & term of
+appointment/ re-
+appointment
+3 Brief profile (in case of Not Applicable
+appointment)
+4 Disclosure of relationships Not Applicable
+between Directors (in case of
+appointment of a director).
+
+=== PAGE 3 ===
+Annexure II
+From: Ali, Jawahar <[email redacted]>
+Date: Thursday, 2 July 2026 at 12:32 PM
+To: Kamat, Raghuvir <[email redacted]>
+Cc: Shah, Nitin <[email redacted]>; shahnitin54 <[email redacted]>; Shah, Nehal
+<[email redacted]>; Shah, Rohan <[email redacted]>; Pravin Rai
+<[email redacted]>
+Subject: Re: Resignation – Raghuvir Kamat
+Dear Kamat
+Your resignation, submitted in the attached email for personal reasons, has been approved.
+Your contribution to managing the project team and maintaining client relationships is appreciated.
+As mentioned in your email, you will be serving your notice period, and your last working day will be
+07 September 2026. During this period, you have committed to ensuring a smooth transition.
+Wishing you all the best as you move into the next phase of your career
+Wishing you all the best
+Thanks & Regards,
+Jawahar Ali
+CEO Digital Engineering Services
+From: Kamat, Raghuvir <[email redacted]>
+Date: Monday, 8 June 2026 at 15:44
+To: Ali, Jawahar <[email redacted]>
+Cc: Shah, Nitin <[email redacted]>; shahnitin54 <[email redacted]>; Shah, Nehal
+<[email redacted]>; Shah, Rohan <[email redacted]>; Pravin Rai
+<[email redacted]>
+Subject: Resignation – Raghuvir Kamat
+Dear Jawahar Ali Sir,
+1
+
+=== PAGE 4 ===
+After careful consideration, I am formally submitting my resignation from the position of Assistant
+Vice President – Projects at Allied Digital Services Ltd. As per my notice period, my last working day
+will be 07 SEP 2026.
+This has not been an easy decision. My journey with Allied Digital Services Ltd. has been immensely
+rewarding, both professionally and personally. I have had the privilege of working alongside an
+exceptional leadership team and talented colleagues, contributing to meaningful initiatives, and
+being part of the organisation’s growth and transformation.
+I am deeply grateful for the trust, guidance, and opportunities extended to me throughout my tenure.
+The experiences and insights I have gained here will remain invaluable as I move forward in the next
+phase of my career. I would also like to extend my sincere appreciation to you for your leadership and
+support, which have played a significant role in my professional development.
+My decision to move on is driven by personal considerations, pursuing a new professional
+opportunity, and the need to explore a different direction, and I believe this is the right time for me to
+take this step.
+I remain fully committed to ensuring a smooth and seamless transition. I will work closely with you and the team to
+hand over my responsibilities efficiently and support in any way required during this period.
+I leave with a deep sense of appreciation and respect for the organisation and the wonderful people I have had the
+opportunity to work with. I sincerely wish Allied Digital Services Ltd. continued success and growth in the future.
+Thank you once again for everything.
+Warm regards,
+Raghuvir Kamat
+Assistant Vice President - Projects
+2

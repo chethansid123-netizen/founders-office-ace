@@ -1,0 +1,61 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachHis/0b3229a1-99b9-4f0a-b4e4-af2bf9378456.pdf
+SHA256: 65a8a0d76b7be7dd774c7ec81c1175ae6a6765ddad11316c587f42fb1efc9c5d
+FETCHED_AT: 2026-11-02T14:25:35+00:00
+PAGES: 2
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 4 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+22nd September, 2026
+(1) BSE Limited (2) National Stock Exchange of India Limited
+Listing Department Listing Department
+Phiroze Jeejeebhoy Towers, Exchange Plaza, 5th floor,
+Dalal Street, Plot no. C/1, G Block, Bandra Kurla Complex,
+Mumbai - 400 001 Bandra (East), Mumbai - 400 051
+Scrip Code: 500087 Scrip Symbol: CIPLA
+(3) SOCIETE DE LA BOURSE DE LUXEMBOURG
+Societe Anonyme
+35A Boulevard Joseph II,
+L-1840 Luxembourg
+Sub: Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements)
+Regulations, 2015 (‘SEBI Listing Regulations’)
+Dear Sir/Madam,
+Pursuant to Regulation 30 of the SEBI Listing Regulations, we hereby inform you that Mr Venkata Sai Mungara,
+Global Head Supply Chain, has transitioned to the role of Chief of Manufacturing and Supply Chain Operations
+of Cipla USA Inc. (wholly owned subsidiary of the Company) with effect from 1st October, 2026. Consequent to
+this transition, he will cease to be a Senior Management Personnel of the Company.
+The details required under the SEBI Listing Regulations, read with the SEBI circular no. HO/49/14/14(7)2025-
+CFD-POD2/I/3762/2026 dated 30th January, 2026 have been provided in Annexure A.
+Kindly take the above information on record.
+Thanking you,
+Yours faithfully,
+For Cipla Limited
+Rajendra Chopra
+Company Secretary
+Prepared by: Simona Dsouza
+Cipla Ltd.
+Regd. Office - Cipla House, Peninsula Business Park, Ganpatrao Kadam Marg, Lower Parel, Mumbai-400 013, India
+P [phone redacted] W www.cipla.com E-mail [email redacted] Corporate Identity Number L24239MH1935PLC002380
+
+=== PAGE 2 ===
+Annexure A
+Name Mr Venkata Sai Mungara
+Reason for change viz. Pursuant to the transition of Mr Venkata Sai Mungara from the role
+appointment, resignation, of Global Head Supply Chain to Chief of Manufacturing and Supply
+removal, death or otherwise
+Chain Operations of Cipla USA Inc., a wholly owned subsidiary of
+the Company, he will cease to be a Senior Management Personnel
+Date of appointment/
+cessation (as applicable) of the Company with effect from 1st October, 2026.
+Terms of appointment/re-
+Not applicable
+appointment
+Brief profile (in case of
+Not applicable
+appointment)
+Disclosure of relationships
+between directors (in case of Not applicable
+appointment of a director)
+Cipla Ltd.
+Regd. Office - Cipla House, Peninsula Business Park, Ganpatrao Kadam Marg, Lower Parel, Mumbai-400 013, India
+P [phone redacted] W www.cipla.com E-mail [email redacted] Corporate Identity Number L24239MH1935PLC002380

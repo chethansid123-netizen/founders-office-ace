@@ -1,0 +1,64 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachHis/0e308d4b-bea4-4b6b-9afc-0198c461e6ad.pdf
+SHA256: 9852f207505ab7307d31c870a8de51f15e41d2da901032991dfbde9ad5f89041
+FETCHED_AT: 2026-11-02T14:28:41+00:00
+PAGES: 2
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 6 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+Reference No.: SEC/SE/217/2025-26
+Date: March 18, 2026
+BSE Limited National Stock Exchange of India International Exchange (IFSC) Ltd
+Phiroze Jeejeebhoy Towers India Limited 1st Floor, Unit No. 101, The Signature,
+Dalal Street 5th Floor, Exchange Plaza Building no. 13B, Road 1C, Zone 1, GIFT
+Mumbai- 400001 Bandra (East) SEZ, GIFT City, Gandhinagar, Gujarat –
+Scrip Code: 531213 Mumbai – 400 [phone redacted]
+Scrip Code: MANAPPURAM
+Dear Madam/ Sir,
+Sub:- Intimation of Press Release under Regulation 30 read with Part A of Schedule III of SEBI (LODR)
+Regulations, 2015
+Pursuant to Regulation 30 read with Part A of Schedule III of the SEBI (Listing Obligations and Disclosure
+Requirements) Regulations, 2015, please find enclosed the press release issued by the Company titled:
+“RBI grants all approvals for Bain Capital to acquire joint control of Manappuram Finance and its
+subsidiaries.”
+Kindly take the same on record.
+Yours faithfully,
+For Manappuram Finance Limited
+Manoj Kumar V R
+Company Secretary
+Valapad, Thrissur
+[email redacted]
+
+=== PAGE 2 ===
+PRESS RELEASE
+RBI GRANTS ALL APPROVALS FOR BAIN CAPITAL TO ACQUIRE JOINT CONTROL OF
+MANAPPURAM FINANCE AND ITS SUBSIDIARIES
+Regulatory approvals mark key milestone in strategic investment to drive the next phase of
+growth for Manappuram and its subsidiaries
+Valapad, Kerala, March 18, 2026: Manappuram Finance Limited (“Company”) today announced
+that its subsidiaries i.e., Asirvad Micro Finance Limited (“AMFL”) and Manappuram Home
+Finance Limited (“MHFL”) have received the requisite approvals from the Reserve Bank of India
+(RBI) for indirect change in control and management of the respective companies pursuant to
+acquisition of control and shareholding in the Company by affiliates of Bain Capital, namely BC
+Asia Investments XXV Limited and BC Asia Investments XIV Limited (“Bain Capital”). With this,
+the Company and its subsidiaries are now in receipt of all requisite statutory approvals for Bain
+Capital’s proposed investment of approximately ₹4,385 crore in the Company and acquisition of
+joint control with the existing promoters, together with the consequent open offer under the SEBI
+(Substantial Acquisition of Shares and Takeovers) Regulations, 2011.
+Having now received all requisite statutory approvals, the Company and Bain Capital will aim to
+complete the capital infusion in the Company by March 31, 2026 and Bain Capital intends to
+complete the open offer in accordance with the timelines prescribed under the SEBI (Substantial
+Acquisition of Shares and Takeovers) Regulations, 2011.
+Upon completion of the investment and based on the open offer subscription, Bain Capital will
+hold between 18.0% and 41.66% shareholding in the Company on a fully diluted basis
+(including shares to be issued upon exercise of warrants), and the existing promoters will hold
+28.9% on a fully diluted basis. Pursuant to the proposed transaction and completion of the open
+offer, Bain Capital will be classified as a promoter of the Company and will jointly control the
+Company along with the existing promoters. The respective Board of Directors of the Company,
+AMFL and MHFL will be reconstituted and will include Bain Capital’s nominee directors, in line
+with the definitive agreements .
+For Media queries, please contact;
+Mr Rahul Vinayak Wadke, Ph: [phone redacted]
+Mail: [email redacted]
+Ms Asha Mahadevan, Ph:[phone redacted]
+Mail: [email redacted]

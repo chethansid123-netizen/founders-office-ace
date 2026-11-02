@@ -1,0 +1,168 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachHis/59463D45_16D8_4BDE_9E4A_E1C71C4B9AAE_124637.pdf
+SHA256: 3c69eaecec7755ab9a90e34a4d83e3a1752b7a4230963cea7d7441003f450666
+FETCHED_AT: 2026-11-02T14:30:19+00:00
+PAGES: 8
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 0 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+Date: March 28, 2026
+BSE Limited, National Stock Exchange of India Limited, Manappuram Finance Limited,
+P. J. Towers, Company Secretary, IV/470A (old)/
+Dalal Street, Bandra Kurla Complex, W-4/638A (new), Manappuram
+Mumbai 400001. Bandra (E), Mumbai 400051. House, Valapad P.O., Thrissur,
+Scrip Code: 531213 Scrip Code: MANAPPURAM Kerala, 680567.
+Dear Sir/ Madam,
+Sub: Disclosure under Regulation 29(1) of Securities and Exchange Board of India (Substantial Acquisition of
+Shares and Takeovers) Regulations 2011 SEBI (SAST)
+In compliance with Regulation 29(1) of the SEBI (SAST) Regulations, please find enclosed the disclosure in the prescribed
+format.
+Kindly take the above on record.
+Thanking you.
+Encl: As above
+[signature pages to follow]
+i
+
+=== PAGE 2 ===
+
+
+=== PAGE 3 ===
+
+
+=== PAGE 4 ===
+Disclosure under Regulation 29(1) of the Securities and Exchange Board of India (Substantial Acquisition of Shares
+and Takeovers) Regulations, 2011 ( SAST Regulations
+Part A Details of the Acquisition
+Name of the Target Compan Manappuram Finance Limited Target
+Company
+Name(s) of the Acquirer and Persons Acting in Concert BC Asia Investments XXV Limited ( Investor 1
+(PAC) with the acquirer
+Investor 2
+(Investor 1 and Investor 2 are collectively referred to
+Acquirers
+Persons acting in Concert:
+BC Asia Investments XXIV Limited (PAC 2)
+BC Asia Investments XXVI Limited (PAC 3)
+BC Asia Investments XXI Limited (PAC 4)
+Bain Capital Asia Fund V, L.P. (PAC 5)
+BC Asia V CTB Investors, L.P. (PAC 6)
+BC Asia V Private Investors, L.P (PAC 7)
+PACs (1)
+Whether the Acquirer belongs to Promoter/Promoter group No(2)(3)
+Name(s) of the Stock Exchange(s) where the shares of TC BSE Limited
+are Listed National Stock Exchange of India Limited
+Details of the acquisition as follows: Number % w.r.t. total % w.r.t. total
+share / voting diluted share /
+capital voting capital of
+wherever the TC (**)
+applicable (*)
+Before the acquisition under consideration, holding of
+acquirer along with PACs of:
+a) Shares carrying voting rights 0.00 0.00% 0.00%
+b) Shares in the nature of encumbrance (pledge/ lien / non- NIL NIL NIL
+disposal undertaking / others)
+c) Voting rights (VR) otherwise than by equity shares NIL NIL NIL
+d) Warrants / convertible securities / any other instrument that NIL NIL NIL
+entitles the acquirer to receive shares carrying voting rights
+in the TC (specify holding in each category)
+e) Total (a+b+c+d) NIL NIL NIL
+Details of acquisition
+a) Shares carrying voting rights acquired 9,29,01,373 9.89%(4) 9.00%(4)(5)
+b) VRs acquired otherwise than by equity shares NIL NIL NIL
+c) Warrants / convertible securities / any other instrument that 9,29,01,373 NIL 9.00%(4)(5)
+entitles the acquirer to receive shares carrying voting rights
+in the TC (specify holding in each category) acquired
+Page 1
+
+=== PAGE 5 ===
+d) Shares in the nature of encumbrance (pledge/ lien/non- NIL NIL NIL
+disposal undertaking/ others)
+e) Total (a+b+c+/-d) 18,58,02,746 9.89%(4) 18.00%(4)(5)
+After the acquisition, holding of acquirer along with PACs
+of:
+a) Shares carrying voting rights 9,29,01,373 9.89%(4) 9.00%(4)(5)
+b) VRs otherwise than by equity shares NIL NIL NIL
+c) Warrants/convertible securities/any other instrument that 9,29,01,373 NIL 9.00%(4)(5)
+entitles the acquirer to receive shares carrying voting rights
+in the TC (specify holding in each category) after
+acquisition
+d) Shares in the nature of encumbrance (pledge/ lien/ non- NIL NIL NIL
+disposal undertaking/ others)
+e) Total (a+b+c+d) 18,58,02,746 9.89%(4) 18.00%(4)(5)
+Mode of acquisition (e.g. open market / off-market / public Preferential Allotment of: (i) 9,29,01,373 equity shares
+issue / rights issue / preferential allotment / inter-se transfer/ of face value INR 2 each Subscription Shares of the
+encumbrance etc). Target Company to Investor 1, at a price of INR 236/-
+per equity share; and (ii) 9,29,01,373 warrants
+Subscription Warrants to Investor 2, at a price of
+INR 236/- per warrant, each carrying a right to subscribe
+to 1 equity share of the Target Company of face value
+INR 2 each, which may be exercised and converted in
+one or more tranches during the period commencing
+from the expiry of 4 (four) months from the date of
+allotment of the Subscription Warrants till 18 (eighteen)
+months from the date of allotment of Subscription
+Warrants.
+Salient features of the securities acquired including time till I nvestor 1 has acquired Subscription Shares which rank
+redemption, ratio at which it can be converted into equity pari passu with existing equity shares of the Target
+shares, etc. Company.
+Investor 2 has acquired Subscription Warrants, each
+carrying a right to subscribe to 1 equity share of the
+Target Company of face value INR 2 each, which may be
+exercised and converted in one or more tranches during
+the period commencing from the expiry of 4 (four)
+months from the date of allotment of Subscription
+Warrants till 18 (eighteen) months from the date of
+allotment of Subscription Warrants.
+Date of acquisition of/ date of receipt of intimation of March 27, 2026
+allotment of shares / VR/ warrants/convertible
+securities/any other instrument that entitles the acquirer to
+receive shares in the TC.
+Equity share capital / total voting capital of the TC before the 84,64,34,729 (Eighty Four Crores Sixty Four Lakhs
+said acquisition Thirty Four Thousand Seven Hundred and Twenty Nine)
+equity shares of face value INR 2 (Indian Rupees Two)
+each.
+Equity share capital / total voting capital of the TC after the 93,93,36,102 (Ninety Three Crore Ninety Three Lakh
+said acquisition Thirty Six Thousand One Hundred and Two) equity
+shares of face value INR 2 (Indian Rupees Two) each.
+Page 2
+
+=== PAGE 6 ===
+Total diluted share / voting capital of the TC after the said 1,03,22,37,475 (One Hundred and Three Crore Twenty
+acquisition Two Lakh Thirty Seven Thousand Four Hundred and
+Seventy Five Only) equity shares of face value INR 2
+(Indian Rupees Two) each.(3)
+Notes:
+(1) The Acquirers and the PACs have made a public announcement for an open offer to the public shareholders of the
+Target Company in accordance with the Securities and Exchange Board of India (Substantial Acquisition of Shares and
+SEBI (SAST) Regulations on March 20, 2025.
+(2) As on date, the Acquirers do not belong to the promoter/promoter group of the Target Company. The Acquirers have
+entered into (i) a securities subscription agreement dated March 20, 2025 with the Target Company, V. P.
+Existing Promoters n Nandan
+Specified Promoter and Promoter Group SSA for setting
+out the terms and conditions for preferential allotment of Subscription Shares to Investor 1 and Subscription
+Warrants to Investor 2; and (ii) March 20, 2025 with the Target Company and
+SHA
+of the Target Company and its subsidiaries and the inter se rights and obligations between the Acquirers, and Specified
+Promoter and Promoter Group, in relation to the Target Company and its subsidiaries, by virtue of which, on the
+closing date pursuant to closing in accordance with the SSA and SHA, Investor 1 and Investor 2 will acquire and
+Promoters in accordance with and subject to the terms in the SSA, SHA and the provisions of the Securities and
+Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015.
+(3) The Acquirers and Specified Promoter and Promoter Group and other existing members of the promoter group of the
+SEBI (SAST) Regulations, on and from the closing date pursuant to closing in accordance with the SSA and SHA.
+(4) In compliance with Regulation 22(2A) of the SEBI (SAST) Regulations, the Subscription Shares and Subscription
+Warrants are held in separate demat escrow accounts opened by Investor 1 and Investor 2 respectively. Such
+Subscription Shares and Subscription Warrants shall be released to the demat accounts of Investor 1 and Investor 2
+respectively, and Investor 1 shall exercise voting rights on the Subscription Shares upon completion of the open offer
+made by Acquirers in accordance with the SEBI (SAST) Regulations.
+(5) Assuming that Investor 2 exercises and converts all Subscription Warrants into equity shares of the Target Company.
+(*) Total share capital / voting capital to be taken as per the latest filing done by the company to the Stock Exchange
+under Clause 35 of the Listing Agreement.
+(**) Diluted share/voting capital means the total number of shares in the TC assuming full conversion of the outstanding
+convertible securities/warrants into equity shares of the TC.
+Page 3
+
+=== PAGE 7 ===
+
+
+=== PAGE 8 ===
+

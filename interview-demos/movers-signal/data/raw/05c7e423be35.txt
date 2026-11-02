@@ -1,0 +1,79 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachHis/d9ad423c-204a-4cd3-b099-97a4b85912a4.pdf
+SHA256: 01a5c6df65c0f964e66dbe05db89fa8bb6af46e6bcd5c0c3a2315f0c1b42fbc7
+FETCHED_AT: 2026-11-02T14:07:55+00:00
+PAGES: 2
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 6 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+16 October, 2026
+National Stock Exchange of India Limited BSE Limited
+“Exchange Plaza”, Phiroze Jeejeebhoy Towers,
+Bandra - Kurla Complex, Dalal Street,
+Bandra (E), Mumbai – 400 001
+Mumbai – 400 051
+Dear Sirs,
+Sub: Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure
+Requirements), Regulations, 2015 (“SEBI Listing Regulations”) – Appointment of Chief
+Operating Officer
+Ref: “Vodafone Idea Limited” (IDEA/532822)
+Pursuant to Regulation 30 of the SEBI Listing Regulations, we wish to inform you that based on
+the recommendation of the Nomination and Remuneration Committee, the Board of Directors has
+approved the appointment of Mr. Manoj Murali as the Chief Operating Officer of the Company
+with effect from 19 October 2026.
+The details under Regulation 30 of the SEBI Listing Regulations read with SEBI Master Circular
+No. SEBI/HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026 are enclosed as
+‘Annexure A’.
+Kindly take the same on record.
+Thanking you,
+Yours truly,
+For Vodafone Idea Limited
+Pankaj Kapdeo
+Company Secretary
+Encl: As above
+Vodafone Idea Limited
+An Aditya Birla Group & Vodafone partnership
+Birla Centurion, 10th to 12th Floor, Century Mills Compound, Pandurang Budhkar Marg, Worli, Mumbai - 400030.
+T: [phone redacted]
+Registered Office: Suman Tower, Plot No. 18, Sector 11, Gandhinagar - 382011, Gujarat.
+T: [phone redacted] | F: [phone redacted] | CIN: L32100GJ1996PLC030976
+
+=== PAGE 2 ===
+Annexure A
+Appointment of Chief Operating Officer - Mr. Manoj Murali
+Sr. Particulars Details
+No.
+1 Reason for change viz. Appointment of Mr. Manoj Murali as Chief
+appointment, re-appointment, Operating Officer of the Company.
+resignation, removal, death or
+otherwise;
+2 Date of appointment/re- With effect from 19 October 2026.
+appointment/cessation & term
+of appointment/ re-appointment Term of Appointment – Full Time Employment
+3 Brief profile (in case of Manoj Murali (aged 55 years) is a seasoned
+appointment) telecom and mobility business leader with over 25
+years of experience and has been driving revenue,
+market share and profitability across large, multi-
+geography operations in India and Africa. He has
+led turnarounds across Sales, Marketing,
+Distribution, Operations and Customer Experience,
+spanning Mobile, Broadband, DTH, Payments
+Bank, m-Commerce and Digital businesses across
+B2C, B2B and D2C.
+Mr. Murali holds a Master of Business
+Administration from SIBM Pune and a Bachelor of
+Engineering from University of Poona.
+He was last posted at Ola Electric as Chief
+Business Officer and has over.
+Mr. Murali has earlier worked with Reliance Jio as
+well as Bharti Airtel.
+4 Disclosure of relationships Not Applicable
+between directors (in case of
+appointment of a director)
+…..
+Vodafone Idea Limited
+An Aditya Birla Group & Vodafone partnership
+Birla Centurion, 10th to 12th Floor, Century Mills Compound, Pandurang Budhkar Marg, Worli, Mumbai - 400030.
+T: [phone redacted]
+Registered Office: Suman Tower, Plot No. 18, Sector 11, Gandhinagar - 382011, Gujarat.
+T: [phone redacted] | F: [phone redacted] | CIN: L32100GJ1996PLC030976

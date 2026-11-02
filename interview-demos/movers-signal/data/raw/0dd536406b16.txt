@@ -1,0 +1,81 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachHis/e385ee1b-4a73-4bec-88f9-da18c2a9f9c0.pdf
+SHA256: 42f1029eb5a7971912562015e3633f543ddadaef8126aa0d5553d3c411c02a8c
+FETCHED_AT: 2026-11-02T14:08:51+00:00
+PAGES: 3
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 2 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+October 1, 2026
+BSE Limited National Stock Exchange of India Limited
+Floor 25, P. J. Towers, Exchange Plaza,
+Dalal Street, Fort Bandra Kurla Complex,
+Mumbai - 400 001 Bandra (E), Mumbai - 400 051
+Scrip Code: 543271 Trading Symbol: JUBLINGREA
+Dear Sir/Madam,
+Sub.: Intimation under Regulation 30 of the SEBI (Listing Obligations and Disclosure
+Requirements) Regulations, 2015 – Resignation of Senior Management Personnel
+Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements)
+Regulations, 2015, we wish to inform that Mr. Birajeev Singh, Sr. Vice President - Supply Chain
+has tendered his resignation effective from close of business hours of November 5, 2026.
+The details as required under SEBI (Listing Obligations and Disclosure Requirements)
+Regulations, 2015 read with SEBI Master Circular No: HO/49/14/14(7)2025-CFD-
+POD2/I/3762/2026 dated January 30, 2026 (‘SEBI Circular’), as amended is given in Annexure
+A, attached to this letter.
+The date and time of occurrence of event is October 01, 2026 at 07:25 PM (IST).
+We request you to take the same on record.
+Thanking You
+Yours faithfully,
+For Jubilant Ingrevia Limited
+Deepanjali Gulati
+Company Secretary & Compliance Officer
+Encl.: as above
+
+=== PAGE 2 ===
+Annexure A
+Particular Information of such event
+Name Mr. Birajeev Singh
+Reason for change viz. appointment, re- Resigned as got better opportunity
+appointment, resignation, removal, death or
+otherwise
+Date of appointment/reappointment/cessation Resignation effective from close of business
+(as applicable) & term of appointment/re- hours of November 5, 2026
+appointment
+Brief profile (in case of appointment) NA
+Disclosure of relationships between directors NA
+(in case of appointment of a director).
+
+=== PAGE 3 ===
+From: Birajeev Singh
+To: Deepak Jain; Vinita Koul
+Cc: Deepanjali Gulati
+Subject: Resignation from position of Chief Supply Chain
+Date: 01 October 2026 19:44:02
+Attachments: image580493.png
+image553204.png
+image646066.png
+image508173.png
+image834659.bmp
+Dear Deepak
+I hereby tender my resignation from the position of Chief of Supply
+Chain at Jubilant Ingrevia, due to personal reasons.
+I am grateful for the opportunities and support extended to me during
+my tenure with the Company. It has been a privilege to contribute to the
+organisation and work alongside the leadership team and colleagues.
+I will extend my full cooperation during the notice period and ensure a
+smooth and orderly transition of my responsibilities and ongoing
+matters.
+I request you to kindly accept my resignation and relieve me from my
+duties effective end of notice period, subject to the applicable terms and
+conditions of my employment.
+I wish the Company and the entire team continued success in the future.
+Regards
+Birajeev Singh
+Chief of SCM
+Jubilant Ingrevia
+Birajeev Singh | Sr. Vice President ‑ Supply Chain
+​​​​
+Jubilant Ingrevia Limited
+Plot 1A,Sector 16A, Noida, 201 301, Uttar Pradesh,
+T: 1501 | M: [phone redacted]
+Email: [email redacted] | Website: www.jubilantingrevia.com

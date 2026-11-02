@@ -1,0 +1,59 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachHis/3ba84592-5666-4053-ae62-82d09f257a80.pdf
+SHA256: 07656a5610a1d4ce49e5e7dd917dc1f118af4cab22afcb17a69061987a4a8b48
+FETCHED_AT: 2026-11-02T14:25:38+00:00
+PAGES: 3
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 3 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+Dr. Reddy's Laboratories Ltd.
+8-2-337, Road No. 3, Banjara Hills
+Hyderabad – 500 034, Telangana, India
+CIN: L85195TG1984PLC004507
+Tel: [phone redacted]
+Fax: [phone redacted]
+Email: [email redacted]
+Web: www.drreddys.com
+August 13, 2026
+National Stock Exchange of India Ltd. (Scrip Code: DRREDDY)
+BSE Limited (Scrip Code: 500124)
+New York Stock Exchange Inc. (Stock Code: RDY)
+NSE IFSC Ltd. (Stock Code: DRREDDY)
+Dear Sir/Madam,
+Sub: Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements)
+Regulations, 2015 - Change in Senior Managerial Personnel
+Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations,
+2015 (“SEBI Listing Regulations”), we would like to inform that Mr. Deepak Sapra, has resigned from
+the position of CEO, API and Services and Senior Management Personnel of the Company. He will cease to
+be in employment and as part of the Senior Management Personnel of the Company, effective from the close
+of business hours on November 12, 2026. The resignation letter as received from Mr. Deepak Sapra is
+annexed herewith.
+The details required under Regulation 30 of the SEBI Listing Regulations, read with SEBI Circular No.
+HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026, is given in Annexure enclosed
+herewith.
+This is for your information and records.
+Thanking you,
+Yours faithfully,
+For Dr. Reddy’s Laboratories Limited
+K Randhir Singh
+Company Secretary, Compliance Officer and Head-CSR
+Encl: as above
+
+=== PAGE 2 ===
+Annexure
+Details under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations,
+2015, read with HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026
+Sl. No. Particulars Details
+1 Reason for change viz. appointment, re- Mr. Deepak Sapra has resigned from the
+appointment, resignation, removal, death position of CEO, API and Services and Senior
+or otherwise; Management Personnel of the Company to
+pursue opportunities outside the Company.
+2 Date of appointment/re-appointment/cessation November 12, 2026
+(as applicable) & term of
+appointment/re-appointment
+3 Brief profile (in case of appointment) Not applicable
+4 Disclosure of relationships between directors (in Not applicable
+case of appointment of a director)
+
+=== PAGE 3 ===
+

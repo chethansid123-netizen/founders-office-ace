@@ -1,0 +1,88 @@
+SOURCE_URL: https://nsearchives.nseindia.com/corporate/OEL_02112026153505_Regulation30Intimation.pdf
+SHA256: 70d32922412032ded8b1da5d948ca25a685649047f87eabe9cd07797ae4984f6
+FETCHED_AT: 2026-11-02T14:06:31+00:00
+PAGES: 3
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 7 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+a
+CKA Birla Group ori~nt
+I
+electric
+2nd November 2026
+National Stock Exchange of India Limited BSE Limited
+Exchange Plaza, 5th Floor, Phiroze Jeejeebhoy Towers
+Plot No. C/1, G Block Fort, Dalal Street
+Bandra Kurla Complex Mumbai – 400001
+Bandra (E), Mumbai 400051
+Symbol: ORIENTELEC Scrip Code: 541301
+Sub: Change in Senior Management
+Ref.: Disclosure under Regulation 30 of Securities and Exchange Board of India (Listing
+Obligations and Disclosure Requirements) Regulations, 2015 (“SEBI Listing
+Regulations”)
+Dear Sir/ Madam,
+Pursuant to Regulation 30 of SEBI Listing Regulations, this is to inform that Mr. Aadarsh Rohira,
+Chief Digital & Information Officer (CDIO) and Senior Management Personnel (SMP) of the
+Company, resigned from the services of the Company vide resignation letter dated
+2nd November 2026. His last working day would be 11th December 2026 (close of business
+hours), and he will consequently cease to be an SMP of the Company from that date.
+The relevant details with respect to the said resignation as prescribed under Schedule III of the
+SEBI Listing Regulations read with the SEBI Master Circular No. HO/49/14/14(7)2025-CFD-
+POD2/I/3762/2026 dated 30th January 2026, are enclosed as Annexure I. Copy of the
+resignation letter is enclosed as Annexure II.
+The aforesaid information is also being disclosed on the website of the Company at:
+https://orientelectric.com/pages/notices-stock-exchange-disclosures
+This is for your information and records.
+Thanking you,
+For Orient Electric Limited
+Diksha Singh
+Company Secretary
+Investor Email- [email redacted]
+Encl. As above
+Orient Electric Limited - a CKA Birla Group Company CIN No.: L31100OR2016PLC025892
+240, Okhla Industrial Estate, Phase III, New Delhi 110020, India Tel [phone redacted] Fax [phone redacted]
+Regd. Office: Unit VIII, Plot No.7, Bhoinagar, Bhubaneswar, Odisha 751012 [email redacted] www.orientelectric.com
+
+=== PAGE 2 ===
+a
+CKA Birla Group ori~nt
+I
+electric
+Annexure I
+S. No. Disclosure Requirements Details
+1 Reason for change viz. Resignation of Mr. Aadarsh Rohira, Chief Digital &
+appointment, re-appointment, Information Officer (CDIO) and Senior Managerial
+resignation, removal, death or Personnel (SMP) of the Company, to pursue another
+otherwise professional opportunity outside of the Company.
+2 Date of Appointment/ Date of resignation: 2nd November 2026
+reappointment/ Cessation & Last working day: 11th December 2026
+term of appointment / re- (close of business hours)
+appointment
+3 Brief Profile (in case of Not applicable
+appointment of a director)
+4 Disclosure of relationships Not applicable
+between directors (in case of
+appointment of Director)
+Orient Electric Limited - a CKA Birla Group Company CIN No.: L31100OR2016PLC025892
+240, Okhla Industrial Estate, Phase III, New Delhi 110020, India Tel [phone redacted] Fax [phone redacted]
+Regd. Office: Unit VIII, Plot No.7, Bhoinagar, Bhubaneswar, Odisha 751012 [email redacted] www.orientelectric.com
+
+=== PAGE 3 ===
+Annexure-II
+2nd November 2026
+The Managing Director and CEO
+Orient Electric Limited
+Dear Ravindra,
+I am writing this to submit my resignation from the position of Chief Digital & Information
+Officer (CDIO) at Orient Electric Limited.
+After careful consideration, I have decided to pursue another professional opportunity
+outside of the Company. I request you to kindly accept my resignation and relieve me of
+my responsibilities, with my last working day being 11th December 2026.
+I am sincerely grateful to the Board, the leadership team, and my colleagues across
+Orient Electric and the CKA Birla Group for their trust, support, and partnership
+throughout my tenure.
+I remain committed to ensuring a smooth and orderly transition over the coming weeks. I
+wish all the very best to the organization and thank everyone for their unwavering
+support through my time at Orient Electric.
+Warm regards,

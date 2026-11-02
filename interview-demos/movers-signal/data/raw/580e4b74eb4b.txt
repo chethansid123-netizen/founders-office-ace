@@ -1,0 +1,56 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachHis/571E1C77-C6E4-438C-AD17-91288728B80D-085146.pdf
+SHA256: ecd45c13a237a4db1754eb5ab84637b58deef4e2252a3813056d0ebcb9179c1b
+FETCHED_AT: 2026-11-02T14:21:04+00:00
+PAGES: 2
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 0 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+Classification | REGULATORS
+IRC: F48: 160: 358: 2026 15th October 2026
+The Manager, The Manager,
+National Stock Exchange of India Ltd, BSE Limited,
+Exchange Plaza, 5th Floor, Phiroze Jeejeebhoy Towers,
+Plot No. C-1, ‘G’ Block, Dalal Street,
+Bandra- Kurla Complex, Mumbai – 400001.
+Bandra (East), Mumbai – 400051.
+Scrip Code: KARURVYSYA Scrip Code: 590003
+Dear Sir/Madam,
+Sub: Regulation 30 of SEBI (Listing Obligations and Disclosure
+Requirements) Regulations, 2015 – Intimation on Completion of Tenure
+of Key Managerial Personnel and Senior Management Personnel
+*****
+Pursuant to Regulation 30 of SEBI (Listing Obligations and Disclosure
+Requirements) Regulations, 2015, we inform that Shri Chandrasekaran M S,
+Chief General Manager & Chief Operating Officer forming part of Key
+Managerial Personnel and Senior Management Personnel of the Bank, has
+demitted office today (i.e. 15th October 2026) at the close of office hours,
+consequent to completion of his tenure.
+Further, in continuation to our earlier communication dated 23rd June 2026,
+incumbent Chief General Manager, Shri Ramshankar R will take charge as
+Chief Operating Officer with effect from 16th October 2026.
+The disclosures as required under SEBI Circular Disclosure as per SEBI
+Master Circular HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated
+30th January 2026, is enclosed as Annexure-I
+Kindly take the same on record.
+Yours faithfully,
+Srinivasarao Maddirala
+Company Secretary &
+Compliance Officer
+
+=== PAGE 2 ===
+Classification | REGULATORS
+Annexure I
+Disclosure as per SEBI Circular HO/49/14/14(7)2025-CFD-
+POD2/I/3762/2026 dated 30th January 2026:
+Shri Chandrasekaran M S
+Sl.
+Description Details
+No
+1 Reason for change Completion of Term
+2 Date of Cessation 15th October 2026
+3 Term of Appointment Not Applicable
+4 Brief Profile Not Applicable
+Disclosure of Relationship
+5 Not Applicable
+between Directors

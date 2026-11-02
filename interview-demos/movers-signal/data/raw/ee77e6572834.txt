@@ -1,0 +1,78 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachHis/2e0ae114-ac92-4331-a335-079c384a29bc.pdf
+SHA256: b16ac2940be3e41bb4118211551113d250deb99797c59c35caad2dcdf6bb2ce9
+FETCHED_AT: 2026-11-02T14:22:20+00:00
+PAGES: 3
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 4 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+HQ/CS/CL.24B/18514
+September 25, 2026
+National Stock Exchange of India Limited BSE Limited
+Exchange Plaza, Bandra Kurla Complex, P.J. Towers, Dalal Street,
+Mumbai – 400 051 Mumbai – 400 001
+SYMBOL: TATACOMM Scrip Code: 500483
+Dear Sir / Madam,
+Sub: Intimation under Regulation 30 of SEBI Listing Regulations – Change in Key
+Managerial Personnel – Resignation of Company Secretary and Compliance Officer
+Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements)
+Regulations, 2015 (‘SEBI Listing Regulations’), please be informed that Mr. Zubin Adil Patel has
+submitted his resignation from the position of Company Secretary and Compliance Officer of Tata
+Communications Limited, to be effective from the close of business hours on October 31, 2026.
+The Company has initiated steps to identify a successor and shall make necessary
+announcements in due course.
+Please find enclosed the following:
+a. Relevant details as prescribed under the SEBI Listing Regulations read along with the
+SEBI Master Circular No. SEBI/HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated
+January 30, 2026, as amended, as Attachment A
+b. Copy of the resignation letter received from Mr. Zubin Adil Patel as Attachment B.
+Kindly take the same on your records.
+Thanking you,
+Yours faithfully,
+For Tata Communications Limited
+Ganapathi S. Lakshminarayanan
+Managing Director & Chief Executive Officer
+DIN: 01828104
+Tata Communications Limited
+Plot No. C21 & C 36 ‘G’ Block Bandra Kurla Complex Bandra (East) Mumbai 400098 India
+Regd. Office: VSB Mahatma Gandhi Road Fort Mumbai – 400 001
+Tel: [phone redacted] email: [email redacted]
+CIN: L64200MH1986PLC039266 website: www.tatacommunications.com
+
+=== PAGE 2 ===
+Attachment A
+Details required under Regulation 30 of SEBI Listing Regulations read with SEBI Master
+Circular No. SEBI/HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026
+Reasons for Change Mr. Zubin Adil Patel has tendered his resignation as the Company
+Secretary and Compliance Officer of Tata Communications Limited.
+A copy of acknowledged resignation email containing reasons for
+resignation is enclosed as Attachment B.
+Date of cessation October 31, 2026
+Brief Profile (in case of
+appointment)
+Not Applicable
+Disclosure of
+relationships between
+directors
+Tata Communications Limited
+Plot No. C21 & C 36 ‘G’ Block Bandra Kurla Complex Bandra (East) Mumbai 400098 India
+Regd. Office: VSB Mahatma Gandhi Road Fort Mumbai – 400 001
+Tel: [phone redacted] email: [email redacted]
+CIN: L64200MH1986PLC039266 website: www.tatacommunications.com
+
+=== PAGE 3 ===
+September 25, 2026
+The Board of Directors,
+Tata Communications Limited
+Subject: Resignation from the post of Company Secretary and Compliance Officer
+(Key Managerial Personnel)
+Dear Sirs,
+I hereby tender by resignation as the Company Secretary and Compliance Officer of
+Tata Communications Limited (Key Managerial Personnel) effective closing of business
+hours on October 31, 2026 to pursue opportunities outside Tata Communications.
+I am grateful to the Board, Senior Management and legal department for their support and
+co-operation during my tenure as the Company Secretary since March 2021.
+Thanking you,
+Yours faithfully,
+Zubin Adil Patel
+Membership Number: ACS 30277

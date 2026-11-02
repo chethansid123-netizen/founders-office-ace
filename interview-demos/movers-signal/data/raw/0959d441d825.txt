@@ -1,0 +1,92 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachHis/490fb24b-3801-4b77-bead-23429d0a5b07.pdf
+SHA256: 47c4c3c2d82e58a7942c2aba68a85377586f9e631ccf6a395db60615b8b315ea
+FETCHED_AT: 2026-11-02T14:08:30+00:00
+PAGES: 3
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 3 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+Pfizer Limited
+The Capital, 1802/1901,
+Plot No. C - 70, G Block, Bandra Kurla Complex,
+Bandra (East), Mumbai 400 051.
+Tel : [phone redacted] Fax : [phone redacted]
+July 27, 2026
+The Corporate Relationship Dept. Listing Dept.
+BSE Limited The National Stock Exchange of India Ltd.
+1st Floor, P.J.Towers Exchange Plaza, 5th Floor, Plot No. C/1,
+Dalal Street, Fort G Block Bandra-Kurla Complex, Bandra (E)
+Mumbai – 400 001 Mumbai – 400 051
+Scrip Code: 500680 Scrip Symbol: PFIZER
+Dear Sir/Madam,
+Sub: Intimation of resignation of Mr. Amit Agarwal - Executive Director – Finance &
+Chief Financial Officer.
+Ref.: Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure
+Requirements) Regulations, 2015.
+Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements)
+Regulations, 2015, we hereby inform that Mr. Amit Agarwal, Executive Director – Finance &
+Chief Financial Officer (DIN: 10465938) has resigned from the services of the Company, with
+effect from October 8, 2026, to pursue an opportunity outside Pfizer Limited.
+Pursuant to the above, Mr. Agarwal shall also cease to be a Director on the Board of Director
+of the Company and a Member of the Corporate Social Responsibility Committee,
+Risk Management Committee and Board Administrative & Share Transfer Committee of the
+Board effective October 8, 2026 (close of business).
+The additional details required to be disclosed pursuant to the SEBI (Listing Obligations and
+Disclosure Requirements) Regulations 2015 read with SEBI Circular No.
+HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026, are enclosed as
+Annexure – A & Annexure – B.
+Request you to please take the above on record.
+Thanking you,
+Yours truly,
+For Pfizer Limited
+Prajeet Nair
+Director – Corporate Services & Company Secretary
+Encl: A/a
+CIN: L24231MH1950PLC008311
+Email ID: [email redacted]
+Website: www.pfizerltd.co.in
+
+=== PAGE 2 ===
+Annexure - A
+Additional information pursuant to SEBI Listing Regulations read with SEBI Circular No.
+HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026
+Sr. No. Particulars Description
+1. Reason for change viz. appointment, re- Resignation of Mr. Amit Agarwal (DIN:
+appointment, resignation, removal, 10465938) as the Director on the Board of
+death or otherwise. Pfizer Limited and Executive Director –
+Finance & Chief Financial Officer of the
+Company, with effect from October 8, 2026
+(close of business) to pursue an
+opportunity outside Pfizer Limited.
+2. Date of appointment / cessation (as Cessation as the Executive Director –
+applicable) & term of appointment, re- Finance & Chief Financial Officer of the
+appointment. Company, effective October 8, 2026 (close
+of business).
+3. Brief profile (in case of appointment) Not Applicable
+4. Disclosure of relationships between Not Applicable
+directors (in case of appointment of a
+director).
+
+=== PAGE 3 ===
+Annexure - B
+July 27, 2026
+To,
+The Board of Directors
+Pfizer Limited
+The Capital, 1802/1901,
+Plot no. C-70, G-Block, Sandra Kurla Complex,
+Sandra (East), Mumbai -400 051
+Sub: Resignation from the position of Executive Director - Finance & Chief Financial Officer of
+Pfizer Limited
+Dear Sir/Madam,
+This is to inform you that I hereby resign as a Director on the Board and Executive Director -
+Finance & Chief Financial Officer of the Company with effect from the close of business on
+October 8, 2026. After careful consideration, I have decided to pursue another professional
+opportunity.
+It has been a privilege to serve on the Board and as the Chief Financial Officer of the company. I
+sincerely thank the Board, the leadership team and my colleagues for their trust, guidance and
+support during my tenure. I wish the Company continued growth and success in future.
+Thanking you,
+Yo~urs truly,;
+Amit Agarwal
+(DIN: 10465938)

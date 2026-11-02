@@ -1,0 +1,61 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachHis/4d4b7168-ae8a-4352-9352-a0d9b79bbe07.pdf
+SHA256: c1d49d357d8812b245f988f8fbb549238a7c6a07b6916d10b40e2e2d3c3e8ef1
+FETCHED_AT: 2026-11-02T14:17:28+00:00
+PAGES: 3
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 0 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+24th September, 2026
+To,
+The Corporate Relationship National Stock Exchange of India
+Department Limited
+BSE Limited Exchange Plaza,
+Phiroze Jeejeebhoy Towers, Bandra Kurla Complex,
+Dalal Street, Bandra East,
+Mumbai 400 001. Mumbai 400 051.
+Scrip Code: 539523 Scrip Symbol: ALKEM
+Sub: Disclosure under Regulation 30(2) of Securities and Exchange Board of India
+(Listing Obligations and Disclosure Requirements) Regulations, 2015 as amended (“SEBI
+LODR Regulations”): Change in Key Managerial Personnel – Resignation of Chief
+Financial Officer
+Dear Sir(s)/Madam,
+Pursuant to Regulation 30 of SEBI LODR Regulations, we wish to inform you that
+Mr. Nitin Agrawal has resigned on 30th July, 2026 from the position of Chief Financial Officer
+& Key Managerial Personnel of the Company to pursue new professional opportunities.
+Accordingly, Mr. Nitin Agrawal shall cease to hold Senior Management Position of the
+Company effective from 30th September, 2026.
+Further, the details as required in terms of Regulation 30 read with Schedule III of the SEBI
+LODR Regulations and SEBI Master Circular bearing No. HO/49/14/14(7)2025-
+CFDPOD2/I/3762/2026 dated January 30, 2026 is provided in Annexure I to this letter and a
+copy of resignation letter dated 30th July, 2026 tendered by Mr. Nitin Agrawal as the Chief
+Financial Officer (CFO) is enclosed herewith as Annexure II.
+The above information is also available on the website of the Company at
+www.alkemlabs.com.
+Kindly take the same on your records.
+Sincerely,
+For Alkem Laboratories Limited
+Manish Narang
+President – Legal, Company Secretary & Compliance Officer
+Encl: a/a
+
+=== PAGE 2 ===
+Annexure I
+(Disclosure in terms of Regulation 30 of the SEBI LODR Regulations read with SEBI Master
+Circular bearing Ref.No. HO/49/14/14(7)2025-CFDPOD2/I/3762/2026 dated January 30,
+2026)
+Sr. No. Particulars Details
+1. Reason for change viz. Resignation
+appointment, re-appointment,
+resignation, removal, death or
+otherwise
+2. Date of appointment/ re- Mr. Nitin Agrawal shall cease to be Senior
+appointment/ cessation (as Management Personnel, effective from 30th
+applicable) and term of September, 2026
+appointment/ reappointment
+3. Brief Profile Not Applicable
+4. Disclosure of relationships Not Applicable
+between directors
+
+=== PAGE 3 ===
+Annexure II

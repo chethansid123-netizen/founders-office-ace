@@ -1,0 +1,55 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachHis/58a57c65-4b46-4dd2-97ee-b26dfdf66aed.pdf
+SHA256: 1c448e51723978de24ddf8c6c2a5fb1ca743dc88e756ca047d7b8e169c3b4317
+FETCHED_AT: 2026-11-02T14:21:59+00:00
+PAGES: 2
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 0 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+October 22, 2026
+The Manager The Manager
+Listing Department Listing Department
+BSE Limited National Stock Exchange of India Limited,
+Phiroze Jeejeebhoy Towers Exchange Plaza, C-1, Block G,
+Dalal Street, Mumbai, Bandra Kurla Complex, Bandra East,
+Maharashtra - 400001 Mumbai, Maharashtra - 400051
+Scrip Code - 500238 Symbol - WHIRLPOOL
+Subject: Intimation under Regulation 30 of SEBI (Listing Obligations and Disclosure
+Requirements) Regulations, 2015 -Change in Senior Management
+Dear Sir/Ma’am,
+Pursuant to the provisions of Regulation 30 of the SEBI (Listing Obligations & Disclosure
+Requirements) Regulations, 2015 (“SEBI Listing Regulations”) we wish to inform you that the
+Board of Directors today on the recommendations of the Nomination and Remuneration
+Committee approved the below changes in the Senior Management Personnel (“SMP”) of
+the Company:
+1) Mr. Akash Mishra has been appointed as Head-Supply Chain designated as VP-Supply
+Chain with effect from October 22, 2026 and will report to the Managing Director of the
+Company. His brief profile pursuant to Regulation 30 of the SEBI Listing Regulations read
+with Master Circular having reference no. SEBI/HO/CFD/PoD2/CIR/P/0155 dated 11th
+November, 2024, is given below:
+Mr. Akash Mishra has over 20 yrs of experience leading large-scale operations and digital
+technology transformations. He has experience in Supply Planning and Customer Service
+in organizations like Pepsico, Reckitt Benkiser, JSW Paints. He has spearheaded Agentic
+AI, Robotic Process Automation, and touchless order processing architectures at
+different organizations and has led tech deployments. He holds a MBA degree in Supply
+Chain Management from The Eli Broad Graduate School of Management, Michigan State
+University and a B.Tech in Chemical Technology from Harcourt Butler Technological
+Institute (HBTI).
+2) Mr. Chetan Shetty, current Head- Supply Chain will move as Factory Head-Puducherry
+and will report to Head-Manufacturing of the Company and thereby ceases to be Senior
+Management with effect from October 22, 2026.
+
+=== PAGE 2 ===
+3) Mr. Prafulla Kandpal, currently Head-Accounting has tendered his resignation with
+effect from October 30, 2026 to seek opportunities outside the Company. The details of
+his successor and his resignation letter will be filed in due course.
+4) Mr. Vijay Waghmore, currently Head-Taxation has tendered his resignation with effect
+from November 13, 2026 to seek opportunities outside the Company. The details of his
+successor and his resignation letter will be filed in due course.
+Trust this would meet your requirements.
+Yours faithfully,
+For Whirlpool of India Limited
+Sweta Srivastava
+Company Secretary & Compliance Officer
+Plot No. 40, sector 44
+Gurugram, Haryana - 122002

@@ -1,0 +1,59 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachLive/733c3520-6adb-4a6d-889a-a4fcdfecc73d.pdf
+SHA256: bdbb3ad911e5882d0e67fe38e48c627dcd4762640b602240274ede0b77f8c176
+FETCHED_AT: 2026-11-02T14:09:10+00:00
+PAGES: 2
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 0 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+Ref. No. ESDS / 2026-27 / 15
+Date: October 30, 2026
+To To
+Department of Corporate Services Listing Department
+BSE Limited National Stock Exchange of India Limited
+Phiroze Jeejeebhoy Towers, C-1, G-Block, Bandra-Kurla Complex
+Dalal Street, Mumbai, MH – 400001 Bandra (E), Mumbai, MH – 400051
+Scrip Code: 544898 Scrip Symbol: ESDS
+Dear Sir/Madam,
+Sub: Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations,
+2015 - Resignation of Senior Managerial Personnel (‘SMP’).
+Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015
+("Listing Regulations"), we hereby furnish the following details:
+Particulars Details
+Name & Designation of the Senior Mr. Sajiv Nair
+Management Personnel Chief Technology Officer & Chief Information Officer
+Reason for change viz. appointment, Resigned on 29th October, 2026 due to personal reasons.
+reappointment, resignation, removal, death,
+or otherwise
+Date of appointment, re-appointment, On or before 27th January, 2027.
+cessation (as applicable) & term of
+appointment / re-appointment
+Brief profile (in case of appointment) Not Applicable
+Disclosure of relationship between Directors Not Applicable
+(in case of appointment of a director)
+The aforesaid information will also be made available on Company’s website i.e. www.esds.co.in
+Kindly take the same on record.
+Thanking you
+For ESDS Software Solution Limited
+(Prasad Deochand Deokar)
+Company Secretary & Compliance Officer
+M. No. A34350
+Encl: Resignation Letter
+
+=== PAGE 2 ===
+Date: October 29, 2026
+To,
+ESDS Software Solution Limited
+The Chairman & Managing Director
+The CHRO
+Sub: Resignation
+Dear Sir,
+Please accept this letter as formal notice of resignation from ESDS Software Solution Limited with effect
+from 29th October 2026.
+Please be informed that I have taken this decision solely due to personal reasons.
+Irequest you to please consider and relieve me of my duties at the earliest, on or before 27th Jan 2027.
+I would like to place on record my sincere appreciation to the Company and the Management Team for
+giving me the opportunity to work with the Company.
+Yours Sincerely,
+sajiv Nair
+Chief Technology Officer & Chief Information Officer

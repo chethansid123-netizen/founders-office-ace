@@ -1,0 +1,74 @@
+SOURCE_URL: https://nsearchives.nseindia.com/corporate/ISFC2010_02112026173900_Intimation_for_appointment_of_SMP.pdf
+SHA256: b596f09af1d87f0157b05c7ff23c1487abc5fdab6089a5a16810dca7372f41e0
+FETCHED_AT: 2026-11-02T14:06:20+00:00
+PAGES: 2
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 4 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+November 02, 2026
+To, To,
+BSE Limited, National Stock Exchange of India Limited,
+Phiroze Jeejeebhoy Towers, Dalal Street, Exchange Plaza, C-1, Block G, Bandra Kurla
+Mumbai- 400001 Complex, Bandra (E),
+Scrip Code: 544044 Mumbai – 400 051
+NSE Symbol: INDIASHLTR
+Subject: Intimation for appointment of Senior Management Personnel (“SMP”) under Regulation
+30 and 51 read with Schedule III of SEBI (Listing Obligations and Disclosure Requirements)
+Regulations, 2015
+Dear Sir/Madam,
+Pursuant to Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations,
+2015, we wish to inform you that based on the recommendation of the Nomination and
+Remuneration Committee, the Board of Directors of the Company through resolution by circulation
+passed on November 02, 2026, appointed Mr. Surendra Kumar Sihag, as Chief - Strategy & Customer
+Excellence, Senior Management Personnel of the Company w.e.f. November 02, 2026.
+The particulars in relation to his appointment as a Senior Management Personnel, as required by
+SEBI Master Circular No. HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026, is
+enclosed as Annexure-I.
+Date and time of occurrence of event/information: November 02, 2026, at 03:42 P.M.
+We request you to kindly take the above information on your record.
+Thanking you,
+Yours faithfully,
+For India Shelter Finance Corporation Limited
+Mukti Chaplot
+Company Secretary and Compliance Officer
+M. No.: 38326
+India Shelter Finance Corporation Limited
+Registered office – 6th Floor, Plot No 15, Institutional Area, Sector 44, Gurgaon, Haryana-122002
+CIN: L65922HR1998PLC042782, Phone No [phone redacted]
+E-mail: [email redacted], Website: www.indiashelter.in
+
+=== PAGE 2 ===
+Annexure-I
+Disclosure of information pursuant to Regulation 30 of the Listing Regulations read with SEBI
+Master Circular No. HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026
+Name Surendra Kumar Sihag
+Reason for Change (viz. appointment, re- Appointment of Chief Strategy & Customer
+appointment, resignation, removal, death or Excellence (Senior Management Personnel)
+otherwise)
+Date of appointment/re- Appointment Date: November 02, 2026
+appointment/cessation (as applicable) & term Term of Appointment: As per the Letter of
+of appointment/re-appointment Appointment
+Brief Profile (in case of appointment) Mr. Surendra Sihag is a seasoned financial
+services leader with over 25 years of experience
+across housing, retail and MSME finance. He
+brings extensive expertise in customer service
+excellence, customer life-cycle management,
+collections and recovery, and portfolio
+management. He has held senior leadership
+positions with leading financial institutions,
+including Aavas Financiers Ltd., Bajaj Finance
+Ltd., Bajaj Auto Finance Ltd. and Cholamandalam
+Investment & Finance Company Ltd., and has
+also been associated with GFGC. His experience
+spans financial services, business operations,
+strategic management and customer
+relationship management. He holds a Bachelor
+of Arts (B.A.) and Bachelor of Laws (LL.B.) from
+the University of Rajasthan, Jaipur.
+Disclosure of relationships between directors Not Applicable
+(in case of appointment of a director)
+India Shelter Finance Corporation Limited
+Registered office – 6th Floor, Plot No 15, Institutional Area, Sector 44, Gurgaon, Haryana-122002
+CIN: L65922HR1998PLC042782, Phone No [phone redacted]
+E-mail: [email redacted], Website: www.indiashelter.in

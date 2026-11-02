@@ -1,0 +1,641 @@
+{
+  "_note": "Discovery decisions. 'lead' text is a pointer written while triaging; it is NOT a fact source. Facts come only from the extraction of each PDF, checked by pipeline/verify.py and the review step.",
+  "snapshot_date": "2026-11-02",
+  "window": [
+    "2026-08-04",
+    "2026-11-02"
+  ],
+  "extract": [
+    {
+      "key": "0c88ddcc0f1d",
+      "company": "HDFC Bank Limited",
+      "practice": "Financial Services",
+      "lead": "Postal ballot notice: appointment of MD & CEO"
+    },
+    {
+      "key": "961a84f45ab1",
+      "company": "PNB MetLife India Insurance Company Limited",
+      "practice": "Financial Services",
+      "lead": "CFO resignation effective date"
+    },
+    {
+      "key": "3a15e7016245",
+      "company": "City Union Bank Limited",
+      "practice": "Financial Services",
+      "lead": "RBI approval: Executive Director (whole-time director)"
+    },
+    {
+      "key": "c9c263cbb952",
+      "company": "Punjab & Sind Bank",
+      "practice": "Financial Services",
+      "lead": "General Manager superannuation (corrected filing)"
+    },
+    {
+      "key": "a7a1e2fdd7ae",
+      "company": "RBL Bank Limited",
+      "practice": "Financial Services",
+      "lead": "Chief Risk Officer: fixed-term contract concludes"
+    },
+    {
+      "key": "baeb5899e6f9",
+      "company": "Muthoot Capital Services Limited",
+      "practice": "Financial Services",
+      "lead": "Chief Risk Officer resignation"
+    },
+    {
+      "key": "e18ed867888e",
+      "company": "Karnataka Bank Limited",
+      "practice": "Financial Services",
+      "lead": "Chief Operating Officer resignation"
+    },
+    {
+      "key": "580e4b74eb4b",
+      "company": "Karur Vysya Bank Limited",
+      "practice": "Financial Services",
+      "lead": "CGM & Chief Operating Officer: completion of tenure"
+    },
+    {
+      "key": "44a897eed9d3",
+      "company": "Manappuram Finance Limited",
+      "practice": "Private Equity",
+      "lead": "Business Head - CV Finance resignation"
+    },
+    {
+      "key": "40cf137f030d",
+      "company": "Manappuram Finance Limited",
+      "practice": "Private Equity",
+      "lead": "Two business heads resign (CV; Two-Wheeler)"
+    },
+    {
+      "key": "ec356eadd477",
+      "company": "India Shelter Finance Corporation Limited",
+      "practice": "Private Equity",
+      "lead": "Chief - Strategy & Customer Excellence appointment"
+    },
+    {
+      "key": "05c7e423be35",
+      "company": "Vodafone Idea Limited",
+      "practice": "Telecom",
+      "lead": "Chief Operating Officer appointment"
+    },
+    {
+      "key": "ee77e6572834",
+      "company": "Tata Communications Limited",
+      "practice": "Telecom",
+      "lead": "Company Secretary & Compliance Officer resignation"
+    },
+    {
+      "key": "e6a24f352162",
+      "company": "Bharti Airtel Limited",
+      "practice": "Telecom",
+      "lead": "Chief Internal Auditor appointment (internal)"
+    },
+    {
+      "key": "a4a38ed38ee2",
+      "company": "GTPL Hathway Limited",
+      "practice": "Telecom",
+      "lead": "CFO superannuation; internal successor"
+    },
+    {
+      "key": "38762ce7e174",
+      "company": "Info Edge (India) Limited",
+      "practice": "Digital",
+      "lead": "MD & CEO steps down; Group CEO re-designation"
+    },
+    {
+      "key": "45297d19fda0",
+      "company": "CarTrade Tech Limited",
+      "practice": "Digital",
+      "lead": "CEO - Consumer Business resignation"
+    },
+    {
+      "key": "44141d03d22c",
+      "company": "NIIT Limited",
+      "practice": "Digital",
+      "lead": "CEO resignation and new CEO"
+    },
+    {
+      "key": "d2dd425f4c27",
+      "company": "Hexaware Technologies Limited",
+      "practice": "Information Technology",
+      "lead": "CEO & whole-time director resignation; successor CEO"
+    },
+    {
+      "key": "011109ca7f05",
+      "company": "ESDS Software Solution Limited",
+      "practice": "Information Technology",
+      "lead": "CTO & CIO resignation"
+    },
+    {
+      "key": "ef80d7fd477a",
+      "company": "ESDS Software Solution Limited",
+      "practice": "Information Technology",
+      "lead": "Chief Product Officer appointment"
+    },
+    {
+      "key": "a98ea481c6bc",
+      "company": "Allied Digital Services Limited",
+      "practice": "Information Technology",
+      "lead": "AVP - Projects resignation"
+    },
+    {
+      "key": "adbc947a0984",
+      "company": "Global Health Limited",
+      "practice": "Healthcare & Life Sciences",
+      "lead": "SVP & Head-HR resignation"
+    },
+    {
+      "key": "04ac5252241b",
+      "company": "Dr. Reddy's Laboratories Limited",
+      "practice": "Healthcare & Life Sciences",
+      "lead": "CEO, API and Services resignation"
+    },
+    {
+      "key": "f58212c912fa",
+      "company": "Alkem Laboratories Limited",
+      "practice": "Healthcare & Life Sciences",
+      "lead": "CFO cessation"
+    },
+    {
+      "key": "f23ed981f80d",
+      "company": "Pfizer Limited",
+      "practice": "Healthcare & Life Sciences",
+      "lead": "Senior Director - Policy & Public Affairs resignation"
+    },
+    {
+      "key": "449c669cec6a",
+      "company": "Cipla Limited",
+      "practice": "Healthcare & Life Sciences",
+      "lead": "Global Head Supply Chain moves to US subsidiary"
+    },
+    {
+      "key": "f9a1fb0a93a1",
+      "company": "Acutaas Chemicals Limited",
+      "practice": "Healthcare & Life Sciences",
+      "lead": "AVP - Operations (cluster head) appointment"
+    },
+    {
+      "key": "d56da9f72fb8",
+      "company": "Lincoln Pharmaceuticals Limited",
+      "practice": "Healthcare & Life Sciences",
+      "lead": "Senior GM - Quality Assurance appointment"
+    },
+    {
+      "key": "1f94ab1b60ba",
+      "company": "Orient Electric Limited",
+      "practice": "Consumer Products & Retail",
+      "lead": "Chief Digital & Information Officer resignation"
+    },
+    {
+      "key": "5e777f5a2fd9",
+      "company": "Mahindra Holidays & Resorts India Limited",
+      "practice": "Consumer Products & Retail",
+      "lead": "Chief Projects Officer resignation"
+    },
+    {
+      "key": "174f3c23025f",
+      "company": "Britannia Industries Limited",
+      "practice": "Consumer Products & Retail",
+      "lead": "CIO retirement; external CDIO successor"
+    },
+    {
+      "key": "ed33969c068b",
+      "company": "Havells India Limited",
+      "practice": "Consumer Products & Retail",
+      "lead": "President resignation"
+    },
+    {
+      "key": "828fe147e9f6",
+      "company": "Jubilant FoodWorks Limited",
+      "practice": "Consumer Products & Retail",
+      "lead": "SVP & CIO resignation: revised last working date"
+    },
+    {
+      "key": "1ccf0273221f",
+      "company": "Varun Beverages Limited",
+      "practice": "Consumer Products & Retail",
+      "lead": "Chief Operating Officer resignation"
+    },
+    {
+      "key": "01199693a1f9",
+      "company": "Whirlpool of India Limited",
+      "practice": "Consumer Products & Retail",
+      "lead": "Head-Accounting resignation; supply chain changes"
+    },
+    {
+      "key": "8fddce06c5f1",
+      "company": "Welspun Corp Limited",
+      "practice": "Industrial & Infrastructure",
+      "lead": "CHRO resignation"
+    },
+    {
+      "key": "e3720dbc8787",
+      "company": "Laxmi Organic Industries Limited",
+      "practice": "Industrial & Infrastructure",
+      "lead": "CTO and Chief Procurement Officer resign"
+    },
+    {
+      "key": "f760aa5eb5fa",
+      "company": "UPL Limited",
+      "practice": "Industrial & Infrastructure",
+      "lead": "President - APAC, Africa and Europe designated SMP"
+    },
+    {
+      "key": "4e0d1437b07f",
+      "company": "G R Infraprojects Limited",
+      "practice": "Industrial & Infrastructure",
+      "lead": "Joint President - Power T&D appointment"
+    },
+    {
+      "key": "43e2d0faee90",
+      "company": "GMM Pfaudler Limited",
+      "practice": "Industrial & Infrastructure",
+      "lead": "Group CFO resignation; successor named"
+    },
+    {
+      "key": "943c623a378d",
+      "company": "Ashok Leyland Limited",
+      "practice": "Industrial & Infrastructure",
+      "lead": "Head - Special Projects - HR resignation"
+    },
+    {
+      "key": "99971b76b97c",
+      "company": "Jay Bharat Maruti Limited",
+      "practice": "Industrial & Infrastructure",
+      "lead": "CEO appointment"
+    },
+    {
+      "key": "294ae0169de8",
+      "company": "Torrent Power Limited",
+      "practice": "Industrial & Infrastructure",
+      "lead": "CFO planned retirement; successor appointed"
+    },
+    {
+      "key": "0dd536406b16",
+      "company": "Jubilant Ingrevia Limited",
+      "practice": "Industrial & Infrastructure",
+      "lead": "Sr. Vice President - Supply Chain resignation"
+    },
+    {
+      "key": "e54b861f490f",
+      "company": "KSB Limited",
+      "practice": "Industrial & Infrastructure",
+      "lead": "Head - Project and Contract Management superannuation"
+    },
+    {
+      "key": "4ccfd19e861b",
+      "company": "Welspun Specialty Solutions Limited",
+      "practice": "Industrial & Infrastructure",
+      "lead": "Chief Operating Officer resignation"
+    },
+    {
+      "key": "a5f9c110c35d",
+      "company": "Rail Vikas Nigam Limited",
+      "practice": "Industrial & Infrastructure",
+      "lead": "Executive Director (Highway) relieved"
+    },
+    {
+      "key": "492ac6b72f69",
+      "company": "KPI Green Energy Limited",
+      "practice": "Industrial & Infrastructure",
+      "lead": "CFO last working day"
+    },
+    {
+      "key": "e9206b72e760",
+      "company": "S H Kelkar and Company Limited",
+      "practice": "Industrial & Infrastructure",
+      "lead": "EVP - Ingredients Division resignation"
+    }
+  ],
+  "extract_for_review_test": [
+    {
+      "key": "5d00d33457c9",
+      "company": "Punjab & Sind Bank",
+      "lead": "Earlier filing of the same event with different dates; superseded 5 minutes later"
+    },
+    {
+      "key": "7b6f916240ef",
+      "company": "Wockhardt Limited",
+      "lead": "Existing CDIO designated as SMP: possibly no seat change"
+    },
+    {
+      "key": "0959d441d825",
+      "company": "Pfizer Limited",
+      "lead": "ED-Finance & CFO resignation: letter dated 27 Jul 2026"
+    },
+    {
+      "key": "0ea41bb4cb26",
+      "company": "Banswara Syntex Limited",
+      "lead": "COO-Garment appointment: OCR-quality text layer"
+    },
+    {
+      "key": "585f193ce271",
+      "company": "Akums Drugs and Pharmaceuticals Limited",
+      "lead": "President-Operations designated SMP: possibly no seat change"
+    }
+  ],
+  "screened_out": [
+    {
+      "key": "bb136e696875",
+      "company": "Mahanagar Telephone Nigam Limited",
+      "reason": "PDF text layer has no Unicode mapping (glyph IDs only); quotes cannot be verified by machine"
+    },
+    {
+      "key": "bd7c510af58b",
+      "company": "JK Paper Limited",
+      "reason": "PDF on the exchange is malformed; two independent parsers fail; same bytes on re-download"
+    },
+    {
+      "key": "76655ee0f26f",
+      "company": "Credent Global Finance Limited",
+      "reason": "Text layer drops word spacing ('ofMr. Karan Sharmafrom'); quotes would not be readable"
+    },
+    {
+      "key": "84637b75a111",
+      "company": "Tata Communications Limited",
+      "reason": "Filed 23 Jul 2026, before the 90-day window"
+    },
+    {
+      "key": "b9b62126a942",
+      "company": "Rail Vikas Nigam Limited",
+      "reason": "Filed 13 Jul 2026, before the window"
+    },
+    {
+      "key": "379e6d8eb16a",
+      "company": "3M India Limited",
+      "reason": "Filed 23 Apr 2026, before the window"
+    },
+    {
+      "key": "2e0d8df00089",
+      "company": "Aditya Birla Money Limited",
+      "reason": "Filed 27 Apr 2026, before the window"
+    },
+    {
+      "key": "c5318784e050",
+      "company": "Sterlite Technologies Limited",
+      "reason": "Filed 11 Aug 2023; not in the window"
+    },
+    {
+      "key": "ea72ca37a2f0",
+      "company": "Sagility Limited",
+      "reason": "Filed 14 Feb 2026, before the window"
+    },
+    {
+      "key": "d3f6e4657343",
+      "company": "Sterlite Technologies Limited",
+      "reason": "Earnings-call transcript; no leadership change disclosed"
+    },
+    {
+      "key": "fbb2918a119d",
+      "company": "Sterlite Technologies Limited",
+      "reason": "Earnings-call schedule; no leadership change"
+    },
+    {
+      "key": "3406af9663d1",
+      "company": "Vodafone Idea Limited",
+      "reason": "Earnings-call transcript; no leadership change"
+    },
+    {
+      "key": "fc9a3ce50d9b",
+      "company": "Vodafone Idea Limited",
+      "reason": "Board and company-secretary-designate changes only; no management seat"
+    },
+    {
+      "key": "4d3b37061622",
+      "company": "Trent Limited",
+      "reason": "Board director resignation; board seats are outside this brief"
+    },
+    {
+      "key": "e5f7d7ca6d60",
+      "company": "Tata Teleservices (Maharashtra) Limited",
+      "reason": "Board director resignation; outside this brief"
+    },
+    {
+      "key": "f39ef14de62b",
+      "company": "QMS Medical Allied Services Limited",
+      "reason": "AGM proceedings; no leadership change"
+    },
+    {
+      "key": "74b9ed55848b",
+      "company": "L&T Finance Limited",
+      "reason": "Postal ballot for director appointments; existing CFO additionally made a director, so no seat opens"
+    },
+    {
+      "key": "a79759bc00ac",
+      "company": "Sagility Limited",
+      "reason": "Earnings-call transcript"
+    },
+    {
+      "key": "55e425640288",
+      "company": "Ola Electric Mobility Limited",
+      "reason": "Results outcome; no leadership change"
+    },
+    {
+      "key": "b87ff13f7fd5",
+      "company": "Ola Electric Mobility Limited",
+      "reason": "Board outcome; no leadership change"
+    },
+    {
+      "key": "59e3fc9a950c",
+      "company": "Indus Towers Limited",
+      "reason": "Quarterly report; no leadership change"
+    },
+    {
+      "key": "3fb0909944e5",
+      "company": "RailTel Corporation of India Limited",
+      "reason": "Results outcome; no leadership change"
+    },
+    {
+      "key": "7283bc4cbcdf",
+      "company": "GTPL Hathway Limited",
+      "reason": "Earnings-call transcript"
+    },
+    {
+      "key": "0b5c94e9cc2f",
+      "company": "Dr. Reddy's Laboratories Limited",
+      "reason": "Press release; no leadership change"
+    },
+    {
+      "key": "bcfa909ea128",
+      "company": "Happiest Minds Technologies Limited",
+      "reason": "Compliance certificate; no leadership change"
+    },
+    {
+      "key": "0d6048cabca1",
+      "company": "Tata Elxsi Limited",
+      "reason": "Earnings-call transcript"
+    },
+    {
+      "key": "14b79b3f8fed",
+      "company": "Tata Elxsi Limited",
+      "reason": "Investor presentation"
+    },
+    {
+      "key": "31e40e363c4d",
+      "company": "Quicktouch Technologies Limited",
+      "reason": "Not selected: sample capped at 50 filings (see selection rule)"
+    },
+    {
+      "key": "154c2f21e84b",
+      "company": "Solve Plastic Products Limited",
+      "reason": "Not selected: sample capped at 50 filings (see selection rule)"
+    },
+    {
+      "key": "6784ea22f140",
+      "company": "Ashapura Logistics Limited",
+      "reason": "Not selected: sample capped at 50 filings (see selection rule)"
+    },
+    {
+      "key": "c575bc6e20e8",
+      "company": "United Heat Transfer Limited",
+      "reason": "Not selected: sample capped at 50 filings (see selection rule)"
+    },
+    {
+      "key": "c3da4e2fbfe0",
+      "company": "Urja Global Limited",
+      "reason": "Not selected: sample capped at 50 filings (see selection rule)"
+    },
+    {
+      "key": "6dcec2d0ec7c",
+      "company": "Repro India Limited",
+      "reason": "Not selected: sample capped at 50 filings (see selection rule)"
+    },
+    {
+      "key": "4dd8a89cc1fe",
+      "company": "Patel Integrated Logistics Limited",
+      "reason": "Not selected: sample capped at 50 filings (see selection rule)"
+    },
+    {
+      "key": "577c407df5ec",
+      "company": "India Nippon Electricals Limited",
+      "reason": "Not selected: sample capped at 50 filings (see selection rule)"
+    },
+    {
+      "key": "bc7a1b6d5db0",
+      "company": "Vikram Solar Limited",
+      "reason": "Not selected: sample capped at 50 filings (see selection rule)"
+    },
+    {
+      "key": "c20a0a1d35e6",
+      "company": "Prism Johnson Limited",
+      "reason": "Not selected: sample capped at 50 filings (see selection rule)"
+    },
+    {
+      "key": "4d7a1d644381",
+      "company": "The Fertilisers And Chemicals Travancore Limited",
+      "reason": "Not selected: sample capped at 50 filings (see selection rule)"
+    },
+    {
+      "key": "ba82216d917e",
+      "company": "NTPC Limited",
+      "reason": "Not selected: sample capped at 50 filings (see selection rule)"
+    },
+    {
+      "key": "d1451d163672",
+      "company": "Hindustan Petroleum Corporation Limited",
+      "reason": "Not selected: sample capped at 50 filings (see selection rule)"
+    },
+    {
+      "key": "20a050067f33",
+      "company": "Unidentified PSU (ref A10-SEC-BD-808)",
+      "reason": "DGM/GM level changes; below the seniority focus"
+    },
+    {
+      "key": "cc9b130cffc3",
+      "company": "NIIT Limited",
+      "reason": "Second NIIT filing (two SMP appointments); one NIIT filing kept"
+    },
+    {
+      "key": "f8d20596a946",
+      "company": "Alkem Laboratories Limited",
+      "reason": "Duplicate copy (BSE live path) of an extracted filing"
+    },
+    {
+      "key": "9a7f5263b768",
+      "company": "Jubilant FoodWorks Limited",
+      "reason": "Duplicate copy (BSE live path) of an extracted filing"
+    },
+    {
+      "key": "917e5e291213",
+      "company": "GMM Pfaudler Limited",
+      "reason": "Duplicate copy (BSE live path) of an extracted filing"
+    },
+    {
+      "key": "5a22aea5dde9",
+      "company": "Karnataka Bank Limited",
+      "reason": "Duplicate copy (BSE live path) of an extracted filing"
+    },
+    {
+      "key": "4c10ee24ce53",
+      "company": "Ashok Leyland Limited",
+      "reason": "Duplicate copy (BSE live path) of an extracted filing. Note: the web search summary named this filing Dr. Reddy's; the PDF is Ashok Leyland's."
+    },
+    {
+      "key": "dd34aac47124",
+      "company": "RITES Limited",
+      "reason": "Extension of the Chairman & MD's tenure; no seat opens"
+    },
+    {
+      "key": "e21c27d98722",
+      "company": "Welspun Specialty Solutions Limited",
+      "reason": "BSE 'AttachLive' link returned 404; same filing fetched from the archived path"
+    },
+    {
+      "key": "146f9f06c805",
+      "company": "Sagility Limited",
+      "reason": "BSE 'AttachLive' link returned 404; archived copy is outside the window"
+    },
+    {
+      "key": "61fed691a444",
+      "company": "Unidentified (BSE live path)",
+      "reason": "BSE 'AttachLive' link returned 404; not pursued"
+    },
+    {
+      "key": "17c04314010c",
+      "company": "Karur Vysya Bank Limited",
+      "reason": "BSE 'AttachLive' link returned 404; same filing fetched from the archived path"
+    },
+    {
+      "key": "588b868445ed",
+      "company": "Indus Towers Limited",
+      "reason": "BSE 'AttachLive' link returned 404; archived copy is a quarterly report"
+    }
+  ],
+  "practice_evidence": [
+    {
+      "key": "625f07c7cc49",
+      "company": "Manappuram Finance Limited",
+      "use": "Company release: RBI approvals for Bain Capital to acquire joint control"
+    },
+    {
+      "key": "94a9cbbbbbff",
+      "company": "Manappuram Finance Limited",
+      "use": "Acquirer disclosure: allotment to BC Asia Investments XXV on 27 Mar 2026"
+    },
+    {
+      "key": "a75047e2d6b5",
+      "company": "India Shelter Finance Corporation Limited",
+      "use": "Promoter declarations incl. WestBridge Crossover Fund, LLC"
+    },
+    {
+      "key": "80a112565275",
+      "company": "Dhoot Transmission Limited",
+      "use": "NOT USED: search linked it to Manappuram; the PDF concerns Dhoot Transmission"
+    },
+    {
+      "key": "ddacb3a08de4",
+      "company": "Hexaware Technologies Limited",
+      "use": "NOT USED for a PE label: names CA Magnum Holdings as promoter but no filing in hand links it to a PE sponsor"
+    },
+    {
+      "key": "ef42f47e8602",
+      "company": "Hexaware Technologies Limited",
+      "use": "NOT USED: board outcome; no promoter statement"
+    },
+    {
+      "key": "320a099f64c5",
+      "company": "India Shelter Finance Corporation Limited",
+      "use": "NOT USED: buy-back of a subsidiary stake from Aravali; does not state the promoter group"
+    }
+  ]
+}

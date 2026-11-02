@@ -1,0 +1,734 @@
+SOURCE_URL: https://nsearchives.nseindia.com/corporate/BANSWRAS_02112026144649_Intimation_Letter_Outcome_of_BM.pdf
+SHA256: 99937ff0792d91400bdcc8c2ca6e924ec6c747691dfa35008e17c578ff58e5be
+FETCHED_AT: 2026-11-02T14:07:00+00:00
+PAGES: 16
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 13 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+:]5aN
+SWARA
+BSL/SEC/2026-27ts1
+2nd November,2026
+BSE Limited National Stock Exchange of India Ltd
+Phiroze Jeejeebhoy Towers, Exchange Plaza Bandra - Kurla,
+Dalal Street, Mumbai - 400 001 Bandra (East), Mumbai - 400051
+Maharashtra.
+Maharashtra.
+Scrip Code: 503722 Symbol: BANSWRAS
+Subject: Outcome of the Board Meeting held on 2nd November, 2026 pursuant to
+Regulation 30 and 33 of the Securities and Exchange Board of India (Listing
+obligations and Disclosure Requirements) Regulations, 2015 ("$EBI Listing
+Regulations, 2015r').
+Dear Sir / Madam,
+The Board of Directors of the Company at their Meeting held on Monday, 2nd November,
+2026 atthe Corporate office of the Company situated at 4th Floor, Gopal Bhawan, 199, princess
+Street, Mumbai 400 002, which commenced at 12:15 P.M. and concluded at 2:00 p.M., inter-
+alia transacted the following business:
+1) Financial Results
+Approved the Unaudited Standalone and Consolidated Financial Results for the quarter and
+half year ended on 30th September,2026 along-with statement of Assets & Liabilities as on
+30th September, 2026 and Cash Flow Statement for the half year ended on 30th September,
+2026 and Limited Review Report issued by M/s. K G Somani & Co. LLp, Statutory Auditors
+of the Company (enclosed as Annexure - l).
+2) Appointment of Non-Executive Independent Director
+The Board, at the recommendation of the Nomination and Remuneration Committee has
+approved the appointment of Mr. Dinesh Nolkha (DIN:00054658) and Mr. Ruzbeh Irani
+(DIN: 01831944) as an Additional Director in the Category of Non-Executive Independent
+Director of the Company, not liable to retire by rotation w.e.f. 3d November,2026 for lrt
+term of five consecutive years from 3'd November ,2026 to 2nd November ,2031, subject to
+the approval of Shareholders of the Company.
+The relevant details as per the requirements of Regulation 30 of SEBI (Listing Obligations
+and Disclosure Requirements) Regulations, 2015 read with SEBI Master Circular no.
+HO/49114/14(7)2025-CFD-POD21I/376212026 dated, 30th January, 2026, is enclosed as
+Annexure - 2.
+BANSWARA SYNTEX TIMITED
+CORPORATE OFFICE REGISTERED OFFICE & MILLS
+E s T t m h e l a F I i l l + - ; . 9 i , n 1 f G o 22 @ o p 6 b r i l ? m 3 B €5 w h 7 a r A w r - a 7 . a n 6 v , n 1 t 9 I e 9 F x a , p e x r i m n : + c e 9 ls 1 2 S 2 t r 6 e 6 €t 3g M 6 u 5 m a5 b6i 4OO Ooz T E ln e m d l u a : i c + l t r I 9 lE a 1 l t r 2 c A 9 t r 6 r u 2 r E l r , 2 l t . D o 1 b e 0 h 6 .n o !X a d r w €3 R , €r o r a 3 Z d m S , t Z B a 6 e x - n . t' @ s '-6 M m a r a I F - a x 3 2 I 7 + O 9 O 1 t 2 {R 96 E 2 ja 2 st & ha 6 n 9 l 2
+An rs/ rso 9(,01:2(,()8 company I clN L24302RJ1976PLCOO16a4 | www.banswarasyntex.com
+
+=== PAGE 2 ===
+SWARA
+3) Annointment of Mr- Iltknrsh Garrr as ComDanv Secretarv and Comnliance Officer
+(Key Managerial Personnel) of the Company
+Based on the recommendation of the Nomination & Remuneration Committee, the Board of
+Directors, has approved the appointment of Mr. Utkarsh Gaur (Membership No. FCS 13452)
+as a Company Secretary and Compliance Officer (Key Managerial Personnel) of the
+Company w.e.f. 1 2th November, 2026.
+The relevant details as per the requirements of Regulation 30 of SEBI (Listing Obligations
+and Disclosure Requirements) Regulations, 2015 read with SEBI Master Circular no.
+HOl49lI4ll4(7)2025-CFD-POD2lIl3762l2026 dated 30th January, 2026 are provided in
+ooAnnexure
+3tt.
+4) Annointment of Mr. Sudhanshu Sinohal as Chief Oneratins Officer - Garment in the
+category of Senior Management Personnel of the Companv
+Based on the recommendation of the Nomination & Remuneration Committee, the Board of
+Directors, has approved the appointment of Mr. Sudhanshu Singhal as Chief Operating
+Officer - Garment (Senior Management Personnel) of the Company w.e.f. 2th November,
+2026.
+The relevant details as per the requirements of Regulation 30 of SEBI (Listing Obligations
+and Disclosure Requirements) Regulations, 2015 read with SEBI Master Circular no.
+HOl49l14l14(7)2025-CFD-POD2lIl3762l2026 dated 30th January, 2026 are provided in
+ttAnnexure
+4ot.
+s) Postal Notice
+Approved the Postal Ballot Notice to seek approval of the shareholders for an appointment
+of Mr. Dinesh Nolkha (DIN:0005465S) and Mr. Ruzbeh Irani (DIN: 0183 1944) as a Non-
+Executive Independent Director of the Company for a l't term of five consecutive years from
+3'd November,2026 to 2nd November,203I.
+Postal Ballot Notice shall be sent to the shareholders in due course and the same shall be
+filed with the exchanges.
+BANSWARA SYNTEX TIMITED
+CORPORATE OFFICE REGISTERED OFFICE & MITLS
+sth Fl-., Gopel Bhewan, 199 Princar! st.€€t Mumb.i 4{x} ooz lndurtrlsl Ar.., Dehod Rud, BEnswsn - 327OO1 {Rrjrsthan}
+Tef : + 91 2'2 6633657L-76 | Fex : [phone redacted]a5 Tel | + 9t 2fr62 24O6''(t€3,25-1679-68 | Fax : + 9L 2962 24{,692
+Em€il : infot9bEnrwa6sv.ttcx.@m Email ! s6.t [email redacted].@m
+An lS / ISO 9OO1: 2OO8 Company I CIN L243O2RJI976PLCOO15a4 | www.banswarasyntex-com
+
+=== PAGE 3 ===
+SWARA
+Furthermore, in accordance with the Securities and Exchange Board of India (Prohibition of
+Insider Trading) Regulations, 2015 and Company's Code of conduct for Prohibition of Insider
+Trading, the "Trading Window" for trading in the shares of the Company will be open from
+Thursday, 5th November, 2026 for the Directors and the Key Management Personnel /
+Designated Persons/ Connected Persons of the Company and their relativcs.
+You are requested to take the same on record
+Yours faithfully
+FoT BANSWARA SYNTEX LIMITEI)
+s
+fll
+}{
+Shaleen Toshniwal 401)fr82
+$
+Managing Director *
+DIN:00246432
+Encl.: As above
+BANSWARA SYNTEX LIMITED
+CORPORATE OFFTCE REGISTERED OFFICE & MILLS
+srh Flor, Gopel thewan, 19!t Princcss Str€€t Mumbri /t(Xt Ooz lndustrial Aru., DEhod Rmd, Eansmn - 327OO1 (REjasthEnl
+Tel r +91 2 561136571-75 I Fax ! [phone redacted]a6 Tel : + 91 2962 2ll{r6qt-93, 2'767fr-6iA I Fax | + 91 2962 2r{Xi92
+Email r lnfo(DbantwargyntGx.@m Email : sdatarlrltpbrmwmryntax.@m
+An lS / ISO 9(,()L: 2OOE Company I CIN L243O2RJ1976PLCOO16a4 | www.banswarEsyntex.com
+
+=== PAGE 4 ===
+K G Somani & Co LLP www.kgsomani.com
+ollice@k[somani.com
+CHARTERED ACCOUNTANTS LLP Identification No. AAX-5330
+Limited Review Report on unaudited Standalone Financial Results of Banswara Syntex
+Linrited for the quarter ended 30 September 2026 and year-to-date results for the period
+from 01 April 2026 to 30 September 2026 pursuant to the Regulation 33 of the Securities
+and Exchange Board of India (Listing Obligations and Disclosure Requirements)
+Regulations, 2015, as amended
+To
+Board of Directors of
+Banswara Syntex Limited
+1.. We have reviewed the accompanying Statement of unaudited standalone financial results of Banswara Syntex
+Limited ['the Company') for the quarter and half year ended 30 September 2026 ["the Statement"), being
+submitted by the Company pursuant to the requirements of Regulation 33 of the SEBI (Listing Obligations and
+Disclosure Requirements) Regulations, 2015, as amended f'Listing Regulations').
+2. This Statement, which is the responsibility of the Company's management and approved by the Board of
+Directors, has been prepared in accordance with the recognition and measurement principles laid down in Indian
+Accounting Standard 34 "lnterim Financial Reporting" ["lnd AS 34"), prescribed under Section 133 of the
+Companies Act,20L3 as amended, read with relevant rules issued thereunder and other accounting principles
+generally accepted in India and in compliance with Regulation 33 of the Listing Regulations. Our responsibility
+is to express a conclusion on the Statement based on our review.
+3. We conducted our review of the Statement in accordance with the Standard on Review Engagements [SRE) 2410
+"Review of Interim Financial Information Performed by the Independent Auditor of the Entity" issued by the
+Institute of Chartered Accountants of India. This standard requires thatwe plan and perform the review to obtain
+moderate assurance as to whether the Statement is free of material misstatement. A review of interim financial
+information consists of making inquiries, primarily of persons responsible for financial and accounting matters,
+and applying analytical and other review procedures. A review is substantially less in scope than an audit
+conducted in accordance with Standards on Auditing and consequently does not enable us to obtain assurance
+that we would become aware of all significant matters that might be identified in an audit, Accordingly, we do
+not express an audit opinion.
+4. Based on our review conducted as above nothing has come to our attention that causes us to believe that the
+accompanying Statement, prepared in accordance with the recognition and measurement principles laid down
+in the aforesaid Indian Accounting Standard specified under Section 133 of the Companies Act, 2013 as amended
++9 I - I I - 41403938, 23252225,
+
+=== PAGE 5 ===
+and other accounting principles generally accepted in India has not disclosed the information required ti; i.e
+disclosed in accordance with the requirements of Regulation 33 of the SEBI (Listing Obligations and Disclo.';L:i rr
+Requirements) Regulations, 2015 [as amended), including the manner in which it is to be disclosed, or th: r ir
+contains any niaterial misstatement.
+ForKGSomani&CoLLP
+Chartered Accountants
+Firm No: 006591N/N500377
+h
+(Amberfaiswal)
+Partner
+Membership No:550715 tr
+>6 (SO 7 h)nhvr./\ K(v o
+UDIN:
+Place: Mumbai
+Date: 02nu November 2026
+
+=== PAGE 6 ===
+BANSWARA SYNTEX LIMITED
+CIN:U14302RJ1976PtC001684
+Regd. Ofllce : lndustrlal Area, Dahod Road, Banswara - 327001 (Rajasthanl
+Phone: [phone redacted],9112962-257 67 9-681 F axt 9'-2962'240692
+corporate Offlce :4-5th Floor, Gopal Bhawan,199, Princess Street, Mumbal-400002
+Phone: [phone redacted]L-76Faxt+9r22220@486 I 66336586
+Website : M.banswarasyntex.com, Emall : [email redacted]
+STATEMENT OF STANDALONE FINANCIAL RESULTS FOR THE qUARTER AND HALF YEAR ENDED 30 SEPTEMBER 2026
+ln share
+quarter Ended Year Year Ended
+Unaudited Unaudited Unaudited Unaudited Unaudited Audited
+Particulars
+30-Jun-26
+l. Revenue From Operations 3s.446.23 31,578.98 34,456.05 67,025.23 65,037.09 L35,578.44
+ll. Other lncome 390.35 660.04 286.53 1,050.39 668.73 1.388.98
+il Total lncome (l+lll 35,836.60 32,2t9.02 34,742.58 6a.o75.62 65,705.82 t36.967.42
+Expenses
+Cost of Materials Consumed 15,881.31 t4,t47.90 75.473.70 30.o29.2t 27,89L.62 55,765.72
+Purchases of traded Boods 2.r9 2.79 2.L9
+Changes in lnventories of Finished Goods, Stock-in-Trade and Work-ln-ProBress (2,405.s3) (1.ss4.881 (800.47) (3,960.40) 1154.92\ r.4s9.2r
+Employee Benefits Expenses 9.r29.40 8.033.05 8,253.48 t7,t62.43 1s.908.28 32_023.85
+Finance Costs 1.135.38 986.70 1,055.38 2,r23.08 2.L3r.49 4.2s5.36
+Deoreciation, Amortization & lmpairment expenses 1.383.20 1,371.98 !,354.57 2.755.19 2,657.t7 5,3t6.L7
+Power & Fuel 3,912.47 3,542.L9 3.478.74 7,454.66 6,742.32 13,487.39
+Others Expenses 5,554.99 5,r2L.87 5.034.99 10,786.86 9,764.74 19,870.30
+lV. Total Expenses 702.22 3LqC41 33,792.62 66,351.03 64,942.29 132.180.19
+V, Profit/(toss) before exceptional item and tax (llFlV) s90.21 949.95 L,724.59 763.51 4,787.2t
+VI Items (891.38)
+vll. Profit/(l-oss) before tax (v+vl) 1,t34.18 590,21 949.96 L,724.59 753.s3 3,895.85
+Vlll. Tax
+Current Tax 420.00 175.00 307.00 595.00 307.00 L,246.00
+Deferred Tax (96.ssl (2s.s4) (ss.7s) Itzz.o9l (100.86) (190.3s)
+Tax of earlier
+tx. after tax 810.93 440.75 698.71 1.251.68 557.39 2,840.20
+lncome
+Item that will not be reclassified to or loss
+(303.10)
+Remeasurement of defined
+Tax rel of defined benefit 76.28
+B. ltem that will be reclassified to profit or loss (net of tax)
+Total other lncome for the Period of 1226.82\
+Total lncome for the Period 810.93 440.75 698,71 t,25L,68 5s7.39 2,6L3.38
+Value of the Share - Rs, Per t,71r.60 L.7tL.60 1,7rt.60 r,7u.60 !.7rL.60 !,71r.60
+Xllt. Other EquiW (Excluding revaluation reserve, As per Audited Balance Sheet) 56,39s.38
+Rs.
+from continuins oDerations
+Basic 2.37 1.29 2.04 3.66 1.63 8.30
+Diluted 2.37 r.29 2.O4 3.66 1.63 \ 8.30
+-t#,
+See accomoanvins notes to the financial results
+* {
+'n
+/
+a
+
+=== PAGE 7 ===
+Notes
+1 The above standalone unaudited financial results have been reviewed by the Audit Committee and approved by the Board of Directors at their meeti
+heldon NovemberO2,2O26.ThestatutoryauditorsoftheCompanyhavereviewedthefinancial resultsforthequarterandhalfyearended30Septem
+2026 in terms of Regulation 33 ofthe SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015.
+2 The standalone unaudited financial results are prepared in accordance with lndian Accounting Standards (lnd AS) as prescribed under Section 133 of
+Companies Act, 2013 read with Rule 3 of the Companies (lndian Accounting Standards) Rules, 2015 and Companies (lndian Accounting Sta
+Amendments Rules, 2016, other Recognized Accounting Practices and Policies to the extent applicable and also in terms of Regulation 33 of SEBI (Listi
+Obligations and Disclosure Requirements) Regulations 2015.
+3 ln line with the provisions of lnd AS 108- "Operating Segment" and on the basis of review of operations being carried out by the management of
+Company, the operations of the Company fall within a single operational segment viz. Textiles, which is considered to be the only reportable segment
+the management.
+4 During the quarter the Company has further invested in equity shares of Wholly owned subsidiary namely "Banswara Brands Private Ltd" amounting to Rs.
+350 Lakhs i.e.35,00,000 Equity Shares of Rs. 10 each.
+5 During the quarter the Company has made long term investment in equity shares of "CGE ll Hybrid Energy Private Limited" amounting to Rs. 571.21
+i.e.57,12,12I Equity Shares of Rs. 10 each.
+6 On 27 October 2026, a fire broke out in the Packing/Godown area of the Dye House at BTM Unit, Banswara, spreading to the adjoining TFO Section at
+Unit. Further, on 30 October 2026, accidental leakage in the secondary coil of the BTM 5000 U Thermopac machines at Banswara Unit caused fire
+dama8e to property, plant and equipment and inventories. No casualties or injuries were reported. The affected assets are insured, and the Company
+initiated the insurance claim process, subject to assessment and policy terms.
+As both incidents occurred after 30 Septembet 2026, they are considered non-adjusting events, and no adjustment has been made to the quarter and half-
+year financial results. Based on its preliminary assessment, the Management does not expect any material impact,
+7 The figures of the previous periods/year have been regrouped/rearranged/reclassified, wherever considered necessary to correspond with the cu
+period classification/disclosure.
+For and on behalf of Board of Directors
+'i.'. BANSWARA SYNTEX I.IMITED
+Place: Mumbai I ISHALEEN TOSHNIWAL)
+Date: November 2,2026 @ '\,.:i ManaginB Director
+DIN :00246432
+
+=== PAGE 8 ===
+BANSWARA SYNTEX LI M ITED
+CIN :t24302RJ1975P1C001584
+Regd. Office: lndustrial Area, Dahod Road, Banswara - 327001 (Raiasthan)
+Phone: [phone redacted]O690,9Lt2962-257 67 9-6at F a* 9L-2962-24O692
+Corporate office:4-5th Floor, Gopal Bhawan,199, Princess Street, Mumbai-400002
+Phone: +91 2Z 66336571-76 Fax:+9t2222064486 | 66336586
+Website : www,banswarasyntex.com, Email : [email redacted]
+STANDALONE STATEMENT OF ASSETS AND TIABILITIES
+Rs. ln
+As at As at
+Particulars 30 2026 31 March 2026
+Unaudited Audited
+ASSETS
+A Non-Current Assets
+Property, Plant and Equipment 55,260.05
+of Use Asset 371.80 423.IO
+3,0L6.O7
+Other lntangible Assets 52.t9 49.35
+Financial Assets
+nvestments 11 90
+I
+Others 607.97 709.45
+lncome Tax Assets (Net) 7L 143r
+Other Non-Current Assets 948.58
+Total Non-Current Assets 64,654.36
+B Current Assets
+nventories
+I
+Financial Assets
+(i) lnvestments !7.24 15.50
+(ii) Trade Receivables 24,374.88
+(iii) Cash and Cash Equivalents !4.3r 21.86
+tiank balances other than above 818.23 77r.94
+Loa ns 2L7.29 218.7L
+Others Financial Assets 591.s8 999.14
+Other current assets
+Total Current Assets 67 .08 158.90
+Total Assets
+AND LIABILITIES
+c EQUITY
+Equity Share Capital 7rr.60
+Other 57 74 56,395.38
+Total 106.98
+D Non-Current Liabilities
+Financial Liabilities
+(i) Eorrowings 748.03
+(ii) Lease Liabilities 32.s9 55.37
+Provisions 2,673,57 2,288.55
+Deferred Tax Liabilities N 851.03
+Government Grant 777.66 2t2.50
+Total Non-Current Liabilities 2319-00.19
+E Current Liabilities
+Financial Liabilities
+(i) Borrowings 27
+(ii) Lease Liabilities 46.00 78.O9
+(iii) Trade Payables
+Total outstan dues of micro ente and small ente 277.90
+b) Total outstanding dues of creditors other than micro enterprises and small
+enterprises -___ 6,738.95.
+Other Financial Liabilities 6,r44.tO
+Other Current Liabilities L,767.70
+Government Grant 87.92 37.92
+Provisiolrs 528.73 73
+ncome Ta Lia bilities 567.53 s67.53
+Total Current Liabilities .94
+Total and [iabilities 1,16
+A
+
+=== PAGE 9 ===
+BANSWARA SYNTEX LIMITED
+CIN:124302RJ 1975PtC001684
+UNAUDITED STANDALONE STATEMENT OF CASH FIOW FOR PERIOD ENDED 30 September 2026
+in
+Unaudlted Audited
+Period Ended Year Ended
+Particulars
+30 September 2026 31 March 2026
+A) Cash Flow From Ope.ating Activities:-
+Net Profit Before Tax as per Statement of Profit and Loss t,724.59 3,895.8s
+Adjusted for:
+Depreciation and Amortization Expenses 2,755.78 5,316.L7
+Unrealised Exchange (Gain)/Loss (6s7.27r, 359.36
+Provision for lmpairment of lnvestment in wholly owned subsidiary 129.00
+Provision for Doubtful Advances/Receivables 125.05 40.62
+Deferred Government Grant transfered to Statement of Profit and Loss (40.84) (8s.45)
+Gain on sales/discard of propefi, plant and Equipments (34.82) (r4.26)
+Dividend Received (0.s1) (0.48)
+lnterest lncome (133.12) (2s6.e0)
+Finance Cost 2,r23.o8 4,255.36
+Fair value (gain)/loss transferred to Statement of Profit and Loss (0.64) 4,L42.t! (3.84) 9,735.57
+Operating profit before working capital changes 5,866.70 t3,63t.42
+Adjusted for:
+(lncrease)/Decrease in trade & other receivables 2,292.30 (4,464.21].
+(lncrease)/Decrease in inventories (7,421.301 1,009.63
+(lncrease)/Decrease in Bank balance and Term Deposits
+(46.291 2L0.27
+other than Cash and Cash Equivalents
+lncrease/(Decrease) in trade payable and others 2,699.74 Q.475.551 2,3r4.52 (729.791
+Cash generated from operations 3,391.15 12,901.63
+Direct Tax paid (net of tax refund) 924.40 819.43
+Net cash from operating activlties (Al 2,466.75 L2,082.20
+B) Cash Flow From lnvestingActivities r
+Acquisition of Property, Plant and Equipment (3,600.62) (9,712.4r'l
+Proceeds from sale of Property, Plant and Equipment 156.11 165.82
+Goverment Grant Received 22.O7
+lnvestment in subsidiary (3so.oo) (3so.o0)
+lnvestment in Equity Shares F7r.2Ll
+Dividend Received 0.51 0.48
+Term Deposit with Banks 131.40 (23s.71)
+lnterest lncome 133.12 256.90
+Net cash used in investing activities (Bl (4,100.69) (9,852.851
+C) Cash Flow From Financing Activities l-
+Proceeds from Term Loan borrowings 3,282.6r 5,906.28
+Repayment of Term Loan borrowings (3,137.81) (s,87s.00)
+lnterest paid (2,r32.201 (4,2s6.7eI
+lncrease /(Decrease) in working capital facilities (net) 3,905.40 2,O79.18
+Proceeds from unsecured loans 286.00 327.00
+Repayment of unsecured loans (177.00) (27r.ool
+Repayment of Principal towards Lease Liability (s4.86) (97.3s)
+lnterest Paid on Lease Liability (4.431 (13.38)
+Dividend Paid (342.32]. 342.321
+Net cash from financing activities (Cl 1.,626,19 12,543.381
+Net lncrease/ (Decrease) in cash and cash equivalents (A+B+C) (7.ss) (314.031
+Opening balance of cash and cash equivalents 27.86 33s.89
+Closing balance of cash and cash equivalents t4.31 21.86
+As at
+As at
+Particulars 30 September 31 March 2026
+2026
+Cash on hand 10.66 12.40
+*,-*.
+Balance in current account 3.65 9.46
+Total ii r 14.31 ,f c'n x 2di3i6
+er|
+L
+d.
+s
+
+=== PAGE 10 ===
+K G Somani & Co LLP www.kgsomani.com
+[email redacted]
+CHARTERED ACCOUNTANTS LLP Identilication No. AAX-5330
+Limited Review Report on Consolidated Unaudited Quarterly Financial Results of Banswara
+Syntex Limited for the quarter ended 30 September 2O26 and year-to-date results for the
+period from 01 April 2026 to 30 September 2026 pursuant to the Regulation 33 of the
+Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements)
+Regulations, 2015, as amended
+To
+The Board of Directors
+Banswara Syntex Limited.
+1. We have reviewed the accompanying Statement of Unaudited Consolidated Financial Results of Banswara
+Syntex Limited ("the Parent") which includes its Subsidiary Company [the Parent and its subsidiary
+together referred to as "the Group"), and its share of the net profit after tax and total comprehensive income
+of its joint venture for the quarter and half year ended 30 September 2026 ("the Statement"), being
+submitted by the Parent pursuant to the requirement of Regulation 33 of the SEBI [Listing Obligations and
+Disclosure RequirementsJ Regulations, 2015 (as amended) ("the Listing Regulation").
+2. This Statement which is the responsibility of the Parent's Management and approved by the Parent's Board
+of Directors, has been prepared in accordance with the recognition and measurement principles laid down
+in Indian Accounting Standard 34 "lnterim Financial Reporting" ("lnd AS 34"), prescribed under Section
+133 of the Companies Act, 2013 as amended, read with relevant rules issued thereunder and other
+accounting principles generally accepted in India and is in compliance with the presentation and disclosure
+requirements of Regulation 33 of the Listing Regulations. Our responsibility is to express a conclusion on
+the Statement based on our review
+3. We conducted our review of the Statement in accordance with the Standard on Review Engagements [SRE)
+2410 "Review of Interim Financial Information Performed bythe IndependentAuditor of the Entity", issued
+by the Institute of Chartered Accountants of India. A review of interim financial information consists of
+making inquiries, primarily of persons responsible for financial and accounting matters, and applying
+analytical and other review procedures. A review is substantially less in scope than an audit conducted in
+accordance with Standards on Auditing and consequently does not enable us to obtain assurance that we
+would become aware of all significant matters that might be identified in an audit. Accordingly, we do not
+express an audit opinion.
+We also performed procedures in accordance with the SEBI circular CIR/CFD/CMDL/44/2019 dated 29
+March 2019 issued by the SEBI under Regulation 33 tB) of the SEBI Listing Regulations, to the extent
+applicable.
+*KG
+fs,
++9 I - I I - 41 403938, 23252225,
+
+=== PAGE 11 ===
+4. The Statement includes the results of the following entities:
+S. No Name of the Company Relatlon
+Tesca Textile & Seat Components flndia) Private
+1 foint Venture
+Limited
+2 Banswara Brands Private Limited Subsidiary Company
+5. Based on our review conducted and procedures performed as stated in paragraph 3 above and based on
+the consideration of the financial information/ results referred to in paragraph 6 below, nothing has come
+to our attention that causes us to believe that the accompanying Statement, prepared in accordance with
+the recognition and measurement principles laid down in the aforesaid Indian Accounting Standard
+specified under section 133 of the Companies Act, 2013 as amended and other accounting principles
+generally accepted in India, has not disclosed the information required to be disclosed in terms of
+Regulation 33 of the SEBI flisting Obligations and Disclosure Requirements) Regulations, 2015 (as
+amended), including the manner in which it is to be disclosed, or that it contains any material
+misstatement.
+6.
+Other Matters.
+A)
+We did not reviewthe interim financial information of the subsidiary company, Banswara Brands Private
+Limited, included in the statement, whose interim financial information /result fbefore consolidation
+adjustments) reflects total assets of Rs. 510.12 Lakhs as at 3Oth September 2026,total revenue of Rs.49.05
+Lakhs & Rs. 85.04 Lakhs for the quarter and half year ended 3Ott' September 2026 respectively, total net
+loss after tax of Rs. 80.85 Lakhs and Rs. 152.97 Lakhs for the quarter and half year ended 3Oth September
+2026 respectively, total comprehensive loss of Rs. 80.85 Lakhs & Rs. 152.97 Lakhs for the quarter and
+half year ended 30tt' September 2026 respectively, and net cash inflows of Rs. 165.92 Lakhs for the half
+year ended 3Oth September 2026, as considered in the statement.
+These financial statements have been reviewed by other auditor whose report have been furnished to us by
+the Management and our opinion on the consolidated financial statements, in so far as it relates to the
+amount and disclosures included in respect of aforesaid subsidiary compant is based solely on the report
+ofthe other auditor and procedures performed by us as stated in paragraph 3 above.
+
+=== PAGE 12 ===
+B) The statement also includes joint venture share of net profit of Rs. 42.75 Lakhs & Rs. 136.18 Lakhs for the
+quarter and half year ended 3Ott September,2026 respectively and total comprehensive income of Rs.
+42.75 Lakhs & Rs. 136.18 Lakhs for the quarter and half year ended 30tt' September 2026, as considered
+in the statement. This unaudited interim financial information/results have not been reviewed by the
+auditors and have been approved & furnished to us by Management and our conclusion on the statement,
+in so far as it relates to the amount and disclosures included in respect of the foint venture company, is
+based solely on such unaudited interim financial information/result and the procedure performed by us
+as stated in Paragraph 3 above. According to the information and explanation given to us by the
+management, unaudited interim financial results/ information of foint Venture Company is not material
+to the group.
+Our Conclusion on the statement is not modified in respect of the above matters.
+For KG Somani & Co LLP
+Chartered Accountants
+Firm Registration No: 006591 N/N500 3 77
+t
+J, , llb
+.9
+(Amberfaiswal)
+Partner
+Membership No: 550715
+rXc n+"t3
+UDIN: DL
+Place: Mumbai
+Date: 02na November 2026
+
+=== PAGE 13 ===
+BANSWARA SYNTEX LIMITED
+CIN:124302R.i1975P1C001684
+Regd. Offlce : lndustrial Ar€a, Dahod Road, Banswara . 327001 (Raiasthan)
+Phone: [phone redacted],91t2952-257 67 9-681 tan 9t-2962-240692
+Corporate Office : G5th Floor, Gopal thawan,1gg, Prlncess Street, Mumbal'400002
+Phone: [phone redacted] Fa\i+91 22-2205/t486 / 66336586
+webslte ; Emall :
+STATEMENT OF CONSOTIDATED FINANCIAL RESUTTS FOR THE AND HAIF YEAR ENDED 30 SEPTEMBER 2026
+share
+quarter Ended HalfYear Ended Year End€d
+unaudlted Unaudited Unaudited Unaudited Unaudited Audlted
+30-Seo-25 30-Jun-26 30-Sep-25 3O-SeD-25 30-Seo-25 31-Mar-26
+L Revenue From Operations 35,487.16 37,542.73 34.477.O0 67,059.89 65,064.47 1-35.6)9.O7
+l. other lncome 388.30 660.14 2A5.64 7,O4A.44 666.84 7,3A6.22
+Ill. Total lncome (l+ll) 3s.875.46 32,242.87 34,7s6,64 68.118.33 65,735.31 L37,OL4.29
+Exoenses :
+cost of Materials consumed 15,881.31 74.147.90 !5,4r3,70 30,o29.22 27.a91.62 55.765.72
+Purchases of traded goods 3.00 3.OO 1.91 s.20
+changes in lnventories of Finished Goods, stock-in-Trade and Workln-
+Progress (2,391.06) 11.568.67) (799.91) (3,959.73) 1752.77\ 7.442.37
+EmDlovee Benefits Expenses 9,742.07 a,o43.64 a.264.44 17185.70 32,065,92
+Finance Costs 1,136.39 986.70 1,055.39 2,!23.04 2.731.50 4.255.38
+lgEqcration, Amortiza 1,383.8s 7,372.62 1,355.56 2,756.47 2,659.74 5,379.67
+Power & Fuel 3,972.47 3.542.79 3,474.74 7,454.66 6,742.32 73,447.39
+other Expenses 5,755.77 s.198.26 5,104.80 10,953.97 9.884.60 20,oo4.43
+lV, Total lxpenses 34.a20.74 3r,725.64 39,472.76 55.545.37 65,087.50 132,346.O8
+itemandtax L,O54.72 s17.2? 883.88 1,571.96 647.71 4.668.2L
+(891.38)
+vt. Items
+vll. Share of Profit/(toss) in Joint Venture 42.75 93.44 75.77 736.74 729,92 394.47
+vlll, Profit/(Loss) before tax 1.097-47 610.67 959.65 1.708.15 777.63 4,r75.70
+TaX 420.OO 175.00 307.0q 595.00 307.00 7.246.OO
+Tax l95.ss) {25.541 (ss.7s) lr22.osl (100.86) (190.351
+Tax of
+x. Profit afte-rlglt!4! _ ?f!.o2 461.21 704,40 1.235.23 57t,49 3,120.05
+Other Comprehensive lncome
+A, ltem that will not be reclasslfled to profit or loss
+of defined benefit (303.10)
+Tax of deflned benefit 76.24
+(iii) Share of other comprehensive income of Joint Venture accounted for uslng
+1.80
+Method
+B. ltem that will be to or loss
+Total Other Period of I22s.O2l
+xll. Total Comorehensive lncome for the {x+xl} 774.02 46L.2! 708.40 L.235.23 571.49 2.89s.03
+Xlll, Pald-uD Equltv Share Capltal (Face Value of the Share ' Rs. 5/- Per Share) 7771.8 !,7t7.60 1.711.60 1,77r.60 7.777.60 t,7L|.60
+xlv. other Equlty (Excludlng revaluatlon reserve, As per Audited Balanc€
+56,77a.56
+sheetl
+share Rs.
+2.26 1.35 2.O7 3.61 7.67 9.11
+Diluted 2.26 1.35 2.O7 3.61 !.67 9.11
+see accompanving notes to the flnancial results
+@
+
+=== PAGE 14 ===
+1 The Consolidated unaudited financial results are prepared in accordance with lndian Accounting Standards (lnd AS) as prescribed un
+Section 133 of the Companies Act, 20L3 read with Rule 3 of the Companies (lndian Accounting Standards) Rules, 2015 and Companies
+(lndian Accounting Standards) Amendments Rules, 2016, other Recognized Accounting Practices and Policies to the extent applicable and
+also in terms of Regulation 33 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015.
+2
+The above Consolidated unaudited financial results have been reviewed by the Audit Committee and approved by the Board of Directors
+at their meetings held on November 2,2026. The statutory auditors of the Group have reviewed the financial results for the quarter and
+half Year ended 30 September 2026in terms of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations,
+20L5.
+3 The unaudited consolidated financial results of Banswara Syntex Limited ("Parent") includes the results of subsidiary Company "Banswara
+Brands Private Limited" and its share of net profit after tax and Other Comprehensive lncome of its Joint Venture " Tesca Textiles and Seat
+Components (lndia) Private Limited".
+4
+During the quarter the Company has made long term investment in equity shares of "CGE ll Hybrid Energy Private Limited" amounting to
+Rs. 571.21 Lakhs i.e.57,1.2,121 Equity Shares of Rs. L0 each.
+5 On 27th October 2026 , a fire broke out in at the Holding Company's Packing/Godown area of the Dye House facility at BTM Unit,
+Banswara, spreading to the adjoining TFO Section at BFL Unit .Further, on 30 October 2026, accidental leakage in the secondary coil of the
+BTM 5000 U Thermopac machines at Banswara Unit caused fire & damage to property, plant and equipment and inventories. No casualties
+or injuries were reported. The affected assets are insured, and the Company has initiated the insurance claim process, subject to
+assessment and policy terms.
+As both incidents occurred after 30 September 2026, they are considered non-adjusting events, and no adjustment has been made to the
+quarter and half-yearfinancial results. Based on its preliminary assessment, the Management does not expect any material impact.
+6 ln line with the provisions of lnd AS 108- "Operating Segment" and on the basis of review of operations being carried out by the
+management of the Group, the operations of the Group fall within a single operational segment viz. Textiles, which is considered to be the
+only reportable segment by the management.
+7
+The figures ofthe previous periods/year have been regrouped/rearranged/reclassified, wherever considered necessary to correspond with
+the current period classification/disclosure.
+For and on behalf of Board of Directors
+BANSWARA SYNTEX LIMITED
+.:
+Place : Mumbai Managing Director
+Date: November2,2026 DIN :00246432
+
+=== PAGE 15 ===
+BANSWARA SYNTEX TIMITED
+CIN | 124302RJ 1976P1C001684
+Regd. Office : lndustrial Area, Dahod Road, Banswara - 327001 (Rajasthan!
+Phonef 91-2962-240690,9ri962'257679-681 Fax: 9l-2962-240692
+Corporate Office :4-5th Floor, Gopal Bhawan,199, Princess Street, Mumbai-400002
+Phoner [phone redacted] Fax:+9L2222064486 | 66336585
+Website : ww.banswarasyntex.com, Email : [email redacted]
+CONSOLIDATED STATEMENT OF ASSETS AND TIABITITIES
+Rs. ln
+As at As at
+Particulars 30 September 2026 31 March 2026
+Unaudited Audited
+ASSETS
+A Non-Current Assets
+Plant and 55,261.00 55,0s8.02
+of Use Asset 371.80 423.r0
+lWork-in-P 4,198.68 3,016.07
+Other lntangible Assets 54.82 s3.00
+l3luq
+lnvestment accounted for Method 2,062.68
+Financial Assets
+Others 607.97 709.45
+lncome Tax Assets (Net) 2,943.71 2,614.3L
+Other Non-Current Assets 948.68 L,566.37
+Total Non-Current Assets 66,449.34 64,795.6t
+B Current Assets
+nventories 37,739.92 30,319.30
+I
+Financial Assets
+(i) lnvestments rt-t4 16.60
+Trade Receivables 22,467.56 24,353.45
+(iii) Cashand Cash Equivalents 318.05 159.68
+(iv) Bank balances other 818.24 77r.94
+2Lr.29 21a.rL
+Loans
+0{otllgr' 591.58 999.15
+s,585.95
+other current assets
+62,424,t8
+Total Current Assets
+Total Assets L34,743,27 r27.2t9,79
+EQUTW AND UABILITIES
+c EQUITY
+sEEQqpEt 7tL.60 7,7J-L.60
+Other 57 .48 s6,778.56
+59,383.08 58,490.16
+Total
+D Non-Current Liabilities
+Financial Liabilities
+748.O3 19,370.55
+(ii Lease Liabilities 32.59 55.37
+2,673.s8 2,288.55
+Provisions
+Deferred Tax Liabilities (Net) 1.851.03 7.973.r3
+t77.66 2r2.50
+Government Grant
+Total Non-Current Liabilities 25,476.89 23,900.10
+E Current Liabilities
+Financial Liabilities
+30,764.06 27,994.92
+(i)
+46.00 78.O9
+(ii) Lease Liabilities
+Trade
+Total dues of micro and small L,038.77 1,280.87
+b) Total outstanding dues bf creditors other than micro enterprisesand
+8,109.15 6,742,97
+small
+6,159.18
+other Financial Liabilities
+L,772.66 1,389.38
+Other Current Liabilities
+87.92 87.92
+Government Grant
+s2a.73 52a.73
+Provisions
+567.53 567.53
+lncome Tax Liabilities
+49,883.30 44,829,54
+Total Current [iabilities
+Total and [iabilities 134,743,27
+&
+o
+?
+
+=== PAGE 16 ===
+BANSWARA SYNTEX LIMITED
+CIN :124302RJ1976P1C001684
+CONSOLIDATED STATEMENT OF CASH FLOW FOR THE YEAR ENDED 31 MARCH 2025
+(Rs. in [akhsl
+Unaudited Audited
+Year Ended Year Ended
+Particulars
+30 september 2026 31 March 2026
+Al Cash Flow From Operating Activities l
+Net Profit Before Tax as per Statement of Profit and Loss 1,708.15 4,115.70
+Adiusted for :
+Depreciation and Amortization Expenses 2,756.47 5,319.67
+Unrealised Exchange Loss/(Gain) {6s1.271 359.36
+Share of (Profit)/Loss of Joint Venture (136.18) (398.87)
+lmpairment Allowance for Doubtful Advances/Receivables 125.0s 40.62
+Deferred Government Grant transfered to Statement of Profit and Loss (40.84) (89.4s)
+Net [oss/(Gain) on sales of property, plant and Equipments (34.83) 174.27].
+Dividend Received (0.s1) (0.48)
+lnterest lncome (t33.721. (2s9.23)
+Finance Cost 2,r23.O4 4,255.38
+Fair value (gain)/loss transferred to Statement of Profit and Loss {0.64) 4.006.61 (3.84) q ,08.8q
+Operating profit before working capital changes 5,774.76 13,384.59
+Adjusted for :
+(lncrease)/Decrease in trade & other receivables 2,256.47 14,49L.L6].
+(lncrease)/Decrease in inventories 17,420.62]. 992.79
+(lncrease)/Decrease in Bank balance and Term Deposits
+(46.30) 270.27
+other than Cash and Cash Equivalents
+lncrease/(Decrease) intrade and others payables 2.70t.76 (2.50a.29 2.521.78 1766 7)l
+Cash generated from operations 3,206.47 12,618.28
+Direct Tax paid (net of tax refund) 9)4 40 819.43
+Net cash from operating activities (A) 2,292.06 11.798.84
+B) Cash Flow From lnvesting Activities l
+Acquisition of Property, Plant and Equipment (3,600.62) .9,712.4L].
+Proceeds from sale of Propeny, Plant and Equipment 155.12 16s.83
+Goverment Grant Received 22.07
+Dividend Received 0.51 0.48
+Term Deposit with Banks L31.40 l23s.7Ll
+lnvestment in Equity Shares lslL.2Ll
+lnterest lncome 732.72 259.23
+Net cash used in investing activities (8) {3.7s0.081 lq sdo c1 I
+C) Cash Flow From Financing Activities i
+Proceeds from Term Loan borrowings 3,282.6r 5,906.28
+Repayment of Term Loan borrowings (3,137.81) (s,875.00)
+lnterest paid 12,132.201. (4,256.79].
+lncrease /(Decrease) in working capital facilities 3,906.40 2,079.18
+Proceeds from unsecured loans 286.00 327.00
+Repayment of unsecured loans (L77.001. 127L.00l
+Repavment of Principal towards Lease Liability (s4.86) (97.3s)
+lnterest Paid on Lease Liability (4.43) (13.38)
+Dividend Paid (342.321 114) 1)\
+Net cash from financing activities (C) 16?6.4q l2-543.!t8l
+Net Increase/ (Decrease) in cash and cash equivalents (A+B+C) 158.37 (24s.0s)
+Opening balance of cash and cash equivalents 159.68 404.73
+Closing balance of cash and cash equivalents 318.05 159.58
+Cash and Cash Equivalent includesl
+As at As at
+Particulars
+30 September 2026 31 March 2025
+Cash on hand 10.66 t2.40
+Balance in current account 307.39 747.28
+Total 318.05 159.58
+c
+$Y
+frl
+7
+"tj ('| T
+lc

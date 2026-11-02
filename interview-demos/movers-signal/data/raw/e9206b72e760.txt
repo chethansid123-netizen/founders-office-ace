@@ -1,0 +1,81 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachHis/5fd9c82f-b7a0-45f6-9ea1-19a059f85b52.pdf
+SHA256: 0a07b3196b7149523d7cb54a83e3520dd47872a3096304553027a556050bb095
+FETCHED_AT: 2026-11-02T14:16:36+00:00
+PAGES: 3
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 0 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+September 30, 2026
+To To
+The Manager The Manager
+The Department of Corporate Services The Listing Department
+BSE Limited National Stock Exchange of India Limited
+Floor 25, P. J. Towers, Exchange Plaza, Bandra Kurla Complex,
+Dalal Street, Mumbai – 400 001 Bandra (East), Mumbai – 400 051
+Scrip Code: 539450 Scrip Symbol: SHK
+Dear Sir / Madam,
+Sub: Changes in Senior Management Personnel of the Company
+Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (‘Listing Regulations’), we
+hereby inform you about the following changes in Senior Management Personnel of the Company:
+1. Resignation of Mr. Vivek Kulkarni, Executive Vice President – Ingredients Division:
+Mr. Vivek Kulkarni, Executive Vice President – Ingredients Division and Senior Management Personnel of the
+Company, has resigned from the services of the Company to pursue other professional interests outside the Keva
+Group. He is being relieved from the services with effect from the close of business hours of September 30, 2026.
+2. Appointment of Mr. Rajeev Mishra as Vice President – Sales & Ingredients Division:
+Consequent to Mr. Vivek Kulkarni’s decision to resign from the Company and as part of re-orgnisation within the
+Group, the Board of Directors of the Company, basis the recommendation of the Nomination and Remuneration
+Committee, has today i.e. on September 30, 2026 approved the appointment of Mr. Rajeev Mishra [currently serving as
+Associate Vice President – Strategy (Fragrance & AID)] as Vice President – Sales & Ingredients Division and Senior
+Management Personnel of the Company with effect from October 01, 2026.
+The approval of the Board of Directors was received at 02:33 p.m. (IST).
+The details as required under Regulation 30 of the Listing Regulations read with Part A of Schedule III of the Listing
+Regulations read with SEBI Master Circular No. HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026
+are enclosed herewith as ‘Annexure I’ and a copy of resignation letter of Mr. Vivek Kulkarni is enclosed as ‘Annexure II’.
+This intimation is also being uploaded on the Company’s website at www.keva.co.in.
+We request you to kindly take the same on record.
+For S H Kelkar and Company Limited
+Deepti Chandratre
+Global Legal Counsel and Company Secretary
+Encl: As above
+
+=== PAGE 2 ===
+Annexure I
+Changes in Senior Management Personnel of the Company
+Sr. Particulars Resignation of Mr. Vivek Kulkarni, Appointment of Mr. Rajeev Mishra as
+No. Executive Vice President – Ingredients Vice President – Sales & Ingredients
+Division Division
+a. Reason for change viz. Mr. Vivek Kulkarni, Executive Vice Consequent to Mr. Vivek Kulkarni’s
+appointment, re-appointment, President – Ingredients Division and Senior decision to resign from the Company and as
+resignation, removal, death or Management Personnel of the Company, part of re-orgnisation within the Group, the
+otherwise. has resigned from the services of the Board of Directors of the Company, basis
+Company to pursue other professional the recommendation of the Nomination and
+interests outside the Keva Group. Remuneration Committee, has today i.e. on
+September 30, 2026 approved the
+appointment of Mr. Rajeev Mishra
+[currently serving as Associate Vice
+President – Strategy (Fragrance & AID)] as
+Vice President – Sales & Ingredients
+Division and Senior Management Personnel
+of the Company with effect from October
+01, 2026.
+b. Date of appointment / re- Date of cessation: September 30, 2026 Date of appointment: October 01, 2026
+appointment / cessation (as Term of appointment: Not Applicable
+applicable) & term of
+appointment / re-appointment.
+c. Brief profile (in case of Not Applicable Mr. Rajeev Mishra, an alumnus of IIT
+appointment) Roorkee and IIM Calcutta, is an
+accomplished business leader with 25+ years
+of professional experience across industries
+and geography. His experience in senior
+leadership roles includes that of Business
+Head, Board member, Strategy
+Development, P&L Accountability and
+Business turn-around.
+d. Disclosure of relationships Not Applicable Not Applicable
+between directors (in case of
+appointment of a director) Mr. Rajeev Mishra is not related to any
+Director of the Company.
+
+=== PAGE 3 ===
+

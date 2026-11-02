@@ -1,0 +1,804 @@
+SOURCE_URL: https://nsearchives.nseindia.com/corporate/ESDS_02112026163013_ESDS_BM_Outcome_BSE_NSE_Intimation.pdf
+SHA256: 49b5e2fe08454ddffda9bbfee53ff62f4b1d4e78e8b04ec5292fa1f6f6aa2fbb
+FETCHED_AT: 2026-11-02T14:07:09+00:00
+PAGES: 18
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 14 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+Ref. No. ESDS / 2026-27 / 16
+Date: November 02, 2026
+To To
+Department of Corporate Services Listing Department
+BSE Limited National Stock Exchange of India Limited
+Phiroze Jeejeebhoy Towers, C-1, G-Block, Bandra-Kurla Complex
+Dalal Street, Mumbai, MH – 400001 Bandra (E), Mumbai, MH – 400051
+Scrip Code: 544898 Scrip Symbol: ESDS
+Sub: Outcome of the Board Meeting under Regulation 30 of SEBI (Listing Obligations and Disclosure
+Requirements) Regulations, 2015 (‘Listing Regulations’).
+Dear Sir/Madam,
+With reference to the captioned subject and pursuant to Regulation 30 and 33 of the SEBI (Listing Obligations
+and Disclosure Requirements) Regulations, 2015 (“SEBI LODR”), please be informed that the Board of
+Directors of the Company at its meeting held today i.e. Monday, November 02, 2026, inter alia considered
+and approved the following:
+1. Unaudited Standalone and Consolidated Financial Results along with the Limited Review Reports
+issued by M S K C & Associates LLP, Chartered Accountants, Statutory Auditors for the quarter and half
+year ended September 30, 2026, which have been duly reviewed and recommended by the Audit
+Committee.
+2. Disclosure under Regulation 32 of SEBI (LODR) Regulations 2015, confirming no deviation or variation in
+utilization of funds raised through IPO during the quarter ended September 30, 2026, (Annexure A).
+3. Convening 21st AGM of the Company on Monday, November 30, 2026 at 11.00 a.m. through Video
+Conferencing / Other Audio-Visual Means (“VC/OAVM”) in accordance with the applicable circulars
+issued by the Ministry of Corporate Affairs and the Securities and Exchange Board of India.
+4. Appointment of Mr. Sushil Kadu as the Chief Product Officer (“CPO”) designated as Senior Management
+Personnel with effect from November 02, 2026 (Annexure B);
+5. Appointment of M/s. Sharma and Trivedi LLP (LLPIN: AAW-6850) (Peer Review Certificate No.
+5560/2024), Practising Company Secretaries, as Secretarial Auditor of the Company for a first term of
+five consecutive financial years, from FY 2026-27 to FY 2030-31 (April 01, 2026 to March 31, 2031),
+subject to approval of the members at ensuing General Meeting (Annexure C).
+The Board meeting commenced at 1:30 p.m. and concluded at 4:20 p.m.
+
+=== PAGE 2 ===
+The Unaudited Standalone and Consolidated Financial Results and above necessary information will be made
+available on the Company's website at www.esds.co.in
+Kindly take note of the same.
+Thanking you
+For ESDS Software Solution Limited
+(Prasad Deochand Deokar)
+Company Secretary & Compliance Officer
+M. No. A34350
+
+=== PAGE 3 ===
+MSKC & Associates LLP Floor 6, Building No. 1
+Cerebrum It Park, Kalyani Nagar
+Pune 411014, INDIA
+Chartered Accountants
+Independent Auditor's Review Report on standalone unaudited financial results of ESDS Software
+Solution Limited for the quarter and year to date pursuant to the Regulation 33 of the SEBI (Listing
+Obligations and Disclosure Requirements) Regulations, 2015, as amended.
+To The Board of Directors of ESDS Software Solution Limited
+1. We have reviewed the accompanying statement of standalone unaudited financial results of ESDS
+Software Solution Limited (hereinafter referred to as 'the Company'), for the quarter ended September
+30, 2026 and the year to-date results for the period from April 01, 2026 to September 30, 2026 ('the
+Statement') attached herewith, being submitted by the Company pursuant to the requirements of
+Regulation 33 of the Securities and Exchange Board of India (Listing Obligations and Disclosure
+Requirements) Regulations, 2015, as amended ('the Regulations'). Attention is drawn to the fact that
+the standalone figures for the corresponding quarter ended September 30, 2025 as reported in these
+financial results have been approved by the company's Board of Directors, but have not been subjected
+to review since the requirement of submissiono f standalone financial results was applicable on listing
+of equity shares of the Company from the quarter ended June 30, 2026.
+2. This Statement, which is the responsibility of the Company's Management and has been approved by
+the Company's Board of Directors, has been prepared in accordance with the recognition and
+measurement principles laid down in Indian Accounting Standard 34 'Interim Financial Reporting',
+prescribed under Section 133 of the Companies Act, 2013 ('the Act') read with relevant rules issued
+thereunder ('Ind AS 34') and other recognised accounting principles generally accepted in India and is
+in compliance with the Regulations. Our responsibility is to express a conclusion on the Statement
+based on our review.
+3. We conducted our review of the Statement in accordance with the Standard on Review Engagements
+(SRE) 2410, "Review of Interim Financial Information Performed by the Independent Auditor of the
+Entity" issued by the Institute of Chartered Accountants of India. A review of interim financial
+information consists of making inquiries, primarily of persons responsible for financial and accounting
+matters, and applying analytical and other review procedures. A review is substantially less in scope
+than an audit conducted in accordance with Standards on Auditing specified under section 143(10) of
+the Act and consequently does not enable us to obtain assurance that we would become aware of all
+significant matters that might be identified in an audit. Accordingly, we do not express an audit
+opinion.
+Registered Office: 10th Floor, Level 13th, Module 4, 21 /22, Olympia Cyberspace, Alandur Road, Arulaiyammanpet, Guindy, Chennai 600032,
+Tamil Nadu, India
+Tel: [phone redacted] I LLPIN: ACK·7 004
+Ahmedabad I Bengaluru I Chennai I Gurugram I Hyderabad I Kolkata I Mumbai
+
+=== PAGE 4 ===
+MSKC & Associates LLP
+Chartered Accountants
+4. Based on our review conducted as stated in paragraph 3 above, nothing has come to our attention that
+causes us to believe that the accompanying Statement prepared in accordance with the recognition and
+measurement principles laid down in Ind AS 34 and other recognised accounting principles generally
+accepted in India has not disclosed the information required to be disclosed in terms of the
+Regulations, including the manner in which it is to be disclosed, or that it contains any material
+misstatement.
+For M S K C & Associates LLP
+Chartered Accountants
+ICAI Firm Registration Number: 001595S/S000168
+\ t'Z,"
+(
+/
+v
+Partner
+Membership No.: 158877
+UDIN: 26158877BHBXUJ8411
+Place: Pune
+Date: November 02, 2026
+Registered Office: 10th Floor, Level 13th, Module 4, 21/22, Olympia Cyberspace, Alandur Road, Arulaiyammanpet, Guindy, Chennai 600032,
+Tamil Nadu, India
+Tel: [phone redacted] I LLPIN: ACK-7004
+Ahmedabad I Bengaluru I Chennai I Gurugram I Hyderabad I Kolkata I Mumbai I Pune
+
+=== PAGE 5 ===
+ESDS Software Solution Limited
+Registered Office- Plot No. B - 24 & 25 NICE Industrial Area, Satpur MIDC, Nashik, 422007.
+Tel No. [phone redacted] E-maiL: [email redacted]; website: www.esds.co.in
+CIN- U72200MH2005PLC155433
+Unaudited Standalone Financial Results for the Quarter and Half year ended September 30, 2026
+(All amounts are in Rupees million, unless otherwise stated)
+QUARTER ENDED SIX MONTHS ENDED YEAR ENDED
+September 30,
+September 30,
+Sr.
+Particulars 2026
+June 30,2026 2025 ;:::}?:::::,";;Ma;rc'h: 31: ,2;0;26
+no (Unaudited) (Unaudited) (Audited)
+(Unaudited)
+ir note 3
+Revenue from operations 1 ,209.46 1 ,161.66 837.94 2,371 .12 1 ,755.63 3,781.17
+Other income 33.09 14.91 33.51 48.00 58.70 91 .68
+o 2 1 ,176.57 871 .45 2,419.12 1 ,814.33 3,872.85
+Expenses
+Employee benefits expense 279.11 229.75 233.86 508.86 469.73 928.10
+Finance costs 32.94 25.70 27.58 58.64 63.05 11 7.90
+Depreciation and amortisation expenses 196.13 184.75 158.41 380.88 307.85 634.58
+Other expenses 421 .87 493.51 296.84 915.38 642.18 1 ,285.57
+11 O 930.05 933.71 716.69 1 ,863.76 1 ,482.81 2,966.15
+mr
+312.50 242.86 154.76 555.36 331.52 906.70
+Tax expense
+Current tax 90.19 95.56 80.21 185.75 11 5.29 288.94
+Deferred tax (9.60) (34.69) (14.09) (44.29) (6.05) (3.73)
+O 80.59 60.87 66.12 141 .46 109.24 285.21
+r 231 .91 181 .99 88.64 41 3.90 222.28 621 .49
+Other comprehensive income
+Items that will not be reclassified to profit or loss
+Gain / (Loss) on remeasurement of post-employment defined 4.92 (7.75) (6.90) (2.82) (7.61) 10.00
+Income tax effect of the above (1 .24) 1.95 2.10 0.71 1.92 (2.52)
+VI ;mncome for the period/ year, net of 3.68 W5 b4 80) a2 (5.69) 7.48
+Tota1 comprehensive income for the period /year [A+B] 235.59 176.19 83.84 41 1 .79 216.59 628.97
+a 117.21 100.43 100.43 117.21 100.43 100.43
+vllll Other equity 5,099.57
+Earnings per equIty share (Face value of INFI 1 per share) (Not
+annuaLised except for the year ended 31 March 2026 )
+Basic (in INFI) 2.11 1.81 0.88 3.76 2.21 6.19
+Diluted (in INFI) 2.07 1.78 0.87 3.64 2.17 6.08
+
+=== PAGE 6 ===
+rter and Half ve&r ended SeDtember 30. 2026
+In terms of Regulation 33 of the SEBI (Listing Obligation and Disclosure Requirements) Regulations, 2015, as amended, the above standalone financial results of ESDS
+Software Solution Limited ("the Company") have been reviewed and recommended by the Audit Committee and approved by the Board of Directors, at their meetings held
+on November 02, 2026. These unaudited standalone financial results have been subjected to limited review by the statutory auditors of the Company and they have issued
+an unmodified review report
+2
+The above standalone financial results have been prepared in accordance with the Companies (Indian Accounting Standards) Rulesl 20158 as amendedl (''lnd AS")
+prescribed under section 133 of Companies Act, 2013 and other recognised accounting practices and policies to the extent applicable and in terms of Regulation 33 of the
+SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 ('SEBI LODR'), both as amended from time to time
+3
+The unaudited standalone financial results for the quarters ended September 301 2025 have been prepared bY the management and approved by the Board of Directors of
+the CompanY' The statutorY auditors have neither audited nor conducted a limited review of the financial results for these periods. The requirement to submit quarterly
+standalone flnancial results became applicable to the CompanY from the quarter ended June 30, 2026, pursuant to the listing of its equity shares on BSE Limited ("BSE")
+and the National Stock Exchange of India Limited ("NSE")
+4 The figures as at and for the Year ended March 31, 2026 are based on the audited standalone financial statements of the Company on which the statutory auditors issued
+an unmodified opinion dated May 27, 2026.
+5 Pursuant tO the approval granted bY NSE Limited J the equitY shares of the CompanY were listed and admitted to dealings on the Main Board of NSE Limited under the Direct
+Llstlng Route with effect from September 041 2026. ConsequentIYl the equitY shares of the Company are listed on both the National Stock Exchange of India Limited and
+BSE Limited at an issue price of Rs. 429 per equity share (including securities premium of Rs. 428 per equity share). The issue comprised of a fresh issue of 16l783 216
+equity shares aggregating to Rs. 7,199.92 million.
+6 in accordance with Ind AS 1081 Operating segmentsl the CompanY has disclosed the segment information in the unaudited consolidated financial results of the Company
+and therefore no separate disclosure on segment information is given in these unaudited standalone financial results.
+7 The unaudited standalone financial results of quarter ended September 30l2026 are available on the website of the company www.esds.co.in and also on website of NSE
+(www.nseindia.com) and BSE (www.bseindia.com), where the shares of the Company is listed
+For and on beh8tf of the Board of Directors
+ESDS Software Solution Limited
+CIN IMH2005PLCI 55433
+Piyush Somani
+Place: N8shik Chairman and Managing Director
+Date: November 02, 2026 DIN :02357582
+Place: Nashik
+
+=== PAGE 7 ===
+ESDS Software Solution Limited
+Registered Office. Plot No. B - 24 & 25 NICE Industrial Area, Satpur MIDC, Nashik, 422007.
+Tel No. [phone redacted] E-mail: [email redacted]; website: www.esds.co.in
+CIN- U72200M H2005PLC155433
+Statement of Unaudited Standalone Assets and liabilities as at September 30, 2026
+[ALI amounts are in Rupees miILion, unless otherwise stated)
+Sr. no Particulars September 30, 2026 1 March 31, 2026
+I
+Unaudited Audited
+I I ASsns
+I. Non.current assets
+Property, plant and equipment 3,004.82 3,164.12
+Capital work -in -progress 144.12 39.92
+Right -of- use assets 734.13 584.41
+Other Intangible assets 202.70 130.35
+FinancialA ssets
+(i) Investments 466.93 431.91
+(ii) Other financial assets 447.98 194.23
+Deferred tax Assets (net) 4.70
+Income tax assets (net) 41.13 23.60
+Other non-current assets 253.02 63.26
+ITot8t non.current assets 5,299.53 4,631 .80
+II. Current assets
+Financial assets
+(i) Trade receivables
+Billed 1 ,078.34 913.28
+Unbilted 918.72 554.70
+(ii) Cash and cash equivalents 3,51 4.03 38.69
+(iii) Other bank balances 3,41 9.80
+(iv) Other financial assets 207.70 498.09
+Other current assets 390.96 494.37
+O ent assets 9,529.55 2,499.13
+Ml
+assets 14,829.08 7,130.93
+11 IEQUITY AND LIABILITIES
+Equity
+(i) Equity share capital 11 7.21 100.43
+(ii) Other equity 12,390.88 5.099.57
+t 12,508.09 5,200.00
+LIABILITIES
+I. Non.current liabilities
+Financial liabilities
+(i) Borrowings 310.65 284.17
+(ii) Lease liabilities 543.58 375.81
+Provisions 155.33 79.88
+Deferred tax LiabiLity (net) 148.93
+Total non.current ti8biLiti8s 1 ,009.56 888.79
+II. Current liabilities
+Financial liabilities
+(i) Borrowings 157.58 145.00
+(ii) Lease liabilities 106.68 159.72
+(iii) Trade payables
+Total outstanding dues of micro enterprises and
+7.55 18.17
+small enterprises
+Total outstanding dues of creditors other than 375.58 360.88
+micro enterprises and small enterprises
+(iv) Other financial liabiLities 163.42 11 1.03
+Provisions 3.83 23.08
+Current tax liabilities (net) 102.63 49.62
+Other current liabilities 394.16 174.64
+Mac lrrent liabilities 1 ,31 1 .43 1 ,042.14
+Total liabilities 2,320.99 1 ,930.93
+Eotal equity and liabilities 14,829.08 7, 130.93
+
+=== PAGE 8 ===
+ESDS Software SolutIon LImited
+Registered Office. Plot No. B-24 & 25, NICE Area, MIDC, Satpur, Nashik- 422 007, Maharashtra
+Tel No. [phone redacted] E.mail: [email redacted]; website: www.esds.co.in
+CIN- U72200M H2005PLC155433
+Statement of unaudIted standalone Cash flows for the sIx months ended September 30, 2026
+(All amounts are in Rupees million, unless otherwise stated)
+PerIod ended 1 Period ended
+Sr. no.I PartIculars September 30, 2026 1 September 30, 2025
+r
+I a
+Profit before tax 555.36 331.52
+AdJustments for
+Depreciation and amortisation expenses 380.88 307.85
+Gain on sale of property, plant and equipment (0.28)
+Expected credit loss allowance 46.71 44.36
+Bad Debts 2.44
+Balances written back
+Interest income (39.57) (17.96)
+Finance costs 55.31 58.02
+Unrealised gain on mutual fund (1.71 ) (1.36)
+Employee stock option expenses 28.51 23.26
+Unreatised exchange (gain)/loss (0.41 )
+Cessation of lease liabilities 1.44
+Transaction costs on issue of shares 23.41
+W
+OperatIng profit before working capital changes 737.36
+Changes in workIng capItal
+AdJustments for (Increase)/ decrease in operatIng assets
+Trade receivabtes (575.37) (71.88)
+Other financial assets (68.28) 16.71
+Other assets 117.54 (11 1.65)
+AdJustments for lncr88se/ (decrease) in operatIng U8blUtl8s
+Trade p8yabtes 4.09 (48.27)
+Other financial liabilities 49.38 55.92
+Provisions 53.38 (7.44)
+Other liabilities 21 9.52 (69.30)
+Cash generated from operations 848.46 501.45
+Income taxes paid ( 150.27) (118.67)
+Net cash from operatIng activItIes 698.19 382.78
+11 I Cash (used in) InvestIng actIvItIes
+Payments for property, plant and equipment and intangible assets (546.34) (441 .90)
+Investment in fixed deposits with bank (net) (3,348.61 ) (16.08)
+Investment in mutual funds (33.31 )
+Proceeds from sale of property, plant and equipment and intangible assets 2.41
+Repayment of loan by subsidiary 42.94 362.87
+Interest received on fixed deposits 30.36 14.51
+t it ies (3,852.55) (80.60)
+111 I Cash from fInancIng activIties
+Proceeds from fresh issue of equity shares 7.199.92
+Transaction cost on issue of equity shares (462.65)
+Repayment of long term borrowing (71.07) (91 .29)
+Proceeds from long-term borrowing 133.33
+Repayment of short-term borrowing (23.20) (53.67)
+Principal paid on lease liabilities (89.55) (68.03)
+Interest paid on lease liabilities (27.85) (28.51 )
+Transaction cost on acquisition of right.of.use assets (1.77)
+Interest paid on borrowings (27.46) (29.58)
+IV Mo h from/ (use@) financIng activIties 6,629.70 (271.08)
+Net increase / (decrease) in cash and cash equIvalents 3,475.34 31.10
+Cash and cash equiv8tents at the beginning of the financial year 38.69 190.48
+V 1 perIod 3,514.03 221 .58
+of cash and cash equivalents:
+PartIculars lember 30, 2026 mber 30, 2025
+Cash and cash equivalents 3.51 4.03 221 .58
+Balance wIth banks
+In current accounts 317.12 221.58
+In deposits with original of less than 3 months 3,196.91
+
+=== PAGE 9 ===
+MSKC & Associates LLP Floor 6, Building No. 1
+Cerebrum It Park, Kalyani Nagar
+Pune 411014, INDIA
+Chartered Accountants
+Independent Auditor's Review Report on consolidated unaudited financial results of ESDS Software
+Solution Limited for the quarter and year to date pursuant to the Regulation 33 of the SEBI (Listing
+Obligations and Disclosure Requirements) Regulations, 2015, as amended
+To the Board of Directors of ESDS Software Solution Limited
+1. We have reviewed the accompanying Statement of consolidated unaudited financial results of ESDS
+Software Solution Limited (hereinafter referred to as 'the Holding Company') which includes its
+subsidiaries, (the Holding Company and its subsidiaries together referred to as the 'Group') for the
+quarter ended September 30, 2026 and the year to-date results for the period from April 01, 2026 to
+September 30, 2026 ('the Statement') attached herewith, being submitted by the Holding Company
+pursuant to the requirements of Regulation 33 of the Securities and Exchange Board of India (Listing
+Obligations and Disclosure Requirements) Regulations, 2015, as amended ('the Regulations'). Attention
+is drawn to the fact that the consolidated figures for the corresponding quarter ended September 30,
+2025, as reported in these financial results have been approved by the holding company's Board of
+Directors, but have not been subjected to review since the requirement of submission of quarterly
+consolidated financial results was applicable on listing of equity shares of the Holding Companyf rom the
+quarter ended June 30, 2026.
+2. This Statement, which is the responsibility of the Holding Company's Management and approved by the
+Holding Company's Board of Directors, has been prepared in accordance with the recognition and
+measurement principles laid down in Indian Accounting Standard 34 'Interim Financial Reporting'
+prescribed under Section 133 of the Companies Act, 2013 ('the Act') read with relevant rules issued
+thereunder ('Ind AS 34') and other recognized accounting principles generally accepted in India and is
+in compliance with the Regulations. Our responsibility is to express a conclusion on the Statement based
+on our review.
+3. We conducted our review of the Statement in accordance with the Standard on Review Engagements
+(SRE) 2410, 'Review of Interim Financial Information Performed by the Independent Auditor of the
+Entity' issued by the Institute of Chartered Accountants of India. A review of interim financial
+information consists of making inquiries, primarily of persons responsible for financial and accounting
+matters, and applying analytical and other review procedures. A review is substantially less in scope
+than an audit conducted in accordance with Standards on Auditing specified under section 143(10) of
+the Act and consequently does not enable us to obtain assurance that we would become aware of all
+significant matters that might be identified in an audit. Accordingly, we do not express an audit
+opinion.
+We also performed procedures in accordance with the circular issued by the Securities and Exchange
+Board of India under Regulation 33 (8) of the Regulations, to the extent applicable.
+Registered Office: 10'h Floor, Level 13'\ Module 4, 21/22, Olympia Cyberspace, Alandur Road, Arulaiyammanpet, Guindy, Chennai 600032,
+Tamil Nadu, India
+Tel: [phone redacted] I LLPIN: ACK-7004
+Ahmedabad I Bengaluru I Chennai I Gurugram I Hyderabad I Kolkata I Mumbai
+
+=== PAGE 10 ===
+MSKC & Associates LLP
+Chartered Accountants
+4. This Statement includes the results of the Holding Company and the following entities:
+Relationship with the Holding
+Sr. No Name of the Entity
+Company
+1 SpochubS olutions Private Limited Subsidiary
+2 ESDS Cloud FZ LLC Subsidiary
+3 ESDS Global Software Solutions Inc Subsidiary
+5. Based on our review conducted and procedures performed as stated in paragraph 3 above, nothing has
+come to our attention that causes us to believe that the accompanying Statement prepared in
+accordance with the recognition and measurement principles laid down in Ind AS 34 and other
+recognised accounting principles generally accepted in India, has not disclosed the information required
+to be disclosed in terms of the Regulations, including the manner in which it is to be disclosed, or that it
+contains any material misstatement.
+6. The Statement includes the interim financial statements of one subsidiary which is not subjected to
+review, whose interim financial statements reflect total assets of Rs. 2.44 million as at September 30,
+2026 and total revenue of Rs. Nil and Rs. Nil, total net profit after tax of Rs. Nil and Rs. Nil for the
+quarter ended September 30, 2026 and for the period from April 01, 2026 to September 30, 2026
+respectively, and cash flows (net) of Rs. Nil for the period from April 01, 2026 to September 30, 2026, as
+considered in the Statement. This interim financial statements have been furnished to us by the
+Management and our conclusion on the Statement in so far as it relates to the amounts and disclosures
+included in respect of these subsidiary is based solely on such management prepared unaudited interim
+financial statements. According to the information and explanations given to us by the Management,
+this interim financial statements are not material to the Group.
+Our conclusion is not modified in respect of the above matter with respect to our reliance on the
+financial result certified by the management.
+For M S K C & Associates LLP
+Chartered Accou_!1tants
+ICAI Firm Rers,{'aiion mber: 0015955/5000168
+.!
+Y)'
+ogesh Yewale
+Partner
+Membership No.: 158877
+UDIN: 2615887700YMVE9262
+Place: Pune
+Date: November 02, 2026
+Registered Office: 'lO'h Floor, Level 13rn, Module 4, 21 /22, Olympia Cyberspace, Alandur Road, Arulaiyammanpet, Guindy, Chennai 600032,
+Tamil Nadu, India
+Tel: [phone redacted] I LLPIN: ACK-7004
+Ahmedabad I Bengaluru I Chennai I Gurugram I Hyderabad I Kolkata I Mumbai I Pune
+
+=== PAGE 11 ===
+Registered Office- Plot No. B - 24 & 25 NICE Industrial Area, Satpur MIDC, Nashik, 422007.
+Tel No. [phone redacted] E-mail: [email redacted]; website: www.esds.co.in
+CIN. U72200MH2005PLC155433
+Unaudited Consolidated Financial Results for the Quarter and six months ended September 30, 2026
+(All amounts are in Rupees million, unless otherwise stated)
+QUARTER ENDED SIX MONTHS ENDED Y
+September
+September 30, 30, 2025 September 30, September March 31,
+June 30,2026
+Sr. no Particulars 2026 (Unaudited) 2026 30, 2025 2026
+(Unaudited)
+(Unaudited) (Refer note 3 (Unaudited) (Audited) (Audited)
+beLow)
+Revenuef rom operations 1 ,383.37 1 ,336.57 937.82 2,719.94 2,183.69 4,722.10
+Other income 53.12 L 15.14 24.71 F 68.26 36.05 84.42
+o BIlag W 1 962.53 M 421 9.74 5
+Expenses
+Employee benefit expenses 298.02 251.58 269.87 549.60 506.82 1 ,044.20
+Finance costs 33.28 25.69 28.09 58.97 63.86 117.90
+Depreciation and amortisation expenses 196.13 b 184.75 154.52 380.88 307.88 634.63
+Other expenses 507.78 525.02 179.86 1 ,032.80 664.1 8 1 ,335.56
+Total expenses 1 ,035.21 987.04b 632.34 2,022.25 1 ,542.74 3,132.29
+401 .28 364.67 330.19 765.95 677.00 6
+Tax expense
+Current tax 99.96 106.59 126.78 206.55 208.70 469.03
+Deferred tax (9,60) (34.69) (17.59) (44.29) (9.55) (3.03)
+rlMiMM
+IV 90.36 71 .90 109.19 162.26 199.15 466.00
+V Profit for the period/year [A] (III-IV) 310.92 292.77 221 .00 603.69 477.85 0
+Other comprehensive income
+Items that will not be reclassified to profit or loss
+Gain/(loss) on remeasurement of post-employment benefit plans 4.92 (7.75) (6.90) (2.82) (7.61 ) 13.07
+Income tax effect of the above (1.24) 1.95 M2.10 0.71 1.92 (3.29)
+3.68 liaiIII liMj 9.78
+W5
+Items that will be reclassified to profit or loss
+Gain on foreign exchange differences on transalation of foreign operations 6.19 (0.68) 7.43 5.51 6.66 8.79
+VI MBM@income for the per®MW] 9.87 B!pEIEiI 2.63 3.40 0.97 18.57
+VII T 320.79 286.29 223.63 607.09 478.82 1 ,226.80
+Profit is attributable to:
+Owners of the Company 310.92 292.77 218.43 603.69 475.02 1 ,202.83
+Non-controlling interest 2.57 2.83 5.40
+310.92 292.77 221 .00 603.69 477.85 1 ,208.23
+Other comprehensive Income is attributable to:
+Owners of the Company 9.87 (6.48) 2.63 3.40 0.97 18.57
+Non-controlling interest
+9.87 2.63 3.40 0.97 18.57
+We
+Total comprehensive income is attributable to:
+Owners of the Company 320.79 286.29 221.06 607.09 475.99 1 ,221 .40
+Non-controlling interest 2.57 2.83 5.40
+320.79 286.29 223.63 607.09 478.82 1 ,226.80
+Paid up equity share capital (face value of Rs. 1 each) 117.21 100.43 100.43 117.21 100.43 100.43
+Other equity 5,336.16
+EarnIngs per equity share (Face value of INR 1 per share) (Not annuaLised
+except for the year ended March 31, 2026 )
+Basic (in INFI) 2.83 2.92 2.20 5.49 4.76 12.03
+Diluted (in INFI) 2.77 2.85 2.16 5.38 4.67 11.81
+
+=== PAGE 12 ===
+1 In terms of Regulation 33 of the SEBI (Listing Obligation and Disclosure Requirements) Regulations, 2015, as amended, the above consolidated financial results of ESDS Software
+SoLution Limited ('the Holding Company') which includes its subsidiaries, (the HoLding Company and its subsidiaries together referred to as the 'Group’) have been revieweda nd
+recommended by the Audit Committee and approved by the Board of Directors, at their meetings held on November 02, 2026. These unaudited consolidated financial resutts
+have been subjected to limited review by the statutory auditors of the Company and they have issued an unmodified review report
+2 The above consolidated fInancial results have been prepared in accordance with the Companies (Indian Accounting Standards) RuLes, 2015, as amended. ("Ind AS") prescribed
+under section 133 of Companies Act, 2013 and other recognised accounting practices and policies to the extent applicable and in terms of Regulation 33 of the SEBI (Listing
+Obligations and Disclosure Requirements) Regulations, 2015 {'SEBI LODR'), both as amended from time to time
+3 The unaudited consoLidated financial results for the quarters ended September 30, 2025 have been prepared by the management and approved by the Board of Directors of the
+Company. The statutory auditors have neither audited nor conducted a limited review of the financial results for these periods. The requirement to submit quarterly consolidated
+financial results became applicable to the Company from the quarter ended June 30, 2026, pursuant to the listing of its equity shares on BSE Limited ("BSE") and the National
+Stock Exchange of India LImited ("NSE").
+4 The figures as at and for the year ended March 31, 2026 are based on the audited consolidated financial statements of the Company on which the statutory auditors issued an
+unmodified opinion dated May 27, 2026.
+5 Pursuantt o the approval granted by NSE Limited, the equity shares of the Company were listed and admitted to dealings on the Main Board of NSE Limited under the Direct Listing
+Route with effect from September 04, 2026. Consequently, the equity shares of the Company are listed on both the National Stock Exchange of India Limited and BSE Limited at
+an issue price of Rs. 429 per equity share (incLuding securities premimum of Rs. 428 per equity share). The issue comprised of a fresh issue of 16,783,216 equity shares
+aggregating to INR 7,199.92 million
+6 The Group has identified business segment as its primary segment. In accordance with Indian Accounting Standard 108 - Segment Reporting, the Group has determined its
+business segment as "design, development, installation and servicing of information technology related resource". Operating segments are reported in a manner consistent with
+the internal reporting provided to the board of directors based in India regarded as the Chief Operating Decision Maker (“CODM”). The CODM evaluates performance of the Group
+as one single segment. Accordingly, segment information has not been separately disclosed
+7 The Group Comprises following entities:
+Name of the Company Relationship
+© lutl©n LIFnited Holding company
+2. MChUbSOtLMPaM LimitmFa Subsidiary
+3. ESDS Cloud FZ LLC. UAE Subsidiary
+4. ESDS GLobal Software Solutions Inc, USA Subsidiary
+8 The unaudited consolidated financial results of quarter ended September 30,2026 are available on the website of the company www.esds.co.in and also on website of NSE
+(www.nseindia.com) and BSE (www.bseindia.com), where the shares of the Company is listed
+For and on behalf of the Board of Directors
+ESDS Software Solution Limited
+Cl IOPIH2005PLC155433
+Place: N8shik
+Date : 02 November, 2026 Piyufsh Somani
+Chairman and Managing Director
+DIN :02357582
+Place: Nashik
+
+=== PAGE 13 ===
+ESDS Software SolutIon LImIted
+Registered Office- Plot No. B . 24 & 25 NICE Industrial Area, Satpur MIDC, Nashik, 422007
+Tel No. +91 253.71 1 2244 1 E-mail: [email redacted]; website: www.esds.co.in
+CIN. U72200MH2005PLC1 55433
+Statement of unaudited consolidated assets and IIabIIItIes as at September 30, 2026
+(All amounts are in Rupees million, unless otherwise stated)
+September 30, 2026 March 31, 2026
+Sr. no. I P8rticul8r8
+Unaudited Audited
+I ASSFrs
+le NonncuIT8nt assets
+Property, plant and equipment 3.008.78 3,164.12
+Capital work.in.progress 144.12 39.92
+Right.of.use assets 734.13 584.41
+Other intangible assets 202.70 130.35
+Financial assets
+(i) Investments 80.47 45.45
+(ii) Other financial assets 391 .44 186.50
+Income t8x assets (net) 41.13 23.60
+Other non.current assets 6,961.60 63.26
+Deferred tax Asset (net) 10.77
+Total non-curr8nMs 1 1 ,575.14 4,237.61
+II. Current assets
+Financial assets
+(i) Trade r8ceivabtes
+Billed 1.325.15 1 ,021.26
+Unbilted 1.037.31 633.93
+(ii) Cash and cash equivalents 16.368.31 12.533.85
+(iii) Other bank balances 3.419.80
+(iv) Other financial assets 208.69 456.33
+Current tax assets (net)
+Other current assets 496.06
+Total cMi assets 15,141 .43
+Tot8t8ssets 41 ,095.40 19.379.04
+11 EQUITY AND UABIUTIES
+EquIty
+(i) Equity share capital 117.21 100.43
+(ii) Other equity 12,822.76 5.336. 1 6
+Equity 8ttribut8bte to owners of the Company 12,939.97 5,436.59
+Non-controlling interest 5.40 5.40
+liEEgg[[gil 12,945.37 5.441 .99
+LIABILITIES
+I. Non.current IIabIIItIes
+FinancIal liabilities
+(i)BorrowIngs 310.65 284.17
+(ii) Lease liabilities 543.58 375.81
+ProvisIons 128.29 96.94
+Deferred tax liability (net) 142.89
+Other Non. current liabilities 6.708.58
+Total non.current liabilities 7,691.10 899.81
+II. Current IIabIIItIes
+Financial IIabilities
+(i) Borrowings 169.83 145.00
+(ii) Lease liabilities 106.68 1 59.72
+(iii) Trade pay8btes
+Total outstanding dues of micro enterprises and small 7.52 18.17
+Total outstanding dues of creditors other than micro enterprises
+432.89 370.76
+and small enterprises
+(iV) Other financial liabilities 172.96 126.64
+Provisions 48.73 30.07
+Current tax liabilities (net) 303.44 229.71
+Other current liabilities 19.216.88 11 ,957.17
+Total current liabilities 20,458.93 13,037.24
+To®l$n8Bi®Me 28,150.03 13,937.05
+Tot8t equity 8nd ti8bititi8s 41 .095.40 19,379.04
+
+=== PAGE 14 ===
+ESDS Software SolutIon LImIted
+Registered Office. Plot No. B.24 & 25, NICE Area, MIDC, Satpur, Nashik– 422 007, Maharashtra
+Tel No. +91 253.71 1 2244 1 E.mail: [email redacted]; website: www.esds.co.in
+CI N- U72200MH2005PLC155433
+Statement of unaudIted consoIIdated cash flows for the sIx months ended September 30, 2026
+(All amounts are in Rupees million, unless otherwise stated)
+PerIod Ended I PerIod Ended
+Sr. No. P8rtlcuL8rs Sept
+L
+em
+a
+be
+m
+r 30
+G
+, 20
+F
+26 a1- S–ept ember 30, 2025
+Aurdi©iJ
+I ©sh flows from operatIng activities
+Profit before tax 765.95 677.00
+AdJustments for
+Depreciation and amortisation expense 380.88 307.88
+Gain on sale of property, plant and equipment (0.28)
+Expected Credit loss allowance 46.71 44.36
+Bad Debts 2.44
+Balance write back (1.43)
+Interest income (39.81 ) (25.26)
+Finance costs 55.31 58.40
+Unre8tised gain on mutual fund (1.71 ) 1 (1.36)
+Employee stock option expenses 28.51 23.71
+Unre8lised exchange (gain)/loss (20.43)
+Cessation of lease tiabitites 1.44
+Transaction costs on issue of equity shares M23.41
+OperatIng profIt before workIng capItal changes 1,0837 la
+Changes in workIng capItal
+AdJustments for (Increase)/ decrease in operatIng assets
+Trade receivabtes (733.54) (80.21 )
+Other financial assets (19.27) 19.84
+Other assets (13,359.39) (111.28)
+AdJustments for increase/ (decrease) in operatIng IIabiIItIes
+Trade payabtes 51.48 (43.76)
+Provisions 47.19 19.75
+Other financial liabilities 43.31 66.49
+Other liabilities 1 3,968.29 14,010.87
+Cash generated from oper8tions 1.236.59 14,968.88
+Income taxes paid (150.35) (118.31)
+BPet cas®Wating activitIes 0 14,850.57
+11 Cash (Used in) investing activitIes
+Payments for property, plant and equipment and intangible assets (550.31 ) (441.90)
+Investment in fixed deposits with bank (net) (3.348.61 ) 1 (16.08)
+Investment in mutual funds (33.31 )
+Proceeds from sale of property, plant and equipment 2.41
+Interest received on fixed deposits 30.59 21.81
+d in) investIng activities 3 W4
+C8sh from/ (used in) fInancIng actIvItIes
+Proceeds from fresh issue of equity shares 7,199.92
+Transaction cost on issue of equity shares (462.65)
+Repayment of long term borrowing (71.08) (91 .29)
+Proceeds from long.term borrowing 133.33
+Repayment of short'term borrowing (23.20) (53.67)
+Proceeds from short-term borrowings 12.25 24.50
+Principal paid on lease liabilities (89.55) (96.55)
+Transaction cost on acquisition of right.of.use assets (1.77)
+Interest paid on lease liabilities (27.85)
+Interest paid on borrowings (27.46) (29.89)
+8 6,641 .94 tag:881)1
+Not Increase in cash and c8sh equIvalents 3,828.95 14, 167.50
+Foreign currency translation impact on cash and cash equivalents 5.51 6.66
+Cash and cash equivalents at the beginning of the financial year 12.533.85 606.80
+V a 8tents at the end of the fInancIal year 16,368.31 14,780.96
+Compon8nts of cash and cash equivalents:
+SopjMrMiM
+September 30, 2026
+C8sh and cash equivalents 16,368.31 14,780.96
+Balances wIth banks
+-In current accounts 13,171 .07 14.680.33
+-In deposits with original maturity of less than 3 months 3, 1 96.91
+Cash in hand
+
+=== PAGE 15 ===
+Annexure A
+ESDS Software Solution Limited
+Statement of Deviation or Variation in utilisation of funds raised through Public Issue
+for the Quarter and Financial Year ended March 31, 2026
+[Pursuant to Regulation 32(1) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 read with the SEBI
+Master Circular for compliance with the provisions of the LODR Regulations]
+Name of listed entity ESDS Software Solution Limited
+Mode of fund raising Public Issue (Initial Public Offer)
+Date of raising funds September 02, 2026
+Amount raised ₹ 7200 million (fresh issue; net proceeds ₹ 6,670.48 million)
+Report filed for quarter ended September 30, 2026
+Monitoring Agency Applicable
+Monitoring Agency name, if applicable CRISIL Ratings Limited
+Is there a deviation / variation in use of funds
+No
+raised
+If yes, whether the same is pursuant to change in
+terms of a contract or objects, which was Not applicable
+approved by the shareholders
+If yes, date of shareholder approval Not applicable
+Explanation for the deviation / variation Not applicable
+No deviation / variation observed. The Audit Committee
+Comments of the Audit Committee after review reviewed the statement at its meeting held on November
+02, 2026.
+Comments of the auditors, if any Nil
+
+=== PAGE 16 ===
+Objects for which funds have been raised and where there has been a deviation / variation, in the following table:
+Amount of
+Deviation /
+Variation
+Modified
+Modified Original Funds for the
+Allocation, Remarks, if
+Original Object Object, if Allocation Utilised quarter
+if any any
+any (₹ million) (₹ million) according to
+(₹ million)
+applicable
+object
+(₹ million)
+Purchase and
+To be
+installation of cloud
+deployed as
+computing and other Not Not
+5,760.00 Nil Nil per Schedule
+equipment and applicable applicable
+in offer
+infrastructure for our
+document
+Relevant Data Centres
+To be
+deployed as
+General Corporate Not Not
+910.48 87.46 Nil per Schedule
+Purposes applicable applicable
+in offer
+document
+To be
+deployed as
+Not Not
+Issue Expenses 529.52 381.67 Nil per Schedule
+applicable applicable
+in offer
+document
+Total - 7,200.00 - 469.13 Nil -
+Deviation or variation could mean:
+(a) Deviation in the objects or purposes for which the funds have been raised;
+(b) Deviation in the amount of funds actually utilised as against what was originally disclosed; or
+(c) Change in terms of a contract referred to in the fund-raising document, i.e. prospectus, letter of offer, etc.
+For ESDS Software Solution Limited
+_________________________
+(Prasad Deochand Deokar)
+Company Secretary & Compliance Officer
+Place: Nashik
+Date: 02.11.2026
+
+=== PAGE 17 ===
+Annexure B
+Details required under Regulation 30 of the Listing Regulations read with SEBI Master Circular No.
+SEBI/HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026
+Particulars Details of Appointment
+Reason for change viz. appointment, Appointment of Mr. Sushil Kadu as
+reappointment, resignation, removal, death, Chief Product Officer
+or otherwise
+Date of appointment, re-appointment, 02nd November, 2026 (Full-time employment)
+cessation (as applicable) & term of
+appointment / re-appointment
+Brief profile (in case of appointment) Mr. Sushil Kadu has over 20 years of experience in
+technology and product leadership. He most recently
+served as Director – Technology Line Manager at Amdocs
+India, where he led a global team of 70+ engineers
+building AI-driven monitoring, automation, GenAI/RAG
+and cloud-native platforms for telecom operators
+worldwide. He is the inventor of an AI-powered
+enterprise translation engine (US Patent Application No.
+15/857,249). As Chief Product Officer, he will strengthen
+the Company’s Swaraj Platform, lead the launch of new
+products and services, and add new features to existing
+offerings. He holds a Bachelor’s degree in Computer
+Science from Amravati University and is a certified Six
+Sigma Green Belt and ITIL v3 professional.
+Disclosure of relationship between Directors Mr. Sushil Kadu is not related to any Director of the
+(in case of appointment of a director) Company
+
+=== PAGE 18 ===
+Annexure C
+Details required under Regulation 30 of the Listing Regulations read with SEBI Master Circular No.
+SEBI/HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026
+Particulars Details of Secretarial Auditors
+Name of Auditor Sharma and Trivedi LLP (LLPIN: AAW-6850) (Peer Review
+Certificate No. 5560/2024), Practising Company
+Secretaries.
+Reason for change viz. appointment, The Board of Directors on the recommendation of the
+reappointment, resignation, removal, death, Audit Committee at its meeting held today i.e. 02nd
+or otherwise November 2026, has considered and approved the
+appointment of M/s Sharma and Trivedi LLP (LLPIN: AAW-
+6850), Practicing Company Secretary, as the Secretarial
+Auditors for a first term of five consecutive financial years
+commencing from FY 2026-27 to FY 2030-31, subject to
+approval of the shareholders at the ensuing Annual
+General meeting
+Date of appointment, re-appointment, Appointment for a first of term of 5 five consecutive
+cessation (as applicable) & term of financial years, from FY 2026-27 to FY 2030-31, subject to
+appointment / re-appointment the approval of the shareholders at the ensuing Annual
+General Meeting.
+Brief profile (in case of appointment) M/s. Sharma and Trivedi LLP, having LLPIN: AAW-6850
+and holding Peer Review Certificate No. No. 5560/2024
+issued by the Institute of Company Secretaries of India, is
+a LLP of Practicing Company Secretaries providing
+professional services in the areas of corporate laws,
+securities laws and allied matters. The firm has extensive
+professional experience in advising corporates and
+providing professional services in the field of corporate
+laws, securities laws and allied matters.
+Disclosure of relationship between Directors Not Applicable
+(in case of appointment of a director)

@@ -1,0 +1,93 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachHis/1597de5e-8fa5-47ce-afdf-223c9770422f.pdf
+SHA256: 57b4987fd61360cdda44afd543254c0735d6f10983b6ed71243ced10252f03e1
+FETCHED_AT: 2026-11-02T14:20:58+00:00
+PAGES: 3
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 2 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+Karnataka Bank Ltd.
+Your Family Bank. Across India.
+Regd. & Head Office Phone : [phone redacted]
+P. B. No.: 599, Mahaveera Circle E-Mail : [email redacted]
+Kankanady Website : www.karnatakabank.bank.in
+Mangaluru – 575 002 CIN : L85110KA1924PLC001128
+SECRETARIAL DEPARTMENT
+HO:SEC:194:2026-27 Date: 19.10.2026
+The Manager The Manager
+Listing Department Corporate Relationship Department
+National Stock Exchange of India Limited BSE Limited
+Exchange Plaza,C-1, Block G Phiroze Jeejeebhoy Towers
+Bandra-Kurla Complex, Bandra (E) Dalal Street
+MUMBAI - 400051 MUMBAI - 400001
+NSE Scrip Code: KTKBANK BSE Scrip Code: 532652
+Madam / Dear Sir,
+Reg.: Disclosure under Regulation 30 of the SEBI (LODR) Regulations, 2015: Change
+in Senior Management of the Bank
+Pursuant to Regulation 30 and other applicable provisions of the SEBI (Listing
+Obligations and Disclosure Requirements) Regulations, 2015, we inform that
+Mr. Raja B S (Chief Operating Officer) has submitted his resignation from the services of
+the Bank vide letter dated 19.10.2026, for pursuing further career and passion beyond the
+Bank. After completion of all the internal formalities, the resignation is effective from the
+close of business hours of today i.e., 19.10.2026.
+Further, in terms of SEBI Master Circular No.: SEBI/HO/49/14/14(7)2025-CFD-
+POD2/I/3762/2026 dated January 30, 2026, the details of Mr. Raja B S are furnished in
+the Annexure.
+Mr. Raja B S, accordingly ceases to be a Senior Management Personnel of the Bank with
+effect from the close of business hours of today i.e., 19.10.2026.
+Copy of the resignation letter dated 19.10.2026 of Mr. Raja B S along with the detailed
+reason is enclosed herewith.
+This is for your kind information and dissemination.
+Yours faithfully,
+Sham K
+Company Secretary &
+Compliance Officer
+1
+
+=== PAGE 2 ===
+Annexure
+1. Mr. Raja B S
+Sl. No. Particulars Disclosures
+1. Reason for change viz. To pursue further career and passion
+appointment, resignation, beyond the Karnataka Bank Limited.
+removal, death or otherwise;
+2. Date of appointment/cessation Mr. Raja B S has resigned from the
+(as applicable) & services of the Bank as Chief Operating
+Officer vide his letter dated 19.10.2026 and
+his resignation is with effect from the close
+of business hours of 19.10.2026.
+Term of appointment; Not Applicable
+3. Brief profile (in case of Not Applicable
+appointment);
+4. Disclosure of relationships Not Applicable
+between directors (in case of
+appointment of a
+director)
+2
+
+=== PAGE 3 ===
+From:
+RAJA BS, St 16155,
+Chief Operating Officer/CGM,
+Karnataka Bank Ltd
+HO, Mangalore -2
+To:
+The Managing Director & CEO,
+Karnataka Bank Ltd
+HO, Mangalore -2
+Dear Sir,
+Re: Voluntary Resignation from Karnataka Bank's service, as COO.
+*************************
+I hereby submit my resignation from the services of the Karnataka Bank to pursue my
+further career and passion beyond KBL and request you to kindly accept my resignation
+from the services with immediate effect and relieve me at the earliest.
+I sincerely thank the Management and Board of Directors for giving me the opportunity to
+serve the great Organisation for almost 37 years at various levels and locations from scale I
+officer to Chief Operating Officer of the 'Bank.
+Thanking you,
+7 ·
+Raja BS
+St.16155
+Mangalore
+19.10.2026
+Classification I PUBLIC

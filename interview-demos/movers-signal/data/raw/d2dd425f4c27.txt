@@ -1,0 +1,177 @@
+SOURCE_URL: https://www.bseindia.com/xml-data/corpfiling/AttachHis/9b77fd8f-3c17-4629-a385-63858a55817c.pdf
+SHA256: 447feeb309c51e04788452f70278aed261a416d4f656d363aaf22d202c1e9b67
+FETCHED_AT: 2026-11-02T14:08:12+00:00
+PAGES: 5
+ENGINE: pdfplumber (engine A)
+REDACTIONS: 8 (personal e-mail addresses and phone numbers)
+
+=== PAGE 1 ===
+HEXT/SE/2026/90 Date: September 02, 2026
+To,
+Department of Corporate Services Listing Department
+BSE Limited National Stock Exchange of India Limited
+1st floor, Phiroze Jeejeebhoy Towers Exchange Plaza, C-1, Block G
+Dalal Street, Mumbai 400 001 Bandra Kurla Complex, Bandra (E)
+Maharashtra, India Mumbai 400 051
+Scrip Code: 544362 Maharashtra, India
+Symbol: HEXT
+Sir/Madam,
+Sub: Disclosure of material events under Regulation 30 of the SEBI (Listing Obligations and Disclosure
+Requirements) Regulations, 2015.
+Pursuant to the Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements)
+Regulations, 2015 (“SEBI Listing Regulations”), we hereby inform you the following:
+1. Mr. Srikrishna Ramakarthikeyan (DIN: 03160121), Chief Executive Officer (CEO) and Whole-
+time Director, vide email dated September 02, 2026, has submitted his resignation as (i) the CEO
+of Hexaware Technologies Limited (the “Company”) and of Hexaware Technologies Inc., a wholly
+owned subsidiary of the Company (“HTI”); (ii) Whole-time Director of the Company; and (iii)
+Director of the subsidiaries of the Company, in each case, with effect from October 28, 2026.
+2. Basis recommendation of the Nomination and Remuneration Committee, the Board of Directors
+of the Company has today i.e., September 02, 2026, approved the appointment of Mr. Srikrishna
+Ramakarthikeyan as Senior Advisor to the Company with effect from October 28, 2026.
+3. Basis recommendation of the Nomination and Remuneration Committee, the Board of Directors
+of the Company has today i.e., September 02, 2026, approved the appointment of Mr. Vivek
+Jetley, as the Chief Executive Officer (CEO) of the Company with effect from October 28, 2026.
+The details required in terms of Regulation 30 read with Schedule III - Para A(7) and Para A (7C) of Part
+A of the SEBI Listing Regulations and SEBI Circular No. HO/49/14/14(7)2025-CFD-POD2/I/3762/2026
+dated January 30, 2026 (“SEBI Master Circular”), are enclosed as annexures below.
+The above information is also available on the website of the Company at www.hexaware.com.
+The meeting commenced at 5.35 PM IST and concluded at 5.53 PM IST.
+We request you to kindly take the same on your record.
+Thanking you,
+For Hexaware Technologies Limited
+Gunjan Methi
+Company Secretary and Compliance Officer
+HEXAWARE TECHNOLOGIES LIMITED
+Regd. Office: 8th Floor, 13th Level,Q1, Loma Co-Developers1 Private Limited, Plot No.Gen-4/1,TTC Industrial Area,
+Ghansoli, Navi Mumbai-400710, Maharashtra, India | Tel: [phone redacted] | Email: [email redacted]
+CIN: L72900MH1992PLC069662 | URL: www.hexaware.com
+
+=== PAGE 2 ===
+Annexure A
+Information as required under Regulation 30 read with Schedule III - Para A (7C) of Part A of the SEBI
+(Listing Obligations and Disclosure Requirements) Regulations, 2015, read along with SEBI Circular
+No. HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026 is furnished below:
+Sr. No Particulars Details
+1. Reason for change viz. Appointment, Resignation of Mr. Srikrishna
+re-appointment, resignation, removal, Ramakarthikeyan as (i) the Chief Executive
+death or otherwise; Officer (CEO) of Hexaware Technologies
+Limited (the “Company”) and of Hexaware
+Technologies Inc., a wholly owned
+subsidiary of the Company (“HTI”); (ii)
+Whole-time Director of the Company; and
+(iii) Director of the subsidiaries of the
+Company.
+Appointment of Mr. Srikrishna
+Ramakarthikeyan as Senior Advisor to the
+Company.
+2. Date of appointment/re- The Board of Directors noted the
+appointment/cessation (as applicable) resignation of Mr. Srikrishna
+& term of appointment/re-appointment; Ramakarthikeyan as (i) the CEO of
+Hexaware Technologies Limited (the
+“Company”) and of Hexaware
+Technologies Inc., a wholly owned
+subsidiary of the Company (“HTI”); (ii)
+Whole-time Director of the Company; and
+(iii) Director of the subsidiaries of the
+Company, in each case, with effect from
+October 28, 2026.
+He will be relieved from the employment of
+the Company and HTI with effect from
+October 28, 2026.
+A copy of the resignation letter dated
+September 02, 2026, is enclosed as
+Annexure D.
+The Board of Directors have approved the
+appointment of Mr. Srikrishna
+Ramakarthikeyan as a Senior Advisor to the
+Company with effect from October 28, 2026.
+3. Brief profile (in case of appointment); Not Applicable.
+4. Disclosure of relationships between Not Applicable.
+directors (in case of appointment of a
+director).
+HEXAWARE TECHNOLOGIES LIMITED
+Regd. Office: 8th Floor, 13th Level,Q1, Loma Co-Developers1 Private Limited, Plot No.Gen-4/1,TTC Industrial Area,
+Ghansoli, Navi Mumbai-400710, Maharashtra, India | Tel: [phone redacted] | Email: [email redacted]
+CIN: L72900MH1992PLC069662 | URL: www.hexaware.com
+
+=== PAGE 3 ===
+Annexure B
+Information as required under Regulation 30 read with Schedule III - Para A(7) of Part A of the SEBI
+(Listing Obligations and Disclosure Requirements) Regulations, 2015, read along with SEBI Circular
+No. HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026 is furnished below:
+Sr. No Particulars Details
+1. Reason for change viz. Appointment, Appointment of Mr. Vivek Jetley as Chief
+re-appointment, resignation, removal, Executive Officer.
+death or otherwise;
+2. Date of appointment/re- Mr. Vivek Jetley shall hold office as the Chief
+appointment/cessation (as applicable) Executive Officer, for a period of 4 (four)
+& term of appointment/re-appointment; years with effect from October 28, 2026.
+3. Brief profile (in case of appointment); Enclosed herewith as Annexure C.
+4. Disclosure of relationships between Not Applicable.
+directors (in case of appointment of a
+director).
+HEXAWARE TECHNOLOGIES LIMITED
+Regd. Office: 8th Floor, 13th Level,Q1, Loma Co-Developers1 Private Limited, Plot No.Gen-4/1,TTC Industrial Area,
+Ghansoli, Navi Mumbai-400710, Maharashtra, India | Tel: [phone redacted] | Email: [email redacted]
+CIN: L72900MH1992PLC069662 | URL: www.hexaware.com
+
+=== PAGE 4 ===
+Annexure C
+Vivek Jetley
+Vivek is a seasoned business leader with more than 25 years of
+experience at the intersection of AI and data, enterprise
+transformation and strategy. He has a proven track record of
+scaling global businesses, leading large P&Ls, and creating new
+growth engines during periods of technology disruption from data
+and cloud to GenAI. He brings deep experience in management
+consulting, analytics, and data and AI-led transformation, delivering
+measurable outcomes for large global and Fortune 500 enterprise
+clients.
+He joins Hexaware from EXL, where he currently serves as
+President and leads their Insurance, Healthcare and Life Science
+businesses. Prior to this role, he was the President of EXL
+analytics, building and leading industry-leading advanced
+analytics, AI services, and enterprise data management capabilities for clients across verticals.
+Vivek joined EXL in 2006 through the acquisition of Inductis, a specialized analytics consulting firm
+where he was a partner. During two decades at EXL, Vivek has held various leadership roles with
+responsibility for corporate strategy, strategic partnerships, innovation, and has led several acquisitions.
+Over the years, Vivek has been instrumental in EXL’s transformation from an Operations company to a
+data and AI-led, high value, high growth enterprise.
+He started his career as a consultant with Mitchell Madison Group in New York. Vivek holds a bachelor’s
+degree in computer engineering and a master’s of business administration from the Indian Institute of
+Management Calcutta.
+HEXAWARE TECHNOLOGIES LIMITED
+Regd. Office: 8th Floor, 13th Level,Q1, Loma Co-Developers1 Private Limited, Plot No.Gen-4/1,TTC Industrial Area,
+Ghansoli, Navi Mumbai-400710, Maharashtra, India | Tel: [phone redacted] | Email: [email redacted]
+CIN: L72900MH1992PLC069662 | URL: www.hexaware.com
+
+=== PAGE 5 ===
+Annexure D
+The Board of Directors
+Hexaware Technologies Limited
+8th floor, 13th Level, Q1, Loma Co-Developers1 Private Limited,
+Plot no. Gen-4/1, TTC Industrial Area, Ghansoli,
+Navi Mumbai, Maharashtra, 400710
+Dear Board Members,
+Sub: Resignation from the position of (i) the Chief Executive Officer of Hexaware Technologies Limited
+and of Hexaware Technologies Inc.; (ii) Whole-time Director of Hexaware Technologies Limited; and (iii)
+Director of the subsidiaries of Hexaware Technologies Limited, in each case, with effect from October
+28, 2026.
+I am writing to tender my resignation as (i) the Chief Executive Officer of Hexaware Technologies Limited
+(the “Company”) and of Hexaware Technologies Inc., a wholly owned subsidiary of the Company
+(“HTI”); (ii) Whole-time Director of the Company; and (iii) Director of the subsidiaries of the Company,
+in each case, with effect from October 28, 2026, to pursue personal interests.
+Serving in this role has been one of the most fulfilling chapters of my professional life, and I am deeply
+grateful for the trust placed in me by the Board, our shareholders, and the broader Hexaware family.
+During my tenure, I have had the privilege of witnessing and contributing to a meaningful transformation
+of the company, both in terms of financial performance and the positive impact we have had on our
+associates, clients, and partners.
+I request you to kindly acknowledge the receipt of this resignation letter and complete all necessary
+compliances, including the filing of required filings and e-forms with the stock exchanges and Registrar
+of Companies in accordance with applicable laws.
+I will remain available to the Company and its subsidiaries to support a smooth transition and I leave
+with every confidence in the company’s continued growth and success.
+Yours faithfully,
+_________________________
+Mr. Srikrishna Ramakarthikeyan
+DIN: 03160121
