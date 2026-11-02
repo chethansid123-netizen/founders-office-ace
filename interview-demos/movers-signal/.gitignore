@@ -1,0 +1,11 @@
+# Original PDFs are a local cache only: they are public exchange documents, and some
+# resignation letters carry personal contact details. Re-download with pipeline/fetch.py.
+data/raw/pdf/
+# Texts of filings screened out before extraction (kept locally, listed in data/filing_list.md)
+data/raw/screened/
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+__pycache__/
