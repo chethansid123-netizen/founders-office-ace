@@ -96,8 +96,8 @@ PHONE_RES = [
     re.compile(r"\+\s?91[\s\-]*\(?\d{2,5}\)?[\s\-]*\d{3,5}[\s\-]*\d{3,5}(?:[\s\-]*\d{1,4})?"),
     # bare Indian mobile numbers: 10 digits starting 6-9, optional 0 prefix
     re.compile(r"(?<![\d/])0?[6-9]\d{4}[\s\-]?\d{5}(?![\d/])"),
-    # landlines with STD code: 022-2659 8100, (022) 66455555, 0124 4567890
-    re.compile(r"(?<![\d/])\(?0\d{2,4}\)?[\s\-]\d{3,4}[\s\-]?\d{3,5}(?![\d/])"),
+    # landlines with STD code: 022-2659 8100, (022) 66455555, 0124 4567890, 080 – 66006969
+    re.compile(r"(?<![\d/])\(?0\d{2,4}\)?\s*[\s\-–]\s*\d{3,4}[\s\-]?\d{3,5}(?![\d/])"),
 ]
 # explicitly labelled numbers: "Tel: 2272 1234", "Phone No. 66455555", "Mob 98..."
 LABELLED_PHONE_RE = re.compile(

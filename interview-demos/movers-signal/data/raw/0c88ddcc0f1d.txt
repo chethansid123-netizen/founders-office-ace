@@ -3,7 +3,7 @@ SHA256: f9b0e61f258d73e064079e41f41036040d23fa6a094c35b4dc1bb2a6af10d0c0
 FETCHED_AT: 2026-11-02T14:07:21+00:00
 PAGES: 13
 ENGINE: pdfplumber (engine A)
-REDACTIONS: 12 (personal e-mail addresses and phone numbers)
+REDACTIONS: 13 (personal e-mail addresses and phone numbers)
 
 === PAGE 1 ===
 CIN: L65920MH1994PLC080618 HDFC Bank Limited,
@@ -394,7 +394,7 @@ Helpdesk for Members holding securities in demat mode for any technical issues r
 i.e. NSDL and CDSL.
 Login type Helpdesk details
 Individual Members holding shares in Contact NSDL helpdesk by sending a request to Ms. Pallavi Mhatre, Deputy
-demat mode with NSDL Vice President at [email redacted] or call at No.: 022 - 4886 7000
+demat mode with NSDL Vice President at [email redacted] or call at No.: [phone redacted]
 Individual Members holding shares in Contact CDSL helpdesk by sending a request at helpdesk.evoting@
 demat mode with CDSL cdslindia.com or call at 1800-21-09911
 B. Login Method for e-voting other than Individual members holding shares in demat mode and members holding

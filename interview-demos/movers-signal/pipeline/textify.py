@@ -32,6 +32,8 @@ def main() -> int:
     for key, entry in manifest.items():
         pdf = PDF_DIR / f"{key}.pdf"
         out = RAW / f"{key}.txt"
+        if (RAW / "screened" / f"{key}.txt").exists():  # screened-out texts live apart
+            out = RAW / "screened" / f"{key}.txt"
         if not pdf.exists() or entry.get("error"):
             continue
         if out.exists() and entry.get("text_sha256") == entry.get("sha256"):

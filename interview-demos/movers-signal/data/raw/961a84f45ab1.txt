@@ -3,7 +3,7 @@ SHA256: 1f8606a909a058435d527a9587b2a1e5fcbb59a9e16f438f75637e83c2a35306
 FETCHED_AT: 2026-11-02T14:07:43+00:00
 PAGES: 2
 ENGINE: pdfplumber (engine A)
-REDACTIONS: 8 (personal e-mail addresses and phone numbers)
+REDACTIONS: 12 (personal e-mail addresses and phone numbers)
 
 === PAGE 1 ===
 PNB MetLife India Insurance Co. Ltd.
@@ -37,7 +37,7 @@ Yagya Turker
 Company Secretary
 Place: Mumbai
 Regd. Office : Unit Nos 701, 702 & 703, 7th Floor, West Wing, Raheja Tower, 26/27, M.G Road, Bangalore -560001. IRDAI
-Regd. No: 117, CI No.: U66010KA2001PLC028883, Phone: 080 – 66006969 Fax : 080 – 22421970, Email:
+Regd. No: 117, CI No.: U66010KA2001PLC028883, Phone: [phone redacted] Fax : [phone redacted], Email:
 [email redacted]
 Write to us at: Office unit no. 101, 1st Floor, Techniplex -1, Techniplex Complex, off Veer Savarkar Flyover, S V Road,
 Goregaon (West) Mumbai – 400 062, Phone: [phone redacted], Fax: [phone redacted]
@@ -62,7 +62,7 @@ Brief profile (in case of appointment) Not applicable
 Disclosure of relationships between directors (in case Not applicable
 of appointment of a director)
 Regd. Office : Unit Nos 701, 702 & 703, 7th Floor, West Wing, Raheja Tower, 26/27, M.G Road, Bangalore -560001. IRDAI
-Regd. No: 117, CI No.: U66010KA2001PLC028883, Phone: 080 – 66006969 Fax : 080 – 22421970, Email:
+Regd. No: 117, CI No.: U66010KA2001PLC028883, Phone: [phone redacted] Fax : [phone redacted], Email:
 [email redacted]
 Write to us at: Office unit no. 101, 1st Floor, Techniplex -1, Techniplex Complex, off Veer Savarkar Flyover, S V Road,
 Goregaon (West) Mumbai – 400 062, Phone: [phone redacted], Fax: [phone redacted]

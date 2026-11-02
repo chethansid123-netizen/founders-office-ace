@@ -3,7 +3,7 @@ SHA256: fd40db03acbfcc83e397fcf8ff2e33bf1e13716f00ea0ac32b15b157d8fdd654
 FETCHED_AT: 2026-11-02T14:08:25+00:00
 PAGES: 2
 ENGINE: pdfplumber (engine A)
-REDACTIONS: 2 (personal e-mail addresses and phone numbers)
+REDACTIONS: 4 (personal e-mail addresses and phone numbers)
 
 === PAGE 1 ===
 1st November, 2026
@@ -41,7 +41,7 @@ Shraddha Kavathekar
 Company Secretary
 Mail to : (Head Office) KSB Limited: Mumbai-Pune Road, Pimpri, Pune - 411 018. (India)
 Tel.: [phone redacted]. Visit us at: www.ksbindia.co.in
-Registered Office: Office No. 601, Runwal R-Square, L.B.S. Marg, Mulund (West), Mumbai- 400 080, Tel.: 022- 6658 8787
+Registered Office: Office No. 601, Runwal R-Square, L.B.S. Marg, Mulund (West), Mumbai- 400 080, Tel.: [phone redacted]
 
 === PAGE 2 ===
 Zonal Offices: Zonal Offices: Chennai • Kolkata • Mumbai • NOIDA CIN: L29120MH1960PLC011635
@@ -80,5 +80,5 @@ NSE Circular
 NSE/CML/2018/24
 Mail to : (Head Office) KSB Limited: Mumbai-Pune Road, Pimpri, Pune - 411 018. (India)
 Tel.: [phone redacted]. Visit us at: www.ksbindia.co.in
-Registered Office: Office No. 601, Runwal R-Square, L.B.S. Marg, Mulund (West), Mumbai- 400 080, Tel.: 022- 6658 8787
+Registered Office: Office No. 601, Runwal R-Square, L.B.S. Marg, Mulund (West), Mumbai- 400 080, Tel.: [phone redacted]
 Zonal Offices: Zonal Offices: Chennai • Kolkata • Mumbai • NOIDA CIN: L29120MH1960PLC01163

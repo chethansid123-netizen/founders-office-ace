@@ -3,7 +3,7 @@ SHA256: 4ea1ae9e0c37bea899660a14ea1520e0ac201e4c36277c4f3b1021c84fde4048
 FETCHED_AT: 2026-11-02T14:25:23+00:00
 PAGES: 9
 ENGINE: pdfplumber (engine A)
-REDACTIONS: 8 (personal e-mail addresses and phone numbers)
+REDACTIONS: 12 (personal e-mail addresses and phone numbers)
 
 === PAGE 1 ===
 infoedge
@@ -40,7 +40,7 @@ institutional knowledge and deep understanding of the Company’s businesses.
 .,
 Q naukri Q naukrigulf 99acres Jeevansathi.com ~f shiksha
 INFO EDGE (INDIA) LIMITED
-Corporate Office: B-8, Sector - 132, Noida - 201304, Tel.: 0120 - 3082000, Fax: [phone redacted]
+Corporate Office: B-8, Sector - 132, Noida - 201304, Tel.: [phone redacted], Fax: [phone redacted]
 Email: [email redacted] URL: http://www.infoedge.in CIN: L74899DL1995PLC068021
 Regd. Office: Ground Floor, 12A, 94, Meghdoot, Nehru Place, New Delhi-110019
 
@@ -70,7 +70,7 @@ Encl.: As above
 .,
 Q naukri Q naukrigulf 99acres Jeevansathi.com ~f shiksha
 INFO EDGE (INDIA) LIMITED
-Corporate Office: B-8, Sector - 132, Noida - 201304, Tel.: 0120 - 3082000, Fax: [phone redacted]
+Corporate Office: B-8, Sector - 132, Noida - 201304, Tel.: [phone redacted], Fax: [phone redacted]
 Email: [email redacted] URL: http://www.infoedge.in CIN: L74899DL1995PLC068021
 Regd. Office: Ground Floor, 12A, 94, Meghdoot, Nehru Place, New Delhi-110019
 
@@ -123,7 +123,7 @@ the members of the Company.
 .,
 Q naukri Q naukrigulf 99acres Jeevansathi.com ~f shiksha
 INFO EDGE (INDIA) LIMITED
-Corporate Office: B-8, Sector - 132, Noida - 201304, Tel.: 0120 - 3082000, Fax: [phone redacted]
+Corporate Office: B-8, Sector - 132, Noida - 201304, Tel.: [phone redacted], Fax: [phone redacted]
 Email: [email redacted] URL: http://www.infoedge.in CIN: L74899DL1995PLC068021
 Regd. Office: Ground Floor, 12A, 94, Meghdoot, Nehru Place, New Delhi-110019
 
@@ -151,7 +151,7 @@ of director)
 .,
 Q naukri Q naukrigulf 99acres Jeevansathi.com ~f shiksha
 INFO EDGE (INDIA) LIMITED
-Corporate Office: B-8, Sector - 132, Noida - 201304, Tel.: 0120 - 3082000, Fax: [phone redacted]
+Corporate Office: B-8, Sector - 132, Noida - 201304, Tel.: [phone redacted], Fax: [phone redacted]
 Email: [email redacted] URL: http://www.infoedge.in CIN: L74899DL1995PLC068021
 Regd. Office: Ground Floor, 12A, 94, Meghdoot, Nehru Place, New Delhi-110019
 
