@@ -301,7 +301,7 @@ export default function MethodPage() {
 
 function ScoreTable({ title, rows }: { title: string; rows: [string, number][] }) {
   return (
-    <table className="w-full text-sm">
+    <table className="w-full self-start text-sm">
       <caption className="mb-1 text-left font-semibold text-ink">{title}</caption>
       <tbody className="divide-y divide-line border-y border-line">
         {rows.map(([label, pts]) => (
