@@ -6,6 +6,7 @@ import stableLinksJson from "@/data/stable_links.json";
 import roleLevelsJson from "@/config/role_levels.json";
 import { Section, Tag } from "@/components/ui";
 import { AS_OF, AUDIT, HUMAN_SIGNOFF, PRACTICES, SCORE_CONFIG, SCORED, SEATS } from "@/lib/data";
+import { EVENT_MEANING, SUCCESSOR_MEANING } from "@/lib/definitions";
 import { EVENT_ORDER, PRACTICE_ORDER, ROLE_LEVEL_ORDER, SUCCESSOR_ORDER } from "@/lib/filters";
 import { EVENT_LABEL, formatDate, ROLE_LEVEL_LABEL, SUCCESSOR_LABEL } from "@/lib/format";
 import type { RoleLevel } from "@/lib/types";
@@ -25,22 +26,6 @@ const LINK_CHECK = linkCheckJson as unknown as {
 const STABLE = stableLinksJson as unknown as { links: Record<string, { stable_url: string }>; pending: string[] };
 
 const ROLE_RULES = (roleLevelsJson as unknown as { rules: { level: RoleLevel; pattern: string; why: string }[] }).rules;
-
-const EVENT_MEANING: Record<string, string> = {
-  RESIGNATION: "The filing says the person resigned.",
-  RETIREMENT: "The filing says the person retires or superannuates.",
-  REMOVAL: "The filing says the person was removed or terminated.",
-  END_OF_TERM: "The filing says the person's term ends or is not renewed.",
-  APPOINTMENT: "The filing appoints a person to the seat.",
-  OTHER: "Any other change of seat holder the filing describes, such as a move to another role.",
-};
-
-const SUCCESSOR_MEANING: Record<string, string> = {
-  NOT_NAMED: "The filing names no successor.",
-  NAMED_INTERIM: "The filing names someone to hold the seat for now (interim or additional charge).",
-  UNCLEAR: "The filing's wording leaves it unclear whether a successor is named.",
-  NAMED_PERMANENT: "The filing names a permanent successor, internal or external.",
-};
 
 function Steps({ items }: { items: { title: string; body: ReactNode }[] }) {
   return (

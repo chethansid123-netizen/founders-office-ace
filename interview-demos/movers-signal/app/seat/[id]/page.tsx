@@ -3,9 +3,10 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Section, SourceLink, StatusChip, Tag, PriorityBar } from "@/components/ui";
 import { AS_OF, getScored, HUMAN_SIGNOFF, PRACTICES, rankOf, SCORED, urlForKey } from "@/lib/data";
-import { EVENT_LABEL, exchangeOf, formatDate, ROLE_LEVEL_LABEL, SOURCE_LABEL, sourceHref, SUCCESSOR_LABEL } from "@/lib/format";
+import { factRows } from "@/lib/brief";
+import { EVENT_LABEL, exchangeOf, formatDate, ROLE_LEVEL_LABEL, sourceHref } from "@/lib/format";
 import { buildHypotheses } from "@/lib/hypotheses";
-import type { Evidence, SeatRecord } from "@/lib/types";
+import type { Evidence } from "@/lib/types";
 
 export const dynamicParams = false;
 
@@ -17,38 +18,6 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   const { id } = await params;
   const s = getScored(id);
   return s ? { title: `${s.seat.role_title}, ${s.seat.company}` } : {};
-}
-
-type FieldKey =
-  | "company" | "exchange_symbol" | "person_name" | "role_title" | "event_type" | "filing_date"
-  | "effective_date" | "stated_reason" | "successor_status" | "successor_source" | "successor_name";
-
-const FIELDS: { key: FieldKey; label: string }[] = [
-  { key: "company", label: "Company" },
-  { key: "exchange_symbol", label: "Exchange symbol" },
-  { key: "person_name", label: "Person" },
-  { key: "role_title", label: "Role title" },
-  { key: "event_type", label: "Event" },
-  { key: "filing_date", label: "Filing date" },
-  { key: "effective_date", label: "Effective date" },
-  { key: "stated_reason", label: "Stated reason" },
-  { key: "successor_status", label: "Successor status" },
-  { key: "successor_source", label: "Successor source" },
-  { key: "successor_name", label: "Successor" },
-];
-
-function display(seat: SeatRecord, key: FieldKey): string | null {
-  const v = seat[key];
-  if (v === null || v === undefined) return null;
-  switch (key) {
-    case "event_type": return EVENT_LABEL[seat.event_type];
-    case "filing_date": return formatDate(seat.filing_date);
-    case "effective_date": return formatDate(seat.effective_date) + (seat.effective_date_note ? ` (${seat.effective_date_note})` : "");
-    case "stated_reason": return `“${seat.stated_reason}”`;
-    case "successor_status": return SUCCESSOR_LABEL[seat.successor_status];
-    case "successor_source": return SOURCE_LABEL[seat.successor_source];
-    default: return String(v);
-  }
 }
 
 function QuoteLine({ ev, url }: { ev: Evidence; url: string }) {
@@ -110,19 +79,15 @@ export default async function SeatPage({ params }: { params: Promise<{ id: strin
         <div className="space-y-6 lg:col-span-2">
           <Section title="Filed facts" tag="fact">
             <dl className="divide-y divide-line">
-              {FIELDS.filter((f) => f.key !== "successor_name" || seat.successor_name).map((f) => {
-                const ev = seat.evidence[f.key];
-                const value = display(seat, f.key);
-                return (
-                  <div key={f.key} className="grid gap-1 py-3 sm:grid-cols-[10rem_1fr] sm:gap-4">
-                    <dt className="text-sm font-medium text-muted">{f.label}</dt>
-                    <dd>
-                      <div className="wrap-any font-medium text-ink">{value ?? <span className="text-muted">Not stated in the filing</span>}</div>
-                      {ev && <QuoteLine ev={ev} url={href} />}
-                    </dd>
-                  </div>
-                );
-              })}
+              {factRows(seat).map((f) => (
+                <div key={f.key} className="grid gap-1 py-3 sm:grid-cols-[10rem_1fr] sm:gap-4">
+                  <dt className="text-sm font-medium text-muted">{f.label}</dt>
+                  <dd>
+                    <div className="wrap-any font-medium text-ink">{f.value ?? <span className="text-muted">Not stated in the filing</span>}</div>
+                    {f.evidence && <QuoteLine ev={f.evidence} url={href} />}
+                  </dd>
+                </div>
+              ))}
             </dl>
           </Section>
 

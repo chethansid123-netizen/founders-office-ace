@@ -3,27 +3,10 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 import { Tag } from "@/components/ui";
 import { AUDIT, SEATS } from "@/lib/data";
-import { FILTER_PARAMS, PRACTICE_ORDER, ROLE_LEVEL_ORDER } from "@/lib/filters";
-import { formatDate, pct, ROLE_LEVEL_LABEL } from "@/lib/format";
-import { countBy } from "@/lib/summary";
-import type { SeatRecord } from "@/lib/types";
+import { formatDate, pct } from "@/lib/format";
+import { pulseData, SMALL_SAMPLE, type BarDatum } from "@/lib/pulse";
 
 export const metadata: Metadata = { title: "Market pulse" };
-
-const SMALL_SAMPLE = 5;
-
-/** A seat counts as "no permanent successor" when the filing names none, an interim, or is unclear. */
-const noPermanent = (s: SeatRecord) => s.successor_status !== "NAMED_PERMANENT";
-
-function radarHref(param: keyof typeof FILTER_PARAMS, value: string): string {
-  return `/?${new URLSearchParams({ [FILTER_PARAMS[param]]: value }).toString()}`;
-}
-
-interface BarDatum {
-  label: string;
-  count: number;
-  href: string;
-}
 
 function ChartCard({ id, title, n, sub, children }: { id: string; title: string; n: number; sub: string; children: ReactNode }) {
   return (
@@ -109,28 +92,8 @@ function TableView({ caption, head, rows }: { caption: string; head: string[]; r
 }
 
 export default function PulsePage() {
-  const n = SEATS.length;
-  const filings = new Set(SEATS.map((s) => s.source_url)).size;
+  const { n, filings, byPractice, byRole, openAll, share } = pulseData(SEATS);
   const [from, to] = AUDIT.window;
-
-  const byPractice: BarDatum[] = countBy(SEATS, (s) => s.practice, PRACTICE_ORDER)
-    .map((c) => ({ label: c.label, count: c.count, href: radarHref("practice", c.label) }))
-    .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label));
-
-  const byRole: BarDatum[] = countBy(SEATS, (s) => s.role_level, ROLE_LEVEL_ORDER).map((c) => ({
-    label: ROLE_LEVEL_LABEL[c.label as keyof typeof ROLE_LEVEL_LABEL],
-    count: c.count,
-    href: radarHref("roleLevel", c.label),
-  }));
-
-  const openAll = SEATS.filter(noPermanent).length;
-  const share = PRACTICE_ORDER.map((p) => {
-    const seats = SEATS.filter((s) => s.practice === p);
-    const open = seats.filter(noPermanent).length;
-    return { label: p, n: seats.length, open, ratio: seats.length ? open / seats.length : 0, href: radarHref("practice", p) };
-  })
-    .filter((r) => r.n > 0)
-    .sort((a, b) => b.ratio - a.ratio || b.n - a.n || a.label.localeCompare(b.label));
 
   return (
     <div className="space-y-8">
