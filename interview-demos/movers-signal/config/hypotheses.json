@@ -1,0 +1,38 @@
+{
+  "_about": "Rules that generate the Hypothesis sections of a seat brief. Hypotheses are judgements that need a partner's review. They never name a person or a specific company: talent pools are company types only.",
+  "functions": [
+    {"key": "finance", "label": "Finance", "pattern": "financ|\\bcfo\\b|accounting|taxation|treasury"},
+    {"key": "technology", "label": "Technology and digital", "pattern": "technolog|information|digital|\\bcto\\b|\\bcio\\b|\\bcdio\\b|product officer"},
+    {"key": "people", "label": "People and HR", "pattern": "human|\\bhr\\b|head-hr|\\bchro\\b"},
+    {"key": "risk", "label": "Risk", "pattern": "\\brisk\\b|\\bcro\\b"},
+    {"key": "legal", "label": "Legal, secretarial and policy", "pattern": "secretary|compliance|legal|policy|public affairs"},
+    {"key": "audit", "label": "Internal audit", "pattern": "audit|assurance"},
+    {"key": "operations", "label": "Operations and supply chain", "pattern": "operat|supply chain|procurement|project|manufactur|quality"},
+    {"key": "strategy", "label": "Strategy and customer", "pattern": "strategy|customer excellence"},
+    {"key": "sales", "label": "Sales and business development", "pattern": "sales|business development|\\bbd\\b|commercial"},
+    {"key": "general", "label": "General management", "pattern": ".*"}
+  ],
+  "general_levels": ["CEO_MD", "BUSINESS_HEAD"],
+  "peers": {
+    "Financial Services": "banks, NBFCs and insurers",
+    "Telecom": "telecom operators and network companies",
+    "Digital": "internet and consumer-technology companies",
+    "Private Equity": "private-equity-backed companies in the same sector",
+    "Consumer Products & Retail": "consumer products, durables and retail companies",
+    "Information Technology": "IT services and cloud companies",
+    "Healthcare & Life Sciences": "pharmaceutical and healthcare companies",
+    "Industrial & Infrastructure": "industrial, infrastructure and manufacturing companies"
+  },
+  "pools": {
+    "finance": ["Listed {peers} of similar size", "Indian subsidiaries of multinationals in the same sector", "Private-equity-backed {peers}, where finance leaders run investor reporting"],
+    "technology": ["Listed {peers} with an established digital function", "Consumer-internet and software-product companies", "Industry practices of IT services firms that serve {peers}"],
+    "people": ["Listed {peers} with large, distributed workforces", "Indian subsidiaries of multinationals with mature HR systems", "Corporate HR teams of diversified business groups"],
+    "risk": ["Risk functions of private banks and large NBFCs", "Insurers' risk teams", "Rating agencies and risk-advisory firms"],
+    "legal": ["Company-secretarial and legal teams of listed {peers}", "Central secretarial teams of large business groups", "Corporate and capital-markets practices of law firms"],
+    "audit": ["Internal-audit teams of large listed groups", "Assurance practices of the large audit firms", "Controls functions of multinational subsidiaries"],
+    "operations": ["{peers} with a comparable plant or network footprint", "Contract manufacturers and outsourcing partners in the sector", "Multinational subsidiaries that run large Indian operations"],
+    "strategy": ["{peers} with in-house strategy teams", "Sector practices of management-consulting firms", "Private-equity-backed {peers}"],
+    "sales": ["{peers} with large B2B sales teams", "Multinational suppliers to the same buyers", "Adjacent-sector companies that sell to the same customers"],
+    "general": ["Larger {peers}, one level below the top seat", "Divisions of diversified groups in the same sector", "Private-equity-backed {peers}"]
+  }
+}
