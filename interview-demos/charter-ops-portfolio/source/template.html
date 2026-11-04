@@ -84,15 +84,21 @@ p{margin:0}
 .hero-copy{display:flex;flex-direction:column;gap:22px;min-width:0}
 .hero-copy .lede{max-width:58ch}
 .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px}
-.portrait{position:relative;margin:0;max-width:420px;justify-self:end;width:100%}
-.portrait::after{content:"";position:absolute;inset:14px -14px -14px 14px;border:1px solid var(--accent);z-index:0;pointer-events:none}
-.portrait .slot{position:relative;z-index:1;aspect-ratio:4/5;height:auto}
+.index-card{background:var(--card);border:1px solid var(--rule);padding:22px 24px;display:flex;flex-direction:column;gap:12px;align-self:center;position:relative}
+.index-card::after{content:"";position:absolute;inset:12px -12px -12px 12px;border:1px solid var(--accent);z-index:-1;pointer-events:none}
+.index-card ol{list-style:none;margin:0;padding:0;counter-reset:ix;display:flex;flex-direction:column}
+.index-card li{counter-increment:ix;border-top:1px solid var(--rule)}
+.index-card li a{display:grid;grid-template-columns:2.2rem minmax(0,1fr);row-gap:2px;padding:12px 0;text-decoration:none}
+.index-card li a::before{content:counter(ix,upper-roman);font-family:var(--serif);color:var(--accent);font-size:15px;grid-row:span 2;padding-top:1px}
+.index-card li b{font-family:var(--serif);font-weight:500;font-size:16px;letter-spacing:.02em}
+.index-card li span{font-size:13px;color:var(--muted);line-height:1.4}
+.index-card li a:hover b{color:var(--accent)}
 .facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--rule);margin-top:clamp(36px,5vw,60px)}
 .fact{padding:18px 18px 4px 0;display:flex;flex-direction:column;gap:4px;min-width:0}
 .fact + .fact{padding-left:18px;border-left:1px solid var(--rule)}
 .fact b{font-family:var(--serif);font-weight:500;font-size:19px;letter-spacing:.02em}
 .fact span{font-size:13px;color:var(--muted);line-height:1.45}
-@media (max-width:860px){.hero-grid{grid-template-columns:1fr}.portrait{justify-self:start;max-width:340px}.facts{grid-template-columns:1fr 1fr}.fact:nth-child(3){padding-left:0;border-left:0}.fact:nth-child(n+3){border-top:1px solid var(--rule)}}
+@media (max-width:860px){.hero-grid{grid-template-columns:1fr}.index-card::after{display:none}.facts{grid-template-columns:1fr 1fr}.fact:nth-child(3){padding-left:0;border-left:0}.fact:nth-child(n+3){border-top:1px solid var(--rule)}}
 
 /* glance tiles */
 .tiles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--rule-strong);border-left:1px solid var(--rule)}
@@ -104,24 +110,53 @@ p{margin:0}
 @media (max-width:760px){.tiles{grid-template-columns:1fr 1fr}}
 @media (max-width:440px){.tiles{grid-template-columns:1fr}}
 
-/* slots (photos) */
-.slot{margin:0;position:relative;overflow:hidden;background:var(--plate);color:var(--plate-text);width:100%;height:100%;min-height:220px}
-.slot img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}
-.slot .plate{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:space-between;padding:22px}
-.slot .plate .pn{font-family:var(--serif);font-size:clamp(3.2rem,7vw,5rem);color:var(--plate-accent);line-height:1}
-.slot .plate .pt{font-family:var(--serif);font-size:15px;letter-spacing:.06em;max-width:22ch}
-.slot .plate .pe{display:none;font-family:var(--ui);font-size:13px;color:var(--plate-text);opacity:.8}
-.slot.has .plate{display:none}
-.slot figcaption{position:absolute;left:0;right:0;bottom:0;padding:28px 16px 12px;font-size:12px;letter-spacing:.04em;color:#F1EBDF;background:linear-gradient(transparent,rgba(11,18,28,.78))}
-.slot:not(.has) figcaption{display:none}
 
 /* projects */
 .projects{display:flex;flex-direction:column;gap:clamp(28px,4vw,44px)}
 .proj{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);background:var(--card);border:1px solid var(--rule)}
 .proj:nth-child(even){grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr)}
 .proj:nth-child(even) .proj-media{order:2}
-.proj-media{position:relative;min-height:320px;display:grid;gap:2px}
-.proj-media.two{grid-template-columns:1fr 1fr}
+.proj-media{position:relative;display:flex;min-width:0}
+.info{background:var(--plate);color:var(--plate-text);padding:clamp(22px,3vw,32px);display:flex;flex-direction:column;gap:16px;width:100%;justify-content:center}
+.info .pn{font-family:var(--serif);font-size:clamp(2.6rem,5vw,3.6rem);color:var(--plate-accent);line-height:1}
+.info small{display:block;font-size:10.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;opacity:.7;margin-bottom:3px}
+.info .cap{font-size:13px;line-height:1.5;opacity:.82}
+.info .node{border:1px solid rgba(237,230,214,.28);padding:10px 14px;min-width:0}
+.info .node b{font-family:var(--serif);font-weight:500;font-size:15.5px;letter-spacing:.03em;display:block;line-height:1.3}
+.info .node span{font-size:12.5px;opacity:.8}
+.info .node.hl{border-color:var(--plate-accent);background:rgba(201,163,106,.12)}
+.flow{display:flex;flex-direction:column;gap:6px}
+.flow .arr{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--plate-accent);padding-left:14px}
+.flow .arr::before{content:"↓";margin-right:8px}
+.metric{display:flex;flex-direction:column;gap:5px}
+.metric .mv{display:flex;align-items:baseline;gap:10px;font-family:var(--serif)}
+.metric .mv b{font-weight:500;font-size:clamp(1.6rem,3vw,2.1rem);line-height:1}
+.metric .mv i{font-style:normal;opacity:.6}
+.metric .mv .hlv{color:var(--plate-accent)}
+.track{height:8px;background:rgba(237,230,214,.12);position:relative}
+.track span{position:absolute;inset:0 auto 0 0}
+.track .before{background:rgba(237,230,214,.45)}
+.track .after{background:var(--plate-accent)}
+.badges{display:flex;flex-wrap:wrap;gap:6px}
+.badges span{font-family:var(--ui);font-size:12.5px;font-weight:600;padding:4px 9px;border:1px solid rgba(237,230,214,.3)}
+.months{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px}
+.months span{background:var(--plate-accent);color:var(--plate);font-family:var(--ui);font-weight:700;font-size:12px;text-align:center;padding:8px 0}
+.hub{display:flex;flex-direction:column}
+.hub .link{width:1px;height:16px;background:var(--plate-accent);margin-left:22px}
+.net{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:10px;align-items:center}
+.net .side{display:flex;flex-direction:column;gap:5px;min-width:0}
+.net .side span{font-size:12.5px;border:1px solid rgba(237,230,214,.28);padding:5px 9px;line-height:1.3}
+.net .mid{position:relative;padding-inline:6px}
+.net .mid::before,.net .mid::after{content:"";position:absolute;top:50%;width:8px;height:1px;background:var(--plate-accent)}
+.net .mid::before{left:-4px}
+.net .mid::after{right:-4px}
+.info .new{border-left:2px solid var(--plate-accent);padding:4px 0 4px 12px}
+.info .new b{font-family:var(--serif);font-weight:500;font-size:17px;letter-spacing:.03em}
+.chain{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;counter-reset:ch}
+.chain li{display:grid;grid-template-columns:30px minmax(0,1fr);column-gap:10px;padding:8px 0;border-top:1px solid rgba(237,230,214,.16);counter-increment:ch}
+.chain li::before{content:counter(ch);font-family:var(--ui);font-weight:700;font-size:12px;color:var(--plate);background:var(--plate-accent);width:22px;height:22px;display:inline-flex;align-items:center;justify-content:center;grid-row:span 2;align-self:center}
+.chain li b{font-family:var(--serif);font-weight:500;font-size:15.5px;letter-spacing:.03em}
+.chain li span{font-size:12.5px;opacity:.8;grid-column:2}
 .proj-body{padding:clamp(22px,3.4vw,40px);display:flex;flex-direction:column;gap:18px;min-width:0}
 .proj-top{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px}
 .proj-top .eyebrow{color:var(--accent)}
@@ -148,7 +183,8 @@ p{margin:0}
 .bar.after b{color:var(--text)}
 .backup{margin-top:clamp(28px,4vw,40px);padding:20px 22px;border:1px dashed var(--rule-strong);display:flex;flex-wrap:wrap;gap:8px 18px;align-items:baseline}
 .backup b{font-family:var(--serif);font-weight:500;font-size:17px}
-@media (max-width:860px){.proj,.proj:nth-child(even){grid-template-columns:1fr}.proj:nth-child(even) .proj-media{order:0}.proj-media{min-height:260px}.answers{grid-template-columns:1fr}}
+@media (max-width:480px){.net{grid-template-columns:1fr}.net .mid::before,.net .mid::after{display:none}}
+@media (max-width:860px){.proj,.proj:nth-child(even){grid-template-columns:1fr}.proj:nth-child(even) .proj-media{order:0}.answers{grid-template-columns:1fr}}
 
 /* fit matrix */
 .tbl-wrap{overflow-x:auto;border:1px solid var(--rule);background:var(--card)}
@@ -288,19 +324,6 @@ svg text.on-a{fill:var(--ground)} svg text.on-i{fill:var(--ground)}
 footer{border-top:1px solid var(--rule);padding-block:22px 28px;font-size:12.5px;color:var(--muted)}
 footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
 
-/* edit mode (only for the owner, opened from the file or with #edit) */
-.editbar{position:fixed;right:max(14px,env(safe-area-inset-right,0px));bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:70;display:flex;flex-direction:column;gap:8px;align-items:flex-end;max-width:min(360px,calc(100vw - 28px))}
-.editbar .panel-e{background:var(--card);color:var(--text);border:1px solid var(--rule-strong);padding:14px 16px;font-size:13px;line-height:1.5;display:flex;flex-direction:column;gap:10px;box-shadow:0 8px 30px rgba(0,0,0,.18)}
-.editbar .row{display:flex;gap:8px;flex-wrap:wrap}
-.editbar button{font-family:var(--sans);font-size:11.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;padding:9px 12px;border:1px solid var(--btn);background:var(--btn);color:var(--btn-text);cursor:pointer}
-.editbar button.ghost{background:transparent;color:var(--text);border-color:var(--rule-strong)}
-.editing .slot{cursor:pointer;outline:2px dashed var(--plate-accent);outline-offset:-8px}
-.editing .slot .plate .pe{display:block}
-.editing .slot.armed{outline-style:solid}
-.editing [data-field]{outline:1px dashed var(--accent);outline-offset:2px;min-height:1.4em;display:block;padding:2px 4px;background:color-mix(in srgb,var(--accent) 6%,transparent)}
-.editing [data-field]:empty::before{content:attr(data-ph);color:var(--muted);font-style:italic}
-.slot .clear{display:none}
-.editing .slot.has .clear{display:block;position:absolute;top:10px;right:10px;z-index:3;font-size:11px;padding:4px 8px;background:var(--ink);color:#F1EBDF;border:0;cursor:pointer;font-family:var(--sans);letter-spacing:.08em;text-transform:uppercase}
 </style>
 </head>
 <body>
@@ -334,12 +357,16 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
           <a class="btn ghost" href="#work">See the five projects</a>
         </div>
       </div>
-      <figure class="portrait">
-        <div class="slot" data-slot="portrait" data-label="Portrait">
-          <img alt="Chethan N" src="{{IMG:portrait}}">
-          <div class="plate"><span class="pn">C</span><span class="pt">Chethan N</span><span class="pe">Click, drop or paste a portrait</span></div>
-        </div>
-      </figure>
+      <aside class="index-card" aria-label="What's on this page">
+        <p class="eyebrow">On this page</p>
+        <ol>
+          <li><a href="#work"><b>Five projects</b><span>Ranked by how well they fit the role</span></a></li>
+          <li><a href="#fit"><b>Fit table</b><span>The five against what the role asks for</span></a></li>
+          <li><a href="#kit"><b>Bengaluru ops kit</b><span>A mock F&amp;B Sit-Down, planned end to end</span></a></li>
+          <li><a href="#charter"><b>How The Charter runs</b><span>What I learned from your site and press</span></a></li>
+          <li><a href="#first30"><b>First 30 days</b><span>What I'd do if I join</span></a></li>
+        </ol>
+      </aside>
     </div>
     <div class="facts">
       <div class="fact"><b>2 years</b><span>Founder's Office: Techvaraha (22 months), LVX (2 months)</span></div>
@@ -381,23 +408,26 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
 
       <article class="proj" id="p1">
         <div class="proj-media">
-          <div class="slot" data-slot="p1-cxos" data-label="cxo's × Masters' Union event">
-            <img alt="The cxo's × Masters' Union event" src="{{IMG:p1-cxos}}">
-            <div class="plate"><span class="pn">I</span><span class="pt">cxo's × Masters' Union</span><span class="pe">Click, drop or paste an event photo</span></div>
-            <figcaption data-field="p1-cap" data-ph="Photo caption"></figcaption>
+          <div class="info" aria-label="How the event came together">
+            <span class="pn">I</span>
+            <div class="flow">
+              <div class="node"><small>The guest</small><b>CEO of cxo's</b></div>
+              <div class="arr">invited by</div>
+              <div class="node"><small>The host</small><b>Cultural Club, Masters' Union</b><span>Chethan N, President</span></div>
+              <div class="arr">organised</div>
+              <div class="node hl"><small>The room</small><b>cxo's × Masters' Union event</b></div>
+            </div>
+            <p class="cap">One senior outside guest, one student club, one event organised end to end.</p>
           </div>
         </div>
         <div class="proj-body">
-          <div class="proj-top"><p class="eyebrow">Project I</p><span class="when" data-field="p1-when" data-ph="When (month, year)"></span></div>
+          <div class="proj-top"><p class="eyebrow">Project I</p><span class="when">Masters' Union</span></div>
           <h3>The cxo's × Masters' Union event</h3>
           <p class="proj-role">President, Cultural Club, Masters' Union</p>
           <ul class="did">
             <li>Invited the CEO of cxo's to Masters' Union.</li>
             <li>Organised the event end to end as President of the Cultural Club.</li>
           </ul>
-          <div class="opt-row"><span class="lab">What ran on the day</span><span data-field="p1-ran" data-ph="Only what actually ran, e.g. CEO session and Q&A"></span></div>
-          <div class="opt-row"><span class="lab">Who came</span><span data-field="p1-who" data-ph="Attendance, if you can defend the number"></span></div>
-          <div class="opt-row"><span class="lab">Sponsor or venue I handled</span><span data-field="p1-spons" data-ph="Only if true: sponsor or venue you arranged"></span></div>
           <div class="answers">
             <div><h4>What the role asks for</h4><p>Founder events, partners, logistics.</p></div>
             <div><h4>On a Charter evening</h4><p>Getting a senior person to say yes, then making the room work on the night, is the core of every Friday dinner.</p></div>
@@ -407,10 +437,22 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
 
       <article class="proj" id="p2">
         <div class="proj-media">
-          <div class="slot" data-slot="p2-techvaraha" data-label="Techvaraha">
-            <img alt="Chethan on a delivery sync call" src="{{IMG:p2-techvaraha}}">
-            <div class="plate"><span class="pn">II</span><span class="pt">Techvaraha delivery SOPs</span><span class="pe">Click, drop or paste a photo</span></div>
-            <figcaption data-field="p2-cap" data-ph="Photo caption"></figcaption>
+          <div class="info" aria-label="Delivery results at Techvaraha">
+            <span class="pn">II</span>
+            <div class="metric">
+              <small>On-time delivery</small>
+              <div class="mv"><b>65%</b><i>→</i><b class="hlv">90%</b></div>
+              <div class="track"><span class="before" style="width:65%"></span></div>
+              <div class="track"><span class="after" style="width:90%"></span></div>
+            </div>
+            <div class="metric">
+              <small>Escalation turnaround, before = 100</small>
+              <div class="mv"><b>100</b><i>→</i><b class="hlv">60</b></div>
+              <div class="track"><span class="before" style="width:100%"></span></div>
+              <div class="track"><span class="after" style="width:60%"></span></div>
+            </div>
+            <div class="badges"><span>5+ SOPs</span><span>15+ decks</span><span>Best Execution Award 2025</span></div>
+            <p class="cap">Grey is before, bronze is after.</p>
           </div>
         </div>
         <div class="proj-body">
@@ -423,11 +465,6 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
             <li>Prepared 15+ executive decks and investor reports along the way.</li>
             <li>Received the Best Execution Award, 2025, for stakeholder management, investor communication and cross-functional leadership.</li>
           </ul>
-          <div class="mini" aria-label="Before and after">
-            <div class="bar-row"><span class="lbl">On-time delivery</span><div class="bars"><div class="bar"><i style="width:65%"></i><b>65%</b></div><div class="bar after"><i style="width:90%"></i><b>90%</b></div></div></div>
-            <div class="bar-row"><span class="lbl">Escalation turnaround (before = 100)</span><div class="bars"><div class="bar"><i style="width:100%"></i><b>100</b></div><div class="bar after"><i style="width:60%"></i><b>60</b></div></div></div>
-            <p class="small muted">Grey is before, bronze is after.</p>
-          </div>
           <div class="answers">
             <div><h4>What the role asks for</h4><p>Find coordination gaps and fix them on time.</p></div>
             <div><h4>On a Charter evening</h4><p>About four gatherings a month across three cities is a delivery pipeline. SOPs and a weekly status rhythm keep it on time.</p></div>
@@ -437,10 +474,20 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
 
       <article class="proj" id="p3">
         <div class="proj-media">
-          <div class="slot" data-slot="p3-gastrotrack" data-label="GastroTrack">
-            <img alt="Working through a build with the engineering team" src="{{IMG:p3-gastrotrack}}">
-            <div class="plate"><span class="pn">III</span><span class="pt">GastroTrack for Micro Labs</span><span class="pe">Click, drop or paste a photo</span></div>
-            <figcaption data-field="p3-cap" data-ph="Photo caption"></figcaption>
+          <div class="info" aria-label="Seven months of cross-functional coordination">
+            <span class="pn">III</span>
+            <div class="months" aria-label="About seven months">
+              <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span>
+            </div>
+            <p class="cap" style="margin-top:-6px">About seven months</p>
+            <div class="hub">
+              <div class="node"><small>Client</small><b>Micro Labs</b></div>
+              <div class="link"></div>
+              <div class="node hl"><small>Coordination</small><b>Chethan N</b></div>
+              <div class="link"></div>
+              <div class="node"><small>Delivery</small><b>Cross-functional team</b></div>
+            </div>
+            <p class="cap">One point of coordination between the client and every function.</p>
           </div>
         </div>
         <div class="proj-body">
@@ -451,8 +498,6 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
             <li>Coordinated the cross-functional team working on GastroTrack for Micro Labs for about seven months.</li>
             <li>My job was keeping every function moving together for the client.</li>
           </ul>
-          <div class="opt-row"><span class="lab">Functions in the team</span><span data-field="p3-fn" data-ph="e.g. product, engineering, design, client medical team"></span></div>
-          <div class="opt-row"><span class="lab">Outcome</span><span data-field="p3-out" data-ph="What shipped or changed, only if you can defend it"></span></div>
           <div class="answers">
             <div><h4>What the role asks for</h4><p>Work across functions and own the outcome.</p></div>
             <div><h4>On a Charter evening</h4><p>A gathering pulls in a venue, a chef, partners, print and the city lead. Keeping one client team aligned for seven months is the same work over a longer stretch.</p></div>
@@ -462,10 +507,15 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
 
       <article class="proj" id="p4">
         <div class="proj-media">
-          <div class="slot" data-slot="p4-lvx" data-label="LVX">
-            <img alt="Chethan at the MyPragati Founder Run 2026, powered by LVX" src="{{IMG:p4-lvx}}">
-            <div class="plate"><span class="pn">IV</span><span class="pt">LVX investor coordination</span><span class="pe">Click, drop or paste a photo</span></div>
-            <figcaption data-field="p4-cap" data-ph="Photo caption">MyPragati Founder Run 2026, powered by LVX</figcaption>
+          <div class="info" aria-label="Who I coordinated at LVX">
+            <span class="pn">IV</span>
+            <div class="net">
+              <div class="side"><small>Outside</small><span>HNIs</span><span>UHNIs</span><span>Family offices</span></div>
+              <div class="mid"><div class="node hl"><small>Founder's Office</small><b>Chethan N</b></div></div>
+              <div class="side"><small>Inside</small><span>Investor relations</span><span>Legal</span><span>Research</span><span>Portfolio managers</span></div>
+            </div>
+            <div class="new"><small>Built from zero</small><b>Dubai/UK corridor</b></div>
+            <p class="cap">Feb – Mar 2026. Pipeline dashboards tracking ₹7Cr+.</p>
           </div>
         </div>
         <div class="proj-body">
@@ -486,18 +536,21 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
       </article>
 
       <article class="proj" id="p5">
-        <div class="proj-media two">
-          <div class="slot" data-slot="p5-ghomedha" data-label="Ghomedha stall">
-            <img alt="Selling Ghomedha honey at a stall" src="{{IMG:p5-ghomedha}}">
-            <div class="plate"><span class="pn">V</span><span class="pt">Ghomedha</span><span class="pe">Click, drop or paste a photo</span></div>
-          </div>
-          <div class="slot" data-slot="p5b-ghomedha" data-label="Ghomedha product">
-            <img alt="A jar of Ghomedha Forest Raw Honey" src="{{IMG:p5b-ghomedha}}">
-            <div class="plate"><span class="pn">V</span><span class="pt">Forest Raw Honey</span><span class="pe">Click, drop or paste a photo</span></div>
+        <div class="proj-media">
+          <div class="info" aria-label="Ghomedha operations chain">
+            <span class="pn">V</span>
+            <ol class="chain">
+              <li><b>Suppliers</b><span>Sourced</span></li>
+              <li><b>Terms</b><span>Negotiated</span></li>
+              <li><b>Inventory</b><span>Managed</span></li>
+              <li><b>Quality</b><span>Checked</span></li>
+              <li><b>Fulfilment</b><span>Shipped, and sold at stalls</span></li>
+            </ol>
+            <p class="cap">Forest Raw Honey, a D2C brand. Every link of the chain, owned end to end.</p>
           </div>
         </div>
         <div class="proj-body">
-          <div class="proj-top"><p class="eyebrow">Project V</p><span class="when" data-field="p5-when" data-ph="Dates you can defend"></span></div>
+          <div class="proj-top"><p class="eyebrow">Project V</p><span class="when">Own venture</span></div>
           <h3>Running operations for Ghomedha</h3>
           <p class="proj-role">Own D2C venture, Forest Raw Honey</p>
           <ul class="did">
@@ -515,7 +568,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
 
     <div class="backup">
       <b>Also available</b>
-      <span class="small">Swish team-orders market research. It's research rather than operations, so it isn't one of the five. <span data-field="swish" data-ph="Paste the link here, or leave as 'Ask and I'll send it.'">Ask and I'll send it.</span></span>
+      <span class="small">Swish team-orders market research. It's research rather than operations, so it isn't one of the five. Ask and I'll send it.</span>
     </div>
   </div>
 </section>
@@ -537,7 +590,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
           <tr><th scope="row">Work across functions, own the outcome</th><td></td><td><span class="dot part" aria-label="related"></span></td><td><span class="dot" aria-label="direct"></span></td><td><span class="dot part" aria-label="related"></span></td><td></td><td></td></tr>
           <tr><th scope="row">Many conversations with senior external people</th><td><span class="dot part" aria-label="related"></span></td><td></td><td></td><td><span class="dot" aria-label="direct"></span></td><td></td><td><span class="dot part" aria-label="related"></span></td></tr>
           <tr><th scope="row">Vendor handling, day-to-day ops</th><td></td><td><span class="dot part" aria-label="related"></span></td><td></td><td></td><td><span class="dot" aria-label="direct"></span></td><td><span class="dot" aria-label="direct"></span></td></tr>
-          <tr class="gap"><th scope="row">Sponsor and venue sourcing</th><td data-fitspons></td><td></td><td></td><td></td><td></td><td><span class="dot" aria-label="direct"></span></td></tr>
+          <tr class="gap"><th scope="row">Sponsor and venue sourcing</th><td></td><td></td><td></td><td></td><td></td><td><span class="dot" aria-label="direct"></span></td></tr>
         </tbody>
       </table>
     </div>
@@ -865,19 +918,6 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
   </div>
 </footer>
 
-<div class="editbar" id="editbar" hidden>
-  <div class="panel-e" id="editPanel" hidden>
-    <b>Editing photos and details</b>
-    <span>Click a photo box to choose a file, or click it and paste (Ctrl/⌘ V), or drop an image on it. Dashed text fields are editable; empty ones stay hidden when you stop editing.</span>
-    <span id="editNote" class="muted"></span>
-    <div class="row">
-      <button type="button" id="saveCopy">Save page with my edits</button>
-      <button type="button" class="ghost" id="resetEdits">Clear my edits</button>
-    </div>
-  </div>
-  <button type="button" id="editToggle">Edit photos &amp; details</button>
-</div>
-<input type="file" id="filePick" accept="image/*" hidden>
 
 <script>
 (function(){
@@ -886,13 +926,6 @@ var $ = function(s,r){return (r||document).querySelector(s)};
 var $$ = function(s,r){return Array.prototype.slice.call((r||document).querySelectorAll(s))};
 function store(k,v){try{if(v===undefined){var x=localStorage.getItem(k);return x?JSON.parse(x):null}localStorage.setItem(k,JSON.stringify(v));return true}catch(e){return false}}
 function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
-
-/* ---------- photo slots ---------- */
-$$(".slot").forEach(function(s){
-  var img=s.querySelector("img");
-  if(img && img.getAttribute("src")){s.classList.add("has")} else if(img){img.remove()}
-  if(!s.querySelector(".clear")){var b=document.createElement("button");b.type="button";b.className="clear";b.textContent="Remove";s.appendChild(b)}
-});
 
 /* ---------- dates ---------- */
 var DAY=86400000;
@@ -1042,77 +1075,7 @@ if("IntersectionObserver" in window){
   $$("section[id]").forEach(function(s){io.observe(s)});
 }
 
-/* ---------- owner edit mode ---------- */
-var EK="charterKit.edits.v1",edits=store(EK)||{img:{},txt:{}},editing=false,armed=null;
-var local=location.protocol==="file:";
-function fieldEls(){return $$("[data-field]")}
-function refreshOptional(){
-  $$(".opt-row").forEach(function(r){var f=r.querySelector("[data-field]");r.hidden=!editing&&!f.textContent.trim()});
-  $$(".proj-top [data-field], figcaption[data-field]").forEach(function(f){f.hidden=!editing&&!f.textContent.trim()});
-  var sp=$("[data-fitspons]"),has=($('[data-field="p1-spons"]').textContent||"").trim();
-  sp.innerHTML=has?'<span class="dot" aria-label="direct"></span>':"";
-}
-function setImg(slot,url){
-  var s=$('.slot[data-slot="'+slot+'"]');if(!s)return;
-  var img=s.querySelector("img");
-  if(!url){if(img)img.remove();s.classList.remove("has");return}
-  if(!img){img=document.createElement("img");img.alt=s.dataset.label||"";s.insertBefore(img,s.firstChild)}
-  img.src=url;s.classList.add("has");
-}
-function applyEdits(){
-  Object.keys(edits.img||{}).forEach(function(k){setImg(k,edits.img[k])});
-  Object.keys(edits.txt||{}).forEach(function(k){var f=$('[data-field="'+k+'"]');if(f)f.textContent=edits.txt[k]});
-  refreshOptional();
-}
-function save(){var ok=store(EK,edits);$("#editNote").textContent=ok?"Saved in this browser.":"This browser couldn't store the photos (too large or storage blocked). They stay until you close the page; save a copy now."}
-function readImage(file,slot){
-  if(!file||!/^image\//.test(file.type))return;
-  var fr=new FileReader();
-  fr.onload=function(){var im=new Image();im.onload=function(){
-    var m=1400,sc=Math.min(1,m/Math.max(im.width,im.height)),c=document.createElement("canvas");
-    c.width=Math.round(im.width*sc);c.height=Math.round(im.height*sc);c.getContext("2d").drawImage(im,0,0,c.width,c.height);
-    var url=c.toDataURL("image/jpeg",.82);edits.img[slot]=url;setImg(slot,url);save();
-  };im.src=fr.result};
-  fr.readAsDataURL(file);
-}
-function setEditing(on){
-  editing=on;document.documentElement.classList.toggle("editing",on);
-  $("#editPanel").hidden=!on;$("#editToggle").textContent=on?"Done editing":"Edit photos & details";
-  fieldEls().forEach(function(f){if(on){f.setAttribute("contenteditable","plaintext-only");if(f.contentEditable!=="plaintext-only")f.setAttribute("contenteditable","true")}else f.removeAttribute("contenteditable")});
-  $$(".slot").forEach(function(s){if(on){s.tabIndex=0;s.setAttribute("role","button")}else{s.removeAttribute("tabindex");s.removeAttribute("role");s.classList.remove("armed")}});
-  $("#saveCopy").hidden=!local;
-  if(!local)$("#editNote").textContent="You're viewing the published link. Edits stay in this browser only. To update the link everyone sees, send the photos and text to Claude, or open the HTML file from your computer and save a copy.";
-  refreshOptional();
-}
-if(local||location.hash==="#edit"){$("#editbar").hidden=false}
-window.addEventListener("hashchange",function(){if(location.hash==="#edit")$("#editbar").hidden=false});
-$("#editToggle").addEventListener("click",function(){setEditing(!editing)});
-$$(".slot").forEach(function(s){
-  s.addEventListener("click",function(e){if(!editing)return;if(e.target.classList.contains("clear")){delete edits.img[s.dataset.slot];setImg(s.dataset.slot,null);save();return}
-    $$(".slot").forEach(function(x){x.classList.toggle("armed",x===s)});armed=s.dataset.slot;var fp=$("#filePick");fp.value="";fp.onchange=function(){readImage(fp.files[0],s.dataset.slot)};fp.click()});
-  s.addEventListener("focus",function(){if(editing){armed=s.dataset.slot;$$(".slot").forEach(function(x){x.classList.toggle("armed",x===s)})}});
-  s.addEventListener("dragover",function(e){if(editing){e.preventDefault()}});
-  s.addEventListener("drop",function(e){if(!editing)return;e.preventDefault();readImage(e.dataTransfer.files[0],s.dataset.slot)});
-});
-document.addEventListener("paste",function(e){
-  if(!editing||!armed)return;var a=document.activeElement;if(a&&a.hasAttribute&&a.hasAttribute("data-field"))return;
-  var f=Array.prototype.slice.call((e.clipboardData||{}).files||[]).filter(function(x){return /^image\//.test(x.type)})[0];
-  if(f){e.preventDefault();readImage(f,armed)}
-});
-fieldEls().forEach(function(f){f.addEventListener("input",function(){edits.txt[f.dataset.field]=f.textContent;save()})});
-$("#resetEdits").addEventListener("click",function(){edits={img:{},txt:{}};store(EK,edits);location.reload()});
-$("#saveCopy").addEventListener("click",function(){
-  var was=editing;setEditing(false);
-  var clone=document.documentElement.cloneNode(true);
-  clone.classList.remove("editing");
-  var eb=clone.querySelector("#editbar");if(eb)eb.setAttribute("hidden","");
-  var html="<!doctype html>\n"+clone.outerHTML;
-  var a=document.createElement("a");a.href=URL.createObjectURL(new Blob([html],{type:"text/html"}));a.download="Chethan-N-for-The-Charter.html";document.body.appendChild(a);a.click();
-  setTimeout(function(){URL.revokeObjectURL(a.href);a.remove()},1000);
-  if(was)setEditing(true);
-});
-
-applyEdits();renderSeats();renderDates();
+renderSeats();renderDates();
 })();
 </script>
 </body>

@@ -11,7 +11,7 @@ from its website and press coverage, linked on the page. The page is not affilia
 |---|---|
 | `Chethan-N-for-The-Charter.html` | The page to send. One file, works offline. |
 | `Charter-Send-Checklist.html` | Private prep: the fixes to make before sending, ready answers, the cover message, how to add photos. Don't send this one. |
-| `source/` | Template, build script, photos and fonts. |
+| `source/` | Template, build script and fonts. |
 
 ## The company page
 
@@ -26,25 +26,15 @@ from its website and press coverage, linked on the page. The page is not affilia
    shape logistics, and what it means for the role. Sources linked.
 6. **First 30 days** and **contact**.
 
-## Adding photos and details
+## No images
 
-Project I has no photo yet. Either:
+The page carries no photos. Each project has a text diagram instead: the event flow, the before-and-after delivery numbers,
+the seven-month coordination hub, the LVX investor network and the Ghomedha supply chain. The build refuses any `<img>`.
 
-- put a JPG in `source/images/` named after its slot and rebuild, or
-- open `Chethan-N-for-The-Charter.html` from your computer, click **Edit photos & details**, paste or drop photos into the boxes and
-  type into the dashed fields, then **Save page with my edits**.
+## Lovable
 
-| Slot | Shows in | Now |
-|---|---|---|
-| `p1-cxos` | Project I | empty |
-| `portrait` | Hero | portfolio portrait |
-| `p2-techvaraha` | Project II | portfolio sync-call photo |
-| `p3-gastrotrack` | Project III | portfolio build photo |
-| `p4-lvx` | Project IV | MyPragati Founder Run 2026 (LVX) |
-| `p5-ghomedha`, `p5b-ghomedha` | Project V | stall, honey jar |
-
-Empty text fields (what ran at the cxo's event, a sponsor or venue handled, Ghomedha dates, GastroTrack functions and outcome) stay
-hidden until they're filled.
+The company page is also a Lovable project, imported from this file and published on lovable.app. To update it, rebuild here,
+push, and re-import or ask the Lovable agent to replace `public` HTML with the new file.
 
 ## Rebuild
 

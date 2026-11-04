@@ -96,17 +96,15 @@ footer{padding-block:24px 40px;font-size:12.5px;color:var(--muted);border-top:1p
       <li class="item" data-k="portal" data-s="you"><input type="checkbox" id="c-portal" aria-label="Portal experience fixed"><div><h3>Portal shows 0Y against the 2 years required <span class="tag you">Needs you</span></h3>
         <p>This is why you're marked as a stretch. Set total experience to <b>2 years</b> and list both roles with dates: Techvaraha, Jan 2024 – Oct 2025 (22 months), and LVX, Feb – Mar 2026 (2 months). That adds up to 24 months.</p></div></li>
       <li class="item" data-k="spons" data-s="you"><input type="checkbox" id="c-spons" aria-label="Sponsor and venue decided"><div><h3>No sponsor or venue work on record <span class="tag you">Needs you</span></h3>
-        <p>If you arranged a sponsor or the venue for the cxo's event, type it into the <b>Sponsor or venue I handled</b> field on Project I. It then fills that dot in the fit table. If you didn't, leave the field empty. The page already says the ops kit is your answer to that line, which is honest and holds up.</p></div></li>
+        <p>If you arranged a sponsor or the venue for the cxo's event, tell Claude and it goes onto Project I and fills that dot in the fit table. If you didn't, leave it. The page already says the ops kit is your answer to that line, which is honest and holds up.</p></div></li>
       <li class="item" data-k="scope" data-s="you"><input type="checkbox" id="c-scope" aria-label="Event scope filled"><div><h3>cxo's event: show only what ran <span class="tag done">On the page</span> <span class="tag you">Needs you</span></h3>
-        <p>The card only says you invited the CEO and organised the event. Add the parts that actually happened in <b>What ran on the day</b>, and a date if you have it. Leave out anything from the full-day plan that didn't run.</p></div></li>
+        <p>The card only says you invited the CEO and organised the event. If you want more on it, send Claude the parts that actually happened and a date. Leave out anything from the full-day plan that didn't run.</p></div></li>
       <li class="item" data-k="gomedha" data-s="you"><input type="checkbox" id="c-gomedha" aria-label="Ghomedha dates chosen"><div><h3>Ghomedha numbers and dates conflict <span class="tag done">On the page</span> <span class="tag you">Needs you</span></h3>
-        <p>Revenue is off the page; it's an ops story. Dates are blank. Pick the one you can defend, <b>mid-2024</b> or <b>2021 to Dec 2024</b>, and use it everywhere: page, resume, portfolio. Spelling: the jar says GHOMEDHA and your note said Gomedha. The page uses Ghomedha to match the photo.</p></div></li>
+        <p>Revenue is off the page; it's an ops story. The card says "Own venture" with no dates. Pick the one you can defend, <b>mid-2024</b> or <b>2021 to Dec 2024</b>, and use it everywhere: page, resume, portfolio. Spelling: the jar says GHOMEDHA and your note said Gomedha. The page uses Ghomedha to match the photo.</p></div></li>
       <li class="item" data-k="decks" data-s="done"><input type="checkbox" id="c-decks" aria-label="Deck count fixed"><div><h3>Deck count is 15+, not 25+ <span class="tag done">On the page</span> <span class="tag chk">Check portfolio</span></h3>
         <p>The page says 15+. Your live portfolio still says 25+ in two places: the stats strip ("25+ Investor decks shipped") and the Techvaraha bullet ("Delivered 25+ executive decks"). The page links to the portfolio, so fix both first, or ask me to.</p></div></li>
       <li class="item" data-k="lvx" data-s="done"><input type="checkbox" id="c-lvx" aria-label="LVX tenure handled"><div><h3>LVX ran only Feb – Mar 2026 <span class="tag done">On the page</span> <span class="tag chk">Check portfolio</span></h3>
         <p>The page says Feb – Mar 2026. Your portfolio says "Feb '26 — Present", which contradicts it. Change it, and keep the one-liner below ready.</p></div></li>
-      <li class="item" data-k="photos" data-s="you"><input type="checkbox" id="c-photos" aria-label="Photos added"><div><h3>Photos <span class="tag you">Needs you</span></h3>
-        <p>Project I has no photo yet, and it's the first card they see. Photos for II, III and IV came from your portfolio (a sync call, a build screen, the LVX founder run). Swap any that aren't from that project. How to add them is below.</p></div></li>
       <li class="item" data-k="swish" data-s="you"><input type="checkbox" id="c-swish" aria-label="Swish link decided"><div><h3>Swish research as the backup link <span class="tag done">On the page</span> <span class="tag you">Needs you</span></h3>
         <p>The page mentions it under the five projects and says "Ask and I'll send it." Paste a link there if you want it clickable.</p></div></li>
       <li class="item" data-k="claims" data-s="chk"><input type="checkbox" id="c-claims" aria-label="Portfolio claims checked"><div><h3>Big numbers on the portfolio <span class="tag chk">Check</span></h3>
@@ -143,30 +141,6 @@ I'm based in Bengaluru and would like to run the next room there.
 Chethan N
 +91 87924 32119</div>
     <button class="copy" type="button" data-copy="msg" style="margin-top:10px">Copy message</button>
-  </div>
-</section>
-
-<section>
-  <div class="wrap">
-    <h2>Adding photos and details</h2>
-    <ol class="how">
-      <li><b>Quickest:</b> send the photos to Claude in this chat and say which project each is for. The page is rebuilt and republished at the same link.</li>
-      <li><b>In the repo:</b> drop JPGs into <code>interview-demos/charter-ops-portfolio/source/images/</code> with the names below, then run <code>python3 build.py</code> in <code>source/</code>.</li>
-      <li><b>On your computer:</b> open <code>Chethan-N-for-The-Charter.html</code> in a browser, click <b>Edit photos &amp; details</b>, paste or drop photos and type into the dashed fields, then <b>Save page with my edits</b>. On the published link, add <code>#edit</code> to the address to preview, but edits there stay in your browser only.</li>
-    </ol>
-    <div class="tbl" style="margin-top:16px">
-      <table>
-        <thead><tr><th scope="col">File name</th><th scope="col">Where it shows</th><th scope="col">Now</th></tr></thead>
-        <tbody>
-          <tr><td><code>p1-cxos.jpg</code></td><td>Project I, cxo's × Masters' Union</td><td>Empty: add an event photo first</td></tr>
-          <tr><td><code>portrait.jpg</code></td><td>Top of the page</td><td>Your portfolio portrait</td></tr>
-          <tr><td><code>p2-techvaraha.jpg</code></td><td>Project II, Techvaraha</td><td>Sync-call photo from the portfolio</td></tr>
-          <tr><td><code>p3-gastrotrack.jpg</code></td><td>Project III, GastroTrack</td><td>Build-screen photo from the portfolio</td></tr>
-          <tr><td><code>p4-lvx.jpg</code></td><td>Project IV, LVX</td><td>MyPragati Founder Run 2026 (LVX)</td></tr>
-          <tr><td><code>p5-ghomedha.jpg</code>, <code>p5b-ghomedha.jpg</code></td><td>Project V, Ghomedha</td><td>The stall and the honey jar</td></tr>
-        </tbody>
-      </table>
-    </div>
   </div>
 </section>
 

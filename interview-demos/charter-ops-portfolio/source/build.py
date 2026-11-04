@@ -1,7 +1,6 @@
-"""Build the Charter pages: embed fonts and photos into one offline HTML file each.
+"""Build the Charter pages: embed the fonts into one offline HTML file each. No images.
 
 usage: python3 build.py            (from this folder)
-Photos: put a JPG or PNG in images/ named after its slot (see README). Missing photos leave a designed placeholder.
 Also writes artifact/ copies without the document wrapper, for publishing as a claude.ai Artifact.
 """
 import base64, os, re, sys
@@ -31,25 +30,10 @@ def font_css():
     return "\n".join(out)
 
 
-def image_uri(slot):
-    for ext, mime in ((".jpg", "image/jpeg"), (".jpeg", "image/jpeg"), (".png", "image/png"), (".webp", "image/webp")):
-        p = os.path.join(HERE, "images", slot + ext)
-        if os.path.exists(p):
-            return "data:%s;base64,%s" % (mime, b64(p))
-    return ""
-
-
 def build(template, outname):
     src = open(os.path.join(HERE, template), encoding="utf-8").read()
     src = src.replace("/*__FONTS__*/", font_css())
-    used, missing = [], []
-
-    def sub(m):
-        uri = image_uri(m.group(1))
-        (used if uri else missing).append(m.group(1))
-        return uri
-
-    src = re.sub(r"\{\{IMG:([a-z0-9-]+)\}\}", sub, src)
+    assert "<img" not in src, "the pages carry no images"
     full = os.path.join(OUT, outname)
     open(full, "w", encoding="utf-8").write(src)
 
@@ -60,7 +44,7 @@ def build(template, outname):
     art = title + '\n<meta name="claude:viewport-fit-sides" content="cover">\n' + style + "\n" + body.strip() + "\n"
     os.makedirs(os.path.join(HERE, "artifact"), exist_ok=True)
     open(os.path.join(HERE, "artifact", outname), "w", encoding="utf-8").write(art)
-    print("wrote %s (%d KB) photos: %s; empty slots: %s" % (outname, len(src) // 1024, ", ".join(used) or "none", ", ".join(missing) or "none"))
+    print("wrote %s (%d KB)" % (outname, len(src) // 1024))
 
 
 if __name__ == "__main__":
