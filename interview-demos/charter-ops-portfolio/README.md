@@ -33,8 +33,9 @@ the seven-month coordination hub, the LVX investor network and the Ghomedha supp
 
 ## Lovable
 
-The company page is also a Lovable project, imported from this file and published on lovable.app. To update it, rebuild here,
-push, and re-import or ask the Lovable agent to replace `public` HTML with the new file.
+Live at **https://chethan-for-the-charter.lovable.app** (Lovable project "Chethan for The Charter"). The project stores this file
+unchanged as `public/chethan-for-the-charter.html` and shows it full screen on `/`. To update it, rebuild here, upload the new file
+to the project and ask its agent to replace that file byte for byte, then publish.
 
 ## Rebuild
 
