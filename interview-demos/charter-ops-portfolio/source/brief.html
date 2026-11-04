@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Charter Send Checklist</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>/*__FONTS__*/
+/* Layout: one narrow working column; each fix is a row you can tick off. Same palette as the company page, so the two read as a pair. */
+:root{
+  --ground:#F1EBDF; --band:#E8E0CD; --card:#F8F4EB; --text:#0B121C; --muted:#51565E; --accent:#876736;
+  --rule:rgba(11,18,28,.14); --rule-strong:rgba(11,18,28,.32); --btn:#0B121C; --btn-text:#F1EBDF;
+  --ok:#2F6A45; --ok-bg:rgba(47,106,69,.12); --you:#8A5A08; --you-bg:rgba(176,120,20,.15); --chk:#5D6168; --chk-bg:rgba(81,86,94,.12);
+  --serif:'Cinzel',Georgia,'Times New Roman',serif;
+  --sans:'Montserrat',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+  --ui:'Source Sans 3','Source Sans Pro',-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --ground:#0B121C; --band:#111A26; --card:#16202D; --text:#EDE6D6; --muted:#A4A8AE; --accent:#C9A36A;
+  --rule:rgba(237,230,214,.14); --rule-strong:rgba(237,230,214,.34); --btn:#EDE6D6; --btn-text:#0B121C;
+  --ok:#86C19A; --ok-bg:rgba(134,193,154,.14); --you:#E0B25C; --you-bg:rgba(224,178,92,.15); --chk:#A4A8AE; --chk-bg:rgba(164,168,174,.14);
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --ground:#0B121C; --band:#111A26; --card:#16202D; --text:#EDE6D6; --muted:#A4A8AE; --accent:#C9A36A;
+  --rule:rgba(237,230,214,.14); --rule-strong:rgba(237,230,214,.34); --btn:#EDE6D6; --btn-text:#0B121C;
+  --ok:#86C19A; --ok-bg:rgba(134,193,154,.14); --you:#E0B25C; --you-bg:rgba(224,178,92,.15); --chk:#A4A8AE; --chk-bg:rgba(164,168,174,.14);
+  color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0;background:var(--ground);color:var(--text);font-family:var(--sans);font-size:15.5px;line-height:1.65}
+.wrap{max-width:860px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+@media (min-width:760px){.wrap{padding-left:max(40px,env(safe-area-inset-left,0px));padding-right:max(40px,env(safe-area-inset-right,0px))}}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+a{color:inherit;text-underline-offset:3px}
+p{margin:0}
+.eyebrow{font-size:11.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0}
+h1,h2,h3{font-family:var(--serif);font-weight:500;letter-spacing:.02em;margin:0;line-height:1.15;text-wrap:balance}
+h1{font-size:clamp(2rem,5vw,3rem)}
+h2{font-size:clamp(1.4rem,3vw,1.9rem)}
+.rule{width:56px;height:2px;background:var(--accent);border:0;margin:16px 0 0}
+.lede{font-size:1.08rem;max-width:62ch}
+.muted{color:var(--muted)}
+.small{font-size:13.5px;line-height:1.55}
+header{padding-block:48px 28px;display:flex;flex-direction:column;gap:12px}
+section{padding-block:28px 36px;border-top:1px solid var(--rule)}
+section > .wrap > h2{margin-bottom:18px}
+.sum{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border:1px solid var(--rule);background:var(--card);margin-top:8px}
+.sum div{padding:14px 16px;border-right:1px solid var(--rule);display:flex;flex-direction:column}
+.sum div:last-child{border-right:0}
+.sum b{font-family:var(--serif);font-weight:500;font-size:26px;line-height:1.1;font-variant-numeric:tabular-nums}
+.sum span{font-size:12.5px;color:var(--muted)}
+.items{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px}
+.item{background:var(--card);border:1px solid var(--rule);padding:16px 18px;display:grid;grid-template-columns:28px minmax(0,1fr);gap:12px}
+.item input{width:20px;height:20px;margin-top:3px;accent-color:var(--accent)}
+.item.ticked{opacity:.6}
+.item h3{font-family:var(--sans);font-size:15.5px;font-weight:600;letter-spacing:0;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.item p{font-size:14.5px;margin-top:6px}
+.item p b{font-weight:600}
+.tag{font-family:var(--ui);font-size:11.5px;font-weight:700;padding:2px 8px;letter-spacing:.02em}
+.tag.done{color:var(--ok);background:var(--ok-bg)}
+.tag.you{color:var(--you);background:var(--you-bg)}
+.tag.chk{color:var(--chk);background:var(--chk-bg)}
+.lines{display:flex;flex-direction:column;gap:12px}
+.line{background:var(--card);border:1px solid var(--rule);padding:16px 18px;display:flex;flex-direction:column;gap:8px}
+.line .q{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.line .a{font-size:15px;line-height:1.6}
+.copy{align-self:flex-start;font-family:var(--sans);font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;background:none;border:1px solid var(--rule-strong);color:var(--text);padding:5px 10px;cursor:pointer}
+.msg{white-space:pre-wrap;font-size:15px;background:var(--card);border:1px solid var(--rule);padding:18px 20px;line-height:1.65}
+.tbl{overflow-x:auto;border:1px solid var(--rule);background:var(--card)}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{padding:10px 14px;text-align:left;border-bottom:1px solid var(--rule);vertical-align:top}
+thead th{font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);background:var(--band)}
+tbody tr:last-child td{border-bottom:0}
+code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13px;background:var(--band);padding:1px 5px}
+ol.how{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:8px;font-size:14.5px}
+footer{padding-block:24px 40px;font-size:12.5px;color:var(--muted);border-top:1px solid var(--rule)}
+</style>
+</head>
+<body>
+<header class="wrap">
+  <p class="eyebrow">Private · for Chethan, not for The Charter</p>
+  <h1>Before you send</h1>
+  <hr class="rule">
+  <p class="lede">The company page is ready to share. This is the list from your notes: what's already handled on the page, and what still needs you. Tick items off as you go; ticks stay in this browser.</p>
+  <div class="sum" aria-live="polite">
+    <div><b id="nDone">0</b><span>Handled on the page</span></div>
+    <div><b id="nYou">0</b><span>Need you</span></div>
+    <div><b id="nTick">0</b><span>Ticked off</span></div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>The fixes</h2>
+    <ul class="items" id="items">
+      <li class="item" data-k="portal" data-s="you"><input type="checkbox" id="c-portal" aria-label="Portal experience fixed"><div><h3>Portal shows 0Y against the 2 years required <span class="tag you">Needs you</span></h3>
+        <p>This is why you're marked as a stretch. Set total experience to <b>2 years</b> and list both roles with dates: Techvaraha, Jan 2024 – Oct 2025 (22 months), and LVX, Feb – Mar 2026 (2 months). That adds up to 24 months.</p></div></li>
+      <li class="item" data-k="spons" data-s="you"><input type="checkbox" id="c-spons" aria-label="Sponsor and venue decided"><div><h3>No sponsor or venue work on record <span class="tag you">Needs you</span></h3>
+        <p>If you arranged a sponsor or the venue for the cxo's event, type it into the <b>Sponsor or venue I handled</b> field on Project I. It then fills that dot in the fit table. If you didn't, leave the field empty. The page already says the ops kit is your answer to that line, which is honest and holds up.</p></div></li>
+      <li class="item" data-k="scope" data-s="you"><input type="checkbox" id="c-scope" aria-label="Event scope filled"><div><h3>cxo's event: show only what ran <span class="tag done">On the page</span> <span class="tag you">Needs you</span></h3>
+        <p>The card only says you invited the CEO and organised the event. Add the parts that actually happened in <b>What ran on the day</b>, and a date if you have it. Leave out anything from the full-day plan that didn't run.</p></div></li>
+      <li class="item" data-k="gomedha" data-s="you"><input type="checkbox" id="c-gomedha" aria-label="Ghomedha dates chosen"><div><h3>Ghomedha numbers and dates conflict <span class="tag done">On the page</span> <span class="tag you">Needs you</span></h3>
+        <p>Revenue is off the page; it's an ops story. Dates are blank. Pick the one you can defend, <b>mid-2024</b> or <b>2021 to Dec 2024</b>, and use it everywhere: page, resume, portfolio. Spelling: the jar says GHOMEDHA and your note said Gomedha. The page uses Ghomedha to match the photo.</p></div></li>
+      <li class="item" data-k="decks" data-s="done"><input type="checkbox" id="c-decks" aria-label="Deck count fixed"><div><h3>Deck count is 15+, not 25+ <span class="tag done">On the page</span> <span class="tag chk">Check portfolio</span></h3>
+        <p>The page says 15+. Your live portfolio still says 25+ in two places: the stats strip ("25+ Investor decks shipped") and the Techvaraha bullet ("Delivered 25+ executive decks"). The page links to the portfolio, so fix both first, or ask me to.</p></div></li>
+      <li class="item" data-k="lvx" data-s="done"><input type="checkbox" id="c-lvx" aria-label="LVX tenure handled"><div><h3>LVX ran only Feb – Mar 2026 <span class="tag done">On the page</span> <span class="tag chk">Check portfolio</span></h3>
+        <p>The page says Feb – Mar 2026. Your portfolio says "Feb '26 — Present", which contradicts it. Change it, and keep the one-liner below ready.</p></div></li>
+      <li class="item" data-k="photos" data-s="you"><input type="checkbox" id="c-photos" aria-label="Photos added"><div><h3>Photos <span class="tag you">Needs you</span></h3>
+        <p>Project I has no photo yet, and it's the first card they see. Photos for II, III and IV came from your portfolio (a sync call, a build screen, the LVX founder run). Swap any that aren't from that project. How to add them is below.</p></div></li>
+      <li class="item" data-k="swish" data-s="you"><input type="checkbox" id="c-swish" aria-label="Swish link decided"><div><h3>Swish research as the backup link <span class="tag done">On the page</span> <span class="tag you">Needs you</span></h3>
+        <p>The page mentions it under the five projects and says "Ask and I'll send it." Paste a link there if you want it clickable.</p></div></li>
+      <li class="item" data-k="claims" data-s="chk"><input type="checkbox" id="c-claims" aria-label="Portfolio claims checked"><div><h3>Big numbers on the portfolio <span class="tag chk">Check</span></h3>
+        <p>The portfolio also shows "₹100Cr+ deal flow tracked" and an LVX badge of "₹40Cr–₹100Cr". After a two-month stint, expect a question on both. Keep them only if you can explain them in one sentence.</p></div></li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Lines to have ready</h2>
+    <div class="lines">
+      <div class="line"><span class="q">Why only two months at LVX?</span><span class="a" id="l1">It was a short stint, February to March 2026. In those two months I worked directly with HNIs, UHNIs and family offices, linked IR, legal, research and the portfolio managers, and started the Dubai/UK corridor from scratch. I left because [one honest clause].</span><button class="copy" type="button" data-copy="l1">Copy</button></div>
+      <div class="line"><span class="q">Your profile says 0 years</span><span class="a" id="l2">That was a profile error, and it's fixed now. I have two years in Founder's Office roles: 22 months at Techvaraha and two at LVX.</span><button class="copy" type="button" data-copy="l2">Copy</button></div>
+      <div class="line"><span class="q">Have you done sponsor or venue work?</span><span class="a" id="l3">Not at Charter scale yet, so I planned one. The F&amp;B Sit-Down kit on my page has the venue criteria, the partner tracker with asks and gives, and the recap I'd send each partner.</span><button class="copy" type="button" data-copy="l3">Copy</button></div>
+      <div class="line"><span class="q">What were Ghomedha's numbers?</span><span class="a" id="l4">I'd rather talk about the operations. I sourced and negotiated with suppliers, ran inventory and quality checks, and handled fulfilment, including selling at stalls myself.</span><button class="copy" type="button" data-copy="l4">Copy</button></div>
+      <div class="line"><span class="q">Why The Charter?</span><span class="a" id="l5">Your rooms are built by hand and run on venues, partners and vendors the guests never see. That's the work I'm good at: many outside people, one evening, no slack in the timeline. And Bengaluru is your newest city and my home.</span><button class="copy" type="button" data-copy="l5">Copy</button></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>The message to send with the link</h2>
+    <p class="small muted" style="margin-bottom:12px">Send it where you applied, or to the hiring contact on LinkedIn. collaborations@thecharterofficial.com is for partnership proposals, so don't use it for this.</p>
+    <div class="msg" id="msg">Hi [name],
+
+I've applied for the Operations role at The Charter. Instead of a cover letter, I made a short page: five projects ranked by how well they fit the role, and a mock ops kit for an F&amp;B Sit-Down in Bengaluru, with a run of show, a venue and partner tracker, and a follow-up timeline.
+
+[link to the page]
+
+I'm based in Bengaluru and would like to run the next room there.
+
+Chethan N
++91 87924 32119</div>
+    <button class="copy" type="button" data-copy="msg" style="margin-top:10px">Copy message</button>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Adding photos and details</h2>
+    <ol class="how">
+      <li><b>Quickest:</b> send the photos to Claude in this chat and say which project each is for. The page is rebuilt and republished at the same link.</li>
+      <li><b>In the repo:</b> drop JPGs into <code>interview-demos/charter-ops-portfolio/source/images/</code> with the names below, then run <code>python3 build.py</code> in <code>source/</code>.</li>
+      <li><b>On your computer:</b> open <code>Chethan-N-for-The-Charter.html</code> in a browser, click <b>Edit photos &amp; details</b>, paste or drop photos and type into the dashed fields, then <b>Save page with my edits</b>. On the published link, add <code>#edit</code> to the address to preview, but edits there stay in your browser only.</li>
+    </ol>
+    <div class="tbl" style="margin-top:16px">
+      <table>
+        <thead><tr><th scope="col">File name</th><th scope="col">Where it shows</th><th scope="col">Now</th></tr></thead>
+        <tbody>
+          <tr><td><code>p1-cxos.jpg</code></td><td>Project I, cxo's × Masters' Union</td><td>Empty: add an event photo first</td></tr>
+          <tr><td><code>portrait.jpg</code></td><td>Top of the page</td><td>Your portfolio portrait</td></tr>
+          <tr><td><code>p2-techvaraha.jpg</code></td><td>Project II, Techvaraha</td><td>Sync-call photo from the portfolio</td></tr>
+          <tr><td><code>p3-gastrotrack.jpg</code></td><td>Project III, GastroTrack</td><td>Build-screen photo from the portfolio</td></tr>
+          <tr><td><code>p4-lvx.jpg</code></td><td>Project IV, LVX</td><td>MyPragati Founder Run 2026 (LVX)</td></tr>
+          <tr><td><code>p5-ghomedha.jpg</code>, <code>p5b-ghomedha.jpg</code></td><td>Project V, Ghomedha</td><td>The stall and the honey jar</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Charter facts to keep straight</h2>
+    <div class="tbl">
+      <table>
+        <tbody>
+          <tr><td>Members</td><td>500+ on the site; about 550 in the September 2026 release. Say "500-plus".</td></tr>
+          <tr><td>People</td><td>Devarsh Saraf, founder and CEO. Dhruvi Bhanushali and Farhan Jaorewalla are named with him. Avik Ashar is an advisor and investor. Krishan Anand (Secret) ran the Secret Charter with them.</td></tr>
+          <tr><td>Words they use</td><td>Members are Signatories; they sign eight articles; Keepers can decline a sponsorship. Rooms, Tables, Gatherings, Hours.</td></tr>
+          <tr><td>Bengaluru</td><td>Opened September 2025. The White Soirée on 19 July 2026 was billed as the first Bengaluru edition.</td></tr>
+          <tr><td>Recent big nights</td><td>Founders' Gala, 1 Apr 2026 (200+). The Room, 18 Apr 2026 (Movement acquisition, 700+ registrations). The Signing, 11 Jul 2026 (rename). Secret Charter, Sonamarg, Sept 2026 (50). Diwali Gathering, The Quorum, Oct 2026 (300+, 15 partners).</td></tr>
+          <tr><td>Partners</td><td>Four types: venue, F&amp;B, gifting, experiential. 25 brands on the partnerships page. Reply promised within two days.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<footer><div class="wrap">Private working notes. Facts about The Charter are from its website and press coverage as of 4 November 2026.</div></footer>
+
+<script>
+(function(){
+var K="charterBrief.ticks",t={};try{t=JSON.parse(localStorage.getItem(K)||"{}")}catch(e){}
+var items=[].slice.call(document.querySelectorAll(".item"));
+function sum(){var d=0,y=0,k=0;items.forEach(function(i){if(i.dataset.s==="done")d++;else y++;var c=i.querySelector("input").checked;i.classList.toggle("ticked",c);if(c)k++});
+  document.getElementById("nDone").textContent=d;document.getElementById("nYou").textContent=y;document.getElementById("nTick").textContent=k+"/"+items.length}
+items.forEach(function(i){var c=i.querySelector("input");c.checked=!!t[i.dataset.k];c.addEventListener("change",function(){t[i.dataset.k]=c.checked;try{localStorage.setItem(K,JSON.stringify(t))}catch(e){}sum()})});
+sum();
+[].slice.call(document.querySelectorAll(".copy")).forEach(function(b){b.addEventListener("click",function(){
+  var el=document.getElementById(b.dataset.copy),txt=el.innerText.trim(),lab=b.textContent;
+  function sel(){var r=document.createRange();r.selectNodeContents(el);var s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent="Selected"}
+  try{navigator.clipboard.writeText(txt).then(function(){b.textContent="Copied"},sel)}catch(e){sel()}
+  setTimeout(function(){b.textContent=lab},1800);
+})});
+})();
+</script>
+</body>
+</html>
