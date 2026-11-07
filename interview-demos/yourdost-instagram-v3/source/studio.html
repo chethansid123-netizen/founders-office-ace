@@ -1,0 +1,9 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="fonts.css">
+<link rel="stylesheet" href="v3.css">
+<style>html,body{margin:0;background:#888}#stage{width:1080px}</style>
+</head><body><div id="stage"></div>
+<script src="v3.js"></script>
+<script>window.show = (id, i, t) => { const p = YD3.POSTS.find(x => x.id === id); document.getElementById('stage').innerHTML = YD3.frame(p, i, t); };</script>
+</body></html>
