@@ -1,0 +1,14 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="fonts.local.css">
+<link rel="stylesheet" href="creatives.css">
+<style>html,body{margin:0;background:#888}#stage{width:1080px}</style>
+</head><body><div id="stage"></div>
+<script src="creatives.js"></script>
+<script>
+window.show = (id, i, t, bare) => {
+  const post = JBN.POSTS.find(p => p.id === id);
+  document.getElementById('stage').innerHTML = JBN.frameHTML(post, i, t, { bare });
+};
+window.showHTML = (html) => { document.getElementById('stage').innerHTML = html; };
+</script></body></html>
