@@ -1,0 +1,9 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="fonts.css">
+<link rel="stylesheet" href="posts.css">
+<style>html,body{margin:0;background:#888}#stage{width:1080px}</style>
+</head><body><div id="stage"></div>
+<script src="posts.js"></script>
+<script>window.show = (id) => { document.getElementById('stage').innerHTML = YDP.html(YDP.POSTS.find(p => p.id === id)); };</script>
+</body></html>
