@@ -1,0 +1,36 @@
+/* Upload details for the three v6 reels (used by export.mjs to write each UPLOAD.md). */
+module.exports = {
+  "13": {
+    theme: "Homesickness and placement pressure at top campuses", segment: "Students at top B-schools and IITs, living away from home",
+    date: "Mon 30 Nov 2026", time: "9:30 PM IST",
+    line: "Watch her face when she picks up.",
+    why: "It opens on a hook that makes you watch her face. She wipes her tears, smiles and tells her mother “Everything's fine, really” the night before placements, then lies back alone. Every student away from home has made that call. The end card shows the YourDOST chat, so the next step is clear: talk to someone who gets it. It goes out the night before placements begin on 1 December.",
+    caption: "Watch her face when she picks up. 📞\n\nTop campus. Placement week. 1,400 km from home. And every call ends with “I'm fine, Ma.”\n\nYou don't have to be fine for everyone. Your college may already give you access to YourDOST: talk to a certified expert, 24/7.",
+    tags: "#PlacementSeason #HostelLife #Homesick #StudentMentalHealth #IIM #IIT #YourDOST",
+    first: "Who's the first person you call when it gets heavy? Tag them. 💛",
+    alt: "A student in a navy hoodie sits on her hostel bed in tears, her placement blazer hanging behind her. She wipes her eyes, smiles and answers her mother's call: “Hi Ma! Yes, I ate. Everything's fine, really.” Then she lies back alone, a tear running down. Text: You don't have to be fine for everyone. The end shows a YourDOST chat: Hey, I'm here. What's been feeling heavy lately? Reply: honestly? I miss home. Talk to a certified expert, 24/7, yourdost.com.",
+    audio: "Her dialogue and room sound come from the Veo clip; ElevenLabs Music (piano), ElevenLabs Sound Effects (hostel night ambience, message pops) and an ElevenLabs v3 voiceover (voice: Saumya).",
+  },
+  "14": {
+    theme: "Burnout in corporate jobs", segment: "Corporate employees (the people YourDOST's B2B clients buy for)",
+    date: "Tue 24 Nov 2026", time: "9:00 PM IST",
+    line: "Your phone warns you at 20%. Your body warns you too.",
+    why: "The first frame looks like a real low-battery alert, so it stops the scroll. Then it flips the idea: headaches, snapping at loved ones and Sunday dread arrive as phone notifications from “Your body”. “Don't swipe this one away” is a line people repeat. The YourDOST chat end card pays off the 5% joke, and the note tells employees to ask HR, which feeds the B2B pipeline.",
+    caption: "Your phone warns you at 20%. 🔋\n\nYour body sends warnings too: the headache that won't leave, snapping at someone you love, the Sunday-night dread.\n\nDon't swipe this one away. Talk to a certified expert on YourDOST, 24/7. Ask HR if your company already offers it.",
+    tags: "#Burnout #CorporateLife #WorkLifeBalance #MentalHealthAtWork #EmployeeWellbeing #YourDOST",
+    first: "What's your body's “low battery” notification? 👇 Mine's the Sunday-night headache.",
+    alt: "A phone lock screen at 11:48 shows a Low Battery alert, 5% remaining. It swipes up to reveal a man working alone in a dark office, rubbing his eyes. Text: Your phone warns you at 20%. Notifications from “Your body” drop in: Headache, day 4 this week. You snapped at someone you love. Sunday-night dread is back. Text: Your body warns you too. He closes the laptop and leans back. Text: Don't swipe this one away. The end shows a YourDOST chat: Long week? Let's talk it through. No judgement. Reply: i think i'm running on 5%. Recharge with someone who gets it. Talk to a certified expert, 24/7, yourdost.com.",
+    audio: "ElevenLabs Music (electronic pulse into calm), ElevenLabs Sound Effects (low-battery alert, notification pings, night office, laptop closing, message pops) and an ElevenLabs v3 voiceover (voice: Lavkush).",
+  },
+  "15": {
+    theme: "New-parent and postpartum stress", segment: "New mothers and parents, plus the families around them (and HR teams running parental-leave programmes)",
+    date: "Wed 2 Dec 2026", time: "10:30 PM IST",
+    line: "Everyone asks about the baby. Ask how she is.",
+    why: "It's told mostly through sound: a fan, a clock and a newborn at 3:07 AM. Then the next morning's family chat asks only about the baby. The turn, “Ask how she is,” is something people will tag their sisters, friends and partners in. The YourDOST chat end card shows the expert asking about her first.",
+    caption: "3:07 AM. Third wake-up tonight. 🌙\n\nEveryone asks how the baby is sleeping. Almost no one asks how she is.\n\nNew parents need care too. A YourDOST expert is there, privately and online, whenever you're up.",
+    tags: "#NewMom #Postpartum #Motherhood #NewParents #MaternalMentalHealth #YourDOST",
+    first: "Tag a new parent and ask them how *they* are today. 💛",
+    alt: "At 3:07 AM a young mother rocks her newborn by a night lamp, exhausted. Text: Everyone asks about the baby. The next morning she reads family messages: How is the baby sleeping? Send more photos!! Is he feeding well? Text: Ask how she is. The end shows a YourDOST chat: Before we talk about the baby, how are you doing? Reply: honestly? I haven't slept properly in weeks. New parents need care too. Talk to a certified expert, 24/7, yourdost.com.",
+    audio: "ElevenLabs Music (music-box lullaby), ElevenLabs Sound Effects (3 AM room with a newborn, morning room, message pops) and an ElevenLabs v3 voiceover (voice: Parul).",
+  },
+};

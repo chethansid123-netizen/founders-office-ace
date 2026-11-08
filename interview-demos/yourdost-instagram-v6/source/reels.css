@@ -1,0 +1,76 @@
+/* v6 reel overlays: rendered transparent over ElevenLabs (Veo) footage. YourDOST yellow #F6D25A, cream #FDFCF7,
+   lavender #E1CBF9, ink #0D1015, Poppins. Safe area: text kept between y 260 and 1560 (Instagram UI covers the rest). */
+html, body { margin: 0; background: transparent; }
+.reel { width: 1080px; height: 1920px; position: relative; overflow: hidden; font-family: "Poppins", sans-serif; color: #fff; -webkit-font-smoothing: antialiased; }
+.reel * { box-sizing: border-box; }
+.reel p { margin: 0; }
+.abs { position: absolute; }
+.scrim-top { position: absolute; left: 0; right: 0; top: 0; height: 1000px; background: linear-gradient(180deg, rgba(6, 6, 10, 0.78) 0%, rgba(6, 6, 10, 0.5) 38%, rgba(6, 6, 10, 0) 100%); }
+.scrim-bot { position: absolute; left: 0; right: 0; bottom: 0; height: 900px; background: linear-gradient(0deg, rgba(6, 6, 10, 0.82) 0%, rgba(6, 6, 10, 0.5) 45%, rgba(6, 6, 10, 0) 100%); }
+.mini-badge { position: absolute; left: 60px; top: 150px; width: 112px; height: 112px; filter: drop-shadow(0 6px 18px rgba(0, 0, 0, 0.35)); }
+
+.txt { position: absolute; left: 72px; right: 110px; display: flex; flex-direction: column; align-items: flex-start; gap: 26px; }
+.eyebrow { display: inline-block; background: #f6d25a; color: #0d1015; font-weight: 600; font-size: 27px; letter-spacing: 0.08em; text-transform: uppercase; padding: 10px 24px; border-radius: 999px; }
+.line { font-weight: 600; font-size: 80px; line-height: 1.1; letter-spacing: -0.012em; text-shadow: 0 3px 26px rgba(0, 0, 0, 0.5); }
+.line.xl { font-size: 104px; line-height: 1.04; }
+.line.s { font-size: 62px; }
+.hl { color: #f6d25a; }
+.sub { position: absolute; left: 0; right: 0; display: flex; justify-content: center; }
+.sub span { background: rgba(10, 10, 14, 0.62); border-radius: 20px; padding: 12px 30px; font-weight: 600; font-size: 50px; line-height: 1.2; text-align: center; }
+.clock { font-weight: 600; font-size: 190px; line-height: 0.95; letter-spacing: -0.03em; text-shadow: 0 4px 40px rgba(0, 0, 0, 0.5); }
+
+/* Reel 14: lock screen + body notifications */
+.lock { position: absolute; inset: 0; overflow: hidden; background: #0b0f17; }
+.lock .wall { position: absolute; inset: -80px; background-size: cover; background-position: center; filter: blur(42px) brightness(0.5) saturate(1.1); }
+.lock .status { position: absolute; top: 46px; left: 70px; right: 64px; display: flex; justify-content: space-between; align-items: center; font-weight: 600; font-size: 34px; }
+.batt { display: inline-flex; align-items: center; gap: 12px; }
+.batt i { width: 64px; height: 30px; border: 3px solid rgba(255, 255, 255, 0.85); border-radius: 9px; position: relative; display: inline-block; }
+.batt i::before { content: ""; position: absolute; left: 3px; top: 3px; bottom: 3px; width: 5px; background: #ff4b3e; border-radius: 3px; }
+.batt i::after { content: ""; position: absolute; right: -9px; top: 8px; width: 5px; height: 10px; background: rgba(255, 255, 255, 0.85); border-radius: 0 3px 3px 0; }
+.lock .date { position: absolute; top: 250px; left: 0; right: 0; text-align: center; font-weight: 500; font-size: 42px; color: rgba(255, 255, 255, 0.88); }
+.lock .time { position: absolute; top: 300px; left: 0; right: 0; text-align: center; font-weight: 600; font-size: 250px; letter-spacing: -0.03em; line-height: 1; }
+.alert { position: absolute; left: 230px; width: 620px; top: 820px; border-radius: 44px; background: rgba(48, 48, 54, 0.9); text-align: center; overflow: hidden; box-shadow: 0 30px 80px rgba(0, 0, 0, 0.5); }
+.alert h4 { margin: 0; padding: 44px 40px 8px; font-weight: 600; font-size: 42px; }
+.alert p { padding: 0 40px 38px; font-size: 32px; color: rgba(255, 255, 255, 0.78); }
+.alert .btns { display: flex; border-top: 2px solid rgba(255, 255, 255, 0.14); }
+.alert .btns span { flex: 1; padding: 26px 0; font-size: 34px; color: #62adff; }
+.alert .btns span + span { border-left: 2px solid rgba(255, 255, 255, 0.14); font-weight: 600; }
+.homebar { position: absolute; bottom: 36px; left: 390px; width: 300px; height: 11px; border-radius: 9px; background: rgba(255, 255, 255, 0.85); }
+
+.notif { position: absolute; left: 44px; right: 44px; display: flex; gap: 24px; align-items: center; padding: 26px 30px; border-radius: 38px; background: rgba(246, 246, 248, 0.94); color: #111; box-shadow: 0 16px 44px rgba(0, 0, 0, 0.4); }
+.notif .ic { flex: 0 0 auto; width: 84px; height: 84px; border-radius: 20px; background: linear-gradient(160deg, #ff7a5c, #dd4224); display: flex; align-items: center; justify-content: center; }
+.notif .bd { flex: 1; min-width: 0; }
+.notif .top { display: flex; justify-content: space-between; font-size: 25px; font-weight: 600; letter-spacing: 0.05em; color: #6d6d75; text-transform: uppercase; }
+.notif .top em { font-style: normal; text-transform: none; letter-spacing: 0; font-weight: 500; }
+.notif .msg { font-size: 36px; font-weight: 600; line-height: 1.22; margin-top: 4px; }
+
+/* Reel 15: family chat */
+.fam { position: absolute; left: 44px; right: 44px; border-radius: 40px; background: rgba(14, 17, 22, 0.78); padding: 26px 30px 34px; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45); }
+.fam .hd { display: flex; align-items: center; gap: 20px; padding-bottom: 20px; border-bottom: 2px solid rgba(255, 255, 255, 0.1); }
+.fam .av { width: 76px; height: 76px; border-radius: 50%; background: linear-gradient(140deg, #f6d25a, #e1cbf9); }
+.fam .hd b { font-size: 36px; display: block; }
+.fam .hd span { font-size: 25px; color: rgba(255, 255, 255, 0.6); }
+.fam .msgs { display: flex; flex-direction: column; gap: 18px; padding-top: 24px; }
+.fam .m { align-self: flex-start; max-width: 84%; background: #fff; color: #111; border-radius: 30px 30px 30px 8px; padding: 16px 26px 18px; }
+.fam .m i { display: block; font-style: normal; font-size: 24px; font-weight: 600; }
+.fam .m span { font-size: 35px; font-weight: 500; line-height: 1.25; }
+
+/* Shared end card: the YourDOST chat, as the product looks and works (chat is how most people start). */
+.end { position: absolute; inset: 0; background: #fdfcf7; color: #0d1015; }
+.end .logo { position: absolute; top: 150px; left: 455px; width: 170px; height: 170px; }
+.chat { position: absolute; left: 70px; right: 70px; top: 390px; background: #fff; border-radius: 46px; border: 2px solid #efe8f8; box-shadow: 0 24px 70px rgba(60, 40, 110, 0.13); overflow: hidden; }
+.chat .hd { display: flex; align-items: center; gap: 20px; padding: 26px 32px; border-bottom: 2px solid #f3eefa; }
+.chat .hd img { width: 74px; height: 74px; }
+.chat .hd b { display: block; font-size: 33px; font-weight: 600; }
+.chat .hd span { font-size: 25px; color: #2e9d5b; font-weight: 500; }
+.chat .hd span::before { content: ""; display: inline-block; width: 14px; height: 14px; border-radius: 50%; background: #2e9d5b; margin-right: 10px; vertical-align: 1px; }
+.chat .body { padding: 30px 32px 38px; display: flex; flex-direction: column; gap: 20px; min-height: 420px; }
+.bx { align-self: flex-start; max-width: 82%; background: #e1cbf9; border-radius: 34px 34px 34px 10px; padding: 22px 30px; font-size: 37px; font-weight: 500; line-height: 1.3; }
+.bme { align-self: flex-end; max-width: 82%; background: #f6d25a; border-radius: 34px 34px 10px 34px; padding: 22px 30px; font-size: 37px; font-weight: 500; line-height: 1.3; }
+.dots { display: inline-flex; gap: 10px; padding: 8px 4px; }
+.dots i { width: 16px; height: 16px; border-radius: 50%; background: #5b4a9c; display: inline-block; }
+.end .head { position: absolute; left: 70px; right: 70px; top: 1000px; text-align: center; font-weight: 600; font-size: 60px; line-height: 1.12; letter-spacing: -0.01em; }
+.end .cta { position: absolute; left: 0; right: 0; top: 1190px; display: flex; justify-content: center; }
+.end .cta span { background: #0d1015; color: #fff; border-radius: 999px; padding: 22px 40px; font-size: 34px; font-weight: 500; white-space: nowrap; }
+.end .cta b { color: #f6d25a; font-weight: 600; }
+.end .note { position: absolute; left: 70px; right: 70px; top: 1305px; text-align: center; font-size: 29px; color: #5b5b63; }

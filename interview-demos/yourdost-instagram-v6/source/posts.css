@@ -1,0 +1,75 @@
+/* v6 static posts (4:5, 1080x1350). YourDOST colours, Poppins, handwritten Gaegu notes, logo badge top-right on every slide. */
+.f { width: 1080px; height: 1350px; position: relative; overflow: hidden; box-sizing: border-box; font-family: "Poppins", sans-serif; color: #0d1015; background: #fdfcf7; -webkit-font-smoothing: antialiased; }
+.f *, .f *::before, .f *::after { box-sizing: border-box; }
+.f p { margin: 0; }
+.ph { position: absolute; inset: 0; background-size: cover; background-position: center; }
+.scrim-t { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(8, 8, 12, 0.82) 0%, rgba(8, 8, 12, 0.55) 30%, rgba(8, 8, 12, 0) 58%); }
+.scrim-b { position: absolute; inset: 0; background: linear-gradient(0deg, rgba(8, 8, 12, 0.9) 0%, rgba(8, 8, 12, 0.6) 32%, rgba(8, 8, 12, 0) 60%); }
+.paper::after { content: ""; position: absolute; inset: 0; pointer-events: none; opacity: 0.16; mix-blend-mode: multiply; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.5  0 0 0 0 0.45  0 0 0 0 0.4  0 0 0 0.6 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>"); }
+.bg-cream { background: #fdfcf7; }
+.bg-yellow { background: #f6d25a; }
+.bg-lav { background: #e1cbf9; }
+.bg-ink { background: #13121a; color: #fff; }
+.badge { position: absolute; right: 48px; top: 48px; width: 104px; height: 104px; z-index: 9; filter: drop-shadow(0 6px 16px rgba(0, 0, 0, 0.25)); }
+.abs { position: absolute; z-index: 3; }
+.eyebrow { display: inline-block; background: #f6d25a; color: #0d1015; font-weight: 600; font-size: 24px; letter-spacing: 0.08em; text-transform: uppercase; padding: 9px 20px; border-radius: 999px; }
+.eyebrow.ink { background: #0d1015; color: #f6d25a; }
+.h { font-weight: 600; font-size: 76px; line-height: 1.1; letter-spacing: -0.015em; }
+.h.xl { font-size: 92px; line-height: 1.05; }
+.h.s { font-size: 60px; }
+.light { color: #fff; text-shadow: 0 3px 24px rgba(0, 0, 0, 0.4); }
+.y { color: #f6d25a; }
+.mk { background: #f6d25a; border-radius: 12px; padding: 0 12px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.body { font-size: 32px; line-height: 1.45; }
+.note { font-family: "Gaegu", cursive; font-weight: 700; font-size: 50px; line-height: 1.1; }
+.cta { display: inline-flex; align-items: center; background: #0d1015; color: #fff; border-radius: 999px; padding: 18px 32px; font-weight: 500; font-size: 28px; white-space: nowrap; }
+.cta b { color: #f6d25a; font-weight: 600; }
+.count { position: absolute; right: 56px; bottom: 48px; font-size: 24px; font-weight: 600; color: rgba(13, 16, 21, 0.45); letter-spacing: 0.06em; }
+.doodle { position: absolute; z-index: 4; overflow: visible; }
+
+/* translator card (post 16) */
+.tr { position: absolute; left: 64px; right: 64px; top: 340px; background: #fff; border-radius: 44px; box-shadow: 0 24px 70px rgba(60, 40, 110, 0.14); border: 2px solid #efe8f8; overflow: hidden; }
+.tr .pane { padding: 60px 56px 76px; }
+.tr .lab { display: flex; align-items: center; gap: 14px; font-size: 26px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #8a8792; margin-bottom: 18px; }
+.tr .chip { text-transform: none; letter-spacing: 0; font-weight: 600; font-size: 24px; padding: 6px 18px; border-radius: 999px; background: #f1eef5; color: #3d3a45; }
+.tr .said { font-size: 64px; font-weight: 600; line-height: 1.18; }
+.tr .pane.meant { background: #e1cbf9; }
+.tr .pane.meant .chip { background: #5b4a9c; color: #fff; }
+.tr .meant p { font-size: 60px; font-weight: 600; line-height: 1.22; color: #2b2150; }
+.tr .swap { position: absolute; right: 56px; width: 88px; height: 88px; border-radius: 50%; background: #f6d25a; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 22px rgba(0, 0, 0, 0.15); }
+.tophead { position: absolute; left: 64px; right: 200px; top: 96px; }
+.tophead p { font-size: 30px; font-weight: 600; color: #5b4a9c; }
+.tophead .h { margin-top: 6px; }
+
+/* rewrite card (post 17) */
+.rw { position: absolute; left: 64px; right: 64px; top: 340px; background: #fff; border-radius: 44px; box-shadow: 0 24px 70px rgba(30, 30, 40, 0.12); overflow: hidden; }
+.rw .hd { display: flex; align-items: center; gap: 18px; padding: 24px 36px; background: #f6f4ef; border-bottom: 2px solid #ece8df; }
+.rw .hd i { width: 64px; height: 64px; border-radius: 50%; background: linear-gradient(140deg, #f6d25a, #e1cbf9); display: block; }
+.rw .hd b { font-size: 30px; display: block; }
+.rw .hd span { font-size: 22px; color: #777; }
+.rw .in { padding: 52px 40px 16px; }
+.rw .tag { font-size: 26px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 12px; display: flex; align-items: center; gap: 10px; }
+.rw .tag.no { color: #c2410c; }
+.rw .tag.yes { color: #2e7d4f; }
+.rw .draft { border: 2px dashed #e3a58c; border-radius: 28px; padding: 30px 32px; font-size: 52px; font-weight: 500; color: #9a8f86; text-decoration: line-through; text-decoration-color: #dd4224; text-decoration-thickness: 5px; }
+.rw .sent { padding: 30px 40px 60px; display: flex; flex-direction: column; align-items: flex-end; }
+.rw .bub { max-width: 94%; background: #f6d25a; border-radius: 36px 36px 10px 36px; padding: 30px 38px; font-size: 56px; font-weight: 600; line-height: 1.2; }
+.rw .tick { margin-top: 10px; font-size: 22px; color: #5b8def; font-weight: 600; }
+
+/* receipt (post 20) */
+.rcpt-wrap { position: absolute; left: 190px; width: 700px; top: 205px; transform: rotate(-1.6deg); filter: drop-shadow(0 26px 34px rgba(70, 50, 0, 0.3)); z-index: 3; }
+.rcpt { position: relative; background: #fffef9; padding: 46px 46px 44px; font-family: "Space Mono", monospace; font-size: 23px; line-height: 1.5; color: #1b1b1f;
+  --z: 14px;
+  -webkit-mask: conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) bottom / calc(2 * var(--z)) 51% repeat-x,
+                conic-gradient(from 135deg at top, #0000, #000 1deg 89deg, #0000 90deg) top / calc(2 * var(--z)) 51% repeat-x;
+  mask: conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) bottom / calc(2 * var(--z)) 51% repeat-x,
+        conic-gradient(from 135deg at top, #0000, #000 1deg 89deg, #0000 90deg) top / calc(2 * var(--z)) 51% repeat-x; }
+.rcpt::before { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(180deg, rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.035) 60%, rgba(0, 0, 0, 0) 80%); }
+.rcpt .c { text-align: center; }
+.rcpt .row { display: flex; justify-content: space-between; gap: 14px; }
+.rcpt .row span:first-child { flex: 0 0 64px; text-align: right; }
+.rcpt .row span:nth-child(2) { flex: 1; }
+.rcpt .hr { border-top: 2px dashed #9b9b9b; margin: 14px 0; }
+.rcpt b { font-weight: 700; }
+.rcpt .big { font-size: 30px; font-weight: 700; }
+.rcpt .bar { height: 64px; margin: 16px 40px 8px; background: repeating-linear-gradient(90deg, #1b1b1f 0 3px, transparent 3px 7px, #1b1b1f 7px 8px, transparent 8px 12px, #1b1b1f 12px 16px, transparent 16px 19px); }
