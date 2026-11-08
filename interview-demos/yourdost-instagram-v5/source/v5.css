@@ -1,0 +1,44 @@
+/* Story style from the reference posts: rounded chunky headlines (Fredoka), handwritten notes (Gaegu),
+   sticker cut-outs with a white outline, hand-drawn doodles. YourDOST colours and logo badge. */
+.f { width: 1080px; height: 1350px; position: relative; overflow: hidden; box-sizing: border-box; font-family: "Poppins", sans-serif; color: #141416; -webkit-font-smoothing: antialiased; }
+.f *, .f *::before, .f *::after { box-sizing: border-box; }
+.f p { margin: 0; }
+.ph { position: absolute; inset: 0; background-size: cover; background-position: center; }
+.shade-top { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10, 10, 14, 0.7) 0%, rgba(10, 10, 14, 0.35) 34%, rgba(10, 10, 14, 0) 55%); }
+.shade-all { position: absolute; inset: 0; background: rgba(10, 10, 14, 0.5); }
+.paper { position: absolute; inset: 0; }
+.paper::after { content: ""; position: absolute; inset: 0; opacity: 0.18; mix-blend-mode: multiply; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.5  0 0 0 0 0.45  0 0 0 0 0.4  0 0 0 0.6 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>"); }
+.paper.cream { background: #f6efe2; }
+.paper.purple { background: #4c3d8f; }
+.paper.yellow { background: #f6d25a; }
+.abs { position: absolute; z-index: 3; }
+.hl { font-family: "Fredoka", sans-serif; font-weight: 700; font-size: 84px; line-height: 1.08; letter-spacing: -0.005em; text-wrap: balance; text-shadow: 0 2px 18px rgba(0, 0, 0, 0.18); }
+.hl.dark { color: #141416; text-shadow: none; }
+.note { font-family: "Gaegu", cursive; font-weight: 700; font-size: 60px; line-height: 1.12; }
+.note.dark { color: #141416; }
+.body { font-size: 34px; line-height: 1.45; }
+.mk { background: #f6d25a; border-radius: 12px; padding: 0 10px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.sticker { position: absolute; z-index: 2; filter: drop-shadow(0 14px 22px rgba(0, 0, 0, 0.28)); }
+.doodle { position: absolute; z-index: 4; overflow: visible; }
+.circle { position: absolute; z-index: 3; border-radius: 50%; overflow: hidden; border: 9px solid #fff; box-shadow: 0 12px 26px rgba(0, 0, 0, 0.3); }
+.circle img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.badge { position: absolute; left: 50%; bottom: 26px; transform: translateX(-50%); width: 92px; height: 92px; z-index: 6; filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.25)); }
+.cta { display: inline-flex; align-items: center; gap: 10px; background: #141416; color: #fff; border-radius: 999px; padding: 18px 30px; font-weight: 500; font-size: 27px; white-space: nowrap; }
+.cta b { color: #f6d25a; font-weight: 600; }
+.stories { position: absolute; left: 0; right: 0; display: flex; justify-content: center; gap: 60px; z-index: 3; }
+.story { display: flex; flex-direction: column; align-items: center; gap: 16px; }
+.story .ring { width: 280px; height: 280px; border-radius: 50%; padding: 9px; background: conic-gradient(#f6d25a, #e2654a, #8e6bd8, #f6d25a); box-shadow: 0 12px 24px rgba(0, 0, 0, 0.18); }
+.story .ring img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; border: 7px solid #f6efe2; display: block; }
+.story span { font-family: "Gaegu", cursive; font-weight: 700; font-size: 50px; }
+.phone { position: absolute; z-index: 2; }
+.lock { position: absolute; z-index: 3; color: #fff; font-family: "Poppins", sans-serif; font-weight: 600; font-size: 46px; letter-spacing: -0.01em; transform-origin: 0 0; }
+.notif { position: absolute; z-index: 3; transform-origin: 0 0; background: rgba(245, 245, 248, 0.94); border-radius: 20px; padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 3px; box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3); }
+.notif b { font-weight: 500; font-size: 19px; color: #555; display: flex; align-items: center; gap: 6px; }
+.notif .mail { width: 24px; height: 24px; border-radius: 5px; background: #5b4a9c; display: inline-block; }
+.notif strong { font-weight: 600; font-size: 26px; line-height: 1.18; }
+.notif span { font-size: 21px; color: #333; line-height: 1.25; }
+
+.band { position: absolute; left: 0; right: 0; bottom: 0; height: 330px; z-index: 5; background: #f6efe2; }
+.band::before { content: ""; position: absolute; left: 0; right: 0; top: -28px; height: 30px; background: #f6efe2;
+  clip-path: polygon(0 60%, 4% 30%, 9% 55%, 14% 25%, 20% 60%, 26% 35%, 31% 58%, 37% 28%, 43% 62%, 49% 32%, 55% 57%, 61% 27%, 67% 60%, 73% 34%, 79% 58%, 85% 30%, 91% 60%, 96% 36%, 100% 55%, 100% 100%, 0 100%); }
+.band .abs { z-index: 6; }
