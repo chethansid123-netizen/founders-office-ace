@@ -1,0 +1,9 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>YourDOST v7 posts</title>
+<link rel="stylesheet" href="fonts.css"><link rel="stylesheet" href="posts.css">
+<style>body{margin:0;background:#ddd}#stage{width:1080px;height:1350px}</style></head>
+<body><div id="stage"></div><script src="posts.js"></script>
+<script>
+  window.show = (id, i) => { const p = YD7.POSTS.find((x) => x.id === id); document.getElementById("stage").innerHTML = YD7.frame(p, i); };
+  const q = new URLSearchParams(location.search); if (q.get("id")) show(q.get("id"), +(q.get("i") || 0));
+</script></body></html>

@@ -1,0 +1,64 @@
+/* v7 motion versions (1080x1920). Shares the YourDOST tokens of posts.css. */
+html, body { margin: 0; background: transparent; }
+.mv { width: 1080px; height: 1920px; position: relative; overflow: hidden; font-family: "Poppins", sans-serif; color: #0d1015; -webkit-font-smoothing: antialiased; }
+.mv * { box-sizing: border-box; }
+.mv p { margin: 0; }
+.abs { position: absolute; }
+.mbadge { position: absolute; right: 52px; top: 150px; width: 112px; height: 112px; z-index: 30; filter: drop-shadow(0 6px 16px rgba(0, 0, 0, 0.3)); }
+.eyebrow { display: inline-block; background: #f6d25a; color: #0d1015; font-weight: 600; font-size: 26px; letter-spacing: 0.08em; text-transform: uppercase; padding: 10px 22px; border-radius: 999px; }
+.eyebrow.glass { background: rgba(255, 255, 255, 0.14); color: #fff; border: 1.5px solid rgba(255, 255, 255, 0.35); }
+.hd1 { font-weight: 600; font-size: 60px; line-height: 1.12; letter-spacing: -0.015em; }
+.y { color: #f6d25a; }
+
+/* M24: meeting chrome (tile videos are composited underneath by ffmpeg) */
+.bar24 { position: absolute; left: 30px; width: 1020px; top: 300px; height: 66px; display: flex; align-items: center; justify-content: space-between; padding: 0 24px; font-family: "Inter", sans-serif; font-size: 24px; color: rgba(255, 255, 255, 0.82); }
+.bar24 b { color: #fff; font-weight: 600; }
+.rec { display: inline-block; width: 13px; height: 13px; border-radius: 50%; background: #ff4b3e; margin-right: 8px; vertical-align: 1px; }
+.tog { display: inline-flex; align-items: center; gap: 12px; border-radius: 999px; padding: 8px 18px 8px 10px; font-weight: 600; font-size: 22px; font-family: "Inter", sans-serif; }
+.tog i { width: 48px; height: 28px; border-radius: 999px; position: relative; display: inline-block; }
+.tog i::after { content: ""; position: absolute; top: 3px; width: 22px; height: 22px; border-radius: 50%; background: #fff; left: var(--k, 3px); }
+.hole { position: absolute; border-radius: 16px; box-shadow: 0 0 0 9px #17171c; }
+.hole.spk { box-shadow: 0 0 0 9px #17171c, inset 0 0 0 5px #f6d25a; }
+.nm24 { position: absolute; background: rgba(0, 0, 0, 0.58); color: #fff; border-radius: 9px; padding: 5px 11px; font-family: "Inter", sans-serif; font-size: 21px; font-weight: 500; display: flex; align-items: center; gap: 6px; }
+.cc24 { position: absolute; background: #17171c; padding: 10px 6px 0; font-family: "Inter", sans-serif; }
+.cc24 .said { font-size: 24px; color: rgba(255, 255, 255, 0.86); line-height: 1.25; }
+.cc24 .inner { font-size: 26px; font-weight: 600; color: #f6d25a; line-height: 1.22; margin-top: 6px; }
+.off24 { position: absolute; background: #24242b; border-radius: 16px; display: flex; align-items: center; justify-content: center; }
+.off24 span { width: 130px; height: 130px; border-radius: 50%; background: #5b4a9c; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 50px; font-weight: 600; font-family: "Inter", sans-serif; }
+
+/* shared end card */
+.endc { position: absolute; inset: 0; background: #fdfcf7; }
+.endc .logo { position: absolute; left: 450px; top: 260px; width: 180px; height: 180px; }
+.endc .t { position: absolute; left: 80px; right: 80px; top: 520px; text-align: center; font-weight: 600; font-size: 66px; line-height: 1.12; letter-spacing: -0.015em; }
+.chips { position: absolute; left: 80px; right: 80px; display: flex; flex-direction: column; align-items: center; gap: 16px; }
+.chips span { background: #fff; border: 2px solid #ece5f7; border-radius: 999px; padding: 14px 28px; font-size: 30px; font-weight: 500; }
+.ctaL { position: absolute; left: 0; right: 0; display: flex; justify-content: center; }
+.ctaL span { background: #0d1015; color: #fff; border-radius: 999px; padding: 22px 40px; font-size: 32px; font-weight: 500; white-space: nowrap; }
+.ctaL b { color: #f6d25a; font-weight: 600; }
+.notec { position: absolute; left: 80px; right: 80px; text-align: center; font-family: "Gaegu", cursive; font-weight: 700; font-size: 50px; color: #5b4a9c; }
+
+/* M25: audio-guide player + subtitles */
+.player { position: absolute; left: 60px; right: 60px; top: 300px; background: rgba(255, 255, 255, 0.95); border-radius: 30px; padding: 22px 28px; display: flex; align-items: center; gap: 22px; box-shadow: 0 18px 50px rgba(0, 0, 0, 0.25); font-family: "Inter", sans-serif; z-index: 10; }
+.player .ic { width: 78px; height: 78px; border-radius: 22px; background: #0d1015; display: flex; align-items: center; justify-content: center; flex: 0 0 auto; }
+.player .meta { flex: 1; min-width: 0; }
+.player .meta small { font-size: 20px; letter-spacing: 0.08em; text-transform: uppercase; color: #8b867c; font-weight: 600; }
+.player .meta b { display: block; font-size: 30px; font-weight: 600; color: #1b1b1f; margin-top: 2px; }
+.player .prog { height: 7px; border-radius: 9px; background: #e7e2d8; margin-top: 12px; position: relative; overflow: hidden; }
+.player .prog i { position: absolute; left: 0; top: 0; bottom: 0; background: #f6d25a; }
+.player .tm { font-size: 20px; color: #6b665c; margin-top: 6px; display: flex; justify-content: space-between; }
+.sub25 { position: absolute; left: 70px; right: 70px; bottom: 380px; display: flex; justify-content: center; z-index: 10; }
+.sub25 span { background: rgba(14, 14, 18, 0.78); color: #fff; border-radius: 22px; padding: 18px 30px; font-size: 44px; font-weight: 500; line-height: 1.25; text-align: center; }
+.label25 { position: absolute; background: #fbfaf6; color: #1b1b1f; padding: 34px 38px 32px; box-shadow: 0 16px 30px rgba(40, 30, 20, 0.18); font-family: "Inter", sans-serif; }
+.label25 .no { font-size: 24px; letter-spacing: 0.12em; color: #8b867c; text-transform: uppercase; }
+.label25 .art { font-size: 32px; font-weight: 600; margin-top: 10px; }
+.label25 .ti { font-family: "Poppins", sans-serif; font-size: 56px; font-weight: 600; line-height: 1.08; margin-top: 4px; }
+.label25 .ti i { font-weight: 500; }
+.label25 .md { font-size: 28px; color: #4b4740; margin-top: 12px; line-height: 1.4; }
+
+/* M26: chart + kinetic captions */
+.chart26 { position: absolute; left: 44px; right: 44px; top: 400px; background: rgba(10, 14, 28, 0.72); border: 1.5px solid rgba(255, 255, 255, 0.16); border-radius: 32px; padding: 26px 28px 22px; color: #fff; font-family: "Inter", sans-serif; }
+.chart26 .hd { display: flex; justify-content: space-between; align-items: baseline; font-size: 24px; color: rgba(255, 255, 255, 0.7); }
+.chart26 .hd b { color: #fff; font-size: 28px; font-weight: 600; }
+.legend { display: flex; gap: 26px; font-size: 23px; margin-top: 10px; color: rgba(255, 255, 255, 0.88); }
+.legend i { display: inline-block; width: 30px; height: 6px; border-radius: 3px; vertical-align: 5px; margin-right: 8px; }
+.kin { position: absolute; left: 60px; right: 60px; bottom: 420px; text-align: center; color: #fff; font-weight: 600; font-size: 64px; line-height: 1.12; text-shadow: 0 3px 24px rgba(0, 0, 0, 0.7); }
