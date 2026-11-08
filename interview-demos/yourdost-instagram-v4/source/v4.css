@@ -1,0 +1,66 @@
+/* v4: real photographs, short lines, YourDOST brand details (badge, Poppins, yellow #F6D25A, cream #FDFCF7, lavender cards). */
+.f {
+  --cream: #fdfcf7; --ink: #0d1015; --yellow: #f6d25a; --lav: #e1cbf9; --purple: #5b4a9c; --gold: #a8863a;
+  width: 1080px; height: 1350px; position: relative; overflow: hidden; box-sizing: border-box;
+  font-family: "Poppins", sans-serif; color: var(--ink); background: var(--cream); -webkit-font-smoothing: antialiased;
+}
+.f.tall { height: 1920px; }
+.f *, .f *::before, .f *::after { box-sizing: border-box; }
+.f p { margin: 0; }
+
+/* photo layers */
+.ph { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-size: cover; background-position: center; will-change: transform; }
+.shade-b { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(8, 8, 12, 0.35) 0%, rgba(8, 8, 12, 0) 26%, rgba(8, 8, 12, 0) 42%, rgba(8, 8, 12, 0.72) 78%, rgba(8, 8, 12, 0.88) 100%); }
+.shade-all { position: absolute; inset: 0; background: rgba(8, 8, 12, 0.5); }
+.grain { position: absolute; inset: -50%; opacity: 0.07; mix-blend-mode: overlay; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>"); }
+.glow { position: absolute; border-radius: 50%; background: radial-gradient(circle, rgba(255, 214, 140, 0.9) 0%, rgba(255, 190, 90, 0.35) 40%, rgba(255, 190, 90, 0) 70%); filter: blur(2px); }
+
+.badge { position: absolute; left: 56px; top: 52px; width: 120px; height: 120px; z-index: 5; filter: drop-shadow(0 6px 18px rgba(0, 0, 0, 0.25)); }
+.tall .badge { left: 64px; top: 150px; width: 132px; height: 132px; }
+
+/* text blocks */
+.txt { position: absolute; left: 80px; right: 80px; z-index: 4; display: flex; flex-direction: column; gap: 22px; }
+.tall .txt { left: 76px; right: 120px; }
+.bottom { bottom: 120px; }
+.tall .bottom { bottom: 430px; }
+.center { top: 50%; transform: translateY(-50%); }
+.top { top: 230px; }
+.tall .top { top: 360px; }
+.light { color: #fff; text-shadow: 0 2px 24px rgba(0, 0, 0, 0.35); }
+
+.eyebrow { font-weight: 500; font-size: 26px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--gold); }
+.light .eyebrow { color: #f6d98a; }
+.line { font-weight: 500; font-size: 78px; line-height: 1.12; letter-spacing: -0.01em; text-wrap: balance; }
+.line.xl { font-size: 104px; line-height: 1.04; }
+.line.s { font-size: 60px; }
+.tall .line { font-size: 92px; }
+.tall .line.xl { font-size: 128px; }
+.tall .line.s { font-size: 70px; }
+.mk { color: var(--yellow); }
+.cream .mk, .yel .mk { color: inherit; background: var(--yellow); border-radius: 12px; padding: 0 12px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.yel .mk { background: #fff; }
+.small { font-size: 30px; line-height: 1.45; }
+.tall .small { font-size: 40px; }
+.light .small { color: rgba(255, 255, 255, 0.9); }
+
+.cta { white-space: nowrap; display: inline-flex; align-items: center; gap: 16px; align-self: flex-start; background: var(--yellow); color: var(--ink); border-radius: 999px; padding: 18px 32px; font-weight: 500; font-size: 28px; text-shadow: none; }
+.tall .cta { font-size: 32px; padding: 22px 36px; }
+.cream .cta, .yel .cta { background: var(--ink); color: #fff; }
+.cta b { font-weight: 600; }
+.help { font-size: 22px; color: rgba(255, 255, 255, 0.82); text-shadow: none; }
+.tall .help { font-size: 30px; }
+.cream .help, .yel .help { color: #555; }
+
+.f.cream { background: var(--cream); }
+.f.yel { background: var(--yellow); }
+.f.yel .eyebrow { color: #6e5512; }
+.source { border-top: 4px solid var(--ink); width: 620px; padding-top: 16px; font-size: 24px; }
+
+.cards { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.card { border-radius: 24px; padding: 26px 30px; display: flex; flex-direction: column; gap: 4px; }
+.card.y { background: var(--yellow); }
+.card.l { background: var(--lav); }
+.card b { font-weight: 700; font-size: 66px; line-height: 1; }
+.card span { font-size: 28px; }
+.big { font-weight: 700; font-size: 150px; line-height: 0.95; letter-spacing: -0.02em; }
+.wordflash { font-weight: 600; font-size: 170px; line-height: 1; letter-spacing: -0.02em; text-align: center; color: #fff; }
