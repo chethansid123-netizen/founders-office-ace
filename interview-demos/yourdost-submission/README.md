@@ -4,7 +4,7 @@ The upload form allows 5 files (100 MB each). These are the 5, in reading order.
 
 | # | File | What it is |
 |---|---|---|
-| 1 | `00_START_HERE_Chethan_YourDOST_Submission.pdf` | 21 pages. Q1, Q2 and the full Q3 deck, one slide per page. The logo is top-right on every page. Open this first. |
+| 1 | `00_START_HERE_Chethan_YourDOST_Submission.pdf` | 24 pages. Q1, Q2 and the full Q3 deck, one slide per page. The logo is top-right on every page. Open this first. |
 | 2 | `Q1_Infographic_and_Carousel.pdf` | The social-media infographic, then the 5-slide carousel. |
 | 3 | `Q1_Insights_Workbook.xlsx` | Survey data, Numiqo analysis, and the maths behind every number. |
 | 4 | `Q2_All_10_Posts.zip` | The 10 posts: 4 videos, 2 carousels, 4 images, one folder each. Not tracked in git (83 MB). |

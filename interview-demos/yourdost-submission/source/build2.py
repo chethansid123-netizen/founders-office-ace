@@ -17,9 +17,9 @@ pg("txt",f'''<h1>Three questions, one document.</h1>
 <div class="cards"><div class="card c1"><span class="q">Q1</span><h3>Data analysis and insights</h3><em>Infographic · 5-slide carousel · analysis workbook</em></div>
 <div class="card c2"><span class="q">Q2</span><h3>10 social media posts</h3><p>Original posts for emotional wellness across 4 videos, 2 carousels and 4 single images, aimed at corporates, students and professionals.</p></div>
 <div class="card c3"><span class="q">Q3</span><h3>Founders Program pitch deck</h3><em>Price · market size · unit economics</em></div></div>''',"SUBMISSION · 3 ASSIGNMENTS")
-rows=[("Q1","Infographic + 5-slide carousel + workbook","Pages 3 to 4","Q1_Infographic_and_Carousel.pdf · Q1_Insights_Workbook.xlsx",f'<a href="{L_PDF}">Carousel online</a> · <a href="{L_XLS}">Workbook online</a>'),
-("Q2","10 social media posts: 4 videos, 2 carousels, 4 images","Pages 5 to 10","Q2_All_10_Posts.zip","Video links on page 6"),
-("Q3","Founders Program pitch deck","Pages 11 to 21","Q3_Founders_Program_Pitch_Deck.pptx","In the attached file")]
+rows=[("Q1","Infographic + 5-slide carousel + workbook","Pages 3 to 5","Q1_Infographic_and_Carousel.pdf · Q1_Insights_Workbook.xlsx",f'<a href="{L_PDF}">Carousel online</a> · <a href="{L_XLS}">Workbook online</a>'),
+("Q2","10 social media posts: 4 videos, 2 carousels, 4 images","Pages 6 to 13","Q2_All_10_Posts.zip","Video links on page 7"),
+("Q3","Founders Program pitch deck","Pages 14 to 24","Q3_Founders_Program_Pitch_Deck.pptx","In the attached file")]
 tr="".join(f"<tr><td class=qq>{a}</td><td>{b}</td><td>{c}</td><td>{d}</td><td>{e}</td></tr>" for a,b,c,d,e in rows)
 pg("txt",f'<h1>Where to find everything</h1><table><tr><th></th><th>What it is</th><th>See in this PDF</th><th>Separate file in the upload</th><th>Online (opens without sign-in)</th></tr>{tr}</table>',"HOW THIS DOCUMENT IS ORGANISED")
 # Q1
@@ -27,10 +27,13 @@ pg("split",f'''<div class="left"><h1>Parents fear gaming more than they understa
 {big(L_XLS,"Click here to get the insights and the full analysis")}{big(L_PDF,"Open the 5-slide carousel PDF","p")}</div>
 <div class="right">{im("info.jpg","info")}</div>''',"Q1 · DATA ANALYSIS AND INSIGHTS")
 def strip(n, pref, tag, links=True):
-    h = {5: 439, 6: 373}[n]
-    lk = f'<span class="mini"><a href="{L_XLS}">Insights and workbook ↗</a> · <a href="{L_PDF}">Carousel PDF ↗</a></span>' if links else ''
-    P.append(f'<section class="pg car c{n}" style="height:{h}px"><div class="top"><span class="tg">{tag}</span>{lk}<img class="lg" src="a/badge.png"></div><div class="row">' + "".join(im(f"{pref}-{i}.jpg") for i in range(1, n + 1)) + '</div></section>')
-strip(5, "q1c", "PARENTS · ONLINE GAMING")
+    parts = [(1, 3), (4, n)]
+    for pi, (lo, hi) in enumerate(parts, 1):
+        cells = "".join(f'<div class="cell">{im(f"{pref}-{i}.jpg")}</div>' for i in range(lo, hi + 1))
+        if links and hi < lo + 2:
+            cells += f'<div class="cell tiles"><a class="t1" href="{L_XLS}">Click here: insights and the full analysis →</a><a class="t2" href="{L_PDF}">Open the carousel PDF →</a></div>'
+        P.append(f'<section class="pg car3"><div class="band"><span class="bt">{tag}</span><span class="bn">{pi} / 2</span><img class="lg" src="a/badge.png"></div><div class="cells">{cells}</div></section>')
+strip(5, "q1c", "Parents · Online gaming")
 # Q2
 pg("txt",f'''<h1>10 social media posts</h1>
 <p class="lead">YourDOST is a confidential expert who is as easy to reach as a friend, by chat, call or video, 24/7.</p>
@@ -38,17 +41,21 @@ pg("txt",f'''<h1>10 social media posts</h1>
 <table class="lst"><tr><td>1 Reel · students</td><td>2 Reel · Diwali</td><td>3 Reel · corporate teams</td><td>4 Reel · high achievers</td><td>5 Carousel · corporate</td></tr><tr><td>6 Carousel · employees</td><td>7 Image · HR leaders</td><td>8 Image · professionals</td><td>9 Image · young adults</td><td>10 Image · stress and smoking</td></tr></table>''',"Q2 · SOCIAL MEDIA POSTS")
 vs="".join(f'<a class="v" href="{u}">{im(c)}<span class="play">▶ Watch the reel</span></a>' for c,u in V)
 pg("vids",f'<div class="vrow">{vs}</div>',"Q2 · THE VIDEOS · TAP A REEL TO WATCH")
-strip(6,"c21","CORPORATE MANAGERS, HR, CHROs",False)
-strip(6,"c09","EMPLOYEES",False)
+strip(6,"c21","Corporate managers, HR, CHROs",False)
+strip(6,"c09","Employees",False)
 for a,b,n in (("s18.jpg","s03.jpg","1 OF 2"),("s-breakup.jpg","s-smoke.jpg","2 OF 2")): pg("pair",f'<div class="prow">{im(a)}{im(b)}</div>',f"Q2 · SINGLE IMAGES · {n}")
 # Q3
 pg("title",'<div class="mid"><small>ASSIGNMENT 3</small><h1>Founders Program</h1><h2>The pitch deck</h2></div>')
 for i in range(1,11): P.append(f'<section class="pg full"><img src="a/d{i}.jpg"></section>')
 css=f'''
-@page car5{{size:1600px 439px;margin:0}} @page car6{{size:1600px 373px;margin:0}}
-.pg.car{{padding:0;width:1600px}} .c5{{page:car5}} .c6{{page:car6}} .top{{height:44px;display:flex;align-items:center;padding:0 12px 0 14px;gap:14px}} .tg{{margin-right:auto;font-size:12px;letter-spacing:.14em;font-weight:600;color:#8a6a00}} .mini{{margin-left:auto;font-size:12px}} .lg{{width:34px;height:34px;border-radius:50%}}
-.row{{display:flex;gap:6px}} .row img{{flex:1;min-width:0;display:block}} .car .logo{{display:none}}
-body.ppt .car{{height:900px!important;display:flex;flex-direction:column;justify-content:center}} body.ppt .top{{position:absolute;left:0;right:0;top:0}}
+.pg.car3{{padding:0}} .band{{height:233px;background:#F6D25A;display:flex;align-items:center;gap:26px;padding:0 40px 0 56px}} .bt{{font-size:52px;font-weight:600;color:#2F2663;line-height:1.1}} .bn{{font-size:28px;font-weight:500;color:#2F2663;opacity:.7}} .band .lg{{margin-left:auto;width:120px;height:120px;border-radius:50%}}
+.cells{{display:flex;height:667px}} .cell{{width:533.34px;height:667px;flex:none}} .cell img{{width:100%;height:100%;display:block}}
+.tiles{{display:flex;flex-direction:column}} .tiles a{{flex:1;display:flex;align-items:center;justify-content:center;text-align:center;padding:30px;font-size:34px;font-weight:600;text-decoration:none;line-height:1.3}} .t1{{background:#E1CBF9;color:#2F2663}} .t2{{background:#2F2663;color:#fff}}
+
+
+
+
+
 
 @font-face{{font-family:Poppins;font-weight:400;src:url(file://{F}/Poppins-400.woff2)}}
 @font-face{{font-family:Poppins;font-weight:500;src:url(file://{F}/Poppins-500.woff2)}}
