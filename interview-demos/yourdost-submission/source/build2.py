@@ -26,8 +26,11 @@ pg("txt",f'<h1>Where to find everything</h1><table><tr><th></th><th>What it is</
 pg("split",f'''<div class="left"><h1>Parents fear gaming more than they understand it</h1>
 {big(L_XLS,"Click here to get the insights and the full analysis")}{big(L_PDF,"Open the 5-slide carousel PDF","p")}</div>
 <div class="right">{im("info.jpg","info")}</div>''',"Q1 · DATA ANALYSIS AND INSIGHTS")
-g5="".join(f'<div class="s">{im(f"q1c-{i}.jpg")}</div>' for i in range(1,6))
-pg("split",f'''<div class="left"><h1>Swipe version for Instagram</h1>{big(L_XLS,"Click here for the insights and the analysis workbook")}{big(L_PDF,"Open the carousel PDF","p")}</div><div class="right grid">{g5}</div>''',"Q1 · THE SAME STORY AS A 5-SLIDE CAROUSEL")
+def strip(n, pref, tag, links=True):
+    h = {5: 439, 6: 373}[n]
+    lk = f'<span class="mini"><a href="{L_XLS}">Insights and workbook ↗</a> · <a href="{L_PDF}">Carousel PDF ↗</a></span>' if links else ''
+    P.append(f'<section class="pg car c{n}" style="height:{h}px"><div class="top"><span class="tg">{tag}</span>{lk}<img class="lg" src="a/badge.png"></div><div class="row">' + "".join(im(f"{pref}-{i}.jpg") for i in range(1, n + 1)) + '</div></section>')
+strip(5, "q1c", "PARENTS · ONLINE GAMING")
 # Q2
 pg("txt",f'''<h1>10 social media posts</h1>
 <p class="lead">YourDOST is a confidential expert who is as easy to reach as a friend, by chat, call or video, 24/7.</p>
@@ -35,14 +38,18 @@ pg("txt",f'''<h1>10 social media posts</h1>
 <table class="lst"><tr><td>1 Reel · students</td><td>2 Reel · Diwali</td><td>3 Reel · corporate teams</td><td>4 Reel · high achievers</td><td>5 Carousel · corporate</td></tr><tr><td>6 Carousel · employees</td><td>7 Image · HR leaders</td><td>8 Image · professionals</td><td>9 Image · young adults</td><td>10 Image · stress and smoking</td></tr></table>''',"Q2 · SOCIAL MEDIA POSTS")
 vs="".join(f'<a class="v" href="{u}">{im(c)}<span class="play">▶ Watch the reel</span></a>' for c,u in V)
 pg("vids",f'<div class="vrow">{vs}</div>',"Q2 · THE VIDEOS · TAP A REEL TO WATCH")
-def car(n,t,sub,imgs): pg("split",f'<div class="left"><h1>{t}</h1><p class="lead2">{sub}</p></div><div class="right grid">'+"".join(f'<div class="s">{im(f"{imgs}-{i}.jpg")}</div>' for i in range(1,n+1))+'</div>',"Q2 · CAROUSEL")
-car(6,"Select all squares with a colleague who’s struggling","For corporate managers, HR and CHROs. A CAPTCHA nobody can solve, then the reveal.","c21")
-car(6,"Your company offers counselling. Here’s everything you were too awkward to ask.","For employees.","c09")
+strip(6,"c21","CORPORATE MANAGERS, HR, CHROs",False)
+strip(6,"c09","EMPLOYEES",False)
 for a,b,n in (("s18.jpg","s03.jpg","1 OF 2"),("s-breakup.jpg","s-smoke.jpg","2 OF 2")): pg("pair",f'<div class="prow">{im(a)}{im(b)}</div>',f"Q2 · SINGLE IMAGES · {n}")
 # Q3
 pg("title",'<div class="mid"><small>ASSIGNMENT 3</small><h1>Founders Program</h1><h2>The pitch deck</h2></div>')
 for i in range(1,11): P.append(f'<section class="pg full"><img src="a/d{i}.jpg"></section>')
 css=f'''
+@page car5{{size:1600px 439px;margin:0}} @page car6{{size:1600px 373px;margin:0}}
+.pg.car{{padding:0;width:1600px}} .c5{{page:car5}} .c6{{page:car6}} .top{{height:44px;display:flex;align-items:center;padding:0 12px 0 14px;gap:14px}} .tg{{margin-right:auto;font-size:12px;letter-spacing:.14em;font-weight:600;color:#8a6a00}} .mini{{margin-left:auto;font-size:12px}} .lg{{width:34px;height:34px;border-radius:50%}}
+.row{{display:flex;gap:6px}} .row img{{flex:1;min-width:0;display:block}} .car .logo{{display:none}}
+body.ppt .car{{height:900px!important;display:flex;flex-direction:column;justify-content:center}} body.ppt .top{{position:absolute;left:0;right:0;top:0}}
+
 @font-face{{font-family:Poppins;font-weight:400;src:url(file://{F}/Poppins-400.woff2)}}
 @font-face{{font-family:Poppins;font-weight:500;src:url(file://{F}/Poppins-500.woff2)}}
 @font-face{{font-family:Poppins;font-weight:600;src:url(file://{F}/Poppins-600.woff2)}}
