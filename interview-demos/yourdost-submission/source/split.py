@@ -6,9 +6,9 @@ L = json.load(open("out/links.json"))
 D = "/home/user/founders-office-ace/interview-demos/yourdost-submission/"
 k = 12192000 / 1600
 parts = {
-    "Q1_Data_Analysis_and_Insights": range(3, 5),
-    "Q2_10_Social_Media_Posts": range(5, 11),
-    "Q3_Founders_Program_Pitch_Deck": range(11, 22),
+    "Q1_Data_Analysis_and_Insights": range(3, 6),
+    "Q2_10_Social_Media_Posts": range(6, 14),
+    "Q3_Founders_Program_Pitch_Deck": range(14, 25),
 }
 for name, pages in parts.items():
     pr = Presentation()
