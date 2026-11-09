@@ -48,8 +48,8 @@ for a,b,n in (("s18.jpg","s03.jpg","1 OF 2"),("s-breakup.jpg","s-smoke.jpg","2 O
 pg("title",'<div class="mid"><small>ASSIGNMENT 3</small><h1>Founders Program</h1><h2>The pitch deck</h2></div>')
 for i in range(1,11): P.append(f'<section class="pg full"><img src="a/d{i}.jpg"></section>')
 css=f'''
-.pg.car3{{padding:0}} .band{{height:233px;background:#F6D25A;display:flex;align-items:center;gap:26px;padding:0 40px 0 56px}} .bt{{font-size:52px;font-weight:600;color:#2F2663;line-height:1.1}} .bn{{font-size:28px;font-weight:500;color:#2F2663;opacity:.7}} .band .lg{{margin-left:auto;width:120px;height:120px;border-radius:50%}}
-.cells{{display:flex;height:667px}} .cell{{width:533.34px;height:667px;flex:none}} .cell img{{width:100%;height:100%;display:block}}
+.pg.car3{{padding:0}} .band{{height:245px;background:#F6D25A;display:flex;align-items:center;gap:26px;padding:0 40px 0 56px}} .bt{{font-size:52px;font-weight:600;color:#2F2663;line-height:1.1}} .bn{{font-size:28px;font-weight:500;color:#2F2663;opacity:.7}} .band .lg{{margin-left:auto;width:120px;height:120px;border-radius:50%}}
+.cells{{display:flex;gap:14px;height:655px;background:#FDFCF7}} .cell{{width:524px;height:655px;flex:none}} .cell img{{width:100%;height:100%;display:block}}
 .tiles{{display:flex;flex-direction:column}} .tiles a{{flex:1;display:flex;align-items:center;justify-content:center;text-align:center;padding:30px;font-size:34px;font-weight:600;text-decoration:none;line-height:1.3}} .t1{{background:#E1CBF9;color:#2F2663}} .t2{{background:#2F2663;color:#fff}}
 
 
