@@ -31,28 +31,31 @@ const first = name => String(name || "").trim().split(/\s+/)[0] || "there";
 /* ---------- Store ---------- */
 const LS_KEY = "yuj-revenue-desk.v1";
 const COLLS = ["leads", "accounts", "cohorts", "spend", "config"];
-const Store = { mode: "starting", ready: false, note: "", data: { leads: {}, accounts: {}, cohorts: {}, spend: {}, config: {} }, db: null, subs: [], chains: {} };
+const Store = { mode: "starting", ready: false, note: "", data: { leads: {}, accounts: {}, cohorts: {}, spend: {}, config: {} }, db: null, subs: [], chain: Promise.resolve(), tok: {},
+  pend: { leads: {}, accounts: {}, cohorts: {}, spend: {}, config: {} } };
 let onStoreChange = () => {};
 
 function saveLocal() { try { localStorage.setItem(LS_KEY, JSON.stringify(Store.data)); } catch (e) { /* storage unavailable: keep working in memory */ } }
 function loadLocal() { try { const raw = localStorage.getItem(LS_KEY); if (raw) { const d = JSON.parse(raw); COLLS.forEach(c => { Store.data[c] = d[c] || {}; }); return true; } } catch (e) { /* ignore */ } return false; }
 
-function dbWrite(coll, id, fn) {
-  const k = coll + "/" + id;
-  Store.chains[k] = (Store.chains[k] || Promise.resolve()).then(fn).catch(e => {
+/* One write at a time, in order. Until a queued write lands, its document is overlaid on every snapshot so the screen never flickers back. */
+function overlay(c, m) { const p = Store.pend[c]; for (const id in p) { if (p[id] === null) delete m[id]; else m[id] = p[id]; } return m; }
+function dbWrite(coll, id, doc) {
+  const k = coll + "/" + id, token = {}; Store.pend[coll][id] = doc; Store.tok[k] = token;
+  Store.chain = Store.chain.then(() => doc ? Store.db.collection(coll).doc(id).set(doc) : Store.db.collection(coll).doc(id).delete()).catch(e => {
     const code = e && e.code;
     toast(code === "quota_exceeded" ? "Storage is full. Export and remove old leads." : code === "invalid_argument" ? "You have view-only access, so this change was not saved." : "Could not save just now. It will retry on your next change.", "crit");
-  });
+  }).then(() => { if (Store.tok[k] === token) { delete Store.pend[coll][id]; delete Store.tok[k]; } });
 }
 function put(coll, doc) {
   const d = clone(doc); if (!d.id) d.id = uid(coll[0]);
   Store.data[coll] = Object.assign({}, Store.data[coll], { [d.id]: d });
-  if (Store.mode === "db") dbWrite(coll, d.id, () => Store.db.collection(coll).doc(d.id).set(d)); else saveLocal();
+  if (Store.mode === "db") dbWrite(coll, d.id, d); else saveLocal();
   return d;
 }
 function del(coll, id) {
   const m = Object.assign({}, Store.data[coll]); delete m[id]; Store.data[coll] = m;
-  if (Store.mode === "db") dbWrite(coll, id, () => Store.db.collection(coll).doc(id).delete()); else saveLocal();
+  if (Store.mode === "db") dbWrite(coll, id, null); else saveLocal();
 }
 function conf() { return Store.data.config.main || { id: "main" }; }
 function setConf(patch) { put("config", Object.assign({}, conf(), patch, { id: "main" })); }
@@ -75,7 +78,7 @@ async function initStore() {
     const done = () => { if (!seen[c]) { seen[c] = true; left--; if (left === 0) { Store.ready = true; Store.note = ""; clearTimeout(timer); } } };
     Store.subs.push(db.collection(c).onSnapshot(snap => {
       const m = {}; snap.docs.forEach(d => { const v = d.data(); if (v) m[d.id] = Object.assign(clone(v), { id: d.id }); });
-      Store.data[c] = m; done(); onStoreChange();
+      Store.data[c] = overlay(c, m); done(); onStoreChange();
     }, err => { done(); Store.note = err && err.code === "revoked" ? "Access to the saved pipeline was withdrawn." : "The saved pipeline could not be read."; onStoreChange(); }));
   });
 }
@@ -203,7 +206,7 @@ function alerts(m) {
   m.funnel.forEach(f => { if (f.reached >= 8 && f.rate != null && f.rate < f.target * 0.7) add("leak", { sc: 50, route: "funnel", d: f.name + " → " + f.next + " is " + f.rate + "% so far against a " + f.target + "% target." }); });
   m.cohorts.forEach(c => {
     if (c.behind) add("pace", { sc: 90, route: "cohorts", d: c.name + ": " + c.filled + " of " + c.target + " filled with " + c.days + " days left. On pace would be " + c.expected + "." });
-    c.risk.forEach(l => add("risk", { lead: l, sc: 80, d: "Attendance " + (l.health.att || 0) + "%, " + (l.health.work || 0) + " pieces of work in." }));
+    c.risk.forEach(l => add("risk", { lead: l, sc: 80, d: "Attendance " + (l.health.att || 0) + "%, " + (l.health.work || 0) + ((+l.health.work || 0) === 1 ? " piece" : " pieces") + " of work in." }));
     c.refer.forEach(l => add("refer", { lead: l, sc: 55, d: "Three weeks in" + (l.health.nps ? ", would-recommend " + l.health.nps + "/10" : "") + "." }));
   });
   const rank = { crit: 0, warn: 1, good: 2, info: 3 };

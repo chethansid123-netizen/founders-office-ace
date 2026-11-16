@@ -43,7 +43,7 @@ const ico = (n, cls) => '<svg class="ico ' + (cls || "") + '" viewBox="0 0 24 24
 
 /* ---------- components ---------- */
 const pill = (t, cls) => '<span class="pill ' + (cls || "") + '">' + esc(t) + "</span>";
-const evShort = k => { const e = EVID[k]; if (!e) return ""; return e.src.split(/[,(:]/)[0].trim().slice(0, 34) + " " + e.year; };
+const evShort = k => EV_SHORT[k] || (EVID[k] ? EVID[k].src.split(/[,(:]/)[0].trim() + " " + EVID[k].year : "");
 const evChip = k => EVID[k] ? '<button type="button" class="ev" data-act="ev" data-k="' + k + '" title="Open the source">' + esc(evShort(k)) + "</button>" : "";
 const copyBtn = (text, label) => '<button type="button" class="btn sm ghost" data-act="copy" data-copy="' + esc(text) + '">' + ico("copy") + (label || "Copy") + "</button>";
 function tabs(view, list) { const cur = UI.tabs[view] || list[0][0];

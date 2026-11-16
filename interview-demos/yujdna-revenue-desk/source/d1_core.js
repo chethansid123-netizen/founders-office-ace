@@ -215,3 +215,9 @@ const EVID = {
     src: "yujdna.com and public company profiles", year: 2026, url: "https://www.yujdna.com/", status: "checked",
     caveat: "The site's own figures, unaudited. It also shows '25+ years of practice' beside '17 years' in the FAQ, which needs one clear explanation.", use: "Proof points, and one thing to fix." }
 };
+
+const EV_SHORT = { wef: "WEF 2025", jagged: "Harvard–BCG 2023", metr: "METR 2025", nanda: "MIT NANDA 2025", gartner: "Gartner 2025", eurich: "Eurich, HBR 2018", dk: "Kruger & Dunning 1999",
+  ioed: "Rozenblit & Keil 2002", kohavi: "Kohavi, Microsoft 2009", pendo: "Pendo 2019", mckDecide: "McKinsey 2019", mckDesign: "McKinsey 2018", hbrLeads: "HBR 2011", gong: "Gong Labs 2025",
+  completion: "Completion data", fibe: "Fibe survey 2025", bench: "Agency benchmarks 2026", gcc: "Nasscom–Zinnov 2026", nasscom: "Nasscom 2026", tracxn: "Tracxn 2026", shiv: "Shiv, Carmon & Ariely 2005",
+  kt: "Kahneman & Tversky 1979", bloom: "Bloom 1984", ericsson: "Ericsson 1993", gym: "DellaVigna & Malmendier 2006", challenger: "Challenger Sale 2011", spin: "Rackham 1988", reactance: "Brehm 1966",
+  spence: "Spence 1973", yuj: "yujdna.com 2026", repFree: "Gartner 2026", sixsense: "6sense 2026", sfdc: "Salesforce 2026", aiSearch: "AI shopping surveys 2026", whatsapp: "WhatsApp data 2026" };
