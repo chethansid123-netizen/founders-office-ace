@@ -29,7 +29,7 @@ discount limits are placeholders, editable under Setup.
 5. **Segments** — 13 buyers (product manager, designer, design manager, researcher, product leader, founder's office, program manager, brand and marketing, sales, operations, engineer, consultant, founder). For each: root problem, what they believe against what the evidence says, when they buy, how they see themselves, opening lines, call questions, where to find them.
 6. **Funnel** — top, middle, bottom and after: goals, plays, a nine-touch cadence, the first principles, how selling works in 2026, and a 90-day plan.
 7. **Scripts** — the explain-it call, the mentor conversation and the offer call minute by minute; message templates by stage; prompts for Claude.
-8. **Objections** — eleven distinct reasons behind a no, each with how to confirm it, what to say, what to show and what not to do; and the payment ladder for when they want it and are not paying.
+8. **Objections** — twelve distinct reasons behind a no, each with how to confirm it, what to say, what to show and what not to do; and the payment ladder for when they want it and are not paying.
 9. **Pricing** — scholarship calculator where every reduction buys something, with the reasoning for why this number and not a larger one.
 
 **Know**
@@ -39,7 +39,7 @@ discount limits are placeholders, editable under Setup.
 
 **System**
 13. **Automation** — the rules, switchable, and what connects.
-14. **Setup** — assumptions, sixteen open questions with working answers, import, export, backup.
+14. **Setup** — assumptions, seventeen open questions with working answers, import, export, backup.
 
 ## Rebuild
 
