@@ -4,6 +4,7 @@ A 9-slide, first-principles teardown of Kishlay Foods for the Founder's Office i
 presenting playbook and the prompt that produced the deck. Funding and valuation are deliberately left out of the deck.
 
 **Live decks (present, comment, export to editable PowerPoint or PDF), private until shared from their Share menu:**
+- **Deck 5, *Kishlay Group: The ₹512 Cr Plan*** (newest: the problem-statement deck with the Excel model, playbook and one-pager in `growth-512/`; ₹512 Cr tested on FY25 actuals; modern-trade break-in plan): https://claude.ai/artifact/98v55rqXHTb9uKftpntXbA
 - Deck 1, *Kishlay Foods, Decoded* (9 slides, the story): https://claude.ai/artifact/FqFLNd7wSz5RKZ6DCZFxPv
 - Deck 2, *The Operating Machine* (20 slides, chart-first: hub-and-spoke, plant, pack physics, price tiers, all 236 SKUs, distribution, a six-slide competition chapter with positioning map, five forces, blue ocean, BCG and Ansoff, constraints): https://claude.ai/artifact/Gu16ckmyge4xzT8czsMpKT
 

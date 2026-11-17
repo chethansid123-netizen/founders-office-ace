@@ -1,0 +1,69 @@
+{
+ "v": 5,
+ "createdOnFiles": {
+  "v": 1,
+  "at": "2026-11-17T14:30:00Z"
+ },
+ "lists": "css",
+ "format": {
+  "v": 1,
+  "shared": [
+   "project/deck.css"
+  ]
+ },
+ "title": "Kishlay Group: The ₹512 Cr Plan",
+ "cover": "cover",
+ "order": [
+  "cover",
+  "trap",
+  "unit",
+  "proof",
+  "target",
+  "revenue",
+  "margin",
+  "qc",
+  "mt",
+  "export",
+  "asset",
+  "roadmap",
+  "os",
+  "close",
+  "sources",
+  "assumptions",
+  "buyers",
+  "entity"
+ ],
+ "sections": {
+  "problem": {
+   "description": "The problem: thin money per ₹10 pack, the insight that the same kilo earns very different amounts by channel, and proof from peers.",
+   "start": "cover"
+  },
+  "target": {
+   "description": "Testing ₹512 Cr and building it bottom-up: revenue and margin bridges.",
+   "start": "target"
+  },
+  "engines": {
+   "description": "The three engines: quick commerce and modern trade, exports, asset-light capacity and M&A.",
+   "start": "qc"
+  },
+  "execution": {
+   "description": "The 90-day roadmap, the operating system and the day-90 decisions.",
+   "start": "roadmap"
+  },
+  "appendix": {
+   "description": "Sources, assumptions, export buyers and the legal entities.",
+   "start": "sources"
+  }
+ },
+ "faces": {
+  "bricolage-grotesque": {
+   "family": "Bricolage Grotesque",
+   "href": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&display=swap"
+  },
+  "inter": {
+   "family": "Inter",
+   "href": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+  }
+ },
+ "designSystems": []
+}
