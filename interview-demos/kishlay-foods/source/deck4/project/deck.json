@@ -22,8 +22,7 @@
   "economics",
   "competition",
   "choice",
-  "pilots",
-  "plan"
+  "pilots"
  ],
  "sections": {
   "why": {
@@ -39,7 +38,7 @@
    "start": "competition"
   },
   "next": {
-   "description": "What to do: the strategic choice, three pilots, and the first 90 days.",
+   "description": "What to do: the strategic choice and three measurable pilots.",
    "start": "choice"
   }
  },

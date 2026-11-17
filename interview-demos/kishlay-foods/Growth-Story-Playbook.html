@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Interview Playbook</title>
+<style>
+:root { --bg:#FFFFFF; --ink:#1E1712; --muted:#5E5147; --line:#E7DED3; --paper:#FAF7F2; --red:#C8141C; --gold:#F2B21B; --soft:#FFF1EF;
+  --co:#1E1712; --ex:#2F6DB5; --hi:#8C7B6B; --ca:#9A6B00; --hy:#6B4FA0; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#16110E; --ink:#F3ECE4; --muted:#BFB2A5; --line:#3A302A; --paper:#211A16; --red:#F0565C; --gold:#F2B21B; --soft:#2A1A18; --co:#F3ECE4; --ex:#7FB0EA; --hi:#BFB2A5; --ca:#E0B040; --hy:#B9A2E6; } }
+:root[data-theme="dark"] { --bg:#16110E; --ink:#F3ECE4; --muted:#BFB2A5; --line:#3A302A; --paper:#211A16; --red:#F0565C; --gold:#F2B21B; --soft:#2A1A18; --co:#F3ECE4; --ex:#7FB0EA; --hi:#BFB2A5; --ca:#E0B040; --hy:#B9A2E6; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.6 Inter, system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width:960px; margin:0 auto; padding:40px 16px 64px; }
+header { border-top:8px solid var(--red); padding-top:20px; }
+h1 { font-size:34px; line-height:1.15; margin:6px 0 8px; letter-spacing:-0.5px; }
+h2 { font-size:24px; margin:44px 0 10px; padding-top:12px; border-top:1px solid var(--line); break-after:avoid; }
+h2 .n { color:var(--red); margin-right:8px; }
+h3 { font-size:18px; margin:18px 0 6px; break-after:avoid; }
+.eyebrow { color:var(--red); font-weight:700; letter-spacing:2px; text-transform:uppercase; font-size:13px; }
+.muted { color:var(--muted); }
+.lead { font-size:18px; }
+.toc { columns:2; column-gap:32px; padding-left:20px; }
+.toc li { margin-bottom:4px; break-inside:avoid; }
+.card { background:var(--paper); border:1px solid var(--line); border-radius:12px; padding:14px 18px; margin:12px 0; break-inside:avoid; }
+.card.red { border-left:6px solid var(--red); }
+.card.gold { border-left:6px solid var(--gold); }
+.say { background:var(--soft); border-left:6px solid var(--red); border-radius:10px; padding:14px 18px; font-size:17px; margin:8px 0; break-inside:avoid; }
+.say p { margin:0 0 8px; }
+.say p:last-child { margin-bottom:0; }
+.slide { border:1px solid var(--line); border-radius:14px; padding:16px 18px; margin:16px 0; break-inside:avoid-page; }
+.slide h3 { margin-top:0; }
+.slide .meta { color:var(--muted); font-size:14px; margin:-2px 0 8px; }
+dl { display:grid; grid-template-columns:120px 1fr; gap:4px 14px; margin:8px 0 0; }
+dt { font-weight:700; color:var(--muted); font-size:13px; text-transform:uppercase; letter-spacing:.5px; padding-top:3px; }
+dd { margin:0; }
+table { width:100%; border-collapse:collapse; font-size:14px; margin:10px 0; }
+th, td { text-align:left; vertical-align:top; padding:7px 9px; border-bottom:1px solid var(--line); }
+th { background:var(--paper); font-size:12px; text-transform:uppercase; letter-spacing:.5px; color:var(--muted); }
+.tbl-wrap { overflow-x:auto; }
+.tag { font-weight:700; font-size:12px; letter-spacing:1px; text-transform:uppercase; white-space:nowrap; }
+.co { color:var(--co); } .ex { color:var(--ex); } .hi { color:var(--hi); } .ca { color:var(--ca); } .hy { color:var(--hy); }
+.qa { margin:10px 0; break-inside:avoid; }
+.qa b { display:block; }
+ol li, ul li { margin-bottom:4px; }
+pre { white-space:pre-wrap; background:var(--paper); border:1px solid var(--line); border-radius:10px; padding:14px; font-size:13px; line-height:1.5; }
+footer { margin-top:48px; padding-top:12px; border-top:1px solid var(--line); font-size:13px; color:var(--muted); }
+@media (max-width:640px) { dl { grid-template-columns:1fr; } .toc { columns:1; } h1 { font-size:28px; } }
+@media print { main { padding-top:0; } a { color:inherit; } }
+</style>
+</head>
+<body>
+<main>
+<header>
+<p class="eyebrow">Kishlay Foods · Founder’s Office interview · 18 Nov 2026</p>
+<h1>The Growth Story: interview playbook</h1>
+<p class="lead">Everything you need to understand the deck, present it, and answer “how did you work this out?”</p>
+<p class="muted">Deck: <b>Kishlay-Growth-Story.pptx / .pdf</b>, 9 slides, about 9 minutes. Prepared by Chethan N.</p>
+<ol class="toc">
+<li>Understand it first: the story in 60 seconds</li>
+<li>The hook and how to keep them engaged</li>
+<li>Slide-by-slide: what to say</li>
+<li>What I broke down, from first principles</li>
+<li>My research: secondary and primary</li>
+<li>How I used AI, and the prompts I gave</li>
+<li>How I’d contribute to GTM in the role</li>
+<li>Questions they may ask, with answers</li>
+<li>Questions to ask them</li>
+<li>Numbers cheat sheet</li>
+<li>Know it, don’t lead with it</li>
+<li>Closing, and tonight’s checklist</li>
+</ol>
+</header>
+
+<h2><span class="n">1</span>Understand it first: the story in 60 seconds</h2>
+<p>Memorise the story, not the slides. If the projector fails, you should still be able to tell it on a whiteboard.</p>
+<div class="card red">
+<p><b>The one question:</b> how can Kishlay Foods turn its manufacturing and distribution into more profitable, consumer-led growth?</p>
+<p><b>The answer, in one breath:</b> Kishlay has already built the hard part: plants close to the consumer, a pack for every occasion and reach into 2 lakh shops. But it looks like every other ₹5 rival, its plants are probably only half used, and each shop sells little. The next growth comes from selling more of the right products in the shops it already reaches, testing regional premium packs, and measuring every move through three pilots.</p>
+</div>
+<h3>The 9 slides as one chain</h3>
+<div class="tbl-wrap"><table>
+<tr><th>#</th><th>Slide</th><th>The one idea</th><th>It raises the question…</th></tr>
+<tr><td>1</td><td>Opportunity</td><td>A ₹5 snack is a small purchase with a big system behind it.</td><td>What problem does this business solve?</td></tr>
+<tr><td>2</td><td>Consumer problem</td><td>The shopper wants cheap, fresh, local and always available. Each of those is hard to deliver.</td><td>How did Kishlay solve it?</td></tr>
+<tr><td>3</td><td>Business model</td><td>Make near the consumer (3 sites, 5 units), sell through many channels.</td><td>Which products should it serve?</td></tr>
+<tr><td>4</td><td>Products and occasions</td><td>One shopper, six occasions, a price point for each. 236 products across 18 lines.</td><td>Can the factory handle that breadth?</td></tr>
+<tr><td>5</td><td>Operating engine</td><td>2,600 MT a month of capacity, probably only 50–75% used.</td><td>Can it be delivered profitably?</td></tr>
+<tr><td>6</td><td>Distribution and economics</td><td>About ₹7.22 of every ₹10 comes back. 2 lakh outlets, but low sales per outlet.</td><td>Who else wants that shelf?</td></tr>
+<tr><td>7</td><td>Competition</td><td>Three battles (national, regional, local) on one ₹5 shelf; five forces squeeze margin.</td><td>Where can Kishlay win?</td></tr>
+<tr><td>8</td><td>Strategic choice</td><td>Stop looking like every ₹5 rival: win on regional taste, premium packs and reach.</td><td>How do we act on it?</td></tr>
+<tr><td>9</td><td>Pilots and close</td><td>Three 12-week channel pilots, each ending in scale, modify or stop. Thank you.</td><td>Your question back to them.</td></tr>
+</table></div>
+<h3>Who is who: the brands</h3>
+<ul>
+<li><b>Kishlay Foods Pvt Ltd</b>: the company (Guwahati), the trust mark on the logo, plus tea and sweets. Motto: “Taste That Speaks”. Promise: “Made with passion, shared with joy”.</li>
+<li><b>Non Stop</b>: the consumer snack brand, with the Panda mascot: rings, chips, namkeen, noodles. Sub-brands include Zing, Krunch, Krispy and Twister.</li>
+<li><b>Mamooz</b>: biscuits. <b>Bisk Baker</b>: rusk.</li>
+<li><b>Tulsi Speciality Foods Pvt Ltd</b>: the manufacturing company (a partnership since 2017, incorporated 7 Oct 2024). Kishlay owns the brands and sells.</li>
+</ul>
+
+<h2><span class="n">2</span>The hook, and how to keep them engaged</h2>
+<h3>The opening, about 75 seconds (say it before you click to slide 2)</h3>
+<div class="say">
+<p>“Good morning. When a child in Guwahati hands a ₹5 coin across a kirana counter for a pack of Non Stop rings, it looks like the smallest purchase in the economy.</p>
+<p>Behind it is a business most people never see: a plant in North Guwahati, partner plants in Hajipur and Chhattisgarh, about 2,600 tonnes of capacity a month, 236 products, and more than two lakh shops across 17 states.</p>
+<p>Kishlay has already solved the hard part. So I didn’t ask ‘how do we grow?’. I asked a sharper question: how can Kishlay turn its manufacturing and distribution into more profitable, consumer-led growth?</p>
+<p>In the next nine minutes I’ll walk from the consumer, to the factory, to the shelf, to the competition, and end with three pilots I’d run in my first 90 days. Every number is labelled: company, external, historical, my calculation, or hypothesis. So you’ll always know what I know and what I’d still want to check with you.”</p>
+</div>
+<h3>Engagement techniques that work in a founder room</h3>
+<ul>
+<li><b>Hold a real pack.</b> Buy one ₹5 Non Stop pack tonight. Hold it up on the first line. It’s the strongest prop you have.</li>
+<li><b>Ask one early question</b>, after slide 1: “Before I go on, is that the right question for you, or is there a bigger one on your mind?” Founders love being asked. Adjust your emphasis to their answer.</li>
+<li><b>Pause after each headline.</b> Read the headline, stop for two seconds, then explain. The headline is the point; the rest is evidence.</li>
+<li><b>Name the label as you say a number:</b> “₹344 crore, that’s CRISIL’s FY24 figure”, or “50–75% used, that’s my calculation”. It builds trust fast.</li>
+<li><b>Invite correction.</b> “You’ll know this better than me. Is the Guwahati 2,000 MT monthly?” Being corrected by the founder is a win: it turns a pitch into a working session.</li>
+<li><b>Point, don’t read.</b> On slides 7 and 8, point to the shaded crowd and the red line sitting on the grey line. Let the picture do the talking.</li>
+<li><b>Watch the clock.</b> If time is short, skip slides 5 and 6 in one line each and spend the time on 7, 8 and 9.</li>
+</ul>
+
+<h2><span class="n">3</span>Slide-by-slide: what to say</h2>
+<p class="muted">The “say this” lines are short enough to speak naturally. The full scripts are in each slide’s speaker notes in the PPTX.</p>
+
+<div class="slide"><h3>Slide 1 · The opportunity</h3><p class="meta">45 seconds · headline: “The ₹5 snack is a small purchase. Building the business behind it is not.”</p>
+<div class="say"><p>“This is Kishlay, ‘Taste That Speaks’. ₹344 crore in revenue in FY24 per CRISIL, 2,600 tonnes a month of capacity, 2 lakh-plus outlets, 17-plus states, 236 products. It’s one company with a family of brands: Kishlay is the company and trust mark, Non Stop is the snack brand with the Panda, Mamooz is biscuits. The question I’ll answer is in yellow.”</p></div>
+<dl><dt>Land this</dt><dd>The question in the yellow box, and that every number carries a label.</dd>
+<dt>If asked</dt><dd>“Why FY24 revenue?” It’s the latest public figure; later numbers weren’t filed with CRISIL.</dd>
+<dt>Bridge</dt><dd>“Let me start where the business starts: with the person buying the packet.”</dd></dl></div>
+
+<div class="slide"><h3>Slide 2 · The consumer problem</h3><p class="meta">60 seconds · “The consumer wants an affordable snack. Delivering it fresh and consistently is the challenge.”</p>
+<div class="say"><p>“Picture a ₹5 coin, a hungry moment, a kirana counter. The shopper wants six things: a cheap treat, freshness, familiar taste, availability every day, a single-serve pack, and a deal. Each one is hard for the maker. The price is a coin while inputs are 70–75% of cost. Monsoon humidity kills crunch. The whole Northeast connects to India through a corridor about 22 km wide. These needs are my hypotheses, not survey results. That gap is why a business like Kishlay exists.”</p></div>
+<dl><dt>Land this</dt><dd>Need versus difficulty, and the honesty that these are hypotheses.</dd>
+<dt>If asked</dt><dd>“How do you know?” From how the category works and the company’s own pack and price design. I’d validate with shopper intercepts in the first month.</dd>
+<dt>Bridge</dt><dd>“So how has Kishlay built a system to solve this?”</dd></dl></div>
+
+<div class="slide"><h3>Slide 3 · The business model</h3><p class="meta">60 seconds · “Kishlay’s answer: make it near the consumer, sell through many channels.”</p>
+<div class="say"><p>“Inputs go into three sites with five units, are packed at ₹5 to ₹250, and leave through trade, online and export to 2 lakh-plus shops. Most capacity is owned: the North Guwahati hub at 2,000 MT, plus two partner plants at 300 MT a month each. Tulsi Speciality Foods makes; Kishlay owns the brands and sells. It works because plants inside their markets mean less freight per rupee and fresher stock, and spare lines earn money co-packing for Frito-Lay and Britannia.”</p></div>
+<dl><dt>Land this</dt><dd>“Make near the consumer” is the competitive moat.</dd>
+<dt>If asked</dt><dd>“Why a separate manufacturing company?” Likely to separate making from selling (and possibly for tax or financing reasons). Ask them rather than guess.</dd>
+<dt>Bridge</dt><dd>“Once the system is in place, which products should it serve?”</dd></dl></div>
+
+<div class="slide"><h3>Slide 4 · Products and occasions</h3><p class="meta">60–75 seconds · “One consumer, many occasions, a price point for each.”</p>
+<div class="say"><p>“The same shopper buys for six moments: impulse at ₹5, on the go, evening chai, family sharing, breakfast and tea, and regional taste. Kishlay has a pack for each. On the right, the 236 products across 18 lines: 184 savoury, 25 meals and condiments, 22 bakery, 5 beverages. Chips and snacks alone are 65. Breadth helps a distributor fill shelf slots. But it costs: the company says 236 on the site, 292-plus on the About page, and 900-plus once you count pack sizes. And when costs rise, the price stays ₹5 and the grams change.”</p></div>
+<dl><dt>Land this</dt><dd>Breadth is both a strength and a cost.</dd>
+<dt>If asked</dt><dd>“Which is the real SKU count?” They use different definitions, so I treat it as a range to validate.</dd>
+<dt>Bridge</dt><dd>“But serving many occasions and price points creates a manufacturing challenge.”</dd></dl></div>
+
+<div class="slide"><h3>Slide 5 · The operating engine</h3><p class="meta">60 seconds · “The factory can produce at scale. The question is how much is used.”</p>
+<div class="say"><p>“2,600 tonnes a month is installed capacity, not output. Output isn’t published, so I estimated it: ₹344 crore divided by ₹150–220 a kilo gives roughly 1,300 to 1,900 tonnes a month, so about 50 to 75% used. That’s my calculation, with two caveats: the periods differ, and revenue includes co-packing. Why it matters: at half use, every kilo carries twice the fixed cost. What limits it: four different lines, a wide mix, short shelf life for bakery, and people, with absence peaking in July.”</p></div>
+<dl><dt>Land this</dt><dd>“At half use, every kilo carries twice the fixed cost.”</dd>
+<dt>If asked</dt><dd>“Your number is wrong.” “Great, what’s the real one? That changes which pilot I’d run first.”</dd>
+<dt>Bridge</dt><dd>“Even once it’s made, it has to be delivered profitably.”</dd></dl></div>
+
+<div class="slide"><h3>Slide 6 · Distribution and unit economics</h3><p class="meta">75 seconds · “Reaching 2 lakh outlets is an achievement. More value per outlet is the next one.”</p>
+<div class="say"><p>“Five hops: C&amp;F agent, distributor, wholesaler, retailer, consumer. Follow ₹10: 48 paise is GST at 5%, about ₹1.60 to the shop and 70 paise to the trade (those trade cuts are industry-typical estimates), so about ₹7.22 comes back. Keep five numbers separate: revenue, realisation, gross margin, contribution, net profit. Contribution isn’t public, and it’s the first number I’d want. And reach versus productivity: ₹344 crore over 2 lakh outlets is at most ₹17,000 a year each at factory price, about 6.5 ten-rupee packs a day.”</p></div>
+<dl><dt>Land this</dt><dd>Reach is done; productivity per outlet is the opportunity.</dd>
+<dt>If asked</dt><dd>“Isn’t ₹17k misleading?” Yes, it’s an upper bound: not every outlet is active, and revenue includes co-packing. That’s why I call it an upper bound.</dd>
+<dt>Bridge</dt><dd>“Every shelf slot is contested, which brings us to competition.”</dd></dl></div>
+
+<div class="slide"><h3>Slide 7 · Competition and industry pressure</h3><p class="meta">90 seconds · “Three battles on one crowded ₹5 shelf.”</p>
+<div class="say"><p>“Kishlay isn’t in one market; it’s in three battles. National players (PepsiCo, ITC, Nestlé, Britannia, Parle, Haldiram’s, Bikaji) win on scale and ads. East and Northeast players (PRAN, Yellow Diamond, Gopal, Balaji, Anmol, Bisk Farm, Annapurna, Wai Wai, Crax) are the key fight: same shopper, same ₹5. Local and loose sellers like Motu Rama and chanachur sellers win on proximity. Bottom left shows who Kishlay meets in each category, with the only prices I could confirm. Bottom right, the five forces: rivalry, suppliers and buyers are all high.”</p></div>
+<dl><dt>Land this</dt><dd>Three different battles need three different responses.</dd>
+<dt>If asked</dt><dd>“Frito-Lay and Britannia are our clients.” Exactly. They’re partners and rivals at the same time, which is why co-packing terms matter.</dd>
+<dt>Bridge</dt><dd>“If the ₹5 shelf is this crowded, where can Kishlay build a stronger position?”</dd></dl></div>
+
+<div class="slide"><h3>Slide 8 · The strategic choice</h3><p class="meta">75 seconds · “Break away from the ₹5 crowd: taste, premium, reach.”</p>
+<div class="say"><p>“This is a strategy canvas. Seven things a shopper and a kirana weigh up. The heights are my judgement. Blue is national brands. Grey is regional value. Now look at red, Kishlay today: it sits almost on top of grey. That’s a red ocean: if you look like every ₹5 rival, you compete only on price. The dashed gold line is where I’d take it: cut look-alike SKUs, raise availability and regional taste, create regional premium packs. Ansoff puts it in order: sell more where we are first, test premium second, new markets only once proven.”</p></div>
+<dl><dt>Land this</dt><dd>Red sitting on grey. Point at it.</dd>
+<dt>If asked</dt><dd>“Why not national expansion?” Depth before breadth: the freight advantage only holds near the plants.</dd>
+<dt>Bridge</dt><dd>“How do we turn this choice into commercial execution?”</dd></dl></div>
+
+<div class="slide"><h3>Slide 9 · Go-to-market pilots, and the close</h3><p class="meta">90 seconds plus a 30-second close · “Three channel pilots, 12 weeks, one rule: scale, modify or stop.”</p>
+<div class="say"><p>“Each pilot follows the same steps: need gap, 5C, STP, 7Ps, pilot, KPIs. General trade, 8 weeks: hero SKUs always in stock in test beats versus control beats. Modern trade: regional 200–400 g packs at ₹55–110 in Guwahati stores. Quick commerce, 8 weeks in Guwahati: four to six SKUs and multipacks. Each ends with a decision: scale, modify or stop. I haven’t invented rupee costs. Each card names what finance needs to cost.”</p></div>
+<dl><dt>Land this</dt><dd>Every idea has a test, a KPI and a stop rule.</dd>
+<dt>Close</dt><dd>Use the closing speech in section 12, then ask: “Which of these numbers do you already track every week?”</dd></dl></div>
+
+<h2><span class="n">4</span>What I broke down, from first principles</h2>
+<p>If they ask “how did you approach this?”, say: <i>“I didn’t start from frameworks. I started from one ₹5 pack and followed it backwards through the business.”</i> Then name these six breakdowns:</p>
+<ol>
+<li><b>The purchase:</b> what the shopper actually wants at a ₹5 counter, and why each want is hard to deliver (slide 2).</li>
+<li><b>The physics:</b> snacks are light and bulky, so trucks fill on volume, not weight. Freight per rupee is high, so making near the consumer wins. Humidity and shelf life add to this (slides 2–3).</li>
+<li><b>The factory:</b> capacity versus output. Revenue ÷ ₹/kg gives tonnes, and tonnes ÷ capacity gives utilisation. Fixed cost per kilo doubles at half use (slide 5).</li>
+<li><b>The rupee:</b> where ₹10 goes (GST, retailer, trade), what comes back, and five margin terms that people confuse (slide 6).</li>
+<li><b>The outlet:</b> revenue ÷ outlets gives sales per outlet, which turns reach into productivity (slide 6).</li>
+<li><b>The shelf fight:</b> who else wants the same slot, at what price, and what squeezes margin (slide 7). Only then the frameworks: Porter, Blue Ocean, Ansoff, 5C, STP, 7Ps (slides 7–9).</li>
+</ol>
+
+<h2><span class="n">5</span>My research: secondary and primary</h2>
+<h3>Secondary research (what I read, and what I took from it)</h3>
+<div class="tbl-wrap"><table>
+<tr><th>Source</th><th>What I used it for</th></tr>
+<tr><td>kishlayfoods.com: home, about, products, gallery (read 17 Nov 2026)</td><td>Plants and capacity, 2 lakh outlets, 17+ states, 236 products in 18 lines, pack photos, motto and promise, certifications</td></tr>
+<tr><td>CRISIL Ratings rationales (May 2021, Feb 2024, Jun 2026)</td><td>Revenue (FY22–FY24), raw materials at 70–75% of cost, FY22–23 net losses, bank-limit use, 2026 rating status</td></tr>
+<tr><td>MCA company records</td><td>Tulsi Speciality Foods Pvt Ltd: incorporated 7 Oct 2024, ₹5 Cr paid-up, directors</td></tr>
+<tr><td>Tracxn</td><td>130+ tracked competitors; D2C peers</td></tr>
+<tr><td>BigBasket and IndiaMART listings</td><td>Pack MRPs, Mamooz biscuit range, rusk and tea prices</td></tr>
+<tr><td>Job and supplier posts</td><td>900+ SKUs with sizes, distribution route, production lines</td></tr>
+<tr><td>ResearchGate study (2026) on Tulsi’s workforce</td><td>512 staff, absence peaking in July</td></tr>
+<tr><td>Gopal Snacks and Bikaji FY25 investor materials</td><td>Input-cost inflation (palm oil and potato), peer context</td></tr>
+<tr><td>GST Council notifications (Sep 2025)</td><td>5% GST on packaged snacks</td></tr>
+<tr><td>Court orders (Delhi and Gauhati High Courts)</td><td>Mrs. Bectors and Motu Rama look-alike disputes</td></tr>
+<tr><td>News reports</td><td>Blinkit in Guwahati since Jan 2025</td></tr>
+<tr><td>My two research dossiers (Strategic Decoding Report; Comprehensive Business Analysis)</td><td>Competitor list, category map, co-packing for Frito-Lay and Britannia, catalogue breakdown</td></tr>
+</table></div>
+<h3>Primary research: be honest</h3>
+<div class="card gold">
+<p><b>What’s true today:</b> this deck is built on desk research. I have not interviewed shoppers, retailers or distributors, and there is no survey. That’s why the occasions, the strategy-canvas heights and the pilot outcomes are labelled hypotheses.</p>
+<p><b>How to say it:</b> <i>“This is outside-in desk research. I’ve labelled everything I couldn’t verify as a hypothesis. My first 30 days would be the primary research: riding beats with sales reps, store audits, and shopper intercepts.”</i></p>
+</div>
+<h3>Do a 30-minute primary check tonight (so you can say you did)</h3>
+<ol>
+<li>Visit one kirana, or open Blinkit or BigBasket. Is Non Stop there? How many SKUs? Photograph the shelf.</li>
+<li>Note the ₹5 neighbours: Lay’s, Yellow Diamond, Crax, Wai Wai, Kurkure. Who has the best spot?</li>
+<li>Buy two ₹5 Non Stop packs. Check the grams against a ₹5 rival. Note the shelf life printed on the pack.</li>
+<li>Ask the shopkeeper three questions: “Which ₹5 snack sells most? Who refills fastest? Do kids ask for Non Stop by name?”</li>
+<li>Write the answers down. Tomorrow say: “Last night I checked one shop, and here’s what I saw.” Only say it if you actually did it.</li>
+</ol>
+
+<h2><span class="n">6</span>How I used AI, and the prompts I gave</h2>
+<p>If they ask, be open about it. Founders’ offices use these tools every day. What matters is that you set the question, checked the facts and own the judgement.</p>
+<div class="say"><p>“I used an AI assistant, Claude, as a research and design partner. I set the central question, gave it my two research dossiers and the company website, and asked it to build the story from first principles. I made it label every number by source, and I checked the key ones myself: CRISIL for revenue and margins, MCA for Tulsi, the website for capacity and products. Where it couldn’t verify something, like competitor EBITDA, I took it out. The judgement calls (the three battles, the strategy canvas, the pilots) are mine to defend.”</p></div>
+<h3>The prompts I gave, in order</h3>
+<ol>
+<li><b>First brief:</b> break Kishlay down from first principles: supply chain, manufacturing, distribution, retail, need gap, GTM, consumers and competitors. Use real website photos and every data point; leave funding out. Also write a playbook and four questions to ask.</li>
+<li><b>Format:</b> PPT and PDF, the Kishlay logo on every slide, a white background throughout.</li>
+<li><b>Operations deep-dive:</b> hub-and-spoke manufacturing, every SKU with MRP and pack size, chart-first infographics with little text.</li>
+<li><b>Frameworks:</b> competition through five forces, blue/red ocean and Ansoff, but only where they genuinely apply.</li>
+<li><b>Compress:</b> make it 10 dense slides that read left to right; remove unverified figures (the “25 paise” claim) and anything labelled “my estimate”.</li>
+<li><b>Data fixes:</b> verify CRISIL liquidity, Tulsi’s incorporation, the plant count and factory-price maths.</li>
+<li><b>Master prompt:</b> redesign everything around one question, with conclusion headlines, a label on every data point, a data checklist and opening and closing speeches. The full text is in <b>Master-Prompt.md</b>.</li>
+<li><b>Final edits:</b> competitor logos and every competitor from the dossier, a strategy canvas, motion graphics, the 18-line catalogue chart, the motto, and the cut to 9 slides with a proper close.</li>
+</ol>
+<p class="muted">The reusable version of the prompt for any company is in <b>Deck-Prompt.md</b>.</p>
+
+<h2><span class="n">7</span>How I’d contribute to GTM in the role</h2>
+<p>The 90-day plan slide was cut to keep the deck to 9 slides. Use this section when they ask “what would you actually do here?”</p>
+<div class="tbl-wrap"><table>
+<tr><th>When</th><th>What I’d do</th><th>Gate (what must be true to move on)</th></tr>
+<tr><td><b>Days 1–30: Diagnose</b></td><td>Build one fact base: sales by SKU, channel and outlet; plant use by line; margin per SKU and channel. Ride 10 beats with sales reps. Run store audits and shopper intercepts.</td><td>The founders agree the numbers.</td></tr>
+<tr><td><b>Days 31–60: Prioritise</b></td><td>Pick 25–30 hero SKUs, list SKUs to cut or merge, cost the three pilots with finance, agree owners and KPIs.</td><td>Pilots and budget signed off.</td></tr>
+<tr><td><b>Days 61–90: Execute</b></td><td>Launch the three pilots, run a weekly founder review, and write the playbook.</td><td>Each pilot scaled, modified or stopped on its numbers.</td></tr>
+</table></div>
+<h3>What I’d own versus support</h3>
+<ul>
+<li><b>Own:</b> the fact base and the weekly founder dashboard (revenue, channel mix, SKU performance, outlet productivity, gross and contribution margin, inventory and stock-outs, pilots versus control, initiative tracker). The quick-commerce pilot. The pilot tracking and decision rules.</li>
+<li><b>Support:</b> the Head of Sales NE on the general-trade pilot; the modern-trade lead on the premium-pack pilot; finance on costing; operations on the SKU-cut impact on lines.</li>
+<li><b>One sentence:</b> <i>“My job would be to turn the founders’ priorities into measured experiments, and to make sure every rupee spent has a number attached.”</i></li>
+</ul>
+
+<h2><span class="n">8</span>Questions they may ask, with answers</h2>
+<div class="qa"><b>“Why Kishlay, and why the Founder’s Office?”</b>“Because the hard part is built — real plants, real reach — and the next step is choosing and measuring. A Founder’s Office sits exactly where SKU, outlet and channel decisions meet.”</div>
+<div class="qa"><b>“Where did 50–75% utilisation come from?”</b>“FY24 revenue of ₹344 crore ÷ ₹150–220 a kilo ≈ 1,300–1,900 tonnes a month, against 2,600 installed. It’s labelled as a calculation. What’s your real number?”</div>
+<div class="qa"><b>“What’s the one metric you’d watch?”</b>“Sales per active outlet. It joins reach, assortment and visit frequency in one number.”</div>
+<div class="qa"><b>“Which SKUs would you cut?”</b>“I wouldn’t guess without data. I’d rank every SKU by velocity and contribution, protect the top 25–30 and anything strategic, and test cutting the bottom tail in a few beats first.”</div>
+<div class="qa"><b>“Is regional premium real?”</b>“It’s a hypothesis. That’s why it’s a pilot with a stop rule: if promo and listing costs eat the margin, we stop.”</div>
+<div class="qa"><b>“What if palm oil jumps 30%?”</b>“Grams first, because coin prices can’t move. Then shift the mix toward higher-MRP packs, forward-buy where cash allows, and prune SKUs that can’t absorb it.”</div>
+<div class="qa"><b>“Should we go national?”</b>“Not yet. Depth before breadth: the freight advantage only holds near the plants. Win Bihar and Bengal around Hajipur first.”</div>
+<div class="qa"><b>“Why quick commerce for a ₹5 brand?”</b>“Not for ₹5. For multipacks and 400 g family packs with urban buyers. It’s cheap to test and it gives clean data: conversion, repeat and contribution.”</div>
+<div class="qa"><b>“Why not exports?”</b>“Bhutan and Nepal need a separate feasibility study (duties, logistics, distributors), so I kept them out of the pilots.”</div>
+<div class="qa"><b>“Kishlay or Non Stop: which brand should consumers remember?”</b>“Non Stop is the shopper brand; Kishlay is the trust mark for trade and banks. The website leads with Kishlay and social media with Non Stop, so I’d ask you to decide which name you want the shopper to remember.”</div>
+<div class="qa"><b>“What did you not find?”</b>“Actual output, contribution margin, active outlets, and recent financials after FY24. Those are the first four things I’d ask for.”</div>
+<div class="qa"><b>“Biggest risk to Kishlay?”</b>“A margin squeeze: inputs rise on fixed coin prices while regionals out-promote and nationals out-spend. The defence is pull, mix and productivity, not more SKUs.”</div>
+
+<h2><span class="n">9</span>Questions to ask them</h2>
+<ol>
+<li>“If you could double one number in the next 12 months (outlets, sales per outlet, or price mix), which would it be, and what’s stopping it today?”</li>
+<li>“What’s the real utilisation at North Guwahati, and is the binding constraint demand, freight or working capital?”</li>
+<li>“With 236 products online and 900-plus with sizes, how do you decide what to cut, and who owns that decision?”</li>
+<li>“What would make this Founder’s Office hire a clear success at 90 days, in your words?”</li>
+</ol>
+<p class="muted">Backups: “Do you want shoppers to ask for Non Stop, with Kishlay as the company behind it, or the other way round?” · “Is quick commerce a test bed or a channel you’d scale?” · “Is co-packing for Frito-Lay and Britannia still running?”</p>
+
+<h2><span class="n">10</span>Numbers cheat sheet</h2>
+<div class="tbl-wrap"><table>
+<tr><th>Number</th><th>What it is</th><th>Label</th></tr>
+<tr><td>₹344 Cr</td><td>Revenue, FY24 (FY23 ₹335.6 Cr; FY22 ₹319.5 Cr)</td><td><span class="tag ex">External · CRISIL</span></td></tr>
+<tr><td>2,600 MT/month</td><td>Installed capacity: Guwahati 2,000 (period assumed monthly) + Hajipur 300 + Chhattisgarh 300</td><td><span class="tag co">Company</span></td></tr>
+<tr><td>3 sites, 5 units</td><td>Manufacturing footprint</td><td><span class="tag co">Company</span></td></tr>
+<tr><td>2 lakh+ · 17+ · 317</td><td>Outlets · states · towns</td><td><span class="tag co">Company</span></td></tr>
+<tr><td>236 · 18 lines</td><td>Website catalogue: savoury 184, meals and condiments 25, bakery 22, beverages 5</td><td><span class="tag co">Company</span></td></tr>
+<tr><td>292+ · 900+</td><td>SKUs claimed on the About page · SKUs counted with sizes in job posts</td><td><span class="tag co">Company</span></td></tr>
+<tr><td>70–75%</td><td>Raw materials as a share of operating cost</td><td><span class="tag ex">External · CRISIL</span></td></tr>
+<tr><td>−3.4% · −6.5%</td><td>Net profit margin, FY23 · FY22</td><td><span class="tag hi">Historical</span></td></tr>
+<tr><td>50–75%</td><td>Estimated capacity use</td><td><span class="tag ca">Calculation</span></td></tr>
+<tr><td>₹7.22 of ₹10</td><td>Estimated realisation after GST and trade margins</td><td><span class="tag ca">Calculation</span></td></tr>
+<tr><td>₹17k / outlet / yr</td><td>Upper bound at factory price (≈ ₹24k at MRP, ≈ 6.5 packs a day)</td><td><span class="tag ca">Calculation</span></td></tr>
+<tr><td>512 staff</td><td>Tulsi workforce; absence peaks in July</td><td><span class="tag ex">External</span></td></tr>
+<tr><td>130+</td><td>Competitors tracked</td><td><span class="tag ex">External · Tracxn</span></td></tr>
+<tr><td>₹5 · ₹35 · ₹110</td><td>Lay’s, Yellow Diamond, Crax and Wai Wai at ₹5 · Britannia cookies · Haldiram’s bhujia</td><td><span class="tag ex">External</span></td></tr>
+<tr><td>7 Oct 2024</td><td>Tulsi Speciality Foods Pvt Ltd incorporated</td><td><span class="tag ex">External · MCA</span></td></tr>
+</table></div>
+
+<h2><span class="n">11</span>Know it, don’t lead with it</h2>
+<ul>
+<li>CRISIL moved Kishlay to “Issuer Not Cooperating” (B/Stable) in June 2026, because the company didn’t provide information. Only discuss it if they raise it.</li>
+<li>Bank limits averaged 93% utilised over the 12 months to Dec 2023, and liquidity was “stretched”. That’s a working-capital story, so be gentle with it.</li>
+<li>The “2.5–4% EBITDA” figure circulating online for Kishlay is <b>not</b> in the CRISIL reports. Don’t quote it.</li>
+<li>Look-alike disputes (Mrs. Bectors, Motu Rama) are a sign that the brand is worth copying. Frame them that way.</li>
+</ul>
+
+<h2><span class="n">12</span>Closing, and tonight’s checklist</h2>
+<h3>Closing, about 30 seconds</h3>
+<div class="say"><p>“To sum up: Kishlay has built the hard things: plants near the consumer, a pack for every occasion, and reach into two lakh shops. The next stage isn’t adding more of everything. It’s selling more of the right products in the shops it already reaches, testing regional premium carefully, and measuring every move. In my first 90 days I’d build one fact base, pick the hero SKUs and run these three pilots. The goal isn’t just more revenue; it’s repeatable, profitable growth. Thank you. And I’d love to know: which of these numbers do you already track every week?”</p></div>
+<h3>Tonight’s checklist</h3>
+<ol>
+<li>Run the deck once out loud with a timer. Aim for 9–10 minutes.</li>
+<li>Learn the opening (section 2) and the closing (above) word for word. Everything else, say in your own words.</li>
+<li>Do the 30-minute primary check (section 5) and buy a ₹5 Non Stop pack to hold.</li>
+<li>Re-read sections 8, 9 and 10.</li>
+<li>Keep the PDF on your phone as a backup; present from the live deck link if you want the motion.</li>
+<li>Sleep.</li>
+</ol>
+
+<footer>Prepared by Chethan N · Kishlay Foods · Sources: kishlayfoods.com (17 Nov 2026); CRISIL Ratings; MCA; Tracxn; BigBasket; IndiaMART; GST Council; court orders; news reports; research dossiers. Estimates are labelled.</footer>
+</main>
+</body>
+</html>
