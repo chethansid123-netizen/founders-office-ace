@@ -23,7 +23,12 @@
     "range",
     "wall",
     "distribution",
+    "map",
+    "porter",
     "rivals",
+    "ocean",
+    "bcg",
+    "ansoff",
     "constraints",
     "sku-western",
     "sku-extruded",
@@ -43,10 +48,6 @@
       "description": "Range: price tiers, all 236 products as a treemap, the pack wall.",
       "start": "price"
     },
-    "move": {
-      "description": "Move and fight: distribution and competitors.",
-      "start": "distribution"
-    },
     "limits": {
       "description": "Four constraints and the fix.",
       "start": "constraints"
@@ -54,6 +55,14 @@
     "appendix": {
       "description": "Appendix: every product name, by category.",
       "start": "sku-western"
+    },
+    "fight": {
+      "description": "Fight: positioning map, five forces, peer economics, red vs blue ocean, BCG, Ansoff.",
+      "start": "map"
+    },
+    "move": {
+      "description": "Move: distribution.",
+      "start": "distribution"
     }
   },
   "faces": {
