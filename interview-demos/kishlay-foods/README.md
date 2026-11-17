@@ -15,7 +15,7 @@ All decks share one look: a white background on every slide, a red band across t
 |---|---|
 | `Kishlay-Foods-Decoded.pptx` | The 9 slides as PowerPoint, 16:9, with the full talk track in each slide's speaker notes. Slides are full-bleed images; for an editable version use Share › Export on the live deck. |
 | `Kishlay-Foods-Decoded.pdf` | The same 9 slides as a PDF (1920 × 1080 pages). |
-| `Kishlay-in-10-Slides.pptx` / `.pdf` | Deck 3: the 10-slide version — hook, why + hub-and-spoke, inside the plant, packs and price, range treemap, every SKU, distribution and the ₹10 split, competition (map, five forces, peers), strategy (blue ocean, ERRC, BCG, Ansoff), limits and the 90-day plan. Speaker notes on every slide. |
+| `Kishlay-in-10-Slides.pptx` / `.pdf` | Deck 3: the 10-slide version — hook, why + illustrated hub-and-spoke, inside the plant, packs and price, range treemap, distribution and the ₹10 split, 17 rivals by tier and product, five forces with sourced numbers, where to play (blue-ocean map + Ansoff), limits and the 90-day plan. Speaker notes on every slide. |
 | `Kishlay-Operating-Machine.pptx` / `.pdf` | Deck 2: 20 chart-first slides on how the business runs, with speaker notes. No branding or marketing content. |
 | `Interview-Playbook.html` / `.pdf` | Story spine, talk track per slide with timings, delivery rules, numbers cheat sheet with sources, likely questions with answers, a guesstimate, things to know but not lead with, the 4 questions to ask, tonight's checklist. |
 | `Deck-Prompt.md` | The reusable prompt behind the deck (fill in the braces for another company). |

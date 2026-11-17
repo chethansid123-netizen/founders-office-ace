@@ -1,22 +1,65 @@
 {
   "v": 5,
-  "createdOnFiles": { "v": 1, "at": "2026-11-17T08:40:00Z" },
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-11-17T08:40:00Z"
+  },
   "lists": "css",
-  "format": { "v": 1, "shared": ["project/deck.css"] },
+  "format": {
+    "v": 1,
+    "shared": [
+      "project/deck.css"
+    ]
+  },
   "title": "Kishlay Foods in 10 Slides",
   "cover": "cover",
-  "order": ["cover", "why", "make", "pack", "range", "skus", "move", "fight", "strategy", "plan"],
+  "order": [
+    "cover",
+    "why",
+    "make",
+    "pack",
+    "range",
+    "move",
+    "rivals",
+    "fight",
+    "strategy",
+    "plan"
+  ],
   "sections": {
-    "hook": { "description": "The hook: the whole business in five numbers.", "start": "cover" },
-    "make": { "description": "Make: why it makes locally, the hub-and-spoke system, inside the plant, packs and price.", "start": "why" },
-    "range": { "description": "Range: all 236 products, by category and by name.", "start": "range" },
-    "move": { "description": "Move: five hops to two lakh shelves and the ₹10 split.", "start": "move" },
-    "fight": { "description": "Fight: competitors, five forces, blue ocean, BCG and Ansoff.", "start": "fight" },
-    "next": { "description": "Next: four constraints, one metric, 90 days.", "start": "plan" }
+    "hook": {
+      "description": "The hook: the whole business in five numbers.",
+      "start": "cover"
+    },
+    "make": {
+      "description": "Make: why it makes locally, the hub-and-spoke system, inside the plant, packs and price.",
+      "start": "why"
+    },
+    "range": {
+      "description": "Range: all 236 products by category.",
+      "start": "range"
+    },
+    "move": {
+      "description": "Move: five hops to two lakh shelves and the ₹10 split.",
+      "start": "move"
+    },
+    "fight": {
+      "description": "Fight: 17 rivals by product, five forces with numbers, where to play.",
+      "start": "rivals"
+    },
+    "next": {
+      "description": "Next: four limits, one metric, 90 days.",
+      "start": "plan"
+    }
   },
   "faces": {
-    "bricolage-grotesque": { "family": "Bricolage Grotesque", "href": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&display=swap" },
-    "inter": { "family": "Inter", "href": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" }
+    "bricolage-grotesque": {
+      "family": "Bricolage Grotesque",
+      "href": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&display=swap"
+    },
+    "inter": {
+      "family": "Inter",
+      "href": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    }
   },
   "designSystems": []
 }
