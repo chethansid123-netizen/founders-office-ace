@@ -27,7 +27,7 @@ section { padding: 112px 128px 160px; display: flex; flex-direction: column; gap
 .bg-red .title { color: var(--cream); }
 
 /* type scale: 160 / 64 / 40 / 28 / 24 */
-.hero { font-family: var(--display); font-size: 76px; font-weight: 700; line-height: 1.06; letter-spacing: -2px; color: var(--cream); }
+.hero { font-family: var(--display); font-size: 76px; font-weight: 700; line-height: 1.06; letter-spacing: -2px; color: var(--ink); }
 .big { font-family: var(--display); font-size: 40px; font-weight: 800; line-height: 1.05; letter-spacing: -0.5px; }
 .huge { font-family: var(--display); font-size: 96px; font-weight: 800; line-height: 1; letter-spacing: -3px; }
 .lead { font-size: 28px; line-height: 1.38; }
@@ -53,6 +53,10 @@ section { padding: 112px 128px 160px; display: flex; flex-direction: column; gap
 .col { display: flex; flex-direction: column; gap: 16px; }
 .dot { width: 56px; height: 56px; border-radius: 50%; background: var(--red); color: var(--cream); font-size: 28px; font-weight: 800; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
 .pack { object-fit: contain; }
+
+/* brand chrome: the same on every slide */
+.topbar { position: absolute; left: 0; top: 0; width: 1920px; height: 14px; background: var(--red); }
+.brand { position: absolute; left: 1622px; top: 34px; width: 170px; height: 112px; object-fit: contain; }
 
 /* footer band */
 .foot { position: absolute; left: 128px; bottom: 64px; width: 1664px; display: flex; justify-content: space-between; align-items: center; }

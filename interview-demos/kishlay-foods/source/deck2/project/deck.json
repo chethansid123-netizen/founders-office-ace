@@ -1,0 +1,21 @@
+{
+  "v": 5,
+  "createdOnFiles": { "v": 1, "at": "2026-11-17T07:05:00Z" },
+  "lists": "css",
+  "format": { "v": 1, "shared": ["project/deck.css"] },
+  "title": "Kishlay Foods: The Operating Machine",
+  "cover": "cover",
+  "order": ["cover", "equations", "hub", "plant", "pack", "price", "sku-western", "sku-extruded", "sku-namkeen", "sku-bakery", "distribution", "rivals", "constraints"],
+  "sections": {
+    "frame": { "description": "The machine in five equations: value per truck, unit margin, capacity, reach, working capital.", "start": "cover" },
+    "make": { "description": "Make: hub-and-spoke plants, the Guwahati lines, pack physics and shelf life.", "start": "hub" },
+    "range": { "description": "Range: the price-pack ladder and all 236 products by category, with MRP and pack.", "start": "price" },
+    "move": { "description": "Move and fight: distribution tiers and lanes, then competitors category by category.", "start": "distribution" },
+    "limits": { "description": "Constraints: what limits what the machine earns, and the fixes.", "start": "constraints" }
+  },
+  "faces": {
+    "bricolage-grotesque": { "family": "Bricolage Grotesque", "href": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&display=swap" },
+    "inter": { "family": "Inter", "href": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" }
+  },
+  "designSystems": []
+}
