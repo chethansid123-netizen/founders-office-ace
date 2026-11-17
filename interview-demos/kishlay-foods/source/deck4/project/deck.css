@@ -120,3 +120,19 @@ section { padding: 84px 88px 116px; gap: 20px; background: #FFFFFF; }
 .q { font-size: 26px; font-weight: 700; color: var(--turmeric); }
 .tbl { font-size: 24px; color: #1E1712; }
 .step { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: 10px 14px; display: flex; flex-direction: column; gap: 2px; align-items: center; text-align: center; }
+
+/* deck 4 motion graphics: the plain rule is always the finished look */
+@keyframes bary { from { transform: scaleY(0); } }
+.bary { transform-origin: center bottom; animation: bary .7s cubic-bezier(.2,.7,.2,1) both; animation-delay: calc(var(--i, 0) * 80ms + 400ms); }
+@keyframes fill { from { transform: scaleX(0); } }
+.fill { transform-origin: left center; animation: fill 2.2s cubic-bezier(.45,0,.2,1) both; animation-delay: .3s; }
+@keyframes dot { from { opacity: 0; transform: scale(.2); } }
+.dot { animation: dot .5s cubic-bezier(.2,.9,.3,1.4) both; animation-delay: var(--d, 0ms); }
+@keyframes ring { from { box-shadow: 0 0 0 0 rgba(200,20,28,.55); } to { box-shadow: 0 0 0 28px rgba(200,20,28,0); } }
+.ring { animation: ring 1.2s ease-out 3 both; animation-delay: 1s; }
+.logo { height: 40px; width: auto; object-fit: contain; }
+.chip { font-size: 24px; font-weight: 700; border-radius: 999px; padding: 2px 14px; white-space: nowrap; }
+.node { background: var(--paper); border: 1px solid var(--line); border-radius: 16px; padding: 10px 14px; display: flex; flex-direction: column; gap: 2px; }
+.dtile { background: #FFFFFF; border: 1px solid var(--line); border-radius: 14px; padding: 10px 14px; display: flex; flex-direction: column; gap: 6px; }
+@keyframes fade { from { opacity: 0; } }
+.fade { animation: fade .7s ease-out both; animation-delay: calc(var(--i, 0) * 350ms + 300ms); }
