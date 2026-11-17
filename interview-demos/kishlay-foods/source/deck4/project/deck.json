@@ -1,0 +1,20 @@
+{
+  "v": 5,
+  "createdOnFiles": { "v": 1, "at": "2026-11-17T10:30:00Z" },
+  "lists": "css",
+  "format": { "v": 1, "shared": ["project/deck.css"] },
+  "title": "Kishlay Foods: The Growth Story",
+  "cover": "opportunity",
+  "order": ["opportunity", "consumer", "model", "occasions", "engine", "economics", "competition", "choice", "pilots", "plan"],
+  "sections": {
+    "why": { "description": "Why look at this business: a small purchase with a big system behind it, and the consumer problem it solves.", "start": "opportunity" },
+    "how": { "description": "How Kishlay solves it: the business model, the portfolio, the factory and the route to market.", "start": "model" },
+    "pressure": { "description": "What squeezes it: competition and input costs.", "start": "competition" },
+    "next": { "description": "What to do: the strategic choice, three pilots, and the first 90 days.", "start": "choice" }
+  },
+  "faces": {
+    "bricolage-grotesque": { "family": "Bricolage Grotesque", "href": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&display=swap" },
+    "inter": { "family": "Inter", "href": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" }
+  },
+  "designSystems": []
+}

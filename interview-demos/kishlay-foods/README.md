@@ -7,7 +7,8 @@ presenting playbook and the prompt that produced the deck. Funding and valuation
 - Deck 1, *Kishlay Foods, Decoded* (9 slides, the story): https://claude.ai/artifact/FqFLNd7wSz5RKZ6DCZFxPv
 - Deck 2, *The Operating Machine* (20 slides, chart-first: hub-and-spoke, plant, pack physics, price tiers, all 236 SKUs, distribution, a six-slide competition chapter with positioning map, five forces, blue ocean, BCG and Ansoff, constraints): https://claude.ai/artifact/Gu16ckmyge4xzT8czsMpKT
 
-- **Deck 3, *Kishlay Foods in 10 Slides*** (the 20-slide operating deck compressed into 10 dense, left-to-right story slides — use this one to present): https://claude.ai/artifact/NpweY5vAm9utsAEay1geVQ
+- **Deck 4, *Kishlay Foods: The Growth Story*** (the newest, built from the master prompt: a 10-slide executive story around one question, *how can Kishlay turn its manufacturing and distribution into more profitable, consumer-led growth?* — present this one): https://claude.ai/artifact/UMj9uvWiu3FzSzUeM44P5P
+- Deck 3, *Kishlay Foods in 10 Slides* (the 20-slide operating deck compressed into 10 dense, left-to-right story slides — use this one to present): https://claude.ai/artifact/NpweY5vAm9utsAEay1geVQ
 
 All decks share one look: a white background on every slide, a red band across the top, and the Kishlay logo.
 
@@ -15,12 +16,14 @@ All decks share one look: a white background on every slide, a red band across t
 |---|---|
 | `Kishlay-Foods-Decoded.pptx` | The 9 slides as PowerPoint, 16:9, with the full talk track in each slide's speaker notes. Slides are full-bleed images; for an editable version use Share › Export on the live deck. |
 | `Kishlay-Foods-Decoded.pdf` | The same 9 slides as a PDF (1920 × 1080 pages). |
+| `Kishlay-Growth-Story.pptx` / `.pdf` | Deck 4: opportunity → consumer problem → business model → products and occasions → operating engine → distribution and unit economics → competition and five forces → strategic choice (Ansoff + ERRC) → three GT/MT/q-commerce pilots → first 90 days and dashboard. Every number labelled Company / External / Historical / Calculation / Hypothesis. Full speaker notes. |
+| `Growth-Story-Brief.html` / `.pdf` | Deck 4 brief: storyline, slide-by-slide spec (headline, purpose, content, layout, visual, data, notes, transition), data-validation checklist, 12 assumptions needing primary research, 75-second opening and 35-second closing speeches. |
 | `Kishlay-in-10-Slides.pptx` / `.pdf` | Deck 3: the 10-slide version — hook, why + illustrated hub-and-spoke, inside the plant, packs and price, range treemap, distribution and the ₹10 split, 17 rivals by tier and product, five forces with sourced numbers, where to play (blue-ocean map + Ansoff), limits and the 90-day plan. Speaker notes on every slide. |
 | `Kishlay-Operating-Machine.pptx` / `.pdf` | Deck 2: 20 chart-first slides on how the business runs, with speaker notes. No branding or marketing content. |
 | `Interview-Playbook.html` / `.pdf` | Story spine, talk track per slide with timings, delivery rules, numbers cheat sheet with sources, likely questions with answers, a guesstimate, things to know but not lead with, the 4 questions to ask, tonight's checklist. |
 | `Deck-Prompt.md` | The reusable prompt behind the deck (fill in the braces for another company). |
 | `Deck-Prompt.html` / `.pdf` | The same prompt as a designed page with a copy button, notes on why each part is there, and a 60-second version. |
-| `source/` | Deck sources (`deck/`, `deck2/`, `deck3/`, Slides format), images, and the build scripts. |
+| `source/` | Deck sources (`deck/`, `deck2/`, `deck3/`, `deck4/`, Slides format), images, and the build scripts. |
 
 ## The nine slides
 
