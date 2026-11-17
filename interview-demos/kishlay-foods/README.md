@@ -5,15 +5,15 @@ presenting playbook and the prompt that produced the deck. Funding and valuation
 
 **Live decks (present, comment, export to editable PowerPoint or PDF), private until shared from their Share menu:**
 - Deck 1, *Kishlay Foods, Decoded* (9 slides, the story): https://claude.ai/artifact/FqFLNd7wSz5RKZ6DCZFxPv
-- Deck 2, *The Operating Machine* (13 slides, operations only: manufacturing, pack physics, all 236 SKUs, distribution, competitors, constraints): https://claude.ai/artifact/Gu16ckmyge4xzT8czsMpKT
+- Deck 2, *The Operating Machine* (15 slides, chart-first, operations only: hub-and-spoke, plant, pack physics, price tiers, all 236 SKUs, distribution, competitors, constraints): https://claude.ai/artifact/Gu16ckmyge4xzT8czsMpKT
 
-Both decks share one look: the same cream background on every slide, a red band across the top, and the Kishlay logo.
+Both decks share one look: a white background on every slide, a red band across the top, and the Kishlay logo.
 
 | File | What it is |
 |---|---|
 | `Kishlay-Foods-Decoded.pptx` | The 9 slides as PowerPoint, 16:9, with the full talk track in each slide's speaker notes. Slides are full-bleed images; for an editable version use Share › Export on the live deck. |
 | `Kishlay-Foods-Decoded.pdf` | The same 9 slides as a PDF (1920 × 1080 pages). |
-| `Kishlay-Operating-Machine.pptx` / `.pdf` | Deck 2: 13 slides on how the business runs, from first principles, with speaker notes. No branding or marketing content. |
+| `Kishlay-Operating-Machine.pptx` / `.pdf` | Deck 2: 15 chart-first slides on how the business runs, with speaker notes. No branding or marketing content. |
 | `Interview-Playbook.html` / `.pdf` | Story spine, talk track per slide with timings, delivery rules, numbers cheat sheet with sources, likely questions with answers, a guesstimate, things to know but not lead with, the 4 questions to ask, tonight's checklist. |
 | `Deck-Prompt.md` | The reusable prompt behind the deck (fill in the braces for another company). |
 | `Deck-Prompt.html` / `.pdf` | The same prompt as a designed page with a copy button, notes on why each part is there, and a 60-second version. |
@@ -33,10 +33,10 @@ Both decks share one look: the same cream background on every slide, a red band 
 
 ## Deck 2: The Operating Machine
 
-1. Cover · 2. The business in five equations · 3. Hub-and-spoke system · 4. Inside the North Guwahati hub ·
-5. Pack physics and shelf life · 6. Price-pack architecture · 7–10. Every SKU (all 236 website products by category,
-with MRP bands and pack formats, plus offline Mamooz, rusk, tea, sweets) · 11. Distribution · 12. Competitors by category ·
-13. Four constraints and the fix.
+1. Cover · 2. Five numbers (KPI tiles with mini charts) · 3. Hub-and-spoke diagram · 4. Inside the North Guwahati hub ·
+5. Pack formats and shelf-life chart · 6. Price staircase · 7. Treemap of all 236 products · 8. Pack wall ·
+9. Distribution: five hops and four KPIs · 10. Competitors: bar charts and rivals by aisle · 11. Four constraints ·
+12–15. Appendix: every product name by category.
 
 **Data note.** Company facts come from kishlayfoods.com (audited 17 Nov 2026), CRISIL rating rationales, company and peer
 filings, BigBasket and court records. Anything marked "est." is my estimate; the working is in the playbook.

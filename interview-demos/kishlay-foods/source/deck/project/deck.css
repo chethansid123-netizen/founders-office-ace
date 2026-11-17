@@ -2,7 +2,7 @@
   --ink: #1E1712;
   --cream: #FFF6EA;
   --sand: #F6E7D0;
-  --paper: #FFFDF8;
+  --paper: #FBF8F3;
   --red: #C8141C;
   --turmeric: #F2B21B;
   --green: #1F7A3A;
@@ -14,7 +14,7 @@
 
 body { font-family: 'Inter', Arial, sans-serif; color: var(--ink); font-size: 28px; line-height: 1.35; }
 
-section { padding: 112px 128px 160px; display: flex; flex-direction: column; gap: 36px; background: var(--cream); }
+section { padding: 112px 128px 160px; display: flex; flex-direction: column; gap: 36px; background: #FFFFFF; }
 .bg-sand { background: var(--sand); }
 .bg-ink { background: var(--ink); color: var(--cream); }
 .bg-red { background: var(--red); color: var(--cream); }
