@@ -1,0 +1,21 @@
+{
+  "v": 5,
+  "createdOnFiles": { "v": 1, "at": "2026-11-17T06:10:00Z" },
+  "lists": "css",
+  "format": { "v": 1, "shared": ["project/deck.css"] },
+  "title": "Kishlay Foods, Decoded",
+  "cover": "cover",
+  "order": ["cover", "need", "portfolio", "make", "move", "sell", "fight", "digital", "plan"],
+  "sections": {
+    "hook": { "description": "The hook: same ₹10 packet, very different takeaway — Kishlay has won the shelf and must now win the craving.", "start": "cover" },
+    "zero": { "description": "Zero to one: why a Northeast snack maker should exist, and what it built.", "start": "need" },
+    "chain": { "description": "The machine: how it makes, moves and sells — with the numbers.", "start": "make" },
+    "edge": { "description": "The squeeze: competitors, brand and the website.", "start": "fight" },
+    "next": { "description": "The plan: from availability to preference in 90 days.", "start": "plan" }
+  },
+  "faces": {
+    "bricolage-grotesque": { "family": "Bricolage Grotesque", "href": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&display=swap" },
+    "inter": { "family": "Inter", "href": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" }
+  },
+  "designSystems": []
+}
