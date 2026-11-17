@@ -9,7 +9,7 @@ css = open(os.path.join(root, 'project/deck.css')).read()
 bm = json.load(open(os.path.join(here, 'blob_map.json')))
 def blob(m):
     n = bm[m.group(1)]
-    ext = '.png' if os.path.exists(os.path.join(assets, n + '.png')) else '.webp'
+    ext = next((e for e in ('.png', '.jpg') if os.path.exists(os.path.join(assets, n + e))), '.webp')
     return 'file://' + os.path.abspath(os.path.join(assets, n + ext))
 secs = []
 for sid in idx['order']:

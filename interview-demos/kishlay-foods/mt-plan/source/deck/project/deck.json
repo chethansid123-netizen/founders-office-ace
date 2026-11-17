@@ -1,0 +1,60 @@
+{
+ "v": 5,
+ "createdOnFiles": {
+  "v": 1,
+  "at": "2026-11-17T18:45:00Z"
+ },
+ "lists": "css",
+ "format": {
+  "v": 1,
+  "shared": [
+   "project/deck.css"
+  ]
+ },
+ "title": "Kishlay: Winning Modern Trade",
+ "cover": "cover",
+ "order": [
+  "cover",
+  "why",
+  "ebitda",
+  "shopper",
+  "skus",
+  "where",
+  "buyer",
+  "plan",
+  "sources"
+ ],
+ "sections": {
+  "hook": {
+   "description": "The question: how Kishlay gets into modern trade (17%) and quick commerce (7%), and why the pack, not the channel, makes the money.",
+   "start": "cover"
+  },
+  "fix": {
+   "description": "Fix EBITDA first: the levers, their owners and the quarter margin reaches 7%.",
+   "start": "ebitda"
+  },
+  "win": {
+   "description": "Win the shelf: who buys, what we sell, where we start and how we win the category manager.",
+   "start": "shopper"
+  },
+  "scale": {
+   "description": "Quick commerce next, the three-phase plan and the numbers to FY31.",
+   "start": "plan"
+  },
+  "back": {
+   "description": "Sources, links and workings behind every number.",
+   "start": "sources"
+  }
+ },
+ "faces": {
+  "bricolage-grotesque": {
+   "family": "Bricolage Grotesque",
+   "href": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&display=swap"
+  },
+  "inter": {
+   "family": "Inter",
+   "href": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+  }
+ },
+ "designSystems": []
+}
