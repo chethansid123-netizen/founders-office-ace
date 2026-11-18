@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Winning the Shelf</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;600;700&display=swap">
+<style>
+:root { --bg:#FFFFFF; --ink:#1E1712; --muted:#5E5147; --line:#E7DED3; --paper:#FAF7F2; --red:#C8141C; --gold:#F2B21B; --green:#1F7A3A; --blue:#2F6DB5; --soft:#FFF1EF; --ex:#2F6DB5; --ca:#8A6000; --hy:#6B4FA0; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#16110E; --ink:#F3ECE4; --muted:#BFB2A5; --line:#3A302A; --paper:#211A16; --red:#F0565C; --soft:#2A1A18; --ex:#7FB0EA; --ca:#E0B040; --hy:#B9A2E6; } }
+:root[data-theme="dark"] { --bg:#16110E; --ink:#F3ECE4; --muted:#BFB2A5; --line:#3A302A; --paper:#211A16; --red:#F0565C; --soft:#2A1A18; --ex:#7FB0EA; --ca:#E0B040; --hy:#B9A2E6; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:15.5px/1.55 Inter, system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width:960px; margin:0 auto; padding:40px 16px 64px; }
+header { border-top:8px solid var(--red); padding-top:20px; }
+h1 { font-family:Poppins, Inter, sans-serif; font-size:34px; line-height:1.15; margin:6px 0 8px; }
+h2 { font-family:Poppins, Inter, sans-serif; font-size:23px; margin:26px 0 8px; padding-top:12px; border-top:1px solid var(--line); break-after:avoid; }
+h2 .n { color:var(--red); margin-right:8px; }
+h3 { font-size:17px; margin:14px 0 4px; break-after:avoid; }
+.eyebrow { color:var(--red); font-weight:700; letter-spacing:2px; text-transform:uppercase; font-size:13px; }
+.muted { color:var(--muted); }
+.lead { font-size:18px; }
+.card { background:var(--paper); border:1px solid var(--line); border-radius:12px; padding:14px 18px; margin:12px 0; break-inside:avoid; }
+.say { background:var(--soft); border-left:6px solid var(--red); border-radius:10px; padding:14px 18px; font-size:17px; margin:10px 0; break-inside:avoid; }
+.say p { margin:0 0 8px; } .say p:last-child { margin-bottom:0; }
+.grid2 { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+.lever { display:flex; gap:12px; align-items:flex-start; background:var(--paper); border:1px solid var(--line); border-radius:12px; padding:12px 14px; break-inside:avoid; }
+.lever .num { font-family:Poppins, Inter, sans-serif; font-weight:700; color:#FFFFFF; background:var(--red); border-radius:50%; width:30px; height:30px; flex:0 0 30px; text-align:center; line-height:30px; font-size:15px; }
+.lever h3 { margin:0 0 2px; font-size:16px; }
+.lever p { margin:0; font-size:15px; }
+.group { font-weight:700; color:var(--red); text-transform:uppercase; letter-spacing:1px; font-size:13px; margin:18px 0 6px; }
+.icons { display:flex; gap:10px; align-items:center; margin:6px 0; }
+.icons img { width:64px; height:52px; object-fit:contain; }
+table { width:100%; border-collapse:collapse; font-size:14.5px; margin:10px 0; }
+th, td { text-align:left; vertical-align:top; padding:8px 10px; border-bottom:1px solid var(--line); }
+th { background:var(--paper); font-size:12px; text-transform:uppercase; letter-spacing:.5px; color:var(--muted); }
+.tag { font-weight:700; font-size:12px; letter-spacing:.5px; text-transform:uppercase; }
+.ex { color:var(--ex); } .ca { color:var(--ca); } .hy { color:var(--hy); }
+ol li, ul li { margin-bottom:5px; }
+.steps { display:grid; grid-template-columns:repeat(3, 1fr); gap:12px; }
+.step { background:var(--paper); border:1px solid var(--line); border-top:5px solid var(--red); border-radius:12px; padding:12px 14px; break-inside:avoid; }
+.step h3 { margin-top:0; }
+footer { margin-top:24px; padding-top:12px; border-top:1px solid var(--line); font-size:13px; color:var(--muted); }
+@media (max-width:640px) { .grid2, .steps { grid-template-columns:1fr; } h1 { font-size:27px; } }
+@media print { main { padding-top:0; } a { color:inherit; } h2 { break-before:auto; } }
+</style>
+</head>
+<body>
+<main>
+<header>
+<p class="eyebrow">Kishlay Group, modern trade playbook</p>
+<h1>Winning the shelf: how Kishlay earns eye level without buying it</h1>
+<p class="lead muted">How to win the mother’s eye level (130 to 160 cm) and the child’s (100 to 130 cm) when national brands already hold it and Vishal sells its own label beside them, without simply paying more margin. Also: what to say in the interview. Companion to the 9-slide deck and the live model.</p>
+<div class="icons"><img src="../source/assets/ic_store.png" alt="Store"><img src="../source/assets/av_manager.png" alt="Category manager"><img src="../source/assets/ic_handshake.png" alt="Handshake"><img src="../source/assets/av_boy.png" alt="Child"><img src="../source/assets/av_mother.png" alt="Mother"><img src="../source/assets/ic_van.png" alt="Delivery van"></div>
+</header>
+
+<div class="say">
+<p><b>The one line answer.</b> “I would not buy the shelf, I would earn it. We start on a lower shelf in five strong stores with a written performance clause: if our packs beat the category’s sales per facing for eight weeks, we move to eye level. We win on what national brands cannot match from far away, next day refill from a plant 15 km from the store and fresher stock, and we help Vishal’s own label instead of fighting it.”</p>
+</div>
+
+<h2><span class="n">1</span>The problem in plain words</h2>
+<ul>
+<li><b>Eye level is the most contested space in the store.</b> Where a pack sits matters more than how many facings it gets (Drèze, Hoch and Purk, Wharton). <span class="tag ex">External</span></li>
+<li><b>National brands hold it today,</b> and Vishal sells its own label namkeen (First Crop) right beside them at 7 to 13% more per gram than branded bulk packs. <span class="tag ex">External, JM Financial</span></li>
+<li><b>Vishal buys all its own label from outside vendors,</b> 839 of them in FY25. That makes Vishal a buyer of manufacturing, not only a seller of brands. <span class="tag ex">External, JM Financial</span></li>
+<li><b>Paying more margin is the lazy answer.</b> Three points of margin is worth about ₹970 a store a month in our model, and it teaches the buyer to ask for more. <span class="tag ca">Calculation, model Store_PnL</span></li>
+</ul>
+
+<h2><span class="n">2</span>How a category manager decides</h2>
+<p>She is measured on her category, not on our brand. Eye level goes to the packs that make her numbers.</p>
+<table>
+<thead><tr><th>What she is measured on</th><th>What it means for us</th></tr></thead>
+<tbody>
+<tr><td>Sales per sq ft and per facing</td><td>Our weekly units per SKU per store must beat the category average. Prove it in five stores.</td></tr>
+<tr><td>Category growth, not brand swapping</td><td>Show incremental sales against two control stores, not sales taken from Haldiram’s.</td></tr>
+<tr><td>Margin per sq ft, own label share</td><td>Do not attack her own label; supply it and sit beside it.</td></tr>
+<tr><td>Out of stocks and stock turns</td><td>When a pack is missing, 31% of shoppers buy elsewhere and 26% switch brand (Gruen and others, 2002). Our next day refill fixes this. <span class="tag hy">Study not re-checked</span></td></tr>
+<tr><td>Basket size</td><td>The 1 kg family pack (₹249) and multipacks (₹60) raise the bill. Vishal’s average bill is about ₹875. <span class="tag ex">Secondary</span></td></tr>
+<tr><td>Ease and clean paperwork</td><td>Shelf ready cartons, our merchandisers, claims backed by PO and photo.</td></tr>
+</tbody>
+</table>
+
+<h2><span class="n">3</span>Twelve ways to earn eye level without paying more margin</h2>
+<p class="group">Prove it</p>
+<div class="grid2">
+<div class="lever"><p class="num">1</p><div><h3>Performance placement clause</h3><p>Start on a lower shelf. If our sales per facing beat the category average for eight weeks, we move to eye level. We earn the shelf; we do not rent it.</p></div></div>
+<div class="lever"><p class="num">2</p><div><h3>A test she can trust</h3><p>Five strong stores and two matched control stores, two four week cycles. We report extra category sales, not swapped sales.</p></div></div>
+<div class="lever"><p class="num">3</p><div><h3>Sale or return in the pilot</h3><p>We take back unsold stock at our cost for eight weeks. It removes her risk and costs us little across five stores.</p></div></div>
+<div class="lever"><p class="num">4</p><div><h3>Strong managers first</h3><p>New items placed with high quality store managers reach 28.5% more stores (24% against 5% odds of entry). Pick those stores for the test. <span class="tag ex">External, HBS 2025</span></p></div></div>
+</div>
+<p class="group">Make it easy for the store</p>
+<div class="grid2">
+<div class="lever"><p class="num">5</p><div><h3>Freshness and fill rate as a weapon</h3><p>Our plant is 15 km from the Guwahati stores: next day refill, 95% fill rate, at least two thirds of shelf life left on delivery. No brand shipping from outside the region can promise that.</p></div></div>
+<div class="lever"><p class="num">6</p><div><h3>Our people do the shelf work</h3><p>Shelf ready cartons, merchandiser visits two to three times a week, planogram photos every week. Less store labour for her.</p></div></div>
+<div class="lever"><p class="num">7</p><div><h3>Clean claims</h3><p>Every promotion claim backed by PO, store photo and debit note. Audited claims recover 60 to 85 bps of modern trade turnover; finance teams prefer suppliers who create no disputes. <span class="tag ex">External, Terra Insight</span></p></div></div>
+<div class="lever"><p class="num">8</p><div><h3>Data she does not have</h3><p>Weekly sell out by store, stock out alerts, our 300 shopper interviews and a quarterly review of the Northeast namkeen shelf. We become her advisor on regional snacks.</p></div></div>
+</div>
+<p class="group">Grow her category, then partner with her own label</p>
+<div class="grid2">
+<div class="lever"><p class="num">9</p><div><h3>Fill the regional gap</h3><p>Jolokia Chanachur, Jhalmuri and 40 Aana are tastes national brands and own label do not offer. They bring shoppers in, especially young ones proud of Assam.</p></div></div>
+<div class="lever"><p class="num">10</p><div><h3>Make her own label, cheaper and fresher</h3><p>Offer to pack Vishal’s own label namkeen at Amingaon: lower freight, fresher stock, and a chance to close its 7 to 13% per gram premium. In return, ask for range listing and eye level for our regional heroes, which do not compete with her own label.</p></div></div>
+</div>
+<p class="group">Pull shoppers to the shelf</p>
+<div class="grid2">
+<div class="lever"><p class="num">11</p><div><h3>Kids’ pull at kids’ eye level</h3><p>Water Toy Rings with collectibles (“collect them all”) and FunBox at 100 to 130 cm, plus clip strips near checkout. The child asks; the parent buys the multipack.</p></div></div>
+<div class="lever"><p class="num">12</p><div><h3>Festivals and pairings</h3><p>Bihu, Durga Puja and Diwali gift tins on end caps, namkeen placed next to tea, local creators and app ads that send shoppers to the test stores.</p></div></div>
+</div>
+
+<h2><span class="n">4</span>The first meeting with the category manager</h2>
+<div class="steps">
+<div class="step"><h3>Bring</h3><ul><li>A one page view of the Northeast namkeen shelf: photos, price per gram, gaps</li><li>The five store test with its gates</li><li>Our supply promise in writing</li><li>The own label packing quote</li></ul></div>
+<div class="step"><h3>Ask</h3><ul><li>Five test stores</li><li>Anchors at her eye level, Rings and Noodles at kids’ eye level, or a lower shelf with the performance clause</li><li>Weekly store sales data</li><li>No listing fee for the pilot</li></ul></div>
+<div class="step"><h3>Offer</h3><ul><li>Weekend promoters and sampling</li><li>Merchandisers and shelf ready cartons</li><li>Sale or return for eight weeks</li><li>Festive promotions shared 50:50</li></ul></div>
+</div>
+<div class="say"><p><b>Close:</b> “If two of the five stores clear the gate for two cycles, we move to the next 20 stores, and we talk terms then, on numbers we both trust.”</p></div>
+
+<h2><span class="n">5</span>Objections and answers</h2>
+<table>
+<thead><tr><th style="width:36%">She says</th><th>We answer</th></tr></thead>
+<tbody>
+<tr><td>“Eye level is booked by national brands.”</td><td>“We are not asking for their space on day one. Give us a lower shelf and a performance clause. If our sales per facing beat the category for eight weeks, we move up. You only promote what earns it.”</td></tr>
+<tr><td>“We have our own label namkeen.”</td><td>“Let us make it for you, fresher and cheaper from 15 km away. Our regional range sits beside it, not against it.”</td></tr>
+<tr><td>“Pay a listing fee or a higher margin.”</td><td>“We would rather fund what moves the shelf: promoters, sampling, kids’ collectibles, festival end caps and sale or return. Terms for the next stores follow the numbers.”</td></tr>
+<tr><td>“Regional brands go out of stock.”</td><td>“Our plant is 15 km away. Next day refill and a 95% fill rate, written into the agreement.”</td></tr>
+<tr><td>“Your price per gram is higher than Haldiram’s.”</td><td>“Our 1 kg family pack matches it at ₹0.249 a gram. The 400 g sells on taste and local preference, and we will show you the weekly numbers.”</td></tr>
+<tr><td>“What will you give me beyond product?”</td><td>“Weekly sell out by store, stock out alerts, shopper interviews and a quarterly category review for regional snacks.”</td></tr>
+</tbody>
+</table>
+
+<h2><span class="n">6</span>Ten lines to stand out in the interview</h2>
+<ol>
+<li>“I would not buy the shelf; I would earn it with a performance placement clause.”</li>
+<li>“Our unfair advantage is distance: a plant 15 km from the store means next day refill and fresher stock.”</li>
+<li>“Help Vishal’s own label instead of fighting it. Pack it for them, and use that trust to place our regional heroes.”</li>
+<li>“The pack, not the channel, makes the money: ₹13 a kg in a ₹10 pouch, ₹45 in a 400 g pack, ₹82 in kids’ multipacks.”</li>
+<li>“A child decides at 1.1 metres and a mother at 1.4 metres. I plan the shelf around those two eye lines.”</li>
+<li>“Five stores, two controls, two four week cycles: a test a category manager can trust.”</li>
+<li>“Fix EBITDA first: 215 bps from purchase, the plant and trade spend, 7% by month 15, before we go beyond Assam.”</li>
+<li>“Bring her data she does not have. That turns us from a supplier into her advisor on regional snacks.”</li>
+<li>“Sale or return in the pilot takes away her risk, and across five stores it costs us very little.”</li>
+<li>“Grow with the market, not ahead of it: about 10% a year, with modern trade and quick commerce rising from 2% to nearly 4% of sales.”</li>
+</ol>
+<div class="card"><b>Questions to ask them.</b> Which chains stock Kishlay today, and on what terms? Do we get any store sales data? What is our real EBITDA? What do our ₹10 packs weigh and cost per kilo? Who buys for Vishal’s Northeast stores, and where do they sit?</div>
+
+<h2><span class="n">7</span>The first 90 days</h2>
+<div class="steps">
+<div class="step"><h3>Days 1 to 30</h3><p>Pull FY26 sales, EBITDA and SKU costing. Shelf audit in 10 stores, 300 shopper interviews, vehicle and distributor check. Book the buyer meetings.</p></div>
+<div class="step"><h3>Days 31 to 60</h3><p>Sign the five test stores, planogram and shelf material, hire weekend promoters, agree sale or return, send the own label packing quote. Purchase plans the gram buy at harvest.</p></div>
+<div class="step"><h3>Days 61 to 90</h3><p>Pilot live in January 2027 with a weekly dashboard. Read the first four week cycle and prepare the pack for stores 6 onwards.</p></div>
+</div>
+
+<footer>
+Sources: JM Financial on Vishal Mega Mart, Sep 2025 (own label pricing and vendors); Drèze, Hoch and Purk, Wharton, 1994 (shelf location); Amano and Tamayo, HBS working paper, 2025 (store managers and rollout); Terra Insight, Jun 2026 (claims audits); Gruen, Corsten and Bharadwaj, 2002 (out of stocks, not re-checked); Vishal average bill from secondary coverage. Unit economics and payback from the live model: https://docs.google.com/spreadsheets/d/1EgiCZVVSYeVSpB-YicHgPpEQb81R1eqQ0Hub-aNuyo8/edit. Illustrations are AI-generated. Prepared by Chethan N, 18 November 2026.
+</footer>
+</main>
+</body>
+</html>

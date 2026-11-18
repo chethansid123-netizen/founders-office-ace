@@ -6,12 +6,15 @@ The reframed problem: get Kishlay into **modern trade (17% of the market in the 
 |---|---|
 | `Kishlay-MT-Plan.pdf` | 9 slides: 8 story slides and 1 slide of sources, links and workings. Every page links to the live model. |
 | `Kishlay-MT-Plan.pptx` | The same slides with speaker notes; the links are clickable. |
+| `Kishlay-MT-Shelf-Playbook.pdf` | 5 pages: how to earn eye level against national brands and Vishal’s own label without paying more margin. Covers 12 non-margin levers, the first buyer meeting, objections and answers, 10 lines for the interview, and the first 90 days. |
 | `Kishlay-MT-Model.xlsx` | 16-sheet model, 1,029 live formulas, 0 errors. Slow / Base / Fast in `Inputs!B3`. |
 | `source/build_mt_model.py` | Rebuilds the model: `python3 source/build_mt_model.py Kishlay-MT-Model.xlsx` |
 | `source/deck/project/` | Slide source (Claude Slides format): `deck.json`, `deck.css`, `slides/*.html` with speaker notes. |
 
 **Live model (Google Sheet, private to the owner's Drive):** https://docs.google.com/spreadsheets/d/1EgiCZVVSYeVSpB-YicHgPpEQb81R1eqQ0Hub-aNuyo8/edit
 **Deck online (private until shared):** https://claude.ai/artifact/KAz7ANTkhf59YGxAaJAe6B
+
+Design: white slides, one coloured header band per panel, tables whose rows line up, and plain words instead of symbols. The cover photo and the icons are AI-generated illustrations; the cover shelf uses the real Non Stop pack designs as references, in a generic store.
 
 ## The story in 9 slides
 
